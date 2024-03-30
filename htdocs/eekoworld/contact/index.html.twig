@@ -1,0 +1,107 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' . Contact Us | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE --> <img style="margin-bottom:70px;" src="../images/header_contactus.jpg" alt="Contact Us" width="156" height="54" class="headerimage"><a name="planoverviews" id="planoverviews"></a><br>
+  <p class="subhead">Please send us your questions or tell us what you think about the EekoWorld Web site. <br> We'd love to hear from you!</p>
+  <table width="90%" border="0" cellpadding="5" align="left">
+   <form method="post" action="/cgi-registry/postmaster.pl" name="contactEW" onsubmit="return Form_Validator(this)"></form> <input type="hidden" name="location" value="/eekoworld/contact/thankyou.html"> <input type="hidden" name="address" value="bsetzer@beancreative.com"> <input type="hidden" name="Source" value="EekoWorld">
+   <tbody>
+    <tr>
+     <td width="150" align="right"><strong>Your Name</strong></td>
+     <td><input type="text" name="name" size="30" class="formbox" onfocus="this.style.background='#FF9B43';" onblur="this.style.background='white';"></td>
+    </tr>
+    <tr>
+     <td width="150" align="right"><strong>Your Email Address</strong> (optional)<br></td>
+     <td><input type="text" name="email" size="30" class="formbox" onfocus="this.style.background='#FF9B43';" onblur="this.style.background='white';"></td>
+    </tr>
+    <tr>
+     <td width="150" align="right"><strong>Subject</strong></td>
+     <td><input type="text" name="subject" size="30" class="formbox" onfocus="this.style.background='#FF9B43';" onblur="this.style.background='white';"></td>
+    </tr>
+    <tr>
+     <td width="150" align="right"><strong>Comments/Questions</strong></td>
+     <td><textarea name="content" cols="35" rows="4" class="formbox" onfocus="this.style.background='#FF9B43';" onblur="this.style.background='white';"></textarea></td>
+    </tr>
+    <tr>
+     <td width="150" align="right">&nbsp;</td>
+     <td><input type="submit" value="Send" class="formbutton"></td>
+    </tr>
+   </tbody>
+  </table> <br clear="all">
+  <p></p>
+  <p>If you would like a reply to your message, type in your e-mail address. Your e-mail address will be discarded after we send you a response. For more infomation, visit the <a href="http://pbskids.org/privacy/">PBS Kids Online Privacy Policy</a></p>
+  <p>&nbsp;</p>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

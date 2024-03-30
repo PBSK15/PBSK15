@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "Fizzy_DidntSeeYou.m4a",
+    "Fizzy_DidntSeeYou.oga",
+    "Fizzy_DidntSeeYou.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "Fizzy_DidntSeeYou": {
+      "start": 6,
+      "end": 12.839659863945577,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

@@ -1,0 +1,797 @@
+/* The Ajax version of the Authentication System */
+
+/*
+#colorbox {
+    background-color: #99cc00;
+}
+*/
+
+#go-auth {
+    background-color: #99cc00;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 560px;
+}
+
+html body #go-auth .right {
+    float: right;
+}
+
+#go-auth h1 {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#go-auth p {
+    color: #4B6300;
+}
+
+#go-auth a {
+    color: #526810 !important;
+}
+
+#go-auth a:visited {
+    color: #526810 !important;
+}
+
+#go-auth a:hover {
+    color: #CC630D !important;
+}
+
+#go-auth .prompt-buttons {
+    margin: 10px auto;
+    width: 311px;
+}
+
+#go-auth .prompt-buttons div.username, #go-auth .prompt-buttons div.changepassword {
+    margin-bottom: 5px;
+}
+
+/* Hide labels via CSS if JS is enabled */
+html.js #go-auth label {
+    display: none;
+}
+
+/* Some exceptions... */
+html body #go-auth .signinform label {
+    display: block;
+}
+
+#go-auth input {
+    border: 1px solid #666;    
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+#go-auth .errorlist {
+    background-color: #E66521;
+    color: #fff;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 5px;
+    width: 500px;
+}
+
+#go-auth .signinbox .errorlist {
+    margin: 0;
+    width: auto;
+}
+
+#go-auth .signinbox .errorlist li {
+    margin: 0;
+    padding: 0;
+}
+
+#go-auth div.password {
+    margin: 5px;
+}
+
+#go-auth div#auth-secretquestion {
+    display: none;
+}
+
+/* Printout */
+#go-auth h3.print {
+    display: none;
+}
+
+#go-auth img.print {
+    display: none;
+}
+
+#go-auth dl.printout {
+    background-color: #fff;
+    background-image: url(images/pink-line.gif);
+    background-position: 50px 0;
+    background-repeat: repeat-y;
+    overflow: hidden;
+    width: 500px;
+    margin: 1em auto 0;
+    padding: 15px 0 0 0;
+}
+
+#go-auth dl.printout dt, dl.printout dd {
+    border-bottom: 1px solid #A8EFEF;
+    border-top: 1px solid #A8EFEF;
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 1%;
+    width: 48%;
+}
+
+#go-auth dl.printout dt {
+    clear: left;
+    color: #808184;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+#go-auth dl.printout dd {
+    color: #515151;
+    text-align: left;
+}
+
+#go-auth dl.printout dt.first, dl.printout dd.first {
+    border-bottom: 0;
+    font-size: 16px;
+}
+
+#go-auth p.writethis {
+    background-position: -517px -210px;
+}
+
+#go-auth p.print {
+    background-color: #fff;
+    background-image: url(images/pink-line.gif);
+    background-position: 50px 0;
+    background-repeat: repeat-y;
+    margin: 0 auto 1em;
+    overflow: hidden;
+    width: 500px;
+}
+
+#go-auth p.print a {
+    border: 2px solid #555;
+    color: #555;
+    float: right;
+    font-size: 11px;
+    display: block;
+    margin: 5px;
+    padding: 2px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#go-auth p.print a:hover {
+    background-color: #ccc;
+}
+
+/* ORANGE BUTTON STYLING */
+
+/* Button is the frame */
+#go-auth .button {
+    border: 0;
+    display: block;
+    float: left;
+    height: 57px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* .inner holds right button bevel */
+#go-auth .button .inner {
+    background-image: url(images/button-orange.gif);
+    background-position: 100% -7px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 57px;
+    left: 0;
+    padding-right: 7px;
+    position: relative;
+    top: 0;
+}
+
+#go-auth .button .inner.disabled {
+    filter: alpha(opacity = 50);
+    opacity: .5;
+}
+
+/* p holds bottom button bevel */
+#go-auth .button p {
+    background-image: url(images/button-orange.gif);
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 57px;
+    margin: 0;
+    padding: 0;
+}
+
+/* a holds button image */
+#go-auth .button a {
+    background-color: #e48b16;
+    background-image: url(images/button-orange.gif);
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+}
+
+#go-auth .button.text a, .button.text span {
+    background-color: #e48b16;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    padding: 15px 15px 5px;
+    text-decoration: none;
+    text-indent: 0;
+}
+
+#go-auth .button input {
+    background-color: #e48b16;
+    background-image: url(images/button-orange.gif);
+    border: 0 !important;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0;
+    font-weight: bold;
+    height: 50px;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-indent: -9999px;
+}
+
+/* Specific Orange Buttons */
+
+#go-auth .button.ok a, .button.ok input {
+    background-position: 0 -64px;
+    width: 58px;
+}
+
+#go-auth .button.signin a, .button.signin input {
+    background-position: 0 -114px;
+    width: 107px;
+}
+
+#go-auth .button.done {
+   float: none;
+   margin: 0 auto;
+   width: 207px; 
+}
+
+#go-auth .button.done a {
+    background-position: 55px -164px;
+    width: 200px;
+}
+
+#go-auth .button.username a {
+    background-position: 0 -214px;
+    width: 304px;
+}
+
+#go-auth .button.nousername a {
+    background-position: 16px -264px;
+    width: 304px;
+}
+
+#go-auth .button.changepassword a {
+    background-position: 20px -314px;
+    width: 304px;
+}
+
+#go-auth .button.changesecretcode a {
+    background-position: 8px -364px;
+    width: 304px;
+}
+
+
+/* FAVORITE SELECTION */
+
+#go-auth fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#go-auth ul.fields {
+    display: block;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 10px 40px;
+    position: relative;
+    right: 0;
+    width: 350px;
+}
+
+#go-auth ul.fields.active {
+    background-image: url(images/arrow.gif);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+}
+
+#go-auth ul.fields li {
+    float: left;
+    height: 57px;
+    margin: 0 5px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 64px;
+}
+
+#go-auth ul.fields li.selected {
+    background-image: none;
+
+} 
+ 
+#go-auth ul.fields li.selected label {
+    background-color: #fff200;
+}
+
+#go-auth ul.fields li label.disabled {
+    filter: alpha(opacity = 50);
+    opacity: .5;
+}
+
+#go-auth ul.fields li label.disabled.selected {
+    filter: alpha(opacity = 100);
+    opacity: 1;
+}
+
+#go-auth ul.fields li label {
+    background-image: url(images/button-back.gif);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 57px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-indent: -9999px;
+    top: 0;
+    width: 64px; 
+}
+
+#go-auth ul.fields li label span {
+    background-color: #fff;
+    background-image: url(images/icons.gif);
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 57px;
+}
+
+#go-auth ul.fields li.default.hidden {
+    left: -9999px;
+    position: absolute;
+}
+    
+
+/* Favorites */
+
+/* Animals */
+#go-auth #login-cat span { background-position: 0 0; }
+#go-auth #login-dog span { background-position: -57px 0; }
+#go-auth #login-turtle span { background-position: -114px 0; }
+#go-auth #login-fish span { background-position: -171px 0; }
+#go-auth #login-bird span { background-position: -228px 0; }
+
+#go-auth #login-cat.selected span { background-position: 0 -150px; }
+#go-auth #login-dog.selected span { background-position: -57px -150px; }
+#go-auth #login-turtle.selected span { background-position: -114px -150px; }
+#go-auth #login-fish.selected span { background-position: -171px -150px; }
+#go-auth #login-bird.selected span { background-position: -228px -150px; }
+
+
+/* Food */
+#go-auth #login-taco span { background-position: 0 -50px; }
+#go-auth #login-pizza span { background-position: -57px -50px; }
+#go-auth #login-apple span { background-position: -114px -50px; }
+#go-auth #login-hamburger span { background-position: -171px -50px; }
+#go-auth #login-spaghetti span { background-position: -228px -50px; }
+
+#go-auth #login-taco.selected span { background-position: 0 -200px; }
+#go-auth #login-pizza.selected span { background-position: -57px -200px; }
+#go-auth #login-apple.selected span { background-position: -114px -200px; }
+#go-auth #login-hamburger.selected span { background-position: -171px -200px; }
+#go-auth #login-spaghetti.selected span { background-position: -228px -200px; }
+
+/* Colors */
+#go-auth #login-red span { background-position: 0 -100px; }
+#go-auth #login-blue span { background-position: -57px -100px; }
+#go-auth #login-yellow span { background-position: -114px -100px; }
+#go-auth #login-orange span { background-position: -114px -100px; }
+#go-auth #login-purple span { background-position: -171px -100px; }
+#go-auth #login-green span { background-position: -228px -100px; }
+
+#go-auth #login-red.selected span { background-position: 0 -250px; }
+#go-auth #login-blue.selected span { background-position: -57px -250px; }
+#go-auth #login-yellow.selected span { background-position: -114px -250px; }
+#go-auth #login-orange.selected span { background-position: -114px -250px; }
+#go-auth #login-purple.selected span { background-position: -171px -250px; }
+#go-auth #login-green.selected span { background-position: -228px -250px; }
+
+#favorites-ok {
+    position: relative;
+    top: -62px;
+}
+
+/* Will be revealed, so needs to occupy space */
+#go-auth .button.initialHide {
+    opacity: 0;
+}
+
+/* Will never display with js enabled, so shouldn't occupy space */
+#go-auth .button.jsHide {
+    display: none;
+}
+
+.jsHide {
+    display: none;
+}
+
+/*
+html.js #go-auth .button.initialHide {
+    display: none;
+}
+*/
+
+#go-auth ul.buttons {
+    list-style-type: none;
+    margin: 1em 0 0;
+    padding: 0;
+}
+
+#go-auth ul.buttons li {
+    display: block;
+    margin: 0 auto 5px;
+    overflow: auto;
+    width: 302px;
+}
+
+#go-auth ul.buttons label {
+    display: block;
+    overflow: hidden;
+}
+
+#go-auth ul.buttons li input {
+    left: -9999px;
+    position: absolute;
+}
+
+#go-auth ul.buttons li div.button.text a, ul.buttons li div.button.text span {
+    width: 260px;
+}
+
+
+/* Text Spriting
+ *
+ * Text sprites are given the class of sprite AND a classname of the first two words in the text.
+ *
+ */
+
+#go-auth h1.sprite, #go-auth h3.sprite, #go-auth p.sprite, #go-auth label.sprite {
+    background-image: url(images/text.gif);
+    height: 30px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 517px;
+}
+
+#go-auth h1.changeyour {
+    background-position: 0 -210px;
+}
+
+#go-auth h1.changeyourcode {
+    background-position: 0 -270px;
+}
+
+#go-auth h1.changeyourquestion {
+    background-position: 0 -300px;
+}
+
+#go-auth p.toplay {
+    background-position: -517px 0;
+}
+
+#go-auth h1.makeup {
+    background-position: 0 -30px;
+}
+
+#go-auth p.saveyour {
+    background-position: -517px -30px;
+    margin-bottom: 1em;
+}
+
+#go-auth h1.thatname {
+    background-position: 0 -60px;
+}
+
+#go-auth p.howabout {
+    background-position: -517px -60px;
+}
+
+#go-auth p.trya {
+    background-position: -1153px 0;
+    float: left;
+    height: 40px !important;
+    width: 167px !important;
+}
+
+#go-auth p.trya a {
+    display: block;
+    height: 40px;
+}
+
+#go-auth select {
+    margin: 0;
+}
+
+#go-auth #id_secret_answer { 
+    margin: 0;
+}
+
+#go-auth p.usesecretquestion {
+    background-position: -1153px -60px;
+    float: left;
+    height: 30px;
+    width: 220px;
+}
+
+#go-auth p.usesecretcode {
+    background-position: -1153px -90px;
+    float: left;
+    height: 30px;
+    width: 220px;
+}
+
+#go-auth p.usesecretquestion a, #go-auth p.usesecretcode a {
+    cursor: pointer;
+    display: block;
+    padding: 5px;
+    position: relative;
+    z-index: 100;
+}
+
+#go-auth h1.thisis {
+    background-position: 0 -90px;
+}
+
+#go-auth p.youcan {
+    background-position: -517px -90px;
+}
+
+#go-auth p.typeyour {
+    background-position: -517px -120px;
+}
+
+#go-auth h1.makeyour {
+    background-position: 0 -120px;
+}
+
+#go-auth h1.makeyourquestion {
+    background-position: 0 -240px;
+}
+
+#go-auth h1.changeyour {
+    background-position: 0 -360px;
+}
+
+#go-auth p.pickyour {
+    background-position: -517px -150px;
+}
+
+#go-auth p.picka {
+    background-position: -517px -300px;
+}
+
+#go-auth p.thiswill {
+    background-position: -517px -180px;
+}
+
+#go-auth h1.youdid {
+    background-position: 0 -150px;
+}
+
+#go-auth p.writethis {
+    background-position: -517px -210px;
+}
+
+#go-auth h1.getyour {
+    background-position: 0 -180px;
+}
+
+#go-auth p.whatis {
+    background-position: -517px -240px;
+}
+
+#go-auth p.answerthe {
+    background-position: -517px -270px;
+}
+
+#go-auth h3.recentusers {
+    background-position: -1034px -60px;
+    height: 20px;
+    margin: 0 auto;
+    width: 119px !important;
+}
+
+#go-auth label.username {
+    background-position: -1034px 0;
+    height: 25px;
+    width: 119px;
+}
+
+#go-auth label.password {
+    background-position: -1034px -30px;
+    height: 25px;
+    width: 119px;
+}
+
+/* Welcome */
+
+#go-auth div.signin-signup {
+    margin: 1em auto 0;
+    overflow: hidden 0;
+    width: 311px;
+}
+
+#go-auth div.signin-signup .button {
+    margin: 0 0 10px;
+}
+
+/* Signin Box */
+
+#go-auth .signinbox {
+    background-color: #acdc22;
+    background-image: url(images/signin-stripe.gif);
+    background-position: 270px 0; 
+    background-repeat: repeat-y;
+    margin: 20px auto 0;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 450px;
+}
+
+#go-auth .signinbox .signinform {
+    float: left;
+    padding: 0 20px 10px;
+    text-align: left;
+    width: 230px;
+}
+
+#go-auth .signinbox .signinform label {
+    margin: 0;
+}
+
+#go-auth .signinbox .signinform input {
+    text-align: left;
+}
+
+#go-auth .signinbox .signinform input#id_password {
+    margin-bottom: 20px;
+}
+
+#go-auth .signinbox .signinform input#id_username, #go-auth .signinbox .signinform input#id_password {
+    width: 217px;
+}
+
+#go-auth .signinbox .users {
+    float: left;
+    margin-left: 13px;
+    width: 160px;
+}
+
+#go-auth .signinbox .users ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    text-align: left;
+}
+
+#go-auth .signinbox .users ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#go-auth .signinbox .users ul li a {
+    color: #5C8403 !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; overflow:hidden;}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+
+/* 
+    Example user style
+    The following rules are ordered and tabbed in a way that represents the
+    order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxOverlay{background:url(images/overlay80.png) 0 0 repeat;}
+#colorbox{}
+    #cboxTopLeft, #cboxTopRight, #cboxBottomLeft, #cbox BottomRight, #cboxMiddleLeft, #cboxMiddleRight, #cboxTopCenter, #cboxBottomCenter {display: none;}
+	/*
+    #cboxTopLeft{width:21px; height:21px; background:url(images/controls.png) -100px 0 no-repeat;}
+    #cboxTopRight{width:21px; height:21px; background:url(images/controls.png) -129px 0 no-repeat;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(images/controls.png) -100px -29px no-repeat;}
+    #cboxBottomRight{width:21px; height:21px; background:url(images/controls.png) -129px -29px no-repeat;}
+    #cboxMiddleLeft{width:21px; background:url(images/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(images/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(images/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(images/border.png) 0 -29px repeat-x;}
+	*/
+    #cboxContent{background:#99CC00;border:10px solid #fff;margin:0;padding: 0;}
+        #cboxLoadedContent{margin: 20px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxLoadingOverlay{background:url(images/loading_background.png) center center no-repeat;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) center center no-repeat;}
+        #cboxClose{position:absolute; top:5px; right:5px; background:url(images/close.gif) 0 0 no-repeat; width:30px; height:30px; text-indent:-9999px;}
+
+/*
+    The following fixes png-transparency for IE6.  
+    It is also necessary for png-transparency in IE7 & IE8 to avoid 'black halos' with the fade transition
+    
+    Since this method does not support CSS background-positioning, it is incompatible with CSS sprites.
+    Colorbox preloads navigation hover classes to account for this.
+    
+    !! Important Note: AlphaImageLoader src paths are relative to the HTML document,
+    while regular CSS background images are relative to the CSS document.
+*/
+.cboxIE #cboxTopLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/includes/auth/images/internet_explorer/borderTopLeft.png, sizingMethod='scale');}
+.cboxIE #cboxTopCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/includes/auth/images/internet_explorer/borderTopCenter.png, sizingMethod='scale');}
+.cboxIE #cboxTopRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/includes/auth/images/internet_explorer/borderTopRight.png, sizingMethod='scale');}
+.cboxIE #cboxBottomLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/includes/auth/images/internet_explorer/borderBottomLeft.png, sizingMethod='scale');}
+.cboxIE #cboxBottomCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/includes/auth/images/internet_explorer/borderBottomCenter.png, sizingMethod='scale');}
+.cboxIE #cboxBottomRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/includes/auth/images/internet_explorer/borderBottomRight.png, sizingMethod='scale');}
+.cboxIE #cboxMiddleLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/includes/auth/images/internet_explorer/borderMiddleLeft.png, sizingMethod='scale');}
+.cboxIE #cboxMiddleRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/includes/auth/images/internet_explorer/borderMiddleRight.png, sizingMethod='scale');}

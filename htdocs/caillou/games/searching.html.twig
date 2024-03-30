@@ -1,0 +1,127 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games . Find Gilbert . Intro' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_btn_games-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_btn_games.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_btn_coloring-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_btn_coloring.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_btn_greetings-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_btn_greetings.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master_caillou-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master_caillou.gif";			back_on = new Image( );		back_on.src = "images/Master_back-over.gif";		back_off = new Image( );		back_off.src = "images/Master_back.gif";				play_on = new Image( );		play_on.src = "searching/images/btn_play-over.gif";		play_off = new Image( );		play_off.src = "searching/images/btn_play.gif";				help_on = new Image( );		help_on.src = "searching/images/btn_help-over.gif";		help_off = new Image( );		help_off.src = "searching/images/btn_help.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="images/bkg_blue-bfly2.gif" bgcolor="#00acd5" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="http://pbskids.org/"><img src="images/Master_pbs.gif" alt="PBS Kids Homepage" name="PBSKids" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_yellow-left.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/Master_caillou.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_yellow-right.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="../activities/activities.html"><img src="images/Master_back.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_red.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <table width="566" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+           <tr>
+            <td colspan="5">
+             <div align="center"><img src="searching/images/find_gilbert_title.gif" alt="Find Gilbert" height="47" width="566">
+             </div></td>
+           </tr>
+           <tr>
+            <td rowspan="2"><a href="searching/Game1.html"><img src="searching/images/pict_caillou.gif" alt="Caillou searching for Gilbert" height="267" width="262" border="0"></a></td>
+            <td colspan="3"><img src="searching/images/text_instructions.gif" alt="Try and find Gilbert, Rexy, or Teddy in the pictures. When you see one, click on him. Click around the picture to find other surprises!" height="200" width="273"></td>
+            <td rowspan="2"><img src="searching/images/pict_right.gif" alt="Right border" height="267" width="31"></td>
+           </tr>
+           <tr>
+            <td><a onmouseover="act('help')" onmouseout="inact('help')" href="#Instructions"><img src="searching/images/btn_help.gif" alt="Help to play this game" name="help" height="67" width="104" border="0"></a></td>
+            <td><img src="searching/images/pict_blue_square.gif" alt="Blue square" height="67" width="82"></td>
+            <td><a onmouseover="act('play')" onmouseout="inact('play')" href="searching/Game1.html"><img src="searching/images/btn_play.gif" alt="Play button" name="play" height="67" width="87" border="0"></a></td>
+           </tr>
+           <tr>
+            <td colspan="5"><img src="searching/images/pict_bottom.gif" alt="Bottom image" height="42" width="566"></td>
+           </tr>
+          </tbody>
+         </table></td>
+        <td><img src="images/Master_green.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_red-bottom.gif" alt="" height="90" width="92"></td>
+        <td><img src="images/Master_blue-left.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="images/Master_btn_games.gif" name="games" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_btn_greetings.gif" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="images/Master_btn_coloring.gif" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_blue-right.gif" alt="" height="90" width="95"></td>
+        <td><img src="images/Master_green-bottom.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="16">
+        <td height="16">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold"><a name="Instructions"></a>To play this game, you will need:</p> <p class="instruct_normal"><a href="http://home.netscape.com/computing/download/" title="Netscape">Netscape Navigator 4</a> and above or, <a href="http://www.microsoft.com/windows/ie/download/">Internet Explorer 4</a> and above.</p> <p class="instruct_bold"><a href="#JSCRIPT">Javascript Enabled</a></p> <p class="instruct_bold">Activity Instructions:</p>
+         <ol>
+          <li class="instruct_normal" type="1">Gilbert is hiding in the picture, can you find him? As the levels get harder Teddy and Rexy are hiding too.</li>
+          <li class="instruct_normal" type="1">Look carefully around the scene and use your mouse to click on the hidden character when you've found him. If you are having trouble, click on the character pictures to the right of the scene and he will come out of hiding.</li>
+          <li class="instruct_normal" type="1">Use your mouse to explore the scene and find other hidden surprises.</li>
+          <li class="instruct_normal" type="1">When you have found everyone click on the "Play Again" arrow to move on to the next level.</li>
+         </ol> <p class="instruct_bold"><a name="JSCRIPT"></a>Enabling Javascript in Microsoft Internet Explorer 5 or Later (for Windows):</p>
+         <ol>
+          <li class="instruct_normal" type="1">Open Internet Explorer.</li>
+          <li class="instruct_normal" type="1">On the Tools menu, click Internet Options.</li>
+          <li class="instruct_normal" type="1">On the Security tab, click Internet.</li>
+          <li class="instruct_normal" type="1">Click Custom Level.</li>
+          <li class="instruct_normal" type="1">Scroll down to Active scripting.</li>
+          <li class="instruct_normal" type="1">Click Enable (or Prompt).</li>
+          <li class="instruct_normal" type="1">Click OK.</li>
+          <li class="instruct_normal" type="1">Click Yes.</li>
+          <li class="instruct_normal" type="1">Click OK.</li>
+         </ol> <p class="instruct_bold">Enabling JavaScript in Netscape 7:</p>
+         <ol>
+          <li class="instruct_normal" type="1">Open Netscape.</li>
+          <li class="instruct_normal" type="1">On the Edit menu, click Preferences.</li>
+          <li class="instruct_normal" type="1">Double click Advanced in the Category list.</li>
+          <li class="instruct_normal" type="1">Select Scripts &amp; Plugins from the menu.</li>
+          <li class="instruct_normal" type="1">Under the Enable JavaScript for section, check the box next to Navigator.</li>
+          <li class="instruct_normal" type="1">Check the boxes under Allow scripts to section that you want to allow.</li>
+          <li class="instruct_normal" type="1">Click OK.</li>
+         </ol>
+         <hr width="60%"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="http://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="http://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

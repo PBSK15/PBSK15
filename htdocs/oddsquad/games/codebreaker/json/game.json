@@ -1,0 +1,22 @@
+[
+	{
+		"title"	: "level one",
+		"desc"	: "Basic pattern recognition",
+		"blanks": 1,
+		"levels": [
+			[0, 0, 0, 0, 0, 0],
+			[1, 1, 1, 1, 1, 1],
+			[2, 4, 2, 4, 2, 4]
+		]
+	},
+	{
+		"title"	: "level two",
+		"desc"	: "Incremental pattern recognition",
+		"blanks": 1,
+		"levels": [
+			[1, 2, 3, 4, 5],
+			[3, 4, 5, 6, 7],
+			[2, 4, 6, 8, 10]
+		]
+	}
+]

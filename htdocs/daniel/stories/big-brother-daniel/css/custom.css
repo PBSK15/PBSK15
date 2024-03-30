@@ -1,0 +1,72 @@
+/** Storybook Custom CSS **/
+
+.pbsPage{
+	overflow: hidden;
+}
+.pbsTextArea{
+	padding:1.4em 1.2em;	
+	font-family: 'Questrial', sans-serif;
+	font-weight: 400;
+	line-height: 1.4 !important;
+	font-size: 26em !important;
+	/*font-size: 35em !important;*/
+	
+	background: url('../images/text-bkgrnd.png') repeat 0 0 #f6ecdf;
+	
+	text-shadow: -1px -1px 0 #d1beab, 1px -1px 0 #d1beab, -1px 1px 0 #d1beab, 1px 1px 0 #d1beab; 
+	
+	-moz-box-shadow:    inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+	-webkit-box-shadow: inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+	box-shadow:         inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+	
+	-moz-border-radius: .45em;
+	-webkit-border-radius: .45em;
+	border-radius: .45em; /* future proofing */
+}
+
+.pbsTextArea b{
+	font-weight: 400;
+}
+
+.pbsPage0Sprite1:hover,
+.pbsPage1Sprite2:hover,
+.pbsPage2Cycler1Sprite3:hover,
+.pbsPage3Cycler1Sprite5:hover,
+.pbsPage4Sprite1:hover,
+.pbsPage4Sprite2:hover,
+.pbsPage5Sprite1:hover,
+.pbsPage6Cycler1Sprite2:hover,
+.pbsPage7Sprite1:hover,
+.pbsPage8Sprite1:hover,
+.pbsPage9Sprite1:hover,
+.pbsPage9Cycler2Sprite2:hover,
+.pbsPage9Cycler1Sprite2:hover,
+.pbsPage10Cycler2Sprite2:hover,
+.pbsPage10Cycler1Sprite2:hover,
+.pbsPage10Cycler2Sprite1:hover,
+.pbsPage11Cycler1Sprite2:hover,
+.pbsPage11Cycler2Sprite2:hover,
+.pbsPage11Cycler3Sprite2:hover,
+.pbsPage12Cycler1Sprite1:hover,
+.pbsPage12Cycler1Sprite2:hover,
+.pbsPage12Sprite2:hover,
+.pbsPage13Cycler1Sprite4:hover,
+.pbsPage13Sprite2:hover,
+.pbsPage14Sprite2:hover,
+.pbsPage14Cycler1Sprite4:hover,
+.pbsPage15Cycler1Sprite8:hover,
+.pbsPage16Cycler2Sprite2:hover,
+.pbsPage16Cycler1Sprite2:hover,
+.pbsPage16Sprite1:hover,
+.pbsPage17Cycler1Sprite2:hover,
+.pbsPage17Cycler2Sprite2:hover,
+.pbsPage19Sprite1:hover,
+.pbsPage20Cycler1Sprite3:hover,
+.pbsPage21Sprite1:hover,
+.pbsPage22Sprite2:hover,
+.pbsPage22Sprite3:hover,
+.pbsPage23Cycler1Sprite2:hover,
+.pbsPage24Sprite1:hover
+{
+	cursor: pointer;
+}

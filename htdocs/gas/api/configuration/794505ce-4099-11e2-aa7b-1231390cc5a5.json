@@ -1,0 +1,105 @@
+{
+    "guid": "794505ce-4099-11e2-aa7b-1231390cc5a5",
+    "repr": {
+        "shell": {
+            "rlgl": {
+                "global": {
+                    "player_tap_stop": {
+                        "#value": "",
+                        "_delay": 0.3
+                    }
+                },
+                "setting": [
+                    {
+                        "#children": {
+                            "npc_speed": {
+                                "_min": 1,
+                                "#value": "",
+                                "_max": 2
+                            },
+                            "green_light": {
+                                "_min": 2,
+                                "#value": "",
+                                "_max": 5
+                            },
+                            "npc_fail": {
+                                "#value": "",
+                                "_percent": 40
+                            },
+                            "red_light": {
+                                "_min": 2,
+                                "#value": "",
+                                "_max": 5
+                            },
+                            "npc_start_delay": {
+                                "_min": 0.5,
+                                "#value": "",
+                                "_max": 0.6
+                            }
+                        },
+                        "_round": 1
+                    },
+                    {
+                        "#children": {
+                            "npc_speed": {
+                                "_min": 2,
+                                "#value": "",
+                                "_max": 4
+                            },
+                            "green_light": {
+                                "_min": 2,
+                                "#value": "",
+                                "_max": 5
+                            },
+                            "npc_fail": {
+                                "#value": "",
+                                "_percent": 20
+                            },
+                            "red_light": {
+                                "_min": 2,
+                                "#value": "",
+                                "_max": 5
+                            },
+                            "npc_start_delay": {
+                                "_min": 0.5,
+                                "#value": "",
+                                "_max": 0.6
+                            }
+                        },
+                        "_round": 2
+                    },
+                    {
+                        "#children": {
+                            "npc_speed": {
+                                "_min": 3,
+                                "#value": "",
+                                "_max": 5
+                            },
+                            "green_light": {
+                                "_min": 2,
+                                "#value": "",
+                                "_max": 5
+                            },
+                            "npc_fail": {
+                                "#value": "",
+                                "_percent": 10
+                            },
+                            "red_light": {
+                                "_min": 2,
+                                "#value": "",
+                                "_max": 5
+                            },
+                            "npc_start_delay": {
+                                "_min": 0.5,
+                                "#value": "",
+                                "_max": 0.6
+                            }
+                        },
+                        "_round": 3
+                    }
+                ]
+            }
+        }
+    },
+    "game_title": "Sid Red Light Green Light"
+}

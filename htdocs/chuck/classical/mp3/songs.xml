@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player>
+
+<settings
+
+defaultVolume = "1"
+autoplay = "true"
+finished = "6"
+unfinished = "1"
+
+mainBackgroundColor = "000000"
+buttonsBackgroundColor = "000000"
+buttonsOutlineColor = "ffffff"
+buttonsIconColor = "00ffff"
+buttonsIconOverColor = "FFFFFF"
+volumeBarColor = "FFFFFF"
+loadBarColor = "018786"
+progressBarColor ="00ffff"
+
+spectrumLeftColor = "ffffff"
+spectrumLeftLineColor = "FFFFFF"
+spectrumRightColor = "00ffff"
+spectrumRightLineColor = "00FFFF"
+
+/>
+
+
+<song>
+<title>CVC Birds & Bees</title>
+<url>classical/mp3/songs/cl_lyric_song1.mp3</url>
+</song>
+
+<song>
+<title>CVC My Fair Love</title>
+<url>classical/mp3/songs/cl_lyric_song2.mp3</url>
+</song>
+
+
+<song>
+<title>CVC Sweet Clay</title>
+<url>classical/mp3/songs/cl_lyric_song3.mp3</url>
+</song>
+
+
+
+<song>
+<title>CVC Nature Dream</title>
+<url>classical/mp3/songs/cl_lyric_song4.mp3</url>
+</song>
+
+<song>
+<title>CVC Little Birds</title>
+<url>classical/mp3/songs/cl_mp3_LittleBird.mp3</url>
+</song>
+    
+    <song>
+    <title>CVC Groove</title>
+    <url>classical/mp3/songs/cl_main_song3_withsolos.mp3</url>
+    </song>
+
+<song>
+<title>CVC La La La</title>
+<url>classical/mp3/songs/cl_mp3_LaLaLa.mp3</url>
+</song>
+
+<song>
+<title>CVC Swing</title>
+<url>classical/mp3/songs/cl_main_song1_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Delight</title>
+<url>classical/mp3/songs/cl_main_song2_withsolos.mp3</url>
+</song>
+
+
+
+</player>

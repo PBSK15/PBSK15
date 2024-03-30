@@ -1,0 +1,1087 @@
+<root>
+        <homepage magFrame = "2">
+                <objects>
+                        <vo>
+                                <collectionObjects>
+                                        <rolypoly>collectionObjects/sid_object01.mp3</rolypoly>
+                                        <snail>collectionObjects/sid_object02.mp3</snail>
+                                        <paperClip>collectionObjects/sid_object20.mp3</paperClip>
+                                        <worm>collectionObjects/sid_object04.mp3</worm>
+                                        <metalSpring>collectionObjects/sid_object23.mp3</metalSpring>
+                                        <top>collectionObjects/sid_object24.mp3</top>
+                                        <fossil>collectionObjects/sid_object07.mp3</fossil>
+                                        <leaf>collectionObjects/sid_object08.mp3</leaf>
+                                        <rock>collectionObjects/sid_object09.mp3</rock>
+                                        <egg>collectionObjects/sid_object10.mp3</egg>
+                                        <tooth>collectionObjects/sid_object11.mp3</tooth>
+                                        <nickel>collectionObjects/sid_object12.mp3</nickel>
+                                        <acorn>collectionObjects/sid_object13.mp3</acorn>
+                                        <sponge>collectionObjects/sid_object14.mp3</sponge>
+                                        <cork>collectionObjects/sid_object15.mp3</cork>
+                                        <shell>collectionObjects/sid_object16.mp3</shell>
+                                        <car>collectionObjects/sid_object17.mp3</car>
+                                        <ball>collectionObjects/sid_object18.mp3</ball>
+                                        <bolt>collectionObjects/sid_object19.mp3</bolt>
+                                        <ladybug>collectionObjects/sid_object03.mp3</ladybug>
+                                        <prism>collectionObjects/sid_object21.mp3</prism>
+                                        <feather>collectionObjects/sid_object22.mp3</feather>
+
+
+
+                                </collectionObjects>
+                                <sidCollectFoundPart1>collectionObjects/sid_collect_found_part1.mp3</sidCollectFoundPart1>
+                                <sidCollectFoundPart2>collectionObjects/sid_collect_found_part2.mp3</sidCollectFoundPart2>
+                        </vo>
+                </objects>
+                <intro>
+                        <vo>
+                                <videoBtn></videoBtn>
+                                <funbookBtn></funbookBtn>
+                                <sidHello></sidHello>
+                                <sidPromptCollect></sidPromptCollect>
+                        </vo>
+                </intro>
+
+                <collectionJar>
+                        <vo>
+                                <ro></ro>
+                                <open></open>
+                                <close></close>
+                        </vo>
+                </collectionJar>
+
+                <collectionGame>
+                        <vo>
+                                <ro>
+                                        <chalk>collectionGame/sid_chalk.mp3</chalk>
+                                        <magnifyingGlass>collectionGame/sid_magnify.mp3</magnifyingGlass>
+                                        <magnet>collectionGame/sid_magnet.mp3</magnet>
+                                </ro>
+                        </vo>
+                </collectionGame>
+
+                <jokes>
+                        <joke character="sid">
+                                <sound>jokes/Sid_111_joke1a.mp3</sound>
+                                <punchline>jokes/Sid_111_joke1b.mp3</punchline>
+                        </joke>
+
+                        <joke character="gab">
+                                <sound>jokes/Gabriela_111_joke2a.mp3</sound>
+                                <punchline>jokes/Gabriela_111_joke2b.mp3</punchline>
+                        </joke>
+                        <joke character="gab">
+                                <sound>jokes/Gabriela_112_joke1a.mp3</sound>
+                                <punchline>jokes/Gabriela_112_joke1b.mp3</punchline>
+                        </joke>
+                        <joke character="may">
+                                <sound>jokes/May_112_joke2a.mp3</sound>
+                                <punchline>jokes/May_112_joke2b.mp3</punchline>
+                        </joke>
+                        <joke character="gerald">
+                                <sound>jokes/Gerald_112_joke3a.mp3</sound>
+                                <punchline>jokes/Gerald_112_joke3b.mp3</punchline>
+                        </joke>
+                        <joke character="gerald">
+                                <sound>jokes/Gerald_113_joke1a.mp3</sound>
+                                <punchline>jokes/Gerald_113_joke1b.mp3</punchline>
+                        </joke>
+                </jokes>
+                <hideAndSeek>
+                        <door character="sid">
+                                <start>hideAndSeek/sid_hide.mp3</start>
+                                <guess>hideAndSeek/sid_hide_guess.mp3</guess>
+                                <notHere>hideAndSeek/sid_not_there_take3.mp3</notHere>
+                                <notHere>hideAndSeek/sid_not_there_take1.mp3</notHere>
+                                <notHere>hideAndSeek/sid_not_there_take2.mp3</notHere>
+                                <found>hideAndSeek/sid_hide_over_take2.mp3</found>
+                        </door>
+                        <door character="gab">
+                                <start>hideAndSeek/gab_hide.mp3</start>
+                                <guess>hideAndSeek/gab_hide_guess.mp3</guess>
+                                <notHere>hideAndSeek/gab_not_there_take2.mp3</notHere>
+                                <notHere>hideAndSeek/gab_not_there_take1.mp3</notHere>
+                                <notHere>hideAndSeek/gab_not_there_take3.mp3</notHere>
+                                <found>hideAndSeek/gab_hide_over_take6.mp3</found>
+                        </door>
+                        <door character="may">
+                                <start>hideAndSeek/may_hide.mp3</start>
+                                <guess>hideAndSeek/may_hide_guess.mp3</guess>
+                                <notHere>hideAndSeek/may_notthere_take2.mp3</notHere>
+                                <notHere>hideAndSeek/may_notthere_take5.mp3</notHere>
+                                <notHere>hideAndSeek/may_notthere_take7.mp3</notHere>
+                                <found>hideAndSeek/may_hide_over_take2.mp3</found>
+                        </door>
+                        <door character="gerald">
+                                <start>hideAndSeek/gerald_hide.mp3</start>
+                                <guess>hideAndSeek/gerald_hide_guess.mp3</guess>
+                                <notHere>hideAndSeek/gerald_not_there_take5.mp3</notHere>
+                                <notHere>hideAndSeek/gerald_not_there_take1.mp3</notHere>
+                                <notHere>hideAndSeek/gerald_not_there_take3.mp3</notHere>
+                                <found>hideAndSeek/gerald_hide_over_take5.mp3</found>
+                        </door>
+                </hideAndSeek>
+
+        </homepage>
+
+        <zone1>
+                <senseGame>
+                        <sounds>
+                                <ambientAudio>ambientAudio/DetectiveRover.mp3</ambientAudio>
+                                <intro>iSense/sid_intro_sense.mp3</intro>
+                                <which>iSense/sid_which_take2.mp3</which>
+                                <and>iSense/sid_and_take2.mp3</and>
+                                <correct>
+                                        <sound>iSense/sid_yes1.mp3</sound>
+                                        <sound>iSense/sid_yes2.mp3</sound>
+                                        <sound>iSense/sid_yes3.mp3</sound>
+                                </correct>
+                                <incorrect>
+                                        <sound>iSense/Sid_no1.mp3</sound>
+										<sound>iSense/Sid_no2.mp3</sound>
+										<sound>iSense/Sid_no3.mp3</sound>
+
+                                </incorrect>
+                                <endGame>iSense/sid_prompt_endgame_wheel_take2.mp3</endGame>
+
+                                <senses>
+                                        <smell>iSense/sid_prompt_smell.mp3</smell>
+                                        <feel>iSense/sid_prompt_feel.mp3</feel>
+                                        <taste>iSense/sid_prompt_taste.mp3</taste>
+                                        <look>iSense/sid_prompt_see.mp3</look>
+                                        <sound>iSense/sid_prompt_hear.mp3</sound>
+                                </senses>
+                                <sensations>
+                                        <clean>iSense/sid_clean_take3.mp3</clean>
+                                        <disgusto>iSense/sid_disgusto_take3.mp3</disgusto>
+                                        <fruity>iSense/sid_fruity_take3.mp3</fruity>
+                                        <nutty>iSense/sid_nutty.mp3</nutty>
+                                        <yummy>iSense/sid_yummy.mp3</yummy>
+                                        <sticky>iSense/sid_sticky.mp3</sticky>
+                                        <slimy>iSense/sid_slimy.mp3</slimy>
+                                        <prickly>iSense/sid_prickly_take3.mp3</prickly>
+                                        <bumpy>iSense/sid_bumpy_take3.mp3</bumpy>
+                                        <rough>iSense/sid_rough.mp3</rough>
+                                        <smooth>iSense/sid_smooth.mp3</smooth>
+                                        <hard>iSense/sid_hard_take3.mp3</hard>
+                                        <soft>iSense/sid_soft_take3.mp3</soft>
+                                        <hot>iSense/sid_hot_take3.mp3</hot>
+                                        <cold>iSense/sid_cold_take3.mp3</cold>
+                                        <pointy>iSense/sid_pointy_take3.mp3</pointy>
+                                        <sweet>iSense/sid_sweet_take5.mp3</sweet>
+                                        <bitter>iSense/sid_bitter_take6.mp3</bitter>
+                                        <salty>iSense/sid_salty_take3.mp3</salty>
+                                        <sour>iSense/sid_sour_take3.mp3</sour>
+                                        <round>iSense/sid_round_take3.mp3</round>
+                                        <shiny>iSense/sid_shiny.mp3</shiny>
+                                        <seeThrough>iSense/sid_seethrough_take3.mp3</seeThrough>
+                                        <bright>iSense/sid_bright_take3.mp3</bright>
+                                        <loud>iSense/sid_loud.mp3</loud>
+                                        <crunchy>iSense/sid_crunchy_take3.mp3</crunchy>
+                                </sensations>
+
+                        </sounds>
+
+                </senseGame>
+
+                <journals>
+
+                        <tabRO>
+                                <tab>journals/sid_tab7.mp3</tab>
+                                <tab>journals/sid_tab2.mp3</tab>
+                                <tab>journals/sid_tab5_take3.mp3</tab>
+                                <tab>journals/sid_tab3.mp3</tab>
+                                <tab>journals/sid_tab6.mp3</tab>
+                                <tab>journals/sid_tab1.mp3</tab>
+                                <tab>journals/sid_tab8.mp3</tab>
+                                <tab>journals/sid_tab4.mp3</tab>
+
+                        </tabRO>
+                        <bookRO>
+                                <sid>journals/sid_journal_take10.mp3</sid>
+                                <gerald>journals/gerald_journal_take1.mp3</gerald>
+                                <gabriela>journals/gab_journal_take3.mp3</gabriela>
+                                <may>journals/may_journal_take5.mp3</may>
+                        </bookRO>
+                        <close>journals/sid_close.mp3</close>
+                        <green>journals/sid_tab_green.mp3</green>
+                        <intro>journals/sid_intro_journals.mp3</intro>
+                        <printBtn>journals/sid_print.mp3</printBtn>
+                        <ambientAudio>ambientAudio/LookAround.mp3</ambientAudio>
+                </journals>
+
+        </zone1>
+        <zone2>
+                <sandboxSymphony>
+                        <songs>
+                                <friends>
+                                        <instrumental>sandboxSymphony/Small/friendsInstrumentalSmallLoop.mp3</instrumental>
+                                        <sounds>
+                                                <sound>sandboxSymphony/Small/friendsCat1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsCat2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsCat4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDog1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDog2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDog4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSneeze1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSneeze2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSneeze4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsCrunch1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsCrunch2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsCrunch4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDrip1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDrip2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDrip4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsFizz1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsFizz2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsFizz4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsBounce1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsBounce2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsBounce4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSqueak1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSqueak2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSqueak4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSquirt1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSquirt2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsSquirt4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsPot1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsPot2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsPot4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsHorn1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsHorn2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsHorn4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDing1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDing2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/friendsDing4.mp3</sound>
+
+                                        </sounds>
+                                        <volume>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                        </volume>
+
+                                </friends>
+                                <waveOfTheSandman>
+                                        <instrumental>sandboxSymphony/Small/waveOfTheSandman.mp3</instrumental>
+                                        <sounds>
+                                                <sound>sandboxSymphony/Small/waveCat1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveCat2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveCat4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDog1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDog2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDog4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSneeze1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSneeze2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSneeze4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveCrunch1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveCrunch2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveCrunch4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDrip1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDrip2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDrip4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveFizz1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveFizz2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveFizz4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveBounce1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveBounce2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveBounce4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSqueak1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSqueak2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSqueak4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSquirt1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSquirt2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveSquirt4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/wavePot1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/wavePot2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/wavePot4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveHorn1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveHorn2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveHorn4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDing1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDing2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/waveDing4.mp3</sound>
+
+                                        </sounds>
+                                        <volume>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                        </volume>
+                                </waveOfTheSandman>
+                                <rugTime>
+                                        <instrumental>sandboxSymphony/Small/rugTimeInstrumental.mp3</instrumental>
+                                        <sounds>
+                                                <sound>sandboxSymphony/Small/rugCat1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugCat2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugCat4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDog1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDog2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDog4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSneeze1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSneeze2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSneeze4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugCrunch1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugCrunch2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugCrunch4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDrip1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDrip2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDrip4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugFizz1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugFizz2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugFizz4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugBounce1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugBounce2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugBounce4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSqueak1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSqueak2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSqueak4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSquirt1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSquirt2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugSquirt4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugPot1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugPot2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugPot4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugHorn1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugHorn2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugHorn4.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDing1.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDing2.mp3</sound>
+                                                <sound>sandboxSymphony/Small/rugDing4.mp3</sound>
+
+                                        </sounds>
+                                        <volume>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                                <level>1</level>
+                                        </volume>
+
+                                </rugTime>
+                        </songs>
+                        <vo>
+                                <stop>sandboxSymphony/feedback/sid_ss_stop_take2.mp3</stop>
+                                <changeBeat>sandboxSymphony/feedback/sid_ss_block.mp3</changeBeat>
+                                <feedback>
+                                        <sound>sandboxSymphony/feedback/sid_ss_feedback01_take2.mp3</sound>
+                                        <sound>sandboxSymphony/feedback/sid_ss_feedback02_take2.mp3</sound>
+                                        <sound>sandboxSymphony/feedback/sid_ss_feedback03_take2.mp3</sound>
+                                </feedback>
+                                <prompt1>sandboxSymphony/feedback/sid_ss_prompt01_take2.mp3</prompt1>
+                                <prompt2>sandboxSymphony/feedback/sid_ss_prompt02_take2.mp3</prompt2>
+                                <pail>sandboxSymphony/feedback/sid_ss_prompt_pail_take2.mp3</pail>
+                                <sneeze>sandboxSymphony/feedback/sid_ss_sneeze_take2.mp3</sneeze>
+                                <shovel>sandboxSymphony/Small/shovel.mp3</shovel>
+                        </vo>
+                        <blockRo>
+                                <sound>sandboxSymphony/masterClips/cat.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/dog.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/sneeze.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/crunch.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/drip.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/fizz.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/bounce.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/squeak.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/squirt.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/pot.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/horn.mp3</sound>
+                                <sound>sandboxSymphony/masterClips/ding.mp3</sound>
+                        </blockRo>
+                        <instrumentalVolume>
+                                <level>1</level>
+                                <level>.5</level>
+                                <level>.7</level>
+                        </instrumentalVolume>
+                </sandboxSymphony>
+                <weatherWheel>
+			<ambientAudio>ambientAudio/LittleRainCloud.mp3</ambientAudio>
+                        <idle>weatherWheel/gerald_done_take2.mp3</idle>
+                        <intro>weatherWheel/gerald_intro_take2.mp3</intro>
+                        <later>weatherWheel/gerald_later_take2.mp3</later>
+                        <rocks>weatherWheel/gerald_outfitrocks1_take2.mp3</rocks>
+						<outfitRocks>
+							<sound>weatherWheel/gerald_outfitrocks1.mp3</sound>
+							<sound>weatherWheel/gerald_outfitrocks2.mp3</sound>
+							<sound>weatherWheel/gerald_outfitrocks3.mp3</sound>
+						</outfitRocks>
+						<changeSomething>weatherWheel/gerald_changeprompt.mp3</changeSomething>
+                        <rain>weatherWheel/gerald_rainy_take2.mp3</rain>
+                        <sun>weatherWheel/gerald_sunny_take2.mp3</sun>
+                        <snow>weatherWheel/gerald_snowy_take2.mp3</snow>
+						<box>weatherWheel/gerald_box.mp3</box>
+						<doneIcon>weatherWheel/gerald_doneicon.mp3</doneIcon>
+						<spinAgain>weatherWheel/gerald_spinagain.mp3</spinAgain>
+                        <sfx>
+                        	<rain>weatherWheel/sfx/rain.mp3</rain>
+                                <sun>weatherWheel/sfx/gulls.mp3</sun>
+                                <snow>weatherWheel/sfx/wind.mp3</snow>
+                        </sfx>
+                        <rainy>
+                                <sound>weatherWheel/gerald_rainy_1_take2.mp3</sound>
+                                <sound>weatherWheel/gerald_rainy_2_take2.mp3</sound>
+                                <sound>weatherWheel/gerald_rainy_3_take2.mp3</sound>
+                        </rainy>
+                        <snowy>
+                                <sound>weatherWheel/gerald_snowy_2_take2.mp3</sound>
+                                <sound>weatherWheel/gerald_snowy_2_take2.mp3</sound>
+                                <sound>weatherWheel/gerald_snowy_3_take2.mp3</sound>
+                        </snowy>
+                        <sunny>
+                                <sound>weatherWheel/gerald_sunny_1_take2.mp3</sound>
+                                <sound>weatherWheel/gerald_sunny_2_take2.mp3</sound>
+                                <sound>weatherWheel/gerald_sunny_3_take2.mp3</sound>
+                        </sunny>
+                </weatherWheel>
+        </zone2>
+        <zone3>
+                <mixItUp>
+                        <gameAudio>
+				<ambientAudio>ambientAudio/FoodBand.mp3</ambientAudio>
+                                <intro>mixItUp/sid_fridge_intro_take1.mp3</intro>
+                                <prompt1>mixItUp/sid_fridge_prompt01_take1.mp3</prompt1>
+                                <prompt2>mixItUp/sid_fridge_prompt02_take1.mp3</prompt2>
+                                <noSweet>mixItUp/sid_extra_sweet_take2.mp3</noSweet>
+                                <correct>mixItUp/sid_yummy_take1.mp3</correct>
+                                <water2>mixItUp/sid_water2_take1.mp3</water2>
+                                <water>mixItUp/sid_water_take1.mp3</water>
+                                <ice>mixItUp/sid_ice_take1.mp3</ice>
+                                <eat>mixItUp/sid_eat_take2.mp3</eat>
+                                <clink>mixItUp/clink.mp3</clink>
+                                <clinkWater>mixItUp/clinkWater.mp3</clinkWater>
+                               	<waterPour>mixItUp/waterPour.mp3</waterPour>
+								<reward>
+									<sound>mixItUp/Sid_reward.mp3</sound>
+									<sound>mixItUp/Sid_reward2.mp3</sound>
+									<sound>mixItUp/Sid_reward3.mp3</sound>
+									<sound>mixItUp/Sid_reward4.mp3</sound>
+								</reward>
+                        </gameAudio>
+                        <foods>
+                                <bread>mixItUp/sid_grain_bread_take1.mp3</bread>
+                                <muffin>mixItUp/sid_grain_muffin_take1.mp3</muffin>
+                                <bagel>mixItUp/sid_grain_bagel_take1.mp3</bagel>
+                                <oatmeal>mixItUp/sid_grain_oatmeal_take1.mp3</oatmeal>
+                                <macaroni>mixItUp/sid_grain_macaroni_take1.mp3</macaroni>
+                                <rice>mixItUp/sid_grain_rice_take1.mp3</rice>
+                                <pretzel>mixItUp/sid_grain_pretzel_take1.mp3</pretzel>
+                                <apple>mixItUp/sid_fruit_apple_take1.mp3</apple>
+                                <grape>mixItUp/sid_fruit_grape_take1.mp3</grape>
+                                <orange>mixItUp/sid_fruit_orange_take1.mp3</orange>
+                                <strawberry>mixItUp/sid_fruit_straw_take1.mp3</strawberry>
+                                <banana>mixItUp/sid_fruit_banana_take1.mp3</banana>
+                                <cherry>mixItUp/sid_fruit_cherry_take1.mp3</cherry>
+                                <pineapple>mixItUp/sid_fruit_pineapple_take1.mp3</pineapple>
+                                <watermelon>mixItUp/sid_fruit_watermelon_take1.mp3</watermelon>
+                                <broccoli>mixItUp/sid_veg_broccoli_take1.mp3</broccoli>
+                                <carrot>mixItUp/sid_veg_carrot_take1.mp3</carrot>
+                                <peapod>mixItUp/sid_veg_peapod_take1.mp3</peapod>
+                                <lettuce>mixItUp/sid_veg_lettuce_take1.mp3</lettuce>
+                                <corn>mixItUp/sid_veg_corn_take1.mp3</corn>
+                                <artichoke>mixItUp/sid_veg_artichoke_take1.mp3</artichoke>
+                                <potato>mixItUp/sid_veg_potato_take1.mp3</potato>
+                                <mushroom>mixItUp/sid_veg_mushroom_take1.mp3</mushroom>
+                                <pepper>mixItUp/sid_veg_pepper_take1.mp3</pepper>
+                                <milk_carton>mixItUp/sid_milk_carton_take1.mp3</milk_carton>
+                                <cottage_cheese>mixItUp/sid_milk_cottage_take1.mp3</cottage_cheese>
+                                <yogurt>mixItUp/sid_milk_yogurt_take1.mp3</yogurt>
+                                <swiss_cheese>mixItUp/sid_milk_cheese_take1.mp3</swiss_cheese>
+                                <egg>mixItUp/sid_meatbean_egg_take1.mp3</egg>
+                                <chicken>mixItUp/sid_meatbean_chicken_take1.mp3</chicken>
+                                <beans>mixItUp/sid_meatbean_beans_take1.mp3</beans>
+                                <fish>mixItUp/sid_meatbean_fish_take1.mp3</fish>
+                                <tofu>mixItUp/sid_meatbean_tofu_take1.mp3</tofu>
+                                <cupcake>mixItUp/sid_extra_cupcake_take1.mp3</cupcake>
+                                <cookie>mixItUp/sid_extra_cookie_take1.mp3</cookie>
+                        </foods>
+                        <foodGroups>
+                        	<milk>mixItUp/sid_milk_take1.mp3</milk>
+                                <grain>mixItUp/sid_grain_take1.mp3</grain>
+                                <vegi>mixItUp/sid_veg_take1.mp3</vegi>
+                                <fruit>mixItUp/sid_fruit_take1.mp3</fruit>
+                                <meat>mixItUp/sid_meatbean_take1.mp3</meat>
+                        </foodGroups>
+                </mixItUp>
+                <sidSays>
+                        <vo>
+                                <movements>
+                                        <eyebrows>
+                                                <dad>sidSays/movements/dad_says_eyebrows_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_eyebrows_take2.mp3</sid>
+                                        </eyebrows>
+                                        <eyes>
+                                                <dad>sidSays/movements/dad_says_eyes_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_eyes_take2.mp3</sid>
+                                        </eyes>
+                                        <cheeks>
+                                                <dad>sidSays/movements/dad_says_cheeks_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_cheeks_take2.mp3</sid>
+                                        </cheeks>
+                                        <mouth>
+                                                <dad>sidSays/movements/dad_says_mouth_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_mouth_take2.mp3</sid>
+                                        </mouth>
+                                        <nose>
+                                                <dad>sidSays/movements/dad_says_nose_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_nose_take2.mp3</sid>
+                                        </nose>
+                                        <ears>
+                                                <dad>sidSays/movements/dad_says_ears_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_ears_take2.mp3</sid>
+                                        </ears>
+                                        <!--neck>
+                                                <dad>sidSays/movements/dad_says_neck_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_neck_take2.mp3</sid>
+                                        </neck-->
+                                        <armLeft>
+                                                <dad>sidSays/movements/dad_says_arm_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_arm_take2.mp3</sid>
+                                        </armLeft>
+                                        <armRight>
+                                                <dad>sidSays/movements/dad_says_arm_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_arm_take2.mp3</sid>
+                                        </armRight>
+                                        <fingersLeft>
+                                                <dad>sidSays/movements/dad_says_fingers_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_fingers_take2.mp3</sid>
+                                        </fingersLeft>
+                                        <fingersRight>
+                                                <dad>sidSays/movements/dad_says_fingers_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_fingers_take2.mp3</sid>
+                                        </fingersRight>
+                                        <legLeft>
+                                                <dad>sidSays/movements/dad_says_leg_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_leg_take2.mp3</sid>
+                                        </legLeft>
+                                        <legRight>
+                                                <dad>sidSays/movements/dad_says_leg_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_leg_take2.mp3</sid>
+                                        </legRight>
+                                        <footLeft>
+                                                <dad>sidSays/movements/dad_says_foot_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_foot_take2.mp3</sid>
+                                        </footLeft>
+                                        <footRight>
+                                                <dad>sidSays/movements/dad_says_foot_take2.mp3</dad>
+                                                <sid>sidSays/movements/sid_says_foot_take2.mp3</sid>
+                                        </footRight>
+                                </movements>
+                                <feedback>
+                                        <ambientAudio>ambientAudio/MusclesSong.mp3</ambientAudio>
+                                        <intro>sidSays/feedback/sid_says_intro_take2.mp3</intro>
+                                        <gameOver>sidSays/feedback/sid_says_gameover_take2.mp3</gameOver>
+                                        <youGotIt1>sidSays/feedback/sid_says_yougot01_take2.mp3</youGotIt1>
+                                        <youGotIt2>sidSays/feedback/sid_says_yougot02_take2.mp3</youGotIt2>
+                                        <yourTurn>sidSays/feedback/sid_says_yourturn_take2.mp3</yourTurn>
+                                        <youTry>sidSays/feedback/sid_says_youtry_take2.mp3</youTry>
+                                        <dadReady>sidSays/feedback/dad_ready_take2.mp3</dadReady>
+                                        <nope>sidSays/feedback/sid_says_nope_take2.mp3</nope>
+                                        <sidSays>sidSays/feedback/sid_says_sidsays_take2.mp3</sidSays>
+                                        <practice>sidSays/feedback/sid_says_practice_take2.mp3</practice>
+                                        <practice1>sidSays/feedback/sid_says_practice1.mp3</practice1>
+                                        <practice2>sidSays/feedback/sid_says_practice2.mp3</practice2>
+                                        <dadMoveYour>sidSays/feedback/dad_sidsays_take2a.mp3</dadMoveYour>
+                                        <dadThen>sidSays/feedback/dad_says_then.mp3</dadThen>
+                                        <practiceMe>sidSays/feedback/sid_says_practice_me_take2.mp3</practiceMe>
+                                        <practiceCorrect>sidSays/feedback/sid_says_practice_correct_take2.mp3</practiceCorrect>
+
+                                        <dadAh>sidSays/movements/dad_says_aah_take2.mp3</dadAh>
+                                        <sidAh>sidSays/movements/sid_says_ahh_take2.mp3</sidAh>
+                                        <correct>
+                                        	<file>sid_yes1.mp3</file>
+                                                <file>sid_yes2.mp3</file>
+                                                <file>sid_yes3.mp3</file>
+                                        </correct>
+                                        <music>sidSays/sfx/sidSaysLoopSmall.mp3</music>
+                                </feedback>
+                        </vo>
+                </sidSays>
+		<germs>
+			<vo>
+				<music>germs/virus_sid_music.mp3</music>
+				<intro>germs/virus_sid_intro.mp3</intro>
+				<shot>germs/virus_sid_shot.mp3</shot>
+				<prompt>germs/virus_sid_prompt.mp3</prompt>
+				<cheer>germs/virus_sid_cheer.mp3</cheer>
+				<miss>germs/virus_sid_miss.mp3</miss>
+				<hit01>germs/virus_sid_hit01.mp3</hit01>
+				<hit02>germs/virus_sid_hit02.mp3</hit02>
+				<hit03>germs/virus_sid_hit03.mp3</hit03>
+				<hit04>germs/virus_sid_hit04.mp3</hit04>
+				<alert>germs/virus_sid_alert.mp3</alert>
+				<lose>germs/virus_sid_lose.mp3</lose>
+				<win01>germs/virus_sid_win01.mp3</win01>
+				<win02>germs/virus_sid_win02.mp3</win02>
+				<win03>germs/virus_sid_win03.mp3</win03>
+				<flu>germs/virus_fight_flu.mp3</flu>
+			</vo>
+		</germs>
+		<!--<shadow>
+			<vo>
+				<music>shadow/theme.mp3</music>
+				<intro1>shadow/100.mp3</intro1>
+				<intro2>shadow/101.mp3</intro2>
+				<idle>shadow/200.mp3</idle>
+				<shapeOver>shadow/300.mp3</shapeOver>
+				<switchOver_0>shadow/301a.mp3</switchOver_0>
+				<switchOver_1>shadow/301b.mp3</switchOver_1>
+				<newGameCard>shadow/302.mp3</newGameCard>
+				<noshapes>shadow/400.mp3</noshapes>
+				<correct_511a>shadow/511a.mp3</correct_511a>
+				<correct_511b>shadow/511b.mp3</correct_511b>
+				<correct_511c>shadow/511c.mp3</correct_511c>
+				<correct_511d>shadow/511d.mp3</correct_511d>
+				<correct_512a>shadow/512a.mp3</correct_512a>
+				<correct_512b>shadow/512b.mp3</correct_512b>
+				<correct_512c>shadow/512c.mp3</correct_512c>
+				<correct_512d>shadow/512d.mp3</correct_512d>
+				<correct_513a>shadow/513a.mp3</correct_513a>
+				<correct_513b>shadow/513b.mp3</correct_513b>
+				<correct_513c>shadow/513c.mp3</correct_513c>
+				<correct_513d>shadow/513d.mp3</correct_513d>
+				<correct_514a>shadow/514a.mp3</correct_514a>
+				<correct_514b>shadow/514b.mp3</correct_514b>
+				<correct_514c>shadow/514c.mp3</correct_514c>
+				<correct_514d>shadow/514d.mp3</correct_514d>
+				<correct_515a>shadow/515a.mp3</correct_515a>
+				<correct_515b>shadow/515b.mp3</correct_515b>
+				<correct_515c>shadow/515c.mp3</correct_515c>
+				<correct_515d>shadow/515d.mp3</correct_515d>
+				<correct_521a>shadow/521a.mp3</correct_521a>
+				<correct_521b>shadow/521b.mp3</correct_521b>
+				<correct_521c>shadow/521c.mp3</correct_521c>
+				<correct_521d>shadow/521d.mp3</correct_521d>
+				<correct_522a>shadow/522a.mp3</correct_522a>
+				<correct_522b>shadow/522b.mp3</correct_522b>
+				<correct_522c>shadow/522c.mp3</correct_522c>
+				<correct_522d>shadow/522d.mp3</correct_522d>
+				<correct_522e>shadow/522e.mp3</correct_522e>
+				<correct_523a>shadow/523a.mp3</correct_523a>
+				<correct_523b>shadow/523b.mp3</correct_523b>
+				<correct_523c>shadow/523c.mp3</correct_523c>
+				<correct_523d>shadow/523d.mp3</correct_523d>
+				<correct_523e>shadow/523e.mp3</correct_523e>
+				<correct_524a>shadow/524a.mp3</correct_524a>
+				<correct_524b>shadow/524b.mp3</correct_524b>
+				<correct_524c>shadow/524c.mp3</correct_524c>
+				<correct_524d>shadow/524d.mp3</correct_524d>
+				<correct_524e>shadow/524e.mp3</correct_524e>
+				<correct_525a>shadow/525a.mp3</correct_525a>
+				<correct_525b>shadow/525b.mp3</correct_525b>
+				<correct_525c>shadow/525c.mp3</correct_525c>
+				<correct_525d>shadow/525d.mp3</correct_525d>
+				<correct_525e>shadow/525e.mp3</correct_525e>
+				<correct_531a>shadow/531a.mp3</correct_531a>
+				<correct_531b>shadow/531b.mp3</correct_531b>
+				<correct_531c>shadow/531c.mp3</correct_531c>
+				<correct_531d>shadow/531d.mp3</correct_531d>
+				<correct_531e>shadow/531e.mp3</correct_531e>
+				<correct_531f>shadow/531f.mp3</correct_531f>
+				<correct_532a>shadow/532a.mp3</correct_532a>
+				<correct_532b>shadow/532b.mp3</correct_532b>
+				<correct_532c>shadow/532c.mp3</correct_532c>
+				<correct_532d>shadow/532d.mp3</correct_532d>
+				<correct_532e>shadow/532e.mp3</correct_532e>
+				<correct_532f>shadow/532f.mp3</correct_532f>
+				<correct_533a>shadow/533a.mp3</correct_533a>
+				<correct_533b>shadow/533b.mp3</correct_533b>
+				<correct_533c>shadow/533c.mp3</correct_533c>
+				<correct_533d>shadow/533d.mp3</correct_533d>
+				<correct_533e>shadow/533e.mp3</correct_533e>
+				<correct_534a>shadow/534a.mp3</correct_534a>
+				<correct_534b>shadow/534b.mp3</correct_534b>
+				<correct_534c>shadow/534c.mp3</correct_534c>
+				<correct_534d>shadow/534d.mp3</correct_534d>
+				<correct_534e>shadow/534e.mp3</correct_534e>
+				<correct_535a>shadow/535a.mp3</correct_535a>
+				<correct_535b>shadow/535b.mp3</correct_535b>
+				<correct_535c>shadow/535c.mp3</correct_535c>
+				<correct_535d>shadow/535d.mp3</correct_535d>
+				<correct_535e>shadow/535e.mp3</correct_535e>
+				<correct_535f>shadow/535f.mp3</correct_535f>
+				<wrong1>shadow/701.mp3</wrong1>
+				<wrong2>shadow/702.mp3</wrong2>
+				<wrong3>shadow/703.mp3</wrong3>
+				<wrong4>shadow/704.mp3</wrong4>
+				<wrong5>shadow/705.mp3</wrong5>
+				<wrong6>shadow/706.mp3</wrong6>
+				<onGlobalUI>shadow/800.mp3</onGlobalUI>
+				<playAgainOver>shadow/801.mp3</playAgainOver>
+				<finishedOver>shadow/802.mp3</finishedOver>
+				<videoOver>shadow/803.mp3</videoOver>
+				<sfxDrop>shadow/sfxDrop.mp3</sfxDrop>
+				<sfxGlass>shadow/sfxGlass.mp3</sfxGlass>
+				<sfxPickUp>shadow/sfxPickUp.mp3</sfxPickUp>
+				<sfxSwitch>shadow/sfxSwitch.mp3</sfxSwitch>
+				<pupp2>shadow/603.mp3</pupp2>
+				<pupp3>shadow/601.mp3</pupp3>
+				<pupp4>shadow/602.mp3</pupp4>
+				<pupp5>shadow/604.mp3</pupp5>
+				<pupp6>shadow/605.mp3</pupp6>
+			</vo>
+		</shadow>-->
+		<shadow>
+			<vo>
+				<music>shadow/theme.mp3</music>
+				<intro1>shadow/100.mp3</intro1>
+				<intro2>shadow/101.mp3</intro2>
+				<idle>shadow/200.mp3</idle>
+				<shapeOver>shadow/300.mp3</shapeOver>
+				<switchOver_0>shadow/301a.mp3</switchOver_0>
+				<switchOver_1>shadow/301b.mp3</switchOver_1>
+				<newGameCard>shadow/302.mp3</newGameCard>
+				<noshapes>shadow/400.mp3</noshapes>
+				<correct_511>shadow/511.mp3</correct_511>
+				<correct_512>shadow/512.mp3</correct_512>
+				<correct_513>shadow/513.mp3</correct_513>
+				<correct_514>shadow/514.mp3</correct_514>
+				<correct_515>shadow/515.mp3</correct_515>
+				<correct_521>shadow/521.mp3</correct_521>
+				<correct_522>shadow/522.mp3</correct_522>
+				<correct_523>shadow/523.mp3</correct_523>
+				<correct_524>shadow/524.mp3</correct_524>
+				<correct_525>shadow/525.mp3</correct_525>
+				<correct_531>shadow/531.mp3</correct_531>
+				<correct_532>shadow/532.mp3</correct_532>
+				<correct_533>shadow/533.mp3</correct_533>
+				<correct_534>shadow/534.mp3</correct_534>
+				<correct_535>shadow/535.mp3</correct_535>
+				<wrong1>shadow/701.mp3</wrong1>
+				<wrong2>shadow/702.mp3</wrong2>
+				<wrong3>shadow/703.mp3</wrong3>
+				<wrong4>shadow/704.mp3</wrong4>
+				<wrong5>shadow/705.mp3</wrong5>
+				<wrong6>shadow/706.mp3</wrong6>
+				<onGlobalUI>shadow/800.mp3</onGlobalUI>
+				<playAgainOver>shadow/801.mp3</playAgainOver>
+				<finishedOver>shadow/802.mp3</finishedOver>
+				<videoOver>shadow/803.mp3</videoOver>
+				<sfxDrop>shadow/sfxDrop.mp3</sfxDrop>
+				<sfxGlass>shadow/sfxGlass.mp3</sfxGlass>
+				<sfxPickUp>shadow/sfxPickUp.mp3</sfxPickUp>
+				<sfxSwitch>shadow/sfxSwitch.mp3</sfxSwitch>
+				<pupp2>shadow/603.mp3</pupp2>
+				<pupp3>shadow/601.mp3</pupp3>
+				<pupp4>shadow/602.mp3</pupp4>
+				<pupp5>shadow/604.mp3</pupp5>
+				<pupp6>shadow/605.mp3</pupp6>
+			</vo>
+		</shadow>
+		<treehouse>
+			<vo>
+				<sidhover>treehouse/301_sid_genericGame.mp3</sidhover>
+				<gabrielahover>treehouse/401_gab_genericGame.mp3</gabrielahover>
+				<geraldhover>treehouse/501_gerald_genericGame.mp3</geraldhover>
+				<mayhover>treehouse/601_may_genericGame.mp3</mayhover>
+				<granhover>treehouse/601_may_genericGame.mp3</granhover>
+				
+			</vo>
+		</treehouse>
+		<ramprace>
+			<vo>
+				<music>ramprace/music.mp3</music>
+				<intro>ramprace/intro.mp3</intro>
+			</vo>
+		</ramprace>
+		<tower>
+			<vo>
+				<music>tower/theme.mp3</music>
+				<intro>tower/100.mp3</intro>
+				<intro2>tower/302.mp3</intro2>
+				<idle_0>tower/200.mp3</idle_0>
+				<idle_1>tower/201.mp3</idle_1>
+				<geraldHoverIdle>tower/301.mp3</geraldHoverIdle>
+				<geraldBadClick>tower/400.mp3</geraldBadClick>
+				<correct_0>tower/501.mp3</correct_0>
+				<correct_1>tower/502.mp3</correct_1>
+				<correct_2>tower/503.mp3</correct_2>
+				<payoff_0>tower/601.mp3</payoff_0>
+				<payoff_1>tower/602.mp3</payoff_1>
+				<payoff_2>tower/603.mp3</payoff_2>
+				<incorrect_short_0>tower/701.mp3</incorrect_short_0>
+				<incorrect_short_1>tower/702.mp3</incorrect_short_1>
+				<incorrect_short_2>tower/703.mp3</incorrect_short_2>
+				<incorrect_short_3>tower/704.mp3</incorrect_short_3>
+				<incorrect_long_0>tower/801.mp3</incorrect_long_0>
+				<incorrect_long_1>tower/802.mp3</incorrect_long_1>
+				<incorrect_long_2>tower/803.mp3</incorrect_long_2>
+				<onGlobalUI>tower/300.mp3</onGlobalUI>
+				<playAgainOver>tower/900.mp3</playAgainOver>
+				<finishedOver>tower/901.mp3</finishedOver>
+				<videoOver>tower/902.mp3</videoOver>
+				<geraldSurface_1>tower/303.mp3</geraldSurface_1>
+				<geraldSurface_2>tower/304.mp3</geraldSurface_2>
+				<geraldSurface_3>tower/305.mp3</geraldSurface_3>
+				<geraldSurface_4>tower/306.mp3</geraldSurface_4>
+				<geraldSurface_5>tower/307.mp3</geraldSurface_5>
+				<geraldSurface_6>tower/308.mp3</geraldSurface_6>
+				<geraldSurface_7>tower/309.mp3</geraldSurface_7>
+				<geraldSurface_8>tower/310.mp3</geraldSurface_8>
+				<geraldSurface_9>tower/311.mp3</geraldSurface_9>
+				<geraldSurface_10>tower/313.mp3</geraldSurface_10>
+				<geraldSurface_11>tower/312.mp3</geraldSurface_11>
+				<geraldSurface_12>tower/314.mp3</geraldSurface_12>
+				<geraldSurface_13>tower/315.mp3</geraldSurface_13>
+				<geraldSurface_14>tower/316.mp3</geraldSurface_14>
+				<geraldSurface_15>tower/317.mp3</geraldSurface_15>
+				<geraldSurface_16>tower/318.mp3</geraldSurface_16>
+				<doorClose>tower/doorClose.mp3</doorClose>
+				<doorOpen>tower/doorOpen.mp3</doorOpen>
+				<doorOpenClose>tower/doorOpenClose.mp3</doorOpenClose>
+				<floorSet>tower/floorSet.mp3</floorSet>
+				<selectorSFX>tower/selector.mp3</selectorSFX>
+				<towerClear>tower/towerClear.mp3</towerClear>
+				<towerReset>tower/towerReset.mp3</towerReset>
+				<fall_0>tower/fall_0.mp3</fall_0>
+				<fall_1>tower/fall_1.mp3</fall_1>
+				<fall_2>tower/fall_2.mp3</fall_2>
+			</vo>
+		</tower>
+        <trashCollect>
+            <vo>
+                <introVO>cleansUp/100.mp3</introVO>
+                <lotsToDo>cleansUp/201.mp3</lotsToDo>
+                <rightBin>cleansUp/202.mp3</rightBin>
+                <hurryUp>cleansUp/203.mp3</hurryUp>
+                <putSomeInHere>cleansUp/300.mp3</putSomeInHere>
+                <pieces_5>cleansUp/405.mp3</pieces_5>
+                <pieces_8>cleansUp/408.mp3</pieces_8>
+                <pieces_10>cleansUp/410.mp3</pieces_10>
+                <pieces_15>cleansUp/415.mp3</pieces_15>
+                <pieces_20>cleansUp/420.mp3</pieces_20>
+                <notPaper>cleansUp/500.mp3</notPaper>
+                <notPlastic>cleansUp/501.mp3</notPlastic>
+                <notMetal>cleansUp/502.mp3</notMetal>
+                <pickupBin>cleansUp/503.mp3</pickupBin>
+                <shoo1>cleansUp/901.mp3</shoo1>
+                <shoo2>cleansUp/902.mp3</shoo2>
+                <shoo3>cleansUp/903.mp3</shoo3>
+                <knocked1>cleansUp/1001.mp3</knocked1>
+                <knocked2>cleansUp/1002.mp3</knocked2>
+                <knocked3>cleansUp/1003.mp3</knocked3>
+                <roundComplete1>cleansUp/601.mp3</roundComplete1>
+                <roundComplete2>cleansUp/602.mp3</roundComplete2>
+                <roundComplete3>cleansUp/603.mp3</roundComplete3>
+                <levelComplete1>cleansUp/701.mp3</levelComplete1>
+                <levelComplete2>cleansUp/702.mp3</levelComplete2>
+                <levelComplete3>cleansUp/703.mp3</levelComplete3>
+                <timeUp1>cleansUp/801.mp3</timeUp1>
+                <timeUp2>cleansUp/802.mp3</timeUp2>
+                <timeUp3>cleansUp/803.mp3</timeUp3>
+                <playAgainVO>cleansUp/2000.mp3</playAgainVO>
+                <exitVO>cleansUp/2001.mp3</exitVO>
+                <videoVO>cleansUp/2002.mp3</videoVO>
+                <level2Intro>cleansUp/3000.mp3</level2Intro>
+                <level3Intro>cleansUp/4000.mp3</level3Intro>
+            </vo>
+            <sfx>
+                <bin_correct>cleansUp/bin_correct.mp3</bin_correct>
+                <bin_fallover>cleansUp/bin_fallover.mp3</bin_fallover>
+                <bin_rollover>cleansUp/bin_rollover.mp3</bin_rollover>
+                <bin_wrong>cleansUp/bin_wrong.mp3</bin_wrong>
+                <bird_in>cleansUp/bird_in.mp3</bird_in>
+                <bird_out>cleansUp/bird_out.mp3</bird_out>
+                <bunny_out>cleansUp/bunny_out.mp3</bunny_out>
+                <enviro_grasslands>cleansUp/enviro_grasslands.mp3</enviro_grasslands>
+                <enviro_wind>cleansUp/enviro_wind.mp3</enviro_wind>
+                <litter_cans>cleansUp/litter_cans.mp3</litter_cans>
+                <litter_paper>cleansUp/litter_paper.mp3</litter_paper>
+                <litter_plastic>cleansUp/litter_plastic.mp3</litter_plastic>
+                <music>cleansUp/theme-15.mp3</music>
+                <running_grass>cleansUp/running_grass.mp3</running_grass>
+                <skip_btn>cleansUp/skip_btn.mp3</skip_btn>
+                <squirrel_in>cleansUp/squirrel_in.mp3</squirrel_in>
+                <squirrel_out>cleansUp/squirrel_out.mp3</squirrel_out>
+                <time_runningout>cleansUp/time_runningout.mp3</time_runningout>
+                <time_up>cleansUp/time_up.mp3</time_up>
+                <walk_grass>cleansUp/walk_grass.mp3</walk_grass>
+                <wind>cleansUp/wind.mp3</wind>
+            </sfx>
+        </trashCollect>
+
+        <rlgl>
+                <global>
+                        <player_tap_stop delay='0.3'/>
+                </global>
+                <setting round='1'>
+                        <green_light min='2' max='5'/>
+                        <red_light   min='2' max='5'/>
+                        <npc_speed min='1' max='2'/>
+                        <npc_fail percent='40'/>
+                        <npc_start_delay min='0.5' max='0.6'/>
+                </setting>
+                 <setting round='2'>
+                        <green_light min='2' max='5'/>
+                        <red_light   min='2' max='5'/>
+                        <npc_speed min='2' max='4'/>
+                        <npc_fail percent='20'/>
+                        <npc_start_delay min='0.5' max='0.6'/>
+                </setting>
+                 <setting round='3'>
+                        <green_light min='2' max='5'/>
+                        <red_light   min='2' max='5'/>
+                        <npc_speed min='3' max='5'/>
+                        <npc_fail percent='10'/>
+                        <npc_start_delay min='0.5' max='0.6'/>
+                </setting>
+        </rlgl>
+
+        <fly>
+                <game>
+                        <!-- 
+                                goalTimesEasy/Hard: The first number is score needed to obtain "Super Dooper" status, getting below this number 
+                                        will earn you "Super Pilot". The second number is the score needed to obtain "Super Dooper Ooper" status
+                                speedsEasy/Hard: [Fast Speed (space bar)], [base speed], [slow speed (balloon hit)]
+                                defaultLength: if a "length" attribute is not added to a seg node, it will default to this value
+                                defaultBalloonGap: if a "balloonGap" is not added to a seg node, it will default to this value
+                        -->
+
+                        <track round="1" goaltimeshard="31,29" goaltimeseasy="53,51" speedshard="22,12,3" speedseasy="22,12,3" difficulty="easy|hard" defaultlength="3" defaultballoongap="240">
+                                 <seg shift="80"/>
+                                <seg shift="-80"/>
+                                <seg shift="0"/>
+                                <seg shift="-80"/>
+                                <seg shift="80"/>
+                                <seg shift="80"/>
+                                <seg shift="-80"/>
+                                <seg shift="40"/>
+                                <seg shift="-80"/>
+                                <seg shift="40"/>
+                                <seg shift="40"/>
+                                <seg shift="-20"/>
+                                <seg shift="-80"/>
+                                <seg shift="40"/>
+                                <seg shift="0"/>
+                                <seg shift="80"/>
+                                <seg shift="-80"/>
+                                <seg shift="0"/>
+                                <seg shift="80"/>
+                                <seg shift="0"/>
+                                <seg shift="-80"/>
+                                <seg shift="90"/>
+                        </track>
+                        <track round="2" goaltimeshard="35,33" goaltimeseasy="62,60" speedshard="26,16,4" speedseasy="24,14,3" difficulty="easy|hard" defaultlength="3" defaultballoongap="235">
+                               <seg shift="-80"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="80"/>
+                                <seg shift="0"/>
+                                <seg shift="80"/>
+                                <seg shift="-80"/>
+                                <seg shift="0" balloongap="225"/>
+                                <seg shift="0" balloongap="225"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="0" length="5" balloongap="220"/>
+                                <seg shift="0" balloongap="220"/>
+                                <seg shift="-160"/>
+                                <seg shift="-80"/>
+                                <seg shift="0"/>
+                                <seg shift="80"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-80"/>
+                                <seg shift="160"/>
+                                <seg shift="0"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="0"/>
+                        </track>
+                        <track round="3" goaltimeshard="38,36" goaltimeseasy="65,63" speedshard="28,18,5" speedseasy="26,16,3" difficulty="easy|hard" defaultlength="2" defaultballoongap="230">
+                                <seg shift="0"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="120"/>
+                                <seg shift="-120"/>
+                                <seg shift="120"/>
+                                <seg shift="-120"/>
+                                <seg shift="100"/>
+                                <seg shift="-100"/>
+                                <seg shift="120"/>
+                                <seg shift="-120"/>
+                                <seg shift="120"/>
+                                <seg shift="-120"/>
+                                <seg shift="100"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="0"/>
+                                <seg shift="100"/>
+                                <seg shift="-100"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="80"/>
+                                <seg shift="-80"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="0" length="3" balloongap="200"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="160"/>
+                                <seg shift="-160"/>
+                                <seg shift="140"/>
+                                <seg shift="-140"/>
+                                <seg shift="170"/>
+                                <seg shift="-170"/>
+                                <seg shift="170"/>
+                                <seg shift="-170"/>
+                                <seg shift="170"/>
+                                <seg shift="-170"/>
+                                <seg shift="170"/>
+                                <seg shift="-170"/>
+                                <seg shift="170"/>
+                                <seg shift="-170"/>
+                                <seg shift="170"/>
+                                <seg shift="-170"/>
+                        </track>
+                </game>
+        </fly>
+        
+        </zone3>
+        
+        <mathExample>
+            <vo>
+                <excellent>trashCollector/bill_ted_excellent.mp3</excellent>
+            </vo>
+        </mathExample>
+</root>

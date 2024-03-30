@@ -1,0 +1,108 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE --> <img src="../images/header_parentsteachers.jpg" alt="Parents &amp; Teachers" width="259" height="54" class="headerimage">
+  <div id="subnav">
+   <a href="index.html">Overview</a> | <a href="family.html" class="active">Family Guide</a> | <a href="teachers.html">Teacher's Guide</a> | <a href="lessons.html">Lesson Plans</a>
+  </div> <img src="../images/header_familyguide.jpg" alt="Family Guide" width="141" height="33" class="contentheader">
+  <div id="sidebarwrapper">
+   <div id="sidebargreentop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreencontainer">
+    <div id="sidebargreencontent">
+     <p><strong>Create and care for your own <a href="../index.html@load=eekocreature">EekoCreature</a>, then explore <a href="../index.html@load=eekohouse">EekoHouse</a> for conservation ideas! </strong></p>
+    </div>
+   </div>
+   <div id="sidebargreenbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+  </div> <a name="quiz"></a><span class="subhead">What Do I Know? Eeko Quizzes</span><br>
+  <p>Have fun and test your knowledge of environmental issues on the following Web sites:</p>
+  <ul>
+   <li>Learn more about recycling when you take the It's Not All Garbage Quiz on the <a href="http://www.dnr.state.wi.us/org/caer/ce/eek/earth/recycle/notgarbage.htm" title="It's Not All Garbage Quiz">Wisconsin Department of Natural Resources Web site</a>.<br><br></li>
+   <li>Find out how well your family recycles, reduces, and re-uses when you complete the Home Recycling Survey on the <a href="http://www.dnr.state.wi.us/org/caer/ce/eek/earth/recycle/recyquiz.htm" title="Home Recycling Survey">Wisconsin Department of Natural Resources Web site</a>.<br><br></li>
+   <li>The <a href="http://cyberschoolbus.un.org/waterquiz/waterquiz4/index.asp" title="United Nations Cyber School Bus Water Quiz">United Nations Cyber School Bus Water Quiz</a> tests your knowledge as you discover interesting facts about water. <br><br></li>
+   <li><a href="http://www.grinningplanet.com/2004/09-21/water-usage-environmental-quiz-article.htm" title="The Grinning Planet Web site">The Grinning Planet Web site</a> offers a quiz to help you evaluate how your family uses water. The quiz offers suggestions on ways to lower your water consumption.<br><br></li>
+   <li>Test your knowledge of safe drinking water on the <a href="http://www.epa.state.il.us/kids/fun-stuff/quiz/water-quiz.html" title="Illinois Environmental Protection Agency Web site">Illinois Environmental Protection Agency Web site</a>.<br><br></li>
+   <li>Test your knowledge of environmental protection on the <a href="http://bccf.com/ecoed/Kids/env_q.html" title="Eco Education British Columbia Web site">Eco Education British Columbia Web site</a>.<br><br></li>
+   <li>Rate your Eco-smarts when you take the <a href="http://www.nationalgeographic.com/ngkids/trythis/greenometer/greenometer.html" title="National Geographic Green-O-Meter Quiz">National Geographic Green-O-Meter Quiz</a>.<br><br></li>
+   <li>Test your energy knowledge on the Kid's section of the <a href="http://www.eia.doe.gov/kids/energy_fungames/quiz/index.html" title="Energy Information Administration Web site">Energy Information Administration Web site</a>.</li>
+  </ul> <br>
+  <div align="right">
+   <strong>« <a href="family.html" class="next">Previous</a></strong>&nbsp; | &nbsp;<strong><a href="family2.html" class="next">Next</a> »</strong>
+  </div>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

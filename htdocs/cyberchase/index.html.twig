@@ -1,0 +1,72 @@
+{% extends 'cyberchase/includes/cyberchasePage.html.twig' %}
+{% set desc = 'CYBERCHASE shows kids that math is everywhere and everyone can be good at it! Online quests, games, videos and more help kids develop strong math and problem-solving skills
+' %}
+{% set keywds = 'cyberchase, siberchase, cyber chase, cyber squad, cybersquad, math, maths, franctions, fraction, fractions, PBS, PBS Kids, pbs kids go, educational, math education, cool, fun, lesson, lessons, kids, multiplication, division, addition, subtraction' %}
+{% set pageTitle = 'Cyberchase . Math is Everywhere' %}
+
+
+{% block specialHead %}<style type="text/css">
+		#headband-page-wrap {
+			background-image: url('http://pbskids.org/cyberchase/static/images/backgrounds/home.jpg');
+      background-repeat: no-repeat;
+			overflow-x: hidden;
+		}
+	</style>
+<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/swfobject.js"></script>
+<script type="text/javascript">
+		var animations = ["home_anim_donuts.swf", "home_anim_door.swf", "home_anim_washme.swf"]
+		var animation = animations[Math.floor(Math.random() * animations.length)]
+		var attributes = {wmode: 'transparent'}
+		swfobject.embedSWF("http://pbskids.org/cyberchase/static/swf/" + animation, "homepage-swfobject", "1600", "680", "10.0.0", null, null, attributes);
+	</script>
+<script type="text/javascript">
+		$(document).ready(function() {
+
+			if (!swfobject.hasFlashPlayerVersion('10.0.0')) {
+				$('body').css('background-image', "url('http://pbskids.org/cyberchase/static/images/backgrounds/home_static.jpg')")
+			}
+
+			$('#promo-container').load('/cyberchase/promotions/home', function() {
+				cyberchase.bindAnalytics();
+				$('#gallery').gallery(
+						{
+							'speed': 7000
+						});
+				if (typeof pngfix == 'function') {
+					pngfix();
+				}
+			});
+			$('#poll-container').load('/cyberchase/kids-poll/promo', function() {
+				cyberchase.bindAnalytics();
+				if (typeof pngfix == 'function') {
+					pngfix();
+				}
+			});
+		})
+	</script>
+{% endblock %}
+
+
+{% set bodyOpeningTag = '<body id=\"page-home\">' %}
+{% set selectedNav = 'HOME' %}
+
+
+{% block specialMiddleElems %}<div id="homepage-swfobject"></div>
+{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="content">
+ <div id="home-limiter">
+  <div id="promo-container"></div>
+  <div id="poll-container"></div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/jquery.homeGallery.js"></script>
+{% endblock %}
+

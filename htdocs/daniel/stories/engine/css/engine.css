@@ -1,0 +1,333 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #BBB;
+	height: 100%;
+}
+
+p {
+	margin-top: 0;
+}
+
+em {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Engine Container */
+
+#pbsStorybookContainer {
+	/* Keep all elements within the pages */
+	overflow-x: hidden;
+
+	/* Turn off tap highlight in Mobile Safari */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	/* Relative position is required to position the absolute positioned elements */
+	position: relative !important;
+
+	width: 100%;
+	height: 100%;
+}
+
+/* Background */
+
+#pbsBookWrapper {
+	/* Keep all elements within the wrapper */
+	overflow-x: hidden;
+
+	width: 100%;
+	height: 100%;
+}
+
+/* Book */
+
+#pbsBookContainer {
+	width: 100%;
+
+	perspective : 1000;
+
+}
+
+.pbsPageTurnContainer {
+	position: relative !important;
+
+	/* Keep all elements within the pages */
+	overflow-x: hidden;
+
+	width: 50%;
+	height: 100%;
+
+	/* Represent book depth */
+	border-bottom: 2px #333 solid;
+
+	transform-style : preserve-3d;
+}
+
+.pbsPageTurnPageContainer {
+
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+}
+
+.pbsRightPageTurnGradient {
+
+	/* Represent page edge */
+	border-right: 4px #000 solid;
+
+	position: absolute;
+
+	background-image: -webkit-gradient(linear, 100% 0%, 0% 0%, from(rgba(100, 100, 100, 0)), to(rgba(100, 100, 100, 0.5)));
+	background-image: -webkit-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -moz-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -ms-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -o-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+
+	width: 100%;
+	height: 100%;
+}
+
+.pbsLeftPageTurnGradient {
+	/* Represent page edge */
+	border-left: 4px #000 solid;
+
+	position: absolute;
+
+	background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgba(100, 100, 100, 0)), to(rgba(100, 100, 100, 0.5)));
+	background-image: -webkit-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -moz-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -ms-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -o-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+
+	width: 100%;
+	height: 100%;
+}
+
+.pbsPagesContainer {
+
+	position: absolute;
+
+	/* Keep all elements within the pages */
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+	width: 100%;
+	height: 100%;
+
+	/* Represent book depth */
+	border-bottom: 2px #333 solid;
+
+	/* Book shadow */
+	-moz-box-shadow: 0px 1px 5px 0px #000;
+	-webkit-box-shadow: 0px 1px 5px 0px #000;
+	box-shadow: 0px 1px 5px 0px #000;
+}
+
+.pbsPageContainer {
+	height: 100%;
+	float: left;
+}
+
+.one-page .pbsPageContainer {
+	overflow-x: hidden;
+}
+
+.pbsPage {
+	/* Relative position is required to position the absolute positioned elements */
+	position: relative !important;
+
+	width: 100%;
+	height: 100%;
+}
+
+.pbsPageCanvas {
+	/* Position left page and right page next to each other */
+	float: left;
+
+	width: 100%;
+	height: 100%;
+}
+
+.pbsCanvas {
+	/* Layer the element on top of the page */
+	position: absolute;
+}
+
+.pbsTextArea {
+	/* Layer the element on top of the page */
+	position: absolute;
+
+	margin: 0;
+
+	/* Remove the default text cursor */
+	cursor: default;
+
+	/* Prevent highlighting text on drag */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.pbsDrawingPad {
+	/* Layer the element on top of the page */
+	position: absolute;
+
+	margin: 0;
+}
+
+.drawingCanvas {
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+}
+
+/* Page Buttons */
+
+.pbsStorybookNav {
+	/* Nav container will have absolute buttons so it does not need dimensions */
+	width: 0;
+	height: 0;
+}
+
+/* Loading */
+
+.loadingContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.preloaderContainer {
+	margin: 0 0 0 -164px;
+	top: 25%;
+	left: 50%;
+	position: absolute;
+	width: 328px;
+	height: 180px;
+}
+
+.preloaderBook {
+	background: url("../../big-brother-daniel/images/book-animation.png") 0 0 no-repeat;
+	width: 328px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.preloaderPlayButton {
+	display: block;
+	width: 40px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 30px 45px;
+	background-color:#f23717;
+	-moz-border-radius:65px;
+	-webkit-border-radius:65px;
+	border-radius:65px;
+	-moz-box-shadow: 0px 8px 0px 0px #b51f18;
+	-webkit-box-shadow: 0px 8px 0px 0px #b51f18;
+	box-shadow: 0px 8px 0px 0px #b51f18;
+	position: relative;
+	opacity: 1;
+
+	-moz-transition: opacity 0.25s linear;
+	-webkit-transition: opacity 0.25s linear;
+	transition: opacity 0.25s linear;
+}
+
+.preloaderPlayButton:active {
+	position: relative;
+	top: 8px;
+	-moz-box-shadow: 0px 0px 0px 0px #b51f18;
+	-webkit-box-shadow: 0px 0px 0px 0px #b51f18;
+	box-shadow: 0px 0px 0px 0px #b51f18;
+}
+
+.preloaderPlaySymbol {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 29px 0 29px 54px;
+	border-color: transparent transparent transparent #ffdb26;
+	filter: inherit;
+}
+
+.preloaderPlaySymbolShadow {
+	position: absolute;
+	margin-top: 8px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 29px 0 29px 54px;
+	border-color: transparent transparent transparent #f7c21f;
+	filter: inherit;
+}
+
+.preloaderPlaySymbolCorner {
+	position: absolute;
+	margin-top: 29px;
+	background: #f7c21f;
+	width: 54px;
+	height: 8px;
+	filter: inherit;
+}
+
+.preloaderBook.preloaderAnimate {
+	-webkit-animation: pageflip .8s steps(11) infinite;
+       -moz-animation: pageflip .8s steps(11) infinite;
+        -ms-animation: pageflip .8s steps(11) infinite;
+         -o-animation: pageflip .8s steps(11) infinite;
+            animation: pageflip .8s steps(11) infinite;
+}
+
+@-webkit-keyframes pageflip {
+   from { background-position:    0px; }
+     to { background-position: -3608px; }
+}
+
+@-moz-keyframes pageflip {
+   from { background-position:    0px; }
+     to { background-position: -3608px; }
+}
+
+@-ms-keyframes pageflip {
+   from { background-position:    0px; }
+     to { background-position: -3608px; }
+}
+
+@-o-keyframes pageflip {
+   from { background-position:    0px; }
+     to { background-position: -3608px; }
+}
+
+@keyframes pageflip {
+   from { background-position:    0px; }
+     to { background-position: -3608px; }
+}
+
+
+.progressBar { text-align: center; display : none; }
+.progressBar canvas { margin-top : 8px; }
+.progressBar .loadingText { 
+	background-image : url(../../book-shell/images/loading-text.png); 
+	width : 168px;
+	height : 31px;
+	position : absolute;
+	left : 50%;
+	margin-left : -84px;
+	margin-top : -54px;
+}

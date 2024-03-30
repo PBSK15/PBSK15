@@ -1,0 +1,134 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE -->
+  <div id="sidebarwrapper">
+   <div id="sidebartop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebarcontainer">
+    <div id="sidebarcontent">
+     <h2>Topics included in the teacher's guide:</h2>
+     <ul>
+      <li><a href="teachers.html#intro" class="orangebodylink">Introduction</a></li>
+      <li><a href="teachers.html#interactives" class="orangebodylink">EekoWorld Interactives</a></li>
+      <li><a href="teachers.html#plans" class="orangebodylink">Lesson Plans</a></li>
+      <li><a href="teachers.html#content" class="orangebodylink">EekoWorld Web Site Content</a></li>
+      <li><a href="teachers1.html#background" class="orangebodylink">Background Information: The Environment &amp; Conservation</a></li>
+      <li><a href="teachers2.html#planoverview" class="orangebodylink">Lesson Plan Overviews</a></li>
+      <li><a href="teachers2.html#lessonk" class="orangebodylink">Kindergarten Lessons</a></li>
+      <li><a href="teachers2.html#lesson1" class="orangebodylink">Grade One Lessons</a></li>
+      <li><a href="teachers3.html#lesson2" class="orangebodylink">Grade Two Lessons</a></li>
+      <li><a href="teachers3.html#lesson3" class="orangebodylink">Grade Three Lessons</a></li>
+      <li><a href="teachers4.html#lesson4" class="orangebodylink">Grade Four Lessons</a></li>
+      <li><a href="teachers5.html#ideas" class="orangebodylink">Ideas for How to Use EekoCreatures &amp; the EekoHouse in Literacy Activities</a></li>
+      <li><a href="teachers6.html#strategies" class="orangebodylink">Literacy-Based Instructional Strategies</a></li>
+      <li><a href="teachers8.html#web" class="orangebodylink">Web-Based Classroom Resources, Projects &amp; Activities</a></li>
+      <li><a href="teachers9.html#funsites" class="orangebodylink">Fun Sites!</a></li>
+     </ul>
+    </div>
+   </div>
+   <div id="sidebarbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreentop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreencontainer">
+    <div id="sidebargreencontent">
+     <p><strong>Create and care for your own <a href="../index.html@load=eekocreature">EekoCreature</a>, then explore <a href="../index.html@load=eekohouse">EekoHouse</a> for conservation ideas! </strong></p>
+    </div>
+   </div>
+   <div id="sidebargreenbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+  </div> <img src="../images/header_parentsteachers.jpg" alt="Parents &amp; Teachers" width="259" height="54" class="headerimage">
+  <div id="subnav">
+   <a href="index.html">Overview</a> | <a href="family.html">Family Guide</a> | <a href="teachers.html" class="active">Teacher's Guide</a> | <a href="lessons.html">Lesson Plans</a>
+  </div> <img src="../images/header_teachersguide.jpg" alt="Teacher's Guide" width="168" height="33" class="contentheader"> <a name="web" id="web"></a><span class="subhead">Web-Based Classroom Resources, Projects &amp; Activities</span><br>
+  <p><strong><a href="http://www.earthdaybags.org/" title="Earth Day Groceries Project">Earth Day Groceries Project</a></strong><br> This Web site describes a project that is designed to enhance students' environmental awareness. Teachers borrow paper grocery bags from a local grocery store and students decorate the bags with environmental messages about reuse, recycling, wildlife, etc. The bags are then returned to the grocery store, and are distributed on Earth Day.</p>
+  <p><strong><a href="http://www.earthforce.org/" title="Earth Force">Earth Force</a></strong><br> The Earth Force site "engages young people as active citizens who improve the environment and their communities now and in the future."</p>
+  <p><strong><a href="http://www.compassionatekids.com/" title="CompassionateKids.com">CompassionateKids.com</a></strong><br> The CompassionateKids.com Web site defines compassion as "deep awareness of the suffering of another coupled with the wish to relieve it." Compassionate Kids is a national, non-profit organization dedicated to teaching children compassion towards the earth, people, and animals. This Web site includes field trip ideas, activities, and book reviews as well as informative articles.</p>
+  <p><strong><a href="http://www.kab.org" title="Keep America Beautiful">Keep America Beautiful</a></strong><br> Keep America Beautiful, Inc. is the nation's largest volunteer-based community action organization dedicated to litter and graffiti prevention, beautification, waste minimization and community improvement. You will find great ideas for litter reduction, waste reduction, and community beautification.</p>
+  <p><strong><a href="http://www.kidsface.org/pages/newsletter/home.html" title="Kids for A Clean Environment">Kids for A Clean Environment</a></strong><br> The Kids F.A.C.E. club was created by a nine-year-old girl, Melissa Poe, who wanted to do something to get involved with the environment. Now, with over 300,000 members and corporate sponsors, the Kids F.A.C.E. club is the world's largest youth environmental organization.</p>
+  <p><strong><a href="http://www.rainforest-alliance.org/programs/aar/stories.html" title="Rainforest Alliance: Adopt a Rainforest">Rainforest Alliance: Adopt a Rainforest</a></strong><br> The Adopt-A-Rainforest Web site provides information and support for those who want to make a contribution to saving the rainforests. Proceeds from various fundraising events are given to small conservation groups involved in preserving the world's rainforests.</p>
+  <p><strong><a href="http://www.oregonzoo.org/ConservationResearch/whatyou.htm" title="Oregon Zoo: Conservation">Oregon Zoo: Conservation: Help Save Animals and Their Habitat</a></strong><br> 101 things you can do! The Oregon Zoo provides a list of things that anyone can do to start contributing to the health of the environment. The suggestions include activities for the home, for on vacation, in the car, at your business, when you're shopping, and personal efforts.</p>
+  <p><strong><a href="http://www.earth911.org/master.asp" title="Earth 911: Making Every Day Earth Day!">Earth 911: Making Every Day Earth Day!</a></strong><br> The Earth 911 Web site provides a wealth of information on caring for our earth. In addition to a long list of topics on the environment, including air pollution prevention, aluminum can recycling, and green shopping tips, there are also sections on national and community highlights, and ways each of us can make a difference every day.</p>
+  <p><strong><a href="http://www.epa.gov/kids/" title="The Environmental Kids Club">The Environmental Kids Club</a></strong><br> The Environmental Kids Club Web site, from the U.S. Environmental Protection Agency, provides links to a variety of environmental topics for kids, including Water, Air, Garbage and Recycling, and You and Your Environment. Games designed to test knowledge on these topics are fun as well as informative.</p> <br>
+  <div align="right">
+   <strong>« <a href="teachers7.html" class="next">Previous</a></strong>&nbsp; | &nbsp;<strong><a href="teachers9.html" class="next">Next</a> »</strong>
+  </div>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>{{pageTitle|raw}} | PBS KIDS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    {% block headModules %}{% endblock %}
+
+      
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://pbskids.org/shell/styles/css/ie_7-8.css">
+    <![endif]-->
+
+    <script src="http://pbskids.org/shell/js/core/PBS.KIDS.playnice.js"></script>           
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="http://pbskids.org/shell/images/content/apple-icon-57x57-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="http://pbskids.org/shell/images/content/apple-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://pbskids.org/shell/images/content/apple-icon-114x114-precomposed.png" />
+
+  </head>
+  
+  <body class="{{bodyClass|raw}}">
+
+
+
+
+
+
+  
+  {% include 'template_includes/home_headband_include.html' %}
+
+
+
+  	
+    {% block mainContent %}{% endblock %}
+        
+        {% block bodyModules %}{% endblock %}
+    
+  </body>
+</html>

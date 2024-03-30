@@ -1,0 +1,19 @@
+{% extends 'curiousgeorge/includes/templates/html5_game_page.html.twig' %}
+{% set pageTitle = 'Secret Agent George' %}
+{% set specialInclude = '<script type="text/javascript" src="js/libs/phaser.min.js"></script><link rel="stylesheet" type="text/css" href="css/main.css"/>' %}
+
+{% block gameFrame %}	<div id="stageCanvas">
+		<div id="loading"><div id="loadingPercentImg"> <div id="loadingPercent"></div> </div> <img src="assets/images/loading/loading_george.gif"/></div>
+    </div>{% endblock %}
+
+
+
+
+
+
+
+
+
+
+	
+{% block specialJs %}<script type="text/javascript" src="js/cgFiveSenses.min.js"></script>{% endblock %}

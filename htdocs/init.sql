@@ -1,0 +1,108 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+CREATE DATABASE IF NOT EXISTS GoAccDb;
+USE GoAccDb;
+
+
+CREATE TABLE IF NOT EXISTS GoAccs (
+    kid_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    password VARCHAR(65535) NOT NULL,
+    avatar VARCHAR(100) NOT NULL,
+    secret_code VARCHAR(100) NULL,
+    secret_question VARCHAR(100) NULL,
+    secret_answer VARCHAR(65535) NULL,
+    last_login TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    -- moderation_status INT NULL,
+    friends VARCHAR(65535) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS GoAuth (
+    token VARCHAR(32) NOT NULL PRIMARY KEY,
+    kid_id INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+CREATE EVENT ClrAuth
+ON SCHEDULE AT CURRENT_TIMESTAMP + INTERVAL 1 HOUR
+DO
+DELETE FROM GoAuth WHERE created_at < NOW() - INTERVAL 1 MONTH;
+
+
+
+
+COMMIT;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE DATABASE IF NOT EXISTS SiteDb;
+USE SiteDb;
+
+
+CREATE TABLE IF NOT EXISTS HomepageData (
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+COMMIT;
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE DATABASE IF NOT EXISTS MicrositeDb;
+USE MicrositeDb;
+
+
+CREATE TABLE IF NOT EXISTS OddSquad (
+    kid_id INT NOT NULL,
+    kid_username VARCHAR(100) NOT NULL,
+    username VARCHAR(25) NOT NULL,
+    userid INT AUTO_INCREMENT PRIMARY KEY,
+    avatar VARCHAR(25) NOT NULL,
+    achievements VARCHAR(1000) NOT NULL,
+    locker_items VARCHAR(1000) NOT NULL,
+    background INT NOT NULL,
+    game_settings VARCHAR(65535) NOT NULL
+);
+
+
+CREATE TABLE IF NOT EXISTS WildKratts (
+    kid_id INT NOT NULL PRIMARY KEY,
+    avatar VARCHAR(1000) NOT NULL,
+    games VARCHAR(1000) NULL,
+    cps VARCHAR(1000) NULL,
+    vistas VARCHAR(1000) NULL
+);
+
+
+COMMIT;
+
+
+
+
+SET GLOBAL event_scheduler = ON;

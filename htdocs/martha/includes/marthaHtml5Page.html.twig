@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Martha Speaks{{pageTitle}} | PBS KIDS</title>
+
+	<script type="text/javascript" src="/includes/javascript/sites/martha/martha.js"></script>
+	<script type="text/javascript" src="/martha/j/mspe.js"></script>
+	{% include 'template_includes/bridge_js_include.html' %}
+
+</head>
+
+
+<body>
+
+	{% include 'template_includes/modern_headband_include.html' %}
+    {% include 'template_includes/modern_pbsk_js.html' %}
+
+
+
+	<div id="globalnav" style="background-image:url('/martha/i/kitchenfloor.png'); background-repeat:no-repeat; width:1000px;">
+	<a href="/pbskidsgo/"><img src="/martha/i/pbslogo.gif" [attributes] style="margin-left:10px; margin-right:10px; margin-bottom:55px;" /></a>
+
+	<canvas id="logo" width="205" height="133" style="cursor:pointer;">
+		<a href="/martha/index.html"><img src="/martha/i/static_marthalogo.png"></a>
+	</canvas>
+
+    {% if selectedNav == 'games' %}
+	    <a href="/martha/games/index.html"><img src="/martha/i/steak_highlighted.png" style="margin-left:-3px; margin-right:-20px;"></a>
+    {% else %}
+        {% if selectedNav != 'video' %}
+            <img src="/martha/i/spacer.gif" width="15px">
+        {% endif %}
+        <canvas id="games" width="143" height="133" style="cursor:pointer;">
+		    <a href="/martha/games/index.html"><img src="/martha/i/static_steak.png"></a>
+	    </canvas>
+    {% endif %}
+
+    {% if selectedNav == 'print' %}
+        <a href="/martha/prints/index.html"><img src="/martha/i/chickenleg_highlighted.png" style="margin-left: -5px; margin-right:-2px; "></a>
+    {% else %}
+	    <canvas id="print" width="163" height="133" style="cursor:pointer;">
+		    <a href="/martha/prints/index.html"><img src="/martha/i/static_chickenleg.png"></a>
+	    </canvas>
+    {% endif %}
+
+    {% if selectedNav == 'video' %}
+        <a href="/martha/videos/index.html"><img src="/martha//i/hotdog_highlighted.png"></a>
+    {% else %}
+	    <canvas id="video" width="146" height="133" style="cursor:pointer;">
+		    <a href="/martha/videos/index.html"><img src="/martha/i/static_hotdog.png"></a>
+	    </canvas>
+    {% endif %}
+
+    {% if selectedNav == 'stories' %}
+        <a href="/martha/stories/index.html"><img src="/martha//i/storybook_highlighted.png" style="margin-left: -30px;"></a>
+    {% else %}
+	    <!--Martha's Stories	-->
+	    <canvas id="stories" width="199" height="133" style="cursor:pointer;">
+		    <a href="/martha/stories/index.html"><img src="/martha/i/static_storybook.png"></a>
+	    </canvas>
+    {% endif %}
+
+</div>
+
+
+	<!-- HTML5 game specific -->
+    {% if mobilePage == true %}
+        <div id="mobile-header">
+		    <a href="http://www.pbskids.org"><img id="pbs" src="../../i/logo-pbs.png"></a>
+		    <a href="../../mobile/"><img id="logo" src="../../i/logo-martha-inner.png"></a>
+	    </div>
+        <div id="html5-div">
+    {% endif %}
+	<img id="startBtn" src="img/ui/play_btn.png" onClick="beginLoader()">
+	<img id="coverImg" src="img/splash.jpg" width="800" height="430">
+    {% if mobilePage == true %}</div>{% endif %}
+
+	<canvas id="html5game" width="800" height="430" oncontextmenu="return false;"></canvas>
+
+
+	{% block gameSpecificScripts %}{% endblock %}
+
+</body>
+
+<!-- HTML5 game specific -->
+<script>
+	var dType = "";
+	var browser = ""; //to store specific type of browser
+	var redirectURL = "../html5_oops.html";
+	var ieversion = undefined; //defaulting ieversion=undefined, unless browser is IE, then set to actual ver #
+
+  	$(document).ready(initload); //alternative to body onLoad-- so once css and html body is loaded
+
+	function initload()
+	{
+		//DEVICE DETECTION:
+
+		//if allowed browser- proper dType and sizing:
+		if( (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)) ) {
+			//redirect of iOS <= 5.0
+			if (/OS [1-4](.*) like Mac OS X/i.test(navigator.userAgent)) window.location.href = redirectURL;
+
+			dType = 'iOS';
+
+			if(navigator.userAgent.search("Safari") != -1) browser = 'safari';
+			if(navigator.userAgent.search("Chrome") != -1) browser = 'chrome';
+			else browser = 'other';
+		}
+		//android?
+		else if( (navigator.userAgent.search("Android") != -1) ){
+			dType = 'android';
+
+			var androidversion = parseFloat(navigator.userAgent.slice(navigator.userAgent.indexOf("Android")+8));
+			if (androidversion < 4.0) window.location.href = redirectURL;
+
+			if(navigator.userAgent.search("Chrome") != -1) browser = 'chrome';
+			else browser = 'other';
+		}
+		//Kindle Fire device (Silk browser)
+		else if( (navigator.userAgent.search("Silk") != -1) ){
+			dType = "kindle";
+			browser = "silk";
+		}
+		//else, a desktop browser, with version-based redirect to url specified in redirectURL
+		else{
+
+			if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var chversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(chversion < 24) window.location.href = redirectURL;
+
+				dType = 'desktop';
+				browser = 'chrome';
+			}
+			else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var safversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				//minimum safari support: 5.0 in Snow Leopard
+				if(safversion < 533.21) window.location.href = redirectURL;
+
+				dType = 'desktop';
+				browser = 'safari';
+			}
+			else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var ffversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(ffversion < 18) window.location.href = redirectURL;
+
+				dType = 'desktop';
+				browser = 'firefox';
+			}
+
+			else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){
+				//retaining this var to know which IE version (for sound loading: IE9 needs Flash)
+				ieversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(ieversion < 9.0){
+					redirectURL = "../ie_html5_oops.html";
+					window.location.href = redirectURL;
+				}
+
+				dType='desktop';
+				browser = 'ie';
+
+				//check for IEMobile
+				if( (navigator.userAgent.search("IEMobile") != -1) ){
+					dType='winphone';
+					browser='iemobile';
+				}
+			}
+			else{
+				//alert('unknown desktop browser');
+				dType = 'desktop';
+				browser = 'other';
+			}
+		}
+
+		if(dType=='iOS' || dType=='android' || dType=='kindle'){
+			document.getElementById('coverImg').style.display = 'inline';
+			document.getElementById('startBtn').style.display = 'inline';
+		}
+		else{ beginLoader(); }
+	}
+
+	//called automatically, or startBtn tap:
+	function beginLoader(){
+		document.getElementById('startBtn').style.display = 'none';
+		document.getElementById('html5game').style.display = 'inline';
+		document.getElementById('coverImg').style.display = 'inline';
+		doTheLoad();
+	}
+
+</script>
+</html>

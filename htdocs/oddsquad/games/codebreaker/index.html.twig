@@ -1,0 +1,226 @@
+<html>
+<head>
+
+	<meta name="viewport" content="width=1024, user-scalable=no"/>
+
+	
+	<title> Code Breaker . Games . Odd Squad | PBS KIDS </title>
+
+
+	<script src="js/vendor/jquery-1.11.0.min.js"></script>
+	<script src="js/vendor/createjs-2014.12.12.min.js"></script>
+	<script type="text/javascript" src="http://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script>
+
+
+	<!-- game assets -->
+	<script src="js/assetconfigs/assets_agent1.js"></script>
+	<script src="js/assetconfigs/assets_agent2.js"></script>
+	<script src="js/assetconfigs/assets_agent3.js"></script>
+	<script src="js/assetconfigs/assets_agent4.js"></script>
+	<script src="js/assetconfigs/assets_agent5.js"></script>
+	<script src="js/assetconfigs/assets_agent6.js"></script>
+
+	<script src="js/assetconfigs/assets_levels.js"></script>
+	<script src="js/assetconfigs/assets_audio.js"></script>
+	<script src="js/assetconfigs/assets_audio_ios.js"></script>
+	<!-- end game assets -->
+
+	<script type="text/javascript" src="/oddsquad/js/jquery.pageGenratr.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/agent.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/achievements.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/locker.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/functions.init.js"></script>
+
+	<!--
+	<script src="js/require_all.js"> </script>
+	<script type="text/javascript" src="/oddsquad/js/jquery.pageGenratr.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/agent.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/achievements.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/locker.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/functions.init.js"></script>
+	<script id="require_script" src = "js/weblib/require.custom.js" data-main = "js/main.js"> </script>
+	-->
+	
+	<script src="js/main.js"></script>
+	<script src="js/helpers/FxHelper.js"></script>
+	<script src="js/helpers/SaveHelper.js"></script>
+	<script src="js/helpers/AudioHelper.js"></script>
+	<script src="js/helpers/TouchHelper.js"></script>
+
+	<script src="js/lib/PbsVideo.js"></script>
+	<script src="js/lib/SceneContainer.js"></script>
+	<script src="js/lib/MakeEventDispatcher.js"></script>
+
+
+	<!-- Command set -->
+	<script src="js/weblib/collection/Iterator.js"></script>
+	<script src="js/weblib/command/AbstractCommand.js"></script>
+	<script src="js/weblib/command/AjaxCommand.js"></script>
+	<script src="js/weblib/command/ApplyCommand.js"></script>
+	<script src="js/weblib/command/CommandQueue.js"></script>
+	<script src="js/weblib/command/CommandSet.js"></script>
+	<script src="js/weblib/command/CSSCommand.js"></script>
+	<script src="js/weblib/command/EaseToCommand.js"></script>
+	<script src="js/weblib/command/ListenerCommand.js"></script>
+	<script src="js/weblib/command/LockCommand.js"></script>
+	<script src="js/weblib/command/ThreadCommand.js"></script>
+	<script src="js/weblib/command/TweenToCommand.js"></script>
+
+
+	<!-- particle area 
+	<script src="js/weblib/liveparticles/LiveParticlePackage.js"></script>
+	-->
+	<script src="js/weblib/ssnamespace.js"></script>
+	<script src="js/weblib/core/AbstractObject.js"></script>
+
+	<script src="js/weblib/core/Util.js"></script>
+	<script src="js/weblib/core/CorePackage.js"></script>
+	<script src="js/weblib/asset/AssetLoaderEvent.js"></script>
+	<script src="js/weblib/event/AbstractEventDispatcher.js"></script>
+	<script src="js/weblib/event/BaseEvent.js"></script>
+	<script src="js/weblib/utils/DebugUtil.js"></script>
+	<script src="js/weblib/utils/SystemInfo.js"></script>
+	<script src="js/weblib/utils/PageFocus.js"></script>
+
+
+	<script src="js/weblib/math/interpolation/Interpolation.js"></script>
+	<script src="js/weblib/math/interpolation/Loopolation.js"></script>
+
+	<!-- Particles base package -->
+	<script src="js/weblib/liveparticles/AbstractParticle.js"></script>
+	<script src="js/weblib/liveparticles/AbstractParticleEmitter.js"></script>
+
+	<script src="js/weblib/liveparticles/spawntimer/AbstractSpawnTimer.js"></script>
+	<script src="js/weblib/liveparticles/spawntimer/BurstSpawnTimer.js"></script>
+	<script src="js/weblib/liveparticles/spawntimer/UniformSpawnTimer.js"></script>
+
+	<script src="js/weblib/liveparticles/spawnshape/AbstractSpawnShape.js"></script>
+	<script src="js/weblib/liveparticles/spawnshape/LineSpawnShape.js"></script>
+	<script src="js/weblib/liveparticles/spawnshape/RadialSpawnShape.js"></script>
+	<script src="js/weblib/liveparticles/spawnshape/BoxSpawnShape.js"></script>
+
+	<script src="js/weblib/liveparticles/updater/BaseParticleUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/DragUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/ForceUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/InterpolateColourUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/InterpolatePropertyUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/ObjectSeekUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/PropertyRateChangeUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/RandomInitialRotationUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/RandomPropertyInitializer.js"></script>
+	<script src="js/weblib/liveparticles/updater/RandomScaleInitializer.js"></script>
+	<script src="js/weblib/liveparticles/updater/RandomRotationUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/CycleInterpolatePropertyUpdater.js"></script>
+
+	<script src="js/weblib/liveparticles/createjs/particle/BitmapParticle.js"></script>
+	<script src="js/weblib/liveparticles/createjs/factory/BitmapParticleFactory.js"></script>
+	<script src="js/weblib/liveparticles/createjs/particle/SpriteParticle.js"></script>
+	<script src="js/weblib/liveparticles/createjs/factory/SpriteParticleFactory.js"></script>
+	<script src="js/weblib/liveparticles/createjs/CreateJSParticleEmitter.js"></script>
+
+	<script src="js/weblib/liveparticles/spawntimer/AbstractSpawnTimer.js"></script>
+	<script src="js/weblib/liveparticles/spawntimer/BurstSpawnTimer.js"></script>
+	<script src="js/weblib/liveparticles/spawntimer/UniformSpawnTimer.js"></script>
+
+	<script src="js/weblib/liveparticles/spawnshape/AbstractSpawnShape.js"></script>
+	<script src="js/weblib/liveparticles/spawnshape/LineSpawnShape.js"></script>
+	<script src="js/weblib/liveparticles/spawnshape/RadialSpawnShape.js"></script>
+	<script src="js/weblib/liveparticles/spawnshape/BoxSpawnShape.js"></script>
+
+	<script src="js/weblib/liveparticles/updater/BaseParticleUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/DragUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/ForceUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/InterpolateColourUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/InterpolatePropertyUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/ObjectSeekUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/PropertyRateChangeUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/RandomInitialRotationUpdater.js"></script>
+	<script src="js/weblib/liveparticles/updater/RandomPropertyInitializer.js"></script>
+
+	<script src="js/weblib/math/geom/Line2D.js"></script>
+	<script src="js/weblib/math/geom/Vector2.js"></script>
+	<script src="js/weblib/math/geom/Polygon.js"></script>
+	<script src="js/weblib/math/geom/GeomUtils.js"></script>
+	<script src="js/weblib/math/geom/Rectangle.js"></script>
+	<script src="js/weblib/math/MathConst.js"></script>
+	<script src="js/weblib/math/MathUtils.js"></script>
+
+	<script src="js/weblib/storage/KeyValueStorage.js"></script>
+
+	<script src="js/lib/UserLogin.js"></script>
+	<script src="js/lib/AchievementsPopup.js"></script>
+	<script src="js/lib/achievements/AchievementManager.js"></script>
+
+	<script src="js/weblib/asset/CreateJSAssetManager.js"></script>
+	<script src="js/weblib/sound/AudioElementSoundManager.js"></script>
+	<script src="js/weblib/sound/CreateJSSoundManager.js"></script>
+	<script src="js/weblib/sound/SoundManager.js"></script>
+
+	<!-- game scripts -->
+	<script src="js/controllers/CodeController.js"></script>
+
+	<script src="js/objects/map/Elevator.js"></script>
+	<script src="js/objects/map/LevelSelector.js"></script>
+
+	<script src="js/objects/MenuWidget.js"></script>
+	<script src="js/objects/HintPing.js"></script>
+	<script src="js/objects/SolutionCard.js"></script>
+	<script src="js/objects/SolutionBar.js"></script>
+	<script src="js/objects/JuiceBox.js"></script>
+	<script src="js/objects/JuiceBag.js"></script>
+	<script src="js/objects/RoomDoor.js"></script>
+	<script src="js/objects/TileButton.js"></script>
+	<script src="js/objects/TileGrid.js"></script>
+	<script src="js/objects/ExitTile.js"></script>
+	<script src="js/objects/Laser.js"></script>
+	<script src="js/objects/WinPopup.js"></script>
+	<script src="js/objects/Agent.js"></script>
+
+	<script src="js/scenes/GameScene.js"></script>
+	<script src="js/scenes/LoadScene.js"></script>
+	<script src="js/scenes/MapScene.js"></script>
+	<script src="js/views/BackdropView.js"></script>
+	<script src="js/views/PuzzleView.js"></script>
+	<script src="js/views/HudView.js"></script>
+	<script src="js/objects/CodeButton.js"></script>
+	<script src="js/objects/map/ScrollArrow.js"></script>
+
+	<script src="js/GameManager.js"></script>
+
+	<!-- CSS for the canvas elements and video elements -->
+	<link rel="stylesheet" type="text/css" href="css/webfonts.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" href="/oddsquad/css/reset.min.css" type="text/css" />
+	<link rel="stylesheet" href="/oddsquad/css/base.css" type="text/css" />
+	<link rel="stylesheet" href="/oddsquad/css/global.css" type="text/css" />
+
+</head>
+
+
+<body class ="game-page odd_squad_codebreaker">
+	
+	 
+{% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+  
+
+
+
+	<nav class="game-nav">
+		<a href="/oddsquad/games/" class="btn-close"><span>Close<i></i></span></a>
+	</nav>
+
+	<div id="gameWrapper">
+		<canvas id="gameCanvas" width="1024" height="768"></canvas>
+		<div id="videoPlayer">
+			<video id="pbs-video-player" controls autoplay>
+  				  <source src="videos/os_codebreaker.mp4" type="video/mp4">
+  				  <source src="videos/os_codebreaker.webm" type="video/webm">
+   				  <source src="videos/os_codebreaker.ogg" type="video/ogg">
+   			</video>
+		</div>
+	</div>
+
+
+</body>
+</html>

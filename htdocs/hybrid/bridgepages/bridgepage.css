@@ -1,0 +1,11 @@
+.header { font-family: verdana, arial, sans-serif; color: #fff; font-weight: bold; font-size: 24px; }
+.subheader { font-family: verdana, arial, sans-serif; color: #fff; font-weight: bold; font-size: 17px; }
+
+.tiptitle { font-family: verdana, arial, sans-serif; color: #fff; font-weight: bold; font-size: 14px; }
+.tiptext { font-family: verdana, arial, sans-serif; color: #fff; font-size: 12px; }
+.tipbacktext { font-family: verdana, arial, sans-serif; color: #fff; font-weight: bold; font-size: 12px; }
+a.tipbacktext { font-family: verdana, arial, sans-serif; color: #fff; font-weight: bold; font-size: 12px; }
+
+.outsidetext { font-family: verdana, arial, sans-serif; color: #CCCCFF; font-size: 12px; }
+.outside { font-family: verdana, arial, sans-serif; color: #CCCCFF; font-weight: bold; font-size: 12px; }
+a.outside { font-family: verdana, arial, sans-serif; color: #CCCCFF; font-weight: bold; font-size: 12px; }

@@ -1,0 +1,19 @@
+.touch body 
+{
+	 background: url(../img/lower_texture.jpg) repeat;
+}
+
+.no-touch body 
+{
+	 background: url(../img/daniel_bg.jpg) repeat;
+}
+
+.touch #desktop
+{
+	display:none;
+}
+
+.no-touch #mobile
+{
+	display:none;
+}

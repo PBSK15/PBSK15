@@ -1,0 +1,113 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games | PBS KIDS' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'Play Games with Caillou! Caillou Games are designed to help kids ages 2-5 get ready for school. Play matching games, dress up games and all sorts of other fun Caillou games!' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		coloring_on = new Image( );		coloring_on.src = "images/btn_coloringtop-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/btn_coloringtop.gif";			caillouhome_on = new Image( );		caillouhome_on.src = "images/caillou_logo-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/caillou_logo.gif";			grownups_on = new Image( );		grownups_on.src = "images/btn_grownups_games-over.gif";		grownups_off = new Image( );		grownups_off.src = "images/btn_grownups_games.gif";				train_on = new Image( );		train_on.src = "images/game_train-over.gif";		train_off = new Image( );		train_off.src = "images/game_train.gif";			match_on = new Image( );		match_on.src = "images/game_match-over.gif";		match_off = new Image( );		match_off.src = "images/game_match.gif";			spell_on = new Image( );		spell_on.src = "images/game_spelling-over.gif";		spell_off = new Image( );		spell_off.src = "images/game_spelling.gif";			memory_on = new Image( );		memory_on.src = "images/game_memory-over.gif";		memory_off = new Image( );		memory_off.src = "images/game_memory.gif";			keyboard_on = new Image( );		keyboard_on.src = "images/game_keyboard-over.gif";		keyboard_off = new Image( );		keyboard_off.src = "images/game_keyboard.gif";			stars_on = new Image( );		stars_on.src = "images/game_stars-over.gif";		stars_off = new Image( );		stars_off.src = "images/game_stars.gif";			gilbert_on = new Image( );		gilbert_on.src = "images/game_gilbert-over.gif";		gilbert_off = new Image( );		gilbert_off.src = "images/game_gilbert.gif";			puzzle_on = new Image( );		puzzle_on.src = "images/game_puzzle-over.gif";		puzzle_off = new Image( );		puzzle_off.src = "images/game_puzzle.gif";			dress_on = new Image( );		dress_on.src = "images/game_dress-over.gif";		dress_off = new Image( );		dress_off.src = "images/game_dress.gif";			greetings_on = new Image( );		greetings_on.src = "images/choice_greetings-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/choice_greetings.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" bgcolor="#0077C0" text="white" link="white" vlink="black" alink="#fff600" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="600" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="5">
+        <td colspan="5" height="5"></td>
+       </tr>
+       <tr>
+        <td width="140"><a href="http://pbskids.org/"><img src="images/pbskids_logo.gif" alt="PBS Kids Homepage" name="dress_caillou" height="68" width="80" border="0"></a></td>
+        <td colspan="3">
+         <div align="center"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/caillou_logo.gif" alt="Caillou Homepage" name="caillouhome" height="68" width="200" border="0"></a>
+         </div></td>
+        <td width="140">
+         <div align="right">
+          <table border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td valign="bottom">
+              <div align="center"><a onmouseover="act('coloring')" onmouseout="inact('coloring')" href="../activities/index.html"><img src="images/btn_coloringtop.gif" alt="Activities" name="coloring" height="68" width="100" border="0"></a>
+              </div></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr height="440">
+   <td height="440" background="images/bkg_games.gif">
+    <div align="center">
+     <table width="600" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td colspan="4"><img src="images/game_title.gif" alt="Play Games with Caillou" height="61" width="427"></td>
+        <td><img src="images/character1.gif" alt="Caillou playing the drum" height="61" width="173"></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="61" width="1"></td>
+       </tr>
+       <tr>
+        <td><a onmouseover="act('train')" onmouseout="inact('train')" href="train/index.html"><img src="images/game_train.gif" alt="Train Game" name="train" height="119" width="119" border="0"></a></td>
+        <td><a onmouseover="act('spell')" onmouseout="inact('spell')" href="spelling.html"><img src="images/game_spelling.gif" alt="Spell with Caillou" name="spell" height="119" width="129" border="0"></a></td>
+        <td><a onmouseover="act('puzzle')" onmouseout="inact('puzzle')" href="puzzle.html"><img src="images/game_puzzle.gif" alt="Puzzle Game" name="puzzle" height="119" width="124" border="0"></a></td>
+        <td colspan="2"><img src="images/character2.gif" alt="Caillou playing the drum" height="119" width="228"></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="119" width="1"></td>
+       </tr>
+       <tr>
+        <td><a onmouseover="act('memory')" onmouseout="inact('memory')" href="memory.html"><img src="images/game_memory.gif" alt="Memory Game" name="memory" height="111" width="119" border="0"></a></td>
+        <td><a onmouseover="act('gilbert')" onmouseout="inact('gilbert')" href="searching.html"><img src="images/game_gilbert.gif" alt="Find Gilbert" name="gilbert" height="111" width="129" border="0"></a></td>
+        <td><a onmouseover="act('keyboard')" onmouseout="inact('keyboard')" href="keyboard.html"><img src="images/game_keyboard.gif" alt="Magic Keyboard" name="keyboard" height="111" width="124" border="0"></a></td>
+        <td rowspan="2" colspan="2"><img src="images/character3.gif" alt="Caillou playing the drum" height="161" width="228"></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="111" width="1"></td>
+       </tr>
+       <tr>
+        <td rowspan="2"><a onmouseover="act('stars')" onmouseout="inact('stars')" href="stars.html"><img src="images/game_stars.gif" alt="Follow the Stars" name="stars" height="109" width="119" border="0"></a></td>
+        <td rowspan="2"><a onmouseover="act('match')" onmouseout="inact('match')" href="matching.html"><img src="images/game_match.gif" alt="Matching Game" name="match" height="109" width="129" border="0"></a></td>
+        <td rowspan="2"><a onmouseover="act('dress')" onmouseout="inact('dress')" href="dresscaillou.html"><img src="images/game_dress.gif" alt="Dress Caillou" name="dress" height="109" width="124" border="0"></a></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="50" width="1"></td>
+       </tr>
+       <tr>
+        <td colspan="2"><img src="images/character4.gif" alt="Caillou playing the drum" height="59" width="228"></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="59" width="1"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer_yellow.gif" alt="" height="1" width="119"></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="1" width="129"></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="1" width="124"></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="1" width="55"></td>
+        <td><img src="images/spacer_yellow.gif" alt="" height="1" width="173"></td>
+        <td></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="608" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td valign="top">
+         <div align="left"><a onmouseover="act('greetings')" onmouseout="inact('greetings')" href="../greetings/index.html"><img src="images/choice_greetings.gif" alt="Greeting Cards &amp; Email" name="greetings" height="74" width="110" border="0"></a>
+         </div></td>
+        <td width="400">
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="http://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="http://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+        <td valign="top">
+         <div align="right"><a onmouseover="act('grownups')" onmouseout="inact('grownups')" href="../grownups/index.html"><img src="images/btn_grownups_games.gif" alt="Caregiver Section" name="grownups" height="81" width="90" border="0"></a>
+         </div><a onmouseover="act('grownups')" onmouseout="inact('grownups')" href="../grownups/index.html"> </a></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

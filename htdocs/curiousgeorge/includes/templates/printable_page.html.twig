@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+{% set pageTitle = 'Printables' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/curiousgeorge/css/print.css" media="print" />' %}
+{% set ftrAttributes = 'id="ftr"' %}
+{% set selectedNav = 'printables' %}
+
+
+
+{% if div is not defined %}
+	{% set div = '</div>' %}
+{% endif %}
+
+
+
+
+
+{% include 'curiousgeorge/includes/head.twig' %}
+<body>
+
+{% include 'curiousgeorge/includes/nav.twig' %}
+
+	<div id="int">
+<!-- #bbinclude "area_bar.pl" -->
+		<div class="border">
+			<a href="/curiousgeorge/printables/index.html"><img src="/curiousgeorge/printables/img/p_title_int.gif" alt="Printables" class="ovr" /></a><img src="/curiousgeorge/printables/img/p_wd_top_blank.gif" alt=""  />
+		</div>
+	
+<!-- end bbinclude -->
+		
+		<div id="int-content">
+		{% block printableArea %}{% endblock %}
+		</div>{{div|raw}}<div class="border">
+			<img src="/curiousgeorge/img/int_wd_bot.gif" alt="">
+		</div>
+	{% include 'curiousgeorge/includes/ftr.html' %}
+	
+</body>
+</html>
+	

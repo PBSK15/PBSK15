@@ -1,0 +1,201 @@
+<!doctype html>
+<!--[if lt IE 7]>  <html class="ie ie6 lte9 lte8 lte7" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if IE 7]>     <html class="ie ie7 lte9 lte8 lte7" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if IE 8]>     <html class="ie ie8 lte9 lte8" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if IE 9]>     <html class="ie ie9 lte9" data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if gt IE 9]>  <html data-pageGenratr="false" data-activestage="2"> <![endif]-->
+<!--[if !IE]><!--> <html data-pageGenratr="false" data-activestage="2"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Create an Agent . Agents . Odd Squad | PBS KIDS</title>
+	<meta name="viewport" content="initial-scale=1">
+    
+    <meta property="og:title" content="Create an Agent . Agents . Odd Squad | PBS KIDS" />
+    <meta property="og:url" content="http://pbskids.org/oddsquad/agents/createagent/" />
+    <meta property="og:description" content="Odd Squad is a live-action comedy about two kids, Agent Olive and Agent Otto, who work for a government agency run by kids in suits who are equipped with the world's most advanced and unpredictable gadgetry. Whenever anything strange, unusual or just plain nuts (including giant nuts falling out of the sky) happens, it's Odd Squad's job to put things right again. Odd Squad has a fun, goofy, irreverent style that includes sight gags, one-liners, absurd situations and plenty of slapstick. Embedded in each episode is a math concept aimed at kids in grades 1-2. For example, in one episode, Olive and Otto are called-on to help a pizza delivery lady who keeps doubling herself. In the process of helping her, Olive and Otto also explore and learn what happens when you double a number. Odd Squad is a fun and engaging way for kids to become familiar with, and master, key math concepts and operations." />
+    <meta property="og:image" content="http://pbskids.org/oddsquad/img/global/logo-oddsquad.png" />
+
+	<script type="text/javascript" src="//use.typekit.net/nuo4rii.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+	<script type="text/javascript" src="/oddsquad/js/jquery-1.11.1.min.js"></script>
+    
+	<script type="text/javascript" src="/oddsquad/js/agent.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/locker.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/achievements.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/jquery.pageGenratr.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/functions.init.js"></script>
+
+    <link href="/oddsquad/css/reset.min.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/global.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/newAgent.css" rel="stylesheet" type="text/css" />
+    
+	<link href="/oddsquad/css/mobile-tablet.css" rel="stylesheet" type="text/css" media="(min-width: 900px) and (max-width: 1200px)" />
+	<link href="/oddsquad/css/mobile-phone.css" rel="stylesheet" type="text/css" media="(min-width: 0px) and (max-width: 900px)" />
+</head>
+
+<body class="init-overlay">
+<div class="odd-wrapper">
+    {% include 'oddsquad/includes/templates/mainNavWithMobile.html' %}
+    <div data-genratr-wrapper>
+        <div data-overlay="createagent" class="overlay overlay-green">
+        <div class="backgrounds">
+        	<img src="/oddsquad/img/global/logo-oddsquad-lg.png" />
+        </div>
+        <nav>
+            <a href="/agents/" class="btn-close" data-genratrTarget onClick="pushUrl('/agents/', 'Agents', event), closeOverlay('createagent')"><span>Close<i></i></span></a>
+        </nav>
+
+    	<div class="agent-wrapper">
+            <section>
+            	<article id="enterName" class="agentPopup agent-step1 show" data-agent-step="1">
+                	<h3>STEP 1 OF 2</h3>
+                    <h4>INITIALIZING AGENT PROFILE</h4>
+                    <input id="agentName" class="agentText" type="text" value="ENTER YOUR FIRST NAME" maxlength="25" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" />
+                    <div class="clearfix"></div>
+                    <a href="#" class="btn-enter btn-green">
+                        <div class="sizer"></div>
+                        <div class="sized">
+                            <span>Enter</span>
+                        </div>
+                    </a>
+            	</article>
+            	<article id="enterCalculating" class="agentPopup agent-step2" data-agent-step="2">
+                	<h3>STEP 1½ OF 2</h3>
+                    <h4>CALCULATING AGENT ID...</h4>
+                    <div id="agentCode">
+                        <span id="agentCode1"></span>
+                        <span id="agentCode2"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <a href="#" class="btn-next btn-green">
+                        <div class="sizer"></div>
+                        <div class="sized">
+                            <span>Next</span>
+                        </div>
+                    </a>
+            	</article>
+            	<article id="enterGender" class="agentPopup agent-step3" data-agent-step="3">
+                	<h3>STEP 2 OF 2</h3>
+                    <h4>BUILDING AGENT AVATAR....</h4>
+                    <div class="agentAvatarWrapper">
+                    	<div class="maleAvatarWrapper">
+                        	<div class="sizer"></div>
+                            <div class="sized">
+                                <ul class="stars">
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                </ul>
+                                <a href="#" class="avatar-nav agent-prev"><i></i></a>
+                                <a href="#" class="avatar-nav agent-next"><i></i></a>
+                                <img class="selected" id="agentMale0" src="/oddsquad/img/agents/male0.png" />
+                                <img id="agentMale1" src="/oddsquad/img/agents/male1.png" />
+                                <img id="agentMale2" src="/oddsquad/img/agents/male2.png" />
+
+                                <a href="#" class="btn-male btn-green">
+                                    <div class="sizer"></div>
+                                    <div class="sized">
+                                        <span>Select</span>
+                                    </div>
+                                </a>
+                            </div>
+	                    </div>
+                    	<div class="femaleAvatarWrapper">
+                        	<div class="sizer"></div>
+                            <div class="sized">
+                                <ul class="stars">
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                    <li><img src="/oddsquad/img/agents/star01.png"></li>
+                                </ul>
+                                <a href="#" class="avatar-nav agent-prev"><i></i></a>
+                                <a href="#" class="avatar-nav agent-next"><i></i></a>
+                                <img class="selected" id="agentFemale0" src="/oddsquad/img/agents/female0.png" />
+                                <img id="agentFemale1" src="/oddsquad/img/agents/female1.png" />
+                                <img id="agentFemale2" src="/oddsquad/img/agents/female2.png" />
+                                
+                                <a href="#" class="btn-female btn-green">
+                                    <div class="sizer"></div>
+                                    <div class="sized">
+                                        <span>Select</span>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    
+                </article>
+            	<article id="agentConfirm" class="agentPopup agent-step4" data-agent-step="4">
+                	<h3>YOUR AGENT PROFILE:</h3>
+                    <h4></h4>
+                    <div class="agentAvatarWrapper">
+                    	<div class="avatarWrapper">
+                        	<div class="sizer"></div>
+                            <div class="sized">
+								<img id="agentConfirmImg" src="" alt="" />   
+                                
+                                <a href="#" class="btn-confirm-no btn-green">
+                                    <div class="sizer"></div>
+                                    <div class="sized">
+                                        <span>Edit</span>
+                                    </div>
+                                </a>     
+                                <a href="#" class="btn-confirm-yes btn-green">
+                                    <div class="sizer"></div>
+                                    <div class="sized">
+                                        <span>Save</span>
+                                    </div>
+                                </a>
+							</div>
+	                    </div>
+                    </div>
+                </article>
+            	<article id="agentComplete" class="agentPopup agent-step5" data-agent-step="5">
+                	<h3>TRAINING COMPLETE!<br />WELCOME TO ODD SQUAD</h3>
+                    <h5>AGENT !</h5>
+                    <h4>EARN BADGES BY PLAYING GAMES</h4>
+                    <a href="#" class="btn-complete btn-green">
+                        <div class="sizer"></div>
+                        <div class="sized">
+                            <span>Finish!</span>
+                        </div>
+                    </a>
+                </article>
+            </section>
+        </div>
+	</div>
+        </div>
+</div>
+	<script type="text/javascript" src="/oddsquad/js/newAgent.js"></script>
+    
+                
+  
+{% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+  
+
+    
+</body>
+</html>

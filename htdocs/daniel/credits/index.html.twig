@@ -1,0 +1,107 @@
+{% extends 'daniel/includes/danielPage.html.twig' %}
+{% set pageTitle = 'Credits | Daniel Tiger\'s Neighborhood | PBS KIDS' %}
+{% set hasGameSpecificJs = false %}
+{% set gameSpecificJs = '' %}
+{% set jsInclude = 'credits' %}
+{% set bodyOpeningTag = '<body>' %}
+
+
+{% block mainContent %}<main id="credits" class="base-page-model">
+ <header class="site-header">
+  <div class="logos"><a class="logo--pbs" href="http://pbskids.org/" alt="PBS Kids"></a> <a class="logo--dtn" href="/daniel/" alt="Daniel Tiger Home"></a>
+  </div>
+  <nav>
+   <ul>
+    <li class="nav__item games"><a href="/daniel/games/"> <img class="nav__image" src="/daniel/assets/img/icon-games.png"> <span class="nav__text">Games</span> </a></li>
+    <li class="nav__item stories"><a href="/daniel/stories/"> <img class="nav__image" src="/daniel/assets/img/icon-stories.png"> <span class="nav__text">Stories</span> </a></li>
+    <li class="nav__item videos"><a href="/daniel/videos/">
+      <div class="test"></div> <img class="nav__image" src="/daniel/assets/img/icon-videos.png"> <span class="nav__text">Videos</span> </a></li>
+    <li class="nav__item coloring"><a href="/daniel/coloring/"> <img class="nav__image" src="/daniel/assets/img/icon-coloring.png"> <span class="nav__text">Coloring</span> </a></li>
+   </ul>
+  </nav>
+ </header>
+ <div class="credits-container">
+  <h1 class="page-title">Credits</h1>
+  <div class="credits__schell">
+   <h2 class="header">Schell Games</h2>
+   <div class="multi-column">
+    <div class="credit-block">
+     <h3 class="subhead">Executive Producer</h3>
+     <p class="text-block">Jesse Schell</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Executive Directors</h3>
+     <p class="text-block">Sheri Graner Ray<br> Reagan Heller<br> Chuck Hoover<br> Matt Mahon</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Producer</h3>
+     <p class="text-block">Manoj Anand</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Director</h3>
+     <p class="text-block">Jan Stec</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Art Director / Animator</h3>
+     <p class="text-block">Alan Pickett</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Animator</h3>
+     <p class="text-block">Tomas Mitkus</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Artists</h3>
+     <p class="text-block">Brittany Cloud<br> Josh Hendryx<br> Kim Kiser</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Business</h3>
+     <p class="text-block">Jake Witherell</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Designers</h3>
+     <p class="text-block">Melanie Harke<br> Jared Mason<br> Jan Stec</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Engineers</h3>
+     <p class="text-block">Matt Kucic<br> Mike Traficante</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Legal</h3>
+     <p class="text-block">Chris Arnold</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Sound Designer</h3>
+     <p class="text-block">Bonnie Bogovich</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Quality Assurance</h3>
+     <p class="text-block">Tom Quitoni</p>
+    </div>
+    <div class="credit-block">
+     <h3 class="subhead">Special Thanks</h3>
+     <p class="text-block">Angela Santomero<br> 9 Story Entertainment<br> Children's Museum of Pittsburgh<br> Reagan Heller</p>
+    </div>
+   </div>
+  </div>
+  <div class="credits__frc">
+   <h2 class="header"><span class="small-the">The</span>Fred Rogers Company</h2>
+   <h3 class="subhead">Producer</h3>
+   <p class="text-block">Cathy Cohen Droz</p>
+   <h2 class="header">Thank You to Our Funders</h2>
+   <p class="text-block">The Corporation for Public Broadcasting</p>
+   <p class="text-block">The Richard King Mellon Foundation</p>
+   <p class="text-block">The Grable Foundation</p>
+   <p class="text-block">Hillman Foundation</p>
+   <p class="text-block">The Pittsburgh Foundation</p>
+   <p class="text-block">PNC Foundation</p>
+   <p class="text-block">Staunton Farm Foundation</p>
+   <p class="text-block">The Arthur Vining Davis Foundations</p>
+  </div>
+ </div>
+</main>{% endblock %}
+
+
+
+
+{% block lowerBand %}<div class="lower-band"></div>{% endblock %}
+

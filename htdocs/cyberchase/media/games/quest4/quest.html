@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>The Quest 4: Stop the Stormerator . Games . Cyberchase | PBS Kids</title>
+<meta name="description" content="In this Quest game, you must stop Hacker from completing the Stormerator -- a machine he plans to use to create weather chaos!">
+<meta name="keywords" content="quest, stop the stormerator, hacker, weatherbots, stormerator, game">
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript">
+      function gup( name )
+      {
+        name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+        var regexS = "[\\?&]"+name+"=([^&#]*)";
+        var regex = new RegExp( regexS );
+        var results = regex.exec( window.location.href );
+        if( results == null )
+          return "";
+        else
+          return results[1];
+      }
+</script>
+
+
+<style type="text/css">
+<!--
+body {
+	background-color: #5F1D60;
+}
+-->
+</style>
+
+
+</head>
+
+<body>
+
+<div align="center">
+
+	<div id="flashcontent">
+		<a href="https://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"><img src="sorry-no-flash.gif" alt="Sorry! You need to have Flash installed to play this game." /></a>
+	</div>
+
+	<script type="text/javascript">
+		// <![CDATA[
+
+
+        var username="";
+        var userid = "";
+        var cookieString = ""+document.cookie;
+        var cookieArray = cookieString.split(";");
+        for (var i=0;i<cookieArray.length;i++) {
+        	if ( cookieArray[i].indexOf("userid") != -1 ) {
+        		userid = cookieArray[i].split("=")[1];
+        	}
+        	if ( cookieArray[i].indexOf("username") != -1 ) {
+        		username = cookieArray[i].split("=")[1];
+        	}
+        }
+
+        var login_error = gup( 'error' );
+
+		var so = new SWFObject("Stop-the-Stormerator-Main.swf", "Stop-the-Stormerator-Main", "800", "550", "8", "#000000", "high");
+		so.addParam("allowScriptAccess", "always");
+		so.addParam("wmode", "transparent");
+        so.addVariable("username", username);
+        so.addVariable("login_error", login_error);
+		so.write("flashcontent");
+
+		// ]]>
+	</script>
+
+</div>
+
+
+
+</body>
+
+</html>

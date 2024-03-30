@@ -1,0 +1,141 @@
+#cgi-gamespace
+{
+	position: absolute;
+	top: 92px;
+	left: 89px;
+	height: 348px;
+	width: 663px;
+	background-image: url(https://res.cloudinary.com/good-old-pbs-cdn/image/upload/2015/pbsk_resources/curiousgeorge/games/glass_palace/img/gp_gamespace.gif);
+	background-repeat: no-repeat;
+}
+
+#cgi-gamespace-splash
+{
+	position: absolute;
+	top: 92px;
+	left: 89px;
+	height: 348px;
+	width: 663px;
+	background-image: url(https://res.cloudinary.com/good-old-pbs-cdn/image/upload/2015/pbsk_resources/curiousgeorge/games/glass_palace/img/gp_gamespace_splash.gif);
+	background-repeat: no-repeat;
+}
+
+#info
+{
+	width: 152px;
+	height: 348px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#info img
+{
+	padding: 0;
+	margin: 0 0 0 19px;
+	vertical-align: bottom;
+}
+
+#info #find { margin-top: 25px; }
+#info #find_num { }
+#info #myh { margin-left: 14px; }
+#info #george { margin-top: -10px; }
+
+#bldg
+{
+	width: 459px;
+	height: 321px;
+	float: left;
+	background-image: url(https://res.cloudinary.com/good-old-pbs-cdn/image/upload/2015/pbsk_resources/curiousgeorge/games/glass_palace/img/gp_building.gif);
+	background-repeat: no-repeat;
+	margin: 13px 0 0 0;
+	padding: 0 0 0 20px;
+}
+
+div.wd
+{
+	width: 60px;
+	height: 70px;
+	float: left;
+	margin: 0 29px 0 0;
+}
+
+#top { 
+height: 126px; 
+}
+
+#middle
+{
+	clear: both;
+	height: 124px;
+}
+
+#bottom
+{
+	clear: both;
+	height: 70px;
+}
+
+#cgi-gamespace-po
+{
+	position: absolute;
+	top: 92px;
+	left: 89px;
+	height: 348px;
+	width: 663px;
+	background-image: url(https://res.cloudinary.com/good-old-pbs-cdn/image/upload/2015/pbsk_resources/curiousgeorge/games/glass_palace/img/gp_gamespace_po.gif);
+	display: none;
+}
+
+#cgi-gamespace-po div
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#cgi-gamespace-po #wrapper
+{
+	width: 555px;
+	height: 300px;
+	margin: 20px auto 0 auto;
+}
+
+#cgi-gamespace-po #po-txt
+{
+	width: 181px;
+	height: 103px;
+	float: left;
+	margin-top: 100px;
+}
+
+#cgi-gamespace-po #po-wd
+{
+	width: 190px;
+	height: 295px;
+	float: left;
+	background-image: url(https://res.cloudinary.com/good-old-pbs-cdn/image/upload/2015/pbsk_resources/curiousgeorge/games/glass_palace/img/gp_po_window.gif);
+}
+
+#cgi-gamespace-po #po-btn
+{
+	width: 176px;
+	height: 103px;
+	float: left;
+	margin-top: 100px;
+}
+
+#cgi-gamespace-po #po-num { }
+
+#cgi-gamespace-po #po-num img
+{
+	vertical-align: bottom;
+	margin: 81px 0 0 18px;
+	padding: 0;
+}
+
+#nametag-gp
+{
+	position: absolute;
+	top: 436px;
+	left: 204px;
+}

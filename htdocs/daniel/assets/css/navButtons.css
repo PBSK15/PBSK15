@@ -1,0 +1,67 @@
+div#gamesButton
+{
+	position:absolute;
+	border:0px;
+	display:block;
+	width:143px;
+	height:117px;
+	background-position: 0px 0px;	
+}
+
+div#gamesButton span
+{
+	position: absolute;
+	top: -999em;
+}
+
+div#gamesButton:hover
+{
+	cursor:pointer;
+	background-position: 0px 117px; 
+}
+
+div#videosButton
+{
+	position:absolute;
+	border:0px;
+	display:block;
+	width:130px;
+	height:113px;
+	left:150px;
+	background-position: 0px 0px;	
+}
+
+div#videosButton span
+{
+	position: absolute;
+	top: -999em;
+}
+
+div#videosButton:hover
+{
+	cursor:pointer;
+	background-position: 0px 113px; 
+}
+
+div#printButton
+{
+	position:absolute;
+	border:0px;
+	display:block;
+	width:142px;
+	height:120px;
+	left:300px;
+	background-position: 0px 0px;	
+}
+
+div#printButton span
+{
+	position: absolute;
+	top: -999em;
+}
+
+div#printButton:hover
+{
+	cursor:pointer;
+	background-position: 0px 120px; 
+}

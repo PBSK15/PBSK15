@@ -1,0 +1,31 @@
+{
+"id": "cd_bgs1",
+
+"frames": {
+
+"Background_feeding01.jpg":
+{
+	"frame": {"x":0,"y":0,"w":1024,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":768},
+	"sourceSize": {"w":1024,"h":768}
+},
+"Background_feeding02.jpg":
+{
+	"frame": {"x":0,"y":770,"w":1024,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":768},
+	"sourceSize": {"w":1024,"h":768}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "cd_bgs1.png",
+	"format": "RGBA8888",
+	"size": {"w":1026,"h":1538},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0df512d2f20e43266aeec9193e73165f:1/1$"
+}
+}

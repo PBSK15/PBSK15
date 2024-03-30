@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+  <page>
+    <name>Daniel Tiger</name>
+    <thumb>coloring-thumb_daniel.png</thumb>
+    <fullsize>coloring_daniel.jpg</fullsize>
+    <pdf>coloring_daniel.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Daniel and Margaret</name>
+    <thumb>coloring-thumb_daniel-margaret.png</thumb>
+    <fullsize>coloring_daniel-margaret.jpg</fullsize>
+    <pdf>coloring_daniel-margaret.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Daniel and New Born Margaret</name>
+    <thumb>coloring-thumb_daniel-baby-chair.png</thumb>
+    <fullsize>coloring_daniel-baby-chair.jpg</fullsize>
+    <pdf>coloring_daniel-baby-chair.pdf</pdf>
+  </page>
+
+  <page>
+    <name>The Tiger Family</name>
+    <thumb>coloring-thumb_daniel-family-margaret.png</thumb>
+    <fullsize>coloring_daniel-family-margaret.jpg</fullsize>
+    <pdf>coloring_daniel-family-margaret.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Katerina KittyKat</name>
+    <thumb>coloring-thumb_katerina.png</thumb>
+    <fullsize>coloring_katerina.jpg</fullsize>
+    <pdf>coloring_katerina.pdf</pdf>
+  </page>
+
+  <page>
+    <name>O the Owl</name>
+    <thumb>coloring-thumb_o.png</thumb>
+    <fullsize>coloring_o.jpg</fullsize>
+    <pdf>coloring_o.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Miss Elaina</name>
+    <thumb>coloring-thumb_elaina.png</thumb>
+    <fullsize>coloring_elaina.jpg</fullsize>
+    <pdf>coloring_elaina.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Prince Wednesday</name>
+    <thumb>coloring-thumb_wednesday.png</thumb>
+    <fullsize>coloring_wednesday.jpg</fullsize>
+    <pdf>coloring_wednesday.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Trolley</name>
+    <thumb>coloring-thumb_trolley.png</thumb>
+    <fullsize>coloring_trolley.jpg</fullsize>
+    <pdf>coloring_trolley.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Daniel with Trolley</name>
+    <thumb>coloring-thumb_daniel-trolley.png</thumb>
+    <fullsize>coloring_daniel-trolley.jpg</fullsize>
+    <pdf>coloring_daniel-trolley.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Foldable Trolley</name>
+    <thumb>coloring-thumb_trolley-foldable.png</thumb>
+    <fullsize>coloring_trolley-foldable.jpg</fullsize>
+    <pdf>coloring_trolley-foldable.pdf</pdf>
+  </page>
+
+  <page>
+    <name>Everyone with Trolley</name>
+    <thumb>coloring-thumb_all-trolley.png</thumb>
+    <fullsize>coloring_all-trolley.jpg</fullsize>
+    <pdf>coloring_all-trolley.pdf</pdf>
+  </page>
+ 
+</data>

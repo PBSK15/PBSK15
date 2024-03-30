@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "Fizzy_LatestVideo.m4a",
+    "Fizzy_LatestVideo.oga",
+    "Fizzy_LatestVideo.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "Fizzy_LatestVideo": {
+      "start": 6,
+      "end": 10.466009070294785,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

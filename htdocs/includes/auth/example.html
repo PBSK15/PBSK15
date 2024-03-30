@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Example PBS KIDS GO! Login / Signup Implementation</title>
+
+<!-- REQUIREMENT #1 
+     AUTH CSS FILE: Gives things that delightful green and orange feeling.
+-->
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+
+<style type="text/css">
+body {
+	background-color: #86b200;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#container {
+    background-color: #99cc00;
+    border: 10px solid #fff;
+    margin: 2em auto;
+    -moz-box-shadow: 0 0 1em hsla(0, 0%, 0%, 0.3);
+    padding: 1em;
+    -webkit-box-shadow: 0 0 1em hsla(0, 0%, 0%, 0.3);
+    width: 600px;
+}
+
+h1 {
+    margin: 0 0 1em;
+    text-shadow: 1px 1px #86b200;
+}
+
+a {
+    color: #486000;
+}
+
+ul li {
+    margin: .5em 0;
+}
+
+#flashcontent {
+    border: 10px solid #fff;
+    height: 300px;
+    margin: 2em auto;
+    width: 300px;
+    -moz-box-shadow: 0 0 1em hsla(0, 0%, 0%, 0.3);
+    -webkit-box-shadow: 0 0 1em hsla(0, 0%, 0%, 0.3);
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+    <h1>Some PBS KIDS GO! Links</h1>
+
+    <ul>
+        <!-- REQUIREMENT #2
+             Some HTML links that point to the login/signup page you want.
+             Can accept a destination URL
+
+             Ex: <a href="/go/apps/auth/prompt/">Get prompted</a>
+                 <a href="/go/apps/auth/prompt/?destination=/myshow/">Get prompted and sent somewhere</a>
+
+                 WRONG:
+                 <a href="/go/apps/auth/prompt/?destination=http://google.com">Get prompted and go to an absolute URL</a>
+        -->
+        <li><a href="/go/apps/auth/prompt/?destination=/fetch/">Get prompted about whether you want to log in or sign up</a></li>
+        <li><a href="/go/apps/auth/login/?destination=/fetch/">Log in to PBS KIDS GO!</a></li>
+        <li><a href="/go/apps/auth/signup/?destination=/fetch/">Sign up for PBS KIDS GO!</a></li>
+
+        <li><a href="/go/apps/auth/change_secretcode/">Change Secret Code</a></li>
+        <li><a href="/go/apps/auth/change_secretquestion/">Change Secret Question</a></li>
+        <li><a href="/go/apps/auth/change_password/">Change Password</a></li>
+    </ul>
+
+</div>
+
+<div id="flashcontent"></div>
+
+<!-- REQUIREMENT #3
+     JavaScript Includes
+
+     jQuery 1.4.2 (MUST be most recent version)
+     SoundManager2 (for voiceover)
+     ColorBox (the plugin that creates the overlay)
+     auth.js (the PBS KIDS GO! JS)
+     -->
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA1LPNecY-WqkhOKcfEP82dRQmRTOt2W4c0Rjc7xKhEwEcr9i10RT4o6A3bN2PDZiZDzvkLIyfrRihpg"></script>
+<script type="text/javascript">
+    // Load jQuery from Google AJAX if it is not already loaded
+    if (typeof(jQuery) == 'undefined') { google.load('jquery', '1.4.2'); }
+</script>
+
+<!-- SoundManager: used for Voice-Over -->
+<script type="text/javascript" src="/scripts/soundmanager2/script/soundmanager2-nodebug-jsmin.js"></script>
+<!-- Colorbox - Lightbox Plugin -->
+<script type="text/javascript" src="/scripts/colorbox/jquery.colorbox.js"></script>
+<!-- PBS KIDS Auth Script -->
+<script type="text/javascript" src="/includes/auth/auth.js"></script>
+
+<script type="text/javascript" src="/includes/javascript/jquery.flash.min.js"></script>
+
+<script type="text/javascript">
+/*
+$(document).ready(function() {
+    $('#flashcontent').flash(
+        {
+            src: 'auth.swf',
+            width: 300,
+            height: 300,
+            allowscriptaccess: 'always',
+            name: 'samplename',
+            scale: 'noScale',
+            wmode: 'transparent',
+            flashvars: {
+            cdn: /^soup/.test(window.location.hostname) ? "http://soup-tc.pbskids.org/" : /^pbskids/.test(window.location.hostname) ? "http://www-tc.pbskids.org/" : "./"
+            }
+        },
+        { version: '9.0.28' }
+    );
+});
+*/
+
+</script>
+
+
+
+
+</body>
+</html>

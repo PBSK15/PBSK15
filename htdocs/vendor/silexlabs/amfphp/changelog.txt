@@ -1,0 +1,97 @@
+Version history
+--------- 2.2.2 ---------
+support for php 5.6 and preliminary support for php 7
+better detection of service classes in Amfphp discorvery(for service browser)
+--------- 2.2.1 ---------
+fix basic typing of parameters in client generator
+fix error message handling in back office
+fix flex message monitoring
+fix API doc
+other small bugfixesÒ
+--------- 2.2 -----------
+Custom class converter renamed to VoConverter:
+enforceConversion flag to throw exception when vo class not found
+Add optimization for VO handling for AMF(not applicable to JSON because no callbacks)
+array collection is now decoded straight to array
+namespace support added for services and vos.
+serviceFolderPaths renamed to serviceFolders  
+voFolderPaths renamed to voFolders
+AmfphpIncludedRequest plugin deleted
+Only throw an exception in error handler plugin if the error level would report it
+
+backoffice :
+add support for @amfphpHide in method comments so that the method is callable but does not appear in the back office.
+move all service calls to client side (ajax)
+fetch update info
+add extra config option to avoid editing config directly(better for upgrades)
+
+New Performance Monitor in back office. 
+
+Service browser :
+Better use of service comments: comments appear in service browser, possibility to set default for use in service browser.
+ace editor added to edit params
+add possibility to call using AMF or JSON
+basic load testing with AMF
+truncate tree at 100 nodes to allow calls to methods that return large datasets
+functionality all moved to client. 
+double-click method name makes calls method with default params
+
+
+
+--------- 2.1.1 -----------
+Flex Client Generator
+example services for Authentication and User management with a Database(PHP Only)
+authenticated back office
+
+change AmfphpAuthentication session storage structure. might break some code in some projects, check on it
+improved AMF version detection
+support for static service methods
+add composer.json for use with http://getcomposer.org
+generate zip of generated project
+
+in service browser:
+various ways to view result data including tree
+improved use of scroll position
+fix passing JSON objects
+fix step by step debugging by removing dependency on curl and using included request plugin instead
+
+--------- 2.1 -----------
+client generators
+service browser moved to backoffice
+dummy, discovery service,  and included request plugins
+add priorities for filters
+option to force amf3
+access to AMF request and response packets
+Typed Objects example
+--------- 2.0.1 -----------
+change everything from private to protected to allow better extensibility
+possibility to add headers and messages in AMF response
+call duration in service browser
+support for receiving ArrayCollections is back(no sending back to client yet)
+check arguments count option for service router
+filter out methods starting with a '_', giving the possibility to have public methods that aren't accessible from clients.
+--------- 2.0 -------------
+AmfPhpGet plugin, for requests just using GET, and cross domain AJAX calls
+config shared between plugins support added
+switch to return or not error details, and support for custom error messages
+service browser design
+support for multiple plugin folders
+plugins can now add services
+--------- 2.0 rc1 ---------
+better serialization of typed objects.
+enhanced service browser plugin
+IExternalizable support
+fix xml, xmldoc, date types
+examples
+refactor for phpdoc compatibility
+change from gateway.php to index.php
+miscellaneous bug fixes
+--------- 2.0 alpha---------
+Just about everything is rewritten and rethought except the AMF serializer/deserializer.
+Introduction of the plugin/filter system
+--------- 1.9 --------- 
+update code to make AMFPHP compatible with PHP 5.3
+get rid of phpinfo.php
+remove mxml source code from distrib
+
+No notes before 1.9

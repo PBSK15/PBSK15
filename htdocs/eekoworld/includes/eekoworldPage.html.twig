@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<!--Website design and development by Bean Creative Funktional Web Design -->
+<!-- www.beancreative.com-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>EekoWorld{{pageTitle|raw}}</title>
+<meta name="description" content="EekoWorld invites children to explore, experiment, and collaborate as they learn about conservation, the environment and the important role they play in taking care of the earth">
+<meta name="keywords" content="environmental education, recycling, conservation, community, ecosystems, pollution, global awareness, environment games, recycling games, educational games">
+
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+
+<link rel="stylesheet" type="text/css" href="https://pbskids.org/eekoworld/incl/main.css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://pbskids.org/eekoworld/incl/print.css" media="print">
+
+
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+
+<script type="text/Javascript"> 
+
+function expandcollapse (postid) { 
+
+   whichpost = document.getElementById(postid); 
+   resultsTxt = document.getElementById("res"); 
+   
+   if (whichpost.className=="postshown") { 
+      whichpost.className="posthidden"; 
+	  resultsTxt.className="postshown";
+   } 
+   else { 
+      whichpost.className="postshown"; 
+	  resultsTxt.className="posthidden";
+   } 
+} 
+</script>
+
+<script language="javascript" type="text/javascript" src="https://pbskids.org/eekoworld/incl/scripts.js"></script>
+{% include 'template_includes/flash_embed.html' %}
+{% include 'template_includes/bridge_js_include.html' %}
+
+</head>
+
+
+
+
+
+<script LANGUAGE="JavaScript">
+<!--
+//
+//this function calls the flash movie
+//
+function flashObj() { 
+	if(navigator.appName == 'Netscape'){ 
+		return document.embeds[0] 
+	} else { 
+		// use the name/ID of the embeded swf 
+		return document["flash"]
+	} 
+} 
+//
+//  Function to correct for 2.x Mac date bug.  Call this function to
+//  fix a date object prior to passing it to SetCookie.
+//  IMPORTANT:  This function should only be called *once* for
+//  any given date object!  See example at the end of this document.
+//
+function FixCookieDate (date) {
+  var base = new Date(0);
+  var skew = base.getTime(); // dawn of (Unix) time - should be 0
+  if (skew > 0)  // Except on the Mac - ahead of its time
+    date.setTime (date.getTime() - skew);
+}
+//
+//
+//this function sets the cookie which expires one hour from the time it is set
+//using the Date object and its methods
+//
+function setCookie(name){
+	//var mycookie = name+"="+flashObj().GetVariable('cookieValue')+";";
+	// set the cookie expiration date
+	var howlong = new Date(); // Setting "howlong" variable to current time
+	FixCookieDate (howlong); // Correct for Mac date bug - call only once for given Date object!
+	howlong.setTime(howlong.getTime() + 3600000); //adding 1 hour to "howlong"
+	howlong = howlong.toGMTString(); // translating "howlong" to GMT format
+	//
+	//mycookie = mycookie+"expires="+howlong; 
+	document.cookie = name+"="+flashObj().GetVariable('cookieValue')+";"+"expires="+howlong;
+}
+// -->
+</script>
+
+
+<script type="text/javascript">
+function getHTTPObject() {
+	var http = false;
+	//Use IE's ActiveX items to load the file.
+	if(typeof ActiveXObject != 'undefined') {
+		try {http = new ActiveXObject("Msxml2.XMLHTTP");}
+		catch (e) {
+			try {http = new ActiveXObject("Microsoft.XMLHTTP");}
+			catch (E) {http = false;}
+		}
+	//If ActiveX is not available, use the XMLHttpRequest of Firefox/Mozilla etc. to load the document.
+	} else if (XMLHttpRequest) {
+		try {http = new XMLHttpRequest();}
+		catch (e) {http = false;}
+	}
+	return http;
+}
+var http = getHTTPObject();
+
+var url = "/cgi-registry/poll/poll.pl";
+
+
+function handler() {//Call a function when the state changes.
+	if(http.readyState == 4 && http.status == 200) {
+		
+		var results = http.responseText;
+		var tmpArray = new Array();
+		tmpArray = results.split(',');
+		
+		// TO CHANGE NUMBER OF QUESTIONS, REMOVE OR COMMENT OUT THE LAST NUMBERED TOTAL (I.E. TOTAL5)
+		// THEN CHANGE THE LAST VALUE TO MATCH THE ONE YOU COMMENTED OUT (TOTAL)
+		total1 = tmpArray[0];
+		
+		total2 = tmpArray[1];
+		
+		total3 = tmpArray[2];
+		
+		total4 = tmpArray[3];
+		
+		total5 = tmpArray[4];
+		
+		total = tmpArray[5];
+
+		
+		<!------------------------------------>
+		<!-------- QUESTION RESULTS ---------->
+		<!------------------------------------>
+		
+		<!--- TO CHANGE NUMBER OF QUESTIONS, REMOVE OR COMMENT OUT FROM THE BOTTOM UP --->
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		document.getElementById("res").innerHTML="Riding your bike: <strong>" + total1 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total1 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 1px; padding:0;' hspace=0 vspace=0 /><br>";
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Going fruit picking: <strong>" + total2 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total2 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 1px; padding:0;' hspace=0 vspace=0 /><br>";
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Bird watching: <strong>" + total3 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total3 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 1px; padding:0;' hspace=0 vspace=0 /><br>";
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Planting a garden: <strong>" + total4 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total4 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 1px; padding:0;' hspace=0 vspace=0 /><br>";
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Making a rain barrel: <strong>" + total5 + "%</strong><br><img src='/eekoworld/images/votebar.gif' width=" + total5 +" height=8 alt='' border=0 style='margin-top:0; margin-bottom: 0; padding:0;' hspace=0 vspace=0 /><br>";
+		
+
+		
+		<!---------------------------------------->
+		<!-------- END QUESTION RESULTS ---------->
+		<!---------------------------------------->
+		
+		
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "Total Votes: <strong>" + total + "</strong><br />";
+		<!--- POLL SOLICITATION --->
+		document.getElementById("res").innerHTML=document.getElementById("res").innerHTML + "<p style='font-size:10px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight: bold; margin: 5px 0 0 0;'><strong>Got a poll to suggest? <a href='exchange/poll_submit.html'>Tell us!</a></strong></p>";
+		
+	}
+}
+
+function postMethod() {
+	http.open("POST", url, true);
+	
+	// IF CHANGING NUMBER OF QUESTIONS, COMMENT OUT STARTING AT "5" BELOW
+	
+	if (document.getElementById("q1").checked) { var val=1; }
+		else if (document.getElementById("q2").checked) { var val=2; }
+		else if (document.getElementById("q3").checked) { var val=3; }
+		else if (document.getElementById("q4").checked) { var val=4; }
+		else if (document.getElementById("q5").checked) { var val=5; }
+		else { var val=0;}
+	
+	if (!(val==0)) {
+	
+	// CHANGE POLL ID BELOW FOR A NEW POLL. JUST ADD 1 TO THE INCREMENT
+	// CHANGE NUMBER OF QUESTION IN POLL RESULTS.HTML AS WELL
+	var params = "site_id=eekoworld&poll_id=eeko_poll56&q1=" + val + "&results=/eekoworld/poll_results.html";
+	
+	//Send the proper header infomation along with the request
+	http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	http.setRequestHeader("Content-length", params.length);
+	http.setRequestHeader("Connection", "close");
+
+	http.onreadystatechange = handler;
+	http.send(params);
+	
+	javascript:expandcollapse('poll');
+	
+	} else {
+		return false;
+	}
+	
+}
+</script>
+
+
+<script language="JavaScript">
+<!--
+function WM_imageSwap(daImage, daSrc){
+  var objStr,obj;
+  /*
+    WM_imageSwap()
+    Changes the source of an image.
+
+    Source: Webmonkey Code Library
+    (http://www.hotwired.com/webmonkey/javascript/code_library/)
+
+    Author: Shvatz
+    Author Email: shvatz@wired.com
+
+    Usage: WM_imageSwap(originalImage, 'newSourceUrl');
+
+    Requires: WM_preloadImages() (optional, but recommended)
+    Thanks to Ken Sundermeyer (ksundermeyer@macromedia.com) for his help
+    with variables in ie3 for the mac. 
+    */
+
+  // Check to make sure that images are supported in the DOM.
+  if(document.images){
+    // Check to see whether you are using a name, number, or object
+    if (typeof(daImage) == 'string') {
+      // This whole objStr nonesense is here solely to gain compatability
+      // with ie3 for the mac.
+      objStr = 'document.' + daImage;
+      obj = eval(objStr);
+      obj.src = daSrc;
+    } else if ((typeof(daImage) == 'object') && daImage && daImage.src) {
+      daImage.src = daSrc;
+    }
+  }
+}
+
+// -->
+</script>
+
+
+
+
+{# {% block headScripts %}{% verbatim %}{% endverbatim %}{% endblock %} #}
+
+
+
+<body onLoad="MM_preloadImages('/eekoworld/images/button_pt-over.jpg','/eekoworld/images/button_whatis-over.jpg');">
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+<script type="text/javascript" src="/survey/2014/js/pbskids-survey-sampler.js"></script>
+
+<!--<div id="topbar">#include virtual="/mypbskids/includes/strip.html"</div> -->
+<!-- END TOPBAR -->
+
+<div id="headerflash">
+	
+    <!-- Non-Flash content goes here -->
+    <div class="noflashmessagehome">
+    <h1>Flash 8.0 Plug-in Required </h1>
+  	<p>In order to access the animated portions of this site, you will <br>
+  	need to download a newer version of the <strong><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash Player Plug-In</a></strong>.</p>
+	</div>
+    {% block headerScript %}{% verbatim %}{% endverbatim %}{% endblock %}
+
+</div>
+<!-- END FLASH HEADER -->
+
+<div style="width:1020px">
+
+<div id="leftnav">
+
+{% block leftNavScript %}{% verbatim %}{% endverbatim %}{% endblock %}
+	
+</div><!-- END FLASH LEFT NAV -->
+
+{% block mainContent %}{% verbatim %}{% endverbatim %}{% endblock %}
+
+</div>
+
+{% block footerContent %}{% endblock %}
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA1LPNecY-WqkhOKcfEP82dRQmRTOt2W4c0Rjc7xKhEwEcr9i10RT4o6A3bN2PDZiZDzvkLIyfrRihpg"></script>
+<script type="text/javascript">
+    // Load jQuery from Google AJAX if it is not already loaded
+    if (typeof(jQuery) == 'undefined') { google.load('jquery', '1.4.2'); }
+</script>
+
+
+
+<!--- REMOVING LOGIN DEPENDENCIES -->
+<script type="text/javascript" src="/scripts/soundmanager2/script/soundmanager2-nodebug-jsmin.js"></script>
+<script type="text/javascript" src="/scripts/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/includes/auth/auth.js"></script>
+
+
+</body>
+</html>

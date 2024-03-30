@@ -1,0 +1,19 @@
+<nav class="consoleNav">
+    	<ul>
+        	<li>
+            	<a href="/oddsquad/soundcheck/"  title="Sound Check Fan Page"><img src="/oddsquad/img/global/btn-console-soundcheck.png"></a>
+			</li>
+        	<li class="toggleBgSelect">
+            	<a href="#" title="Customize your Background"><img src="/oddsquad/img/global/btn-console-background.png"></a>
+			</li>
+        </ul>
+    </nav>
+    <footer class="scrollStart collapse">
+    	<div class="clickShield"></div>
+		<nav>
+			<a href="#" class="btn-close" title="Close"><span>Close<i></i></span></a>
+            <a href="#" class="btn-next" title="Next Page" onClick="gotoScroll('backgroundScroll', 'next', 500)"><i></i></a>
+            <a href="#" class="btn-prev" title="Previous Page" onClick="gotoScroll('backgroundScroll', 'prev', 500)"><i></i></a>
+		</nav>
+        {% include 'oddsquad/includes/templates/bgSelect.html' %}
+    </footer>

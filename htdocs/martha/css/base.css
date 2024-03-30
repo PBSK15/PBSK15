@@ -1,0 +1,145 @@
+html {
+	background-color:#9ed45c;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+body {
+	/*background-image:url('../i/marthamenu.gif');*/
+	background-repeat:no-repeat;
+	background-color:#9ed45c;
+	font-family:verdana;
+}
+
+#ptvid {
+	display:inline-block;
+	margin-bottom:30px;
+}
+
+#ptvid #ptlink {
+	/*margin-left:25px;*/
+	width:250px;
+	float:left;
+	margin:18px 65px 0 35px;
+}
+
+#ptvid #tv {
+	float:left;
+	margin-right:12px;
+}
+
+#ptvid #tvlink {
+	float:left;
+	margin-top:32px;
+}
+
+#vidlink{
+	display:inline-block;
+}
+
+#ptlink {
+	margin-left:25px;
+	width:250px;
+	display:block;
+}
+
+div#globalnav a img {
+	border-style: none;
+}
+
+div#footernav {
+	display:block;
+	width:1000px;
+	text-align:center;
+	font-size:80%;
+	color:#CE353B;
+}
+
+div#footernav a {
+	text-decoration:none;
+}
+
+div#footernav a:link {
+	color:#CE353B;
+}
+
+div#footernav a:visited {
+	color:#12AEDE;
+}
+
+div#footernav a:hover {
+	color:#C4FA82;
+}
+
+.fundertxt{
+	margin: 30px 0 0 20px;
+	font-size:10px;
+}
+
+.fundertxt p{width:700px; float:left;}
+.fundertxt img {float: left; margin:0 20px 0 0;}
+
+
+div#getflash {
+	width:400px;
+	margin:30px;
+}
+
+/* funderbed */
+.funderbed {
+	}
+
+.funderbed ul {
+	width: 590px;
+	height: 220px;
+	background: red url('../i/funder-logos.gif') no-repeat;
+	margin: 0 auto;
+	}
+.funderbed li {
+	display: inline;
+	float:left;
+	height: 124px;
+	margin: 0;
+	padding: 0;
+	}
+.funderbed a, .funderbed span {
+	text-indent: -9999px;
+	float: left;
+	display: block;
+	width: 70px;
+	margin-top: 20px;
+
+	/*uncomment below for testing location of funder links*/
+	/*
+	background-color: red;
+	opacity: .3;
+	*/
+	}
+
+.funderbed #wgbh a{ height: 50px; margin-left: 43px;}
+.funderbed #cpb a{ width: 67px; height: 105px; margin-left: 53px; margin-top: 14px; }
+.funderbed #dhx a{ width: 70px; height: 84px; margin-left: 82px; margin-top: 12px; }
+.funderbed #avdf a {width: 125px; height: 84px; margin-left: 44px; margin-top: 12px;}
+.funderbed #oasis a{ width: 105px; height: 77px; margin-left: 100px; margin-top: 0px; }
+.funderbed #abcf a{ width: 156px; height: 77px; margin-left: 68px; margin-top: 0px; }
+.funderbed #cec a{ visibility:hidden;}
+
+/*.funderbed #cec a{ width: 100px; height: 77px; margin-left: 77px; margin-top: 0px; }*/
+/*.funderbed #doe a{ width: 60px; height: 65px; margin-left: 3px; margin-top: 23px; }*/
+/*.funderbed #ka a{ width: 100px; height: 77px; margin-left: 86px; margin-top: 0px; }*/
+/*.funderbed #cfa a{ width: 100px; height: 77px; margin-left: 33px; margin-top: 0px; }*/
+
+
+/*new secondary highlight*/
+
+#highlight-secondary{
+	/*z-index: 100;*/
+	text-align: center;
+	border-style:none;
+	margin-left: 17.5em;
+	width:600px;
+}

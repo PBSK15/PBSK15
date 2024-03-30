@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 1 . Panel 14 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/bg14.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel14_03.gif";
+n12 = new Image();
+n12.src = "images/panel14b_03.gif";
+n13 = new Image();
+n13.src = "images/panel14c_03.gif";
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 800);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "4") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<body  onload="timeimgs('2')" style="margin: 0px">
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/panel14_01.gif" WIDTH=551 HEIGHT=58 alt="" border="0" usemap="#top"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><IMG SRC="images/panel14_02.gif" WIDTH=383 HEIGHT=342 alt="Hacker is banished to the farthest reaches of the Northern Frontier.  HACKER: Noooooo!!!!" border="0"></TD>
+		<TD><IMG SRC="images/panel14_03.gif" WIDTH=168 HEIGHT=133 name="n1" alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel14_04.gif" WIDTH=168 HEIGHT=209 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+</td></tr></table>
+	
+
+
+
+
+<map name="top">
+<area alt="Webisode 1" coords="247,10,360,40" href="1.html" shape="RECT">
+<area alt="How It All Started" coords="51,13,240,37" href="../webisodes-global/how_started.html">
+</map>
+
+<map name="next">
+<area alt="next" coords="77,138,148,199" href="15.html" shape="RECT">
+</map>
+
+
+
+</BODY>
+</HTML>

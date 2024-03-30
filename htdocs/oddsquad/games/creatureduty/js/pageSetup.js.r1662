@@ -1,0 +1,238 @@
+var secretVar = window.location.href;
+	secretVar = secretVar.substring(secretVar.indexOf("?")+1);
+	//var toShowLogs = (secretVar !== undefined && secretVar == "debug");
+	var toShowLogs = true;
+	var canvas, stage, creatureDutyGame, creatureDutyAssets, pctDescription, numImgsLoaded = 0, loginLoaded = false;
+	var numScriptsLoaded = 0;
+	var numScriptsToLoad = 14;
+	var traceLoadProgress = function (){
+		numScriptsLoaded++;
+	};
+
+	function getErrorObj(){
+		try { throw Error('') } catch(err) { return err; }
+	}
+	function _log(){
+		if(toShowLogs){
+			var err =  getErrorObj();
+			if(!(err.stack == null || err.stack == undefined)){
+				var caller_line = err.stack.split("\n")[4];
+				if(caller_line !== undefined){
+					var index = caller_line.indexOf("at ");
+					var clean = caller_line.slice(index+(window.chrome ? 2 : 1), caller_line.length);
+					console.log.apply(console,arguments);
+					console.log("%c                "+clean,"color:lightslategray;");
+				}	
+			} 			
+		}
+	}
+
+	function resizeVideo(withAlert){
+		
+		var vidWrapper = document.getElementById("videoplayerwrapper");
+		var vidProper = document.getElementById("pbs-video-player");
+		var baseWrapper = document.getElementById("canvaswrapper");
+		var baseElement = document.getElementById("creaturedutycanvas");
+		var innerCanvasWrapper = document.getElementById("gameBack");
+		
+		
+		var baseAspect = 4/3;
+		
+		var basePos = {x:0,y:-350};
+		var vidPos = getPos(vidWrapper);
+		var vidTop = vidPos.y;
+
+		if(innerCanvasWrapper != null && baseElement != null){
+			
+			baseWrapper.style.top = document.getElementById("navButtons").offsetHeight+'px';
+			var basePos = getPos(baseElement);
+			
+			var targetHeight = Math.min((window.innerHeight - basePos.y),(window.innerWidth/baseAspect));
+			innerCanvasWrapper.style.maxHeight =  targetHeight + 'px';
+			baseElement.style.maxHeight = targetHeight + 'px';
+		
+			var targetWidth = Math.min(Math.min(1024,targetHeight*baseAspect),window.innerWidth);
+			//innerCanvasWrapper.style.maxWidth = targetWidth + 'px';
+			baseElement.style.maxWidth =  targetWidth + 'px';
+			
+			var revisedTargetHeight = targetWidth/baseAspect;
+			innerCanvasWrapper.style.maxHeight =  revisedTargetHeight + 'px';
+			baseElement.style.maxHeight = revisedTargetHeight + 'px';
+
+			if(vidWrapper != undefined && vidWrapper != null){
+
+				var baseScale = Math.min(window.innerWidth/1024, (window.innerHeight - basePos.y)/768);
+				var leftEdge = ((window.innerWidth - targetWidth)/2);
+
+				vidWrapper.style.width = vidWrapper.style.minWidth = (706*Math.min(1, baseScale)) + 'px';
+				vidWrapper.style.height = vidWrapper.style.minHeight = (395*Math.min(1, baseScale)) + 'px';
+				vidWrapper.style.left = (leftEdge + 161*Math.min(1, baseScale)) + 'px';
+				vidWrapper.style.top = (Math.max(-456, (- 456*baseScale))) + 'px';
+				
+				vidProper.style.width = vidWrapper.style.width;
+				vidProper.style.height = vidWrapper.style.height;
+				vidProper.style.left = vidWrapper.style.left;
+				vidProper.style.top = vidWrapper.style.top;
+				
+			}
+			/*
+			
+			_log((window.innerHeight - basePos.y)+", "+(window.innerWidth/baseAspect)+", "+targetWidth+", "+leftEdge+", "+(161*Math.min(1, baseScale)));
+			if(withAlert){
+				alert((window.innerHeight - basePos.y)+", "+(window.innerWidth/baseAspect)+", "+targetWidth+", "+leftEdge+", "+(161*Math.min(1, baseScale)));
+			}
+			*/
+			
+			console.log("  ?  "+baseWrapper.style.top);
+		}
+		if(stage != undefined){
+			stage.update();	
+		}
+	};
+
+
+
+
+	window.onresize = function (event) {
+		resizeVideo(false);
+	};
+	function supports_html5_storage() {
+	  try {
+	    return 'localStorage' in window && window['localStorage'] !== null;
+	    return 'localStorage' in window && window['localStorage'] !== null;
+	  } catch (e) {
+	    return false;
+	  }
+	}
+
+
+	function Point(x, y){
+		this.x = typeof x !== 'undefined' ? x : 0;
+		this.y = typeof y !== 'undefined' ? y : 0;
+	}
+
+	function getPos(el) {
+	    // yay readability
+	    for (var lx=0, ly=0;
+	         el != null;
+	         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+	    return {x: lx, y: ly};
+	}
+	function getSize(el) {
+	    // yay readability
+	    for (var lw=0, lh=0;
+	         el != null;
+	         lw += el.offsetWidth, lh += el.offsetHeight, el = el.offsetParent);
+	    return {w: lw, h: lh};
+	}
+
+	function init(){
+
+		KeyValueStorage.setGameSettingsURL("../../php/gameSettings.php");
+		
+		createjs.MotionGuidePlugin.install();
+
+		canvas = document.getElementById('creaturedutycanvas');
+
+		creatureDutyAssets = new AssetManager(["cd_bgs1","cd_bgs2","cd_bgs3","cd_creatureparts1","cd_creatureparts2","cd_foodparts1","cd_foodparts2","cd_foodparts3","cd_miscbits1","cd_miscbits2"]);
+		
+		images = images||{};
+		stage = new createjs.Stage(canvas);
+		stage.enableMouseOver( 10 );
+		stage.name = "Game Stage";
+		pctDescription = new createjs.Text("", "64px RefrigeratorDeluxe-Heavy", "white");
+		pctDescription.textAlign = "center";
+		pctDescription.textBaseline = "middle";
+		pctDescription.x = 950;
+		pctDescription.y = 733;
+		stage.addChild(pctDescription);
+
+		stage.update();
+
+		var loader = new createjs.LoadQueue(false, "", true);
+		loader.addEventListener("fileload", function(e){handleFileLoad(e);});
+		loader.addEventListener("complete", function(e){handleComplete(e);});
+		loader.loadManifest(lib.properties.manifest);
+		
+		resizeVideo();
+
+	}
+
+
+	function handleFileLoad(evt) {
+
+		numImgsLoaded++;
+		pctDescription.text = Math.round((numImgsLoaded/lib.properties.manifest.length)*100) + "%";
+		canvas.width = canvas.width;
+		stage.update();
+		if(evt != null){
+			//_log("LOADING: " + evt.item.id);
+			if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+		} else {
+			_log("LOADING: (null event)");
+		}
+		resizeVideo();
+	}
+
+	function buildGame(){
+		
+		_log("BUILD GAME!");
+		
+		creatureDutyGame = new GameManager(stage);
+		creatureDutyGame.gameData.loadGame();
+		/*
+		ss.oddsquad.UserLogin.addEventListener(ss.oddsquad.USER_LOGIN_LOADED, userLoginLoaded);
+		ss.oddsquad.UserLogin.addEventListener(ss.oddsquad.USER_LOGIN_FAILED, userLoginLoaded);
+		ss.oddsquad.UserLogin.loadUserLogin();
+		*/
+		resizeVideo();
+	}
+
+	function handleComplete() {
+		_log("COMPLETE");
+		
+		pctDescription.text = "";
+		stage.removeChild(pctDescription);
+		canvas.width = canvas.width;
+		
+		createjs.Ticker.setFPS(12);
+		createjs.Ticker.addEventListener("tick", stage);
+		createjs.Touch.enable(stage);
+		stage.mouseMoveOutside = true;
+		stage.snapToPixelsEnabled = true;		
+		
+		creatureDutyAssets.processSpriteSheets();
+		resizeVideo();
+		//setTimeout(function (){buildGame();}, 100);
+	}
+	
+	function sendGAEvent(category, evt, value, info) {
+	 try {
+	        if(isEmpty(value)) {
+	           ga("send", "event", category, evt);
+	        } else if (isEmpty(info)) {
+	           ga("send", "event", category, evt, value);
+	        } else {
+	           ga("send", "event", category, evt, value, info);
+	        }
+	    } catch (e) {
+	        _log("error logging event " + evt + ": " + e);
+	    }
+	}
+/*
+	function userLoginLoaded(){
+		_log(" -- -- LOGIN LOADED? -- -- ");
+		var isLoaded = ss.oddsquad.UserLogin.loginLoaded();
+		_log(" -- --> "+isLoaded);
+		_log(" WOULD BE CALLING GAMEINIT FROM ULL");
+
+		if(!ss.oddsquad.UserLogin.hasPbsLogin()) {
+			_log(" ------- no login, starting anew. --------- ");	
+			creatureDutyGame.gameInit(true);
+		} else {
+			_log(" ------- running off of loaded data. --------- ");	
+			creatureDutyGame.gameData.loadGame();
+		}
+		*/
+
+	}

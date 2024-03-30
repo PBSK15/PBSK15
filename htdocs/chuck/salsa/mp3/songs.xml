@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player>
+
+<settings
+
+defaultVolume = "1"
+autoplay = "true"
+finished = "4"
+unfinished = "1"
+
+mainBackgroundColor = "000000"
+buttonsBackgroundColor = "000000"
+buttonsOutlineColor = "ffffff"
+buttonsIconColor = "00ffff"
+buttonsIconOverColor = "FFFFFF"
+volumeBarColor = "FFFFFF"
+loadBarColor = "018786"
+progressBarColor ="00ffff"
+
+spectrumLeftColor = "ffffff"
+spectrumLeftLineColor = "FFFFFF"
+spectrumRightColor = "00ffff"
+spectrumRightLineColor = "00FFFF"
+
+/>
+
+<song>
+
+<title>CVC Alexia</title>
+<url>salsa/mp3/songs/CVC_alexia.mp3</url>
+</song>
+
+<song>
+<title>CVC Broken Crayon</title>
+<url>salsa/mp3/songs/CVC_brokencrayon.mp3</url>
+</song>
+
+<song>
+<title>CVC Me Gusta Jamon</title>
+<url>salsa/mp3/songs/CVC_megustajamon.mp3</url>
+</song>
+
+<song>
+<title>CVC Groove</title>
+<url>salsa/mp3/songs/s_main_song3_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Salsa Swing</title>
+<url>salsa/mp3/songs/s_main_song1_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Salsa Delight</title>
+<url>salsa/mp3/songs/s_main_song2_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Beat</title>
+<url>salsa/mp3/songs/SalsaSongThreeCSilly.mp3</url>
+</song>
+
+<song>
+<title>CVC Grandma</title>
+<url>salsa/mp3/songs/SalsaSongFourCSilly.mp3</url>
+</song>
+
+<song>
+<title>CVC Dance Dance</title>
+<url>salsa/mp3/songs/SalsaSongOneCSilly.mp3</url>
+</song>
+
+<song>
+<title>CVC Birthday Happy</title>
+<url>salsa/mp3/songs/SalsaSongTwoAHappy.mp3</url>
+</song>
+
+
+</player>
+

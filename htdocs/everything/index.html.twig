@@ -1,0 +1,173 @@
+{% extends 'includes_twig/shellViewPage.html.twig' %}
+{% set pageTitle = "All Shows" %}
+{% set bodyClass = 'all-page shows seafoam' %}
+{% block headModules %}
+    <link rel="stylesheet" href="/shell/styles/css/all-page.css">
+{% endblock %}
+{% block bodyModules %}
+    <div data-build="scripts" class="hidden">
+      <script type='text/javascript' src='/js/loader/lib/PBS.KIDS.require.js' data-main='/js/loader/loaders/shell.require.config.js' ></script>
+    </div>
+{% endblock %}
+{% block mainContent %}
+    <div role="main" class="wrapper-block">
+
+      <section class="section-panel">
+        <div class="max-wrapper">
+          <header role="banner" class="brand page-head">
+            <a href="../"> <img data-fallback="/shell/images/content/pbs-kids-logo.png" src="/shell/images/content/pbs-kids-logo.svg" /> </a>
+            <hgroup>
+              <h1>PBS KIDS:</h1>
+              <h2>Everything</h2>
+            </hgroup>
+          </header>
+
+          <a class="phat-button show-all magenta" href="../"><em><i class="arrow"></i> <span>Back</span></em></a>
+
+          <article class="all-grid">
+            <ul id="full-shows-list" class="promo-grid">
+              <li class="grid-item" title="Angelina Ballerina">
+                <a class="promo-graphic" href="http://pbskids.org/angelinaballerina"> <img data-carson-src="/pbskids/shell/images/content/shows/angelina.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Arthur">
+                <a class="promo-graphic" href="http://pbskids.org/arthur"> <img data-carson-src="/pbskids/shell/images/content/shows/arthur.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Barney">
+                <a class="promo-graphic" href="http://pbskids.org/barney/"> <img data-carson-src="/pbskids/shell/images/content/shows/barney.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Between The Lions">
+                <a class="promo-graphic" href="http://pbskids.org/lions"> <img data-carson-src="/pbskids/shell/images/content/shows/between-the-lions.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Caillou">
+                <a class="promo-graphic" href="http://pbskids.org/caillou"> <img data-carson-src="/pbskids/shell/images/content/shows/caillou.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item last" title="The Cat in the Hat">
+                <a class="promo-graphic" href="http://pbskids.org/catinthehat"> <img data-carson-src="/pbskids/shell/images/content/shows/the-cat-in-the-hat.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Chuck Vanderchuck">
+                <a class="promo-graphic" href="http://pbskids.org/chuck"> <img data-carson-src="/pbskids/shell/images/content/shows/chuck-vanderchuck.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Clifford the Big Red Dog">
+                <a class="promo-graphic" href="http://pbskids.org/clifford"> <img data-carson-src="/pbskids/shell/images/content/shows/clifford.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item last" title="Curious George">
+                <a class="promo-graphic" href="http://pbskids.org/curiousgeorge"> <img data-carson-src="/pbskids/shell/images/content/shows/curious-george.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Cyberchase">
+                <a class="promo-graphic" href="http://pbskids.org/cyberchase"> <img data-carson-src="/pbskids/shell/images/content/shows/cyberchase.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Daniel Tiger's Neighborhood">
+                <a class="promo-graphic" href="http://pbskids.org/daniel"> <img data-carson-src="/pbskids/shell/images/content/shows/daniel-tigers-neighborhood.jpg" data-carson-size="medium" /> </a>
+              </li>
+               <li class="grid-item" title="The Democracy Project">
+                <a class="promo-graphic" href="http://pbskids.org/democracy/"> <img data-carson-src="/pbskids/shell/images/content/shows/democracy-project.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Design Squad">
+                <a class="promo-graphic" href="http://pbskids.org/designsquad"> <img data-carson-src="/pbskids/shell/images/content/shows/design-squad.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Dinosaur Train">
+                <a class="promo-graphic" href="http://pbskids.org/dinosaurtrain/"> <img data-carson-src="/pbskids/shell/images/content/shows/dinosaur-train.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Dragonfly TV">
+                <a class="promo-graphic" href="http://pbskids.org/dragonflytv"> <img data-carson-src="/pbskids/shell/images/content/shows/dragonfly-tv.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Eeko World">
+                <a class="promo-graphic" href="http://pbskids.org/eekoworld"> <img data-carson-src="/pbskids/shell/images/content/shows/eeko-world.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="The Electric Company">
+                <a class="promo-graphic" href="http://pbskids.org/electriccompany"> <img data-carson-src="/pbskids/shell/images/content/shows/the-electric-company.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item last" title="FETCH! with Ruff Ruffman">
+                <a class="promo-graphic" href="http://pbskids.org/fetch"> <img data-carson-src="/pbskids/shell/images/content/shows/fetch.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Fizzy's Lunch Lab">
+                <a class="promo-graphic" href="http://pbskids.org/lunchlab"> <img data-carson-src="/pbskids/shell/images/content/shows/fizzys-lunch-lab.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="The Greens">
+                <a class="promo-graphic" href="http://pbskids.org/meetthegreens"> <img data-carson-src="/pbskids/shell/images/content/shows/the-greens.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="It's My Life">
+                <a class="promo-graphic" href="http://pbskids.org/itsmylife"> <img data-carson-src="/pbskids/shell/images/content/shows/its-my-life.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Lowmax">
+                <a class="promo-graphic" href="http://pbskids.org/lomax"> <img data-carson-src="/pbskids/shell/images/content/shows/lowmax.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Mamma Mirabelles">
+                <a class="promo-graphic" href="http://pbskids.org/mamamirabelle"> <img data-carson-src="/pbskids/shell/images/content/shows/mamma-mirabelles.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Martha Speaks">
+                <a class="promo-graphic" href="http://pbskids.org/marthaspeaks"> <img data-carson-src="/pbskids/shell/images/content/shows/martha-speaks.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Maya & Miguel">
+                <a class="promo-graphic" href="http://pbskids.org/mayaandmiguel"> <img data-carson-src="/pbskids/shell/images/content/shows/maya-miguel.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Mister Rogers Neighborhood">
+                <a class="promo-graphic" href="http://pbskids.org/rogers"> <img data-carson-src="/pbskids/shell/images/content/shows/mister-rogers-neighborhood.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Odd Squad">
+               <a class="promo-graphic" href="http://pbskids.org/oddsquad"> <img data-carson-src="/pbskids/shell/images/content/shows/odd-squad.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Oh Noah!">
+                <a class="promo-graphic" href="http://pbskids.org/noah"> <img data-carson-src="/pbskids/shell/images/content/shows/oh-noah.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Peg + Cat">
+                <a class="promo-graphic" href="http://pbskids.org/peg"> <img data-carson-src="/pbskids/shell/images/content/shows/peg-cat.jpg" data-carson-size="medium" /> </a>
+              </li> 
+              <li class="grid-item" title="Plum Landing">
+                <a class="promo-graphic" href="http://pbskids.org/plumlanding"> <img data-carson-src="/pbskids/shell/images/content/shows/plum-landing.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item last" title="Postcards from Buster">
+                <a class="promo-graphic" href="http://pbskids.org/buster"> <img data-carson-src="/pbskids/shell/images/content/shows/postcards-from-buster.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="SciGirls">
+                <a class="promo-graphic" href="http://pbskids.org/scigirls"> <img data-carson-src="/pbskids/shell/images/content/shows/scigirls.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Sesame Street">
+                <a class="promo-graphic" href="http://pbskids.org/sesame"> <img data-carson-src="/pbskids/shell/images/content/shows/sesame-street.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item last" title="Sid the Science Kid">
+                <a class="promo-graphic" href="http://pbskids.org/sid"> <img data-carson-src="/pbskids/shell/images/content/shows/sid-the-science-kid.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Super Why!">
+                <a class="promo-graphic" href="http://pbskids.org/superwhy"> <img data-carson-src="/pbskids/shell/images/content/shows/super-why.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Thomas & Friends">
+                <a class="promo-graphic" href="http://pbskids.org/thomasandfriends/"> <img data-carson-src="/pbskids/shell/images/content/shows/thomas-and-friends.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Webonauts">
+                <a class="promo-graphic" href="http://pbskids.org/webonauts"> <img data-carson-src="/pbskids/shell/images/content/shows/webonauts.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Wild Kratts">
+                <a class="promo-graphic" href="http://pbskids.org/wildkratts/"> <img data-carson-src="/pbskids/shell/images/content/shows/wild-kratts.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="Wilson & Ditch Digging America">
+                <a class="promo-graphic" href="http://pbskids.org/wilsonandditch"> <img data-carson-src="/pbskids/shell/images/content/shows/wilson-and-ditch.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item" title="WordGirl">
+                <a class="promo-graphic" href="http://pbskids.org/wordgirl"> <img data-carson-src="/pbskids/shell/images/content/shows/wordgirl.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item last" title="Word World">
+                <a class="promo-graphic" href="http://pbskids.org/wordworld"> <img data-carson-src="/pbskids/shell/images/content/shows/wordworld.jpg" data-carson-size="medium" /> </a>
+              </li>
+              <li class="grid-item last" title="Zoom">
+                <a class="promo-graphic" href="http://pbskids.org/zoom"> <img data-carson-src="/pbskids/shell/images/content/shows/zoom.jpg" data-carson-size="medium" /> </a>
+              </li>
+            </ul>
+
+            <form method="get" action="http://pbskids.org/findit/search_results.html" id="find-it-box" class="search-box">
+              <p class="input-group">
+                <label>The best way to find more fun on pbskids.org is to explore!
+                  <br />
+                  To search, type a word or phrase into this box:</label>
+                <input type="text" name="q" value="" placeholder="Search pbskids.org" />
+                <input class="phat-button" type="submit" value="Find It!" />
+              </p>
+            </form>
+          </article>
+
+        </div>
+
+      </section>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{
+    "manifest": 
+    [
+        {"src": "/daniel/assets/img/bg-home.png", "sizes": "largest"},
+        {"src": "/daniel/assets/img/bg-home-small.png", "sizes": "large"},
+        {"src": "/daniel/assets/img/bg-home-beach-large.png", "sizes": "medium"},
+        {"src": "/daniel/assets/img/bg-home-beach-medium.png", "sizes": "small"},
+        {"src": "/daniel/assets/img/bg-home-beach-small.png", "sizes": "smallest"},
+        {"src": "/daniel/assets/img/trolleyProfile.png", "sizes": "largest"},
+        {"src": "/daniel/assets/img/trolleyProfile-tiny.png", "sizes": "largest"},
+        {"id": "landing_trolley_enter", "src": "/daniel/assets/audio/landing_trolley_enter.mp3", "sizes": "largest large medium small", "type":"sound"},
+        {"id": "landing_ambient", "src": "/daniel/assets/audio/landing_ambient.mp3", "sizes": "largest large medium small", "type":"sound"},
+        {"id": "landing_daniel_dialogue_001", "src": "/daniel/assets/audio/landing_daniel_dialogue_001.mp3", "sizes": "largest large medium small", "type":"sound"},
+        {"id": "landing_daniel_dialogue_002", "src": "/daniel/assets/audio/landing_daniel_dialogue_002.mp3", "sizes": "largest large medium small", "type":"sound"},
+        {"id": "landing_elaina_dialogue", "src": "/daniel/assets/audio/landing_miss_elaina_dialogue_wave.mp3", "sizes": "largest large medium small", "type":"sound"},
+        {"id": "landing_o_dialogue", "src": "/daniel/assets/audio/landing_o_the_owl_dialogue_wave.mp3", "sizes": "largest large medium small", "type":"sound"},
+        {"id": "landing_wednesday_dialogue", "src": "/daniel/assets/audio/landing_prince_wednesday_dialogue_wave.mp3", "sizes": "largest large medium small", "type":"sound"},
+        {"id": "landing_katerina_dialogue", "src": "/daniel/assets/audio/landing_katerina_dialogue_wave.mp3", "sizes": "largest large medium small", "type":"sound"}
+    ]    
+}

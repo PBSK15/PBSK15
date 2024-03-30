@@ -1,0 +1,144 @@
+{
+    "awards": [
+        {
+			"id":	"1",
+            "name": "The Pink & Fuzzy Participation Pin",
+            "src": "award-pink.png",
+            "desc": "Get this just for Showing Up",
+            "game": "Catch the Centigurps"
+        },
+        {
+			"id":	"2",
+            "name": "The Gurple Heart",
+            "src": "award-gurple.png",
+            "desc": "Get this for Kindness to Centigurps",
+            "game": "Catch the Centigurps"
+        },
+        {
+			"id":	"3",
+            "name": "The Golden Gurp",
+            "src": "award-golden.png",
+            "desc": "Get this for Capturing 100 Gurps",
+            "game": "Catch the Centigurps"
+        },
+        {
+			"id":	"4",
+            "name": "SCRAM Badge",
+            "src": "award-scram.png",
+            "desc": "Get this for Skip Counting Really AwesoMely",
+            "game": "Catch the Centigurps"
+        },
+        {
+			"id":	"5",
+            "name": "The Three-C Award of Distinction",
+            "src": "award-threec.png",
+            "desc": "Get this for Counting Cute Creatures",
+            "game": "Catch the Centigurps"
+        },
+        {
+			"id":	"6",
+            "name": "The Sound Check Trophy",
+            "src": "award-soundcheck.png",
+            "desc": "Get this for Number Line-Dancing",
+            "game": "Code Breaker"
+        },
+        {
+			"id":	"7",
+            "name": "The 2-4-6-8 Gingham Sash",
+            "src": "award-2468.png",
+            "desc": "Get this for Pattern Recognition",
+            "game": "Code Breaker"
+        },
+        {
+			"id":	"8",
+            "name": "Commander of the Countdown",
+            "src": "award-countdown.png",
+            "desc": "Get this for Knowing that Numbers Don't Just Go Up",
+            "game": "Code Breaker"
+        },
+        {
+			"id":	"9",
+            "name": "The Stone Sneaker",
+            "src": "award-sneaker.png",
+            "desc": "Get this for Avoiding Booby Traps",
+            "game": "Code Breaker"
+        },
+        {
+			"id":	"10",
+            "name": "The Ms. O Medal",
+            "src": "award-mso.png",
+            "desc": "Get this for Magnificent Skip Counting",
+            "game": "Code Breaker"
+        },
+        {
+			"id":	"11",
+            "name": "The O'Brian Cup",
+            "src": "award-obrian.png",
+            "desc": "Get this for Outstanding Tubular Repair",
+            "game": "Down the Tubes"
+        },
+        {
+			"id":	"12",
+            "name": "The Platinum Elbow Joint",
+            "src": "award-elbow.png",
+            "desc": "Get this for Creativity in Tube Joining",
+            "game": "Down the Tubes"
+        },
+        {
+			"id":	"13",
+            "name": "The MOM Award",
+            "src": "award-mom.png",
+            "desc": "Get this for Mastery of Measuring",
+            "game": "Down the Tubes"
+        },
+        {
+			"id":	"14",
+            "name": "The Silver Squash",
+            "src": "award-squash.png",
+            "desc": "Get this for Distinguished Squishinating",
+            "game": "Down the Tubes"
+        },
+        {
+			"id":	"15",
+            "name": "The O'Hara Ribbon",
+            "src": "award-ohara.png",
+            "desc": "Get this for Excellence in Tubing",
+            "game": "Down the Tubes"
+        },
+		{
+			"id":	"26",
+            "name": "The Tiggle/Taggle Toe-Nail",
+            "src": "award-toenail.png",
+            "desc": "Get this for Care and Grooming of Tiggles and Taggles",
+            "game": "Creature Duty"
+        },
+        {
+			"id":	"27",
+            "name": "The Spider Cat Platter",
+            "src": "award-platter.png",
+            "desc": "Get this for Feeding Furry Web Spinners",
+            "game": "Creature Duty"
+        },
+        {
+			"id":	"28",
+            "name": "The Laser Chicken Prize",
+            "src": "award-chicken.png",
+            "desc": "Get this for Helping Dangerous Hens",
+            "game": "Creature Duty"
+        },
+        {
+			"id":	"29",
+            "name": "The Unicorn Brass Horn",
+            "src": "award-brasshorn.png",
+            "desc": "Get this for Summoning Odd Creatures",
+            "game": "Creature Duty"
+        },
+        {
+			"id":	"30",
+            "name": "The T-Rex Tooth",
+            "src": "award-trextooth.png",
+            "desc": "Get this for Fair Sharing of Food",
+            "game": "Creature Duty"
+        }
+    ]
+}

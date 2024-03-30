@@ -1,0 +1,1 @@
+{"result":<?php echo time(); ?>,"type":"success"}

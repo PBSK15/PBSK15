@@ -1,0 +1,91 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Printables & Activities | PBS KIDS' %}
+{% set keywds = 'Caillou printables, caillou activities, caillou coloring, caillou pictures' %}
+{% set desc = 'Print activities and Caillou coloring pages featuring Caillou and his friends!' %}
+
+{% block specialScripts %}<script type="text/javascript">function newImage(arg) {	if (document.images) {		rslt = new Image();		rslt.src = arg;		return rslt;	}}function changeImages() {	if (document.images && (preloadFlag == true)) {		for (var i=0; i<changeImages.arguments.length; i+=2) {			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];		}	}}var preloadFlag = false;function preloadImages() {	if (document.images) {		entete_over = newImage("../images/entete-over.gif");		Goodies_over = newImage("images/Goodies-over.gif");		Printables_over = newImage("images/Printables-over.gif");		Activities_over = newImage("images/Activities-over.gif");		Songs_over = newImage("images/Songs-over.gif");		preloadFlag = true;	}} </script>
+{% endblock %}
+
+{% set bodyTag = '<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="preloadImages();">' %}
+
+{% block mainContent %}<div align="center">
+ <table width="756" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+   <tr>
+    <td width="50">&nbsp;</td>
+    <td width="150" align="left"><a href="http://pbskids.org/"><img name="PBS KIDS" src="/caillou/images/PBSLogo.gif" width="42" height="54" border="0" alt="PBS KIDS" title="PBS KIDS"></a></td>
+    <td width="300" align="left"><a href="/caillou/index.html" onmouseover="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseout="changeImages('entete', '/caillou/images/entete.gif'); return true;" onmousedown="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseup="changeImages('entete', '/caillou/images/entete-over.gif'); return true;"><img name="entete" src="/caillou/images/entete.gif" width="184" height="96" border="0" alt="Caillou Homepage" title="Caillou Homepage"></a></td>
+   </tr>
+  </tbody>
+ </table>
+ <table id="Table_01" width="756" height="547" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+   <tr>
+    <td colspan="2" rowspan="2"><img src="images/Background_mainpage.jpg" width="208" height="110" alt=""></td>
+    <td colspan="6"><img src="images/Printables-and-Activities.gif" width="367" height="50" alt=""></td>
+    <td colspan="3" rowspan="3"><img src="images/Background_mainpage-04.jpg" width="180" height="114" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="50" alt=""></td>
+   </tr>
+   <tr>
+    <td colspan="6"><img src="images/Background_mainpage-05.jpg" width="367" height="60" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="60" alt=""></td>
+   </tr>
+   <tr>
+    <td rowspan="8"><img src="images/Background_mainpage-06.jpg" width="117" height="436" alt=""></td>
+    <td colspan="2" rowspan="2"><a href="goodies.html" onmouseover="changeImages('Goodies', 'images/Goodies-over.gif'); return true;" onmouseout="changeImages('Goodies', 'images/Goodies.gif'); return true;" onmousedown="changeImages('Goodies', 'images/Goodies-over.gif'); return true;" onmouseup="changeImages('Goodies', 'images/Goodies-over.gif'); return true;"> <img name="Goodies" src="images/Goodies.gif" width="109" height="36" border="0" alt="Goodies"></a></td>
+    <td colspan="5"><img src="images/Background_mainpage-09.jpg" width="349" height="4" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="4" alt=""></td>
+   </tr>
+   <tr>
+    <td colspan="2" rowspan="3"><img src="images/Background_mainpage-10.jpg" width="256" height="76" alt=""></td>
+    <td colspan="4" rowspan="2"><a href="printables.html" onmouseover="changeImages('Printables', 'images/Printables-over.gif'); return true;" onmouseout="changeImages('Printables', 'images/Printables.gif'); return true;" onmousedown="changeImages('Printables', 'images/Printables-over.gif'); return true;" onmouseup="changeImages('Printables', 'images/Printables-over.gif'); return true;"> <img name="Printables" src="images/Printables.gif" width="119" height="35" border="0" alt="Printables"></a></td>
+    <td colspan="2" rowspan="5"><img src="images/Background_mainpage-13.jpg" width="154" height="285" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="32" alt=""></td>
+   </tr>
+   <tr>
+    <td colspan="2" rowspan="6"><img src="images/Background_mainpage-14.jpg" width="109" height="400" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="3" alt=""></td>
+   </tr>
+   <tr>
+    <td colspan="4"><img src="images/Background_mainpage-15.jpg" width="119" height="41" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="41" alt=""></td>
+   </tr>
+   <tr>
+    <td rowspan="4"><img src="images/Background_mainpage-16.jpg" width="147" height="356" alt=""></td>
+    <td colspan="2"><a href="activities.html" onmouseover="changeImages('Activities', 'images/Activities-over.gif'); return true;" onmouseout="changeImages('Activities', 'images/Activities.gif'); return true;" onmousedown="changeImages('Activities', 'images/Activities-over.gif'); return true;" onmouseup="changeImages('Activities', 'images/Activities-over.gif'); return true;"> <img name="Activities" src="images/Activities.gif" width="112" height="33" border="0" alt="Activities"></a></td>
+    <td colspan="3" rowspan="2"><img src="images/Background_mainpage-19.jpg" width="116" height="209" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="33" alt=""></td>
+   </tr>
+   <tr>
+    <td colspan="2" rowspan="3"><img src="images/Background_mainpage-20.jpg" width="112" height="323" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="176" alt=""></td>
+   </tr>
+   <tr>
+    <td rowspan="2"><img src="images/Background_mainpage-21.jpg" width="88" height="147" alt=""></td>
+    <td colspan="3"><a href="songs.html" onmouseover="changeImages('Songs', 'images/Songs-over.gif'); return true;" onmouseout="changeImages('Songs', 'images/Songs.gif'); return true;" onmousedown="changeImages('Songs', 'images/Songs-over.gif'); return true;" onmouseup="changeImages('Songs', 'images/Songs-over.gif'); return true;"> <img name="Songs" src="images/Songs.gif" width="87" height="40" border="0" alt="Songs"></a></td>
+    <td rowspan="2"><img src="images/Background_mainpage-24.jpg" width="95" height="147" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="40" alt=""></td>
+   </tr>
+   <tr>
+    <td colspan="3"><img src="images/Background_mainpage-25.jpg" width="87" height="107" alt=""></td>
+    <td><img src="images/spacer.gif" width="1" height="107" alt=""></td>
+   </tr>
+   <tr>
+    <td><img src="images/spacer.gif" width="117" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="91" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="18" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="147" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="109" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="3" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="88" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="2" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="26" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="59" height="1" alt=""></td>
+    <td><img src="images/spacer.gif" width="95" height="1" alt=""></td>
+    <td></td>
+   </tr>
+  </tbody>
+ </table>
+ <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="http://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+ <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="http://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+</div>{% endblock %}

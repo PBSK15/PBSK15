@@ -1,0 +1,340 @@
+<html>
+<head>
+<title>PBS KIDS . Barney</title>
+<link rel="stylesheet" href="/hybrid/whoops.css" type="text/css">
+</head>
+<body bgcolor="#9EC3EF" background="/hybrid/hybrid-background-lblue.gif" marginheight="0" topmargin="0">
+<!-- BIG TABLE START -->
+<table width="364" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr><td class="smalltext"><img src="/images/whoops-header.gif" width="364" height="84" border="0" alt="Whoops"><br>
+The <b>Barney</b> Web site doesn't live on pbskids.org any more. For more information, please contact the program producers:<br>
+<br>
+<b>HIT Entertainment – The Americas</b><br>
+675 Avenue Of The Americas<br>
+3rd Floor<br>
+New York, NY 10010<br>
+
+<br>
+Use the pull down menu below to find another PBS KIDS site.<br>
+<br>
+</td></tr>
+<tr><td align="center" valign="middle">
+<form name="tochoice" method=post action="/perl/redirect">
+<select name=selected>
+    <option value="http://pbskids.org/everything.html">Everything PBS KIDS</option>
+	<option value="http://pbskidsgo.org/africa/">Africa for Kids</option>
+	<option value="http://pbskidsgo.org/aaworld/">African American World for Kids</option>
+	<option value="http://pbskidsgo.org/wayback/">American Experience: WayBack</option>	
+    <option value="http://pbskidsgo.org/arthur/">Arthur</option>
+    <option value="http://pbskids.org/barney/">Barney</option>
+	<!--<option value="http://pbskidsgo.org/backyardjungle/">Backyard Jungle</option>-->
+	<option value="http://pbskids.org/berenstainbears/">Berenstain Bears</option>
+    <option value="http://pbskids.org/lions/">Between the Lions</option>
+	<option value="http://www.pbskids.org/bigapplehistory/">Big Apple History</option>
+    <option value="http://pbskids.org/boohbah/">Boohbah</option>
+	<option value="http://pbskids.org/caillou/">Caillou</option>
+	<option value="http://pbskids.org/clifford/">Clifford the Big Red Dog</option>
+	<option value="http://pbskids.org/curiousgeorge/">Curious George</option>
+	<option value="http://pbskidsgo.org/cyberchase/">Cyberchase</option>
+	<option value="http://pbskidsgo.org/democracy/">Democracy Project</option>
+	<option value="http://pbskids.org/designsquad/">Design Squad</option>
+	<option value="http://pbskids.org/dinosaurtrain/">Dinosaur Train</option>
+	<option value="http://pbskidsgo.org/dontbuyit">Don't Buy It</option>
+	<option value="http://pbskidsgo.org/dragonflytv/">DragonflyTV</option>
+	<option value="http://pbskidsgo.org/electriccompany/">Electric Company</option>
+	<option value="http://pbskidsgo.org/eekoworld/">EekoWorld</option>
+    <option value="http://pbskidsgo.org/fetch/">Fetch!</option>
+    <option value="http://pbskids.org/lunchlab/">Fizzy's Lunch Lab</option>
+	<option value="http://pbskids.org/frannysfeet/">Franny's Feet</option>
+    <option value="http://pbskids.org/georgeshrinks/">George Shrinks</option>
+	<option value="http://pbskids.org/meetthegreens/">The Greens</option>
+	<option value="http://pbskidsgo.org/historydetectives">History Detectives</option>
+	<option value="http://pbskids.org/bigbigworld">It's a Big Big World</option>
+	<option value="http://pbskidsgo.org/itsmylife">It's My Life</option>
+	<option value="http://pbskids.org/jayjay/">Jay Jay The Jet Plane</option>
+	<option value="http://pbskids.org/jazz/">Jazz</option>
+	<option value="http://www.pbskids.org/kws">Kids World Sports</option>
+	<option value="http://www.pbskids.org/krattscreatures/">Kratts' Creatures</option>
+    <option value="http://www.pbskids.org/lomax/">Lomax</option>
+	<option value="http://pbskids.org/noddy/">Make Way for Noddy</option>
+	<option value="http://pbskids.org/mamamirabelle/">Mama Mirabelle</option>
+	<option value="http://pbskids.org/martha/">Martha Speaks</option>
+	<option value="http://pbskidsgo.org/mayaandmiguel/">Maya &amp; Miguel</option>
+    <option value="http://pbskids.org/rogers/">Mister Rogers' Neighborhood</option>
+	<option value="http://pbskidsgo.org/stantonanthony/">Not For Ourselves Alone</option>
+    <option value="http://pbskidsgo.org/read/">PBS KIDS Island</option>
+	<option value="http://pbskidsgo.org/buster/">Postcards from Buster</option>
+	<option value="http://pbskids.org/sagwa/">Sagwa The Chinese Siamese Cat</option>
+	<option value="http://pbskidsgo.org/scigirls/">SciGirls</option>
+    <option value="http://pbskids.org/sesame/">Sesame Street</option>
+	<option value="http://pbskids.org/sid/">Sid the Science Kid</option>
+	<option value="http://pbskids.org/superwhy/">Super Why!</option>
+	<option value="http://pbskids.org/teletubbies/">Teletubbies</option>
+	<option value="http://pbskids.org/wildkratts">Wild Kratts</option>
+	<option value="http://pbskids.org/wilsonandditch">Wilson &amp; Ditch Digging America</option>
+	<option value="http://www.pbskids.org/wordgirl">WordGirl</option>
+	<option value="http://www.pbs.org/wonders/Kids/kids.htm">Wonders of the African World</option>
+	<option value="http://pbskids.org/wordworld/">WordWorld</option>
+	<option value="http://pbskids.org/zoboo/">Zoboomafoo</option>
+    <option value="http://pbskidsgo.org/zoom/">ZOOM</option>
+	<option value="">
+	<option value="http://pbskids.org/">PBS KIDS
+	<option value="http://pbskidsgo.org/">PBS KIDS GO!
+
+</select>
+&nbsp;<input type=image src="/images/button-go.gif" width=31 height=19 border=0 alt="Go"><BR>
+</form>
+</td></tr>
+<tr><td><br><a href="/"><img src="/images/whoops-logo-pre.gif" width="169" height="169" border="0" alt="PBS Kids"></a><img src="/images/blank.gif" width="26" height="1" border="0" alt=""><a href="/go/"><img src="/images/whoops-logo-go.gif" width="169" height="169" border="0" alt="PBS KIDS GO!"></a></td></tr>
+</table>
+<!-- BIG TABLE END -->
+<br>
+
+<div class="fineprint" align="center">
+
+<a href="/" class="fineprint">PBS KIDS</a> | <a href="/tvschedules/" class="fineprint">TV Times</a> | <a href="/help/" class="fineprint">Help</a><br/><br/>
+Copyright &copy; 1995-2017 Public Broadcasting Service (PBS). All rights reserved.</div>
+
+
+                
+  
+    <!-- Google Tag Manager --> 
+<noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MR8JHB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript> 
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+   var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+})(window,document,'script','dataLayer','GTM-MR8JHB');
+</script> 
+<!-- End Google Tag Manager -->
+
+
+
+<script type="text/javascript">
+var ua_codes = "";
+  (function() {
+    var getCookie = function(c_name) {
+      if (document.cookie.length > 0) {
+        c_start = document.cookie.indexOf(c_name + "=");
+        if (c_start != -1) {
+          c_start = c_start + c_name.length + 1;
+          c_end = document.cookie.indexOf(";", c_start);
+          if (c_end == -1)
+            c_end = document.cookie.length;
+          return unescape(document.cookie.substring(c_start, c_end));
+        }
+      }
+      return "";
+    };
+
+    //Determines if user is logged in
+    var pbskids_username = getCookie('pbskids.username');
+    //Determines if account is new
+    var returning = getCookie('pbskids.returning');
+
+    GA_customvar = {};
+
+    //var ua_codes = 'UA-4005001-1,ET-4005001-3';
+        var lookupTable = {
+    "": "UA-4005001-1,ET-4005001-3",
+    "aaworld": "UA-4005001-1,UA-3968572-1,UA-3999801-1,ET-3999801-2",
+    "arthur": "UA-4005001-1,UA-3966576-1,UA-3999950-1,ET-3999950-2",
+    "beeswax": "UA-4005001-1,UA-3966576-1,UA-10616832-1,ET-10616832-2",
+    "berenstainbears": "UA-4005001-1,UA-3968098-1,UA-3994369-1,ET-3994369-2",
+    "buster": "UA-4005001-1,UA-3966576-1,UA-3999991-1,ET-3999991-2",
+    "caillou": "UA-4005001-1,UA-3967441-1,UA-3993958-1,ET-3993958-2",
+    "caillou_french": "UA-4005001-1,UA-3967441-1,UA-3993993-1,ET-3993993-2",
+    "catinthehat": "UA-4005001-1,UA-16154142-1,UA-16155509-1,ET-16155509-2",
+    "chuck": "UA-4005001-1,UA-3968372-1,UA-21787719-1,ET-21787719-2",
+    "clifford": "UA-4005001-1,UA-3968372-1,UA-3999587-1,ET-3999587-2",
+    "clifford/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3968372-1,UA-3999587-1",
+    "curiousgeorge": "UA-4005001-1,UA-3966576-1,UA-4000040-1,ET-4000040-2",
+    "curiousgeorge/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3966576-1,UA-4000040-1",
+    "cyberchase": "UA-4005001-1,UA-3968572-1,UA-2223922-1,ET-2223922-2",
+    "cyberchase/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3966759-1,UA-2223922-1",
+    "daniel": "UA-4005001-1,UA-3967651-1,UA-30580064-1,ET-30580064-2",
+    "designsquad": "UA-4005001-1,UA-3966576-1,UA-4000083-1,ET-4000083-2",
+    "dinosaurtrain": "UA-4005001-1,UA-10166412-1,UA-10166683-1,ET-10166683-2",
+    "dontbuyit": "UA-4005001-1,UA-3967876-1,UA-3994203-1,ET-3994203-2",
+    "dragonflytv": "UA-4005001-1,UA-3965989-1,UA-3999924-1,ET-3999924-2",
+    "earthday": "UA-4005001-1,UA-3964855-1,UA-3994540-1,ET-3994540-2",
+    "eekoworld": "UA-4005001-1,UA-3967115-1,UA-3993810-1,ET-3993810-2",
+    "electriccompany": "UA-4005001-1,UA-3968507-1,UA-5414685-1,ET-5414685-2",
+    "fetch": "UA-4005001-1,UA-3966576-1,UA-4000129-1,ET-4000129-2",
+    "frannysfeet": "UA-4005001-1,UA-3968572-1,UA-3999901-1,ET-3999901-2",
+    "healthysummer": "UA-4005001-1,UA-3964855-1,UA-3994602-1,ET-3994602-2",
+    "hooper": "UA-4005001-1,UA-3964855-1,UA-3994749-1,ET-3994749-2",
+    "in_your_town": "UA-4005001-1,UA-3964855-1,UA-3994707-1,ET-3994707-2",
+    "island": "UA-4005001-1,UA-3964855-1,UA-3992719-1,ET-3992719-2",
+    "itsmylife": "UA-4005001-1,UA-3967369-1,UA-3993912-1,ET-3993912-2",
+    "lab": "UA-4005001-1,UA-3964855-1,UA-26042731-1,ET-26042731-2",
+    "lifeboat": "UA-4005001-1,UA-10617025-1,UA-10617056-1,ET-10617056-2",
+    "lions": "UA-4005001-1,UA-3966576-1,UA-4000155-1,ET-4000155-2",
+    "lomax": "UA-4005001-1,UA-6719338-1,UA-6719298-1,ET-6719298-2",
+    "loopscoops": "UA-4005001-1,UA-3966576-1,UA-20228423-1,ET-20228423-2",
+    "lunchlab": "UA-4005001-1,UA-10616664-1,UA-10616734-1,ET-10616734-2",
+    "martha": "UA-4005001-1,UA-3966576-1,UA-5036549-1,ET-5036549-2",
+    "mayaandmiguel": "UA-4005001-1,UA-3968372-1,UA-3999619-1,ET-3999619-2",
+    "noah": "UA-4005001-1,UA-3968572-1,UA-21783296-1,ET-21783296-2",
+    "pets": "UA-4005001-1,UA-3964855-1,UA-3994771-1,ET-3994771-2",
+    "readytolearn": "UA-4005001-1,UA-3964855-1,UA-26042731-3,UA-26042731-4",
+    "retired_backyardjungle.html": "UA-4005001-1,UA-3967720-1,UA-3994136-1,ET-3994136-2",
+    "rogers": "UA-4005001-1,UA-3967651-1,UA-3994102-1,ET-3994102-2",
+    "scigirls": "UA-4005001-1,UA-3965989-1,UA-10617102-1,ET-10617102-2",
+    "sesame": "UA-4005001-1,UA-3968507-1,UA-3999779-1,ET-3999779-2",
+    "sid": "UA-4005001-1,UA-3963045-1,UA-5035505-1,ET-5035505-2",
+    "speakout": "UA-4005001-1,UA-3964855-1,UA-6307581-1,ET-6307581-2",
+    "storyfactory": "UA-4005001-1,UA-3964855-1,UA-3994817-1,ET-3994817-2",
+    "superwhy": "UA-4005001-1,UA-3968166-1,UA-3994472-1,ET-3994472-2",
+    "talentshow": "UA-4005001-1,UA-3964855-1,UA-3999413-1,ET-3999413-2",
+    "thomasandfriends": "UA-4005001-1,UA-3967794-1,UA-42889099-1,ET-42889099-2",
+    "toopyandbinoo": "UA-4005001-1,UA-6043722-1,UA-6043633-1,ET-6043633-2",
+    "video": "UA-4005001-1,ET-4005001-5",
+    "wildkratts": "UA-4005001-1,UA-3967957-1,UA-18413296-1,ET-18413296-2",
+    "wilsonandditch": "UA-4005001-1,UA-10166412-1,UA-10616776-1,ET-10616776-2",
+    "wordgirl": "UA-4005001-1,UA-3968372-1,UA-3999648-1,ET-3999648-2",
+    "wordquest": "UA-4005001-1,UA-3964855-1,UA-15498767-1,ET-15498767-2",
+    "wordworld": "UA-4005001-1,UA-3968877-1,UA-4000339-1,ET-4000339-2",
+    "writerscontest": "UA-4005001-1,UA-3964855-1,UA-15499539-1,ET-15499539-2",
+    "zoboo": "UA-4005001-1,UA-3967957-1,UA-3994275-1,ET-3994275-2",
+    "zoom": "UA-4005001-1,UA-3966576-1,UA-4000252-1,ET-4000252-2",
+    "readyjetgo": "UA-4005001-1,UA-69435322-1,UA-68471816-1,ET-68471816-2",
+    "naturecat": "UA-4005001-1,UA-69435628-1,UA-68465755-1,ET-68465755-2",
+    "plumlanding": "UA-4005001-1,UA-3966576-1,UA-47836444-1,ET-47836444-2",
+    "oddsquad": "UA-4005001-1,UA-3967651-1,UA-50934115-1,ET-50934115-2",
+    "bobthebuilder": "UA-4005001-1,UA-3967794-1,UA-68468616-1,ET-68468616-2",
+    "peg": "UA-4005001-1,UA-24428255-1,ET-24428255-2",
+    "splashandbubbles": "UA-4005001-1,UA-10166412-1,UA-77875190-1,ET-77875190-2"
+};
+try {
+    var pathArray = window.location.pathname.split( '/' );
+    ua_codes = lookupTable[pathArray[1]];
+    if (ua_codes == "" || ua_codes == null) {
+        ua_codes = "UA-4005001-1,ET-4005001-3";
+    }
+} catch (e) {
+    ua_codes = "UA-4005001-1,ET-4005001-3";
+}
+    var ua_codes_list = ua_codes.split(',');
+
+    var login_info;
+    //Setup log in info custom variable string
+    if (pbskids_username) {
+      login_info = "l=1";
+      if (returning) {
+        login_info += "&r=1";
+      } else {
+        login_info += "&r=0";
+      }
+    } else {
+      login_info = "l=0&r=0";
+    }
+
+    for ( i = 0; i < ua_codes_list.length; i++) {
+      var cv_array = [["GO login tracking", login_info, 2]];
+      GA_customvar[ua_codes_list[i]] = cv_array;
+    }
+
+  })();
+</script>
+
+
+
+
+  <script type="text/javascript">
+var GA_env = { ua_list: ua_codes };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script src="/js/ga-current.js" type="text/javascript"></script>
+
+  <!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005420" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+  <link rel="stylesheet" type="text/css" href='http://www-tc.pbskids.org/shell/styles/css/producer-headband.css' />
+
+  <div id="headband-container" class='producer-headband  '>
+    <div class="headband-nav">
+      <div id="headband-user-block" class="logged-out">
+        <div class="header">
+          <a href="" class="avatar" rel="user" title="Visit Your Profile">
+            <h3>Visit Your Profile</h3>
+            <img alt="Your Avatar" src=""/>
+          </a>
+          <h2 class="user-name">
+            
+            <a href="/profile/" target="_self"><em>Not Logged In</em></a>
+            
+            <a class="log-out" data-action="pbskids-login-sign-out">logout</a>
+          </h2>
+        </div>
+
+        <a class="sign-in" data-action="pbskids-login-sign-in"><em>Sign In</em> To PBS KIDS</a>
+      </div>
+
+      <div id="parents-message-bar">
+        <div class="wrap">
+          <div id="parents-messages"></div>
+        </div>
+        <div class="parents-bar-tooltips"></div>
+        <button id="squished-headband-toggle"><span class="hidden">Toggle message bar</span></button>
+      </div>
+
+      <ul>
+          <li class="nav-item apps"><a href="http://pbskids.org/apps/">Apps</a></li>
+          <li class="nav-item shop"><a href="http://shop.pbskids.org/?utm_source=PBS_kids&utm_medium=brandsite&utm_content=ShopButton&utm_campaign=homepage_091914">Shop</a></li>
+
+          <li class="nav-item station" style="display:none;">
+          </li>
+
+          <li class="nav-item parents"><a href="http://grownups.pbskids.org/">Parents</a></li>
+
+          <li class="nav-item tv-times"><a href="http://pbskids.org/tv-times/">TV Times</a></li>
+          <li class="nav-item settings">
+            <button data-action="settings-trigger">Settings</button>
+          </li>
+      </ul>
+    </div>
+
+  </div> <!-- End Headband -->
+
+
+    <script type='text/javascript' src='http://www-tc.pbskids.org/js/loader/lib/PBS.KIDS.require.js' data-main='http://pbskids.org/js/loader/loaders/producers.require.config.js' ></script>
+
+  
+
+
+
+</body>
+
+</html>

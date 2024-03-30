@@ -1,0 +1,46 @@
+{% extends 'curiousgeorge/includes/templates/flash_game_page.html.twig' %}
+{% set ftrAttributes = 'id="ftr-games"' %}
+{% set pageTitle = 'Monkey Faces' %}
+
+{% block gameFrame %}<div id="flash-game">
+	<div id="flashcontent">
+		<p>&nbsp;</p>
+		<h2>This game requires Flash version 8</h2>
+		<h2>You can <a href="https://pbskids.org/cgi-registry/kidsbridge.cgi?context=curiousgeorge_flash_player">download the latest version of Flash</a> for FREE.</h2>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+		 codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+		 width="724" height="338" id="monkey_facesV5" align="">
+		 <param name="movie" value="monkey_facesV5.swf?" />
+		 <param name="quality" value="best" /> 
+		 <param name="bgcolor" value="#FFCC01" /> 
+			 <embed 
+				src="monkey_facesV5.swf?" 
+				quality="best" 
+				bgcolor="#FFCC01"  
+				width="724" 
+				height="338" 
+				name="monkey_facesV5" 
+				type="application/x-shockwave-flash" 
+				pluginspage="https://www.macromedia.com/go/getflashplayer">
+			  </embed>
+		</object>
+		
+	</div>
+	
+	<div id="nametag">
+		<img src="/curiousgeorge/games/img/nt_monkey_faces.gif" alt="Monkey Faces" height="51" width="438" />
+		<p>Parents & Teachers! <a href="https://www.pbs.org/parents/curiousgeorge/site/site_features.html#monkey_faces">Learn more about Monkey Faces</a>.</p>	
+	</div>
+	
+	<p>&nbsp;</p>
+	
+</div>
+
+<script type="text/javascript">
+    var so = new PBS_SWFObject("monkey_facesV5.swf", "monkey_facesV5", "724", "338", "8", "#FFCC01");
+    so.setAttribute('redirectUrl', '/curiousgeorge/games/noflash.html');
+    so.addParam("quality", "best");
+    ////PBS_enable_cdn(so);  // This will push the object out to Mirror Image
+    so.write("flashcontent");
+</script>
+<!-- end bbinclude -->{% endblock %}

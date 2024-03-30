@@ -1,0 +1,370 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	background-image:url(images/headerBG.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color:#ffc40a;
+}
+
+a img{
+	border:none;
+}
+
+#container{
+	text-align: center;
+	width: 880px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+
+/* ---------------- */
+/* LEFT SIDE STYLES */
+/* ---------------- */
+
+#left{
+	width:308px;
+	float:left;
+}
+
+/* HEADER */
+
+#headerLeft{
+	height:134px;
+}
+
+#logo{
+	width:73px;
+	height:68px;
+	float:left;
+	margin-top:50px;
+	margin-left:10px;
+	margin-right:6px;
+}
+
+#crest{
+	width:206px;
+	height:91px;
+	background-image:url(images/crest.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:30px;
+}
+
+/* BODY AND NAVIGATION */
+
+#bodyLeft{
+}
+
+#leftNav{
+	margin-top:40px;
+	margin-left:70px;
+	width:210px;
+}
+
+#leftNav ul{
+	list-style:none;
+}
+
+#leftNav ul li{
+	margin-bottom:8px;
+	border-bottom:2px solid #FFF;
+	width:100%;
+}
+
+#leftNav ul li a{
+	text-indent:-9999px;
+}
+
+
+/*
+#leftNav ul li:hover{
+	border-bottom:2px solid #242073;
+}
+*/
+
+/* HOME */
+
+.home a{
+	display:block;
+	background-image:url(images/navigation.jpg);
+	background-position:-88px 143px;
+	margin-left:90px;
+	width:76px;
+	height:26px;
+}
+
+.home a:hover{
+	background-position:-171px 143px;
+}
+
+
+/* PARENT TIPS */
+
+.parents a{
+	display:block;
+	background-image:url(images/navigation.jpg);
+	background-position:-21px 86px;
+	margin-left:28px;
+	width:135px;
+	height:26px;
+}
+
+.parents a:hover{
+	background-position:-170px 86px;;
+}
+
+/* EDUCATOR TIPS */
+
+.educators a{
+	display:block;
+	background-image:url(images/navigation.jpg);
+	background-position:7px 58px;
+	margin-left:0px;
+	width:170px;
+	height:26px;
+}
+
+.educators a:hover{
+	background-position:-170px 58px;
+}
+
+/* CREDITS */
+
+.credits a{
+	display:block;
+	background-image:url(images/navigation.jpg);
+	background-position:-58px 29px;
+	margin-left:65px;
+	width:97px;
+	height:26px;
+}
+
+.credits a:hover{
+	background-position:-166px 29px;
+}
+
+/* END LEFT SIDE NAVIGATION */
+
+
+#join{
+	float:right;
+	margin-right:20px;
+}
+
+#join a{
+	display:block;
+	width:182px;
+	height:212px;
+	background-image:url(images/joinHover.png);
+	background-position:0px 0px;
+}
+
+#join a:hover{
+	background-position:-182px 0px;
+}
+
+
+/* ----------------- */
+/* RIGHT SIDE STYLES */
+/* ----------------- */
+
+#right{
+	width:526px;
+	float:right;
+	margin-left:20px;
+}
+
+/* HEADER */
+
+#headerRight{
+	height:134px;
+}
+
+#welcome{
+	width:511px;
+	height:24px;
+	background-image:url(images/welcome.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:80px;
+}
+
+/* BODY */
+
+#bodyRight{
+	margin-top:40px;
+	color:#242073;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-bottom:40px;
+}
+
+#bodyRight a {
+color: #242073;
+text-decoration: underline;
+}
+
+#bodyRight a:hover {
+color: #242073;
+text-decoration: none;
+}
+
+/* --------------- */
+/* CAROUSEL STYLES */
+/* --------------- */
+
+/* Each div inside your carousel is given a panel class that can be used for styling */
+
+#myCarousel{
+	border:3px solid #000;
+	width:500px;
+	margin-bottom:20px;
+}
+
+#myCarousel p{
+	margin:0px;
+	padding:0px;
+}
+
+#myCarousel .panel{
+	margin:0px;
+	padding:0px;
+}
+
+#myCarousel .panel h4 { margin: 0 0 1em; }
+
+/* Styling for navigation bar */
+.kidsCarouselNavigation {
+    background: #0d0b27;
+    margin: 0 0 0;
+    padding: 0px;
+}
+
+/* Styling for navigation bar links */
+.kidsCarouselNavigation a {
+    color: #fff;
+    outline: none;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Styling for the back and forward buttons */
+#myCarousel .kidsCarouselNavigation .back { 
+	margin-left: 10px;
+	margin-bottom:6px;
+	margin-top:6px;
+	
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+#myCarousel .kidsCarouselNavigation .forward { 
+	float: right !important; margin-right:10px;
+	margin-bottom:6px;
+	margin-top:6px;
+	
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+	
+/* FORWARD AND BACK BUTTON HOVER STATES */
+
+#myCarousel .kidsCarouselNavigation .back:hover { 
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+
+}
+
+#myCarousel .kidsCarouselNavigation .forward:hover { 
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+
+}
+
+/* Styling for the navigation link that is currently displayed */
+.kidsCarouselNavigation a.current { 
+	background: #666; 
+}
+
+.caption{
+	position:absolute;
+	color:#FFF;
+	font-weight:bold;
+	height:auto;
+	width:500px;
+	overflow:auto;
+	bottom:0px;
+	padding:10px;
+	background-image:url(images/captionBG.png);
+}
+
+/* --------------------------- */
+/* PARENTS BULLET POINT STYLES */
+/* --------------------------- */
+
+#parentBulletPoints{
+	list-style:none;
+	margin-left:-14px;
+}
+
+#parentBulletPoints li{
+	margin-bottom:30px;
+}
+
+#parentBulletPoints li img{
+	float:left;
+	margin-right:10px;
+	border:2px solid #000;
+}
+
+/* ---------------------------- */
+/* TEACHERS BULLET POINT STYLES */
+/* ---------------------------- */
+
+#educatorBulletPoints li{
+	margin-bottom:20px;
+}
+
+#pic1{
+	width:252px;
+	height:216px;
+	background-image:url(images/educators_pic1.jpg);
+	border:2px solid black;
+	float:right;
+	margin-left:15px;
+}
+
+#pic2{
+	width:220px;
+	height:141px;
+	float:left;
+	border:2px solid black;
+	background-image:url(images/educators_pic2.jpg);
+	margin-right:20px;
+	margin-left:-10px;
+}
+
+/* --------------------------- */
+/* CREDITS BULLET POINT STYLES */
+/* --------------------------- */
+
+.creditBullet{
+	list-style:none;
+	margin-bottom:15px;
+}

@@ -1,0 +1,33 @@
+{% extends 'curiousgeorge/busyday/includes/busyDayPage.html.twig' %}
+
+{% set desc = "Count flowers in George's flower garden, and learn numbers up to 20!" %}
+{% set tags = 'counting one-to-one, numbers, number line, cardinality, represented set, pre-K math' %}
+{% set pageTitle = "Flower Garden | PBS KIDS" %}
+{% set spanish = false %}
+{% set bodyAtrs = '  ' %}
+
+{% set specialInclude = '<script type="text/javascript" src="../js/track_flowers.js"></script>' %}
+{% set overlayWrapper = false %}
+
+{% block contentArea %}<div id="content-area">
+	<div id="flashContent">
+		<a href="https://www.adobe.com/go/getflash"><img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a>
+		<p>This page requires Flash Player version 9.0.115 or higher.</p>
+	</div>
+
+	<script type="text/javascript">
+		var so = new SWFObject("flowers.swf", "flowers", "900", "500", "9.0.115", "#3b96c5");
+		so.addVariable("gameMode","teacher");
+		so.addParam("quality","best");
+		so.addParam("play","true");
+		so.addParam("menu","true");
+		so.addParam("allowFullScreen","true");
+		so.addParam("allowscriptaccess","always");
+        // Adding wmode param to approprately stack swf obj in IE -- 4/27/2015 INye
+        so.addParam("wmode","opaque");
+		so.setAttribute("id","flowers");
+		so.setAttribute("name","flowers");
+		so.write("flashContent");
+	</script>
+
+</div>{% endblock %}

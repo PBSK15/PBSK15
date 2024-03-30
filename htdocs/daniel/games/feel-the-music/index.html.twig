@@ -1,0 +1,22 @@
+{% extends 'daniel/includes/danielPage.html.twig' %}
+{% set pageTitle = 'Playing Feel the Music' %}
+{% set jsInclude = '' %}
+{% set bodyOpeningTag = '<body class="headband-hidden" id="player">' %}
+
+
+{% block mainContent %}<main>
+ <div id="content-container">
+  <div id="content-window"><!-- embed flash using swfobject -->
+   <script type="text/javascript">              var game_path = new String("/daniel/assets/swf/musicGame.swf");              var pageID = new String("MusicGame");              var flashVars = {                gameUrl: game_path,                cursor: 'true',                traceFunction: 'trace'              };              var params = {                allowScriptAccess: 'always',                wmode: 'transparent'              };              var loader_path = new String("/daniel/assets/swf/daniel_loader.swf");              swfobject.embedSWF(loader_path, "content-window", "960px", "500px", "10.0.0","expressInstall.swf", flashVars, params);            </script>
+  </div>
+  <div class="parent-tip">
+   <p class="parent-tip__text"></p>
+  </div>
+ </div>
+</main>{% endblock %}
+
+
+
+
+{% block lowerBand %}{% endblock %}
+

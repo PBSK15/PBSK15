@@ -1,0 +1,154 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set alternateTitle = true %}
+{% set pageTitle = ': Games, Coloring and Activities | PBS KIDS' %}
+{% set keywds = 'Caillou, Kayu, Caillou games' %}
+{% set desc = 'Play fun games with Caillou and his family. Help Caillou dig for dinosaur bones, drive a train and color! Play Caillou Games!' %}
+
+{% block specialScripts %}
+<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		entete_over = newImage("images/entete-over.gif");
+		menu_play_over = newImage("images/CA_MenuPBS_Play-over.jpg");
+		menu_printable_over = newImage("images/CA_MenuPBS_Printables-over.jpg");
+		menu_tv_over = newImage("images/CA_MenuPBS_TV-over.jpg");
+		menu_parents_over = newImage("images/CA_MenuPBS_Parents-over.gif");
+		preloadFlag = true;
+	}
+}
+
+
+var SWF_array = new Array();
+SWF_array[0] = "SWF/ANIMEarchitect01Modif.swf";
+SWF_array[1] = "SWF/ANIMECHEF01Modif.swf";
+SWF_array[2] = "SWF/ANIMEcircus02Modif.swf";
+SWF_array[3] = "SWF/ANIMEgardener01Modif.swf";
+SWF_array[4] = "SWF/ANIMEpaleonto01Modif.swf";
+SWF_array[5] = "SWF/ANIMEtrain03Modif.swf";
+
+var idx = 0;
+idx = Math.round(Math.random() * (SWF_array.length - 1));
+
+// -->
+</script>{% endblock %}
+
+{% set bodyTag = '<body onload="preloadImages();">' %}
+
+{% block mainContent %}<div id="header" align="center">
+		<table width="756" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+				 <td width="50">&nbsp;</td>
+				 <td width="250" align="left"><a href="/"><img name="PBS KIDS" src="/caillou/images/PBSLogo.gif" width="42" height="54" border="0" alt="PBS KIDS" title="PBS KIDS"></a></td>
+				 <td width="200" align="left"><a href="/caillou/index.html"
+						onmouseover="changeImages('entete', '/caillou/images/entete-over.gif'); return true;"
+						onmouseout="changeImages('entete', '/caillou/images/entete.gif'); return true;"
+						onmousedown="changeImages('entete', '/caillou/images/entete-over.gif'); return true;"
+						onmouseup="changeImages('entete', '/caillou/images/entete-over.gif'); return true;"><img name="entete" src="/caillou/images/entete.gif" width="184" height="96" border="0" alt="Caillou Homepage" title="Caillou Homepage"></a></td>
+				 <td><p style="font-size:10px;font-family:Verdana, Arial, Helvetica, sans-serif">
+				 	
+					Find out when Caillou is on <a href="/tvschedules/localizer.html?dest=/caillou/index.html&nola=CAIU" class="footer">in your town.</a>
+					
+					<!-- FIND ANOTHER STATION LINK -->
+					</p>
+				 </td>
+			  </tr>
+		</table>
+	</div>
+	<div id="main-center" align="center">
+		<div id="main" align="left">
+			<div id="nav-left">
+				<p>
+				<img src="images/CA_Menu_Head.gif" width="132" height="28" /><br />
+				<a href="/caillou/immersivegames/"
+				onmouseover="changeImages('menu_play', 'images/CA_MenuPBS_Play-over.jpg');"
+				onmouseout="changeImages('menu_play', 'images/CA_MenuPBS_Play.jpg');"
+				onmousedown="changeImages('menu_play', 'images/CA_MenuPBS_Play-over.jpg');"
+				onmouseup="changeImages('menu_play', 'images/CA_MenuPBS_Play-over.jpg');"><img src="images/CA_MenuPBS_Play.jpg" alt="Play with Caillou" name="menu_play" width="132" height="135"></a><br />
+				<img src="images/CA_Menu_StarSeparate.gif" /><br />
+				<a href="/caillou/activities/"
+				onmouseover="changeImages('menu_printable', 'images/CA_MenuPBS_Printables-over.jpg');"
+				onmouseout="changeImages('menu_printable', 'images/CA_MenuPBS_Printables.jpg');"
+				onmousedown="changeImages('menu_printable', 'images/CA_MenuPBS_Printables-over.jpg');"
+				onmouseup="changeImages('menu_printable', 'images/CA_MenuPBS_Printables-over.jpg');"><img src="images/CA_MenuPBS_Printables.jpg" alt="Printables & Activities" name="menu_printable" width="132" height="111" border="0"></a><br />
+				<img src="images/CA_Menu_StarSeparate.gif" /><br />
+				<a href="/tvschedules/airdates.html?title_id=CAIU"
+				onmouseover="changeImages('menu_tv', 'images/CA_MenuPBS_TV-over.jpg');"
+				onmouseout="changeImages('menu_tv', 'images/CA_MenuPBS_TV.jpg');"
+				onmousedown="changeImages('menu_tv', 'images/CA_MenuPBS_TV-over.jpg');"
+				onmouseup="changeImages('menu_tv', 'images/CA_MenuPBS_TV-over.jpg');"><img src="images/CA_MenuPBS_TV.jpg" alt="Caillou on TV" width="132" height="115" name="menu_tv"></a><br />
+				<img src="images/CA_Menu_StarSeparate.gif" /><br />
+				<a href="/caillou/parentsteachers/"
+				onmouseover="changeImages('menu_parents', 'images/CA_MenuPBS_Parents-over.gif');"
+				onmouseout="changeImages('menu_parents', 'images/CA_MenuPBS_Parents.gif');"
+				onmousedown="changeImages('menu_parents', 'images/CA_MenuPBS_Parents-over.gif');"
+				onmouseup="changeImages('menu_parents', 'images/CA_MenuPBS_Parents-over.gif');"><img src="images/CA_MenuPBS_Parents.gif" alt="Parents & Teachers" name="menu_parents" width="132" height="45" border="0"></a><br />
+				<img src="images/CA_Menu_Bottom.gif" width="132" height="29" /> <br />
+				</p>
+			</div>
+			<div id="content"><br />
+				<table id="Table_01" width="612" height="512" border="0" cellpadding="0" cellspacing="0">
+				   <tr>
+					  <td>	  					  
+					  <div id="flashcontent">
+					  
+					  <h1>Caillou Games, Coloring and Activities</h1>
+					  Play games with Caillou and friends! You need <a href="http://get.adobe.com/flashplayer/">Adobe Flash</a> to play games with Caillou.
+					  
+					  </div>
+					  <script type="text/javascript">
+					  var so = new SWFObject(SWF_array[idx], "swfmovie", "612", "512", "8", "#FFFFFF", "high");
+					  //PBS_enable_cdn(so);
+					  so.addParam("wmode","transparent");
+					  so.write("flashcontent");
+					  </script>
+					  </td>
+				   </tr>
+				</table>				
+			</div>
+		</div>
+		<br /><br />
+		<div align="center">
+		<table width="744" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="337"><br />
+			   <a href="http://www.chuckecheese.com/"><img src="images/cec_logo-Chucke-Cheeses.gif" width="92" height="56" border="0" alt="Chuck E. Cheese's" title="Chuck E. Cheese's"/><br />
+			   </a></td>
+				<td width="192" style="font-family: arial, sans-serif; font-size: 11px;">Produced by<br />
+			   &nbsp;&nbsp;<img src="images/CA_LogoCookyJar.jpg" alt="Cookie Jar"/></td>
+				<td width="215"><img src="images/CA_Sponsor_Quebecor.gif" alt="With the financial support of the Quebecor Fund." title="With the financial support of the Quebecor Fund."/></td>				
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;<br />
+		      <img src="images/PTC_Seal.gif" alt="Seal of Approval: Parents Television Council"/></td>
+			  <td>&nbsp;</td>
+		  </tr>
+		</table>
+		</div>
+		<div id="footer"><p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br>
+      <a class="footer" href="/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+   <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright &copy; <a class="footer" href="/caillou/copyright.html">2011</a> COOKIE JAR ENTERTAINMENT&trade;<br>
+      Les Editions Chouette. All rights reserved. <a class="footer" href="/privacy">PBS Privacy Policy</a></p>
+
+</div>
+	</div>	{% endblock %}

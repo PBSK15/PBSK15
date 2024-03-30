@@ -1,0 +1,37 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Greeting Cards . Postcards' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation, colouring pages' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script type="text/javascript">  var isRolloverOn = false;  if (document.images) {	close_buttonon = new Image();	close_buttonon.src = "images/back_btn-over.gif";	close_buttonoff = new Image();	close_buttonoff.src = "images/back_btn.gif";	}	                  function act(imgName) {                if (document.images) {                    document[imgName].src = eval(imgName + 'on.src');                }            }                      function inact(imgName) {                if (document.images) {                    document[imgName].src = eval(imgName + 'off.src');                }            }</script>
+{% endblock %}
+
+{% set bodyTag = '<body bgcolor="#FFFFFF">' %}
+
+{% block mainContent %}<div align="center">
+ <table width="540" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+   <tr>
+    <td width="20%"><a href="http:pbskids.org/"><img src="images/pbs_logo.gif" alt="PBS Kids homepage" height="72" width="50" border="0"></a></td>
+    <td width="60%">
+     <div align="center"><a href="../../index.html"><img src="images/caillou_word.gif" alt="Caillou homepage" height="72" width="179" border="0"></a>
+     </div></td>
+    <td width="20%">
+     <div align="right"><a onmouseover="document.close_button.src=close_buttonon.src" onmouseout="document.close_button.src=close_buttonoff.src" href="../postcards.html"><img src="images/back_btn.gif" alt="Postcards Page" name="close_button" height="59" width="92" border="0"></a>
+     </div></td>
+   </tr>
+  </tbody>
+ </table>
+ <table width="540" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+   <tr>
+    <td>
+     <div align="center"><img src="images/Card0303.gif" alt="Postcard" height="720" width="514">
+     </div></td>
+   </tr>
+   <tr>
+    <td align="center"><p class="instruct_normal">Use your browser's print menu to print this postcard.<br> Click on the "Back" button to choose and make another postcard.</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>{% endblock %}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tooltip .bottom {
+	background: url('../images/ie/tooltip_bottom.png');
+}
+
+.tooltip .cap {
+	background: url('../images/ie/tooltip_cap.png');
+}
+
+.tooltip .tooltip-content {
+	background: url('../images/ie/tooltip_content.png');
+}
+
+.more-cool-stuff {
+	background: url('../images/ie/more_cool_stuff.png');
+}

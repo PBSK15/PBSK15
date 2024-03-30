@@ -1,0 +1,30 @@
+{
+  "resources": [
+    "avril.m4a",
+    "avril.oga",
+    "avril.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "TheFamilyTable": {
+      "start": 6,
+      "end": 9.335011337868481,
+      "loop": false
+    },
+    "ToTheLunchLab": {
+      "start": 11,
+      "end": 12.766326530612245,
+      "loop": false
+    },
+    "Yum": {
+      "start": 14,
+      "end": 16.60167800453515,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

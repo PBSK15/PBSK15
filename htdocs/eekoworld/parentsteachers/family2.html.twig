@@ -1,0 +1,115 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE --> <img src="../images/header_parentsteachers.jpg" alt="Parents &amp; Teachers" width="259" height="54" class="headerimage">
+  <div id="subnav">
+   <a href="index.html">Overview</a> | <a href="family.html" class="active">Family Guide</a> | <a href="teachers.html">Teacher's Guide</a> | <a href="lessons.html">Lesson Plans</a>
+  </div> <img src="../images/header_familyguide.jpg" alt="Family Guide" width="141" height="33" class="contentheader">
+  <div id="sidebarwrapper">
+   <div id="sidebargreentop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreencontainer">
+    <div id="sidebargreencontent">
+     <p><strong>Create and care for your own <a href="../index.html@load=eekocreature">EekoCreature</a>, then explore <a href="../index.html@load=eekohouse">EekoHouse</a> for conservation ideas! </strong></p>
+    </div>
+   </div>
+   <div id="sidebargreenbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+  </div> <a name="bash"></a><span class="subhead">Eco-Friendly Birthday Bash</span><br>
+  <p>Plan an eco-friendly birthday celebration. Call a family meeting and brainstorm a list of ideas for creating an eco-friendly birthday celebration. Here are a few ideas to get you started.</p>
+  <ul>
+   <li>Make cloth gift bags that are reused for every family member's birthday</li>
+   <li>Make paper to use for wrapping paper</li>
+   <li>Use washable plates, utensils, and cloth napkins and tablecloths</li>
+   <li>Look for gifts or party favors with little or no packaging</li>
+   <li>Make party decorations using recycle materials. Save and reuse them for other family members' birthday parties</li>
+  </ul>
+  <p>Incorporate your eco-friendly celebration ideas <a href="http://www.state.me.us/spo/sp/press/holidaytrash.php" title="http://www.state.me.us/spo/sp/press/holidaytrash.p">into the holiday season</a>. It is estimated that between Thanksgiving and New Year's Day an extra million tons of waste are generated nationwide each week. In fact, 38,000 miles of ribbon alone is thrown out each year — enough to tie a bow around the Earth!</p>
+  <p>Encourage extended family members and friends to participate in an eco-friendly holiday.</p> <br> <a name="fling"></a><span class="subhead">Non-Toxic Spring Fling</span><br>
+  <p>Do some of your cleaning products contain warnings like, "Avoid breathing vapors and use only in a well ventilated area"? This year when your family does the spring-cleaning, make your own non-toxic cleaning supplies. You will save money and the environment at the same time. Have your children help you make the cleaning products. It's a great way to have them practice their reading and math skills.</p>
+  <p>These web sites contain recipes for non-toxic cleaning supplies and information on household hazardous waste:</p>
+  <ul>
+   <li><a href="http://eartheasy.com/live_nontoxic_solutions.htm" title="http://eartheasy.com">http://eartheasy.com</a></li>
+   <li><a href="http://www.ems.org/household_cleaners/alternatives.html" title="http://www.ems.org">http://www.ems.org</a></li>
+   <li><a href="http://www.care2.com/channels/solutions/home/511" title="http://www.care2.com">http://www.care2.com</a></li>
+   <li><a href="http://mainegov-images.informe.org/spo/recycle/docs/hhw.pdf" title="http://mainegov-images.informe.org">http://mainegov-images.informe.org</a></li>
+  </ul> <br>
+  <div align="right">
+   <strong>« <a href="family1.html" class="next">Previous</a></strong>&nbsp; | &nbsp;<strong><a href="family3.html" class="next">Next</a> »</strong>
+  </div>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

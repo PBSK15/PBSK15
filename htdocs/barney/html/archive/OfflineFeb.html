@@ -1,0 +1,155 @@
+<HTML>
+
+        <head>
+                <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+                <meta name="generator" content="GoLive CyberStudio 3">
+                <title>Offline Activities</title>
+                <csscriptdict>
+                        <script><!--
+function CSScriptInit() {
+CSILoad('button',new Array(/*URL*/'../images/PlayA.gif',/*URL*/'../images/PlayB.gif',/*URL*/'',''));
+CSILoad('button2',new Array(/*URL*/'../images/AboutA.gif',/*URL*/'../images/AboutB.gif',/*URL*/'',''));
+CSILoad('button4',new Array(/*URL*/'../images/TVA.gif',/*URL*/'../images/TVB.gif',/*URL*/'',''));
+CSILoad('button5',new Array(/*URL*/'../images/BackA.gif',/*URL*/'../images/BackB.gif',/*URL*/'',''));
+}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+        var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+        if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+                elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+        return elem;
+}
+function CSButtonReturn () {
+        var bAgent = window.navigator.userAgent; 
+        var bAppName = window.navigator.appName;
+        if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+                return false; // follow link
+        else return true; // follow link
+}
+CSIm = new Object();
+function CSIShow(n,i) {
+        if (document.images) {
+                if (CSIm[n]) {
+                        var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+                        if (img) {img.src = CSIm[n][i].src; self.status = CSIm[n][3];}
+                        return true;
+                }
+        }
+        return false;
+}
+function CSILoad(im,ar) {
+        if (document.images) {
+                CSIm[im] = new Object();
+                for (var i=0;i<3;i++) {
+                        if (ar[i] != '') { CSIm[im][i] = new Image(); CSIm[im][i].src = ar[i]; }
+                        else CSIm[im][i] = 0;
+                }
+                CSIm[im][3] = ar[3];
+        }
+}
+
+// --></script>
+                </csscriptdict>
+        </head>
+
+        <body background="../images/background.gif" bgcolor="#ffdba1" onload="CSScriptInit();">
+                <center>
+                        <a href="../index.html"><img height="60" width="176" src="../images/BFLogo.gif" border="0"></a><csobj w="58" h="60" t="Button" ht="../images/PlayB.gif"><a href="games.html" onmouseover="return CSIShow('button',1)" onmouseout="return CSIShow('button',0)" onclick="return CSButtonReturn()"><img src="../images/PlayA.gif" width="58" height="60" name="button" border="0"></a></csobj><csobj w="57" h="60" t="Button" ht="../images/AboutB.gif"><a href="About.html" onmouseover="return CSIShow('button2',1)" onmouseout="return CSIShow('button2',0)" onclick="return CSButtonReturn()"><img src="../images/AboutA.gif" width="57" height="60" name="button2" border="0"></a></csobj><img height="60" width="57" src="../images/CaregiverA.gif" border="0"><csobj w="57" h="60" t="Button" ht="../images/TVB.gif"><a href="/cgi-registry/in_your_town/router.cgi?nola=BAFR&program=barney" onmouseover="return CSIShow('button4',1)" onmouseout="return CSIShow('button4',0)" onclick="return CSButtonReturn()"><img src="../images/TVA.gif" width="57" height="60" name="button4" border="0"></a></csobj><csobj w="57" h="60" t="Button" ht="../images/BackB.gif"><a href="../index.html" onmouseover="return CSIShow('button5',1)" onmouseout="return CSIShow('button5',0)" onclick="return CSButtonReturn()"><img src="../images/BackA.gif" width="57" height="60" name="button5" border="0"></a></csobj><a href="http://pbskids.org"><img height="60" width="58" src="../images/PBSKids.gif" border="0"></a>
+
+<table cool width="523" height="1319" border="0" cellpadding="0" cellspacing="0" gridx="16" showgridx gridy="16" showgridy bgcolor="white">
+                                <tr height="9">
+                                        <td width="1" height="9"><spacer type="block" width="1" height="9"></td>
+                                        <td width="2" height="9"><spacer type="block" width="2" height="9"></td>
+                                        <td width="247" height="72" colspan="2" rowspan="2" valign="top" align="left" xpos="2"><img height="72" width="189" src="../images/CaregiverTry3.gif"></td>
+                                        <td width="214" height="9"><spacer type="block" width="214" height="9"></td>
+                                        <td width="57" height="9"><spacer type="block" width="57" height="9"></td>
+                                </tr>
+                                <tr height="63">
+                                        <td width="1" height="63"><spacer type="block" width="1" height="63"></td>
+                                        <td width="2" height="63"><spacer type="block" width="2" height="63"></td>
+                                        <td width="214" height="63" colspan="1" rowspan="1" valign="top" align="left" xpos="249" content csheight="60">
+                                                <a href="febParent.html"><font face="Verdana" size="2" color="#669900">February Parent Article<br>
+                                                </font></a><a href="LessonPlans.html"><font face="Verdana" size="2" color="#669900">Lesson Plans<br>
+                                                </font></a><a href="MostWeb.html"><font face="Verdana" size="2" color="#669900">Getting the most from the Web<br>
+                                                </font></a><a href="Offline.html"><font face="Verdana" size="2" color="#669900">Offline Activities</font></a></td>
+                                        <td width="57" height="63"><spacer type="block" width="57" height="63"></td>
+                                </tr>
+                                <tr height="1242">
+                                        <td width="1" height="1242"><spacer type="block" width="1" height="1242"></td>
+                                        <td width="2" height="1242"><spacer type="block" width="2" height="1242"></td>
+                                        
+                                        <td width="499" height="1242" colspan="4" rowspan="1" valign="top" align="left" xpos="21">
+<table ALIGN="LEFT" border="0" cellpadding="0" cellspacing="0" frame width="480">
+							<tr>
+								<td><BLOCKQUOTE><font face="Verdana"><b>Off line activities</b></font> 
+
+									</font><BR><font size="2" face="Verdana"><b>February<P>
+									</b>
+									<B>It's Snowing!</B>
+									<BR>This time of year, sometimes winter weather keeps parents and children indoors.  When stuck inside on a wintry day, try some of these fun indoor activities:
+
+
+<P><B>Winter garden</B><BR>
+Many plants and vegetables grow year-round, especially indoors.  You and your child can enjoy a peek at spring with this gardening project.  Save tops of carrots, turnips, beets and radishes.  After you've sliced off the top of a carrot, put the cut side on a plate with a little water.  Keep the plate near a sunny window, and water it just enough so the bottom stays wet.  In a few days, you will see green leaves growing on the vegetables.
+
+									<P><B>Snowman picture</B>
+									<BR>Glue cotton balls in a snowman shape onto blue construction paper.  Add a black construction paper hat, eyes, a nose and a mouth.  Children can use a white crayon to add falling snow on the blue paper background.
+									<P><B>Shaving cream art</B>
+									<BR>Shaving cream can look like snow.  Spray shaving cream on a tabletop, counter, or cookie sheet.  Your child will enjoy experimenting by using hands, fists, fingertips, even elbows to draw pictures in the shaving cream.  Make sure shaving cream does not get into child's eyes.
+									<P><B>Scavenger hunt</B>
+									<BR>This game involves searching for specific items on a list.  Here are some ideas for items that might be easy yet interesting for young children to find:
+<UL>
+<LI>three objects of the same color (red, yellow, blue, green, orange, purple are the most familiar).
+<LI>two objects of the same shape (circle, square, and triangle are the most familiar).
+<LI>an object that begins with the same first letter as your child's name.
+</UL>
+
+									<P><B>Homemade play dough</B>
+									<BR>Young children enjoy working and modeling with play dough; it provides hours of creative fun.  This recipe should be make by and adult.  The play dough will last for several months in a tightly sealed container or plastic bag.<BR>
+<UL>
+<LI>1 and a half cups salt
+<LI>3 cups water
+<LI>3 cups flour
+<LI>food coloring
+<LI>3 tablespoons cream of tartar
+<LI>3 tablespoons cooking oil
+</UL>
+<BR>
+Mix all ingredients together in a large pot.  Cook and stir until play dough leaves the sides of the pot.  Knead as soon as it is cool enough to handle.  Store in a tightly sealed container.  Keep a supply of old cookie cutters, an old rolling pin, etc., handy to use with the play dough.
+
+									<P><B>Bundle up</B>
+									<BR>Dressing for cold winter days means putting on more clothes.  Practice buttoning and zipping as you help your child go outdoors on a crisp, cold winter day!
+
+									<P><B>A perfect pair!</B>
+									<BR>Many items that keep us warm come in pairs.  Help your child count and match pairs of winter shoes, mittens, gloves, socks and slippers.
+
+
+				
+									<P><CENTER><HR WIDTH="200"></CENTER><P>
+									
+									<B>Barney Says: Spend time talking with your child about winter weather.</B>
+<UL>
+<LI>What clothes do you wear to stay warm?
+<LI>How do you think animals stay warm in winter?
+<LI>What are your favorite things to do on a cold winter day?
+</UL>
+									<P><CENTER><HR WIDTH="200"></CENTER><P>
+									<B>Good books to read: Cuddle up with your child and read a good book.</B><br>
+									<br>
+									<I>The Snowman</I> by Raymond Briggs, Random House. This wordless book is about the adventures of a little boy and the snowman he builds.<br>
+									<br>
+									<I>The Snowy Day</I> by Ezra Jack Keats, Scholastic. There are so many fun things to do on a snowy day.<br>
+									<br>
+									</font></p>
+									<P><BR><BR></BLOCKQUOTE>
+								</td>
+							</tr>
+						</table></td>
+				</tr>
+			</table><img height="17" width="520" src="../images/Bottom.gif"></center>
+	</body>
+
+</html>

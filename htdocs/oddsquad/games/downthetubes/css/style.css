@@ -1,0 +1,278 @@
+* {
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   -moz-tap-highlight-color:    rgba(0, 0, 0, 0);
+   -ms-tap-highlight-color:     rgba(0, 0, 0, 0);
+   -o-tap-highlight-color:      rgba(0, 0, 0, 0);
+   tap-highlight-color:         rgba(0, 0, 0, 0);
+
+
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: -moz-none;
+   -ms-user-select: none;
+   user-select: none;
+   -o-user-select: none;
+}
+
+body, html {
+	background: #000;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+
+	-webkit-user-select: none;  
+ 
+	-moz-user-select: none;    
+ 
+	-ms-user-select: none; 
+ 	user-select: none;
+}
+
+#fps_counter {
+	position: absolute;
+	z-index: 9999;
+	color: #FFF;
+	bottom: 40px;
+}
+
+.odd-squad-tubes #tube_logo {
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	margin: 0 0 0 -125px;
+}
+
+.odd-squad-tubes #loading_audio {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -105px 0 0 -266px;
+}
+
+.odd-squad-tubes #loading_audio_container {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	position: absolute;
+	opacity: 0;
+	display: none;
+}
+
+
+.odd-squad-tubes #videoPlayer object{
+        position: relative;
+        width: 655px;
+        height: 374px;
+}
+
+.odd-squad-tubes .tube_video_btn {
+	
+}
+
+.odd-squad-tubes #tube_video_ctn {
+	cursor: pointer;
+	position: absolute;
+	top: 304px;
+	left: 570px;
+	display: none;
+	z-index: 50000;
+}
+
+.odd-squad-tubes #tube_video_play_btn {
+}
+
+.odd-squad-tubes  #Video_Holder {
+	/* position: absolute;
+	background-color: rgba(0, 0, 0, 0.5); */
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+.odd-squad-tubes #video_scale {
+	width: 1024px;
+	height: 768px;
+	position: absolute;
+}
+
+.odd-squad-tubes #Video_Player_Container {
+	width: 750px;
+	height: 491px;
+	position: absolute;
+	z-index: 9999;
+	background: url("../images/video-loading/video-box.png") center no-repeat;
+	left: 50%;
+	top: 225px;
+	margin: 0 0 0 -375px;
+}
+
+.odd-squad-tubes #videoPlayer {
+	width: 665px;
+	height: 375px;
+	position: relative;
+	top: 59px;
+	left: 43px;
+}
+
+.odd-squad-tubes #caption_button {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+.odd-squad-tubes.mobile .pixelated {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.odd-squad-tubes #preload_scene {
+	width: 1024px;
+	height: 768px;
+	background: url("../images/title-screen.jpg");
+}
+
+	.odd-squad-tubes #title_play_button {
+		width: 91px;
+		height: 143px;
+		background: url("../images/title-play-button.png");
+		position: absolute;
+		top: 551px;
+		left: 809px;
+		opacity: 0;
+	}
+
+	.odd-squad-tubes #loading_label {
+		background: url("../images/loading-label.png");
+		position: absolute;
+		top: 676px;
+		left: 374px;
+		width: 280px;
+		height: 103px;
+		z-index: 999;
+	}
+
+	.odd-squad-tubes #loading_label_text {
+		position: absolute;
+		font-family: "RefrigeratorDeluxe-Bold";
+		color: #FFF;
+		font-size: 33px;
+		top: -31px;
+		z-index: 5000;
+		left: 294px;
+	}
+
+	.odd-squad-tubes #loading_bar {
+		position: relative;
+		top: 725px;
+		/* left: 17px; */
+		width: 1024px;
+		height: 43px;
+		overflow: hidden;
+
+
+	}
+
+		.odd-squad-tubes #loading_bar_progress {
+			width: 0%;
+			height: 30px;
+			background: url("../images/video-loading/Loading_Bar.png") center;
+			display: inline-block;
+		}
+
+		.odd-squad-tubes #loading_bar_container {
+			width: 739px;
+			height: 30px;
+			position: absolute;
+			top: 717px;
+			text-align: center;
+			left: 139px;
+		}
+
+		.odd-squad-tubes #loading_text {
+			font-family: "RefrigeratorDeluxe-Bold";
+			color: #FFF;
+			font-size: 48px;
+			position: absolute;
+			left: 759px;
+			top: -14px;
+		}
+
+		.odd-squad-tubes #loading_start_button {
+			background: url("../images/start-button.png");
+			position: absolute;
+			top: 376px;
+			left: 374px;
+			width: 280px;
+			height: 103px;
+			display: none;
+			opacity: 0;
+		}
+
+		.odd-squad-tubes #loading_start_button.active {
+			cursor: pointer;
+			display: block;
+		}
+
+		.odd-squad-tubes #ios_device_detected {
+			width: 1024px;
+			height: 768px;
+			display: none;
+			position: absolute;
+			top: 0;
+			z-index: 9999;
+		}
+
+.odd-squad-tubes #mute_button {
+	z-index: 9999999;
+	position: absolute;
+	top: 16px;
+	left: 932px;
+	cursor: pointer;
+	display: none;
+}
+
+.odd-squad-tubes .scene {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	-webkit-transform-origin: center;
+	transform-origin: center;
+}
+
+.odd-squad-tubes.mobile .scene {
+	-ms-transform: scale(0.7, 0.7); /* IE 9 */
+    -webkit-transform: scale(0.7,0.7); /* Chrome, Safari, Opera */
+    transform: scale(0.7,0.7);
+}
+
+.odd-squad-tubes .subscene {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.odd-squad-tubes #templates {
+	display: none;
+}
+
+.odd-squad-tubes .scene:-ms-fullscreen {
+	left: inherit !important;
+	margin: 0 !important;
+}
+
+.odd-squad-tubes #tube_canvas:-ms-fullscreen {
+	width: auto;
+	position: relative;
+}
+
+.odd-squad-tubes body:-ms-fullscreen {
+	text-align: center;
+}

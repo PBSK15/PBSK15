@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<instructions title="Fizzy's Balance Bots Instructions">
+	<instruction asset="assets/instructions/level-screen.jpg">
+		<![CDATA[Start by choosing a level to play.]]>
+	</instruction>
+	<instruction asset="assets/instructions/current-level.jpg">
+		<![CDATA[The robot face shows your current level reached.]]>
+	</instruction>
+	<instruction asset="assets/instructions/goal-not-reached.jpg">
+		<![CDATA[A check mark indicates a completed level.]]>
+	</instruction>
+	<instruction asset="assets/instructions/goal-reached.jpg">
+		<![CDATA[A star indicates that you have reached the level's GOAL (all known as PAR).]]>
+	</instruction>
+	<instruction asset="assets/instructions/locked-level.jpg">
+		<![CDATA[A lock indicates levels you can't play yet.]]>
+	</instruction>
+	<instruction asset="assets/instructions/reset.jpg">
+		<![CDATA[Click the RESET button to clear the levels and start the game all over again.]]>
+	</instruction>
+	<instruction asset="assets/instructions/game-screen.jpg">
+		<![CDATA[You can make the Balance Bots dance by swapping foods to balance their meters.]]>
+	</instruction>
+	<instruction asset="assets/instructions/moves.jpg">
+		<![CDATA[MOVES are how many swaps you've made so far and GOAL is the minimum number of moves it takes to balance the Bots.]]>
+	</instruction>
+	<instruction asset="assets/instructions/balance-meter.jpg">
+		<![CDATA[Balance-O-Meter tells you if you're close to balancing the Bots. The food bars light up in green when balanced.]]>
+	</instruction>
+	<instruction asset="assets/instructions/item-inspect.jpg">
+		<![CDATA[To get more information about a food item, simply roll over that item.]]>
+	</instruction>
+	<instruction asset="assets/instructions/select-food.jpg">
+		<![CDATA[To swap a food, start by clicking on a food to select it.]]>
+	</instruction>
+	<instruction asset="assets/instructions/select-food2.jpg">
+		<![CDATA[Then, click on a second food and see the foods swap.]]>
+	</instruction>
+	<instruction asset="assets/instructions/balanced-meters.jpg">
+		<![CDATA[The level is over when all the meters are balanced with the same numbers. Watch the Bots dance!]]>
+	</instruction>
+	<instruction asset="assets/instructions/undos.jpg">
+		<![CDATA[If you reach GOAL on a level, you can earn undos. This limited button allows you to undo your last move without a penalty.]]>
+	</instruction>
+	<instruction asset="assets/instructions/quit.jpg">
+		<![CDATA[To exit the game and return to the level screen click QUIT.]]>
+	</instruction>
+	<instruction asset="assets/instructions/retry.jpg">
+		<![CDATA[To start the level over again, click RETRY.]]>
+	</instruction>
+</instructions>

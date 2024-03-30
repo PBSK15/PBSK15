@@ -1,0 +1,158 @@
+/** Storybook Custom CSS **/
+
+.pbsPage{
+overflow: hidden;
+}
+.pbsTextArea{
+
+padding:1.4em 1.2em;	
+font-family: 'Questrial', sans-serif;
+font-weight: 400;
+line-height: 1.4 !important;
+font-size: 35em !important;
+
+background: url('../images/text-bkgrnd.png') repeat 0 0 #f6ecdf;
+
+text-shadow: -1px -1px 0 #d1beab, 1px -1px 0 #d1beab, -1px 1px 0 #d1beab, 1px 1px 0 #d1beab; 
+
+-moz-box-shadow:    inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+-webkit-box-shadow: inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+box-shadow:         inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+
+-moz-border-radius: .45em;
+-webkit-border-radius: .45em;
+border-radius: .45em; /* future proofing */
+}
+
+.pbsTextArea b{
+font-weight: 400;
+}
+
+
+#pbsPage8 .pbsCanvas:nth-child(3),
+#pbsPage7 .pbsCanvas:nth-child(2){
+top: auto !important;
+bottom:0;
+}
+
+.pbsPage0Sprite1:hover,
+.pbsPage1Sprite1:hover,
+.pbsPage2Cycler1Sprite1:hover,
+.pbsPage2Cycler1Sprite2:hover,
+.pbsPage3Sprite1:hover,
+.pbsPage4Sprite1:hover,
+.pbsPage4Sprite2:hover,
+.pbsPage5Sprite1:hover,
+.pbsPage6Sprite1:hover,
+.pbsPage8Sprite1:hover,
+.pbsPage10Cycler1Sprite1:hover,
+.pbsPage10Cycler1Sprite2:hover,
+.pbsPage10Cycler2Sprite1:hover,
+.pbsPage10Cycler2Sprite2:hover,
+.pbsPage12Sprite1:hover,
+.pbsPage13Sprite1:hover,
+.pbsPage14Sprite1:hover,
+.pbsPage15Sprite1:hover,
+.pbsPage15Sprite2:hover,
+.pbsPage16Cycler1Sprite1:hover,
+.pbsPage16Cycler1Sprite2:hover,
+.pbsPage17Cycler1Sprite1:hover,
+.pbsPage17Cycler1Sprite2:hover,
+.pbsPage18Sprite1:hover,
+.pbsPage19Sprite1:hover{
+cursor: pointer;	
+}
+
+
+.pbsPage12TextArea1{
+padding: 1em 1.2em;	
+}
+
+.pbsPage17TextArea1 p{
+text-align: right;
+}
+
+.pbsPage17TextArea1 p:first-child,
+.pbsPage17TextArea1 p:nth-child(2){
+display: block;
+margin-bottom: 0.25em;
+text-align: left;	
+}
+
+/* Drawing Pad */
+
+#pbsPage19 .pbsTextArea{
+/*font-family: 'Bubblegum Sans', cursive;*/
+font-family: 'Acme', sans-serif;
+box-shadow: none;
+background: transparent;
+font-size: 55em !important;	
+text-shadow: -1px -1px 16px rgba(0,0,0,.8);
+}
+
+#pbsPage19 .pbsTextArea i{
+font-size: 90% !important;
+color: #F9B730;
+}
+
+#pbsPage19 .pbsTextArea p:last-child{
+font-size: 90% !important;
+font-style: italic;
+text-align: right;
+width: 50%;
+float: right;
+color: #F9B730;
+}
+
+#pbsPage19 .pbsTextArea p:last-child em{
+display: block;
+}
+
+.pbsPage20DrawingPad1{
+transform: rotate(-2deg);
+-ms-transform: rotate(-2deg); /* IE 9 */
+-webkit-transform: rotate(-2deg); /* Safari and Chrome */
+-moz-transform: rotate(-2deg); /* Firefox */
+}
+
+#pbsPage20 .pbsSprite:hover,
+#pbsPage20 .pbsSprite.active{
+margin-top: -14px;
+cursor: pointer;
+
+-moz-transition: all 150ms ease-in-out;
+-webkit-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out;		
+}
+
+
+#pbsPage20 .pbsSprite.pbsPageCanvas:hover,
+#pbsPage20 .pbsSprite.pbsPageCanvas.active{
+cursor: default;
+margin: 0;	
+
+-moz-transition: none;
+-webkit-transition: none;
+transition: none;	
+}
+
+#pbsPage19 .pbsPage19DrawingPad1ClearButton1,
+#pbsPage19 .pbsPage19DrawingPad1ClearButton2{
+-moz-transition: all 150ms ease-in-out;
+-webkit-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out;	
+}
+
+#pbsPage19 .pbsPage19DrawingPad1ClearButton1:hover,
+#pbsPage19 .pbsPage19DrawingPad1ClearButton2:hover{
+cursor: pointer;
+margin-top: -4px;
+}
+
+.is-iOS #pbsPage19 .pbsPage19DrawingPad1ClearButton2{
+display: none;	
+}
+
+#pbsPage6 .pbsPage6Sprite2:hover{
+cursor: pointer;	
+}

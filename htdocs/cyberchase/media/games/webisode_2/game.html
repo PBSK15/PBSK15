@@ -1,0 +1,317 @@
+<HTML>
+<HEAD>
+<title>Crack the Code . Games . Cyberchase | PBS KIDS</title>
+<meta name="description" content="Help decode Digit's secret coded message to Motherboard!">
+<meta name="keywords" content="Codes game, Algebraic Thinking game, secret message game, decoder, codes, game">
+
+<script language="Javascript">
+<!--
+//Determine Browser Version
+bName = navigator.appName;
+bVer = parseInt(navigator.appVersion);
+
+//Write Style Sheets
+if (bName=="Microsoft Internet Explorer"){
+        document.write("<style>  .textinput { height : 20px; width: 20px; } </style>")
+        }
+else {
+        document.write("<style> .textinput { font-size : 12px; } </style>")
+}
+
+
+var helpCount = 0;
+var code = "MOVE MOONRAY LEFT TWO FEET";
+var codeSplit = code.split(" ");
+var message = "";
+var totalCorrectWords = 0;
+
+
+function popUp(message) {
+
+var x = (screen.width - 340) / 2;
+var y = (screen.height - 200) / 2;
+
+	var windowparam = "width=" + 340 + ",height=" + 200 + ",scrollbars=no,left="+x+",top="+y+",screenX="+x+",screenY="+y;
+	popwin = window.open("popwin.html?"+message, "popwin", windowparam)
+	popwin.opener = self;
+	popwin.focus()
+}
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		decoder_piece_03_over = newImage("images/2gameb_03.gif");
+		decoder_piece_04_decoder_piece_03_over = newImage("images/decoder-piece_04-decoder-pi.gif");
+		decoder_piece_05_decoder_piece_03_over = newImage("images/decoder-piece_05-decoder-pi.gif");
+		decoder_piece_07_decoder_piece_03_over = newImage("images/decoder-piece_07-decoder-pi.gif");
+		decoder_piece_08_decoder_piece_03_over = newImage("images/decoder-piece_08-decoder-pi.gif");
+		decoder_piece_09_decoder_piece_03_over = newImage("images/decoder-piece_09-decoder-pi.gif");
+		decoder_piece_10_decoder_piece_03_over = newImage("images/decoder-piece_10-decoder-pi.gif");
+		decoder_piece_11_decoder_piece_03_over = newImage("images/decoder-piece_11-decoder-pi.gif");
+		decoder_piece_12_decoder_piece_03_over = newImage("images/decoder-piece_12-decoder-pi.gif");
+		preloadFlag = true;
+	}
+}
+
+function sendMessage() {
+	
+	message = "";
+	// create string from input text data
+	for (var i=1;i<=code.length;i++) {
+		temp = eval("document.form.letter"+i+".value");
+		
+		message += temp.toUpperCase();
+	}
+	
+	// determine which words are correct
+	messageSplit = message.split(" ");
+	
+	correct = new Array();
+	totalCorrectWords = 0;
+	for(var i=0;i<codeSplit.length;i++) {
+		if ( messageSplit[i] == codeSplit[i] ) {
+			correct[i] = 1;
+			totalCorrectWords++
+		} else {
+			correct[i] = 0;
+		}
+	}
+	
+
+	if ( message == code ) {
+		document.location = "8.html";
+	} else {
+		help("notRight")
+	}
+}
+
+function help(helpType) {
+	var s = "";
+	if ( helpType == "notRight" ) {
+		if ( totalCorrectWords < 1 ) {
+			popUp("Uh oh!  You don\'t have any decoded words.  Click on the help button for clues.");
+		} else {
+			if ( totalCorrectWords > 1 ) {
+				s = "s";
+			} else {
+				s = "";
+			}
+			popUp("You\'re doing great!  You\'ve got "+totalCorrectWords+" word"+s+" right so far.  Keeping going!");
+		}
+	} else {
+		helpCount++;
+		if ( helpCount == 1 ) {
+			popUp("Here's your first hint: Move your mouse over the secret decoder.  Can you see the connection between symbols and Digit's code%3F");
+		}
+		if ( helpCount == 2 ) {
+			document.form.letter1.value = "M";
+			popUp("Here's your second hint: The first letter is 'M'");
+		}
+		if ( helpCount == 3 ) {
+			popUp("IMAGE");
+		}
+		if ( helpCount == 4 ) {
+			popUp("Here's your last hint: The last word in the message are things you need if you want to walk.");
+		}
+		if ( helpCount > 4 ) {
+			popUp("I know you can do it!  Keep trying or ask a friend for help.");
+		}
+
+	}
+}
+// -->
+</SCRIPT>
+
+</head>
+<BODY style="margin: 0px">
+
+<FORM NAME="form">
+	
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td bgcolor="ffffff">
+	
+	
+	
+	<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR bgcolor="#a8a9ad">
+		<TD><IMG SRC="images/spacer.gif" WIDTH=54 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=26 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=27 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=28 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=27 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=29 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=27 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=28 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=27 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=29 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=2 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=62 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=44 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=46 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=44 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=46 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=1 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD ROWSPAN=14><IMG SRC="images/game_off_01.gif" WIDTH=54 HEIGHT=400 alt="" border="0"></td>
+		<TD COLSPAN=17><img src="images/game_off_02.gif" width=497 height=71 alt="" border="0" usemap="#topnav"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=71 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=12><IMG SRC="images/game_off_03.gif" WIDTH=255 HEIGHT=41 alt="" border="0"></td>
+		<TD COLSPAN=5 ROWSPAN=3><IMG SRC="images/game_off_04.gif" WIDTH=242 HEIGHT=87 alt="Secret Decoder" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=41 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD ROWSPAN=10><IMG SRC="images/game_off_05.gif" WIDTH=4 HEIGHT=211 alt="" border="0"></td>
+		<TD COLSPAN=2><IMG SRC="images/game_off_06.gif" WIDTH=27 HEIGHT=33 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_07.gif" WIDTH=27 HEIGHT=33 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_08.gif" WIDTH=28 HEIGHT=33 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_09.gif" WIDTH=27 HEIGHT=33 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_10.gif" WIDTH=29 HEIGHT=33 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_11.gif" WIDTH=27 HEIGHT=33 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_12.gif" WIDTH=28 HEIGHT=33 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_13.gif" WIDTH=27 HEIGHT=33 alt="" border="0"></td>
+		<TD COLSPAN=2><IMG SRC="images/game_off_14.gif" WIDTH=31 HEIGHT=33 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=33 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT MAXLENGTH=1 NAME="letter1" style="width:20px;"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter2"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter3"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter4"></td>
+		<TD ROWSPAN=2 bgcolor="ffffff"><IMG SRC="images/spacer.gif" WIDTH=29 HEIGHT=40 alt="" border="0"><INPUT TYPE=HIDDEN VALUE=" " NAME="letter5"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter6"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter7"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter8"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter9"></td>
+		<TD ROWSPAN=2 bgcolor="ffffff"><IMG SRC="images/spacer.gif" WIDTH=2 HEIGHT=40 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=13 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD ROWSPAN=9><IMG SRC="images/game_off_25.gif" WIDTH=62 HEIGHT=168 alt="" border="0"></td>
+		<TD ROWSPAN=2><A HREF="#" onMouseOver= "if (document.images) document.d1.src= 'images/game_on_26.gif';" onMouseOut= "if (document.images) document.d1.src= 'images/game_off_26.gif';"><IMG SRC="images/game_off_26.gif" WIDTH=44 HEIGHT=45 alt="ABC" border="0" name="d1"></a></td>
+		<TD ROWSPAN=2><A HREF="#" onMouseOver= "if (document.images) document.d2.src= 'images/game_on_27.gif';" onMouseOut= "if (document.images) document.d2.src= 'images/game_off_27.gif';"><IMG SRC="images/game_off_27.gif" WIDTH=46 HEIGHT=45 alt="DEF" border="0" name="d2"></a></td>
+		<TD ROWSPAN=2><A HREF="#" onMouseOver= "if (document.images) document.d3.src= 'images/game_on_28.gif';" onMouseOut= "if (document.images) document.d3.src= 'images/game_off_28.gif';"><IMG SRC="images/game_off_28.gif" WIDTH=44 HEIGHT=45 alt="GHI" border="0" name="d3"></a></td>
+		<TD ROWSPAN=7><IMG SRC="images/game_off_29.gif" WIDTH=46 HEIGHT=136 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=27 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=2><IMG SRC="images/game_off_30.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD ROWSPAN=2><IMG SRC="images/game_off_31.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD ROWSPAN=2><IMG SRC="images/game_off_32.gif" WIDTH=28 HEIGHT=34 alt="" border="0"></td>
+		<TD ROWSPAN=2><IMG SRC="images/game_off_33.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD ROWSPAN=2><IMG SRC="images/game_off_34.gif" WIDTH=29 HEIGHT=34 alt="" border="0"></td>
+		<TD ROWSPAN=2><IMG SRC="images/game_off_35.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD ROWSPAN=2><IMG SRC="images/game_off_36.gif" WIDTH=28 HEIGHT=34 alt="" border="0"></td>
+		<TD ROWSPAN=2><IMG SRC="images/game_off_37.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD COLSPAN=2 ROWSPAN=2><IMG SRC="images/game_off_38.gif" WIDTH=31 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=18 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><A HREF="#" onMouseOver= "if (document.images) document.d4.src= 'images/game_on_39.gif';" onMouseOut= "if (document.images) document.d4.src= 'images/game_off_39.gif';"><IMG SRC="images/game_off_39.gif" WIDTH=44 HEIGHT=47 alt="JKL" border="0" name="d4"></A></td>
+		<TD ROWSPAN=2><A HREF="#" onMouseOver= "if (document.images) document.d5.src= 'images/game_on_40.gif';" onMouseOut= "if (document.images) document.d5.src= 'images/game_off_40.gif';"><IMG SRC="images/game_off_40.gif" WIDTH=46 HEIGHT=47 alt="MNO" border="0" name="d5"></a></td>
+		<TD ROWSPAN=2><A HREF="#" onMouseOver= "if (document.images) document.d6.src= 'images/game_on_41.gif';" onMouseOut= "if (document.images) document.d6.src= 'images/game_off_41.gif';"><IMG SRC="images/game_off_41.gif" WIDTH=44 HEIGHT=47 alt="PQR" border="0" name="d6"></A></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=16 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter10"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter11"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter12"></td>
+		<TD ROWSPAN=2 bgcolor="ffffff"><IMG SRC="images/spacer.gif" WIDTH=27 HEIGHT=39 alt="" border="0"><INPUT TYPE=HIDDEN VALUE=" " NAME="letter13"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter14"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter15"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter16"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter17"></td>
+		<TD COLSPAN=2 ROWSPAN=2 bgcolor="ffffff"><IMG SRC="images/spacer.gif" WIDTH=31 HEIGHT=39 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=31 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD ROWSPAN=3><A HREF="#" onMouseOver= "if (document.images) document.d7.src= 'images/game_on_51.gif';" onMouseOut= "if (document.images) document.d7.src= 'images/game_off_51.gif';"><IMG SRC="images/game_off_51.gif" WIDTH=44 HEIGHT=44 alt="STU" border="0" name="d7"></a></td>
+		<TD ROWSPAN=3><A HREF="#" onMouseOver= "if (document.images) document.d8.src= 'images/game_on_52.gif';" onMouseOut= "if (document.images) document.d8.src= 'images/game_off_52.gif';"><IMG SRC="images/game_off_52.gif" WIDTH=46 HEIGHT=44 alt="VWX" border="0" name="d8"></a></td>
+		<TD ROWSPAN=3><A HREF="#" onMouseOver= "if (document.images) document.d9.src= 'images/game_on_53.gif';" onMouseOut= "if (document.images) document.d9.src= 'images/game_off_53.gif';"><IMG SRC="images/game_off_53.gif" WIDTH=44 HEIGHT=44 alt="YZ" border="0" name="d9"></a></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=8 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/game_off_54.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_55.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_56.gif" WIDTH=28 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_57.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_58.gif" WIDTH=29 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_59.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_60.gif" WIDTH=28 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/game_off_61.gif" WIDTH=27 HEIGHT=34 alt="" border="0"></td>
+		<TD COLSPAN=2><IMG SRC="images/game_off_62.gif" WIDTH=31 HEIGHT=34 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=34 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT TYPE=HIDDEN VALUE=" " NAME="letter18"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter19"></td>
+		<TD COLSPAN=2 ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter20"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter21"></td>
+		<TD ROWSPAN=2 bgcolor="ffffff"><IMG SRC="images/spacer.gif" WIDTH=27 HEIGHT=31 alt="" border="0"><INPUT TYPE=HIDDEN VALUE=" " NAME="letter22"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter23"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter24"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter25"></td>
+		<TD ROWSPAN=2 class="textinput" align="center"><INPUT CLASS="textinput" TYPE=TEXT style="width:20px;" MAXLENGTH=1 NAME="letter26"></td>
+		<TD COLSPAN=2 ROWSPAN=2 bgcolor="ffffff"><IMG SRC="images/spacer.gif" WIDTH=31 HEIGHT=31 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=2 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 ROWSPAN=2><IMG SRC="images/game_off_72.gif" WIDTH=180 HEIGHT=32 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=29 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 ROWSPAN=2><IMG SRC="images/game_off_73.gif" WIDTH=255 HEIGHT=77 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=3 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=5><img src="images/game_off_74.gif" width=242 height=74 alt="" border="0" usemap="#next"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=74 alt="" border="0"></td>
+	</TR></form>
+</TABLE>
+
+
+
+
+	
+</td></tr></table>
+
+
+
+
+
+
+
+</form>
+<map name="next">
+<area alt="Send" coords="101,16,207,60" href="javascript:sendMessage()">
+<area alt="Help" coords="26,5,98,35" href="javascript:help()">
+</map>
+
+<map name="topnav">
+<area alt="How It All Started" coords="2,12,185,42" href="../webisodes-global/how_started.html">
+<area alt="Webisode 2" coords="192,9,307,42" href="1.html">
+</map>
+
+
+
+
+</BODY>
+</HTML>

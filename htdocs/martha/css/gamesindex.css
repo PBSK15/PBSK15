@@ -1,0 +1,102 @@
+.list_carousel {
+	/*background-color: #9ed45c;*/
+	background: url(../i/gamesindex/gamesindex_backdrop.gif) no-repeat transparent;
+	margin-left:30px;
+	width: 947px;
+	height: 450px;
+	
+	position:relative;
+}
+
+.list_carousel ul {
+	margin-left: 135px;
+	margin-bottom:-30px;
+	
+	list-style: none;
+	position:relative;
+}
+
+.list_carousel li {
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	width: 187px;
+	height: 128px;
+
+	margin-right:50px;
+	margin-top:64px;	
+
+	display: block;
+	float: left;
+}
+
+.list_carousel img {
+	border-style:none;
+}
+
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+a.prev, a.next {
+	width: 70px;
+	height: 80px;
+	position: absolute;
+	top: 175px;	
+}
+a.prev {
+	background: url(../i/gamesindex/arrowLeft.png) no-repeat transparent;
+	left: 30px;
+}
+a.prev:hover {	
+	background: url(../i/gamesindex/arrowLeft_gold.png) no-repeat transparent;
+}
+
+a.prev.disabled {
+	background: url(../i/gamesindex/arrowLeft_inactive.png) no-repeat transparent;
+}
+
+a.next {
+	background: url(../i/gamesindex/arrowRight.png) no-repeat transparent;
+	right:40px;
+}
+a.next:hover {		
+	background: url(../i/gamesindex/arrowRight_gold.png) no-repeat transparent;
+}
+a.next.disabled {
+	background: url(../i/gamesindex/arrowRight_inactive.png) no-repeat transparent;
+}
+
+
+a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+
+a.prev span, a.next span {
+	display: none;
+}
+
+.pagination {
+	text-align: center;
+	margin-top:60px;
+}
+.pagination a {
+	background: url(../i/gamesindex/breadcrumb_off.png) no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.pagination a.selected {
+	background: url(../i/gamesindex/breadcrumb_on.png) no-repeat transparent;
+	cursor: default;
+}
+.pagination a span {
+	display: none;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}

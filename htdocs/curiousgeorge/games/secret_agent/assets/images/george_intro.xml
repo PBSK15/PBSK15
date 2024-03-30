@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:95de6e27028d2959ef4d79902e12c13c:4e8ccb208723db56b17b26199dc1b606:d81e7e80164251dccafb739796e6a91b$ -->
+<TextureAtlas imagePath="george_intro.png">
+    <SubTexture name="george_enter_01" x="754" y="1758" width="250" height="250"/>
+    <SubTexture name="george_enter_02" x="503" y="1758" width="250" height="250"/>
+    <SubTexture name="george_enter_03" x="754" y="1507" width="250" height="250"/>
+    <SubTexture name="george_enter_04" x="503" y="1507" width="250" height="250"/>
+    <SubTexture name="george_enter_05" x="252" y="1758" width="250" height="250"/>
+    <SubTexture name="george_enter_06" x="252" y="1507" width="250" height="250"/>
+    <SubTexture name="george_enter_07" x="754" y="1256" width="250" height="250"/>
+    <SubTexture name="george_enter_08" x="503" y="1256" width="250" height="250"/>
+    <SubTexture name="george_enter_09" x="252" y="1256" width="250" height="250"/>
+    <SubTexture name="george_enter_10" x="1" y="1758" width="250" height="250"/>
+    <SubTexture name="george_enter_11" x="1" y="1507" width="250" height="250"/>
+    <SubTexture name="george_enter_12" x="1" y="1256" width="250" height="250"/>
+    <SubTexture name="george_enter_13" x="754" y="1005" width="250" height="250"/>
+    <SubTexture name="george_enter_14" x="503" y="1005" width="250" height="250"/>
+    <SubTexture name="george_enter_15" x="252" y="1005" width="250" height="250"/>
+    <SubTexture name="george_enter_16" x="1" y="1005" width="250" height="250"/>
+    <SubTexture name="george_enter_17" x="754" y="754" width="250" height="250"/>
+    <SubTexture name="george_enter_18" x="503" y="754" width="250" height="250"/>
+    <SubTexture name="george_enter_19" x="252" y="754" width="250" height="250"/>
+    <SubTexture name="george_enter_20" x="1" y="754" width="250" height="250"/>
+    <SubTexture name="george_exits_01" x="1" y="754" width="250" height="250"/>
+    <SubTexture name="george_exits_02" x="754" y="503" width="250" height="250"/>
+    <SubTexture name="george_exits_03" x="503" y="754" width="250" height="250"/>
+    <SubTexture name="george_exits_04" x="754" y="754" width="250" height="250"/>
+    <SubTexture name="george_exits_05" x="503" y="503" width="250" height="250"/>
+    <SubTexture name="george_exits_06" x="252" y="1005" width="250" height="250"/>
+    <SubTexture name="george_exits_07" x="252" y="503" width="250" height="250"/>
+    <SubTexture name="george_exits_08" x="1" y="503" width="250" height="250"/>
+    <SubTexture name="george_exits_09" x="754" y="252" width="250" height="250"/>
+    <SubTexture name="george_exits_10" x="503" y="252" width="250" height="250"/>
+    <SubTexture name="george_exits_11" x="252" y="252" width="250" height="250"/>
+    <SubTexture name="george_exits_12" x="1" y="252" width="250" height="250"/>
+    <SubTexture name="george_exits_13" x="754" y="1" width="250" height="250"/>
+    <SubTexture name="george_exits_14" x="503" y="1" width="250" height="250"/>
+    <SubTexture name="george_talking_01" x="1" y="754" width="250" height="250"/>
+    <SubTexture name="george_talking_02" x="754" y="503" width="250" height="250"/>
+    <SubTexture name="george_talking_03" x="252" y="1" width="250" height="250"/>
+    <SubTexture name="george_talking_04" x="252" y="1" width="250" height="250"/>
+    <SubTexture name="george_talking_05" x="1" y="1" width="250" height="250"/>
+    <SubTexture name="george_talking_06" x="1" y="754" width="250" height="250"/>
+</TextureAtlas>

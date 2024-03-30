@@ -1,0 +1,288 @@
+/* ------ CSS Created by Bean Creative Funktional Web Design ---------------*/
+/* ----------                  https://www.beancreative.com                   -------------*/
+
+
+
+
+@page {
+  margin: 0;
+}
+
+body {
+}
+
+.dontprintme {
+	display:none;
+}
+
+.printme {
+}
+	
+.floatright {
+	float:right;
+	margin:0 0 10px 20px;
+}
+
+.floatleft {
+	float:left;
+	margin:0 20px 10px 0;
+}	
+
+.alignbottom {
+	vertical-align:bottom;
+}
+
+
+
+
+/*  STRUCTURAL STUFF */
+
+
+#header {
+	display:none;
+}
+
+#header img, #resourcebox img {
+	vertical-align:bottom;
+}
+
+#kidshomebutton {
+	display:none;
+}
+
+#printbutton {
+	display:none;
+}
+
+#wrapper {
+	text-align:left;
+}
+
+#innercontainer {
+	text-align:left;
+}
+
+#leftcolumn {
+	display:none;
+}
+
+#maincolumn {
+	text-align:left;
+}
+
+
+
+#todayswordcontainer {
+	width:243px;
+	float:right;
+	margin:0 0 10px 20px;
+	border:1px solid #8FCEFF;
+}
+
+#todayswordcontent {
+	background:url(../images/todaysword_bg.gif) repeat-y;
+	padding:.5em 16px 1em 16px;
+}
+
+#todayswordcontent {
+	width:243px;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width:211px;
+}
+
+#todayswordbottom {
+	width:243px;
+	height:7px;
+	background:url(../images/todaysword_bottom.gif) no-repeat;
+	line-height:1;
+}
+
+div.photocaption {
+	width:190px;
+	text-align:center;
+}
+
+
+div.pusher {
+	clear:both;
+}
+
+#pagebottom {
+	width:674px;
+	height:10px;
+	background:url(../images/pagebottom.gif) no-repeat;
+	line-height:1;
+	margin:0 auto;
+}
+
+
+
+
+div.videoboxcontainer {
+	width:213px;
+	border:1px solid blue;
+}
+
+div.videoboxtop {
+	display:none;
+}
+
+div.videoboxcontent {
+	padding:3px 3px 5px 3px;
+	text-align:center;
+}
+
+div.videoboxcontent {
+	width:213px;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width:207px;
+}
+
+div.videoboxcontent p {
+	margin:.5em 10px 0 10px !important;
+	text-align:left;
+}
+
+div.videoboxbottom {
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* +++++++++++++ FOOTER STUFF +++++++++++++++++++ */
+
+
+#localbox {
+	display:none;
+} 
+
+
+
+#footernav {
+	display:none;
+}
+
+
+
+#footer {
+	width:674px;
+	margin:0 auto;
+	padding:10px 0;
+	border-top:1px solid #2085d7;
+}
+
+#footer a:link {color:#207ac8; text-decoration:underline; font-weight:bold;}
+#footer a:hover {color:#207ac8; text-decoration:none; font-weight:bold;}
+#footer a:visited {color:#207ac8; text-decoration:underline; font-weight:bold;}
+#footer a:visited:hover {color:#207ac8; text-decoration:none; font-weight:bold;}
+
+
+#footertable {
+	width:674px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#2085d7;
+	font-size:11px;
+}
+
+td.footercol1 {width:150px;}
+td.footercol2 {width:150px;}
+td.footercol3 {width:px;}
+td.footercol4 {width:90px;}
+
+
+
+
+
+/* content stuff */
+
+a:link {color:#fbe53a; text-decoration:underline;}
+a:hover {color:#fbe53a; text-decoration:none;}
+a:visited {color:#fbe53a; text-decoration:underline;}
+a:visited:hover {color:#fbe53a; text-decoration:none;}
+
+h1 {font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#cdeaff; margin:0 40px 0 0;}
+h2 {font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#cdeaff; margin:1em 40px 0 0;}
+h3 {font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#fff; margin:1em 40px 0 0;}
+h4 {font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#cdeaff; margin:1em 40px 0 0; text-transform:uppercase;}
+
+
+.textfield {
+	background:#cee2a6;
+	border:1px solid #2e3e0d;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.smalltext {
+	font-size:11px !important;
+}
+
+#maincolumn p, #maincolumn td p {
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 40px 1em 0;
+	line-height:1.3em;
+	/*text-align:justify;*/
+}
+
+li {
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:.5em;
+	line-height:1.3em;
+}
+
+ul, ol {
+	margin-top:1em;
+}
+
+td {
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.3em;
+}
+
+.photo {
+	border:2px solid white;
+}
+
+#todayswordcontent, #todayswordcontent p {
+	color:black;
+	font-size:13px;
+	margin:.5em 0 0 0;
+}
+
+#todayswordcontent a:link {color:#001eff; text-decoration:underline;}
+#todayswordcontent a:hover {color:#001eff; text-decoration:none;}
+#todayswordcontent a:visited {color:#001eff; text-decoration:underline;}
+#todayswordcontent a:visited:hover {color:#001eff; text-decoration:none;}
+
+div.photocaption p {
+	margin:0 0 .5em 0 !important;
+}
+
+#footernav {
+	font-size:11px;
+	color:#004d8e;
+}
+
+#footernav a:link {color:#207ac8; text-decoration:none; font-weight:bold; display:block;}
+#footernav a:hover {color:#207ac8; text-decoration:underline; font-weight:bold; display:block;}
+#footernav a:visited {color:#207ac8; text-decoration:none; font-weight:bold; display:block;}
+#footernav a:visited:hover {color:#207ac8; text-decoration:underline; font-weight:bold; display:block;}

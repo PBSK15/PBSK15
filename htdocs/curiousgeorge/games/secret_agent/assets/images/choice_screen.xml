@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:be991983f47248e607293f4b7ac6824b:292ff4a4859f9dcf7e5e2ab7a04175a3:93c3e3f08063c71472bb0d6a77cae6ca$ -->
+<TextureAtlas imagePath="choice_screen.png">
+    <SubTexture name="apple" x="1" y="1" width="125" height="147"/>
+    <SubTexture name="ax" x="127" y="1" width="163" height="170"/>
+    <SubTexture name="banana" x="291" y="1" width="146" height="98"/>
+    <SubTexture name="banana_bread" x="438" y="1" width="220" height="112"/>
+    <SubTexture name="basketball" x="659" y="1" width="211" height="120"/>
+    <SubTexture name="bell" x="871" y="1" width="68" height="133"/>
+    <SubTexture name="blue_ribbon" x="940" y="1" width="123" height="124"/>
+    <SubTexture name="bread" x="1064" y="1" width="118" height="140"/>
+    <SubTexture name="brick" x="1183" y="1" width="166" height="145"/>
+    <SubTexture name="cake" x="1350" y="1" width="132" height="161"/>
+    <SubTexture name="cantaloupe" x="1483" y="1" width="145" height="112"/>
+    <SubTexture name="cap" x="1629" y="1" width="222" height="198"/>
+    <SubTexture name="carrot" x="1852" y="1" width="169" height="130"/>
+    <SubTexture name="cheese" x="1" y="200" width="192" height="123"/>
+    <SubTexture name="cuckoo_clock" x="194" y="200" width="129" height="193"/>
+    <SubTexture name="donut" x="324" y="200" width="140" height="80"/>
+    <SubTexture name="drill" x="465" y="200" width="167" height="111"/>
+    <SubTexture name="eggplant" x="633" y="200" width="120" height="152"/>
+    <SubTexture name="firetruck" x="754" y="200" width="267" height="126"/>
+    <SubTexture name="flowers" x="1022" y="200" width="115" height="158"/>
+    <SubTexture name="glass_jar" x="1138" y="200" width="99" height="147"/>
+    <SubTexture name="jar" x="1238" y="200" width="98" height="152"/>
+    <SubTexture name="juicebox" x="1337" y="200" width="119" height="141"/>
+    <SubTexture name="lemon" x="1457" y="200" width="110" height="105"/>
+    <SubTexture name="newspaper" x="1568" y="200" width="136" height="140"/>
+    <SubTexture name="orange" x="1705" y="200" width="84" height="94"/>
+    <SubTexture name="pear" x="1790" y="200" width="79" height="131"/>
+    <SubTexture name="pencil" x="1" y="394" width="183" height="119"/>
+    <SubTexture name="phone" x="185" y="394" width="112" height="152"/>
+    <SubTexture name="popcorn" x="298" y="394" width="121" height="162"/>
+    <SubTexture name="popsicle" x="420" y="394" width="119" height="200"/>
+    <SubTexture name="saw" x="540" y="394" width="243" height="148"/>
+    <SubTexture name="scissors" x="784" y="394" width="148" height="149"/>
+    <SubTexture name="stuffed_animal" x="933" y="394" width="163" height="203"/>
+    <SubTexture name="tape" x="1097" y="394" width="193" height="82"/>
+    <SubTexture name="teddy_bear" x="1291" y="394" width="134" height="149"/>
+    <SubTexture name="tennis_ball" x="1426" y="394" width="154" height="165"/>
+    <SubTexture name="toothpaste" x="1581" y="394" width="174" height="76"/>
+    <SubTexture name="towel" x="1756" y="394" width="244" height="127"/>
+    <SubTexture name="train" x="1" y="598" width="306" height="90"/>
+    <SubTexture name="video_game" x="308" y="598" width="88" height="120"/>
+    <SubTexture name="walkie_talkie" x="397" y="598" width="212" height="127"/>
+    <SubTexture name="watch" x="610" y="598" width="257" height="216"/>
+    <SubTexture name="watermelon" x="868" y="598" width="208" height="85"/>
+    <SubTexture name="whistle" x="1077" y="598" width="126" height="95"/>
+    <SubTexture name="wooden_spoon" x="1204" y="598" width="158" height="89"/>
+    <SubTexture name="wrench" x="1363" y="598" width="111" height="131"/>
+</TextureAtlas>

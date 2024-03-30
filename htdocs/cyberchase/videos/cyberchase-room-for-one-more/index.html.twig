@@ -1,0 +1,694 @@
+{% extends 'cyberchase/includes/cyberchasePage.html.twig' %}
+{% set desc = 'Watch full episodes and video clips from Cyberchase, where math is everywhere and everyone can be good at it!
+' %}
+{% set keywds = 'math, maths, franctions, fraction, fractions, educational, math education, cool, fun, lesson, lessons, kids, multiplication, division, addition, subtraction, activity, activities,  division, long division, times tables, free, online, math skills' %}
+{% set pageTitle = 'Videos for Kids . Cyberchase' %}
+
+
+{% block specialHead %}<style type="text/css">
+		#headband-page-wrap {
+			background-image: url('http://pbskids.org/cyberchase/static/images/backgrounds/videos.jpg');
+      background-repeat: no-repeat;
+		}
+	</style>
+<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/jquery.address-1.5.min.js"></script>
+<script type="text/javascript" src="http://pbskids.org/includes/flash/swfobject2.js"></script>
+<script type="text/javascript" src="http://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script>
+<script type="text/javascript" src="http://pbskids.org/modules/kidsgo/setcookie.js"></script>
+<script type="text/javascript">
+    var player, playlist;
+    var videoTag = '';
+
+    function loadPathways(guid) {
+      var pathwaysURL = '/cyberchase/learning-pathways/videos/';
+      $('#associated-content').load(pathwaysURL + guid, function () {
+        cyberchase.associatedContentAnim();
+        if (typeof pngfix == 'function') {
+          pngfix();
+        }
+      });
+    }
+
+		$.address.init(
+				function(e) {
+					$('#tab-all').addClass('active');
+					$('.tabs > a').each(function() {
+						$(this).data('subtabs', $($(this).attr('data-subtabs')));
+						$(this).data('subtabs').prependTo('.content-panel');
+					});
+				}).change(function(e) {
+					var slugs = e.pathNames;
+					var slug = '#tab';
+					if (slugs.length) {
+						for (var i = 0; i < slugs.length; i++) {
+							slug = slug + '-' + slugs[i];
+							t = $(slug);
+							t.addClass('active');
+							t.siblings().each(function() {
+								$(this).removeClass('active');
+								if ($(this).data('subtabs')) {
+									$(this).data('subtabs').css('display', 'none').find('a').removeClass('active').first().addClass('active');
+								}
+							})
+							if (t.data('subtabs')) {
+								t.data('subtabs').css('display', 'block')
+							}
+						}
+
+						var tag = t.attr('data-tag');
+						if (!tag) {
+							tag = t.data('subtabs').find('a').first().attr('data-tag') || '';
+						}
+						videoTag = tag;
+
+            $('#scroll-up').css('display', 'none');
+            $('#scroll-down').css('display', 'block');
+
+            if (typeof playlist != 'undefined') {
+              playlist.autoPlay(true);
+              playlist.refresh({
+                program: "Cyberchase",
+                keyword: videoTag
+              });
+            }
+					}
+				}).tracker(null); // disable automatic GA tracking
+
+    $(document).ready(function () {
+
+      player = new org.pbskids.video.Player("video-player", {
+        onPlayerComplete: onPlayerComplete,
+        onVideoClick: "toggle-fullscreen",
+        pauseToggleControl: "#controlrack .play-pause",
+        captionsToggleControl: "#captions-button",
+        timerRemaining: "#player .timer-remaining",
+        scrubber: "#player .scrubber",
+        debugMode: true,
+        onHoverOverlay: {
+          url: "http://pbskids.org/video/img/button_big.png",
+          width: "58px", height: "30px",
+          fs_url: "http://pbskids.org/video/img/button_small.png",
+          fs_width: "78px"
+        },
+        loadingOverlay: {
+          url: "http://pbskids.org/video/img/arrowspin.gif",
+          swf: "http://pbskids.org/video/img/arrowspin.swf",
+          width: "50px", height: "50px"
+        }
+      });
+
+      function onPlayerComplete(e) {
+        if (e.success) {
+          finalize(e.player);
+        } else {
+          $('#playerWrapper').html('<div id="video-flash-message">Whoops! Something went wrong building the player: ' + e.message + '</div>');
+        }
+        $('#playlist-wrapper').css('visibility', 'visible');
+      }
+
+      function finalize(playerInstance) {
+
+        playlist = new org.pbskids.video.PlayList(
+                "now-playing-list",
+                "playlistItem",
+                playerInstance,
+                {
+                  debugMode: true,
+                  loadingIndicator: "http://pbskids.org/video/img/arrowspin.gif",
+                  loadMoreVideosMessage: "Show More Videos",
+                  loadMoreButtonClass: "showmore-videos",
+                  previousVideoControl: "#controlrack .previous",
+                  nextVideoControl: "#controlrack .next",
+                  iScrollOpts: {
+                    onScrollEnd: function () {
+                      updateScrolling();
+                    }}
+                }
+        );
+
+        var scrollUp = $('#scroll-up');
+        var scrollDown = $('#scroll-down');
+
+        function updateScrolling() {
+          playlist.iScroll.refresh();
+
+          scrollUp.css('display', 'block');
+          scrollDown.css('display', 'block');
+          if (playlist.iScroll.y >= 0) {
+            scrollUp.css('display', 'none');
+          }
+          if (playlist.iScroll.y <= playlist.iScroll.maxScrollY) {
+            scrollDown.css('display', 'none');
+          }
+        }
+
+        scrollUp.click(function () {
+          playlist.iScroll.scrollTo(0, -280, 200, true);
+        });
+        scrollDown.click(function () {
+          playlist.iScroll.scrollTo(0, 280, 200, true);
+        });
+
+        playlist.addEventListener(
+                org.pbskids.video.PlaylistEvent.RELEASE_SELECTED,
+                function (e) {
+                  updateScrolling();
+                  loadPathways(e.release.guid);
+                }, false);
+
+        playlist.addEventListener(
+                org.pbskids.video.PlaylistEvent.APPEND_COMPLETE,
+                function (e) {
+                  updateScrolling();
+                }, false);
+
+        playlist.addEventListener(
+                org.pbskids.video.PlaylistEvent.REFRESH_COMPLETE,
+                function (e) {
+                  updateScrolling();
+                }, false);
+
+        // load all!
+        var playlistDefinition = {
+          program: "Cyberchase",
+          selectedID: ""
+        };
+
+        scrollUp.css('display', 'none');
+        scrollDown.css('display', 'none');
+
+        if (videoTag != '') {
+          playlistDefinition.keyword = videoTag;
+        }
+
+        // if a valid video GUID is supplied via the URL, load specified video
+        var videoGUID = '448543e4-1b68-43dc-8b0f-055f3b3bbc38';
+        if (videoGUID != '') {
+          playlist.autoPlay(false);
+          playerInstance.loadAndPlay(videoGUID);
+          loadPathways(videoGUID);
+        }
+
+        playlist.refresh(playlistDefinition);
+      }
+    });
+
+</script>
+<style type="text/css">
+
+#player button {
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+#player button img {
+  vertical-align: middle;
+}
+
+#video-flash-message {
+  width: 300px;
+  background: #d4e76b;
+  color: #340a35;
+  margin: 30px auto;
+  padding: 20px;
+	box-shadow: 0 0 8px black;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  background: url(../media/images/bg.jpg);
+  background-size: cover;
+}
+
+#player {
+  left: 50%;
+  top: 20px;
+  z-index: 1;
+
+  float: right;
+}
+
+#player #video-player {
+  width: 512px;
+  height: 288px;
+  background: #000;
+  display: block;
+}
+
+#player .timer-remaining {
+  color: #AECECE;
+  font-size: 0.875em;
+  font-family: Arial, sans-serif;
+  width: 60px;
+  margin-right: 6px;
+  text-align: right;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 fix for "display:inline-block"*/
+}
+
+#player .scrubber {
+  width: 72.10884354%;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 fix for "display:inline-block"*/
+  margin: 8px 0 2px;
+  cursor: pointer;
+}
+
+#player .scrubber .scrubber-track {
+  width: 370px;
+  height: 6px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 fix for "display:inline-block"*/
+  vertical-align: middle;
+  text-align: left;
+
+  background-color: #1e2f47;
+}
+
+#player .scrubber .scrubber-thumb {
+  height: 26px;
+  position: relative !important;
+  top: -10px;
+  width: 25px;
+  background: #d4e76b;
+  border-bottom: solid 2px #545b2a;
+  border-right: solid 10px #545b2a;
+
+}
+
+#player #controlrack {
+  margin: 10px auto 0px;
+  padding-bottom: 11px;
+  text-align: center;
+}
+
+#player #controlrack span {
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 fix for "display:inline-block"*/
+  width: 80px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  background: #545b2a;
+}
+
+#player #controlrack span.down {
+  top: 10px;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+#player #controlrack button {
+  width: 100%;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  height: 50px;
+  color: #340a35;
+  background: #d4e76b;
+}
+
+#player #controlrack .previous button.symbol, #player #controlrack .next button.symbol {
+  padding: 0;
+}
+
+#player #controlrack button .symbol, #player #controlrack button.symbol {
+  font-family: arial, sans-serif;
+  font-style: normal;
+  padding: 0 0 0 0.2em;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+#player #controlrack button .symbol {
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+#player #controlrack span:hover button {
+  background: #eaff75;
+}
+
+#player #controlrack span.play-pause {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 208px;
+}
+
+#player #controlrack span.play-pause button {
+  pointer-events: none;
+}
+
+#player #controlrack span.play-pause #icon-pause,
+#player #controlrack span.play-pause.playing #icon-play {
+  display: none;
+}
+
+#player #controlrack span.play-pause.playing #icon-pause {
+  display: inline;
+}
+
+#player #controlrack span.play-pause img {
+  height: 30px;
+}
+
+#player #controlrack #captions-button {
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 8px;
+  padding: 0;
+}
+
+#player #controlrack #captions-button img {
+  margin: 0 auto 0 auto;
+}
+
+#player #controlrack #captions-button:hover {
+  color: #8b2487;
+}
+
+div#main_content {
+  height: 480px;
+}
+
+</style>
+<style type="text/css">
+
+
+#playlist-wrapper {
+  font-size: 0.6em;
+  overflow: hidden;
+  width: 273px;
+  height: 410px;
+  background: #1e2f47;
+  visibility: hidden;
+}
+
+#now-playing-list {
+  margin: 0;
+  padding: 0;
+  background: #E87E21;
+
+  font-size: 100%; /* reset relative scaling for the now playing list */
+}
+
+#now-playing-list .playlistItem {
+  width: auto;
+  padding: 0.5em 0 0.5em 0.5em;
+  margin: 0;
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  clear: both;
+
+  background: #cfdb34; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9fb72 0%, #babc3f 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9fb72), color-stop(100%, #babc3f)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f9fb72 0%, #babc3f 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f9fb72 0%, #babc3f 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f9fb72 0%, #babc3f 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #f9fb72 0%, #babc3f 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9fb72', endColorstr='#babc3f', GradientType=0); /* IE6-9 */
+}
+
+#now-playing-list .playlistItem:nth-child(odd) {
+  background: #88ae2b; /* Old browsers */
+  background: -moz-linear-gradient(top, #aad587 0%, #83ae61 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aad587), color-stop(100%, #83ae61)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #aad587 0%, #83ae61 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #aad587 0%, #83ae61 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #aad587 0%, #83ae61 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #aad587 0%, #83ae61 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aad587', endColorstr='#83ae61', GradientType=0); /* IE6-9 */
+}
+
+#now-playing-list .playlistItem:hover, #now-playing-list .playlistItem.selected {
+  background: #ffef3d;
+  background: -moz-linear-gradient(top, #fafc57 0%, #d2d41a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafc57), color-stop(100%, #d2d41a));
+  background: -webkit-linear-gradient(top, #fafc57 0%, #d2d41a 100%);
+  background: -o-linear-gradient(top, #fafc57 0%, #d2d41a 100%);
+  background: -ms-linear-gradient(top, #fafc57 0%, #d2d41a 100%);
+  background: linear-gradient(to bottom, #fafc57 0%, #d2d41a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafc57', endColorstr='#d2d41a', GradientType=0);
+}
+
+.playlistItem .thumb-container {
+  float: left;
+  overflow: hidden;
+  width: 69px;
+  border: solid 1px #340b36;
+  margin-right: 1em;
+}
+
+.playlistItem:hover .thumb-container {
+  border: solid 1px #ffffff;
+}
+
+.playlistItem .thumbnailkidsgodefault {
+  border: 0;
+  vertical-align: top;
+  background: #333;
+  display: block;
+}
+
+.playlistItem .new-label,
+.playlistItem .fullep-label {
+  display: none;
+}
+
+.playlistItem.new-video .new-label {
+  display: inline-block;
+  zoom: 1;
+  width: 40px;
+  height: 40px;
+  margin-bottom: -40px;
+  float: right;
+  position: relative;
+}
+
+.playlistItem.episode .fullep-label {
+  background-color: #8b2487;
+  color: #FFF;
+  display: block;
+  text-align: center;
+  position: relative;
+  font-size: 1em;
+  padding: 0.25em;
+  border-top: solid 1px #340b36;
+}
+
+.playlistItem:hover .fullep-label {
+  border-top: solid 1px #ffffff;
+}
+
+.playlistItem .video-info {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: left;
+  color: #340b36;
+  font-size: 1.35em;
+}
+
+.video-title {
+  font-weight: bold;
+}
+
+.video-info .expiration {
+  font-size: 0.8em;
+}
+
+#now-playing-list .showmore-videos {
+  background: none repeat scroll 0 0 #340b36;
+  font-weight: bold;
+  padding: 12px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  list-style-type: none;
+}
+
+#now-playing-list-iScrollContainer {
+  height: 100%;
+}
+
+#now-playing-list-iScrollContainer .loading-indicator,
+#now-playing-list-iScrollContainer .appending-indicator {
+  width: 50px;
+  height: 50px;
+  display: none;
+  margin: 20px auto;
+}
+
+#now-playing-list-iScrollContainer .appendingIndicator-container {
+  color: #340b36;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#now-playing-list-iScrollContainer .appendingIndicator-container .appending-indicator {
+  display: inline-block;
+  zoom: 1;
+  *display: inline; /*IE7 fix for "display:inline-block"*/
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+#now-playing-list-iScrollContainer .appendingIndicator-container span {
+  margin-right: 5px;
+}
+
+#now-playing-list-iScrollContainer .scrollbarV {
+  display: none;
+}
+
+#no-results-message {
+  color: #6E8988;
+  display: none;
+  text-align: center;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+#no-results-message p {
+  margin: 1em 0;
+}
+
+#no-results-message a {
+  color: #6E8988;
+}
+
+#scroll-up, #scroll-down {
+  width: 273px;
+  height: 36px;
+  color: #340b36;
+  background: #d4e76b;
+  line-height: 36px;
+  font-size: 2em;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  display: none;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#scroll-down {
+  bottom: 13px;
+  box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.4);
+}
+
+#scroll-up:hover, #scroll-down:hover {
+  color: #8b2487;
+}
+
+#scroll-up div {
+  width: 36px;
+  margin: auto;
+}
+
+#scroll-down div {
+  width: 36px;
+  margin: auto;
+}
+
+</style>
+{% endblock %}
+
+
+{% set bodyOpeningTag = '<body id=\"page-videos\">' %}
+{% set selectedNav = 'VIDEOS' %}
+
+
+{% block specialMiddleElems %}{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="content">
+ <div class="limiter">
+  <h1 class="page-title"><img src="http://pbskids.org/cyberchase/media/textrender/pageheader/554cfab3938e21d9270bd6b75931f96f.png" class="textrender pageheader" width="121" height="60" alt="Videos" border="0"></h1>
+  <div class="clear"></div>
+  <div class="tabs"><a id="tab-all" class="active" data-subtabs="#subtabs-all" href="#!/all"><img src="http://pbskids.org/cyberchase/media/textrender/tab/b1c94ca2fbc3e78fc30069c8d0f01680.png" class="textrender tab" width="18" height="30" alt="All" border="0"></a> <a id="tab-seasons-1-9" data-tag="" data-subtabs="#subtabs-seasons-1-9" href="#!/seasons-1-9"><img src="http://pbskids.org/cyberchase/media/textrender/tab/2826d8313a34923af609e9f7f0d230b6.png" class="textrender tab" width="82" height="30" alt="Seasons 1-9" border="0"></a>
+   <div id="subtabs-seasons-1-9" class="subtabs"><a id="tab-seasons-1-9-1" class="subtab-btn active" data-tag="cc-season1" href="#!/seasons-1-9/1"><img src="http://pbskids.org/cyberchase/media/textrender/tab/c4ca4238a0b923820dcc509a6f75849b.png" class="textrender tab" width="6" height="30" alt="1" border="0"></a> <a id="tab-seasons-1-9-2" class="subtab-btn" data-tag="cc-season2" href="#!/seasons-1-9/2"><img src="http://pbskids.org/cyberchase/media/textrender/tab/c81e728d9d4c2f636f067f89cc14862c.png" class="textrender tab" width="9" height="30" alt="2" border="0"></a> <a id="tab-seasons-1-9-3" class="subtab-btn" data-tag="cc-season3" href="#!/seasons-1-9/3"><img src="http://pbskids.org/cyberchase/media/textrender/tab/eccbc87e4b5ce2fe28308fd9f2a7baf3.png" class="textrender tab" width="9" height="30" alt="3" border="0"></a> <a id="tab-seasons-1-9-4" class="subtab-btn" data-tag="cc-season4" href="#!/seasons-1-9/4"><img src="http://pbskids.org/cyberchase/media/textrender/tab/a87ff679a2f3e71d9181a67b7542122c.png" class="textrender tab" width="10" height="30" alt="4" border="0"></a> <a id="tab-seasons-1-9-5" class="subtab-btn" data-tag="cc-season5" href="#!/seasons-1-9/5"><img src="http://pbskids.org/cyberchase/media/textrender/tab/e4da3b7fbbce2345d7772b0674a318d5.png" class="textrender tab" width="9" height="30" alt="5" border="0"></a> <a id="tab-seasons-1-9-6" class="subtab-btn" data-tag="cc-season6" href="#!/seasons-1-9/6"><img src="http://pbskids.org/cyberchase/media/textrender/tab/1679091c5a880faf6fb5e6087eb1b2dc.png" class="textrender tab" width="9" height="30" alt="6" border="0"></a> <a id="tab-seasons-1-9-7" class="subtab-btn" data-tag="cc-season7" href="#!/seasons-1-9/7"><img src="http://pbskids.org/cyberchase/media/textrender/tab/8f14e45fceea167a5a36dedd4bea2543.png" class="textrender tab" width="8" height="30" alt="7" border="0"></a> <a id="tab-seasons-1-9-8" class="subtab-btn" data-tag="cc-season8" href="#!/seasons-1-9/8"><img src="http://pbskids.org/cyberchase/media/textrender/tab/c9f0f895fb98ab9159f51fd0297e236d.png" class="textrender tab" width="9" height="30" alt="8" border="0"></a> <a id="tab-seasons-1-9-9" class="subtab-btn" data-tag="cc-season9" href="#!/seasons-1-9/9"><img src="http://pbskids.org/cyberchase/media/textrender/tab/45c48cce2e2d7fbdea1afc51c7c6ad26.png" class="textrender tab" width="9" height="30" alt="9" border="0"></a>
+   </div> <a id="tab-funny" data-tag="cc-funny" data-subtabs="#subtabs-funny" href="#!/funny"><img src="http://pbskids.org/cyberchase/media/textrender/tab/f5c0d5ed7af24d3aa55b4666cc4596a7.png" class="textrender tab" width="43" height="30" alt="Funny" border="0"></a>
+   <div id="subtabs-funny" class="subtabs">
+   </div> <a id="tab-web-shorts" data-tag="cc-webshorts" data-subtabs="#subtabs-web-shorts" href="#!/web-shorts"><img src="http://pbskids.org/cyberchase/media/textrender/tab/f5b5ef05ec19ea6852447569ef82939e.png" class="textrender tab" width="81" height="30" alt="Web Shorts" border="0"></a>
+   <div id="subtabs-web-shorts" class="subtabs">
+   </div> <a id="tab-en-espanol" data-tag="cc-spanish" data-subtabs="#subtabs-en-espanol" href="#!/en-espanol"><img src="http://pbskids.org/cyberchase/media/textrender/tab/0ac0d5f3ddc6e477349c16c9bb4042c1.png" class="textrender tab" width="74" height="30" alt="En EspaÃ±ol" border="0"></a>
+   <div id="subtabs-en-espanol" class="subtabs">
+   </div>
+  </div>
+  <div id="video-content" class="content-panel">
+   <div class="content-panel-inner video">
+    <div id="media-container" class="video-container">
+     <div id="playerWrapper">
+      <div id="main_content">
+       <section id="app">
+        <div id="player">
+         <video id="video-player"></video> <span class="timer-remaining">00:00</span>
+         <div class="scrubber">
+          <div class="scrubber-track"><button class="scrubber-thumb"></button>
+          </div>
+         </div>
+         <div id="controlrack"><span class="previous"> <button title="Previous" class="symbol"><img src="http://pbskids.org/cyberchase/static/images/video-prev-btn.png"></button> </span> <span class="play-pause"> <button title="Play/Pause">
+            <div id="icon-play">
+             <img src="http://pbskids.org/cyberchase/media/textrender/play-pause/6a216efc529825c60a4a4c0bc99ad77f.png" class="textrender play-pause" width="71" height="59" alt="PLAY" border="0"><i class="symbol">►</i>
+            </div>
+            <div id="icon-pause">
+             <img src="http://pbskids.org/cyberchase/media/textrender/play-pause/291554596c183e837f0a6bec3767c891.png" class="textrender play-pause" width="89" height="59" alt="PAUSE" border="0"><b class="symbol">II</b>
+            </div> </button> </span> <span class="next"> <!--<button title="Next" class="symbol">&#9658;&#9658;</button>--> <button title="Next" class="symbol"><img src="http://pbskids.org/cyberchase/static/images/video-next-btn.png"></button> </span> <button id="captions-button" title="Closed Captions"><img src="http://pbskids.org/cyberchase/media/textrender/video-cc/aa53ca0b650dfd85c4f59fa156f7a2cc.png" class="textrender video-cc" width="22" height="35" alt="CC" border="0"></button>
+         </div>
+        </div>
+        <div id="playlist-wrapper">
+         <div id="scroll-up">
+          <div>
+           ▲
+          </div>
+         </div>
+         <ul id="now-playing-list">
+          <li class="playlistItem">
+           <div class="thumb-container"><img class="new-label" src="../media/images/new_sticker.png" alt="New"> <img class="thumbnailkidsgodefault" src=""> <span class="fullep-label">Full Episode</span>
+           </div>
+           <div class="video-info"><span class="video-title"></span> (<span class="video-duration"></span>) <span class="video-expiration"></span>
+           </div></li>
+         </ul>
+         <div id="scroll-down">
+          <div>
+           ▼
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+    </div>
+    <div class="clear"></div>
+   </div>
+   <div id="associated-content"></div>
+   <div class="clear"></div>
+  </div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}{% endblock %}
+

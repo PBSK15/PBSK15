@@ -1,0 +1,39 @@
+
+
+<div id="motherboard-recommends-container">
+    <div id="motherboard-recommends">
+        <div id="motherboard"></div>
+  			<div class="promo-container">
+        
+        	<a class="promo first analytics-click" href="/cyberchase/math-games/rescue-ecotopia/" title="Rescue Ecotopia!"  data-analytics="Cyberchase - Games|Promotion Click|rescue-ecotopia|1">
+            <div class="static-bg">
+                <img src="http://pbskids.org/cyberchase/media/images/cache/images/promotions/promo_S3_page_display.png" alt="" width="200" height="130"/>
+            </div>
+            <div class="promo-title">
+                    <img src='http://pbskids.org/cyberchase/media/textrender/mbr_title/198/903057b8ba23f41ebfd9077408735904.png' class='textrender mbr_title' width='198' height='30' alt='Rescue Ecotopia!' border='0' />
+            </div>
+          	</a>
+	        
+        	<a class="promo second analytics-click" href="/cyberchase/math-games/quest-3-ecohaven-emergency/" title="Quest 3: EcoHaven Emergency"  data-analytics="Cyberchase - Games|Promotion Click|quest-3-ecohaven-emergency|2">
+            <div class="static-bg">
+                <img src="http://pbskids.org/cyberchase/media/images/cache/images/promotions/eco_haven_emergency_page_display.jpg" alt="" width="200" height="130"/>
+            </div>
+            <div class="promo-title">
+                    <img src='http://pbskids.org/cyberchase/media/textrender/mbr_title/198/1ddd5d12c9163c20be909f1a6872ec55.png' class='textrender mbr_title' width='198' height='60' alt='Quest 3: EcoHaven Emergency' border='0' />
+            </div>
+          	</a>
+	        
+        	<a class="promo third analytics-click" href="/cyberchase/math-games/quest-1-mission-motherboard/" title="Quest 1: Mission Motherboard"  data-analytics="Cyberchase - Games|Promotion Click|quest-1-mission-motherboard|3">
+            <div class="static-bg">
+                <img src="http://pbskids.org/cyberchase/media/images/cache/images/promotions/mission_motherboard_page_display.jpg" alt="" width="200" height="130"/>
+            </div>
+            <div class="promo-title">
+                    <img src='http://pbskids.org/cyberchase/media/textrender/mbr_title/198/768b0b4a81a2c1a328249b5ecacd23b8.png' class='textrender mbr_title' width='198' height='60' alt='Quest 1: Mission Motherboard' border='0' />
+            </div>
+          	</a>
+	        
+        </div>
+    		<div class="motherboard-recommends-bottom"></div>
+	      <div class="clear"></div>
+    </div>
+</div>

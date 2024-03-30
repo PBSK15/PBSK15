@@ -1,0 +1,45 @@
+
+@font-face {
+	font-family: 'Colfax-Regular';
+	src: url('Colfax/ColfaxWebRegular.eot'); /* IE9 Compat Modes */
+	src: url('Colfax/ColfaxWebRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('Colfax/ColfaxWebRegular.woff') format('woff'); /* Modern Browsers */
+	}
+
+@font-face {
+	font-family: 'Colfax-Regular';
+	font-style: italic;
+	src: url('Colfax/ColfaxWebRegularItalic.eot'); /* IE9 Compat Modes */
+	src: url('Colfax/ColfaxWebRegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('Colfax/ColfaxWebRegularItalic.woff') format('woff'); /* Modern Browsers */
+	} 
+	
+@font-face {
+	font-family: 'Colfax-Medium';
+	src: url('Colfax/ColfaxWebMedium.eot'); /* IE9 Compat Modes */
+	src: url('Colfax/ColfaxWebMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('Colfax/ColfaxWebMedium.woff') format('woff'); /* Modern Browsers */
+	}
+
+@font-face {
+	font-family: 'Colfax-Medium';
+	font-style: italic;
+	src: url('Colfax/ColfaxWebMediumItalic.eot'); /* IE9 Compat Modes */
+	src: url('Colfax/ColfaxWebMediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('Colfax/ColfaxWebMediumItalic.woff') format('woff'); /* Modern Browsers */
+	}
+	
+@font-face {
+	font-family: 'Colfax-Bold';
+	src: url('Colfax/ColfaxWebBold.eot'); /* IE9 Compat Modes */
+	src: url('Colfax/ColfaxWebBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('Colfax/ColfaxWebBold.woff') format('woff'); /* Modern Browsers */
+	} 
+
+@font-face {
+	font-family: 'Colfax-Bold';
+	font-style: italic;
+	src: url('Colfax/ColfaxWebBoldItalic.eot'); /* IE9 Compat Modes */
+	src: url('Colfax/ColfaxWebBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('Colfax/ColfaxWebBoldItalic.woff') format('woff'); /* Modern Browsers */
+	}  

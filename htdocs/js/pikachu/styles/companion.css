@@ -1,0 +1,324 @@
+#companion-form{
+position: absolute;
+top: 0;
+right: 0;
+z-index: 10;
+}
+
+#sync-settings-toggle.button{
+font-family: Colfax-Medium,Arial,Helvetica,sans-serif;
+font-size: 18px;
+font-weight: normal;
+line-height: 1;
+font-style: normal;
+padding: 12px 20px;
+margin: 11px;
+outline: 0;
+border: 0;
+background-color: #d1fbf5;
+color: #049e9e;
+text-transform: uppercase;
+display: none;
+}
+
+#sync-settings-toggle.button:hover{
+cursor: pointer;
+opacity: .7;
+}
+
+#sync-settings-toggle.button:before{
+content: '';
+display: inline-block;
+vertical-align: middle;
+width: 25px;
+height: 34.5px;
+background: url('/shell/images/present/companion/sync-state-icons.svg') no-repeat -24px 0 transparent;
+margin-right: 6px;
+}
+
+#sync-settings-toggle.button.synced:before{
+width: 50px;
+background-position: -52px 0;
+}
+
+.magenta #sync-settings-toggle.button{
+background-color: #fdd1e4;
+color: #b20b57;
+}
+
+.magenta #sync-settings-toggle.button.synced:before {
+background-position: -52px -34px;
+}
+
+.magenta #sync-settings-toggle.button:before {
+background-position: -24px -34px;
+}
+
+.green #sync-settings-toggle.button{
+background-color: #EDFCD1;
+color: #71AA0C;
+}
+
+.green #sync-settings-toggle.button.synced:before {
+background-position: -52px -69px;
+}
+
+.green #sync-settings-toggle.button:before {
+background-position: -24px -69px;
+}
+
+.blue #sync-settings-toggle.button{
+background-color: #CCF3FD;
+color: #007C99;
+}
+
+.blue #sync-settings-toggle.button.synced:before {
+background-position: -52px -103px;
+}
+
+.blue #sync-settings-toggle.button:before {
+background-position: -24px -103px;
+}
+
+.yellow #sync-settings-toggle.button{
+background-color: #FFF9CC;
+color: #FFA300;
+}
+
+.yellow #sync-settings-toggle.button.synced:before {
+background-position: -52px -137px;
+}
+
+.yellow #sync-settings-toggle.button:before {
+background-position: -24px -137px;
+}
+
+#headband-container #parents-message-bar #companion-form .parents-tooltip{
+position: absolute;
+width: 550px;
+right: 5px;
+top: 68px;
+display: block;
+z-index: 0;
+}
+
+#headband-container #parents-message-bar #companion-form .parents-tooltip:before{
+left: auto;
+right: 70px;
+}
+
+#headband-container #parents-message-bar #companion-form .parents-tooltip.show{
+top: 88px;
+padding: 20px 12px 20px 25px;
+}
+
+/* Sync Settings Panel */ 
+
+#companion-form .sync-panels{
+display: none;
+}
+
+#companion-form .is-synced .sync-panels{
+display: none !important;
+}
+
+#companion-form .is-synced #disconnect-panel.sync-panels{
+display: block !important;
+}
+
+#companion-form #intro-panel.sync-panels{
+display: block;
+padding-bottom: 85px;
+}
+
+#companion-form #disconnect-panel.sync-panels{
+padding-bottom: 90px;
+}
+
+#intro-panel .intro-graphic{
+margin: 0 auto 30px;
+display: block;
+}
+
+#companion-form .sync-panels h2,
+#companion-form .sync-panels h4{
+font-size: 20px;
+color: #737373;
+font-family: Colfax-Bold,Arial,Helvetica,sans-serif;
+display: block;
+text-align: center;
+margin: 0;
+}
+
+#companion-form .sync-panels .bullets{
+list-style: disc;
+display: block;
+margin: 12px auto;
+width: 180px;
+}
+
+#companion-form .sync-panels p{
+font-family: Colfax-Regular,Arial,Helvetica,sans-serif;
+display: block;
+font-size: 20px;
+font-style: normal;
+text-align: center;
+}
+
+#companion-form .sync-panels.blue-copy h4,
+#companion-form .sync-panels.blue-copy p{
+color: #00c3f7;
+}
+
+#companion-form .sync-panels p i{
+text-decoration: underline;
+font-style: normal;
+}
+
+#companion-form .sync-panels .phat-button{
+border-color: #00a0d1;
+background-color: #00c3f7;
+font-size: 20px;
+font-family: Colfax-Bold,Arial,Helvetica,sans-serif;
+text-align: center;
+padding: 14px 20px 10px;
+width: 250px;
+position: absolute;
+left: 50%;
+margin-left: -125px;
+border-bottom-width: 6px;
+bottom: 30px;
+}
+
+#companion-form .sync-panels .phat-button:hover{
+border-bottom-width: 0px;
+}
+
+#companion-form .sync-panels .sync-state-graphic{
+display: block;
+border: 1px solid #7F7779;
+width: 520px;
+height: 110px;
+background-image: url('/shell/images/present/companion/sync-state-graphic.svg');
+background-position: 50% 20px;
+background-repeat: no-repeat;
+margin: 20px auto 30px 8px;
+}
+
+#companion-form #disconnect-panel.sync-panels .sync-state-graphic{
+background-position: 50% -110px;
+}
+
+#companion-form .sync-panels .sync-state-graphic em{
+position: absolute;
+left: -999em;
+}
+
+#sync-id-input-group input{
+display: block;
+width: 250px;
+outline: none;
+border: none;
+font-family: Colfax-Bold,Arial,Helvetica,sans-serif;
+font-size: 43px;
+padding: 10px 0;
+text-align: center;
+color: #00c3f7;
+background-color: transparent;
+border: 1px solid #7F7779;
+margin: 20px auto;
+}
+
+#sync-id-input-group label{
+text-align: center;
+text-align: center;
+display: block;
+}
+
+/* Sleep Time Overlay */
+.companion-overlay.full-overlay{
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+z-index: 99999999999999999999; /* To SPAAAAACE! */
+background-color: rgba(0,0,0,0.98);
+display: none;
+}
+
+#break-time-overlay.full-overlay{
+background-color: rgba(165,205,57,1);
+}
+
+#bedtime-overlay.full-overlay{
+background-color: rgba(71,0,122,1);
+}
+
+#dinner-time-overlay.full-overlay{
+background-color: rgba(0,195,247,1);
+}
+
+#time-for-school-overlay.full-overlay{
+background-color: rgba(255,157,0,1);
+}
+
+.companion-overlay.full-overlay h2{
+position: absolute;
+background-color: #00C3F7;
+font-family: PBS_KIDS_Headline,Arial,Helvetica,sans-serif;
+color: #fff !important;
+letter-spacing: 1px;
+font-size: 32px;
+text-align: center;
+padding: 17px 0;
+width: 512px;
+left: 50%;
+margin-left: -256px;
+top: 50%;
+margin-top: 100px;
+text-shadow: none;
+}
+
+
+.companion-overlay.full-overlay .play-time-scene{
+position: absolute;
+left: 50%;
+margin-left: -225px;
+width: 450px;
+top: 50%;
+margin-top: -105px;
+}
+
+#time-for-school-overlay .play-time-scene{
+width: 576px;
+margin-left: -288px;
+margin-top: -141px;
+}
+
+#dinner-time-overlay .play-time-scene,
+#break-time-overlay .play-time-scene{
+width: 500px;
+margin-left: -250px;
+margin-top: -134.5px;
+}
+
+#break-time-overlay .play-time-scene{
+margin-top: -165px;
+}
+
+#dinner-time-overlay > h2{
+background-color:#f41971;
+}
+
+#break-time-overlay > h2{
+background-color:#1be8cf;
+}
+
+#headband-container #settings-tooltip .module.supervision-module .sync-panels #sync-id-input-group input,
+#pbskids-headband li.nav-item #settings-tooltip .module.supervision-module .sync-panels #sync-id-input-group input{
+text-transform: uppercase;
+}
+
+
+

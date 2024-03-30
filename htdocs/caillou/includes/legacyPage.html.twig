@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+		{% if alternateTitle == true %}
+			<title>Caillou{{pageTitle}} | PBS KIDS</title>
+		{% else %}
+			<title>Caillou . {{pageTitle}} | PBS Kids</title>
+		{% endif %}
+		<meta name="keywords" content="{{keywds|raw}}">
+		<meta name="description" content="{{desc|raw}}">
+		<link href="/caillou/caillou.css" rel="stylesheet" media="screen">
+
+{% block specialScripts %}{% endblock %}
+
+	{% include 'template_includes/bridge_js_include.html' %}
+	</head>
+
+	{{bodyTag|raw}}
+
+
+
+{% include 'template_includes/legacy_headband_include.html' %}
+
+
+
+
+
+
+
+
+		{% block mainContent %}{% endblock %}
+		<p></p>
+	</body>
+
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+  <story>
+    <title>Big Brother Daniel</title>
+    <thumb>story-thumb_big-brother.png</thumb>
+    <featurethumb>featured_story_brother.png</featurethumb>
+    <link>/stories/big-brother-daniel/</link>
+    <audio>audio-brother-story</audio>
+  </story>
+
+  <story>
+    <title>Daniel's Babysitter</title>
+    <thumb>story-thumb_babysitter.png</thumb>
+    <featurethumb>featured_story_babysitter.png</featurethumb>
+    <link>/stories/daniels-babysitter/</link>
+    <audio>audio-babysitter-story</audio>
+  </story>
+
+  <story>
+    <title>Something Special for Dad</title>
+    <thumb>story-thumb_something-special.png</thumb>
+    <featurethumb>featured_story_specialfordad.png</featurethumb>
+    <link>/stories/something-special-for-dad/</link>
+    <audio>audio-dad-story</audio>
+  </story>
+
+
+ 
+</data>

@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+{% set ftrAttributes = 'id="ftr"' %}
+
+{% include 'curiousgeorge/includes/head.twig' %}
+
+<body>
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+{% include 'curiousgeorge/includes/nav.twig' %}
+
+	<div id="int">
+		{% block intContent %}{% endblock %}
+		{% include 'curiousgeorge/includes/ftr.html' %}
+		
+	</div>
+	
+	<br clear="all" />
+	<br clear="all" />
+	
+</body>
+</html>

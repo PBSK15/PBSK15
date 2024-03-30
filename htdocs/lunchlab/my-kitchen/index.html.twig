@@ -1,0 +1,29 @@
+{% extends 'lunchlab/includes/lunchLabPage.html.twig' %}
+{% set pageTitle = 'My Kitchen' %}
+{% set bodyId = 'my-kitchen' %}
+
+
+{% block mainContent %}<div id="containerContainer">
+ <div id="pageLoader"></div>
+ <div class="clearfix contentContainer">
+  <div id="content" class="clearfix">
+   <div class="game loading" id="game" data-is-html="" data-is-flash="1" data-is-webaudio="" data-aspect="">
+    <div class="clearfix gameControls">
+     <button id="captionsButton"><span class="check"></span>Captions</button><button id="musicButton"><span class="check"></span>Music</button><button id="effectsButton"><span class="check"></span>Effects</button>
+    </div>
+    <div class="frame" style="width:100%; padding-bottom:%;">
+     <div class="topRightCorner"></div>
+     <div class="topLeftCorner"></div>
+     <div class="bottomRightCorner"></div>
+     <div class="bottomLeftCorner"></div>
+     <div class="topBar"></div>
+     <div class="bottomBar"></div>
+     <div class="leftBar"></div>
+     <div class="rightBar"></div>
+     <div id="gameContent" data-name="MyKitchen" data-is-flash="1" data-is-html="" data-game-id="0" data-game-width="869" data-game-height="494"></div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+

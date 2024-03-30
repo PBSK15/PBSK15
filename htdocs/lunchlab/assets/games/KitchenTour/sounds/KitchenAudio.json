@@ -1,0 +1,145 @@
+{
+  "resources": [
+    "sounds/KitchenAudio.m4a",
+    "sounds/KitchenAudio.oga",
+    "sounds/KitchenAudio.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "bakingPans": {
+      "start": 6,
+      "end": 11.105102040816327,
+      "loop": false
+    },
+    "bakingSheet": {
+      "start": 13,
+      "end": 16.838730158730158,
+      "loop": false
+    },
+    "blender": {
+      "start": 18,
+      "end": 24.16718820861678,
+      "loop": false
+    },
+    "bowls": {
+      "start": 26,
+      "end": 29.790113378684808,
+      "loop": false
+    },
+    "cookBooks": {
+      "start": 31,
+      "end": 36.88938775510204,
+      "loop": false
+    },
+    "cuttingBoard": {
+      "start": 38,
+      "end": 46.70281179138322,
+      "loop": false
+    },
+    "foodProcessor": {
+      "start": 48,
+      "end": 56.118480725623584,
+      "loop": false
+    },
+    "fridge": {
+      "start": 58,
+      "end": 64.34045351473922,
+      "loop": false
+    },
+    "fryingPan": {
+      "start": 66,
+      "end": 72.62526077097506,
+      "loop": false
+    },
+    "juicer": {
+      "start": 74,
+      "end": 77.86668934240363,
+      "loop": false
+    },
+    "measuringCup": {
+      "start": 79,
+      "end": 83.39977324263039,
+      "loop": false
+    },
+    "microwave": {
+      "start": 85,
+      "end": 90.36637188208617,
+      "loop": false
+    },
+    "mixer": {
+      "start": 92,
+      "end": 97.7522902494331,
+      "loop": false
+    },
+    "mixingBowl": {
+      "start": 99,
+      "end": 103.18065759637189,
+      "loop": false
+    },
+    "ovenMitt": {
+      "start": 105,
+      "end": 111.89863945578232,
+      "loop": false
+    },
+    "plates": {
+      "start": 113,
+      "end": 116.44557823129252,
+      "loop": false
+    },
+    "pressureCooker": {
+      "start": 118,
+      "end": 128.86927437641722,
+      "loop": false
+    },
+    "sink": {
+      "start": 130,
+      "end": 140.10907029478457,
+      "loop": false
+    },
+    "soap": {
+      "start": 142,
+      "end": 148.37020408163266,
+      "loop": false
+    },
+    "sponge": {
+      "start": 150,
+      "end": 154.91113378684807,
+      "loop": false
+    },
+    "stove": {
+      "start": 156,
+      "end": 163.50521541950113,
+      "loop": false
+    },
+    "teaspoons": {
+      "start": 165,
+      "end": 168.87031746031747,
+      "loop": false
+    },
+    "timer": {
+      "start": 170,
+      "end": 176.14467120181405,
+      "loop": false
+    },
+    "toasterOven": {
+      "start": 178,
+      "end": 186.15628117913832,
+      "loop": false
+    },
+    "trashCan": {
+      "start": 188,
+      "end": 193.92825396825396,
+      "loop": false
+    },
+    "utensils": {
+      "start": 195,
+      "end": 201.18501133786847,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

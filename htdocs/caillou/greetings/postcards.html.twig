@@ -1,0 +1,184 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Greeting Cards . Make and Send Postcards by Regular Mail' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-scolar, Cinar, PBS, children, Games, activities, animation, kids' %}
+{% set desc = 'The Official Caillou Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/choice_games-over.gif";		games_off = new Image( );	 		games_off.src = "images/choice_games.gif"; 				activities_on = new Image( );		activities_on.src = "images/choice_activities-over.gif";		activities_off = new Image( );		activities_off.src = "images/choice_activities.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "../images/caillou_logo-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "../images/caillou_logo.gif";			back_on = new Image( );		back_on.src = "../images/btn_back-over.gif";		back_off = new Image( );		back_off.src = "../images/btn_back.gif";				thumbnail01_on = new Image( );		thumbnail01_on.src = "postcards/images/thumbnail01-over.gif";		thumbnail01_off = new Image( );	 		thumbnail01_off.src = "postcards/images/thumbnail01.gif"; 				thumbnail02_on = new Image( );		thumbnail02_on.src = "postcards/images/thumbnail02-over.gif";		thumbnail02_off = new Image( );		thumbnail02_off.src = "postcards/images/thumbnail02.gif";			thumbnail03_on = new Image( );		thumbnail03_on.src = "postcards/images/thumbnail03-over.gif";		thumbnail03_off = new Image( );		thumbnail03_off.src = "postcards/images/thumbnail03.gif";				thumbnail04_on = new Image( );		thumbnail04_on.src = "postcards/images/thumbnail04-over.gif";		thumbnail04_off = new Image( );		thumbnail04_off.src = "postcards/images/thumbnail04.gif";			thumbnail05_on = new Image( );		thumbnail05_on.src = "postcards/images/thumbnail05-over.gif";		thumbnail05_off = new Image( );		thumbnail05_off.src = "postcards/images/thumbnail05.gif";;			thumbnail06_on = new Image( );		thumbnail06_on.src = "postcards/images/thumbnail06-over.gif";		thumbnail06_off = new Image( );		thumbnail06_off.src = "postcards/images/thumbnail06.gif";				text01_on = new Image( );		text01_on.src = "postcards/images/text01-over.gif";		text01_off = new Image( );	 		text01_off.src = "postcards/images/text01.gif"; 				text02_on = new Image( );		text02_on.src = "postcards/images/text02-over.gif";		text02_off = new Image( );		text02_off.src = "postcards/images/text02.gif";			text03_on = new Image( );		text03_on.src = "postcards/images/text03-over.gif";		text03_off = new Image( );		text03_off.src = "postcards/images/text03.gif";				text04_on = new Image( );		text04_on.src = "postcards/images/text04-over.gif";		text04_off = new Image( );		text04_off.src = "postcards/images/text04.gif";			text05_on = new Image( );		text05_on.src = "postcards/images/text05-over.gif";		text05_off = new Image( );		text05_off.src = "postcards/images/text05.gif";;			text06_on = new Image( );		text06_on.src = "postcards/images/text06-over.gif";		text06_off = new Image( );		text06_off.src = "postcards/images/text06.gif";				reset_on = new Image( );		reset_on.src = "postcards/images/reset-over.gif";		reset_off = new Image( );	 		reset_off.src = "postcards/images/reset.gif"; 				printable_on = new Image( );		printable_on.src = "postcards/images/printable-over.gif";		printable_off = new Image( );		printable_off.src = "postcards/images/printable.gif";; 				help_on = new Image( );		help_on.src = "postcards/images/helpbtn-over.gif";		help_off = new Image( );		help_off.src = "postcards/images/helpbtn.gif";	picture01 = new Image(); picture01.src = "postcards/images/picture01.gif";	picture02 = new Image(); picture02.src = "postcards/images/picture02.gif";	picture03 = new Image(); picture03.src = "postcards/images/picture03.gif";	picture04 = new Image(); picture04.src = "postcards/images/picture04.gif";	picture05 = new Image(); picture05.src = "postcards/images/picture05.gif";	picture06 = new Image(); picture06.src = "postcards/images/picture06.gif";	text01 = new Image(); text01.src = "postcards/images/prevtext01.gif";	text02 = new Image(); text02.src = "postcards/images/prevtext02.gif";	text03 = new Image(); text03.src = "postcards/images/prevtext03.gif";	text04 = new Image(); text04.src = "postcards/images/prevtext04.gif";	text05 = new Image(); text05.src = "postcards/images/prevtext05.gif";	text06 = new Image(); text06.src = "postcards/images/prevtext06.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+<script language="JavaScript1.2">function reloadpage() {        if (navigator.appName=="Netscape") {                window.location.reload();        }}function changeImage(imageFile, imageNum) {	document.PictureLayout.src = eval(imageFile + '.src');	imgNum = imageNum;}function changeText(imageFile, imageNum) {	document.TextLayout.src = eval(imageFile + '.src');	txtNum = imageNum;}</script>
+<script language="JavaScript">	function doSubmit() {	 var pageName;	  if ( typeof(imgNum)!="undefined" && typeof(txtNum)!="undefined" && imgNum <= 6 && imgNum >= 1 && txtNum >= 1 && txtNum <=6 ) {	   pageName = "postcards/card" + imgNum + txtNum + ".html";	   document.location.href = pageName;	  } else {	   alert( "Please select an image and a greeting before.");	  }	 }		function clearAll() {		document.PictureLayout.src = "postcards/images/picture00.gif";		document.TextLayout.src = "postcards/images/prevtext00.gif";		imgNum = 0;		txtNum = 0;		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" bgcolor="#ed1c24" text="black" link="white" vlink="black" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td bgcolor="#ed1c24">
+    <div align="center">
+     <table width="600" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td align="left" width="140"><a href="http:pbskids.org/"><img src="../images/pbskids_logo.gif" alt="PBS Kids Homepage" height="79" width="90" border="0"></a></td>
+        <td>
+         <div align="center"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="../images/caillou_logo.gif" alt="Caillou Homepage" name="caillouhome" height="79" width="200" border="0"></a>
+         </div></td>
+        <td width="140">
+         <div align="center"><a onmouseover="act('back')" onmouseout="inact('back')" href="index.html"><img src="../images/btn_back.gif" alt="Back Button" name="back" height="60" width="70" border="0"></a>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0" background="../images/bkg_top_red.gif" height="20">
+      <tbody>
+       <tr>
+        <td></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr height="16">
+   <td bgcolor="white" height="16">
+    <div align="center">
+     &nbsp;<br>
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td colspan="2"><img src="postcards/images/postcards_title.gif" alt="Make Your Own Postcard" height="36" width="566"></td>
+       </tr>
+       <tr>
+        <td><img src="postcards/images/choose_img_txt.gif" alt="Choose an image" height="22" width="297"></td>
+        <td><img src="postcards/images/preview_txt.gif" alt="PREVIEW" height="22" width="269"></td>
+       </tr>
+       <tr>
+        <td>
+         <table width="180" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+           <tr>
+            <td><a onmouseover="act('thumbnail01')" onmouseout="inact('thumbnail01')" href="javascript:changeImage('picture01','1');"><img src="postcards/images/thumbnail01.gif" alt="Caillou and Clementine" name="thumbnail01" height="88" width="99" border="0"></a></td>
+            <td><a onmouseover="act('thumbnail02')" onmouseout="inact('thumbnail02')" href="javascript:changeImage('picture02','2');"><img src="postcards/images/thumbnail02.gif" alt="Dad and Caillou" name="thumbnail02" height="88" width="99" border="0"></a></td>
+            <td><a onmouseover="act('thumbnail03')" onmouseout="inact('thumbnail03')" href="javascript:changeImage('picture03','3');"><img src="postcards/images/thumbnail03.gif" alt="Birthday Party" name="thumbnail03" height="88" width="99" border="0"></a></td>
+           </tr>
+           <tr>
+            <td><a onmouseover="act('thumbnail04')" onmouseout="inact('thumbnail04')" href="javascript:changeImage('picture04','4');"><img src="postcards/images/thumbnail04.gif" alt="Caillou hugs Mom" name="thumbnail04" height="88" width="99" border="0"></a></td>
+            <td><a onmouseover="act('thumbnail05')" onmouseout="inact('thumbnail05')" href="javascript:changeImage('picture05','5');"><img src="postcards/images/thumbnail05.gif" alt="Caillou hugs Dad" name="thumbnail05" height="88" width="99" border="0"></a></td>
+            <td><a onmouseover="act('thumbnail06')" onmouseout="inact('thumbnail06')" href="javascript:changeImage('picture06','6');"><img src="postcards/images/thumbnail06.gif" alt="Caillou painting a heart" name="thumbnail06" height="88" width="99" border="0"></a></td>
+           </tr>
+          </tbody>
+         </table></td>
+        <td rowspan="2">
+         <table width="72" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+           <tr>
+            <td colspan="3"><img src="postcards/images/prevtext00.gif" alt="Preview Image" name="TextLayout" height="57" width="269"></td>
+           </tr>
+           <tr>
+            <td colspan="3"><img src="postcards/images/picture00.gif" alt="Preview Greeting" name="PictureLayout" height="188" width="269"></td>
+           </tr>
+           <tr>
+            <td><a onmouseover="act('reset')" onmouseout="inact('reset')" href="javascript:clearAll();"><img src="postcards/images/reset.gif" alt="New postcard" name="reset" height="53" width="105" border="0"></a></td>
+            <td><a onmouseover="act('printable')" onmouseout="inact('printable')" href="javascript:doSubmit();"><img src="postcards/images/printable.gif" alt="To see printable postcard" name="printable" height="53" width="92" border="0"></a></td>
+            <td><a onmouseover="act('help')" onmouseout="inact('help')" href="#instructions"><img src="postcards/images/helpbtn.gif" alt="Help Button" name="help" height="53" width="72" border="0"></a></td>
+           </tr>
+          </tbody>
+         </table></td>
+       </tr>
+       <tr>
+        <td>
+         <table width="122" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+           <tr>
+            <td colspan="2"><img src="postcards/images/choose_greet_txt.gif" alt="Then, choose a greeting" height="29" width="297"></td>
+           </tr>
+           <tr>
+            <td><a onmouseover="act('text01')" onmouseout="inact('text01')" href="javascript:changeText('text01','1');"><img src="postcards/images/text01.gif" alt="Have a good day!" name="text01" height="31" width="139" border="0"></a></td>
+            <td><a onmouseover="act('text04')" onmouseout="inact('text04')" href="javascript:changeText('text04','4');"><img src="postcards/images/text04.gif" alt="Happy Birthday Mom!" name="text04" height="31" width="158" border="0"></a></td>
+           </tr>
+           <tr>
+            <td><a onmouseover="act('text02')" onmouseout="inact('text02')" href="javascript:changeText('text02','2');"><img src="postcards/images/text02.gif" alt="Happy Autumn!" name="text02" height="31" width="139" border="0"></a></td>
+            <td><a onmouseover="act('text05')" onmouseout="inact('text05')" href="javascript:changeText('text05','5');"><img src="postcards/images/text05.gif" alt="Happy Birthday Dad!" name="text05" height="31" width="158" border="0"></a></td>
+           </tr>
+           <tr>
+            <td><a onmouseover="act('text03')" onmouseout="inact('text03')" href="javascript:changeText('text03','3');"><img src="postcards/images/text03.gif" alt="Enjoy the Sun!" name="text03" height="31" width="139" border="0"></a></td>
+            <td><a onmouseover="act('text06')" onmouseout="inact('text06')" href="javascript:changeText('text06','6');"><img src="postcards/images/text06.gif" alt="Happy Birthday!" name="text06" height="31" width="158" border="0"></a></td>
+           </tr>
+          </tbody>
+         </table></td>
+       </tr>
+      </tbody>
+     </table> <br> &nbsp;
+    </div></td>
+  </tr>
+  <tr>
+   <td bgcolor="#ed1c24">
+    <div align="center">
+     <table width="100%" border="0" cellspacing="0" cellpadding="0" background="../images/bkg_bottom_red.gif" height="20">
+      <tbody>
+       <tr>
+        <td></td>
+       </tr>
+      </tbody>
+     </table>
+     <table width="610" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td>
+         <div align="center">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td valign="top">
+              <div align="left"><a onmouseover="act('games')" onmouseout="inact('games')" href="../games/index.html"><img src="images/choice_games.gif" alt="Games" name="games" height="74" width="110" border="0"></a>
+              </div></td>
+             <td align="center" valign="middle" width="400">
+              <div align="center"><!-- Footer nav bar goes here --> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" style="font-size:12px">| <a href="/caillou/">Caillou Homepage</a> | <a href="/caillou/grownups/sitemap.html">Site Map</a> | <a href="/caillou/games/">Games</a> | <a href="/caillou/activities/">Activities</a> | <a href="/caillou/greetings/">Greeting Cards</a> |<br>| <a href="/caillou/grownups/">Grown-Ups</a> | <a href="http:pbskids.org/">PBS Kids Homepage</a> | <a href="http:pbskids.org/privacy/">PBS Privacy Policy |</a></font>
+               <p></p>
+               <p></p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" style="font-size:12px">Web site copyright © <a href="/caillou/copyright.html">2002</a> CINAR Corporation<br>All rights reserved.</font>
+               <p></p>
+              </div></td>
+             <td valign="top">
+              <div align="right"><a onmouseover="act('activities')" onmouseout="inact('activities')" href="../activities/index.html"><img src="images/choice_activities.gif" alt="Activities" name="activities" height="74" width="110" border="0"></a>
+              </div></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="20">
+        <td height="20"><p class="footer_nav">&nbsp;</p></td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold"><a name="instructions"></a>Activity Instructions:</p> <p class="instruct_normal">Make your own postcard to send to your friends:</p>
+         <ol>
+          <li class="instruct_normal" type="1">Click on a image that you like.</li>
+          <li class="instruct_normal" type="1">Then click on the words you want to use.</li>
+          <li class="instruct_normal" type="1">If you don't like what you see in the preview frame, click on the "Clear Preview" button and start over.</li>
+          <li class="instruct_normal" type="1">If you do like what you see in the preview frame, click on the "To Print" button to see the final results of your choice.</li>
+         </ol> <p class="instruct_normal">To print and send the postcard:</p>
+         <ol>
+          <li type="1" class="instruct_normal">Use your browser's print menu to print out the final postcard.</li>
+          <li type="1" class="instruct_normal">You can color the postcard and write a short personal message to someone you like.</li>
+          <li type="1" class="instruct_normal">To send it, you should cut out the postcard following the cutting line, then fold it following the folding line. Tape the sides of the postcard. Do not staple them.</li>
+          <li type="1" class="instruct_normal">Do not forget to write the address of the person you want to send the postcard to. And don't forget to put a postage stamp on it.</li>
+         </ol>
+         <hr width="60%"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here --> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" style="font-size:12px">| <a href="/caillou/">Caillou Homepage</a> | <a href="/caillou/grownups/sitemap.html">Site Map</a> | <a href="/caillou/games/">Games</a> | <a href="/caillou/activities/">Activities</a> | <a href="/caillou/greetings/">Greeting Cards</a> |<br>| <a href="/caillou/grownups/">Grown-Ups</a> | <a href="http:pbskids.org/">PBS Kids Homepage</a> | <a href="http:pbskids.org/privacy/">PBS Privacy Policy |</a></font>
+          <p></p>
+          <p></p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" style="font-size:12px">Web site copyright © <a href="/caillou/copyright.html">2002</a> CINAR Corporation<br>All rights reserved.</font>
+          <p></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

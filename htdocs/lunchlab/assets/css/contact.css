@@ -1,0 +1,35 @@
+#contact-us label{
+	width:40%;
+	float:left;
+	clear:both;
+	text-align:left;
+	margin:8px 0 0 0;
+}
+#contact-us input,
+#contact-us textarea{
+	width:60%;
+	float:left;
+	margin:5px 0 5px 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:border-box;
+}
+#contact-us form{
+	display:block;
+	max-width:400px;
+	margin:0 auto 10px;
+}
+#contact-us #submit{
+	float:right;
+}
+
+#contact-us .formSuccess,
+#contact-us .formError {
+	list-style:none;
+}
+
+@media all and (max-width : 600px) {
+	#contact-us #content .frame .bottomBar{
+		display:none;
+	}
+}

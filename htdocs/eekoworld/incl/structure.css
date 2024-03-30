@@ -1,0 +1,171 @@
+/* ------ CSS Created by Bean Creative Funktional Web Design ---------------*/
+/* ----------                  http://www.beancreative.com                   -------------*/
+  
+
+body {
+	background: url(../images/background_main.jpg) repeat-x #5a7701;
+	margin:0;
+	padding:0;
+}
+
+.plain {
+	background-color:#5a7701;
+	margin:0;
+	padding:0;
+}
+
+#topbar {
+	height:28px;
+}
+
+#headerflash {
+	height:131px;
+	width:970px;
+}
+
+#leftnav {
+	width:236px;
+	float:left;
+}
+
+#contentwrapper {
+	width:734px;
+	float:left;
+}
+
+#content {
+	width:726px;
+	padding:0 0 1em 0;
+	text-align:left;
+	border-left:4px solid white;
+	border-right:4px solid white;
+	background:url(../images/background_content.jpg) repeat-x white;
+}
+
+#flashcontentwrapper {
+	width:766px;
+	float:left;
+	text-align:center;
+}
+
+#flashcontent {
+	width:766px;
+	padding:0 0 0 0;
+	text-align:left;
+}
+
+.newestexchange {
+	width:314px;
+	height:223px;
+	padding:0 0 0 0;
+	text-align:left;
+	background-color: #a2a4fc;
+	background:url(../images/background_exchange.gif);
+}
+
+.newestexchangetext {
+	width:260px;
+	height:198px;
+	padding:2.5em 0em 1em 2em;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.think {
+	width:227px;
+	height:253px;
+	padding:0 0 0 0;
+	text-align:left;
+	background-color: #a2a4fc;
+	background:url(../images/background_think.gif);
+}
+
+.thinktext {
+	padding:30px 0 0 12px;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	width:192px;
+	height:228px;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width:180px;
+	height:198px;
+	position:relative;
+}
+
+.thinkbottom {
+	width:227px;
+	height:29px;
+	background:url(../images/think_bottom.gif);
+}
+
+.thinktext INPUT.radiopoll {
+	margin-left: -5px;
+	padding:0;
+}
+
+#footercontainer {
+	clear:both;
+	height:100px;
+}
+
+#bottombuttons {
+	width:970px;
+	text-align:right;
+}
+
+.headerimage {
+	margin:0 0 0 20px;
+}
+
+.contentheader {
+	margin:30px 0 10px 20px;
+	display:block;
+}
+
+#subnav {
+	margin:0 0 0 20px;
+	width:450px;
+}
+
+#sidebarwrapper {
+	float:right;
+	width:181px;
+	margin:15px 18px 20px 10px;
+}
+
+#sidebarcontainer {
+	padding:0 0 0 0;
+}
+
+#sidebartop {height:8px; background:url(../images/sidebar_top.gif); overflow:hidden;}
+#sidebarbottom {height:8px; background:url(../images/sidebar_bottom.gif); overflow:hidden;}
+#sidebargreentop {height:8px; background:url(../images/sidebargreen_top.gif);margin:20px 0 0 0 !important; overflow:hidden;}
+#sidebargreenbottom {height:8px; background:url(../images/sidebargreen_bottom.gif); overflow:hidden;}
+
+#sidebarcontent {
+	background:url(../images/sidebar_background.gif) repeat-y;
+	padding:.5em 0;
+}
+
+#sidebargreencontainer {
+}
+
+#sidebargreencontent {
+	background:url(../images/sidebargreen_background.gif) repeat-y;
+	padding:.5em 0;
+}
+
+
+#footertable {
+	width:970px;
+}
+
+.footercol1, .footercol2, .footercol3 {
+	width:117px;
+	text-align:center;
+}

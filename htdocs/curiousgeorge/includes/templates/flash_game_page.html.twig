@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+{% set selectedNav = 'games' %}
+{% set specialFtr = '	<div id="ftr_play"><p>Part of:<br /><a href="http://www.pbskidsplay.org/playnow/?CPLAYSM&btn=1"><img width="146" height="49" border="0" alt="Part of PBS KIDS Play" src="../img/pbs-play-gm.gif" /></a></p></div>' %}
+
+{% include 'curiousgeorge/includes/head.twig' %}
+
+<body>
+
+	{% include 'template_includes/modern_headband_include.html' %}
+	
+  {% include 'template_includes/modern_pbsk_js.html' %}
+  
+	{% include 'curiousgeorge/includes/nav.twig' %}
+	
+	{% include 'template_includes/flash_embed.html' %}
+
+	{% block gameFrame %}{% endblock %}
+
+	{% include 'curiousgeorge/includes/ftr.html' %}
+</body>
+</html>

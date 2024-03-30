@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<shell>
+		<menu>
+			<quitButton><![CDATA[Quit]]></quitButton>
+			<mapButton><![CDATA[Map]]></mapButton>
+			<skipButton><![CDATA[Skip]]></skipButton>
+			<quitOverlay>
+				<fullGameText><![CDATA[Would you like to play the full "Buzz & Delete Save The Day" game?]]></fullGameText>
+				<quitText>Are you sure you want to quit?</quitText>
+				<goToMapText><![CDATA[Are you sure you want to leave $worldName$?]]></goToMapText>
+				<cancelButton>No</cancelButton>
+				<quitButton>Yes</quitButton>
+			</quitOverlay>
+		</menu>
+		<displayNames>
+			<northernFrontier><![CDATA[the Northern Frontier]]></northernFrontier>
+			<pompadoria><![CDATA[Pompadoria]]></pompadoria>
+			<perfectamundo><![CDATA[Perfectamundo]]></perfectamundo>
+			<garbageDump><![CDATA[the Garbage Dump]]></garbageDump>
+			<botopolis><![CDATA[Botopolis]]></botopolis>
+		</displayNames>
+	</shell>
+	<scene id="TitleScreen">
+		<buttonOne><![CDATA[PlaySpace]]></buttonOne>
+		<buttonTwo><![CDATA[3D Builder]]></buttonTwo>
+	</scene>
+	<scene id="Map">
+		<northernFrontierLabel><![CDATA[Northern<br />Frontier]]></northernFrontierLabel>
+		<pompadoriaLabel><![CDATA[Pompadoria]]></pompadoriaLabel>
+		<perfectamundoLabel><![CDATA[Perfectamundo]]></perfectamundoLabel>
+		<garbageDumpLabel><![CDATA[Garbage<br />Dump]]></garbageDumpLabel>
+		<botopolisLabel><![CDATA[Botopolis]]></botopolisLabel>
+	</scene>
+	<scene id="MainMap">
+		<northernFrontierLabel><![CDATA[Northern<br />Frontier]]></northernFrontierLabel>
+		<pompadoriaLabel><![CDATA[Pompadoria]]></pompadoriaLabel>
+		<perfectamundoLabel><![CDATA[Perfectamundo]]></perfectamundoLabel>
+		<garbageDumpLabel><![CDATA[Garbage<br />Dump]]></garbageDumpLabel>
+		<botopolisLabel><![CDATA[Botopolis]]></botopolisLabel>
+	</scene>
+	<scene id="NorthernFrontierPingPongGame">
+		<numberPicker>
+			<doneButton><![CDATA[Done]]></doneButton>
+		</numberPicker>
+	</scene>
+	<scene id="EndScreen">
+		<playAgain><![CDATA[Play Again]]></playAgain>
+		<leftButton><![CDATA[Building Botopolis]]></leftButton>
+		<rightButton><![CDATA[Playspace]]></rightButton>
+	</scene>
+	<scene id="Login">
+		<titlePanel>Have you played before?</titlePanel>
+		<buttonPanel>
+			<newPlayerButton>I am a new player</newPlayerButton>
+			<returningPlayerButton>I have played before</returningPlayerButton>
+		</buttonPanel>
+	</scene>
+</Config>

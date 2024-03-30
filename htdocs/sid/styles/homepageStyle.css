@@ -1,0 +1,166 @@
+body {
+        /*background-image: url(../media/images/staticFooterBackground.gif);*/
+        background-image: url(../media/images/bkg.gif);
+        background-repeat: repeat;
+        color: #453f95;
+        font-family: Arial; 
+}
+.sponsors {
+        position: relative;
+        width: 960px;
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+        color: #453f95;
+        font-size: 9pt;
+        font-family: Arial;
+}
+.sponsorsMini{
+        position: relative;
+        background-image: url(../media/images/funderBarLargeBackground2.gif);
+        background-repeat: repeat-x;
+        width: 960px;
+        height: 100px;
+        text-align: center;
+}
+.sponsorsFull{
+        position: relative;
+        background-image: url(../media/images/funderBarLargeBackground3.gif);
+        background-position:left top;
+        background-color: #151540;
+        background-repeat: repeat-x;
+        width: 960px;
+        height: 340px;
+}
+
+.funder {
+        border: 0;
+        vertical-align: middle;
+}
+.funderTop {
+    padding: 0px 25px 10px 10px;
+}
+.funderBottom {
+    padding: 0px 25px 15px 25px;
+}
+#first-funder {
+    margin-left:35px;
+    margin-top: -20px;
+}
+
+.majorFunding{
+        float: left;
+        width: 110px;
+        text-align: right;
+        margin: 7px 8px 0 15px;
+}
+.cr {
+        /* clear: both; */
+        padding: 10px 0 0 0;
+        text-align: center;
+}
+.producedByDiv {
+	display:block;
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+        padding: 0;
+}
+.producedByTitle {
+        height: 25px;
+        margin: 0;
+        padding: 6px 0px 0px 0px;
+        text-align: center;
+}
+.tvDiv {
+        float: left;
+        width: 180px;
+        text-align: center;
+        padding: 7px 7px 0 7px;
+}
+.reg-footer-kidsplay {
+	float: left;
+	width: 108px;
+	height: 79px;
+	padding-top: 10px;
+	padding-left: 48px;
+}
+
+.fundingDiv{
+	display: block;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.fundingTitle{
+        height: 25px;
+        margin: 0;
+        margin-left:33px;
+        margin-top:10px;
+        padding: 0px;
+        text-align: left;
+}
+.sponsorLogosDiv {
+        text-align: center;
+}
+
+.seperator{
+        float: left;
+        width: 12px;
+        height: 88px;
+        background-image: url(../media/images/seperator2.gif);
+        background-repeat: no-repeat;
+}
+.rightSide{
+        float: left;
+        padding: 6px 0px 0px 0px;
+}
+.science_fair_mobile {
+        /* padding: 15px 0px 15px 0px; */
+        padding: 0px;
+        margin: 0;
+        border: 0;
+}
+
+.sponsorsFablab{
+        position: relative;
+        background-color: #19194d;
+        width: 960px;
+        height: 100px;
+        text-align: center;
+}
+
+.fablab_footer {
+        width: 960px;
+        background-color: #19194d;
+        font-size: 9pt;
+        font-family: Arial;
+}
+.fablab_footer_text {
+        padding: 5px 30px 5px 30px;
+        color: #453f95;
+        background-color: #19194d;
+        text-align: center;
+}
+.fablab_footer_logos {
+        padding: 15px 0px 15px 0px;
+        text-align: center;
+        background-color: #19194d;
+}
+a.quickLinks:active {
+        color: #453f95;
+        text-decoration: none;
+}
+a.quickLinks:link {
+        color: #453f95;
+        text-decoration: none;
+}
+a.quickLinks:visited {
+        color: #453f95;
+        text-decoration: none;
+}
+a.quickLinks:hover {
+        color: #453f95;
+        text-decoration: underline;
+}
+a:focus{
+        outline: none;
+}

@@ -1,0 +1,66 @@
+/* ------ CSS Created by Bean Creative Funktional Web Design ---------------*/
+/* ----------                  https://www.beancreative.com                   -------------*/
+  
+
+@import url(/wordworld/incl/structure.css);
+@import url(/wordworld/incl/content.css);
+
+
+#globalnav {   /*-----  this is used for pbs sites to hold the global nav bar at the top --------- */
+	height: 30px;
+	background-color: #333333;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+.dontprintme {
+}
+
+.printme {
+	display:none;
+}
+	
+.floatright {
+	float:right;
+	margin:0 40px 10px 20px;
+}
+
+.floatleft {
+	float:left;
+	margin:0 20px 10px 0;
+}	
+
+.alignbottom {
+	vertical-align:bottom;
+}
+
+form {
+	margin:0;
+	padding:0;
+}	
+
+p {
+	margin:0 0 1em 0;
+}
+
+ul, ol {
+	margin:.5em 0 1em 0;
+	padding-left:2em;
+}
+
+li {
+	margin:0 0 .5em 0;
+}
+
+a img {
+	border:none;
+}
+
+#apps {
+	width: 730px;
+	overflow: hidden;
+	margin:0px auto;
+}

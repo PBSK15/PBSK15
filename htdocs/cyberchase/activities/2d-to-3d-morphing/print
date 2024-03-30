@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Activities &mdash; 2D to 3D Morphing &mdash; Print</title>
+	<style type="text/css">
+		@media all {
+			.page-image {
+				width: 750px;
+				margin: 10px auto;
+			}
+		}
+
+		@media print {
+			.page-break {
+				page-break-after: always;
+			}
+
+			.page-image {
+				width: 7.8in;
+				margin: 0 auto;
+			}
+		}
+	</style>
+	<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/jquery-1.4.2.min.js" ></script>
+</head>
+<body>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/2dto3dmorphing-1of4-NEW_printable.png" width="750" height="833"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/2Dto3Dmorphing-2of4-NEW_printable.png" width="750" height="926"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/2Dto3Dmorphing-3of4-NEW_printable.png" width="750" height="926"/>
+</div>
+
+<div class="page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/2Dto3Dmorphing-4of4-NEW_printable.png" width="750" height="926"/>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() { window.print(); });
+</script>
+</body>
+</html>

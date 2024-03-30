@@ -1,0 +1,24 @@
+{% extends 'catinthehat/includes/cithPage.html.twig' %}
+{% set pageTitle = 'The Cat in the Hat Knows a Lot About That! | PBS KIDS' %}
+{% set keywds = 'cat in the hat, kids science games, preschool science, early science learning, kids science activities, Dr. Seuss, kid science tv shows, science for kids, cat in the hat tv show' %}
+{% set desc = 'Take off on kids science adventures with online games, videos, and printable activities all starring Dr. Seuss\\\' the Cat in the Hat.' %}
+{% set dataMainAtr = '/catinthehat/js/main-home' %}
+
+
+{% block mainContent %}<div class="main" style="display: none">
+ <div class="home"><img class="kite" alt="Kite" src="/catinthehat/assets/graphics/homepage_kite.png"> <img class="thing" alt="Thing" src="/catinthehat/assets/graphics/homepage_thing.png"> <img class="fish" alt="Fish" src="/catinthehat/assets/graphics/homepage_fish.png"> <a href="/catinthehat/video/">
+   <div id="videos_link" class="link">
+    <div class="background"></div> <img class="frame" alt="Videos" src="/catinthehat/assets/graphics/videos_link_frame.png">
+   </div> </a> <a href="/catinthehat/games/hermitshellgame/">
+   <div id="marbleous" class="link">
+    <div class="background"></div> <img class="frame" alt="Hermit Shell Game" src="/catinthehat/assets/graphics/hermitshellgame_frame.png">
+   </div> </a> <!--				<a href='/catinthehat/games/doyouseemyseahorse/index-mobile.html'>					<div id="my_seahorse" class="link">						<div class="background"></div>						<img class="frame" alt="Do You See My Seahorse?" src="/catinthehat/assets/graphics/my_seahorse_frame.png" />					</div>				</a>				--> <a href="/catinthehat/games/cleaner-upper/">
+   <div id="supercleanerupper" class="link">
+    <div class="background"></div> <img class="frame" alt="Super Cleaner Upper" src="/catinthehat/assets/graphics/cleanerupper_frame.png">
+   </div> </a>
+  <div class="cat">
+   Cat in the Hat
+  </div>
+ </div>
+</div>{% endblock %}
+

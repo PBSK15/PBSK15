@@ -1,0 +1,198 @@
+/** For 0px - 600px */
+@media all and (max-width : 600px) {
+	.frame  {
+		padding:0 0 12px 0;
+		margin:0;
+		border-radius: 0;
+	}
+
+	.topBar,
+	.leftBar,
+	.rightBar,
+	.topLeftCorner,
+	.topRightCorner,
+	.bottomLeftCorner,
+	.bottomRightCorner {
+		display:none;
+	}
+	.topBar,
+	.bottomBar {
+		left:0;
+		right:0;
+	}
+
+	#content {
+		padding: 0;
+	}
+
+	nav.main {
+		padding:0;	
+	}
+	nav.main .logo {
+		margin:0;
+		background-position:0 0;
+		background-size:100% 100%;
+		-ms-behavior: url(/lunchlab/assets/polyfills/backgroundsize.min.htc);
+		z-index:98;
+		padding:4px;
+		width:31%;
+		overflow: hidden;
+	}
+	nav.main .logo #PBSKids {
+		margin: 2% 0 0 2%;
+		width: 20%;
+	}
+	nav.main .logo #LunchLab {
+		margin: 4% 15%;
+		width: 76%;
+	}
+	nav.main .logo .bottomBar{
+		display:none;
+	}
+	nav.main .logo .rightBar{
+		display:block;
+		bottom:0;
+	}
+	nav.main ul.menu{
+		width:69%;
+		margin: 6px 0 12px;
+	}
+	.touch nav.main ul.menu a,
+	.no-touch nav.main ul.menu a {
+		background-position: 0 bottom;
+		padding-bottom: 100%;
+	}
+
+	nav.main ul.menu a.games {
+		background-image:url("../images/nav/games_sm.svgz");
+	}
+	.no-svg nav.main ul.menu a.games {
+		background-image:url("../images/nav/games_sm.png");
+	}
+	.touch nav.main ul.menu a:active,
+	.no-touch nav.main ul.menu a:hover, 
+	.touch nav.main ul.menu a.selected,
+	.no-touch nav.main ul.menu a.selected {
+		background-position: 0 top;
+	}
+
+	nav.main ul.menu a.videos {
+		background-image:url("../images/nav/video_sm.svgz");
+	}
+	.no-svg nav.main ul.menu a.videos {
+		background-image:url("../images/nav/video_sm.png");
+	}
+
+	nav.main ul.menu a.food {
+		background-image:url("../images/nav/food_sm.svgz");
+	}
+	.no-svg nav.main ul.menu a.food {
+		background-image:url("../images/nav/food_sm.png");
+	}
+
+	nav.main ul.menu a.characters {
+		background-image:url("../images/nav/characters_sm.svgz");
+	}
+	.no-svg nav.main ul.menu a.characters {
+		background-image:url("../images/nav/characters_sm.png");
+	}
+
+	nav.main ul.menu a.music {
+		background-image:url("../images/nav/music_sm.svgz");
+	}
+	.no-svg nav.main ul.menu a.music {
+		background-image:url("../images/nav/music_sm.png");
+	}
+
+	nav.main ul.menu a.kitchen {
+		background-image:url("../images/nav/kitchen_sm.svgz");
+	}
+	.no-svg nav.main ul.menu a.kitchen {
+		background-image:url("../images/nav/kitchen_sm.png");
+	}
+
+	nav.main ul.menu a.magnets {
+		background-image:url("../images/nav/magnets_sm.svgz");
+	}
+	.no-svg nav.main ul.menu a.magnets {
+		background-image:url("../images/nav/magnets_sm.png");
+	}
+
+}
+@media all and (max-width : 558px){
+	#promoLinks{
+		width:259px;
+		margin:0 auto;
+	}
+	#promoLinks img{
+		width:259px;
+		margin:8px 0 0;
+	}
+}
+@media all and (max-width : 499px) {
+	footer fieldset {
+		margin:0;
+	}
+	footer .footerInfo{
+		width:240px;
+	}
+
+	.notification .message{
+		font-size: 90%;
+		margin-top: 10px;
+		width: 280px;
+	}
+	.coinNotification .icon img{
+		top:-23px;
+	}
+}
+/** For 0px - 440px */
+@media all and (max-width : 440px) {
+	nav.main .logo {
+		width:100%;
+	}
+	nav.main .logo .rightBar{
+		display:none;
+	}
+	nav.main .logo #PBSKids {
+		margin: 3% 0 0 12%;
+		width: 14%;
+	}
+	nav.main .logo #LunchLab {
+		margin: 2% 28% 1%;
+		width: 50%;
+	}
+	nav.main ul.menu{
+		width:96%;
+		margin:6px 2% 12px;
+	}
+}
+@media all and (max-width : 360px) {
+	.notification .message{
+		font-size: 65%;
+    	margin-top: 12px;
+    	width: 220px;
+	}
+	.magnetNotification .message .magnetName,
+	.coinNotification .message .coinValue{
+		padding:0 5px;
+	}
+	.notification .closeButton{
+		width:20px;
+		height:20px;
+		right:2px;
+		top:10px;
+		font-size:90%;
+	}
+	.coinNotification .icon img{
+		top:-21px;
+	}
+}
+@media all and (max-width : 272px){
+	#promoLinks{
+		width:95%;
+	}
+	#promoLinks img{
+		width:100%;
+	}
+}

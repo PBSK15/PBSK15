@@ -1,0 +1,30 @@
+{% extends 'chuck/includes/chuckPage.html.twig' %}
+{% set pageTitle = ' . Salsa . Zen Composition' %}
+
+
+{% block swfEmbedScript %}<script type="text/javascript">var username = $.cookie('pbskids.username');var userid = $.cookie('pbskids.userid');  // CONFIG FLASH VARS ----------------------------------------
+var flashvars = {};
+
+flashvars.username=username;
+
+flashvars.userid=userid;
+
+flashvars.pageid="index";  // ADD FLASH PARAMETERS AND ATTRIBUTES ----------------------
+var params = {};
+params.menu = "false";
+params.wmode = "transparent";
+params.allowFullScreen = "true";
+
+params.scale="noscale";
+params.allowscriptaccess = "always";
+
+params.salign ="t";
+// CREATE THE PLAYER SWF ------------------------------------
+//swfobject.embedSWF(PBS.KIDS.cdn_base + "/chuck/video.swf",
+swfobject.embedSWF("salsa_comp.swf",
+"flashContent",
+"100%","100%","9.0.0",
+"http://pbskids.org/video/swf/expressinstall.swf",
+flashvars, params);
+</script>{% endblock %}
+

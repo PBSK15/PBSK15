@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+		"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Cyberchase . PlaySpace . Math Storytelling Device | PBS Kids</title>
+	<meta name="description" content="Cyberchase PlaySpace on PBS KIDS is an online storytelling tool that combines literacy and math. PlaySpace taps into kids' creative side while giving them a different way to think about and use math.">
+	<meta name="keywords" content="cyberchase, playspace, kids stories, online coloring, literacy tool, math, real world math, school stories, storytelling, pbs kids">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<style type="text/css">
+		body {
+			margin: 0px;
+		}
+	</style>
+	<script type="text/javascript" src="/cyberchase/static/js/getlogin.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<script type="text/javascript">
+		function gup(name) {
+			name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+			var regexS = "[\\?&]" + name + "=([^&#]*)";
+			var regex = new RegExp(regexS);
+			var results = regex.exec(window.location.href);
+			if (results == null)
+				return "";
+			else
+				return results[1];
+		}
+
+		var teacher_param = gup('teacher');
+		var path = window.location.href;
+		var parts = path.split("#/");
+		var deeplink = parts[1];
+
+		var flashvars = {
+			deeplink: deeplink,
+			teacher: teacher_param
+		};
+		var params = {
+			menu: "false",
+			allowScriptAccess: "always",
+			bgcolor: "#333399",
+			wmode:"opaque"
+		};
+
+		swfobject.embedSWF("Playspace.swf", "flashContent", "800", "480", "9.0.0", null, flashvars, params, {});
+	</script>
+<body>
+<div id="container" style="width: 800px;">
+	<div id="frameHeader"><img src="imgs/frame_header.gif" width="800" height="126" border="0" usemap="#headerMap"></div>
+	<div id="frameMiddle">
+		<!--<div id="frameLeft" style="float:left"><img src="imgs/frame_left.gif" width="30" height="480"></div>-->
+		<div id="flashContent" style="float:left; width:800px; height:480px">
+			Whoops! Looks like you need to download the latest version of Flash. Try visiting our site on a different
+			computer or download it here:
+			<a href="http://get.adobe.com/flashplayer/">http://get.adobe.com/flashplayer/</a>.
+		</div>
+		<!--<div id="frameRight" style="float:right"><img src="imgs/frame_right.gif" width="19" height="480"></div>-->
+	</div>
+	<!--<div id="frameBottom" style="float:none"><img src="imgs/frame_footer.gif" width="849" height="21"></div>-->
+</div>
+</body>
+<script language="JavaScript">
+<!--
+	// Create variable is_input to see if there is a ? in the url
+	var is_input = document.URL.indexOf('?');
+
+	// Check the position of the ? in the url
+	if (is_input != -1) {
+		addr_str = document.URL.substring(is_input + 1, document.URL.length);
+		document.write("<map name=headerMap><area coords=25,45,115,105 shape=rect href=/go/ target=_parent alt=PBSKids.org Go!><area coords=130,40,400,110 shape=rect href=/cyberchase/ target=_parent alt=Cyberchase><area coords=575,35,830,125 shape=rect target=_parent href=index.html?" + addr_str + " alt=Playspace>");
+	} else {
+		document.write("<map name=headerMap><area coords=25,45,115,105 shape=rect href=/go/ target=_parent alt=PBSKids.org Go!><area coords=130,40,400,110 shape=rect href=/cyberchase/ target=_parent alt=Cyberchase><area coords=575,35,830,125 shape=rect target=_parent href=index.html alt=Playspace>");
+	}
+// -->
+</script>
+</html>
+
+

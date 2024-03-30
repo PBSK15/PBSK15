@@ -1,0 +1,82 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 1 . Panel 3 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/bg3.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel3_03.gif";
+n12 = new Image();
+n12.src = "images/panel3b_03.gif";
+n13 = new Image();
+n13.src = "images/panel3c_03.gif";
+n14 = new Image();
+n14.src = "images/panel3d_03.gif";
+n15 = new Image();
+n15.src = "images/panel3c_03.gif";
+n16 = new Image();
+n16.src = "images/panel3b_03.gif";
+
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 1000);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "7") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<body onload="timeimgs('2')" style="margin: 0px">
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><img src="images/panel3_01.gif" width=551 height=123 border="0" alt="" usemap="#top"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><IMG SRC="images/panel3_02.gif" WIDTH=142 HEIGHT=277 border="0" alt=""></TD>
+		<TD><IMG SRC="images/panel3_03.gif" WIDTH=41 HEIGHT=227 alt="" border="0" name="n1"></TD>
+		<TD ROWSPAN=2><img src="images/panel3_04.gif" width=368 height=277 usemap="#next" border="0" alt=""></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel3_05.gif" WIDTH=41 HEIGHT=50 border="0" alt=""></TD>
+	</TR>
+</TABLE>
+<map name="next">
+<area alt="next" coords="277,208,335,268" href="4.html">
+</map>
+
+<map name="top">
+<area alt="Webisode 1" coords="249,12,358,40" href="1.html">
+<area alt="How It All Started" coords="42,8,244,47" href="../webisodes-global/how_started.html">
+<area alt="The heads of several Cybersites gather for an important meeting with Motherboard to discuss the future." coords="381,25,545,120" nohref>
+</map>
+
+	</td></tr></table>
+	
+
+
+
+
+
+</BODY>
+</HTML>

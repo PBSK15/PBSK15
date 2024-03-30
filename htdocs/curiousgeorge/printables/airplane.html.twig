@@ -1,0 +1,19 @@
+{% extends 'curiousgeorge/includes/templates/printable_page.html.twig' %}
+{% block printableArea %}<!-- #bbinclude "print_nav.pl" -->
+	<!-- 
+	  Remember to add new printables to the array in (build)/includes/print_nav.pl in the correct order so the next button will work.
+	-->
+	<div id="print-nav">
+		<a href="#" onclick="window.print(); return false;"><img src="/curiousgeorge/printables/img/nav_print.gif" alt="Print" width="157" height="74" class="ovr" /></a>
+		<a href="connect.html" ><img src="/curiousgeorge/printables/img/nav_next.gif" alt="Next Page" width="134" height="74" class="ovr" /></a>
+	</div>
+	
+<!-- end bbinclude -->
+			
+			<div id="printable">
+		
+<!-- #bbinclude "print_image.pl" -->
+	<div id="img">
+		<a href="#" onclick="window.print(); return false;"><img src="img/img_airplane_lg.gif" alt="Airplane" /></a>
+	</div>
+<!-- end bbinclude -->{% endblock %}

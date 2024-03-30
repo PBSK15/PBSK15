@@ -1,0 +1,15 @@
+{
+	"manifest": [
+		{"id": "thumb-babysitter", "src": "/daniel/assets/img/stories/story-thumb_babysitter.png"},
+		{"id": "thumb-something-special", "src": "/daniel/assets/img/stories/story-thumb_something-special.png"},
+		{"id": "stories-board-bg-wide", "src": "/daniel/assets/img/directory-bg-stories-wide.png", "sizes": "largest"},
+		{"id": "stories-board-bg-single-shelf", "src": "/daniel/assets/img/directory-bg-stories-single-shelf.png", "sizes": "large small"},
+		{"id": "stories-couch", "src": "/daniel/assets/img/hanging-plant.png"},
+		{"id": "stories-couch", "src": "/daniel/assets/img/couch.png"},
+		{"id": "daniel-texture", "src": "/daniel/dragonbones/assets/daniel_stories/texture.png", "sizes": "largest large"},
+		{"id": "daniel-texture-data", "src": "/daniel/dragonbones/assets/daniel_stories/texture.json", "sizes": "largest large"},
+		{"id": "daniel-skeleton-data", "src": "/daniel/dragonbones/assets/daniel_stories/skeleton.json", "sizes": "largest large"},
+		{"id": "audio-babysitter-story", "src": "/daniel/assets/audio/directory_babysitter-story.mp3", "sizes": "largest"},
+		{"id": "audio-dad-story", "src": "/daniel/assets/audio/directory_dad-story.mp3", "sizes": "largest"}
+	]
+}

@@ -1,0 +1,29 @@
+{% extends 'daniel/includes/danielPage.html.twig' %}
+{% set pageTitle = 'Coloring | Daniel Tiger\'s Neighborhood | PBS KIDS' %}
+{% set hasGameSpecificJs = false %}
+{% set gameSpecificJs = '' %}
+{% set jsInclude = 'coloring' %}
+{% set bodyOpeningTag = '<body class="headband-hidden" id="player">' %}
+
+
+{% block mainContent %}<main id="printables">
+ <div class="directory">
+  <h1 class="page-title">Print and Color</h1>
+  <ul class="directory__list unstyled">
+   <!--data supplied via printables-data.xml -->
+  </ul>
+  <div class="parent-tip">
+   <p class="parent-tip__text"></p>
+  </div>
+ </div>
+ <div id="modal">
+  <div class="dialog" id="dialog"><span class="dialog-print">Print</span> <span class="dialog-close">Close</span> <img class="printable">
+  </div>
+ </div>
+</main>{% endblock %}
+
+
+
+
+{% block lowerBand %}{% endblock %}
+

@@ -1,0 +1,142 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Games . Crack Hacker's Safe | PBS Kids</TITLE>
+
+<script language="Javascript">
+for (i=1;i<=12;i++) { eval("spot"+i+"=0"); }
+
+function popUp(message) {
+
+var x = (screen.width - 340) / 2;
+var y = (screen.height - 200) / 2;
+
+	var windowparam = "width=" + 340 + ",height=" + 200 + ",scrollbars=no,left="+x+",top="+y+",screenX="+x+",screenY="+y;
+	popwin = window.open("popwin.html?"+message, "popwin", windowparam)
+	popwin.opener = self;
+	popwin.focus()
+}
+
+
+function clearRow(rowStart,selected) {
+	for (i=rowStart;i<=rowStart+3;i++) {
+		if ( i < 5 ) { zero = "0"; brian=2} else { zero = ""; brian=0}
+		if ( i != selected ) {
+			eval("document.b"+i+".src='images/4game_off_"+zero+(i+5-brian)+".gif'");
+			eval("spot"+i+"=0");
+		} else {
+			eval("document.b"+i+".src='images/4game_on_"+zero+(i+5-brian)+".gif'");
+			eval("spot"+i+"=1");
+		
+		}
+	}
+}
+
+function go() {
+	if ( spot1==1 && spot5==1 && spot10==1) {
+		document.location = "web_5game.html";
+	} else {
+		selectedTotal = 0;
+		for(i=1;i<=12;i++) { if ( eval("spot"+i) == 1 ) { selectedTotal++; } }
+		if ( selectedTotal != 3 ) {
+			popUp("You've got to chose one <B>shape<\/B>, one <B>number<\/B>, and one <B>color<\/B>.");
+		} else {
+			popUp("Oops!  That's not it.  Try a different combination.");
+		}
+	}
+}
+
+function help() {
+	popUp("Here's a hint:<BR>For the shape, think 'clockwise.'");
+}
+
+</script>
+
+</head>
+<body style="margin: 0px">
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+
+	<TR>
+		<TD COLSPAN=10><IMG SRC="images/web_game_title.gif" WIDTH=551 HEIGHT=69 alt="" border="0" usemap="#panel"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=69 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/4game_02.gif" WIDTH=117 HEIGHT=65 alt="" border="0"></td>
+		<TD COLSPAN=7><IMG SRC="images/4game_03.gif" WIDTH=351 HEIGHT=65 alt="" border="0"></td>
+		<TD COLSPAN=2><IMG SRC="images/2game_04.gif" WIDTH=83 HEIGHT=65 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=65 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=8><IMG SRC="images/2game_05.gif" WIDTH=173 HEIGHT=266 alt="1. Choose a shape, 2. Choose a number, 3. Choose a color" border="0"></td>
+		<TD COLSPAN=4><IMG SRC="images/2game_06.gif" WIDTH=200 HEIGHT=41 alt="" border="0"></td>
+		<TD ROWSPAN=8><IMG SRC="images/2game_07.gif" WIDTH=55 HEIGHT=266 alt="" border="0"></td>
+		<TD COLSPAN=3 ROWSPAN=2><IMG SRC="images/2game_08.gif" WIDTH=123 HEIGHT=74></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=41></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><A HREF="javascript:clearRow(1,1)"><IMG SRC="images/4game_off_04.gif" WIDTH=51 HEIGHT=54 alt="" border="0" name="b1"></a></td>
+		<TD ROWSPAN=2><A HREF="javascript:clearRow(1,2)"><IMG SRC="images/4game_off_05.gif" WIDTH=49 HEIGHT=54 alt="" border="0" name="b2"></a></td>
+		<TD ROWSPAN=2><A HREF="javascript:clearRow(1,3)"><IMG SRC="images/4game_off_06.gif" WIDTH=50 HEIGHT=54 alt="" border="0" name="b3"></a></td>
+		<TD ROWSPAN=2><A HREF="javascript:clearRow(1,4)"><IMG SRC="images/4game_off_07.gif" WIDTH=50 HEIGHT=54 alt="" border="0" name="b4"></a></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=33 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=2><a HREF="javascript:go()" onMouseOver= "if (document.images) document.n2.src= 'images/2gameb_13.gif';" onMouseOut= "if (document.images) document.n2.src= 'images/2game_13.gif';"><IMG SRC="images/2game_13.gif" WIDTH=75 HEIGHT=49 alt="Go" border="0" name="n2"></a></td>
+		<TD ROWSPAN=2><IMG SRC="images/2game_14.gif" WIDTH=48 HEIGHT=49 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=21 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><A HREF="javascript:clearRow(5,5)"><IMG SRC="images/4game_off_10.gif" WIDTH=51 HEIGHT=51 alt="" border="0" name="b5"></a></td>
+		<TD ROWSPAN=2><A HREF="javascript:clearRow(5,6)"><IMG SRC="images/4game_off_11.gif" WIDTH=49 HEIGHT=51 alt="" border="0" name="b6"></a></td>
+		<TD ROWSPAN=2><A HREF="javascript:clearRow(5,7)"><IMG SRC="images/4game_off_12.gif" WIDTH=50 HEIGHT=51 alt="" border="0" name="b7"></a></td>
+		<TD ROWSPAN=2><A HREF="javascript:clearRow(5,8)"><IMG SRC="images/4game_off_13.gif" WIDTH=50 HEIGHT=51 alt="" border="0" name="b8"></a></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=28 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 ROWSPAN=3><IMG SRC="images/2game_19.gif" WIDTH=123 HEIGHT=103 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=23 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD><A HREF="javascript:clearRow(9,9)"><IMG SRC="images/4game_off_14.gif" WIDTH=51 HEIGHT=49 alt="" border="0" name="b9"></a></td>
+		<TD><A HREF="javascript:clearRow(9,10)"><IMG SRC="images/4game_off_15.gif" WIDTH=49 HEIGHT=49 alt="" border="0" name="b10"></a></td>
+		<TD><A HREF="javascript:clearRow(9,11)"><IMG SRC="images/4game_off_16.gif" WIDTH=50 HEIGHT=49 alt="" border="0" name="b11"></a></td>
+		<TD><A HREF="javascript:clearRow(9,12)"><IMG SRC="images/4game_off_17.gif" WIDTH=50 HEIGHT=49 alt="" border="0" name="b12"></a></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=49 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=4 ROWSPAN=2><IMG SRC="images/2game_24.gif" WIDTH=200 HEIGHT=71 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=31 alt="" border="0"></td>
+	</TR>
+	<TR>
+		<TD COLSPAN=3><A HREF="javascript:help();" onMouseOver= "if (document.images) document.n1.src= 'images/2gameb_25.gif';" onMouseOut= "if (document.images) document.n1.src= 'images/2game_25.gif';"><IMG SRC="images/2game_25.gif" WIDTH=123 HEIGHT=40 alt="Help" border="0" name="n1"></a></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=40 alt="" border="0"></td>
+	</TR>
+		<TR>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=117 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=56 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=51 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=49 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=50 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=50 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=55 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=40 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=35 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=48 HEIGHT=1 alt="" border="0"></td>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=1 alt="" border="0"></td>
+	</TR>
+</TABLE>
+
+</td></tr></table>
+
+<map name="panel">
+<area alt="Webisode 1" coords="247,10,360,40" href="1.html">
+<area alt="How It All Started" coords="40,8,242,45" href="../webisodes-global/how_started.html">
+</map>
+
+
+
+</BODY>
+</HTML>

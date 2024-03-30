@@ -1,0 +1,6 @@
+{
+    "require": {
+        "twig/twig": "~3.3",
+        "silexlabs/amfphp": "2.2.2"
+    }
+}

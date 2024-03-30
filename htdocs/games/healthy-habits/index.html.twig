@@ -1,0 +1,909 @@
+{% extends 'games/includes/gamesPage.html.twig' %}
+{% set pageTitle = 'Healthy Habits Games' %}
+{% set bodyClass = 'games topics-page yellow healthy-habits-games' %}
+
+
+{% block mainContent %}<div role="main" class="wrapper-block">
+ <section class="section-panel top">
+  <div class="max-wrapper">
+   <header role="banner" class="brand page-head"><a href="../../"> <img data-fallback="http://pbskids.org/shell/images/content/pbs-kids-logo.png" src="http://pbskids.org/shell/images/content/pbs-kids-logo.svg"> </a>
+    <hgroup>
+     <h1>PBS KIDS:</h1>
+     <h2><em>Healthy Habits </em> <span>Games</span></h2>
+    </hgroup>
+   </header> <a class="phat-button show-all games blue" href="../"><em><i class="icon"></i> <span>More Games</span></em></a>
+   <article class="topics-game-grid" style="margin-bottom:0px;">
+    <figure class="topics-game mega-feature"><a href="http://pbskids.org/dinosaurtrain/games/dinosaurdive.html"> <img class="mega-feature-graphic topic-feature" data-carson-src="/pbskids/shell/images/content/games/dinosaur-train-dino-dive.jpg" data-carson-size="topics-feature"> </a>
+     <figcaption class="topics-page-feature"><a href="http://pbskids.org/dinosaurtrain/games/dinosaurdive.html"> <h3 class="show-title">Dinosaur Train</h3> <h4 class="game-title">Dino Dive</h4> <p>Dive in with the dinosaurs!</p> </a> <a class="phat-button show-all blue" href="http://pbskids.org/dinosaurtrain/games/dinosaurdive.html"><em> <span>Play Now!</span></em></a>
+     </figcaption>
+    </figure>
+   </article>
+   <article class="topics-game-grid">
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/arthur/games/lunchomatic/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/arthur-lunch-o-matic.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Arthur</h3>
+       <h4 class="game-title">Lunch-o-Matic</h4>
+       <p class="goals">Healthy Eating</p>
+      </div>
+      <figcaption>
+       <p>Take the cafeteria challenge.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/arthur/games/supermarket/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/arthur-supermarket-adventure.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Arthur</h3>
+       <h4 class="game-title">Supermarket Adventure</h4>
+       <p class="goals">Healthy Eating</p>
+      </div>
+      <figcaption>
+       <p>Shop til you drop with D.W.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/arthur/games/dontwakekate/index.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/arthur-dont-wake-kate.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Arthur</h3>
+       <h4 class="game-title">Don't Wake Kate!</h4>
+       <p class="goals">Senses, Logic</p>
+      </div>
+      <figcaption>
+       <p>Shhh! Avoid noisy toys so you don't wake Baby Kate.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/mayaandmiguel/english/games/sports/index.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/maya-miguel-miguel-andys-world-of-sports.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Maya &amp; Miguel</h3>
+       <h4 class="game-title">Miguel &amp;amp; Andy's World of Sports</h4>
+       <p class="goals">Olympics / Sports, Sports</p>
+      </div>
+      <figcaption>
+       <p>Pick up your paddle and play!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/arthur/games/dreamon"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/arthur-dream-on.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Arthur</h3>
+       <h4 class="game-title">Dream On</h4>
+       <p class="goals">Food, Cultures, Cooking</p>
+      </div>
+      <figcaption>
+       <p>Collect ingredients to make dreamy dishes.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/cyberchase/math-games/virus-hunt/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/cyberchase-virus-hunt.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Cyberchase</h3>
+       <h4 class="game-title">Virus Hunt</h4>
+       <p class="goals">Distance, Navigate, Maps, Illness + Getting Better</p>
+      </div>
+      <figcaption>
+       <p>Quick navigating will save Pleasant Island.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/zoom/games/3puckchuck/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/zoom-3-puck-chuck.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">ZOOM</h3>
+       <h4 class="game-title">3 Puck Chuck</h4>
+       <p class="goals">States of Matter, Experiments, Physics, Sports</p>
+      </div>
+      <figcaption>
+       <p>Chuck a puck and test your luck.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/dragonflytv/games/game_sailing.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/dragonflytv-dragonflytv-cup.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">DragonflyTV</h3>
+       <h4 class="game-title">DragonflyTV Cup</h4>
+       <p class="goals">Olympics / Sports, Navigate, Competition, Sports, Water, Boats, Physics</p>
+      </div>
+      <figcaption>
+       <p>Trim the sails. The race is on!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/sesame/games/color-me-hungry/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/sesame-street-color-me-hungry.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Sesame Street</h3>
+       <h4 class="game-title">Color Me Hungry</h4>
+       <p class="goals">Food, Healthy Eating, Colors</p>
+      </div>
+      <figcaption>
+       <p>Help Cookie learn how to eat his colors!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/curiousgeorge/games/juggling_george/index.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/curious-george-juggling-george.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Curious George</h3>
+       <h4 class="game-title">Juggling George</h4>
+       <p class="goals">Addition, Healthy Eating, Counting, Subtraction, Math</p>
+      </div>
+      <figcaption>
+       <p>Count fruit for Curious George to juggle.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/caillou/immersivegames/?gameID=0"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/caillou-caillou-the-cook.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Caillou</h3>
+       <h4 class="game-title">Caillou the Cook</h4>
+       <p class="goals">Cooking, Jobs, Vocabulary</p>
+      </div>
+      <figcaption>
+       <p>Help Caillou find all of the ingredients he needs.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/wordworld/characters/game_bsa.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/wordworld-bears-skateboard-park.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">WordWorld</h3>
+       <h4 class="game-title">Bear's Skateboard Park</h4>
+       <p class="goals">Alphabet, Letters, Sports</p>
+      </div>
+      <figcaption>
+       <p>Help Bear spell words using her skateboard!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/sid/kitchenmagician.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/sid-the-science-kid-kitchen-magician.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Sid the Science Kid</h3>
+       <h4 class="game-title">Kitchen Magician</h4>
+       <p class="goals">Healthy Eating, Cooking</p>
+      </div>
+      <figcaption>
+       <p>Check out the kitchen magic Sid's Grandma uses!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/fetch/games/germinator/index.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fetch-with-ruff-ruffman-germinator.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">FETCH! with Ruff Ruffman</h3>
+       <h4 class="game-title">Germinator</h4>
+       <p class="goals">Body Parts, Biology, Illness + Getting Better</p>
+      </div>
+      <figcaption>
+       <p>Watch out for the soap!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/martha/games/skitscooks/index.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/martha-speaks-skits-cooks.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Martha Speaks</h3>
+       <h4 class="game-title">Skits Cooks</h4>
+       <p class="goals">Cooking, Vocabulary</p>
+      </div>
+      <figcaption>
+       <p>Throw dough, sift flour, and cook with Skits!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/sesame/games/zoes-dance-moves/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/sesame-street-zoes-dance-moves.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Sesame Street</h3>
+       <h4 class="game-title">Zoe's Dance Moves</h4>
+       <p class="goals">Dance, Create, Music, Performing on Stage, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Make up your own dance with Zoe</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/sid/sidsays.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/sid-the-science-kid-sid-says.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Sid the Science Kid</h3>
+       <h4 class="game-title">Sid Says</h4>
+       <p class="goals">Biology, Vocabulary, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Copy Sid's dad as he moves those muscles!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/fetch/games/luge/index.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fetch-with-ruff-ruffman-move-it-or-luge-it.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">FETCH! with Ruff Ruffman</h3>
+       <h4 class="game-title">Move it or Luge it!</h4>
+       <p class="goals">Physics, Winter Holidays, Sports</p>
+      </div>
+      <figcaption>
+       <p>Race downhill to beat Scruff!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/sid/germs.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/sid-the-science-kid-super-duper-antibodies.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Sid the Science Kid</h3>
+       <h4 class="game-title">Super Duper Antibodies!</h4>
+       <p class="goals">Biology, Jobs, Illness + Getting Better</p>
+      </div>
+      <figcaption>
+       <p>Help Sid fight the Flu virus!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/sesame/games/elmo-goes-doctor/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/sesame-street-elmo-goes-to-the-doctor.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Sesame Street</h3>
+       <h4 class="game-title">Elmo Goes to the Doctor</h4>
+       <p class="goals">Reading, Fears, Doctors + Health Professionals, Storytelling</p>
+      </div>
+      <figcaption>
+       <p>Help Elmo at the doctor's office.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/boogie-buffet"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-mixies-boogie-buffet.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Mixie's Boogie Buffet</h4>
+       <p class="goals">Dance, Play, Fitness, Music, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Get Your Groove On!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/switcheroo"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-freddys-sneaky-switcheroo.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Freddy's Sneaky Switcheroo</h4>
+       <p class="goals">Healthy Eating, Halloween</p>
+      </div>
+      <figcaption>
+       <p>Don't Let Freddy's Greasy Treats Slow You Down!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/memory-match"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-sully-the-cells-memory-match.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Sully the Cell's Memory Match</h4>
+       <p class="goals">Body Parts</p>
+      </div>
+      <figcaption>
+       <p>Tour the Human Body with Sully the Cell.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/balance-bots"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-fizzys-balance-bots.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Fizzy's Balance Bots</h4>
+       <p class="goals">Healthy Eating, Problem Solving</p>
+      </div>
+      <figcaption>
+       <p>Can you make these robots dance?</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/curiousgeorge/games/monkey_moves/monkey_moves.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/curious-george-monkey-moves.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Curious George</h3>
+       <h4 class="game-title">Monkey Moves</h4>
+       <p class="goals">Dance, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Get up and move like a monkey.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/arthur/games/lungdefender/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/arthur-buster-baxter-lung-defender.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Arthur</h3>
+       <h4 class="game-title">Buster Baxter: Lung Defender</h4>
+       <p class="goals">Science, Illness + Getting Better</p>
+      </div>
+      <figcaption>
+       <p>Help Buster catch all of the asthma triggers.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/food-camp"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-corporal-cups-food-camp.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Corporal Cup's Food Camp</h4>
+       <p class="goals">Healthy Eating, Cooking, Math</p>
+      </div>
+      <figcaption>
+       <p>Earn your gold star at Corporal Cup's Food Camp!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/kitchen-tour"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-kitchen-tour-with-mixie.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Kitchen Tour with Mixie</h4>
+       <p class="goals">Cooking</p>
+      </div>
+      <figcaption>
+       <p>Take a tour of the kitchen with Mixie!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/freestyle-fizz"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-freestyle-fizz.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Freestyle Fizz</h4>
+       <p class="goals">Healthy Eating, Fitness, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Freestyle skate with Fizzy!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/supermarket-mania"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-supermarket-mania.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Supermarket Mania</h4>
+       <p class="goals">Healthy Eating</p>
+      </div>
+      <figcaption>
+       <p>Fill your grocery cart!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/hectic-harvest"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-hectic-harvest.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Hectic Harvest</h4>
+       <p class="goals">Healthy Eating, Gardening, Problem Solving</p>
+      </div>
+      <figcaption>
+       <p>Help Mixie Bot on Professor Fizzy's Farm!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/noah/games.html#/youcatchit/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/oh-noah-you-catch-it-you-keep-it.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Oh Noah!</h3>
+       <h4 class="game-title">You Catch It, You Keep it</h4>
+       <p class="goals">Languages, Words, Vocabulary, Sports</p>
+      </div>
+      <figcaption>
+       <p>Catch it if you can!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/curiousgeorge/busyday/meatballs/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/curious-george-meatball-launcher.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Curious George</h3>
+       <h4 class="game-title">Meatball Launcher</h4>
+       <p class="goals">Addition, 123's, Cooking, Numbers, Counting</p>
+      </div>
+      <figcaption>
+       <p>Get ready to launch meatballs!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/curiousgeorge/busyday/jump/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/curious-george-monkey-jump.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Curious George</h3>
+       <h4 class="game-title">Monkey Jump</h4>
+       <p class="goals">123's, Counting, Numbers, Math, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Jump with George!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/peg/games/scrub-a-dub"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/peg-cat-scrub-a-dub.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Peg + Cat</h3>
+       <h4 class="game-title">Scrub-a-Dub</h4>
+       <p class="goals">Hygiene, Math, Problem Solving, Measurement</p>
+      </div>
+      <figcaption>
+       <p>Wash those chickens, pigs, and cows!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/hooper/coach-hooper/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/coach-hooper-coach-hooper.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Coach Hooper</h3>
+       <h4 class="game-title">Coach Hooper</h4>
+       <p class="goals">Body Parts, Fitness, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Exercise with Coach Hooper!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/danceparty/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/dashs-dance-party-dashs-dance-party.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Dash's Dance Party</h3>
+       <h4 class="game-title">Dash's Dance Party</h4>
+       <p class="goals">Dance, Create, Performing on Stage, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Dance with Dash &amp; friends!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/my-kitchen"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-my-kitchen.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">My Kitchen</h4>
+       <p class="goals">Create, Cooking</p>
+      </div>
+      <figcaption>
+       <p>Make your own Lunch Lab kitchen!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/delivery-day"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-sullys-delivery-day.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Sully's Delivery Day</h4>
+       <p class="goals">Body Parts, Healthy Eating</p>
+      </div>
+      <figcaption>
+       <p>Take a ride with Sully.</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/daniel/games/doctor-daniel/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/daniel-tigers-neighborhood-doctor-daniel.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Daniel Tiger's Neighborhood</h3>
+       <h4 class="game-title">Doctor Daniel</h4>
+       <p class="goals">Illness + Getting Better, Fears, Doctors + Health Professionals, Routine</p>
+      </div>
+      <figcaption>
+       <p>Learn all about going to the Doctor!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/sid/redLightGreenLight.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/sid-the-science-kid-red-light-green-light.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Sid the Science Kid</h3>
+       <h4 class="game-title">Red Light Green Light</h4>
+       <p class="goals">Play, Fitness, Exercise/Fitness</p>
+      </div>
+      <figcaption>
+       <p>Get up and play outside with Sid and his friends!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/daniel/games/in-my-bathroom/"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/daniel-tigers-neighborhood-in-my-bathroom.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Daniel Tiger's Neighborhood</h3>
+       <h4 class="game-title">In My Bathroom</h4>
+       <p class="goals">Exploring, Hygiene, Cleaning up/Chores, Growing Up, Routine</p>
+      </div>
+      <figcaption>
+       <p>Wash, brush and flush!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/fresh-pick?level=4"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-pantry-hunt.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Pantry Hunt</h4>
+       <p class="goals">Healthy Eating, Deductive Reasoning, Math</p>
+      </div>
+      <figcaption>
+       <p>Go on a pantry hunt for food!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/superwhy/#/game/deliciousdish"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/super-why-delicious-dish.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Super Why!</h3>
+       <h4 class="game-title">Delicious Dish</h4>
+       <p class="goals">Healthy Eating, Reading, Cooking, Dogs, Vocabulary</p>
+      </div>
+      <figcaption>
+       <p>Can you help Woofster make a healthy meal?</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/dinosaurtrain/games/dinosaurdive.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/dinosaur-train-dino-dive.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Dinosaur Train</h3>
+       <h4 class="game-title">Dino Dive</h4>
+       <p class="goals">Volume, Dinosaurs, Measurement, Sports</p>
+      </div>
+      <figcaption>
+       <p>Dive in with the dinosaurs!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/dinosaurtrain/games/pineconepass.html"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/dinosaur-train-pinecone-pass.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Dinosaur Train</h3>
+       <h4 class="game-title">Pinecone Pass</h4>
+       <p class="goals">Distance, Sports, Measurement</p>
+      </div>
+      <figcaption>
+       <p>Play dinosaur football!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/fresh-pick"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-fresh-pick.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Fresh Pick</h4>
+       <p class="goals">Maps, Addition, Competition, Geometry, Problem Solving, Measurement, Healthy Eating, Math</p>
+      </div>
+      <figcaption>
+       <p>Become the next Lunch Labber!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/lunchlab/games/hard-boiled"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/fizzys-lunch-lab-hard-boiled.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">Fizzy's Lunch Lab</h3>
+       <h4 class="game-title">Hard Boiled</h4>
+       <p class="goals">Healthy Eating</p>
+      </div>
+      <figcaption>
+       <p>Play Fizzy's new game show!</p>
+      </figcaption> </a>
+    </figure>
+    <figure class="topics-game grid-item invisible"><a href="http://pbskids.org/electriccompany/games/halfpipehoverball"> <img class="game-graphic" data-carson-src="/pbskids/shell/images/content/games/the-electric-company-halfpipe-hoverball.jpg" data-carson-size="medium">
+      <div class="game-meta">
+       <h3 class="show-title">The Electric Company</h3>
+       <h4 class="game-title">Halfpipe Hoverball</h4>
+       <p class="goals">Spelling, Sports, Phonics, Vocabulary, Literacy</p>
+      </div>
+      <figcaption>
+       <p>Skateboard with Marcus on the halfpipe!</p>
+      </figcaption> </a>
+    </figure>
+   </article>
+  </div>
+ </section>
+ <section id="topics-panel" class="section-panel sub">
+  <div class="max-wrapper">
+   <h3 class="related-head">Related Topics</h3>
+   <article class="topics-block seafoam">
+    <h2 class="topics-head"><a href="/games/nature/"> <em> <span class="icon nature"></span> Nature Games </em> </a></h2>
+    <ul class="mini-grid">
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/sid/fablab_vegetablepatterns.html"> <img data-carson-src="/pbskids/shell/images/content/games/sid-the-science-kid-vegetable-patterns.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Sid the Science Kid</h3>
+        <h4 class="game-title">Vegetable Patterns</h4>
+        <p class="description">Make veggie patterns!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Patterns, Science Projects, Gardening, Problem Solving
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/eekoworld/index.html?load=eekohouse"> <img data-carson-src="/pbskids/shell/images/content/games/eekoworld-eekohouse.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">EekoWorld</h3>
+        <h4 class="game-title">EekoHouse</h4>
+        <p class="description">Help the earth!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Environment, Going Green, Future, Conservation, Habitats, Ecosystems
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/caillou/games/matching.html"> <img data-carson-src="/pbskids/shell/images/content/games/caillou-matching-game_1.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Caillou</h3>
+        <h4 class="game-title">Matching Game</h4>
+        <p class="description">Help Caillou match the leaves!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Vocabulary, Nature, Writing, Environment, Words, Reading, Literacy
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://meetthegreens.pbskids.org/games/acorn-arcade.html"> <img data-carson-src="/pbskids/shell/images/content/games/the-greens-acorn-arcade.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">The Greens</h3>
+        <h4 class="game-title">Acorn Arcade</h4>
+        <p class="description">Help feed the squirrels.</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Going Green, Environment, Wildlife
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/sesame/games/tellys-shape-garden/"> <img data-carson-src="/pbskids/shell/images/content/games/sesame-street-tellys-shape-garden.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Sesame Street</h3>
+        <h4 class="game-title">Telly's Shape Garden</h4>
+        <p class="description">Help Telly plant seeds to grow different shaped flowers.</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Shapes, Environment, Earth Day, Gardening, Math
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/curiousgeorge/busyday/flowers/"> <img data-carson-src="/pbskids/shell/images/content/games/curious-george-flower-garden.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Curious George</h3>
+        <h4 class="game-title">Flower Garden</h4>
+        <p class="description">Plant and count flowers with George!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Counting, Gardening, Gardens, Math
+         </dd>
+        </dl>
+       </div> </a></li> <a class="more-link" href="/games/nature/"><i class="count">45</i> More <em>Nature</em> Games</a>
+    </ul>
+   </article>
+   <article class="topics-block orange">
+    <h2 class="topics-head"><a href="/games/feelings/"> <em> <span class="icon feelings"></span> Feelings Games </em> </a></h2>
+    <ul class="mini-grid">
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/curiousgeorge/games/pogo_gogo"> <img data-carson-src="/pbskids/shell/images/content/games/curious-george-pogo-a-gogo.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Curious George</h3>
+        <h4 class="game-title">Pogo-A-GoGo</h4>
+        <p class="description">Go go on your pogo, Curious George!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Building, Experiments, Structures, Problem Solving
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/caillou/games/dresscaillou.html"> <img data-carson-src="/pbskids/shell/images/content/games/caillou-dress-caillou_1.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Caillou</h3>
+        <h4 class="game-title">Dress Caillou</h4>
+        <p class="description">Help Caillou pick out the right clothes!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Dress Up, Routine, Art, People
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/mayaandmiguel/english/games/sports/soccer/makeajersey/index.html"> <img data-carson-src="/pbskids/shell/images/content/games/maya-miguel-make-a-jersey.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Maya &amp; Miguel</h3>
+        <h4 class="game-title">Make a Jersey</h4>
+        <p class="description">Create your own sports jersey.</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Olympics / Sports, Create, Art, Competition
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/dinosaurtrain/games/playdate.html"> <img data-carson-src="/pbskids/shell/images/content/games/dinosaur-train-playdate.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Dinosaur Train</h3>
+        <h4 class="game-title">Playdate</h4>
+        <p class="description">Go on a playdate with Buddy, Tiny, Don, and Shiny!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Dinosaurs, Winning + Losing, Friendship, Problem Solving, Competition
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/sesame/games/pigeon-trouble/"> <img data-carson-src="/pbskids/shell/images/content/games/sesame-street-bert-in-pigeon-trouble.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Sesame Street</h3>
+        <h4 class="game-title">Bert in: Pigeon Trouble</h4>
+        <p class="description">Can you help Bert clean up?</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Math, Cleaning up/Chores, Birds, Vocabulary
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/clifford/games/kisses.html"> <img data-carson-src="/pbskids/shell/images/content/games/clifford-the-big-red-dog-clifford-kisses.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Clifford The Big Red Dog</h3>
+        <h4 class="game-title">Clifford Kisses</h4>
+        <p class="description">Match colors for a big Clifford kiss.</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Helping, Patterns, Social Skills, Dogs
+         </dd>
+        </dl>
+       </div> </a></li> <a class="more-link" href="/games/feelings/"><i class="count">47</i> More <em>Feelings</em> Games</a>
+    </ul>
+   </article>
+   <article class="topics-block tall-list seafoam last invisible">
+    <h2 class="topics-head"><a href="../all-topics/"> <em>More Topics</em> </a></h2>
+    <ul class="topic-list">
+     <li class="topic-list-item invisible"><a class="topic" href="/games/math/"> <span class="icon math"></span> <em>Math <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/dinosaur/"> <span class="icon dinosaur"></span> <em>Dinosaur <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/science/"> <span class="icon science"></span> <em>Science <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/social-studies/"> <span class="icon social-studies"></span> <em>Social Studies <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/reading/"> <span class="icon reading"></span> <em>Reading <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/abc/"> <span class="icon abc"></span> <em>ABC <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/vocabulary/"> <span class="icon vocabulary"></span> <em>Vocabulary <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/spelling/"> <span class="icon spelling"></span> <em>Spelling <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/rhyming/"> <span class="icon rhyming"></span> <em>Rhyming <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/story/"> <span class="icon story"></span> <em>Story <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/123/"> <span class="icon 123"></span> <em>123 <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/nature/"> <span class="icon nature"></span> <em>Nature <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/healthy-habits/"> <span class="icon healthy-habits"></span> <em>Healthy Habits <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/create/"> <span class="icon create"></span> <em>Create <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/engineering/"> <span class="icon engineering"></span> <em>Engineering <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/feelings/"> <span class="icon feelings"></span> <em>Feelings <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/teamwork/"> <span class="icon teamwork"></span> <em>Teamwork <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/animal/"> <span class="icon animal"></span> <em>Animal <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/dog/"> <span class="icon dog"></span> <em>Dog <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/coloring/"> <span class="icon coloring"></span> <em>Coloring <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/shapes/"> <span class="icon shapes"></span> <em>Shapes <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/adventure/"> <span class="icon adventure"></span> <em>Adventure <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/music/"> <span class="icon music"></span> <em>Music <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/dress-up/"> <span class="icon dress-up"></span> <em>Dress Up <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/problem-solving/"> <span class="icon problem-solving"></span> <em>Problem Solving <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/measurement/"> <span class="icon measurement"></span> <em>Measurement <span>Games</span></em> </a></li>
+     <li class="topic-list-item invisible"><a class="topic" href="/games/spanish/"> <span class="icon spanish"></span> <em>Spanish <span>Games</span></em> </a></li>
+    </ul> <a class="more-link" href="../all-topics/"><i class="count"></i> More <em>Topics</em></a>
+   </article>
+   <article class="topics-block yellow">
+    <h2 class="topics-head"><a href="/games/dress-up/"> <em> <span class="icon dress-up"></span> Dress Up Games </em> </a></h2>
+    <ul class="mini-grid">
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/sid/scientist.html"> <img data-carson-src="/pbskids/shell/images/content/games/sid-the-science-kid-i-want-to-be-a-scientist.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Sid the Science Kid</h3>
+        <h4 class="game-title">I Want to be a Scientist</h4>
+        <p class="description">Dress up Gabriela like a scientist!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Dress Up, Jobs, Scientists
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/peg/games/costume-box"> <img data-carson-src="/pbskids/shell/images/content/games/peg-cat-costume-box_1.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Peg + Cat</h3>
+        <h4 class="game-title">Costume Box</h4>
+        <p class="description">Dress-up Peg and her friends in some totally silly outfits!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Halloween, Dress Up
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/arthur/holiday/dressup/index.html"> <img data-carson-src="/pbskids/shell/images/content/games/arthur-dws-dress-up_1.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Arthur</h3>
+        <h4 class="game-title">D.W.'s Dress Up</h4>
+        <p class="description">Help D.W. dress up for different holidays.</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Dress Up, Winter, People, Heritage, Fall, Cultures, Winter Holidays, Ethnicity
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/superwhy/#/game/spellingbee"> <img data-carson-src="/pbskids/shell/images/content/games/super-why-golden-crown-spelling-bee.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Super Why!</h3>
+        <h4 class="game-title">Golden Crown Spelling Bee</h4>
+        <p class="description">Make your own golden crown!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Spelling, Dress Up, Phonics, Create
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/caillou/games/dresscaillou.html"> <img data-carson-src="/pbskids/shell/images/content/games/caillou-dress-caillou_1.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Caillou</h3>
+        <h4 class="game-title">Dress Caillou</h4>
+        <p class="description">Help Caillou pick out the right clothes!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Dress Up, Routine, Art, People
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/sid/weatherwheel.html"> <img data-carson-src="/pbskids/shell/images/content/games/sid-the-science-kid-geralds-weather-wheel-dress-up.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Sid the Science Kid</h3>
+        <h4 class="game-title">Gerald's Weather Wheel Dress Up</h4>
+        <p class="description">Play a dress up game with Gerald!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Summer, Weather &amp; Climate, Dress Up, Winter Holidays
+         </dd>
+        </dl>
+       </div> </a></li> <a class="more-link" href="/games/dress-up/"><i class="count">3</i> More <em>Dress Up </em> Games</a>
+    </ul>
+   </article>
+   <article class="topics-block magenta">
+    <h2 class="topics-head"><a href="/games/problem-solving/"> <em> <span class="icon problem-solving"></span> Problem Solving Games </em> </a></h2>
+    <ul class="mini-grid">
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/sid/fablab_panbalance.html"> <img data-carson-src="/pbskids/shell/images/content/games/sid-the-science-kid-pan-balance.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Sid the Science Kid</h3>
+        <h4 class="game-title">Pan Balance</h4>
+        <p class="description">Play with the pan balance!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Science Projects, weight, Measurement
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/designsquad/games/fidgit/index.html"> <img data-carson-src="/pbskids/shell/images/content/games/design-squad-fidgit.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Design Squad</h3>
+        <h4 class="game-title">Fidgit</h4>
+        <p class="description">Build a Fidgit room, start a challenge and share it with friends!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Building, Tools, Experiments, Design
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/clifford/games/buried-treasure.html"> <img data-carson-src="/pbskids/shell/images/content/games/clifford-the-big-red-dog-cliffords-buried-treasure.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Clifford The Big Red Dog</h3>
+        <h4 class="game-title">Clifford's Buried Treasure</h4>
+        <p class="description">Find the buried treasure with Clifford, T-Bone and Cleo!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Patterns, Colors, Problem Solving, Navigate
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/caillou/immersivegames/?gameID=5"> <img data-carson-src="/pbskids/shell/images/content/games/caillou-caillou-gardener_1.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Caillou</h3>
+        <h4 class="game-title">Caillou Gardener</h4>
+        <p class="description">Help Caillou take care of his garden.</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Going Green, Experiments, Gardening, Gardens
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/fetch/games/dogpound/index.html"> <img data-carson-src="/pbskids/shell/images/content/games/fetch-with-ruff-ruffman-dog-pound.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">FETCH! with Ruff Ruffman</h3>
+        <h4 class="game-title">Dog Pound</h4>
+        <p class="description">Pound the answers, not the dog.</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Science, Weather &amp; Climate, Experiments, Letters, Space
+         </dd>
+        </dl>
+       </div> </a></li>
+     <li class="mini-grid-item"><a class="promo-graphic" href="http://pbskids.org/sesame/home/grovers-winter-games/"> <img data-carson-src="/pbskids/shell/images/content/games/sesame-street-grovers-winter-games.jpg" data-carson-size="topic-block">
+       <div class="game-meta">
+        <h3 class="show-title">Sesame Street</h3>
+        <h4 class="game-title">Grover's Winter Games</h4>
+        <p class="description">Go skiing, snow boarding and ice skating with Grover!</p>
+        <dl class="goals">
+         <dt>
+          Goals:
+         </dt>
+         <dd>
+          Mountains, Winter, Olympics / Sports, Patterns, Numbers, Problem Solving
+         </dd>
+        </dl>
+       </div> </a></li> <a class="more-link" href="/games/problem-solving/"><i class="count">107</i> More <em>Problem Solving</em> Games</a>
+    </ul>
+   </article>
+  </div>
+ </section> <!-- End #topics-panel -->
+</div>{% endblock %}
+

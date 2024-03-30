@@ -1,0 +1,91 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 1 . Panel 8 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/bg8.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel8_05.gif";
+n12 = new Image();
+n12.src = "images/panel8b_05.gif";
+n13 = new Image();
+n13.src = "images/panel8c_05.gif";
+
+
+
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 800);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "4") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<body  onload="timeimgs('2')" style="margin: 0px">
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=4>
+			<IMG SRC="images/panel8_01.gif" WIDTH=551 HEIGHT=85 alt="" border="0" usemap="#top"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/panel8_02.gif" WIDTH=212 HEIGHT=146 alt="" border="0"></TD>
+		<TD COLSPAN=2>
+			<IMG SRC="images/panel8_03.gif" WIDTH=162 HEIGHT=71 alt="" border="0"></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/panel8_04.gif" WIDTH=177 HEIGHT=146 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="images/panel8_05.gif" WIDTH=109 HEIGHT=75 name="n1" alt="" border="0"></TD>
+		<TD>
+			<IMG SRC="images/panel8_06.gif" WIDTH=53 HEIGHT=75 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4>
+			<IMG SRC="images/panel8_07.gif" WIDTH=551 HEIGHT=169 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+
+	<map name="next">
+<area alt="next" coords="457,111,526,164" href="9.html">
+<area alt="Needing an assistant with a high level of intelligence, Dr. Marbles assembles a cyborg who calls himself The Hacker." coords="236,2,543,66" nohref>
+</map>
+
+
+<map name="top">
+<area alt="How It All Started" coords="27,10,241,44" href="../webisodes-global/how_started.html">
+<area alt="Webisode 1" coords="246,12,357,43" href="1.html">
+<area alt="Hacker: Hmmm, someday I'll take over all of Cyberspace!" coords="178,48,272,84" nohref>
+</map>
+
+</td></tr></table>
+	
+
+
+
+</BODY>
+</HTML>

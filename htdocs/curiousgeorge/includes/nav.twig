@@ -1,0 +1,45 @@
+{% set gamesFragment1 = '<a href="/curiousgeorge/games/"><img src="/curiousgeorge/img/nav_games' %}
+{% set gamesFragment2 = '.gif" height="91" width="114" alt="Games" id="games"' %}
+{% set printablesFragment1 = '<a href="/curiousgeorge/printables/"><img src="/curiousgeorge/img/nav_printables' %}
+{% set printablesFragment2 = '.gif" height="91" width="117" alt="Printables" id="printables"' %}
+{% set videoFragment1 = '<a href="/curiousgeorge/video/"><img src="/curiousgeorge/img/nav_video' %}
+{% set videoFragment2 = '.gif" height="91" width="117" alt="Video" id="video"' %}
+{% set a = ' /></a>' %}
+{% set classOvr = " class='ovr'" ~ a %}
+
+	<!-- #bbinclude "nav_top.pl" -->
+	<div id="nav">
+		<div id="nav-container">
+			<a href="https://pbskids.org/"><img src="/curiousgeorge/img/nav_logo_pbskids.gif" height="91" width="71" alt="PBS KIDS" id="logo-pbskids" /></a>
+			<a href="/curiousgeorge/"><img src="/curiousgeorge/img/nav_logo_cg.gif" height="91" width="222" alt="Curious George" id="logo-cg" /></a>
+			
+			{% if selectedNav == 'games' %}
+			
+				{{gamesFragment1|raw}}_ovr{{gamesFragment2|raw}}{{a|raw}}
+				{{printablesFragment1|raw}}{{printablesFragment2|raw}}{{classOvr|raw}}
+				{{videoFragment1|raw}}{{videoFragment2|raw}}{{classOvr|raw}}
+				
+			{% elseif selectedNav == 'printables' %}
+			
+				{{gamesFragment1|raw}}{{gamesFragment2|raw}}{{classOvr|raw}}
+				{{printablesFragment1|raw}}_ovr{{printablesFragment2|raw}}{{a|raw}}
+				{{videoFragment1|raw}}{{videoFragment2|raw}}{{classOvr|raw}}
+				
+			{% elseif selectedNav == 'video' %}
+			
+				{{gamesFragment1|raw}}{{gamesFragment2|raw}}{{classOvr|raw}}
+				{{printablesFragment1|raw}}{{printablesFragment2|raw}}{{classOvr|raw}}
+				{{videoFragment1|raw}}_ovr{{videoFragment2|raw}}{{a|raw}}
+				
+			{% else %}
+			
+				{{gamesFragment1|raw}}{{gamesFragment2|raw}}{{classOvr|raw}}
+				{{printablesFragment1|raw}}{{printablesFragment2|raw}}{{classOvr|raw}}
+				{{videoFragment1|raw}}{{videoFragment2|raw}}{{classOvr|raw}}
+				
+				
+			{% endif %}
+			<a href="/curiousgeorge/busyday/"><img src="/curiousgeorge/img/nav_busyday.gif" height="91" width="117" alt="Busy Day" id="busyday" class="ovr" /></a>
+		</div>
+	</div>
+	<!-- end bbinclude -->

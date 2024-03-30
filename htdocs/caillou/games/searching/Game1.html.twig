@@ -1,0 +1,124 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games . Find Gilbert . Game 1' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script language="JavaScript">var STATE_DEFAULT = 1;var STATE_ROLLED = 2;var imageRollovers;var isLoaded = false;var blnFound1 = false;var playAgainImage;function rollImage( imageIndex, toState ){	var theRollover, imageElement;	if( isLoaded && document.images && imageRollovers[ imageIndex ].state != toState )	{		theRollover = imageRollovers[ imageIndex ];		imageElement = document[ theRollover.elementName ];		if( toState == STATE_ROLLED )		{			imageElement.src = theRollover.rolloverImage.src;			theRollover.state = STATE_ROLLED;			if( theRollover.elementName == "imgG7-3" || theRollover.elementName == "imgG7-4" )			{				blnFound1 = true;			}		}		if( toState == STATE_DEFAULT )		{			imageElement.src = theRollover.defaultImage.src;			theRollover.state = STATE_DEFAULT;		}		if ( blnFound1 )		{			document.imgPlayAgain.src = "imagesGame7/btnPlayAgainOn.gif"		}	}}function swapImages( imageIndex ){	var strTemp;	strTemp = imageRollovers[ imageIndex ].state;	if (strTemp == 1)	{		rollImage( imageIndex, STATE_ROLLED );	}	else	{		rollImage( imageIndex, STATE_DEFAULT );	}}function initializeRollovers( ){	var rollCounter = 0;	imageRollovers = new Array( );	for (i=0;i<3;i++)	{		imageRollovers[ i ] = new Rollover( "imgG7-", i+1 );	}	playAgainImage = new Image( );	playAgainImage.src = "imagesGame7/btnPlayAgainOn.gif";}function Rollover( imageName, i ){	this.elementName = imageName + i;	this.defaultImage = new Image( );	this.defaultImage.src = "imagesGame7/" + imageName + i + ".jpg";	this.rolloverImage = new Image( );	this.rolloverImage.src = "imagesGame7/" + imageName + i + "On.jpg";	this.state = STATE_DEFAULT;	return this;}function checkFound(){	if ( blnFound1 )	{		document.location.href = "Game2.html"	}}function setLoaded( ){	isLoaded = true;}initializeRollovers( );// --></script><script type="text/javascript">function stopAnswer1() {	document.applets.Answer1.stop();}function playAnswer1() {	document.applets.Answer1.playsound();	setTimeout("stopAnswer1()",5000);}function stopWrong() {	document.applets.wrong.stop();}function playWrong() {	document.applets.wrong.playsound();	}</script><script type="text/javascript">  var isRolloverOn = false;  if (document.images) {	gameson = new Image( );	gameson.src = "../images/Master_btn_games-over.gif";	gamesoff = new Image( );	 	gamesoff.src = "../images/Master_btn_games.gif"; 			coloringon = new Image( );	coloringon.src = "../images/Master_btn_coloring-over.gif";	coloringoff = new Image( );	coloringoff.src = "../images/Master_btn_coloring.gif";		greetingson = new Image( );	greetingson.src = "../images/Master_btn_greetings-over.gif";	greetingsoff = new Image( );	greetingsoff.src = "../images/Master_btn_greetings.gif";		caillouon = new Image( );	caillouon.src = "../images/Master_caillou-over.gif";	caillouoff = new Image( );	caillouoff.src = "../images/Master_caillou.gif";		backon = new Image( );	backon.src = "../images/Master_back-over.gif";	backoff = new Image( );	backoff.src = "../images/Master_back.gif";	}	    <!-- rollover on -->            function act(imgName) {                if (document.images) {                    document[imgName].src = eval(imgName + 'on.src');                }            }        <!-- rollover off -->            function inact(imgName) {                if (document.images) {                    document[imgName].src = eval(imgName + 'off.src');                }            }</script>{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="../images/bkg_blue-bfly2.gif" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="http://pbskids.org/"><img src="../images/Master_pbs.gif" alt="PBS Kids Homepage" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="../images/Master_yellow-left.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="document.caillou.src=caillouon.src" onmouseout="document.caillou.src=caillouoff.src" href="../../index.html"><img src="../images/Master_caillou.gif" alt="Caillou Homepage" name="caillou" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="../images/Master_yellow-right.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="document.back.src=backon.src" onmouseout="document.back.src=backoff.src" href="../searching.html"><img src="../images/Master_back.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="../images/Master_red.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <table width="566" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+           <tr>
+            <td colspan="2"><img src="imagesGame7/txtTitleFindGilbert.gif" alt="Find Gilbert" height="37" width="566" border="0"></td>
+           </tr>
+           <tr>
+            <td>
+             <table width="452" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+               <tr>
+                <td valign="top"><img src="imagesGame7/imgG7R1C1.jpg" alt="Caillou and Grandpa playing near the pond" height="102" width="61" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R1C2.jpg" alt="Caillou and Grandpa playing near the pond" height="102" width="94" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R1C3.jpg" alt="Caillou and Grandpa playing near the pond" height="102" width="57" border="0"></td>
+                <td valign="top"><a onclick="swapImages( 0 ); playAnswer2(); return true" href="#"><img src="imagesGame7/imgG7-1.jpg" alt="Caillou and Grandpa playing near the pond" name="imgG7-1" height="102" width="90" border="0"></a></td>
+                <td valign="top"><img src="imagesGame7/imgG7R1C5.jpg" alt="Caillou and Grandpa playing near the pond" height="102" width="75" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R1C6.jpg" alt="Caillou and Grandpa playing near the pond" height="102" width="75" border="0"></td>
+               </tr>
+               <tr>
+                <td valign="top"><img src="imagesGame7/imgG7R2C1.jpg" alt="Caillou and Grandpa playing near the pond" height="107" width="61" border="0"></td>
+                <td valign="top"><a onclick="rollImage( 2, STATE_ROLLED ); playAnswer1(); return true" href="#"><img src="imagesGame7/imgG7-3.jpg" alt="Caillou and Grandpa playing near the pond" name="imgG7-3" height="107" width="94" border="0"></a></td>
+                <td valign="top"><img src="imagesGame7/imgG7R2C3.jpg" alt="Caillou and Grandpa playing near the pond" height="107" width="57" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R2C4.jpg" alt="Caillou and Grandpa playing near the pond" height="107" width="90" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R2C5.jpg" alt="Caillou and Grandpa playing near the pond" height="107" width="75" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R2C6.jpg" alt="Caillou and Grandpa playing near the pond" height="107" width="75" border="0"></td>
+               </tr>
+               <tr>
+                <td valign="top"><img src="imagesGame7/imgG7R3C1.jpg" alt="Caillou and Grandpa playing near the pond" height="104" width="61" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R3C2.jpg" alt="Caillou and Grandpa playing near the pond" height="104" width="94" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R3C3.jpg" alt="Caillou and Grandpa playing near the pond" height="104" width="57" border="0"></td>
+                <td valign="top"><img src="imagesGame7/imgG7R3C4.jpg" alt="Caillou and Grandpa playing near the pond" height="104" width="90" border="0"></td>
+                <td valign="top"><a onclick="swapImages( 1 ); playAnswer2(); return true" href="#"><img src="imagesGame7/imgG7-2.jpg" alt="Caillou and Grandpa playing near the pond" name="imgG7-2" height="104" width="75" border="0"></a></td>
+                <td valign="top"><img src="imagesGame7/imgG7R3C6.jpg" alt="Caillou and Grandpa playing near the pond" height="104" width="75" border="0"></td>
+               </tr>
+              </tbody>
+             </table></td>
+            <td valign="top"><a onclick="rollImage( 2, STATE_ROLLED ); playAnswer1(); return true" href="#"><img src="imagesGame7/imgG7-4.jpg" alt="Gilbert" name="imgG7-4" height="91" width="110" border="0"></a><br> <img src="imagesGame7/spacer.gif" alt="" height="70" width="110" border="0"><br> <img src="imagesGame7/spacer.gif" alt="" height="71" width="110" border="0"><br> <a onclick="checkFound()" name="btnNext" href="Javascript:checkFound();"><img src="imagesGame7/spacer.gif" alt="Play Again" name="imgPlayAgain" height="67" width="110" border="0"></a></td>
+           </tr>
+          </tbody>
+         </table></td>
+        <td><img src="../images/Master_green.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="../images/Master_red-bottom.gif" alt="" height="90" width="92"></td>
+        <td><img src="../images/Master_blue-left.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="../images/Master_btn_games.gif" alt="Games" name="games" height="90" width="125" border="0"></td>
+        <td><img src="../images/Master_btn_greetings.gif" alt="Greeting Cards and Email" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="../images/Master_btn_coloring.gif" alt="Activities" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="../images/Master_blue-right.gif" alt="" height="90" width="95"></td>
+        <td><img src="../images/Master_green-bottom.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="16">
+        <td height="16">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold">Activity Instructions:</p>
+         <ol>
+          <li class="instruct_normal" type="1">Gilbert is hiding in the picture, can you find him? As the levels get harder Teddy and Rexy are hiding too.</li>
+          <li class="instruct_normal" type="1">Look carefully around the scene and use your mouse to click on the hidden character when you've found him. If you are having trouble, click on the character pictures to the right of the scene and he will come out of hiding.</li>
+          <li class="instruct_normal" type="1">Use your mouse to explore the scene and find other hidden surprises.</li>
+          <li class="instruct_normal" type="1">When you have found everyone click on the "Play Again" arrow to move on to the next level.</li>
+         </ol>
+         <hr width="60%"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="http://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="http://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table><applet code="TinyAudioPlayer.class" name="Answer1" width="1" height="1" mayscript><param name="snd" value="answer1sound.au">
+</applet><applet code="TinyAudioPlayer.class" name="Answer2" width="1" height="1" mayscript><param name="snd" value="answer2sound.au">
+</applet>{% endblock %}

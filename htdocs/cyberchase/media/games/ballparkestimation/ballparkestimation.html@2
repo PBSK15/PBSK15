@@ -1,0 +1,308 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Games . Glowla's Estimation Contraption | PBS Kids</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<style>
+	body {
+		margin: 0px;
+	}
+	.timer {
+		background-color: #000033;
+		color: #ffffff;
+
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		border-bottom-width: 0px;
+		border-top-width: 0px;
+		border-left-width: 0px;
+		border-right-width: 0px;
+	}
+	.estimateClass {
+		background-color: #ffffff;
+		color: #000000;
+		font-family: "Comic Sans MS", verdana, arial;
+		font-size: 13px;
+		font-weight: bold;
+		border-bottom-width: 0px;
+		border-top-width: 0px;
+		border-left-width: 0px;
+		border-right-width: 0px;
+	}
+</style>
+
+<script language="javascript">
+
+var	startTime = new Date();
+var	time = "";
+var countDownAmount = 59;
+var level = 1;
+var currentRound = 1;
+var digitsArray = new Array(2,3,3,4,4);
+var startArray = new Array(2,1,1,0,0);
+var rowsArray = new Array(3,3,4,4,5);
+var nArray = [];
+var answer = 0;
+var perfectAnswer = 0;
+var multiplier = 0;
+var guess = 0;
+var stopClock = false;
+var code = "";
+var paramString = document.URL;
+var paramArray = new Array();
+if ( paramString.indexOf("?") != -1 ) {
+    paramArray = paramString.split("?");
+    if ( paramArray.length != 0 ) {
+        code = paramArray[1].toString();
+    }
+}
+
+if ( Number(code) > 0 && Number(code) < 5 ) {
+	level = Number(code);
+} else {
+	level = 1;
+}
+
+
+function trace(s) {
+	alert(s);
+}
+
+function clearEstimate() {
+	document.form.estimate.value = "";
+	document.form.estimate.focus();
+}
+function popUp(message) {
+
+var x = (screen.width - 340) / 2;
+var y = (screen.height - 200) / 2;
+
+	var windowparam = "width=" + 340 + ",height=" + 200 + ",scrollbars=no,left="+x+",top="+y+",screenX="+x+",screenY="+y;
+	popwin = window.open("popwin.html?"+message, "popwin", windowparam)
+	popwin.opener = self;
+	popwin.focus()
+}
+
+function init() {
+	fillNumbers();
+	document.form.estimate.value = "";
+	document.form.estimate.focus();
+	resetClock();
+}
+function resetClock() {
+	startTime = new Date();
+	startTime.setSeconds(startTime.getSeconds()+countDownAmount);
+	window.setTimeout("updateClock()",900);
+}
+function nextRound() {
+	currentRound++;
+	if ( currentRound > 3 ) {
+		location = "youwin" + level + ".html";
+	} else {
+		init();
+	}
+}
+function updateClock() {
+		var t = new Date();
+		var timeLeft = new Date(startTime-t);
+		var secs = "";
+		if (timeLeft.getSeconds()<10) {
+			secs = "0"+timeLeft.getSeconds();
+		} else {
+			secs = timeLeft.getSeconds();
+		}
+		var time = secs;
+	document.form.timer.value = time;
+	if ( secs == 0 ) {
+		popUp(3);
+	} else {
+		if ( stopClock == false ) {
+			window.setTimeout("updateClock()",900);
+		}
+	}
+}
+
+function fillNumbers() {
+	document.level.src = "images/glowa"+level+"_07.gif";
+	for (row=1;row<=rowsArray[level-1];row++) {
+		eval("num"+row+"=''");
+		for (digit=1;digit<=digitsArray[level-1];digit++) {
+			r = Math.ceil(Math.random()*9);
+			eval("num"+row+"+=String("+r+")");
+			document["p"+row+"_"+(digit+startArray[level-1])].src = "images/"+r+".gif";
+			
+		}
+		nArray[row] = Number(eval("num"+row));
+	}
+}
+
+function check() {
+	stopClock = true;
+	perfectAnswer = answer = 0;
+	if ( digitsArray[level-1] == 2 ) {
+		multiplier = 10;
+	}
+	if ( digitsArray[level-1] == 3 ) {
+		multiplier = 100;
+	}
+	if ( digitsArray[level-1] == 4 ) {
+		multiplier = 1000;
+	}
+	for(i=1;i<nArray.length;i++) {
+		perfectAnswer += nArray[i];
+		answer += (Math.round(nArray[i]/multiplier)*multiplier);
+	}
+	guess = Number(document.form.estimate.value);
+	if ( guess == answer ) {
+		// estimation correct
+		popUp("1?"+currentRound);
+	} else 
+	if ( answer <= guess+50 && answer >=  guess-50) {
+		// estimation within + or - 50
+		popUp("4?"+currentRound);
+	} else 
+	if ( guess == perfectAnswer ) {
+		// answer is correct
+		popUp("2?"+currentRound);
+	} else {
+		if ( answer > guess ) {
+			popUp(5);
+		} else {
+			popUp(6);
+		}
+	}
+}
+function help() {
+	pick = Math.ceil(Math.random()*rowsArray[level-1]);
+		if ( digitsArray[level-1] == 2 ) {
+		multiplier = 10;
+	}
+	if ( digitsArray[level-1] == 3 ) {
+		multiplier = 100;
+	}
+	if ( digitsArray[level-1] == 4 ) {
+		multiplier = 1000;
+	}
+	popUp("7?"+nArray[pick]+"?"+(Math.round(nArray[pick]/multiplier)*multiplier));
+}
+
+</script>
+
+<BODY onLoad="init()">
+<FORM name="form">
+
+<TABLE WIDTH=548 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=50 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=41 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=46 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=81 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=38 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=15 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=54 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=129 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=28 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=46 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=20 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=1 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=7><IMG SRC="images/glowa_01.gif" WIDTH=325 HEIGHT=46 alt="Glowla's Estimation Contraption" border="0"></TD>
+		<TD><IMG SRC="images/glowa_02.gif" WIDTH=129 HEIGHT=46 alt="" border="0"></TD>
+		<TD COLSPAN=3><IMG SRC="images/glowa_03.gif" WIDTH=94 HEIGHT=46 alt="Level" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=46 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=17><IMG SRC="images/glowa_04.gif" WIDTH=50 HEIGHT=353 alt="" border="0"></TD>
+		<TD COLSPAN=6 ROWSPAN=3><IMG SRC="images/glowa_05.gif" WIDTH=275 HEIGHT=79 alt="Glowla's Estimation Contraption" border="0"></TD>
+		<TD COLSPAN=2 ROWSPAN=17><IMG SRC="images/glowa_06.gif" WIDTH=157 HEIGHT=353 alt="" border="0"></TD>
+		<TD><!--glowa2_07 glowa3_07 glowa4_07 glowa5_07 --><IMG SRC="images/glowa1_07.gif" WIDTH=46 HEIGHT=47 alt="" border="0" name="level"></TD>
+		<TD><IMG SRC="images/glowa_08.gif" WIDTH=20 HEIGHT=47 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=47 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_09.gif" WIDTH=66 HEIGHT=24 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=24 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=15><IMG SRC="images/glowa_10.gif" WIDTH=66 HEIGHT=282 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=8 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_11.gif" WIDTH=87 HEIGHT=32 alt="" border="0"></TD>
+		<TD align="center" bgcolor="333366"><!-- #5 --><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p5_1"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p5_2"><img src="images/spacer.gif" alt="" name="p5_3" width="18" height="32" border="0"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p5_4"></TD>
+		<TD COLSPAN=3 ROWSPAN=7><IMG SRC="images/glowa_13.gif" WIDTH=107 HEIGHT=108 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=32 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_14.gif" WIDTH=87 HEIGHT=6 alt="" border="0"></TD>
+		<TD><IMG SRC="images/glowa_15.gif" WIDTH=81 HEIGHT=6 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=6 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=2><IMG SRC="images/glowa_16.gif" WIDTH=87 HEIGHT=36 alt="Timer:" border="0"></TD>
+		<TD align="center" bgcolor="333366"><!-- #4 --><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p4_1"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p4_2"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p4_3"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p4_4"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=32 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><IMG SRC="images/glowa_18.gif" WIDTH=81 HEIGHT=6 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=4 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 bgcolor="000033" align="center" valign="MIDDLE"><input name="timer" type="text" value="59" size="2" maxlength="3" readonly class="timer" style="width:30px"></TD>
+		<TD ROWSPAN=2><IMG SRC="images/glowa_20.gif" WIDTH=46 HEIGHT=25 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=2 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 align="center" bgcolor="333366"><!-- #3 --><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p3_1"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p3_2"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p3_3"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p3_4"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=23 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_22.gif" WIDTH=87 HEIGHT=9 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=9 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_23.gif" WIDTH=87 HEIGHT=7 alt="" border="0"></TD>
+		<TD><IMG SRC="images/glowa_24.gif" WIDTH=81 HEIGHT=7 alt="" border="0"></TD>
+		<TD COLSPAN=2 ROWSPAN=4><IMG SRC="images/glowa_25.gif" WIDTH=53 HEIGHT=77 alt="" border="0"></TD>
+		<TD ROWSPAN=4><a href="javascript:help()"><IMG SRC="images/glowa_26.gif" WIDTH=54 HEIGHT=77 alt="Help" border="0"></a></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=7 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_27.gif" WIDTH=87 HEIGHT=32 alt="" border="0"></TD>
+		<TD align="center" bgcolor="333366"><!-- #2 --><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p2_1"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p2_2"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p2_3"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p2_4"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=32 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_29.gif" WIDTH=87 HEIGHT=6 alt="" border="0"></TD>
+		<TD><IMG SRC="images/glowa_30.gif" WIDTH=81 HEIGHT=6 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=6 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_31.gif" WIDTH=87 HEIGHT=32 alt="" border="0"></TD>
+		<TD align="center" bgcolor="333366"><!-- #1 --><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p1_1"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p1_2"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p1_3"><img src="images/spacer.gif" width="18" height="32" alt="" border="0" name="p1_4"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=32 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_33.gif" WIDTH=87 HEIGHT=18 alt="" border="0"></TD>
+		<TD><IMG SRC="images/glowa_34.gif" WIDTH=81 HEIGHT=18 alt="" border="0"></TD>
+		<TD COLSPAN=3><IMG SRC="images/glowa_35.gif" WIDTH=107 HEIGHT=18 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=18 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_36.gif" WIDTH=87 HEIGHT=34 alt="" border="0"></TD>
+		<TD align="center"><!-- guess 81x34--><input name="estimate" type="text" value="" size="5" maxlength="7" class="estimateClass"></TD>
+		<TD><input type="image" SRC="images/glowa_38.gif" WIDTH=38 HEIGHT=34 alt="ok" border="0" onClick="javascript:check();return false;"></TD>
+		<TD COLSPAN=2><IMG SRC="images/glowa_39.gif" WIDTH=69 HEIGHT=34 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=34 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/glowa_40.gif" WIDTH=87 HEIGHT=37 alt="" border="0"></TD>
+		<TD><IMG SRC="images/glowa_41.gif" WIDTH=81 HEIGHT=37 alt="" border="0"></TD>
+		<TD COLSPAN=3><IMG SRC="images/glowa_42.gif" WIDTH=107 HEIGHT=37 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=37 alt="" border="0"></TD>
+	</TR>
+</TABLE>
+
+</FORM>
+</BODY>
+</HTML>

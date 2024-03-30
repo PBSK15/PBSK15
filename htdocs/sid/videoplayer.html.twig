@@ -1,0 +1,74 @@
+{% extends 'sid/includes/sidPage.html.twig' %}
+{% set desc = 'Watch video and sing songs with Sid while you explore preschool science.' %}
+{% set keywords = 'Sid the science kid videos, kids Science videos, kids Music videos, Miss Susie videos' %}
+{% set pageTitle = " . Video Player " %}
+{% set legacy = 'Legacy' %}
+
+
+{% set imgSrc = 'media/images/gameIconVideo.jpg' %}
+{% set alt = 'Video Player' %}
+
+{% set msg = "We're glad you're here! To use the Video Player , you'll need to download thelatest version of Adobe Flash Player. Once you have the <a href=\"https://pbskids.org/cgi-registry/kidsbridge.cgi?context=sid_flash\">Adobe Flash Player</a>installed, you can use the Video Player by clicking here: <a href=\"https://soup.pbskids.org/sid/videoplayer.html\">https://soup.pbskids.org/sid/videoplayer.html</a><br><br>The site also has many early science exploration resources for <a href=\"parentsteachers/index.html\">Parents and Teachers</a>." %}
+
+
+{% block gameScript %}<script type="text/javascript" src="http://pbskids.org/modules/kidsgo/setcookie.js"></script>
+
+<!--  MOVED FLASH VARS BELOW -->
+<!--  END PBS KIDS GO! BROADBAND PLAYER MODULE                 //-->
+<!--==========================================================// -->
+
+<script type="text/javascript" language="Javascript">
+
+        //var fo = new SWFObject("homepage_shell_v3_8.swf", "myFlash", "100%", "650", "9", "#ffffff");
+        var fo = new SWFObject("http://pbskids.org/sid/homepage_shell_v3_8.swf", "myFlash", "960", "645", "10.1", "#3399cc");
+                fo.addParam("quality", "high");
+                fo.addParam("scale", "noscale");
+                fo.addParam("align", "middle");
+                fo.addParam("wmode", "opaque");
+                fo.addParam("allowFullScreen", "true");
+                fo.addParam("allowScriptAccess", "always");
+                fo.addParam("menu", "false");
+		fo.addParam('base', "http://pbskids.org/sid/");
+                
+                fo.setAttribute( "producerPlayer", "producerPlayer" );
+                
+                /// Whole episodes, or not
+               	//fo.addVariable( "IsClip", "false" );
+ 				/// Category or filtering              
+                //fo.addVariable( "category", "Science/Earth Day" );
+                /// Keyword filtering
+				/// Valid keywords: ExperimentsPP, SongsPP, AllPP
+                //fl.addVariable( "keywords", "keyword1,keyword2" );
+                
+                /// Max of 100 items in the release list.
+                fo.addVariable( "releaseEndIndex", 100 );
+                
+                
+                fo.addVariable( "controlLayoutURL", "http://pbskids.org/producerplayer/data/metaLayout-KidsPreschool.xml" );
+                fo.addVariable( "playerSkinURL", "http://pbskids.org/producerplayer/swf/skins/skinKidsPreschool.swf" );
+		fo.addVariable( "playerColorScheme", "xml/playerColorScheme.xml" );
+                
+                fo.addVariable( "releaseListSkinURL", "http://pbskids.org/producerplayer/swf/skins/skinKidsPreschool.swf" );
+		fo.addVariable( "releaseListColorScheme", "xml/releaseListColorScheme.xml" );
+
+		fo.addVariable( "dockBanner", "false" );
+		fo.addVariable( "dockReleaseList", "left" );
+                fo.addVariable( "aspectRatio", "4:3" );
+                fo.addVariable( "playerWidth", "322" );
+                fo.addVariable( "playerPaddingTop", 20 );
+                fo.addVariable( "playerPaddingLeft", 20 );
+		fo.addVariable( "releaseListWidth", 300 );
+		fo.addVariable( "releaseListHeight", 427 );
+		fo.addVariable( "releaseListPaddingTop", 0 );
+		fo.addVariable( "releaseListPaddingLeft", 0 );
+		fo.addVariable( "containerWidth", 684 );
+                fo.addVariable( "containerHeight", 427 );
+                fo.addVariable( "releaseCols", 1 );
+                fo.addVariable( "activity", "video" );
+		fo.addVariable( "linkBase", PBS.KIDS.base);
+                fo.addParam("FlashVars", "activity=video&linkBase="+PBS.KIDS.base);
+                
+        fo.write("flashcontent");
+
+</script>
+{% endblock %}

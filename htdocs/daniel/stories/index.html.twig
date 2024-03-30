@@ -1,0 +1,38 @@
+{% extends 'daniel/includes/danielPage.html.twig' %}
+{% set pageTitle = 'Stories | Daniel Tiger\'s Neighborhood | PBS KIDS' %}
+{% set hasGameSpecificJs = false %}
+{% set gameSpecificJs = '' %}
+{% set jsInclude = 'stories' %}
+{% set bodyOpeningTag = '<body>' %}
+
+
+{% block mainContent %}<main id="stories" class="base-page-model">
+ <header class="site-header">
+  <div class="logos"><a class="logo--pbs" href="http://pbskids.org/" alt="PBS Kids"></a> <a class="logo--dtn" href="/daniel/" alt="Daniel Tiger Home"></a>
+  </div>
+  <nav>
+   <ul>
+    <li class="nav__item games"><a href="/daniel/games/"> <img class="nav__image" src="/daniel/assets/img/icon-games.png"> <span class="nav__text">Games</span> </a></li>
+    <li class="nav__item stories"><a href="/daniel/stories/"> <img class="nav__image" src="/daniel/assets/img/icon-stories.png"> <span class="nav__text">Stories</span> </a></li>
+    <li class="nav__item videos"><a href="/daniel/videos/">
+      <div class="test"></div> <img class="nav__image" src="/daniel/assets/img/icon-videos.png"> <span class="nav__text">Videos</span> </a></li>
+    <li class="nav__item coloring"><a href="/daniel/coloring/"> <img class="nav__image" src="/daniel/assets/img/icon-coloring.png"> <span class="nav__text">Coloring</span> </a></li>
+   </ul>
+  </nav>
+ </header>
+ <div class="daniel--interior">
+  <canvas id="canvas--stories" width="440" height="532" style="height: 370px;"></canvas>
+ </div>
+ <div class="directory">
+  <h1 class="page-title">Storybooks</h1>
+  <ul class="directory__list">
+   <!--data supplied via gamedata.xml -->
+  </ul> <a class="directory__control prev">Previous</a> <a class="directory__control next">Next</a>
+ </div>
+</main>{% endblock %}
+
+
+
+
+{% block lowerBand %}<div class="lower-band"></div>{% endblock %}
+

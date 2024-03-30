@@ -1,0 +1,42 @@
+{% extends 'cyberchase/includes/cyberchasePage.html.twig' %}
+{% set pageTitle = '' %}
+
+
+{% block specialHead %}<style type="text/css">
+		body #headband-page-wrap {
+			background-image: url('http://pbskids.org/cyberchase/static/images/backgrounds/404.jpg');
+		}
+	</style>
+{% endblock %}
+
+
+{% set bodyOpeningTag = '<body id="page-">' %}
+{% set selectedNav = 'HOME' %}
+
+
+{% block specialMiddleElems %}<div id="homepage-swfobject"></div>
+{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="content">
+		<div class="limiter narrow">
+			<h1 class="page-title"><img src='http://pbskids.org/cyberchase/media/textrender/pageheader/4c804230ba35d8d73bdd287ec8bf590b.png' class='textrender pageheader' width='156' height='61' alt='Whoops!' border='0' /></h1>
+			<h2 class="page-subtitle"><img src='http://pbskids.org/cyberchase/media/textrender/subheader/86032eb520924a4f2aad5b77711f55dc.png' class='textrender subheader' width='172' height='38' alt='Page Not Found...' border='0' /></h2>
+			<div class="clear"></div>
+			<div class="content-panel">
+				<div class="content-panel-inner">
+					<div class="error-message">
+						<p><strong>We can't seem to <br /> find that page.</strong></p>
+						<p style="margin-bottom: 15px;">Check to see<br />if that address is correct<br />or visit <strong>FIND IT!</strong> for games,<br />videos and more!</p> 
+						<a href="/cyberchase/find-it/" class="large-btn analytics-click" data-analytics="404|Button Click|find-it"><img src='http://pbskids.org/cyberchase/media/textrender/button/1b128daa548331374bceaf70d541797d.png' class='textrender button' width='75' height='40' alt='FIND IT!' border='0' /></a>
+						<div class="clear"></div>
+					</div>
+					<div id="error-img"></div>	
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

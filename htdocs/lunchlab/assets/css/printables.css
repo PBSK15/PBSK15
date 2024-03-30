@@ -1,0 +1,96 @@
+ul.printables {
+	margin-top:20px;
+}
+ul.printables li{
+	display:inline-block;
+	zoom:1; 
+	*display:inline;
+	width:23%;
+	text-align:center;
+	margin:0 1% 10px;
+	position:relative;
+}
+ul.printables li .title a {
+	display:block;
+}
+ul.printables li a.edit {
+	position:absolute;
+	top:4px;
+	right:10px;
+	z-index:1;
+}
+ul.printables li img.printableFrame {
+	background-position: 53.5% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    -ms-behavior: url(/lunchlab/assets/polyfills/backgroundsize.min.htc);
+    width: 100%;
+}
+.printable .download {
+	margin-bottom:20px;
+}
+
+.printable img {
+	display:block;
+	width:100%;
+}
+#printables .frame.printable{
+	width:95%;
+	max-width:792px;
+}
+.printable .topBar {
+	display:block !important;
+}
+
+@media all and (max-width : 860px) {
+	ul.printables li{
+		width:31.33%;
+	}
+}
+@media all and (max-width : 600px) {
+	#printables .frame.printable{
+		width:100%;
+	}
+	.printable {
+		margin-top:10px !important;
+		padding-top:10px !important;
+	}
+
+	ul.printables li{
+		width:48%;
+	}
+
+	.frame.printable .bottomBar{
+		display:none;
+	}
+}
+@media all and (max-width : 380px) {
+	ul.printables li{
+		width:90%;
+		margin:0 5% 10px;	
+	}
+}
+@media print{
+	#printables{
+		background:none #fff;
+	}
+	#printables header,
+	#printables footer,
+	#printables article .bottomBar.footie,
+	#printables a,
+	#printables button,
+	#printables nav
+	{
+		display:none;
+	}
+	#printables #containerContainer,
+	#printables .contentContainer,
+	#printables #content,
+	#printables .frame.printable,
+	#printables .frame.printable img{
+		margin:0;
+		padding:0;
+		width:100%;
+		background:none;
+	}
+}

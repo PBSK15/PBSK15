@@ -1,0 +1,119 @@
+{% extends 'go/includes/auth/goAuthPage.html.twig' %}
+
+
+{% block goAuthPage %}<div id="go-auth">
+ <h1 class="sprite signin">Sign in to PBS KIDS</h1>
+ <div class="signinbox">
+<div class="signinform">
+<form method="POST" action="/go/apps/auth/login/1" autocomplete="off"><label for="id_username" class="sprite username"> Username</label> <input id="id_username" type="text" name="username" maxlength="15"> <label for="id_username" class="sprite password"> Password</label> <input id="id_password" type="text" name="password" maxlength="15"> <input type="hidden" name="destination" id="id_destination"> <input type="hidden" name="refresh" value="1" id="id_refresh">
+<div class="button signin right">
+<div class="inner">
+<p><input type="submit" value="Sign In"></p>
+</div>
+</div>
+</form>
+</div><!-- end .signin -->
+<div class="users">
+<h3 class="sprite recentusers">Recent Users</h3>
+<ul>
+<li><a href="#"></a></li>
+</ul>
+</div><!-- end .recentusers -->
+ </div><!-- end .signinbox -->
+ <p class="forgot"><a href="/go/apps/auth/forgot_password/">I forgot my password</a></p>
+ <script type="text/javascript" src="http://pbskids.org/pbs-kids-headband/js/PBS.KIDS.jquery-1.8.3.js"></script>
+ <script type="text/javascript" src="http://pbskids.org/pbs-kids-headband/js/auth/PBS.KIDS.auth.min.js"></script> <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+<![endif]-->
+ <script type="text/javascript">
+if( PBS && PBS.KIDS && PBS.KIDS.$_auth ){
+(function($){
+$(document).ready(function() {
+$('body').trigger('init.go');
+});
+})(PBS.KIDS.$_auth);
+}
+</script> <!-- Page-specific js goes here -->
+ <script type="text/javascript">
+(function($){
+$('body').bind('init.go', function() {
+loginFuncs();
+
+// Do not play VO if this screen is being reloaded to display an error
+if($('.errorlist').length < 1) {
+loginVO();
+}
+
+$(this).unbind('init.go');
+});
+// Voiceover
+function loginVO() {
+try{
+if( window.top.org && window.top.org.pbskids && window.top.org.pbskids.login ){
+window.top.org.pbskids.login.playAudio("sign-in-with-your-username");
+}		}		catch(err){		}
+}
+function loginFuncs() {
+function checkVals() {
+if((username.$elem.val() != usernameLabel) && password.$elem.val() != passwordLabel) {
+signinButton.enable();
+} else {
+signinButton.disable();
+}
+}
+
+if($('#id_username').length > 0) {
+$('#id_username').label({ hideLabel: false, useLabel: false });
+var username = $('#id_username').data('label');
+var usernameLabel = username.$elem.data('labelText');
+$('#id_password').label({ hideLabel: false, useLabel: false });
+var password = $('#id_password').data('label');
+var passwordLabel = password.$elem.data('labelText');
+$('.button .inner').gobutton();
+var signinButton = $('.button .inner').data('gobutton');
+
+// Check the values of username and password on any keypress or blur and, if they have values, enable the sign in button
+username.$elem.bind('keypress blur', checkVals);
+password.$elem.bind('keypress blur', checkVals);
+$('#go-auth .users li a').click(function() {
+username.$elem.val($(this).text());
+checkVals(); // disable the signin button, since password is not entered
+password.reset();
+password.$elem.focus();
+return false;
+});
+// Test to make sure page hasn't inherited a typed username via reload. If not, disable ok button till name has been typed
+checkVals();
+}
+}
+})(PBS.KIDS.$_auth);
+</script>
+</div>{% endblock %}
+
+
+
+
+{% block resizeScript %}<script type="text/javascript">
+
+try{
+// Resize ColorBox iFrame
+if( parent !== window &&
+(PBS && PBS.KIDS && PBS.KIDS.$_auth) &&
+(parent.PBS && parent.PBS.KIDS && parent.PBS.KIDS.$_auth && parent.PBS.KIDS.$_auth.colorbox)
+) {
+(function($){
+$(document).ready( function(){
+var height = 0;
+if (height < 323) {
+height = 323;
+}
+height = Math.max( $('body').outerHeight(true), height );
+parent.PBS.KIDS.$_auth.colorbox.resize({ innerHeight: height });
+});
+})(PBS.KIDS.$_auth);
+}//end if
+}
+catch(err){
+}
+</script>{% endblock %}
+

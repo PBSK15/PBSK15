@@ -1,0 +1,140 @@
+{% if not spanish is defined %}
+	{% set spanish = false %}
+{% endif %}
+
+<!DOCTYPE HTML>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="{{desc|raw}}" />
+	<meta name="keywords" content="{{tags|raw}}" />
+	<meta http-equiv="imagetoolbar" content="no" />
+
+	<title>Curious George . {{pageTitle|raw}}	| PBS KIDS</title>
+	<link rel="stylesheet" href="https://pbskids.org/curiousgeorge/busyday/css/busyday.css" media="screen" type="text/css" />
+
+	
+	
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="css/ie7.css" media="screen, projection" type="text/css" />
+	<![endif]-->
+
+	{% include 'template_includes/bridge_js_include.html' %}
+	<script type="text/javascript" src="https://pbskids.org/includes/flash/swfobject.js"></script>
+	{{specialInclude|raw}}
+	
+</head>
+
+<body {{bodyAtrs|raw}}>
+
+{% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+
+  
+  
+
+
+
+<div id="wrapper">
+
+<!-- top nav -->
+<div id="top-nav" class="nav img-btns en-bg">
+
+	<!-- non CGBD links -->
+	<ul class="float-left inline">
+		<li><a id="pbskids-logo" href="https://pbskids.org/">PBS Kids</a></li>
+		<li><a id="cg-logo" href="/curiousgeorge/">Curious George HOME</a></li>
+	</ul>
+	
+	{% if spanish == false %}
+		<!-- CGBD links -->
+		<a class="float-left" id="cgbd-logo" href="/curiousgeorge/busyday/"><img src="/curiousgeorge/busyday/img/CGBD.gif" alt="George's Busy Day" /></a>
+		<div class="float-right">
+			<ul class="float-left inline">
+				<li><a id="lang-icon" onclick="switchLanguageVersion(); return false;" href="/curiousgeorge/busyday/span_index.html">Spanish version</a></li>
+				<li><a id="games-icon" href="/curiousgeorge/busyday/">Games</a></li>
+				<li><a id="stickers-icon" href="/curiousgeorge/busyday/stickers/">Stickers</a></li>
+			</ul>
+			<ul class="float-right">
+				<li><a id="print-icon" href="/curiousgeorge/busyday/printables.html">Print</a></li>
+				<li><a id="teachers-icon" href="/curiousgeorge/busyday/teachers.html">Teachers</a></li>
+			</ul>
+		</div>
+	{% else %}
+		<!-- CGBD links -->
+		<a class="float-left" id="cgbd-logo" href="/curiousgeorge/busyday/span_index.html"><img src="/curiousgeorge/busyday/img/CGBD.gif" alt="George's Busy Day" /></a>
+		<div class="float-right">
+			<ul class="float-left inline">
+				<li><a id="splang-icon" onclick="switchLanguageVersion(); return false;" href="/curiousgeorge/busyday/">English version</a></li>
+				<li><a id="games-icon" href="/curiousgeorge/busyday/span_index.html">Games</a></li>
+				<li><a id="stickers-icon" href="/curiousgeorge/busyday/span_stickers/">Stickers</a></li>
+			</ul>
+			<ul class="float-right">
+				<li><a id="print-icon" href="/curiousgeorge/busyday/span_printables.html">Print</a></li>
+				<li><a id="teachers-icon" href="/curiousgeorge/busyday/span_teachers.html">Teachers</a></li>
+			</ul>
+		</div>
+	{% endif %}
+</div>
+
+
+
+{% block contentArea %}{% endblock %}
+
+{% if overlayWrapper == true %}
+
+	<div id="overlay-wrapper">
+		<div id="overlay">
+			<div id="close">X</div>
+			<div id="arrows">
+				<a id="prev" class="float-left" href="">&lt;</a>
+				<a id="next" class="float-right" href="">&gt;</a>
+			</div>
+			<img id="snapshot" src="" alt="loading..." />
+			<div id="photo-caption">
+				<a id="download" href="" target="_blank" onclick="return trackDownload(this.href);">DOWNLOAD</a>
+				<p id="stats" class="yellowTxt"><span id="current"></span> of <span id="total"></span></p>
+			</div>
+		</div>
+	</div>
+{% endif %}
+
+<!-- footer -->
+<div id="footer-wrapper">
+	<div id="footer" class="nav">
+		<!-- if a particular page does not have the learn-more link, add 'no-learn-more' class to the body tag of that page -->
+		<p id="learn-more"><!-- Parents &amp; Teachers! <a id="learn" href="https://www.pbs.org/parents/curiousgeorge/site/site_features.html#bugs">Learn more about Bug Catcher</a>. -->&nbsp;</p>
+
+		<p id="bot-nav">
+			<a href="/curiousgeorge/">Home</a> |
+			<a href="/curiousgeorge/games/">Games</a> |
+			<a href="/curiousgeorge/printables/">Printables</a> |
+			<a href="/curiousgeorge/video/">Video Clips</a> |
+			<a href="/curiousgeorge/busyday/">Busy Day</a> |
+			<a href="https://www.pbs.org/parents/curiousgeorge/">Parents</a> |
+			<a href="https://www.pbs.org/teachers/curiousgeorge/">Teachers</a> |
+			<a href="/curiousgeorge/tv_schedule/">TV Schedule</a> <br />
+			<a href="https://www.pbs.org/parents/curiousgeorge/site/terms_of_use.html">&reg; &amp; &copy; 2015 Universal Studios and/or HMH. ALL RIGHTS RESERVED.</a> |
+			<a href="/privacy/">PBS KIDS Privacy Policy</a>
+		</p>
+
+		<div id="legal">
+			<img src="/curiousgeorge/busyday/img/funder_footer_0911.gif" usemap="#hm_logos_Map" />
+			<map name="hm_logos_Map">
+				<area shape="rect" alt="Department of Education" coords="21,12,76,70" href="https://www.ed.gov/" title="Department of Education" />
+				<area shape="rect" alt="Corporation for Public Broadcasting" coords="120,13,161,70" href="https://www.cpb.org/" title="Corporation for Public Broadcasting" />
+			</map>
+			<p>The contents of George's Busy Day online features were developed under a grant from the Department of Education.  However, those contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government. </p>
+			<p>The project is funded by a Ready To Learn grant (PR/AWARD No. U295A100025, CFDA No. 84.295A) provided by the Department of Education to the Corporation for Public Broadcasting.</p>
+		</div>
+	</div>
+</div>
+
+</div> <!-- close wrapper -->
+
+<!-- nav between languages -->
+<script type="text/javascript" src="https://pbskids.org/curiousgeorge/busyday/js/lang_nav.js"></script>
+
+</body>
+</html>

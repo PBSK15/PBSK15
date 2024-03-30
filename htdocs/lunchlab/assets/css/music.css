@@ -1,0 +1,272 @@
+#music #songInfo{
+	background-image:url("../images/music/BG_Burst.jpg");
+	height:222px;
+}
+.frame img.songThumb {
+	display:block;
+	width:inherit;
+	position:absolute;
+	top:50px;
+	left:50px;
+	z-index:1;
+	border:4px solid white;
+}
+#songInfo #videoButton{
+	position:absolute;
+	z-index:2;
+	display:block;
+	left:86px;
+	top:168px;
+}
+#songInfo #songName{
+	position:absolute;
+	display:block;
+	left:270px;
+	top:105px;
+	line-height: 1.125em;
+	z-index:9;
+	margin:0 20px 0 0;
+}
+#songInfo #berryPops{
+	position:absolute;
+	right: 15%;
+    top: 20px;
+    z-index: 5;
+}
+#songInfo #peas{
+	position:absolute;
+	right: 1%;
+    top: 30px;
+}
+#songInfo #banana{
+	position:absolute;
+	right: 21%;
+    top: 20px;
+}
+
+ul.tracks {
+	list-style: none;
+	padding:0;
+	margin:20px auto 0;
+}
+
+ul.tracks li {
+	float:left;
+	width:25%;
+	min-width:160px;
+	text-align: center;
+	margin:0;
+}
+
+ul.tracks li .name{
+	overflow:hidden;
+	display:block;
+	white-space: nowrap;
+	margin:0 2px;
+}
+ul.tracks li a{
+	display:block;
+	padding:10px 0;
+	color:#20364b;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	font-size:75%;
+}
+ul.tracks a.edit {
+	position: absolute;
+	padding:5px;
+}
+
+ul.tracks li a .image img{
+	width:150px;
+	border: 2px solid #2f4357;
+}
+
+ul.tracks li.selected a .image img{
+	border: 2px solid #f08250;
+}
+
+
+.musicPlayer {
+	position:relative;
+	height:80px;
+	transition:background-color 0.3s;
+	z-index:10;
+}
+
+.musicPlayer.stuck {
+	position: fixed;
+	top: 0;
+	left:0;
+	right:0;
+	z-index:100;
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.musicPlayer #playButton.paused .icon-pause{
+	display:none;
+}
+.musicPlayer #playButton.playing .icon-play{
+	display:none;
+}
+
+.musicPlayer button, 
+.musicPlayer #seeker {
+	display:block;
+	position:absolute;
+	margin:0;
+	padding:0;
+	height:80px;
+	border:0;
+	outline:0;
+	background-color:#f1814f;
+	top:0;
+	bottom:0;
+}
+
+.musicPlayer button {
+	width:80px;
+	font-size:180%;
+	color:#fff;
+	text-shadow: -2px 2px 0 #8e360e;
+
+}
+.touch .musicPlayer button:active,
+.no-touch .musicPlayer button:hover {
+	background-color: #f29d76;
+}
+.musicPlayer #prevButton {
+	left:0;
+}
+.musicPlayer #playButton {
+	left:80px;
+}
+.musicPlayer #nextButton {
+	right:0;
+}
+.musicPlayer #seeker{
+	left:160px;
+	right:80px;
+	padding:0 10px;
+}
+.musicPlayer #bar{
+	background-color:#fff;
+	height:12px;
+	margin:32px auto;
+	position:relative;
+	cursor:pointer;
+}
+
+.musicPlayer #bar #played {
+	width:0%;
+	height:100%;
+	background-color:#333;
+	display:block;
+	float:left;
+}
+
+.musicPlayer #bar #playHead {
+	width:24px;
+	height:24px;
+	background:#6cbecc;
+	border: solid 2px #4a8c98;
+	border-radius: 24px;
+	position:absolute;
+	box-shadow: inset 0 0 0 1px #fff;
+	float:left;
+	top: -6px;
+	margin-left: -12px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.musicPlayer.loading #bar {
+	background-color:#fc9;
+}
+
+.musicPlayer.loading #played,
+.musicPlayer.loading #playHead {
+	display:none;
+}
+
+@media all and (max-width : 899px) {
+	#songInfo #banana{
+		display: none;
+	}
+}
+@media all and (max-width : 799px) {
+	#songInfo #peas{
+		display: none;
+	}
+	#songInfo #berryPops{
+		right:2%;
+	}
+}
+@media all and (max-width : 699px) {
+	#songInfo #berryPops{
+		display:none;
+	}
+	#songInfo #songName{
+		top:60px;
+	}
+}
+@media all and (max-width : 686px) {
+	ul.tracks li {
+		width:33.3%;
+	}
+}
+@media all and (max-width : 600px) {
+	#music #content .frame .bottomBar{
+		display:none;
+	}
+}
+@media all and (max-width : 504px) {
+	ul.tracks li {
+		width:50%;
+	}
+}
+@media all and (max-width : 400px) {
+	#music #songInfo {
+    height: 128px;
+	}
+	.frame img.songThumb {
+	    left: 5%;
+	    top: 20px;
+	    width: 35%;
+	}
+	#songInfo #videoButton {
+	    left: 45%;
+	    padding: 0 10px;
+	    top: 20px;
+	}
+	#songInfo #songName {
+    	font-size: 150%;
+    	line-height: 1em;
+    	top: 50px;
+    	left:45%;
+	}
+}
+@media all and (max-width : 344px) {
+	ul.tracks li {
+		width:100%;
+	}
+	.musicPlayer button, 
+	.musicPlayer #seeker,
+	.musicPlayer {
+		height:60px;
+	}
+	.musicPlayer #seeker {
+		left: 120px;
+		right: 60px;
+	}
+	.musicPlayer button {
+		width:60px;
+	}
+	.musicPlayer #bar {
+		margin-top:22px;
+	}
+	.musicPlayer #playButton {
+		left: 60px;
+	}
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>The Quest 4: Stop the Stormerator . Games . Cyberchase | PBS Kids</title>
+	<meta name="description" content="In this Quest game, you must stop Hacker from completing the Stormerator -- a machine he plans to use to create weather chaos!">
+	<meta name="keywords" content="quest, stop the stormerator, hacker, weatherbots, stormerator, game">
+	<script type="text/javascript" src="https://pbskids.org/cyberchase/static/js/getlogin.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<script type="text/javascript">
+		  function gup( name )
+		  {
+			name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+			var regexS = "[\\?&]"+name+"=([^&#]*)";
+			var regex = new RegExp( regexS );
+			var results = regex.exec( window.location.href );
+			if( results == null )
+			  return "";
+			else
+			  return results[1];
+		  }
+	</script>
+	<script type="text/javascript">
+		var flashvars = {
+			logoType: 1,
+			userid: userid,
+			username: username,
+			login_error: gup('error'),
+			returnPage: window.top.location
+		};
+		var params = {
+			menu: "false",
+			allowScriptAccess: "always",
+			bgcolor: "#333399",
+			wmode:"opaque"
+		};
+		swfobject.embedSWF("Stop-the-Stormerator-Main.swf", "game", "800", "550", "9.0.0", null, flashvars, params, {});
+		console.debug(location.href)
+	</script>
+</head>
+<body style="margin: 0px;">
+<div id="game">
+	Whoops! Looks like you need to download the latest version of Flash. Try visiting our site on a different computer or download it here: <a href="https://get.adobe.com/flashplayer/">https://get.adobe.com/flashplayer/</a>.
+</div>
+</body>
+</html>

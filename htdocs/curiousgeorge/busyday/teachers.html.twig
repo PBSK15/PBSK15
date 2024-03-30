@@ -1,0 +1,144 @@
+{% extends 'curiousgeorge/busyday/includes/busyDayPage.html.twig' %}
+
+{% set desc = 'An educational resource for teachers to use Curious George games in the classroom! ' %}
+{% set tags = 'Interactive White Board, computer, math standards, educational games, pre-K, learn math, counting numbers' %}
+{% set pageTitle = 'George\'s Busy Day Teachers | PBS KIDS' %}
+{% set bodyAtrs = ' id="teachers" class="editorial"' %}
+
+{% set specialInclude = '<script type="text/javascript" src="js/lang_nav.js"></script>' %}
+{% set overlayWrapper = false %}
+
+{% block contentArea %}<div id="content-area">
+
+	<img id="dip" src="img/border-top-dip.png" alt="">
+
+	<div class="section">
+		<h2 class="centered"><img src="img/title_teachers_guide.png" alt="Teacher's Guide to Games"></h2>
+		<div class="float-left col">
+			<p>Here are <b>16 interactive whiteboard games</b>: you'll find a Full Screen button in each game. Play them each as a whole class activity: these games suit <b>pre-K through 1st grade</b>. Playing as a class will help you match kids' skill levels for <b>small group or individual play</b>. These games are also great for pairs or solo play on a laptop or desktop computer.</p>
+			<p>All games have audio. Once you know the game <b>you can play without sound</b> (but YOU may need to play the role of narrator!)</p>
+		</div>
+		<div class="float-right col">
+			<p class="no-margin">Below are <b>tips for each game</b> but here are two general ideas:</p>
+			<ul>
+				<li>Ask questions as you play, getting the kids to <b>predict</b> what's coming next in each game.</li>
+				<li>Encourage kids to find their own <b>strategies</b> to solve each game, and to share these with fellow students.</li>
+			</ul>
+			<p><a id="make" href="gamemaker/" class="float-left">Make Your Own Games</a> If you want to create your OWN interactive whiteboard games, <b>click on the yellow button</b></p>
+		</div>
+	</div>
+	<img src="img/border-bot.png" class="bot-border" alt="">
+	
+	<img src="img/border-top.png" class="top-border" alt="">
+	<div class="section no-padding">
+		<table>
+			<tbody><tr>
+				<td id="game-titles">&nbsp;</td>
+				<td id="descrip">Description</td>
+				<td id="topic">Topic</td>
+				<td id="tips">Tips</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="trains" href="trains/teacher.html"><div class="icon-holder"></div>Train Station</a></td>
+				<td>Help George assemble trains so that they have the same number of <b>total sections</b>.</td>
+				<td><b>Decomposing</b>: pairing numbers up to 10 in various ways to reach the same total.</td>
+				<td>Ask kids what <b>strategies</b> they would use to decide how to complete each train. For older kids, have them write simple equations.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="ten" href="ten/teacher.html"><div class="icon-holder"></div>Museum of Tens</a></td>
+				<td>George and Dr. Wiseman are at the museum. How many objects are <b>missing</b>?</td>
+				<td>For any number 1 to 9, find the number to <b>add</b> to make 10.</td>
+				<td>Let the kids <b>write</b> on the board on top of the game to work out how many objects are needed.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="hideseek" href="hideseek/teacher.html"><div class="icon-holder"></div>Hide and Seek</a></td>
+				<td>Hidden animals, words and numerals in fun <b>clickable pictures</b>.</td>
+				<td><b>Represent quantities</b> up to 10 in different ways – using real objects, drawings, words, and numerals. Bonus: includes zero!</td>
+				<td>As a group activity, <b>ask the whole class questions</b> like, "Who sees the word THREE?", etc. Or pair up kids and ask one to find the objects and the other to find the written numbers.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="bugs" href="bugs/teacher.html"><div class="icon-holder"></div>Bug Catcher</a></td>
+				<td><b>Estimate</b> bugs then count them in jars. Be sure to let them all go!</td>
+				<td>Determine which number is greater by <b>estimating or counting</b>.</td>
+				<td>Get the whole class to <b>estimate or count together</b>, then play each round to confirm your answers.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="drive" href="drive/teacher.html"><div class="icon-holder"></div>Bunny Ride</a></td>
+				<td>Drive with George, moving his car from <b>side to side</b> to collect carrots for his bunny pals.</td>
+				<td><b>Counting-on</b> from numbers other than one with a count-along game that deliberately stops and restarts.</td>
+				<td>This game is about counting on, so ask your kids before the game does: <b>"What number comes next?"</b></td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="meatballs" href="meatballs/teacher.html"><div class="icon-holder"></div>Meatball Launcher</a></td>
+				<td>This crazy meatball launcher is also a <b>counting tool</b>.</td>
+				<td>Count or put out up to <b>5</b> objects upon request.</td>
+				<td>Ask your kids <b>how many more</b> meatballs they need to get different specific amounts.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="frogs" href="frogs/teacher.html"><div class="icon-holder"></div>Ribbit</a></td>
+				<td>This <b>open-ended activity</b> gives kids practice with plus and minus symbols. Crank up the volume to hear the chorus!</td>
+				<td>Identify and use <b>+</b> and <b>−</b> signs.</td>
+				<td>This game is about <b>plus and minus</b>. Ask your kids how many frogs they'll have before they push either button.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="dogs" href="dogs/teacher.html"><div class="icon-holder"></div>Fair Shares</a></td>
+				<td>George has to give his hungry dog friends an <b>equal</b> number of biscuits. </td>
+				<td><b>Sharing</b> up to 12 objects equally among 2 or 3 groups.</td>
+				<td>Here's a game where kids can find lots of strategies. Have them talk about <b>how they're giving dogs</b> the same number of treats.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="allie" href="allie/teacher.html"><div class="icon-holder"></div>Count with Allie</a></td>
+				<td>Click the <b>number line</b> — and then on Allie — to get some basic practice with counting.</td>
+				<td>Digital, count-along <b>flashcards</b> from 1 to 20 that represent quantities in different ways.</td>
+				<td>Let your kids use the pen tool to help count along with Allie, without letting them <b>double-count</b> any items. Click on Allie and she'll count along too.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="jump" href="jump/teacher.html"><div class="icon-holder"></div>Monkey Jump</a></td>
+				<td><b>Click George</b> to count balls as they're launched into a ball pit at the toy store.</td>
+				<td>Counting up to <b>40</b> while noting each number is one more than the last.</td>
+				<td>There are many opportunities for questions: "What's the next number?" "How many more to fill the box?" "How many in each row?"  If you have a <b>webcam</b>, there is another version of this game you can play.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="fives" href="fives/teacher.html"><div class="icon-holder"></div>High Five</a></td>
+				<td>These <b>colorful hand stamps</b> let kids count in fives.</td>
+				<td>Count by <b>fives</b> to 200.</td>
+				<td>Make sure kids count along with George. And don't forget to try the <b>replay button</b>! You can also point out the tens as they find each pair of fives.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="hats" href="hats/teacher.html"><div class="icon-holder"></div>Hat Grab</a></td>
+				<td>George is borrowing <b>colored hats</b>.  Kids will see the graph of what he grabbed.</td>
+				<td>Use a <b>real graph</b> to gather and compare data.</td>
+				<td>This game models real graphs. The whole class could even play along with pen and paper using our <a href="pdf/activity_hats.pdf">printable graph</a>.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="flowers" href="flowers/teacher.html"><div class="icon-holder"></div>Flower Garden</a></td>
+				<td>Count each flower once in George's flower garden.</td>
+				<td><b>Cardinality</b>: count in a one-to-one fashion up to 20 without counting any object twice.</td>
+				<td>Have kids use the board's <b>pen tool</b> to mark which flowers they've counted.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="rocket" href="rocket/teacher.html"><div class="icon-holder"></div>Blast Off</a></td>
+				<td>Launch a rocket with George by <b>counting backwards</b>.</td>
+				<td>Counting backwards from <b>10 to 0</b>.</td>
+				<td>This game helps model <b>counting backwards</b>. Have the whole class count down to zero.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="apples" href="apples/teacher.html"><div class="icon-holder"></div>Apple Picking</a></td>
+				<td>Scoop up apples with <b>George and Jumpy</b> in a game that gets harder as you play.</td>
+				<td>Use number lines to place, order, and identify <b>missing numbers</b> up to 19.</td>
+				<td>This is a good tool to let you know which kids need help and which may need a <b>"running start"</b> to find the missing numbers.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="bubbles" href="bubbles/teacher.html"><div class="icon-holder"></div>Bubble Pop</a></td>
+				<td>Burst bubbles with George and <b>count along</b> with The Man with the Yellow Hat.</td>
+				<td>Count by ones up to <b>50</b>.</td>
+				<td>This might be more fun for kids to play in pairs. There is also a <b>clapping version</b> you could play if you have a microphone.</td>
+			</tr>
+		</tbody></table>
+	</div> <!-- close section -->
+	
+	<img src="img/border-bot.png" class="bot-border" alt="">
+
+	<p class="centered"><a id="contact-us" href="https://www.pbs.org/parents/curiousgeorge/help/contact_us.html">Tell us what you think about our resources for teachers!</a></p>
+
+</div>{% endblock %}

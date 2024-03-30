@@ -1,0 +1,182 @@
+.character{
+	background-position:12px 12px;
+}
+.character canvas{
+	bottom:12px;
+	left:12px;
+	width:60%;
+	max-width:460px;
+	position:absolute;
+	z-index:102;
+}
+.character canvas.freddy{
+	max-width:540px;
+	width:70%;
+}
+.character #bio{
+	display:block;
+	width:55%;
+	min-height:400px;
+	background-color:rgba(33,59,78,0.84);
+	float:right;
+}
+.character #bio h1{
+	color:#f08250;
+	margin:10px 30px 5px;
+	line-height:1em;
+}
+.character #bio h2{
+	color:#8cc9d5;
+	margin:5px 30px;
+	line-height:1em;
+}
+.character #bio p{
+	color:#fff;
+	margin:10px 30px;
+}
+ul.noStyle.characters{
+	margin-bottom:20px;
+}
+ul.characters li {
+	float:left;
+	width:25%;
+	text-align: center;
+	margin-bottom:5px 20px;
+}
+ul.characters li a {
+	display:block;
+	display:block;
+	width:100%;
+	background-size:100% auto;
+	-ms-behavior: url(/lunchlab/assets/polyfills/backgroundsize.min.htc);
+	height:0;
+	padding-bottom:88.28125%;
+	background-position:0 top;
+}
+.touch ul.characters li a:active, 
+.no-touch ul.characters li a:hover, 
+.touch ul.characters li a.selected, 
+.no-touch ul.characters li a.selected{
+	background-position:0 bottom;
+}
+
+ul.characters li a.fizzy{
+	background-image:url("../images/characters/buttons/fizzy.png");
+}
+ul.characters li a.avril{
+	background-image:url("../images/characters/buttons/avril.png");
+}
+ul.characters li a.cup{
+	background-image:url("../images/characters/buttons/cup.png");
+}
+ul.characters li a.freddy{
+	background-image:url("../images/characters/buttons/freddy.png");
+}
+ul.characters li a.freezerburn{
+	background-image:url("../images/characters/buttons/freezer.png");
+}
+ul.characters li a.henry{
+	background-image:url("../images/characters/buttons/henry.png");
+}
+ul.characters li a.mixie{
+	background-image:url("../images/characters/buttons/mixie.png");
+}
+ul.characters li a.sully{
+	background-image:url("../images/characters/buttons/sully.png");
+}
+
+.no-canvas #stage{
+	background-size:100% auto;
+	-ms-behavior: url(/lunchlab/assets/polyfills/backgroundsize.min.htc);
+}
+.no-canvas #characters-professor-fizzy #stage{
+	background-image:url("../images/characters/fizzy.png");
+}
+.no-canvas #characters-mixie-bot #stage{
+	background-image:url("../images/characters/mixie.png");
+}
+.no-canvas #characters-henry #stage{
+	background-image:url("../images/characters/henry.png");
+}
+.no-canvas #characters-avril #stage{
+	background-image:url("../images/characters/avril.png");
+}
+.no-canvas #characters-corporal-cup #stage{
+	background-image:url("../images/characters/cup.png");
+}
+.no-canvas #characters-freezer-burn #stage{
+	background-image:url("../images/characters/freezer.png");
+}
+.no-canvas #characters-sully-the-cell #stage{
+	background-image:url("../images/characters/sully.png");
+}
+.no-canvas #characters-fast-food-freddy #stage{
+	background-image:url("../images/characters/freddy.png");
+}
+
+
+@media all and (max-width : 700px) {
+	.character #bio{
+		min-height:340px;
+	}
+
+}
+
+@media all and (max-width : 600px) {
+	.character{
+		background-position:0 6px;
+	}
+	.character canvas {
+    	left: 0;
+	}
+	.character #bio{
+		min-height:340px;
+	}
+	.character #bio h1{
+		font-size:150%;
+	}
+	.character #bio h2{
+		font-size:125%;
+	}
+	.character #bio p{
+		font-size:85%;
+	}
+
+}
+@media all and (max-width : 500px) {
+	.character #bio{
+		min-height:280px;
+	}
+	.character #bio h1{
+		font-size:130%;
+	}
+	.character #bio h2{
+		font-size:110%;
+	}
+	.character #bio p{
+		font-size:75%;
+	}
+}
+/** For 0px - 440px */
+@media all and (max-width : 440px) {
+
+	.character canvas {
+    	left: 0;
+    	position: relative;
+    	width:100%;
+    	bottom:inherit;
+    	left:inherit;
+    	pointer-events:none;
+	}
+	.character canvas.freddy{
+		width:100%;
+	}
+	.character #bio{
+		width:100%;
+		min-height:0;
+		background-color:rgba(33,59,78,1);
+	}
+	ul.characters li {
+		width:50%;
+	}
+}

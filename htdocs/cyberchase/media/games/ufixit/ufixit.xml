@@ -1,0 +1,257 @@
+<ufixit>
+	<round id="1" location="images/homestead_trans.swf" sideimages="images/homestead.swf">
+		<flapplication>
+			<dialog type="transition">
+				<line file="audio/WS_Ziff_4-5_04" />
+			</dialog>
+			<dialog type="intro">
+				<line speaker="ziff" file="audio/WS_Ziff_4-5_04_2" />
+			</dialog>
+			<dialog type="help">
+				<line speaker="ziff" file="audio/WS_Ziff_4-5_04_2" />
+			</dialog>
+		</flapplication>
+	
+			
+		<ufixitobject side="front" xpos="12" ypos="26" mc="w2">
+			<point x="0" y="0" />
+			<point x="3" y="0" />
+			<point x="3" y="6" />
+			<point x="0" y="6" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="front" xpos="12" ypos="12" mc="w1">
+			<point x="0" y="0" />
+			<point x="4" y="0" />
+			<point x="4" y="2" />
+			<point x="0" y="2" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="front" xpos="16" ypos="27" mc="w3">
+			<point x="0" y="0" />
+			<point x="2" y="0" />
+			<point x="2" y="2" />
+			<point x="0" y="2" />
+			<point x="0" y="0" />
+		</ufixitobject>
+			
+	</round>
+	<round id="2" location="images/chefshouse_trans.swf" sideimages="images/chefshouse.swf">
+		<flapplication>
+			<dialog type="transition">
+				<line file="audio/WS_Ziff_17-21_05" />
+			</dialog>
+			<dialog type="intro">
+				<!--  <line speaker="chef" file="audio/WS_Chef_19-20_03" />-->
+				<line speaker="chef" file="audio/chef_19"/>
+				<line speaker="chef" file="audio/chef_20"/>
+				<line speaker="ziff" file="audio/WS_Ziff_17-21_02_2" />
+			</dialog>
+		</flapplication>
+		<ufixitobject side="front" xpos="6" ypos="9" mc="w1">
+			<point x="0" y="0" />
+			<point x="4" y="0" />
+			<point x="4" y="9" />
+			<point x="0" y="9" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="front" xpos="21" ypos="22" mc="w2"> 
+			<point x="0" y="0" />
+			<point x="2" y="0" />
+			<point x="2" y="6" />
+			<point x="0" y="6" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="left" xpos="12" ypos="17" mc="w3">
+			<point x="0" y="0" />
+			<point x="6" y="0" />
+			<point x="6" y="9" />
+			<point x="0" y="9" />
+			<point x="0" y="0" />
+		</ufixitobject>
+	</round>
+	<round id="3" location="images/frogsnorts_trans.swf" sideimages="images/castle.swf">
+		<flapplication>
+			<dialog type="transition">
+				<line file="audio/WS_Ziff_22-25_02_2" />
+			</dialog>
+			<dialog type="intro">
+				<!--  <line speaker="shari" file="audio/WS_Shari_26-27_02" />-->
+				<line speaker="shari" file="audio/shari_26" />
+				<line speaker="shari" file="audio/shari_27" />
+				<line speaker="ziff" file="audio/WS_Ziff_28-31_03" />
+			</dialog>
+		</flapplication>
+		<ufixitobject side="front" xpos="13" ypos="25" mc="w1">
+			<point x="0" y="2" />
+			<point x="1" y="2" />
+			<point x="1" y="0" />
+			<point x="3" y="0" />
+			<point x="3" y="2" />
+			<point x="4" y="2" />
+			<point x="4" y="7" />
+			<point x="0" y="7" />
+			<point x="0" y="2" />
+		</ufixitobject>
+		<ufixitobject side="right" xpos="12" ypos="13" mc="w2">
+			<point x="0" y="0" />
+			<point x="2" y="0" />
+			<point x="2" y="12" />
+			<point x="0" y="12" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="back" xpos="12" ypos="11" mc="w3">
+			<point x="0" y="0" />
+			<point x="4" y="0" />
+			<point x="4" y="7" />
+			<point x="0" y="7" />
+			<point x="0" y="0" />
+		</ufixitobject>
+	</round>
+	<round id="4" location="images/homestead_trans.swf" sideimages="images/homestead2.swf">
+		<flapplication>
+			<dialog type="transition">
+				<line file="audio/ziff_31" />
+			</dialog>
+			<dialog type="intro">
+				<line speaker="ziff" file="audio/ziff_32" />
+					<line speaker="ziff" file="audio/ziff_33" />
+						<line speaker="ziff" file="audio/ziff_34" />
+			</dialog>
+		</flapplication>
+	
+		
+		<ufixitobject side="front" xpos="12" ypos="26" mc="w1">
+			<point x="0" y="0" />
+			<point x="3" y="0" />
+			<point x="3" y="6" />
+			<point x="0" y="6" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="right" xpos="6" ypos="26" mc="w2">
+			<point x="0" y="0" />
+			<point x="3" y="0" />
+			<point x="3" y="3" />
+			<point x="0" y="3" />
+			<point x="0" y="0" />
+		</ufixitobject>
+			<ufixitobject side="right" xpos="18" ypos="26" mc="w3">
+			<point x="0" y="0" />
+			<point x="3" y="0" />
+			<point x="3" y="3" />
+			<point x="0" y="3" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="left" xpos="8" ypos="28" mc="w4">
+			<point x="0" y="0"/>
+			<point x="11" y="0"/>
+			<point x="11" y="2"/>
+			<point x="0" y="2"/>
+			<point x="0" y="0"/>
+		</ufixitobject>
+	</round>
+		<round id="5" location="images/chefshouse_trans.swf" sideimages="images/chefshouse2.swf">
+		<flapplication>
+			<dialog type="transition">
+				<line file="audio/ziff_37" />
+			</dialog>
+			<dialog type="intro">
+				<line speaker="chef" file="audio/chef_38" />
+				<line speaker="ziff" file="audio/ziff_39" />
+				<line speaker="chef" file="audio/chef_40" />
+				<line speaker="ziff" file="audio/ziff_41" />
+			</dialog>
+		</flapplication>
+			<ufixitobject side="front" xpos="6" ypos="9" mc="w1">
+			<point x="0" y="0" />
+			<point x="4" y="0" />
+			<point x="4" y="9" />
+			<point x="0" y="9" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="front" xpos="21" ypos="22" mc="w3"> 
+			<point x="0" y="0" />
+			<point x="2" y="0" />
+			<point x="2" y="6" />
+			<point x="0" y="6" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="front" xpos="13" ypos="24" mc="w2">
+			<point x="0" y="0" />
+			<point x="4" y="0" />
+			<point x="4" y="7" />
+			<point x="0" y="7" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="right" xpos="16" ypos="17" mc="w4" note="stair window">
+			<point x="0" y="0" />
+			<point x="2" y="0" />
+			<point x="2" y="3" />
+			<point x="4" y="3" />
+			<point x="4" y="5" />
+			<point x="6" y="5" />
+			<point x="6" y="9" />
+			<point x="0" y="9" />
+			<point x="0" y="0" />
+		</ufixitobject>
+	</round>
+		<round id="6" location="images/frogsnorts_trans.swf" sideimages="images/castle2.swf">
+		<flapplication>
+			<dialog type="transition">
+				<line file="audio/ziff_44" />
+			</dialog>
+			<dialog type="intro">
+				<line speaker="shari" file="audio/shari_45" />
+				<line speaker="ziff" file="audio/ziff_46" />
+					<line speaker="shari" file="audio/shari_47" />
+				<line speaker="ziff" file="audio/ziff_48" />
+			</dialog>
+		</flapplication>
+		<ufixitobject side="front" xpos="21" ypos="15" mc="w1" note="window1 tiangle1">
+			<point x="0" y="0" />
+			<point x="2" y="2" />
+			<point x="0" y="2" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="front" xpos="7" ypos="15" mc="w2" note="window2 tri 2">
+		<point x="0" y="2" />
+			<point x="2" y="0" />
+			<point x="2" y="2" />
+			<point x="0" y="2" />
+		</ufixitobject>
+		<ufixitobject side="right" xpos="22" ypos="13" mc="w6" note="window3">
+			<point x="0" y="0" />
+			<point x="2" y="0" />
+			<point x="2" y="12" />
+			<point x="0" y="12" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		
+			<ufixitobject side="front" xpos="7" ypos="18" mc="w3" note="window5">
+			<point x="0" y="0" />
+			<point x="2" y="0" />
+			<point x="2" y="8" />
+			<point x="0" y="8" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="front" xpos="21" ypos="18" mc="w4" note="window5">
+			<point x="0" y="0" />
+			<point x="2" y="0" />
+			<point x="2" y="8" />
+			<point x="0" y="8" />
+			<point x="0" y="0" />
+		</ufixitobject>
+		<ufixitobject side="front" xpos="13" ypos="25" mc="w5" note="door">
+		<point x="0" y="2" />
+			<point x="1" y="2" />
+			<point x="1" y="0" />
+			<point x="3" y="0" />
+			<point x="3" y="2" />
+			<point x="4" y="2" />
+			<point x="4" y="7" />
+			<point x="0" y="7" />
+			<point x="0" y="2" />
+		</ufixitobject>
+	
+	</round>
+</ufixit>

@@ -1,0 +1,45 @@
+{% extends 'curiousgeorge/busyday/includes/busyDayPage.html.twig' %}
+
+{% set desc = 'Get creative and print out activity pages for fun and learning with George!' %}
+{% set tags = 'printables, crafts, education, kids, math activities, learning, numbers' %}
+{% set pageTitle = "George's Busy Day Printables | PBS KIDS" %}
+{% set spanish = true %}
+{% set bodyAtrs = ' id="printables" class="editorial"' %}
+
+{% set specialInclude = '<script type="text/javascript" src="js/lang_nav.js"></script>' %}
+{% set overlayWrapper = true %}
+
+{% block contentArea %}<div id="content-area">
+
+		<img id="dip" src="img/border-top-dip.png" alt="">
+
+		<div class="section no-padding">
+			<img id="header-img" src="img/crapons_stars_tape.png" alt="decorative image of tape, stars, crayons and scissors">
+			<h2 class="centered"><img src="img/title_printables.png" alt="Printables"></h2>
+			<ul id="pdf-list" class="inline">
+				<li><a id="trains" data-orient="vertical" data-pdfs="2" href="pdf/activity_trains.pdf"><div class="icon-holder"></div><h3>Estación de Tren</h3><p>Dibujos de trenes para colorear y recortar</p></a></li>
+				<li><a id="ten" data-orient="vertical" data-pdfs="1" href="pdf/activity_ten.pdf"><div class="icon-holder"></div><h3>Museo del Diez</h3><p>10 objetos para colorear</p></a></li>
+				<li><a id="hideseek" data-orient="horizontal" data-pdfs="1" href="pdf/activity_hideseek.pdf"><div class="icon-holder"></div><h3>Juega al Escondite</h3><p>Busca los animales y números escondidos</p></a></li>
+				<li><a id="bugs" data-orient="horizontal" data-pdfs="1" href="pdf/activity_bugs.pdf"><div class="icon-holder"></div><h3>Contando Insectos</h3><p>Dibujos de insectos para capturar y colorear</p></a></li>
+
+				<li><a id="drive" data-orient="vertical" data-pdfs="1" href="pdf/activity_drive.pdf"><div class="icon-holder"></div><h3>Conejitos de Paseo</h3><p>Conecta los puntos regresivamente</p></a></li>
+				<li><a id="meatballs" data-orient="vertical" data-pdfs="2" href="pdf/activity_meatballs.pdf"><div class="icon-holder"></div><h3>Lanzador de Albóndigas</h3><p>Un juego para lanzar albóndigas</p></a></li>
+				<li><a id="frogs" data-orient="horizontal" data-pdfs="2" href="pdf/activity_frogs.pdf"><div class="icon-holder"></div><h3>Ranitas Cantarinas</h3><p>Un juego sobre los signos más y menos</p></a></li>
+				<li><a id="dogs" data-orient="horizontal" data-pdfs="1" href="pdf/activity_dogs.pdf"><div class="icon-holder"></div><h3>Igual para Todos</h3><p>Reparte galletitas para los perros</p></a></li>
+
+				<li><a id="allie" data-orient="horizontal" data-pdfs="2" href="pdf/activity_allie.pdf"><div class="icon-holder"></div><h3>Cuenta con Allie</h3><p>Práctica la escritura de los números</p></a></li>
+				<li><a id="jump" data-orient="vertical" data-pdfs="1" href="pdf/activity_jump.pdf"><div class="icon-holder"></div><h3>Mono Saltarín</h3><p>¿Puedes hacer activo como este mono?</p></a></li>
+				<li><a id="fives" data-orient="vertical" data-pdfs="1" href="pdf/activity_fives.pdf"><div class="icon-holder"></div><h3>Choca esos Cinco</h3><p>Colorear y contar los deditos de la mano</p></a></li>
+				<li><a id="hats" data-orient="horizontal" data-pdfs="2" href="pdf/activity_hats.pdf"><div class="icon-holder"></div><h3>Quita Sombreros</h3><p>Hacer un gráfico con Jorge</p></a></li>
+
+				<li><a id="flowers" data-orient="vertical" data-pdfs="2" href="pdf/activity_flowers.pdf"><div class="icon-holder"></div><h3>Jardín de Flores</h3><p>Hacer flores de origami</p></a></li>
+				<li><a id="rocket" data-orient="horizontal" data-pdfs="1" href="pdf/activity_rocket.pdf"><div class="icon-holder"></div><h3>Cohete al Espacio</h3><p>10, 9, 8, tu ya entiendes...</p></a></li>
+				<li><a id="apples" data-orient="vertical" data-pdfs="1" href="pdf/activity_apples.pdf"><div class="icon-holder"></div><h3>Cosecha Manzanas</h3><p>Adivina los números que faltan</p></a></li>
+				<li><a id="bubbles" data-orient="vertical" data-pdfs="1" href="pdf/activity_bubbles.pdf"><div class="icon-holder"></div><h3>Revienta Burbujas</h3><p>¡Un juego de laberinto entre burbujas!</p></a></li>
+			</ul>
+		</div>
+
+		<img src="img/border-bot.png" class="bot-border" alt="">
+		<img id="bottom-stars" src="img/crayons_stars.png" alt="">
+
+	</div>{% endblock %}

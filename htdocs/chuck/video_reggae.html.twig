@@ -1,0 +1,101 @@
+{% extends 'chuck/includes/chuckPage.html.twig' %}
+{% set pageTitle = ' Reggae Video' %}
+
+
+{% block swfEmbedScript %}<script type="text/javascript">var username = $.cookie('pbskids.username');var userid = $.cookie('pbskids.userid');  // CONFIG FLASH VARS ----------------------------------------
+var flashvars = {};
+
+flashvars.keywords = 'Reggae';
+
+//flashvars.feedPid = "sucih0YWGOOyXkWxm_kaF1pJpXy1d_zx"
+flashvars.releaseEndIndex = 10;
+flashvars.controlLayoutURL = 'metaLayout-GoSquare-AllControls.xml';
+flashvars.playerSkinURL = 'http://pbskids.org/producerplayer/swf/skins/skinKidsGoSquared.swf';
+flashvars.playerColorScheme =
+'<colorschemes>'+
+'<player>'+
+'<backgroundColor>0x565656</backgroundColor>'+
+'<frameColor>0x565656</frameColor>'+
+'<controlColor>0xa8adb9</controlColor>'+
+'<controlBackgroundColor>0x565656</controlBackgroundColor>'+
+'<controlFrameColor>0x818181</controlFrameColor>'+
+'<controlHighlightColor>0xffffff</controlHighlightColor>'+
+'<controlHoverColor>0xe6e2e2</controlHoverColor>'+
+'<controlSelectedColor>0x818181</controlSelectedColor>'+
+'<loadProgressColor>0x818181</loadProgressColor>'+
+'<scrubberColor>0xa8adb9</scrubberColor>'+
+'<scrubberFrameColor>0x818181</scrubberFrameColor>'+
+'<scrubTrackColor>0x818181</scrubTrackColor>'+
+'<textBackgroundColor>0x565656</textBackgroundColor>'+
+'<textColor>0xffffff</textColor>'+
+'<subtitlesBackgroundColor>0x747475</subtitlesBackgroundColor>'+
+'</player>'+
+'</colorschemes>';
+flashvars.releaseListSkinURL = 'http://pbskids.org/producerplayer/swf/skins/skinKidsGoSquared.swf';
+flashvars.releaseListColorScheme =
+'<colorschemes>'+
+'<releaseList>'+
+'<backgroundColor>0x565656</backgroundColor>'+
+'<frameColor>0x565656</frameColor>'+
+'<itemBackgroundColor>0xb2b2b2</itemBackgroundColor>'+
+'<itemBackground2Color>0xb2b2b2</itemBackground2Color>'+
+'<itemBackgroundHoverColor>0xe6e2e2</itemBackgroundHoverColor>'+
+'<itemBackgroundSelectedColor>0x818181</itemBackgroundSelectedColor>'+
+'<itemFrameColor>0xffffff</itemFrameColor>'+
+'<textColor>0x000000</textColor>'+
+'<text2Color>0xffffff</text2Color>'+
+'<textFrameColor>0x565656</textFrameColor>'+
+'<textHoverColor>0xB88C63</textHoverColor>'+
+'<textSelectedColor>0xffffff</textSelectedColor>'+
+'<thumbnailFrameColor>0x565656</thumbnailFrameColor>'+
+'<thumbnailFrameColor>0x565656</thumbnailFrameColor>'+
+'<scrollButtonColor>0xb2b2b2</scrollButtonColor>'+
+'<scrollIconColor>0x818181</scrollIconColor>'+
+'<scrollThumbColor>0x999999</scrollThumbColor>'+
+'<scrollTrackColor>0x565656</scrollTrackColor>'+
+'<scrollTrackFrameColor>0x565656</scrollTrackFrameColor>'+
+'</releaseList>'+
+'</colorschemes>';
+flashvars.dockBanner = 'false';
+flashvars.dockReleaseList = 'right';
+flashvars.playerWidth = 512;
+flashvars.playerPaddingTop = 134;
+
+flashvars.playerPaddingLeft = 23;
+
+flashvars.releaseListPaddingTop = 105;
+
+flashvars.releaseListPaddingLeft = 52;
+
+flashvars.aspectRatio = '16:9';
+flashvars.releaseListWidth = 300;
+flashvars.releaseListHeight = 300;
+flashvars.containerWidth = 825;
+flashvars.containerHeight = 443;
+flashvars.releaseCols = 1;
+flashvars.autoPlay = 'false';
+flashvars.initVolume = 70;
+
+flashvars.username=username;
+
+flashvars.userid=userid;
+flashvars.previewImageUrl = "http://pbskids.org/chuck/images/cvc_video_previewimage_reggae.png";
+
+flashvars.pageid="videos";
+// ADD FLASH PARAMETERS AND ATTRIBUTES ----------------------
+var params = {};
+params.menu = "false";
+params.wmode = "transparent";
+params.allowFullScreen = "true";
+params.allowscriptaccess = "always";
+var attributes = {};
+attributes.id = "producerPlayer";
+attributes.name = "producerPlayer";  // CREATE THE PLAYER SWF ------------------------------------
+//swfobject.embedSWF(PBS.KIDS.cdn_base + "/chuck/video.swf",
+swfobject.embedSWF("video.swf",
+"flashContent",
+"100%","100%","9.0.0",
+"http://pbskids.org/video/swf/expressinstall.swf",
+flashvars, params);
+</script>{% endblock %}
+

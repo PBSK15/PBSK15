@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+{% set pageTitle = 'Games' %}
+{% set selectedNav = 'games' %}
+{% set ftrAttributes = 'id="ftr"' %}
+
+{% include 'curiousgeorge/includes/head.twig' %}
+
+<body>
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+{% include 'curiousgeorge/includes/nav.twig' %}
+
+	<div id="int">
+		
+	<!-- #bbinclude "area_bar.pl" -->
+			<div class="border">
+				<a href="/curiousgeorge/games/index.html"><img src="/curiousgeorge/games/img/game_header.gif" alt="Games" class="" /></a><img src="/curiousgeorge/games/img/g_wd_top.gif" alt="Click an icon to play a game" style="display:none;" />
+			</div>
+		
+	<!-- end bbinclude -->
+		
+		
+		<div id="int-content">
+		
+			<div id="uno">
+				<img src="/curiousgeorge/games/img/g_cg_hanging_down.gif" alt="" height="567" width="292" />
+			</div>
+			
+			<div id="dos" style="text-align: center; line-height: 2em;">
+
+			<h2>Flash Player Missing</h2>
+			<p>We could not detect a required version of Flash on your machine. </p>
+			
+			<p>You can <a href="https://get.adobe.com/flashplayer/" title="Adobe Flash">download the latest version of Flash</a> for <b>FREE</b>.</p>
+			
+			<p>Once you have installed Flash, you can <a href="(none)">play the game.</a></p>
+			
+			<p><a href="/curiousgeorge/parentsteachers/help/tech_support.html">What's Flash?</a></p>
+			
+				<br clear="all" />
+				<br clear="all" />
+			
+			</div>
+			
+			<br clear="all" />
+		
+		</div>
+		
+		<img src="/curiousgeorge/img/int_wd_bot.gif" alt="" />
+	
+		{% include 'curiousgeorge/includes/ftr.html' %}
+
+	</div>
+	
+	<br clear="all" />
+	<br clear="all" />
+	
+	
+
+</body>
+</html>

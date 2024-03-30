@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- http://pbskids.org/crossdomain.xml -->
+<cross-domain-policy>
+   <site-control permitted-cross-domain-policies="all"/>
+   <allow-access-from domain="*.pbskids.org" />
+   <allow-access-from domain="*.pbs.org" />
+   <allow-access-from domain="pbskids.org" />
+   <allow-access-from domain="pbs.org" />
+   <allow-access-from domain="wrpx.service.mirror-image.net" />
+   <allow-access-from domain="p.mii.instacontent.net" />
+   <allow-access-from domain="*.xpc-mii.net" />
+   <allow-access-from domain="www-tc.pbskids.org" />
+   <allow-access-from domain="*.sproutonline.com" />
+   <allow-access-from domain="*.panachetech.com" />
+   <allow-access-from domain="ernie.pbskids.org" />
+   <allow-access-from domain="ernie-tc.pbskids.org" />
+</cross-domain-policy>

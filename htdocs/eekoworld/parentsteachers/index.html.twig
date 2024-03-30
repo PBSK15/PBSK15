@@ -1,0 +1,105 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' . Parents & Teachers . Overview | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE --> <img src="../images/header_parentsteachers.jpg" alt="Parents &amp; Teachers" width="259" height="54" class="headerimage">
+  <div id="subnav">
+   <a href="index.html" class="active">Overview</a> | <a href="family.html">Family Guide</a> | <a href="teachers.html">Teacher's Guide</a> | <a href="lessons.html">Lesson Plans</a>
+  </div> <img src="../images/header_overview.jpg" alt="Overview" width="105" height="33" class="contentheader">
+  <div id="sidebarwrapper">
+   <div id="sidebargreentop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreencontainer">
+    <div id="sidebargreencontent">
+     <p><strong>Create and care for your own <a href="../index.html@load=eekocreature">EekoCreature</a>, then explore <a href="../index.html@load=eekohouse">EekoHouse</a> for conservation ideas! </strong></p>
+    </div>
+   </div>
+   <div id="sidebargreenbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+  </div> <a name="planoverviews" id="planoverviews"></a><span class="subhead">Welcome to EekoWorld! </span>
+  <p><strong>EekoWorld</strong> (<strong>E</strong>nvironmental <strong>E</strong>ducation for <strong>K</strong>ids <strong>O</strong>nline) features an engaging and interactive format that invites children to explore, experiment, and collaborate as they learn about conservation and the environment. The primary goals of EekoWorld are the following:</p>
+  <ul>
+   <li>Introduce children to the basic elements of ecosystems</li>
+   <li>Foster an increased awareness of pollution producers</li>
+   <li>Display the effects of pollution on plants and animals, as well as the land, air and water</li>
+   <li>Examine both local and global conservation acts</li>
+   <li>Encourage collaboration and community efforts to improve the environment</li>
+  </ul>
+  <p>We invite you to check out our <strong><a href="teachers.html">Teacher's Guide to EekoWorld</a></strong> and <strong><a href="family.html">Family Guide to EekoWorld</a></strong> for more information about how you will be able to use EekoWorld in the classroom and with your children at home!</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

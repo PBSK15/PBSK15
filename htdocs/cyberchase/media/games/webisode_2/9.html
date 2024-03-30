@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 2 . Panel 9 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/2bg9.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel9_02.gif";
+n12 = new Image();
+n12.src = "images/panel9b_02.gif";
+n13 = new Image();
+n13.src = "images/panel9c_02.gif";
+n14 = new Image();
+n14.src = "images/panel9b_02.gif";
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 2000);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "5") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+</script>
+</head>
+<BODY  onload="timeimgs('2')" style="margin: 0px">
+
+
+	
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD ROWSPAN=2><IMG SRC="images/panel9_01.gif" WIDTH=287 HEIGHT=400 alt="Hacker learns that Digit helped Motherboard save Valussa.  HACKER: How dare you betray the Hacker?!!" border="0" usemap="#panel"></TD>
+		<TD><IMG SRC="images/panel9_02.gif" WIDTH=232 HEIGHT=325 name="n1" alt="" border="0" usemap="#panel2"></TD>
+		<TD><IMG SRC="images/panel9_03.gif" WIDTH=32 HEIGHT=325 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/panel9_04.gif" WIDTH=264 HEIGHT=75 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+	
+</td></tr></table>
+
+
+
+
+<map name="panel">
+<area alt="Webisode 2" coords="248,13,285,42" href="1.html" shape="RECT">
+<area alt="How It All Started" coords="51,13,240,37" href="../webisodes-global/how_started.html">
+</map>
+
+
+<map name="panel2">
+<area alt="Webisode 2" coords="1,14,75,41" href="1.html">
+</map>
+
+<map name="next">
+<area alt="next" coords="161,10,246,66" href="10.html">
+</map>
+
+
+
+
+
+</BODY>
+</HTML>

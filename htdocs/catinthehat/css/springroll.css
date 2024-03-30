@@ -1,0 +1,98 @@
+    iframe {
+        border: none;
+        width: 988px;
+        height: 556px;
+    }
+    
+    main {
+        position: relative;
+    }
+    
+    .game-loader {
+        background: url('/catinthehat/assets/graphics/bg-loading.png');
+        background-size: cover;
+        position: absolute;
+        color: #fff;
+        width: 988px;
+        height: 556px;
+        font-size: 2.5em;
+        left: 50%;
+        margin-left: -494px;
+    }
+    
+    .game-loader > img {
+        top: 44.244%;
+        position: absolute;
+        left: 31.376%;
+        width: 37.247%;
+        height: 11.511%;
+    }
+    
+    .game-loader > div {
+        background: #FFE28A;
+        position: absolute;
+        top: 51.5%;
+        left: 35%;
+        width: 25%;
+        height: 3%;
+    }
+    
+    #loading-bar {
+        width: 0%;
+        height: 100%;
+        background: #FC0335;
+    }
+
+    /* MOBILE-SPECIFIC */
+
+    #container.mobile-device {
+        height: 100% !important;
+        width: 100% !important;
+        /*padding-top: 75%;*/
+        position: static;
+    }
+
+    div#container.mobile-device > div {
+        position: static !important;
+    }
+
+    .mobile-device main {
+        width: 100%;
+        height: calc(100% - 84px) !important;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 84px 0 0 0;
+        padding: 0;
+        background-image: url("../media/images/general_BG.png");
+        background-size: cover;
+        box-sizing: border-box;
+    }
+
+    #container.mobile-device iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+#container.mobile-device .game-loader {
+    width: 80%;
+    background-size: 100% 100%;
+    height: auto;
+    margin: auto;
+    left: 10%;
+    padding-bottom: 45%;
+}
+
+    #container.mobile-device #pbsfooter {
+        display: none;
+    }
+
+    #container.mobile-device #games-back-button {
+        display: block;
+        text-align: left;
+    }
+
+    #games-back-button img {
+        height: 42px;
+        margin: 0 6px;
+    }

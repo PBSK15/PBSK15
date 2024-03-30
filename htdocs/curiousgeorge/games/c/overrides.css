@@ -1,0 +1,53 @@
+#uno-vid {
+	width: 505px;
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+}
+
+#vid-counter {
+	width: 530px;
+	background: none;
+}
+
+#vid-counter a { width: 530px; }
+
+#int-content img { float: left; }
+
+#prev_page_paddle {
+	width: 105px;
+	height: 459px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 9px;
+	background: url(https://www-tc.pbskids.org/curiousgeorge/games/img/left_sidebar.gif) 0px 135px no-repeat;
+	float: left;
+}
+	
+#prev_page_paddle .vid-spacer {	margin: 185px 0 0 5px; }
+#next_page_paddle .vid-spacer {	margin: 185px 0 0 20px; }
+	
+#next_page_paddle {
+	width: 105px;
+	height: 459px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	background: url(https://www-tc.pbskids.org/curiousgeorge/games/img/rt_sidebar.gif) -10px 0px no-repeat;
+	float: right;
+}
+
+div.icon { width: 124px; height: 125px; float: left; font-size: 90%; }
+
+div.pane_wrapper { width: 503px; padding: 0 0 0 0; float:left; }
+
+#carousel { width: 3000px; position: absolute; top: 0px; left 0px; }
+
+#foot_pane {
+	width: 732px;
+	height: 84px;
+	background: url(/curiousgeorge/img/game_footer.gif) 0px 0px no-repeat;
+	text-align: center;
+}
+	
+#foot_pane img { margin-top: 10px; }
+
+#ftr { margin-top:35px; }

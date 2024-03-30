@@ -1,0 +1,25 @@
+body {
+background: #9EC3EF url("/hybrid/hybrid-background-lblue.gif");
+}
+
+a:link, a:visited, a:active, a:hover {
+color: #2659A1;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+td {vertical-align: top;}
+
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #2659A1;}
+.smalltext {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #2659A1;}
+
+h2 {font-size: 16px; text-align: center; margin-top: 0;}
+
+.title {font-size: 18px; color: #FFF; font-weight: bold;}
+
+.fineprint {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000;}
+a.fineprint:link {color: #000; text-decoration: underline;}
+a.fineprint:visited {color: #000; text-decoration: underline;}
+a.fineprint:hover {color: #000; text-decoration: none;}

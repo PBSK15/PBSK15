@@ -1,0 +1,207 @@
+
+/*	Video element container		*/
+
+#videoContainer {
+	margin: 0;
+	width: 100%;
+	position: relative;
+}
+
+
+
+
+/*	Video controls		*/
+
+
+#controlRack div.scrubber-track,
+#controlRack div.scrubber-thumb,
+#controlRack div.prevVideo,
+#controlRack div.playPause,
+#controlRack div.nextVideo,
+#controlRack div.enterFullScreen,
+#controlRack div.closedCaptions
+{
+	display : inline-block;
+	zoom : 1;
+	cursor : pointer;
+}
+
+
+#controlRack .controlsRow .playbackControls {
+	display : inline-block;
+	width : 80%;
+	text-align : center;
+}
+
+/*	.scrubber holds both the scrubber (.scrubber-thumb) and the track it moves on (.scrubber-track)	*/
+
+
+/*	Playlist	*/
+
+
+/*	Container that PBS will auto-populate with video thumbs */
+#pl-nowPlaying,
+#nowPlayingList {
+	list-style : none;
+	white-space : nowrap;
+	margin : 0px;
+	padding : 0px;
+	height : 100%;
+	display : block;
+	overflow : hidden;
+}
+
+/*	PBS-populated element containing the video's thumbnail and text description */
+
+
+.video-info {
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	padding : 5px 5px;
+	width : 100%;
+	color : #f0ffff;
+	font-weight : bold;
+	opacity: 0;
+	font-size: 0.45em;
+	height: 100%;
+    transition: all 250ms ease-in-out;
+}
+.video-info .video-title {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	white-space: normal;
+	width: 90%;
+}
+.video-info .video-duration {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+}
+li.playlistItem .video-info {
+	cursor: pointer;
+}
+.fullep-label,
+.new-label {
+	display: none;
+} 
+.episode .fullep-label {
+	display: block;
+	position: absolute;
+	color: #ffcf00;
+	z-index: 999;
+	background: rgba(0,0,0,0.5);
+	bottom: 0;
+	font-size: 0.5em;
+	width: 100%;
+	padding: 5px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.plItem:selected .video-info,
+.plItem:hover .video-info,
+.video-info:hover,
+li.playlistItem.selected .video-info,
+li.playlistItem:hover .video-info {
+	background-color: rgba(190, 30,45, 0.9);
+	opacity: 1;
+}
+
+.browsePlaylistsBtn,
+.scrollPlaylist_up,
+.scrollPlaylist_down {
+	cursor : pointer;
+}
+
+
+
+
+/*	Playlist Browser	*/
+
+
+.browserPlaylist,
+.plWrapper {
+	display : block;
+	width : 100%;
+	position: relative;
+	z-index: 3;
+}
+
+.browserPlaylist {
+	z-index: 99999;
+}
+.browserPlayList .playlistTitleTile {
+	display : inline-block;
+	width : 100px;
+	height : 90px;
+	border : 1px solid white;
+	vertical-align : top;
+}
+
+.browserPlaylistWrapper {
+	display : inline-block;
+}
+
+
+.browserPlaylistWrapper ul {
+	padding : 0px;
+	margin : 0px;
+	overflow : hidden;
+}
+
+
+.browserPlaylist .scrollPlaylist_left,
+.browserPlaylist .scrollPlaylist_right {
+	display : inline-block;
+	cursor : pointer;
+}
+
+#browserWrapper {
+	opacity: 0;
+	display: none;
+	z-index: -1;
+}
+
+#browserWrapper.display {
+	display: block;
+	opacity: 1;
+	z-index: 9999;
+}
+#pl-nowPlaying-iScrollContainer {
+	margin: 0 4%;
+	height: 70%;
+}
+#nowPlayingList-iScrollContainer {
+	margin: 0 4%;
+	height: 80%;
+}
+.thumb-container img {
+	min-height: 100%;
+	min-width: 100%;
+}
+.plItem {
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+.pl-generic .plItem {
+	height: 100%;
+}
+.plItem:hover .video-info {
+	opacity: 1;
+	background-color: rgba(190, 30,45, 0.9);
+}
+
+.pl-generic {
+	height: 100%;
+}
+.pl-generic .plItem .thumb-container {
+	border: 4px solid transparent;
+	height: 100%;
+	overflow: hidden;
+}
+#pl-nowPlaying .sizer {
+	padding-top: 66%;
+}

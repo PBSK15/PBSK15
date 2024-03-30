@@ -1,0 +1,28 @@
+<Manifest>
+	<pairings fileName='twos' pairingsSize='2'>
+		<pairing foodgroups='2' numberOfFiles='0' />
+		<pairing foodgroups='3' numberOfFiles='0' />
+	</pairings>
+	<pairings fileName='threes' pairingsSize='3'>
+		<pairing foodgroups='2' numberOfFiles='0' />
+		<pairing foodgroups='3' numberOfFiles='0' />
+		<pairing foodgroups='4' numberOfFiles='0' />
+		<pairing foodgroups='5' numberOfFiles='0' />
+	</pairings>
+	<pairings fileName='fours' pairingsSize='4'>
+		<pairing foodgroups='2' numberOfFiles='0' />
+		<pairing foodgroups='3' numberOfFiles='0' />
+		<pairing foodgroups='4' numberOfFiles='0' />
+		<pairing foodgroups='5' numberOfFiles='0' />
+	</pairings>
+	<pairings fileName='fives' pairingsSize='5'>
+		<pairing foodgroups='3' numberOfFiles='0' />
+		<pairing foodgroups='4' numberOfFiles='1' />
+		<pairing foodgroups='5' numberOfFiles='11' />
+	</pairings>
+	<pairings fileName='sixes' pairingsSize='6'>
+		<pairing foodgroups='3' numberOfFiles='0' />
+		<pairing foodgroups='4' numberOfFiles='3' />
+		<pairing foodgroups='5' numberOfFiles='82' />
+	</pairings>
+</Manifest>

@@ -1,0 +1,220 @@
+@charset "utf-8";
+.float-left  {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+.hide {
+    opacity: 0;
+}
+.show {
+    opacity: 1;
+}
+
+.content {
+    font: 1em/1.4 Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+.title {
+    font: 1.7em/1.2 Baskerville, "Baskerville old face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.code {
+    font: 0.8em/1.6 Monaco, Mono-Space, monospace;
+}
+
+.disabled {
+    pointer-events: none;
+    /*
+	opacity: 0.5;
+	*/
+}
+table tr:nth-child(even) {
+    background: rgba(0,0,0,0.1);
+}
+a {
+    text-decoration: none;
+    color: #e44b15;
+    transition: all 0.20s ease-out;
+    -ms-transition: all 0.20s ease-out;
+    -moz-transition: all 0.20s ease-out;
+    -webkit-transition: all 0.20s ease-out;
+    position: relative;
+    /*
+	padding: .5em;
+    margin: -.5em;
+	*/
+}
+input {
+    /*
+	transition: all 0.25s ease-out;
+	*/
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+/* IE6/7 support */
+.clearfix {
+    *zoom: 1;
+}
+.visuallyhidden {
+    position: absolute;
+    width: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+    height: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;    
+}
+.ir {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.break {
+    -ms-word-break: break-all;
+    word-break: break-all;
+ 
+    word-break: break-word;
+ 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.ellipsis {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis; /* Required for IE8 */
+    -o-text-overflow: ellipsis; /* Required for Opera */
+    text-overflow: ellipsis;
+}
+pre {
+    white-space: pre-wrap;       /* Chrome & Safari */
+    white-space: -moz-pre-wrap;  /* Mozilla since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+@media print {
+    * {
+        background: none !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+ 
+        /* Images, vectors and such */
+        filter: Gray();                          /* IE4-8: depreciated */
+        filter: url('desaturate.svg#grayscale'); /* SVG version for IE10, Firefox, Safari 5 and Opera */
+        -webkit-filter: grayscale(100%);         /* Chrome + Safari 6 */
+        -moz-filter: grayscale(100%);            /* Future proof */
+        -ms-filter: grayscale(100%);             /* Future proof */
+        -o-filter: grayscale(100%);              /* Future proof */
+        filter: grayscale(100%);                 /* Future proof or polyfilled */
+    }
+ 
+    a {
+        text-decoration: underline;
+    }
+ 
+    a[href]:after {
+        content: " (" attr(href) ")"; 
+    }
+ 
+    a[href="#"],
+    a[href="javascript:"] {
+        content: "";
+    }
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2), /* Looks like a bug, so may want to add: */
+only screen and (   -moz-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    /* Your retina specific stuff here */
+}
+/* Empty Elements */
+.debug div:empty, .debug span:empty,.debug li:empty,.debug p:empty,.debug td:empty,.debug th:empty { 
+    padding: 20px; 
+    border: 5px dotted yellow !important;
+}
+ 
+/* Empty Attributes */
+.debug *[alt=""], .debug *[title=""], .debug *[class=""], .debug *[id=""], .debug a[href=""] { 
+    border: 5px solid yellow !important;
+}
+ 
+/* Deprecated Elements */
+.debug applet, .debug basefont, .debug center, .debug dir, .debug font, .debug isindex, .debug menu, .debug s, .debug strike, .debug u {
+    border: 5px dotted red !important;
+}
+ 
+/* Deprecated Attributes */
+.debug *[background], .debug *[bgcolor], .debug *[clear], .debug *[color], .debug *[compact], .debug *[noshade], .debug *[nowrap], .debug *[size], .debug *[start],.debug *[bottommargin], .debug *[leftmargin], .debug *[rightmargin], .debug *[topmargin], .debug *[marginheight], .debug *[marginwidth], .debug *[alink], .debug *[link], .debug *[text], .debug *[vlink],.debug *[align], .debug *[valign],.debug *[hspace], .debug *[vspace],.debug *[height], .debug *[width],.debug ul[type], .debug ol[type], .debug li[type] {
+    border: 5px solid red !important;
+}
+ 
+/* Proposed Deprecated Elements */
+.debug input[type="button"], .debug big, .debug tt {
+    border: 5px dotted #33FF00 !important;
+}
+ 
+/* Proposed Deprecated Attributes */
+.debug *[border], .debug table[cellpadding], .debug table[cellspacing] { 
+    border: 5px solid #33FF00 !important;
+}
+/* default sizer size */
+.sizer {
+    padding-top: 75%;
+}
+.sizer4-3 {
+    padding-top: 75%;
+}
+.sizer + .sized {
+	height: 100%;
+	width: 100%;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sized > * {
+	position: relative;
+}
+.sized > .sized-bg {
+	position: absolute;
+	width: 100%;
+	height: auto;	
+	top: 0;
+	left: 0;
+}
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+    border-radius: 7px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+	background-color: rgba(150,150,150,1);
+    
+}

@@ -1,0 +1,36 @@
+{% extends 'curiousgeorge/includes/templates/carousel_page.html.twig' %}
+{% set selectedNav = '' %}
+{% set pageTitle = "TV Schedule" %}
+{% set ftrAttributes = 'id="ftr"' %}
+
+
+{% block areaBar %}<!-- Xbbinclude "area_bar.pl" -->
+		<div class="border">
+			<a href="/curiousgeorge/tv_schedule/index.html"><img src="/curiousgeorge/tv_schedule/img/tv_title.gif" alt="Games" class="" /></a><img src="/curiousgeorge/tv_schedule/img/pt_wd_top.gif" alt="" />
+		</div>{% endblock %}
+		
+		
+		
+		
+{% block carouselContent %}		<div id="int-content">
+
+
+			<div style="float: left; margin: 20px 100px 0 30px;">
+				<img src="/curiousgeorge/tv_schedule/img/tv_george_standing.gif" alt="" width="274" height="187" />
+			</div>
+
+			<div style="float: left; text-align: center; width: 220px; margin-top: 20px;">
+				<a href="https://pbskids.org/cgi-registry/localize/kids_airdates.cgi?title_id=CUGE"><img src="/curiousgeorge/tv_schedule/img/t_looking_for_me.gif" alt="Looking for Me?" width="190" height="88" class="ovr"/></a><br /><br />
+
+				<p>CURIOUS GEORGE airs daily on PBS KIDS.</p>
+				<p><a href="https://pbskids.org/cgi-registry/localize/kids_airdates.cgi?title_id=CUGE">Check your local listings</a> for details.</p>
+
+			</div>
+
+			<br clear="all" />
+
+		</div>
+
+		<img src="/curiousgeorge/img/int_wd_bot.gif" alt="" />{% endblock %}
+	
+	

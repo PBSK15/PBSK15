@@ -1,0 +1,144 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games . Matching Game . Match the Leaves . Game 3' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script language="JavaScript"> var STATE_DEFAULT = 1;var STATE_ROLLED = 2; var imageRollovers;var isLoaded = false;var blnFound1 = false;var playAgainImage; function rollImage( imageIndex, toState ){	var theRollover, imageElement;	if( imageIndex < 0 || imageIndex >= imageRollovers.length )		alert( "Fatal Error:  Rollover out of bounds:  " + imageIndex );	if( isLoaded && document.images && imageRollovers[ imageIndex ].state != toState )	{		theRollover = imageRollovers[ imageIndex ];		imageElement = document[ theRollover.elementName ];				 		if( !imageElement )		{			alert( "Fatal Error:  Can't find element:  document." + theRollover.elementName );			return;		}		if( toState == STATE_ROLLED )		{			imageElement.src = theRollover.rolloverImage.src;			theRollover.state = STATE_ROLLED;		}		if( toState == STATE_DEFAULT )		{			imageElement.src = theRollover.defaultImage.src;			theRollover.state = STATE_DEFAULT;		}	}}function turnOn() {	blnFound1 = true;	document.imgPlayAgain.src = imgPlayAgainOn.src;	document.result.src = resultCorrect.src;	playAnswer1();}function turnOff() {	blnFound1 = true;	document.result.src = resultWrong.src;	playWrong();	}function initializeRollovers( ){	var rollCounter = 0;	imageRollovers = new Array( );	 imageRollovers[ rollCounter++ ] = new Rollover( "btnArrowPlay" );}function Rollover( imageName ){	this.elementName = imageName;	this.defaultImage = new Image( );	this.defaultImage.src = "images/" + imageName + ".gif";	this.rolloverImage = new Image( );	this.rolloverImage.src = "images/" + imageName + "On.gif";	this.state = STATE_DEFAULT;	return this;}function setLoaded( ){	isLoaded = true;}function checkFound(){        if ( blnFound1 ){                document.location.href = "leaf_4.html"        }}initializeRollovers( );</script>
+<script>function stopAnswer1() {	document.applets.Answer1.stop();}function playAnswer1() {	document.applets.Answer1.playsound();	setTimeout("stopAnswer1()",5000);}function stopWrong() {	document.applets.wrong.stop();}function playWrong() {	document.applets.wrong.playsound();	}</script>
+<script type="text/javascript">  var isRolloverOn = false;  if (document.images) {	caillouon = new Image();	caillouon.src = "../images/Master_caillou-over.gif";	caillouoff = new Image();	caillouoff.src = "../images/Master_caillou.gif";	backon = new Image();	backon.src = "../images/Master_back-over.gif";	backoff = new Image();	backoff.src = "../images/Master_back.gif";	gameson = new Image();	gameson.src = "../images/Master_btn_games-over.gif";	gamesoff = new Image();	gamesoff.src = "../images/Master_btn_games.gif";	greetingson = new Image();	greetingson.src = "../images/Master_btn_greetings-over.gif";	greetingsoff = new Image();	greetingsoff.src = "../images/Master_btn_greetings.gif";	coloringon = new Image();	coloringon.src = "../images/Master_btn_coloring-over.gif";	coloringoff = new Image();	coloringoff.src = "../images/Master_btn_coloring.gif";		 playon = new Image();	 playon.src = "images/btnPlayOn.gif";	 playoff = new Image();	 playoff.src = "images/btnPlay.gif";	imgPlayAgainOn = new Image();	imgPlayAgainOn.src = "images/btnplayagainon.gif";		resultCorrect = new Image();	resultCorrect.src = "images/imgCorrect.gif";	resultWrong = new Image();	resultWrong.src = "images/imgWrong.gif";	}	                  function act(imgName) {                if (document.images) {                    document[imgName].src = eval(imgName + 'on.src');                }            }                      function inact(imgName) {                if (document.images) {                    document[imgName].src = eval(imgName + 'off.src');                }            }</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="../images/bkg_blue-bfly2.gif" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="https://pbskids.org/"><img src="../images/Master_pbs.gif" alt="PBS Kids Homepage" name="pbskids" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="../images/Master_yellow-left.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="document.caillou.src=caillouon.src" onmouseout="document.caillou.src=caillouoff.src" href="../../index.html"><img src="../images/Master_caillou.gif" alt="Caillou Homepage" name="caillou" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="../images/Master_yellow-right.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="document.back.src=backon.src" onmouseout="document.back.src=backoff.src" href="leaf_2.html"><img src="../images/Master_back.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="../images/Master_red.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div align="center">
+          <table width="566" border="0" cellspacing="0" cellpadding="0" height="356">
+           <tbody>
+            <tr height="41">
+             <td colspan="3" height="41"><img src="images/leaf_title.gif" alt="Match the Leaves" name="leaf_title2" height="41" width="566"></td>
+            </tr>
+            <tr>
+             <td><img src="images/leaf_caillou_top.gif" alt="Caillou throwing leaves" name="leaf_caillou_top2" height="176" width="200"></td>
+             <td rowspan="2">
+              <table width="190" border="0" cellspacing="0" cellpadding="0" height="100%">
+               <tbody>
+                <tr height="38">
+                 <td width="190" height="38"><img src="images/leaf_null1.gif" alt="" name="leaf_null4" height="38" width="190"></td>
+                </tr>
+                <tr height="190">
+                 <td width="190" height="190"><img src="images/big_leaf_02.gif" alt="Big leaf" name="big_leaf2" height="190" width="190"></td>
+                </tr>
+                <tr>
+                 <td width="190"><img src="images/leaf_null2.gif" alt="" name="leaf_null5" height="22" width="190"></td>
+                </tr>
+                <tr>
+                 <td width="190"><img src="images/imgBlank.gif" alt="" name="result" height="41" width="190" border="0"></td>
+                </tr>
+                <tr>
+                 <td width="190"><img src="images/leaf_null3.gif" alt="" name="leaf_null6" height="24" width="190"></td>
+                </tr>
+               </tbody>
+              </table></td>
+             <td rowspan="2" width="88">
+              <table width="176" border="0" cellspacing="0" cellpadding="0">
+               <tbody>
+                <tr>
+                 <td><a onclick="turnOff()" href="#"><img src="images/small_leaf_6.gif" alt="Small leaf 1" name="smallbfly06" height="88" width="88" border="0"></a></td>
+                 <td><a onclick="turnOff()" href="#"><img src="images/small_leaf_1.gif" alt="Small leaf 2" name="smallbfly01" height="88" width="88" border="0"></a></td>
+                </tr>
+                <tr>
+                 <td><a onclick="turnOff()" href="#"><img src="images/small_leaf_4.gif" alt="Small leaf 3" name="smallbfly04" height="88" width="88" border="0"></a></td>
+                 <td><a onclick="turnOff()" href="#"><img src="images/small_leaf_5.gif" alt="Small leaf 4" name="smallbfly05" height="88" width="88" border="0"></a></td>
+                </tr>
+                <tr>
+                 <td><a onclick="turnOff()" href="#"><img src="images/small_leaf_3.gif" alt="Small leaf 5" name="smallbfly03" height="88" width="88" border="0"></a></td>
+                 <td><a onclick="turnOn()" href="#"><img src="images/small_leaf_2.gif" alt="Small leaf 6" name="smallbfly02" height="88" width="88" border="0"></a></td>
+                </tr>
+                <tr>
+                 <td colspan="2"><a onclick="checkFound()" name="btnNext" href="Javascript:checkFound();"><img src="images/spacer.gif" alt="Play again" name="imgPlayAgain" height="51" width="176" border="0"></a></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+            <tr>
+             <td><img src="images/leaf_caillou_bottom.gif" alt="Caillou throwing leaves" name="leaf_caillou_bottom2" height="139" width="200"></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+        <td><img src="../images/Master_green.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="../images/Master_red-bottom.gif" alt="" height="90" width="92"></td>
+        <td><img src="../images/Master_blue-left.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="../images/Master_btn_games.gif" name="games" height="90" width="125" border="0"></td>
+        <td><img src="../images/Master_btn_greetings.gif" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="../images/Master_btn_coloring.gif" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="../images/Master_blue-right.gif" alt="" height="90" width="95"></td>
+        <td><img src="../images/Master_green-bottom.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="16">
+        <td height="16">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold">Activity Instructions:</p>
+         <ol>
+          <li class="instruct_normal" type="1">Caillou is trying to figure out which leaf to match. See if you can help him.</li>
+          <li class="instruct_normal" type="1">Look at the picture of the big leaf in the center of the screen. Use your mouse and click on the small leaf that matches the big one.</li>
+          <li class="instruct_normal" type="1">If you pick the right one, Caillou will thank you for helping him.</li>
+          <li class="instruct_normal" type="1">Click on the arrow on the right to continue to the next level.</li>
+         </ol>
+         <hr noshade width="60%"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+     <p>&nbsp;</p>
+    </div></td>
+  </tr>
+ </tbody>
+</table><applet code="TinyAudioPlayer.class" name="Answer1" width="1" height="1" mayscript><param name="snd" value="answer1sound.au">
+</applet><applet code="TinyAudioPlayer.class" name="wrong" width="1" height="1" mayscript><param name="snd" value="wrong.au">
+</applet>{% endblock %}

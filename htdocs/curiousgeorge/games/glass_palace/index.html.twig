@@ -1,0 +1,20 @@
+{% extends 'curiousgeorge/includes/templates/flash_game_page.html.twig' %}
+{% set ftrAttributes = 'id="ftr-games"' %}
+{% set pageTitle = 'Glass Palace' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/curiousgeorge/games/glass_palace/css/glass_palace.css" media="screen" /><style>.headband-curiousgeorge #cgi-gamespace-splash{position:relative;top:-12px}.headband-curiousgeorge #nametag-gp{position:relative;top:-15px;margin-bottom:20px;float:left;left:93px}.headband-curiousgeorge #play-btn-gp{position:relative;top:-130px;float:left}.headband-curiousgeorge #ftr-games{clear:both;top:34px !important}</style><script type="text/javascript" src="/survey/2014/js/pbskids-survey-sampler.js"></script>' %}
+
+{% block gameFrame %}	<div id="cgi-gamespace-splash">	
+		<img src="/curiousgeorge/games/glass_palace/img/gp_splash.gif" alt="" width="547" height="321" style="margin: 13px 0 0 60px;" />
+	</div>
+
+<div id="play-btn-gp">
+	<a href="glass_palace.html"><img src="img/gp_play_btn.gif" alt="gp_play_btn.gif" width="112" height="50" class="ovr" /></a>
+</div>
+
+<div id="nametag-gp">
+	<img src="/curiousgeorge/games/img/nt_glass_palace.gif" alt="glass palace" width="438" height="51" />
+</div>
+
+<div id="pt-tag">
+	<p>Parents & Teachers! <a href="/curiousgeorge/parentsteachers/site/site_features.html#glass_palace">Learn more about Glass Palace</a>.</p>
+</div>{% endblock %}

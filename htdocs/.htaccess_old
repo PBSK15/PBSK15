@@ -1,0 +1,44 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Force trailing slash
+<IfModule mod_rewrite.c>
+	RewriteBase /
+	
+	RewriteCond %{REQUEST_URI} /+[^\.]+$ 
+	RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+</IfModule>
+
+RewriteRule %{HTTP_HOST}/curiousgeorge/ curiousgeorge/index.php [L]
+RewriteRule %{HTTP_HOST}/curiousgeorge/index.html curiousgeorge/index.php [L]
+RewriteRule %{HTTP_HOST}/curiousgeorge/games/present_time/index.html curiousgeorge/index.php [L]
+RewriteRule %{HTTP_HOST}/curiousgeorge/games/present_time/ curiousgeorge/index.php [L]
+RewriteRule %{HTTP_HOST}/pbsk/video/api/getHostProgram/ pbsk/video/api/getHostProgram/index.php [L]
+RewriteRule %{HTTP_HOST}/pbsk/video/api/getShows/ pbsk/video/api/getShows/index.php [L]
+RewriteRule %{HTTP_HOST}/pbsk/video/api/getVideos/ pbsk/video/api/getVideos/index.php [L]
+
+Redirect 301 /sid/playground.html /sid/
+Redirect 301 /curiousgeorge/headband https://res.cloudinary.com/good-old-pbs-cdn/video/upload/2015/pbsk_resources/curiousgeorge/headband
+Redirect 301 /shell/images/present/supervision/logo_supervision.svg https://www-tc.pbskids.org/shell/images/present/supervision/logo_supervision.svg
+Redirect 301 /js/pikachu/templates/ https://www-tc.pbskids.org/js/pikachu/templates/
+Redirect 301 /js/pikachu/styles/ https://www-tc.pbskids.org/js/pikachu/styles/
+Redirect 301 /shell/images/ https://www-tc.pbskids.org/shell/images/
+
+Redirect 301 /images/bridge https://ww-tc.pbskids.org/images/bridge
+
+Redirect 301 /includes/javascript/bridge.urls.js https://www-tc.pbskids.org/includes/javascript/bridge.urls.js
+Redirect 301 /includes/javascript/bridge.js https://www-tc.pbskids.org/includes/javascript/bridge.js
+Redirect 301 /includes/flash/ https://www-tc.pbskids.org/includes/flash/
+
+Redirect 301 /kidsactivity/messages/v2/messages.json https://pbskids.org/kidsactivity/messages/v2/messages.php
+
+
+
+Redirect 301 /curiousgeorge/parentsteachers/ https://www.pbs.org/parents/curiousgeorge/
+Redirect 301 /sid/parentsteachers/ https://www.pbs.org/parents/sid/
+Redirect 301 /caillou/parentsteachers/ https://www.pbs.org/parents/caillou/
+
+
+
+
+ErrorDocument 404 /whoops.html

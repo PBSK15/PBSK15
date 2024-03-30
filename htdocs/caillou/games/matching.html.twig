@@ -1,0 +1,133 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games . Matching Game . Intro' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_btn_games-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_btn_games.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_btn_coloring-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_btn_coloring.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_btn_greetings-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_btn_greetings.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master_caillou-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master_caillou.gif";			back_on = new Image( );		back_on.src = "images/Master_back-over.gif";		back_off = new Image( );		back_off.src = "images/Master_back.gif";				play_on = new Image( );		play_on.src = "matching/images/match_btn_play-over.gif";		play_off = new Image( );		play_off.src = "matching/images/match_btn_play.gif";				help_on = new Image( );		help_on.src = "matching/images/match_btn_help-over.gif";		help_off = new Image( );		help_off.src = "matching/images/match_btn_help.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="images/bkg_blue-bfly2.gif" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="https://pbskids.org/"><img src="images/Master_pbs.gif" alt="PBS Kids Homepage" name="PBSKids" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_yellow-left.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/Master_caillou.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_yellow-right.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="../activities/activities.html"><img src="images/Master_back.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_red.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div align="center">
+          <table width="566" border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td colspan="6"><img src="matching/images/match_title.gif" alt="Match the Leaves" height="44" width="566"></td>
+            </tr>
+            <tr>
+             <td><a href="matching/leaf_1.html"><img src="matching/images/match_caillou_top.jpg" alt="Caillou with leaves" height="204" width="241" border="0"></a></td>
+             <td rowspan="2"><img src="matching/images/match_left.gif" alt="" height="263" width="26"></td>
+             <td colspan="3"><img src="matching/images/match_text.gif" alt="Autumn is here with all its colors and the leaves falling from the trees come in all different shapes and colors. Help Caillou recognize them by matching them for him." height="204" width="261"></td>
+             <td rowspan="2"><img src="matching/images/match_right.gif" alt="" height="263" width="38"></td>
+            </tr>
+            <tr>
+             <td rowspan="2"><a href="matching/leaf_1.html"><img src="matching/images/match_caillou_bottom.jpg" alt="Caillou with leaves" height="108" width="241" border="0"></a></td>
+             <td><a onmouseover="act('help')" onmouseout="inact('help')" href="#Instructions"><img src="matching/images/match_btn_help.gif" alt="Help" name="help" height="59" width="92" border="0"></a></td>
+             <td><img src="matching/images/match_nul.gif" alt="" height="59" width="87"></td>
+             <td><a onmouseover="act('play')" onmouseout="inact('play')" href="matching/leaf_1.html"><img src="matching/images/match_btn_play.gif" alt="Play" name="play" height="59" width="82" border="0"></a></td>
+            </tr>
+            <tr>
+             <td colspan="5"><img src="matching/images/match_bottom.gif" alt="" height="49" width="325"></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+        <td><img src="images/Master_green.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_red-bottom.gif" alt="" height="90" width="92"></td>
+        <td><img src="images/Master_blue-left.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="images/Master_btn_games.gif" name="games" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_btn_greetings.gif" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="images/Master_btn_coloring.gif" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_blue-right.gif" alt="" height="90" width="95"></td>
+        <td><img src="images/Master_green-bottom.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="16">
+        <td height="16">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold"><a name="instructions"></a>To play this game, you will need:</p>
+         <ol>
+          <li type="1" class="instruct_normal"><a href="https://home.netscape.com/computing/download/" title="Netscape">Netscape Navigator 4</a> and above or, <a href="https://www.microsoft.com/windows/ie/download/">Internet Explorer 4</a> and above.</li>
+          <li class="instruct_normal" type="1"><a href="#JSCRIPT"><span class="instruct_bold">Javascript Enabled</span></a></li>
+         </ol> <p class="instruct_bold">Activity Instructions:</p>
+         <ol>
+          <li class="instruct_normal" type="1">Help Caillou match up the leaves.</li>
+          <li class="instruct_normal" type="1">Look at the picture of the leaf in the center of the screen. Use your mouse to choose the match from the six leaves on the right.</li>
+          <li class="instruct_normal" type="1">If you choose the wrong leaf, you will have the chance to try again. Choose the right match and move on to the next level.</li>
+          <li class="instruct_normal" type="1">To continue use your mouse and click on the "play again" arrow.</li>
+         </ol> <p class="instruct_bold"><a name="JSCRIPT"></a>Enabling Javascript in Microsoft Internet Explorer 5 or Later (for Windows):</p>
+         <ol>
+          <li class="instruct_normal" type="1">Open Internet Explorer.</li>
+          <li class="instruct_normal" type="1">On the Tools menu, click Internet Options.</li>
+          <li class="instruct_normal" type="1">On the Security tab, click Internet.</li>
+          <li class="instruct_normal" type="1">Click Custom Level.</li>
+          <li class="instruct_normal" type="1">Scroll down to Active scripting.</li>
+          <li class="instruct_normal" type="1">Click Enable (or Prompt).</li>
+          <li class="instruct_normal" type="1">Click OK.</li>
+          <li class="instruct_normal" type="1">Click Yes.</li>
+          <li class="instruct_normal" type="1">Click OK.</li>
+         </ol> <p class="instruct_bold">Enabling JavaScript in Netscape 7:</p>
+         <ol>
+          <li class="instruct_normal" type="1">Open Netscape.</li>
+          <li class="instruct_normal" type="1">On the Edit menu, click Preferences.</li>
+          <li class="instruct_normal" type="1">Double click Advanced in the Category list.</li>
+          <li class="instruct_normal" type="1">Select Scripts &amp; Plugins from the menu.</li>
+          <li class="instruct_normal" type="1">Under the Enable JavaScript for section, check the box next to Navigator.</li>
+          <li class="instruct_normal" type="1">Check the boxes under Allow scripts to section that you want to allow.</li>
+          <li class="instruct_normal" type="1">Click OK.</li>
+         </ol>
+         <hr width="60%"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

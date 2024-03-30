@@ -1,0 +1,66 @@
+#netbeans project
+###################
+nbproject/
+
+#Flex Unit temp files
+###################
+AmfphpFlexUnit/bin-debug/
+AmfphpFlexUnit/src/FlexUnitApplication.mxml
+AmfphpFlexUnit/.FlexUnitSettings/
+AmfphpFlexUnit/target/
+
+#Example compiled files
+###################
+Examples/Flex/Pizza/bin-debug
+Examples/Flex/TypedObjects/bin-debug
+
+#generated clients
+###################
+Backoffice/ClientGenerator/Generated
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs  #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+BackOffice/ClientGenerator/Generators/AmfphpFlexClientGenerator/Template/bin-debug/*
+
+.DS_Store
+
+AmfphpFlexUnit/src/FlexUnitCompilerApplication.mxml
+
+BackOffice/ClientGenerator/Generators/AmfphpFlashClientGenerator/Template/bin-debug/*
+
+
+Tests/TestData/request.amf
+
+BackOffice/extraConfig.php
+
+phpDocumentor.phar

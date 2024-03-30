@@ -1,0 +1,38 @@
+{% extends 'catinthehat/includes/cithPage.html.twig' %}
+{% set pageTitle = 'The Cat in the Hat Knows a Lot About That . Games | PBS KIDS' %}
+{% set keywds = 'kids games, kids science games, kids animal games, online games for kids, preschool games, preschool science, the cat in the hat, the cat in the hat knows a lot about that' %}
+{% set desc = 'Play kids science games with the Cat in the Hat.' %}
+{% set dataMainAtr = '/catinthehat/js/main-games' %}
+
+
+{% block mainContent %}<div class="main">
+ <div class="main-games" style="display: none">
+  <h2>Games</h2> <img class="cat" alt="Cat in the Hat" src="/catinthehat/assets/graphics/games_cat.png"> <!-- TO ADD NEW GAME LINKS, START COPYING HERE --> <a href="/catinthehat/games/cleaner-upper/"><img class="game" id="game-5" alt="Super Cleaner Upper" src="/catinthehat/assets/graphics/super-cleaner-upper-thumb.png"></a> <a href="/catinthehat/games/hermitshellgame/"><img class="game" id="game-4" alt="Hermit Shell Game" src="/catinthehat/assets/graphics/hermit-shell-thumb.png"></a> <a href="/catinthehat/games/marblecoaster/"><img class="game" id="game-3" alt="Marbleous Marvel Coaster " src="/catinthehat/assets/graphics/game-marble-thumb.png"></a> <!-- END COPYING TO ADD NEW GAME LINKS --> <a href="/catinthehat/games/doyouseemyseahorse/index-mobile.html"><img class="game" id="game-2" alt="Do You See My Seahorse?" src="/catinthehat/assets/graphics/game-2.png"></a> <a href="/catinthehat/games/deepseafollowme/index-mobile.html"><img class="game" id="game-1" alt="Deep Sea Follow Me" src="/catinthehat/assets/graphics/game-1.png"></a> <img class="thing" alt="Thing" src="/catinthehat/assets/graphics/games_thing.png">
+ </div>
+ <div class="footer" style="display: none">
+  <div class="buttons"><a href="/catinthehat/tips/"><img class="tips" alt="Tips" src="/catinthehat/assets/graphics/footer_parent-tips.png"></a> <a href="/catinthehat/about/"><img class="about" alt="About" src="/catinthehat/assets/graphics/footer_about-the-show.png"></a>
+  </div>
+  <div class="logos">
+   <div class="produced">
+    <div class="title">
+     Produced By
+    </div> <a href="http://portfolioentertainment.com/"><img class="link" id="portfolio" src="/catinthehat/assets/graphics/footer/portfolio.png" alt="Portfolio Entertainment"></a> <a href="http://www.collingwoodandco.co.uk/"><img class="link" id="collingwood" src="/catinthehat/assets/graphics/footer/collingwood.png" alt="Collingwood &amp; Co<"></a>
+   </div>
+   <div class="association">
+    <div class="title">
+     In Association With
+    </div> <a href="http://seussville.com/"><img class="link" id="drseuss" src="/catinthehat/assets/graphics/footer/drseuss.png" alt="Seussville"></a> <a href="http://www.randomhousekids.com/"><img class="link" id="randomhouse" src="/catinthehat/assets/graphics/footer/randomhouse.png" alt="Random House Kids"></a> <a href="http://www.kqed.org/"><img class="link" id="kqed" src="/catinthehat/assets/graphics/footer/kqed.png" alt="KQED"></a>
+   </div>
+   <div class="funded">
+    <div class="title">
+     Funded By
+    </div> <a href="http://www.ed.gov/"><img class="link" id="doe" src="/catinthehat/assets/graphics/footer/doe.png" alt="U.S. Department of Education"></a> <a href="http://cpb.org/"><img class="link" id="cpb" src="/catinthehat/assets/graphics/footer/cpb.png" alt="Corporation for Public Broadcasting"></a>
+   </div>
+  </div>
+  <div class="legalText">
+   <p>The Cat in the Hat Knows a Lot About That! Logo and word mark © 2010 Dr. Seuss Enterprises, L.P. Collingwood O'Hare Productions Limited, and Portfolio Entertainment Inc. All Rights reserved.</p>
+   <p>The contents of this Web site were developed under a cooperative agreement, #PRU295A100025, from the U.S. Department of Education. However, those contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government.</p>
+  </div>
+ </div>
+</div>{% endblock %}
+

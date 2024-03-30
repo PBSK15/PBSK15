@@ -1,0 +1,718 @@
+ul.recipes li {
+	float:left;
+	display:block;
+	text-align:center;
+	margin:0 5px;
+	width:144px;
+	height:140px;
+	overflow:hidden;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position:relative;
+}
+ul.recipes li a.main {
+	color:#20364b;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:75%;
+	line-height:1.25em;
+	text-decoration:none;
+	display:block;
+}
+ul.recipes li a.main span{
+	display:block;
+	width:100%;
+	max-width:144px;
+	margin:0 auto;
+	}
+
+ul.recipes li a.edit {
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+
+ul.recipes li a.main img{
+	width:132px;
+}
+
+.recipesHeader {
+	height:182px;
+	max-height:182px;
+	background-image:url("../images/food/FeaturedFoodBG_wide.jpg");	
+	overflow:hidden;
+}
+.featuredRecipe a{
+	color:#20364b;
+	text-decoration: none;
+}
+
+.featuredRecipe {
+	color:#20364b;
+	float:left;
+	width:58%;
+}
+.featuredRecipe img.food{
+	float:left;
+	display:block;
+	width:215px;
+	margin:0 10px 10px;
+}
+.featuredRecipe img.featured{
+	margin-top:19px;
+}
+.featuredRecipe h1{
+	font-family:"cafeteriabold", sans-serif;
+	font-size:240%;
+	line-height:1em;
+	margin:4px 0 10px 0;
+}
+.featuredRecipe p{
+	margin:0;
+	font-size:85%;
+	line-height:1.25em;
+}
+
+.foodFact .title{
+	font-family:"cafeteriabold", sans-serif;
+	font-size:180%;
+}
+
+.foodFact {
+	background-image:url("../images/food/angle.svgz");	
+	background-size:100% 100%;
+	-ms-behavior: url(/lunchlab/assets/polyfills/backgroundsize.min.htc);
+	color:#fff;
+	float:right;
+	width:42%;
+	height:100%;
+}
+.no-svg .foodFact {
+	background-image:url("../images/food/angle.png");	
+}
+
+.foodFact img.fact {
+	display:block;
+	width:100px;
+	float:left;
+	margin:42px 15px 42px 40px;
+}
+
+.foodFact .title {
+	margin:42px 10px 4px 0;
+	font-weight:bold;
+	line-height:1em;
+
+}
+
+.foodFact p {
+	font-size:90%;
+	font-size:85%;
+	margin:0 20px 0 0;
+	line-height:1.25em;
+}
+
+.recipeSearch {
+	background-color:#213b4e;
+	text-align: center;
+	display: block;
+}
+.recipeSearch #mixie{
+	display:block;
+	float:left;
+	width:20%;
+	margin:10px 2.5%;
+}
+
+.searchText:focus {
+	background-color:#ffe;
+}
+
+.searchText {
+	background-image:url("../images/food/magnifying.svgz");
+	background-position:12px 10px;
+	background-repeat:no-repeat;
+	border-radius: 100px;
+	padding: 8px 20px 8px 40px;
+	font-size: 20px;
+	border: 0;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	outline:0;
+	margin:10px 0;
+	width:50%;
+	display:block;
+	float:left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.no-svg .searchText {
+	background-image:url("../images/food/magnifying.png");
+}
+#searchGo {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	padding-right:30px;
+	margin:10px 5% 10px 0;
+	width:20%;
+	font-size:100%;
+	display:block;
+	float:left;
+}
+
+ul.searchSections {
+	display: block;
+    float: right;
+    margin: 0 5% 10px 0;
+    width: 70%;
+}
+ul.searchSections li{
+	display:inline-block;
+	zoom:1; 
+	*display:inline;
+	width:19%;
+	margin:4px 0.5%;	
+}
+ul.searchSections a img{
+	width:24px;
+	height:24px;
+	margin-right:3px;
+}
+ul.searchSections a.button.minor {
+	display:block;
+	font-family:"cafeteriabold";
+	padding:2px 3px;
+	font-size:80%;
+	text-shadow:-1px 2px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 20px 0 0 rgba(255, 255, 255, 0.2) inset;
+}
+.touch .lunchlab ul.searchSections a.button.minor:active,
+.no-touch .lunchlab ul.searchSections a.button.minor:hover,
+ul.searchSections a.button.minor.selected {
+	box-shadow: 0 20px 0 0 rgba(255, 255, 255, 0.2) inset, 0 0 0 1px #213b4e inset, 0 0 0 2px #FFF;
+	text-shadow:-1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.touch .lunchlab ul.searchSections a.button.minor.Holiday,
+.no-touch .lunchlab ul.searchSections a.button.minor.Holiday
+ {
+	background-color:#f05050;
+}
+.touch .lunchlab ul.searchSections a.button.minor.Vegetarian,
+.no-touch .lunchlab ul.searchSections a.button.minor.Vegetarian {
+	background-color:#3bb86a;
+}
+.touch .lunchlab ul.searchSections a.button.minor.Easy,
+.no-touch .lunchlab ul.searchSections a.button.minor.Easy {
+	background-color:#88c10c;
+}
+.touch .lunchlab ul.searchSections a.button.minor.Dessert,
+.no-touch .lunchlab ul.searchSections a.button.minor.Dessert {
+	background-color:#a166f1;
+}
+.touch .lunchlab ul.searchSections a.button.minor.Snack,
+.no-touch .lunchlab ul.searchSections a.button.minor.Snack {
+	background-color:#5480da;
+}
+.touch .lunchlab ul.searchSections a.button.minor.Mealtime,
+.no-touch .lunchlab ul.searchSections a.button.minor.Mealtime {
+	background-color:#2cd2b5;
+}
+.touch .lunchlab ul.searchSections a.button.minor.Warm,
+.no-touch .lunchlab ul.searchSections a.button.minor.Warm {
+	background-color:#e49c00;
+}
+.touch .lunchlab ul.searchSections a.button.minor.Cold,
+.no-touch .lunchlab ul.searchSections a.button.minor.Cold {
+	background-color:#34c5df;
+}
+.touch .lunchlab ul.searchSections a.button.minor.Sweet,
+.no-touch .lunchlab ul.searchSections a.button.minor.Sweet {
+	background-color:#fd8ee2;
+}
+
+
+
+ul.searchSections a.minor.button.allrecipes{
+	background-color: #F08251;
+    box-shadow: 0 20px 0 0 rgba(255, 255, 255, 0.2) inset;
+    text-shadow:-1px 2px 0 rgba(0, 0, 0, 0.5);
+
+}
+ul.searchSections a.minor.button.allrecipes:hover, ul.searchSections.All a.minor.button.allrecipes{
+	box-shadow: 0 20px 0 0 rgba(255, 255, 255, 0.2) inset, 0 0 0 1px #213b4e inset, 0 0 0 2px #FFF;
+	text-shadow:-1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+/* These 2 styles are to work around the "All Recipes" button being "selected" by canteen on food tag pages */
+ul.searchSections.All a.minor.button.allrecipes{
+	background-color: #F08251;
+    text-shadow: -1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.noRecipes {
+	text-align:center;
+	padding:20px;
+	font-size:160%;
+}
+
+ul.noStyle.recipes{
+	margin:0 0 10px 0;
+}
+
+.recipe .single{
+	background-image:url('../images/food/recipeBG.jpg');
+	background-repeat:repeat-y;
+	background-position: 0 800px;
+	position: relative;
+}
+.recipe .single #corporalCup{
+	width:40%;
+	position:absolute;
+	top:-3%;
+	right:-5%;
+	z-index:111;
+}
+
+.lunchlab .recipe .single a.back.button.minor, .lunchlab .single .recipe a.back.button.minor.selected {
+    background-color: #5dabbd;
+    box-shadow: 0 20px 0 0 rgba(255, 255, 255, 0.2) inset, 0 0 0 1px #FFFFFF inset, 0 0 0 2px #67989F;
+    text-shadow: -2px 2px 0 #67989F;
+}
+.touch .lunchlab .single .recipe a.back.button.minor.selected:active, .no-touch .lunchlab .recipe .single a.back.button.minor.selected:hover{
+    background-color: #F08251;
+    box-shadow: 0 20px 0 0 rgba(255, 255, 255, 0.2) inset, 0 0 0 1px #FFFFFF inset, 0 0 0 2px #985E14;
+    text-shadow: -2px 2px 0 #8E360E;
+}
+.recipe .single a.back{
+	float:left;
+	margin:20px 3% 10px;
+	width:13%;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+	text-align: center;
+}
+.recipe .single .recipeInfo {
+	padding: 20px;
+	float:right;
+	width:69%;
+	margin-top:-80px;
+	background-color:#fff;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+	position: relative;
+}
+.recipe .single .recipeInfo .description,
+.recipe .single .recipeInfo h1{
+	width:65%;
+}
+.recipe .single .foodImage,
+.recipe .single .download,
+.recipe .single #videoBox,
+.recipe .single #playButton{
+	width:25%;
+	float:left;
+	clear:left;
+	margin:5px 3%;
+	position:relative;
+}
+
+.recipe .single .recipeVideo {
+	height: 0;
+	width: 100%;
+	padding-bottom: 56.25%; /* 16:9 proportions */
+	overflow: hidden;
+	position: relative;
+	margin:10px 0;
+}
+
+.recipe .single .recipeVideo #videoPlayer {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.recipe .single .playPause,
+.recipe .single .download a {
+	width:100%;
+	text-align:center;
+}
+.recipe .single h1, .recipe .single h2, .recipe .single h3 {
+	color:#fa9262;
+	margin-bottom:5px;
+	line-height:1.125em;
+}
+.recipe .single p{
+	font-size:85%;
+	margin:0 0 10px 0;
+}
+.recipe .single ul{
+	margin:0 0 10px 0;
+	font-size:85%;
+	padding:0 0 0 1.25em;
+}
+.recipe .single .tags a{
+	background-color:#aaf3f5;
+	color:#20364b;
+	font-size:75%;
+	padding:3px 6px;
+	text-decoration:none;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.recipe .single .tags a:hover{
+	background-color:#FA9262;
+}
+.recipe .single .info{
+	width:300px;
+	display:block;
+	float:left;
+	position: relative;
+}
+.recipe .single .info div{
+	display:block;
+	width:23%;
+	margin:0 1%;
+	float:left;
+	text-align:center;
+	position: relative;
+	font-family:"cafeteriabold", sans-serif;
+}
+.recipe .single .info div.vegetarian{
+	color:#7ed245;
+}
+.recipe .single .info div.time{
+	color:#398be8;
+}
+.recipe .single .info div.serves{
+	color:#6925b6;
+}
+.recipe .single .info div.difficulty{
+	color:#ffb634;
+}
+.recipe .single .info div span.title{
+	display:block;
+	width:100%;
+	text-transform:uppercase;
+}
+.recipe .single .info div div.servingNum,
+.recipe .single .info div img{
+	width:80%;
+	margin:4px 10%;
+}
+.recipe .single .info div div.servingNum{
+	background-image:url("../images/food/Serves.svgz");
+	background-size:100% auto;
+	-ms-behavior: url(/lunchlab/assets/polyfills/backgroundsize.min.htc);
+	background-repeat:no-repeat;
+	padding-bottom:80%;
+}
+.no-svg .recipe .single .info div div.servingNum{
+	background-image:url("../images/food/Serves.png");
+}
+.recipe .single .info div div.servingNum span.num{
+	display:block;
+	position:absolute;
+	width:100%;
+	left:0;
+	top:10%;
+	color:#fff;
+	font-size:200%;
+}
+.recipeContent{
+	display:block;
+	clear:left;
+}
+
+@media all and (max-width : 972px) {
+	ul.recipes li {
+		width:18%;
+		margin:0 1%;
+	}
+
+	.recipe .single .recipeInfo {
+		width:68%;
+	}
+	.recipe .single .foodImage,
+	.recipe .single .download,
+	.recipe .single #videoBox,
+	.recipe .single #playButton{
+		width:26%;
+	}
+}
+@media all and (max-width : 818px) {
+	.featuredRecipe h1{
+		font-size:180%;
+		margin:4px 0 4px 0;
+	}
+	.featuredRecipe p, .foodFact p{
+		font-size:80%;
+	}
+	.featuredRecipe img.food{
+		width:190px;
+		margin:15px 10px 21px 5px;
+	}
+	.featuredRecipe img.featured{
+		width:110px;
+	}
+	.foodFact .title{
+		font-size:130%;
+	}
+	.foodFact img.fact {
+		width:80px;
+		margin:52px 5px 52px 30px;
+	}
+
+	.recipeSearch #mixie{
+		margin:10px 1%;
+	}
+	ul.searchSections{
+		margin-right:2%;
+		width:76%;
+	}
+
+	.searchText {
+		width:55%;
+	}
+	#searchGo {
+		margin-right:2%;
+		width:21%;
+	}
+
+	ul.recipes li {
+		width:21%;
+		margin:0 2%;
+	}
+
+	.recipe .single .recipeInfo {
+		width:64%;
+	}
+	.recipe .single .foodImage,
+	.recipe .single .download,
+	.recipe .single #videoBox,
+	.recipe .single #playButton{
+		width:30%;
+	}
+}
+@media all and (max-width : 664px) {
+	.featuredRecipe img.food{
+		width:150px;
+		margin:23px 5px 38px;
+	}
+	.featuredRecipe img.featured{
+		width:90px;
+	}
+	.featuredRecipe h1{
+		font-size:140%;
+	}
+	.featuredRecipe p, .foodFact p{
+		font-size:75%;
+	}
+	.foodFact .title{
+		font-size:120%;
+	}
+	.foodFact img.fact {
+		width:74px;
+		margin:55px 5px 55px 10px;
+	}
+
+	.recipeSearch #mixie{
+		display:none;
+	}
+	.searchText {
+		width:62%;
+		margin-left:3%;
+	}
+	#searchGo {
+		margin-right:3%;
+		width:32%;
+	}
+	ul.searchSections{
+		width:94%;
+		margin:0 3% 10px;
+	}
+
+	ul.recipes li {
+		width:29.33%;
+		margin:0 2%;
+	}
+
+	.recipe .single .recipeInfo {
+		width:59%;
+	}
+	.recipe .single .foodImage,
+	.recipe .single .download,
+	.recipe .single #videoBox,
+	.recipe .single #playButton{
+		width:35%;
+	}
+}
+/** For 0px - 599px */
+@media all and (max-width : 600px) {
+	.recipe .single .info{
+		width:100%;
+	}
+	.recipe .single .info div div.servingNum span.num{
+		font-size:150%;
+	}
+	.recipe .single #corporalCup{
+		display:none;
+	}
+	.recipe .single .recipeInfo .description,
+	.recipe .single .recipeInfo h1{
+		width:100%;
+	}
+	.recipe .single{
+		background-position:-12px 720px;
+	}
+	.recipe .single .recipeInfo {
+		margin-left:0;
+		padding:20px;
+	}
+
+	.recipe .single .recipeInfo {
+		width:54%;
+	}
+	.recipe .single .foodImage,
+	.recipe .single .download,
+	.recipe .single #videoBox,
+	.recipe .single #playButton{
+		width:40%;
+	}
+
+	.frame.recipe{
+		padding-bottom:0;
+	}
+	.frame.recipe .bottomBar{
+		display:none;
+	}
+}
+@media all and (max-width : 510px) {
+	.recipe .single .info{
+		font-size:85%;
+	}
+	.recipe .single .info div div.servingNum span.num{
+		top:5%;
+	}
+	.recipesHeader {
+		height:inherit;
+		max-height:inherit;
+		background-image:url("../images/food/FeaturedFoodBG_tall.jpg");	
+	}
+	.featuredRecipe, .foodFact{
+		float:none;
+		width:100%;
+	}
+	.featuredRecipe img.featured{
+		margin-top:10px;
+	}
+	.featuredRecipe{
+		height:150px;
+	}
+	.featuredRecipe img.food{
+		width:140px;
+		margin:13px 5px;
+	}
+	.featuredRecipe p{
+		margin-right:20px;
+	}
+	.foodFact{
+		padding:10px 0;
+		background-image:none;
+		background-color:rgba(19, 38, 48, 0.76);
+		height:95px;
+	}
+	.foodFact .title{
+		font-size:100%;
+		margin:0 10px 0 0;
+	}
+	.foodFact img.fact {
+		width:95px;
+		margin:0 20px;
+	}
+
+	ul.searchSections a img {
+		margin-right:1px;
+	}
+	ul.searchSections li{
+		width:23%;
+		margin:4px 1%;	
+	}
+	ul.searchSections a.button.minor {
+		font-size:66%;
+		padding:2px 1px;
+	}
+
+	ul.recipes li {
+		width:46%;
+		margin:0 2%;
+	}
+
+	.recipe .single a.back{
+		width:40%;
+	}
+}
+@media all and (max-width : 440px) {
+	.recipe .single .info{
+		width:90%;
+		margin:0 5%;
+	}
+	.recipe .single .info div div.servingNum span.num{
+		top:20%;
+	}
+
+	.recipe .single{
+		background-size:100% auto;
+		-ms-behavior: url(/lunchlab/assets/polyfills/backgroundsize.min.htc);
+		background-position:0 850px;
+	}
+	.recipe .single .recipeInfo {
+		width:100%;
+		margin:0;
+		float:none;
+	}
+	.recipe .single .foodImage,
+	.recipe .single .download,
+	.recipe .single #videoBox,
+	.recipe .single #playButton{
+		width:94%;
+		float:none;
+	}
+}
+@media all and (max-width : 356px) {
+	.recipe .single .info div div.servingNum span.num{
+		top:15%;
+	}
+	.featuredRecipe{
+		height:160px;
+	}
+	.featuredRecipe img.food{
+		width:99px;
+		margin:42px 5px;
+	}
+	.featuredRecipe h1{
+		margin-right:10px;
+		font-size:120%;
+	}
+	.featuredRecipe p {
+    	margin-right: 10px;
+	}
+	.foodFact img.fact {
+		width:69px;
+		margin:13px 20px;
+	}
+
+	ul.searchSections li{
+		width:31.33%;
+		margin:4px 1%;	
+	}
+
+	ul.recipes li a.main img{
+		width:90%;
+	}
+	ul.recipes li a.main span{
+		max-width:100%;
+	}
+}

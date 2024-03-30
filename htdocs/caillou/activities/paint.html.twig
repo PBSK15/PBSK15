@@ -1,0 +1,119 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Activity . Paint Activity . Intro' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, PBS, kids, children, games, animation, readytolearn' %}
+{% set desc = 'The Official Caillou Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_gamesA-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_gamesA.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_coloringA-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_coloringA.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_greetingsA-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_greetingsA.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master_caillouA-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master_caillouA.gif";			back_on = new Image( );		back_on.src = "images/Master_backA-over.gif";		back_off = new Image( );		back_off.src = "images/Master_backA.gif";				play_on = new Image( );		play_on.src = "paint/images/paint_play-over.gif";		play_off = new Image( );		play_off.src = "paint/images/paint_play.gif";				flashplayer_on = new Image( );		flashplayer_on.src = "paint/images/paint_flashtext-over.gif";		flashplayer_off = new Image( );		flashplayer_off.src = "paint/images/paint_flashtext.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="images/bkg_orange_ball2.gif" bgcolor="#f5822b" text="black" link="black" vlink="#0077c0" alink="#ed1c24" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="https://pbskids.org/"><img src="images/Master_pbsA.gif" alt="PBS Kids Homepage" name="PBSKidsA" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_topleftA.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/Master_caillouA.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_toprightA.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="activities.html"><img src="images/Master_backA.gif" alt="Back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_leftsideA.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div align="center">
+          <table width="565" border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td colspan="5"><img src="paint/images/paint_title.gif" alt="Painting Activity" height="43" width="565"></td>
+             <td><img src="paint/images/spacer.gif" alt="" height="43" width="1"></td>
+            </tr>
+            <tr>
+             <td rowspan="2"><img src="paint/images/paint_caillou_top.jpg" alt="" height="192" width="243"></td>
+             <td rowspan="5"><img src="paint/images/paint_leftborder.gif" alt="Border" height="313" width="28"></td>
+             <td colspan="2"><img src="paint/images/paint_topborder.gif" alt="Border" height="22" width="267"></td>
+             <td rowspan="5"><img src="paint/images/paint_rightborder.gif" alt="Border" height="313" width="27"></td>
+             <td><img src="paint/images/spacer.gif" alt="" height="22" width="1"></td>
+            </tr>
+            <tr>
+             <td rowspan="2" colspan="2"><img src="paint/images/paint_text.gif" alt="Have fun painting Caillou in different poses using your mouse. Just choose a brush, a color and start painting. You can even start over if you don't like your first try." height="207" width="267"></td>
+             <td><img src="paint/images/spacer.gif" alt="" height="170" width="1"></td>
+            </tr>
+            <tr>
+             <td rowspan="3"><img src="paint/images/paint_caillou_bottom.jpg" alt="" height="121" width="243"></td>
+             <td><img src="paint/images/spacer.gif" alt="" height="37" width="1"></td>
+            </tr>
+            <tr>
+             <td><a onmouseover="act('flashplayer')" onmouseout="inact('flashplayer')" href="https://www.macromedia.com/software/flashplayer/" title="Macromedia Flash Player"><img src="paint/images/paint_flashtext.gif" alt="You will need the free Flash player for this game. Click here to get it." name="flashplayer" height="62" width="179" border="0"></a></td>
+             <td><a onmouseover="act('play')" onmouseout="inact('play')" href="paint/index.html"><img src="paint/images/paint_play.gif" alt="Play" name="play" height="62" width="88" border="0"></a></td>
+             <td><img src="paint/images/spacer.gif" alt="" height="62" width="1"></td>
+            </tr>
+            <tr>
+             <td colspan="2"><img src="paint/images/paint_bottomborder.gif" alt="Border" height="22" width="267"></td>
+             <td><img src="paint/images/spacer.gif" alt="" height="22" width="1"></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+        <td><img src="images/Master_rightsideA.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_cornerleftA.gif" alt="" height="90" width="92"></td>
+        <td><img src="images/Master_bottomleftA.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="images/Master_gamesA.gif" alt="" name="games" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_greetingsA.gif" alt="" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="images/Master_coloringA.gif" alt="" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_bottomrightA.gif" alt="" height="90" width="95"></td>
+        <td><img src="images/Master_cornerrightA.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="20">
+        <td height="20">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold">Activity Instructions:</p> <p class="instruct_normal">To play this game, you will need the free Macromedia Flash player. Click <a href="https://www.macromedia.com/software/flashplayer/" title="Macromedia Flash Player">here</a> to get it. If you already have it installed on your computer, click on the Play button. Here are the simple instructions to start the painting activity:</p>
+         <ol>
+          <li class="instruct_normal">Choose between two different brush sizes simply by clicking on the brush you like.</li>
+          <li class="instruct_normal">Then, choose a color and then apply it wherever you want on the Caillou drawing outline.</li>
+          <li class="instruct_normal">You can also use the paint bottle, pick a color of your choice and fill the different parts of the drawing.</li>
+          <li class="instruct_normal">If you are not happy with it, you can always click on the eraser button to clear the paint and start over again.</li>
+         </ol>
+         <hr noshade size="1" width="60%" color="#FFFFFF&quot;"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><font color="black"><!-- Footer nav bar goes here --></font>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

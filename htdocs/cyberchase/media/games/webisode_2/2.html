@@ -1,0 +1,110 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 2 . Panel 2 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/2bg2.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel2_02.gif";
+n12 = new Image();
+n12.src = "images/panel2b_02.gif";
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 1000);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "3") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+
+if (document.images) { // Preloaded images
+n21 = new Image();
+n21.src = "images/panel2_06.gif";
+n22 = new Image();
+n22.src = "images/panel2b_06.gif";
+n23 = new Image();
+n23.src = "images/panel2c_06.gif";
+}
+function timeimgsb(numb) { // Reusable timer
+thetimer = setTimeout("imgturnb('" +numb+ "')", 1600);
+}
+function imgturnb(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "4") { // This will loop the image
+document["n2"].src = eval("n21.src");
+timeimgsb('2');
+}
+else { document["n2"].src = eval("n2" + numb + ".src");
+timeimgsb(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<BODY  onload="timeimgs('2'); timeimgsb('2')" style="margin: 0px">
+
+
+	
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/panel2_01.gif" WIDTH=551 HEIGHT=58 alt="" border="0" usemap="#panel"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel2_02.gif" WIDTH=68 HEIGHT=59 alt="" border="0" name="n1"></TD>
+		<TD COLSPAN=2><IMG SRC="images/panel2_03.gif" WIDTH=483 HEIGHT=59 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=3><IMG SRC="images/panel2_04.gif" WIDTH=452 HEIGHT=283 alt="In need of a cybercraft able to go anywhere in Cyberspace, Hacker builds the Grim Wreaker.  DIGIT: Ohh... I wish I was back with Motherboard!  HACKER: Hurry, my foolishly feathered fiend, for Cyberspace wil soon be mine! Hahaha!" border="0"></TD>
+		<TD><IMG SRC="images/panel2_05.gif" WIDTH=99 HEIGHT=51 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel2_06.gif" WIDTH=99 HEIGHT=40 alt="" border="0" name="n2"></TD>
+	</TR>
+	<TR>
+		<TD><img src="images/panel2_07.gif" width=99 height=192 alt="" border="0" usemap="#next"></TD>
+	</TR>
+		<TR>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=68 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=384 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=99 HEIGHT=1 alt="" border="0"></TD>
+	</TR>
+</TABLE>
+
+	
+</td></tr></table>
+
+
+
+
+<map name="panel">
+<area alt="Webisode 2" coords="247,10,360,40" href="1.html">
+<area alt="How It All Started" coords="51,13,240,37" href="../webisodes-global/how_started.html">
+</map>
+
+<map name="next">
+<area alt="next" coords="20,127,72,182" href="3.html">
+</map>
+
+
+
+</BODY>
+</HTML>

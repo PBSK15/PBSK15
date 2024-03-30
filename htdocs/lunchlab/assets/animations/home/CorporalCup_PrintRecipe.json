@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "CorporalCup_PrintRecipe.m4a",
+    "CorporalCup_PrintRecipe.oga",
+    "CorporalCup_PrintRecipe.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "CorporalCup_PrintRecipe": {
+      "start": 6,
+      "end": 12.217210884353742,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

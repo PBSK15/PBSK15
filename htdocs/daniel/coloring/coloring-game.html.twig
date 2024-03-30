@@ -1,0 +1,17 @@
+{% extends 'daniel/includes/danielPage.html.twig' %}
+{% set pageTitle = 'Coloring | Daniel Tiger\'s Neighborhood | PBS KIDS' %}
+{% set hasGameSpecificJs = false %}
+{% set gameSpecificJs = '' %}
+{% set jsInclude = 'coloring' %}
+{% set bodyOpeningTag = '<body class="headband-hidden" id="player">' %}
+
+
+{% block mainContent %}<iframe id="coloringActivity" src="/daniel/coloring/activity/index.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" name="Coloring Activity"> &lt;p&gt;Oh no! Your web browser does not support this activity. To color with Daniel, update your browser.&lt;/p&gt; </iframe>{% endblock %}
+
+
+
+
+{% block lowerBand %}{% endblock %}
+
+
+{% set containsFooter = false %}

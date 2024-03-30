@@ -1,0 +1,123 @@
+/* CSS Document */
+#header {
+	position:relative;
+	left:auto;
+	right:auto;
+	top:10px;
+}
+#footer {
+	position:relative;
+	margin-top:30px;
+	padding-bottom:5px;
+	left:auto;
+	right:auto;
+}
+#main-center {
+	position:relative;
+	left:auto;
+	right:auto;
+	height:auto;
+}
+#main {
+	position:relative;
+	top:1em;
+	/*height:auto;*/
+	width:600px;
+}
+#nav-left {
+	position:absolute;
+	top:0;
+	left:-140px;
+	height:auto;
+	width:140px;
+}
+#content {
+	position:relative;
+	width:600px;
+	/*margin-left:145px;*/
+	overflow:visible;
+}
+/********************************/
+body {
+	margin:0;
+	padding:0;
+	overflow:auto;
+}
+div {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+}
+p {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+#nav-left p {
+	line-height:10px;
+}
+#content p {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#2121E1;
+}
+#content a {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+#content a:visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#CC0000;
+}
+#content a:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FF0000;
+}
+#content a:active {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FF0000;
+}
+a.footer {
+	text-decoration:underline;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+}
+a.footer:visited {
+	color:#CC0000;
+}
+a.footer:hover, a.footer:active {
+	color:#FF0000;
+}
+.formAlign {
+	line-height:1.8em;
+}
+.instruct_normal { 
+	color:black;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+.instruct_bold { 
+	color:black;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+.grownups_bold_red
+{
+	color:#ed1c24;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+.defaultText {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#2121E1;
+}

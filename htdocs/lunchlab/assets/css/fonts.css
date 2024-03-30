@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'lunchlab';
+	src:url('../fonts/lunchlab.eot?3oj62k');
+	src:url('../fonts/lunchlab.eot?#iefix3oj62k') format('embedded-opentype'),
+		url('../fonts/lunchlab.woff?3oj62k') format('woff'),
+		url('../fonts/lunchlab.ttf?3oj62k') format('truetype'),
+		url('../fonts/lunchlab.svgz?3oj62k#lunchlab') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'cafeteriabold';
+	src: url('../fonts/cafeteria-bold-webfont.eot');
+	src: url('../fonts/cafeteria-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/cafeteria-bold-webfont.woff') format('woff'),
+		url('../fonts/cafeteria-bold-webfont.ttf') format('truetype'),
+		url('../fonts/cafeteria-bold-webfont.svgz#cafeteriabold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-admin-page-promos,
+.icon-admin-printables,
+.icon-admin-recipes,
+.icon-admin-food-facts,
+.icon-admin-music,
+.icon-admin-games,
+.icon-admin-videos,
+.icon-close,
+.icon-play,
+.icon-pause,
+.icon-volume,
+.icon-volume-mute,
+.icon-next,
+.icon-previous {
+	font-family: 'lunchlab';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-admin-page-promos:before {
+	content: "\e60c";
+}
+.icon-admin-music:before {
+	content: "\e602";
+}
+.icon-admin-videos:before {
+	content: "\e604";
+}
+.icon-admin-games:before {
+	content: "\e603";
+}
+.icon-admin-printables:before {
+	content: "\e605";
+}
+.icon-admin-recipes:before {
+	content: "\e600";
+}
+.icon-admin-food-facts:before {
+	content: "\e601";
+}
+.icon-close:before {
+	content: "\e60d";
+}
+.icon-play:before {
+	content: "\e606";
+}
+.icon-pause:before {
+	content: "\e607";
+}
+.icon-previous:before {
+	content: "\e60a";
+}
+.icon-next:before {
+	content: "\e60b";
+}
+.icon-volume:before {
+	content: "\e608";
+}
+.icon-volume-mute:before {
+	content: "\e609";
+}

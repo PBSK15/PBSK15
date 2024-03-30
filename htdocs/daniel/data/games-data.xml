@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+  <game>
+    <name>Baby Bath</name>
+    <thumb>game-thumb_baby-bath.png</thumb>
+    <featurethumb>featured-game_baby-bath.png</featurethumb>
+    <link>baby-bath</link>
+    <html5>true</html5>
+    <audio>audio-bathtime-game</audio>
+  </game>
+
+  <game>
+    <name>Sandcastle</name>
+    <thumb>game-thumb_sandcastle.png</thumb>
+    <featurethumb>featured-game_sandcastle.png</featurethumb>
+    <link>sandcastle</link>
+    <html5>true</html5>
+    <audio>audio-sandcastle-game</audio>
+  </game>
+
+  <game>
+    <name>Drive Trolley</name>
+    <thumb>game-thumb_trolley.png</thumb>
+    <featurethumb>featured-game_trolley.png</featurethumb>
+    <link>drive-trolley</link>
+    <html5>false</html5>
+    <audio>audio-trolley-game</audio>
+  </game>
+
+  <game>
+    <name>Tea Party</name>
+    <thumb>game-thumb_teaparty.png</thumb>
+    <featurethumb>featured-game_teaparty.png</featurethumb>
+    <link>tea-party</link>
+    <html5>false</html5>
+    <audio>audio-teaparty-game</audio>
+  </game>
+
+  <game>
+    <name>Make Believe</name>
+    <thumb>game-thumb_makebelieve.png</thumb>
+    <featurethumb>featured-game_makebelieve.png</featurethumb>
+    <link>make-believe</link>
+    <html5>false</html5>
+    <audio>audio-makebelieve-game</audio>
+  </game>
+
+  <game>
+    <name>Doctor Daniel</name>
+    <thumb>game-thumb_doctor.png</thumb>
+    <featurethumb>featured-game_doctor.png</featurethumb>
+    <link>doctor-daniel</link>
+    <html5>false</html5>
+    <audio>audio-doctor-game</audio>
+  </game>
+
+  <game>
+    <name>My Fishtank</name>
+    <thumb>game-thumb_fishtank.png</thumb>
+    <featurethumb>featured-game_fishtank.png</featurethumb>
+    <link>my-fish-tank</link>
+    <html5>false</html5>
+    <audio>audio-fish-game</audio>
+  </game>
+
+  <game>
+    <name>My Bedtime</name>
+    <thumb>game-thumb_bedroom.png</thumb>
+    <featurethumb>featured-game_bedroom.png</featurethumb>
+    <link>my-bedtime</link>
+    <html5>false</html5>
+    <audio>audio-bedtime-game</audio>
+  </game>
+
+  <game>
+    <name>In My Bathroom</name>
+    <thumb>game-thumb_bathroom.png</thumb>
+    <featurethumb>featured-game_bathroom.png</featurethumb>
+    <link>in-my-bathroom</link>
+    <html5>false</html5>
+    <audio>audio-bathroom-game</audio>
+  </game>
+
+  <game>
+    <name>Feel the Music</name>
+    <thumb>game-thumb_music.png</thumb>
+    <featurethumb>featured-game_music.png</featurethumb>
+    <link>feel-the-music</link>
+    <html5>false</html5>
+    <audio>audio-music-game</audio>
+  </game>
+
+  <game>
+    <name>Make a Card</name>
+    <thumb>game-thumb_creativity.png</thumb>
+    <featurethumb>featured-game_creativity.png</featurethumb>
+    <link>make-a-card</link>
+    <html5>false</html5>
+    <audio>audio-cardcreator-game</audio>
+  </game>
+
+<!--
+  <game>
+    <name>Dress Up</name>
+    <thumb>game-thumb_dress-up.png</thumb>
+    <featurethumb>featured-game_dress-up.png</featurethumb>
+    <link>dress-up</link>
+    <html5>true</html5>
+    <audio>audio-dress-up-game</audio>
+  </game>
+-->
+</data>

@@ -1,0 +1,111 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games . Dress Caillou . Intro' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_btn_games-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_btn_games.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_btn_coloring-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_btn_coloring.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_btn_greetings-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_btn_greetings.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master_caillou-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master_caillou.gif";			back_on = new Image( );		back_on.src = "images/Master_back-over.gif";		back_off = new Image( );		back_off.src = "images/Master_back.gif";				help_on = new Image( );		help_on.src = "dresscaillou/images/dress_help-over.gif";		help_off = new Image( );		help_off.src = "dresscaillou/images/dress_help.gif";				play_on = new Image( );		play_on.src = "dresscaillou/images/dress_play-over.gif";		play_off = new Image( );		play_off.src = "dresscaillou/images/dress_play.gif";				shockwave_on = new Image( );		shockwave_on.src = "dresscaillou/images/dress_shockwave-over.gif";		shockwave_off = new Image( );		shockwave_off.src = "dresscaillou/images/dress_shockwave.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="images/bkg_blue-bfly2.gif" bgcolor="#00acd5" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="http://pbskids.org/"><img src="images/Master_pbs.gif" alt="PBS Kids Homepage" name="PBSKidsA" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_yellow-left.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/Master_caillou.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_yellow-right.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="../activities/activities.html"><img src="images/Master_back.gif" alt="Back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_red.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div align="center">
+          <table width="566" border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td colspan="5"><img src="dresscaillou/images/dress_title.gif" alt="Dress Caillou" height="36" width="566"></td>
+            </tr>
+            <tr>
+             <td><a href="dresscaillou/index.html"><img src="dresscaillou/images/dress_cailloutop.gif" alt="Caillou in front of the window" height="164" width="242" border="0"></a></td>
+             <td rowspan="4"><img src="dresscaillou/images/dress_borderleft.gif" alt="Left border" height="320" width="21"></td>
+             <td colspan="2"><img src="dresscaillou/images/dress_texttop.gif" alt="Learning to choose the right clothes can be challenging sometimes but it can also be really fun! Help Caillou get dressed!" height="164" width="269"></td>
+             <td rowspan="4"><img src="dresscaillou/images/dress_borderright.gif" alt="Right border" height="320" width="34"></td>
+            </tr>
+            <tr>
+             <td rowspan="3"><a href="dresscaillou/index.html"><img src="dresscaillou/images/dress_cailloubottom.gif" alt="Caillou in front of the window" height="156" width="242" border="0"></a></td>
+             <td><img src="dresscaillou/images/dress_textbottom.gif" alt="The free Shockwave plug-in is needed to play." height="66" width="190"></td>
+             <td><a onmouseover="act('help')" onmouseout="inact('help')" href="#Instructions"><img src="dresscaillou/images/dress_help.gif" alt="Help" name="help" height="66" width="79" border="0"></a></td>
+            </tr>
+            <tr>
+             <td><a onmouseover="act('shockwave')" onmouseout="inact('shockwave')" href="http://www.macromedia.com/shockwave/download/" title="Shockwave"><img src="dresscaillou/images/dress_shockwave.gif" alt="Click here to get it." name="shockwave" height="57" width="190" border="0"></a></td>
+             <td><a onmouseover="act('play')" onmouseout="inact('play')" href="dresscaillou/index.html"><img src="dresscaillou/images/dress_play.gif" alt="Play" name="play" height="57" width="79" border="0"></a></td>
+            </tr>
+            <tr>
+             <td colspan="2"><img src="dresscaillou/images/dress_borderbottom.gif" alt="Bottom border" height="33" width="269"></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+        <td><img src="images/Master_green.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_red-bottom.gif" alt="" height="90" width="92"></td>
+        <td><img src="images/Master_blue-left.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="images/Master_btn_games.gif" name="games" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_btn_greetings.gif" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="images/Master_btn_coloring.gif" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_blue-right.gif" alt="" height="90" width="95"></td>
+        <td><img src="images/Master_green-bottom.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="20">
+        <td height="20">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold"><a name="Instructions"></a>To play this game:</p> <p class="instruct_normal">You will need to get the free Macromedia Shockwave player. Click <a href="http://www.macromedia.com/shockwave/download/" title="Shockwave">here</a> to get it. If you already have it installed on your machine, read the following instructions and then, click on the "Play" button.</p> <p class="instruct_bold">Activity Instructions:</p>
+         <ol>
+          <li class="instruct_normal" type="1">The object of this game is to dress Caillou so he can go outside and play.</li>
+          <li class="instruct_normal" type="1">First, look outside Caillou's window to see what the weather is like. Then, use the mouse to click on a piece of clothing (located on the right of the screen) that is appropriate for the weather. Once you select the piece of clothing drag it on to Caillou. You must select all three pieces of an outfit before you can move to the next level.</li>
+          <li class="instruct_normal" type="1">If you do not dress Caillou appropriately for the weather you can try again by clicking on "Play Again". If you dress Caillou correctly click on "Next" to move on to the next level.<br></li>
+         </ol>
+         <hr size="1" width="60%" color="#FFFFFF&quot;"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="http://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="http://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

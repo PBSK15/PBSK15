@@ -1,0 +1,30 @@
+{
+  "resources": [
+    "henry.m4a",
+    "henry.oga",
+    "henry.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "ProblemIs": {
+      "start": 6,
+      "end": 9.149818594104309,
+      "loop": false
+    },
+    "ThanksFizzy": {
+      "start": 11,
+      "end": 13.126666666666667,
+      "loop": false
+    },
+    "Yeah": {
+      "start": 15,
+      "end": 17.33501133786848,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

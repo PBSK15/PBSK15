@@ -1,0 +1,143 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+
+		<title>PBS Kids - Barney and Friends: About the Shows</title>
+		<csscriptdict>
+			<script><!--
+function CSScriptInit() {
+CSILoad('button',new Array(/*URL*/'../images/PlayA.gif',/*URL*/'../images/PlayB.gif',/*URL*/'',''));
+CSILoad('button4',new Array(/*URL*/'../images/TVA.gif',/*URL*/'../images/TVB.gif',/*URL*/'',''));
+CSILoad('button5',new Array(/*URL*/'../images/BackA.gif',/*URL*/'../images/BackB.gif',/*URL*/'',''));
+CSILoad('button3',new Array(/*URL*/'../images/CaregiverA.gif',/*URL*/'../images/CaregiverB.gif',/*URL*/'',''));
+}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img) {img.src = CSIm[n][i].src; self.status = CSIm[n][3];}
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(im,ar) {
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=0;i<3;i++) {
+			if (ar[i] != '') { CSIm[im][i] = new Image(); CSIm[im][i].src = ar[i]; }
+			else CSIm[im][i] = 0;
+		}
+		CSIm[im][3] = ar[3];
+	}
+}
+
+// --></script>
+		</csscriptdict>
+	</head>
+
+	<body background="../images/background.gif" bgcolor="#ffdba1" onload="CSScriptInit();">
+
+<!--top buttons-->
+		<center>
+<a href="../index.html"><img height="60" width="176" src="../images/BFLogo.gif" border="0"></a><csobj w="58" h="60" t="Button" ht="../images/PlayB.gif"><a href="games.html" onmouseover="return CSIShow('button',1)" onmouseout="return CSIShow('button',0)" onclick="return CSButtonReturn()"><img src="../images/PlayA.gif" width="58" height="60" name="button" border="0"></a></csobj><img height="60" width="57" src="../images/AboutA.gif" border="0"><csobj w="57" h="60" t="Button" ht="../images/CaregiverB.gif"><a href="Caregiver.html" onmouseover="return CSIShow('button3',1)" onmouseout="return CSIShow('button3',0)" onclick="return CSButtonReturn()"><img src="../images/CaregiverA.gif" width="57" height="60" name="button3" border="0"></a></csobj><csobj w="57" h="60" t="Button" ht="../images/TVB.gif"><a href="/cgi-registry/in_your_town/router.cgi?nola=BAFR&program=barney" onmouseover="return CSIShow('button4',1)" onmouseout="return CSIShow('button4',0)" onclick="return CSButtonReturn()"><img src="../images/TVA.gif" width="57" height="60" name="button4" border="0"></a></csobj><csobj w="57" h="60" t="Button" ht="../images/BackB.gif"><a href="../index.html" onmouseover="return CSIShow('button5',1)" onmouseout="return CSIShow('button5',0)" onclick="return CSButtonReturn()"><img src="../images/BackA.gif" width="57" height="60" name="button5" border="0"></a></csobj><a href="http://pbskids.org"><img height="60" width="58" src="../images/PBSKids.gif" border="0"></a>
+<!--end top buttons-->
+
+<table cool width="507" height="335" border="0" cellpadding="0" cellspacing="0" gridx="16" showgridx gridy="16" showgridy bgcolor="white">
+<tr height="1" cntrlrow>
+<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+<td width="1" height="1"><spacer type="block" width="2" height="1"></td>
+<td width="19" height="1"><spacer type="block" width="21" height="1"></td>
+<td width="164" height="1"><spacer type="block" width="169" height="1"></td>
+<td width="147" height="1"><spacer type="block" width="152" height="1"></td>
+<td width="151" height="1"><spacer type="block" width="156" height="1"></td>
+<td width="24" height="1"><spacer type="block" width="20" height="1"></td>
+</tr>
+<tr height="2">
+<td width="1" height="2"><spacer type="block" width="1" height="2"></td>
+<td width="1" height="2"><spacer type="block" width="2" height="2"></td>
+<td width="19" height="2"><spacer type="block" width="21" height="2"></td>
+<td width="164" height="2"><spacer type="block" width="169" height="2"></td>
+<td width="147" height="2"><spacer type="block" width="152" height="2"></td>
+<td width="151" height="2"><spacer type="block" width="156" height="2"></td>
+<td width="24" height="2"><spacer type="block" width="20" height="2"></td>
+</tr>
+<tr height="12">
+<td width="1" height="12"><spacer type="block" width="1" height="12"></td>
+<td width="1" height="12"><spacer type="block" width="2" height="12"></td>
+<td height="75" colspan="2" rowspan="2" valign="top" align="left" xpos="2"><img height="75" width="171" src="../images/AboutTry3.gif"></td>
+<td width="147" height="12"><spacer type="block" width="152" height="12"></td>
+<td width="151" height="12"><spacer type="block" width="156" height="12"></td>
+<td width="24" height="12"><spacer type="block" width="20" height="12"></td>
+</tr>
+<tr height="63">
+<td width="1" height="63"><spacer type="block" width="1" height="63"></td>
+<td width="1" height="63"><spacer type="block" width="2" height="63"></td>
+					
+<td width="147" height="63" colspan="1" rowspan="1" valign="top" align="left" xpos="192" content csheight="63"><a href="ShowSynopsis.html"><font face="Verdana" size="2" color="#ff3300">Show Synopsis<br></font></a>
+
+<a href="BehindtheScenes.html"><font face="Verdana" size="2" color="#ff3300">Behind the Scenes<br></font></a>
+
+<a href="Philosophy.html"><font face="Verdana" size="2" color="#ff3300">Show Philosophy</font></a></td>
+					
+<td width="151" height="63" colspan="1" rowspan="1" valign="top" align="left" xpos="344" content csheight="63"><a href="CharacterDescriptions.html"><font face="Verdana" size="2" color="#ff3300">Character Descriptions<br></font></a>
+
+<a href="GettingtheMost.html"><font face="Verdana" size="2" color="#ff3300">Getting the most from<br></font></a><font face="Verdana" size="2" color="white">xx</font>
+
+<a href="GettingtheMost.html"><font face="Verdana" size="2" color="#ff3300">the shows</font></a></td>
+					
+<td width="24" height="63"><spacer type="block" width="20" height="63"></td>
+</tr>
+<tr height="255">
+<td width="1" height="255"><spacer type="block" width="1" height="255"></td>
+<td width="1" height="255"><spacer type="block" width="2" height="255"></td>
+<td width="19" height="255"><spacer type="block" width="21" height="255"></td>
+<td height="255" colspan="4" rowspan="1" valign="top" align="left" xpos="23">
+
+<!--main content start-->
+<table border="0" cellpadding="0" cellspacing="0" frame width="480">
+<tr>
+<td><font face="Verdana"><b>Get the most out of watching television with your toddler<br></b></font><font face="Verdana" color="#669900" size="2"><br>
+</font>
+
+<font face="Verdana" color="#ff3300" size="2">&#149;</font><font face="Verdana" color="#669900" size="2"> </font><font face="Verdana" size="2"><b>limit television viewing time each day</b>--young children need opportunities to do many activities throughout the day.<br>
+<br></font>
+
+<font face="Verdana" size="2" color="#ff3300">&#149;</font><font face="Verdana" size="2"> <b>watch television with your child</b>--studies show that television is most beneficial for children when a parent or another adult watches with them.<br>
+<br></font>
+
+<font face="Verdana" size="2" color="#ff3300">&#149;</font><font face="Verdana" size="2"> <b>participate along with your child</b>--sing, repeat rhymes, etc. with your child during the program. Your participation will indicate to your child that you care and are interested in their interests.<br></font>
+
+<font face="Verdana" size="2" color="#33cc66"><br></font><font face="Verdana" size="2" color="#ff3300">&#149;</font><font face="Verdana" size="2" color="#33cc66"> </font><font face="Verdana" size="2"><b>talk about what you've watched with your child</b>--spend time talking about what happened on the program, both positive and negative behaviors/actions.<br>
+<br></font>
+
+<font face="Verdana" size="2" color="#ff3300">&#149;</font><font face="Verdana" size="2"> <b>do follow-up activities</b>--repeat some of the pretend play, activities, and songs after the show is over. This reinforces the concepts presented.<br>
+<br></font>
+									
+</td>
+</tr>
+</table></td>
+</tr>
+</table><img height="17" width="520" src="../images/Bottom.gif"></center>
+</body>
+
+</html>

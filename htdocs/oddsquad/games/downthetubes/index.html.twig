@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="viewport" content="width=1024px, user-scalable=no"/>
+		<title>Down The Tubes . Games . Odd Squad | PBS KIDS</title>
+		<meta name="description" content=""/>
+
+		<link rel="stylesheet" href="css/MyFontsWebfontsKit.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+
+
+		<script type="text/javascript" src="//use.typekit.net/nuo4rii.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+
+		<script type="text/javascript" src="/oddsquad/js/prefixfree.min.js"></script>
+
+		<script type="text/javascript" src="js/lib/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="http://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script>	
+
+		<script type="text/javascript" src="js/pbs-video.js"></script>
+
+		<script type="text/javascript" src="/oddsquad/js/jquery.pageGenratr.js"></script>
+		<script type="text/javascript" src="/oddsquad/js/agent.js"></script>
+		<script type="text/javascript" src="/oddsquad/js/achievements.js"></script>
+		<script type="text/javascript" src="/oddsquad/js/locker.js"></script>
+		<script type="text/javascript" src="/oddsquad/js/functions.init.js"></script>
+
+
+
+		<link href="/oddsquad/css/reset.min.css" rel="stylesheet" type="text/css" />
+		<link href="/oddsquad/css/base.css" rel="stylesheet" type="text/css" />
+		<link href="/oddsquad/css/global.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" src="js/compiled.js"></script>
+
+		 
+                
+{% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+
+
+
+
+		<script type="text/javascript">
+   			function blockMove() {
+     			event.preventDefault() ;
+			}
+		</script>
+
+
+
+	</head>
+	<body ontouchmove="blockMove()" class="odd-squad-tubes">
+	
+
+	<nav class="game-nav">
+    	<a href="/games/" class="btn-close" data-genratrTarget onClick="pushUrl('/games/', 'Games', event)"><span>Close<i></i></span></a>
+  	</nav>
+
+	<div id="container" class='scene'><canvas id="tube_canvas" width='1024' height='768'></canvas></div>
+
+	<div id="preload_scene" class="scene">
+		<div id="loading_bar">
+			
+			
+		</div>
+		<div id="title_play_button"></div>
+	</div>
+
+	<div id="Video_Holder">
+		<div id="video_scale" class="scene">
+			<img id="tube_logo" src="images/downthetubes-logo.png" />
+			<div id="Video_Player_Container">
+
+
+				<div id="videoPlayer" width="665" height="374">
+				    <video id="pbs-video-player" width="665" height="374" controls autoplay>
+					<source src="videos/tubes_intro.mp4" type="video/mp4">
+				    	<source src="videos/tubes_intro.ogg" type="video/ogg">
+				    	<source src="videos/tubes_intro.webm" type="video/webm">
+						</video>
+				</div>
+				<div id="tube_video_ctn">
+					<img id="tube_video_play_btn" class="tube_video_btn" src="images/video-loading/Play_Button.png" />
+				</div>
+			</div>
+			<div id="loading_bar_container"><div id="loading_bar_progress"></div><div id="loading_label_text">LOADING GAME</div><div id="loading_text"></div></div>
+		</div>
+	</div>
+
+	<div id="loading_audio_container">
+		<img id="loading_audio" src="images/video-loading/AUDIO_OVERLAY_box.png" />
+	</div>
+	
+	<div id="templates">
+
+		<div id="game_over_scene" class="scene"></div>
+
+
+		<div id="panes">
+			<div class="test-pane" pane="GenericPane">
+			</div>
+		</div>
+	</div>
+
+	<div id="fps_counter"></div>
+	</body>
+</html>

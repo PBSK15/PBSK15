@@ -1,0 +1,23 @@
+a {font-family: verdana, arial, sans; font-size: 11px; font-weight: bold; text-decoration: none; color: #fff;}
+
+a:hover {text-decoration: underline;}
+
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #fff;}
+
+.fineprint {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; font-size: 11px; color: #000;}
+a.fineprint:link {text-decoration: underline;}
+a.fineprint:visited {text-decoration: underline;}
+a.fineprint:hover {text-decoration: none;}
+
+
+table.programlist
+{
+	margin: 0 auto;
+	text-align: center;
+	width: 380px;
+}
+
+table.programlist td
+{
+	text-align: left;
+}

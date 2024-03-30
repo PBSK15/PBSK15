@@ -1,0 +1,113 @@
+<html>
+<head>
+<script type="text/javascript">
+    if (top.location != location) top.location.replace(location);
+
+    // Set document title to value stored in cookie.
+    function setTitle() {
+        var domainCookies = document.cookie.split(";");
+        var cookieIndex = 0;
+        var outterBounds = domainCookies.length;
+        var pageTitle = domainCookies[cookieIndex].split("title=")[1];
+
+        while (!pageTitle && cookieIndex < outterBounds) {
+            cookieIndex = cookieIndex + 1;
+            pageTitle = domainCookies[cookieIndex].split("title=")[1];
+        }
+
+        pageTitle = pageTitle.split("%20").join(" ");
+        pageTitle = pageTitle.split("%21").join("!");
+        pageTitle = pageTitle.split("%26").join("&");
+        pageTitle = pageTitle.split("%27").join("'");
+        pageTitle = pageTitle.split("%28").join("(");
+        pageTitle = pageTitle.split("%29").join(")");
+        pageTitle = pageTitle.split("%3A").join(":");
+        pageTitle = pageTitle.split("%3B").join(";");
+        pageTitle = pageTitle.split("%3D").join("=");
+        pageTitle = pageTitle.split("%3F").join("?");
+        pageTitle = pageTitle.split("%40").join("@");
+        pageTitle = pageTitle.split("%5C").join("\\");
+        pageTitle = pageTitle.split("%7C").join("|");
+        document.title = pageTitle;
+    }
+
+
+    function ptScripts() {
+        setTimeout("setTitle()", 200);
+    }
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TWTDGH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+{'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TWTDGH');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+(function() {
+    var uamap = { arthur: "UA-3966576-1,UA-3999950-1",
+                  barney: "UA-3967794-1,UA-3994178-1", betsy: "UA-3958696-1,UA-4004961-1",
+                  bigbigworld: "UA-3967193-1,UA-3993850-1", boohbah: "UA-3968309-1,UA-3999516-1",
+                  buster: "UA-3966576-1,UA-3999991-1", caillou: "UA-3967441-1,UA-3993958-1",
+                  catinthehat: "UA-16154142-1,UA-16155509-1", chuck: "UA-3968372-1,UA-21787719-1",
+                  clifford: "UA-3968372-1,UA-3999587-1", curiousgeorge: "UA-3966576-1,UA-4000040-1",
+                  cyberchase: "UA-3966759-1,UA-2223922-1", daniel: "UA-3994102-1, UA-30580064-1", dinosaurtrain: "UA-10166412-1,UA-10166683-1",
+                  dragontales: "UA-3968507-1,UA-3999686-1", eekoworld: "UA-3967115-1,UA-3993810-1",
+                  electriccompany: "UA-3968507-1,UA-5414685-1", fetch: "UA-3966576-1,UA-4000129-1",
+                  frannysfeet: "UA-3968572-1,UA-3999901-1", krattscreatures: "UA-3967957-1,UA-3994226-1",
+                  lions: "UA-3966576-1,UA-4000155-1", lunchlab: "UA-10616664-1,UA-10616734-1",
+                  mamamirabelle: "UA-3968041-1,UA-3994340-1", martha: "UA-3966576-1,UA-5036549-1", mayaandmiguel: "UA-3968372-1,UA-3999619-1", noah: "UA-3968572-1,UA-21783296-1", 
+				  peg: "UA-24428255-1, UA-24428255-2",   
+                  rogers: "UA-3967651-1,UA-3994102-1", scigirls: "UA-3965989-1,UA-10617102-1",
+                  sesame: "UA-3968507-1,UA-3999779-1", sid: "UA-3963045-1,UA-5035505-1",
+                  superwhy: "UA-3968166-1,UA-3994472-1", teletubbies: "UA-3968309-1,UA-3999550-1", thomasandfriends: "UA-42889099-1,UA-42889099-2", wildkratts: "UA-3967957-1,UA-18413296-1", 
+                  wilsonandditch: "UA-10166412-1,UA-10616776-1", wordgirl: "UA-3968372-1,UA-3999648-1",
+                  wordworld: "UA-3968877-1,UA-4000339-1", zoom: "UA-3966576-1,UA-4000252-1" };
+
+    var path = window.location.pathname.split("/");
+    var codes = uamap[path[2]].split(",");
+    GA_additional_codes = { parents_kids_pr: codes[0], parents_kids_pm: codes[1] };
+})();
+</script>
+
+<script type="text/javascript">
+var GA_env = { ua_list: "UA-4005067-1,UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2" };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-current.js" type="text/javascript"></script>
+
+<!-- Begin comScore Tag --> 
+<script> 
+  var _comscore = _comscore || []; 
+  _comscore.push({ c1: "2", c2: "3005420" }); 
+  (function() { 
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; 
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; 
+    el.parentNode.insertBefore(s, el); 
+  })(); 
+</script> 
+<noscript> 
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" /> 
+</noscript> 
+<!-- End comScore Tag --> 
+
+
+
+
+
+
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" scroll="no" onload="ptScripts()">
+    <iframe id="pt_shell" src="http://pbskids.org/ptframe/pt_content_shell.html?/barney/pareduc/index.html" width="100%" height="100%" frameBorder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+</body>
+</html>

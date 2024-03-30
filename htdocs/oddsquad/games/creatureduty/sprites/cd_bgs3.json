@@ -1,0 +1,31 @@
+{
+"id": "cd_bgs3",
+
+"frames": {
+
+"Map_no_towers.jpg":
+{
+	"frame": {"x":2,"y":2,"w":1024,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":768},
+	"sourceSize": {"w":1024,"h":768}
+},
+"generic_OS_bg.jpg":
+{
+	"frame": {"x":2,"y":772,"w":1024,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":768},
+	"sourceSize": {"w":1024,"h":768}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "cd_bgs3.png",
+	"format": "RGBA8888",
+	"size": {"w":1028,"h":1542},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6cabced0e0f2c67bc4ebd7f4858d3df2:1/1$"
+}
+}

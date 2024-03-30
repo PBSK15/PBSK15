@@ -1,0 +1,123 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Activities . Connect the Dots . Intro' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, PBS, kids, children, games, animation, readytolearn' %}
+{% set desc = 'The Official Caillou Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_gamesA-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_gamesA.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_coloringA-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_coloringA.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_greetingsA-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_greetingsA.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master_caillouA-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master_caillouA.gif";			back_on = new Image( );		back_on.src = "images/Master_backA-over.gif";		back_off = new Image( );		back_off.src = "images/Master_backA.gif";				help_on = new Image( );		help_on.src = "dots/images/Dots_help-over.gif";		help_off = new Image( );		help_off.src = "dots/images/Dots_help.gif";				dot1_on = new Image( );		dot1_on.src = "dots/images/Dots_thumb1-over.gif";		dot1_off = new Image( );		dot1_off.src = "dots/images/Dots_thumb1.gif";				dot2_on = new Image( );		dot2_on.src = "dots/images/Dots_thumb2-over.gif";		dot2_off = new Image( );		dot2_off.src = "dots/images/Dots_thumb2.gif";				dot3_on = new Image( );		dot3_on.src = "dots/images/Dots_thumb3-over.gif";		dot3_off = new Image( );		dot3_off.src = "dots/images/Dots_thumb3.gif";				dot4_on = new Image( );		dot4_on.src = "dots/images/Dots_thumb4-over.gif";		dot4_off = new Image( );		dot4_off.src = "dots/images/Dots_thumb4.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="images/bkg_orange_ball.gif" bgcolor="#f5822b" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="http://pbskids.org/"><img src="images/Master_pbsA.gif" alt="PBS Kids Homepage" name="PBSKidsA" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_topleftA.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/Master_caillouA.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_toprightA.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="printables.html"><img src="images/Master_backA.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_leftsideA.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div align="center">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td colspan="2"><img src="dots/images/Dots_title.gif" alt="Connect The Dots" height="57" width="566" border="0"></td>
+            </tr>
+            <tr>
+             <td>
+              <table width="122" border="0" cellspacing="0" cellpadding="0">
+               <tbody>
+                <tr>
+                 <td colspan="2"><img src="dots/images/Dots_text1.gif" alt="You love drawing, counting and reciting the alphabet? So does Caillou! Connect the Dots will let you do these three activities all at once! Click on one of the images on the right and let a grown-up help you print it. Then, start drawing, coloring, counting and learning the alphabet..." height="194" width="322" border="0"></td>
+                </tr>
+                <tr>
+                 <td><img src="dots/images/Dots_text2.gif" alt="Click on the button to the right for printing instructions." height="75" width="231" border="0"></td>
+                 <td><a onmouseover="act('help')" onmouseout="inact('help')" href="#printing"><img src="dots/images/Dots_help.gif" alt="Help" name="help" height="75" width="91" border="0"></a></td>
+                </tr>
+               </tbody>
+              </table></td>
+             <td>
+              <table width="122" border="0" cellspacing="0" cellpadding="0">
+               <tbody>
+                <tr>
+                 <td><a onmouseover="act('dot1')" onmouseout="inact('dot1')" href="dots/dot_01.html"><img src="dots/images/Dots_thumb1.gif" alt="Rosie" name="dot1" height="133" width="122" border="0"></a></td>
+                 <td><a onmouseover="act('dot2')" onmouseout="inact('dot2')" href="dots/dot_02.html"><img src="dots/images/Dots_thumb2.gif" alt="Clementine" name="dot2" height="133" width="122" border="0"></a></td>
+                </tr>
+                <tr>
+                 <td><a onmouseover="act('dot3')" onmouseout="inact('dot3')" href="dots/dot_03.html"><img src="dots/images/Dots_thumb3.gif" alt="Caillou and the Winter season" name="dot3" height="136" width="122" border="0"></a></td>
+                 <td><a onmouseover="act('dot4')" onmouseout="inact('dot4')" href="dots/dot_04.html"><img src="dots/images/Dots_thumb4.gif" alt="Caillou in a costume" name="dot4" height="136" width="122" border="0"></a></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+            <tr>
+             <td colspan="2"><img src="dots/images/Dots_bottom.gif" alt="" height="30" width="566" border="0"></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+        <td><img src="images/Master_rightsideA.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_cornerleftA.gif" alt="" height="90" width="92"></td>
+        <td><img src="images/Master_bottomleftA.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="images/Master_gamesA.gif" alt="Games" name="games" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_greetingsA.gif" alt="Greeting Cards and Email" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="images/Master_coloringA.gif" alt="Activities" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_bottomrightA.gif" alt="" height="90" width="95"></td>
+        <td><img src="images/Master_cornerrightA.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="20">
+        <td height="20">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold"><a name="printing"></a>Printing instructions:</p>
+         <ol>
+          <li type="1" class="instruct_normal">Click on the picture you like and a new page will appear.</li>
+          <li type="1" class="instruct_normal">Then, under the 'File' option in the upper-left corner of the new window, select 'Print' (you need to have access to a printer for this).</li>
+          <li type="1" class="instruct_normal">When the printing is finished, click the 'Back, button and select your next picture!</li>
+         </ol>
+         <hr noshade size="1" width="60%" color="#FFFFFF&quot;"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center">
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="http://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="http://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

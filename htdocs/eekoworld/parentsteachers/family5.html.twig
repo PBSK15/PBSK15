@@ -1,0 +1,114 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE --> <img src="../images/header_parentsteachers.jpg" alt="Parents &amp; Teachers" width="259" height="54" class="headerimage">
+  <div id="subnav">
+   <a href="index.html">Overview</a> | <a href="family.html" class="active">Family Guide</a> | <a href="teachers.html">Teacher's Guide</a> | <a href="lessons.html">Lesson Plans</a>
+  </div> <img src="../images/header_familyguide.jpg" alt="Family Guide" width="141" height="33" class="contentheader">
+  <div id="sidebarwrapper">
+   <div id="sidebargreentop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreencontainer">
+    <div id="sidebargreencontent">
+     <p><strong>Create and care for your own <a href="../index.html@load=eekocreature">EekoCreature</a>, then explore <a href="../index.html@load=eekohouse">EekoHouse</a> for conservation ideas! </strong></p>
+    </div>
+   </div>
+   <div id="sidebargreenbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+  </div> <a name="bill"></a><span class="subhead">Lower Your Electric Bill Challenge</span><br>
+  <p>Visit the <strong><a href="../index.html@load=air">Air</a></strong> section of EekoWorld to learn how electricity use causes air pollution. Share your last month's electric bill with your family. Go to the Cleaner and Greener Web site and enter the cost of your electric bill into the Cleaner and Greenersm "<a href="http://www.cleanerandgreener.org/resources/calculators.htm" title="Cleaner and Greener Web site">Pollution from Electricity Use</a>" calculator to find out how much pollution was caused last month by your family's electricity use.</p>
+  <p>As a family, take the Lower Your Electric Bill Challenge. Discuss ways that your family can save electricity. You might want to create and hang Save Electricity Reminders on places such as light switches, appliances, thermostats, shower doors, etc., to help remind family members to save electricity. Compare your next month's electric bill to see how successful your family was in the Lower Your Electric Bill Challenge.</p>
+  <p>Family/Community Connection: Encourage neighbors and family members to take the Lower Your Electric Bill Challenge. Share ideas for saving energy and compare the results in your electric bills. Contact your local newspaper to let them know that your neighborhood is participating in a Lower Your Electric Bill Challenge.</p> <br> <a name="activities"></a><span class="subhead">Fun Hands-on Activities That Help The Environment</span>
+  <p><strong>Create a Backyard Habitat</strong><br> Create your own backyard habitat. Visit the <a href="http://www.nwf.org/backyardwildlifehabitat/" title="National Wildlife Federation Web site">National Wildlife Federation Web site</a> to learn how.</p>
+  <p><strong>Square Foot Garden</strong><br> Create a family square foot garden. Borrow a book from your local library or visit <a href="http://journeytoforever.org/garden_sqft.html" title="The Journey to Forever Web site">The Journey to Forever Web site</a> for assistance in your endeavor.</p>
+  <p><strong>Family Compost</strong><br> Embark on a family compost project. To learn about composting you might borrow a book from your local library or contact your local county extension service. The Texas Agricultural Extension Service's <a href="http://aggie-horticulture.tamu.edu/sustainable/slidesets/kidscompost/cover.html" title="Composting For Kids Web site">Composting For Kids Web site</a> provides excellent information in a kid friendly format.</p>
+  <p><strong>Worm Farm</strong><br> Create a family worm farm. The <a href="http://www.epa.nsw.gov.au/envirom/wormfarm.htm" title="Environmental Protection Agency">Environmental Protection Agency</a> offers directions to help in the creation of your worm farm.</p>
+  <p><strong>Make Recycled Paper</strong><br> Making your own recycled paper can be a fun and productive way to spend a rainy afternoon. The <a href="http://www.nwf.org/getgreen/papermaking.cfm" title="National Wildlife Federation's Web site">National Wildlife Federation's Web site</a> contains directions for making recycled paper.</p>
+  <p><strong>Reduce Junk Mail</strong><br> Are you tired of all the junk mail that finds its way to your mailbox? Gather your family together to help solve this problem. These Web sites offer suggestions on how to cut down on junk mail.</p>
+  <ul>
+   <li><a href="http://www.ecocycle.org/junkmail/index.cfm" title="http://www.ecocycle.org">http://www.ecocycle.org</a></li>
+   <li><a href="http://www.obviously.com/junkmail/" title="http://www.obviously.com">http://www.obviously.com</a></li>
+   <li><a href="http://www.junkbusters.com/junkmail.html" title="http://www.junkbusters.com">http://www.junkbusters.com</a></li>
+   <li><a href="http://www.newdream.org/junkmail/form.php" title="http://www.newdream.org">http://www.newdream.org</a></li>
+  </ul>
+  <p></p>
+  <p><strong>Plant a Tree</strong><br> Plant a family tree. Take a family photograph in front of the tree every year on Earth Day to document how your tree and your family are growing. The <a href="http://www.ecokidsonline.com/pub/fun_n_games/printables/activities/" title="EcoKids Online Web site">EcoKids Online Web site</a> contains tips on planting trees (under Science &amp; Nature section. Click Tree Planting Tips)..</p> <br>
+  <div align="right">
+   <strong>« <a href="family4.html" class="next">Previous</a></strong>
+  </div>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

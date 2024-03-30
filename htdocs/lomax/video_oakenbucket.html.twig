@@ -1,0 +1,13 @@
+{% extends 'lomax/includes/lomaxPage.html.twig' %}
+{% set pageTitle = 'Old Oaken Bucket Video - ' %}
+
+
+{% block flashScript %}<script type="text/javascript">
+            var fo = new SWFObject("video.swf", "flashcontent", "772", "487", "9", "#ffd904");
+            PBS_enable_cdn(fo);
+            fo.addParam("wmode", "transparent");
+            fo.addParam("allowScriptAccess", "always");
+            fo.addVariable("video", "12");
+            fo.write("flashcontent");
+            </script>{% endblock %}
+

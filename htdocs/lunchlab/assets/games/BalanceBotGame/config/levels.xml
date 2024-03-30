@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<levels>
+	<level id="1" foods="2" foodgroups="2" par="1" max="8" robots="2" undos="1" />
+	<level id="2" foods="2" foodgroups="2" par="1" max="8" robots="2" undos="1" />
+	<level id="3" foods="2" foodgroups="3" par="1" max="8" robots="2" undos="1" />
+	<level id="4" foods="2" foodgroups="3" par="1" max="8" robots="2" undos="1" />
+	<level id="5" foods="3" foodgroups="2" par="1" max="8" robots="2" undos="1" />
+	<level id="6" foods="3" foodgroups="2" par="1" max="8" robots="2" undos="1" />
+	<level id="7" foods="3" foodgroups="3" par="1" max="8" robots="2" undos="1" />
+	<level id="8" foods="3" foodgroups="3" par="1" max="8" robots="2" undos="1" />
+	<level id="9" foods="3" foodgroups="4" par="1" max="8" robots="2" undos="1" />
+	<level id="10" foods="3" foodgroups="5" par="1" max="8" robots="2" undos="1" />
+	<level id="11" foods="4" foodgroups="3" par="2" max="8" robots="2" undos="1" />
+	<level id="12" foods="4" foodgroups="4" par="2" max="8" robots="2" undos="1" />
+	<level id="13" foods="4" foodgroups="5" par="2" max="8" robots="2" undos="1" />
+	<level id="14" foods="5" foodgroups="4" par="2" max="8" robots="2" undos="1" />
+	<level id="15" foods="5" foodgroups="5" par="2" max="8" robots="2" undos="1" />
+	<level id="16" foods="2" foodgroups="2" par="3" max="10" robots="3" undos="1" />
+	<level id="17" foods="3" foodgroups="3" par="3" max="10" robots="3" undos="1" />
+	<level id="18" foods="3" foodgroups="4" par="5" max="10" robots="3" undos="1" />
+</levels>

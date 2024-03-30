@@ -1,0 +1,132 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE -->
+  <div id="sidebarwrapper">
+   <div id="sidebartop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebarcontainer">
+    <div id="sidebarcontent">
+     <h2>Topics included in the teacher's guide:</h2>
+     <ul>
+      <li><a href="teachers.html#intro" class="orangebodylink">Introduction</a></li>
+      <li><a href="teachers.html#interactives" class="orangebodylink">EekoWorld Interactives</a></li>
+      <li><a href="teachers.html#plans" class="orangebodylink">Lesson Plans</a></li>
+      <li><a href="teachers.html#content" class="orangebodylink">EekoWorld Web Site Content</a></li>
+      <li><a href="teachers1.html#background" class="orangebodylink">Background Information: The Environment &amp; Conservation</a></li>
+      <li><a href="teachers2.html#planoverview" class="orangebodylink">Lesson Plan Overviews</a></li>
+      <li><a href="teachers2.html#lessonk" class="orangebodylink">Kindergarten Lessons</a></li>
+      <li><a href="teachers2.html#lesson1" class="orangebodylink">Grade One Lessons</a></li>
+      <li><a href="teachers3.html#lesson2" class="orangebodylink">Grade Two Lessons</a></li>
+      <li><a href="teachers3.html#lesson3" class="orangebodylink">Grade Three Lessons</a></li>
+      <li><a href="teachers4.html#lesson4" class="orangebodylink">Grade Four Lessons</a></li>
+      <li><a href="teachers5.html#ideas" class="orangebodylink">Ideas for How to Use EekoCreatures &amp; the EekoHouse in Literacy Activities</a></li>
+      <li><a href="teachers6.html#strategies" class="orangebodylink">Literacy-Based Instructional Strategies</a></li>
+      <li><a href="teachers8.html#web" class="orangebodylink">Web-Based Classroom Resources, Projects &amp; Activities</a></li>
+      <li><a href="teachers9.html#funsites" class="orangebodylink">Fun Sites!</a></li>
+     </ul>
+    </div>
+   </div>
+   <div id="sidebarbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreentop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreencontainer">
+    <div id="sidebargreencontent">
+     <p><strong>Create and care for your own <a href="../index.html@load=eekocreature">EekoCreature</a>, then explore <a href="../index.html@load=eekohouse">EekoHouse</a> for conservation ideas! </strong></p>
+    </div>
+   </div>
+   <div id="sidebargreenbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+  </div> <img src="../images/header_parentsteachers.jpg" alt="Parents &amp; Teachers" width="259" height="54" class="headerimage">
+  <div id="subnav">
+   <a href="index.html">Overview</a> | <a href="family.html">Family Guide</a> | <a href="teachers.html" class="active">Teacher's Guide</a> | <a href="lessons.html">Lesson Plans</a>
+  </div> <img src="../images/header_teachersguide.jpg" alt="Teacher's Guide" width="168" height="33" class="contentheader"> <a name="funsites" id="funsites"></a><span class="subhead">Fun Sites!</span><br> <!--<p><strong><a href="http://www.seussville.com/games/lorax/" title="The Lorax Save The Trees Game">The Lorax Save The Trees Game</a></strong></p>--->
+  <p><strong><a href="http://activism.greenpeace.org/eco_quest/" title="EcoQuest">EcoQuest</a></strong><br> There are three fun EcoQuest games to play on the GreenPeace Web site: students can save the Irrawaddy Dolphins from capture, save the African Elephants from poachers, and protect the Reindeer Herding Forest.</p>
+  <p><strong><a href="http://www.scholastic.com/magicschoolbus/games/habitat/#" title="The Great Habitat Match-Up">The Great Habitat Match-Up</a></strong></p>
+  <p><strong><a href="http://www.ringleader.com/quest/intro.html" title="Quest Of The Ring Leaders">Quest Of The Ring Leaders</a></strong><br> "Quest of the Ring Leaders is an environmental education program set in an adventure game format. By completing the game, you will gain an understanding about current environmental problems as well as methods to decrease environmental degradation."</p>
+  <p><strong><a href="http://www.nwf.org/kidzone/kzPage.cfm?siteId=3&amp;departmentId=77" title="Ranger Rick Fun &amp; Games">Ranger Rick Fun &amp; Games</a></strong><br> Play Fish Food, Termite Maze, Bird Brains and other fun games on this Web site from the National Wildlife Federation's Ranger Rick Magazine.</p>
+  <p><strong><a href="http://www.christiananswers.net/kids/killerbees/home.html" title="Killer Bees">Killer Bees</a></strong><br> In this game, you have disturbed a hive of Africanized honeybees in the Amazon Rainforest. Try to catch as many butterflies as you can before the killer bees sting you.</p>
+  <p><strong><a href="http://www.earthmurals.org/Murals.htm" title="Earth Murals: A Crestmont Kids Project">Earth Murals: A Crestmont Kids Project</a></strong><br> "Earth Murals is dedicated to involving children in all fifty states (and other countries) in the creation of murals that focus on recycling and giving back to the earth. The project encourages youth participation in recycling, tree planting and community clean ups. It also promotes literacy through environmental art."</p>
+  <p><strong><a href="http://server93.totalchoicehosting.com/~junkmus/junkmusic/photos.html" title="JunkMusic.org Photos">JunkMusic.org Photos</a></strong><br> "Music people want to hear performed on objects they don't want." The photos on this Web site show the interesting musical instruments created by The Junkman (percussionist Donald Knaack) for use in his performances.</p> <br>
+  <div align="right">
+   <strong>« <a href="teachers8.html" class="next">Previous</a></strong>
+  </div>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

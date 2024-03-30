@@ -1,0 +1,30 @@
+{
+  "resources": [
+    "corporal-cup.m4a",
+    "corporal-cup.oga",
+    "corporal-cup.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "DoubleTime": {
+      "start": 6,
+      "end": 10.711020408163265,
+      "loop": false
+    },
+    "LeftRightLeftRight": {
+      "start": 12,
+      "end": 16.503333333333334,
+      "loop": false
+    },
+    "ProteinBuildsUpMuscle": {
+      "start": 18,
+      "end": 24.296666666666667,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

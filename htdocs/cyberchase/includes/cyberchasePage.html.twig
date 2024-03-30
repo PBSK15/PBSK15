@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{pageTitle|raw}} | PBS KIDS</title>
+	<meta name="description" content="{{desc|raw}}
+">
+	<meta name="keywords" content="{{keywds|raw}}">
+  <meta name="viewport" content="width=1024, initial-scale=1">
+	
+	
+		<link type="text/css" href="http://pbskids.org/cyberchase/static/css/reset.css" rel="stylesheet">
+		<link type="text/css" href="http://pbskids.org/cyberchase/static/css/common.css" rel="stylesheet">
+		<link type="text/css" href="//pbskids.org/includes/auth/ajax.css" rel="stylesheet"/>
+		<!--[if IE]><link href="http://pbskids.org/cyberchase/static/css/ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 6]><link href="http://pbskids.org/cyberchase/static/css/ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 7]><link href="http://pbskids.org/cyberchase/static/css/ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+		<!--[if IE 8]><link href="http://pbskids.org/cyberchase/static/css/ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+            {% include 'template_includes/bridge_js_include_modern.html' %}
+		<!--<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/getlogin.js"></script>-->
+		<!--[if lt IE 9]><script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/cyberchaseie.js"></script><![endif]-->
+		
+	
+	{% block specialHead %}{% endblock %}
+
+</head>
+
+{{bodyOpeningTag|raw}}
+<div id="headband-page-wrap" >
+
+
+
+
+
+<div id="header">
+	<div class="limiter">
+		<div>
+			<a id="logo" href="/cyberchase/" class="analytics-click" data-analytics="Cyberchase - Main Nav|Navigation Click|Logo"></a>
+		</div>
+		<div>
+			<a id="network-logo" href="http://pbskids.org/go" class="analytics-click" data-analytics="Cyberchase - Main Nav|Navigation Click|PBS Kids">
+        <img width="55" height="55" src="http://pbskids.org/cyberchase/static/images/pbs-kids-logo.png">
+			</a>
+		</div>
+		<ul id="main-nav">
+            
+
+{% if selectedNav == "HOME" %}
+<li class="selected">
+{% else %}
+<li class="sibling">
+{% endif %}
+	<a href="/cyberchase/" class="home analytics-click" data-analytics="Cyberchase - Main Nav|Navigation Click|home"><img src='http://pbskids.org/cyberchase/media/textrender/ccdefault/710533dd879dd1202e5c73b27705bf02.png' class='textrender ccdefault' width='41' height='33' alt='HOME' border='0' /></a>
+	
+</li>
+
+{% if selectedNav == "FIND IT!" %}
+<li class="selected">
+{% else %}
+<li class="sibling">
+{% endif %}
+	<a href="/cyberchase/find-it/" class="find-it analytics-click" data-analytics="Cyberchase - Main Nav|Navigation Click|find-it"><img src='http://pbskids.org/cyberchase/media/textrender/ccdefault/1b128daa548331374bceaf70d541797d.png' class='textrender ccdefault' width='54' height='33' alt='FIND IT!' border='0' /></a>
+	
+</li>
+
+{% if selectedNav == "GAMES" %}
+<li class="selected">
+{% else %}
+<li class="sibling">
+{% endif %}
+	<a href="/cyberchase/math-games/" class="games analytics-click" data-analytics="Cyberchase - Main Nav|Navigation Click|games"><img src='http://pbskids.org/cyberchase/media/textrender/ccdefault/8eb4882478c303886ef77abb9726ced7.png' class='textrender ccdefault' width='49' height='33' alt='GAMES' border='0' /></a>
+	
+</li>
+
+{% if selectedNav == "VIDEOS" %}
+<li class="selected">
+{% else %}
+<li class="sibling">
+{% endif %}
+	<a href="/cyberchase/videos/" class="videos analytics-click" data-analytics="Cyberchase - Main Nav|Navigation Click|videos"><img src='http://pbskids.org/cyberchase/media/textrender/ccdefault/58a00f17ed6e81d199f8f5a0269fb357.png' class='textrender ccdefault' width='52' height='33' alt='VIDEOS' border='0' /></a>
+	
+</li>
+
+{% if selectedNav == "ACTIVITIES" %}
+<li class="selected">
+{% else %}
+<li class="sibling">
+{% endif %}
+	<a href="/cyberchase/activities/" class="activities analytics-click" data-analytics="Cyberchase - Main Nav|Navigation Click|activities"><img src='http://pbskids.org/cyberchase/media/textrender/ccdefault/6d5bf844f3cfdcafe8bd02ea0ef15006.png' class='textrender ccdefault' width='80' height='33' alt='ACTIVITIES' border='0' /></a>
+	
+</li>
+
+{% if selectedNav == "CYBERSQUAD" %}
+<li class="selected">
+{% else %}
+<li class="sibling">
+{% endif %}
+	<a href="/cyberchase/cybersquad/" class="cybersquad analytics-click" data-analytics="Cyberchase - Main Nav|Navigation Click|cybersquad"><img src='http://pbskids.org/cyberchase/media/textrender/ccdefault/5a03064a158bc36799b19c48ab32f9e3.png' class='textrender ccdefault' width='94' height='33' alt='CYBERSQUAD' border='0' /></a>
+	
+</li>
+
+		</ul>
+	</div>
+</div>
+
+
+	{% block specialMiddleElems %}{% endblock %}
+	{% block mainContent %}{% endblock %}
+
+
+
+<div id="footer">
+	<div class="limiter">
+		<div id="footer-main-nav">
+			<ul>
+                
+
+<li class="selected">
+	<a href="/cyberchase/" class="home">HOME</a>
+	
+</li>
+
+<li class="sibling">
+	<a href="/cyberchase/find-it/" class="find-it">FIND IT!</a>
+	
+</li>
+
+<li class="sibling">
+	<a href="/cyberchase/math-games/" class="games">GAMES</a>
+	
+</li>
+
+<li class="sibling">
+	<a href="/cyberchase/videos/" class="videos">VIDEOS</a>
+	
+</li>
+
+<li class="sibling">
+	<a href="/cyberchase/activities/" class="activities">ACTIVITIES</a>
+	
+</li>
+
+<li class="sibling">
+	<a href="/cyberchase/cybersquad/" class="cybersquad">CYBERSQUAD</a>
+	
+</li>
+
+ 			</ul>
+		</div>
+		<div id="footer-secondary-nav">
+			<ul>
+                
+
+<li class="">
+	<a href="/cyberchase/kids-poll/">Kids&#39; Poll</a>
+	
+</li>
+
+<li class="">
+	<a href="http://www.pbs.org/parents/cyberchase">Parents</a>
+	
+</li>
+
+<li class="">
+	<a href="http://www.pbs.org/teachers/cyberchase">Teachers</a>
+	
+</li>
+
+<li class="">
+	<a href="/cyberchase/partners/">Partners</a>
+	
+</li>
+
+<li class="">
+	<a href="http://pbskids.org/privacy/">PBS KIDS Privacy Policy</a>
+	
+</li>
+
+
+			</ul>
+		</div>
+    <div class="clear"></div>
+
+    <div id="footer-touts">
+      <a href="http://pbskids.org/apps/cyberchase-3d-builder.html"><img width="415" height="110" src="http://pbskids.org/cyberchase/media/images/footer_touts/AppBanner_3DBuilder-new.png"></a>
+<a href="http://pbskids.org/apps/cyberchase-shape-quest.html"><img width="415" height="110" src="http://pbskids.org/cyberchase/media/images/footer_touts/AppBanner_ShapeQuest-new.png"></a>
+
+    </div>
+
+    	<div id="local-station">
+
+
+		<span class="find-station">Find your <a href="/tvschedules/localizer.html?dest=http://pbskids.org/cyberchase/&nola=CYBR">local PBS station</a></span>
+
+
+  </div>
+
+
+		<div id="produced-by">
+			<span class="affiliate-title">Produced by:</span>
+			<div class="footer-logo thirteen">
+				<a href="http://www.thirteen.org/"><img src="http://pbskids.org/cyberchase/static/images/logos/thirteen.png"></a>
+			</div>
+		</div>
+		<div id="funded-by">
+			<span class="affiliate-title">Funded by:</span>
+			<div class="footer-logo nsf">
+				<a href="http://www.nsf.gov/"><img src="http://pbskids.org/cyberchase/static/images/logos/nsf.png"></a>
+			</div>
+			<div class="footer-logo ey-logo">
+				<img src="http://pbskids.org/cyberchase/static/images/logos/ey-2.png">
+			</div>
+			<div class="footer-logo arthur-davis">
+				<a href="http://www.avdf.org/"><img src="http://pbskids.org/cyberchase/static/images/logos/arthur_davis.png"></a>
+			</div>
+			<div class="footer-logo cpb">
+				<a href="http://www.cpb.org/"><img src="http://pbskids.org/cyberchase/static/images/logos/cpb.png"></a>
+			</div>
+		</div>
+		<div class="footer-info">
+			<p>Funding for CYBERCHASE provided by the National Science Foundation, Ernst &amp; Young LLP, The Arthur Vining Davis Foundations, the Helena Rubinstein Foundation, The JPB Foundation, PBS and the Corporation for Public Broadcasting. Additional funding provided by The Volckhausen Family.</p>
+<p>A production of THIRTEEN PRODUCTIONS LLC for WNET. © 2014 THIRTEEN PRODUCTIONS LLC. All rights reserved.</p>
+
+		</div>
+	</div>
+</div>
+
+
+	
+	<script type="text/javascript">
+		if (top != self) top.location.replace(location.pathname);
+		var STATIC_URL = 'http://pbskids.org/cyberchase/static/';
+	</script>
+	<!--[if lt IE 7]> <script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/unitpngfix.js"></script> <![endif]-->
+	<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/cyberchase.js"></script>
+
+	{% block specialBody %}{% endblock %}
+
+</div>
+
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+</body>
+</html>
+<!-- 3rd March 2015 10:21:42 -->

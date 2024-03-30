@@ -1,0 +1,152 @@
+body { 
+background-color:#ffdf36; font-family: "Lucida Sans",Verdana,Geneva,Helvetica,Arial,Tahoma,sans-serif; font-size:10px; color:#3F829F; line-height:1.5;  text-align:center; margin-left:auto; margin-right:auto;}
+
+object, embed {outline: medium none;}
+
+A:link {text-decoration: none; color:#3F829F;}
+
+A:visited {text-decoration: none; color:#3F829F;}
+
+A:active {text-decoration: none; color:#3F829F;}
+
+A:hover {text-decoration: underline; color:#3F829F;}
+
+
+#container { width:1000px; height:577px; position:relative; text-align:center;}
+
+#topnavoverlapped { z-index:1;position:relative; top:-1px; width:100%; text-align:center;}
+#flashcontentoverlapped { z-index:0;position:relative; top:-140px; width:100%; text-align:center; }
+#spanishgamesbuttonoverlapped{z-index:2; position:relative; top:-627px; left:-425px; }
+#pbsfooteroverlapped { position:relative; width:100%; top:-120px;text-align:center; }
+
+#topnav{ position:relative; width:100%; text-align:center; margin-left:auto; margin-right:auto;}
+#flashcontent{ position:relative; width:100%; text-align:center; margin-left:auto; margin-right:auto;}
+#pbsfooter { position:relative; width:100%; text-align:center; }
+
+#parenttipholder { position:relative; width:1000px; height:135px; text-align:center; margin-left:auto; margin-right:auto;}
+#parenttips { position:absolute; width:140px; height:135px; left:0; top:0; z-index:2; }
+#lablogo { position:absolute; width:140px; height:140px; left:0; top:0; z-index:2; }
+
+#recommendationengine { position:absolute; width:441px; height:135px; left:265px; top:0px; z-index:1;}
+#MasJuegosButton { position:absolute; width:158px; height:129px; left:215px; top:0px; z-index:1;}
+
+#tvtimes { position:absolute; width:160px; height:80px; right:0px; top:3px; }
+#station { position:absolute; width:180px; height:20px;  bottom:22px; right:-8px;}
+
+#logoholder { position:relative; text-align:center; margin-top:10px; margin-left:auto; margin-right:auto; margin-bottom:20px;}
+#logos { width:1030px; height:100px;  margin-left:auto; margin-right:auto; background-color:#FFE779; }
+
+.logocontainer {
+  text-align: center;
+  float: left;
+  margin: 10px auto;
+  height:80px;
+  display:table-cell; vertical-align:middle;
+}
+
+#logo_produced_by { 
+  margin-left: 100px;
+  /*position:absolute; width:480px; height:80px; left:0px; top:10px;*/
+}
+
+#logo_produced_by img {
+  margin-top: 10px;
+}
+
+#logo_in_assoc {
+  margin-left: 100px;
+  /*width:370px; height:80px; left:400px; top:10px;*/
+}
+
+#logo_in_assoc .img1 {
+  margin-bottom: 10px;
+}
+
+#logo_in_assoc .img2 {
+  margin-bottom: 15px;
+}
+
+#logo_in_assoc .img3 {
+  margin-top: 10px;
+}
+
+#logo_funded_by { 
+  margin-left: 50px;
+ /*position:absolute; width:180px; height:80px; left:770px; top:10px;*/
+}
+
+#logo_funded_by .img1 {
+  margin-bottom: 15px;
+}
+
+#logo_funded_by .img2 {
+  margin-top: 10px;
+  /*margin-bottom: 25px;*/
+  margin-left: 35px;
+}
+#logo_funded_by .img3 {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+#logo_corp_funding {
+  margin-left: 60px;
+}
+
+#logoright img {
+  margin-left: 25px;
+}
+
+#logoright #edgov img {
+	margin-bottom: 25px;
+}
+
+.wraptocenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.wraptocenter * {
+    vertical-align: middle;
+}
+
+#linkholder { position:relative; text-align:center; margin-left:auto; margin-right:auto; margin-bottom:10px;}
+
+#copyrightholder { position:relative; text-align:center; width:1000px; margin-left:auto; margin-right:auto; margin-bottom:50px;}
+
+/*\*//*/
+.wraptocenter {
+    display: block;
+}
+.wraptocenter span {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+}
+
+
+
+
+
+
+
+#nfholder { position:relative; text-align:center; margin-top:10px; margin-left:auto; margin-right:auto;}
+
+#nf { position:relative; width:900px; height:400px;  margin-left:auto; margin-right:auto; background:url(/catinthehat/images/nonflash/bg.jpg) no-repeat; background-size:100%; }
+
+#nf_pbs { position:absolute; left:-10px; top:-10px;}
+
+#nf_cith { position:absolute; left:625px; top:28px;}
+
+#nf_print { position:absolute; left:400px; top:260px;}
+
+#nf_text { position:absolute; left:370px; top:140px; width:470px; text-align:left; font-family: Arial,Verdana,Geneva,Helvetica,Tahoma,sans-serif; font-size:14px; color:#000000; }
+
+#nf A:link {text-decoration:underline; color:#0000FF;}
+
+#nf A:visited {text-decoration:underline; color:#0000FF;}
+
+#nf A:active {text-decoration:underline; color:#0000FF;}
+
+#nf A:hover {text-decoration:underline; color:#0000FF;}
+

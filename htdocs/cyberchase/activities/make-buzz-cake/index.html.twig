@@ -1,0 +1,67 @@
+{% extends 'cyberchase/includes/cyberchasePage.html.twig' %}
+{% set desc = 'Print math games, activities and more at Cyberchase. Where math is everywhere and everyone can be good at it.' %}
+{% set keywds = 'math, maths, franctions, fraction, fractions, educational, math education, cool, fun, lesson, lessons, kids, multiplication, division, addition, subtraction, activity, activities,  division, long division, times tables, free, online, math skills' %}
+{% set pageTitle = 'Math Activities . Cyberchase' %}
+
+
+{% block specialHead %}<style type="text/css">
+#headband-page-wrap {
+	background-image: url('http://pbskids.org/cyberchase/static/images/backgrounds/activities_container.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+{% endblock %}
+
+
+{% set bodyOpeningTag = '<body id=\"page-activities\">' %}
+{% set selectedNav = 'ACTIVITIES' %}
+
+
+{% block specialMiddleElems %}{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="content">
+ <div class="limiter">
+  <div style="height: 80px; margin-top: 8px;">
+   <h1 class="page-title"><img src="http://pbskids.org/cyberchase/media/textrender/pageheader/d78ed35383108fb6c04c16d0a11b20fe.png" class="textrender pageheader" width="170" height="60" alt="Activities" border="0"></h1>
+   <h2 class="page-subtitle"><img src="http://pbskids.org/cyberchase/media/textrender/subheader/f377af4b88b1e2fe06e21ef5e7ea6976.png" class="textrender subheader" width="175" height="43" alt="Make a Buzz Cake" border="0"></h2>
+  </div>
+  <div class="content-panel">
+   <div class="content-panel-inner activity-container" id="content-panel">
+    <div class="printable-preview" id="printgallery"><a href="#" id="btn-print-prev">previous</a>
+     <div id="printable-images-holder"><img class="printable-images" src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/makeabuzzcake-1_printable_display.png" width="400" height="514" title="" alt=""> <img class="printable-images" src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/makeabuzzcake-2_printable_display.png" width="400" height="514" title="" alt=""> <img class="printable-images" src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/makeabuzzcake-3_printable_display.png" width="400" height="514" title="" alt="">
+     </div> <a href="#" id="btn-print-next">next</a>
+     <div class="clear"></div>
+     <div id="pageNumber">
+      Page 1 out of 1
+     </div>
+    </div>
+    <div class="printable-info-container">
+     <div class="printable-info" id="print-info" align="center">
+      <p>Make a Buzz cake for your next celebration.</p>
+     </div> <a class="large-btn analytics-click" data-analytics="Cyberchase - Activities|Button Click|print--make-buzz-cake" href="/cyberchase/activities/make-buzz-cake/print" target="blank"><img src="http://pbskids.org/cyberchase/media/textrender/button/13dba24862cf9128167a59100e154c8d.png" class="textrender button" width="48" height="45" alt="Print" border="0"></a>
+    </div>
+   </div>
+   <div id="associated-content"></div>
+   <div class="clear"></div>
+  </div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}<script>
+ $(function() {
+   $('#associated-content').load('/cyberchase/learning-pathways/activities/make-buzz-cake/',
+		   function() {
+			   cyberchase.associatedContentAnim();
+			   cyberchase.bindAnalytics();
+				 if(typeof pngfix == 'function'){ pngfix(); }
+		   });
+ });
+ </script>
+{% endblock %}
+

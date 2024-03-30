@@ -1,0 +1,425 @@
+{
+  "resources": [
+    "CB_Audio.ogg",
+    "CB_Audio.m4a",
+    "CB_Audio.mp3",
+    "CB_Audio.ac3"
+  ],
+  "spritemap": {
+    "CB_General_01": {
+      "start": 0,
+      "end": 5.9727210884353745,
+      "loop": false
+    },
+    "CB_General_02": {
+      "start": 7,
+      "end": 10.541451247165533,
+      "loop": false
+    },
+    "CB_General_03": {
+      "start": 12,
+      "end": 14.936145124716553,
+      "loop": false
+    },
+    "CB_General_04": {
+      "start": 16,
+      "end": 22.069433106575964,
+      "loop": false
+    },
+    "CB_General_05": {
+      "start": 24,
+      "end": 28.136326530612244,
+      "loop": false
+    },
+    "CB_General_06": {
+      "start": 30,
+      "end": 32.641950113378684,
+      "loop": false
+    },
+    "CB_General_07": {
+      "start": 34,
+      "end": 38.151156462585035,
+      "loop": false
+    },
+    "CB_General_08": {
+      "start": 40,
+      "end": 45.74984126984127,
+      "loop": false
+    },
+    "CB_General_09": {
+      "start": 47,
+      "end": 49.79467120181406,
+      "loop": false
+    },
+    "CB_General_10": {
+      "start": 51,
+      "end": 54.97975056689342,
+      "loop": false
+    },
+    "CB_General_11": {
+      "start": 56,
+      "end": 60.8,
+      "loop": false
+    },
+    "CB_General_13": {
+      "start": 62,
+      "end": 65.85068027210885,
+      "loop": false
+    },
+    "CB_LaserWarning_01": {
+      "start": 67,
+      "end": 73.58630385487528,
+      "loop": false
+    },
+    "CB_LaserWarning_02": {
+      "start": 75,
+      "end": 79.3277097505669,
+      "loop": false
+    },
+    "CB_LaserWarning_03": {
+      "start": 81,
+      "end": 82.9539455782313,
+      "loop": false
+    },
+    "CB_LaserWarning_04": {
+      "start": 84,
+      "end": 90.05868480725624,
+      "loop": false
+    },
+    "CB_LaserWarning_05": {
+      "start": 92,
+      "end": 96.96283446712019,
+      "loop": false
+    },
+    "CB_Lv10-11-12-16-18_Specific": {
+      "start": 98,
+      "end": 100.30467120181406,
+      "loop": false
+    },
+    "CB_Lv13-14-15-17_Specific": {
+      "start": 102,
+      "end": 104.39269841269841,
+      "loop": false
+    },
+    "CB_Lv19-20-21-25-26_Specific": {
+      "start": 106,
+      "end": 109.14303854875284,
+      "loop": false
+    },
+    "CB_Lv1_Specific": {
+      "start": 111,
+      "end": 116.23378684807257,
+      "loop": false
+    },
+    "CB_Lv22-23-24-27_Specific": {
+      "start": 118,
+      "end": 121.49385487528345,
+      "loop": false
+    },
+    "CB_Lv25-26-27_Specific": {
+      "start": 123,
+      "end": 125.60419501133786,
+      "loop": false
+    },
+    "CB_Lv28_Specific": {
+      "start": 127,
+      "end": 130.38911564625852,
+      "loop": false
+    },
+    "CB_Lv29_Specific": {
+      "start": 132,
+      "end": 134.4259863945578,
+      "loop": false
+    },
+    "CB_Lv2_Specific": {
+      "start": 136,
+      "end": 140.53031746031746,
+      "loop": false
+    },
+    "CB_Lv30_Specific": {
+      "start": 142,
+      "end": 146.45757369614512,
+      "loop": false
+    },
+    "CB_Lv31_Specific": {
+      "start": 148,
+      "end": 151.30666666666667,
+      "loop": false
+    },
+    "CB_Lv32_Specific": {
+      "start": 153,
+      "end": 155.7684807256236,
+      "loop": false
+    },
+    "CB_Lv33_Specific": {
+      "start": 157,
+      "end": 159.02260770975056,
+      "loop": false
+    },
+    "CB_Lv34_Specific": {
+      "start": 161,
+      "end": 163.39385487528344,
+      "loop": false
+    },
+    "CB_Lv35_Specific": {
+      "start": 165,
+      "end": 167.54696145124717,
+      "loop": false
+    },
+    "CB_Lv36_Specific": {
+      "start": 169,
+      "end": 173.20480725623582,
+      "loop": false
+    },
+    "CB_Lv37_Specific": {
+      "start": 175,
+      "end": 183.39467120181405,
+      "loop": false
+    },
+    "CB_Lv38-39_Specific": {
+      "start": 185,
+      "end": 194.38312925170067,
+      "loop": false
+    },
+    "CB_Lv3_Specific": {
+      "start": 196,
+      "end": 201.25675736961452,
+      "loop": false
+    },
+    "CB_Lv40_Specific": {
+      "start": 203,
+      "end": 210.50931972789115,
+      "loop": false
+    },
+    "CB_Lv41_Specific": {
+      "start": 212,
+      "end": 216.84997732426305,
+      "loop": false
+    },
+    "CB_Lv42-44_Specific": {
+      "start": 218,
+      "end": 220.2518140589569,
+      "loop": false
+    },
+    "CB_Lv43_Specific": {
+      "start": 222,
+      "end": 229.9574829931973,
+      "loop": false
+    },
+    "CB_Lv45_Specific": {
+      "start": 231,
+      "end": 235.20115646258503,
+      "loop": false
+    },
+    "CB_Lv4_Specific": {
+      "start": 237,
+      "end": 241.97467120181406,
+      "loop": false
+    },
+    "CB_Lv5_Specific": {
+      "start": 243,
+      "end": 246.99696145124716,
+      "loop": false
+    },
+    "CB_Lv6_Specific": {
+      "start": 248,
+      "end": 252.9115873015873,
+      "loop": false
+    },
+    "CB_Lv7_Specific": {
+      "start": 254,
+      "end": 260.1047619047619,
+      "loop": false
+    },
+    "CB_Lv8_Specific": {
+      "start": 262,
+      "end": 265.1538775510204,
+      "loop": false
+    },
+    "CB_Lv9_Specific": {
+      "start": 267,
+      "end": 271.0802494331066,
+      "loop": false
+    },
+    "CB_Strategy_01": {
+      "start": 273,
+      "end": 277.08122448979594,
+      "loop": false
+    },
+    "CB_Strategy_02": {
+      "start": 279,
+      "end": 285.3573469387755,
+      "loop": false
+    },
+    "CB_Strategy_03": {
+      "start": 287,
+      "end": 290.30702947845805,
+      "loop": false
+    },
+    "CB_Strategy_04": {
+      "start": 292,
+      "end": 296.04714285714283,
+      "loop": false
+    },
+    "CB_Strategy_05": {
+      "start": 298,
+      "end": 304.2768934240363,
+      "loop": false
+    },
+    "CB_Strategy_06": {
+      "start": 306,
+      "end": 310.285283446712,
+      "loop": false
+    },
+    "CB_Strategy_07": {
+      "start": 312,
+      "end": 317.8345351473923,
+      "loop": false
+    },
+    "CB_Strategy_08": {
+      "start": 319,
+      "end": 321.7821088435374,
+      "loop": false
+    },
+    "CB_Strategy_09": {
+      "start": 323,
+      "end": 327.57421768707485,
+      "loop": false
+    },
+    "CB_Strategy_L2": {
+      "start": 329,
+      "end": 331.3444217687075,
+      "loop": false
+    },
+    "CB_Win_01": {
+      "start": 333,
+      "end": 333.98201814058956,
+      "loop": false
+    },
+    "CB_Win_02": {
+      "start": 335,
+      "end": 336.66931972789115,
+      "loop": false
+    },
+    "CB_Win_03": {
+      "start": 338,
+      "end": 339.6767573696145,
+      "loop": false
+    },
+    "CB_Win_04": {
+      "start": 341,
+      "end": 342.1691836734694,
+      "loop": false
+    },
+    "CB_Win_05": {
+      "start": 344,
+      "end": 345.525873015873,
+      "loop": false
+    },
+    "CB_Win_06": {
+      "start": 347,
+      "end": 348.4664172335601,
+      "loop": false
+    },
+    "CB_Win_07": {
+      "start": 350,
+      "end": 351.6928344671202,
+      "loop": false
+    },
+    "CB_Win_08": {
+      "start": 353,
+      "end": 354.2834013605442,
+      "loop": false
+    },
+    "CB_Win_09": {
+      "start": 356,
+      "end": 357.3059183673469,
+      "loop": false
+    },
+    "CB_Win_10": {
+      "start": 359,
+      "end": 360.0367573696145,
+      "loop": false
+    },
+    "CB_Win_11": {
+      "start": 362,
+      "end": 363.17047619047617,
+      "loop": false
+    },
+    "CB_Win_12": {
+      "start": 365,
+      "end": 366.2053514739229,
+      "loop": false
+    },
+    "CB_Win_13": {
+      "start": 368,
+      "end": 369.23748299319726,
+      "loop": false
+    },
+    "CB_Win_14": {
+      "start": 371,
+      "end": 371.94975056689344,
+      "loop": false
+    },
+    "ChooseALevel": {
+      "start": 373,
+      "end": 373.9867573696145,
+      "loop": false
+    },
+    "SFX_Agent_Apear": {
+      "start": 375,
+      "end": 376.2016326530612,
+      "loop": false
+    },
+    "SFX_Agent_Move": {
+      "start": 378,
+      "end": 378.37201814058955,
+      "loop": false
+    },
+    "SFX_Button_Click": {
+      "start": 380,
+      "end": 380.1098412698413,
+      "loop": false
+    },
+    "SFX_Door_Laser_Loop": {
+      "start": 382,
+      "end": 387.18931972789113,
+      "loop": false
+    },
+    "SFX_Door_Slide": {
+      "start": 389,
+      "end": 390.1614965986395,
+      "loop": false
+    },
+    "SFX_Elevator_Slide_Down": {
+      "start": 392,
+      "end": 392.68265306122447,
+      "loop": false
+    },
+    "SFX_Elevator_Slide_Up": {
+      "start": 394,
+      "end": 394.65068027210884,
+      "loop": false
+    },
+    "SFX_Number_Collection": {
+      "start": 396,
+      "end": 398.6967120181406,
+      "loop": false
+    },
+    "SFX_Tile_Click": {
+      "start": 400,
+      "end": 401.6746712018141,
+      "loop": false
+    },
+    "SFX_Win_Juicebox": {
+      "start": 403,
+      "end": 404.30133786848074,
+      "loop": false
+    },
+    "SFX_Win_Screen": {
+      "start": 406,
+      "end": 410.54439909297054,
+      "loop": false
+    }
+  }
+}

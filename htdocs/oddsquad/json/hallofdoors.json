@@ -1,0 +1,69 @@
+{
+    "doors": [
+        {
+            "name": "Dinosaur Room",
+            "src": "door-blank",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "Obfusco’s Office",
+            "src": "door-blank",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "Flower Room",
+            "src": "door-flowers",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "Volcano Room",
+            "src": "door-blank",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "Princess Room",
+            "src": "door-blank",
+			"desc": "Description to be placed here."
+        },
+         {
+            "name": "Storage Room",
+            "src": "door-blank",
+			"desc": "Description to be placed here."
+        },
+         {
+            "name": "oddsatgram",
+            "src": "door-gallery",
+			"desc": "Description to be placed here."
+        },
+         {
+            "name": "Soundcheck Room",
+            "src": "door-striped",
+			"desc": "Description to be placed here."
+        },
+         {
+            "name": "Confalones Room",
+            "src": "door-confalones",
+			"desc": "Description to be placed here."
+        },
+         {
+            "name": "Counting Sheep Room",
+            "src": "door-blank",
+			"desc": "Description to be placed here."
+        },
+         {
+            "name": "Ballroom Storage",
+            "src": "door-ballroom",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "Shmumbers Room",
+            "src": "door-blank",
+			"desc": "Description to be placed here."
+        },
+        {
+            "name": "Olaf's Room",
+            "src": "door-blank",
+			"desc": "Description to be placed here."
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+.bigheader  {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #FFF; font-weight: bold;}
+a:link.bigheader  {text-decoration: none;}
+a:visited.bigheader  {text-decoration: none;}
+a:hover.bigheader  {text-decoration: underline;}
+
+.smallheader {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; color: #FFF; font-weight: bold;}
+a:link.smallheader {text-decoration: none;}
+a:visited.smallheader {text-decoration: none;}
+a:hover.smallheader {text-decoration: underline;}
+
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000;}
+a:link.text {text-decoration: underline;}
+a:visited.text {text-decoration: underline;}
+a:hover.text {text-decoration: none;}
+
+.bigquestion {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+a:link.bigquestion {text-decoration: none;}
+a:visited.bigquestion {text-decoration: none;}
+a:hover.bigquestion {text-decoration: underline;}
+
+.smallquestion {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+a:link.smallquestion {text-decoration: none;}
+a:visited.smallquestion {text-decoration: none;}
+a:hover.smallquestion {text-decoration: underline;}
+
+.searchtext {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+a:link.searchtext {text-decoration: none;}
+a:visited.searchtext {text-decoration: none;}
+a:hover.searchtext {text-decoration: underline;}
+
+.searchresults {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+.searchresults a:link {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+.searchresults a:visited {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+.searchresults a:hover {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF; text-decoration: none;}
+.searchresults a:active {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #fff;}
+
+.fineprint {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000;}
+a.fineprint:link {text-decoration: underline;}
+a.fineprint:visited {text-decoration: underline;}
+a.fineprint:hover {text-decoration: none;}
+
+hr {border: 0; color: #000; background-color: #000; height: 1px;}
+
+#sidepadding {padding: 0 50px 0 50px;}

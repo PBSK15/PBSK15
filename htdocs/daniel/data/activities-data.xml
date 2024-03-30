@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+  <activity>
+    <name>Coloring Activity</name>
+    <featurethumb>featured-activity_coloring.png</featurethumb>
+    <link>/coloring/coloring-game.html</link>
+  </activity>
+
+</data>

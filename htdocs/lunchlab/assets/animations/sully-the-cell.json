@@ -1,0 +1,30 @@
+{
+  "resources": [
+    "sully-the-cell.m4a",
+    "sully-the-cell.oga",
+    "sully-the-cell.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "ShareTheVein": {
+      "start": 6,
+      "end": 8.476666666666667,
+      "loop": false
+    },
+    "TheNames": {
+      "start": 10,
+      "end": 12.967687074829932,
+      "loop": false
+    },
+    "TripToMuscleBeach": {
+      "start": 14,
+      "end": 18.01167800453515,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

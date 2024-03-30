@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<TITLE>Message</TITLE>
+</head>
+<BODY BGCOLOR=#330099 leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" marginheight="0" marginwidth="0">
+
+<TABLE WIDTH=340 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=17 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=223 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=46 HEIGHT=1 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=54 HEIGHT=1 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4><IMG SRC="images/popwin_01.gif" WIDTH=340 HEIGHT=22 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><IMG SRC="images/popwin_02.gif" WIDTH=17 HEIGHT=178 alt="" border="0"></TD>
+		<TD COLSPAN=2 bgcolor="cccccc" valign="top"><IMG SRC="images/spacer.gif" WIDTH=269 HEIGHT=1><br><font size="1" color="000000" face="verdana,arial,helvetica">
+
+<b>Important Message</b><br><br>
+
+<SCRIPT>
+var paramString = document.URL;
+var paramArray = new Array();
+if ( paramString.indexOf("?") != -1 ) {
+    paramArray = paramString.split("?");
+    if ( paramArray.length != 0 ) {
+        code = paramArray[1].toString();
+    }
+}
+
+message = unescape(code);
+if ( message == "IMAGE") {
+	document.write('<img src="images/clue.gif" alt="clue.gif" width="97" height="55">');
+} else {
+	document.write(message);
+}
+</SCRIPT>
+
+
+
+</font></TD>
+		<TD><IMG SRC="images/popwin_04.gif" WIDTH=54 HEIGHT=90 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/popwin_05.gif" WIDTH=223 HEIGHT=88></TD>
+		<TD COLSPAN=2><a href="javascript:close()"><IMG SRC="images/popwin_06.gif" WIDTH=100 HEIGHT=88 alt="ok" border="0"></a></TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>

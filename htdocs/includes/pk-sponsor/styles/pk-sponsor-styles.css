@@ -1,0 +1,388 @@
+/* #####################################################################
+/* #####################################################################
+/* PBS KIDS Sponsorship
+/* Created: September 2011
+/* Last Updated: September 2011
+/* Front-End Code: Jon White
+/* #####################################################################
+/* #####################################################################
+
+/* =====================================================================
+/* Legend
+/* =====================================================================
+/* PARENT DIV: Establishes whole-page width.
+/* SPAN: Positions/contains the actual link.
+/* A: Functional link. Relative to its absolute children.
+/* STRONG: Contains the background PNG. Had to be separate for IE support.
+/* EM, IMG: Independent children, populated by JSON.
+/* =====================================================================
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Default tab implementation is for absolute, top-right, docked. */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#pk-sponsor {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+		#bridge-data {
+			display: none;
+		}
+		#pk-sponsor span {
+			top: 0;
+			right: 10px;
+			position: absolute;
+			display: block;
+			overflow: hidden;
+			width: 191px;
+			height: 53px;
+			padding: 0;
+			margin: 0;
+			line-height: 1;
+		}
+				#pk-sponsor a {
+					position: relative;
+					display: block;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					text-decoration: none;
+					overflow: hidden;
+					cursor: pointer;
+				}
+						#pk-sponsor a strong,
+						#pk-sponsor a em,
+						#pk-sponsor a .logo,
+						#pk-sponsor a .tracking {
+							display: block;
+							position: absolute;
+							overflow: hidden;
+						}
+								#pk-sponsor a strong {
+									z-index: 51;
+									width: 100%;
+									background: url(i/tab_white_base_45.png) no-repeat;
+									width: 100%;
+									height: 100%;
+								}
+
+								* html #pk-sponsor a strong {
+									background-image: url(i/tab_white_base.gif);
+									opacity: 0.45;
+									filter: alpha(opacity = 45);
+								}
+
+								#pk-sponsor a em {
+									z-index: 52;
+									top: 18px;
+									left: 4px;
+									font: normal 10px/1.1 arial, sans-serif;
+								}
+								#pk-sponsor img {
+									border: 0;
+									outline: 0;
+								}
+								#pk-sponsor a .logo {
+									z-index: 52;
+									width: 105px;
+									height: 40px;
+									top: 5px;
+									/* right: 7px; */
+									left: 79px;
+								}
+								#pk-sponsor a .tracking {
+									width: 1px;
+									height: 1px;
+									position: absolute;
+									top: -1px;
+									left: -1px;
+								}
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Specific-Page-Implementation Tab Exceptions */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+.pk-wordquest-landing {
+}
+		.pk-wordquest-landing #pk-sponsor {
+			position: relative;
+			height: 100px;
+			border-top: 1px solid #809aaf;
+			margin-top: 20px;
+		}
+				.pk-wordquest-landing #pk-sponsor span {
+					top: 20px;
+					left: 40%;
+				}
+						.pk-wordquest-landing #pk-sponsor a em {
+						    left: 5px;
+						    top: 20px;
+						}
+						.pk-wordquest-landing #pk-sponsor a strong {
+							background: url(i/tab_white_base_45_fourcorners.png) no-repeat;
+						}
+						* html .pk-wordquest-landing #pk-sponsor a strong {
+							background-image: url(i/tab_white_base_fourcorners.gif);
+							opacity: 0.45;
+							filter: alpha(opacity = 45);
+						}
+
+
+.pk-webonauts-landing {	
+}
+		.pk-webonauts-landing #header {
+			position: relative;
+		}
+		.pk-webonauts-landing #pk-sponsor {
+			top: 0;
+			right: 0;
+		}
+				.pk-webonauts-landing #pk-sponsor span {
+					top: 0;
+					right: 0;
+				}
+
+
+.pk-hooper-landing {
+}
+		.pk-hooper-landing #pk-sponsor {
+			position: static;
+			width: 191px;
+			margin: 15px auto;
+		}
+				.pk-hooper-landing #pk-sponsor span {
+					position: relative;
+				}
+						.pk-hooper-landing #pk-sponsor a em {
+						    left: 5px;
+						    top: 20px;
+						}
+						.pk-hooper-landing #pk-sponsor a strong {
+							top: 0;
+							left: 0;
+							background: url(i/tab_white_base_45_fourcorners.png) no-repeat;	
+						}
+						* html .pk-hooper-landing #pk-sponsor a strong {
+							background-image: url(i/tab_white_base_fourcorners.gif);
+							opacity: 0.45;
+							filter: alpha(opacity = 45);
+						}
+
+
+.pk-island-landing {
+}
+		.pk-island-landing #pk-sponsor {
+			position: static;
+			width: 191px;
+			margin: 20px auto 0;
+		}
+				.pk-island-landing #pk-sponsor span {
+					position: relative;
+					margin-bottom: 50px;
+				}
+						.pk-island-landing #pk-sponsor a em {
+						    left: 5px;
+						    top: 20px;
+						}
+						.pk-island-landing #pk-sponsor a strong {
+							top: 0;
+							left: 0;
+							background: url(i/tab_white_base_45_fourcorners.png) no-repeat;	
+						}
+						* html .pk-island-landing #pk-sponsor a strong {
+							background-image: url(i/tab_white_base_fourcorners.gif);
+							opacity: 0.45;
+							filter: alpha(opacity = 45);
+						}
+
+
+.pk-go-landing {
+}
+		.pk-go-landing #pk-sponsor {
+			width: 935px;
+			margin: 0px auto;
+			position: relative;
+		}
+
+
+.pk-go-games {
+}
+		.pk-go-games #pk-sponsor {
+			position: relative;
+			width: 191px;
+			margin: 0 0 0 100px;
+		}
+				.pk-go-games-isLocalized #pk-sponsor {
+					margin: 0 auto 0 auto;
+				}
+				.pk-go-games #pk-sponsor span {
+					top: 15px;
+					right: 0;
+				}
+				.pk-go-games #pk-sponsor a,
+				.pk-go-games #pk-sponsor a:hover {
+					background: none;
+				}
+				.pk-go-games #pk-sponsor a strong {
+					background-image: none;
+					display: none; /* It's set against a flat white background anyway. Avoids dithering-corners in IE. */
+				}
+
+
+.pk-mobile-landing {
+}
+
+		@media screen and (max-width: 960px) {
+
+			.pk-mobile-landing #pk-sponsor {
+				width: 966px; /* not 100% */
+			}
+
+		} /* ...end constrained width. */
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Sponsor Bridge */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.pk-sponsor-bridge *,
+.pk-sponsor-bridge div,
+.pk-sponsor-bridge span,
+.pk-sponsor-bridge h1,
+.pk-sponsor-bridge h2,
+.pk-sponsor-bridge h3,
+.pk-sponsor-bridge img,
+.pk-sponsor-bridge em,
+.pk-sponsor-bridge strong,
+.pk-sponsor-bridge dl,
+.pk-sponsor-bridge ul,
+.pk-sponsor-bridge ol,
+.pk-sponsor-bridge li,
+.pk-sponsor-bridge a {
+	font: normal 14px/1.15 Arial, sans-serif;
+	color: #989e9d;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: left;
+	border: none;
+}
+		
+		.pk-sponsor-bridge #bridgeInner {
+			position: relative;
+			width: 633px;
+		}
+
+		.pk-sponsor-bridge .bridge-tracking,
+		.pk-sponsor-bridge .bridge-feature,
+		.pk-sponsor-bridge .bridge-prose,
+		.pk-sponsor-bridge .backToPbsKids,
+		.pk-sponsor-bridge .closeWindow,
+		.pk-sponsor-bridge .advanceToDestination,
+		.pk-sponsor-bridge .advanceToDestination a {
+			display: block;
+			position: absolute;
+			overflow: hidden;
+		}
+				.pk-sponsor-bridge .advanceToDestination {
+					width: 215px;
+					height: 55px;
+					top: 265px;
+					left: 390px;
+				}
+						.pk-sponsor-bridge .advanceToDestination a {
+							background-image: url(i/bridge_assets.png); /* "Dark" text style by default */
+							background-repeat: no-repeat;
+							background-position: 0 0;
+							width: 100%;
+							height: 100%;
+							text-indent: -9999px;
+						}
+								.pk-sponsor-bridge .advanceToDestination a.bridgeLink-white {
+									background-position: 0 -55px; /* "White" style if declared as such */
+								}
+								
+
+				.pk-sponsor-bridge .backToPbsKids {
+					top: 291px;
+					left: 0;
+				}
+						.pk-sponsor-bridge .backToPbsKids a {
+							text-indent: -9999px;
+							overflow: hidden;
+							background: url(i/bridge_assets.png) no-repeat 0 -136px;
+							display: block;
+							width: 245px;
+							height: 43px;
+						}
+
+				.pk-sponsor-bridge .closeWindow {
+					top: 0;
+					right: 0;
+				}
+						.pk-sponsor-bridge .closeWindow a {
+							display: block;
+							width: 26px;
+							height: 26px;
+							background: url(i/bridge_assets.png) no-repeat 0 -110px;
+							text-indent: -9999px;
+							overflow: hidden;
+						}
+				
+				.pk-sponsor-bridge .bridge-tracking {
+					top: -1px;
+					left: -1px;
+					width: 1px;
+					height: 1px;
+				}
+				.pk-sponsor-bridge .bridge-feature {
+					top: 0;
+					left: 0;
+					width: 340px;
+					height: 285px;
+				}
+				.pk-sponsor-bridge .bridge-prose {
+					width: 263px;
+					height: 224px;
+					top: 36px;
+					left: 362px;
+				}
+						.pk-sponsor-bridge .bridge-prose h1 {
+							font-size: 18px;
+							margin-bottom: 10px;
+						}
+						.pk-sponsor-bridge .bridge-prose .essay {	
+						}
+								.pk-sponsor-bridge .essay em {
+									font-style: italic;
+								}
+								.pk-sponsor-bridge .essay strong {
+									font-weight: bold;
+								}
+								.pk-sponsor-bridge .essay a {
+									text-decoration: underline;
+								}
+								.pk-sponsor-bridge .essay a:hover {
+									color: #353535;
+								}
+
+
+
+
+
+
+
+

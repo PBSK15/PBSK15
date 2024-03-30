@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" xml:lang="en" lang="en">
+
+{% set selectedNav = 'video' %}
+{% set pageTitle = 'Video Clips' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/curiousgeorge/css/print.css" media="print" /><!-- end bbinclude -->
+	<!-- To be merged S3 Video index overrides - msmith -->
+	<link rel="stylesheet" type="text/css" href="/curiousgeorge/video/c/overrides.css" media="screen" />
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/curiousgeorge/css/hack_ie.css" />
+	<![endif]-->
+	<!--[if gte IE 7]>
+	<link rel="stylesheet" type="text/css" href="/curiousgeorge/css/hack_ie7.css" />
+	<![endif]--><script type="text/javascript" src="https://pbskids.org/includes/flash/swfobject.js"></script>' %}
+{% set ftrAttributes = 'id="ftr"' %}
+
+{% include 'curiousgeorge/includes/head.twig' %}
+
+<body class="video_index">
+
+{% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+
+{% include 'curiousgeorge/includes/nav.twig' %}
+
+	<div id="int">
+
+		<div id="drive-in">
+			<div id="player">
+				<!--==========================================================\\ -->
+				<!--  BEGIN PBS KIDS GO! BROADBAND PLAYER MODULE          \\-->
+
+				<script type="text/javascript" src="https://pbskids.org/producerplayer/js/producerplayer2.js"></script>
+				<script type="text/javascript">
+					var configObj = {};
+						configObj.controlLayoutURL = "https://pbskids.org/producerplayer/data/metaLayout-KidsPreschool.xml";
+						configObj.playerSkinURL = "https://pbskids.org/producerplayer/swf/skins/skinKidsPreschool.swf";
+						configObj.playerColorScheme =
+						  "<colorschemes>"+
+							"<player>"+
+							  "<backgroundColor>0x013445</backgroundColor>"+
+							  "<frameColor>0x005571</frameColor>"+
+							  "<controlColor>0xffffff</controlColor>"+
+							  "<controlBackgroundColor>0x0099c8</controlBackgroundColor>"+
+							  "<controlFrameColor>0x0099c8</controlFrameColor>"+
+							  "<controlHighlightColor>0xffffff</controlHighlightColor>"+
+							  "<controlHoverColor>0x68d92c</controlHoverColor>"+
+							  "<controlSelectedColor>0xfed085</controlSelectedColor>"+
+							  "<loadProgressColor>0x9fb7bf</loadProgressColor>"+
+							  "<playProgressColor>0x002c3d</playProgressColor>"+
+							  "<scrubberColor>0x68d92c</scrubberColor>"+
+							  "<scrubberFrameColor>0x002c3d</scrubberFrameColor>"+
+							  "<scrubTrackColor>0x002c3d</scrubTrackColor>"+
+							  "<textBackgroundColor>0xf68920</textBackgroundColor>"+
+							  "<textColor>0xffffff</textColor>"+
+							  "<subtitlesBackgroundColor>0x000000</subtitlesBackgroundColor>"+
+							"</player>"+
+						  "</colorschemes>";
+
+						configObj.releaseListSkinURL = "https://pbskids.org/producerplayer/swf/skins/skinKidsPreschool.swf";
+						configObj.releaseListColorScheme =
+						  "<colorschemes>"+
+							"<releaseList>"+
+							  "<backgroundColor>0x013445</backgroundColor>"+
+							  "<frameColor>0x013445</frameColor>"+
+							  "<itemBackgroundColor>0x9fef33</itemBackgroundColor>"+
+							  "<itemBackground2Color>0x599230</itemBackground2Color>"+
+							  "<itemBackgroundHoverColor>0xffffff</itemBackgroundHoverColor>"+
+							  "<itemBackgroundSelectedColor>0xffffff</itemBackgroundSelectedColor>"+
+							  "<itemFrameColor>0x78993E</itemFrameColor>"+
+							  "<textColor>0x2e440b</textColor>"+
+							  "<text2Color>0x2e440b</text2Color>"+
+							  "<textFrameColor>0xffffff</textFrameColor>"+
+							  "<textHoverColor>0x2e440b</textHoverColor>"+
+							  "<textSelectedColor>0x2e440b</textSelectedColor>"+
+							  "<thumbnailFrameColor>0xffffff</thumbnailFrameColor>"+
+							  "<thumbnailFrameColor>0xffffff</thumbnailFrameColor>"+
+							  "<scrollButtonColor>0x0099c7</scrollButtonColor>"+
+							  "<scrollIconColor>0xffffff</scrollIconColor>"+
+							  "<scrollThumbColor>0xf78a1c</scrollThumbColor>"+
+							  "<scrollTrackColor>0xffffff</scrollTrackColor>"+
+							  "<scrollTrackFrameColor>0x78993E</scrollTrackFrameColor>"+
+							"</releaseList>"+
+						  "</colorschemes>";
+
+						configObj.dockBanner = "false";
+						configObj.dockReleaseList = "right";
+						configObj.playerWidth = 393;
+						configObj.aspectRatio = "4:3";
+						configObj.playerPaddingTop = 20;
+						configObj.playerPaddingLeft = 20;
+						configObj.releaseListWidth = 320;
+						configObj.releaseListHeight = 480;
+						configObj.releaseListPaddingTop = 0;
+						configObj.releaseListPaddingLeft = 42;
+						configObj.thumbnailWidth = 75;
+						configObj.thumbnailHeight = 50;
+						configObj.containerWidth = 775;
+						configObj.containerHeight = 467;
+						configObj.releaseCols = 1;
+
+					pbs.kidsgo.producerplayer.init(configObj);
+
+				</script>
+
+				<!--  END PBS KIDS GO! BROADBAND PLAYER MODULE                 //-->
+				<!--==========================================================// -->
+			</div>
+			<img id="car" src="https://pbskids.org/curiousgeorge/video/img/myh_george.png" />
+		</div>
+
+		<div id="localization">
+			
+			<p>Find out when Curious George<br /> is on <a href="https://pbskids.org/tvschedules/localizer.html?dest=/curiousgeorge/video/index.html&amp;nola=CUGE">in your town</a>.</p>
+			
+		</div>
+
+		{% include 'curiousgeorge/includes/ftr.html' %}
+
+	<br style="clear: both;" />
+	<br style="clear: both;" />
+
+</body>
+</html>

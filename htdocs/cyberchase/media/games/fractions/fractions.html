@@ -1,0 +1,421 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Games . Virus Hunt | PBS Kids</TITLE>
+
+<SCRIPT LANGUAGE="Javascript">
+//
+// fractions game - v1.0 - 10/6/01 - david hirmes
+//
+// revision history
+// ----------------
+// 1.1 - 1/17/02 - added popup help
+
+
+
+function popUp(message) {
+
+var x = (screen.width - 340) / 2;
+var y = (screen.height - 200) / 2;
+
+	var windowparam = "width=" + 340 + ",height=" + 200 + ",scrollbars=no,left="+x+",top="+y+",screenX="+x+",screenY="+y;
+	popwin = window.open("popwin.html?"+message, "popwin", windowparam)
+	popwin.opener = self;
+	popwin.focus()
+}
+
+
+function help(msg) {
+	popUp(msg);
+}
+
+
+// this is the array that keeps track of which triangles in the main box are on
+// note that the array will be 1 based.  the "0" position is ignored.
+boxArray = new Array(0,0,0,0,0,0,0,0,0);
+databaseArray = new Array(0,0,0,0,0,0,0,0,0);
+totalFound = 2;
+
+// this is the array that keeps track of which patterns have been correctly chosen
+// note that the first two are already shown as correct when the user begins playing
+// note also that we're making this array 1 based as well.
+foundArray = new Array(0,1,1,0,0,0,0,0,0,0,0,0,0,0);
+
+// here's all of the possible correct responses.
+p1 = 4;
+p1_1 = "1,1,1,1,0,0,0,0";
+p1_2 = "0,0,0,0,1,1,1,1";
+p1_3 = "1,1,0,0,0,0,1,1";
+p1_4 = "0,0,1,1,1,1,0,0";
+
+p2 = 8;
+p2_1 = "1,1,0,1,0,0,0,1";
+p2_2 = "0,1,0,0,0,1,1,1";
+p2_3 = "0,0,0,1,1,1,0,1";
+p2_4 = "0,1,1,1,0,1,0,0";
+p2_5 = "1,0,1,1,1,0,0,0";
+p2_6 = "0,0,1,0,1,1,1,0";
+p2_7 = "1,0,0,0,1,0,1,1";
+p2_8 = "1,1,1,0,0,0,1,0";
+
+
+p3 = 2;
+p3_1 = "1,0,0,1,1,0,0,1";
+p3_2 = "0,1,1,0,0,1,1,0";
+
+p4 = 4;
+p4_1 = "1,0,1,0,0,1,0,1";
+p4_2 = "1,0,0,1,0,1,1,0";
+p4_3 = "0,1,0,1,1,0,1,0";
+p4_4 = "0,1,1,0,1,0,0,1";
+
+p5 = 8;
+p5_1 = "1,0,1,1,0,0,0,1";
+p5_2 = "1,1,0,0,0,1,1,0";
+p5_3 = "0,0,0,1,1,0,1,1";
+p5_4 = "0,1,1,0,1,1,0,0";
+p5_5 = "1,1,0,1,1,0,0,0";
+p5_6 = "0,0,1,1,0,1,1,0";
+p5_7 = "1,0,0,0,1,1,0,1";
+p5_8 = "0,1,1,0,0,0,1,1";
+
+p6 = 8;
+p6_1 = "1,0,0,1,0,1,0,1";
+p6_2 = "0,1,0,1,0,1,1,0";
+p6_3 = "0,1,0,1,1,0,0,1";
+p6_4 = "0,1,1,0,0,1,0,1";
+p6_5 = "1,0,0,1,1,0,1,0";
+p6_6 = "1,0,1,0,0,1,1,0";
+p6_7 = "1,0,1,0,1,0,0,1";
+p6_8 = "0,1,1,0,1,0,1,0";
+
+p7 = 2;
+p7_1 = "1,1,0,0,1,1,0,0";
+p7_2 = "0,0,1,1,0,0,1,1";
+
+p8 = 8;
+p8_1 = "1,1,0,1,0,1,0,0";
+p8_2 = "0,1,0,1,0,0,1,1";
+p8_3 = "0,1,0,0,1,1,0,1";
+p8_4 = "0,0,1,1,0,1,0,1";
+p8_5 = "1,0,1,1,0,0,1,0";
+p8_6 = "1,0,1,0,1,1,0,0";
+p8_7 = "0,0,1,0,1,0,1,1";
+p8_8 = "1,1,0,0,1,0,1,0";
+
+p9 = 4;
+p9_1 = "1,1,0,1,0,0,1,0";
+p9_2 = "0,1,0,0,1,0,1,1";
+p9_3 = "0,0,1,0,1,1,0,1";
+p9_4 = "1,0,1,1,0,1,0,0";
+
+p10 = 4;
+p10_1 = "0,1,1,1,1,0,0,0";
+p10_2 = "1,0,0,0,0,1,1,1";
+p10_3 = "1,1,1,0,0,0,0,1";
+p10_4 = "0,0,0,1,1,1,1,0";
+
+
+p11 = 8;
+p11_1 = "1,1,0,0,1,0,0,1";
+p11_2 = "0,0,1,0,0,1,1,1";
+p11_3 = "1,0,0,1,1,1,0,0";
+p11_4 = "0,1,1,1,0,0,1,0";
+p11_5 = "0,0,1,1,1,0,0,1";
+p11_6 = "0,1,0,0,1,1,1,0";
+p11_7 = "1,0,0,1,0,0,1,1";
+p11_8 = "1,1,1,0,0,1,0,0";
+
+p12 = 8;
+p12_1 = "1,1,0,0,0,1,0,1";
+p12_2 = "0,0,0,1,0,1,1,1";
+p12_3 = "0,1,0,1,1,1,0,0";
+p12_4 = "0,1,1,1,0,0,0,1";
+p12_5 = "0,0,1,1,1,0,1,0";
+p12_6 = "1,0,0,0,1,1,1,0";
+p12_7 = "1,0,1,0,0,0,1,1";
+p12_8 = "1,1,1,0,1,0,0,0";
+
+p13 = 2;
+p13_1 = "0,1,0,1,0,1,0,1";
+p13_2 = "1,0,1,0,1,0,1,0";
+
+function clearBox() {
+	document.sx1.src = "images/1_empty.gif";
+	document.sx2.src = "images/2_empty.gif";
+	document.sx3.src = "images/3_empty.gif";
+	document.sx4.src = "images/4_empty.gif";
+	for (i=1;i<=8;i++) {
+		boxArray[i] = 0;
+		databaseArray[i] = 0;
+	}
+}
+
+function testForHalf() {
+	// make the databaseArray into a string so we can compare it to our database
+	databaseArrayString = "";
+	for (i=1;i<=8;i++) {
+		databaseArrayString += databaseArray[i];
+		if ( i != 8 ) {
+			databaseArrayString += ","; 
+		}
+	}
+	
+	// search for a match
+	foundOuter = 0;
+	foundInner = 0;
+	for ( outer=1;outer<=13;outer++) {
+		inner = 1;
+		while ( inner <= eval("p"+outer) ) {
+			if ( eval("p"+outer+"_"+inner) == databaseArrayString ) {
+				//alert("matches "+outer+"_"+inner+" "+eval("p"+outer+"_"+inner));
+				foundOuter = outer;
+				foundInner = inner;
+			}
+			inner++;
+		}
+	}
+	
+	if ( foundOuter == 0 ) {
+		help("Sorry, that's not half.  Try again!");
+	} else {
+		// now check to see if this one has been found already
+		if ( foundArray[foundOuter] == 1 ) {
+			help("Whoops!  Found that one already ("+foundOuter+")");
+		} else {
+			// update the array that keeps track of which combos have been found
+			foundArray[foundOuter] = 1;
+			// keep track of the total number of found combos
+			totalFound++;
+			// update the mini images at the top of the screen
+			miniFound = foundOuter;
+			eval("document.mini"+miniFound+".src='images/mini"+foundOuter+".gif'");
+			
+			if ( totalFound == 13 ) {
+				help("YOU GOT IT!!!");
+			} else {
+				totalLeft = 13 - totalFound;
+				help("You found one ("+foundOuter+")!  Great job.  Only "+totalLeft+" to go!");
+				clearBox();
+			}
+		}
+	}
+
+	
+}
+
+function toggle(n) {
+	if ( n == 0 ) {
+		return 1;
+	} else {
+		return 0;
+	}
+}
+
+function displayArray() { // for TESTING only
+	d = "";
+	c = "";
+	for (i=1;i<=8;i++) {
+		d = d + boxArray[i];
+		c = c + databaseArray[i];
+	}
+	alert(d + " " + c);
+}
+
+function updateDatabaseArray() {
+// because i unfortunately used a different style of storing info for the database
+// and for the boxArray, i need to keep an extra variable ("databaseArray") to keep
+// track of the current state of the user's clicks but in a database-compatible format;
+	databaseArray[1]=boxArray[1];
+	databaseArray[2]=boxArray[2];
+	databaseArray[3]=boxArray[3];
+	databaseArray[4]=boxArray[4];
+	databaseArray[5]=boxArray[8];
+	databaseArray[6]=boxArray[7];
+	databaseArray[7]=boxArray[6];
+	databaseArray[8]=boxArray[5];
+	
+}
+
+function updateBox(arraySpot,square,triangle) {
+	
+	// update the array depending on where the user clicked.
+	boxArray[arraySpot] = toggle(boxArray[arraySpot]);
+	// update the same array in the database format
+	updateDatabaseArray();
+	
+	//displayArray();
+	
+	// find out the state of the other triangle in the same square as the user clicked
+	if ( triangle == 'left' ) {
+		otherTriangle = boxArray[arraySpot+1];
+	} else {
+		otherTriangle = boxArray[arraySpot-1];
+	}
+	
+	// determine the state of the new box (full, half full left, half full right, or empty, and replace image to reflect new status
+	if ( boxArray[arraySpot] == 1 && otherTriangle == 1 ) { // full
+		eval("document.sx"+square+".src='images/"+square+"_full.gif'");
+	}
+	
+	if ( triangle == 'left' && boxArray[arraySpot] == 1 && otherTriangle == 0 ) { // half full
+		eval("document.sx"+square+".src='images/"+square+"_left.gif'");
+	}
+						
+	if ( triangle == 'right' && boxArray[arraySpot] == 1 && otherTriangle == 0 ) { // half full
+		eval("document.sx"+square+".src='images/"+square+"_right.gif'");
+	}
+						
+	if ( triangle == 'left' && boxArray[arraySpot] == 0 && otherTriangle == 1 ) { // half full
+		eval("document.sx"+square+".src='images/"+square+"_right.gif'");
+	}
+						
+	if ( triangle == 'right' && boxArray[arraySpot] == 0 && otherTriangle == 1 ) { // half full
+		eval("document.sx"+square+".src='images/"+square+"_left.gif'");
+	}
+						
+	if ( boxArray[arraySpot] == 0 && otherTriangle == 0 ) { // empty
+			eval("document.sx"+square+".src='images/"+square+"_empty.gif'");
+	}	
+}
+</SCRIPT>
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="/cyberchase/style.css">
+
+<style type="text/css">
+	body {
+		margin: 0px;
+	}
+</style>
+</head>
+<BODY BGCOLOR=#FFFFFF>
+
+<TABLE WIDTH=550 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/fractions_top.gif" ALT="" WIDTH="550" HEIGHT="43" BORDER="0"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/fraction_left.gif" ALT="" WIDTH="120" HEIGHT="30" BORDER="0"></TD>
+		<TD><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><TR>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini3"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini4"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini5"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini6"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini7"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini8"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini9"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini10"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini11"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini12"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1 BORDER=0"></TD>
+			<TD><IMG SRC="images/fractions_empty_box.gif" ALT="" WIDTH="30" HEIGHT="30" BORDER="0" NAME="mini13"></TD>
+			<TD BGCOLOR="#990066"><IMG SRC="images/spacer.gif" WIDTH=8 HEIGHT=1 BORDER=0"></TD>
+			</TABLE></TD>
+		<TD><IMG SRC="images/fractions_right.gif" ALT="" WIDTH="52" HEIGHT="30" BORDER="0"></TD>
+	</TR>
+</TABLE>
+<TABLE WIDTH=550 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=6>
+			<IMG SRC="images/fractions_01.gif" WIDTH=550 HEIGHT=64></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=64></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 ROWSPAN=2>
+			<IMG SRC="images/fractions_02.gif" WIDTH=203 HEIGHT=174></TD>
+		<TD><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+			<TR>
+				<TD><IMG SRC="images/1_empty.gif" ALT="" WIDTH="64" HEIGHT="64" BORDER="0" NAME="sx1" USEMAP="#s1map"></TD>
+				<TD><IMG SRC="images/2_empty.gif" ALT="" WIDTH="64" HEIGHT="64" BORDER="0" NAME="sx2" USEMAP="#s2map"></TD>
+			</TR>
+			<TR>
+				<TD><IMG SRC="images/3_empty.gif" ALT="" WIDTH="64" HEIGHT="64" BORDER="0" NAME="sx3" USEMAP="#s3map"></TD>
+				<TD><IMG SRC="images/4_empty.gif" ALT="" WIDTH="64" HEIGHT="64" BORDER="0" NAME="sx4" USEMAP="#s4map"></TD>
+			</TR>
+		</TABLE></TD>
+		<TD COLSPAN=2 ROWSPAN=3>
+			<IMG SRC="images/fractions_04.gif" WIDTH=219 HEIGHT=179 ALT="Click on the triangles in the big square.  When you think you've got a unique half, click on the TEST FOR 1/2 button."></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=128></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/fractions_05.gif" WIDTH=128 HEIGHT=51></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=46></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=4>
+			<IMG SRC="images/fractions_06.gif" WIDTH=64 HEIGHT=89></TD>
+		<TD ROWSPAN=2>
+			<A HREF="javascript:help('Take a half you already did, and take away one triangle and add a different one.')"><IMG SRC="images/fractions_07.gif" WIDTH=58 HEIGHT=45 BORDER="0" ALT="Help"></A></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="images/fractions_08.gif" WIDTH=81 HEIGHT=89></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=5></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<A HREF="javascript:testForHalf();"><IMG SRC="images/fractions_09.gif" WIDTH=129 HEIGHT=44 BORDER=0 ALT="Test for Half"></A></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/fractions_10.gif" WIDTH=218 HEIGHT=84></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=40></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/fractions_11.gif" WIDTH=58 HEIGHT=44></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=4></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2>
+			<IMG SRC="images/fractions_12.gif" WIDTH=129 HEIGHT=40></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=40></TD>
+	</TR>
+		<TR>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=64 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=58 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=81 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=128 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=218 HEIGHT=1></TD>
+		<TD></TD>
+	</TR>
+</TABLE>
+
+<map name="s1map">
+  <area shape="poly" coords="0,63,0,0,63,63" href="javascript:updateBox(1,'1','left');">
+  <area shape="poly" coords="0,0,63,63,63,0" href="javascript:updateBox(2,'1','right');">
+</map> 
+<map name="s2map">
+  <area shape="poly" coords="0,0,63,0,0,63" href="javascript:updateBox(3,'2','left');">
+  <area shape="poly" coords="63,0,63,63,0,63" href="javascript:updateBox(4,'2','right');">
+</map> 
+<map name="s3map">
+  <area shape="poly" coords="0,0,63,0,0,63" href="javascript:updateBox(5,'3','left');">
+  <area shape="poly" coords="63,0,63,63,0,63" href="javascript:updateBox(6,'3','right');">
+</map> 
+<map name="s4map">
+  <area shape="poly" coords="0,63,0,0,63,63" href="javascript:updateBox(7,'4','left');">
+  <area shape="poly" coords="0,0,63,63,63,0" href="javascript:updateBox(8,'4','right');">
+</map> 
+
+</BODY>
+</HTML>

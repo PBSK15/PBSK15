@@ -1,0 +1,33 @@
+{% extends 'curiousgeorge/busyday/includes/busyDayPage.html.twig' %}
+
+{% set desc = "Use a webcam or just click to make George jump and launch balls at the toy store!" %}
+{% set tags = 'counting, consecutive numbers, one more, pre-K math, camera game, education' %}
+{% set pageTitle = "Mono Saltarín | PBS KIDS" %}
+{% set spanish = true %}
+{% set bodyAtrs = '  class="game"' %}
+
+{% set specialInclude = '<script type="text/javascript">function trackDevice(str) { try { GA_obj.trackEvent('CG_Busy_Day', 'Has_Camera', str); } catch (err) {} }</script>' %}
+{% set overlayWrapper = false %}
+
+{% block contentArea %}<div id="content-area">
+	<div id="flashContent">
+		<a href="https://www.adobe.com/go/getflash"><img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a>
+		<p>This page requires Flash Player version 9.0.115 or higher.</p>
+	</div>
+
+	<script type="text/javascript">
+		var so = new SWFObject("span_jump.swf", "span_jump", "900", "500", "9.0.115", "#3b96c5");
+		so.addVariable("gameMode", "normal");
+		so.addParam("quality", "best");
+		so.addParam("play", "true");
+		so.addParam("menu", "true");
+		so.addParam("allowFullScreen", "true");
+		so.addParam("allowscriptaccess", "always");
+        // Adding wmode param to approprately stack swf obj in IE -- 4/27/2015 INye
+        so.addParam("wmode","opaque");
+		so.setAttribute("id", "span_jump");
+		so.setAttribute("name", "span_jump");
+		so.write("flashContent");
+	</script>
+
+</div>{% endblock %}

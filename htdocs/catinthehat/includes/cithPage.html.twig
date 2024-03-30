@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>{{pageTitle|raw}}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	    <meta name="Keywords" content="{{keywds}}"/>
+		<meta name="Description" content="{{desc}}"/>
+		
+		<link rel="stylesheet" href="/catinthehat/css/styles.css" type="text/css" media="screen" title="main style sheet" charset="utf-8"/>
+		<!--<meta name="viewport" content="initial-scale=1.0, width=device-width"/> -->
+		<link rel='stylesheet' type='text/css' href='/catinthehat/fonts/fonts.css' />
+		
+		<!--<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js'></script>-->
+        {% include 'template_includes/bridge_js_include.html' %}
+		<script type='text/javascript' src='/catinthehat/js/swfobject.js'></script>
+		<script type='text/javascript' src='/catinthehat/js/cithresize.uncompressed.js'></script>
+		<!--<script type="text/javascript" src="http://pbskids.org/includes/javascript/bridge.urls.js"></script> 
+		<script type="text/javascript" src="http://pbskids.org/includes/javascript/bridge.js"></script>-->
+		
+		<script type="text/javascript" src="/includes/javascript/sites/catinthehat/catinthehat.js"></script>
+		<script data-main="{{dataMainAtr|raw}}" src="/catinthehat/js/require.js"></script>
+
+        <style type="text/css">
+			#player #controlrack div.play-pause.paused #icon-pause,
+	        #player #controlrack div.play-pause.playing #icon-play
+	        {
+	          display:none;
+	        }   
+	        .showmore-videos{
+				display: inline-block,
+			}
+			#now-playing-list-iScrollContainer #now-playing-list .selected
+			{
+				background-color:#688C99;
+			}
+			#video-player .overlay img {
+				position: relative;
+				margin: auto;
+			}
+</style>
+		<!--<script type="text/javascript" src="/catinthehat/js/mainbuild.js"></script>-->
+	</head>
+	<body>
+<script type="text/javascript">
+
+	function recenter(){
+		if(document.getElementById("container") != null)
+		{
+			document.getElementById("container").style.width="100%"
+		}
+		else{
+			setTimeout(function(){recenter();}, 100);
+		}
+	}
+	
+	window.onload = recenter;
+</script>
+
+
+
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+
+
+		<div class="header" style="display: none;">
+	<div class='headbar'>
+		<div class='logos'>
+			<a href='http://www.pbskids.org'><img class='pbs' alt="PBS Kids" src="/catinthehat/assets/graphics/header_pbs-logo2.png" /></a>
+			<a href='/catinthehat/'><img class='home' alt="The Cat in the Hat Knows a Lot About That!"  src="/catinthehat/assets/graphics/header_cith-logo2.png"/></a>
+		</div>
+		<div class='links'>
+			<a href='/catinthehat/games/'><img class='games' alt="Games" src="/catinthehat/assets/graphics/nav_games.png"/></a>
+			<a href='/catinthehat/video/'><img class='videos' alt="Videos" src="/catinthehat/assets/graphics/nav_videos.png"/></a>
+			<a href='/catinthehat/characters/'><img class='characters' alt="Characters" src="/catinthehat/assets/graphics/nav_characters.png"/></a>
+		</div>
+	</div>
+</div>
+		{% block mainContent %}{% endblock %}
+		<div class='footer' style='display: none'>
+	<div class='buttons'>
+		<a href='/catinthehat/tips/'><img class='tips' alt="Tips" src="/catinthehat/assets/graphics/footer_parent-tips.png" /></a>
+		<a href='/catinthehat/about/'><img class='about' alt="About" src="/catinthehat/assets/graphics/footer_about-the-show.png" /></a>
+	</div>
+	<div class='logos'>
+		<div class='produced'>
+			<div class='title'>Produced By</div>
+			<a href='http://portfolioentertainment.com/'><img class='link' id='portfolio' src="/catinthehat/assets/graphics/footer/portfolio.png" alt="Portfolio Entertainment" /></a>
+			<a href='http://www.collingwoodandco.co.uk/'><img class='link' id='collingwood' src="/catinthehat/assets/graphics/footer/collingwood.png" alt="Collingwood & Co<" /></a>
+		</div>
+		<div class='association'>
+			<div class='title'>In Association With</div>
+			<a href='http://seussville.com/'><img class='link' id='drseuss' src="/catinthehat/assets/graphics/footer/drseuss.png" alt="Seussville" /></a>
+			<a href='http://www.randomhousekids.com/'><img class='link' id='randomhouse' src="/catinthehat/assets/graphics/footer/randomhouse.png" alt="Random House Kids" /></a>
+			<a href='http://www.kqed.org/'><img class='link' id='kqed' src="/catinthehat/assets/graphics/footer/kqed.png" alt="KQED" /></a>
+		</div>
+		<div class='funded'>
+			<div class='title'>Funded By</div>
+			<a href='http://www.ed.gov/'><img class='link' id='doe' src="/catinthehat/assets/graphics/footer/doe.png" alt="U.S. Department of Education" /></a>
+			<a href='http://cpb.org/'><img class='link' id='cpb' src="/catinthehat/assets/graphics/footer/cpb.png" alt="Corporation for Public Broadcasting" /></a>
+		</div>
+	</div>
+	<div class='legalText'>
+		<p>The Cat in the Hat Knows a Lot About That! Logo and word mark &#169 2010 Dr. Seuss Enterprises, L.P. Collingwood O'Hare Productions Limited, and Portfolio Entertainment Inc. All Rights reserved.</p>
+		<p>The contents of this Web site were developed under a cooperative agreement, #PRU295A100025, from the U.S. Department of Education. However, those contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government.</p>
+	</div>
+</div>
+	</body>
+</html>

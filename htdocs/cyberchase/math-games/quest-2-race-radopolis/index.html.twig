@@ -1,0 +1,59 @@
+{% extends 'cyberchase/includes/cyberchasePage.html.twig' %}
+{% set desc = 'Play math games and go on quests  with the Cybersquad. Lots of free online math games and puzzles to play. 
+' %}
+{% set keywds = 'math, fractions, franctions, educational, math education, math games, math activities, kids math, cool, game, games, lesson, lessons, kids,  multiplication, division, addition, subtraction, activity, activities,  division, long division, times tables' %}
+{% set pageTitle = 'Math Games for Kids . Cyberchase' %}
+
+
+{% block specialHead %}<style type="text/css">
+		#headband-page-wrap {
+			background-image: url('http://pbskids.org/cyberchase/static/images/backgrounds/game_container.jpg');
+      background-repeat: no-repeat;
+		}
+	</style>
+{% endblock %}
+
+
+{% set bodyOpeningTag = '<body id=\"page-math-games\">' %}
+{% set selectedNav = 'GAMES' %}
+
+
+{% block specialMiddleElems %}<script type="text/javascript" _src="http://pbskids.org/cyberchase/static/js/gamecallback.js" id="headband-callback"></script>
+{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="content">
+ <div class="limiter">
+  <div style="height: 80px; margin-top: 8px;">
+   <h1 class="page-title"><img src="http://pbskids.org/cyberchase/media/textrender/pageheader/251bd8143891238ecedc306508e29017.png" class="textrender pageheader" width="122" height="60" alt="Games" border="0"></h1>
+   <h2 class="page-subtitle"><img src="http://pbskids.org/cyberchase/media/textrender/subheader/4512e031a42465c2d75468fe76de37eb.png" class="textrender subheader" width="268" height="43" alt="Quest 2: Race for Radopolis" border="0"></h2>
+  </div>
+  <div class="content-panel">
+   <div class="content-panel-inner game-container"><iframe id="game-container" src="/cyberchase/media/games/quest/index.html" style="width:700px; height: 400px;" scrolling="no" frameboarder="0"></iframe>
+    <div class="clear"></div>
+    <div align="center" style="margin: 25px; width:750px">
+     <p><strong>Explore Radopolis to optimize your skateboard for the big race. </strong></p>
+    </div>
+   </div>
+   <div id="associated-content"></div>
+   <div class="clear"></div>
+  </div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}<script type="text/javascript">
+		$(function() {
+			$('#associated-content').load('/cyberchase/learning-pathways/games/quest-2-race-radopolis/', function() {
+				cyberchase.associatedContentAnim();
+				cyberchase.bindAnalytics();
+				if(typeof pngfix == 'function'){ pngfix(); }
+			});
+		});
+	</script>
+{% endblock %}
+

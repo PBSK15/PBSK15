@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "CorporalCup_Welcome.m4a",
+    "CorporalCup_Welcome.oga",
+    "CorporalCup_Welcome.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "CorporalCup_Welcome": {
+      "start": 6,
+      "end": 10.693537414965986,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

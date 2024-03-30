@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 1. Panel 1 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/bg1.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel1_02.gif";
+n12 = new Image();
+n12.src = "images/panel1b_02.gif";
+n13 = new Image();
+n13.src = "images/panel1c_02.gif";
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 800);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "4") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+<body  onload="timeimgs('2')" style="margin: 0px">
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/panel1_01.gif" WIDTH=551 HEIGHT=142 alt="Cyberchase... a place where time and space are one... A place where the lines between reality and imagination no longer exist... A place where anyone can go and anything can happen." border="0" usemap="#panel"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel1_02.gif" WIDTH=214 HEIGHT=200 alt="Cyberchase... a place where time and space are one... A place where the lines between reality and imagination no longer exist... A place where anyone can go and anything can happen." border="0" name="n1"></TD>
+		<TD><IMG SRC="images/panel1_03.gif" WIDTH=337 HEIGHT=200 alt="Cyberchase... a place where time and space are one... A place where the lines between reality and imagination no longer exist... A place where anyone can go and anything can happen." border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><img src="images/panel1_04.gif" width=551 height=58 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+</td></tr></table>
+
+
+<map name="panel">
+<area alt="Webisode 1" coords="247,10,360,40" href="1.html">
+<area alt="How It All Started" coords="51,13,240,37" href="../webisodes-global/how_started.html">
+</map>
+<map name="next">
+<area alt="next" coords="464,5,524,45" href="2.html">
+</map>
+
+
+
+</BODY>
+</HTML>

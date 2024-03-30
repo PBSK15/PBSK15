@@ -1,0 +1,49 @@
+.findstation {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFF;}
+a:link.findstation {text-decoration: underline;}
+a:visited.findstation {text-decoration: underline;}
+a:hover.findstation {text-decoration: underline;}
+
+.bigtime {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #FFF;}
+.smalltime {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+
+.bigprogramtitle {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #FFF;}
+a:link.bigprogramtitle {text-decoration: underline;}
+a:visited.bigprogramtitle {text-decoration: underline;}
+a:hover.bigprogramtitle {text-decoration: underline;}
+
+.smallprogramtitle {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; color: #FFF;}
+a:link.smallprogramtitle {text-decoration: underline;}
+a:visited.smallprogramtitle {text-decoration: underline;}
+a:hover.smallprogramtitle {text-decoration: underline;}
+
+.bigprogramdesc {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+a:link.bigprogramdesc {text-decoration: none;}
+a:visited.bigprogramdesc {text-decoration: none;}
+a:hover.bigprogramdesc {text-decoration: underline;}
+
+.smallprogramdesc {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFF;}
+a:link.smallprogramdesc {text-decoration: none;}
+a:visited.smallprogramdesc {text-decoration: none;}
+a:hover.smallprogramdesc {text-decoration: underline;}
+
+.calendarmonth {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #FFF;}
+
+.whatson {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 22px; color: #FFF;}
+
+.calendarday {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFF;}
+a:link.calendarday {text-decoration: none;}
+a:visited.calendarday {text-decoration: none;}
+a:hover.calendarday {text-decoration: none;}
+
+.calendarnumber {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; color: #FFF;}
+a:link.calendarnumber {text-decoration: none;}
+a:visited.calendarnumber {text-decoration: none;}
+a:hover.calendarnumber {text-decoration: none;}
+
+.dayoff {background-color: #BD0A8B;}
+.dayon {background-color: #FFB600;}
+
+.fineprint {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000;}
+a.fineprint:link {text-decoration: underline;}
+a.fineprint:visited {text-decoration: underline;}
+a.fineprint:hover {text-decoration: none;}

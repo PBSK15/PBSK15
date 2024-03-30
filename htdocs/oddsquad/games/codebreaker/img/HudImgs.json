@@ -1,0 +1,38 @@
+{
+    "texturepacker": true,
+    "id" : "hudTilesJson",
+    "images": ["img/HudImgs.png"],
+    "frames": [
+
+        [2, 2, 18, 24], 
+        [24, 2, 59, 87], 
+        [87, 2, 59, 87], 
+        [150, 2, 59, 87], 
+        [213, 2, 59, 87], 
+        [276, 2, 672, 217], 
+        [2, 223, 1024, 154], 
+        [2, 381, 1008, 581], 
+        [2, 966, 160, 154], 
+        [166, 966, 160, 154], 
+        [330, 966, 160, 154], 
+        [494, 966, 141, 199], 
+        [639, 966, 141, 198], 
+        [784, 966, 140, 199]
+    ],
+    "animations": {
+        "CardEfx":[0], 
+        "Panel_Active":[1], 
+        "Panel_Closed":[2], 
+        "Panel_Completed":[3], 
+        "Panel_Empty":[4], 
+        "Puzzle_Solved":[5], 
+        "Top_Panel_Frame":[6], 
+        "Win_Background":[7], 
+        "Win_Btn_Menu":[8], 
+        "Win_Btn_Next":[9], 
+        "Win_Btn_Replay":[10], 
+        "Win_Juice_01":[11], 
+        "Win_Juice_02":[12], 
+        "Win_Juice_03":[13]
+    }
+}

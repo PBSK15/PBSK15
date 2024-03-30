@@ -1,0 +1,125 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' . What is EekoWorld? . Site Credits | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE --><img src="../images/header_whatiseekoworld.jpg" alt="What is EekoWorld?" width="262" height="54" class="headerimage">
+  <div id="subnav">
+   <a href="index.html">Overview</a> | <a href="credits.html" class="active">Site Credits</a>
+  </div> <img src="../images/header_overview.jpg" alt="Overview" width="105" height="33" class="contentheader"><a name="planoverviews" id="planoverviews"></a>
+  <p class="blacksubhead">Many thanks to the people who had a role in EekoWorld.</p>
+  <p></p>
+  <hr width="90%" size="1" color="#FE871C" noshade><br>
+  <div id="sidebarwrapper">
+   <div id="sidebargreentop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreencontainer">
+    <div id="sidebargreencontent">
+     <p><strong>Create and care for your own <a href="../index.html?load=eekocreature">EekoCreature</a>, then explore <a href="../index.html?load=eekohouse">EekoHouse</a> for conservation ideas! </strong></p>
+    </div>
+   </div>
+   <div id="sidebargreenbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+  </div>
+  <p class="subhead"><strong>PRODUCER, WEB SITE DESIGN &amp; PROGRAMMING</strong></p>
+  <p><img src="../images/beancreative_logo.gif" width="200" height="58" alt="" border="0"></p>
+  <p><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design"><strong>Bean Creative Funktional Web Design</strong></a></p>
+  <ul>
+   <li>Layla Masri, <em>President</em></li>
+   <li>Keith Soares, <em>Vice President</em></li>
+   <li>Bill Setzer, <em>Director of Design &amp;&nbsp; Development</em></li>
+   <li>Stuart Pham, <em>Senior Developer, Programming</em></li>
+   <li>Amy Warnke, <em>Project Director</em></li>
+   <li>Emily Grossman, <em>Senior Developer</em></li>
+   <li>Nathan Cross, <em>Web Developer</em></li>
+   <li>Scott Lacey, <em>Jr. Flash Developer</em><br></li>
+  </ul>
+  <hr width="90%" size="1" color="#FE871C" noshade><br>
+  <p class="subhead"><strong>PRODUCTION PARTNER</strong></p>
+  <p><img src="../images/pbs_logo.gif" width="150" height="84" alt="" border="0"></p>
+  <p><a href="http://www.pbs.org" title="PBS"><strong>PBS</strong></a></p>
+  <p class="indent">•&nbsp; Silvia Lovato, <em>Senior Editor, PBSKids</em> <br> •&nbsp; Chris Bishop, <em>Associate Creative Director, PBSKids</em> <br></p>
+  <hr width="90%" size="1" color="#FE871C" noshade><br>
+  <p class="subhead"><strong>CONTENT DEVELOPMENT and WRITING</strong></p>
+  <p><a href="http://www.bay-breeze.com/index.html" title="Bay Breeze Educational Resources"><strong>Bay Breeze Educational Resources</strong></a></p>
+  <hr width="90%" size="1" color="#FE871C" noshade><br>
+  <p class="subhead"><strong>ADVISORY BOARD</strong></p>
+  <p class="indent">•&nbsp; Dave Alpin, <em>Outreach Director, Sea Studios Foundation</em> <br> •&nbsp; Sarah Freedman, <em>Professor of Language and Literacy, Society and Culture (LLSC), University of California, Berkeley</em> <br> •&nbsp; Theresa Molinelli, <em>Teacher, Baker Elementary School, San Jose, California</em> <br> •&nbsp; Kathy Rusert, <em>Science Teacher, Ouachita River School District, Acorn Campus, Mena, Arkansas</em></p>
+  <hr width="90%" size="1" color="#FE871C" noshade><br>
+  <p class="subhead"><strong>FUNDING</strong></p>
+  <p><img src="../images/cpb_logo.gif" width="80" height="79" alt="" border="0"></p>
+  <p><a href="http://www.cpb.org" title="Corporation for Public Broadcasting"><strong>Corporation for Public Broadcasting</strong></a></p>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

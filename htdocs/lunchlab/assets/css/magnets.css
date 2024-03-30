@@ -1,0 +1,236 @@
+#magnets #content .frame{
+	background-image:url("../images/magnets/magnetsTile.png");
+}
+.magnets{
+	text-align:center;
+}
+.magnets li {
+	display: inline-block;
+	zoom:1; 
+	*display:inline;
+    margin: 10px 0;
+    text-align: center;
+    width: 20%;
+    height:160px;
+    position: relative;
+}
+
+.magnets li img {
+	display:block;
+	margin:0 auto;
+}
+
+.magnets .progress {
+	background:#999;
+	height:20px;
+	overflow:hidden;
+	border-radius:20px;
+	left:20px;
+	right:20px;
+	bottom:0;
+	position: absolute;
+	display:block;
+}
+
+.magnets .progressBar {
+	background-color:orange;
+	height:100%;
+	display:block;
+}
+
+#magnets #backButton{
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+#magnets #notepad{
+	background-color:#fff;
+	display:block;
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+#magnets #notepad #magnet{
+	display:block;
+	width:28%;
+	margin:0 1%;
+	float:left;
+}
+#magnets #notepad img.magnet{
+	width:90%;
+}
+#magnets #notepad h1{
+	text-transform:uppercase;
+}
+#magnets #notepad .progress {
+	background:#999;
+	border-radius: 10px;
+    bottom: 0;
+    display: block;
+    height: 10px;
+    margin: -30px auto 20px;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+}
+#magnets #notepad .progressBar {
+	background-color:orange;
+	height:100%;
+	display:block;
+}
+#magnets #notepad .requirements{
+	width:70%;
+	float:left;
+	display:block;
+	margin:30px 0;
+}
+#magnets #notepad .requirements li{
+	text-align:left;
+	border: 1px solid #8ac8d6;
+	margin-top:-1px;
+}
+#magnets #notepad .requirements li a{
+	text-decoration: none;
+	color:#20364b;
+}
+#magnets #notepad .requirements li.completed,
+#magnets #notepad .requirements li.completed a {
+	color:#778fa6;
+}
+#magnets #notepad .requirements li .requirement{
+	height:50px;
+	overflow:hidden;
+	margin-right: 5px;
+}
+
+#magnets #notepad .requirements li .fulfilled{
+	width:50px;
+	height:50px;
+	display:block;
+	float:left;
+	background-image:url("../images/magnets/playButton.svgz");
+	background-position:5px 5px;
+	background-repeat:no-repeat;
+	border-right: 1px solid #f59fab;
+	margin-right:10px;
+}
+.no-svg #magnets #notepad .requirements li .fulfilled{
+	background-image:url("../images/magnets/playButton.png");
+}
+#magnets #notepad .requirements li.completed .fulfilled{
+	background-image:url("../images/magnets/check.svgz");
+}
+.no-svg #magnets #notepad .requirements li.completed .fulfilled{
+	background-image:url("../images/magnets/check.png");
+}
+
+#magnets #loginContainer{
+	background-color:#000;
+	background-color:rgba(0,0,0,0.5);
+	top:6px;
+	bottom:6px;
+	left:6px;
+	right:6px;
+	display:block;
+	position:absolute;
+	z-index:98;
+}
+#magnets #loginContainer #loginDialogContainer{
+	width:95%;
+	max-width:539px;
+	position:relative;
+	margin:20px auto;
+}
+#magnets #loginContainer #loginDialog{
+	width:100%;
+	padding-bottom:58.81%;
+	background-image:url("../images/magnets/LoginDialog.png");
+	background-size:100% auto;
+	-ms-behavior: url(/lunchlab/assets/polyfills/backgroundsize.min.htc);
+}
+#magnets #loginContainer #loginDialog h2{
+	position:absolute;
+	display:block;
+	right:5%;
+	width:55%;
+	top:22%;
+	font-size:200%;
+	line-height: 1.125em;
+	text-align:center;
+} 
+#magnets #loginContainer #loginDialog button{
+	position:absolute;
+	width:25%;
+	bottom:10%;
+}
+#magnets #loginContainer #loginDialog #loginButton{
+	right:5%;
+}
+#magnets #loginContainer #loginDialog #noButton{
+	right:32%;
+}
+
+
+@media all and (max-width : 720px) {
+	.magnets li {
+		width:25%;
+	}
+}
+@media all and (max-width : 600px) {
+	#magnets #content .frame .bottomBar{
+		display:none;
+	}
+
+	#magnets #backButton{
+		top:12px;
+		left:5px;
+	}
+
+	#magnets #notepad #magnet{
+		float:none;
+		width:60%;
+		margin:0 20%;
+	}
+	#magnets #notepad .requirements{
+		float:none;
+		width:100%;
+		margin:0;
+	}
+
+	#magnets #loginContainer{
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+	}
+	#magnets #loginContainer #loginDialog h2{
+		font-size:180%;
+	}
+	#magnets #loginContainer #loginDialog button{
+		font-size:95%;
+		padding:10px;
+	}
+
+}
+@media all and (max-width : 520px) {
+	.magnets li {
+		width:33.33%;
+	}
+	#magnets #notepad .requirements li .requirement{
+		font-size:85%;
+	}
+}
+@media all and (max-width : 420px) {
+	.magnets li {
+		width:50%;
+	}
+	#magnets #notepad{
+		width:100%;
+	}
+	#magnets #loginContainer #loginDialog h2{
+		font-size:150%;
+	}
+	#magnets #loginContainer #loginDialog button{
+		font-size:85%;
+	}
+}

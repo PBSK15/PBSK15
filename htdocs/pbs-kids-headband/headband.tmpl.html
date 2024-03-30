@@ -1,0 +1,204 @@
+(function() {
+  var template = PBS.KIDS.Handlebars.template, templates = PBS.KIDS.Handlebars.templates = PBS.KIDS.Handlebars.templates || {};
+templates['headband.source.html'] = template(function (Handlebars,depth0,helpers,partials,data) {
+  helpers = helpers || Handlebars.helpers;
+  var buffer = "", stack1, stack2, stack3, foundHelper, tmp1, self=this, functionType="function", helperMissing=helpers.helperMissing, undef=void 0, escapeExpression=this.escapeExpression;
+
+function program1(depth0,data) {
+  
+  
+  return "login";}
+
+function program3(depth0,data) {
+  
+  
+  return "no-login";}
+
+function program5(depth0,data) {
+  
+  var buffer = "", stack1;
+  buffer += "\n      <li><a href=\"";
+  stack1 = depth0.base_url;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "this.base_url", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\" title=\"Visit ";
+  stack1 = depth0.site_title;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "this.site_title", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\"><span>Visit ";
+  stack1 = depth0.show_title;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "this.show_title", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "</span><img src=\"";
+  stack1 = depth0.go_featured_graphic_url;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "this.go_featured_graphic_url", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\" alt=\"Visit ";
+  stack1 = depth0.site_title;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "this.site_title", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\"></a></li>\n      ";
+  return buffer;}
+
+function program7(depth0,data) {
+  
+  
+  return "class=\"shop\"";}
+
+function program9(depth0,data) {
+  
+  
+  return "class=\"no-shop\"";}
+
+function program11(depth0,data) {
+  
+  var buffer = "", stack1;
+  buffer += "\n      <li class=\"button shop\"><a id=\"shop-anchor\" href=\"";
+  foundHelper = helpers.shop_url;
+  stack1 = foundHelper || depth0.shop_url;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "shop_url", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\">Shop</a></li>\n      ";
+  return buffer;}
+
+function program13(depth0,data) {
+  
+  
+  return " \n      <li class=\"nav-item settings button\">\n			<button data-action=\"settings-trigger\">Settings</button>\n		    <div id=\"settings-tooltip\" class=\"parents-tooltip down\">\n		    	<span class=\"tip-flag\"></span>\n		    	\n		        <h3>PBS KIDS Settings</h3>\n		        <button class=\"close-tooltip-button\" title=\"Close\"><em>Close</em></button>\n		        \n		        <div class=\"module supervision-module\">\n		            <div class=\"sync-header\"><h4>PBS KIDS Super Vision</h4></div>\n		            <a href=\"/supervision/\" class=\"logo\"><img src=\"/shell/images/present/supervision/logo_supervision.svg\" /></a>\n		            \n		            <p class=\"module-description\">See what your child is playing, watching, &amp; learning with our free <a href=\"/supervision/\">Super Vision app for iPhone</a>. <em>Super Vision app is connected</em></p>\n		            \n		            <div class=\"settings-panel hidden\">\n		                <div id=\"code-receipt-panel\" class=\"sync-panels\">\n			                <h5 class=\"sync-state-graphic\"><em>Currently Not Connected.</em></h5>\n			                <h6>This is your unique Connect Code.</h6>\n			                \n			                <p id=\"sync-id-input-group\" class=\"input-group\">\n			                    <label for=\"sync-id\">Enter this code in the <a href=\"/supervision/\">Super Vision App</a> to connect.</label>\n			                    <input name=\"sync-id\" type=\"text\" readonly=\"\" />\n			                </p>\n			                <div class=\"sync-footer\"></div>\n		                </div>\n		                \n		                <div id=\"connection-confirmation-panel\" class=\"sync-panels\">\n		                    <h5 class=\"sync-state-graphic\"><em>Currently Connected.</em></h5>\n		                    <h6>Connected to Super Vision app.</h6>\n		                    \n		                    <div class=\"sync-footer\">\n		                        <button class=\"close-tooltip-button\">Done</button>\n		                    </div>\n		                </div>\n		            </div>\n		            \n		            <div class=\"sync-footer\">\n		                <button class=\"view-settings sync-actions\">Connect to app</button>\n		                <button class=\"all-settings\">Back</button>\n		                <button class=\"disconnect-supervision sync-actions\">Disconnect</button>\n		                \n		                <div class=\"confirm-disconnect sync-actions\">\n		                    <label>Are you sure?</label>\n		                    <button data-action=\"confirm-disconnect-yes\">Yes</button>\n		                    <button data-action=\"confirm-disconnect-no\">No</button>\n		                </div>\n		            </div>\n		        </div>\n		    </div>\n		</li>\n      ";}
+
+  buffer += "<div id=\"pbskids-headband\" class=\"";
+  foundHelper = helpers.brand;
+  stack1 = foundHelper || depth0.brand;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "brand", { hash: {} }); }
+  buffer += escapeExpression(stack1) + " ";
+  foundHelper = helpers.go_login;
+  stack1 = foundHelper || depth0.go_login;
+  stack2 = helpers['if'];
+  tmp1 = self.program(1, program1, data);
+  tmp1.hash = {};
+  tmp1.fn = tmp1;
+  tmp1.inverse = self.program(3, program3, data);
+  stack1 = stack2.call(depth0, stack1, tmp1);
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\">\n  <div id=\"mobile-sub-nav\" class=\"closed\"></div>\n  <div id=\"site-exlpore-menu\" class=\"closed\"> \n\n    <ul class=\"handpicked-shows\">\n      <li id=\"";
+  foundHelper = helpers.brand;
+  stack1 = foundHelper || depth0.brand;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "brand", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "-home\" class=\"explorer-logo\"><a href=\"";
+  foundHelper = helpers.brand;
+  stack1 = foundHelper || depth0.brand;
+  foundHelper = helpers['homepage-link'];
+  stack2 = foundHelper || depth0['homepage-link'];
+  if(typeof stack2 === functionType) { stack1 = stack2.call(depth0, stack1, { hash: {} }); }
+  else if(stack2=== undef) { stack1 = helperMissing.call(depth0, "homepage-link", stack1, { hash: {} }); }
+  else { stack1 = stack2; }
+  buffer += escapeExpression(stack1) + "\" title=\"Visit PBS KIDS Home\"><span>Visit PBS KIDS</span><img src=\"http://www-tc.pbskids.org/pbs-kids-headband/images/explorer-";
+  foundHelper = helpers.brand;
+  stack1 = foundHelper || depth0.brand;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "brand", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "-logo.png\" /></a></li>\n      ";
+  foundHelper = helpers.sites;
+  stack1 = foundHelper || depth0.sites;
+  stack2 = helpers.each;
+  tmp1 = self.program(5, program5, data);
+  tmp1.hash = {};
+  tmp1.fn = tmp1;
+  tmp1.inverse = self.noop;
+  stack1 = stack2.call(depth0, stack1, tmp1);
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n    </ul>\n    <button id=\"explorer-close\" title=\"Close Explore Menu\">Close Explore Menu</button>\n\n  </div>\n  <button class=\"brand-action-toggle\" title=\"Open Explore Menu\">Visit other PBS KIDS Sites</button>\n\n  <!-- Begin User block -->\n  <div id=\"headband-user-block\" class=\"";
+  foundHelper = helpers.login_status;
+  stack1 = foundHelper || depth0.login_status;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "login_status", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\" >\n    <a href=\"/go/secretbox/\" class=\"avatar\" rel=\"user\" title=\"Visit ";
+  foundHelper = helpers.username;
+  stack1 = foundHelper || depth0.username;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "username", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "'s Secret Box\">\n      <h3>Visit ";
+  foundHelper = helpers.username;
+  stack1 = foundHelper || depth0.username;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "username", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "'s Secret Box</h3>\n      <img alt=\"";
+  foundHelper = helpers.username;
+  stack1 = foundHelper || depth0.username;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "username", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "'s Avatar\" src=\"";
+  foundHelper = helpers.avatar;
+  stack1 = foundHelper || depth0.avatar;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "avatar", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\" /> \n    </a>\n    <ul id=\"headband-menu\">\n      <li class=\"username\"><em>";
+  foundHelper = helpers.username;
+  stack1 = foundHelper || depth0.username;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "username", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "</em> <span></span>\n      <ul>\n	<li class=\"seacretbox sub-link\">\n	  <a href=\"/go/secretbox/\">My ";
+  foundHelper = helpers.boxname;
+  stack1 = foundHelper || depth0.boxname;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "boxname", { hash: {} }); }
+  buffer += escapeExpression(stack1) + " &raquo;\n	    <img src=\"http://www-tc.pbskids.org/pbs-kids-headband/images/secret-box-icon.png\" />\n	  </a>\n	  \n	</li>\n	<li class=\"account sub-link\"><a href=\"/go/apps/auth/account_settings/\">Account Settings &raquo;</a></li>\n      </ul>\n      </li>\n    </ul>\n    <a href=\"/go/apps/auth/logout/?destination=";
+  foundHelper = helpers.current_url;
+  stack1 = foundHelper || depth0.current_url;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "current_url", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\" id=\"headband-log-out\" class=\"login-btn\">Log Out</a>\n    <p class=\"login-copy\">Sign in to save your games &amp; scores</p>\n    <a href=\"/go/apps/auth/prompt/";
+  foundHelper = helpers.reload;
+  stack1 = foundHelper || depth0.reload;
+  foundHelper = helpers.destination;
+  stack2 = foundHelper || depth0.destination;
+  foundHelper = helpers.URLEscapeLoginParams;
+  stack3 = foundHelper || depth0.URLEscapeLoginParams;
+  if(typeof stack3 === functionType) { stack1 = stack3.call(depth0, stack2, stack1, { hash: {} }); }
+  else if(stack3=== undef) { stack1 = helperMissing.call(depth0, "URLEscapeLoginParams", stack2, stack1, { hash: {} }); }
+  else { stack1 = stack3; }
+  buffer += escapeExpression(stack1) + "\"  id=\"headband-sign-in\" class=\"login-btn\">Sign In</a>\n  </div> \n  <!-- End User Block --> 	\n  <!-- Begin Grownups Block --> \n  <div id=\"headband-grownups-block\" ";
+  foundHelper = helpers.shop_partner;
+  stack1 = foundHelper || depth0.shop_partner;
+  stack2 = helpers['if'];
+  tmp1 = self.program(7, program7, data);
+  tmp1.hash = {};
+  tmp1.fn = tmp1;
+  tmp1.inverse = self.program(9, program9, data);
+  stack1 = stack2.call(depth0, stack1, tmp1);
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += ">\n    <ul>\n      <li class=\"label\"><i>For</i> grownups <span>:</span></li>\n      <li class=\"button parents\"><a id=\"parents-anchor\" href=\"";
+  foundHelper = helpers.parents_url;
+  stack1 = foundHelper || depth0.parents_url;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "parents_url", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\">Parents</a></li>\n      <li class=\"button teachers\"><a id=\"teachers-anchor\" title=\"PBS Learning Media\" href=\"";
+  foundHelper = helpers.teachers_url;
+  stack1 = foundHelper || depth0.teachers_url;
+  if(typeof stack1 === functionType) { stack1 = stack1.call(depth0, { hash: {} }); }
+  else if(stack1=== undef) { stack1 = helperMissing.call(depth0, "teachers_url", { hash: {} }); }
+  buffer += escapeExpression(stack1) + "\">Teachers</a></li>\n      ";
+  foundHelper = helpers.shop_partner;
+  stack1 = foundHelper || depth0.shop_partner;
+  stack2 = helpers['if'];
+  tmp1 = self.program(11, program11, data);
+  tmp1.hash = {};
+  tmp1.fn = tmp1;
+  tmp1.inverse = self.noop;
+  stack1 = stack2.call(depth0, stack1, tmp1);
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n      \n      \n      ";
+  foundHelper = helpers.supervision;
+  stack1 = foundHelper || depth0.supervision;
+  stack2 = helpers['if'];
+  tmp1 = self.program(13, program13, data);
+  tmp1.hash = {};
+  tmp1.fn = tmp1;
+  tmp1.inverse = self.noop;
+  stack1 = stack2.call(depth0, stack1, tmp1);
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n    </ul>\n  </div> <!-- End Grownups Block --> \n\n</div> \n\n";
+  return buffer;});
+})();

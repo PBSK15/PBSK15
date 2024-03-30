@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Games . Counter Example | PBS Kids</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<style type="text/css">
+        body {
+            margin: 0px;
+        }
+</style>
+
+<script language="javascript">
+
+var characterArray = new Array(1,2,3,4,5,6,7,8,9);
+var round = 0;
+var guesses = 0;
+
+function initialize() {
+	var paramString = document.URL;
+	var paramArray = new Array();
+	paramArray = paramString.split("?");
+	round = paramArray[1];
+	document.statements.src = "images/statement"+round+".gif";
+}
+	
+function play() {
+	location = "counterexample.html?" + round;
+}
+
+
+</script>
+</head>
+
+<BODY BGCOLOR="#FFFFFF" onLoad="initialize()">
+	<TABLE WIDTH=550 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><img src="images/statement_off_01.gif" width=548 height=86 alt="" border="0" usemap="#top"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><IMG SRC="images/statement_off_02.gif" WIDTH=76 HEIGHT=313 alt="" border="0"></TD>
+		<TD><IMG SRC="images/statement1.gif" WIDTH=202 HEIGHT=117 alt="" border="0" name="statements"></TD>
+		<TD ROWSPAN=2><IMG SRC="images/statement_off_04.gif" WIDTH=270 HEIGHT=313 alt="Now let's play Find the Counter Example." border="0"></TD>
+	</TR>
+	<TR>
+		<TD><img src="images/statement_off_05.gif" width=202 height=196 alt="" border="0" usemap="#play"></TD>
+	</TR>
+	<tr><td colspan=3>
+	
+	
+</td></tr>
+
+</TABLE></td>
+</tr>
+<tr><td colspan="2" class="footer">
+</table>
+
+
+
+<map name="play">
+<area alt="Play" coords="50,18,153,112" href="javascript:play()">
+</map>
+
+<map name="top">
+<area alt="Cyberchase Squares" coords="13,7,233,48" href="counterexample.html">
+<area alt="Statement" coords="111,56,253,83" nohref>
+</map>
+
+
+</BODY>
+</HTML>
+

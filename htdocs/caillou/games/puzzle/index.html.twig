@@ -1,0 +1,81 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games . Puzzle Game' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script src="swfobject.js" type="text/javascript"></script>
+<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "../images/Master_btn_games-over.gif";		games_off = new Image( );	 		games_off.src = "../images/Master_btn_games.gif"; 				coloring_on = new Image( );		coloring_on.src = "../images/Master_btn_coloring-over.gif";		coloring_off = new Image( );		coloring_off.src = "../images/Master_btn_coloring.gif";			greetings_on = new Image( );		greetings_on.src = "../images/Master_btn_greetings-over.gif";		greetings_off = new Image( );		greetings_off.src = "../images/Master_btn_greetings.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "../images/Master_caillou-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "../images/Master_caillou.gif";			back_on = new Image( );		back_on.src = "../images/Master_back-over.gif";		back_off = new Image( );		back_off.src = "../images/Master_back.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="../images/bkg_blue-bfly2.gif" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="https://pbskids.org/"><img src="../images/Master_pbs.gif" alt="PBS Kids Homepage" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="../images/Master_yellow-left.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../../index.html"><img src="../images/Master_caillou.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="../images/Master_yellow-right.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="../puzzle.html"><img src="../images/Master_back.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="../images/Master_red.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div id="flashcontent"></div> <script type="text/javascript">							var so = new SWFObject("puzzle_eng.swf", "puzzle_eng", "566", "356", "5,0,30,0", "#ffffff");							so.addParam("play", true);							so.write("flashcontent");						</script></td>
+        <td><img src="../images/Master_green.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="../images/Master_red-bottom.gif" alt="" height="90" width="92"></td>
+        <td><img src="../images/Master_blue-left.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="../images/Master_btn_games.gif" alt="Games" name="games" height="90" width="125" border="0"></td>
+        <td><img src="../images/Master_btn_greetings.gif" alt="Greeting Cards and Email" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="../images/Master_btn_coloring.gif" alt="Activities" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="../images/Master_blue-right.gif" alt="" height="90" width="95"></td>
+        <td><img src="../images/Master_green-bottom.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="../images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="20">
+        <td height="20"></td>
+       </tr>
+       <tr>
+        <td><p class="instruct_normal"></p>
+         <hr width="60%"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

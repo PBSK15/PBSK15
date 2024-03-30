@@ -1,0 +1,107 @@
+﻿<!--Follow the instructions that are in the comments-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#pbskidsgologinbar {
+			display: none;
+		}
+	</style>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<script type="text/javascript" _src="script.js" id="headband-callback"></script>
+    <script type="text/javascript">
+		
+			var flashvars = {
+				configURL: 'xml/config.xml',
+				stringsURL: 'xml/strings_en.xml'
+			};
+			
+			var params = {
+				menu: "false",
+				scale: "exactfit",
+				allowScriptAccess: "always",
+				bgcolor:"#000000",
+				wmode: "opaque"
+			};
+			
+			var attributes = {
+				id: "game",
+				name: "game"
+			};
+			
+			swfobject.embedSWF('buzz_and_delete_shell.swf', 'game', '815', '509', '10.0.0','', flashvars, params, attributes);
+			
+			function getHash()
+			{
+				return parent.window.location.hash;
+			}
+
+			function cbox_closed_callback()
+			{				
+				var flash = document.getElementById("game");
+				flash.getUserData();
+			}
+			
+    </script>
+</head>
+
+<body style="margin: 0px; background-color: #21072d;">
+<div id="game">
+	Whoops! Looks like you need to download the latest version of Flash. Try visiting our site on a different computer or download it here: <a href="https://get.adobe.com/flashplayer/">https://get.adobe.com/flashplayer/</a>.
+</div>
+<div id="game-footer" style="font-family: Arial, san-serif; font-size: 0.7em; height: 69px; color: #6d4a7b; padding: 12px 0 0 30px;">
+<img src="images/cpb.gif" width="45" height="45" alt="Corporation for Public Broadcasting" style="display: block; float: left; margin: 5px 10px 0 0;" />
+<img src="images/doe.gif" width="45" height="45" alt="Department of Education" style="display: block; float: left; margin: 5px 10px 0 0;" />
+<div style="float: left; width: 640px; padding-top: 5px;">The contents of this game were developed under a cooperative agreement, #PRU295A100025, from the U.S. Department of Education. However, those contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government.</div>
+</div>
+
+<script>
+	function retrieveCookie(key) {
+		var cookieValue = null;
+		if (key) {
+			var cookieSearch = key + "=";
+			if (document.cookie)
+			{
+				var cookieArray = document.cookie.split(";");
+				for (var i = 0; i < cookieArray.length; i++) {
+					var cookieString = cookieArray[i];
+					while (cookieString.charAt(0) == ' ') {
+						cookieString = cookieString.substr(1);
+					}
+					if (cookieString.indexOf(cookieSearch) == 0) {
+						cookieValue = cookieString.substr(cookieSearch.length);
+					}
+				}
+			}
+		}
+		return cookieValue;
+	}
+
+	function getUserCookies() {
+		return 'username=' + retrieveCookie('pbskids.username') + '&userid=' + retrieveCookie('pbskids.userid');
+	}
+
+	function getFlashMovieObject(movieName){
+		if (window.document[movieName]){
+			return window.document[movieName];
+		}
+		if (navigator.appName.indexOf("Microsoft Internet")==-1){
+			if (document.embeds && document.embeds[movieName])
+				return document.embeds[movieName];
+		}
+		else{
+			return document.getElementById(movieName);
+		}
+	}
+	
+	function initFlashConnection(){
+		var flashMovie=getFlashMovieObject("game");
+		$('body').bind('cbox_closed', function() {
+			flashMovie.getUserData();
+		});
+    }
+
+</script>
+
+</body>
+</html>

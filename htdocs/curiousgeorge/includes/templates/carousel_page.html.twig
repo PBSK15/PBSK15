@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+{% set ftrAttributes = 'id="ftr" style="padding-top:35px;"' %}
+{% set specialInclude = '<!-- To be merged S3 Video index overrides - msmith -->
+	<!--<script src="../js/mootools1.2.0.js" type="text/javascript" language="javascript"></script>
+	<script src="../js/more_moo1.2.0.js" type="text/javascript" language="javascript"></script> -->
+	<script src="../js/mootools.v1.1.js" type="text/javascript"></script>
+	<script src="../js/moo_effects.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="./c/overrides.css" media="screen" />
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/curiousgeorge/css/hack_ie.css" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="/curiousgeorge/css/hack_ie7.css" />
+	<![endif]-->' %}
+
+{% include 'curiousgeorge/includes/head.twig' %}
+
+<body class="{{selectedNav}}_index">
+
+	{% include 'template_includes/modern_headband_include.html' %}
+
+  {% include 'template_includes/modern_pbsk_js.html' %}
+
+
+	{% include 'curiousgeorge/includes/nav.twig' %}
+
+<div id="int">
+
+		<!-- #bbinclude "area_bar.pl" -->
+		{% block areaBar %}{% endblock %}
+	
+<!-- end bbinclude -->
+
+
+
+		{% block carouselContent %}{% endblock %}
+	
+	{% include 'curiousgeorge/includes/cg_site_bridge.html' %}
+
+	{% include 'curiousgeorge/includes/ftr.html' %}
+
+	
+</div>
+
+<br clear="all" />
+<br clear="all" />
+
+{% include 'curiousgeorge/includes/cg_site_link.html' %}
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<topnav>
+
+	<audio>
+
+		<name>pbskids</name>
+
+		<file>/catinthehat/audio/home/topnav_pbskids.mp3</file>
+
+	</audio>
+
+	<audio>
+
+		<name>home</name>
+
+		<file>/catinthehat/audio/home/topnav_home.mp3</file>
+
+	</audio>
+
+	<audio>
+
+		<name>games</name>
+
+		<file>/catinthehat/audio/home/topnav_games.mp3</file>
+
+	</audio>
+
+	<audio>
+
+		<name>print</name>
+
+		<file>/catinthehat/audio/home/topnav_print.mp3</file>
+
+	</audio>
+
+	<audio>
+
+		<name>videos</name>
+
+		<file>/catinthehat/audio/home/topnav_video.mp3</file>
+
+	</audio>
+
+	<audio>
+
+		<name>snaporama</name>
+
+		<file>/catinthehat/audio/home/topnav_snaporama.mp3</file>
+
+	</audio>
+
+	<audio>
+
+		<name>parents</name>
+
+		<file>/catinthehat/audio/home/topnav_parents.mp3</file>
+
+	</audio>
+
+	<audio>
+
+		<name>teachers</name>
+
+		<file>/catinthehat/audio/home/topnav_teachers.mp3</file>
+
+	</audio>
+
+	<audio>
+		<name>mathMayhem</name>
+		<file>/catinthehat/games/mathsafari/mp3/CMS_38.mp3</file>
+	</audio>
+
+
+	<sfx>
+
+    <name>topnav_rollover_1</name>
+
+    <file>/catinthehat/audio/ch_website_top_nav_rollover_a_01.mp3</file>
+
+    <volume>1.0</volume>
+
+	</sfx>
+
+	<sfx>
+
+    <name>topnav_rollover_2</name>
+
+    <file>/catinthehat/audio/ch_website_top_nav_rollover_a_02.mp3</file>
+
+    <volume>1.0</volume>
+
+	</sfx>
+
+	<sfx>
+
+    <name>topnav_rollover_3</name>
+
+    <file>/catinthehat/audio/ch_website_top_nav_rollover_a_03.mp3</file>
+
+    <volume>1.0</volume>
+
+	</sfx>
+
+
+
+</topnav>
+

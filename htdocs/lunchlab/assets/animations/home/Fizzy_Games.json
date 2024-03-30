@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "Fizzy_Games.m4a",
+    "Fizzy_Games.oga",
+    "Fizzy_Games.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "Fizzy_Games": {
+      "start": 6,
+      "end": 11.038344671201813,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

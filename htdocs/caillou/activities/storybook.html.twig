@@ -1,0 +1,135 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Activities . Storybook Activity' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_gamesA-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_gamesA.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_coloringA-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_coloringA.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_greetingsA-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_greetingsA.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master_caillouA-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master_caillouA.gif";			back_on = new Image( );		back_on.src = "images/Master_backA-over.gif";		back_off = new Image( );		back_off.src = "images/Master_backA.gif";				help_on = new Image( );		help_on.src = "storybook/images/btn_help-over.gif";		help_off = new Image( );		help_off.src = "storybook/images/btn_help.gif";				page1_on = new Image( );		page1_on.src = "storybook/images/btn_page1-over.gif";		page1_off = new Image( );		page1_off.src = "storybook/images/btn_page1.gif";				page2_on = new Image( );		page2_on.src = "storybook/images/btn_page2-over.gif";		page2_off = new Image( );		page2_off.src = "storybook/images/btn_page2.gif";				page3_on = new Image( );		page3_on.src = "storybook/images/btn_page3-over.gif";		page3_off = new Image( );		page3_off.src = "storybook/images/btn_page3.gif";				page4_on = new Image( );		page4_on.src = "storybook/images/btn_page4-over.gif";		page4_off = new Image( );		page4_off.src = "storybook/images/btn_page4.gif";				page5_on = new Image( );		page5_on.src = "storybook/images/btn_page5-over.gif";		page5_off = new Image( );		page5_off.src = "storybook/images/btn_page5.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="images/bkg_orange_ball.gif" bgcolor="#f5822b" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="https://pbskids.org/"><img src="images/Master_pbsA.gif" alt="PBS Kids Homepage" name="PBSKidsA" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_topleftA.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/Master_caillouA.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_toprightA.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="printables.html"><img src="images/Master_backA.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_leftsideA.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div align="center">
+          <div align="center">
+           <table width="566" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+             <tr>
+              <td colspan="2"><img src="storybook/images/storybook_title.gif" alt="Your Own Picture Storybook" height="37" width="566" border="0"></td>
+             </tr>
+             <tr>
+              <td>
+               <table width="122" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                 <tr>
+                  <td colspan="2"><img src="storybook/images/storybook_text1.gif" alt="Click on the books below Caillou and his Dad to see the pages of the Picture Storybook. Then ask someone to help you print them out. Click on the &quot;?&quot; button for help on printing. You can color the pictures and write or draw your own story underneath them. After that, ask a grown-up to help you cut the pages along the dotted lines and punch holes on the sides of each page. You can tie the pages together with string to make your very own storybook!" height="240" width="320" border="0"></td>
+                 </tr>
+                 <tr>
+                  <td><img src="storybook/images/storybook_text2.gif" alt="Click on the button to the right for more instructions about this actrivity." height="79" width="246" border="0"></td>
+                  <td><a onmouseover="act('help')" onmouseout="inact('help')" href="#Instructions"><img src="storybook/images/btn_help.gif" alt="Help with instructions" name="help" height="79" width="74" border="0"></a></td>
+                 </tr>
+                </tbody>
+               </table></td>
+              <td>
+               <table width="180" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                 <tr>
+                  <td colspan="3"><img src="storybook/images/storybook_caillou_img.gif" alt="Caillou and his Dad reading" height="183" width="246" border="0"></td>
+                 </tr>
+                 <tr>
+                  <td><a onmouseover="act('page1')" onmouseout="inact('page1')" href="storybook/storybook_page_01.html"><img src="storybook/images/btn_page1.gif" alt="Page 1" name="page1" height="68" width="82" border="0"></a></td>
+                  <td><a onmouseover="act('page2')" onmouseout="inact('page2')" href="storybook/storybook_page_02.html"><img src="storybook/images/btn_page2.gif" alt="Page 2" name="page2" height="68" width="82" border="0"></a></td>
+                  <td><a onmouseover="act('page3')" onmouseout="inact('page3')" href="storybook/storybook_page_03.html"><img src="storybook/images/btn_page3.gif" alt="Page 3" name="page3" height="68" width="82" border="0"></a></td>
+                 </tr>
+                 <tr>
+                  <td><a onmouseover="act('page4')" onmouseout="inact('page4')" href="storybook/storybook_page_04.html"><img src="storybook/images/btn_page4.gif" alt="Page 4" name="page4" height="68" width="82" border="0"></a></td>
+                  <td></td>
+                  <td><a onmouseover="act('page5')" onmouseout="inact('page5')" href="storybook/storybook_page_05.html"><img src="storybook/images/btn_page5.gif" alt="Page 5" name="page5" height="68" width="82" border="0"></a></td>
+                 </tr>
+                </tbody>
+               </table></td>
+             </tr>
+            </tbody>
+           </table>
+          </div>
+         </div></td>
+        <td><img src="images/Master_rightsideA.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_cornerleftA.gif" alt="" height="90" width="92"></td>
+        <td><img src="images/Master_bottomleftA.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="images/Master_gamesA.gif" alt="Games" name="games" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_greetingsA.gif" alt="Greeting Cards and Email" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="images/Master_coloringA.gif" alt="Activities" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_bottomrightA.gif" alt="" height="90" width="95"></td>
+        <td><img src="images/Master_cornerrightA.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="20">
+        <td height="20">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold"><a name="Instructions"></a>Activity Instructions:</p>
+         <ol>
+          <li type="1" class="instruct_normal">Use the mouse to click the books on the right side of the screen. This will bring up the pages for your storybook.</li>
+          <li type="1" class="instruct_normal">Follow the printing instructions to print out each page.</li>
+          <li type="1" class="instruct_normal">Using crayons or markers color the pictures. If you want, write or draw your own story in the space provided at the bottom of each page.</li>
+          <li type="1" class="instruct_normal">Use scissors to cut the pages out by following the dotted lines. Then, make holes in the marked areas.</li>
+          <li type="1" class="instruct_normal">Put the pages in the proper order for your story. Then with a piece of string or ribbon, tie your book together.</li>
+          <li type="1" class="instruct_normal">New stories can be made each time by selecting different pages or by putting the pages in a different order.</li>
+         </ol> <p class="instruct_bold">Printing instructions:</p>
+         <ol>
+          <li type="1" class="instruct_normal">Click on the picture you would like to color and a new page will appear.</li>
+          <li type="1" class="instruct_normal">Then, under the 'File' option in the upper-left corner of the new window, select 'Print' (you need to have access to a printer for this).</li>
+          <li type="1" class="instruct_normal">When the printing is finished, click the 'Back, button and select your next picture!</li>
+         </ol>
+         <hr noshade size="1" width="60%" color="#FFFFFF&quot;"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

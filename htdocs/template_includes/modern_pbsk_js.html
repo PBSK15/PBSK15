@@ -1,0 +1,30 @@
+<script type='text/javascript' src='https://pbskids.org/js/loader/lib/PBS.KIDS.require.js' data-main='/js/loader/loaders/producers-progresstracker.require.config.js' ></script>
+
+<!--<script type="text/javascript" src="/scripts/colorbox/jquery.colorbox.js"></script>-->
+<!-- js doesn't work, i'll just hack it -->
+<script type="text/javascript">
+
+	(async() => {
+
+		while (!PBS.KIDS.$_auth) {
+			await new Promise(r => requestAnimationFrame(r));
+		}
+
+		PBS.KIDS.$_auth.colorbox = {};
+		PBS.KIDS.$_auth.colorbox.resize = function(jsonObj) {
+		
+			if (jsonObj.width && jsonObj.height) {
+				document.querySelector("div.pbskids-login-lightbox-content").setAttribute("style", "position: absolute; background: rgb(255, 255, 255); width: " + jsonObj.width + "px; height: " + jsonObj.height + "px; margin-left: -310px; margin-top: -127px; border: 10px solid rgb(255, 255, 255); top: 50%; left: 50%; transition: height 500ms ease 0s;");
+			}
+			if (jsonObj.innerHeight) {
+				document.querySelector("div.pbskids-login-lightbox-content").setAttribute("style", "position: absolute; background: rgb(255, 255, 255); width: 600px; height: " + jsonObj.innerHeight + "px; margin-left: -310px; margin-top: -127px; border: 10px solid rgb(255, 255, 255); top: 50%; left: 50%; transition: height 500ms ease 0s;");
+			}
+			
+		};
+		PBS.KIDS.$_auth.colorbox.close = function() {
+			document.getElementById("pbskids-login-lightbox").remove();
+		};
+
+	})();
+
+</script>

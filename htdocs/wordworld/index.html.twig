@@ -1,0 +1,84 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>WordWorld | PBS KIDS</title>
+<meta name="description" content="In Word World, words come alive, words save the day, and words become a child's best friend. Welcome to WordWorld, the first preschool series where words are truly the stars of the show!">
+<meta name="keywords" content="WordWorld, preschool, series, pbs, pbskids, animated, words, wordfriends, spelling, learning, reading, letters, parents, teachers, characters, literacy, dog, duck, pig, frog, bear, sheep, build a word, wordplay, wordthings, vocabulary, comprehension, print awareness, child development">
+
+
+<script type="text/javascript">
+function getCookie(c_name)
+{
+if (document.cookie.length>0)
+  {
+  c_start=document.cookie.indexOf(c_name + "=")
+  if (c_start!=-1)
+    { 
+    c_start=c_start + c_name.length+1 
+    c_end=document.cookie.indexOf(";",c_start)
+    if (c_end==-1) c_end=document.cookie.length
+    return unescape(document.cookie.substring(c_start,c_end))
+    } 
+  }
+return ""
+}
+
+function setCookie(c_name,value,expiredays)
+{
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate()+expiredays)
+	document.cookie=c_name+ "=" +escape(value)+((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+}
+
+		
+///////////////////////////
+// cookie setting
+///////////////////////////
+function checkCookie()
+{
+username=getCookie('username')
+if (username!=null && username!="")
+  {
+  	//alert("You've seen the intro");
+  	window.location='index_flash.html?seenIntro=yes';
+  }
+else 
+  {
+  username="seenIntro"
+  setCookie('username',username,1)
+  	// no param set
+	//alert("You're new to the intro");
+  window.location='index_flash.html';
+  }
+}
+		
+		
+		// PBS_enable_cdn(so);
+		so.write("flashdiv");
+
+		// ]]>
+</script>
+
+
+
+{% include 'template_includes/bridge_js_include.html' %}
+</head>
+<body bgcolor="#ffffff" onLoad="checkCookie()">
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<line fn="spl_scrapbook" syn="3, 6, 4, 5, 6, 3, 3, 3, 9, 6, 1, 4, 3, 2, 1, 0" />
+<line fn="int_george" syn="2, 8, 9, 7, 5, 5, 8, 7, 3, 4, 4, 5, 5, 4, 2, 2, 5, 4, 8, 4, 1, 4, 3, 1, 0, 0, 0, 8, 7, 8, 6, 7, 4, 4, 3, 2, 2, 8, 6, 2, 1, 0" />
+<line fn="int_heres" syn="0, 9, 9, 6, 3, 5, 5, 3, 0" />
+<line fn="int_has" syn="1, 4, 8, 9, 8, 3, 5, 5, 2, 2, 1, 1" />
+<line fn="int_this" syn="1, 1, 8, 8, 6, 6, 3, 2, 2, 1" />
+<line fn="intro-clickgreenbutton" syn="2,8,3,6,3,7,8,6,3,3,3,3,4,4,9,9,7,2" />
+
+<line fn="sGeoYeah" syn="1, 5, 5, 5, 5, 5, 1" />
+<line fn="sGeoUhuh" syn="1, 5, 5, 4, 1, 5, 4, 1" />
+<line fn="sGeoOoo" syn="1, 3, 3, 3, 4, 2, 3, 3, 4" />
+<line fn="sGeoOoaahh" syn="4, 2, 3, 3, 2, 2, 4, 4, 5, 3, 5, 5, 6, 6" />
+<line fn="sGeoOo" syn="1, 3, 3, 3, 3,  1" />
+<line fn="sGeoOo2" syn="1, 3, 3, 3, 3,  1" />
+<line fn="sGeoHoohaa" syn="1, 2, 2, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2 " />
+<line fn="sGeoGotcha" syn="1, 5, 5, 1, 4, 4, 4" />
+<line fn="sGeoGiggle" syn="1, 2, 5, 2, 5, 5, 2, 2, 2" />
+<line fn="sGeoEheh" syn="1, 2, 2, 1, 1, 2, 2, 1, 1" />
+<line fn="sGeoAaa" syn="1, 4, 4, 4, 2, 1, 1" />
+<line fn="sGeoGroan" syn="1, 5, 5, 1, 4, 4, 4, 4, 4" />
+
+<line fn="fdbk_right" syn="2, 8, 8, 5, 5, 7, 9, 6, 6, 2" />
+<line fn="fdbk_gotit" syn="2, 3, 5, 4, 1, 8, 7, 5, 2, 1" />
+<line fn="fdbk_yes" syn="0, 1, 1, 5, 6, 8, 2, 3, 4, 2" />
+<line fn="fdbk_oops" syn="2, 6, 9, 1, 2, 2, 1, 0" />
+<line fn="fdbk_uhoh" syn="1, 8, 8, 2, 2, 1, 1, 1" />
+<line fn="fdbk_sorry" syn="1, 5, 9, 8, 7, 5, 3, 3, 2" />
+<line fn="fdbk_tryagain" syn="3, 4, 9, 8, 8, 7, 6, 7, 7, 7, 2, 1" />
+<line fn="fdbk_goagain" syn="2, 6, 8, 8, 4, 7, 9, 5, 5, 2, 1" />
+<line fn="fdbk_another" syn="1, 7, 8, 5, 5, 3, 7, 8, 6, 3, 3, 2, 1" />
+<line fn="fdbk_heresanother" syn="1, 7, 8, 6, 8, 5, 5, 6, 8, 4, 5, 2, 1" />
+<line fn="fdbk_letsgoagain" syn="2, 5, 6, 3, 4, 9, 4, 4, 2, 0, 3, 4, 3, 2, 1, 1" />
+
+<line fn="trans_great" syn="1, 2, 4, 5, 6, 4, 2, 1, 3, 8, 7, 6, 3, 2, 1" />
+<line fn="trans_hurray" syn="1, 8, 6, 6, 4, 4, 4, 3, 1, 0" />
+<line fn="trans_yougot" syn="1, 3, 4, 6, 3, 1, 0, 2, 4, 3, 3, 3, 2, 2, 4, 3, 1, 1, 1, 1, 0, 0, 0, 0, 6, 9, 2, 1, 0, 2, 4, 3, 4, 2, 1, 1, 1, 2, 1, 0, 0, 0, 3, 4, 1, 5, 2, 3, 3, 3, 1, 3, 1, 4, 3, 3, 2, 1, 1, 1, 1" />
+<line fn="trans_findmore" syn="0, 1, 4, 3, 4, 2, 2, 6, 4, 2, 2, 1, 0, 0, 0, 5, 9, 3, 4, 2, 4, 3, 2, 1, 0" />
+<line fn="trans_more" syn="1, 2, 4, 9, 6, 5, 2, 1, 1, 0" />
+<line fn="trans_decorate" syn="7, 9, 6, 8, 5, 2, 1, 0" />
+<line fn="dec_instructions" syn="4, 8, 4, 3, 6, 7, 5, 3, 4, 6, 4, 4, 4, 3, 2, 2, 1, 6, 5, 3, 2, 3, 2, 0, 0, 7, 7, 7, 2, 2, 8, 3, 2, 3, 1, 0, 0, 0, 0, 7, 5, 3, 6, 7, 3, 5, 7, 2, 4, 4, 6, 6, 6, 9, 6, 1, 6, 6, 3, 6, 7, 4, 3, 7, 4, 2, 1, 2, 1" />
+<line fn="dec_print" syn="0, 4, 8, 5, 2, 1, 1, 0" />
+<line fn="dec_newbook" syn="3, 4, 8, 5, 5, 4, 7, 6, 1, 1, 0" />
+<line fn="dec_erase" syn="7, 8, 8, 7, 6, 3, 3, 3, 1" />
+<line fn="whendone-decorate" syn="0, 8, 6, 6, 5, 5, 10, 9, 6, 4, 0, 0, 0, 2, 10, 10, 7, 10, 5, 4, 3, 2, 5, 7, 4, 4, 2, 2, 2, 3, 5, 4, 4, 4, 4, 1, 3, 3, 1" />
+
+<line fn="ctgry_bigger" syn="6, 6, 4, 9, 8, 6, 7, 3, 2, 6, 5, 5, 4, 5, 3, 4, 5, 6, 4, 2, 1, 2, 1" />
+<line fn="ctgry_breatheunderwater" syn="3, 8, 7, 7, 4, 9, 5, 3, 5, 3, 4, 4, 3, 4, 8, 7, 4, 4, 3, 4, 2" />
+<line fn="ctgry_climb" syn="5, 8, 6, 6, 3, 6, 2, 2, 4, 5, 4, 3, 3, 2, 1" />
+<line fn="ctgry_eatmeat" syn="3, 8, 8, 5, 5, 4, 4, 5, 6, 3, 8, 4, 6, 4, 4, 2, 1" />
+<line fn="ctgry_eggs" syn="3, 8, 6, 4, 5, 3, 4, 5, 5, 3, 6, 3, 3, 2, 1, 2, 1" />
+<line fn="ctgry_fast" syn="3, 9, 8, 6, 4, 6, 6, 3, 7, 3, 3, 2, 6, 5, 2, 5, 3, 1" />
+<line fn="ctgry_feathers" syn="3, 8, 8, 5, 6, 4, 2, 2, 4, 1, 5, 5, 5, 3, 2, 2, 2" />
+<line fn="ctgry_fly" syn="2, 9, 4, 7, 6, 4, 3, 1, 1, 4, 7, 4, 3, 1" />
+<line fn="ctgry_hair" syn="3, 7, 8, 4, 3, 2, 2, 1, 1, 4, 4, 3, 2, 1" />
+<line fn="ctgry_heavy" syn="8, 6, 3, 3, 5, 4, 6, 4, 1, 1, 6, 6, 3, 2, 1" />
+<line fn="ctgry_jump" syn="5, 9, 6, 7, 5, 8, 3, 2, 2, 5, 4, 1, 4, 3, 3, 1, 0" />
+<line fn="ctgry_legs" syn="1, 4, 4, 4, 7, 6, 9, 4, 4, 5, 3, 4, 5, 4, 5, 5, 5, 2, 1, 3, 2" />
+<line fn="ctgry_shell" syn="1, 9, 9, 5, 7, 3, 2, 2, 1, 2, 8, 7, 1, 5, 5, 4, 4, 3, 3, 4, 3, 2, 0" />
+<line fn="ctgry_slither" syn="1, 7, 8, 5, 5, 5, 5, 3, 6, 9, 8, 3, 4, 4, 3, 4, 5, 4, 4, 3, 4, 2, 1, 1" />
+<line fn="ctgry_smaller" syn="7, 5, 5, 3, 5, 4, 5, 8, 4, 4, 4, 5, 6, 3, 2, 5, 6, 9, 4, 1, 2, 1" />
+<line fn="ctgry_sticky" syn="2, 9, 5, 6, 5, 5, 5, 6, 7, 6, 5, 1, 4, 6, 4, 5, 3, 2, 2, 1, 1, 1, 1, 0" />
+<line fn="ctgry_stickytongue" syn="3, 5, 6, 7, 6, 4, 3, 3, 2, 6, 7, 8, 8, 4, 3, 3, 7, 7, 6, 2, 2" />
+<line fn="ctgry_swim" syn="0, 2, 5, 2, 4, 9, 7, 3, 5, 3, 4, 4, 2, 2, 4, 2, 5, 5, 2, 1" />
+<line fn="ctgry_teethgrow" syn="0, 7, 9, 4, 6, 4, 3, 2, 2, 3, 4, 4, 1, 3, 2, 0, 3, 5, 2, 4, 2, 2, 2, 2, 3, 4, 2, 1" />
+<line fn="ctgry_teethnum" syn="2, 8, 4, 4, 6, 6, 7, 5, 3, 4, 3, 5, 3, 1, 3, 5, 3, 3, 2, 0" />
+<line fn="ctgry_underground" syn="1, 6, 8, 5, 6, 5, 4, 3, 2, 1, 7, 7, 6, 6, 2, 4, 4, 5, 1, 3, 4, 3, 2, 1, 0" />
+<line fn="ctgry_vegetarian" syn="7, 8, 4, 3, 4, 2, 2, 3, 2, 2, 1, 2, 1, 2, 2, 2, 2, 1, 1, 0" />
+<line fn="ctgry_which" syn="1, 6, 8, 4, 6, 1, 4, 4, 2, 3, 6, 6, 2, 1, 1, 2, 2" />
+
+<line fn="an_George" syn="7, 6, 6, 6, 9, 6, 8, 4, 1, 2" />
+<line fn="an_anemone" syn="8, 8, 6, 7, 7, 4, 8, 6, 5, 4, 3, 2, 2, 1" />
+<line fn="an_angelfish" syn="4, 9, 3, 6, 5, 6, 8, 5, 2, 7, 6, 3, 2, 2, 1" />
+<line fn="an_ant" syn="5, 6, 7, 9, 8, 7, 2, 1, 1" />
+<line fn="an_bear" syn="7, 8, 1, 5, 5, 6, 4, 1" />
+<line fn="an_beaver" syn="1, 9, 2, 5, 7, 5, 7, 6, 6, 2" />
+<line fn="an_bee" syn="1, 8, 3, 5, 7, 4, 5, 3, 1" />
+<line fn="an_beetle" syn="1, 4, 4, 6, 5, 7, 8, 7, 3, 1" />
+<line fn="an_bluejay" syn="4, 4, 1, 3, 7, 9, 9, 8, 8, 6, 3, 1, 1, 1" />
+<line fn="an_bulldog" syn="3, 7, 4, 1, 4, 7, 5, 9, 6, 3, 3, 1, 1, 1" />
+<line fn="an_butterfly" syn="4, 8, 2, 6, 6, 5, 1, 4, 4, 3, 2, 1" />
+<line fn="an_cat" syn="5, 3, 8, 3, 3, 2, 4, 1" />
+<line fn="an_chameleon" syn="6, 5, 4, 9, 4, 5, 3, 4, 4, 3, 1, 0" />
+<line fn="an_chicken" syn="4, 9, 2, 5, 8, 7, 3, 5, 3, 1" />
+<line fn="an_clam" syn="0, 9, 1, 2, 3, 5, 5, 7, 4, 2, 0" />
+<line fn="an_corgi" syn="8, 6, 3, 5, 7, 9, 7, 4, 5, 1" />
+<line fn="an_cow" syn="9, 8, 4, 6, 9, 6, 6, 5, 2, 1" />
+<line fn="an_crab" syn="6, 8, 2, 3, 4, 4, 6, 4, 9, 5, 3, 1" />
+<line fn="an_cricket" syn="8, 7, 5, 3, 6, 7, 6, 7, 2" />
+<line fn="an_dolphin" syn="8, 6, 4, 8, 7, 7, 2, 4, 4, 1" />
+<line fn="an_duck" syn="1, 5, 5, 1, 9, 7, 7, 2, 1, 1" />
+<line fn="an_earthworm" syn="1, 9, 7, 8, 7, 7, 2, 7, 7, 5, 2, 1, 0" />
+<line fn="an_flamingo" syn="4, 3, 1, 7, 8, 5, 5, 5, 5, 6, 3, 2, 0" />
+<line fn="an_frog" syn="4, 4, 2, 4, 7, 5, 8, 9, 3, 1, 1" />
+<line fn="an_gazelle" syn="6, 8, 4, 3, 2, 3, 6, 8, 8, 3, 1" />
+<line fn="an_goat" syn="6, 7, 1, 9, 8, 5, 2" />
+<line fn="an_goose" syn="4, 8, 2, 8, 7, 8, 8, 6, 5, 4, 1" />
+<line fn="an_grasshopper" syn="7, 8, 2, 6, 8, 6, 5, 6, 6, 3, 3, 2, 0" />
+<line fn="an_hamster" syn="5, 9, 5, 4, 3, 3, 5, 4, 6, 3, 0" />
+<line fn="an_labrador" syn="6, 6, 2, 5, 4, 5, 8, 5, 6, 4, 3, 2" />
+<line fn="an_lion" syn="7, 7, 2, 2, 9, 9, 8, 5, 2" />
+<line fn="an_mayfly" syn="1, 9, 5, 5, 5, 4, 1, 4, 4, 3, 2, 0" />
+<line fn="an_meerkat" syn="9, 6, 5, 6, 9, 7, 4, 6, 7, 6, 3" />
+<line fn="an_octopus" syn="3, 7, 7, 5, 0, 8, 2, 7, 6, 3, 2, 2, 1" />
+<line fn="an_orangutan" syn="7, 6, 9, 6, 5, 4, 6, 2, 3, 3, 2, 1, 1" />
+<line fn="an_ostrich" syn="3, 2, 2, 6, 8, 6, 6, 3, 3, 1, 2, 0" />
+<line fn="an_panda" syn="6, 8, 1, 3, 6, 5, 6, 5, 7, 2, 1" />
+<line fn="an_penguin" syn="6, 9, 2, 4, 6, 5, 3, 4, 4, 1, 1, 0" />
+<line fn="an_pig" syn="6, 5, 4, 6, 8, 8, 5, 1" />
+<line fn="an_pigeon" syn="6, 6, 1, 8, 8, 5, 4, 3, 1" />
+<line fn="an_quail" syn="8, 4, 3, 2, 3, 8, 9, 8, 4, 1, 1" />
+<line fn="an_rabbit" syn="8, 7, 4, 2, 6, 4, 5, 8, 4, 2, 1" />
+<line fn="an_raccoon" syn="6, 8, 3, 4, 2, 4, 9, 8, 5, 5, 2, 1, 0, 0, 0" />
+<line fn="an_rhino" syn="5, 8, 6, 4, 8, 5, 6, 8, 5, 5, 3, 1" />
+<line fn="an_robin" syn="3, 8, 5, 5, 4, 5, 3, 3, 1" />
+<line fn="an_seagull" syn="4, 8, 6, 7, 8, 6, 4, 8, 4, 2, 1, 0" />
+<line fn="an_seal" syn="4, 8, 7, 7, 5, 3, 6, 6, 3, 1, 0" />
+<line fn="an_seastar" syn="1, 6, 5, 6, 3, 7, 4, 8, 5, 8, 5, 3, 2, 1, 0" />
+<line fn="an_shark" syn="2, 5, 3, 4, 5, 6, 8, 9, 2, 1" />
+<line fn="an_sheep" syn="5, 9, 6, 9, 5, 5, 3, 4, 2, 1, 1" />
+<line fn="an_sheepdog" syn="5, 6, 2, 3, 3, 4, 2, 4, 8, 4, 3, 2, 1" />
+<line fn="an_snake" syn="8, 7, 7, 8, 4, 6, 5, 7, 1, 2" />
+<line fn="an_squirrel" syn="2, 5, 6, 3, 4, 5, 8, 7, 4, 2" />
+<line fn="an_trout" syn="8, 6, 4, 3, 4, 7, 9, 3, 1, 1" />
+<line fn="an_turtle" syn="5, 8, 4, 4, 8, 4, 4, 3, 1" />
+<line fn="an_woodpecker" syn="4, 8, 4, 5, 4, 4, 7, 7, 5, 4, 3, 1, 0" />
+
+<line fn="pairs_angelfish_frog" syn="2, 8, 7, 6, 5, 4, 3, 1, 4, 4, 4, 3, 2, 1, 5, 8, 6, 4, 2, 3, 1" />
+<line fn="pairs_angelfish_shark" syn="4, 9, 2, 7, 9, 5, 7, 6, 1, 3, 2, 2, 2, 0, 0, 4, 2, 2, 5, 4, 6, 6, 5, 2" />
+<line fn="pairs_ant_beetle" syn="4, 5, 6, 9, 6, 3, 1, 0, 6, 6, 4, 1, 5, 5, 5, 4, 2, 3, 1" />
+<line fn="pairs_ant_cat" syn="6, 6, 3, 8, 6, 5, 4, 6, 4, 3, 2, 6, 9, 7, 5" />
+<line fn="pairs_ant_cricket" syn="6, 5, 3, 6, 7, 9, 7, 4, 3, 2, 3, 2, 6, 6, 3, 2, 0" />
+<line fn="pairs_ant_ostrich" syn="5, 3, 5, 8, 9, 4, 6, 9, 7, 4, 5, 5, 4, 4, 3, 2, 3, 0" />
+<line fn="pairs_bear_cat" syn="5, 4, 1, 8, 8, 6, 5, 5, 0, 3, 3, 2, 2, 1, 7, 5, 4, 2" />
+<line fn="pairs_bear_goat" syn="5, 7, 1, 8, 5, 4, 4, 3, 4, 1, 1, 3, 6, 5, 2, 0, 0" />
+<line fn="pairs_bear_pig" syn="0, 3, 8, 1, 4, 5, 4, 4, 4, 3, 2, 2, 2, 2, 1, 3, 4, 4, 2, 1" />
+<line fn="pairs_beaver_George" syn="5, 5, 1, 8, 3, 4, 4, 3, 1, 0, 0, 5, 4, 4, 1, 4, 7, 7, 9, 5, 4, 3, 2" />
+<line fn="pairs_beaver_bee" syn="9, 8, 2, 8, 5, 5, 3, 3, 1, 4, 4, 2, 1, 7, 6, 4, 5, 4, 4, 1" />
+<line fn="pairs_beaver_rabbit" syn="7, 8, 1, 5, 3, 4, 4, 3, 3, 2, 2, 5, 8, 9, 2, 3" />
+<line fn="pairs_bee_george" syn="3, 8, 1, 4, 7, 4, 3, 2, 6, 5, 4, 3, 2, 4, 7, 9, 4, 3, 2, 1, 1" />
+<line fn="pairs_bee_goose" syn="4, 7, 1, 9, 4, 5, 5, 2, 2, 1, 3, 8, 6, 4, 3, 4, 2, 0" />
+<line fn="pairs_bee_grasshopper" syn="6, 7, 2, 0, 1, 9, 4, 3, 7, 4, 2, 2, 2, 6, 5, 5, 3, 3, 4, 4, 5, 4, 0" />
+<line fn="pairs_beetle_butterfly" syn="6, 7, 1, 5, 4, 7, 6, 4, 2, 0, 7, 8, 9, 3, 1, 3, 2, 2, 3, 2" />
+<line fn="pairs_beetle_flamingo" syn="5, 7, 2, 9, 4, 7, 5, 3, 3, 3, 3, 1, 2, 3, 2, 7, 6, 7, 3, 3, 2, 1" />
+<line fn="pairs_beetle_grasshopper" syn="5, 4, 1, 5, 6, 5, 8, 2, 2, 2, 2, 6, 8, 8, 4, 4, 4, 2, 3, 3" />
+<line fn="pairs_bluejay_chameleon" syn="2, 5, 2, 4, 5, 6, 5, 5, 3, 3, 2, 0, 0, 1, 5, 4, 3, 4, 4, 7, 9, 7, 4, 3, 2" />
+<line fn="pairs_bluejay_goose" syn="4, 6, 2, 4, 5, 5, 5, 5, 3, 2, 1, 2, 1, 1, 1, 8, 8, 5, 5, 5, 6, 2" />
+<line fn="pairs_bluejay_penguin" syn="8, 8, 1, 5, 4, 3, 3, 4, 5, 4, 3, 1, 4, 3, 2, 1, 2, 4, 6, 6, 3, 2, 2, 1" />
+<line fn="pairs_bluejay_pigeon" syn="7, 6, 1, 4, 9, 6, 6, 6, 6, 6, 5, 4, 1, 4, 8, 8, 5, 3, 3, 2" />
+<line fn="pairs_bulldog_gazelle" syn="2, 3, 2, 1, 6, 9, 3, 4, 4, 3, 2, 1, 0, 0, 3, 5, 5, 4, 4, 3, 2, 5, 5, 4, 1, 2, 1" />
+<line fn="pairs_bulldog_raccoon" syn="5, 6, 1, 8, 7, 4, 6, 6, 5, 7, 6, 3, 6, 6, 0, 4, 6, 8, 7, 3, 3" />
+<line fn="pairs_butterfly_cricket" syn="6, 4, 1, 7, 8, 6, 3, 4, 6, 5, 4, 6, 5, 3, 1, 1, 4, 5, 4, 4, 4, 0" />
+<line fn="pairs_butterfly_duck" syn="2, 3, 1, 3, 8, 6, 6, 2, 2, 3, 2, 3, 2, 1, 1, 1, 6, 6, 5, 4, 2" />
+<line fn="pairs_cat_cow" syn="6, 5, 8, 6, 7, 4, 4, 3, 2, 4, 5, 5, 3, 2, 1" />
+<line fn="pairs_cat_rhino" syn="7, 6, 0, 3, 6, 6, 3, 5, 5, 4, 2, 4, 4, 5, 6, 3, 3, 3, 1" />
+<line fn="pairs_chameleon_seastar" syn="6, 8, 4, 9, 8, 5, 8, 6, 9, 6, 3, 2, 3, 5, 4, 4, 7, 5, 5, 4, 3, 3, 0" />
+<line fn="pairs_chameleon_squirrel" syn="5, 5, 5, 8, 4, 5, 5, 3, 7, 7, 3, 2, 3, 3, 2, 3, 9, 7, 5, 3, 2, 1" />
+<line fn="pairs_chicken_flamingo" syn="1, 7, 4, 6, 8, 8, 6, 7, 5, 6, 5, 4, 2, 3, 2, 4, 6, 6, 3, 2, 2, 2" />
+<line fn="pairs_chicken_quail" syn="4, 3, 4, 6, 8, 5, 6, 4, 5, 3, 3, 2, 6, 8, 9, 3, 1, 0" />
+<line fn="pairs_chicken_squirrel" syn="6, 7, 4, 9, 7, 8, 9, 4, 2, 2, 5, 2, 7, 8, 7, 3, 2, 2" />
+<line fn="pairs_clam_beetle" syn="6, 6, 4, 2, 9, 6, 4, 4, 5, 6, 4, 1, 3, 5, 5, 6, 4, 2, 3" />
+<line fn="pairs_clam_earthworm" syn="4, 3, 3, 2, 5, 9, 7, 4, 3, 3, 4, 5, 2, 1, 0, 7, 6, 1, 4, 6, 4, 1, 1" />
+<line fn="pairs_corgi_sheep" syn="6, 6, 1, 6, 8, 5, 1, 3, 2, 5, 3, 2, 3, 3, 4, 4, 1" />
+<line fn="pairs_cow_dolphin" syn="6, 6, 2, 7, 8, 4, 4, 4, 5, 5, 3, 2, 3, 6, 6, 8, 1, 3, 2, 2" />
+<line fn="pairs_cow_gazelle" syn="8, 8, 1, 6, 5, 4, 7, 4, 3, 0, 0, 0, 6, 5, 4, 3, 2, 3, 3, 5, 6, 4, 4, 3" />
+<line fn="pairs_cow_panda" syn="4, 5, 4, 7, 8, 5, 4, 4, 3, 3, 1, 2, 3, 4, 4, 3, 3, 1, 0" />
+<line fn="pairs_cow_rhino" syn="5, 6, 3, 6, 8, 6, 7, 3, 4, 4, 3, 2, 3, 4, 5, 5, 2, 2, 2" />
+<line fn="pairs_crab_turtle" syn="4, 8, 4, 5, 9, 7, 9, 7, 5, 4, 3, 3, 6, 7, 7, 3, 1, 1" />
+<line fn="pairs_cricket_chicken" syn="5, 7, 1, 4, 8, 7, 5, 6, 1, 6, 4, 3, 1, 3, 9, 7, 6, 5, 6, 3" />
+<line fn="pairs_cricket_crab" syn="6, 7, 3, 8, 8, 4, 6, 5, 3, 2, 2, 7, 7, 5, 2, 2, 1" />
+<line fn="pairs_dolphin_shark" syn="2, 4, 3, 4, 6, 7, 1, 6, 5, 7, 5, 4, 4, 4, 9, 7, 4, 4, 2" />
+<line fn="pairs_duck_bee" syn="8, 8, 1, 5, 7, 5, 1, 1, 5, 4, 2, 1, 5, 7, 3, 3, 2, 2" />
+<line fn="pairs_duck_robin" syn="4, 3, 1, 6, 5, 3, 6, 6, 3, 2, 4, 6, 6, 9, 3, 2, 3, 1" />
+<line fn="pairs_earthworm_pigeon" syn="3, 4, 3, 9, 5, 1, 8, 8, 3, 4, 5, 4, 1, 1, 4, 5, 2, 2, 1, 1" />
+<line fn="pairs_flamingo_mayfly" syn="6, 8, 1, 9, 7, 6, 7, 5, 6, 7, 6, 4, 3, 1, 1, 4, 5, 4, 5, 1, 2, 4, 3, 2, 1" />
+<line fn="pairs_flamingo_rhino" syn="4, 5, 2, 6, 4, 9, 6, 5, 4, 5, 3, 4, 4, 4, 1, 2, 4, 5, 6, 3, 2, 2, 1" />
+<line fn="pairs_flamingo_seagull" syn="4, 6, 1, 5, 5, 4, 9, 6, 8, 8, 5, 6, 5, 5, 6, 4, 6, 3, 4, 3, 1" />
+<line fn="pairs_frog_chameleon" syn="6, 6, 1, 2, 8, 9, 5, 4, 5, 5, 5, 3, 4, 2, 4, 5, 3, 2, 2, 1, 0" />
+<line fn="pairs_frog_cricket" syn="8, 5, 1, 2, 9, 9, 5, 5, 4, 5, 3, 2, 1, 5, 3, 3, 2, 0" />
+<line fn="pairs_frog_quail" syn="7, 7, 2, 2, 7, 9, 6, 7, 6, 4, 3, 1, 1, 7, 5, 6, 3, 3, 1" />
+<line fn="pairs_gazelle_lion" syn="3, 9, 5, 5, 4, 3, 8, 9, 7, 3, 4, 2, 5, 4, 4, 2, 2, 2, 6, 6, 2, 2, 1" />
+<line fn="pairs_gazelle_sheepdog" syn="8, 6, 4, 4, 3, 5, 6, 7, 8, 9, 3, 2, 4, 5, 5, 1, 4, 3, 3, 3, 1, 0" />
+<line fn="pairs_goat_squirrel" syn="1, 7, 3, 1, 7, 6, 3, 2, 0, 5, 4, 4, 4, 5, 1, 6, 9, 8, 3, 2, 2" />
+<line fn="pairs_goose_woodpecker" syn="3, 8, 2, 3, 6, 2, 4, 5, 6, 4, 2, 5, 8, 1, 2, 5, 2, 3, 5, 2" />
+<line fn="pairs_grasshopper_bluejay" syn="1, 8, 7, 2, 3, 9, 8, 7, 5, 5, 5, 2, 1, 2, 2, 1, 2, 5, 3, 3, 3, 2, 2, 2, 3" />
+<line fn="pairs_grasshopper_frog" syn="4, 7, 3, 6, 8, 4, 3, 8, 5, 2, 1, 1, 1, 0, 6, 7, 4, 3, 2, 1" />
+<line fn="pairs_hamster_chameleon" syn="6, 9, 7, 7, 8, 4, 4, 3, 3, 5, 5, 3, 2, 4, 2, 6, 6, 6, 7, 3, 3, 3" />
+<line fn="pairs_hamster_corgi" syn="4, 8, 3, 9, 8, 3, 2, 4, 7, 6, 2, 1, 6, 6, 3, 2, 2, 1" />
+<line fn="pairs_labrador_octopus" syn="6, 7, 4, 3, 6, 6, 6, 8, 3, 3, 2, 2, 5, 4, 3, 2, 0, 9, 7, 3, 6, 2, 3, 2, 3, 1" />
+<line fn="pairs_labrador_rabbit" syn="4, 5, 2, 5, 7, 7, 6, 5, 6, 7, 9, 6, 2, 1, 3, 5, 5, 3, 3, 2" />
+<line fn="pairs_labrador_sheep" syn="7, 4, 3, 6, 5, 6, 6, 5, 8, 8, 8, 4, 2, 3, 7, 8, 4, 0" />
+<line fn="pairs_lion_frog" syn="8, 8, 3, 2, 8, 5, 3, 3, 4, 5, 4, 1, 1, 5, 8, 5, 3, 3, 1" />
+<line fn="pairs_lion_sheepdog" syn="0, 8, 7, 7, 8, 5, 4, 5, 6, 3, 3, 3, 5, 3, 0, 4, 3, 2, 1, 1" />
+<line fn="pairs_meerkat_clam" syn="8, 6, 4, 8, 6, 5, 4, 4, 4, 2, 2, 2, 2, 1, 7, 9, 8, 3, 2, 2" />
+<line fn="pairs_meerkat_seal" syn="8, 5, 4, 9, 8, 7, 2, 4, 3, 4, 5, 3, 4, 5, 4, 7, 5, 3, 2, 1, 0" />
+<line fn="pairs_meerkat_turtle" syn="6, 5, 2, 4, 8, 7, 6, 4, 4, 4, 5, 4, 3, 2, 7, 7, 8, 2, 3, 1" />
+<line fn="pairs_octopus_anemone" syn="5, 5, 8, 7, 0, 6, 3, 3, 4, 2, 0, 0, 4, 5, 4, 9, 6, 4, 5, 6, 3, 2, 1, 1, 3, 3, 1" />
+<line fn="pairs_octopus_shark" syn="3, 4, 4, 4, 8, 4, 2, 5, 1, 3, 2, 2, 2, 1, 2, 2, 6, 5, 4, 4, 0, 1" />
+<line fn="pairs_orangutan_raccoon" syn="5, 6, 4, 3, 4, 8, 6, 5, 2, 4, 4, 2, 1, 0, 0, 0, 4, 2, 2, 2, 4, 3, 4, 5, 6, 6, 4, 3, 2" />
+<line fn="pairs_ostrich_gazelle" syn="5, 5, 5, 9, 7, 4, 2, 4, 2, 1, 1, 0, 2, 3, 2, 2, 1, 2, 1, 2, 6, 4, 3, 1, 1" />
+<line fn="pairs_ostrich_goose" syn="5, 6, 8, 9, 4, 3, 3, 2, 1, 3, 2, 2, 0, 4, 7, 7, 3, 2, 4, 4, 1" />
+<line fn="pairs_ostrich_panda" syn="3, 4, 6, 8, 5, 3, 2, 2, 1, 1, 4, 2, 1, 1, 2, 3, 3, 3, 2, 2, 1" />
+<line fn="pairs_panda_lion" syn="6, 7, 2, 7, 8, 7, 6, 6, 2, 0, 0, 8, 5, 4, 2, 4, 8, 7, 6, 3, 2, 3, 1" />
+<line fn="pairs_panda_rabbit" syn="8, 8, 1, 7, 7, 8, 6, 7, 6, 6, 5, 3, 2, 3, 6, 5, 6, 3, 2" />
+<line fn="pairs_penguin_bulldog" syn="5, 5, 1, 4, 6, 6, 4, 3, 1, 0, 3, 3, 2, 1, 3, 8, 6, 6, 3, 2, 2, 2, 1, 1" />
+<line fn="pairs_penguin_ostrich" syn="7, 7, 2, 6, 6, 4, 7, 5, 6, 9, 4, 5, 5, 4, 6, 3, 2, 2, 2, 2" />
+<line fn="pairs_pigeon_rabbit" syn="2, 8, 1, 4, 9, 4, 6, 4, 3, 2, 1, 4, 3, 5, 3, 3" />
+<line fn="pairs_pigeon_robin" syn="8, 7, 1, 5, 7, 4, 7, 5, 3, 2, 2, 3, 7, 5, 5, 3, 2, 3" />
+<line fn="pairs_quail_seagull" syn="5, 7, 1, 5, 9, 8, 5, 4, 2, 2, 2, 2, 3, 4, 4, 3, 4, 5, 4, 3, 2" />
+<line fn="pairs_rabbit_earthworm" syn="4, 8, 2, 6, 7, 6, 8, 6, 5, 3, 1, 8, 8, 6, 1, 4, 4, 3, 3" />
+<line fn="pairs_rabbit_sheep" syn="8, 9, 2, 7, 8, 5, 7, 5, 7, 5, 3, 4, 4, 5, 6, 1" />
+<line fn="pairs_raccoon_lion" syn="4, 5, 6, 7, 0, 2, 9, 6, 4, 1, 4, 2, 1, 1, 2, 4, 4, 2, 1, 0" />
+<line fn="pairs_rhino_grasshopper" syn="0, 6, 7, 2, 3, 6, 4, 4, 4, 1, 1, 1, 1, 1, 7, 8, 6, 3, 3, 2, 1, 2, 2, 0" />
+<line fn="pairs_robin_butterfly" syn="8, 8, 4, 4, 8, 6, 5, 6, 3, 2, 1, 1, 9, 6, 7, 1, 2, 3, 3, 4, 3, 0" />
+<line fn="pairs_robin_hamster" syn="4, 6, 2, 2, 5, 6, 7, 7, 6, 3, 2, 7, 8, 6, 8, 4, 3, 3" />
+<line fn="pairs_robin_octopus" syn="8, 8, 4, 6, 4, 4, 6, 4, 3, 2, 2, 5, 4, 1, 4, 1, 3, 2, 2, 1" />
+<line fn="pairs_seagull_angelfish" syn="7, 9, 9, 7, 7, 4, 7, 7, 8, 7, 6, 0, 6, 7, 7, 6, 4, 2, 1, 3, 3, 5, 2, 0" />
+<line fn="pairs_seagull_woodpecker" syn="4, 5, 4, 3, 4, 5, 3, 5, 1, 2, 1, 1, 1, 5, 8, 1, 2, 4, 1, 3, 3, 0" />
+<line fn="pairs_seal_angelfish" syn="2, 7, 6, 7, 6, 8, 7, 8, 5, 5, 6, 7, 2, 2, 0, 8, 9, 5, 5, 3, 1, 4, 3, 4, 4, 1" />
+<line fn="pairs_seal_corgi" syn="5, 5, 5, 4, 3, 3, 5, 5, 4, 3, 5, 3, 2, 3, 6, 9, 4, 2, 2, 1, 1" />
+<line fn="pairs_seastar_octopus" syn="2, 6, 5, 5, 6, 4, 7, 5, 5, 3, 3, 1, 0, 0, 6, 6, 3, 3, 7, 9, 2, 4, 2, 3, 2, 4, 1" />
+<line fn="pairs_snake_earthworm" syn="2, 6, 6, 6, 7, 7, 6, 3, 7, 4, 2, 4, 9, 7, 1, 4, 4, 3, 3, 1" />
+<line fn="pairs_snake_sheepdog" syn="5, 5, 6, 7, 8, 8, 6, 6, 4, 2, 4, 4, 4, 4, 5, 8, 3, 3, 2, 4, 5, 3, 3, 2, 1" />
+<line fn="pairs_snake_trout" syn="4, 6, 7, 8, 7, 5, 6, 3, 4, 6, 4, 3, 2, 2, 8, 7, 3, 3" />
+<line fn="pairs_squirrel_pig" syn="9, 8, 6, 2, 8, 8, 9, 8, 8, 5, 6, 0, 2, 6, 7, 5, 4, 1, 1" />
+<line fn="pairs_trout_anemone" syn="8, 6, 3, 4, 8, 9, 6, 4, 5, 3, 3, 6, 4, 7, 6, 5, 3, 2, 2, 2, 4, 3" />
+<line fn="pairs_trout_penguin" syn="6, 7, 3, 3, 9, 8, 5, 0, 5, 3, 3, 2, 2, 4, 5, 5, 3, 3, 1, 1" />
+<line fn="pairs_turtle_crab" syn="5, 6, 3, 5, 8, 6, 7, 3, 2, 1, 1, 8, 7, 5, 3, 3, 1" />
+<line fn="pairs_turtle_dolphin" syn="8, 7, 2, 3, 7, 7, 7, 6, 4, 2, 2, 1, 2, 6, 9, 7, 1, 3, 3, 2, 1" />
+<line fn="pairs_woodpecker_bee" syn="3, 5, 2, 8, 9, 1, 3, 5, 1, 2, 2, 1, 2, 0, 4, 3, 4, 3, 2, 0" />
+<line fn="pairs_woodpecker_duck" syn="5, 6, 3, 7, 9, 1, 4, 4, 1, 3, 3, 2, 2, 2, 2, 1, 0, 6, 4, 5, 3, 1, 0" />
+<line fn="pairs_woodpecker_penguin" syn="3, 9, 6, 4, 6, 7, 2, 6, 5, 3, 3, 2, 3, 3, 3, 7, 8, 5, 5, 3, 4, 1" />
+<line fn="right_bigger" syn="1, 5, 4, 1, 1, 9, 6, 7, 3, 0, 0, 4, 4, 4, 5, 4, 3, 4, 4, 7, 4, 1, 0, 1, 0" />
+<line fn="right_breatheunderwater" syn="1, 8, 6, 2, 4, 8, 7, 1, 4, 3, 3, 4, 2, 2, 3, 6, 3, 6, 4, 4, 2" />
+<line fn="right_climb" syn="4, 8, 5, 2, 4, 6, 3, 2, 1, 5, 6, 5, 2, 1, 3, 5, 6, 2, 1, 2, 5, 5, 2, 1" />
+<line fn="right_eatmeat" syn="1, 2, 8, 9, 4, 1, 2, 4, 1, 3, 4, 3, 1, 1" />
+<line fn="right_eggs" syn="2, 2, 8, 9, 5, 5, 1, 5, 7, 5, 4, 4, 3, 3, 1, 1, 2, 1" />
+<line fn="right_fast" syn="1, 7, 4, 6, 8, 8, 1, 4, 3, 1, 1, 3, 8, 5, 3, 3, 1, 0" />
+<line fn="right_feathers" syn="8, 6, 6, 7, 7, 1, 3, 8, 9, 5, 2, 1, 1, 0, 0, 7, 4, 2, 5, 7, 7, 3, 3, 4, 5, 2, 1, 4, 5, 5, 4, 1, 1, 1" />
+<line fn="right_fly" syn="3, 9, 7, 4, 5, 4, 5, 2, 1, 4, 7, 7, 7, 4, 2, 1" />
+<line fn="right_hair" syn="4, 8, 1, 4, 8, 5, 1, 0, 1, 2, 6, 5, 1, 0, 1, 1, 0, 0, 0, 4, 2, 2, 4, 6, 3, 1, 1, 3, 2, 1, 4, 4, 3, 2, 0" />
+<line fn="right_heavy" syn="8, 8, 2, 1, 8, 7, 5, 2, 1, 2, 5, 7, 3, 3, 1, 5, 6, 2, 2, 0, 0" />
+<line fn="right_jump" syn="1, 9, 6, 2, 7, 7, 4, 1, 4, 4, 3, 1, 1, 4, 8, 5, 2, 1, 5, 3, 4, 1, 1" />
+<line fn="right_legs2" syn="5, 6, 4, 7, 8, 4, 0, 5, 5, 5, 2, 2, 3, 0, 0, 0, 3, 7, 7, 7, 5, 3, 2, 3, 8, 4, 3, 3, 3, 1, 1, 2, 1" />
+<line fn="right_legs4" syn="2, 1, 9, 7, 3, 2, 3, 2, 1, 4, 3, 2, 2, 3, 2, 1, 1, 2, 1" />
+<line fn="right_legs6" syn="7, 8, 7, 9, 6, 4, 6, 3, 3, 4, 2, 1, 1, 0, 0, 4, 7, 6, 4, 4, 3, 4, 5, 6, 5, 4, 3, 4, 3, 1, 1, 2, 1" />
+<line fn="right_shell" syn="1, 1, 9, 8, 6, 2, 3, 2, 1, 1, 2, 6, 6, 1, 0, 3, 5, 4, 3, 2, 2, 2, 3, 1, 1, 1, 1, 0" />
+<line fn="right_slither" syn="2, 2, 6, 8, 8, 6, 1, 1, 5, 6, 3, 7, 7, 4, 3, 1, 1, 1, 4, 8, 5, 4, 5, 5, 5, 3, 1, 1, 1" />
+<line fn="right_smaller" syn="8, 8, 4, 1, 9, 7, 6, 3, 0, 2, 2, 4, 4, 3, 2, 3, 7, 4, 5, 5, 6, 6, 2, 1, 2" />
+<line fn="right_sticky" syn="1, 9, 5, 2, 6, 6, 4, 3, 6, 4, 5, 3, 6, 5, 3, 6, 1, 4, 2, 1, 1, 1, 1, 0" />
+<line fn="right_stickytongue" syn="2, 2, 7, 9, 4, 5, 1, 4, 5, 5, 3, 4, 5, 2, 2, 4, 6, 7, 2, 1, 1, 1, 0" />
+<line fn="right_swim" syn="7, 5, 2, 1, 9, 7, 5, 2, 2, 5, 5, 6, 4, 7, 5, 6, 6, 6, 3, 2, 1" />
+<line fn="right_teethgrow" syn="2, 2, 8, 8, 6, 3, 7, 4, 3, 6, 5, 2, 3, 3, 1, 3, 4, 7, 4, 3, 2, 4, 6, 3, 2, 4, 8, 7, 4, 2, 1, 0" />
+<line fn="right_teethnum" syn="2, 2, 9, 8, 7, 4, 4, 5, 1, 1, 7, 7, 2, 5, 2, 3, 4, 2, 2, 0" />
+<line fn="right_underground" syn="2, 2, 1, 8, 9, 6, 1, 5, 6, 6, 5, 1, 3, 5, 7, 2, 2, 2, 4, 3, 8, 6, 4, 3, 1, 1, 1, 1" />
+<line fn="right_vegetarians" syn="5, 6, 4, 1, 6, 8, 6, 5, 1, 3, 2, 4, 3, 5, 5, 4, 4, 3, 2, 1, 1, 1" />
+<line fn="wrong_bigger" syn="4, 5, 7, 9, 3, 5, 4, 5, 4, 5, 5, 5, 3, 4, 4, 6, 7, 2, 2, 4, 1" />
+<line fn="wrong_breatheunderwater_mam" syn="2, 5, 3, 3, 1, 2, 5, 9, 6, 2, 0, 0, 0, 0, 0, 5, 3, 3, 5, 7, 6, 6, 4, 5, 3, 3, 5, 1, 1, 2, 5, 4, 3, 3, 4, 4, 6, 3, 3, 4, 6, 2, 0" />
+<line fn="wrong_climb" syn="3, 3, 2, 1, 2, 8, 7, 6, 1, 3, 8, 6, 6, 5, 2, 4, 3, 5, 5, 4, 2, 1" />
+<line fn="wrong_climb_swim" syn="1, 4, 6, 9, 3, 6, 6, 4, 2, 4, 5, 2, 1, 0, 0, 0, 5, 3, 1, 4, 5, 3, 2, 2, 5, 7, 7, 3, 1, 0" />
+<line fn="wrong_eatmeat" syn="2, 2, 8, 7, 8, 6, 2, 4, 3, 4, 8, 5, 4, 1, 1" />
+<line fn="wrong_eggs_mam" syn="0, 0, 0, 2, 3, 1, 1, 2, 3, 3, 4, 2, 1, 0, 0, 0, 0, 0, 3, 2, 2, 3, 4, 3, 3, 3, 2, 2, 2, 2, 1, 2, 4, 4, 3, 3, 4, 3, 3, 2, 2, 2, 1, 2, 2, 2" />
+<line fn="wrong_feathers" syn="2, 2, 5, 9, 7, 8, 2, 6, 2, 1, 7, 6, 3, 2, 1, 2, 1" />
+<line fn="wrong_feathers_amph" syn="6, 7, 8, 6, 5, 5, 1, 1, 6, 5, 5, 5, 3, 1, 1, 0, 0, 0, 1, 6, 5, 3, 2, 1, 6, 5, 5, 4, 2, 3, 2, 7, 9, 7, 3, 4, 3, 1, 4, 5, 5, 2, 1, 2, 3" />
+<line fn="wrong_feathers_fish" syn="3, 4, 6, 4, 1, 5, 7, 2, 3, 3, 0, 0, 0, 0, 0, 5, 3, 1, 1, 9, 8, 4, 2, 7, 7, 5, 4, 5, 2, 1, 1, 6, 5, 3, 2, 1, 1" />
+<line fn="wrong_feathers_insect" syn="3, 4, 2, 2, 0, 9, 8, 5, 6, 4, 2, 0, 0, 0, 0, 0, 0, 3, 3, 1, 0, 6, 5, 5, 3, 3, 1, 1, 5, 6, 3, 3, 2, 0, 1, 5, 4, 2, 1, 1, 1" />
+<line fn="wrong_feathers_mam" syn="5, 8, 8, 8, 4, 6, 5, 6, 6, 5, 2, 0, 0, 0, 0, 2, 5, 3, 2, 5, 8, 8, 2, 2, 0, 4, 7, 8, 3, 6, 2, 2, 4, 5, 3, 3, 1, 2, 2, 1" />
+<line fn="wrong_feathers_rep" syn="2, 3, 3, 3, 1, 6, 5, 1, 4, 6, 2, 2, 1, 0, 0, 0, 0, 0, 0, 3, 8, 7, 3, 6, 9, 1, 4, 4, 3, 1, 2, 2, 7, 8, 5, 5, 3, 1, 2, 6, 5, 3, 2, 1, 2" />
+<line fn="wrong_fly" syn="3, 6, 6, 1, 2, 3, 8, 7, 5, 3, 1" />
+<line fn="wrong_fly_bird" syn="3, 8, 8, 2, 2, 3, 5, 6, 3, 2, 0, 0, 0, 0, 5, 5, 9, 7, 4, 3, 3, 1, 3, 4, 3, 2, 0" />
+<line fn="wrong_hair" syn="1, 2, 9, 7, 8, 7, 5, 8, 6, 5, 6, 3, 4, 4, 1" />
+<line fn="wrong_hair_amph" syn="5, 4, 6, 5, 5, 5, 1, 6, 6, 4, 4, 3, 1, 0, 0, 0, 0, 5, 8, 4, 3, 1, 4, 9, 4, 4, 4, 3, 3, 0, 8, 7, 6, 2, 5, 5, 4, 5, 5, 5, 2, 1" />
+<line fn="wrong_hair_bird" syn="4, 4, 6, 1, 5, 5, 4, 3, 3, 0, 0, 0, 0, 2, 4, 1, 1, 9, 6, 3, 2, 3, 0, 8, 8, 5, 2, 5, 4, 1, 5, 4, 4, 2, 1" />
+<line fn="wrong_hair_fish" syn="5, 9, 5, 4, 2, 1, 7, 8, 4, 2, 1, 0, 0, 0, 5, 4, 2, 1, 4, 8, 6, 3, 3, 6, 5, 3, 4, 4, 4, 3, 4, 3, 2" />
+<line fn="wrong_hair_insect" syn="5, 7, 7, 7, 0, 5, 5, 4, 3, 4, 3, 0, 1, 0, 0, 0, 2, 7, 4, 0, 9, 5, 5, 3, 3, 2, 2, 3, 4, 2, 2, 3, 4, 3, 2, 3, 3, 3, 2" />
+<line fn="wrong_hair_rep" syn="8, 9, 7, 5, 6, 5, 0, 3, 8, 6, 3, 2, 1, 0, 0, 0, 0, 3, 7, 4, 3, 6, 8, 1, 4, 5, 4, 2, 1, 1, 9, 7, 6, 4, 5, 1, 6, 5, 4, 3, 2" />
+<line fn="wrong_heavy" syn="5, 6, 5, 5, 6, 5, 1, 5, 5, 3, 2, 2, 8, 6, 2, 1" />
+<line fn="wrong_jump" syn="6, 6, 5, 6, 8, 8, 1, 6, 7, 5, 2, 1, 3, 5, 5, 2, 1, 0" />
+<line fn="wrong_legs_eight" syn="1, 7, 8, 7, 0, 5, 4, 4, 3, 2, 1" />
+<line fn="wrong_legs_four" syn="0, 7, 9, 7, 2, 1, 5, 6, 7, 4, 2, 0" />
+<line fn="wrong_legs_fourlegs" syn="1, 9, 8, 3, 0, 6, 6, 4, 6, 4, 4, 6, 3, 1, 2, 1" />
+<line fn="wrong_legs_nolegs" syn="0, 8, 7, 3, 6, 6, 5, 6, 5, 5, 5, 3, 2, 1, 2, 1, 0" />
+<line fn="wrong_legs_six" syn="1, 9, 8, 5, 7, 6, 8, 3, 1, 4, 3, 1" />
+<line fn="wrong_legs_sixlegs" syn="4, 6, 4, 6, 9, 8, 8, 1, 6, 3, 4, 3, 2, 1, 2, 2" />
+<line fn="wrong_legs_two" syn="3, 8, 7, 5, 3, 3, 9, 8, 7, 2, 1" />
+<line fn="wrong_legs_twolegs" syn="1, 5, 7, 4, 0, 5, 7, 9, 7, 5, 7, 5, 6, 2, 1, 2" />
+<line fn="wrong_run" syn="3, 9, 9, 4, 2, 4, 7, 7, 3, 1, 1" />
+<line fn="wrong_shell" syn="1, 1, 7, 5, 8, 6, 4, 2, 2, 2, 2, 8, 4, 1, 4, 6, 4, 4, 6, 5, 5, 3, 2, 0" />
+<line fn="wrong_slither" syn="1, 5, 9, 9, 9, 4, 8, 5, 2, 7, 6, 2, 3, 2, 4, 2, 4, 3, 4, 3, 3, 3, 5, 2, 1, 1" />
+<line fn="wrong_smaller" syn="5, 5, 2, 1, 0, 8, 8, 3, 2, 1, 1, 1, 3, 8, 8, 2, 1, 1, 1, 1" />
+<line fn="wrong_sticky" syn="3, 6, 5, 2, 8, 7, 7, 6, 3, 6, 8, 6, 3, 1, 3, 2, 2, 1, 2, 1" />
+<line fn="wrong_stickytongue" syn="1, 4, 9, 6, 5, 3, 6, 8, 2, 3, 5, 5, 4, 2, 2, 3, 4, 3, 2, 1" />
+<line fn="wrong_swim" syn="4, 5, 3, 4, 7, 7, 5, 1, 8, 8, 7, 7, 5, 5, 4, 6, 6, 3, 1" />
+<line fn="wrong_teethgrow" syn="2, 2, 8, 8, 9, 7, 4, 5, 1, 5, 6, 5, 5, 1, 5, 4, 2, 5, 5, 4, 5, 4, 2, 3, 4, 6, 6, 2, 1" />
+<line fn="wrong_teethnum" syn="1, 2, 9, 7, 8, 2, 3, 1, 1, 3, 5, 4, 2" />
+<line fn="wrong_underground" syn="2, 5, 8, 4, 9, 4, 2, 5, 5, 4, 4, 3, 4, 1, 2, 2, 3, 2, 2, 1" />
+<line fn="wrong_vegetarian" syn="4, 5, 4, 7, 8, 2, 3, 5, 3, 0, 2, 1" />
+
+</root>

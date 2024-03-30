@@ -1,0 +1,68 @@
+body
+{
+   font-family: Arial;
+   color: #5b3805;
+   font-size: 12px;
+   background-color: #ffd904;
+   background-image: url(bg.gif);
+   background-position: center -320;
+   background-repeat: no-repeat;
+   text-align: center;
+}
+
+#content
+{
+   width: 1024px;
+   margin: 0px auto 0px auto;
+}
+
+#header
+{
+   padding-top: 10px;
+   width: 778px;
+   height: 85px;
+   background-image: url(bg_header.gif);
+   background-repeat: no-repeat;
+   margin: 20px auto 15px auto;
+}
+
+#swf
+{
+   width: 772px;
+   height: 487px;
+   margin: 0px auto 20px auto;
+}
+
+#swf_games
+{
+   width: 772px;
+   height: 680px;
+   margin: 0px auto 20px auto;
+}
+
+#footer
+{
+   padding-top: 10px;
+   width: 782px;
+   height: 119px;
+   background-image: url(bg_footer.gif);
+   background-repeat: no-repeat;
+   margin: 0px auto 0px auto;
+}
+
+td
+{
+   font-size: 12px;
+}
+
+a
+{
+   color: #5b3805;
+   font-weight: bold;
+}
+
+.nav_img
+{
+   margin-left: 25px;
+   margin-right: 25px;
+}

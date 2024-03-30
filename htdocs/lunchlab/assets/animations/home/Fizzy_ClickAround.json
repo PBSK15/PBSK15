@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "Fizzy_ClickAround.m4a",
+    "Fizzy_ClickAround.oga",
+    "Fizzy_ClickAround.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "Fizzy_ClickAround": {
+      "start": 6,
+      "end": 14.239659863945578,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

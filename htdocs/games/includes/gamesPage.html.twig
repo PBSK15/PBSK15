@@ -1,0 +1,10 @@
+{% extends 'includes_twig/shellViewPage.html.twig' %}
+{% block headModules %}
+    <link rel="stylesheet" href="http://pbskids.org/shell/styles/css/games.css">
+    <link rel="stylesheet" href="http://pbskids.org/shell/styles/css/all-page.css">
+{% endblock %}
+{% block bodyModules %}
+    <div data-build="scripts" class="hidden">
+      <script type='text/javascript' src='/js/loader/lib/PBS.KIDS.require.js' data-main='/js/loader/loaders/shell.require.config.js' ></script>
+    </div>  
+{% endblock %}

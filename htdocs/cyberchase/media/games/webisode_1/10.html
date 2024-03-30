@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 1 . Panel 10 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/bg10.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel10_03.gif";
+n12 = new Image();
+n12.src = "images/panel10b_03.gif";
+
+
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 800);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "3") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<body  onload="timeimgs('2')" style="margin: 0px">
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/panel10_01.gif" WIDTH=551 HEIGHT=163 alt="" border="0" usemap="#top"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><IMG SRC="images/panel10_02.gif" WIDTH=384 HEIGHT=237 alt="One night, while Marbles is away, Hacker removes the encryptor chip from Motherboard...  (Hacker: Without the encryptor chip, Motherboard cannot function. Ha ha ha!) ...and hides it inside a secret vault." border="0"></TD>
+		<TD><IMG SRC="images/panel10_03.gif" WIDTH=119 HEIGHT=77 alt="" border="0" name="n1"></TD>
+		<TD><IMG SRC="images/panel10_04.gif" WIDTH=48 HEIGHT=77 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/panel10_05.gif" WIDTH=167 HEIGHT=160 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+	<map name="next">
+<area alt="next" coords="76,95,144,154" href="11.html">
+</map>
+
+
+<map name="top">
+<area alt="How It All Started" coords="27,10,241,44" href="../webisodes-global/how_started.html">
+<area alt="Webisode 1" coords="246,12,357,43" href="1.html">
+<area alt="Stop! You can't do this!" coords="256,60,354,113" nohref>
+</map>
+
+</td></tr></table>
+	
+
+
+
+
+</BODY>
+</HTML>

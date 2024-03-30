@@ -1,0 +1,243 @@
+html, body 
+{
+	background-color : #333;
+	margin : 0;
+	padding : 0;
+	overflow : hidden;
+	width : 100%;
+	height : 100%;
+	min-height : 768px;
+}
+
+#book-container
+{
+	position : relative;
+}
+
+#book-container img.pageturn
+{
+	cursor : pointer;
+	position : absolute;
+	top : 50%;
+	transform : translate(0, -50%);
+	-webkit-transform : translate(0, -50%);
+	-ms-transform : translate(0, -50%);
+	-moz-transform : translate(0, -50%);
+}
+#book-container img.pageturn.left { left : 1%; }
+#book-container img.pageturn.right { right : 1%; }
+
+#book-replay
+{
+	z-index : 10;
+	display : none;
+	opacity : 0;
+	cursor : pointer;
+
+	background-image : url('../../../media/images/btn-read.png');
+	width : 220px;
+	height : 190px;
+	position : absolute;
+	right : 0;
+	bottom : 0;
+
+	transform-origin : bottom right;
+	-webkit-transform-origin : bottom right;
+	-ms-transform-origin : bottom right;
+}
+#book-replay:hover, #book-replay:active
+{
+	background-image : url('../../../media/images/btn-read-hover.png');
+}
+
+#book-wrapper
+{
+	position : relative;
+	background-position : center;
+	background-repeat : no-repeat;
+	background-size : auto 100%;
+
+	-webkit-perspective : 1800px;
+	perspective : 1800px;
+}
+
+#book-wrapper canvas
+{
+	position : absolute;
+	width : 100%;
+	/*height : 100%;*/
+	margin : 0 auto;
+}
+
+#book-wrapper div.pageflip
+{
+	position : absolute;
+	z-index : 100;
+	width : 50%;
+	height : 100%;
+	/*-webkit-transform-style : preserve-3d;
+	transform-style : preserve-3d;*/
+	-webkit-backface-visibility : hidden;
+	backface-visibility : hidden;
+	-webkit-transform : translateZ(0);
+}
+#book-wrapper div.pageflip.right
+{
+	left : 50%;
+	-webkit-transform-origin : left center;
+	transform-origin : left center;
+}
+#book-wrapper div.pageflip.left
+{
+	right : 50%;
+	-webkit-transform-origin : right center;
+	transform-origin : right center;
+}
+#book-wrapper div.pageflip.right div.gradient
+{
+	position : absolute;
+	width : 100%;
+	height : 100%;
+	background-image : -webkit-gradient(linear, 100% 0%, 0% 0%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 1)));
+	background-image : -webkit-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background-image : -moz-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background-image : -ms-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background-image : -o-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+#book-wrapper div.pageflip.left div.gradient
+{
+	position : absolute;
+	width : 100%;
+	height : 100%;
+	background-image : -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 1)));
+	background-image : -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background-image : -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background-image : -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	background-image : -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+
+#book-dom
+{
+	position : absolute;
+	z-index : 1000;
+	top : 50%;
+	left : 50%;
+	transform : top left;
+	-webkit-transform : top left;
+	-ms-transform : top left;
+}
+
+#book-dom div.text
+{
+	position : absolute;
+}
+#book-dom div.text img.replay
+{
+	position : absolute;
+	bottom : 0;
+	right : 0;
+	cursor : pointer;
+}
+#book-dom div.text span.highlight
+{
+	background-color : #ff0;
+}
+
+
+@media (max-width : 1023px) {
+	#book-container img.pageturn
+	{
+		transform : scale(0.8);
+		-ms-transform : scale(0.8);
+		-webkit-transform : scale(0.8);
+		-moz-transform : scale(0.8);
+	}
+	#book-replay
+	{
+		transform : scale(0.8);
+		-ms-transform : scale(0.8);
+		-webkit-transform : scale(0.8);
+		-moz-transform : scale(0.8);
+	}
+}
+/*@media (max-height : 320px) {
+	#book-container img.pageturn
+	{
+		transform : scale(0.6);
+		-ms-transform : scale(0.6);
+		-webkit-transform : scale(0.6);
+		-moz-transform : scale(0.6);
+		top : 25%;
+	}
+	#book-replay
+	{
+		transform : scale(0.4);
+		-ms-transform : scale(0.4);
+		-webkit-transform : scale(0.4);
+		-moz-transform : scale(0.4);
+	}
+}*/
+
+
+/* safari and chrome */
+@-webkit-keyframes turnandsnap 
+{
+	0% { -webkit-transform:rotate(0deg); }
+	80% { -webkit-transform:rotate(-90deg); }
+	94% { -webkit-transform:rotate(4deg); }
+	97% { -webkit-transform:rotate(-4deg); }
+	100% { -webkit-transform:rotate(0deg); }
+}
+ 
+/* firefox */
+@-moz-keyframes turnandsnap 
+{
+	0% { -moz-transform:rotate(0deg); }
+	75% { -moz-transform:rotate(-90deg); }
+	94% { -moz-transform:rotate(4deg); }
+	97% { -moz-transform:rotate(-4deg); }
+	100% { -moz-transform:rotate(0deg); }
+}
+ 
+/* anyone brave enough to implement the ideal method */
+@keyframes turnandsnap 
+{
+	0% { transform:rotate(0deg); }
+	75% { transform:rotate(-90deg); }
+	94% { transform:rotate(4deg); }
+	97% { transform:rotate(-4deg); }
+	100% { transform:rotate(0deg); }
+}
+
+
+#orientation 
+{
+	width : 100%;
+	height : 100%;
+	position : absolute;
+	top : 0;
+	left : 0;
+	background : #000;
+	display : none;
+	z-index : 1000;
+}
+#orientation img
+{
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	width : 256px;
+	margin : -128px 0 0 -128px;
+	-webkit-animation : turnandsnap 5s infinite;
+	-moz-animation : turnandsnap 5s infinite;
+	animation : turnandsnap 5s infinite;
+}
+
+
+#font-preloader
+{
+	position : absolute;
+	top : -9999px;
+	left : -9999px;
+}

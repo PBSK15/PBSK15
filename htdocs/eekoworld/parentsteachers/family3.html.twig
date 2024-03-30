@@ -1,0 +1,116 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+		
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("../flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+
+
+		
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="contentwrapper">
+ <div id="content"><!-- INSERT PAGE CONTENT HERE --> <img src="../images/header_parentsteachers.jpg" alt="Parents &amp; Teachers" width="259" height="54" class="headerimage">
+  <div id="subnav">
+   <a href="index.html">Overview</a> | <a href="family.html" class="active">Family Guide</a> | <a href="teachers.html">Teacher's Guide</a> | <a href="lessons.html">Lesson Plans</a>
+  </div> <img src="../images/header_familyguide.jpg" alt="Family Guide" width="141" height="33" class="contentheader">
+  <div id="sidebarwrapper">
+   <div id="sidebargreentop">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+   <div id="sidebargreencontainer">
+    <div id="sidebargreencontent">
+     <p><strong>Create and care for your own <a href="../index.html@load=eekocreature">EekoCreature</a>, then explore <a href="../index.html@load=eekohouse">EekoHouse</a> for conservation ideas! </strong></p>
+    </div>
+   </div>
+   <div id="sidebargreenbottom">
+    <img src="../images/spacer.gif" alt="" width="1" height="1">
+   </div>
+  </div> <a name="reading"></a><span class="subhead">Family Reading Time</span><br>
+  <p>Read Joanne Ryder's book <em>The Waterfall's Gift</em> with your children. In this lyrical tale, a young girl journeys into the woods to visit a secret place that she shared with her grandfather. The story focuses on the five senses. Stop periodically while you are reading and talk about how nature looks, feels, smells, sounds, and tastes. The story also touches on the loss of a loved one, a connection to the past, and a hope for the future. After reading the book, share with your children some memories of family and nature that surfaced while you were reading the book. If appropriate, have your children contact grandparents or other family members and ask them if they have a special place where they feel connected with nature. You might choose to find a special outdoor place that you could visit periodically as a family to create your own family/nature memory.</p>
+  <p>The following is a list of additional books that you might want to share with your children:</p>
+  <ul>
+   <li><em>Brother Eagle, Sister Sky: A Message From Chief Seattle</em> by Susan Jeffers</li>
+   <li><em>Farewell to Shady Glade</em> by Bill Peet</li>
+   <li><em>Just a Dream</em> by Chris Van Allsburg</li>
+   <li><em>The Giving Tree</em> by Shel Silverstein</li>
+   <li><em>The Lorax</em> by Dr. Seuss</li>
+   <li><em>The Wump World</em> by Bill Peet</li>
+  </ul> <br> <a name="nature"></a><span class="subhead">Family Nature Event</span><br>
+  <p>Go on a family nature outing. Record the event using one or several of these methods:</p>
+  <ul>
+   <li>Bring along a sketchpad or watercolor box and paint or draw the landscape.</li>
+   <li>Use a camera to capture nature images on film.</li>
+   <li>Bring a recording device and make a Sounds of Nature tape.</li>
+   <li>Sit and observe the surroundings using as many of your senses as possible. Record words that describe the environment on a piece of paper and use them to write a haiku.<br>
+    <hr size="1" color="#FFE2C9" noshade> A haiku poem is a very short, centuries-old form of Japanese poetry. Haikus are often written about nature and convey emotions. A traditional Japanese haiku had a total of seventeen syllables divided into three lines:<br> • &nbsp;Five syllables<br> • &nbsp;Seven syllables<br> • &nbsp;Five syllables<br> You don't need to be this rigid in the creation of your poem. You may choose to describe the setting using as few words as possible.</li>
+  </ul>
+  <p>Post your photographs, poems, drawings and sounds on a family nature Web site. Encourage friends and family members to post their experiences with nature on the Web site.</p> <br>
+  <div align="right">
+   <strong>« <a href="family2.html" class="next">Previous</a></strong>&nbsp; | &nbsp;<strong><a href="family4.html" class="next">Next</a> »</strong>
+  </div>
+ </div><!-- END CONTENT --> <img style="display:block;" src="../images/content_bottom_round.gif" alt="" width="734" height="11">
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<div id="footercontainer">
+ <div id="bottombuttons">
+  <a href="../parentsteachers/index.html"><img src="../images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onmouseover="MM_swapImage('pt','','../images/button_pt-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a><a href="../aboutew/index.html"><img src="../images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onmouseover="MM_swapImage('what','','../images/button_whatis-over.jpg',1)" onmouseout="MM_swapImgRestore()"></a>
+ </div>
+ <div id="footer">
+  <table border="0" cellspacing="0" cellpadding="0" id="footertable">
+   <tbody>
+    <tr>
+     <td class="footercol1">Made Possible by</td>
+     <td class="footercol2">Produced by</td>
+     <td class="footercol3"></td>
+     <td>&nbsp;</td>
+    </tr>
+    <tr>
+     <td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="../images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>
+     <td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="../images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>
+     <td class="footercol3"></td>
+     <td align="right" valign="top"><a href="../contact/index.html">Contact us</a> | <a href="http://pbskids.org/privacy/">Privacy Policy</a> | <a href="../aboutew/">About the Site</a><br> Copyright © 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>{% endblock %}
+

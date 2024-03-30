@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player>
+
+<settings
+
+defaultVolume = "1"
+autoplay = "true"
+finished = "7"
+unfinished = "1"
+
+mainBackgroundColor = "000000"
+buttonsBackgroundColor = "000000"
+buttonsOutlineColor = "ffffff"
+buttonsIconColor = "00ffff"
+buttonsIconOverColor = "FFFFFF"
+volumeBarColor = "FFFFFF"
+loadBarColor = "018786"
+progressBarColor ="00ffff"
+
+spectrumLeftColor = "ffffff"
+spectrumLeftLineColor = "FFFFFF"
+spectrumRightColor = "00ffff"
+spectrumRightLineColor = "00FFFF"
+
+/>
+
+
+<song>
+<title>CVC Homework</title>
+<url>blues/mp3/songs/lyric_song4.mp3</url>
+</song>
+    
+<song>
+<title>CVC Dog Blues</title>
+<url>blues/mp3/songs/mp3_DoggieDogBlues.mp3</url>
+</song>
+
+<song>
+<title>CVC Rain Coat</title>
+<url>blues/mp3/songs/mp3_RedRaincoat.mp3</url>
+</song>
+
+<song>
+<title>CVC My Mom</title>
+<url>blues/mp3/songs/lyric_song1.mp3</url>
+</song>
+
+
+<song>
+<title>CVC Zep Blues</title>
+<url>blues/mp3/songs/lyric_song2.mp3</url>
+</song>
+
+<song>
+<title>CVC Broken Guitar</title>
+<url>blues//mp3/songs/lyric_song3.mp3</url>
+</song>
+
+    <song>
+        <title>NEW: CVC Groove</title>
+        <url>blues/mp3/songs/main_song3_withsolos.mp3</url>
+    </song>
+    
+    
+<song>
+<title>CVC Blues Swing</title>
+<url>blues/mp3/songs/main_song1_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Blues Delight</title>
+<url>blues/mp3/songs/main_song2_withsolos.mp3</url>
+</song>
+
+</player>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Activities &mdash; What&#39;s the Temperature? &mdash; Print</title>
+	<style type="text/css">
+		@media all {
+			.page-image {
+				width: 750px;
+				margin: 10px auto;
+			}
+		}
+
+		@media print {
+			.page-break {
+				page-break-after: always;
+			}
+
+			.page-image {
+				width: 7.8in;
+				margin: 0 auto;
+			}
+		}
+	</style>
+	<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/jquery-1.4.2.min.js" ></script>
+</head>
+<body>
+
+<div class="page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/whatsthetemperature_1of1_printable.png" width="750" height="971"/>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() { window.print(); });
+</script>
+</body>
+</html>

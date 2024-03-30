@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<animations>
+		<animation id="intro" file="assets/animations/Intro.swf" captions="assets/captions/Intro.sbv" />
+		<animation id="complete" file="assets/animations/CompleteGame.swf" captions="assets/captions/Complete.sbv" />
+		<animation id="par" file="assets/animations/Par.swf" captions="assets/captions/Par.sbv" />
+	</animations>
+	<foodLayouts>
+		<layout items="2">
+			<position id="1" x="30" y="20" />
+			<position id="2" x="30" y="75" />
+		</layout>
+		<layout items="3">
+			<position id="1" x="30" y="-3" />
+			<position id="2" x="30" y="47" />
+			<position id="3" x="30" y="97" />
+		</layout>
+		<layout items="4">
+			<position id="1" x="-3" y="19" />
+			<position id="2" x="61" y="19" />
+			<position id="3" x="-3" y="79" />
+			<position id="4" x="61" y="79" />
+		</layout>
+		<layout items="5">
+			<position id="1" x="-3" y="-3" />
+			<position id="2" x="61" y="-3" />
+			<position id="3" x="30" y="47" />
+			<position id="4" x="-3" y="97" />
+			<position id="5" x="61" y="97" />
+		</layout>
+		<layout items="6">
+			<position id="1" x="-3" y="-3" />
+			<position id="2" x="61" y="-3" />
+			<position id="3" x="-3" y="47" />
+			<position id="4" x="61" y="47" />
+			<position id="5" x="-3" y="97" />
+			<position id="6" x="61" y="97" />
+		</layout>
+	</foodLayouts>
+	<robotLayouts>
+		<layout items="2">
+			<position id="1" x="288" y="470" />
+			<position id="2" x="577" y="470" />
+		</layout>
+		<layout items="3">
+			<position id="1" x="200" y="470" />
+			<position id="2" x="477" y="470" />
+			<position id="3" x="761" y="470" />
+		</layout>
+	</robotLayouts>
+	<sounds contextName="BalanceBotGame_Effects" baseDir="assets/sounds/">
+		<sound alias="game_intro" url="Intro.mp3" volume="0.8" />
+		<sound alias="door_transition" url="DoorTransition.mp3" />
+		<sound alias="easy_over" url="EasyMouseOver.mp3" volume="0.7" />
+		<sound alias="hard_over" url="HardMouseOver.mp3" volume="0.7" />
+		<sound alias="help_over" url="HelpMouseOver.mp3" />
+		<sound alias="switch_foods" url="FoodSwitch.mp3" volume="0.8" />
+		<sound alias="robot_close" url="RobotHatchClose.mp3" volume="0.8" />
+		<sound alias="robot_open" url="RobotHatchOpen.mp3" volume="0.8" />
+		<sound alias="play_over" url="PlayMouseOver.mp3" volume="0.6" />
+		<sound alias="yes_over" url="YesMouseOver.mp3" volume="0.5" />
+		<sound alias="no_over" url="NoMouseOver.mp3" volume="0.5" />
+		<sound alias="level_over" url="SelectLevelMouseOver.mp3" volume="0.4" />
+		<sound alias="next_level" url="next_level.mp3" />
+		<sound alias="robots" url="look_at_those_robots.mp3" />
+		<sound alias="nice_work" url="nice_work.mp3" />
+		<sound alias="try_again" url="try_again.mp3" />
+		<sound alias="you_can_do_it" url="you_can_do_it.mp3" />
+		<sound alias="can_you_help" url="can_you_help.mp3" />
+	</sounds>
+	<sounds contextName="BalanceBotGame_Music" baseDir="assets/sounds/">
+		<sound alias="game_music" url="balance_play.mp3" volume="0.1" mode="continuous"  />
+		<sound alias="game_music_tense" url="balance_tense.mp3" volume="0.15" mode="continuous"  />
+		<sound alias="game_music_peaceful" url="balance_peaceful.mp3" volume="0.3" mode="continuous"  />
+	</sounds>
+</config>

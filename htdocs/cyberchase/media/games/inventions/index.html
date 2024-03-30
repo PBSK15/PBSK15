@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Invention Workshop . Games . Cyberchase | PBS KIDS</title>
+	<meta name="description" content="This game lets you create all sorts of cool inventions and solve crazy puzzles.">
+	<meta name="keywords" content="Game, inventions game, inventions, math game, building game, puzzles">
+	<script type="text/javascript" src="/cyberchase/static/js/getlogin.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<script type="text/javascript">
+		var flashvars = {
+			logoType: 1,
+			user_id: userid,
+			user_name: username,
+			returnPage: window.top.location
+		};
+		var params = {
+			menu: "false",
+			allowScriptAccess: "always",
+			bgcolor: "#333399",
+			wmode:"opaque"
+		};
+		swfobject.embedSWF("home.swf", "game", "750", "400", "9.0.0", null, flashvars, params, {});
+	</script>
+</head>
+<body style="margin: 0px;">
+<div id="game">
+	Whoops! Looks like you need to download the latest version of Flash. Try visiting our site on a different computer or download it here: <a href="http://get.adobe.com/flashplayer/">http://get.adobe.com/flashplayer/</a>.
+</div>
+</body>
+</html>

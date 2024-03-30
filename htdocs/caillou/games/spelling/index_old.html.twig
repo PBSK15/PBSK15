@@ -1,0 +1,84 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games . Spelling with Caillou' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script src="swfobject.js" type="text/javascript"></script>
+<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_games-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_games.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_coloring-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_coloring.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_greetings-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_greetings.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master2_caillou-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master2_caillou.gif";			back_on = new Image( );		back_on.src = "images/Master2_back-over.gif";		back_off = new Image( );		back_off.src = "images/Master2_back.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="../images/bkg_blue-bfly2.gif" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td valign="bottom"><a href="https://pbskids.org/"><img src="images/Master2_pbs.gif" alt="PBS Kids Homepage" name="PBSKids" height="74" width="75" border="0"></a></td>
+        <td valign="bottom"><img src="images/Master2_yellow-left.gif" alt="" height="74" width="200" border="0"></td>
+        <td valign="bottom"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../../index.html"><img src="images/Master2_caillou.gif" alt="Caillou Homepage" name="caillouhome" height="74" width="200" border="0"></a></td>
+        <td valign="bottom"><img src="images/Master2_yellow-right.gif" alt="" height="74" width="200" border="0"></td>
+        <td valign="bottom"><a onmouseover="act('back')" onmouseout="inact('back')" href="../spelling.html"><img src="images/Master2_back.gif" alt="Going back" name="back" height="74" width="75" border="0"></a></td>
+       </tr>
+      </tbody>
+     </table>
+     <table width="750" border="0" cellspacing="0" cellpadding="0" bgcolor="white">
+      <tbody>
+       <tr>
+        <td valign="top"><img src="images/Master2_red.gif" alt="" height="390" width="75" border="0"></td>
+        <td valign="top">
+         <div id="flashcontent"></div> <script type="text/javascript">							var so = new SWFObject("spell_eng.swf", "spell_eng", "600", "390", "5,0,0,0", "#ffffff");							so.addParam("play", true);							so.write("flashcontent");						</script></td>
+        <td valign="top"><img src="images/Master2_green.gif" alt="" height="390" width="75" border="0"></td>
+       </tr>
+      </tbody>
+     </table>
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td valign="top"><img src="images/Master2_red-bottom.gif" alt="" height="74" width="75"></td>
+        <td valign="top"><img src="images/Master2_blue-left.gif" alt="" height="74" width="112"></td>
+        <td valign="top"><img src="images/Master_games.gif" alt="Games" name="games" height="74" width="125" border="0"></td>
+        <td valign="top"><img src="images/Master_greetings.gif" alt="Greeting Cards and Email" name="greetings" height="74" width="126" border="0"></td>
+        <td valign="top"><img src="images/Master_coloring.gif" alt="Activities" name="coloring" height="74" width="125" border="0"></td>
+        <td valign="top"><img src="images/Master2_blue-right.gif" alt="" height="74" width="112" border="0"></td>
+        <td valign="top"><img src="images/Master2_green-bottom.gif" alt="" height="74" width="75" border="0"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="20">
+        <td height="20"><p class="instruct_normal">&nbsp;&nbsp;</p></td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold">Game instructions:</p>
+         <ol>
+          <li type="1" class="instruct_normal">On the first page of the game, you will be able to choose between six different words to spell. Drag your mouse over the words, As you pass over them, each word will be highlighted.</li>
+          <li type="1" class="instruct_normal">Click on the word you want to spell.</li>
+          <li type="1" class="instruct_normal">The page will then change and cubes with letters on them will appear. To spell the word, click on a letter on the cubes and drag it to matching letter of the word to spell that appears at the top of the frame.</li>
+          <li type="1" class="instruct_normal">When you finish spelling the word, you can choose another word to spell and play again.</li>
+         </ol>
+         <hr width="60%"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

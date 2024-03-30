@@ -1,0 +1,34 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Music and Songs | PBS KIDS' %}
+{% set keywds = 'Caillou songs, caillou music' %}
+{% set desc = 'Sing along with Caillou. Listen to music from Caillou and sing along with the songs!' %}
+
+{% block specialScripts %}<script type="text/javascript">function newImage(arg) {	if (document.images) {		rslt = new Image();		rslt.src = arg;		return rslt;	}}function changeImages() {	if (document.images && (preloadFlag == true)) {		for (var i=0; i<changeImages.arguments.length; i+=2) {			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];		}	}}var preloadFlag = false;function preloadImages() {	if (document.images) {		entete_over = newImage("../images/entete-over.gif");		 SongsPage_over = newImage("images/SongsPage-over.gif");		preloadFlag = true;	}} </script>
+{% endblock %}
+
+{% set bodyTag = '<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="preloadImages();">' %}
+
+{% block mainContent %}<div align="center">
+ <table width="756" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+   <tr>
+    <td width="50">&nbsp;</td>
+    <td width="150" align="left"><a href="https://pbskids.org/"><img name="PBS KIDS" src="/caillou/images/PBSLogo.gif" width="42" height="54" border="0" alt="PBS KIDS" title="PBS KIDS"></a></td>
+    <td width="300" align="left"><a href="/caillou/index.html" onmouseover="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseout="changeImages('entete', '/caillou/images/entete.gif'); return true;" onmousedown="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseup="changeImages('entete', '/caillou/images/entete-over.gif'); return true;"><img name="entete" src="/caillou/images/entete.gif" width="184" height="96" border="0" alt="Caillou Homepage" title="Caillou Homepage"></a></td>
+   </tr>
+  </tbody>
+ </table>
+ <table id="Table_01" width="755" height="554" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+   <tr>
+    <td colspan="2"><img src="images/Background_songsPage.jpg" width="755" height="237" alt="Songs"></td>
+   </tr>
+   <tr>
+    <td><img src="images/Background_songsPage-02.jpg" width="412" height="317" border="0" alt=""></td>
+    <td><img name="SongsPage" src="images/SongsPage.gif" width="343" height="317" border="0" alt="" usemap="#SongsPage_Map"></td>
+   </tr>
+  </tbody>
+ </table><map name="SongsPage_Map"><area shape="rect" alt="Return" coords="249,231,337,307" href="index.html" onmouseout="changeImages('SongsPage', 'images/SongsPage.gif'); return true;" onmouseover="changeImages('SongsPage', 'images/return.gif'); return true;"><area shape="rect" alt="Vacation" coords="27,237,171,284" href="singalong/song6.html" onmouseout="changeImages('SongsPage', 'images/SongsPage.gif'); return true;" onmouseover="changeImages('SongsPage', 'images/toune06.gif'); return true;"><area shape="rect" alt="Getting Along" coords="46,199,246,236" href="singalong/song5.html" onmouseout="changeImages('SongsPage', 'images/SongsPage.gif'); return true;" onmouseover="changeImages('SongsPage', 'images/toune05.gif'); return true;"><area shape="rect" alt="Days of the week" coords="28,159,275,199" href="singalong/song4.html" onmouseout="changeImages('SongsPage', 'images/SongsPage.gif'); return true;" onmouseover="changeImages('SongsPage', 'images/toune04.gif'); return true;"><area shape="rect" alt="Rub-a-dub Bathtub Blues" coords="3,117,301,158" href="singalong/song3.html" onmouseout="changeImages('SongsPage', 'images/SongsPage.gif'); return true;" onmouseover="changeImages('SongsPage', 'images/toune03.gif'); return true;"><area shape="rect" alt="Caillou Theme Song" coords="29,74,281,115" href="singalong/song2.html" onmouseout="changeImages('SongsPage', 'images/SongsPage.gif'); return true;" onmouseover="changeImages('SongsPage', 'images/toune02.gif'); return true;"><area shape="rect" alt="Oh, Gilbert" coords="60,33,231,73" href="singalong/song1.html" onmouseout="changeImages('SongsPage', 'images/SongsPage.gif'); return true;" onmouseover="changeImages('SongsPage', 'images/toune01.gif'); return true;"></map>
+ <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+ <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+</div>{% endblock %}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content .limiter {
+	background-image: url('../images/ie/limiter_bg.png');
+	background-repeat: repeat-y;
+}
+
+#home-limiter {
+	left: 50%;
+}
+
+.result-item {
+	background: url('../images/ie/result_item_bg.jpg') no-repeat;
+	background-position: bottom center;
+}
+
+.content-panel-inner {
+	background-image: url('../images/ie/content_panel_inner_bg.png');
+	background-repeat: repeat-y;
+}
+
+.promo,
+.result-item,
+.associated-item {
+	cursor: pointer;
+}
+

@@ -1,0 +1,152 @@
+#topBK {
+        position:absolute;
+        left: 0px;
+        background-image: url(../media/images/top_bk.jpg);
+        background-repeat: repeat;
+        width: 100%;
+        height: 89px;
+}
+#contentFloater {
+        position:relative;
+        width:926px;
+        border: 0px solid #ccc;
+        margin-left:auto;
+        margin-right:auto;
+}
+.pageHeader {
+        background-image: url(../media/images/noFlash_page_header.jpg);
+        background-repeat: no-repeat;
+        height: 83px;
+        margin: 0;
+        padding: 0;
+}
+.nav {
+        margin-bottom: 0px;
+        height:76px;
+        border: 0px solid red;
+        margin: 0;
+}
+.whiteWindow {
+
+        width:850px;
+        height: 360px;
+        background-color: #fff;
+        margin-left: 40px;
+        border: 3px solid #1d0052;
+        border-top: 0px;
+}
+.contentHolder {
+        background-color: #fff;
+        border: 0px solid #1d0052;
+        margin-left:30px;
+        width:770px;
+}
+.vSpacer {
+        height:30px;
+}
+.noFlashContainer{
+        width: 750px;
+        margin: 50px auto 0 auto;
+}
+.noFlashContainer2{
+	width: 750px;
+	margin: 10px auto 0 auto;
+}
+.textContainer{
+        float: left;
+        width: 450px;
+        color: #4c36b3;
+        font-family: Arial;
+        font-size: 12pt;
+}
+.textContainer2{
+	float: left;
+	width: 650px;
+	color: #4c36b3;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+
+a:active {
+
+        color: #3bb2d7;
+        text-decoration: none;
+}
+a:link {
+
+        color: #3bb2d7;
+        text-decoration: none;
+}
+a:visited {
+
+        color: #3bb2d7;
+        text-decoration: none;
+}
+a:hover {
+
+        color: #3bb2d7;
+        text-decoration: none;
+}
+
+
+
+.whiteTop{
+        width: 750px;
+        height: 30px;
+        background-image: url(../media/images/noFlashTop.gif);
+        background-repeat: no-repeat;
+}
+.whiteMiddle{
+        width: 750px;
+        background-image: url(../media/images/noFlashMiddle.gif);
+        background-repeat: repeat;
+}
+.whiteBottom{
+        width: 750px;
+        height: 26px;
+        background-image: url(../media/images/noFlashBottom.gif);
+        background-repeat: no-repeat;
+}
+.noFlashContent{
+        width: 700px;
+        margin: 0 auto 0 auto;
+}
+.noFlashHeader{
+        color: #4c36b3;
+        font-size: 14pt;
+}
+.noFlashh1{
+        color: #4c36b3;
+        font-size: 14pt;
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.fullPage{
+	position: relative;
+	margin:0px 0px 0px 0px;
+	width: 960px;
+	height: 646px;
+}
+.noBorder{
+	border: 0;
+}
+.funbookTitle{
+	width: 200px;
+	float: left;
+	text-align: center;
+	margin: 15px 0 20px 20px;
+	font-size: 10pt;
+}
+#fb_rightBtn{
+	position: absolute;
+	top: 489px;
+	left: 720px;
+}
+#fb_leftBtn{
+	position: absolute;
+	top: 487px;
+	left: 171px;
+}

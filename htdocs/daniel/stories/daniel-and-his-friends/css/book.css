@@ -1,0 +1,55 @@
+#book-dom div.text
+{
+	hyphens : none;
+	font-size : 26px !important;
+	line-height : 1.4 !important;
+	padding : 1.2em;
+	font-family : 'Colfax-Regular', sans-serif;
+	color : #53331d;
+	background : url(../media/images/bg-text.png) repeat 0 0 #f6ecdf;
+
+	text-shadow : -1px -1px 0 #d1beab, 1px -1px 0 #d1beab, -1px 1px 0 #d1beab, 1px 1px 0 #d1beab; 
+	
+	-moz-box-shadow : inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+	-webkit-box-shadow : inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+	box-shadow : inset 0 0 20px rgba(84, 51, 27, 0.3), 0px 0px 0px .35em rgba(84, 51, 27, 0.40);
+
+	-moz-border-radius : 0.45em;
+	-webkit-border-radius : 0.45em;
+	border-radius : 0.45em; /* future proofing */
+}
+#book-dom div.text img.replay
+{
+	position : absolute;
+	bottom : 18px;
+	right : 18px;
+	cursor : pointer;
+	transform : scale(0.8);
+	-ms-transform : scale(0.8);
+	-webkit-transform : scale(0.8);
+}
+
+
+@font-face {
+	font-family: 'Colfax-Regular';
+	src: url('../media/fonts/ColfaxWebRegular.eot');
+	src: url('../media/fonts/ColfaxWebRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	 url('../media/fonts/ColfaxWebRegular.woff') format('woff');/* IE9 Compat Modes */
+	/* Modern Browsers */
+}
+@font-face {
+	font-family: 'Colfax-Regular';
+	font-style: italic;
+	src: url('../media/fonts/ColfaxWebRegularItalic.eot');
+	src: url('../media/fonts/ColfaxWebRegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	 url('../media/fonts/ColfaxWebRegularItalic.woff') format('woff');/* IE9 Compat Modes */
+	/* Modern Browsers */
+}
+
+@font-face {
+	font-family: 'Raphael-Icons';
+	src: url('../media/fonts/raphaelicons-webfont.eot');
+	src: url('../media/fonts/raphaelicons-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../media/fonts/raphaelicons-webfont.woff') format('woff');/* IE9 Compat Modes */
+	/* Modern Browsers */
+}

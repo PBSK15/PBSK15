@@ -1,0 +1,80 @@
+{% extends 'go/includes/auth/goAuthPage.html.twig' %}
+
+
+{% block goAuthPage %}<div id="go-auth">
+ <h1 class="sprite getyour">Get Your Password</h1>
+ <p class="sprite whatis">What is your username?</p>
+ <form method="POST" action="/go/apps/auth/forgot_password/" autocomplete="off">
+  <div style="display:none">
+
+<input type="hidden" name="csrfmiddlewaretoken" value="450dcb142d23e0931ee780c44c39b82c">
+  </div> <label for="id_0-username">Username</label> <input id="id_0-username" type="text" name="0-username" maxlength="15"> <br>
+  <div class="button ok right">
+
+<div class="inner">
+
+<p><input type="submit" value="OK"></p>
+
+</div>
+  </div>
+ </form>
+ <script type="text/javascript" src="http://pbskids.org/pbs-kids-headband/js/PBS.KIDS.jquery-1.8.3.js"></script>
+ <script type="text/javascript" src="http://pbskids.org/pbs-kids-headband/js/auth/PBS.KIDS.auth.min.js"></script> <!--[if lt IE 9]>
+
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	<![endif]-->
+ <script type="text/javascript">
+
+if( PBS && PBS.KIDS && PBS.KIDS.$_auth ){
+
+  (function($){
+
+
+$(document).ready(function() {
+
+
+  $('body').trigger('init.go');
+
+
+});
+
+  })(PBS.KIDS.$_auth);
+
+}
+  </script> <!-- Page-specific js goes here -->
+ <script type="text/javascript">(function($){
+$('body').bind('init.go', function() {
+
+forgotFuncs();
+
+forgotVO();
+$(this).unbind('init.go');
+});
+// Voiceover
+function forgotVO() {
+try{
+if( window.top.org && window.top.org.pbskids && window.top.org.pbskids.login ){
+	window.top.org.pbskids.login.playAudio("enter-your-username");
+}
+}
+catch(err){
+}
+}
+function forgotFuncs() {
+
+$('#id_0-username').label({ useLabel: false });
+
+var username = $('#id_0-username').data('label');
+
+var usernameLabel = username.$elem.data('labelText');
+
+$('.button > div').gobutton();
+
+var signinButton = $('.button > div').data('gobutton');
+
+
+
+username.$elem.focus();
+}})(PBS.KIDS.$_auth);</script>
+</div>{% endblock %}
+

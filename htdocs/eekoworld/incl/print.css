@@ -1,0 +1,218 @@
+/* ------ CSS Created by Bean Creative Funktional Web Design ---------------*/
+/* ----------                  http://www.beancreative.com                   -------------*/
+
+
+
+
+.dontprintme {
+	display:none;
+}
+
+.printme {
+}
+	
+.floatright {
+	float:right;
+	margin:0 0 10px 20px;
+}
+
+.floatleft {
+	float:left;
+	margin:0 20px 10px 0;
+}	
+
+.alignbottom {
+	vertical-align:bottom;
+}
+
+
+
+#topbar {
+	display:none;
+}
+
+#headerflash {
+	display:none;
+}
+
+#leftnav {
+	display:none;
+}
+
+#contentwrapper {
+	text-align:center;
+}
+
+#flashcontentwrapper {
+	width:766px;
+	float:left;
+	text-align:center;
+}
+
+#content {
+	text-align:left;
+}
+
+#flashcontent {
+	width:766px;
+	padding:0 0 0 0;
+	text-align:left;
+}
+
+.newestexchange {
+	width:314px;
+	height:198px;
+	padding:0 0 0 0;
+	text-align:left;
+	background-color: #a2a4fc;
+	background:url(../images/background_exchange.gif) no-repeat;
+}
+
+.newestexchangetext {
+	width:260px;
+	height:198px;
+	padding:2.5em 0em 1em 2em;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.think {
+	width:227px;
+	height:198px;
+	padding:0 0 0 0;
+	text-align:left;
+	background-color: #a2a4fc;
+	background:url(../images/background_think.gif) no-repeat;
+}
+
+.thinktext {
+	width:170px;
+	height:198px;
+	padding:2.5em 0em 1em 2em;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+}
+
+#footercontainer {
+	clear:both;
+	height:100px;
+}
+
+#bottombuttons {
+	display:none;
+}
+
+.headerimage {
+	margin:0 0 0 20px;
+}
+
+.contentheader {
+	margin:30px 0 10px 20px;
+	display:block;
+}
+
+#subnav {
+	display:none;
+}
+
+#sidebarwrapper {
+	float:right;
+	width:181px;
+	margin:15px 18px 20px 10px;
+	border:1px solid black;
+}
+
+#sidebarcontainer {
+	padding:0 0 0 0;
+}
+
+#sidebartop {display:none;}
+#sidebarbottom {display:none;}
+#sidebargreentop {margin-top:20px;}
+#sidebargreenbottom {display:none;}
+
+#sidebarcontent {
+	padding:.5em 0;
+}
+
+#sidebargreencontainer {
+}
+
+#sidebargreencontent {
+	padding:.5em 0;
+}
+
+
+#footertable {
+}
+
+.footercol1, .footercol2, .footercol3 {
+	width:117px;
+	text-align:center;
+}
+
+
+
+/* content stuff */
+
+
+/* ------ CSS Created by Bean Creative Funktional Web Design ---------------*/
+/* ----------                  http://www.beancreative.com                   -------------*/
+  
+
+body, p, li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+}
+
+#sidebarcontainer p, #sidebargreencontainer p {
+	margin:.5em 16px .5em 16px !important;
+}
+
+#sidebarcontainer h2, #sidebargreencontainer h2 {
+	margin:0 16px 0 16px !important;
+	font-size:12pt;
+	color:black;
+}
+
+#content p {
+	margin:0 20px 1em 30px;
+}
+
+.subhead {
+	display:block;
+	margin:0 0 0 20px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: rgb(231,119,21);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#footertable td {
+	font-family:Verdana,Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	color:#adbb80;
+	line-height:2em;
+}
+
+#footertable td a:link, #footertable td a:visited {
+	color:#adbb80;
+	text-decoration:underline;
+}
+
+#footertable td a:hover, #footertable td a:visited:hover {
+	color:#ccd8a7;
+	text-decoration:none;
+}
+
+.exchangebyline {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+}

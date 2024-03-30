@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Daniel Tiger's Neighborhood | PBS KIDS</title>
+    	<meta name="title" content="Daniel Tiger's Neighborhood | PBS KIDS">
+    	
+    	<meta charset="utf-8">
+    	
+    	<!-- Hide UI elements such as URL bar and bottom bar when iOS is on homescreen.-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- Set the iOS status bar color to black. -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <!-- Set viewport properties -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        
+        <!-- Main storybook style and Daniel Tiger Shell -->
+        <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="../book-shell/css/storybook-shell.css">
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="../engine/css/engine.css">
+        
+        <script src="../engine/plug/modernizr/modernizr.custom.js"></script>
+        
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="css/custom.css">
+        
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    </head>
+ 
+    <body class="daniel-storybook">
+         
+         <header role="banner" id="pbsStorybookControls">
+         	<a class="brand" title="Go to PBS KIDS Homepage" href="https://pbskids.org">
+	         	<h2 class="pbs-logo">
+		         	<em>PBS KIDS</em>
+	         		<img src="../book-shell/images/pbskids-brand.png" />
+	         	</h2>
+         	</a>
+         	
+         	<a class="show-brand" title="Go to Daniel Tiger Homepage" href="https://pbskids.org">
+	         	<h1 class="show-logo">
+	         		<em>Daniel Tiger's Neighborhood</em>
+	         		<img src="../book-shell/images/DTN_storybook-logo.png" />
+	         	</h2>
+         	</a>
+         	      	
+         	<a id="exit-storybook-btn" class="exit-btn" href="/daniel/stories/">Exit Storybook</a>
+         </header>
+
+	    <div id="pbsStorybookPlayer">
+            <div id="pbsStorybookContainer"></div>
+
+            <button id="replay-book-btn"><span>+</span> Read Again</button>
+	    </div>   
+	    
+	    
+	    <div id="landscape-modal">
+		    <img id="rotate-device-icon" src="../book-shell/images/rotate-device.png" alt="Please Turn Device" />
+	    </div>
+    
+        <!-- Load storybook engine js files -->
+        <script src="../engine/js/pbs.js"></script>
+        <script src="../engine/js/eventDispatcher.js"></script>
+        <script src="../engine/js/interaction.js"></script>
+        <script src="../engine/js/resourceLoader.js"></script>
+        <script src="../engine/js/preloader.js"></script>
+        <script src="../engine/js/tracker.js"></script>
+	    <script src="../engine/js/book.js"></script>
+	    <script src="../engine/js/page.js"></script>
+	    <script src="../engine/js/textArea.js"></script>
+	    <script src="../engine/js/view.js"></script>
+        <script src="../engine/js/sprite.js"></script>
+        <script src="../engine/js/cycler.js"></script>
+        <script src="../engine/js/drawingPad.js"></script>
+        <script src="../engine/js/audioPlayer.js"></script>
+        <script src="../engine/js/sound.js"></script>
+        <script src="../engine/js/audible.js"></script>
+        
+        <!-- Load plugin js files-->
+        <script src="../engine/plug/williammalone/html5-canvas-drawing-canvas.js"></script>
+        <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+        <script src="../engine/plug/touch-punch/jquery.ui.touch-punch.min.js"></script>
+        <script src="../engine/plug/soundjs/soundjs-NEXT.min.js"></script>
+        <script src="js/book-ui.js"></script>
+	    
+        <!-- Load Implementation js files-->
+	    <script src="config/config-book.js"></script>
+        {% if coloringPadJs == true %}
+            <script src="config/config-coloring-pad.js"></script>
+        {% endif %}
+	    
+
+        {% block bookScript %}{% endblock %}
+        <!--
+	    <script>
+	    	var book;
+
+			(function (GLOBAL, PBS) {
+				// Create the storybook
+				book = PBS.KIDS.storybook.book(GLOBAL, PBS, GLOBAL.document.getElementById("pbsStorybookContainer"), PBS.KIDS.storybook.config);	
+
+				// Load the storybook resources
+				book.load();
+				
+				// Adds hook to body for loading screen styles
+				GLOBAL.document.body.className = 'loading-screen';
+				
+				book.addEventListener("PAGE_CHANGE", function (pageIndex) {
+					if (pageIndex === -1) {
+						// Swaps on-internal class w/ on-cover class
+						GLOBAL.document.body.className = document.body.className.replace(" on-internal", ""); 
+						GLOBAL.document.body.className = document.body.className.replace(" on-cover", ""); 
+						GLOBAL.document.body.className += ' on-cover';
+					} else {
+						// Swaps on-cover class w/ on-internal class
+						GLOBAL.document.body.className = document.body.className.replace(" on-cover", ""); 
+						GLOBAL.document.body.className = document.body.className.replace(" on-internal", ""); 
+						GLOBAL.document.body.className += ' on-internal';
+					}
+				
+					if (GLOBAL.document.getElementsByClassName("pbsCanvas pbsSprite pbsPage17Sprite1")[0]) {
+						
+						GLOBAL.document.getElementsByClassName("pbsCanvas pbsSprite pbsPage17Sprite1")[0].addEventListener("touchstart", function () {
+							book.nextPage()
+						});
+						GLOBAL.document.getElementsByClassName("pbsCanvas pbsSprite pbsPage17Sprite1")[0].addEventListener("mousedown", function () {
+							book.nextPage()
+						});
+					}
+				});
+				
+				book.addEventListener("LOADED", function () { 
+					// Adds class for so we can display ready icon.
+					GLOBAL.document.body.className += ' resources-ready';
+		        });
+				
+				//book.addEventListener("BOOK-LOADED", function () {
+				book.addEventListener("STARTED", function () {
+
+					var bookframe_cover = document.createElement("img");
+					var bookframe_full = document.createElement("img");
+					var bookframe_top = document.createElement("img");
+					var bookframe_bottom = document.createElement("img");
+					
+					bookframe_cover.className += 'book-frame cover';
+					bookframe_full.className += 'book-frame full';
+					bookframe_top.className += 'book-frame top';
+					bookframe_bottom.className += 'book-frame bottom';
+					
+					bookframe_cover.src = "../book-shell/images/cover-frame-green.png";
+					bookframe_full.src = "../book-shell/images/book-frame_full-green.png";
+					bookframe_top.src = "../book-shell/images/book-frame_top-green.png";
+					bookframe_bottom.src = "../book-shell/images/book-frame_bottom-green.png";
+					
+					var bookContainer = document.getElementById("pbsBookContainer");
+					
+					bookContainer.appendChild(bookframe_cover);
+					bookContainer.appendChild(bookframe_full);
+					bookContainer.appendChild(bookframe_top);
+					bookContainer.appendChild(bookframe_bottom);
+				});
+
+				document.getElementById('replay-book-btn').addEventListener('click',function(e){
+				    book.gotoPage(-1);
+				    GLOBAL.document.body.className = document.body.className.replace(" on-last-page", ""); 
+				    GLOBAL.document.body.className += ' to-cover'; 
+				},false);
+
+			} (window, PBS));
+	    </script>-->
+      
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

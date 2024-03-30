@@ -1,0 +1,194 @@
+/*
+======================================================
+Hybrid Page - Global Styles
+======================================================
+*/
+
+body, td
+{
+font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+td
+{
+vertical-align: top;
+}
+
+.fineprint, .fineprint a:link, .fineprint a:visited, .fineprint a:hover, .fineprint a:active
+{
+color: #000;
+}
+
+.fineprint a:link, .fineprint a:visited, .fineprint a:active
+{
+text-decoration: underline;
+}
+
+.fineprint a:hover
+{
+text-decoration: none;
+}
+
+.notext
+{
+display: none;
+}
+
+/*
+======================================================
+FINDIT - Global Styles - themegreen
+======================================================
+*/
+
+body
+{
+background: #B0DD3A url(/hybrid/hybrid-background-green.gif);
+margin: 0 auto 5px auto;
+text-align: center;
+color: #000;
+}
+
+.pageheader
+{
+background-color: #14C5E2;
+width: 650px;
+height: 80px;
+text-align: left;
+margin: 0 auto 10px auto;
+}
+
+.mainbox
+{
+background-color: #D4FF1D;
+margin: auto;
+text-align: center;
+}
+
+.searchbox
+{
+background-color: #3EE7F9;
+width: 450px;
+margin: auto;
+padding: 20px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+.welcome
+{
+color: #0D8693;
+font-size: 14px;
+text-decoration: none;
+margin-bottom: 15px;
+}
+
+.searchfield
+{
+font-size: 19px;
+height: 37px;
+}
+
+.programgrid
+{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.programgrid td
+{
+background-image: url('/hybrid/findit-smallfeature-bground.gif');
+background-repeat: no-repeat;
+width: 126px;
+padding: 5px;
+}
+
+
+.programgrid img
+{
+height: 50px;
+width: 95px;
+margin-bottom: 5px;
+border: 0;
+}
+
+.programgrid a:link, .programgrid a:visited, .programgrid a:hover, .programgrid a:active
+{
+color: #7AA40B;
+font-size: 11px;
+text-decoration: none;
+}
+
+.moreinfo
+{
+color: #7AA40B;
+font-size: 14px;
+text-decoration: none;
+margin-bottom: 20px;
+}
+
+.moreinfo a:link, .moreinfo a:visited, .moreinfo a:hover, .moreinfo a:active
+{
+color: #7AA40B;
+font-size: 14px;
+text-decoration: underline;
+}
+
+.searchresults
+{
+text-align: left;
+color: #7AA40B;
+font-size: 14px;
+text-decoration: none;
+margin-bottom: 20px;
+}
+
+.searchresults a:link, .moreinfo a:visited, .moreinfo a:hover, .moreinfo a:active
+{
+color: #7AA40B;
+font-size: 14px;
+text-decoration: underline;
+}
+
+.throwtoplay
+{
+
+margin:auto;
+height:50px;
+padding:25px 0 25px 0;
+text-align:left;
+width: 650px;
+clear:both;
+
+
+}
+.playwords
+{
+text-align:left;
+color:#FFFFFF;
+margin:auto;
+padding: 0 0 0 10px;
+font-weight:700;
+font-size:10px;
+}
+
+.playlink
+{
+text-align:right;
+}
+
+.playwords a:link,
+.playwords a:visited,
+.playwords a:active
+{
+color: #fff;
+font-weight:700;
+margin:0;
+padding:0;
+
+}
+
+.throwtoplay img
+{
+	float:left;
+	margin: 0 15px 5px 0;
+}

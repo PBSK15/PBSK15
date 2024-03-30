@@ -1,0 +1,161 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Free Downloads | PBS KIDS' %}
+{% set keywds = 'Caillou downloads, free caillou downloads, caillou wallpaper' %}
+{% set desc = 'Download free Caillou wallpapers and screensavers on PBS KIDS.' %}
+
+{% block specialScripts %}<script type="text/javascript">function newImage(arg) {	if (document.images) {		rslt = new Image();		rslt.src = arg;		return rslt;	}}function changeImages() {	if (document.images && (preloadFlag == true)) {		for (var i=0; i<changeImages.arguments.length; i+=2) {			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];		}	}}var preloadFlag = false;function preloadImages() {	if (document.images) {		entete_over = newImage("../images/entete-over.gif");		top_over = newImage("images/btn_top-over.gif");		return_over = newImage("images/btn_return_rollover.gif");		preloadFlag = true;	}} </script>
+{% endblock %}
+
+{% set bodyTag = '<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="preloadImages();">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td bgcolor="#FFFFFF">
+    <div align="center"><a name="top" id="top"></a>
+     <table width="756" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td width="50">&nbsp;</td>
+        <td width="150" align="left"><a href="http://pbskids.org/"><img name="PBS KIDS" src="/caillou/images/PBSLogo.gif" width="42" height="54" border="0" alt="PBS KIDS" title="PBS KIDS"></a></td>
+        <td width="300" align="left"><a href="/caillou/index.html" onmouseover="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseout="changeImages('entete', '/caillou/images/entete.gif'); return true;" onmousedown="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseup="changeImages('entete', '/caillou/images/entete-over.gif'); return true;"><img name="entete" src="/caillou/images/entete.gif" width="184" height="96" border="0" alt="Caillou Homepage" title="Caillou Homepage"></a></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr height="16">
+   <td bgcolor="white" height="16">
+    <div align="center">
+     <table width="504" border="0" cellspacing="0" cellpadding="0"><!--DWLayoutTable-->
+      <tbody>
+       <tr>
+        <td width="170" height="22">&nbsp;</td>
+        <td width="20"></td>
+        <td width="286"></td>
+        <td width="98"></td>
+       </tr>
+       <tr>
+        <td height="242" valign="top">
+         <div align="left">
+          <p class="instruct_normal"><img src="wallpaper/caillou_wallpaper.gif" alt="Caillou welcoming you!" name="image1" height="223" width="170" border="0"></p>
+         </div></td>
+        <td rowspan="3" valign="top" width="30"><img src="images/spacer.gif" width="20" height="10"></td>
+        <td colspan="2" rowspan="3" valign="top">
+         <div align="left">
+          <p class="instruct_normal"><img src="images/btn_wallpaper.gif" width="212" height="54"></p>
+          <p class="instruct_normal">Enjoy Caillou even when you're not visiting him on the Internet. Children will love the continued presence of their hero on the computer screen.</p>
+          <p class="instruct_normal">Choose among three different computer screen wallpapers. Just click on the size that fits your computer and download it on your hard disk. You can then install it following the instructions given by your particular operating system.</p>
+          <p class="instruct_normal">&nbsp;</p>
+         </div>
+         <div align="center">
+          <table width="300" border="0" cellspacing="0" cellpadding="0"><!--DWLayoutTable-->
+           <tbody>
+            <tr>
+             <td>
+              <div align="right">
+               <p><a href="wallpaper/caillou1_640x480.jpg.zip" target="_blank"><font size="2">640 x 480 pixels</font></a>&nbsp;•&nbsp;</p>
+              </div></td>
+             <td rowspan="3"><a href="wallpaper/caillou1_800x600.jpg.zip"><img src="wallpaper/caillou1_thumbnail.jpg" alt="Wallpaper 1" height="113" width="150" border="0"></a></td>
+             <td width="10"></td>
+            </tr>
+            <tr>
+             <td>
+              <div align="right">
+               <p class="footer_nav"><a href="wallpaper/caillou1_800x600.jpg.zip" target="_blank"><font size="2">800 x 600 pixels</font></a>&nbsp;•&nbsp;</p>
+              </div></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td>
+              <div align="right">
+               <p class="footer_nav"><a href="wallpaper/caillou1_1024x768.jpg.zip" target="_blank"><font size="2">1024 x 768 pixels</font></a>&nbsp;•&nbsp;</p>
+              </div></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td colspan="2"><p class="footer_nav">&nbsp;</p></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td rowspan="3"><a href="wallpaper/caillou2_800x600.jpg.zip"><img src="wallpaper/caillou2_thumbnail.jpg" alt="Wallpaper 2" height="113" width="150" border="0"></a></td>
+             <td><p class="footer_nav">&nbsp;•<font size="2">&nbsp;<a href="wallpaper/caillou2_640x480.jpg.zip" target="_blank">640 x 480 pixels</a></font></p></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td><p class="footer_nav">&nbsp;•&nbsp;<a href="wallpaper/caillou2_800x600.jpg.zip" target="_blank"><font size="2">800 x 600 pixels</font></a></p></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td><p class="footer_nav">&nbsp;•&nbsp;<a href="wallpaper/caillou2_1024x768.jpg.zip" target="_blank"><font size="2">1024 x 768 pixels</font></a></p></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td colspan="2"><p class="footer_nav">&nbsp;</p></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td>
+              <div align="right">
+               <p class="footer_nav"><a href="wallpaper/caillou3_640x480.jpg.zip" target="_blank"><font size="2">640 x 480 pixels</font></a>&nbsp;•&nbsp;</p>
+              </div></td>
+             <td rowspan="3"><a href="wallpaper/caillou3_800x600.jpg.zip"><img src="wallpaper/caillou3_thumbnail.jpg" alt="wallpaper 3" height="113" width="150" border="0"></a></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td>
+              <div align="right">
+               <p class="footer_nav"><a href="wallpaper/caillou3_800x600.jpg.zip" target="_blank"><font size="2">800 x 600 pixels</font></a>&nbsp;•&nbsp;</p>
+              </div></td>
+             <td></td>
+            </tr>
+            <tr>
+             <td>
+              <div align="right">
+               <p class="footer_nav"><a href="wallpaper/caillou3_1024x768.jpg.zip" target="_self"><font size="2">1024 x 768 pixels</font></a>&nbsp;•&nbsp;</p>
+              </div></td>
+             <td></td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+         <div align="left">
+          <p class="instruct_normal"><img src="images/separator_green2.gif" alt="separator" height="33" width="380" border="0"></p>
+          <p class="instruct_normal"><img src="images/btn_screensaver.gif" width="212" height="54"></p>
+          <p class="instruct_normal">Both children and grown-ups will love watching Caillou's dreams while your computer is at rest.</p>
+          <p class="instruct_normal">Just follow the simple instructions below to install your own Caillou Screensaver.</p>
+         </div>
+         <div align="center">
+          <p class="instruct_normal"><img src="wallpaper/screensaver_thumbnail.jpg" alt="Caillou sleeping" height="113" width="150" border="0"></p>
+         </div>
+         <div align="left">
+          <p class="grownups_bold_red"><font color="#ed1c24">If you are using a Macintosh computer:</font></p>
+          <p class="grownups_decr">Place the unstuffed copy of the screen saver (the file named "CaillouSaver") in the Control Panels folder of your System Folder. Turn off any other screensavers that may be running, then restart your computer.</p>
+          <p class="grownups_decr">Note: The screensaver is not compatible with Mac OSX.</p>
+          <p class="grownups_decr">&nbsp;</p>
+          <p class="grownups_decr">Download the <a href="wallpaper/CaillouSaver.sit">Macintosh screensaver.</a></p>
+          <p class="grownups_bold_red"><font color="#ed1c24">If you are using a Windows computer:</font></p>
+          <p class="grownups_decr">Unzip the file you download using a program like PKUnzip or WinZip. Double-click the "install.exe" file to install the unzipped screen saver.Open 'Display' in Control Panels and select 'Screensaver'. Select "CaillouSaver" from the Screen Saver window.</p>
+          <p class="grownups_decr">&nbsp;</p>
+          <p class="grownups_decr">Download the <a href="wallpaper/CaillouSaver.zip">Windows screensaver.</a></p>
+          <p class="footer_nav">&nbsp;</p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td bgcolor="#FFFFFF">
+    <div align="center"><a href="#top" onmouseover="changeImages('Top', 'images/btn_top-over.gif'); return true;" onmouseout="changeImages('Top', 'images/btn_top.gif'); return true;" onmousedown="changeImages('Top', 'images/btn_top-over.gif'); return true;" onmouseup="changeImages('Top', 'images/btn_top-over.gif'); return true;"><img src="images/btn_top.gif" name="Top" width="62" height="61" border="0"></a> <a href="index.html" onmouseover="changeImages('Return', 'images/btn_return_rollover.gif'); return true;" onmouseout="changeImages('Return', 'images/btn_return.gif'); return true;" onmousedown="changeImages('Return', 'images/btn_return_rollover.gif'); return true;" onmouseup="changeImages('Return', 'images/btn_return_rollover.gif'); return true;"><img src="images/btn_return.gif" name="Return" width="96" height="81" border="0"></a>
+    </div></td>
+  </tr>
+  <tr>
+   <td bgcolor="#FFFFFF">
+    <div align="center">
+     <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="http://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+     <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="http://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

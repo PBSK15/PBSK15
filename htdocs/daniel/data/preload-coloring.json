@@ -1,0 +1,19 @@
+{
+	"manifest": [
+		{"id": "location-coloring", "src": "/daniel/assets/img/location-coloring.png", "sizes": "not-small"},
+		{"id": "location-texture", "src": "/daniel/assets/img/bg-texture-wallpaper.png"},
+		{"id": "location-fridge", "src": "/daniel/assets/img/fridge.png", "sizes": "not-small"},
+
+		{"id": "daniel-family-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_daniel-family.jpg"},
+		{"id": "daniel-iloveyou-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_daniel-iloveyou.jpg"},
+		{"id": "daniel-trolley-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_daniel-trolley.jpg"},
+		{"id": "daniel-uggamugga-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_daniel-uggamugga.jpg"},
+		{"id": "daniel-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_daniel.jpg"},
+		{"id": "elaina-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_elaina.jpg"},
+		{"id": "katerina-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_katerina.jpg"},
+		{"id": "o-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_o.jpg"},
+		{"id": "trolley-foldable-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_trolley-foldable.jpg"},
+		{"id": "trolley-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_trolley.jpg"},
+		{"id": "wednesday-thumb", "src": "/daniel/assets/img/coloring/thumbs/coloring-thumb_wednesday.jpg"}
+	]
+}

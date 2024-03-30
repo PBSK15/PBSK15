@@ -1,0 +1,116 @@
+<HTML>
+<HEAD>
+<TITLE>Cyberchase | PBS Kids</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<script language="javascript">
+
+if ((window.navigator.appName.indexOf("Microsoft")==0) &
+(window.navigator.appVersion.substring(0,1)=="4")) {
+                                window.focus();
+                        }
+                        else
+                            if ((window.navigator.appName.indexOf("Netscape")
+==0) & (window.navigator.appVersion.substring(0,1)=="4")) {
+                                window.focus();
+                        }
+                        
+                        
+ var f = null;
+ 
+ function closePopup() {
+ 		opener.stopClock = false;
+ 		opener.clearEstimate();
+ 		f();
+ 		this.close();
+ }                       
+                        
+                        
+</script>
+<style>
+.yellow {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color : #FFFF00;
+	}
+</style>
+</head>
+
+
+<body bottommargin="0" topmargin="0" leftmargin="0" rightmargin="0" marginheight="0" marginwidth="0" BGCOLOR=#663399>
+
+<TABLE WIDTH=339 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD ROWSPAN=4><IMG SRC="images/dialog_01.gif" WIDTH=52 HEIGHT=200 alt="" border="0"></TD>
+		<TD><IMG SRC="images/dialog_02.gif" WIDTH=241 HEIGHT=32 alt="" border="0"></TD>
+		<TD ROWSPAN=2><IMG SRC="images/dialog_03.gif" WIDTH=46 HEIGHT=151 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=32 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2 background="images/dialog_04.gif" valign="top" class="yellow">
+		
+		
+		
+<script language="javascript">
+var code = 0;
+var paramString = document.URL;
+var paramArray = new Array();
+if ( paramString.indexOf("?") != -1 ) {
+    paramArray = paramString.split("?");
+    if ( paramArray.length != 0 ) {
+        code = paramArray[1].toString();
+    }
+}
+
+if ( code == 1 ) {
+	message = "Yes!  Your estimate is what the machine was expecting. ";
+	if ( paramArray[2] != 3 ) { message += "Let's try another one."; }
+	f = opener.nextRound;
+}
+if ( code == 2 ) {
+	message = "Nice job.  That is the correct number.  But remember:  You don't have to add all of the numbers to get a good estimation. ";
+	if ( paramArray[2] != 3 ) { message += "Let's try another one."; }
+	f = opener.nextRound;
+}
+if ( code == 3 ) {
+	message = "Uh oh!  You've run out of time for this round.  Try again with a new set of numbers.";
+	f = opener.nextRound;
+}
+if ( code == 4 ) {
+	message = "Very close!  Your estimate is close to what the machine was expecting. ";
+	if ( paramArray[2] != 3 ) { message += "Let's try another one."; }
+	f = opener.nextRound;
+}
+if ( code == 5 ) {
+	message = "You have estimated too low.  Try again.";
+	f = opener.resetClock;
+}
+if ( code == 6 ) {
+	message = "You have estimated too high.  Try again.";
+	f = opener.resetClock;
+}
+if ( code == 7 ) {
+	message = "You could round " + paramArray[2] + " to " + paramArray[3];
+	f = opener.resetClock;
+}
+
+document.write(message);
+
+</SCRIPT>
+	
+		
+		</TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=119 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><A HREF="javascript:closePopup()" onMouseOver= "if (document.images) document.n1.src= 'images/dialog_on_05.gif';" onMouseOut= "if (document.images) document.n1.src= 'images/dialog_05.gif';"><IMG SRC="images/dialog_05.gif" WIDTH=46 HEIGHT=49 alt="ok" border="0" name="n1"></a></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=20 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/dialog_06.gif" WIDTH=241 HEIGHT=29 alt="" border="0"></TD>
+		<TD><IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=29 alt="" border="0"></TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>

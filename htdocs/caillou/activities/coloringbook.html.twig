@@ -1,0 +1,151 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Coloring Pages and Pictures | PBS KIDS' %}
+{% set keywds = 'Caillou coloring pages, Caillou pictures' %}
+{% set desc = 'Coloring pages with Caillou and his friends. Print pictures of Caillou to color!' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_gamesA-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_gamesA.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_coloringA-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_coloringA.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_greetingsA-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_greetingsA.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master_caillouA-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master_caillouA.gif";			back_on = new Image( );		back_on.src = "images/Master_backA-over.gif";		back_off = new Image( );		back_off.src = "images/Master_backA.gif";				image1_on = new Image( );		image1_on.src = "coloringbook/images/coloring1-over.gif";		image1_off = new Image( );		image1_off.src = "coloringbook/images/coloring1.gif";				image2_on = new Image( );		image2_on.src = "coloringbook/images/coloring2-over.gif";		image2_off = new Image( );		image2_off.src = "coloringbook/images/coloring2.gif";				image3_on = new Image( );		image3_on.src = "coloringbook/images/coloring3-over.gif";		image3_off = new Image( );		image3_off.src = "coloringbook/images/coloring3.gif";				image4_on = new Image( );		image4_on.src = "coloringbook/images/coloring4-over.gif";		image4_off = new Image( );		image4_off.src = "coloringbook/images/coloring4.gif";				image5_on = new Image( );		image5_on.src = "coloringbook/images/coloring5-over.gif";		image5_off = new Image( );		image5_off.src = "coloringbook/images/coloring5.gif";				image6_on = new Image( );		image6_on.src = "coloringbook/images/coloring6-over.gif";		image6_off = new Image( );		image6_off.src = "coloringbook/images/coloring6.gif";				help_on = new Image( );		help_on.src = "coloringbook/images/btn_help_clr-over.gif";		help_off = new Image( );		help_off.src = "coloringbook/images/btn_help_clr.gif";				more_on = new Image( );		more_on.src = "coloringbook/images/btn_more_clr-over.gif";		more_off = new Image( );		more_off.src = "coloringbook/images/btn_more_clr.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="images/bkg_orange_ball2.gif" bgcolor="#f5822b" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="https://pbskids.org/"><img src="images/Master_pbsA.gif" alt="PBS Kids Homepage" name="PBSKidsA" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_topleftA.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/Master_caillouA.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_toprightA.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="printables.html"><img src="images/Master_backA.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_leftsideA.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div align="center">
+          <div align="center">
+           <div align="center">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+             <tbody>
+              <tr>
+               <td>
+                <table width="64" border="0" cellspacing="0" cellpadding="0">
+                 <tbody>
+                  <tr>
+                   <td><a onmouseover="act('image1')" onmouseout="inact('image1')" href="coloringbook/colorbig_01.html"><img src="coloringbook/images/coloring1.gif" alt="Rosie" name="image1" height="147" width="100" border="0"></a></td>
+                  </tr>
+                  <tr>
+                   <td><a onmouseover="act('image3')" onmouseout="inact('image3')" href="coloringbook/colorbig_03.html"><img src="coloringbook/images/coloring3.gif" alt="Mommy and Caillou" name="image3" height="209" width="100" border="0"></a></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+               <td>
+                <table width="64" border="0" cellspacing="0" cellpadding="0">
+                 <tbody>
+                  <tr>
+                   <td>
+                    <table width="180" border="0" cellspacing="0" cellpadding="0">
+                     <tbody>
+                      <tr>
+                       <td colspan="3"><img src="coloringbook/images/coloring_title.gif" alt="Caillou's Coloring Pages" height="44" width="357" border="0"></td>
+                      </tr>
+                      <tr>
+                       <td colspan="3"><img src="coloringbook/images/coloring_text1.gif" alt="Click the pictures to see the coloring pages. Then ask someone to help you print them out." height="59" width="357" border="0"></td>
+                      </tr>
+                      <tr>
+                       <td><img src="coloringbook/images/coloring_text2.gif" alt="Click on the button to get help with printing." height="73" width="178" border="0"></td>
+                       <td><a onmouseover="act('help')" onmouseout="inact('help')" href="#instructions"><img src="coloringbook/images/btn_help_clr.gif" alt="Help with printing" name="help" height="73" width="75" border="0"></a></td>
+                       <td><a onmouseover="act('more')" onmouseout="inact('more')" href="coloringbook/index.html"><img src="coloringbook/images/btn_more_clr.gif" alt="More pictures to color" name="more" height="73" width="104" border="0"></a></td>
+                      </tr>
+                     </tbody>
+                    </table></td>
+                  </tr>
+                  <tr>
+                   <td>
+                    <table width="122" border="0" cellspacing="0" cellpadding="0">
+                     <tbody>
+                      <tr>
+                       <td><a onmouseover="act('image2')" onmouseout="inact('image2')" href="coloringbook/colorbig_02.html"><img src="coloringbook/images/coloring2.gif" alt="Caillou and Rosie" name="image2" height="180" width="193" border="0"></a></td>
+                       <td><a onmouseover="act('image5')" onmouseout="inact('image5')" href="coloringbook/colorbig_05.html"><img src="coloringbook/images/coloring5.gif" alt="Grandpa and Caillou" name="image5" height="180" width="164" border="0"></a></td>
+                      </tr>
+                     </tbody>
+                    </table></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+               <td>
+                <table width="64" border="0" cellspacing="0" cellpadding="0">
+                 <tbody>
+                  <tr>
+                   <td><a onmouseover="act('image6')" onmouseout="inact('image6')" href="coloringbook/colorbig_06.html"><img src="coloringbook/images/coloring6.gif" alt="Leo" name="image6" height="153" width="108" border="0"></a></td>
+                  </tr>
+                  <tr>
+                   <td><a onmouseover="act('image4')" onmouseout="inact('image4')" href="coloringbook/colorbig_04.html"><img src="coloringbook/images/coloring4.gif" alt="Leo and Caillou" name="image4" height="203" width="108" border="0"></a></td>
+                  </tr>
+                 </tbody>
+                </table></td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+          </div>
+         </div></td>
+        <td><img src="images/Master_rightsideA.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_cornerleftA.gif" alt="" height="90" width="92"></td>
+        <td><img src="images/Master_bottomleftA.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="images/Master_gamesA.gif" alt="Games" name="games" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_greetingsA.gif" alt="Greeting Cards and Email" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="images/Master_coloringA.gif" alt="Activities" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_bottomrightA.gif" alt="" height="90" width="95"></td>
+        <td><img src="images/Master_cornerrightA.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="20">
+        <td height="20">&nbsp;</td>
+       </tr>
+       <tr>
+        <td><p class="instruct_bold"><a name="instructions"></a>Printing Instructions:</p>
+         <ol>
+          <li class="instruct_normal">Click on the picture you would like to color and a new page will appear.</li>
+          <li class="instruct_normal">Then, use the print menu of your browser to print out the coloring pages (you need to have access to a printer for this). When the printing is finished, click on the "Back" button and select your next picture!</li>
+         </ol>
+         <hr size="1" width="60%" color="#FFFFFF&quot;"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

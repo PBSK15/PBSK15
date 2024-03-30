@@ -1,0 +1,262 @@
+<Config>
+	<sharedObject prefix="buzzanddeletesavetheday" />
+	
+	<!-- Willis Config -->
+	<properties width="960" height="600"/>
+	<devMediaPath>./</devMediaPath>
+	<!-- <baseMediaURL>https://www-tc.pbskids.org/cyberchase/media/games/buzzanddeletesavetheday/</baseMediaURL> -->
+	<baseMediaURL>./</baseMediaURL>
+	<baseDataURL>./</baseDataURL>
+	<font file="fonts.swf" preload="true" />
+
+	<overlay file="interface.swf" id="GameInterface" weight="74" preload="true" />
+	
+	<sound file="audio/buzz-are-you-sure-you-want-to-quit.mp3" volume="1" channel="voiceover2" preload="true"></sound>
+	<sound file="audio/areyousuremap.mp3" volume="1" channel="voiceover3" preload="true"></sound>
+	<sound file="audio/buzz-are-you-sure-you-want-to-go-to-the-map.mp3" volume="1" channel="voiceover2" preload="true"></sound>
+	<sound file="audio/buzz-you-will-loose-your-progress-in-this-game-if-you-do.mp3" volume="1" channel="voiceover2" preload="true"></sound>
+	<soundSequence name="sureYouWantToQuit">
+		<sound file="audio/buzz-are-you-sure-you-want-to-quit.mp3" volume="1" channel="voiceover2" preload="true"></sound>
+		<sound file="audio/buzz-you-will-loose-your-progress-in-this-game-if-you-do.mp3" volume="1" channel="voiceover2" preload="true"></sound>
+	</soundSequence>
+	<soundSequence name="sureYouWantToQuitMap">
+		<sound file="audio/areyousuremap.mp3" volume="1" channel="voiceover3" preload="true"></sound>
+	</soundSequence>
+	
+	<!-- Scenes -->
+	<scene file="scenes/title_screen.swf" preload="true" id="TitleScreen" weight="197" type="Basic">
+		<sound file="audio/soundtrack.mp3" weight="225" loop="true" channel="music" start="30" autoPlay="true"></sound>
+		<sound file="audio/button-click.mp3" preload="true" volume="1" weight="12" loop="false" channel="sfx"></sound>
+		<sound file="audio/swoosh.mp3" preload="true" volume="1" weight="12" loop="false" channel="sfx"></sound>
+		<sound file="audio/wrong-answer.mp3" preload="true" volume="1" weight="12" loop="false" channel="sfx"></sound>
+		<sound file="audio/map-music-loop.mp3" weight="339" loop="true" channel="music" autoPlay="false"></sound>
+		<sound file="audio/buzz-botopolis.mp3" channel="voiceover"></sound>
+		<sound file="audio/buzz-garbage-dump.mp3" channel="voiceover"></sound>
+		<sound file="audio/buzz-perfectamundo.mp3" channel="voiceover"></sound>
+		<sound file="audio/buzz-pompadoria.mp3" channel="voiceover"></sound>
+		<sound file="audio/buzz-northern-frontier.mp3" channel="voiceover"></sound>
+		<sound file="audio/go.mp3" volume="1" weight="12" channel="electricty"></sound>
+		<sound file="audio/game-music-loop.mp3" weight="287" volume="1" loop="true" channel="music" duration="13558"></sound>
+		<sound file="audio/flying-rocket-loop.mp3" volume=".3" weight="18" loop="true" channel="rocket" start="0"></sound>
+	</scene>
+	
+	<scene file="scenes/login.swf" id="Login" weight="72" type="Basic"/>
+	
+	<scene world="northernFrontier" file="scenes/intro.swf" skippable="true" id="Intro" weight="315" preload="true" type="Basic"/>
+	<!-- 
+	Northern Frontier -->
+	<!-- <scene world="northernFrontier" file="scenes/map.swf" weight="631" id="Map" preload="false" type="Basic" mode="none">
+		<sound file="audio/map-music-loop.mp3" weight="339" loop="true" channel="music" autoPlay="true"></sound>
+		<sound file="audio/buzz-botopolis.mp3" channel="voiceover"></sound>
+		<sound file="audio/buzz-garbage-dump.mp3" channel="voiceover"></sound>
+		<sound file="audio/buzz-perfectamundo.mp3" channel="voiceover"></sound>
+		<sound file="audio/buzz-pompadoria.mp3" channel="voiceover"></sound>
+		<sound file="audio/buzz-northern-frontier.mp3" channel="voiceover"></sound>
+		<sound file="audio/go.mp3" volume="1" weight="12" channel="electricty"></sound>
+	</scene> -->
+	<scene world="northernFrontier" skippable="true" file="scenes/northern_frontier_intro.swf" id="NorthernFrontierIntro" weight="2866" preload="false" type="Basic" mapLink="true"/>
+	<scene world="northernFrontier" config="xml/northern_frontier_ping_pong_game.xml" file="scenes/northern_frontier_ping_pong_game.swf" id="NorthernFrontierPingPongGame" preload="false" type="Basic">
+		<gameSettings>
+			<minimumTime>120</minimumTime>
+			<maximumTime>600</maximumTime>
+			<wrongAnswersAllowed>2</wrongAnswersAllowed>
+		</gameSettings>
+		<sound file="audio/ping-pong-ball-in-box.mp3" volume="1" weight="12" channel="sfx"></sound>
+		<sound file="audio/ping-pong-ball-on-floor.mp3" volume="1" weight="12" channel="sfx"></sound>
+		<sound file="audio/ping-pong-vacuum-loop.mp3" volume=".4" weight="37" loop="true" channel="suction" start="50" duration="3000"></sound>
+		<sound file="audio/ping-pong-conveyor.mp3" volume="1" weight="16" channel="sfx" start="0"></sound>
+		<sound file="audio/ping-pong-box-over.mp3" volume="1" weight="16" channel="sfx" start="0"></sound>
+	</scene>
+	<scene world="northernFrontier" skippable="true" file="scenes/northern_frontier_outro.swf" id="NorthernFrontierOutro" preload="false" type="Basic"/>
+	<scene world="northernFrontier" file="scenes/map.swf" id="Map" preload="false" type="Basic" mode="depart"></scene>
+	
+	<!-- Pompadoria -->
+	<scene world="pompadoria" config="xml/flying_game.xml" file="scenes/flying_game.swf" id="FlyingGame" preload="false" type="Basic">		
+		<!-- TUTORIAL -->
+		<soundSequence name="flyingTutorial">
+			<!-- <sound file="audio/buzz-steer-spaceship-into-next-num-in-pattern.mp3" volume="2.5" weight="20" channel="voiceover"/> -->
+			<sound file="audio/buzz-look-at-numbers-below-can-you-spot-the-pattern-2.mp3" volume="1" weight="29" channel="voiceover"/>
+			<sound file="audio/buzz-use-mouse-or-arrow-keys-next-num-in-pattern.mp3" volume="1" weight="29" channel="voiceover"/>
+			<sound file="audio/buzz-all-numbers-move-on.mp3" volume="1" weight="16" channel="voiceover"/>
+			<!-- <sound file="audio/buzz-pattern-complete-move-to-next-destination.mp3" volume="1" weight="25" channel="voiceover"/> -->
+		</soundSequence>
+		<!-- NO CLUE WHERE THESE GO -->
+		<sound file="audio/buzz-look-at-numbers-below-can-you-spot-the-pattern-2.mp3" volume="1" weight="25" channel="voiceover"></sound>
+		<sound file="audio/buzz-do-you-see-how-the-numbers-change.mp3" volume="1" weight="20" channel="voiceover"></sound>
+		<!-- BG MUSIC -->
+		<sound file="audio/flying-music.mp3" weight="326" loop="true" channel="music"></sound>
+		<!-- SFX -->
+		<sound file="audio/flying-right-answer.mp3" channel="sfx" volume="1"/>
+		<sound file="audio/flying-rocket-loop.mp3" volume="1" weight="18" loop="true" channel="rocket" start="0"></sound>
+		<sound file="audio/flying-crash.mp3" volume="1" weight="37" channel="sfx"></sound>
+		<!-- GOOD FEEDBACK BUZZ GENERAL -->
+		<sound file="audio/buzz-yes.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/buzz-way-to-go.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/buzz-nice-work.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/buzz-great.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/buzz-perfect.mp3" volume="1" weight="10" channel="voiceover"></sound>
+		<!-- GOOD FEEDBACK DELETE GENERAL -->
+		<sound file="audio/delete-awesome-2.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/delete-woo-hoo-1-SELECT.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/delete-good-move-2.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/delete-thats-it-2.mp3" volume="1" weight="12" channel="voiceover"></sound>
+		<sound file="audio/delete-you-got-it-your-awesome-2.mp3" volume="1" weight="16" channel="voiceover"></sound>
+		<sound file="audio/delete-your-really-good-at-this-2.mp3" volume="1" weight="12" channel="voiceover"></sound>
+		<sound file="audio/delete-how-did-you-get-so-smart-2.mp3" volume="1" weight="12" channel="voiceover"></sound>
+		<!-- NEGATIVE FEEDBACK BUZZ GENERAL -->
+		<!-- <sound file="audio/buzz-number-too-high.mp3" volume="1" weight="53" channel="voiceover"></sound> -->
+		<!-- <sound file="audio/buzz-number-too-low.mp3" volume="1" weight="49" channel="voiceover"></sound> -->
+		<!-- <sound file="audio/buzz-pick-the-right-number.mp3" volume="1" weight="94" channel="voiceover"></sound> -->
+		<!-- NEGATIVE FEEDBACK EVERY OTHER WRONG ANSER -->
+		<sound file="audio/buzz-ohhh.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/buzz-that's-not-it.mp3" volume="1" weight="8" channel="voiceover"></sound>
+		<sound file="audio/buzz-pssst-hit-a-diff-number.mp3" volume="1" weight="16" channel="voiceover"></sound>
+		<sound file="audio/buzz-which-number-comes-next.mp3" volume="1" weight="16" channel="voiceover"></sound>
+		<sound file="audio/buzz-better-not-scratch-this-thing-up.mp3" volume="1" weight="20" channel="voiceover"></sound>
+		<sound file="audio/buzz-watch-out-for-space-junk.mp3" volume="1" weight="20" channel="voiceover"></sound>
+		<!-- HINT - PATTERN GOES UP - USER KEEPS HITTING WRONG NUMBER -->
+		<sound file="audio/buzz-look-number-each-time.mp3" volume="1" weight="25" channel="voiceover"></sound>
+		<sound file="audio/buzz-look-at-numbers-already-going-up.mp3" volume="1" weight="20" channel="voiceover"></sound>
+		<sound file="audio/buzz-numbers-getting-bigger-how-much-bigger-each-time.mp3" volume="1" weight="20" channel="voiceover"></sound>
+		<!-- HINT - PATTERN GOES UP - USER KEEPS HITTING WRONG NUMBER -->
+		<sound file="audio/buzz-look-at-pattern-how-much-each-time.mp3" volume="1" weight="33" channel="voiceover"></sound>
+		<sound file="audio/buzz-look-at-numbers-already-theyre-going-down.mp3" volume="1" weight="20" channel="voiceover"></sound>
+		<sound file="audio/buzz-our-numbers-are-smaller-how-much-each-time.mp3" volume="1" weight="29" channel="voiceover"></sound>
+		<!-- WIN GAME -->
+		<sound file="audio/buzz-numbers-complete-lets-go.mp3" volume="1" weight="16" channel="voiceover"></sound>
+	</scene>
+	<scene world="pompadoria" file="scenes/map.swf" id="Map" preload="false" type="Basic" mode="arrive"/>
+	<scene world="pompadoria" skippable="true" file="scenes/pompadoria_landing.swf" id="PomadoriaLanding" preload="false" type="Basic" mapLink="true"/>
+	<scene world="pompadoria" skippable="true" file="scenes/pompadoria_scroller.swf" id="PomadoriaScroller" preload="false" type="Basic">
+		<sound file="audio/sidescroller-music-loop.mp3" volume="1" weight="369" loop="true" channel="music"></sound>
+	</scene>
+	<scene world="pompadoria" skippable="true" file="scenes/pompadoria_intro.swf" id="PompadoriaIntro" preload="false" type="Basic"/>
+	<scene world="pompadoria" config="xml/pompadoria_erg_game.xml" file="scenes/pompadoria_erg_game.swf" id="PompadoriaErgGame" preload="false" type="Basic">
+		<gameSettings>
+			<minimumTime>120</minimumTime>
+			<maximumTime>600</maximumTime>
+			<wrongAnswersAllowed>2</wrongAnswersAllowed>
+		</gameSettings>
+		<sound file="audio/erg-water-loop.mp3" volume="0" weight="86" loop="true" channel="water" start="0"></sound>
+		<sound file="audio/erg-drop.mp3" volume="1" weight="12" channel="sfx2"></sound>
+		<sound file="audio/erg-pile-drop.mp3" volume="1" weight="12" channel="sfx3"></sound>
+		<sound file="audio/erg-splash.mp3" volume="1" weight="12" channel="sfx4"></sound>
+		<sound file="audio/erg-cart-rolling.mp3" volume="1" weight="17" channel="sfx5"></sound>
+		<sound file="audio/erg-reel-cast.mp3" volume="1" weight="20" channel="sfx6"></sound>
+		<sound file="audio/erg-reel-in.mp3" volume="1" weight="20" channel="sfx7"></sound>
+		<sound file="audio/flying-rocket-loop.mp3" volume=".3" weight="18" loop="true" channel="rocket" start="0"></sound>
+	</scene>
+	<scene world="pompadoria" skippable="true" file="scenes/pompadoria_departure.swf" id="PomadoriaDeparture" preload="false" type="Basic"/>
+	<scene world="pompadoria" file="scenes/map.swf" id="Map" preload="false" type="Basic" mode="depart"/>
+	
+	<!-- Perfectamundo -->
+	<scene world="perfectamundo" config="xml/flying_game.xml" file="scenes/flying_game.swf" id="FlyingGame" preload="false" type="Basic"/>
+	<scene world="perfectamundo" file="scenes/map.swf" id="Map" preload="false" type="Basic" mode="arrive"/>
+	
+	<scene world="perfectamundo" skippable="true" file="scenes/perfectamundo_landing.swf" id="PerfectamundoLanding" preload="false" type="Basic" mapLink="true"/>
+	<scene world="perfectamundo" skippable="true" file="scenes/perfectamundo_scroller.swf" id="PerfectamundoScroller" preload="false" type="Basic"/>
+	<scene world="perfectamundo" skippable="true" file="scenes/perfectamundo_intro.swf" id="PerfectamundoIntro" preload="false" type="Basic"/>
+	<scene world="perfectamundo" config="xml/perfectamundo_flowers_game.xml" file="scenes/perfectamundo_flowers_game.swf" id="PerfectamundoFlowersGame" preload="false" type="Basic">
+		<gameSettings>
+			<minimumTime>120</minimumTime>
+			<maximumTime>600</maximumTime>
+			<wrongAnswersAllowed>2</wrongAnswersAllowed>
+		</gameSettings>
+		<sound file="audio/sidescroller-music-loop.mp3" volume="1" weight="369" loop="true" channel="music"></sound>
+		<sound file="audio/whip.mp3" volume="1" weight="10" channel="sfx"></sound>
+		<sound file="audio/buzz_flower_intro.mp3" volume="1" weight="29" channel="voiceover"></sound>
+		<sound file="audio/flowers-grow-back.mp3" volume="1" weight="16" channel="sfx"></sound>
+		<sound file="audio/flowers-draw-tally.mp3" volume="1" weight="12" channel="sfx"></sound>
+	</scene>
+	<scene world="perfectamundo" skippable="true" file="scenes/perfectamundo_scroller_outro.swf" id="PerfectamundoScrollerOutro" preload="false" type="Basic"/>
+	<scene world="perfectamundo" skippable="true" file="scenes/perfectamundo_departure.swf" id="PerfectamundoDeparture" preload="false" type="Basic"/>
+	
+	
+	<!-- Garbage Dump -->
+	<scene world="garbageDump" config="xml/flying_game.xml" file="scenes/flying_game.swf" id="FlyingGame" preload="false" type="Basic"/>
+	<scene world="garbageDump" skippable="true" file="scenes/garbage_dump_intro.swf" id="GarbageDumpIntro" preload="false" type="Basic" mapLink="true" />
+	<scene world="garbageDump" config="xml/garbage_dump_batteries_game.xml" file="scenes/garbage_dump_batteries_game.swf" id="GarbageDumpBatteriesGame" preload="false" type="Basic"/>
+	<scene world="garbageDump" skippable="true" file="scenes/garbage_dump_scroller.swf" id="GarbageDumpScroller" preload="false" type="Basic">
+		<gameSettings>
+			<minimumTime>90</minimumTime>
+			<maximumTime>180</maximumTime>
+			<wrongAnswersAllowed>2</wrongAnswersAllowed>
+		</gameSettings>
+		<sound file="audio/soundtrack.mp3" weight="225" loop="true" channel="music" start="30" autoPlay="true"></sound>
+		<sound file="audio/ping-pong-conveyor.mp3" volume="1" weight="16" channel="sfx" start="0"></sound>
+		<sound file="audio/battery-conveyor-loop.mp3" volume=".20" loop="true" weight="37" start="200" duration="2000" channel="belt"></sound>
+		<sound file="audio/battery-insert.mp3" volume="1" weight="30" channel="sfx"></sound>
+		<sound file="audio/multiplier_Power.mp3" volume="1" weight="16" channel="sfx2"></sound>
+		<sound file="audio/zap.mp3" volume="1" weight="10" channel="sfx2"></sound>
+	</scene>
+	<scene world="garbageDump" file="scenes/map.swf" id="Map" preload="false" type="Basic" mode="depart"/>
+	
+	<!-- Botopolis -->
+	<scene world="botopolis" skippable="true" file="scenes/botopolis_intro.swf" id="BotopolisIntro" preload="false" type="Basic" mapLink="true" />
+	<scene world="botopolis" config="xml/botopolis_antidote_game.xml" file="scenes/botopolis_antidote_game.swf" id="BotopolisAntidoteGame" preload="false" type="Basic"/>
+	<scene world="botopolis" skippable="true" file="scenes/botopolis_cutscene.swf" id="BotopolisCutScene" preload="false" type="Basic"/>
+	<scene world="botopolis" config="xml/botopolis_float_game.xml" file="scenes/botopolis_float_game.swf" id="BotopolisFloatGame" preload="false" type="Basic">
+		<gameSettings>
+			<minimumTime>120</minimumTime>
+			<maximumTime>600</maximumTime>
+			<wrongAnswersAllowed>2</wrongAnswersAllowed>
+		</gameSettings>
+		<sound file="audio/erg-pile-drop.mp3" volume="1" weight="12" channel="sfx" preload="true"></sound>
+		<sound file="audio/ping-pong-conveyor.mp3" volume="1" weight="16" channel="sfx"></sound>
+		<sound file="audio/float-bulbs-pick-up.mp3" volume="1" weight="12" channel="sfx"></sound>
+		<sound file="audio/float-bulbs-over.mp3" volume="1" weight="16" channel="sfx"></sound>
+		<sound file="audio/float-bulbs-in.mp3" volume="1" weight="12" channel="sfx"></sound>
+		<sound file="audio/float-count-move.mp3" volume="1" weight="12" channel="sfx"></sound>
+		<sound file="audio/power.mp3" volume="1" weight="12" channel="sfx"></sound>	
+		<sound file="audio/electricty.mp3" volume="1" loop="true" weight="12" channel="electricty"></sound>
+	</scene>
+	<scene world="botopolis" skippable="true" file="scenes/botopolis_outro.swf" id="BotopolisOutro" preload="false" type="Basic"/>
+	
+	<scene file="scenes/end_screen.swf" id="EndScreen" weight="100" type="Basic"/>
+		
+	<!-- General Map -->
+	<scene world="none" file="scenes/map.swf" id="MainMap" preload="false" type="Basic" mode="none">
+		<sound file="audio/buzz-botopolis.mp3" volume="1" channel="voiceover"></sound>
+		<sound file="audio/buzz-garbage-dump.mp3" volume="1" channel="voiceover"></sound>
+		<sound file="audio/buzz-perfectamundo.mp3" volume="1" channel="voiceover"></sound>
+		<sound file="audio/buzz-pompadoria.mp3" volume="1" channel="voiceover"></sound>
+		<sound file="audio/buzz-northern-frontier.mp3" volume="1" channel="voiceover"></sound>
+	</scene>
+	
+	<goodFeedbackBuzz>
+		<sound file="audio/buzz-yes.mp3"/>
+		<sound file="audio/buzz-way-to-go.mp3"/>
+		<sound file="audio/buzz-nice-work.mp3"/>
+		<sound file="audio/buzz-great.mp3"/>
+		<sound file="audio/buzz-perfect.mp3"/>
+	</goodFeedbackBuzz>
+	<goodFeedbackDelete>
+		<sound file="audio/delete-awesome-2.mp3"/>
+		<sound file="audio/delete-woo-hoo-1-SELECT.mp3"/>
+		<sound file="audio/delete-good-move-2.mp3"/>
+		<sound file="audio/delete-thats-it-2.mp3"/>
+		<sound file="audio/delete-you-got-it-your-awesome-2.mp3"/>
+		<sound file="audio/delete-your-really-good-at-this-2.mp3"/>
+		<sound file="audio/delete-how-did-you-get-so-smart-2.mp3"/>
+	</goodFeedbackDelete>
+	<negativeFeedbackBuzzFlyingGame>
+		<sound file="audio/buzz-ohhh.mp3"/>
+		<sound file="audio/buzz-that's-not-it.mp3"/>
+		<sound file="audio/buzz-pssst-hit-a-diff-number.mp3"/>
+		<sound file="audio/buzz-which-number-comes-next.mp3"/>
+		<sound file="audio/buzz-better-not-scratch-this-thing-up.mp3"/>
+		<sound file="audio/buzz-watch-out-for-space-junk.mp3"/>
+	</negativeFeedbackBuzzFlyingGame>
+	<keepHittingNumUp>
+		<sound file="audio/buzz-look-number-each-time.mp3"/>
+		<sound file="audio/buzz-look-at-numbers-already-going-up.mp3"/>
+		<sound file="audio/buzz-numbers-getting-bigger-how-much-bigger-each-time.mp3"/>
+	</keepHittingNumUp>
+	<keepHittingNumDown>
+		<sound file="audio/buzz-look-at-pattern-how-much-each-time.mp3"/>
+		<sound file="audio/buzz-look-at-numbers-already-theyre-going-down.mp3"/>
+		<sound file="audio/buzz-numbers-getting-bigger-how-much-bigger-each-time.mp3"/>
+	</keepHittingNumDown>
+	
+	
+</Config>

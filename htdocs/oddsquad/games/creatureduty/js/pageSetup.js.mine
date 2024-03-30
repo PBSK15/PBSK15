@@ -1,0 +1,246 @@
+
+
+var canvas, stage, creatureDutyGame, creatureDutyAssets, pctDescription, numImgsLoaded = 0, loginLoaded = false;
+
+
+function Point(x, y){
+	this.x = typeof x !== 'undefined' ? x : 0;
+	this.y = typeof y !== 'undefined' ? y : 0;
+}
+
+function getPos(el) {
+    // yay readability
+    for (var lx=0, ly=0;
+         el != null;
+         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+    return {x: lx, y: ly};
+}
+function getSize(el) {
+    // yay readability
+    for (var lw=0, lh=0;
+         el != null;
+         lw += el.offsetWidth, lh += el.offsetHeight, el = el.offsetParent);
+    return {w: lw, h: lh};
+}
+function resizeVideo(){
+	
+	var vidWrapper = document.getElementById("videoplayerwrapper");
+	
+	var baseElement = document.getElementById("creaturedutycanvas");
+	var innerCanvasWrapper = document.getElementById("gameBack");
+	
+	var baseAspect = 4/3;
+	var basePos = getPos(baseElement);
+	var vidPos = getPos(vidWrapper);
+
+	if(innerCanvasWrapper != null && baseElement != null){
+
+		var targetHeight = Math.min((window.innerHeight - basePos.y),window.innerWidth/baseAspect);
+		innerCanvasWrapper.style.maxHeight =  targetHeight + 'px';
+		baseElement.style.maxHeight = targetHeight + 'px';
+	
+		var targetWidth = Math.min(targetHeight*baseAspect,window.innerWidth);
+		//innerCanvasWrapper.style.maxWidth = targetWidth + 'px';
+		baseElement.style.maxWidth =  targetWidth + 'px';
+
+		var revisedTargetHeight = targetWidth/baseAspect;
+		innerCanvasWrapper.style.maxHeight =  revisedTargetHeight + 'px';
+		baseElement.style.maxHeight = revisedTargetHeight + 'px';
+
+		if(vidWrapper != undefined && vidWrapper != null){
+		
+			var vidTop = vidPos.y;
+			var baseScale = Math.min(window.innerWidth/1024, (window.innerHeight - basePos.y)/768);
+			
+			var innerCanvasWrapperWidth = innerCanvasWrapper.offsetWidth;
+			//var canvasWidth = 1024*Math.min(1, baseScale);
+			var canvasWidth = targetWidth;
+
+			var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+		
+			var leftEdge = ((window.innerWidth - canvasWidth)/2) + ((window.innerWidth > 1024) ? Math.min(0,Math.max(160,(baseElement.offsetLeft/2))) : 0) + ((window.innerWidth > 1024 && (is_firefox  || window.innerHeight > 768))? Math.min(160,Math.max(-10,(window.innerHeight - basePos.y - 768)*0.5)) : 0);
+
+			//var leftEdge = ((window.innerWidth - canvasWidth)/2) - ((window.innerWidth > 1024 && (window.innerHeight <= 768 || is_firefox)) ? 0 : 0);
+			
+			vidWrapper.style.width = vidWrapper.style.minWidth = (706*Math.min(1, baseScale)) + 'px';
+			vidWrapper.style.height = vidWrapper.style.minHeight = (395*Math.min(1, baseScale)) + 'px';
+			vidWrapper.style.left = (leftEdge + 160*Math.min(1, baseScale)) + 'px';
+			
+			var vidProper = document.getElementById("pbs-video-player");
+			vidProper.style.width = vidWrapper.style.width;
+			vidProper.style.height = vidWrapper.style.height;
+
+			vidWrapper.style.top = (Math.max(-456, (- 456*baseScale))) + 'px';
+		}
+	}
+	if(stage != undefined){
+		stage.update();	
+	}
+	
+};
+
+/*
+function old____resizeVideo(){
+	
+	var vidWrapper = document.getElementById("videoplayerwrapper");
+	 
+	var baseElement = document.getElementById("creaturedutycanvas");
+	var innerCanvasWrapper = document.getElementById("gameBack");
+	
+	var basePos = getPos(baseElement);
+	var vidPos = getPos(vidWrapper);
+	if(innerCanvasWrapper != null && baseElement != null){
+		innerCanvasWrapper.style.maxHeight = (window.innerHeight - basePos.y) + 'px';
+		baseElement.style.maxHeight = (window.innerHeight - basePos.y) + 'px';
+		
+		if(vidWrapper != undefined && vidWrapper != null){
+		
+			var vidTop = vidPos.y;
+			var baseScale = Math.min(window.innerWidth/1024, (window.innerHeight - basePos.y)/768);
+			
+			var innerCanvasWrapperWidth = innerCanvasWrapper.offsetWidth;
+			var canvasWidth = 1024*Math.min(1, baseScale);
+			
+			var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+			
+			//var leftEdge = ((window.innerWidth - canvasWidth)/2) - ((window.innerWidth > 1024 && (window.innerHeight <= 768 || is_firefox)) ? 8 : 0);
+			var leftEdge = ((window.innerWidth - canvasWidth)/2) - ((window.innerWidth > 1024 && (window.innerHeight <= 768 || is_firefox)) ? 0 : 0);
+				
+			vidWrapper.style.width = (706*Math.min(1, baseScale)) + 'px';
+			//vidWrapper.style.width = (706*baseScale) + 'px';
+			vidWrapper.style.height = (395*Math.min(1, baseScale)) + 'px';
+			//vidWrapper.style.height = (395*1, baseScale) + 'px';
+			vidWrapper.style.left = (leftEdge + 160*Math.min(1, baseScale)) + 'px';
+			
+			vidWrapper.style.top = (Math.max(-456, (- 456*baseScale))) + 'px';
+			
+		}
+	}
+	//stage.update();
+};
+*/
+
+function init_creature_duty (){
+
+	KeyValueStorage.setGameSettingsURL("../../php/gameSettings.php");
+	
+	createjs.MotionGuidePlugin.install();
+	
+	canvas = document.getElementById('creaturedutycanvas');
+
+	creatureDutyAssets = new AssetManager(["cd_bgs1","cd_bgs2","cd_bgs3","cd_creatureparts1","cd_creatureparts2","cd_foodparts1","cd_foodparts2","cd_foodparts3","cd_miscbits1","cd_miscbits2"]);
+	
+	images = images||{};
+	stage = new createjs.Stage(canvas);
+	stage.enableMouseOver( 10 );
+	stage.name = "Game Stage";
+	pctDescription = new createjs.Text("", "64px RefrigeratorDeluxe-Heavy", "white");
+	pctDescription.textAlign = "center";
+	pctDescription.textBaseline = "middle";
+	pctDescription.x = 950;
+	pctDescription.y = 733;
+	stage.addChild(pctDescription);
+
+	stage.update();
+
+	var loader = new createjs.LoadQueue(false, "", true);
+	loader.addEventListener("fileload", function(e){handleFileLoad(e);});
+	loader.addEventListener("complete", function(e){handleComplete(e);});
+	loader.loadManifest(lib.properties.manifest);
+	
+	resizeVideo();
+
+}
+
+function handleFileLoad(evt) {
+
+	numImgsLoaded++;
+	//console.log(numImgsLoaded+" imgs loaded.");
+	pctDescription.text = Math.round((numImgsLoaded/lib.properties.manifest.length)*100) + "%";
+	stage.update();
+	if(evt != null){
+		//console.log("LOADING: " + evt.item.id);
+		if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+	} else {
+		console.log("LOADING: (null event)");
+	}
+	resizeVideo();
+}
+
+function buildGame(){
+	
+	console.log("BUILD GAME!");
+	console.log(".... UL: "+ss.oddsquad.UserLogin);
+	
+	creatureDutyGame = new GameManager(stage);
+
+	
+	ss.oddsquad.UserLogin.addEventListener(ss.oddsquad.USER_LOGIN_LOADED, userLoginLoaded);
+	ss.oddsquad.UserLogin.addEventListener(ss.oddsquad.USER_LOGIN_FAILED, userLoginLoaded);
+	ss.oddsquad.UserLogin.loadUserLogin();
+	resizeVideo();
+}
+
+function handleComplete() {
+	console.log("COMPLETE");
+	
+	pctDescription.text = "";
+	stage.removeChild(pctDescription);
+	
+	createjs.Ticker.setFPS(12);
+	createjs.Ticker.addEventListener("tick", stage);
+	createjs.Touch.enable(stage);
+	stage.mouseMoveOutside = true;
+	stage.snapToPixelsEnabled = true;		
+	
+	creatureDutyAssets.processSpriteSheets();
+	resizeVideo();
+	//setTimeout(function (){buildGame();}, 100);
+}
+
+function sendGAEvent(category, evt, value, info) {
+ try {
+        if(isEmpty(value)) {
+           GA_obj.trackEvent(category, evt);
+        } else if (isEmpty(info)) {
+           GA_obj.trackEvent(category, evt, value);
+        } else {
+           GA_obj.trackEvent(category, evt, value, info);
+        }
+    } catch (e) {
+        console.log("error logging event " + evt + ": " + e);
+    }
+}
+
+// aka userLoginLoaded Part Two
+function onHaveLoginData(){
+	
+}
+
+function userLoginLoaded(){
+	console.log(" -- -- LOGIN LOADED? -- -- ");
+	var isLoaded = ss.oddsquad.UserLogin.loginLoaded();
+	console.log(" -- --> "+isLoaded);
+	console.log(" WOULD BE CALLING GAMEINIT FROM ULL");
+
+	creatureDutyGame.gameInit(true);
+	
+	//if(!ss.oddsquad.UserLogin.hasPbsLogin()) {
+	if(!isLoaded){
+		console.log(" ------- no login, starting anew. --------- ");	
+		creatureDutyGame.gameInit(true);
+	} else {
+		console.log(" ------- running off of loaded data. --------- ");	
+		creatureDutyGame.gameData.loadGame();
+	}
+	resizeVideo();
+
+}
+
+$(document).on('USERAGENT_INFO_LOADED', function(){
+	init_creature_duty ();
+} );
+
+window.onresize = function (event) {
+	resizeVideo();
+};

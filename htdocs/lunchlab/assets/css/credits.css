@@ -1,0 +1,43 @@
+#credits h1{
+	margin:0;
+}
+#credits h2.toggler{
+	margin:0;
+	line-height:1.25em;
+	width:480px;
+	display:block;
+	margin:8px auto;
+	background-image: url("../images/videos/categoryArrow.svgz");
+	background-position: 90% center;
+	background-position: right 19px center;
+	background-repeat:no-repeat;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	cursor:pointer;
+}
+.no-svg #credits h2.toggler{
+	background-image: url("../images/videos/categoryArrow.png");
+}
+#credits h3{
+	margin:0;
+	line-height:1.125em;
+}
+#credits p{
+	margin:0 0 0.5em 0;
+	line-height:1.25em;
+}
+
+@media all and (max-width : 600px) {
+	#credits h2.toggler{
+		width:320px;
+	}
+	#credits #content .frame .bottomBar{
+		display:none;
+	}
+}
+@media all and (max-width : 480px) {
+	#credits h2.toggler{
+		width:240px;
+		font-size:100%;
+	}
+}

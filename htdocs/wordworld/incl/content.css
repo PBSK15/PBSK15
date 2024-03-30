@@ -1,0 +1,123 @@
+/* ------ CSS Created by Bean Creative Funktional Web Design ---------------*/
+/* ----------                  https://www.beancreative.com                   -------------*/
+  
+
+a:link {color:#fbe53a; text-decoration:underline;}
+a:hover {color:#fbe53a; text-decoration:none;}
+a:visited {color:#fbe53a; text-decoration:underline;}
+a:visited:hover {color:#fbe53a; text-decoration:none;}
+
+h1 {font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#cdeaff; margin:0 40px 0 0;}
+h2 {font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#cdeaff; margin:1em 40px 0 0;}
+h3 {font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#fff; margin:1em 40px 0 0;}
+h4 {font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#cdeaff; margin:1em 40px 0 0;}
+
+.white {color:white !important;}
+
+.greenruleabove {border-top:1px solid #71A10F;}
+
+.textfield {
+	background:#cee2a6;
+	border:2px solid #fff;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.smalltext {
+	font-size:11px !important;
+}
+
+#maincolumn p {
+	font-size:13px;
+	margin:0 40px 1em 0;
+	line-height:1.3em;
+}
+
+#maincolumn ul, #maincolumn ol  {
+	font-size:13px;
+	margin:0 40px 1em 10px;
+}
+
+td p {
+	margin:0 0 1em 0 !important;
+	line-height:1.3em;
+}
+
+.photo {
+	border:2px solid white;
+}
+
+img.videoimagelink {
+	border:2px solid #7a73ad;
+	background:white;
+	padding:2px;
+}
+
+img.videoimagelink:hover {
+	border:2px solid #fff;
+	background:#fbe53a;
+	padding:2px;
+}
+
+#todayswordcontent, #todayswordcontent p {
+	color:black;
+	font-size:13px;
+	margin:.5em 0 0 0;
+}
+
+div.characterboxcontent p {
+	color:black;
+	margin:0 0 1em 0 !important;
+}
+
+div.characterboxcontent h1 {
+	color:#ee2e24;
+	margin:0 0 .5em 0;
+}
+
+div.characterboxcontent a:link {color:#7a68ae; text-decoration:underline;}
+div.characterboxcontent a:hover {color:#7a68ae; text-decoration:none;}
+div.characterboxcontent a:visited {color:#7a68ae; text-decoration:underline;}
+div.characterboxcontent a:visited:hover {color:#7a68ae; text-decoration:none;}
+
+
+#todayswordcontent a:link {color:#001eff; text-decoration:underline;}
+#todayswordcontent a:hover {color:#001eff; text-decoration:none;}
+#todayswordcontent a:visited {color:#001eff; text-decoration:underline;}
+#todayswordcontent a:visited:hover {color:#001eff; text-decoration:none;}
+
+div.photocaption p {
+	margin:0 0 .5em 0 !important;
+}
+
+#footernav {
+	font-size:11px;
+	color:#004d8e;
+}
+
+#footernav td {
+	font-size:11px;
+	color:#004d8e;
+}
+
+#footernav a:link {color:#207ac8; text-decoration:none; font-weight:bold; display:block;}
+#footernav a:hover {color:#207ac8; text-decoration:underline; font-weight:bold; display:block;}
+#footernav a:visited {color:#207ac8; text-decoration:none; font-weight:bold; display:block;}
+#footernav a:visited:hover {color:#207ac8; text-decoration:underline; font-weight:bold; display:block;}
+
+
+#localbox td, #localbox td p {
+	font-size:11px;
+	color:#000 !important;
+}
+
+#localbox td a:link {color:#207ac8; text-decoration:none; font-weight:bold; display:block;}
+#localbox td a:hover {color:#207ac8; text-decoration:underline; font-weight:bold; display:block;}
+#localbox td a:visited {color:#207ac8; text-decoration:none; font-weight:bold; display:block;}
+#localbox td a:visited:hover {color:#207ac8; text-decoration:underline; font-weight:bold; display:block;}
+
+
+
+
+

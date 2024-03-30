@@ -1,0 +1,243 @@
+{
+	"designedSettings": {
+		"width": 980,
+		"height": 600
+	},
+	"gameplay": {
+		"paint": {
+			"red": {
+				"color": "#f22626",
+				"buttonArt": "redPaint"
+			},
+			"yellow": {
+				"color": "#febd20",
+				"buttonArt": "yellowPaint"
+			},
+			"green": {
+				"color": "#4bbe5a",
+				"buttonArt": "greenPaint"
+			},
+			"blue": {
+				"color": "#4ba5ea",
+				"buttonArt": "bluePaint"
+			},
+			"purple": {
+				"color": "#ad40d2",
+				"buttonArt": "purplePaint"
+			}
+		},
+		"strokeWidth": 15,
+		"paperRect": {
+			"x": 145,
+			"y": 13,
+			"w": 673,
+			"h": 573
+		},
+		"stickerSourceEdge": 835,
+		"stickers": {
+			"baby": {
+				"x": 842,
+				"y": 38
+			},
+			"dt": {
+				"x": 905,
+				"y": 27
+			},
+			"tigey": {
+				"x": 856,
+				"y": 135
+			},
+			"owl": {
+				"x": 908,
+				"y": 147
+			},
+			"prince": {
+				"x": 845,
+				"y": 200
+			},
+			"cat": {
+				"x": 907,
+				"y": 254
+			},
+			"miss": {
+				"x": 838,
+				"y": 314
+			},
+			"mom": {
+				"x": 909,
+				"y": 376
+			},
+			"dad": {
+				"x": 842,
+				"y": 433
+			},
+			"trolley": {
+				"x": 904,
+				"y": 520,
+				"hitArea": {
+					"type": "rect",
+					"x": 0,
+					"y": 4,
+					"w": 73,
+					"h": 41
+				}
+			}
+		}
+	},
+	"manifests": {
+		"game": [
+			{
+				"id": "background",
+				"src": "assets/images/background.jpg"
+			},
+			{
+				"id": "paperfold",
+				"src": "assets/images/paperfold.png"
+			},
+			{
+				"id": "paperball",
+				"src": "assets/images/paperball.png"
+			},
+			{
+				"id": "redPaint",
+				"src": "assets/images/buttons/redPaint.png"
+			},
+			{
+				"id": "yellowPaint",
+				"src": "assets/images/buttons/yellowPaint.png"
+			},
+			{
+				"id": "greenPaint",
+				"src": "assets/images/buttons/greenPaint.png"
+			},
+			{
+				"id": "bluePaint",
+				"src": "assets/images/buttons/bluePaint.png"
+			},
+			{
+				"id": "purplePaint",
+				"src": "assets/images/buttons/purplePaint.png"
+			},
+			{
+				"id": "eraser",
+				"src": "assets/images/buttons/eraser.png"
+			},
+			{
+				"id": "trash",
+				"src": "assets/images/buttons/trash.png"
+			}
+		],
+		"stickerSource": [
+			{
+				"id": "data",
+				"src": "assets/images/stickerSourceSheet.json"
+			},
+			{
+				"id": "image",
+				"src": "assets/images/stickerSourceSheet.png"
+			}
+		],
+		"stickerPaper": [
+			{
+				"id": "data",
+				"src": "assets/images/stickerPaperSheet.json"
+			},
+			{
+				"id": "image",
+				"src": "assets/images/stickerPaperSheet.png"
+			}
+		]
+	},
+	"scaling": {
+		"drawingCanvas": {
+			"x": 0,
+			"y": 0,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"paperAnim": {
+			"x": 0,
+			"y": 0,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"paperFold": {
+			"x": 786,
+			"y": 12,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"red": {
+			"x": 23,
+			"y": 21,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"yellow": {
+			"x": 23,
+			"y": 102,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"green": {
+			"x": 23,
+			"y": 183,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"blue": {
+			"x": 23,
+			"y": 265,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"purple": {
+			"x": 23,
+			"y": 345,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"eraser": {
+			"x": 20,
+			"y": 447,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"trash": {
+			"x": 5,
+			"y": 520,
+			"titleSafe": "true",
+			"align": "top-left"
+		},
+		"stickerContainer": {
+			"x": 0,
+			"y": 0,
+			"titleSafe": "true",
+			"align": "top-left"
+		}
+	},
+	"sounds": {
+		"sfx": {
+			"context": "sfx",
+			"path": "assets/sound/sfx/",
+			"soundManifest": [
+				{
+					"id": "EraserClick",
+					"volume": 0.1
+				},
+				{
+					"id": "PaintClick",
+					"volume": 0.1
+				},
+				{
+					"id": "StickerPlacement",
+					"volume": 0.1
+				},
+				{
+					"id": "TrashClear",
+					"volume": 0.1
+				}
+			]
+		}
+	}
+}

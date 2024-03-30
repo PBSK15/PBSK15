@@ -1,0 +1,28 @@
+#parenttipholder { position:relative; width:1000px; height:135px; text-align:center; margin-left:auto; margin-right:auto;}
+
+#parenttips { position:absolute; width:600; height:135px; left:0px;}
+
+#tvtimes { position:absolute; width:160; height:80px; left:300px;}
+
+#station { position:absolute; width:300px; right:0px; top:5px; font-family: "Lucida Sans",Verdana,Geneva,Helvetica,Arial,Tahoma,sans-serif; font-size:10px; color:#3F829F; line-height:1.5;}
+
+
+
+#logoholder { position:relative; text-align:center; margin-top:10px; margin-left:auto; margin-right:auto; font-family: "Lucida Sans",Verdana,Geneva,Helvetica,Arial,Tahoma,sans-serif; font-size:10px; color:#3F829F; line-height:1.5;}
+
+#logos { position:relative; width:810px; height:80px;  margin-left:auto; margin-right:auto; background:url(/catinthehat/images/footer/footerbg.jpg) no-repeat; background-size:100%; }
+
+#logoleft{ position:absolute; width:250px; height:80px; left:0px; top:10px;}
+
+#logomiddle{ position:absolute; width:370px; height:80px; left:250px; top:10px;}
+
+#logoright{ position:absolute; width:180px; height:80px; left:620px; top:10px;}
+
+
+
+#linkholder { position:relative; text-align:center; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px;font-family: "Lucida Sans",Verdana,Geneva,Helvetica,Arial,Tahoma,sans-serif; font-size:10px; color:#3F829F; line-height:1.5;}
+
+
+
+#copyrightholder { position:relative; text-align:center; margin-left:auto; margin-right:auto; font-family: "Lucida Sans",Verdana,Geneva,Helvetica,Arial,Tahoma,sans-serif; font-size:10px; color:#3F829F; line-height:1.5;}
+

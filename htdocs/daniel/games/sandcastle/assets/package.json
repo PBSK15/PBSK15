@@ -1,0 +1,197 @@
+{
+    "name": "application-name",
+    "version": "0.0.1",
+    "manifest":[
+        {"type":"image","id":"titlescreen","src":"assets/titlescreen.jpg"},
+        {"type":"javascript","id":"dbcharacterJS","src":"../../assets/js/sg-kit/DBCharacterCJS.js"},
+        {"type":"javascript","id":"DTBucket","src":"js/DTBucket.js"},
+        {"type":"javascript","id":"DTAccoutrement","src":"js/DTAccoutrement.js"},
+        {"type":"javascript","id":"DTSandcastleJS","src":"js/DTSandcastlePiece.js"},
+        {"type":"javascript","id":"DTWaveJS","src":"js/DTWave.js"},
+        {"type":"javascript","id":"MathUtilsJS","src":"../../assets/js/sg-kit/MathUtils.js"},
+        {"type":"javascript","id":"DTMoatJS","src":"js/DTMoat.js"},
+        {"type":"javascript","id":"DTCrabJS","src":"js/DTCrab.js"},
+        {"type":"image","id":"bg","src":"assets/images/sand_bg.jpg"},
+        {"type":"image","id":"green_bucket","src":"assets/images/green_bucket.png"},
+        {"type":"image","id":"green_bucket_flip","src":"assets/images/green_bucket_flip.png"},
+        {"type":"image","id":"green_sand","src":"assets/images/green_sand.png"},
+        {"type":"image","id":"purple_bucket","src":"assets/images/purple_bucket.png"},
+        {"type":"image","id":"purple_bucket_flip","src":"assets/images/purple_bucket_flip.png"},
+        {"type":"image","id":"purple_sand","src":"assets/images/purple_sand.png"},
+        {"type":"image","id":"yellow_bucket","src":"assets/images/yellow_bucket.png"},
+        {"type":"image","id":"yellow_bucket_flip","src":"assets/images/yellow_bucket_flip.png"},
+        {"type":"image","id":"yellow_sand","src":"assets/images/yellow_sand.png"},
+        {"type":"image","id":"shell1","src":"assets/images/shell1.png"},
+        {"type":"image","id":"shell2","src":"assets/images/shell2.png"},
+        {"type":"image","id":"shell3","src":"assets/images/shell3.png"},
+        {"type":"image","id":"shell4","src":"assets/images/shell4.png"},
+        {"type":"image","id":"shell5","src":"assets/images/shell5.png"},
+        {"type":"image","id":"shell6","src":"assets/images/shell6.png"},
+        {"type":"image","id":"stick1","src":"assets/images/stick.png"},
+        {"type":"image","id":"seaweed1","src":"assets/images/seaweed.png"},
+        {"type":"image","id":"cowrie","src":"assets/images/cowrie.png"},
+        {"type":"image","id":"flower","src":"assets/images/flower.png"},
+        {"type":"image","id":"starfish","src":"assets/images/starfish.png"},
+        {"type":"image","id":"feather","src":"assets/images/feather.png"},
+        {"type":"image","id":"wave","src":"assets/images/wave.png"},
+        {"type":"image","id":"moat","src":"assets/images/moat.png"},
+        {"type":"image","id":"waveButton","src":"assets/images/waveButton.png"},
+        {"type":"image","id":"waveButtonDown","src":"assets/images/waveButtonDown.png"},
+        {"type":"image","id":"moat0","src":"assets/images/moat_water0.png"},
+        {"type":"image","id":"moat1","src":"assets/images/moat_water1.png"},
+        {"type":"image","id":"moat2","src":"assets/images/moat_water2.png"},
+        {"type":"image","id":"moat3","src":"assets/images/moat_water3.png"},
+        {"type":"image","id":"moat4","src":"assets/images/moat_water4.png"},
+        {"type":"image","id":"moat5","src":"assets/images/moat_water5.png"},
+        {"type":"image","id":"moat6","src":"assets/images/moat_water6.png"},
+        {"type":"image","id":"moat7","src":"assets/images/moat_water7.png"},
+        {"type":"image","id":"moat8","src":"assets/images/moat_water8.png"},
+        {"type":"image","id":"moat9","src":"assets/images/moat_water9.png"},
+        {"type":"image","id":"crabSheet","src":"assets/images/crabSheet.png"},
+        {"type":"image","id":"playButton","src":"assets/play_btn_highlight.png"},
+        {"type":"image","id":"danHitbox","src":"assets/images/danHitbox.png"},
+        {"type":"sound","id":"playButtonAudio","src":"assets/audio/daniel/SC_Dan_15C.mp3", "data":1},
+        {"type":"sound","id":"intro","src":"assets/audio/daniel/SC_Dan_NS5.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_2","src":"assets/audio/daniel/SC_Dan_2.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_4","src":"assets/audio/daniel/SC_Dan_4.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_6","src":"assets/audio/daniel/SC_Dan_6.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_7","src":"assets/audio/daniel/SC_Dan_7.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_8","src":"assets/audio/daniel/SC_Dan_8.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_10","src":"assets/audio/daniel/SC_Dan_10.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_12","src":"assets/audio/daniel/SC_Dan_12.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_13","src":"assets/audio/daniel/SC_Dan_13.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_14","src":"assets/audio/daniel/SC_Dan_14.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_NS1","src":"assets/audio/daniel/SC_Dan_NS1.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_NS3","src":"assets/audio/daniel/SC_Dan_NS3.mp3", "data":1},
+        {"type":"sound","id":"SC_Dan_NS4","src":"assets/audio/daniel/SC_Dan_NS4.mp3", "data":1},
+        {"type":"sound","id":"SC_Dad_1","src":"assets/audio/dad/SC_Dad_1.mp3", "data":1},
+        {"type":"sound","id":"SC_Dad_NS1","src":"assets/audio/dad/SC_Dad_NS1.mp3", "data":1},
+        {"type":"sound","id":"SC_Dad_NS2","src":"assets/audio/dad/SC_Dad_NS2.mp3", "data":1},
+        {"type":"sound","id":"SC_Dad_NS3","src":"assets/audio/dad/SC_Dad_NS3.mp3", "data":1},
+        {"type":"sound","id":"crab_popin","src":"assets/audio/sfx/crab_popin.mp3", "data":1},
+        {"type":"sound","id":"crab_popup","src":"assets/audio/sfx/crab_popup.mp3", "data":1},
+        {"type":"sound","id":"crab_walk_loop","src":"assets/audio/sfx/crab_walk_loop.mp3", "data":1},
+        {"type":"sound","id":"crab_walk_single","src":"assets/audio/sfx/crab_walk_single.mp3", "data":1},
+        {"type":"sound","id":"item_pickup","src":"assets/audio/sfx/item_pickup.mp3", "data":1},
+        {"type":"sound","id":"item_place","src":"assets/audio/sfx/item_place.mp3", "data":1},
+        {"type":"sound","id":"sand_place","src":"assets/audio/sfx/sand_place.mp3", "data":1},
+        {"type":"sound","id":"sand_place_alt","src":"assets/audio/sfx/sand_place_alt.mp3", "data":1},
+        {"type":"sound","id":"tide_regular_1","src":"assets/audio/sfx/tide_regular_1.mp3", "data":1},
+        {"type":"sound","id":"tide_regular_2","src":"assets/audio/sfx/tide_regular_2.mp3", "data":1},
+        {"type":"sound","id":"tide_regular_3","src":"assets/audio/sfx/tide_regular_3.mp3", "data":1}
+    ],
+    "dimensions":{
+        "green_sand":{"width":91,"height":79},
+        "purple_sand":{"width":93,"height":103},
+        "yellow_sand":{"width":68,"height":115},
+        "shell1":{"width":68,"height":46},
+        "shell2":{"width":59,"height":60},
+        "shell3":{"width":38,"height":77},
+        "shell4":{"width":62,"height":53},
+        "shell5":{"width":39,"height":41},
+        "shell6":{"width":66,"height":60},
+        "stick1":{"width":64,"height":71},
+        "seaweed1":{"width":75,"height":32},
+        "cowrie":{"width":62,"height":39},
+        "flower":{"width":51,"height":49},
+        "starfish":{"width":60,"height":60},
+        "feather":{"width":28,"height":85},
+        "wave":{"width":633,"height":448}
+    },
+    "playButton":{"x":372,"y":387},
+    "waitTime":300,
+    "waveTime":10000,
+    "eraseWaveTime":75000,
+    "moatIds":[
+        "moat0",
+        "moat1",
+        "moat2",
+        "moat3",
+        "moat4",
+        "moat5",
+        "moat6",
+        "moat7",
+        "moat8",
+        "moat9"
+    ],
+    "sfx":{
+        "bucket":["sand_place","sand_place_alt"],
+        "item":{
+            "item_place":["item_place","item_place_alt"],
+            "item_return":["item_return","item_return_alt"]
+        },
+        "crab":{
+            "popin":["crab_popin"],
+            "popout":["crab_popup"],
+            "walk":["crab_walk_loop"]
+        },
+        "tide":{
+            "button":["tide_button_1"],
+            "regular":["tide_regular_1","tide_regular_2","tide_regular_3"]
+        }
+    },
+    "dadAudio":[
+        "SC_Dad_1",
+        "SC_Dad_NS1",
+        "SC_Dad_NS2",
+        "SC_Dad_NS3"
+    ],
+    "danielAudio": {
+        "touched":[
+            {"audio":"SC_Dan_NS3", "animation":"tap2"},
+            {"audio":"SC_Dan_12", "animation":"tap3"},
+            {"audio":"SC_Dan_7", "animation":"tap1"},
+            {"audio":"SC_Dan_13", "animation":"tap4"},
+            {"audio":"SC_Dan_10", "animation":"tap5"}
+        ],
+        "smalltalk": [
+            {"audio":"SC_Dan_2", "animation":"SC_Dan_2"},
+            {"audio":"SC_Dan_NS4", "animation":"SC_Dan_NS4"},
+            {"audio":"SC_Dan_14", "animation":"SC_Dan_14"},
+            {"audio":"SC_Dan_6", "animation":"SC_Dan_6"}
+        ],
+        "water":[
+            {"audio":"SC_Dan_4", "animation":"react_water"}
+        ],
+        "offers":[
+            {"audio":"SC_Dan_NS1", "animation":"present_deco_2"},
+            {"audio":"SC_Dan_8", "animation":"present_deco_1"}
+        ]
+    },
+    "minWait":32,
+    "maxWait":33,
+    "hitboxes":{
+        "sandboxes":[
+            {"x":0,"y":0,"width":505,"height":15},
+            {"x":0,"y":25,"width":555,"height":435},
+            {"x":0,"y":332,"width":655,"height":400},
+            {"x":0,"y":382,"width":690,"height":400},
+            {"x":0,"y":428,"width":730,"height":400},
+            {"x":0,"y":460,"width":764,"height":400}
+        ],
+        "daniel":{"x":622,"y":18,"width":140,"height":210},
+        "dad":{"x":775,"y":0,"width":160,"height":105}
+    },
+    "shovel":{"x":880,"y":350},
+    "castlePieces":[
+        {"type":"bucket","link":"green","index":1,"x":635,"y":230},
+        {"type":"bucket","link":"purple","index":0,"x":715,"y":315},
+        {"type":"accoutrement","link":"shell1","index":3,"x":830,"y":225},
+        {"type":"accoutrement","link":"shell2","index":4,"x":770,"y":250},
+        {"type":"accoutrement","link":"shell4","index":5,"x":890,"y":350},
+        {"type":"accoutrement","link":"shell3","index":6,"x":910,"y":215},
+        {"type":"accoutrement","link":"stick1","index":7,"x":815,"y":295},
+        {"type":"accoutrement","link":"seaweed1","index":8,"x":880,"y":310},
+        {"type":"interactive", "link":"crab", "x":700, "y":370, "goalX":100, "goalY":500, "time":6000},
+        {"type":"bucket","link":"yellow","index":2,"x":800,"y":370}
+    ],
+    "danielPieces":[
+        {"type":"accoutrement","link":"shell5"},
+        {"type":"accoutrement","link":"flower"},
+        {"type":"accoutrement","link":"cowrie"},
+        {"type":"accoutrement","link":"starfish"},
+        {"type":"accoutrement","link":"shell6"},
+        {"type":"accoutrement","link":"feather"}
+    ]
+
+}

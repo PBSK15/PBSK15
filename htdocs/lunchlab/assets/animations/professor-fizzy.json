@@ -1,0 +1,30 @@
+{
+  "resources": [
+    "professor-fizzy.m4a",
+    "professor-fizzy.oga",
+    "professor-fizzy.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "FoolingFreddy": {
+      "start": 6,
+      "end": 9.388344671201814,
+      "loop": false
+    },
+    "OhHelloThere": {
+      "start": 11,
+      "end": 15.07,
+      "loop": false
+    },
+    "ToYourCookingStations": {
+      "start": 17,
+      "end": 19.668344671201815,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

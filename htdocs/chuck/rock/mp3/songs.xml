@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player>
+
+<settings
+
+defaultVolume = "1"
+autoplay = "true"
+finished = "8"
+unfinished = "1"
+
+mainBackgroundColor = "000000"
+buttonsBackgroundColor = "000000"
+buttonsOutlineColor = "ffffff"
+buttonsIconColor = "00ffff"
+buttonsIconOverColor = "FFFFFF"
+volumeBarColor = "FFFFFF"
+loadBarColor = "018786"
+progressBarColor ="00ffff"
+spectrumLeftColor = "ffffff"
+spectrumLeftLineColor = "FFFFFF"
+spectrumRightColor = "00ffff"
+spectrumRightLineColor = "00FFFF"
+
+/>
+
+
+<song>
+<title>CVC My Robot</title>
+<url>rock/mp3/songs/CVC_RockSong4_Ver1.mp3</url>
+</song>
+
+<song>
+<title>CVC Old Yogurt</title>
+<url>rock/mp3/songs/rr_mp3_oldyogurt.mp3</url>
+</song>
+
+<song>
+<title>CVC Hey Betty</title>
+<url>rock/mp3/songs/rr_mp3_heybetty.mp3</url>
+</song>
+
+<song>
+<title>CVC Driveway</title>
+<url>rock/mp3/songs/rr_mp3_sk8boarddriveway.mp3</url>
+</song>
+
+<song>
+<title>CVC Mud Duck</title>
+<url>rock/mp3/songs/CVC_RockSong1_Ver1.mp3</url>
+</song>
+
+<song>
+<title>CVC Sister</title>
+<url>rock/mp3/songs/CVC_RockSong2_Ver1.mp3</url>
+</song>
+
+<song>
+<title>CVC Party</title>
+<url>rock/mp3/songs/CVC_RockSong3_Ver1.mp3</url>
+</song>
+
+<song>
+<title>CVC Rock Groove</title>
+<url>rock/mp3/songs/rr_main_song3_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Rock Swing</title>
+<url>rock/mp3/songs/rr_main_song1_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Rock Delight</title>
+<url>rock/mp3/songs/rr_main_song2_withsolos.mp3</url>
+</song>
+
+</player>

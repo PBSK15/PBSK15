@@ -1,0 +1,150 @@
+#home article {
+	background:url(../images/orangeGradient.png) repeat-x;
+}
+#home #containerContainer {
+	background:url(../images/homeScreenBG.jpg) no-repeat center top;
+}
+
+.theme img {
+	width:100%;
+	max-width:586px;
+	display:block;
+	margin:0 auto;
+}
+.promos {
+	margin-top:0;
+}
+.promos ul {
+	width:100%;
+	height:333px;
+	display:block;
+	list-style-type:none;
+	margin:0 auto;
+	position:relative;
+	padding:0;
+	overflow: hidden;
+}
+.promos ul li {
+	position:absolute;
+	top:0;
+	margin:0 auto;
+	width:100%;
+}
+
+.promos ul li button {
+	left: 35%;
+	position: absolute;
+	bottom: -30px;
+	width: 30%;
+	z-index: 250;
+}
+.promos .nav{
+	bottom: -16px;
+	left:0;
+    display: block;
+    height: 47px;
+    position: absolute;
+    width: 100%;
+}
+.promos .nav #prev{
+	position:absolute;
+	left:8%;
+	z-index: 200;
+}
+.promos .nav #next{
+	right:8%;
+	position:absolute;
+	z-index: 200;
+}
+
+.promos {
+	height:300px;
+}
+
+.promos .bottomBar {
+	z-index:0;
+}
+#homeCharacter{
+	left: -120px;
+    position: absolute;
+    top: 0;
+    z-index: 300;
+    pointer-events:none;
+}
+.no-canvas #homeCharacter{
+	background-size:100% auto;
+	background-image:url("../images/fizzy_home.png");
+}
+.no-canvas #homeMixie{
+	background-size:100% auto;
+	background-image:url("../images/mixie_home.png");
+}
+#home #content
+{
+	height:495px;
+	display: block;
+	position:relative;
+}
+#home #homeMixie{
+	right:-200px;
+	top:0;
+	position:absolute;
+	z-index:300;
+	pointer-events:none;
+}
+#home .frame.inline.promos{
+	width:64%;
+	min-width:474px;
+	background:none;
+}
+.frame #promoBox img{
+		width:100%;
+	}
+#promoBox a{
+	text-decoration: none;
+}
+
+/** For 0px - 599px */
+@media all and (max-width : 600px) {
+
+	#home article{
+		padding-bottom:26px;
+	}
+	#home nav.footer{
+		padding:0 0 20px;
+	}
+
+	#home #containerContainer, #home article{
+		background:transparent;
+	}
+	#home article .bottomBar.footie{
+		display:none;
+	}
+	.frame.inline.theme{
+		display:block;
+		padding:6px 0 12px;
+	}
+	.frame.theme{
+		width:100%;
+
+	}
+	.theme img {
+		max-width:600px;
+	}
+	#home #content
+	{
+		height:inherit;
+	}
+	#home .frame.inline.promos{
+		width:100%;
+		min-width:240px;
+		padding-top:0;
+	}
+	.promos ul li {
+		width:128%;
+	}
+	#home .frame.inline.promos .topBar
+	{
+		display:none;
+	}
+}

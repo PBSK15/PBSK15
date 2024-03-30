@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 3 . Panel 7 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/3bg7.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel7_03.gif";
+n12 = new Image();
+n12.src = "images/panel7b_03.gif";
+n13 = new Image();
+n13.src = "images/panel7c_03.gif";
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 800);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "4") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<BODY  onload="timeimgs('2')" style="margin: 0px;">
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/panel7_01.gif" WIDTH=551 HEIGHT=287 alt="THIS IS INEZ, A COMPUTER WHIZ. -- SHE LOVES TO VISIT THE CYBERWORLD OF THE INTERNET - BUT NEVER IMAGINED SHE COULD REALLY GO THERE!" border="0" usemap="#panel"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel7_02.gif" WIDTH=284 HEIGHT=83 alt="THIS IS INEZ, A COMPUTER WHIZ. -- SHE LOVES TO VISIT THE CYBERWORLD OF THE INTERNET - BUT NEVER IMAGINED SHE COULD REALLY GO THERE!" border="0"></TD>
+		<TD><IMG SRC="images/panel7_03.gif" WIDTH=150 HEIGHT=83 name="n1" alt="" border="0"></TD>
+		<TD ROWSPAN=2><a href="8.html"><IMG SRC="images/panel7_04.gif" WIDTH=117 HEIGHT=113 alt="next" border="0"></a></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/panel7_05.gif" WIDTH=434 HEIGHT=30 alt="" border="0"></TD>
+	</TR>
+</TABLE>
+	
+</td></tr></table>
+
+<map name="panel">
+<area alt="Webisode 3" coords="249,12,352,43" href="1.html" shape="RECT">
+<area alt="How It All Started" coords="51,13,240,37" href="../webisodes-global/how_started.html">
+</map>
+<map name="next">
+<area alt="next" coords="98,234,164,282" href="8.html">
+</map>
+
+
+
+</BODY>
+</HTML>

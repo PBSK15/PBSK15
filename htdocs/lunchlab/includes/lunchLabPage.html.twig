@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> 
+<html class="no-js"> 
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{pageTitle|raw}} . Fizzy's Lunch Lab</title>
+    <meta name="author" content="CloudKid">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="/lunchlab/assets/images/favicon.ico">
+    <script>var Canteen = window.Canteen || {
+      };
+      Canteen.settings = {
+        "queryString":"","host":"//pbskids.org","uriRequest":window.location.pathname.slice(10),"basePath":"/lunchlab/","baseUrl":"//pbskids.org/lunchlab/","debug":false,"cdnDomain":"http://pbskids.org","local":false,"siteIndex":"home","clientEnabled":true,"characterAssetPath":"assets/animations/home/","gamesPath":"assets/games/","animationsPath":"assets/animations/","version":"1.2.2","cacheBust":"?v=3","gatewayPath":"/lunchlab/gateway"};
+    </script>
+    <link rel="stylesheet" href="http://pbskids.org/lunchlab/assets/css/libraries.css?v=3">
+    <link rel="stylesheet" href="http://pbskids.org/lunchlab/assets/css/main.css?v=3">
+    <script src="http://pbskids.org/lunchlab/assets/js/libraries.js?v=3?v=2.0.5">
+    </script>
+    <script src="http://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js?v=2.0.5">
+    </script>
+    <script type="text/javascript" id="headband-callback" _src="http://pbskids.org/lunchlab/assets/js/headband-callback.js?v=3?v=2.0.5">
+    </script>
+    <script src="http://pbskids.org/lunchlab/assets/js/main.js?v=3?v=2.0.5">
+    </script>
+    <script id="magnetNotificationTemplate" type="text/html">
+<div class="magnetNotification notification" style="display:none;"><div class="message"><a href="/lunchlab/magnets" class="icon"><img /></a><span class="title"></span> <span class="magnetName"></span></div><button class="closeButton"><span class="icon-close"></span></button></div></script>
+    <script id="coinNotificationTemplate" type="text/html">
+<div class="coinNotification notification" style="display:none;"><div class="message"><a href="/lunchlab/my-kitchen" class="icon"><img src="http://pbskids.org/lunchlab/assets/images/games/coin.svgz?v=3?v=2.0.5" alt="Fizzy Coin" /></a><span class="title">You earned</span> <span class="coinValue"></span> <span class="title">Fizzy Coins!</span></div><button class="closeButton"><span class="icon-close"></span></button></div></script>
+  </head>
+  <body id="{{bodyId}}" class="loading">
+    {% include 'template_includes/modern_headband_include.html' %}
+    {% include 'template_includes/modern_pbsk_js.html' %}
+
+    <div id="frame" class="lunchlab">
+      <header class="nav">
+        <div class="bottomBar">
+        </div>
+        <nav class="clearfix main contentContainer">
+          <div class="logo">
+            <div class="topRightCorner">
+            </div>
+            <div class="topLeftCorner">
+            </div>
+            <div class="bottomRightCorner">
+            </div>
+            <div class="bottomLeftCorner">
+            </div>
+            <div class="topBar">
+            </div>
+            <div class="bottomBar">
+            </div>
+            <div class="leftBar">
+            </div>
+            <div class="rightBar">
+            </div>
+            <a href="http://pbskids.org" target="_blank" title="PBS Kids">
+              <img src="http://pbskids.org/lunchlab/assets/images/logos/pbs.svgz?v=3?v=2.0.5" alt="PBS Kids" id="PBSKids" />
+            </a>
+            <a href="/lunchlab/home" title="Home">
+              <img src="http://pbskids.org/lunchlab/assets/images/logos/LL.svgz?v=3?v=2.0.5" alt="Fizzy's Lunch Lab" id="LunchLab" />
+            </a>
+          </div>
+          <ul class="menu" id="menu">
+            <li>
+              <a class="food" href="/lunchlab/food" title="Food">
+              </a>
+            </li>
+            <li>
+              <a class="videos" href="/lunchlab/videos" title="Videos">
+              </a>
+            </li>
+            <li>
+              <a class="music" href="/lunchlab/music" title="Music">
+              </a>
+            </li>
+            <li>
+              <a class="games" href="/lunchlab/games" title="Games">
+              </a>
+            </li>
+            <li>
+              <a class="characters" href="/lunchlab/characters" title="Characters">
+              </a>
+            </li>
+            <li class="requires-flash">
+              <a class="kitchen" href="/lunchlab/my-kitchen" title="My Kitchen">
+              </a>
+            </li>
+            <li class="requires-no-flash">
+              <a class="magnets" href="/lunchlab/magnets" title="Magnets">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <article>
+        {% block mainContent %}{% endblock %}
+        <div class="bottomBar footie">
+        </div>
+      </article>
+      <footer class="contentContainer">
+        <div id="promoLinks">
+          <a href="http://pbskids.org/apps/fizzys-lunch-lab-fresh-pick.html" target="_blank">
+            <img src="http://pbskids.org/lunchlab/assets/images/promos/FreshPick.png?v=3?v=2.0.5" alt="Fresh Pick App"	/>
+          </a	>
+          <a href="http://pbskids.org/apps/fizzys-lunch-lab-hectic-harvest-.html" target="_blank"	>
+            <img src="http://pbskids.org/lunchlab/assets/images/promos/HecticHarvest.png?v=3?v=2.0.5" alt="Hectic Harvest App" />
+          </a>
+        </div>
+        <nav class="clearfix footer">
+          <ul>
+            <li>
+              <a href="/lunchlab/contact-us">
+                <img src="http://pbskids.org/lunchlab/assets/images/nav/contact.svgz?v=3?v=2.0.5" alt="Contact Us" />Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="/lunchlab/credits">
+                <img src="http://pbskids.org/lunchlab/assets/images/nav/credits.svgz?v=3?v=2.0.5" alt="Credits" />Credits
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="clearfix footerInfo">
+          <fieldset class="produced">
+            <legend>Produced By
+            </legend>
+            <a href="http://cloudkid.com" target="_blank">
+              <img src="http://pbskids.org/lunchlab/assets/images/logos/cloudkid.svgz?v=3?v=2.0.5" alt="CloudKid" />
+            </a>
+            <a href="http://hero4hirecreative.com" target="_blank">
+              <img src="http://pbskids.org/lunchlab/assets/images/logos/hero.svgz?v=3?v=2.0.5" alt="Hero4Hire Creative" />
+            </a>
+          </fieldset>
+          <fieldset class="funded">
+            <legend>Funded By
+            </legend>
+            <a href="http://www.cpb.org" target="_blank">
+              <img src="http://pbskids.org/lunchlab/assets/images/logos/cpb.svgz?v=3?v=2.0.5" alt="CPB" />
+            </a>Major funding for Fizzy's Lunch Lab is provided by the Corporation for Public Broadcasting
+          </fieldset>
+        </div>
+        <div class="contentContainer copyright">
+          <a href="http://pbskids.org/privacy/" target="_blank">PBS KIDS Privacy Policy
+          </a> | &copy;2009-2015 Lunch Lab, LLC
+        </div>
+      </footer>
+    </div>
+    <div id="notifications" data-first-time-login="">
+    </div>
+  </body>
+</html>

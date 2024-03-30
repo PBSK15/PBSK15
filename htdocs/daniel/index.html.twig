@@ -1,0 +1,40 @@
+{% extends 'daniel/includes/danielPage.html.twig' %}
+{% set pageTitle = 'Home | Daniel Tiger\'s Neighborhood | PBS KIDS' %}
+{% set hasGameSpecificJs = false %}
+{% set gameSpecificJs = '' %}
+{% set jsInclude = 'home' %}
+{% set bodyOpeningTag = '<body>' %}
+
+
+{% block mainContent %}<main id="home" class="base-page-model">
+ <header class="site-header">
+  <div class="logos"><a class="logo--pbs" href="http://pbskids.org/" alt="PBS Kids"></a> <a class="logo--dtn" href="/daniel/" alt="Daniel Tiger Home"></a>
+  </div>
+  <nav>
+   <ul>
+    <li class="nav__item games"><a href="/daniel/games/"> <img class="nav__image" src="/daniel/assets/img/icon-games.png"> <span class="nav__text">Games</span> </a></li>
+    <li class="nav__item stories"><a href="/daniel/stories/"> <img class="nav__image" src="/daniel/assets/img/icon-stories.png"> <span class="nav__text">Stories</span> </a></li>
+    <li class="nav__item videos"><a href="/daniel/videos/">
+      <div class="test"></div> <img class="nav__image" src="/daniel/assets/img/icon-videos.png"> <span class="nav__text">Videos</span> </a></li>
+    <li class="nav__item coloring"><a href="/daniel/coloring/"> <img class="nav__image" src="/daniel/assets/img/icon-coloring.png"> <span class="nav__text">Coloring</span> </a></li>
+   </ul>
+  </nav>
+ </header>
+ <div class="trolley"></div>
+ <div class="friends">
+  <canvas id="canvas--friends" width="635" height="410" style="height: 397px;" data-heights="{&quot;largest&quot;: 397, &quot;large&quot;: 194}"></canvas>
+ </div>
+ <div class="daniel--home" data-canvas-sizes="{&quot;largest&quot;: 396, &quot;large&quot;: 566, &quot;medium&quot;: 566, &quot;small&quot;: 566}"></div>
+ <div class="featured">
+  <!--data supplied via gamedata.xml -->
+ </div>
+</main>{% endblock %}
+
+
+
+
+{% block lowerBand %}<ul class="lower-band">
+ <li class="banner-small"><!-- change class to "banner-small" once full size banner gets put in --> <a href="http://pbskids.org/apps/features/daniel-tiger-ific-apps-more/" target="_blank"> <img src="/daniel/assets/img/banner-small.png"> </a></li>
+ <li class="banner"><a href="http://pbskids.org/apps/features/daniel-tiger-ific-apps-more/" target="_blank"> <img src="/daniel/assets/img/banner.png"> </a></li> <!-- <li class="banner">			  	<a href="http://www.toysrus.com/search/index.jsp?kwCatId=&kw=daniel%20tiger&keywords=daniel%20tiger&origkw=daniel+tiger&f=Taxonomy/TRUS/2254197&sr=1" target="_blank">			  		<img src="/daniel/assets/img/Banner_Toys.png" />			  	</a>			  </li> -->
+</ul>{% endblock %}
+

@@ -1,0 +1,126 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Greeting Cards . Send An Email To Caillou' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-scolar, Cinar, PBS, children, Games, activities, animation, kids' %}
+{% set desc = 'The Official Caillou Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		back_on = new Image( );		back_on.src = "../images/btn_back-over.gif";		back_off = new Image( );		back_off.src = "../images/btn_back.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "../images/caillou_logo-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "../images/caillou_logo.gif";				games_on = new Image( );		games_on.src = "images/choice_games-over.gif";		games_off = new Image( );		games_off.src = "images/choice_games.gif";				activities_on = new Image( );		activities_on.src = "images/choice_activities-over.gif";		activities_off = new Image( );		activities_off.src = "images/choice_activities.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" bgcolor="#ed1c24" text="black" link="white" vlink="#ffd400" alink="#00af4c" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td bgcolor="#ed1c24">
+    <div align="center">
+     <table width="600" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td align="left" width="140"><a href="http:pbskids.org/"><img src="../images/pbskids_logo.gif" alt="PBS Kids Homepage" height="79" width="90" border="0"></a></td>
+        <td>
+         <div align="center"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="../images/caillou_logo.gif" alt="Caillou Homepage" name="caillouhome" height="79" width="200" border="0"></a>
+         </div></td>
+        <td width="140">
+         <div align="center"><a onmouseover="act('back')" onmouseout="inact('back')" href="index.html"><img src="../images/btn_back.gif" alt="Back Button" name="back" height="60" width="70" border="0"></a>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0" background="../images/bkg_top_red.gif" height="20">
+      <tbody>
+       <tr>
+        <td></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr height="16">
+   <td bgcolor="white" height="16">
+    <div align="center">
+     <table border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="60">
+        <td rowspan="2">
+         <div align="center"><img src="caillou_email/images/caillou_standing.gif" alt="" height="340" width="194" border="0">
+         </div></td>
+        <td width="360" height="60">
+         <div align="center">
+          <p class="instruct_bold"><img src="caillou_email/images/title_email_caillou.gif" alt="" height="109" width="360" border="0"></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td valign="bottom" width="360">
+         <form action="/cgi-registry/postmaster.pl" method="post">
+          <div align="center">
+           <p class="footer_nav"><input type="hidden" name="address" value="caillou@cinar.com"> <input type="hidden" name="subject" value="Message for Caillou"> <input type="hidden" name="location" value="/caillou/greetings/caillou_email/caillou_email_thanks.html"></p>
+           <p class="footer_nav">All you have to do is enter your first name here:<br> <input class="instruct_normal" name="name" size="35"></p>
+           <p class="footer_nav">then enter in your email address:<br> <input class="instruct_normal" name="email" size="35"></p>
+           <p class="footer_nav">now type in your message to Caillou:<br> <textarea class="instruct_normal" name="content" rows="7" cols="45">						</textarea></p>
+           <p class="footer_nav">Don't forget to double-check your information<br> before you click on 'send'.<br> <br> <input type="reset" value="Start Over">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="Send"></p>
+          </div>
+         </form></td>
+       </tr>
+       <tr>
+        <td></td>
+        <td valign="bottom" width="360"><p class="footer_nav">&nbsp;</p></td>
+       </tr>
+       <tr>
+        <td></td>
+        <td valign="bottom" width="360">
+         <div align="center">
+          <p class="footer_nav">If you would like a reply to your letter,<br> type your email address above.</p>
+          <p class="footer_nav">Your email address is discarded after<br> we send you a response.<br></p>
+          <p class="footer_nav">Unfortunately, not all letters can be answered back.</p>
+         </div></td>
+       </tr>
+       <tr>
+        <td></td>
+        <td valign="bottom" width="360"><p class="footer_nav">&nbsp;</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td bgcolor="#ed1c24">
+    <div align="center">
+     <table width="100%" border="0" cellspacing="0" cellpadding="0" background="../images/bkg_bottom_red.gif" height="20">
+      <tbody>
+       <tr>
+        <td></td>
+       </tr>
+      </tbody>
+     </table>
+     <table width="600" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td>
+         <div align="center">
+          <table border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td valign="top">
+              <div align="left"><a onmouseover="act('games')" onmouseout="inact('games')" href="../games/index.html"><img src="images/choice_games.gif" alt="Games" name="games" height="74" width="110" border="0"></a>
+              </div></td>
+             <td align="center" valign="middle" width="390">
+              <div align="center"><!-- Footer nav bar goes here --> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" style="font-size:12px">| <a href="/caillou/">Caillou Homepage</a> | <a href="/caillou/grownups/sitemap.html">Site Map</a> | <a href="/caillou/games/">Games</a> | <a href="/caillou/activities/">Activities</a> | <a href="/caillou/greetings/">Greeting Cards</a> |<br>| <a href="/caillou/grownups/">Grown-Ups</a> | <a href="http:pbskids.org/">PBS Kids Homepage</a> | <a href="http:pbskids.org/privacy/">PBS Privacy Policy |</a></font>
+               <p></p>
+               <p></p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" style="font-size:12px">Web site copyright © <a href="/caillou/copyright.html">2002</a> CINAR Corporation<br>All rights reserved.</font>
+               <p></p>
+              </div></td>
+             <td valign="top">
+              <div align="right"><a onmouseover="act('activities')" onmouseout="inact('activities')" href="../activities/index.html"><img src="images/choice_activities.gif" alt="Activities" name="activities" height="74" width="110" border="0"></a>
+              </div></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

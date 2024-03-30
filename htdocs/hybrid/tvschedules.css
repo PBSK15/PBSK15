@@ -1,0 +1,896 @@
+/*
+------------------------------------------------------ 
+PBS KIDS TV Schedules CSS
+------------------------------------------------------
+*/
+
+
+/*
+======================================================
+Hybrid Page - Global Styles
+======================================================
+*/
+
+body
+{
+background: #aad638 url(../hybrid/hybrid-background-green.gif);
+margin: 0 auto 5px auto;
+text-align: center;
+color: #000;
+width: 650px;
+}
+
+body, td
+{
+font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+td
+{
+vertical-align: top;
+}
+
+.pageheader
+{
+background-color: #14c5e2;
+width: 650px;
+height: 80px;
+text-align: left;
+margin-bottom: 10px;
+}
+
+table.container
+{
+width: 650px;
+margin-bottom: 10px;
+}
+
+table.container p
+{
+margin: 6px 0 0 0;
+padding: 0;
+}
+
+table.container td.sidebar
+{
+width: 130px;
+background-color: #cdf71c;
+text-align: center;
+}
+
+table.container td.maincontent
+{
+background-color: #d4ff1d;
+text-align: center;
+}
+
+.fineprint, .fineprint a:link, .fineprint a:visited, .fineprint a:hover, .fineprint a:active
+{
+color: #000;
+}
+
+.fineprint a:link, .fineprint a:visited, .fineprint a:active
+{
+text-decoration: underline;
+}
+
+.fineprint a:hover
+{
+text-decoration: none;
+} 
+
+
+/*
+======================================================
+TV Schedules - Global Styles
+======================================================
+*/
+
+#tvschedules
+{
+font: 11px/13px arial, verdana, sans-serif;
+color: #000;
+margin: 5px 0 0 0;
+}
+
+#tvschedules a:link,
+#tvschedules a:visited
+{
+text-decoration: underline;
+color: #000;
+}
+
+#tvschedules a:hover,
+#tvschedules a:active
+{
+text-decoration: none;
+color: #000;
+}
+
+#tvschedules #whatispbs
+{
+margin: 30px 0 0 0;
+text-align: left;
+}
+
+#tvschedules #backtoprogram
+{
+background: url(../tvschedules/images/backtoprogram-bground.gif);
+width: 130px;
+margin: 20px 0 0 0;
+padding: 0;
+color: #fff;
+}
+
+#tvschedules #backtoprogram #link
+{
+width: 100px;
+margin: 5px auto 0 auto;
+}
+
+#tvschedules #backtoprogram #link a:link,
+#tvschedules #backtoprogram #link a:visited,
+#tvschedules #backtoprogram #link a:active,
+#tvschedules #backtoprogram #link a:hover
+{
+color: #fff;
+font-weight: 900;
+}
+
+
+/*
+======================================================
+TV Schedules - Header Styles
+======================================================
+*/
+
+.schedulepagehead
+{
+font-size: 18px;
+line-height: 20px;
+font-weight: 900;
+margin: 0 0 11px 0;
+}
+
+#tvschedules #tvschedulesheader
+{
+width: 100%;
+padding: 0;
+margin: 0 0 10px 0;
+}
+
+#tvschedules .tvschedulesheaderdate
+{
+font-size: 15px;
+color: #000;
+margin: 0;
+display: inline;
+}
+
+#tvschedules #tvschedulesnavcontainer
+{
+white-space: nowrap;
+vertical-align: middle;
+}
+
+#tvschedules #tvschedulesnavcontainer form
+{
+display: inline;
+margin: 0 0 0 20px;
+}
+
+#tvschedules input#submitbutton
+{
+font-family: arial, verdana, sans-serif;
+font-size: 11px;
+margin: -3px 0 0 0;
+padding: 1px;
+background: #fff;
+border: 1px solid #000;
+vertical-align: bottom;
+}
+
+#tvschedules select
+{
+font-size: 11px;
+vertical-align: middle;
+margin: -3px 0 0 0;
+}
+
+#tvschedules #tvschedulesnav
+{
+margin: 0 0 20px 0;
+}
+
+#tvschedules #tvschedulesnav img
+{
+margin: 0 25px 0 0;
+}
+
+#tvschedules #printablestationcommonname
+{
+display: none;
+}
+
+
+
+/*
+======================================================
+TV Schedules - Calendar Styles
+======================================================
+*/
+
+#tvschedules #tvschedulescalendarcontainer
+{
+width: auto;
+margin: 0 auto 20px auto;
+}
+
+#tvschedules #tvschedulescalendarcontainer table
+{
+margin: 0 auto;
+}
+
+
+#tvschedules #tvschedulescalendar
+{
+margin: 0 auto;
+}
+
+
+#tvschedules #tvschedulescalendar a:link,
+#tvschedules #tvschedulescalendar a:visited,
+#tvschedules #tvschedulescalendar a:hover,
+#tvschedules #tvschedulescalendar a:active
+{
+text-decoration: none;
+color: #fff;
+}
+
+#tvschedules #tvschedulescalendar td
+{
+width: 40px;
+height: 40px;
+text-align: center;
+vertical-align: middle;
+}
+
+#tvschedules .calendarmonthheader
+{
+font-size: 14px;
+font-weight: 900;
+color: #74b836;
+padding: 0 0 2px 0;
+text-align: left;
+margin-left: 70px;
+white-space: nowrap;
+}
+
+#tvschedules .calendarday
+{
+text-align: center;
+vertical-align: middle;
+background-color: #a4db2a;
+width: 40px;
+height: 40px;
+}
+
+#tvschedules .calendardayoff
+{
+text-align: center;
+vertical-align: middle;
+padding: 5px;
+background-color: #f9f0c5;
+}
+
+#tvschedules .calendardaytoday
+{
+text-align: center;
+vertical-align: middle;
+background-color: #14c5e2;
+width: 40px;
+height: 40px;
+color: #fff;
+}
+
+#tvschedules #tvschedulescalendar .calendarday a:link,
+#tvschedules #tvschedulescalendar .calendarday a:visited,
+#tvschedules #tvschedulescalendar .calendarday a:hover,
+#tvschedules #tvschedulescalendar .calendarday a:active,
+#tvschedules #tvschedulescalendar .calendardaytoday a:link,
+#tvschedules #tvschedulescalendar .calendardaytoday a:visited,
+#tvschedules #tvschedulescalendar .calendardaytoday a:hover,
+#tvschedules #tvschedulescalendar .calendardaytoday a:active
+{
+color: #fff;
+display: block;
+height: 40px;
+width: 40px;
+text-decoration: none;
+padding-top: 5px;
+}
+
+#tvschedules .calendardayselected
+{
+text-align: center;
+vertical-align: middle;
+padding: 5px;
+background-color: #f0d87d;
+color: #000;
+font-weight: 900;
+}
+
+#tvschedules .calendardayselected a:link,
+#tvschedules .calendardayselected a:visited,
+#tvschedules .calendardayselected a:hover,
+#tvschedules .calendardayselected a:active
+{
+color: #000;
+}
+
+/*
+======================================================
+TV Schedules - Station & Feed Styles
+======================================================
+*/
+
+#tvschedules #stationchannelscontainer
+{
+margin: 0 auto;
+width: auto;
+text-align: center;
+}
+
+#tvschedules #stationchannels
+{
+padding: 0;
+text-align: center;
+width: 130px;
+margin: 20px auto 0 auto;
+}
+
+#tvschedules .stationblock,
+#tvschedules .stationblockon
+{
+margin: 0 auto 5px auto;
+font-size: 12px;
+color: #fff;
+}
+
+#tvschedules .stationblock
+{
+background-color: #74b836;
+border: 1px #74b836 solid;
+}
+
+#tvschedules .stationblockon
+{
+background-color: #14c5e2;
+font-weight: 900;
+}
+
+#tvschedules #stationchannels .stationblock .stationcommonname a:link,
+#tvschedules #stationchannels .stationblock .stationcommonname a:visited,
+#tvschedules #stationchannels .stationblock .stationcommonname a:hover,
+#tvschedules #stationchannels .stationblock .stationcommonname a:active,
+#tvschedules #stationchannels .stationblockon .stationcommonname
+{
+color: #fff;
+text-decoration: none;
+min-width: 98px;
+font-size: 12px;
+text-align: center;
+padding: 10px;
+display: block;
+border: 0px;
+}
+
+#tvschedules table#stationlogo
+{
+width: 111px;
+text-align: center;
+margin: 0 auto;
+}
+
+
+/*
+======================================================
+TV Schedules - Grid Styles
+======================================================
+*/
+
+
+#tvschedules form.rememberstation {
+margin: 0;
+padding: 0;
+font-size: 14px;
+}
+
+#tvschedules #stationlist {
+background: url(../tvschedules/images/stationlist-bground.gif);
+margin: 10px auto 0 auto;
+width: 430px;
+}
+
+#tvschedules #stationlist td {
+vertical-align: middle;
+text-align: left;
+color: #0d8693;
+}
+
+#tvschedules #stationlist table {
+width: 420px;
+margin: 0 auto;
+}
+
+#tvschedules #stationlist td h2,
+#tvschedules #stationlist td h2 a:link,
+#tvschedules #stationlist td h2 a:visited,
+#tvschedules #stationlist td h2 a:hover,
+#tvschedules #stationlist td h2 a:active
+{
+margin: 0;
+padding: 0;
+font-size: 14px;
+text-decoration: none;
+color: #0d8693;
+}
+
+#tvschedules #stationlist td h2 a:link,
+#tvschedules #stationlist td h2 a:visited,
+#tvschedules #stationlist td h2 a:active
+{
+text-decoratin: none;
+}
+
+#tvschedules #stationlist td h2 a:hover
+{
+text-decoration: underline;
+}
+
+#tvschedules #wrongstate
+{
+margin: 0 auto;
+padding-top: 10px;
+color: #0d8693;
+font-size: 12px;
+font-weight: bold;
+}
+
+#tvschedules #tvschedulesgridtable
+{
+width: 100%;
+}
+
+#tvschedules .gridcontainer
+{
+vertical-align: top;
+}
+
+#tvschedules #gridheader
+{
+width: 100%;
+margin: 0 auto 6px auto;
+}
+
+#tvschedules .gridheaderlinkscontainer
+{
+width: 100%;
+padding: 0;
+}
+
+#tvschedules td.gridheaderlinks,
+#tvschedules td.gridheaderlinkscenter
+{
+white-space: nowrap;
+vertical-align: middle;
+}
+
+#tvschedules td.gridheaderlinks
+{
+padding: 10px 0 10px 0;
+}
+
+#tvschedules td.gridheaderlinkscenter
+{
+padding: 0 35px 0 35px;
+}
+
+#tvschedules .grid
+{
+margin-bottom: 6px;
+padding: 0;
+width: 100%;
+}
+
+#tvschedules .grid a:link,
+#tvschedules .grid a:visited
+{
+text-decoration: none;
+color: #000;
+}
+
+#tvschedules .grid a:hover,
+#tvschedules .grid a:active
+{
+text-decoration: underline;
+color: #000;
+}
+
+#tvschedules .grid td
+{
+vertical-align: middle;
+}
+
+#tvschedules .grid td.programimage
+{
+vertical-align: top;
+background-color: #fff;
+width: 95px;
+height: 50px;
+}
+
+#tvschedules .grid td.griddate
+{
+background-color: #dab323;
+font-weight: 900;
+}
+
+#tvschedules .grid td.griddatetoday
+{
+background-color: #e9c954;
+font-weight: 900;
+}
+
+#tvschedules .grid td.griddate,
+#tvschedules .grid td.griddatetoday,
+#tvschedules .grid td.gridtime,
+#tvschedules .grid .gridtimenowplaying
+{
+background-color: #14c5e2;
+padding: 8px;
+vertical-align: middle;
+white-space: nowrap;
+}
+
+
+#tvschedules .grid .gridtimenowplaying
+{
+background-color: #14c5e2;
+padding: 8px;
+white-space: nowrap;
+margin: 0;
+vertical-align: top;
+}
+
+#tvschedules .grid .gridprogramnowplaying
+{
+margin: 0;
+height: 100%;
+}
+
+#tvschedules .grid td.programairdate
+{
+background-color: #14c5e2;
+width: 150px;
+padding: 8px;
+vertical-align: top;
+}
+
+#tvschedules .grid td.gridtime,
+#tvschedules .grid td.programairdate,
+#tvschedules .grid .gridtimenowplaying
+{
+font-size: 14px;
+font-weight: 900;
+color: #fff;
+}
+
+#tvschedules .grid td.gridtime
+{
+width: 80px;
+}
+
+#tvschedules .grid td.gridtimemain
+{
+width: 14%;
+text-align: left;
+vertical-align: middle;
+white-space: nowrap;
+}
+
+#tvschedules .grid td.gridtimemainnav
+{
+background-color: #dab323;
+}
+
+#tvschedules .grid span.gridtimeheader
+{
+text-transform: uppercase;
+font-weight: 900;
+white-space: nowrap;
+color: #000;
+}
+
+
+#tvschedules .grid td.gridprogram,
+#tvschedules .grid .gridprogramnowplaying
+{
+vertical-align: middle;
+}
+
+#tvschedules .grid td.gridprogram,
+#tvschedules .grid .gridprogramnowplaying,
+#tvschedules .grid td.programinfo
+{
+background-color: #3ee7f9;
+padding: 8px;
+color: #0d8693;
+}
+
+#tvschedules .grid td.gridprogram a:link,
+#tvschedules .grid td.gridprogram a:visited,
+#tvschedules .grid td.gridprogram a:hover,
+#tvschedules .grid td.gridprogram a:active,
+#tvschedules .grid .gridprogramnowplaying a:link,
+#tvschedules .grid .gridprogramnowplaying a:visited,
+#tvschedules .grid .gridprogramnowplaying a:hover,
+#tvschedules .grid .gridprogramnowplaying a:active
+{
+color: #0d8693;
+text-decoration: none;
+}
+
+#tvschedules .grid td.gridprogram a:hover,
+#tvschedules .grid .gridprogramnowplaying a:hover
+{
+text-decoration: underline;
+}
+
+#tvschedules .grid td.gridprogram .programtitle,
+#tvschedules .grid td.gridprogram .programtitle a:link,
+#tvschedules .grid td.gridprogram .programtitle a:visited,
+#tvschedules .grid td.gridprogram .programtitle a:hover,
+#tvschedules .grid td.gridprogram .programtitle a:active,
+#tvschedules .grid .gridprogramnowplaying .programtitle,
+#tvschedules .grid .gridprogramnowplaying .programtitle a:link,
+#tvschedules .grid .gridprogramnowplaying .programtitle a:visited,
+#tvschedules .grid .gridprogramnowplaying .programtitle a:hover,
+#tvschedules .grid .gridprogramnowplaying .programtitle a:active  
+{
+font-size: 14px;
+font-weight: 900;
+}
+
+
+#tvschedules .grid td.gridprogramtoday
+{
+background-color: #e9c954;
+}
+
+#tvschedules .grid td.gridnodata
+{
+background-color: #dfd3a9;
+}
+
+#tvschedules .grid td.gridprogramend
+{
+display: none;
+}
+
+#tvschedules .grid .gridprogramepisode
+{
+font-style: italic;
+}
+
+#tvschedules .grid .griddigitalchannelnav
+{
+background-color: #dab323;
+font-weight: 900;
+}
+
+#tvschedules .grid .griddigitalchannelnav a:link,
+#tvschedules .grid .griddigitalchannelnav a:visited
+{
+text-decoration: underline;
+}
+
+#tvschedules .grid .griddigitalchannelnav a:hover,
+#tvschedules .grid .griddigitalchannelnav a:active
+{
+text-decoration: none;
+}
+
+#tvschedules .notairing
+{
+margin: 20px 0 20px 0;
+font-size: 14px;
+}
+
+
+/*
+======================================================
+TV Schedules - Program Specific Schedule Styles
+(some of these are built in with the grids styles above)
+======================================================
+*/
+
+#tvschedules #programscheduleheader
+{
+width: 440px;
+margin: 0 0 20px 0;
+}
+
+#tvschedules #programscheduleheader td#programlogocontainer
+{
+width: 215px;
+vertical-align: middle;
+text-align: center;
+}
+
+#tvschedules #programscheduleheader td#programlogocontainer #programlink
+{
+font-size: 11px;
+width: 180px;
+margin: 10px auto 0 auto;
+text-align: center;
+}
+
+#tvschedules .grid td.programairdate .date
+{
+font-size: 16px;
+}
+
+#tvschedules .grid td.programinfo
+{
+vertical-align: top;
+color: #0d8693;
+}
+
+#tvschedules .grid td.programinfo .episode
+{
+
+}
+
+#tvschedules .grid td.programinfo .time
+{
+font-size: 14px;
+font-weight: 900;
+}
+
+#tvschedules .grid td.programinfo .title
+{
+font-size: 12px;
+font-weight: 900;
+}
+
+#tvschedules .grid td.programinfo .description
+{
+font-size: 11px;
+padding-bottom: 10px;
+}
+
+#tvschedules .notairing
+{
+padding-bottom: 10px;
+}
+
+
+
+/*
+======================================================
+TV Schedules - Stationfinder Styles
+======================================================
+*/
+
+.stationfinder
+{
+color: #000;
+font-size: 11px; 
+line-height: 13px;
+margin: 0 auto;
+width: 413px;
+}
+
+.stationfinder a:link,
+.stationfinder a:visited
+{
+color: #000; 
+text-decoration: underline;
+}
+
+.stationfinder a:hover,
+.stationfinder a:active
+{
+color: #000;
+text-decoration: none;
+}
+
+.stationfinder .schedulepagehead
+{
+color: #000; 
+font-size: 18px; 
+font-weight: 900; 
+line-height: 20px;
+}
+
+.stationfinder .prefsbreadcrumb 
+{
+color: #000; 
+font-size: 11px;
+}
+
+.stationfinder select, 
+.stationfinder input
+{
+color: #000; 
+font-family: arial, verdana, sans-serif;
+font-size: 10px;
+}
+
+.stationfinder #selectstate
+{
+background: url(../tvschedules/images/bground-map.gif);
+width: 413px;
+height: 233px;
+margin: 0 auto 6px auto;
+}
+
+.stationfinder #selectstate #statelist, .stationfinder #selectzipcode input
+{
+font-size: 18px;
+}
+
+.stationfinder #selectstate #statelist {
+margin: 0 0 14px 0;
+vertical-align: middle;
+}
+
+
+.stationfinder #selectzipcode input {
+margin-bottom: 6px;
+}
+
+.stationfinder form
+{
+margin: 0;
+padding: 0;
+}
+
+.stationfinder #selectzipcode {
+background: url(../tvschedules/images/bground-bluebox.gif);
+width: 361px;
+height: 61px;
+margin: 8px auto 0 auto;
+vertical-align: middle;
+text-align: center;
+}
+
+.stationfinder #selectzipcode #form {
+padding-top: 18px;
+}
+
+#findstation
+{
+margin: 6px 0 0 0;
+}
+
+#findstation a:link, #findstation a:visited, #findstation a:hover, #findstation a:active
+{
+color: #74b836;
+}
+
+.stationlist table {
+width: 420px;
+}
+
+.stationlist td {
+color: #0d8693;
+vertical-align: middle;
+}
+
+.stationlist td h2 {
+margin: 0;
+padding: 0;
+font-size: 14px;
+}

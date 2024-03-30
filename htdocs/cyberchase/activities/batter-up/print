@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Activities &mdash; Batter Up! &mdash; Print</title>
+	<style type="text/css">
+		@media all {
+			.page-image {
+				width: 750px;
+				margin: 10px auto;
+			}
+		}
+
+		@media print {
+			.page-break {
+				page-break-after: always;
+			}
+
+			.page-image {
+				width: 7.8in;
+				margin: 0 auto;
+			}
+		}
+	</style>
+	<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/jquery-1.4.2.min.js" ></script>
+</head>
+<body>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/print_batterup_1of2_printable.png" width="750" height="971"/>
+</div>
+
+<div class="page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/print_batterup_2of2_printable.png" width="750" height="971"/>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() { window.print(); });
+</script>
+</body>
+</html>

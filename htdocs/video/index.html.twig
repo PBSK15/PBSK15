@@ -1,0 +1,208 @@
+{% extends 'includes_twig/shellViewPage.html.twig' %}
+{% set pageTitle = 'VIDEO' %}
+{% set bodyClass = 'video-player yellow' %}
+{% block headModules %}
+    <meta name="viewport"       content= "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+<meta name="description"    content= "Watch videos and full episodes of your favorite PBS KIDS shows like Curious George, Dinosaur Train and Sesame Street!">
+
+<meta name="author"         content= "PBS KIDS" />
+<meta name="og:title"       content= "Video | PBS KIDS" />
+<meta name="og:type"        content= "non_profit" />
+<meta name="og:url"         content= "http://pbskids.org/video/" />
+<meta name="og:image"       content= "img/pbskids-opengraph.png" />
+<meta name="og:description" content= "Watch videos and full episodes of your favorite PBS KIDS shows like Curious George, Dinosaur Train and Sesame Street!">
+<meta name="og:site_name"   content= "PBS KIDS" />
+<meta name="og:locality"    content= "Arlington" />
+<meta name="og:region"      content= "VA" />
+<meta name="fb:admins"      content= "PBSKIDS" />
+<link   href='http://pbskids.org/shell/styles/css/video.css' rel="stylesheet"/>
+{% endblock %}
+{% block mainContent %}
+ <div role="main" class="wrapper-block">
+
+    <section id="video-panel">
+      <header role="banner" class="brand">
+        <hgroup>
+          <h1>PBS KIDS</h1>
+        </hgroup>
+        
+        <a href="../"><img data-fallback='http://pbskids.org/shell/images/content/pbs-kids-logo.png' src='http://pbskids.org/shell/images/content/pbs-kids-logo.svg' /></a>
+        
+      </header>
+
+      <div id="video-wrapper">
+        <video id="video-player" class="disabled"></video>
+      </div>
+
+      <div id="controlrack" class="disabled">
+        <div class="scrubber-wrapper">
+          <span class="timer-remaining disabled">00:00</span>
+          <div class="scrubber disabled">
+            <div class="scrubber-track">
+              <span class="scrubber-thumb green"></span>
+            </div><!-- .scrubber-track -->
+          </div><!-- .scrubber -->
+        </div><!-- .scrubber-wrapper -->
+
+        <a id="series-website-button" href="#" title="Website" class="show-site phat-button orange hidden"><img src=""/>Games</a>
+        <a href="../" class="ipocket-logo-fallback"><img data-fallback='http://pbskids.org/shell/images/content/pbs-kids-logo.png' src='http://pbskids.org/shell/images/content/pbs-kids-logo.svg' /></a>
+        <div class="playback-buttons">
+          <button title="Previous" class="previous phat-button green"></button>
+          <button title="Play/Pause" class="play-pause phat-button green"></button>
+          <button title="Next" class="next phat-button green"></button>
+          <span id="volume-controls">
+            <div id="volume-slider-tooltip">
+              <span class="volume-level"></span>
+              <div class="volume-slider disabled">
+                <div class="scrubber-track">
+                  <span class="scrubber-thumb orange"></span>
+                </div><!-- .scrubber-track -->
+              </div><!-- .volume-slider -->
+              <button title="Mute/Unmute" class="toggle-mute green"></button>
+            </div>
+
+            <button class="toggle-volume-slider green hidden"></button>
+          </span>
+          <button title="Captions On/Off" class="toggle-captions hidden green">CC</button>
+        </div>
+      </div><!-- #controlrack -->
+
+    </section><!-- #video-app -->
+
+    <section class="browsing-panel disabled">
+      <header class="browse-tab-wrapper">
+        <h1 class="browse-tab" title="Browse (Shift + B)"></h1>
+      </header>
+
+      <article class="character-list-wrapper">
+        <button class="scroll-up phat-button green up"></button>
+        <div id="character-list">
+          <ul>
+             <li class="phat-button blue hidden"></li>
+          </ul>
+        </div> <!-- #character-list -->
+        <button class="scroll-down phat-button green down"></button>
+      </article> <!-- .character-list-wrapper -->
+
+      <article class="browsing-lists-container">
+        <header>
+          <h1 id="list-title">Weekly Pick: Insects &amp; Bugs</h1>
+          <nav class="video-type-filters">
+            <ul>
+              <li class="filter-option filter-episodes">Full Episodes Only (<span class="full-ep-count">0</span>)</li>
+            </ul>
+          </nav>
+        </header>
+
+        <h2 id="now-playing-flag" class="panel-head toggle-flag active blue first-child">Now<br/>Playing</h2>
+        <article id="nowplaying-list" class="list">
+          <article class="playlistItem">
+            <header class="header">
+              <h1 class="series-title"></h1>
+              <img class="covestackcard_kids"/>
+            </header>
+            <div class="ellipsis">
+              <div>
+                <h2 class="video-title"></h2>
+                <p class="video-description"></p>
+              </div>
+            </div>
+            <footer class="tags">
+              <ul>
+                <li class="video-duration"></li>
+                <li class="new-tag">New</li>
+                <li class="episode-tag">Full Episode</li>
+                <li class="video-expiration"></li>
+              </ul>
+            </footer>
+          </article>
+        </article>
+
+        <h2 id="browse-shows-flag" class="panel-head toggle-flag blue two-lines second-child">Shows</h2>
+        <div id="shows-list-container" class="list-container hidden">
+          <ul id="shows-list" class="list">
+            <li class="showItem"><img class="series-poster" /></li>
+          </ul>
+        </div>
+
+        <h2 id="browse-topics-flag" class="panel-head toggle-flag blue two-lines third-child">Topics</h2>
+        <div id="topics-list-container" class="list-container hidden">
+          <article id="topics-list" class="list">
+            <article class="topics-group">
+              <h3 class="parent-topic"></h3>
+              <ul class="sub-topics"></ul>
+            </article>
+          </article>
+        </div>
+
+        <h2 id="just-added-flag" class="panel-head toggle-flag blue fourth-child">Just<br/>Added</h2>
+        <article id="just-added-list" class="list">
+          <article class="playlistItem">
+            <header class="header">
+              <h1 class="series-title"></h1>
+              <img class="covestackcard_kids"/>
+            </header>
+            <div class="ellipsis">
+              <div>
+                <h2 class="video-title"></h2>
+                <p class="video-description"></p>
+              </div>
+            </div>
+            <footer class="tags">
+              <ul>
+                <li class="video-duration"></li>
+                <li class="new-tag">New</li>
+                <li class="episode-tag">Full Episode</li>
+                <li class="video-expiration"></li>
+              </ul>
+            </footer>
+          </article>
+        </article>
+
+        <article id="browsing-list" class="list">
+          <article class="playlistItem">
+            <header class="header">
+              <h1 class="series-title"></h1>
+              <img class="covestackcard_kids"/>
+            </header>
+            <div class="ellipsis">
+              <div>
+                <h2 class="video-title"></h2>
+                <p class="video-description"></p>
+              </div>
+            </div>
+            <footer class="tags">
+              <ul>
+                <li class="video-duration"></li>
+                <li class="new-tag">New</li>
+                <li class="episode-tag">Full Episode</li>
+                <li class="video-expiration"></li>
+              </ul>
+            </footer>
+          </article>
+        </article>
+
+      </article><!-- .browsing-lists-container -->
+    </section><!-- .browsing-panel -->
+
+  </div><!--/ @role="Main" -->
+
+  <section id="error-message-container">
+    <div id="error-message">
+      <p class="message"></p>
+      <img/>
+      <button>OK</button>
+    </div><!-- #error-message -->
+  </section><!-- #error-message-container -->
+{% endblock %}
+{% block bodyModules %}
+<script type="text/javascript">
+    var dl_guid     = "";
+    var dl_pid      = "";
+    var dl_program  = "";
+    var dl_category = "";
+  </script>
+    
+  <!-- PBSKIDS Loader System (Built on Require.js) -->
+  <script type='text/javascript' src='/js/loader/lib/PBS.KIDS.require.js' data-main='/js/loader/loaders/video.require.config.js' ></script>
+{% endblock %}

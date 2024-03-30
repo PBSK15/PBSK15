@@ -1,0 +1,145 @@
+{% extends 'curiousgeorge/busyday/includes/busyDayPage.html.twig' %}
+
+{% set desc = 'An educational resource for teachers to use Curious George games in the classroom! ' %}
+{% set tags = 'Interactive White Board, computer, math standards, educational games, pre-K, learn math, counting numbers' %}
+{% set pageTitle = 'George\'s Busy Day Teachers | PBS KIDS' %}
+{% set spanish = true %}
+{% set bodyAtrs = ' id="teachers" class="editorial"' %}
+
+{% set specialInclude = '<script type="text/javascript" src="js/lang_nav.js"></script>' %}
+{% set overlayWrapper = false %}
+
+{% block contentArea %}<div id="content-area">
+
+	<img id="dip" src="img/border-top-dip.png" alt="">
+
+	<div class="section">
+		<h2 class="centered"><img src="img/title_teachers_guide_SPAN.png" alt="Teacher's Guide to Games"></h2>
+		<div class="float-left col">
+			<p>Aquí hay <b>16 juegos interactivos para el salón de clase</b>. Cada juego tiene un botón para poder jugar en pantalla completa. Estos juegos serán buenos para usar como actividades educativas en el salón de clase: son adecuados para <b>niños preescolares hasta el primer grado</b>. Jugando estas actividades con toda la clase ayudara a emparejar estudiantes con el mismo nivel de habilidad. Estos juegos también son excelentes para jugar en <b>grupos pequeños, pares, o individuales</b>, sobre la computadora.</p>
+			<p>Todos los juegos incluyen audio. Después de conocer el juego bien, <b>se puede jugar sin sonido</b>. (¡Pero quizás USTED tendrá que ser el narrador!)</p>
+		</div>
+		<div class="float-right col">
+			<p class="no-margin">Le proporcionamos consejos para jugar cada actividad y le sugerimos que:</p>
+			<ul>
+				<li>Les muestre preguntas a los niños mientras juegan. Sugiéranles que <b>adivinen</b> lo que pasara en cada juego.</li>
+				<li>Animen a los niños a descubrir su propia <b>estrategia</b> para resolver cada juego. Sugiéranles que compartan sus ideas con los amigos de clase.</li>
+			</ul>
+			<p><a id="make" href="gamemaker/" class="float-left">Make Your Own Games</a> Si quiere crear su propio juego interactivo usando una pizarra digital interactiva, <b>presione el botón amarillo.</b></p>
+		</div>
+	</div>
+	<img src="img/border-bot.png" class="bot-border" alt="">
+	
+	<img src="img/border-top.png" class="top-border" alt="">
+	<div class="section no-padding">
+		<table>
+			<tbody><tr>
+				<td id="game-titles">&nbsp;</td>
+				<td id="descrip">Description</td>
+				<td id="topic">Topic</td>
+				<td id="tips">Tips</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="trains_sp" href="span_trains/teacher.html"><div class="icon-holder"></div>Estación de Tren</a></td>
+				<td>Ayúdale a Jorge a armar trenes para que tengan el mismo numero de <b>secciones totales</b>.</td>
+				<td><b>Separando números</b>: En este juego los niños hacen parejas entre los números uno a diez para sumar el mismo numero total.</td>
+				<td>Pregúntale a los niños sobre la <b>estrategia</b> que usaran para decidir como armar cada tren. Sugiere a los niños maduros que escriban ecuaciones simples.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="ten_sp" href="span_ten/teacher.html"><div class="icon-holder"></div>Museo del Diez</a></td>
+				<td>Jorge y la profesora Wiseman están visitando el museo. Cuenta el numero de objetos que se han <b>desaparecido</b>.</td>
+				<td>Para cualquier numero 1 a 9, busca el numero para <b>sumar</b> a diez.</td>
+				<td>Deja que los niños escriban en el pizarrón para adivinar cuantos objetos se necesitan para completar la actividad.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="hideseek_sp" href="span_hideseek/teacher.html"><div class="icon-holder"></div>Juega al Escondite</a></td>
+				<td>Busca y presiona los animales, palabras, y números escondidos entre los <b>cuadros</b>.</td>
+				<td>Usa objetos, cuadros, palabras y números para <b>representar cantidades</b> de diez. Punto extra: ¡incluye el número cero!</td>
+				<td>Como actividad de grupo, <b>hagan preguntas a la clase</b> como "¿Quién puede ver el numero TRES?" O, trabajando en pares, encárgale a un estudiante a buscar objetos y a otro estudiante a escribir los números escritos. </td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="bugs_sp" href="span_bugs/teacher.html"><div class="icon-holder"></div>Contando Insectos</a></td>
+				<td>Haz una <b>estimación</b> de los insectos que recogerás con Jorge. Usa la trampa de insectos para capturarlos. Después, cuenta los insectos individuales. ¡No los sueltes!</td>
+				<td>Determina cuál numero es mayor usando <b>estimaciones</b> o <b>contando</b>.</td>
+				<td>Junta toda la clase para <b>estimar</b> y <b>contar juntos</b>.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="drive_sp" href="span_drive/teacher.html"><div class="icon-holder"></div>Conejitos de Paseo</a></td>
+				<td>Maneja con Jorge moviendo el coche hasta <b>un lada a otro</b> colectando y contando zanahorias para sus amigos conejitos.</td>
+				<td>Mientras cuentan zanahorias sobre el camino, niños aprenden <b>el orden de números</b> en este juego y les da la oportunidad de adivinar el número que sigue.</td>
+				<td>Este juego se trata de enseñar el orden de números. Antes de que colecten la próxima zanahoria, pregúntale a los niños "<b>¿Qué número sigue?</b>"</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="meatballs_sp" href="span_meatballs/teacher.html"><div class="icon-holder"></div>Lanzador de Albóndigas</a></td>
+				<td>En este juego, el lanzador de albóndigas también sirve como <b>herramienta para contar</b>.</td>
+				<td>Cuentan el número de albóndigas para cumplir un orden de restaurante.</td>
+				<td>Pregunta a los niños <b>cuantas más</b> albóndigas se necesitan para cumplir cada orden.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="frogs_sp" href="span_frogs/teacher.html"><div class="icon-holder"></div>Ranitas Cantarinas</a></td>
+				<td>Esta <b>actividad da práctica</b> para que niños reconozcan signos de más y menos. ¡Suban el volumen para oír el coro de ranas!</td>
+				<td>Identifica y usa los signos de <b>más y menos</b>.</td>
+				<td>Este juego enseña los signos de más y menos. Antes que presionen el botón, pregúntale a los niños sobre el número de ranas que tendrán.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="dogs_sp" href="span_dogs/teacher.html"><div class="icon-holder"></div>Igual para Todos</a></td>
+				<td>Los amigos perros de Jorge tienen hambre, pero Jorge tiene que repartir la misma cantidad de galletas entre todos.</td>
+				<td><b>Repartan</b> hasta 12 objetos entre 2 o 3 grupos.</td>
+				<td>Este juego da mucha práctica de estrategia. Hace que los niños platiquen sobre un plan para <b>repartir las galletas entre los perros</b>.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="allie_sp" href="span_allie/teacher.html"><div class="icon-holder"></div>Cuenta con Allie</a></td>
+				<td>Presionando <b>la línea de números</b>, los niños practican a contar con la ayuda de Allie.</td>
+				<td>Este juego sirve como <b>tarjetas digitales de aprendizaje</b> para enseñar numeración. Las tarjetas muestran los números uno a veinte, representando cada cantidad con diferentes ilustraciones.</td>
+				<td>Sugiere a los niños que usen el "pen tool" para contar con Allie sin hacer <b>cuenta doble</b>. Presiona sobre el personaje de Allie para que cuente contigo.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="jump_sp" href="span_jump/teacher.html"><div class="icon-holder"></div>Mono Saltarín</a></td>
+				<td><b>Presiona sobre Jorge</b> para contar las pelotas que lanzarán en la pedrera de pelotas.</td>
+				<td>Cuenten hasta <b>cuarenta</b> notando que cada número es más que el principio. </td>
+				<td>Hay muchas oportunidades para cuestiones en este juego: "¿Cuál será el próximo número?" "¿Cuántas pelotas faltan para llenar la caja?" "¿Cuántas pelotas hay en cada fila?" Hay otra versión de este juego que utiliza <b>la camera de la computadora</b>.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="fives_sp" href="span_fives/teacher.html"><div class="icon-holder"></div>Choca esos Cinco</a></td>
+				<td>Estas <b>estampías de manitas coloradas</b> enseñará a los niños a contar entre cincos.</td>
+				<td>Cuenta entre <b>cinco</b> hasta doscientos.</td>
+				<td>Asegura que los niños cuenten con Jorge. No se les olvide aplanar el botón de repetición. Este ejercicio enseña que los números se pueden compartir entre diez sobre cada par de cincos.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="hats_sp" href="span_hats/teacher.html"><div class="icon-holder"></div>Quita Sombreros</a></td>
+				<td>Jorge esta quitándole a la gente <b>sombreros de diferentes colores</b>. Niños mirarán una gráfico que les muestra los objetos prestados.</td>
+				<td>Niños usaran el gráfico para recoger y comparar datos (información). </td>
+				<td>Este juego modela gráficas auténticas. Emprima el gráfico para que toda la clase pueda jugar juntos usando <a href="pdf/activity_hats.pdf">pluma y papel</a>.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="flowers_sp" href="span_flowers/teacher.html"><div class="icon-holder"></div>Jardín de Flores</a></td>
+				<td>Cuenta las flores en el jardín de Jorge.</td>
+				<td><b>Números cardinales</b>: cuenten uno por uno hasta veinte sin contar hacer cuenta doble.</td>
+				<td>Deja que los niños usen el "<b>pen tool</b>" para marcar cuales flores han contado.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="rocket_sp" href="span_rocket/teacher.html"><div class="icon-holder"></div>Cohete al Espacio</a></td>
+				<td><b>Cuenta al revés</b> con Jorge para lanzar un cohete.</td>
+				<td>Cuenten regresivamente desde numero <b>10 hasta 0</b>.</td>
+				<td>Este juego enseña a <b>contar regresivamente</b>. Haga que todos en la clase cuenten desde diez hasta cero. </td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="apples_sp" href="span_apples/teacher.html"><div class="icon-holder"></div>Cosecha Manzanas</a></td>
+				<td>Cosecha manzanas con <b>Jorge y Jumpy</b> en este juego que se hace más difícil por jugar.</td>
+				<td>Usen la línea numérica mostrando números uno hasta diecinueve para poner, ordenar y identificar el <b>número ausente</b>.</td>
+				<td>Este juego es una buena herramienta para adivinara cuales niños necesitan<b> más ayuda</b> con el reconocimiento de números.</td>
+			</tr>
+			<tr>
+				<td><a class="btn" id="bubbles_sp" href="span_bubbles/teacher.html"><div class="icon-holder"></div>Revienta Burbujas</a></td>
+				<td>Revienta burbujas con Jorge y <b>cuenten con</b> El Señor del sombrero amarillo.</td>
+				<td>Cuenten los números uno por uno <b>hasta cincuenta</b>.</td>
+				<td>Este juego será mas divertido entre pares. También hay una versión de <b>palmadas</b> que se puede jugar utilizando el micrófono de la computadora.</td>
+			</tr>
+		</tbody></table>
+	</div> <!-- close section -->
+	
+	<img src="img/border-bot.png" class="bot-border" alt="">
+
+	<p class="centered"><a id="contact-us" href="https://www.pbs.org/parents/curiousgeorge/help/contact_us.html">Tell us what you think about our resources for teachers!</a></p>
+
+</div>{% endblock %}

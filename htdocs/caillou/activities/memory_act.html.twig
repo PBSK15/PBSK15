@@ -1,0 +1,154 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Activities . Memory Game Activity . How To' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script type="text/javascript">function newImage(arg) {	if (document.images) {		rslt = new Image();		rslt.src = arg;		return rslt;	}}function changeImages() {	if (document.images && (preloadFlag == true)) {		for (var i=0; i<changeImages.arguments.length; i+=2) {			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];		}	}}var preloadFlag = false;function preloadImages() {	if (document.images) {		entete_over = newImage("../images/entete-over.gif");		top_over = newImage("images/btn_top-over.gif");		return_over = newImage("images/btn_return_rollover.gif");		back_over = newImage("images/back_btn-over.gif");		preloadFlag = true;	}} </script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="preloadImages();" bgcolor="#00af4c" text="black" link="black" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td bgcolor="#FFFFFF">
+    <div align="center"><a name="top" id="top"></a>
+     <table width="756" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td width="48">&nbsp;</td>
+        <td width="242"><a href="http://pbskids.org/"><img name="pbs" src="../images/PBSLogo.gif" width="42" height="54" border="0" alt="PBS Kids"></a></td>
+        <td width="310"><a href="../index.html" onmouseover="changeImages('entete', '../images/entete-over.gif'); return true;" onmouseout="changeImages('entete', '../images/entete.gif'); return true;" onmousedown="changeImages('entete', '../images/entete-over.gif'); return true;" onmouseup="changeImages('entete', '../images/entete-over.gif'); return true;"><img name="entete" src="../images/entete.gif" width="184" height="96" border="0" alt="Caillou Homepage"></a></td>
+        <td width="156"><a href="printables.html" onmouseover="changeImages('close_button', 'images/back_btn-over.gif'); return true;" onmouseout="changeImages('close_button', 'images/back_btn.gif'); return true;" onmousedown="changeImages('close_button', 'images/back_btn-over.gif'); return true;" onmouseup="changeImages('close_button', 'images/back_btn-over.gif'); return true;"><img src="images/back_btn.gif" alt="Go back" name="close_button" height="59" width="92" border="0"></a></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr height="16">
+   <td bgcolor="white" height="16">
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="22">
+        <td height="22">&nbsp;</td>
+        <td width="15" height="22"></td>
+        <td width="300" height="22"></td>
+       </tr>
+       <tr>
+        <td colspan="3" valign="top"><p class="instruct_normal"><img src="memory_act/images/title_memory_act.gif" alt="Memory Game Activity" height="50" width="390" border="0"></p></td>
+       </tr>
+       <tr>
+        <td valign="top"><p class="instruct_normal">&nbsp;</p></td>
+        <td width="15"></td>
+        <td width="300"><p class="grownups_bold_red"></p></td>
+       </tr>
+       <tr>
+        <td>
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+           <tr>
+            <td>
+             <div align="center"><a onmouseover="act('template1')" onmouseout="inact('template1')" href="memory_act/card_template_01.html"><img src="memory_act/images/mem_card_thumb1.gif" alt="Card template 1" name="template1" height="110" width="79" border="0"></a>
+             </div></td>
+            <td>
+             <div align="center"><a onmouseover="act('template2')" onmouseout="inact('template2')" href="memory_act/card_template_02.html"><img src="memory_act/images/mem_card_thumb2.gif" alt="Card Template 2" name="template2" height="110" width="79" border="0"></a>
+             </div></td>
+            <td>
+             <div align="center"><a onmouseover="act('template3')" onmouseout="inact('template3')" href="memory_act/card_template_03.html"><img src="memory_act/images/mem_card_thumb3.gif" alt="Card Template 3" name="template3" height="110" width="79" border="0"></a>
+             </div></td>
+           </tr>
+           <tr>
+            <td>
+             <div align="center">
+              <p class="footer_nav">Template 1</p>
+             </div></td>
+            <td>
+             <div align="center">
+              <p class="footer_nav">Template 2</p>
+             </div></td>
+            <td>
+             <div align="center">
+              <p class="footer_nav">Template 3</p>
+             </div></td>
+           </tr>
+          </tbody>
+         </table></td>
+        <td width="15"></td>
+        <td width="300"><p class="grownups_bold_red">Printing the templates</p> <p class="instruct_normal">The first step of the activity is to print out the three game templates. Since you need at least two identical cards to play the game, you should print each template two times.</p> <p class="instruct_normal">Click on each of the template thumbnails on the left, one by one. A new page will appear with the full size template.</p> <p class="instruct_normal">Use the print function of your browser to print out each template.</p></td>
+       </tr>
+       <tr>
+        <td><p class="instruct_normal">&nbsp;</p></td>
+        <td width="15"></td>
+        <td width="300"></td>
+       </tr>
+       <tr>
+        <td><p class="grownups_bold_red">Assembling the cards</p> <p class="instruct_normal">Once the templates are printed, the second step is to cut them out. As you will notice, each template contains two playcards separated by a dotted line.</p> <p class="instruct_normal">To save some time cutting, you could fold the templates in two along the full line in the middle of the cards. Then you can cut along the dotted lines all around the cards and finish by cutting the two playcards in their middle, always following the dotted line.</p> <p class="instruct_normal">At any stage of the construction of the game, you can decide to add color to make them even more playful.</p></td>
+        <td width="15"></td>
+        <td width="300"><img src="memory_act/images/mem_act_folding.gif" alt="Folding the template in two" height="150" width="200" border="0">
+         <div align="right">
+          <p><img src="memory_act/images/mem_act_cutting.gif" alt="Cutting along the dotted line" height="125" width="200" border="0"></p>
+         </div>
+         <div align="right">
+         </div></td>
+       </tr>
+       <tr>
+        <td><p class="instruct_normal">&nbsp;</p></td>
+        <td width="15"></td>
+        <td width="300"><p class="grownups_bold_red"></p></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="left"><img src="memory_act/images/mem_act_glueing.gif" alt="Glueing the back of the cards" height="125" width="121" border="0">
+         </div>
+         <div align="right">
+          <p><img src="memory_act/images/mem_act_board.gif" alt="Inserting light cardboard in between" height="130" width="164" border="0"></p>
+         </div></td>
+        <td width="15"></td>
+        <td width="300"><p class="grownups_bold_red">Making the playcards more rigid</p> <p class="instruct_normal">To make the cards more rigid, you can glue the two faces together with a non toxic glue stick.</p> <p class="instruct_normal">To make them even more rigid, you could also place a piece of light cardboard (like the one found supporting paper pads).</p> <p class="instruct_normal">If you do this, you should then put glue on both faces of the cardboard so that each card face stays put.</p></td>
+       </tr>
+       <tr>
+        <td colspan="3"><p class="instruct_normal">&nbsp;</p></td>
+       </tr>
+       <tr>
+        <td colspan="3"><p class="grownups_bold_red">How to play the game:</p> <p class="instruct_normal">Now that you have finished assembling your new memory game, it is time to have fun and play. The rules are simple and fun:</p>
+         <ol>
+          <li type="1" class="instruct_normal">Put all your cards face down on the floor or a table.</li>
+          <li type="1" class="instruct_normal">Now try to match each card with its double.</li>
+          <li type="1" class="instruct_normal">Turn a card to see the drawing on it. Turn another to see if it matches the first one.</li>
+          <li type="1" class="instruct_normal">If it doesn't, turn the cards face down again and try with another card.</li>
+          <li type="1" class="instruct_normal">The trick is to remember the drawings of the cards you turned before and to try to match all the cards.</li>
+         </ol></td>
+       </tr>
+       <tr>
+        <td colspan="3">&nbsp;<br>
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+           <tr>
+            <td><p class="instruct_normal">If you play with another friend, the one who "wins" is the one who finds all the matching cards in the least turns of the cards.</p> <p class="instruct_normal">This game is the paper version of the computer game found in the Caillou site. Click <a href="../games/memory.html">here</a> to try the electronic version.</p></td>
+            <td width="20%">
+             <div align="center">
+              <a href="#top" onmouseover="changeImages('top', 'images/btn_top-over.gif'); return true;" onmouseout="changeImages('top', 'images/btn_top.gif'); return true;" onmousedown="changeImages('top', 'images/btn_top-over.gif'); return true;" onmouseup="changeImages('top', 'images/btn_top-over.gif'); return true;"><img src="memory_act/images/btn_top.gif" alt="Top" name="top" height="61" width="62" border="0"></a>
+             </div></td>
+           </tr>
+          </tbody>
+         </table></td>
+       </tr>
+       <tr>
+        <td>&nbsp;</td>
+        <td width="15"></td>
+        <td width="300"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td bgcolor="#FFFFFF">
+    <div align="center">
+     <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="http://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+     <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="http://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

@@ -1,0 +1,31 @@
+{
+	"manifest": [
+		{"id": "board-bg", "src": "/daniel/assets/img/directory-bg-games-wide.png", "sizes": "largest"},
+		{"id": "board-bg-small", "src": "/daniel/assets/img/directory-bg-games.png", "sizes": "large"},
+		{"id": "thumb-bathroom", "src": "/daniel/assets/img/games/thumbs/game-thumb_bathroom.png"},
+		{"id": "thumb-bedroom", "src": "/daniel/assets/img/games/thumbs/game-thumb_bedroom.png"},
+		{"id": "thumb-creativity", "src": "/daniel/assets/img/games/thumbs/game-thumb_creativity.png"},
+		{"id": "thumb-default", "src": "/daniel/assets/img/games/thumbs/game-thumb_default.png"},
+		{"id": "thumb-doctor", "src": "/daniel/assets/img/games/thumbs/game-thumb_doctor.png"},
+		{"id": "thumb-fishtank", "src": "/daniel/assets/img/games/thumbs/game-thumb_fishtank.png"},
+		{"id": "thumb-makebelieve", "src": "/daniel/assets/img/games/thumbs/game-thumb_makebelieve.png"},
+		{"id": "thumb-music", "src": "/daniel/assets/img/games/thumbs/game-thumb_music.png"},
+		{"id": "thumb-teaparty", "src": "/daniel/assets/img/games/thumbs/game-thumb_teaparty.png"},
+		{"id": "thumb-trolley", "src": "/daniel/assets/img/games/thumbs/game-thumb_trolley.png"},
+		{"id": "audio-bathroom-game", "src": "/daniel/assets/audio/directory_bathroomgame.mp3", "sizes": "largest"},
+		{"id": "audio-bathtime-game", "src": "/daniel/assets/audio/directory_bathtime.mp3", "sizes": "largest"},
+		{"id": "audio-bedtime-game", "src": "/daniel/assets/audio/directory_bedtimegame.mp3", "sizes": "largest"},
+		{"id": "audio-cardcreator-game", "src": "/daniel/assets/audio/directory_cardcreator.mp3", "sizes": "largest"},
+		{"id": "audio-doctor-game", "src": "/daniel/assets/audio/directory_doctorgame.mp3", "sizes": "largest"},
+		{"id": "audio-dress-up-game", "src": "/daniel/assets/audio/directory_dress-up.mp3", "sizes": "largest"},
+		{"id": "audio-fish-game", "src": "/daniel/assets/audio/directory_fishgame.mp3", "sizes": "largest"},
+		{"id": "audio-makebelieve-game", "src": "/daniel/assets/audio/directory_makebelieve.mp3", "sizes": "largest"},
+		{"id": "audio-music-game", "src": "/daniel/assets/audio/directory_musicgame.mp3", "sizes": "largest"},
+		{"id": "audio-sandcastle-game", "src": "/daniel/assets/audio/directory_sandcastle.mp3", "sizes": "largest"},
+		{"id": "audio-teaparty-game", "src": "/daniel/assets/audio/directory_teapartygame.mp3", "sizes": "largest"},
+		{"id": "audio-trolley-game", "src": "/daniel/assets/audio/directory_trolleygame.mp3", "sizes": "largest"},
+		{"id": "daniel-texture", "src": "/daniel/dragonbones/assets/daniel_games/texture.png", "sizes": "largest large"},
+		{"id": "daniel-texture-data", "src": "/daniel/dragonbones/assets/daniel_games/texture.json", "sizes": "largest large"},
+		{"id": "daniel-skeleton-data", "src": "/daniel/dragonbones/assets/daniel_games/skeleton.json", "sizes": "largest large"}
+	]
+}

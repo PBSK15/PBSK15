@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+  <head>  
+    <title>{{pageTitle|raw}}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+<meta charset="utf-8">
+
+<!-- Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Bowlby+One+SC|Roboto' rel='stylesheet' type='text/css'>
+
+
+{% if standardRes is defined and standardRes == false %}
+{% block specificRes %}{% endblock %}
+{% else %}
+<!-- CSS -->
+<link type="text/css" rel="stylesheet" media="screen" href="/daniel/assets/css/core.css"/>
+<link type="text/css" rel="stylesheet" media="print" href="/daniel/assets/css/print.css"/>
+
+<!-- scripts -->
+<script src="https://code.jquery.com/jquery-2.0.2.min.js"></script>
+<script src="/daniel/assets/js/jquery.browser.min.js"></script>
+<!--<script type="text/javascript" src="/assets/js/modernizr.custom.10981.js"></script>-->
+<script src="https://code.createjs.com/createjs-2013.12.12.min.js"></script>
+<script src="/daniel/assets/js/dragonBones.js"></script>
+<script src="/daniel/assets/js/dragonBonesCreateJS.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+
+<script tpye="text/javascript">
+  // adds class to body if flash is enabled or not
+  $('html').addClass(typeof swfobject !== 'undefined' && swfobject.getFlashPlayerVersion().major !== 0 ? 'flash' : 'no-flash');
+</script>
+
+<script type="text/javascript">
+  var ua = navigator.userAgent.toLowerCase();
+  var isAndroid = (ua.indexOf("android") > -1 || ua.indexOf("kindle fire") > -1 || ua.indexOf("silk") > -1); 
+  if (isAndroid || location.search.search("full") > 0) {
+    var html=document.getElementsByTagName('html')[0];
+    html.className = html.className + " no-touch";
+  } else if (location.search.search("mobile") > 0) {
+    var html=document.getElementsByTagName('html')[0];
+    html.className = html.className + " touch";
+  }
+
+  // swallow calls to console.log if the browser doesn't support it (IE9 will crash, for example, if the tools aren't open)
+  if (!window.console) {
+    window.console = {
+      log: function(str) {return;}
+    };
+  }
+
+  $(function() {
+    if ($.browser.msie) {
+      $('html').addClass('oldie');
+    }
+  });
+  
+</script>
+
+
+
+{% if dependencyOverride is defined %}
+{% block dependencyOverride %}{% endblock %}
+    {% else %}
+    <script src="/daniel/assets/js/sg-kit/DBCharacterCJS.js"></script>
+
+		<!--<script src="/daniel/assets/js/home.js"></script>-->
+        <!--<script src="/daniel/assets/js/{{jsInclude}}.js"></script>-->
+
+<!-- Required by PBS -->
+<script type="text/javascript" src="/includes/javascript/sites/daniel/daniel.js"></script>
+
+{% if hasGameSpecificJs == true %}
+    <script src="js/{{gameSpecificJs}}.js"></script>
+    <script src="/daniel/assets/js/sg-kit/DTloader.js"></script>
+{% endif %}
+
+    <script type="text/javascript">
+        $('html').addClass(typeof swfobject !== 'undefined' && swfobject.getFlashPlayerVersion().major !== 0 ? 'flash' : 'no-flash');
+
+        $(function() {
+            $('.exit').attr('href', '/daniel/games/');
+
+            $.getJSON('/daniel/data/parenttips.json', function(result) {
+                var tip = result.FishtankGame[0];
+                $('.parent-tip__text').text(tip);
+            });
+        });
+    </script>
+
+    <!-- XML Connect -->
+<script type="text/javascript">
+  (function() {
+    var xmlhttp;
+
+    if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+    }
+    else {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.open("GET","/daniel/data/games-data.xml",false);
+    xmlhttp.send();
+    window.gamesXmlDoc = xmlhttp.responseXML;    
+  })();
+</script><!-- XML Connect END -->
+<script type="text/javascript">
+	(function() {
+		var xmlhttp;
+
+		if (window.XMLHttpRequest)
+		{// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{// code for IE6, IE5
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		
+		xmlhttp.open("GET","/daniel/data/stories-data.xml",false);
+		xmlhttp.send();
+		window.storiesXmlDoc=xmlhttp.responseXML;		
+	})();
+</script>
+<script type="text/javascript">
+  (function() {
+    var xmlhttp;
+
+    if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+    }
+    else {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.open("GET","/daniel/data/activities-data.xml",false);
+    xmlhttp.send();
+    window.activitiesXmlDoc = xmlhttp.responseXML;    
+  })();
+</script>
+<script type="text/javascript">
+		  if (window.XMLHttpRequest)
+		    {// code for IE7+, Firefox, Chrome, Opera, Safari
+		    xmlhttp=new XMLHttpRequest();
+		    }
+		  else
+		    {// code for IE6, IE5
+		    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		    }
+		  xmlhttp.open("GET","/daniel/data/printables-data.xml",false);
+		  xmlhttp.send();
+		  xmlDoc=xmlhttp.responseXML;
+		</script>
+{% endif %}
+
+
+{% endif %}
+<script src="/daniel/assets/js/{{jsInclude}}.js"></script>
+  </head>  
+    {{bodyOpeningTag|raw}}
+
+
+    
+			<div class="js-disabled" id="js-disabled">
+  <h2 class="header">This website requires javascript</h2>
+  <p>To play with Daniel, enable javascript in your browser.</p>
+</div>
+<script type="text/javascript">
+	var el = document.getElementById("js-disabled");
+	el.style.display = "none";
+	console.log(el);
+</script>
+			<!--<div class="loader"><img src="/daniel/assets/img/loader.gif" alt="Loading..." /></div>-->
+
+      <script type="text/javascript">
+  $(document).ready(function() {
+
+    var url = window.location.pathname;
+
+    url = url.split("/");
+
+    url = jQuery.grep(url, function(s) {
+      return (s !== "" );
+    });
+
+    url = url.slice(0, -1);
+
+    var prev_url = "/" + url.join("/");
+
+    prev_url = window.location.origin + prev_url;
+
+    $('.exit').attr('href', prev_url);
+          
+  });
+</script>
+
+<header class="header--player">
+
+  <a class="to-pbs" href="https://pbskids.org" title="Go to PBS Kids homepage">
+    <img src="/daniel/assets/img/PBSKids_Logo_high.png" />
+  </a>
+
+  <a class="to-dtn" href="/daniel" title="Go to Daniel Tiger homepage">
+    <img src="/daniel/assets/img/DTN-player-logo.png" />
+  </a>
+
+  <a class="exit" href="https://pbskids.org" title="Exit">Exit</a>
+
+</header>
+
+      {% block mainContent %}{% endblock %}
+        {% block lowerBand %}{% endblock %}
+
+        {% if containsFooter == false %}
+        {% else %}
+<footer class="site-footer">
+				<ul class="funders">
+  <div class="find">
+     <a href="/tvschedules/localizer.html?dest=/daniel/games/&nola=DTIG">Find out when Daniel Tiger is on</a>
+
+  </div>
+  <li class="frc"><a href="http://www.fredrogers.org/" target="_blank" class="bg-img-link"></a></li>
+  <li class="cpb"><a href="http://www.cpb.org/" target="_blank" class="bg-img-link"></a></li>
+  <li class="rkm"><a href="http://foundationcenter.org/grantmaker/rkmellon/index.html" target="_blank" class="bg-img-link"></a></li>
+</ul>
+
+<ul class="footer-nav">
+  <li><a class="footer-nav__item" href="/daniel/">Home</a></li>
+  <li><a class="footer-nav__item" href="/daniel/games/">Games</a></li>
+  <li><a class="footer-nav__item" href="/daniel/stories/">Stories</a></li>
+  <li><a class="footer-nav__item" href="/daniel/coloring/">Print</a></li>
+  <li><a class="footer-nav__item" href="/daniel/videos/">Videos</a></li>
+  <li><a class="footer-nav__item" href="http://www.pbslearningmedia.org/" target="_blank">Teachers</a></li>
+  <li><a class="footer-nav__item" href="http://www.pbskids.org/cgi-registry/localize/kids_airdates.cgi?title_id=DTIG" target="_blank">TV Times</a></li>
+</ul>
+
+<div class="fine-print">
+  <ul>
+    <li class="fine-print__item"><a href="http://pbskids.org/privacy/index.html" target="_blank">Privacy Policy</a></li>
+    <li class="fine-print__item"><a href="/daniel/credits/">Credits</a></li>
+  </ul>
+  <p class="copyright">&copy; <?php echo date("Y") ?> The Fred Rogers Company</a>
+
+</div>
+
+			</footer>
+{% endif %}
+
+
+      <script src="/daniel/assets/js/core.js"></script>
+<script src="/daniel/assets/js/player.js"></script>
+
+    
+
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>

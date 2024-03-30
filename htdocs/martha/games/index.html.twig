@@ -1,0 +1,160 @@
+{% extends 'martha/includes/marthaPage.html.twig' %}
+{% set pageTitle = '. Games | PBS KIDS' %}
+
+
+{% block specialHead %}<script type="text/javascript" src="/martha/j/hasFlash.js"></script><script type="text/javascript" src="../j/mspe.js"></script><script type="text/javascript" src="../j/jquery.min.js"></script><script type="text/javascript" src="../j/jquery.jblitter.js"></script><script type="text/javascript" src="../j/navbar1000_sub.js"></script><script type="text/javascript" src="../j/jquery.carouFredSel-5.6.4-packed.js"></script><script type="text/javascript" src="../j/gamesindex.js"></script><style type="text/css">@import "../css/base.css";@import "../css/gamesindex.css";</style>{% endblock %}
+
+
+{% set bodyOpeningTag = '<body onload="ro();">' %}
+{% set selectedNav = 'games' %}
+{% set wordQuestInclude = false %}
+
+
+{% block mainContent %}<div class="list_carousel">
+ <ul id="row1">
+  <li onclick="location.href='../games/marthaseeks/index.html'">
+   <canvas id="marthaseeks" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_marthaseeks.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='../games/marthassteaks/index.html'">
+   <canvas id="marthassteaks" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_marthassteaks.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='../stories/towncrier/index.html'">
+   <canvas id="towncrier" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_towncrier.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='dogtags/index.html'">
+   <canvas id="dogtags" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_dogtags.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='../stories/skits/index.html'">
+   <canvas id="skitspark" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_skitspark.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='circus/index.html'">
+   <canvas id="circus" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_circus.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='../stories/puptalk/index.html'">
+   <canvas id="puptalk" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_puptalk.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='rhymetime/index.html'">
+   <canvas id="rhymetime" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_rhymetime.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='marthursticker/index.html'">
+   <canvas id="stickerbook" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_stickerbook.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='wordplay/index.html'">
+   <canvas id="wordplay" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_wordplay.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='puppals/index.html'">
+   <canvas id="game_puppals" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_puppals.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='maketheband/index.html'">
+   <canvas id="maketheband" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_maketheband.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='crazyvehicle/index.html'">
+   <canvas id="crazyvehicle" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_crazyvehicle.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='dogsonice/index.html'">
+   <canvas id="dogsonice" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_dogsonice.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='socksinspace/index.html'">
+   <canvas id="socksinspace" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_socksinspace.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='scrapbook/index.html'">
+   <canvas id="scrapbook" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_scrapbook.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='skitscooks/index.html'">
+   <canvas id="skitscooks" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_skitscooks.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='switcheroo/index.html'">
+   <canvas id="switcheroo" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_switcheroo.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='scrubapup/index.html'">
+   <canvas id="scrubapup" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_scrubapup.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='catch/index.html'">
+   <canvas id="catch" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_catch.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='radiomartha/index.html'">
+   <canvas id="radiomartha" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_radiomartha.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='skitstricks/index.html'">
+   <canvas id="skitstricks" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_skitstricks.png">
+    </div>
+   </canvas></li>
+  <li onclick="location.href='funnyphotos/index.html'">
+   <canvas id="funnyphotos" width="182" height="126" style="cursor:pointer;">
+    <div style="width: 184px; height: 126px; overflow: hidden;">
+     <img src="../i/gamesindex/gameBtn_funnyphotos.png">
+    </div>
+   </canvas></li>
+  <li></li>
+ </ul>
+ <div class="clearfix"></div> <a id="prev2" class="prev" href="#"></a> <a id="next2" class="next" href="#"></a> <!-- uncomment if you want to enable pagination dots --> <!--	<div id="pager2" class="pagination"></div>	-->
+</div>{% endblock %}
+
+
+{% set ptWrapper = false %}
+{% set boilerplateNav = false %}

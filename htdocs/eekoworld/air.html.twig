@@ -1,0 +1,212 @@
+{% extends 'eekoworld/includes/eekoworldPage.html.twig' %}
+{% set pageTitle = ' | PBS KIDS GO!' %}
+
+
+{% block headerScript %}<script type="text/javascript">
+    <!--
+	
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("flash/header.swf", "header", "970", "131", "8", "#9DC500");
+		
+		
+
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)&staticPageJump=air');
+
+
+		
+		fo.addVariable("allowScriptAccess", "always");
+		fo.addParam('allowScriptAccess', 'always');
+		fo.addParam('wmode', 'transparent');
+
+		
+		PBS_enable_cdn(fo);
+   		fo.write("headerflash");
+
+    }
+    //-->
+    </script>{% endblock %}
+
+
+
+
+{% block leftNavScript %}<script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo = new PBS_SWFObject("flash/sidebar.swf", "sidebar", "236", "569", "8", "#9DC500");
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)&staticPageJump=air');
+
+
+		
+		fo.addVariable("allowScriptAccess", "always");
+		fo.addParam('allowScriptAccess', 'always');
+		fo.addParam('wmode', 'transparent');
+
+		
+		//PBS_enable_cdn(fo);
+   		 fo.write("leftnav");
+
+    }
+    //-->
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="flashcontentwrapper">
+ <div id="flashcontent"><!-- INSERT PAGE CONTENT HERE --> <!-- main SWF GOES HERE -->
+  <script type="text/javascript">
+    <!--
+    if (PBS_FlashCanPlay(9)) {
+
+		var fo;
+		
+		
+			fo = new PBS_SWFObject("flash/core.swf", "flash", "764", "298", "8", "#9DC500");
+		
+		
+		
+			fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)&staticPageJump=air');
+
+
+		
+		fo.addVariable("allowScriptAccess", "always");
+		fo.addParam('allowScriptAccess', 'always');
+		fo.addParam('wmode', 'transparent');
+		
+		//PBS_enable_cdn(fo);
+   		 fo.write("flashcontent");
+
+    }
+    //-->
+</script>
+ </div><!-- END MAIN CONTENT -->
+ <style>
+.posthidden {display:none; margin:0; padding:0;} 
+.postshown {display:inline; margin:0; padding:0;}
+</style> <!-- BEGIN 3 COLUMN CONTAINER TABLE FOR EXCHANGE HOF AND THINK -->
+ <table border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+   <tr><!-- BEGIN EEKOSCHOOL -->
+    <td>
+     <div id="exchange"><!-- main SWF GOES HERE -->
+      <script type="text/javascript">
+        <!--
+        if (PBS_FlashCanPlay(9)) {
+				
+				var fo = new PBS_SWFObject("flash/eekoschool_hppanel.swf", "exchange", "225", "275", "8", "#9DC500");		
+		
+			
+			fo.addVariable("allowScriptAccess", "always");
+			fo.addParam('allowScriptAccess', 'always');
+			fo.addParam('wmode', 'transparent');
+			
+			
+			//PBS_enable_cdn(fo);
+            fo.write("exchange");
+    
+        }
+        //-->
+    </script>
+     </div></td> <!-- BEGIN HOF -->
+    <td>
+     <div id="hof"><!-- main SWF GOES HERE -->
+      <script type="text/javascript">
+        <!--
+        if (PBS_FlashCanPlay(9)) {
+    
+            var fo = new PBS_SWFObject("flash/hof.swf", "hof", "314", "275", "8", "#9DC500");
+            fo.addParam('FlashVars', 'PBSID=(none)&PBSUserName=(none)');
+			
+			fo.addVariable("allowScriptAccess", "always");
+			fo.addParam('allowScriptAccess', 'always');
+			fo.addParam('wmode', 'transparent');
+			
+			PBS_enable_cdn(fo);
+            fo.write("hof");
+    
+        }
+        //-->
+    </script>
+     </div></td> <!-- BEGIN WHAT DO YOU THINK -->
+    <td valign="top"><script>
+		if (PBS_FlashCanPlay(9)) {
+		
+		document.write('<img src="images/think_top.gif" width="227">');
+			document.write('<div class="think">');
+				document.write('<div class="thinktext">');
+				
+				<!---------------------------->
+				<!-- NEW QUESTION GOES HERE -->
+				<!---------------------------->
+				<!---------------------------->
+				
+				document.write('<div style="margin: 0 5px 2px 6px;">&nbsp;');
+				<!--document.write('<span style="float: right; font-size: 11px;"><em>â€“ from Noelle S.</em></span>');-->
+				
+		document.write('<img src="images/spacer.gif" width="100" height="4" alt="spacer"><br />');
+				
+				<!--- THIS IS THE POLL SUBMITTER'S NAME --->		
+				// document.write('<span style="float: right; font-size: 11px;"><em>â€“ from ncsetzer, 9</em></span></div>');
+				
+				//document.write('</div>');
+				<!---------------------------->
+				<!---------------------------->
+				
+				
+					
+		
+				<!-- POLL SOLICITATION -->
+		
+				document.write('</span>');
+				
+				document.write('<span class="posthidden" id="res"></span>');
+		
+				document.write('</div>');
+			document.write('</div>');
+			
+		
+		}
+		</script></td>
+   </tr>
+  </tbody>
+ </table> <!-- END 3 COLUMN CONTAINER TABLE -->
+</div>{% endblock %}
+
+
+
+
+{% block footerContent %}<script>
+if (PBS_FlashCanPlay(9)) {
+
+document.write('<div id="footercontainer">');
+  document.write('<div id="bottombuttons"><a href="parentsteachers/index.html"><img src="images/button_pt.jpg" alt="Parents &amp; Teachers" name="pt" width="164" height="32" id="pt" onMouseOver="MM_swapImage(\'pt\',\'\',\'images/button_pt-over.jpg\',1)" onMouseOut="MM_swapImgRestore()"></a><a href="aboutew/index.html"><img src="images/button_whatis.jpg" alt="What is EekoWorld?" name="what" width="165" height="32" id="what" onMouseOver="MM_swapImage(\'what\',\'\',\'images/button_whatis-over.jpg\',1)" onMouseOut="MM_swapImgRestore()"></a></div>');
+  document.write('<div id="footer">');
+  	document.write('<table border="0" cellspacing="0" cellpadding="0" id="footertable">');
+  document.write('<tr>');
+    document.write('<td class="footercol1">Made Possible by</td>');
+    document.write('<td class="footercol2">Produced by</td>');
+    document.write('<td class="footercol3"></td>');
+    document.write('<td>&nbsp;</td>');
+  document.write('</tr>');
+  document.write('<tr>');
+    document.write('<td class="footercol1"><a href="http://www.cpb.org" title="Corporation for Public Broadcasting" target="_blank"><img src="images/logo_cpb.gif" alt="CPB - Corporation for Public Broadcasting" width="35" height="36"></a></td>');
+    document.write('<td class="footercol2"><a href="http://www.beancreative.com" title="Bean Creative Funktional Web Design" target="_blank"><img src="images/logo_beancreative.gif" alt="Bean Creative" width="103" height="36"></a></td>');
+	
+    document.write('<td class="footercol3"></td>');
+
+    document.write('<td align="right" valign="top"><a href="contact/index.html">Contact us</a>  |  <a href="http://pbskids.org/privacy/">Privacy Policy</a>  |  <a href="aboutew/index.html">About the Site</a><br>');
+      document.write('Copyright &copy; 2005 -2007 <a href="http://www.pbs.org" title="PBS">PBS INTERACTIVE, Inc</a>. All rights reserved.</td>');
+  document.write('</tr>');
+document.write('</table>');
+
+  document.write('</div>');
+document.write('</div>');
+
+
+}
+</script>{% endblock %}
+

@@ -1,0 +1,63 @@
+{% extends 'curiousgeorge/includes/templates/html5_game_page.html.twig' %}
+{% set ftrAttributes = 'id="ftr-games"' %}
+{% set pageTitle = 'Glass Palace' %}
+{% set specialInclude = '<script src="/curiousgeorge/games/glass_palace/js/glass_palace.js" type="text/javascript" language="Javascript1.2"></script><link rel="stylesheet" type="text/css" href="/curiousgeorge/games/glass_palace/css/glass_palace.css" media="screen" /><style>.headband-curiousgeorge #cgi-gamespace{position:relative;top:-12px}.headband-curiousgeorge #cgi-gamespace-po{position:relative;top:-33px;margin-bottom:-22px}.headband-curiousgeorge #nametag-gp{position:relative;top:-15px;margin-bottom:20px;float:left;left:205px}.headband-curiousgeorge #play-btn-gp{position:relative;top:-130px;float:left}.headband-curiousgeorge #ftr-games{clear:both;top:34px !important}.headband-curiousgeorge #cgi-gamespace-po #po-wd{margin-top:22px}.headband-curiousgeorge #cgi-gamespace-po #po-btn,.headband-curiousgeorge #cgi-gamespace-po #po-txt{margin-top:122px}</style>' %}
+
+{% set onloadAtr = ' onload="newBoard();"' %}
+
+{% block gameFrame %}<div id="cgi-gamespace">
+
+	<div id="info">
+		<img src="img/gp_find.gif" alt="find.gif" id="find" width="132" height="23" />
+		<img src="img/target_blank.gif" alt="" id="find_num" width="132" height="80" />
+		<img src="img/myh_blank.gif" alt="try again" id="myh" width="132" height="111" />
+		<img src="img/gp_george.gif" alt="" id="george" width="132" height="107" id="george" />
+	</div>
+	
+	<div id="bldg">
+	
+		<div id="top">
+			<div class="wd" id="wd-1">&nbsp;</div>
+			<div class="wd" id="wd-2">&nbsp;</div>
+			<div class="wd" id="wd-3">&nbsp;</div>
+			<div class="wd" id="wd-4">&nbsp;</div>
+			<div class="wd" id="wd-5">&nbsp;</div>
+		</div>
+		
+		<div id="middle">
+			<div class="wd" id="wd-6">&nbsp;</div>
+			<div class="wd" id="wd-7">&nbsp;</div>
+			<div class="wd" id="wd-8">&nbsp;</div>
+			<div class="wd" id="wd-9">&nbsp;</div>
+			<div class="wd" id="wd-10">&nbsp;</div>
+		</div>
+		
+		<div id="bottom">
+			<div class="wd" id="wd-11">&nbsp;</div>
+			<div class="wd" id="wd-12">&nbsp;</div>
+			<div class="wd" id="wd-13">&nbsp;</div>
+			<div class="wd" id="wd-14">&nbsp;</div>
+			<div class="wd" id="wd-15">&nbsp;</div>
+		</div>
+	
+	</div>
+	
+</div>
+
+<div id="cgi-gamespace-po">
+<div id="wrapper">
+	<div id="po-txt"><img src="img/gp_great_job.gif" alt="great job" width="181" height="103" /></div>	
+	<div id="po-wd">
+		<div id="po-num"><img src="img/payoff_25.gif" alt="" width="152" height="176" id="po-num-img"/></div>
+	</div>
+	<div id="po-btn"><a href="#" onclick="newBoard(); return false;"><img src="img/gp_po_arrow.gif" alt="more" width="176" height="103" class="ovr" id="po-btn-img" /></a></div>	
+</div>
+</div>
+
+<div id="nametag-gp">
+	<img src="/curiousgeorge/games/img/nt_glass_palace.gif" alt="glass palace" width="438" height="51" />
+</div>
+
+<div id="pt-tag">
+	<p style="margin-left: 60px;">Parents & Teachers! <a href="/curiousgeorge/parentsteachers/site/site_features.html#glass_palace">Learn more about Glass Palace</a>.</p>
+</div>{% endblock %}

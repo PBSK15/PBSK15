@@ -1,0 +1,208 @@
+<!doctype html>
+<!--[if lt IE 7]>  <html class="ie ie6 lte9 lte8 lte7 delayload bgImg-1" data-pageGenratr="true" data-pageDepth="root"> <![endif]-->
+<!--[if IE 7]>     <html class="ie ie7 lte9 lte8 lte7 delayload bgImg-1" data-pageGenratr="true" data-pageDepth="root"> <![endif]-->
+<!--[if IE 8]>     <html class="ie ie8 lte9 lte8 delayload bgImg-1" data-pageGenratr="true" data-pageDepth="root"> <![endif]-->
+<!--[if IE 9]>     <html class="ie ie9 lte9 delayload bgImg-1" data-pageGenratr="true" data-pageDepth="root"> <![endif]-->
+<!--[if gt IE 9]>  <html class="delayload bgImg-1" data-pageGenratr="true" data-pageDepth="root"> <![endif]-->
+<!--[if !IE]><!--> <html class="delayload bgImg-1" data-pageGenratr="true" data-pageDepth="root"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Home Page . Odd Squad | PBS KIDS</title>
+	<meta name="viewport" content="initial-scale=1">
+    
+    <meta property="og:title" content="Home Page . Odd Squad | PBS KIDS" />
+    <meta property="og:url" content="https://pbskids.org/oddsquad" />
+    <meta property="og:description" content="Odd Squad is a live-action comedy about two kids, Agent Olive and Agent Otto, who work for a government agency run by kids in suits who are equipped with the world's most advanced and unpredictable gadgetry. Whenever anything strange, unusual or just plain nuts (including giant nuts falling out of the sky) happens, it's Odd Squad's job to put things right again. Odd Squad has a fun, goofy, irreverent style that includes sight gags, one-liners, absurd situations and plenty of slapstick. Embedded in each episode is a math concept aimed at kids in grades 1-2. For example, in one episode, Olive and Otto are called-on to help a pizza delivery lady who keeps doubling herself. In the process of helping her, Olive and Otto also explore and learn what happens when you double a number. Odd Squad is a fun and engaging way for kids to become familiar with, and master, key math concepts and operations." />
+    <meta property="og:image" content="https://pbskids.org/oddsquad/img/global/logo-oddsquad.png" />
+    
+	<script type="text/javascript" src="//use.typekit.net/nuo4rii.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+	<script type="text/javascript" src="/oddsquad/js/history.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script>
+    
+	<script type="text/javascript" src="/oddsquad/js/jquery.drawHex.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/agent.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/locker.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/achievements.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/jquery.pageGenratr.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/jquery.spritely.js"></script>
+
+	<script type="text/javascript" src="/oddsquad/js/iscroll-probe.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/functions.init.js"></script>
+	<script type="text/javascript" src="/oddsquad/js/pbs-video.js"></script>
+    
+	<script>
+		//check if url has params and turn into pushstate/clean urls
+		params = genratrCheckURL();
+		//console.log('params: ', params);
+		if(params !== undefined) {
+			//url has params
+			var target	= params[1].target,
+				url		= params[1].dir;
+			
+		}
+	</script>
+    <link href="/oddsquad/css/reset.min.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/global.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/newAgent.css" rel="stylesheet" type="text/css" />
+    <link href="/oddsquad/css/pageVideo.css" rel="stylesheet" type="text/css" />
+    
+	<link href="/oddsquad/css/mobile-tablet.css" rel="stylesheet" type="text/css" media="(min-width: 900px) and (max-width: 1200px)" />
+	<link href="/oddsquad/css/mobile-phone.css" rel="stylesheet" type="text/css" media="(min-width: 0px) and (max-width: 900px)" />
+
+</head>
+
+<body>
+<div class="odd-wrapper">
+
+	{% include 'oddsquad/includes/templates/globalBgs.html' %}
+	<ul data-overlay="loading">
+       	<a href="#" class="btn-continue">
+	        <div class="sizer"></div>
+	        <div class="sized">
+                <img src="/oddsquad/img/global/btn-loading.png" class="btn-loading" style="opacity: 0;"/>
+                <div class="btn-animate" style="opacity: 1;"></div>
+                <img src="/oddsquad/img/global/btn-start-hover.png" class="btn-start" style="opacity: 0;"/>
+            </div>
+		</a>
+    	<li class="panel panel-top hexbg" data-startFrom="bottom">
+        </li>
+    	<li class="panel panel-btm hexbg" data-startFrom="top">
+        	<div class="copyright">
+            	<p>Major funding for Odd Squad is provided by the Corporation for Public Broadcasting & the U.S. Department of Education</p>
+                <ul class="sponsors">
+                	<li><img src="/oddsquad/img/sponsors/sponsor-doe.png" /></li>
+                	<li><img src="/oddsquad/img/sponsors/sponsor-cpb.png" /></li>
+                	<li><img src="/oddsquad/img/sponsors/sponsor-fredrogers.png" /></li>
+                	<li><img src="/oddsquad/img/sponsors/sponsor-sse.png" /></li>
+                </ul>
+                <p>The contents of this Web site were developed under a cooperative agreement, #PRU295A100025, from the U.S. Department of Education.<br />However, those contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government.</p>
+                    <p>Odd Squad © 2014 The Fred Rogers Company</p>
+            </div>
+        </li>
+    <script>
+		if(params !== undefined) {
+			//if linked to from flat page dont show loading screen
+			$('[data-overlay="loading"]').remove();
+			setTimeout(function () {
+				$('html').removeClass('delayload');
+			}, 0);
+		}
+	</script>
+    </ul>
+    <header>
+    	{% include 'oddsquad/includes/templates/mainNav.html' %}
+    	<nav class="mobileNav">
+        	<a href="#" class="toggleNav">
+           		<img src="/oddsquad/img/global/mobile-tab.png" width="78" height="182" alt=""/>
+            </a>
+        	<ul>
+            	<li class="pg-home">
+        			<a href="/home/" data-genratrTarget onClick="closeOverlay('')" title="home"><i></i><span>Home</span></a>
+                </li>
+            	<li class="pg-games">
+        			<a href="/games/" data-genratrTarget onClick="closeOverlay('')" title="games"><i></i><span>Games</span></a>
+                </li>
+            	<li class="pg-agents">
+        			<a href="/agents/" data-genratrTarget onClick="closeOverlay('')" title="agents"><i></i><span>Agents</span></a>
+                </li>
+            	<li class="pg-videos">
+        			<a href="/videos/" data-genratrTarget onClick="closeOverlay('')" title="videos"><i></i><span>Videos</span></a>
+                </li>
+            </ul>
+            
+                <div class="copyright">
+                    <p>Major funding for Odd Squad is provided by the Corporation for Public Broadcasting & the U.S. Department of Education</p>
+                    <ul class="sponsors">
+                        <li><img src="/oddsquad/img/sponsors/sponsor-doe.png" /></li>
+                        <li><img src="/oddsquad/img/sponsors/sponsor-cpb.png" /></li>
+                        <li><img src="/oddsquad/img/sponsors/sponsor-fredrogers-w.png" /></li>
+                        <li><img src="/oddsquad/img/sponsors/sponsor-sse-w.png" /></li>
+                    </ul>
+                    <p>The contents of this Web site were developed under a cooperative agreement, #PRU295A100025, from the U.S. Department of Education. However, those contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government.</p>
+                    <p>Odd Squad © 2014 The Fred Rogers Company</p>
+                </div>
+            
+    <div class="tvschedules">
+        <a href="/tvschedules/localizer.html?dest=/oddsquad/&nola=ODDS">Find your local PBS station</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="/cgi-registry/localize/kids_airdates.cgi?title_id=ODDS">Local TV Schedule</a>
+	</div>
+        
+        </nav>
+    </header>
+
+    <div class="pg-wrapper">
+    	<section class="pg-lst">
+            <article class="pg-home" data-title="home">
+            	<a href="/agents/createagent/" data-genratrTarget onClick="closeOverlay('')" class="btn-hex btn-hex-size-01 btn-hex-episode btn-hex-main" title="Odd Squad Needs You!">
+                	<img src="/oddsquad/img/hexagons/oddsquad_needs_you-hex.png" width="817" height="817" />
+                </a>
+            	<a href="/videos/" data-genratrTarget onClick="closeOverlay('')" title="videos" class="btn-hex btn-hex-size-03 btn-hex-doubletrouble">
+                	<img src="/oddsquad/img/hexagons/videos-hex.png" width="817" height="817" />
+				</a>
+            	<a href="/oddsquad/games/downthetubes/" class="btn-hex btn-hex-size-05 btn-hex-posi-1"  title="Down the Tubes">
+                	<img src="/oddsquad/img/hexagons/downthetubes-badge.png" width="817" height="817" />
+                </a>
+            	<a href="/oddsquad/games/codebreaker/" class="btn-hex btn-hex-size-03 btn-hex-pienado"  title="Creature Duty">
+                	<img src="/oddsquad/img/hexagons/codebreaker-badge.png" width="817" height="817" />
+                </a>
+            	<a href="/oddsquad/games/creatureduty/" class="btn-hex btn-hex-size-04 btn-hex-blobchase" title="Creature Duty">
+                	<img src="/oddsquad/img/hexagons/creatureduty-badge.png" width="817" height="817" />
+                </a>
+                <div class="copyright">
+                    <p>Major funding for Odd Squad is provided by the Corporation for Public Broadcasting & the U.S. Department of Education</p>
+                    <ul class="sponsors">
+                        <li><img src="/oddsquad/img/sponsors/sponsor-doe.png" /></li>
+                        <li><img src="/oddsquad/img/sponsors/sponsor-cpb.png" /></li>
+                        <li><img src="/oddsquad/img/sponsors/sponsor-fredrogers.png" /></li>
+                        <li><img src="/oddsquad/img/sponsors/sponsor-sse.png" /></li>
+                    </ul>
+                    <p>The contents of this Web site were developed under a cooperative agreement, #PRU295A100025, from the U.S. Department of Education.<br/>However, those contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government.</p>
+                    <p>Odd Squad © 2014 The Fred Rogers Company</p>
+                </div>
+                
+            </article>
+            
+            <article data-genratr="/oddsquad/games/index.html" class="pg-section pg-games pg-games4" data-title="games">
+            </article>
+            
+            <article  data-genratr="/oddsquad/agents/index.html" class="pg-section pg-agents" data-title="agents">
+            </article>
+            
+            <article data-genratr="/oddsquad/videos/index.html" class="pg-section pg-videos" data-title="videos">
+			</article>
+		</section>
+	</div>
+    
+    
+    <div class="tvschedules">
+        <a href="/tvschedules/localizer.html?dest=/oddsquad/&nola=ODDS">Find your local PBS station</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="/cgi-registry/localize/kids_airdates.cgi?title_id=ODDS">Local TV Schedule</a>
+	</div>
+    
+    
+    {% include 'oddsquad/includes/templates/mainFooterNav.html.twig' %}
+    <div class="iecover"></div>
+    </div>
+	<script>		
+		//if url doesnt have params do this (direct home page request)
+		if(params == undefined) {
+			calcHex();
+		};
+	</script>
+	<script type="text/javascript" src="/oddsquad/js/newAgent.js"></script>
+
+
+
+{% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+
+  
+
+
+
+</body>
+</html>

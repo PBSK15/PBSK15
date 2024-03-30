@@ -1,0 +1,127 @@
+/*
+-----------------------------------------------
+WGBH Digital
+Plum Landing Bilby Game
+kal_gieber@wgbh.org
+April 2014
+----------------------------------------------- 
+*/
+
+/* -------------------- GAME ----------------------- */
+
+#georgehc-game-box {
+	float:left;
+	position:relative;
+	width:900px;
+	height:506px;
+}
+
+#georgehc-game-box * {
+	position:absolute;
+}
+
+#georgehc-game * {
+	position:absolute;
+}
+
+#animtxt_block span {
+	width:360px;
+	display:block;
+}
+
+#endanimtxt_block span {
+	width:380px;
+	display:block;
+}
+
+#hsanimtxt_block span {
+	width:320px;
+	display:block;
+}
+
+/* LOADING POSITION OVERRIDE */
+
+#loading {
+    bottom: 6px
+}
+
+/* POINTS DISPLAY STYLES OVERRIDES */
+/*
+#georgehc-game-box .user-points-main {
+	padding: .15em 0;
+	overflow:hidden;
+}
+
+#georgehc-game-box .user-points-main h1 {
+	position:relative !important;
+	margin-left: .1em;
+	margin-right: .075em;
+	text-align:left;
+}
+
+#georgehc-game-box .user-points-main h6 {
+	position:relative !important;
+	margin-top:0;
+	margin-left: .45em;
+	text-align:left;
+}
+
+#georgehc-game-box .user-points-main h3 {
+	position:relative !important;
+	margin-top:0;
+	margin-left: .25em;
+	text-align:left;
+}
+
+#georgehc-game-box .user-points-main {
+	padding: .15em 0;
+	overflow:hidden;
+}
+
+#georgehc-game-box .user-points-main#bilby_currhs {
+	background-color:transparent;
+}
+
+#georgehc-game-box .user-points-main#bilby_newhs {
+	margin: 0 auto;
+}
+
+#georgehc-game-box .user-points-main#bilby_newhs h1 {
+	text-align:center;
+}
+*/
+/* -------------------- UNIQUE FOR BILBY GAME ----------------------- */
+
+/* POINTS DISPLAY STYLES */
+/*
+#bilby-game-box .bilby_scores {
+	position:relative !important;
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-align:left;
+	margin-top:0;
+}
+
+#bilby-game-box #bilby_hscore {
+	line-height: 46px;
+	color: #9e89e5;
+	padding:0 12px;
+	text-align:center !important;
+}
+
+#bilby-game-box #bilby_curscore_hd {
+	position:relative !important;
+	color: #ffffff;
+	line-height: 32px;
+	padding-left:8px;
+}
+
+#bilby-game-box #bilby_curscore_val {
+	position:relative !important;
+	color: #ffffff;
+	font-size: 28px;
+	line-height: 30px;
+	padding-right:8px;
+}
+*/

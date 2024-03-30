@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<games>
+	<loadSchema primaryBatch="imgSrc" />
+	<imgSrc>
+		<img id="leafylafoo" file="img/GamesLeafy.jpg" />
+		<img id="gravity" file="img/GameAd_Gravity.jpg" />
+		<img id="swph" file="img/SWPH_promogame.jpg" />
+		<img id="freezeKnees" file="img/GameAd_FreezeKnees.jpg" />
+		<img id="mathsafari" file="img/GameAd_MathSafari.png"  />
+		<img id="meerkat" file="img/GameAd_Meerkat.png"  />
+		<img id="beehiveandseek" file="img/GameAd_Beehive.png"  />
+		<img id="beavercity" file="img/GameAd_BeaverCity.png"  />
+		<img id="huffpuffatron" file="img/GameAd_HuffPuff.png"  />
+		<img id="greatshaperace" file="img/GameAd_GreatShapeRace.png" />
+		<img id="sketchamite" file="img/GameAd_SketchAMite.png" />
+		<img id="hermitshellgame" file="img/GameAd_HermitShellGame.png" />
+		<img id="migrationadventure" file="img/GameAd_MigrationAdventure.png" />
+		<img id="flowerfinder" file="img/GameAd_FlowerFinder.png" />
+		<img id="weathertransformer" file="img/GameAd_WeatherTransformer.png" />
+		<img id="nocturnalhathunt" file="img/GameAd_HatHunt.png" />
+		<img id="nowyouseeme" file="img/GameAd_NowYouSeeMe.png" />
+		<img id="suchgreatheights" file="img/GameAd_SuchGreatHeights.png" />
+		<img id="deepseafollowme" file="img/GameAd_DeepSeaFollowMe.png" />
+		<img id="seahorse" file="img/GameAd_DoYouSeeMySeahorse.png" />
+		<img id="rainbow" file="img/GameAd_ChasingRainbows.png" />
+	</imgSrc>
+	
+	<promos folder="img/">
+		<promo id="leafylafoo" path="img/GamesLeafy.jpg" color="green" link="leafylafoo.html"/>
+		<promo id="gravity" path="img/GameAd_Gravity.jpg" color="blue" link="gravity.html"/>
+		<promo id="swph" path="img/img/SWPH_promogame.jpg" color="green" link="swph.html"/>
+		<promo id="freezeKnees" path="img/GameAd_FreezeKnees.jpg" color="blue" link="freeze-your-knees.html"/>
+		<promo id="mathsafari" path="GameAd_MathSafari.png" color="purple" link="math-safari.html" />
+		<promo id="beavercity" path="GameAd_BeaverCity.png" color="yellow" link="beaver-city.html" />
+		<promo id="meerkat" path="GameAd_Meerkat.png"  color="red" link="meerkat.html"/>
+		<promo id="beehiveandseek" path="GameAd_Beehive.png"  color="blue" link="beehive.html"/>
+		<promo id="seahorse" path="img/GameAd_DoYouSeeMySeahorse.png" color="green" link="doyouseemyseahorse/index.html" />
+		<promo id="deepseafollowme" path="img/img/GameAd_DeepSeaFollowMe.png" color="yellow" link="deepseafollowme/index.html" />
+		<promo id="rainbow" file="img/GameAd_ChasingRainbows.png" color="yellow" link="chasing-rainbows.html"/>
+		<promo id="huffpuffatron" path="GameAd_HuffPuff.png" color="yellow" link="huff-puff-a-tron.html" />
+		<promo id="greatshaperace" path="GameAd_GreatShapeRace.png" color="purple" link="great-shape-race.html" />
+		<promo id="sketchamite" path="GameAd_SketchAMite.png" color="blue" link="sketch-a-mite.html" />
+		<promo id="hermitshellgame" path="GameAd_HermitShellGame.png" color="green" link="hermitshellgame/index.html" />
+		<promo id="migrationadventure" path="GameAd_MigrationAdventure.png" color="blue" link="migration-adventure.html" />
+		<promo id="flowerfinder" path="GameAd_FlowerFinder.png" color="yellow" link="flower-finder.html" />
+		<promo id="weathertransformer" path="GameAd_WeatherTransformer.png" color="blue" link="weather-transformer.html" />
+		<promo id="nocturnalhathunt" path="GameAd_HatHunt.png" color="red" link="nocturnal-hat-hunt.html" />
+		<promo id="nowyouseeme" path="GameAd_NowYouSeeMe.png" color="purple" link="now-you-see-me.html" />
+		<promo id="suchgreatheights" path="GameAd_SuchGreatHeights.png" color="red" link="such-great-heights.html" />
+	</promos>
+</games>

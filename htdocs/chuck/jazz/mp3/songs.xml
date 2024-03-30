@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player>
+
+<settings
+
+defaultVolume = "1"
+autoplay = "true"
+finished = "5"
+unfinished = "1"
+
+mainBackgroundColor = "000000"
+buttonsBackgroundColor = "000000"
+buttonsOutlineColor = "ffffff"
+buttonsIconColor = "00ffff"
+buttonsIconOverColor = "FFFFFF"
+volumeBarColor = "FFFFFF"
+loadBarColor = "018786"
+progressBarColor ="00ffff"
+
+spectrumLeftColor = "ffffff"
+spectrumLeftLineColor = "FFFFFF"
+spectrumRightColor = "00ffff"
+spectrumRightLineColor = "00FFFF"
+
+/>
+
+<song>
+<title>CVC Jazzed </title>
+<url>jazz/mp3/songs/CVC_JazzSong4_jazzed.mp3</url>
+</song>
+
+<song>
+<title>CVC Weather</title>
+<url>jazz/mp3/songs/j_mp3_weathersong.mp3</url>
+</song>
+
+<song>
+<title>CVC Scat</title>
+<url>jazz/mp3/songs/j_mp3_scattingjazz.mp3</url>
+</song>
+
+<song>
+<title>CVC Never Ending</title>
+<url>jazz/mp3/songs/j_mp3_neverendingsong.mp3</url>
+</song>
+
+
+<song>
+<title>CVC Groove</title>
+<url>jazz/mp3/songs/j_main_song3_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Jazz Swing</title>
+<url>jazz/mp3/songs/j_main_song1_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Jazz Delight</title>
+<url>jazz/mp3/songs/j_main_song2_withsolos.mp3</url>
+</song>
+
+
+<song>
+<title>CVC Trampoline</title>
+<url>jazz/mp3/songs/CVC_JazzSong1_tram.mp3</url>
+</song>
+
+<song>
+<title>CVC Radio</title>
+<url>jazz/mp3/songs/CVC_JazzSong2_radio.mp3</url>
+</song>
+
+<song>
+<title>CVC Rain</title>
+<url>jazz/mp3/songs/CVC_JazzSong3_rain.mp3</url>
+</song>
+
+</player>
+

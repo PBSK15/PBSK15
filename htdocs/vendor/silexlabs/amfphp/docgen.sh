@@ -1,0 +1,1 @@
+/Applications/mampstack-5.5.4-0/php/bin/php phpDocumentor.phar -d ./Amfphp/ -t ./doc/

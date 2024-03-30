@@ -1,0 +1,495 @@
+/* BASE RESET
+-------------------------------------------------------------- */
+html { height:100%; }
+*, td, img {margin : 0; padding : 0;}
+img {border: 0;}
+p {padding: 0 0 0 0; margin: 0 0 0 0}
+form label {cursor: pointer}
+fieldset {border: none}
+form, fieldset, input, select, textarea {font: normal 100%/125% arial, sans-serif; color: #000; border: none;}
+body {
+	font: normal 100%/125% 'Trebuchet MS' , arial, verdana, sans-serif; /*approx 16px = default font size*/
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: url("../img/bg_pattern.gif") repeat #3B96C5;
+}
+a, area, input, select, div { outline: none; }
+
+
+/* SHARED STYLES
+-------------------------------------------------------------- */
+a { color: #F10; }
+a:visited { color: #B50C00; }
+
+p, table, ul, ol { font-size: .875em; /* 14px/16px=.875em */ }
+p, .section ul, .section ol { margin-bottom: .8em; }
+
+h2 { clear: both; }
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+
+.yellowTxt { color: #ffe500; }
+
+.inline li { display: inline; float: left; list-style-type: none; }
+.float-left { float: left; }
+.float-right { float: right; }
+.centered {text-align: center; }
+.cleared { clear: both; }
+
+td { vertical-align: top; }
+
+
+/* SHARED MODULES
+-------------------------------------------------------------- */
+#wrapper { background: none repeat scroll 0 0 #3B96C5; }
+
+/* bottom or top navigation */
+.nav {
+width: 950px;
+margin: 0 auto;
+}
+
+.nav li { list-style-type: none; }
+
+/* body section */
+.section {
+clear: both;
+overflow: hidden;
+background-color: #C5E0EE;
+border-left: 6px solid #006683;
+border-right: 3px solid #006683;
+height: 1%;
+}
+
+.top-border {
+margin-bottom: -21px;
+width: 100%;
+position: relative;
+z-index: 4;
+height: 21px;
+}
+
+#dip {
+width: 100%;
+height: 34px;
+margin: 0 0 -34px 0;
+z-index: 5;
+position: relative;
+}
+
+.bot-border {
+margin-bottom: 13px;
+margin-top: -2.7777778%; 	/* -25px */
+width: 100%
+}
+
+.section li { margin-left: 1em; }
+
+.no-padding { padding: 0; }
+.no-margin { margin: 0; }
+
+.section h2 { padding: 35px 0 18px; }
+
+.col {
+width: 41.5%; 	/* 370px */
+padding: 0 4%; 	/* 35px */
+clear: none; }
+
+/* tables */
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+
+td {
+border-left: 2px solid #006784;
+border-top: 2px solid #006784;
+padding: 7px;
+}
+
+tr:first-child td {
+border-top: none;
+padding-top: 13px;
+font-size: 1.5em; /* 12px/18px = 1.5em */
+font-weight: bold;
+}
+
+td:first-child { border-left: none; }
+tr:first-child { border-top: none;}
+
+#flashContent {
+outline: none;
+height: 500px;
+}
+
+/* pages with content after swf and before footer */
+.has-sub-footer #content-area { padding-bottom: 0; }
+.has-sub-footer #flashContent { margin-bottom: 14px; }
+.has-sub-footer #footer-wrapper { margin-top: 18px; }
+
+#contact-us {
+display: block;
+width: 519px;
+height: 16px;
+margin: 0 auto;
+background: url(../img/tellus.png) no-repeat;
+text-indent: -99999px;
+cursor: pointer;
+}
+
+#contact-us:hover {
+background-position: 0 -17px;
+}
+
+/* TOP NAV
+-------------------------------------------------------------- */
+#top-nav {
+overflow: hidden;
+margin-bottom: -10px;
+z-index: 10;
+position: relative;
+}
+
+.editorial #top-nav { margin-bottom: -25px; }
+
+#top-nav a, #top-nav h1 {
+display: block;
+text-indent: -9999px;
+/* background-image: url(../img/CGBD_navigation.gif); */
+background-repeat: no-repeat;
+}
+
+.en-bg a{
+	background-image: url(../img/CGBD_navigation.gif);
+	background-repeat: no-repeat;
+}
+
+.sp-bg a{
+	background-image: url(../img/CGBD_navigation_span.gif);
+}
+
+#pbskids-logo { background-position: -10px -115px; width: 51px; height: 49px; margin: 10px 0 0 10px;}
+
+#cg-logo { background-position: -76px -105px; width: 82px; height: 89px; margin-left: 15px;}
+#cg-logo:hover { background-position: -76px 0px; }
+
+a#cgbd-logo { text-indent: 0; width: 358px; margin-left: 13px; z-index: 11; position: relative; background-image: none; }
+#cgbd-logo img { width: 100%; }
+
+#lang-icon { background-position: -528px -105px; width: 89px; height: 96px; margin-right: 9px;}
+#lang-icon:hover, #lang-index #lang-icon { background-position: -528px 0px; }
+
+#splang-icon { background-position: -528px -105px; width: 89px; height: 96px; margin-right: 9px;}
+#splang-icon:hover, #lang-index #lang-icon { background-position: -528px 0px; }
+
+#games-icon { background-position: -628px -105px; width: 101px; height: 96px; margin-right: 8px;}
+#games-icon:hover, #games-index #games-icon { background-position: -628px 0px; }
+
+#stickers-icon { background-position: -735px -105px; width: 102px; height: 88px; margin-right: 7px;}
+#stickers-icon:hover, #stickers #stickers-icon { background-position: -735px 0px; }
+
+#print-icon { background-position: -843px -105px; width: 92px; height: 45px; margin-right: 12px;}
+#print-icon:hover, #printables #print-icon { background-position: -843px 0px; }
+
+#teachers-icon { background-position: -843px -149px; width: 83px; height: 43px; }
+#teachers-icon:hover, #teachers #teachers-icon { background-position: -843px -44px; }
+
+
+/* MAIN CONTENT AREA
+-------------------------------------------------------------- */
+#content-area {
+width: 900px;
+margin: 0 auto 5px auto;
+padding-bottom: 17px; /* seperate padding from margin for decorative crayon image */
+padding: 0 25px 17px 25px; /* remove side padding for repsonsive layout */
+position: relative;
+}
+
+
+/* FOOTER
+-------------------------------------------------------------- */
+#footer-wrapper { /* extends entire width of the browser window */
+font-size: .85714286em;
+min-height: 299px;
+background: #ffdb00 url(../img/bg_pattern.gif);
+border-top: 5px solid #006683;
+margin-top: 35px;
+}
+
+#footer {
+padding-top: 22px;
+color: #006784;
+}
+
+#bot-nav {
+font-weight: bold;
+width: 57.894737%; 	/* 550px */
+margin: 0 auto;
+}
+
+#learn-more { margin: 0 0 17px 25.789474%; } 	/* 245px */
+.no-learn-more #learn-more { visibility: hidden; }
+
+#pbsk-play, #pbsk-play:hover, #pbsk-play:visited {
+background: transparent url('http://pbskids.org/curiousgeorge/games/img/pbs-play-gm.gif') center 20px no-repeat;
+width: 109px;
+height: 99px;
+margin: -95px 0 0 66.5%; 	/* 631px */
+text-align: center;
+font-weight: bold;
+text-decoration: none;
+color: #006784;
+border: none;
+}
+
+#legal {
+clear: both;
+margin-top: 45px;
+width: 840px;
+text-align: center;
+color: #000;
+visibility: hidden;
+}
+
+.editorial #legal, #games-index #legal, body.game #legal { visibility: visible; }
+
+#legal p {
+font-size: 10px;
+line-height: 13px;
+}
+
+#legal img {
+margin-bottom: 1em;
+}
+
+
+
+
+/* PAGE SPECIFIC
+-------------------------------------------------------------- */
+/* teacher's page elements */
+#make {
+display: block;
+width: 164px;
+height: 73px;
+margin-right: 12px;
+background-image: url(../img/button_makeyourown.png);
+text-indent: -99999px;
+margin-bottom: 20px;
+}
+
+#make:hover { background-position: 0 -74px; }
+
+#teachers #content-area { background: transparent url(../img/crayon_red.png) 96% 100% no-repeat; }
+
+#teachers .section h2 { background: transparent url(../img/crayon_yellowgreen.png) 90% 50% no-repeat; }
+
+#game-titles { width: 21%; } 	/* 172px */
+#descrip { width: 17%; }		/* 135px */
+#topic { width: 17%; }			/* 135px */
+
+#teachers table { font-size: .75em; line-height: 1.25em;} /* 12px/16px */
+#teachers table a.btn {
+display: block;
+width: 100%;
+min-width: 70px;
+margin: 0 auto 3px auto;
+text-align: center;
+color: #016684;
+font-weight: bold;
+text-decoration: none;
+font-size: 1.5833333em;   /* 19px/12px */
+text-transform: capitalize;
+cursor: pointer;
+}
+#teachers table a.btn:visited { background-position: 0 -192px; color: #fb170c; }
+#teachers table a.btn:hover, #teachers table a:active { background-position: 0 -96px; color: #3b96c5; }
+
+#teachers .icon-holder {
+background-position: 0 0;
+background-repeat: no-repeat;
+width: 149px;
+height: 65px;
+margin: 0 auto;
+margin-bottom: 1px;
+background-position: 0 -8px;
+}
+#teachers .section a:hover .icon-holder { background-position: 0 -104px; }
+#teachers #trains .icon-holder { background-image: url(../img/icons_teachers/icon_trains.png); }
+#teachers #ten .icon-holder { background-image: url(../img/icons_teachers/icon_ten.png); }
+#teachers #hideseek .icon-holder { background-image: url(../img/icons_teachers/icon_hideseek.png); }
+#teachers #bugs .icon-holder { background-image: url(../img/icons_teachers/icon_bugs.png); }
+#teachers #drive .icon-holder { background-image: url(../img/icons_teachers/icon_drive.png); }
+#teachers #meatballs .icon-holder { background-image: url(../img/icons_teachers/icon_meatballs.png); }
+#teachers #frogs .icon-holder { background-image: url(../img/icons_teachers/icon_frogs.png); }
+#teachers #dogs .icon-holder { background-image: url(../img/icons_teachers/icon_dogs.png); }
+#teachers #allie .icon-holder { background-image: url(../img/icons_teachers/icon_allie.png); }
+#teachers #jump .icon-holder { background-image: url(../img/icons_teachers/icon_jump.png); }
+#teachers #fives .icon-holder { background-image: url(../img/icons_teachers/icon_fives.png); }
+#teachers #hats .icon-holder { background-image: url(../img/icons_teachers/icon_hats.png); }
+#teachers #flowers .icon-holder { background-image: url(../img/icons_teachers/icon_flowers.png); }
+#teachers #rocket .icon-holder { background-image: url(../img/icons_teachers/icon_rocket.png); }
+#teachers #apples .icon-holder { background-image: url(../img/icons_teachers/icon_apples.png); }
+#teachers #bubbles .icon-holder { background-image: url(../img/icons_teachers/icon_bubbles.png); }
+
+#teachers #trains_sp .icon-holder { background-image: url(../img/icons_teachers/icon_trains_SPAN.png); }
+#teachers #ten_sp .icon-holder { background-image: url(../img/icons_teachers/icon_ten_SPAN.png); background-position: 0 -7px;}
+#teachers #hideseek_sp .icon-holder { background-image: url(../img/icons_teachers/icon_hideseek_SPAN.png); background-position: 0 -7px;}
+#teachers #bugs_sp .icon-holder { background-image: url(../img/icons_teachers/icon_bugs_SPAN.png); background-position: 0 -4px;}
+#teachers #drive_sp .icon-holder { background-image: url(../img/icons_teachers/icon_drive_SPAN.png); background-position: 0 -7px;}
+#teachers #meatballs_sp .icon-holder { background-image: url(../img/icons_teachers/icon_meatballs_SPAN.png); background-position: 0 -7px;}
+#teachers #frogs_sp .icon-holder { background-image: url(../img/icons_teachers/icon_frogs_SPAN.png); background-position: 0 -7px;}
+#teachers #dogs_sp .icon-holder { background-image: url(../img/icons_teachers/icon_dogs_SPAN.png); background-position: 0 -6px;}
+#teachers #allie_sp .icon-holder { background-image: url(../img/icons_teachers/icon_allie_SPAN.png); background-position: 0 -5px;}
+#teachers #jump_sp .icon-holder { background-image: url(../img/icons_teachers/icon_jump_SPAN.png); background-position: 0 -6px;}
+#teachers #fives_sp .icon-holder { background-image: url(../img/icons_teachers/icon_fives_SPAN.png); }
+#teachers #hats_sp .icon-holder { background-image: url(../img/icons_teachers/icon_hats_SPAN.png); background-position: 0 -6px;}
+#teachers #flowers_sp .icon-holder { background-image: url(../img/icons_teachers/icon_flowers_SPAN.png); background-position: 0 -7px;}
+#teachers #rocket_sp .icon-holder { background-image: url(../img/icons_teachers/icon_rocket_SPAN.png); background-position: 0 -7px;}
+#teachers #apples_sp .icon-holder { background-image: url(../img/icons_teachers/icon_apples_SPAN.png); background-position: 0 -6px;}
+#teachers #bubbles_sp .icon-holder { background-image: url(../img/icons_teachers/icon_bubbles_SPAN.png); }
+
+
+/* end teachers page elemnts */
+
+
+/*  printables page elements */
+#printables #header-img {
+margin-bottom: -110px;
+width: 100%;
+}
+
+#pdf-list {
+width: 100%;
+background: url(../img/checkered-bg.gif);
+overflow: hidden;
+margin: 5px 0 0 0;
+}
+
+#pdf-list li {
+margin: 0;
+width: 222px;
+min-width: 89px;
+overflow: hidden;
+}
+
+#pdf-list a {
+padding: 0 17.5%;	/* 38px */
+width: 65%;		/* 146px */
+display: block;
+height: 175px;
+padding-top: 10px;
+text-align: center;
+text-decoration: none;
+font-size: 1.35714286em;   /* 19px/14px */
+}
+
+#printables .section a h3 { font-weight: bold; margin-bottom: 2px; font-size: 1em; }
+#printables .section a:hover h3 { color: #3b96c5; }
+#printables .section a p, .section a:visited p, .section a:active p { color: #000; font-size: .625em; line-height: 1.125em; }
+
+#printables .icon-holder { background-position: 0 0; width: 95px; height: 95px; margin: 0 auto; margin-bottom: 1px; }
+#printables .section a:hover .icon-holder { background-position: 0 -95px; }
+#trains .icon-holder { background-image: url(../img/icons_printables/icon_trains.png); }
+#printables #ten .icon-holder { background-image: url(../img/icons_printables/icon_ten.png); }
+#printables #hideseek .icon-holder { background-image: url(../img/icons_printables/icon_hideseek.png); }
+#printables #bugs .icon-holder { background-image: url(../img/icons_printables/icon_bugs.png); }
+#printables #drive .icon-holder { background-image: url(../img/icons_printables/icon_drive.png); }
+#printables #meatballs .icon-holder { background-image: url(../img/icons_printables/icon_meatballs.png); }
+#printables #frogs .icon-holder { background-image: url(../img/icons_printables/icon_frogs.png); }
+#printables #dogs .icon-holder { background-image: url(../img/icons_printables/icon_dogs.png); }
+#printables #allie .icon-holder { background-image: url(../img/icons_printables/icon_allie.png); }
+#printables #jump .icon-holder { background-image: url(../img/icons_printables/icon_jump.png); }
+#printables #fives .icon-holder { background-image: url(../img/icons_printables/icon_fives.png); }
+#printables #hats .icon-holder { background-image: url(../img/icons_printables/icon_hats.png); }
+#printables #flowers .icon-holder { background-image: url(../img/icons_printables/icon_flowers.png); }
+#printables #rocket .icon-holder { background-image: url(../img/icons_printables/icon_rocket.png); }
+#printables #apples .icon-holder { background-image: url(../img/icons_printables/icon_apples.png); }
+#printables #bubbles .icon-holder { background-image: url(../img/icons_printables/icon_bubbles.png); }
+
+#bottom-stars { margin: -25px 0 0 8px; }
+
+#printables #overlay-wrapper {
+display: none;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 100;
+background-color: rgba(0,0,0,.5);
+color: #fff;
+}
+
+#printables #overlay {
+width: 506px;
+padding: 19px;
+margin: 40px auto 0;
+background-color: #cc0001; /* todo: get actual color */
+position: relative;
+}
+
+#printables .horizontal #overlay {
+width: 653px;
+}
+
+#printables #close {
+width: 34px;
+height: 34px;
+float: right;
+position: absolute;
+right: -45px;
+top: 0px;
+background-image: url(../img/button_close.png);
+text-align: center;
+text-indent: -9999999px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#printables #close:hover { background-position: 0 -34px; }
+
+#printables #overlay img { margin-top: -109px; } /* 109 = height of the arrows */
+
+#photo-caption { position: relative; overflow: hidden; margin-top: 3px; }
+
+#printables #overlay p { width: 59.16996%; float: left; }	/* 299px */
+
+#stats {
+font-weight: bold;
+font-size: 1.125em;
+}
+
+#download {
+float: right;
+width: 140px;
+height: 50px;
+font-weight: bold;
+color: #fff;
+text-decoration: none;
+text-indent: -9999999px;
+background-image: url(../img/button_download.png);
+background-repeat: no-repeat;
+}
+
+#download:hover { background-position: 0 -50px; }
+
+#arrows {
+position: relative;
+top: 270px;
+height: 109px;
+}
+
+.horizontal #arrows { top: 210px; }
+
+#arrows a {
+display: block;
+width: 59px;
+height: 100%;
+text-indent: -99999px;
+display: none;
+}
+
+#prev { background-image: url(../img/arrow_left.png); margin-left: 25px; }
+#next { background-image: url(../img/arrow_right.png); margin-right: 25px; }
+
+
+/*  end printables page elements */
+

@@ -1,0 +1,83 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 1 . Panel 7 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/bg7.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "../images/spacer.gif";
+n12 = new Image();
+n12.src = "images/panel7_05.gif";
+n13 = new Image();
+n13.src = "images/panel7b_05.gif";
+n14 = new Image();
+n14.src = "images/panel7c_05.gif";
+
+
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 800);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "5") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<body  onload="timeimgs('2')" style="margin: 0px">
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/panel7_01.gif" WIDTH=551 HEIGHT=85 alt="" border="0" usemap="#top"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2><IMG SRC="images/panel7_02.gif" WIDTH=189 HEIGHT=146 alt="" border="0"></TD>
+		<TD><IMG SRC="images/panel7_03.gif" WIDTH=185 HEIGHT=71 alt="" border="0"></TD>
+		<TD ROWSPAN=2><IMG SRC="images/panel7_04.gif" WIDTH=177 HEIGHT=146 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel7_05.gif" WIDTH=185 HEIGHT=75 name="n1" alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/panel7_06.gif" WIDTH=551 HEIGHT=169 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+
+	<map name="next">
+<area alt="next" coords="457,111,526,164" href="8.html">
+<area alt="The brilliant Dr. Marbles is responsible for keeping Motherboard's parts working smoothly and efficiently at all times." coords="217,40,524,104" nohref shape="RECT">
+</map>
+
+
+<map name="top">
+<area alt="How It All Started" coords="27,10,241,44" href="../webisodes-global/how_started.html">
+<area alt="Webisode 1" coords="246,12,357,43" href="1.html">
+</map>
+
+</td></tr></table>
+	
+
+
+
+</BODY>
+</HTML>

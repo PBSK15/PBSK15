@@ -1,0 +1,143 @@
+{% extends 'lunchlab/includes/lunchLabPage.html.twig' %}
+{% set pageTitle = 'Food' %}
+
+
+{% block mainContent %}<div id="containerContainer">
+ <div id="pageLoader"></div>
+ <div class="clearfix contentContainer">
+  <div id="content" class="clearfix">
+   <div class="clearfix frame recipe">
+    <div class="topRightCorner"></div>
+    <div class="topLeftCorner"></div>
+    <div class="bottomRightCorner"></div>
+    <div class="bottomLeftCorner"></div>
+    <div class="topBar"></div>
+    <div class="bottomBar"></div>
+    <div class="leftBar"></div>
+    <div class="rightBar"></div>
+    <header class="clearfix recipesHeader">
+     <div class="featuredRecipe">
+      <a href="/lunchlab/food/recipe/berry-pancakes"><img src="http://pbskids.org/lunchlab/assets/images/recipes/berry-pancakes-food.png?v=3" class="food" alt="Featured Recipe"><img src="http://pbskids.org/lunchlab/assets/images/food/featured.svgz" class="featured" alt="Berry Pancakes"><h1>Berry Pancakes</h1><p>Here is one fun way to start your day off right! Berry pancakes are fluffy and sweet to eat!</p></a>
+     </div>
+     <div class="foodFact" id="foodFact">
+      <img src="http://pbskids.org/lunchlab/assets/images/food-facts/C2.svgz?v=3" type="image/svg+xml" class="fact">
+      <div class="title">
+       Food Fact #99
+      </div>
+      <p class="description">The potato was the first vegetable to be grown in space!</p>
+     </div>
+    </header>
+    <div class="recipeSearch clearfix">
+     <img src="http://pbskids.org/lunchlab/assets/images/food/mixie.svgz" id="mixie" alt="Mixie-Bot"><input type="text" class="text searchText" id="searchText" value="" data-restrict="a-zA-Z0-9\- " placeholder="Search..."><button class="major button searchGo" id="searchGo">Search</button>
+     <ul class="noStyle searchSections All">
+      <li><a href="/lunchlab/food" class="minor button allrecipes"><img src="http://pbskids.org/lunchlab/assets/images/food/All-icon.svgz?v=3">All Recipes</a></li>
+      <li><a href="/lunchlab/food/tag/holiday" class="minor button Holiday"><img src="http://pbskids.org/lunchlab/assets/images/food/Holiday-icon.svgz?v=3">Holiday</a></li>
+      <li><a href="/lunchlab/food/tag/vegetarian" class="minor button Vegetarian"><img src="http://pbskids.org/lunchlab/assets/images/food/Vegetarian-icon.svgz?v=3">Vegetarian</a></li>
+      <li><a href="/lunchlab/food/tag/easy" class="minor button Easy"><img src="http://pbskids.org/lunchlab/assets/images/food/Easy-icon.svgz?v=3">Easy</a></li>
+      <li><a href="/lunchlab/food/tag/dessert" class="minor button Dessert"><img src="http://pbskids.org/lunchlab/assets/images/food/Dessert-icon.svgz?v=3">Dessert</a></li>
+      <li><a href="/lunchlab/food/tag/snack" class="minor button Snack"><img src="http://pbskids.org/lunchlab/assets/images/food/Snack-icon.svgz?v=3">Snack</a></li>
+      <li><a href="/lunchlab/food/tag/mealtime" class="minor button Mealtime"><img src="http://pbskids.org/lunchlab/assets/images/food/Mealtime-icon.svgz?v=3">Mealtime</a></li>
+      <li><a href="/lunchlab/food/tag/warm" class="minor button Warm"><img src="http://pbskids.org/lunchlab/assets/images/food/Warm-icon.svgz?v=3">Warm</a></li>
+      <li><a href="/lunchlab/food/tag/cold" class="minor button Cold"><img src="http://pbskids.org/lunchlab/assets/images/food/Cold-icon.svgz?v=3">Cold</a></li>
+      <li><a href="/lunchlab/food/tag/sweet" class="minor button Sweet"><img src="http://pbskids.org/lunchlab/assets/images/food/Sweet-icon.svgz?v=3">Sweet</a></li>
+     </ul>
+    </div>
+    <ul class="clearfix noStyle recipes">
+     <li><a href="/lunchlab/food/recipe/apple-crepes" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/apple-crepes-thumb.png"><span>Apple Crepes</span></a></li>
+     <li><a href="/lunchlab/food/recipe/granola" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/granola-thumb.png"><span>Easy Granola</span></a></li>
+     <li><a href="/lunchlab/food/recipe/power-balls" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/power-balls-thumb.png"><span>Power Balls</span></a></li>
+     <li><a href="/lunchlab/food/recipe/rosemary-popcorn" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/rosemary-popcorn-thumb.png"><span>Rosemary Popcorn</span></a></li>
+     <li><a href="/lunchlab/food/recipe/fruit-leather" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/fruit-leather-thumb.png"><span>Fruit Leather</span></a></li>
+     <li><a href="/lunchlab/food/recipe/grilled-cheese" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/grilled-cheese-thumb.png"><span>Grilled Cheese</span></a></li>
+     <li><a href="/lunchlab/food/recipe/grilled-cheese-apples" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/grilled-cheese-thumb.png"><span>Grilled Cheese with Apples</span></a></li>
+     <li><a href="/lunchlab/food/recipe/apple-popcorn" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/apple-popcorn-thumb.png"><span>Apple Pie Spiced Popcorn</span></a></li>
+     <li><a href="/lunchlab/food/recipe/lettuce-wraps" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/lettuce-wraps-thumb.png"><span>Lettuce Wraps</span></a></li>
+     <li><a href="/lunchlab/food/recipe/chillers" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/chillers-thumb.png"><span>Apple Banana Chillers</span></a></li>
+     <li><a href="/lunchlab/food/recipe/yakitori" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/yakitori-thumb.png"><span>Chicken Yakitori</span></a></li>
+     <li><a href="/lunchlab/food/recipe/cranberry-popcorn" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/cranberry-popcorn-thumb.png"><span>Chocolate and Cranberry Popcorn</span></a></li>
+     <li><a href="/lunchlab/food/recipe/apple-frisbee" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/apple-frisbee-thumb.png"><span>Crispy Apple Frisbee</span></a></li>
+     <li><a href="/lunchlab/food/recipe/pecan-stuffing" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/pecan-stuffing-thumb.png"><span>Pear Tree and Pecan Stuffing</span></a></li>
+     <li><a href="/lunchlab/food/recipe/applesauce" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/applesauce-thumb.png"><span>Raspberry Applesauce</span></a></li>
+     <li><a href="/lunchlab/food/recipe/root-vegetables" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/root-vegetables-thumb.png"><span>Roasted Vegetables</span></a></li>
+     <li><a href="/lunchlab/food/recipe/squash-soup" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/squash-soup-thumb.png"><span>Butternut Squash Soup</span></a></li>
+     <li><a href="/lunchlab/food/recipe/apple-mash" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/apple-mash-thumb.png"><span>Sweet Potato Mash</span></a></li>
+     <li><a href="/lunchlab/food/recipe/potato-rounds" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/potato-rounds-thumb.png"><span>Sweet Potato Rounds</span></a></li>
+     <li><a href="/lunchlab/food/recipe/pita-pizzas" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/pita-pizzas-thumb.png"><span>Pita Party Pizzas</span></a></li>
+     <li><a href="/lunchlab/food/recipe/mini-bagel" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/mini-bagel-thumb.png"><span>Mini-Bagel Sandwiches</span></a></li>
+     <li><a href="/lunchlab/food/recipe/french-toast" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/french-toast-thumb.png"><span>French Toast</span></a></li>
+     <li><a href="/lunchlab/food/recipe/molasses-cookies" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/molasses-cookie-thumb.png"><span>Molasses Cookie</span></a></li>
+     <li><a href="/lunchlab/food/recipe/berry-smoothie" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/berry-smoothie-thumb.png"><span>Berry Smoothie</span></a></li>
+     <li><a href="/lunchlab/food/recipe/confetti-dip" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/confetti-dip-thumb.png"><span>Confetti Dip</span></a></li>
+     <li><a href="/lunchlab/food/recipe/rainbow-wrap" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/rainbow-wrap-thumb.png"><span>Rainbow Wrap</span></a></li>
+     <li><a href="/lunchlab/food/recipe/berry-pancakes" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/berry-pancakes-thumb.png"><span>Berry Pancakes</span></a></li>
+     <li><a href="/lunchlab/food/recipe/bean-burger" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/bean-burger-thumb.png"><span>Black Bean Burger</span></a></li>
+     <li><a href="/lunchlab/food/recipe/stirfry" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/stirfry-thumb.png"><span>Veggie StirFry</span></a></li>
+     <li><a href="/lunchlab/food/recipe/pesto" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/pesto-thumb.png"><span>Broccoli Pesto</span></a></li>
+     <li><a href="/lunchlab/food/recipe/frittata" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/frittata-thumb.png"><span>Veggie Frittata</span></a></li>
+     <li><a href="/lunchlab/food/recipe/guacamole" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/guacamole-thumb.png"><span>Guacamole</span></a></li>
+     <li><a href="/lunchlab/food/recipe/greens-vinaigrette" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/greens-vinaigrette-thumb.png"><span>Greens with Vinaigrette</span></a></li>
+     <li><a href="/lunchlab/food/recipe/almond-sandwich" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/almond-sandwich-thumb.png"><span>Almond Butter and Jam</span></a></li>
+     <li><a href="/lunchlab/food/recipe/mashed-cauliflower" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/mashed-cauliflower-thumb.png"><span>Mashed Cauliflower</span></a></li>
+     <li><a href="/lunchlab/food/recipe/orange-juice" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/orange-juice-thumb.png"><span>Awesome Orange Juice</span></a></li>
+     <li><a href="/lunchlab/food/recipe/cranberry-beverage" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/cranberry-beverage-thumb.png"><span>Cranberry Beverage</span></a></li>
+     <li><a href="/lunchlab/food/recipe/honey-smoothie" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/honey-smoothie-thumb.png"><span>Milk and Honey Smoothie</span></a></li>
+     <li><a href="/lunchlab/food/recipe/fizzy-pomegranate" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/fizzy-pomegranate-thumb.png"><span>Fizzy Pomegranate Water</span></a></li>
+     <li><a href="/lunchlab/food/recipe/pasta-sauce" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/pasta-sauce-thumb.png"><span>Pasta with Tomato Sauce</span></a></li>
+     <li><a href="/lunchlab/food/recipe/chickpea-cakes" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/chickpea-cakes-thumb.png"><span>Chickpea-Cakes</span></a></li>
+     <li><a href="/lunchlab/food/recipe/chicken-potatoes" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/chicken-potatoes-thumb.png"><span>Chicken with Potatoes</span></a></li>
+     <li><a href="/lunchlab/food/recipe/beef-sliders" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/beef-sliders-thumb.png"><span>Beef Sliders</span></a></li>
+     <li><a href="/lunchlab/food/recipe/yogurt-parfaits" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/yogurt-parfaits-thumb.png"><span>Tropical Yogurt Parfaits</span></a></li>
+     <li><a href="/lunchlab/food/recipe/frozen-grapes" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/frozen-grapes-thumb.png"><span>Frozen Grapes</span></a></li>
+     <li><a href="/lunchlab/food/recipe/pineapple-coconut" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/pineapple-coconut-thumb.png"><span>Pineapple with Almonds and Coconut</span></a></li>
+     <li><a href="/lunchlab/food/recipe/fruit-kebab" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/fruit-kebab-thumb.png"><span>Fruit Kebab</span></a></li>
+     <li><a href="/lunchlab/food/recipe/bean-burritos" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/bean-burritos-thumb.png"><span>Black Bean Burritos</span></a></li>
+     <li><a href="/lunchlab/food/recipe/teriyaki-salmon" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/teriyaki-salmon-thumb.png"><span>Teriyaki Salmon</span></a></li>
+     <li><a href="/lunchlab/food/recipe/egg-sandwich" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/egg-sandwich-thumb.png"><span>Egg Sandwich</span></a></li>
+     <li><a href="/lunchlab/food/recipe/turkey-wrap" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/turkey-wrap-thumb.png"><span>Turkey Wrap</span></a></li>
+     <li><a href="/lunchlab/food/recipe/energy-bar" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/energy-bar-thumb.png"><span>Energy Bar</span></a></li>
+     <li><a href="/lunchlab/food/recipe/tropical-smoothie" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/tropical-smoothie-thumb.png"><span>Tropical Smoothie</span></a></li>
+     <li><a href="/lunchlab/food/recipe/orange-almond" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/orange-almond-thumb.png"><span>Orange and Almond Snack</span></a></li>
+     <li><a href="/lunchlab/food/recipe/trail-mix" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/trail-mix-thumb.png"><span>Trail Mix</span></a></li>
+     <li><a href="/lunchlab/food/recipe/cinna-honey" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/cinna-honey-thumb.png"><span>Cinna-Honey Apples</span></a></li>
+     <li><a href="/lunchlab/food/recipe/apple-sauce" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/apple-sauce-thumb.png"><span>Apple Sauce</span></a></li>
+     <li><a href="/lunchlab/food/recipe/banana-bread" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/banana-bread-thumb.png"><span>Banana Bread</span></a></li>
+     <li><a href="/lunchlab/food/recipe/wrapped-foods" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/wrapped-foods-thumb.png"><span>Naturally Wrapped Foods</span></a></li>
+     <li><a href="/lunchlab/food/recipe/balsamic-vinaigrette" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/balsamic-vinaigrette-thumb.png"><span>Balsamic Vinaigrette</span></a></li>
+     <li><a href="/lunchlab/food/recipe/bean-chili" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/bean-chili-thumb.png"><span>Fiesta Bean Chili</span></a></li>
+     <li><a href="/lunchlab/food/recipe/berry-banana-froyo" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/berry-banana-froyo-thumb.png"><span>Berry Banana Frozen Yogurt</span></a></li>
+     <li><a href="/lunchlab/food/recipe/bruschetta" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/bruschetta-thumb.png"><span>Bruschetta</span></a></li>
+     <li><a href="/lunchlab/food/recipe/cantaloupe-smiles" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/cantaloupe-smiles-thumb.png"><span>Cantaloupe Smiles</span></a></li>
+     <li><a href="/lunchlab/food/recipe/cheesy-quesadilla" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/cheesy-quesadilla-thumb.png"><span>Cheesy Quesadilla</span></a></li>
+     <li><a href="/lunchlab/food/recipe/chicken-caesar-wrap" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/chicken-caesar-wrap-thumb.png"><span>Chicken Caesar Wrap</span></a></li>
+     <li><a href="/lunchlab/food/recipe/chicken-pot-pie" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/chicken-pot-pie-thumb.png"><span>Chicken Pot Pie</span></a></li>
+     <li><a href="/lunchlab/food/recipe/cranberry-lemonade" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/cranberry-lemonade-thumb.png"><span>Cranberry Lemonade</span></a></li>
+     <li><a href="/lunchlab/food/recipe/fried-green-tomatoes" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/fried-green-tomatoes-thumb.png"><span>Fried Green Tomatoes</span></a></li>
+     <li><a href="/lunchlab/food/recipe/grilled-chicken-salad" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/grilled-chicken-salad-thumb.png"><span>Grilled Chicken Salad</span></a></li>
+     <li><a href="/lunchlab/food/recipe/hoagies-veggies" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/hoagies-veggies-thumb.png"><span>Hoagies with Veggies</span></a></li>
+     <li><a href="/lunchlab/food/recipe/hummus-tortilla-chips" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/hummus-tortilla-chips-thumb.png"><span>Hummus and Tortilla Chips</span></a></li>
+     <li><a href="/lunchlab/food/recipe/kiwi-strawberry-smoothie" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/kiwi-strawberry-smoothie-thumb.png"><span>Kiwi-Strawberry Smoothie</span></a></li>
+     <li><a href="/lunchlab/food/recipe/mini-pumpkin-muffins" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/mini-pumpkin-muffins-thumb.png"><span>Mini Pumpkin Muffins</span></a></li>
+     <li><a href="/lunchlab/food/recipe/oats-fresh-fruit" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/oats-fresh-fruit-thumb.png"><span>Oats with Fresh Fruit</span></a></li>
+     <li><a href="/lunchlab/food/recipe/sauteed-maple-apples" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/sauteed-maple-apples-thumb.png"><span>Sauteed Maple Apples</span></a></li>
+     <li><a href="/lunchlab/food/recipe/sauteed-veggies" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/sauteed-veggies-thumb.png"><span>Summer Saute</span></a></li>
+     <li><a href="/lunchlab/food/recipe/tuna-salad" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/tuna-salad-thumb.png"><span>Traditional Tuna Salad</span></a></li>
+     <li><a href="/lunchlab/food/recipe/honey-wheat-bread" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/honey-wheat-bread-thumb.png"><span>Honey Whole Wheat Bread</span></a></li>
+     <li><a href="/lunchlab/food/recipe/crunchy-corn-cakes" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/crunchy-corn-cakes-thumb.png"><span>Crunchy Corn Cakes</span></a></li>
+     <li><a href="/lunchlab/food/recipe/veggie-alphabet-soup" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/veggie-alphabet-soup-thumb.png"><span>Veggie Alphabet Soup</span></a></li>
+     <li><a href="/lunchlab/food/recipe/sloppy-janes" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/sloppy-janes-thumb.png"><span>Sloppy Janes</span></a></li>
+     <li><a href="/lunchlab/food/recipe/shrimp-spring-rolls" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/shrimp-spring-rolls-thumb.png"><span>Shrimp Spring Rolls</span></a></li>
+     <li><a href="/lunchlab/food/recipe/taco-salad" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/taco-salad-thumb.png"><span>Taco Salad</span></a></li>
+     <li><a href="/lunchlab/food/recipe/spaghetti-meatballs" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/spaghetti-meatballs-thumb.png"><span>Spaghetti and Meatballs</span></a></li>
+     <li><a href="/lunchlab/food/recipe/chicken-noodle-soup" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/chicken-noodle-soup-thumb.png"><span>Chicken Noodle Soup</span></a></li>
+     <li><a href="/lunchlab/food/recipe/corn-salsa" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/corn-salsa-thumb.png"><span>Corn Salsa</span></a></li>
+     <li><a href="/lunchlab/food/recipe/potato-gnocchi" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/potato-gnocchi-thumb.png"><span>Potato Gnocchi</span></a></li>
+     <li><a href="/lunchlab/food/recipe/caprese-salad" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/caprese-salad-thumb.png"><span>Caprese Salad</span></a></li>
+     <li><a href="/lunchlab/food/recipe/watermelon-sparklers" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/watermelon-sparklers-thumb.png"><span>Watermelon Sparklers</span></a></li>
+     <li><a href="/lunchlab/food/recipe/baked-cod-sticks" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/baked-cod-sticks-thumb.png"><span>Baked Cod Sticks</span></a></li>
+     <li><a href="/lunchlab/food/recipe/cinnamon-raisin-cookies" class="main"><img src="http://pbskids.org/lunchlab/assets/images/recipes/cinnamon-raisin-cookies-thumb.png"><span>Oatmeal Raisin Cookies</span></a></li>
+    </ul>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+

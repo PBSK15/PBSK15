@@ -1,0 +1,33 @@
+{% extends 'curiousgeorge/busyday/includes/busyDayPage.html.twig' %}
+
+{% set desc = "Help George determine how many things he needs to complete each set of ten." %}
+{% set tags = 'number decomposition, subtraction, addition, math skills, pre-K, education, game' %}
+{% set pageTitle = "Museum of Tens | PBS KIDS" %}
+{% set spanish = false %}
+{% set bodyAtrs = '  ' %}
+
+{% set specialInclude = '<script type="text/javascript" src="../js/track_ten.js"></script>' %}
+{% set overlayWrapper = false %}
+
+{% block contentArea %}<div id="content-area">
+	<div id="flashContent">
+		<a href="https://www.adobe.com/go/getflash"><img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a>
+		<p>This page requires Flash Player version 9.0.115 or higher.</p>
+	</div>
+
+	<script type="text/javascript">
+		var so = new SWFObject("ten.swf", "ten", "900", "500", "9.0.115", "#3b96c5");
+		so.addVariable("gameMode","teacher");
+		so.addParam("quality","best");
+		so.addParam("play","true");
+		so.addParam("menu","true");
+		so.addParam("allowFullScreen","true");
+		so.addParam("allowscriptaccess","always");
+        // Adding wmode param to approprately stack swf obj in IE -- 4/27/2015 INye
+        so.addParam("wmode","opaque");
+		so.setAttribute("id","ten");
+		so.setAttribute("name","ten");
+		so.write("flashContent");
+	</script>
+
+</div>{% endblock %}

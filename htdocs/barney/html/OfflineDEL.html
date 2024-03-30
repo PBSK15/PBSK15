@@ -1,0 +1,128 @@
+<html>
+
+        <head>
+                <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+                <meta name="generator" content="GoLive CyberStudio 3">
+                <title>Offline Activities</title>
+                <csscriptdict>
+                        <script><!--
+function CSScriptInit() {
+CSILoad('button',new Array(/*URL*/'../images/PlayA.gif',/*URL*/'../images/PlayB.gif',/*URL*/'',''));
+CSILoad('button3',new Array(/*URL*/'../images/CaregiverA.gif',/*URL*/'../images/CaregiverB.gif',/*URL*/'',''));
+CSILoad('button4',new Array(/*URL*/'../images/TVA.gif',/*URL*/'../images/TVB.gif',/*URL*/'',''));
+CSILoad('button5',new Array(/*URL*/'../images/BackA.gif',/*URL*/'../images/BackB.gif',/*URL*/'',''));
+}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+        var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+        if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+                elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+        return elem;
+}
+function CSButtonReturn () {
+        var bAgent = window.navigator.userAgent; 
+        var bAppName = window.navigator.appName;
+        if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+                return false; // follow link
+        else return true; // follow link
+}
+CSIm = new Object();
+function CSIShow(n,i) {
+        if (document.images) {
+                if (CSIm[n]) {
+                        var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+                        if (img) {img.src = CSIm[n][i].src; self.status = CSIm[n][3];}
+                        return true;
+                }
+        }
+        return false;
+}
+function CSILoad(im,ar) {
+        if (document.images) {
+                CSIm[im] = new Object();
+                for (var i=0;i<3;i++) {
+                        if (ar[i] != '') { CSIm[im][i] = new Image(); CSIm[im][i].src = ar[i]; }
+                        else CSIm[im][i] = 0;
+                }
+                CSIm[im][3] = ar[3];
+        }
+}
+
+// --></script>
+                </csscriptdict>
+        </head>
+
+        <body background="../images/OctBkgrd.gif" bgcolor="#ffdba1" onload="CSScriptInit();">
+                <center>
+                        <a href="../index.html"><img height="60" width="176" src="../images/BFLogo.gif" border="0"></a><csobj w="58" h="60" t="Button" ht="../images/PlayB.gif"><a href="games.html" onmouseover="return CSIShow('button',1)" onmouseout="return CSIShow('button',0)" onclick="return CSButtonReturn()"><img src="../images/PlayA.gif" width="58" height="60" name="button" border="0"></a></csobj><img height="60" width="57" src="../images/AboutA.gif" border="0"><csobj w="57" h="60" t="Button" ht="../images/CaregiverB.gif"><a href="Caregiver.html" onmouseover="return CSIShow('button3',1)" onmouseout="return CSIShow('button3',0)" onclick="return CSButtonReturn()"><img src="../images/CaregiverA.gif" width="57" height="60" name="button3" border="0"></a></csobj><csobj w="57" h="60" t="Button" ht="../images/TVB.gif"><a href="/cgi-registry/in_your_town/router.cgi?nola=BAFR&program=barney" onmouseover="return CSIShow('button4',1)" onmouseout="return CSIShow('button4',0)" onclick="return CSButtonReturn()"><img src="../images/TVA.gif" width="57" height="60" name="button4" border="0"></a></csobj><csobj w="57" h="60" t="Button" ht="../images/BackB.gif"><a href="../index.html" onmouseover="return CSIShow('button5',1)" onmouseout="return CSIShow('button5',0)" onclick="return CSButtonReturn()"><img src="../images/BackA.gif" width="57" height="60" name="button5" border="0"></a></csobj><a href="http://pbskids.org"><img height="60" width="58" src="../images/PBSKids.gif" border="0"></a><table cool width="523" height="1319" border="0" cellpadding="0" cellspacing="0" gridx="16" showgridx gridy="16" showgridy bgcolor="white">
+                                <tr height="1" cntrlrow>
+                                        <td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+                                        <td width="2" height="1"><spacer type="block" width="2" height="1"></td>
+                                        <td width="19" height="1"><spacer type="block" width="19" height="1"></td>
+                                        <td width="190" height="1"><spacer type="block" width="190" height="1"></td>
+                                        <td width="134" height="1"><spacer type="block" width="134" height="1"></td>
+                                        <td width="153" height="1"><spacer type="block" width="153" height="1"></td>
+                                        <td width="22" height="1"><spacer type="block" width="22" height="1"></td>
+                                </tr>
+                                <tr height="2">
+                                        <td width="1" height="2"><spacer type="block" width="1" height="2"></td>
+                                        <td width="2" height="2"><spacer type="block" width="2" height="2"></td>
+                                        <td width="19" height="2"><spacer type="block" width="19" height="2"></td>
+                                        <td width="190" height="2"><spacer type="block" width="190" height="2"></td>
+                                        <td width="134" height="2"><spacer type="block" width="134" height="2"></td>
+                                        <td width="153" height="2"><spacer type="block" width="153" height="2"></td>
+                                        <td width="22" height="2"><spacer type="block" width="22" height="2"></td>
+                                </tr>
+                                <tr height="11">
+                                        <td width="1" height="11"><spacer type="block" width="1" height="11"></td>
+                                        <td width="2" height="11"><spacer type="block" width="2" height="11"></td>
+                                        <td width="209" height="72" colspan="2" rowspan="2" valign="top" align="left" xpos="2"><img height="72" width="189" src="../images/CaregiverTry3.gif"></td>
+                                        <td width="134" height="11"><spacer type="block" width="134" height="11"></td>
+                                        <td width="153" height="11"><spacer type="block" width="153" height="11"></td>
+                                        <td width="22" height="11"><spacer type="block" width="22" height="11"></td>
+                                </tr>
+                                <tr height="61">
+                                        <td width="1" height="61"><spacer type="block" width="1" height="61"></td>
+                                        <td width="2" height="61"><spacer type="block" width="2" height="61"></td>
+                                        <td width="134" height="61" colspan="1" rowspan="1" valign="top" align="left" xpos="211" content csheight="61"><a href="OctTreatingSafety.html"><font face="Verdana" size="2" color="#669900">October Safety<br>
+                                                </font></a><a href="NovemberFun.html"><font face="Verdana" size="2" color="#669900">November Fun<br>
+                                                </font></a><a href="LessonPlans.html"><font face="Verdana" size="2" color="#669900">Lesson Plans</font></a><a href="414Trees.html"><font face="Verdana" size="2" color="#669900"><br>
+                                                </font></a></td>
+                                        <td width="153" height="61" colspan="1" rowspan="1" valign="top" align="left" xpos="345" content csheight="60"><a href="MostWeb.html"><font face="Verdana" size="2" color="#669900">Getting the Most from<br>
+                                                </font><font face="Verdana" size="2" color="white">xx</font><font face="Verdana" size="2" color="#669900">theWeb<br>
+                                                </font></a><a href="Offline.html"><font face="Verdana" size="2" color="#669900">Offline Activities</font></a></td>
+                                        <td width="22" height="61"><spacer type="block" width="22" height="61"></td>
+                                </tr>
+                                <tr height="1242">
+                                        <td width="1" height="1242"><spacer type="block" width="1" height="1242"></td>
+                                        <td width="2" height="1242"><spacer type="block" width="2" height="1242"></td>
+                                        <td width="19" height="1242"><spacer type="block" width="19" height="1242"></td>
+                                        <td width="499" height="1242" colspan="4" rowspan="1" valign="top" align="left" xpos="21"><table border="0" cellpadding="0" cellspacing="0" frame width="480">							<tr>
+								<td><font face="Verdana"><b>Off line activities</b></font> 
+
+									</font><BR><font size="2" face="Verdana"><b>November<P>
+									</b>Barney Says: Take a couple of minutes to talk to your child about autumn.  Tell me what you know about autumn.  What are some of the colors of autumn?  Look at a tree where the leaves are changing color. How many different colored leaves can you find?  Why do people wear warmer clothes in autumn?<br>
+									<br>
+									Good books to read: Children enjoy the special time you spend reading to them-snuggle up with your child and read!<br>
+									<br>
+									1,2,3 Thanksgiving! by W. Nikola-Lisa, Whitman. A counting book illustrates the numbers 1 through 10 with scenes of the Thanksgiving holiday.<br>
+									<br>
+									Barney's Thanksgiving by Stephen White, Barney Publishing. Barney, BJ and Baby Bop work together to prepare a special Thanksgiving feast to share with all their friends.<br>
+									<br>
+									Hard Scrabble Harvest by Dahlov Ipcar, Doubleday. Verse and humorous pictures describe the yearlong efforts that go into making a bountiful harvest. <br>
+									<br>
+									Red Leaf, Yellow Leaf by Lois Ehlert, Harcourt, Brace, Jovanovich. Colorful illustrations tell the story of a maple tree throughout the year.<br>
+									<br>
+									Thanksgiving Day by Gail Gibbons, Holiday House. The origins, traditions, and contemporary celebrations of Thanksgiving are simplified for a young audience.</font></p>
+									<P><BR><BR>
+								</td>
+							</tr>
+						</table></td>
+				</tr>
+			</table><img height="17" width="520" src="../images/Bottom.gif"></center>
+	</body>
+
+</html>

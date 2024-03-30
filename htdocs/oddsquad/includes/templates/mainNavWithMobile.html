@@ -1,0 +1,53 @@
+<header>
+    <ul class="oddMember">
+        <li class="agentYes pbsYes">
+            <span>Hello <em>Agent</em> <em class="agentNum"></em></span>
+            <a href="/go/apps/auth/logout/?destination=http%3A//soup.pbskids.org/oddsquad/" class="oddMem-signout" alt="Sign Out" title="Sign Out">Sign out</a>
+        </li>
+        <li class="agentNo pbsYes">
+            <a href="/agents/createagent/" class="oddMem-joinNow" onclick="pushUrl('/agents/createagent/', 'Create Agent', event);" data-genratrtarget alt="Agent Profile" title="Agent Profile">Agent Profile</a>
+        </li>
+        <li class="agentNo pbsNo">
+            <a href="/agents/createagent/" class="oddMem-join" onclick="pushUrl('/agents/createagent/', 'Create Agent', event);" data-genratrtarget alt="Join Odd Squad" title="Join Odd Squad"><i></i>Join</a>
+            <a href="#" onClick="org.pbskids.login.displayLogin();" class="oddMem-signin" alt="Sign In" title="Sign In"><i></i>Sign In</a>
+        </li>
+    </ul>
+
+    <img src="/oddsquad/img/global/logo-oddsquad.png" class="main-logo" title="Odd Squad Home" data-genratrTarget href="/home/">
+    <a href="http://pbskids.org" target="_blank" title="PBS Kids" class="pbs-logo">
+        <img src="/oddsquad/img/global/logo-pbskids.png">
+    </a>
+
+    <nav class="pageNav">
+        <ul>
+            <li class="pg-games">
+                <a href="/games/" data-genratrTarget onClick="closeOverlay('')" title="games"><i></i><span>Games</span></a>
+            </li>
+            <li class="pg-agents">
+                <a href="/agents/" data-genratrTarget onClick="closeOverlay('')" title="agents"><i></i><span>Agents</span></a>
+            </li>
+            <li class="pg-videos">
+                <a href="/videos/" data-genratrTarget onClick="closeOverlay('')" title="videos"><i></i><span>Videos</span></a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="mobileNav">
+        <a href="#" class="toggleNav">
+               <img src="/oddsquad/img/global/mobile-tab.png" width="78" height="182" alt=""/>
+        </a>
+        <ul>
+            <li class="pg-h0ome">
+                <a href="/home/" data-genratrTarget onClick="closeOverlay('')" title="home"><i></i><span>Home</span></a>
+            </li>
+            <li class="pg-games">
+                <a href="/games/" data-genratrTarget onClick="closeOverlay('')" title="games"><i></i><span>Games</span></a>
+            </li>
+            <li class="pg-agents">
+                <a href="/agents/" data-genratrTarget onClick="closeOverlay('')" title="agents"><i></i><span>Agents</span></a>
+            </li>
+            <li class="pg-videos">
+                <a href="/videos/" data-genratrTarget onClick="closeOverlay('')" title="videos"><i></i><span>Videos</span></a>
+            </li>
+        </ul>
+    </nav>
+</header>

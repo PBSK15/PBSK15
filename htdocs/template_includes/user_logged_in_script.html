@@ -1,0 +1,46 @@
+<script type="text/javascript">
+  (function() {
+    var getCookie = function(c_name) {
+      if (document.cookie.length > 0) {
+        c_start = document.cookie.indexOf(c_name + "=");
+        if (c_start != -1) {
+          c_start = c_start + c_name.length + 1;
+          c_end = document.cookie.indexOf(";", c_start);
+          if (c_end == -1)
+            c_end = document.cookie.length;
+          return unescape(document.cookie.substring(c_start, c_end));
+        }
+      }
+      return "";
+    };
+
+    //Determines if user is logged in
+    var pbskids_username = getCookie('pbskids.username');
+    //Determines if account is new
+    var returning = getCookie('pbskids.returning');
+
+    GA_customvar = {};
+
+    var ua_codes = 'UA-4005067-1,UA-4005001-1,UA-3968507-1,UA-3999779-1,ET-3999779-2';
+    var ua_codes_list = ua_codes.split(',');
+
+    var login_info;
+    //Setup log in info custom variable string
+    if (pbskids_username) {
+      login_info = "l=1";
+      if (returning) {
+        login_info += "&r=1";
+      } else {
+        login_info += "&r=0";
+      }
+    } else {
+      login_info = "l=0&r=0";
+    }
+
+    for ( i = 0; i < ua_codes_list.length; i++) {
+      var cv_array = [["GO login tracking", login_info, 2]];
+      GA_customvar[ua_codes_list[i]] = cv_array;
+    }
+
+  })();
+</script>

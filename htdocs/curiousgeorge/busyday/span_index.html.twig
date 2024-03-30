@@ -1,0 +1,34 @@
+{% extends 'curiousgeorge/busyday/includes/busyDayPage.html.twig' %}
+
+{% set desc = "Play educational pre-K math games with George on his very busy day!" %}
+{% set tags = 'math games, ready to learn, pre-k, education, printables, teachers, counting' %}
+{% set pageTitle = "Busy Day | PBS KIDS" %}
+{% set spanish = true %}
+{% set bodyAtrs = ' id="games-index" class="has-sub-footer"' %}
+
+
+{% set overlayWrapper = false %}
+
+{% block contentArea %}<div id="content-area">
+		<div id="flashContent">
+			<a href="https://www.adobe.com/go/getflash"><img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a>
+			<p>This page requires Flash Player version 9.0.115 or higher.</p>
+		</div>
+
+		<script type="text/javascript">
+			var so = new SWFObject("span_index.swf", "index", "900", "500", "9.0.115", "#3b96c5");
+			so.addVariable("gameMode","normal");
+			so.addParam("quality","best");
+			so.addParam("play","true");
+			so.addParam("menu","true");
+			so.addParam("allowFullScreen","true");
+			so.addParam("allowScriptAccess","always");
+            // Adding wmode param to approprately stack swf obj in IE -- 4/27/2015 INye
+            so.addParam("wmode","opaque");
+			so.setAttribute("id","index");
+			so.setAttribute("name","index");
+			so.write("flashContent");
+		</script>
+
+		<h1 class="centered"><img src="img/games_index_tagline_SPAN.gif" alt="Busy Day: Sixteen Games of Numbers and Counting with Curious George"></h1>
+	</div>{% endblock %}

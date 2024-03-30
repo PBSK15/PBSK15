@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    PBS = {
+        KIDS: {}
+    };
+</script>
+<script src="/js/lib/PBS.KIDS.simple-storage.js"></script>
+</head>
+
+<body>
+<script>
+    window.addEventListener('message', function(event) {
+        if ((event.origin != 'http://super-vision-dev.pbskids.org') &&
+            (event.origin != 'http://ops-dev.pbskids.org') &&
+            (event.origin != 'http://www-tcdev.pbskids.org') &&
+            (event.origin != 'http://pbskids.org') &&
+            (event.origin != 'http://www.pbskids.org')
+        ) return;
+
+        switch (event.data) {
+            case 'unpaired':
+                simpleStorage.deleteKey('channel-metadata');
+                break;
+            default:
+                simpleStorage.set('channel-metadata', {'channel_id': event.data});
+                break;
+        }
+    }, false);
+</script>
+</body>
+</html>

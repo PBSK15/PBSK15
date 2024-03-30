@@ -1,0 +1,126 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Greeting Cards' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		coloring_on = new Image( );		coloring_on.src = "images/btn_coloringtop_greet-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/btn_coloringtop_greet.gif";			caillouhome_on = new Image( );		caillouhome_on.src = "images/greets_caillouhome-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/greets_caillouhome.gif";			caillou_on = new Image( );		caillou_on.src = "images/greets_btn_caillou-over.gif";		caillou_off = new Image( );		caillou_off.src = "images/greets_btn_caillou.gif";			friends_on = new Image( );		friends_on.src = "images/greets_btn_friends-over.gif";		friends_off = new Image( );		friends_off.src = "images/greets_btn_friends.gif";			postcard_on = new Image( );		postcard_on.src = "images/greets_btn_postcard-over.gif";		postcard_off = new Image( );		postcard_off.src = "images/greets_btn_postcard.gif";		grownups_on = new Image( );		grownups_on.src = "images/btn_grownups_greets-over.gif";		grownups_off = new Image( );		grownups_off.src = "images/btn_grownups_greets.gif";		games_on = new Image( );		games_on.src = "images/choice_games-over.gif";		games_off = new Image( );		games_off.src = "images/choice_games.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" bgcolor="#ed1c24" text="white" link="white" vlink="#fff600" alink="#00af4c" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="600" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="5">
+        <td colspan="5" height="5"></td>
+       </tr>
+       <tr>
+        <td width="140"><a href="http:pbskids.org/"><img src="images/greets_pbskids_logo.gif" alt="PBS Kids Homepage" name="dress_caillou" height="68" width="80" border="0"></a></td>
+        <td colspan="3">
+         <div align="center"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/greets_caillouhome.gif" alt="Caillou Homepage" name="caillouhome" height="68" width="200" border="0"></a>
+         </div></td>
+        <td width="140">
+         <div align="right">
+          <table border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td valign="bottom">
+              <div align="center"><a onmouseover="act('coloring')" onmouseout="inact('coloring')" href="../activities/index.html"><img src="images/btn_coloringtop_greet.gif" alt="Activity Page" name="coloring" height="68" width="100" border="0"></a>
+              </div></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr height="440">
+   <td height="440" background="images/greetings_bkg.gif">
+    <div align="center">
+     <div align="center">
+      <table width="122" border="0" cellspacing="0" cellpadding="0" bgcolor="#00af4c">
+       <tbody>
+        <tr>
+         <td colspan="2"><img src="images/greets_title.gif" width="600" height="62" alt="Greeting Cards"></td>
+        </tr>
+        <tr>
+         <td>
+          <table width="60" border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td>
+              <table width="122" border="0" cellspacing="0" cellpadding="0" bgcolor="#00af4c">
+               <tbody>
+                <tr>
+                 <td><a onmouseover="act('caillou')" onmouseout="inact('caillou')" href="caillou_email.html"><img name="caillou" src="images/greets_btn_caillou.gif" width="142" height="167" border="0" alt="Send an email to Caillou"></a></td>
+                 <td><a onmouseover="act('friends')" onmouseout="inact('friends')" href="friends_email.html"><img name="friends" src="images/greets_btn_friends.gif" width="167" height="167" border="0" alt="Send an email to your friends or parents"></a></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+            <tr>
+             <td>
+              <table width="180" border="0" cellspacing="0" cellpadding="0">
+               <tbody>
+                <tr>
+                 <td><img src="images/greets_left.gif" width="32" height="152" alt=""></td>
+                 <td><a onmouseover="act('postcard')" onmouseout="inact('postcard')" href="postcards.html"><img name="postcard" src="images/greets_btn_postcard.gif" width="243" height="152" border="0" alt="Make and send a postcard by mail"></a></td>
+                 <td><img src="images/greets_right.gif" width="34" height="152" alt=""></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table></td>
+         <td>
+          <table width="64" border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td><img src="images/greets_cailloutop.gif" width="291" height="167" alt="Dad, Caillou and Clementine writing email"></td>
+            </tr>
+            <tr>
+             <td><img src="images/greets_cailloubottom.gif" width="291" height="152" alt="Dad, Caillou and Clementine writing email"></td>
+            </tr>
+           </tbody>
+          </table></td>
+        </tr>
+        <tr>
+         <td colspan="2" bgcolor="#00af4c"><img src="images/greets_left.gif" width="600" height="16" alt=""></td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="608" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td valign="top">
+         <div align="left"><a onmouseover="act('games')" onmouseout="inact('games')" href="../games/index.html"><img src="images/choice_games.gif" alt="Games" name="games" height="74" width="110" border="0"></a>
+         </div></td>
+        <td width="400">
+         <div align="center"><!-- Footer nav bar goes here --> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" style="font-size:12px">| <a href="/caillou/">Caillou Homepage</a> | <a href="/caillou/grownups/sitemap.html">Site Map</a> | <a href="/caillou/games/">Games</a> | <a href="/caillou/activities/">Activities</a> | <a href="/caillou/greetings/">Greeting Cards</a> |<br>| <a href="/caillou/grownups/">Grown-Ups</a> | <a href="http:pbskids.org/">PBS Kids Homepage</a> | <a href="http:pbskids.org/privacy/">PBS Privacy Policy |</a></font>
+          <p></p>
+          <p></p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" style="font-size:12px">Web site copyright © <a href="/caillou/copyright.html">2002</a> CINAR Corporation<br>All rights reserved.</font>
+          <p></p>
+         </div></td>
+        <td valign="top">
+         <div align="right"><a onmouseover="act('grownups')" onmouseout="inact('grownups')" href="../grownups/index.html"><img src="images/btn_grownups_greets.gif" alt="Caregiver Section" name="grownups" height="81" width="90" border="0"></a>
+         </div><a onmouseover="act('grownups')" onmouseout="inact('grownups')" href="../grownups/index.html"> </a></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

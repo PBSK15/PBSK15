@@ -1,0 +1,30 @@
+{
+  "resources": [
+    "fast-food-freddy.m4a",
+    "fast-food-freddy.oga",
+    "fast-food-freddy.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "ProfessorFizzy": {
+      "start": 6,
+      "end": 11.638344671201814,
+      "loop": false
+    },
+    "SomePeople": {
+      "start": 13,
+      "end": 19.94,
+      "loop": false
+    },
+    "Whatever": {
+      "start": 21,
+      "end": 23.101020408163265,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

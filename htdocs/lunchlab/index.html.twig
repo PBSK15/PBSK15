@@ -1,0 +1,48 @@
+{% extends 'lunchlab/includes/lunchLabPage.html.twig' %}
+{% set pageTitle = 'Home' %}
+{% set bodyId = 'home' %}
+
+
+{% block mainContent %}<div id="containerContainer">
+ <div id="pageLoader"></div>
+ <div class="clearfix contentContainer">
+  <div id="content" class="clearfix">
+   <div class="center">
+    <div class="frame inline theme">
+     <div class="topRightCorner"></div>
+     <div class="topLeftCorner"></div>
+     <div class="bottomRightCorner"></div>
+     <div class="bottomLeftCorner"></div>
+     <div class="topBar"></div>
+     <div class="bottomBar"></div>
+     <div class="leftBar"></div>
+     <div class="rightBar"></div><img src="http://pbskids.org/lunchlab/assets/images/themes/protein.jpg?v=3" alt="This Month's Theme is Protein">
+    </div>
+    <div class="frame inline promos" id="promoFrame">
+     <div class="topRightCorner"></div>
+     <div class="topLeftCorner"></div>
+     <div class="bottomRightCorner"></div>
+     <div class="bottomLeftCorner"></div>
+     <div class="topBar"></div>
+     <div class="bottomBar"></div>
+     <div class="leftBar"></div>
+     <div class="rightBar"></div>
+     <ul id="promoBox">
+      <li class=""><a href="/lunchlab/videos"><img src="/lunchlab/assets/images/default_promos/videos-default-promo.jpg?v=3"><button class="button major promoButton">Play Videos</button></a></li>
+      <li class=""><a href="/lunchlab/games"><img src="/lunchlab/assets/images/default_promos/games-default-promo.jpg?v=3"><button class="button major promoButton">Play Games</button></a></li>
+      <li class=""><a href="/lunchlab/food"><img src="/lunchlab/assets/images/default_promos/food-default-promo.jpg?v=3"><button class="button major promoButton">View Recipes</button></a></li>
+      <li class=""><a href="/lunchlab/music"><img src="/lunchlab/assets/images/default_promos/music-default-promo.jpg?v=3"><button class="button major promoButton">Play Music</button></a></li>
+      <li class="requires-flash"><a href="/lunchlab/my-kitchen"><img src="/lunchlab/assets/images/default_promos/bot-promo.jpg?v=3"><button class="button major promoButton">Build Now</button></a></li>
+      <li class="requires-flash"><a href="/lunchlab/my-kitchen"><img src="/lunchlab/assets/images/default_promos/kitchen-promo.jpg?v=3"><button class="button major promoButton">Build Now</button></a></li>
+     </ul>
+     <div class="nav">
+      <button class="button minor" id="prev"><span class="icon-previous"></span></button><button class="button minor" id="next"><span class="icon-next"></span></button>
+     </div>
+    </div>
+    <canvas id="homeCharacter" width="430" height="495"></canvas>
+    <canvas id="homeMixie" width="420" height="360"></canvas>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+

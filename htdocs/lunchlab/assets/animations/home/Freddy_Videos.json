@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "Freddy_Videos.m4a",
+    "Freddy_Videos.oga",
+    "Freddy_Videos.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "Freddy_Videos": {
+      "start": 6,
+      "end": 13.169274376417235,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

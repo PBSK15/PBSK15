@@ -1,0 +1,270 @@
+.border {
+		position:relative;
+		z-index:2;
+		width:100%;
+		top:-1129px;
+}
+
+.border .left{
+	width:179px;
+	height:540px;
+	background:url(../../img/Web_Frame_Left.png) 0 -53px no-repeat;
+	float:left;
+}
+		
+.border .right{
+	width:294px;
+	height:607px;
+	background:url(../../img/Web_Frame_Right.png) 0 -53px no-repeat;
+	float:right;
+}
+
+.bg{
+	width:100%;
+	background: url(../../img/grass_repeat.jpg) repeat;	
+}
+	.bg .wallpaper{
+		overflow:hidden;
+		height:386px;
+		width: 100%;
+	}
+		.bg .wallpaper .sky{
+			width: 100%;
+			height:220px;
+			background: url(../../img/Sky_BG.png) repeat-x;
+			background-size:5px 220px;
+			position:relative;
+		}
+		.bg .wallpaper .water{
+			width:100%;
+			height:40px;
+			background:url(../../img/Water_BG.jpg) repeat-x;
+			background-size:300px 40px;
+			position:relative;
+		}
+		.bg .wallpaper .beach{
+			width:100%;
+			height:73px;
+			background:url(../../img/Beach_BG.png) repeat-x;
+			background-size:245px 73px;
+			position:relative;
+			top:-10px;
+		}
+		.bg .wallpaper .house{
+			width:222px;
+			height:115px;
+			background:url(../../img/DanielHouse.png) repeat-x;
+			background-size:222px 115px;
+			position:relative;
+			left:25%;
+			top:-152px;
+		}
+		
+		.bg .wallpaper .container{
+			width:100%;
+			position:absolute;
+			top:0px;
+			left:0px;
+			padding-top: 41px; /*takes into account parent bar*/
+		}
+			.bg .wallpaper .container .centering{
+				width:80%;
+				margin-left:auto;
+				margin-right:auto;
+			}
+				.bg .wallpaper .container .centering .daniel{
+					position:relative;
+					top:15px;
+					left:150px;
+					width:360px;
+					height:543px;
+					margin-left:auto;
+					margin-right:auto;
+					z-index:15;
+					background:url(../../img/DanielTiger.png) no-repeat;
+					background-size:360px 543px;
+				}
+	
+	.center_content{
+		width:80%;
+		padding-top:10px;
+		padding-bottom:50px;
+		margin-left:auto;
+		margin-right:auto;
+		position:relative;
+	}
+		.center_content .mainnav{
+			text-align:center;
+			padding-left:0px;
+			padding-top:0px;
+			padding-bottom:0px;
+			position:relative;		
+			z-index:21;
+			display:block;
+		}
+			.mainnav .nav{			
+				display:inline-block;
+				margin-top:0px;
+				margin-bottom:0px;
+			}
+			.nav a{
+				display:block;
+				overflow:hidden;
+				width:300px;
+				height:222px;			
+			}
+			.nav#stories a{
+				background: url(../../img/Storybooks_Btn.png);
+				background-size:300px 222px;
+			}
+			.nav#video a{
+				background: url(../../img/Video_Btn.png);	
+				background-size:300px 222px;
+			}
+			
+@media screen and (max-width: 1023px) {
+	.border {
+		display:none;
+	}
+	
+	.center_content{
+		padding-top:30px;
+		padding-bottom:50px;
+	}
+	
+	.nav a{
+		  width:250px;
+		  height:185px;			
+	}
+	.nav#stories a{
+		  background: url(../../img/Storybooks_Btn.png) no-repeat;
+		  background-size:250px 185px;
+	}
+	.nav#video a{
+		  background: url(../../img/Video_Btn.png) no-repeat;	
+		  background-size:250px 185px;
+	}
+}
+			
+			
+@media screen and (max-width: 679px) {
+
+	.bg .wallpaper{
+		height:270px;
+	}
+		.bg .wallpaper .sky{
+			height:154px;
+			background-size:5px 154px;
+		}
+		.bg .wallpaper .water{
+			height:30px;
+			background-size:300px 30px;
+		}
+		.bg .wallpaper .beach{
+			height:51px;
+			background-size:172px 51px;
+			top:-5px;
+		}
+		.bg .wallpaper .house{
+			width:155px;
+			height:81px;
+			background-size:155px 81px;
+			left:5px;
+			top:-104px;
+		}
+		
+		.bg .wallpaper .left{
+		  display:none;
+		}
+		
+		.bg .wallpaper .right{
+		  display:none;
+		}
+				.bg .wallpaper .container .centering .daniel{
+					top:7px;
+					left:65px;
+					width:252px;
+					height:380px;
+					background-size:252px 380px;
+					
+				}
+	.center_content{
+		width:85%;
+		padding-top:0px;
+		padding-bottom:20px;
+	}	
+		.center_content .mainnav{
+			margin-top:0px;
+			margin-bottom:0px;
+		}
+			.nav a{
+				width:175px;
+				height:130px;			
+			}
+			.nav#stories a{
+				background: url(../../img/Storybooks_Btn.png) no-repeat;
+				background-size:175px 130px;
+			}
+			.nav#video a{
+				background: url(../../img/Video_Btn.png) no-repeat;	
+				background-size:175px 130px;
+			}
+	
+}
+
+@media screen and (max-width: 479px) {
+
+	.bg .wallpaper{
+		height:193px;
+	}
+		.bg .wallpaper .sky{
+			height:110px;
+			background-size:5px 110px;
+		}
+		.bg .wallpaper .water{
+			height:20px;
+			background-size:300px 20px;
+		}
+		.bg .wallpaper .beach{
+			height:36px;
+			background-size:122px 36px;
+			top:-5px;
+		}
+		.bg .wallpaper .house{
+			width:111px;
+			height:57px;
+			background-size:111px 57px;
+			left:5px;
+			top:-76px;
+		}
+				.bg .wallpaper .container .centering .daniel{
+					top:7px;
+					left:65px;
+					width:180px;
+					height:271px;
+					background-size:180px 271px;
+					
+				}
+	.center_content{
+		width:85%;
+		padding-top:0px;
+		padding-bottom:20px;
+	}	
+		.center_content .mainnav{
+			margin-top:0px;
+			margin-bottom:0px;
+		}
+			.nav a{
+				width:125px;
+				height:92px;			
+			}
+			.nav#stories a{
+				background: url(../../img/Storybooks_Btn.png) no-repeat;
+				background-size:125px 92px;
+			}
+			.nav#video a{
+				background: url(../../img/Video_Btn.png) no-repeat;	
+				background-size:125px 92px;
+			}
+	
+}

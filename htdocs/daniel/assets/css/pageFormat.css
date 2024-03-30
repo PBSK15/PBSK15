@@ -1,0 +1,403 @@
+img
+{
+	border:0px;	
+	border-style:none;
+}
+
+div#container
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:968px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+div#upper_content
+{
+	position:relative;
+	top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:946px;
+	height:130px;
+}
+
+div#pbslogo
+{
+	position:absolute;
+	height:62px;
+	width:62px;
+	left:2px;
+	top:5px;
+}
+
+div#pbsLink
+{
+	position:absolute;
+	height:62px;
+	width:62px;
+	left:0px;
+	top:2px;
+}
+
+div#dtnlogo
+{
+	position:absolute;
+	width:146px;
+	height:120px;
+	left:55px;
+	top:0px;
+}
+
+div#dtnLink
+{
+	position:absolute;
+	width:126px;
+	height:120px;
+	left:70px;
+	top:0px;
+}
+
+div#navContainer
+{
+	position:absolute;
+	width:460px;
+	height:130px;
+	right:10px;
+}
+
+div#navFlash
+{
+	position:absolute;
+	width:460px;
+	height:130px;
+	z-index:4;
+}
+
+div#navFlashAlt
+{
+	position:absolute;
+	width:460px;
+	height:130px;
+}
+
+div#main_content
+{
+	position:relative;
+	top:10px;
+	width:946px;
+	height:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#banner
+{
+	position:relative;
+	top:23px;
+	width:665px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#bannerleft
+{
+	 float:left;
+}
+
+div#bannerright
+{
+	 float:right;
+	 padding-top:11px;
+}
+
+
+div#content_container
+{
+	position:absolute;
+	top:7px;
+	left:8px;
+}
+
+div#content_window, div#video_window
+{
+	position:absolute;
+	width:930px;
+	height:504px;
+	z-index:3;
+}
+
+div#altContentImage
+{
+	position:relative;
+	width:930px;
+	height:490px;
+	z-index:2;
+}
+
+div#parenttip
+{
+	position:absolute;
+	width:701px;
+	height:70px;
+	left:212px;
+	top:500px;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+div#parenttiptext
+{
+	position:absolute;
+	width:681px;
+	height:55px;
+	left:222px;
+	top:510px;
+	
+}
+
+p#parenttext
+{
+	padding-top:0px;
+	margin-top:0px;
+	color:#ffffff;
+	font-weight:bold;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: .8125em;
+}
+
+p#altContentText
+{
+	padding-top:0px;
+	margin-top:0px;
+	position:absolute;
+	width:930px;
+	top:285px;
+	text-align:center;	
+	color:#000000;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+}
+
+p#altInstructions
+{
+	padding-top:0px;
+	margin-top:0px;
+	position:absolute;
+	width:580px;	
+	top:325px;
+	left:175px;
+	text-align:center;	
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.85em;
+}
+
+p#back2pbs
+{
+	padding-top:0px;
+	margin-top:0px;
+	position:absolute;
+	width:230px;	
+	top:375px;
+	left:350px;
+	text-align:center;	
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.85em;
+}
+
+a#redLink
+{
+	color:#B50000;
+	text-decoration:none;
+}
+
+a#redLink:hover
+{
+	color:#B50000;
+	text-decoration:underline;
+}
+
+a#tipLink
+{
+	color:#ffffff;
+	text-decoration:underline;
+	
+}
+a#E9B9B9:hover
+{
+	color:#E9B9B9;
+	text-decoration:underline;
+}
+
+
+div#frametl
+{
+	position:absolute;
+	width:20px;
+	height:19px;
+	top:0px;
+	left:0px;
+}
+
+div#framet
+{
+	position:absolute;
+	width:906px;
+	height:8px;
+	top:-7px;
+	left:20px;
+}
+
+div#frametr
+{
+	position:absolute;
+	width:19px;
+	height:19px;
+	top:0px;
+	left:926px;
+}
+
+div#framel
+{
+	position:absolute;
+	width:8px;
+	height:466px;
+	top:19px;
+	left:0px;
+}
+
+div#framer
+{
+	position:absolute;
+	width:11px;
+	height:466px;
+	top:19px;
+	left:937px;
+}
+
+div#framebl
+{
+	position:absolute;
+	width:20px;
+	height:19px;
+	top:485px;
+	left:0px;
+}
+
+div#frameb
+{
+	position:absolute;
+	width:906px;
+	height:11px;
+	top:492px;
+	left:20px;
+}
+
+div#framebr
+{
+	position:absolute;
+	width:22px;
+	height:22px;
+	top:485px;
+	left:926px;
+}
+
+div#lowermain
+{
+	position:absolute;
+	width:130px;
+	height:75px;
+	left:15px;
+	top:510px;
+	text-align:center;
+}
+
+div#lower_content
+{
+	position:absolute;
+	top:866px;
+	width:100%;
+	z-index:1;
+}
+
+div#funderarea
+{
+	position:relative;
+	width:535px;
+	height:151px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+div#funderBG
+{
+	position:absolute;
+	width:535px;
+	height:151px;
+}
+
+div#frclogo
+{
+	border:0px;
+	left:37px;
+	top:38px;
+	position:absolute;
+}
+
+div#cpblogo
+{
+	border:0px;
+	left:327px;
+	top:20px;
+	position:absolute;
+}
+
+.gradient
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:746px;
+	
+}
+
+.stationwidget
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000000;
+	font-size:.75em;
+}
+
+div#playerchannels
+{
+	position:absolute;
+	left:595px;
+	top:400px;
+	width:253px;
+	height:60px;
+	z-index:5;
+	text-align:center;
+	background-color:#f79d4d;
+	padding-top:6px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	-moz-border-radius-bottomright:20px;
+}
+
+.topBorderFix {
+	top: -6px !important;
+}
+
+.bottomBorderFix {
+	top:493px !important;
+}

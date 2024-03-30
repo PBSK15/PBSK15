@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player>
+
+<settings
+
+defaultVolume = "1"
+autoplay = "true"
+finished = "4"
+unfinished = "1"
+
+mainBackgroundColor = "000000"
+buttonsBackgroundColor = "000000"
+buttonsOutlineColor = "ffffff"
+buttonsIconColor = "00ffff"
+buttonsIconOverColor = "FFFFFF"
+volumeBarColor = "FFFFFF"
+loadBarColor = "018786"
+progressBarColor ="00ffff"
+
+spectrumLeftColor = "ffffff"
+spectrumLeftLineColor = "FFFFFF"
+spectrumRightColor = "00ffff"
+spectrumRightLineColor = "00FFFF"
+
+/>
+
+<song>
+<title>CVC Dance</title>
+<url>hiphop/mp3/songs/hh_lyric_song4.mp3</url>
+</song>
+    
+<song>
+<title>CVC Bottle</title>
+<url>hiphop/mp3/songs/hh_mp3_RedWaterBottle.mp3</url>
+</song>
+
+<song>
+<title>CVC Westville</title>
+<url>hiphop/mp3/songs/hh_lyric_song1.mp3</url>
+</song>
+
+<song>
+<title>CVC Zeppelin</title>
+<url>hiphop/mp3/songs/hh_lyric_song2.mp3</url>
+</song>
+
+<song>
+<title>CVC Garage</title>
+<url>hiphop/mp3/songs/hh_mp3_ChucksGarageRap.mp3</url>
+</song>
+    
+<song>
+<title>CVC Groove</title>
+<url>hiphop/mp3/songs/hh_main_song3_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Kicks</title>
+<url>hiphop/mp3/songs/hh_lyric_song3.mp3</url>
+</song>
+
+<song>
+<title>CVC Swing</title>
+<url>hiphop/mp3/songs/hh_main_song1_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Delight</title>
+<url>hiphop/mp3/songs/hh_main_song2_withsolos.mp3</url>
+</song>
+
+</player>

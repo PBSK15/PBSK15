@@ -1,0 +1,9 @@
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #2659A1;}
+.smalltext {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #2659A1;}
+
+.title {font-size: 18px; color: #FFF; font-weight: bold;}
+
+.fineprint {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000;}
+a.fineprint:link {text-decoration: underline;}
+a.fineprint:visited {text-decoration: underline;}
+a.fineprint:hover {text-decoration: none;}

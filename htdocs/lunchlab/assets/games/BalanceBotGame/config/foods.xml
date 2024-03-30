@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<groups>
+		<group id="1" name="grains" color="0xFF9900" />
+		<group id="2" name="veggies" color="0x339900" />
+		<group id="3" name="fruits" color="0xCC0000" />
+		<group id="4" name="milk" color="0x00CCFF" />
+		<group id="5" name="proteins" color="0x993399" />
+		<group id="6" name="oils" color="0xFFFF33" />
+	</groups>
+	<foods>
+		<food id="1" name="Ice Cream Sandwich" asset="IceCreamSandwich.swf">
+			<group id="1" units="4" />
+			<group id="4" units="1" />
+		</food>
+		<food id="2" name="Grilled Chicken Sandwich" asset="ChickenSandwich.swf">
+			<group id="1" units="4" />
+			<group id="2" units="1" />
+			<group id="5" units="2" />
+		</food>
+		<food id="3" name="Grilled Cheese with Tomato" asset="GrilledCheeseTomato.swf">
+			<group id="1" units="4" />
+			<group id="2" units="1" />
+			<group id="4" units="2" />
+		</food>
+		<food id="4" name="Oil-popped Popcorn" asset="Popcorn.swf">
+			<group id="1" units="2" />
+			<group id="6" units="1" />
+		</food>
+		<food id="5" name="Pesto Salad with Broccoli" asset="PestoSalad.swf">
+			<group id="1" units="4" />
+			<group id="2" units="1" />
+			<group id="6" units="1" />
+		</food>
+		<food id="6" name="Apple" asset="Apple.swf">
+			<group id="3" units="1" />
+		</food>
+		<food id="7" name="Veggie Lasagna" asset="VeggieLasagna.swf">
+			<group id="1" units="3" />
+			<group id="2" units="3" />
+			<group id="4" units="3" />
+		</food>
+		<food id="8" name="Cooked Spinach" asset="CookedSpinach.swf">
+			<group id="2" units="2" />
+		</food>
+		<food id="9" name="Egg Sandwich" asset="EggSandwich.swf">
+			<group id="1" units="4" />
+			<group id="4" units="1" />
+			<group id="5" units="4" />
+		</food>
+		<food id="10" name="Whole Wheat Bagel and Cream Cheese" asset="BagelCreamCheese.swf">
+			<group id="1" units="8" />
+			<group id="4" units="1" />
+		</food>
+		<food id="11" name="Corn Muffin" asset="CornMuffin.swf">
+			<group id="1" units="2" />
+		</food>
+		<food id="12" name="2 Molasses Cookies" asset="2MolassesCookies.swf">
+			<group id="1" units="3" />
+		</food>
+		<food id="13" name="Fruit Smoothie" asset="FruitSmoothie.swf">
+			<group id="3" units="4" />
+			<group id="4" units="2" />
+		</food>
+		<food id="14" name="Banana" asset="Banana.swf">
+			<group id="3" units="2" />
+		</food>
+		<food id="15" name="Orange" asset="Orange.swf">
+			<group id="3" units="3" />
+		</food>
+		<food id="16" name="Bowl of Strawberries" asset="BowlStrawberries.swf">
+			<group id="3" units="4" />
+		</food>
+		<food id="17" name="Cheeseburger" asset="Cheeseburger.swf">
+			<group id="1" units="4" />
+			<group id="4" units="1" />
+			<group id="5" units="2" />
+		</food>
+		<food id="18" name="Frozen Yogurt in Cone" asset="FrozenYogurtCone.swf">
+			<group id="1" units="2" />
+			<group id="4" units="4" />
+		</food>
+		<food id="19" name="Milk" asset="1CupMilk.swf">
+			<group id="4" units="4" />
+		</food>
+		<food id="20" name="Pretzles" asset="Pretzles.swf">
+			<group id="1" units="4" />
+		</food>
+		<food id="21" name="Orange Juice" asset="OrangeJuice.swf">
+			<group id="3" units="5" />
+		</food>
+		<food id="22" name="Blueberry Pancakes" asset="BlueberryPancakes.swf">
+			<group id="1" units="2" />
+			<group id="3" units="1" />
+		</food>
+		<food id="23" name="Mashed Sweet Potatos" asset="MashedSweetPotatoes.swf">
+			<group id="2" units="4" />
+		</food>
+		<food id="25" name="Pita Chips and Salsa" asset="PitaChipsSalsa.swf">
+			<group id="1" units="4" />
+			<group id="3" units="2" />
+		</food>
+		<food id="26" name="Whole Wheat Bagel and Peanut Butter" asset="BagelPeanutButter.swf">
+			<group id="1" units="8" />
+			<group id="5" units="2" />
+		</food>
+		<food id="27" name="Bowl of Cereal and Banana" asset="CerealBanana.swf">
+			<group id="1" units="6" />
+			<group id="3" units="2" />
+			<group id="4" units="2" />
+		</food>
+		<food id="28" name="Pasta and Tomato Sauce" asset="PastaTomatoSauce.swf">
+			<group id="1" units="4" />
+			<group id="3" units="1" />
+		</food>
+		<food id="29" name="2 Scrambled Eggs" asset="ScrambledEggs.swf">
+			<group id="4" units="1" />
+			<group id="5" units="2" />
+		</food>
+		<food id="30" name="Bowl of Chicken Veggie Soup" asset="ChickenVeggieSoup.swf">
+			<group id="2" units="3" />
+			<group id="5" units="2" />
+		</food>
+		<food id="31" name="Oatmeal with Strawberries" asset="OatmealStrawberries.swf">
+			<group id="1" units="2" />
+			<group id="3" units="2" />
+		</food>
+		<food id="32" name="Hotdog" asset="Hotdog.swf">
+			<group id="1" units="2" />
+			<group id="5" units="2" />
+		</food>
+		<food id="33" name="Slice of Cheese and Veggie Pizza" asset="CheeseVeggiePizza.swf">
+			<group id="1" units="2" />
+			<group id="2" units="2" />
+			<group id="4" units="2" />
+		</food>
+		<food id="34" name="Chicken Stir Fry over Rice" asset="ChickenStirFry.swf">
+			<group id="1" units="4" />
+			<group id="2" units="2" />
+			<group id="5" units="4" />
+		</food>
+		<food id="35" name="Chili con Carne" asset="ChileCarne.swf">
+			<group id="1" units="3" />
+			<group id="5" units="6" />
+		</food>
+		<food id="36" name="Trail Mix (Nuts, Seeds, Dried Fruit)" asset="TrailMix.swf">
+			<group id="3" units="2" />
+			<group id="5" units="3" />
+			<group id="6" units="3" />
+		</food>
+		<food id="37" name="Peanut Butter and Jelly Sandwich" asset="PeanutButterJelly.swf">
+			<group id="1" units="4" />
+			<group id="5" units="1" />
+			<group id="6" units="1" />
+		</food>
+		<food id="38" name="Turkey Wrap" asset="TurkeyWrap.swf">
+			<group id="1" units="4" />
+			<group id="2" units="2" />
+			<group id="5" units="2" />
+		</food>
+		<food id="39" name="Fresh Fruit Salad" asset="FruitSalad.swf">
+			<group id="3" units="6" />
+		</food>
+		<food id="40" name="Yogurt" asset="YogurtPack.swf">
+			<group id="4" units="2" />
+		</food>
+	</foods>
+</Config>

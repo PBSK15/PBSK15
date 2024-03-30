@@ -1,0 +1,1071 @@
+{
+"id": "cd_foodparts1",
+
+"frames": {
+
+"Circle_Cutter_Frame.png":
+{
+	"frame": {"x":274,"y":510,"w":92,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":109},
+	"sourceSize": {"w":92,"h":109}
+},
+"Circle_Half.png":
+{
+	"frame": {"x":349,"y":0,"w":88,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":84},
+	"sourceSize": {"w":88,"h":84}
+},
+"Circle_Highlight.png":
+{
+	"frame": {"x":708,"y":0,"w":92,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":92},
+	"sourceSize": {"w":92,"h":92}
+},
+"Circle_Quarters.png":
+{
+	"frame": {"x":169,"y":0,"w":88,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":84},
+	"sourceSize": {"w":88,"h":84}
+},
+"Circle_Thirds.png":
+{
+	"frame": {"x":259,"y":0,"w":88,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":84},
+	"sourceSize": {"w":88,"h":84}
+},
+"circle_cake_pink_blueberries_fourth1.png":
+{
+	"frame": {"x":206,"y":405,"w":93,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":103},
+	"sourceSize": {"w":93,"h":103}
+},
+"circle_cake_pink_blueberries_fourth2.png":
+{
+	"frame": {"x":116,"y":405,"w":88,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":103},
+	"sourceSize": {"w":88,"h":103}
+},
+"circle_cake_pink_blueberries_fourth3.png":
+{
+	"frame": {"x":638,"y":300,"w":92,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":100},
+	"sourceSize": {"w":92,"h":100}
+},
+"circle_cake_pink_blueberries_fourth4.png":
+{
+	"frame": {"x":454,"y":300,"w":88,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":100},
+	"sourceSize": {"w":88,"h":100}
+},
+"circle_cake_pink_blueberries_half1.png":
+{
+	"frame": {"x":825,"y":892,"w":92,"h":149},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":149},
+	"sourceSize": {"w":92,"h":149}
+},
+"circle_cake_pink_blueberries_half2.png":
+{
+	"frame": {"x":741,"y":1196,"w":92,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":151},
+	"sourceSize": {"w":92,"h":151}
+},
+"circle_cake_pink_blueberries_third1.png":
+{
+	"frame": {"x":272,"y":99,"w":132,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":97},
+	"sourceSize": {"w":132,"h":97}
+},
+"circle_cake_pink_blueberries_third2.png":
+{
+	"frame": {"x":894,"y":624,"w":90,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":129},
+	"sourceSize": {"w":90,"h":129}
+},
+"circle_cake_pink_blueberries_third3.png":
+{
+	"frame": {"x":186,"y":755,"w":91,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":130},
+	"sourceSize": {"w":91,"h":130}
+},
+"circle_cake_pink_blueberries_whole.png":
+{
+	"frame": {"x":582,"y":1196,"w":157,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":151},
+	"sourceSize": {"w":157,"h":151}
+},
+"circle_cake_pink_raspberries_fourth1.png":
+{
+	"frame": {"x":0,"y":510,"w":92,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":103},
+	"sourceSize": {"w":92,"h":103}
+},
+"circle_cake_pink_raspberries_fourth2.png":
+{
+	"frame": {"x":1029,"y":405,"w":93,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":103},
+	"sourceSize": {"w":93,"h":103}
+},
+"circle_cake_pink_raspberries_fourth3.png":
+{
+	"frame": {"x":732,"y":300,"w":92,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":100},
+	"sourceSize": {"w":92,"h":100}
+},
+"circle_cake_pink_raspberries_fourth4.png":
+{
+	"frame": {"x":978,"y":199,"w":91,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":99},
+	"sourceSize": {"w":91,"h":99}
+},
+"circle_cake_pink_raspberries_half1.png":
+{
+	"frame": {"x":919,"y":892,"w":92,"h":149},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":149},
+	"sourceSize": {"w":92,"h":149}
+},
+"circle_cake_pink_raspberries_half2.png":
+{
+	"frame": {"x":0,"y":1349,"w":92,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":151},
+	"sourceSize": {"w":92,"h":151}
+},
+"circle_cake_pink_raspberries_third1.png":
+{
+	"frame": {"x":802,"y":0,"w":132,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":97},
+	"sourceSize": {"w":132,"h":97}
+},
+"circle_cake_pink_raspberries_third2.png":
+{
+	"frame": {"x":802,"y":624,"w":90,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":129},
+	"sourceSize": {"w":90,"h":129}
+},
+"circle_cake_pink_raspberries_third3.png":
+{
+	"frame": {"x":279,"y":755,"w":91,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":130},
+	"sourceSize": {"w":91,"h":130}
+},
+"circle_cake_pink_raspberries_whole.png":
+{
+	"frame": {"x":753,"y":1349,"w":157,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":151},
+	"sourceSize": {"w":157,"h":151}
+},
+"circle_cake_purple_blueberries_fourth1.png":
+{
+	"frame": {"x":818,"y":405,"w":93,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":103},
+	"sourceSize": {"w":93,"h":103}
+},
+"circle_cake_purple_blueberries_fourth2.png":
+{
+	"frame": {"x":628,"y":405,"w":93,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":103},
+	"sourceSize": {"w":93,"h":103}
+},
+"circle_cake_purple_blueberries_fourth3.png":
+{
+	"frame": {"x":544,"y":300,"w":92,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":100},
+	"sourceSize": {"w":92,"h":100}
+},
+"circle_cake_purple_blueberries_fourth4.png":
+{
+	"frame": {"x":361,"y":300,"w":91,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":100},
+	"sourceSize": {"w":91,"h":100}
+},
+"circle_cake_purple_blueberries_half1.png":
+{
+	"frame": {"x":731,"y":892,"w":92,"h":149},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":149},
+	"sourceSize": {"w":92,"h":149}
+},
+"circle_cake_purple_blueberries_half2.png":
+{
+	"frame": {"x":565,"y":1349,"w":92,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":151},
+	"sourceSize": {"w":92,"h":151}
+},
+"circle_cake_purple_blueberries_third1.png":
+{
+	"frame": {"x":661,"y":99,"w":132,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":97},
+	"sourceSize": {"w":132,"h":97}
+},
+"circle_cake_purple_blueberries_third2.png":
+{
+	"frame": {"x":710,"y":624,"w":90,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":129},
+	"sourceSize": {"w":90,"h":129}
+},
+"circle_cake_purple_blueberries_third3.png":
+{
+	"frame": {"x":0,"y":755,"w":91,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":130},
+	"sourceSize": {"w":91,"h":130}
+},
+"circle_cake_purple_blueberries_whole.png":
+{
+	"frame": {"x":94,"y":1349,"w":157,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":151},
+	"sourceSize": {"w":157,"h":151}
+},
+"circle_cake_purple_raspberries_fourth1.png":
+{
+	"frame": {"x":723,"y":405,"w":93,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":103},
+	"sourceSize": {"w":93,"h":103}
+},
+"circle_cake_purple_raspberries_fourth2.png":
+{
+	"frame": {"x":533,"y":405,"w":93,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":103},
+	"sourceSize": {"w":93,"h":103}
+},
+"circle_cake_purple_raspberries_fourth3.png":
+{
+	"frame": {"x":267,"y":300,"w":92,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":100},
+	"sourceSize": {"w":92,"h":100}
+},
+"circle_cake_purple_raspberries_fourth4.png":
+{
+	"frame": {"x":1050,"y":99,"w":91,"h":98},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":98},
+	"sourceSize": {"w":91,"h":98}
+},
+"circle_cake_purple_raspberries_half1.png":
+{
+	"frame": {"x":637,"y":892,"w":92,"h":149},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":149},
+	"sourceSize": {"w":92,"h":149}
+},
+"circle_cake_purple_raspberries_half2.png":
+{
+	"frame": {"x":659,"y":1349,"w":92,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":151},
+	"sourceSize": {"w":92,"h":151}
+},
+"circle_cake_purple_raspberries_third1.png":
+{
+	"frame": {"x":0,"y":99,"w":132,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":97},
+	"sourceSize": {"w":132,"h":97}
+},
+"circle_cake_purple_raspberries_third2.png":
+{
+	"frame": {"x":986,"y":624,"w":90,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":129},
+	"sourceSize": {"w":90,"h":129}
+},
+"circle_cake_purple_raspberries_third3.png":
+{
+	"frame": {"x":93,"y":755,"w":91,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":130},
+	"sourceSize": {"w":91,"h":130}
+},
+"circle_cake_purple_raspberries_whole.png":
+{
+	"frame": {"x":253,"y":1349,"w":157,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":151},
+	"sourceSize": {"w":157,"h":151}
+},
+"circle_loaf_orange_bluebow_fourth1.png":
+{
+	"frame": {"x":548,"y":510,"w":88,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":110},
+	"sourceSize": {"w":88,"h":110}
+},
+"circle_loaf_orange_bluebow_fourth2.png":
+{
+	"frame": {"x":368,"y":510,"w":88,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":109},
+	"sourceSize": {"w":88,"h":109}
+},
+"circle_loaf_orange_bluebow_fourth3.png":
+{
+	"frame": {"x":89,"y":300,"w":87,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":100},
+	"sourceSize": {"w":87,"h":100}
+},
+"circle_loaf_orange_bluebow_fourth4.png":
+{
+	"frame": {"x":794,"y":199,"w":90,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":99},
+	"sourceSize": {"w":90,"h":99}
+},
+"circle_loaf_orange_bluebow_half1.png":
+{
+	"frame": {"x":1013,"y":892,"w":88,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":150},
+	"sourceSize": {"w":88,"h":150}
+},
+"circle_loaf_orange_bluebow_half2.png":
+{
+	"frame": {"x":178,"y":1044,"w":91,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":150},
+	"sourceSize": {"w":91,"h":150}
+},
+"circle_loaf_orange_bluebow_third1.png":
+{
+	"frame": {"x":523,"y":99,"w":136,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":97},
+	"sourceSize": {"w":136,"h":97}
+},
+"circle_loaf_orange_bluebow_third2.png":
+{
+	"frame": {"x":372,"y":755,"w":88,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":131},
+	"sourceSize": {"w":88,"h":131}
+},
+"circle_loaf_orange_bluebow_third3.png":
+{
+	"frame": {"x":350,"y":624,"w":88,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":127},
+	"sourceSize": {"w":88,"h":127}
+},
+"circle_loaf_orange_bluebow_whole.png":
+{
+	"frame": {"x":987,"y":1196,"w":151,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":151,"h":151},
+	"sourceSize": {"w":151,"h":151}
+},
+"circle_loaf_orange_greenbow_fourth1.png":
+{
+	"frame": {"x":638,"y":510,"w":88,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":110},
+	"sourceSize": {"w":88,"h":110}
+},
+"circle_loaf_orange_greenbow_fourth2.png":
+{
+	"frame": {"x":94,"y":510,"w":88,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":109},
+	"sourceSize": {"w":88,"h":109}
+},
+"circle_loaf_orange_greenbow_fourth3.png":
+{
+	"frame": {"x":0,"y":300,"w":87,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":100},
+	"sourceSize": {"w":87,"h":100}
+},
+"circle_loaf_orange_greenbow_fourth4.png":
+{
+	"frame": {"x":621,"y":199,"w":90,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":99},
+	"sourceSize": {"w":90,"h":99}
+},
+"circle_loaf_orange_greenbow_half1.png":
+{
+	"frame": {"x":88,"y":1044,"w":88,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":150},
+	"sourceSize": {"w":88,"h":150}
+},
+"circle_loaf_orange_greenbow_half2.png":
+{
+	"frame": {"x":271,"y":1044,"w":91,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":150},
+	"sourceSize": {"w":91,"h":150}
+},
+"circle_loaf_orange_greenbow_third1.png":
+{
+	"frame": {"x":795,"y":99,"w":136,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":97},
+	"sourceSize": {"w":136,"h":97}
+},
+"circle_loaf_orange_greenbow_third2.png":
+{
+	"frame": {"x":462,"y":755,"w":88,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":131},
+	"sourceSize": {"w":88,"h":131}
+},
+"circle_loaf_orange_greenbow_third3.png":
+{
+	"frame": {"x":440,"y":624,"w":88,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":128},
+	"sourceSize": {"w":88,"h":128}
+},
+"circle_loaf_orange_greenbow_whole.png":
+{
+	"frame": {"x":412,"y":1349,"w":151,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":151,"h":151},
+	"sourceSize": {"w":151,"h":151}
+},
+"circle_loaf_yellow_bluebow_fourth1.png":
+{
+	"frame": {"x":713,"y":199,"w":79,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":99},
+	"sourceSize": {"w":79,"h":99}
+},
+"circle_loaf_yellow_bluebow_fourth2.png":
+{
+	"frame": {"x":540,"y":199,"w":79,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":99},
+	"sourceSize": {"w":79,"h":99}
+},
+"circle_loaf_yellow_bluebow_fourth3.png":
+{
+	"frame": {"x":510,"y":0,"w":71,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":88},
+	"sourceSize": {"w":71,"h":88}
+},
+"circle_loaf_yellow_bluebow_fourth4.png":
+{
+	"frame": {"x":439,"y":0,"w":69,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":88},
+	"sourceSize": {"w":69,"h":88}
+},
+"circle_loaf_yellow_bluebow_half1.png":
+{
+	"frame": {"x":355,"y":892,"w":72,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":140},
+	"sourceSize": {"w":72,"h":140}
+},
+"circle_loaf_yellow_bluebow_half2.png":
+{
+	"frame": {"x":560,"y":892,"w":75,"h":141},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":141},
+	"sourceSize": {"w":75,"h":141}
+},
+"circle_loaf_yellow_bluebow_third1.png":
+{
+	"frame": {"x":583,"y":0,"w":123,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":89},
+	"sourceSize": {"w":123,"h":89}
+},
+"circle_loaf_yellow_bluebow_third2.png":
+{
+	"frame": {"x":552,"y":755,"w":85,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":131},
+	"sourceSize": {"w":85,"h":131}
+},
+"circle_loaf_yellow_bluebow_third3.png":
+{
+	"frame": {"x":620,"y":624,"w":88,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":128},
+	"sourceSize": {"w":88,"h":128}
+},
+"circle_loaf_yellow_bluebow_whole.png":
+{
+	"frame": {"x":429,"y":892,"w":129,"h":141},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":141},
+	"sourceSize": {"w":129,"h":141}
+},
+"circle_loaf_yellow_greenbow_fourth1.png":
+{
+	"frame": {"x":458,"y":510,"w":88,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":110},
+	"sourceSize": {"w":88,"h":110}
+},
+"circle_loaf_yellow_greenbow_fourth2.png":
+{
+	"frame": {"x":184,"y":510,"w":88,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":109},
+	"sourceSize": {"w":88,"h":109}
+},
+"circle_loaf_yellow_greenbow_fourth3.png":
+{
+	"frame": {"x":178,"y":300,"w":87,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":100},
+	"sourceSize": {"w":87,"h":100}
+},
+"circle_loaf_yellow_greenbow_fourth4.png":
+{
+	"frame": {"x":92,"y":199,"w":90,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":99},
+	"sourceSize": {"w":90,"h":99}
+},
+"circle_loaf_yellow_greenbow_half1.png":
+{
+	"frame": {"x":762,"y":1044,"w":88,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":150},
+	"sourceSize": {"w":88,"h":150}
+},
+"circle_loaf_yellow_greenbow_half2.png":
+{
+	"frame": {"x":852,"y":1044,"w":90,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":150},
+	"sourceSize": {"w":90,"h":150}
+},
+"circle_loaf_yellow_greenbow_third1.png":
+{
+	"frame": {"x":134,"y":99,"w":136,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":97},
+	"sourceSize": {"w":136,"h":97}
+},
+"circle_loaf_yellow_greenbow_third2.png":
+{
+	"frame": {"x":639,"y":755,"w":88,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":131},
+	"sourceSize": {"w":88,"h":131}
+},
+"circle_loaf_yellow_greenbow_third3.png":
+{
+	"frame": {"x":530,"y":624,"w":88,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":128},
+	"sourceSize": {"w":88,"h":128}
+},
+"circle_loaf_yellow_greenbow_whole.png":
+{
+	"frame": {"x":835,"y":1196,"w":150,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":151},
+	"sourceSize": {"w":150,"h":151}
+},
+"circle_sandwich_dark_olive_fourth1.png":
+{
+	"frame": {"x":176,"y":624,"w":85,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":112},
+	"sourceSize": {"w":85,"h":112}
+},
+"circle_sandwich_dark_olive_fourth2.png":
+{
+	"frame": {"x":815,"y":510,"w":87,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":112},
+	"sourceSize": {"w":87,"h":112}
+},
+"circle_sandwich_dark_olive_fourth3.png":
+{
+	"frame": {"x":364,"y":199,"w":86,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":99},
+	"sourceSize": {"w":86,"h":99}
+},
+"circle_sandwich_dark_olive_fourth4.png":
+{
+	"frame": {"x":0,"y":199,"w":90,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":99},
+	"sourceSize": {"w":90,"h":99}
+},
+"circle_sandwich_dark_olive_half1.png":
+{
+	"frame": {"x":674,"y":1044,"w":86,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":150},
+	"sourceSize": {"w":86,"h":150}
+},
+"circle_sandwich_dark_olive_half2.png":
+{
+	"frame": {"x":490,"y":1196,"w":90,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":150},
+	"sourceSize": {"w":90,"h":150}
+},
+"circle_sandwich_dark_olive_third1.png":
+{
+	"frame": {"x":406,"y":99,"w":115,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":97},
+	"sourceSize": {"w":115,"h":97}
+},
+"circle_sandwich_dark_olive_third2.png":
+{
+	"frame": {"x":89,"y":892,"w":87,"h":136},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":136},
+	"sourceSize": {"w":87,"h":136}
+},
+"circle_sandwich_dark_olive_third3.png":
+{
+	"frame": {"x":1005,"y":755,"w":90,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":135},
+	"sourceSize": {"w":90,"h":135}
+},
+"circle_sandwich_dark_olive_whole.png":
+{
+	"frame": {"x":0,"y":1196,"w":153,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":150},
+	"sourceSize": {"w":153,"h":150}
+},
+"circle_sandwich_dark_pickle_fourth1.png":
+{
+	"frame": {"x":263,"y":624,"w":85,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":112},
+	"sourceSize": {"w":85,"h":112}
+},
+"circle_sandwich_dark_pickle_fourth2.png":
+{
+	"frame": {"x":904,"y":510,"w":87,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":112},
+	"sourceSize": {"w":87,"h":112}
+},
+"circle_sandwich_dark_pickle_fourth3.png":
+{
+	"frame": {"x":364,"y":199,"w":86,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":99},
+	"sourceSize": {"w":86,"h":99}
+},
+"circle_sandwich_dark_pickle_fourth4.png":
+{
+	"frame": {"x":0,"y":199,"w":90,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":99},
+	"sourceSize": {"w":90,"h":99}
+},
+"circle_sandwich_dark_pickle_half1.png":
+{
+	"frame": {"x":1036,"y":1044,"w":86,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":150},
+	"sourceSize": {"w":86,"h":150}
+},
+"circle_sandwich_dark_pickle_half2.png":
+{
+	"frame": {"x":944,"y":1044,"w":90,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":150},
+	"sourceSize": {"w":90,"h":150}
+},
+"circle_sandwich_dark_pickle_third1.png":
+{
+	"frame": {"x":406,"y":99,"w":115,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":97},
+	"sourceSize": {"w":115,"h":97}
+},
+"circle_sandwich_dark_pickle_third2.png":
+{
+	"frame": {"x":178,"y":892,"w":86,"h":136},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":136},
+	"sourceSize": {"w":86,"h":136}
+},
+"circle_sandwich_dark_pickle_third3.png":
+{
+	"frame": {"x":821,"y":755,"w":90,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":135},
+	"sourceSize": {"w":90,"h":135}
+},
+"circle_sandwich_dark_pickle_whole.png":
+{
+	"frame": {"x":155,"y":1196,"w":153,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":150},
+	"sourceSize": {"w":153,"h":150}
+},
+"circle_sandwich_light_olive_fourth1.png":
+{
+	"frame": {"x":0,"y":624,"w":85,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":112},
+	"sourceSize": {"w":85,"h":112}
+},
+"circle_sandwich_light_olive_fourth2.png":
+{
+	"frame": {"x":993,"y":510,"w":87,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":112},
+	"sourceSize": {"w":87,"h":112}
+},
+"circle_sandwich_light_olive_fourth3.png":
+{
+	"frame": {"x":184,"y":199,"w":86,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":99},
+	"sourceSize": {"w":86,"h":99}
+},
+"circle_sandwich_light_olive_fourth4.png":
+{
+	"frame": {"x":272,"y":199,"w":90,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":99},
+	"sourceSize": {"w":90,"h":99}
+},
+"circle_sandwich_light_olive_half1.png":
+{
+	"frame": {"x":402,"y":1196,"w":86,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":150},
+	"sourceSize": {"w":86,"h":150}
+},
+"circle_sandwich_light_olive_half2.png":
+{
+	"frame": {"x":310,"y":1196,"w":90,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":150},
+	"sourceSize": {"w":90,"h":150}
+},
+"circle_sandwich_light_olive_third1.png":
+{
+	"frame": {"x":933,"y":99,"w":115,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":97},
+	"sourceSize": {"w":115,"h":97}
+},
+"circle_sandwich_light_olive_third2.png":
+{
+	"frame": {"x":266,"y":892,"w":87,"h":136},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":136},
+	"sourceSize": {"w":87,"h":136}
+},
+"circle_sandwich_light_olive_third3.png":
+{
+	"frame": {"x":913,"y":755,"w":90,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":135},
+	"sourceSize": {"w":90,"h":135}
+},
+"circle_sandwich_light_olive_whole.png":
+{
+	"frame": {"x":364,"y":1044,"w":153,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":150},
+	"sourceSize": {"w":153,"h":150}
+},
+"circle_sandwich_light_pickle_fourth1.png":
+{
+	"frame": {"x":728,"y":510,"w":85,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":85,"h":112},
+	"sourceSize": {"w":85,"h":112}
+},
+"circle_sandwich_light_pickle_fourth2.png":
+{
+	"frame": {"x":87,"y":624,"w":87,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":112},
+	"sourceSize": {"w":87,"h":112}
+},
+"circle_sandwich_light_pickle_fourth3.png":
+{
+	"frame": {"x":452,"y":199,"w":86,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":99},
+	"sourceSize": {"w":86,"h":99}
+},
+"circle_sandwich_light_pickle_fourth4.png":
+{
+	"frame": {"x":886,"y":199,"w":90,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":99},
+	"sourceSize": {"w":90,"h":99}
+},
+"circle_sandwich_light_pickle_half1.png":
+{
+	"frame": {"x":0,"y":1044,"w":86,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":150},
+	"sourceSize": {"w":86,"h":150}
+},
+"circle_sandwich_light_pickle_half2.png":
+{
+	"frame": {"x":912,"y":1349,"w":102,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":160},
+	"sourceSize": {"w":102,"h":160}
+},
+"circle_sandwich_light_pickle_third1.png":
+{
+	"frame": {"x":936,"y":0,"w":115,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":97},
+	"sourceSize": {"w":115,"h":97}
+},
+"circle_sandwich_light_pickle_third2.png":
+{
+	"frame": {"x":0,"y":892,"w":87,"h":136},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":136},
+	"sourceSize": {"w":87,"h":136}
+},
+"circle_sandwich_light_pickle_third3.png":
+{
+	"frame": {"x":729,"y":755,"w":90,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":135},
+	"sourceSize": {"w":90,"h":135}
+},
+"circle_sandwich_light_pickle_whole.png":
+{
+	"frame": {"x":519,"y":1044,"w":153,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":150},
+	"sourceSize": {"w":153,"h":150}
+},
+"colourswatch_beige.png":
+{
+	"frame": {"x":913,"y":405,"w":114,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":103},
+	"sourceSize": {"w":114,"h":103}
+},
+"colourswatch_brown.png":
+{
+	"frame": {"x":417,"y":405,"w":114,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":103},
+	"sourceSize": {"w":114,"h":103}
+},
+"colourswatch_orange.png":
+{
+	"frame": {"x":301,"y":405,"w":114,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":103},
+	"sourceSize": {"w":114,"h":103}
+},
+"colourswatch_pink.png":
+{
+	"frame": {"x":826,"y":300,"w":114,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":103},
+	"sourceSize": {"w":114,"h":103}
+},
+"colourswatch_purple.png":
+{
+	"frame": {"x":942,"y":300,"w":114,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":103},
+	"sourceSize": {"w":114,"h":103}
+},
+"colourswatch_yellow.png":
+{
+	"frame": {"x":0,"y":405,"w":114,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":103},
+	"sourceSize": {"w":114,"h":103}
+},
+"creature_shadow.png":
+{
+	"frame": {"x":0,"y":0,"w":167,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":167,"h":75},
+	"sourceSize": {"w":167,"h":75}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "cd_foodparts1.png",
+	"format": "RGBA8888",
+	"size": {"w":1143,"h":1509},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:598f5f84ab318229c536daf1aaed2852:1/1$"
+}
+}

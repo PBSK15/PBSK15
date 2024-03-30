@@ -1,0 +1,440 @@
+/*
+
+Site:     	PBS KIDS - LESS Template (replace w/ actual site/project name)
+Author:     Miguel Montanez | PBS KIDS Digital 
+Date:       26 Jan 2013
+
+/* ==|== PBS Defaults & Meyer Reset ============================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+
+#book-wrapper-outter:before {
+  content: '';
+  display: block;
+  background: url('../media/images/site/book-stack.png') no-repeat 0 bottom;
+  width: 392px;
+  height: 347px;
+  position: absolute;
+  right: -245px;
+  bottom: -42px;
+  z-index: 10;
+}
+#book-wrapper-outter:after {
+  content: '';
+  background: url('../media/images/site/dresser-top.png') repeat-x 0 bottom;
+  display: block;
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  bottom: -160px;
+  left: 0;
+  z-index: 1;
+  border-bottom: 30px solid rgba(0,0,0,0.05);
+}
+#book-wrapper-outter.loader:before, 
+#book-wrapper-outter.loader:after { background : none; }
+
+
+#book-container
+{
+  background: url('../media/images/site/blue-wood-grain.png') no-repeat 50% 50%;
+  min-height: 550px;
+  max-height: 800px;
+  overflow: visible !important;
+  height: 80% !important;
+  margin-top: 96px;
+  position: relative !important;
+}
+#book-wrapper
+{
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  transform : translate(-50%, 0);
+  transition : transform 0.6s;
+}
+#book-cover-front
+{
+	width: 57.6%;
+	/*width: 115%;*/
+	position: absolute;
+	z-index: -1;
+	left: 50%;
+	transform: translate(-50%, 0);
+	display : none;
+}
+#book-cover-full
+{
+	width: 103.5%;
+	position: absolute;
+	z-index: -1;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top: -6px;
+	display : none;
+}
+#book-cover-bottom
+{
+	bottom : -1.6%;
+	position : absolute;
+	display : none;
+	width : 100%;
+}
+#book-cover-top
+{
+	top : -6px;
+	position : absolute;
+	display : none;
+	width : 100%;
+}
+#book-container img.pageturn
+{
+	z-index : 100; 
+	/*top : 36%;*/
+}
+
+
+
+#pbsStorybookPlayer {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  
+  background: #f5f5f5;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8bd8d8), color-stop(1, #5aa5a5));
+  background: -ms-linear-gradient(bottom, #8bd8d8, #5aa5a5);
+  background: -moz-linear-gradient(center bottom, #8bd8d8 0%, #5aa5a5 100%);
+  background: -o-linear-gradient(#5aa5a5, #8bd8d8);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5aa5a5', endColorstr='#8bd8d8', GradientType=0);
+  display: block;
+  margin: 0 auto;
+}
+
+#pbsStorybookControls{
+display: block;
+background: ;
+width: 90%;
+height: 50px;
+position: fixed;
+left: 50%;
+margin-left: -45%;
+z-index: 1000;
+}
+
+#pbsStorybookControls .brand{
+display: block;
+float: left;
+padding: 20px 14px 0;
+margin: -20px 0 0 -14px;
+width: 70px;
+height: 87px;
+
+background: #8BD8D8;
+background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8BD8D8), color-stop(1, #6DB5B4));
+background: -ms-linear-gradient(bottom, #8BD8D8, #6DB5B4);
+background: -moz-linear-gradient(center bottom, #8BD8D8 0%, #6DB5B4 100%);
+background: -o-linear-gradient(#6DB5B4, #8BD8D8);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6DB5B4', endColorstr='#8BD8D8', GradientType=0);	
+
+border-bottom: 4px solid #45918F;
+
+border-radius: 56px 0px 50px 50px;
+}
+
+#pbsStorybookControls .brand h2{
+margin: 0;
+}
+#pbsStorybookControls .brand em{
+position: absolute;
+left: -999em;	
+}
+
+#pbsStorybookControls .brand img{
+margin: 4px 0 0;
+}
+
+
+#pbsStorybookControls .show-brand{
+position: absolute;
+width: 330px;
+left: 50%;
+margin-left: -165px;
+top: 0;
+height: 75px;
+}
+
+
+#pbsStorybookControls .show-logo{
+display: block;
+width: 98%;
+margin: 0 1%;
+height: 91%;
+text-align: center;
+background: rgba(0,0,0,.05);
+}
+
+#pbsStorybookControls .show-logo img{
+width: 80%;	
+margin-top: 4px;
+}
+
+#pbsStorybookControls .show-logo em{
+position: absolute;
+left: -999em;	
+}
+
+
+#pbsStorybookControls,
+#pbsStorybookControls .show-brand{
+background: #8BD8D8;
+background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8BD8D8), color-stop(1, #6DB5B4));
+background: -ms-linear-gradient(bottom, #8BD8D8, #6DB5B4);
+background: -moz-linear-gradient(center bottom, #8BD8D8 0%, #6DB5B4 100%);
+background: -o-linear-gradient(#6DB5B4, #8BD8D8);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6DB5B4', endColorstr='#8BD8D8', GradientType=0);	
+
+border-bottom: 4px solid #45918F;
+}
+
+#pbsStorybookControls .exit-btn{
+position: absolute;
+right: 10px;
+top: 5px;
+width: 52px;
+height: 42px;
+text-indent: -999em;
+border-left: 2px solid #6CB3B1;
+
+background: url('../media/images/site/exit-btn.png') no-repeat 4px center;
+}
+
+#pbsStorybookControls .exit-btn:hover{
+background-position: -46px center;
+text-decoration: none;	
+}
+
+
+
+@media only screen and (max-height: 900px){
+	#replay-book-btn{
+		-ms-transform: scale(0.8);
+	    -webkit-transform: scale(0.8);
+	    transform: scale(0.8);
+	    bottom: -128px;
+		right: -80px;
+	}
+	#book-wrapper:before {
+		display: none;
+	}
+	#book-wrapper-outter:before {
+		display : none;
+	}
+}
+
+@media only screen and (max-width: 1175px){
+	#replay-book-btn{
+		-ms-transform: scale(0.6);
+	    -webkit-transform: scale(0.6);
+	    transform: scale(0.6);
+		bottom: -128px;
+		right: -95px;
+	}
+}
+
+
+@media only screen and (max-device-width: 1024px) and (orientation:landscape) {
+	/*#book-wrapper,*/
+	/*#pbsStorybookControls,*/
+	.pbsStorybookNav,
+	.loadingContainer{
+	opacity: 1;
+    }
+}
+@media only screen and (max-device-width: 768px) and (orientation:portrait) {
+	/*#book-wrapper,*/
+	/*#pbsStorybookControls,*/
+	.pbsStorybookNav,
+	.loadingContainer{
+	opacity: 0;
+    }
+}
+
+
+/*@media only screen and (max-width: 1023px) and (max-height: 767px) and (orientation:landscape){*/
+@media only screen and (max-width: 1023px) and (max-height: 767px) {
+
+	#pbsStorybookPlayer{
+		/*height: 98%;*/
+	}
+
+	#book-container {
+	  /*min-height: 100%;
+	  max-height: 100%;*/
+	  /*height: 101% !important;*/
+	  /*margin-top: 2px;*/
+	}
+	#book-wrapper {
+	  /*min-height: 100%;
+	  max-height: 100%;*/
+	}
+	
+	#pbsStorybookPlayer {
+	  /*min-width: 100%;
+	  max-width: 100%;*/
+	  /*min-height: 100%;
+	  max-height: 100%;*/
+	 } 
+	 
+	 /*
+	 #book-wrapper:before{
+	 	display: none;
+	 }
+	 
+	#book-wrapper:after {
+		 bottom: -190px;
+	}
+	*/
+
+	/*
+	#book-container
+    {
+    	height : auto;
+    	margin-top : 0;
+    }
+    */
+
+    #pbsStorybookControls{
+	background: none;
+	border: none;
+	width: 100%;
+	height: 0;
+	left: 0;
+	margin: 0;
+	}
+	
+	#pbsStorybookControls .show-brand{
+	display: none;	
+	}
+	
+	#pbsStorybookControls .exit-btn {
+	border: none;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 2px;
+	border-radius: 20px;
+	width: 54px;
+	height: 54px;
+	right: 6px;
+	zoom: .85;
+	}
+
+	#book-container { margin-top : 12px; }
+	#book-container img.pageturn { top : 28%; }
+
+	#book-cover-full { margin-top : -2px; }
+	#book-cover-top { top : -2px; }
+	#book-cover-bottom { bottom : -1.6%; }
+
+    /*#book-dom { top : 40%; } */
+    /*#book-container { transform : scale(0.8); margin-top : -48px; }*/
+	/*#book-container img.pageturn { top : 30%; }*/
+	/*#book-container img.pageturn.left { top : 36%; }
+	#book-container img.pageturn.right { top : 36%; }*/
+
+	#book-replay
+	{
+		transform : scale(0.6);
+		-ms-transform : scale(0.6);
+		-webkit-transform : scale(0.6);
+		-moz-transform : scale(0.6);
+	}
+}
+
+/*@media only screen and (max-width: 568px) and (orientation:portrait) {*/
+@media only screen and (max-width: 568px) {
+	/*#pbsStorybookControls{
+	background: none;
+	border: none;
+	width: 100%;
+	height: 0;
+	left: 0;
+	margin: 0;
+	}
+	
+	#pbsStorybookControls .show-brand{
+	display: none;
+	}
+	
+	#pbsStorybookControls .exit-btn {
+	border: none;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 2px;
+	border-radius: 20px;
+	width: 54px;
+	height: 54px;
+	right: 6px;
+	zoom: .85;
+	}*/
+
+	#book-container { margin-top : 12px; }
+	#book-container img.pageturn { top : 18%; }
+
+	#book-replay
+	{
+		transform : scale(0.4);
+		-ms-transform : scale(0.4);
+		-webkit-transform : scale(0.4);
+		-moz-transform : scale(0.4);
+	}
+
+	/*#book-dom { top : 30%; } */
+	/*#book-container img.pageturn { top : 21%; }*/
+	/*#book-container { margin-top : 0; }*/
+	/*#book-container img.pageturn.left { left : 0; top : 18%; }
+	#book-container img.pageturn.right { right : 0; top : 18%; }*/
+}

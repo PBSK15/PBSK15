@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tips>
+	<settings>
+		<fontsize>16</fontsize>
+	</settings>
+
+	<page>
+		<name>home</name>
+		<tip>
+			<text><![CDATA[Encourage your child’s explorations<br>with related science books.<br><a href="event:http://www.pbs.org/parents/catinthehat/catinhat_bookself.html">Visit the Cat in the Hat’s Science Bookshelf</a> ]]></text>
+			<width>300</width>
+		</tip>
+
+		<tip>
+			<text><![CDATA[Get your kids engaged in science everyday<br>with help from our Explorer’s Guide.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide.html">Learn more</a> ]]></text>
+			<width>285</width>
+		</tip>
+
+		<tip>
+			<text><![CDATA[Find related science activities that<br>you can share with your kids.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity.html">Go!</a> ]]></text>
+			<width>245</width>
+		</tip>
+
+		<tip>
+			<text><![CDATA[Learn more about the educational<br>approach behind the show.<br><a href="event:http://www.pbs.org/parents/catinthehat/about_prog_edu_approach.html">Visit PBS Parents</a> ]]></text>
+			<width>235</width>
+		</tip>			
+	</page>
+
+	<page>
+		<name>games</name>
+		<tip>
+			<text><![CDATA[Use the mapping tool to create a drawing<br>of where your child lives.<br>Ask him/her to find some hidden objects. <a href="./mappingtool/">Learn More.</a> ]]></text>
+			<width>350</width>
+		</tip>
+<!--
+		<tip>
+			<text><![CDATA[Let these games spark follow-up conversations<br>with your kids about what they learned.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_science_young_children.html">Here’s how to start the discussion.</a> ]]></text>
+			<width>305</width>
+		</tip>	
+
+		<tip>
+			<text><![CDATA[Encourage your child by asking<br>questions as they play.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_science_inquiry.html">Find out how!</a> ]]></text>
+			<width>225</width>
+		</tip>	
+
+		<tip>
+			<text><![CDATA[You can make connections between these<br>games and your child’s everyday activities.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_topten_tips.html">Find out how!</a> ]]></text>
+			<width>295</width>
+		</tip>
+	-->
+	</page>
+	
+	<page>
+		<name>printables</name>
+		<tip>
+			<text><![CDATA[Want to find more Cat in the Hat science<br>activities to share with your kids?<br><a href="event:http://www.pbs.org/parents/catinthehat/activity.html">Visit PBS Parents.</a> ]]></text>
+			<width>270</width>
+		</tip>
+
+		<tip>
+			<text><![CDATA[Find more ways to encourage your<br>child’s natural curiosity in<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide.html">The Cat in the Hat’s Explorer’s Guide.</a> ]]></text>
+			<width>265</width>
+		</tip>	
+
+		<tip>
+			<text><![CDATA[Extend the fun with more activities <br>made especially for parents.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity.html">Learn More!</a> ]]></text>
+			<width>240</width>
+		</tip>	
+	</page>	
+
+	<page>
+		<name>PreLoad</name>
+		<tip>
+			<text><![CDATA[Your child can observe birds by<br>building their own birdfeeder.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_feeding_observing_birds.html">Find out how!</a> ]]></text>
+			<width>230</width>
+		</tip>	
+
+		<tip>
+			<text><![CDATA[Try visiting a zoo or bird sanctuary to<br>observe many different types of birds.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_feeding_observing_birds.html">More bird activities.</a> ]]></text>
+			<width>270</width>
+		</tip>		
+
+		<tip>
+			<text><![CDATA[Help your child hone their observation skills by<br>drawing pictures of birds they see near home.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_feeding_observing_birds.html">Learn more.</a> ]]></text>
+			<width>310</width>
+		</tip>		
+	</page>
+
+	<page>
+		<name>CH_NowYouSee</name>
+		<tip>
+			<text><![CDATA[Try playing your own game of hide-and-seek at home. Then<br>talk about what made it easy or hard to find someone.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_animal_camouflage.html">Get more ideas!</a> ]]></text>
+			<width>385</width>
+		</tip>
+		
+		<tip>
+			<text><![CDATA[Try looking for animals that are<br>hiding in your own backyard.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_animal_camouflage.html">Learn more.</a> ]]></text>
+			<width>230</width>
+		</tip>
+
+		<tip>
+			<text><![CDATA[Take a trip to the zoo and let your kids<br>draw their animal observations.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_animal_camouflage.html">Get the activity!</a> ]]></text>
+			<width>270</width>
+		</tip>
+	</page>
+
+	<page>
+		<name>CH_WeatherTransformer</name>
+		<tip>
+			<text><![CDATA[Your child can record their weather observations<br>with their own weather chart.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_weather.html">Get the activity!</a> ]]></text>
+			<width>315</width>
+		</tip>	
+
+		<tip>
+			<page>weathertransformer</page>
+			<text><![CDATA[Grab an ice cube from the freezer and extend<br>your child’s weather exploration.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_weather.html">Find out how!</a> ]]></text>
+			<width>300</width>
+		</tip>
+
+		<tip>
+			<page>weathertransformer</page>
+			<text><![CDATA[Something as simple as splashing in rain puddles<br>can spark your child’s curiosity about weather.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_weather.html">Find more ideas!</a> ]]></text>
+			<width>315</width>
+		</tip>
+	</page>
+	
+	<page>
+		<name>CITH_NHH_Shell</name>
+		<tip>
+			<text><![CDATA[What does nighttime smell like? Take a nighttime walk with<br>your child and discuss how things smell different at night.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_our_senses.html">Find more ideas!</a> ]]></text>
+			<width>385</width>
+		</tip>	
+
+		<tip>
+			<page>nocturnalhathunt</page>
+			<text><![CDATA[Make a sensory salad! Then ask your child to <br>identify the ingredients by touch, smell, and taste.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_our_senses.html">Find more ideas!</a> ]]></text>
+			<width>335</width>
+		</tip>
+
+		<tip>
+			<page>nocturnalhathunt</page>
+			<text><![CDATA[Visit a nocturnal animals exhibit at your zoo, then ask your<br>child to make a list of the nocturnal animals that live near you.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_our_senses.html">Find more ideas!</a> ]]></text>
+			<width>395</width>
+		</tip>
+	</page>
+	
+	
+	<page>
+		<name>flowerfinder</name>
+		<tip>
+			<text><![CDATA[Invite your child to be a flower detective! Visit a plant nursery<br>or wildflower farm and look at and smell interesting flowers.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_flowers.html">Find more ideas!</a> ]]></text>
+			<width>395</width>
+		</tip>	
+
+		<tip>
+			<page>flower finder</page>
+			<text><![CDATA[Encourage your child to watch a bee, butterfly, or other<br>insect browsing a flower. Discuss your child's observations.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_flowers.html">Find more ideas!</a> ]]></text>
+			<width>385</width>
+		</tip>
+		
+		<tip>
+			<page>flower finder</page>
+			<text><![CDATA[Together with your child, pick or purchase some<br>interesting flowers to take home for pressing.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_flowers.html">Find more ideas!</a> ]]></text>
+			<width>315</width>
+		</tip>
+	</page>
+	
+	<page>
+		<name>preload</name>
+		<tip>
+			<text><![CDATA[Invite your child to be an animal detective by looking at<br>and listening for animals that live in trees.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_our_senses.html">Find more ideas!</a> ]]></text>
+			<width>365</width>
+		</tip>	
+
+		<tip>
+			<page>suchgreatheights</page>
+			<text><![CDATA[Make a book of your child's leaf<br>and bark rubbings.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_our_senses.html">Find more ideas!</a> ]]></text>
+			<width>240</width>
+		</tip>
+
+		<tip>
+			<page>suchgreatheights</page>
+			<text><![CDATA[Go to a local zoo or animal habitat and spend time<br>with your child observing animals that live in trees.<br><a href="event:http://www.pbs.org/parents/catinthehat/activity_exploring_our_senses.html">Find more ideas!</a> ]]></text>
+			<width>340</width>
+		</tip>
+	</page>
+
+	<page>
+		<name>videos</name>
+		<tip>
+			<text><![CDATA[Find out the science approach behind<br>the program at PBS Parents.<br><a href="event:http://www.pbs.org/parents/catinthehat/about_prog_edu_approach.html">Learn More!</a> ]]></text>
+			<width>260</width>
+		</tip>
+
+		<tip>
+			<text><![CDATA[Want to help your child understand the big<br>science ideas in each episode?<br><a href="event:http://www.pbs.org/parents/catinthehat/about_prog_epi_desc.html">Get the episode descriptions.</a> ]]></text>
+			<width>290</width>
+		</tip>
+
+		<tip>
+			<text><![CDATA[Did you know the show is based on the<br>Dr. Seuss Learning Library books?<br><a href="event:http://www.pbs.org/parents/catinthehat/catinhat_bookself.html">Visit the Cat in the Hat’s Science Bookshelf.</a> ]]></text>
+			<width>300</width>
+		</tip>		
+
+		<tip>
+			<text><![CDATA[Help your child get the most<br>out of every episode.<br><a href="event:http://www.pbs.org/parents/catinthehat/catinhat_bookself.html">Read our viewing tips!</a> ]]></text>
+			<width>210</width>
+		</tip>															
+	</page>
+
+	<page>
+		<name>snaporama</name>
+		<tip>
+			<text><![CDATA[Comparing and contrasting is just one of the<br>ways your child can think like a scientist.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_science_inquiry.html">Find more ways.</a> ]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Taking pictures with your child is a great way to get<br>your child engaged in observation and exploration.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_topten_tips.html">Get more ideas.</a> ]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[You can always find more photos of<br>nature by looking in a book.<br><a href="event:http://www.pbs.org/parents/catinthehat/catinhat_bookself.html">Check out The Cat in the Hat’s Science Bookshelf.</a> ]]></text>
+			<width>330</width>
+		</tip>																	
+	</page>
+
+	<page>
+		<name>puzzlegamemini</name>
+		<tip>
+			<text><![CDATA[Comparing and contrasting is just one of the<br>ways your child can think like a scientist.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_science_inquiry.html">Find more ways.</a> ]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Taking pictures with your child is a great way to get<br>your child engaged in observation and exploration.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_topten_tips.html">Get more ideas.</a> ]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[You can always find more photos of<br>nature by looking in a book.<br><a href="event:http://www.pbs.org/parents/catinthehat/catinhat_bookself.html">Check out The Cat in the Hat’s Science Bookshelf.</a> ]]></text>
+			<width>330</width>
+		</tip>																	
+	</page>
+	
+	<page>
+		<name>plantoranimalgamemin</name>
+		<tip>
+			<text><![CDATA[Comparing and contrasting is just one of the<br>ways your child can think like a scientist.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_science_inquiry.html">Find more ways.</a> ]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Taking pictures with your child is a great way to get<br>your child engaged in observation and exploration.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_topten_tips.html">Get more ideas.</a> ]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[You can always find more photos of<br>nature by looking in a book.<br><a href="event:http://www.pbs.org/parents/catinthehat/catinhat_bookself.html">Check out The Cat in the Hat’s Science Bookshelf.</a> ]]></text>
+			<width>330</width>
+		</tip>																	
+	</page>
+	<page>
+		<name>matchgamemini</name>
+		<tip>
+			<text><![CDATA[Comparing and contrasting is just one of the<br>ways your child can think like a scientist.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_science_inquiry.html">Find more ways.</a> ]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Taking pictures with your child is a great way to get<br>your child engaged in observation and exploration.<br><a href="event:http://www.pbs.org/parents/catinthehat/explorer_guide_topten_tips.html">Get more ideas.</a> ]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[You can always find more photos of<br>nature by looking in a book.<br><a href="event:http://www.pbs.org/parents/catinthehat/catinhat_bookself.html">Check out The Cat in the Hat’s Science Bookshelf.</a> ]]></text>
+			<width>330</width>
+		</tip>																	
+	</page>
+	<page>
+		<name>mathSafari</name>
+		<tip>
+			<text><![CDATA[Invite your child to draw twohouses, one that is<br>just the right size for the Cat and another<br>that is just the right size for Sally and Nick.]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Hone your child’s sorting and measurement skills<br>by making and playing the Hermit Shell Game]]></text>
+			<width>340</width>
+		</tip>					
+		<tip>
+			<text><![CDATA[Invite your child to draw pictures of kites<br>and discuss which shapes might float the best.]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Lie on your backs on a cloudy day and watch<br>the wind blow the clouds. Point out and discuss<br>the different shapes you can see in the sky.]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Match the pasta! Get a bunch of differently<br>shaped pasta and mix them up in a bowl. Then ask<br>your child to sort the pasta into like piles. ]]></text>
+			<width>330</width>
+		</tip>	
+		<tip>
+			<text><![CDATA[Tasty shapes! Together with your child, make<br>edible shapes out of sandwich bread or cookie dough.]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Get in shape! Take a walk with your child<br>and search for shapes. Bring a camera and<br>snap pictures of the shapes.]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Help familiarize your child with shapes by<br>reading Shapes, Shapes, Shapes, by Tana Hoban.]]></text>
+			<width>330</width>
+		</tip>	
+		<tip>
+			<text><![CDATA[Have your child cut out shapes from<br>construction paper. Then see what pictures your child<br>can make by putting the shaped pieces together.]]></text>
+			<width>320</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Make a shape sorter by helping your child<br>cut shapes into the lid of a shoebox.]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Clean shapes! Cut shapes out of clean,<br>colorful sponges and invite your child to<br>wash-and-learn.]]></text>
+			<width>300</width>
+		</tip>																
+	</page>
+	
+	<page>
+		<name>huffpuffatron</name>
+		<tip>
+			<text><![CDATA[Invite your child to draw pictures of kites<br>and discuss which shapes might float the best.]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Lie on your backs on a cloudy day and watch<br>the wind blow the clouds. Point out and discuss<br>the different shapes you can see in the sky.]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Match the pasta! Get a bunch of differently<br>shaped pasta and mix them up in a bowl. Then ask<br>your child to sort the pasta into like piles. ]]></text>
+			<width>330</width>
+		</tip>																	
+	</page>
+	
+	<page>
+		<name>greatshaperace</name>
+		<tip>
+			<text><![CDATA[Tasty shapes! Together with your child, make<br>edible shapes out of sandwich bread or cookie dough.]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Get in shape! Take a walk with your child<br>and search for shapes. Bring a camera and<br>snap pictures of the shapes.]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Help familiarize your child with shapes by<br>reading Shapes, Shapes, Shapes, by Tana Hoban.]]></text>
+			<width>330</width>
+		</tip>																
+	</page>
+	
+	<page>
+		<name>sketchamite</name>
+		<tip>
+			<text><![CDATA[Have your child cut out shapes from<br>construction paper. Then see what pictures your child<br>can make by putting the shaped pieces together.]]></text>
+			<width>320</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Make a shape sorter by helping your child<br>cut shapes into the lid of a shoebox.]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Clean shapes! Cut shapes out of clean,<br>colorful sponges and invite your child to<br>wash-and-learn.]]></text>
+			<width>300</width>
+		</tip>																		
+	</page>
+	
+	<page>
+		<name>HermitShellGame</name>
+		<tip>
+			<text><![CDATA[Invite your child to draw twohouses, one that is<br>just the right size for the Cat and another<br>that is just the right size for Sally and Nick.]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Hone your child’s sorting and measurement skills<br>by making and playing the Hermit Shell Game]]></text>
+			<width>340</width>
+		</tip>																
+	</page>
+	
+	<page>
+		<name>beavercity</name>
+		<tip>
+			<text><![CDATA[Choose three objects of varying heights,<br>and challenge your child to put them in order<br>from shortest to tallest.]]></text>
+			<width>320</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Use a pencil to measure different things<br>around the house,even your child!<br>How many pencils long is the sofa?]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Match ’em up! Get three jars or food storage containers<br>with different sized lids. Ask your child<br>to match the lids to the jars.]]></text>
+			<width>360</width>
+		</tip>																		
+	</page>
+	
+	<page>
+		<name>beehiveandseek</name>
+		<tip>
+			<text><![CDATA[Use position clues to direct your child<br>where to place a small stuffed animal on her body <br>(e.g., on top of your head; under your arm).]]></text>
+			<width>330</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Create an indoor obstacle course, and ask your child<br>to describe his position as he goes through it using words<br>such asover, under, and between.]]></text>
+			<width>380</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Make a simple map of a room.Hide something, <br>and put an X on the map to show its location.<br>Ask your child to use the map to find the object. ]]></text>
+			<width>330</width>
+		</tip>																	
+	</page>
+	
+	<page>
+		<name>mappingtool</name>
+		<tip>
+			<text><![CDATA[Use position clues to direct your child<br>where to place a small stuffed animal on her body <br>(e.g., on top of your head; under your arm).]]></text>
+			<width>330</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Create an indoor obstacle course, and ask your child<br>to describe his position as he goes through it using words<br>such asover, under, and between.]]></text>
+			<width>380</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Make a simple map of a room.Hide something, <br>and put an X on the map to show its location.<br>Ask your child to use the map to find the object. ]]></text>
+			<width>330</width>
+		</tip>																		
+	</page>
+	
+	<page>
+		<name>meerkat</name>
+		<tip>
+			<text><![CDATA[Create a personal puzzle. Print out a family photo,<br>paste it onto heavy paper, and cut it into<br>five or six puzzle pieces. Print an extra to use as a guide.]]></text>
+			<width>380</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Challenge your child to set a table so that one side<br>looks exactly the same as the side across from it.<br>That’s symmetry!]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Ask your child to draw the path of his ideal roller-coaster<br>and then describe the path using position words<br>such as up, down, under, and over.]]></text>
+			<width>380</width>
+		</tip>																	
+	</page>
+	
+	<page>
+		<name>leafylafoo</name>
+		<tip>
+			<text><![CDATA[For the same “sort” of fun at home,<br>help your child sort everyday objects<br>(like coins, blocks, or candy) by color, shape, and size.]]></text>
+			<width>360</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Leaves moving too fast?<br>Click the apple at the top of the screen<br>to change the speed.]]></text>
+			<width>300</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Your child can make real-life leaf art too!<br>Gather a bunch of leaves with different shapes,<br>and glue them to a sheet of paper to make a picture.]]></text>
+			<width>360</width>
+		</tip>																	
+	</page>
+	
+	<page>
+		<name>swph</name>
+		<tip>
+			<text><![CDATA[Make a guessing game about your family! Give one clue at a time<br>about a mystery family member, until your child guesses who<br>it is: A grown-up or kid?  Boy or girl?  Blue eyes or brown?]]></text>
+			<width>400</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Make sure to look carefully for all the fish that fit!<br>There might be more than one fish with glasses,<br>or a few fish with pig noses.]]></text>
+			<width>340</width>
+		</tip>
+		<tip>
+			<text><![CDATA[With a crayon and paper, your child can make pretend birds<br>and land animals too.  What weird and wacky bodies could they<br>have? What would a bird do with wheels instead of wings?]]></text>
+			<width>400</width>
+		</tip>																	
+	</page>
+	
+	<page>
+		<name>freezeKnees</name>
+		<tip>
+			<text><![CDATA[Go on a smell hunt of your own!<br>What smells can you identify with your eyes closed?<br>Soap?  Chocolate?  A flower?]]></text>
+			<width>360</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Do you eat sardines? Real-life dolphins do!<br>Help your dolphin grab the sardines<br>for a burst of energy.]]></text>
+			<width>320</width>
+		</tip>
+		<tip>
+			<text><![CDATA[For more wintry fun, compare real animal tracks<br>– or your own family’s footprints -- in the mud or snow.<br>Whose footprints are biggest or smallest?]]></text>
+			<width>360</width>
+		</tip>																	
+	</page>
+	
+	<page>
+		<name>doyouseemyseahorse</name>
+		<tip>
+			<text><![CDATA[Put ten small objects on a table. Cover up some<br>of them with a napkin. Ask your child<br>how many are hiding under the napkin.]]></text>
+			<width>330</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Give your child seven pennies<br>and ask him how many ways he can make seven.<br>For example, three pennies and four pennies;<br>or five pennies and two pennies.]]></text>
+			<width>320</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Play a number guessing game with your child:<br>"I am thinking of a number.<br>When you add "one" to it you get "six." What’s my number?"]]></text>
+			<width>380</width>
+		</tip>																
+	</page>
+	
+	<page>
+		<name>deepseafollowme</name>
+		<tip>
+			<text><![CDATA[Talk with your child about who lives next door,<br>across the street (or corridor in an apartment building),<br>and what two neighbors you live between.]]></text>
+			<width>360</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Play location I Spy— a twist on the classic<br>I Spy game with directional clues<br>(e.g., “I spy something red under the table”).]]></text>
+			<width>310</width>
+		</tip>
+		<tip>
+			<text><![CDATA[Ask your child to describe how she would walk<br>from the front door to the kitchen, using position words<br>such as around, through, up, and down.]]></text>
+			<width>370</width>
+		</tip>																	
+	</page>
+	<audio>
+		<name>rollover</name>
+		<file>/catinthehat/enablecdn/audio/home/nav_parent_tips.mp3</file>
+	</audio>
+
+	<sfx>
+	    <name>parenttips_open</name>
+	    <file>/catinthehat/enablecdn/audio/ch_website_parents_tips_open.mp3</file>
+	    <volume>1.0</volume>
+	</sfx>
+	
+	<sfx>
+	    <name>parenttips_close</name>
+	    <file>/catinthehat/enablecdn/audio/ch_website_parents_tips_close.mp3</file>
+	    <volume>1.0</volume>
+	</sfx>
+</tips>
+

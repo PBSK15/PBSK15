@@ -1,0 +1,94 @@
+{% extends 'go/includes/auth/goAuthPage.html.twig' %}
+
+
+{% block goAuthPage %}<div id="go-auth">
+ <h1 class="sprite signin">Sign In To PBS KIDS</h1> <!--
+<p class="sprite toplay">To play this game, you need to sign in.</p>
+-->
+ <div class="prompt-buttons">
+<div class="button username">
+<div class="inner">
+<p><a href="/go/apps/auth/login/">I have a username</a></p>
+</div>
+</div>
+<div class="button nousername">
+<div class="inner">
+<p><a href="/go/apps/auth/signup/">I don't have a username</a></p>
+</div>
+</div>
+ </div>
+ <script type="text/javascript" src="http://pbskids.org/pbs-kids-headband/js/PBS.KIDS.jquery-1.8.3.js"></script>
+ <script type="text/javascript" src="http://pbskids.org/pbs-kids-headband/js/auth/PBS.KIDS.auth.min.js"></script> <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+<![endif]-->
+ <script type="text/javascript">
+if( PBS && PBS.KIDS && PBS.KIDS.$_auth ){
+(function($){
+$(document).ready(function() {
+$('body').trigger('init.go');
+});
+})(PBS.KIDS.$_auth);
+}
+</script> <!-- Page-specific js goes here -->
+ <script type="text/javascript">
+try{
+if(typeof parent.GA_obj != 'undefined'){
+parent.GA_obj.trackPageview('/auth/signup/prompt/' + parent.location.pathname.replace(/^\//,''));
+}
+}
+catch(err){
+}
+(function($){
+// Notify Parent Window of current status
+notifyStatus("login","prompt");
+// Execute on initialization
+$('body').bind('init.go', function() {
+promptFuncs();
+// Do not play VO if this screen is being reloaded to display an error
+if($('.errorlist').length < 1) {
+promptVO();
+}
+$(this).unbind('init.go');
+});
+// Voiceover
+function promptVO() {
+try{
+if( window.top.org && window.top.org.pbskids && window.top.org.pbskids.login ){
+window.top.org.pbskids.login.playAudio("you-need-to-sign-in");
+}
+}
+catch(err){}
+}
+// Functions to run post-init
+function promptFuncs() {
+var haveUser = $('#go-auth .username > div').gobutton();
+var noUser = $('#go-auth .nousername > div').gobutton();
+}
+})(PBS.KIDS.$_auth);
+</script>
+</div>{% endblock %}
+
+
+
+
+{% block resizeScript %}<script type="text/javascript">
+
+try{
+// Resize ColorBox iFrame
+if( parent !== window &&
+(PBS && PBS.KIDS && PBS.KIDS.$_auth) &&
+(parent.PBS && parent.PBS.KIDS && parent.PBS.KIDS.$_auth && parent.PBS.KIDS.$_auth.colorbox)
+) {
+(function($){
+$(document).ready( function(){
+var height = 159;
+height = Math.max( $('body').outerHeight(true), height );
+// parent.PBS.KIDS.$_auth.colorbox.resize({ innerHeight: height });
+});
+})(PBS.KIDS.$_auth);
+}//end if
+}
+catch(err){
+}
+</script>{% endblock %}
+

@@ -1,0 +1,30 @@
+{
+  "resources": [
+    "freezer-burn.m4a",
+    "freezer-burn.oga",
+    "freezer-burn.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "CookinTime": {
+      "start": 6,
+      "end": 12.269387755102041,
+      "loop": false
+    },
+    "Exercise": {
+      "start": 14,
+      "end": 18.59755102040816,
+      "loop": false
+    },
+    "FreezerBurn": {
+      "start": 20,
+      "end": 25.09387755102041,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

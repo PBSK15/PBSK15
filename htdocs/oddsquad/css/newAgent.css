@@ -1,0 +1,149 @@
+
+#agentCode { font-size:120px; }
+span#agentCode1 { color: #f8fbf8; -webkit-stroke-width: 5.3px; -webkit-stroke-color: #f8fbf8;
+	-webkit-fill-color: #f8fbf8; text-shadow: 1px 0px 20px #f8fbf8; }
+span#agentCode2 { color: #20602a; }
+.agentSubtitle { color: #90ffb7; font-size: 42px; margin-bottom:50px; }
+.agentTitle { color: #20602a; font-size:56px; font-weight: 900;}
+.agentPopup {
+	/*
+	display:none; 
+	position:fixed; left: 50%; margin-left: -480px; margin-top: 100px;
+	width: 960px; padding-bottom:20px;
+	text-align:center;
+	color: #ffffff;
+	*/
+}
+.center { text-align:center; }
+.agentAvatarWrapper {
+	width: 50%;
+	position: relative;
+	left: 50%;
+	margin-left: -25%;
+}
+.agentAvatarWrapper .maleAvatarWrapper,
+.agentAvatarWrapper .femaleAvatarWrapper {
+	width: 50%;
+	position: relative;
+	float: left;
+}
+.agentAvatarWrapper .avatarWrapper {
+	width: 50%;
+	left: 50%;
+	margin-left: -25%;
+	position: relative;
+}
+.agentAvatarWrapper .avatarWrapper > .sizer {
+	padding-top: 92%;
+}
+.agentAvatarWrapper .sized > img {
+	display:inline-block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 65%;
+	height: auto;
+	margin-left: -32.5%;
+    -ms-transition: all 750ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -webkit-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+}
+.agent-step3 .sized > img {
+	-ms-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-webkit-transform: scale(0.25);
+	transform: scale(0.25);
+	opacity: 0;
+}
+.agent-step3 .sized > img.selected {
+	opacity: 1;
+	-ms-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.agentAvatarWrapper .maleAvatarWrapper .stars,
+.agentAvatarWrapper .femaleAvatarWrapper .stars {
+    -ms-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+	opacity: 0;
+}
+.agentAvatarWrapper .maleAvatarWrapper.animate .stars,
+.agentAvatarWrapper .femaleAvatarWrapper.animate .stars {
+	opacity: 1;
+}
+.agentAvatarWrapper .maleAvatarWrapper > .sizer,
+.agentAvatarWrapper .femaleAvatarWrapper > .sizer {
+	padding-top: 91.75%;
+}
+.agentAvatarWrapper a.avatar-nav {
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+}
+.agentAvatarWrapper a.avatar-nav i {
+	color: #fff;
+	text-shadow: 0 0 50px rgba(132, 255, 172, 0.95);
+	font-size: 2em;
+}
+.agentAvatarWrapper a.agent-prev i:before {
+	content: "\e60b";
+}
+.agentAvatarWrapper a.agent-next i:before {
+	content: "\e60a";
+}
+.agentAvatarWrapper a.agent-prev {
+	left: 0;
+}
+.agentAvatarWrapper a.agent-next {
+	right: 0;
+}
+.agentAvatarWrapper a.btn-green {
+	bottom: -30%;
+	position: absolute;
+	width: 80%;
+	margin-left: -40%;
+	/*
+	left: 50%;
+	margin-left: -50px;
+	width: 50%;
+	*/
+}
+.agentAvatarWrapper a.btn-green.btn-confirm-no {
+	left: 0;
+}
+.agentAvatarWrapper a.btn-green.btn-confirm-yes {
+	left: auto;
+	right: 0;
+	margin-left: 0;
+	margin-right: -40%;
+}
+img.code { margin:2px; cursor:pointer; }
+input.agentButton { width:200px; height:50px; }
+input.agentButtonArrow { width:50px; height:50px; vertical-align:top; margin-top:150px; }
+input.agentText { margin-bottom:50px; font-size:25px; width:500px; text-align:center; text-transform: uppercase; }
+
+
+[data-overlay="createagent"] .btn-green{
+	width: 20%;
+	margin-left: -10%;
+	float: left;
+	position: relative;
+	left: 50%;
+}
+[data-overlay="createagent"] .btn-green span em {
+	top: -25px;
+	display: block;
+	width: 200px;	
+	line-height: 41px;
+	height: 79px;
+	font-size: 48px;
+}
+.clearfix {
+	width: 100%;
+	float: left;
+	clear: both;
+}

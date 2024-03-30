@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 2 . Panel 4 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/2bg4.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel4_03.gif";
+n12 = new Image();
+n12.src = "images/panel4b_03.gif";
+n13 = new Image();
+n13.src = "images/panel4c_03.gif";
+n14 = new Image();
+n14.src = "images/panel4d_03.gif";
+n15 = new Image();
+n15.src = "images/panel4e_03.gif";
+
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 1000);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "6") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+</script>
+</head>
+<BODY  onload="timeimgs('2')" style="margin: 0px">
+
+
+	
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/panel4_01.gif" WIDTH=551 HEIGHT=181 alt="To prove to Motherboard he means business, Hacker scrambles the computer circuitry of Valussa, plunging the cybersite into total darkness!" border="0" usemap="#panel"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel4_02.gif" WIDTH=24 HEIGHT=168 alt="" border="0"></TD>
+		<TD><IMG SRC="images/panel4_03.gif" WIDTH=508 HEIGHT=168 name="n1" alt="" border="0"></TD>
+		<TD ROWSPAN=2><IMG SRC="images/panel4_04.gif" WIDTH=19 HEIGHT=219 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2><IMG SRC="images/panel4_05.gif" WIDTH=532 HEIGHT=51 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+
+	
+</td></tr></table>
+
+
+
+
+<map name="panel">
+<area alt="Webisode 2" coords="247,10,360,40" href="1.html">
+<area alt="How It All Started" coords="51,13,240,37" href="../webisodes-global/how_started.html">
+</map>
+
+<map name="next">
+<area alt="next" coords="456,1,523,38" href="5.html" shape="RECT">
+</map>
+
+
+
+</BODY>
+</HTML>

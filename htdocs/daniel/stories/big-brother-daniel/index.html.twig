@@ -1,0 +1,74 @@
+{% extends 'daniel/includes/danielStoryPage.html.twig' %}
+{% set coloringPadJs = false %}
+
+
+{% block bookScript %}<script>var book;      (function (GLOBAL, PBS) {
+// Create the storybook
+book = PBS.KIDS.storybook.book(GLOBAL, PBS, GLOBAL.document.getElementById("pbsStorybookContainer"), PBS.KIDS.storybook.config);
+  // Load the storybook resources
+book.load();
+
+// Adds hook to body for loading screen styles
+GLOBAL.document.body.className = 'loading-screen';
+
+book.addEventListener("PAGE_CHANGE", function (pageIndex) {
+  if (pageIndex === -1) {
+    // Swaps on-internal class w/ on-cover class
+    GLOBAL.document.body.className = document.body.className.replace(" on-internal", "");
+     GLOBAL.document.body.className = document.body.className.replace(" on-cover", "");
+     GLOBAL.document.body.className += ' on-cover';
+  } else {
+    // Swaps on-cover class w/ on-internal class
+    GLOBAL.document.body.className = document.body.className.replace(" on-cover", "");
+     GLOBAL.document.body.className = document.body.className.replace(" on-internal", "");
+     GLOBAL.document.body.className += ' on-internal';
+  }
+
+  if (GLOBAL.document.getElementsByClassName("pbsCanvas pbsSprite pbsPage17Sprite1")[0]) {
+
+
+GLOBAL.document.getElementsByClassName("pbsCanvas pbsSprite pbsPage17Sprite1")[0].addEventListener("touchstart", function () {
+      book.nextPage()
+    });
+    GLOBAL.document.getElementsByClassName("pbsCanvas pbsSprite pbsPage17Sprite1")[0].addEventListener("mousedown", function () {
+      book.nextPage()
+    });
+  }
+});
+
+book.addEventListener("LOADED", function () {
+   // Adds class for so we can display ready icon.
+  GLOBAL.document.body.className += ' resources-ready';
+    });
+
+//book.addEventListener("BOOK-LOADED", function () {
+book.addEventListener("STARTED", function () {
+  var bookframe_cover = document.createElement("img");
+  var bookframe_full = document.createElement("img");
+  var bookframe_top = document.createElement("img");
+  var bookframe_bottom = document.createElement("img");
+
+    bookframe_cover.className += 'book-frame cover';
+  bookframe_full.className += 'book-frame full';
+  bookframe_top.className += 'book-frame top';
+  bookframe_bottom.className += 'book-frame bottom';
+
+    bookframe_cover.src = "../book-shell/images/cover-frame-purple.png";
+  bookframe_full.src = "../book-shell/images/book-frame_full-purple.png";
+  bookframe_top.src = "../book-shell/images/book-frame_top-purple.png";
+  bookframe_bottom.src = "../book-shell/images/book-frame_bottom-purple.png";
+
+    var bookContainer = document.getElementById("pbsBookContainer");
+
+    bookContainer.appendChild(bookframe_cover);
+  bookContainer.appendChild(bookframe_full);
+  bookContainer.appendChild(bookframe_top);
+  bookContainer.appendChild(bookframe_bottom);
+});
+document.getElementById('replay-book-btn').addEventListener('click',function(e){
+    book.gotoPage(-1);
+    GLOBAL.document.body.className = document.body.className.replace(" on-last-page", "");
+     GLOBAL.document.body.className += ' to-cover';
+ },false);
+      } (window, PBS));</script>{% endblock %}
+

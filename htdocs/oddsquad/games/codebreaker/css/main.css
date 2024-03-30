@@ -1,0 +1,61 @@
+.odd_squad_codebreaker * {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.odd_squad_codebreaker {
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+}
+
+.odd_squad_codebreaker #gameWrapper {
+    border: thin solid;
+    margin: auto;
+}
+
+.odd_squad_codebreaker #videoPlayer {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    z-index: 99;
+    box-sizing: border-box;
+}
+
+.odd_squad_codebreaker #videoPlayer #pbs-video-player {
+    width: 100%;
+    height: 100%;
+}
+
+.odd_squad_codebreaker #gameCanvas {
+    background-image: url("../img/preloader/start_screen.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    margin: auto;
+}
+
+
+#headband-container #headband-user-block .user-name {
+    position: absolute;
+    width: 120px;
+}
+
+.btn-close {
+    font-family: "RefrigeratorDeluxe-Bold";
+}
+
+@font-face {
+    font-family: 'impact';
+    src: url('../f/impact-webfont.eot');
+    src: url('../f/impact-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../f/impact-webfont.woff') format('woff'),
+         url('../f/impact-webfont.ttf') format('truetype'),
+         url('../f/impact-webfont.svg#impactregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

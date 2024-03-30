@@ -1,0 +1,30 @@
+{% extends 'daniel/includes/danielPage.html.twig' %}
+{% set pageTitle = 'Playing Bathtime' %}
+{% set hasGameSpecificJs = true %}
+{% set gameSpecificJs = 'baby-bath' %}
+{% set jsInclude = '' %}
+{% set bodyOpeningTag = '<body class="headband-hidden html-game" id="player" onload="loadGame()" style="padding:0px;">' %}
+
+
+{% block mainContent %}<main>
+ <div id="content-container">
+  <div id="content-window">
+   <div id="fps"></div>
+   <div id="info"></div>
+   <div id="game">
+    <canvas id="gameCanvas" width="960" height="500" unselectable="on">
+     We're sorry! Your browser does not support this game. To play with Daniel, update your browser and try again.
+    </canvas>
+   </div>
+  </div>
+  <div class="parent-tip">
+   <p class="parent-tip__text"></p>
+  </div>
+ </div>
+</main>{% endblock %}
+
+
+
+
+{% block lowerBand %}{% endblock %}
+

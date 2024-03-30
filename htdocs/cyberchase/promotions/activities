@@ -1,0 +1,39 @@
+
+
+<div id="motherboard-recommends-container">
+    <div id="motherboard-recommends">
+        <div id="motherboard"></div>
+  			<div class="promo-container">
+        
+        	<a class="promo first analytics-click" href="/cyberchase/activities/chomp-nibble-grow-grow-grow/" title="Chomp, Nibble, Grow, Grow, Grow"  data-analytics="Cyberchase - Activities|Promotion Click|chomp-nibble-grow-grow-grow|1">
+            <div class="static-bg">
+                <img src="http://pbskids.org/cyberchase/media/images/cache/images/promotions/Cyb9_games_keystone_blue_page_display.jpg" alt="" width="200" height="130"/>
+            </div>
+            <div class="promo-title">
+                    <img src='http://pbskids.org/cyberchase/media/textrender/mbr_title/198/8d2ca97ba1e2361b3297bbcec3ece315.png' class='textrender mbr_title' width='198' height='60' alt='Chomp, Nibble, Grow, Grow, Grow' border='0' />
+            </div>
+          	</a>
+	        
+        	<a class="promo second analytics-click" href="/cyberchase/activities/power-up-game/" title="Power Up! Game"  data-analytics="Cyberchase - Activities|Promotion Click|power-up-game|2">
+            <div class="static-bg">
+                <img src="http://pbskids.org/cyberchase/media/images/cache/images/promotions/Cyb9_games_solar_yellow_page_display.jpg" alt="" width="200" height="130"/>
+            </div>
+            <div class="promo-title">
+                    <img src='http://pbskids.org/cyberchase/media/textrender/mbr_title/198/c59682a200c59d8aea78b432957e087e.png' class='textrender mbr_title' width='198' height='30' alt='Power Up! Game' border='0' />
+            </div>
+          	</a>
+	        
+        	<a class="promo third analytics-click" href="/cyberchase/activities/trash-dash-game/" title="Trash Dash Game"  data-analytics="Cyberchase - Activities|Promotion Click|trash-dash-game|3">
+            <div class="static-bg">
+                <img src="http://pbskids.org/cyberchase/media/images/cache/images/promotions/Cyb9_games_trash_aqua_page_display.jpg" alt="" width="200" height="130"/>
+            </div>
+            <div class="promo-title">
+                    <img src='http://pbskids.org/cyberchase/media/textrender/mbr_title/198/55da66f513b754a26592fe7f4c0d226f.png' class='textrender mbr_title' width='198' height='30' alt='Trash Dash Game' border='0' />
+            </div>
+          	</a>
+	        
+        </div>
+    		<div class="motherboard-recommends-bottom"></div>
+	      <div class="clear"></div>
+    </div>
+</div>

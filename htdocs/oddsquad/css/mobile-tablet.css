@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document 
+.pg-home .btn-hex-episode {
+	margin-left: -25%;
+}
+.btn-hex-size-01 {
+	width: 50%;
+}
+.pg-home .btn-hex-pienado {
+	left: 4%;
+	top: 34.5%;
+}
+.pg-home .btn-hex-blobchase {
+	top: 35.5%;
+}
+.btn-hex-size-04 {
+	width: 29%;
+}
+.main-logo {
+	left: 10%;
+}
+*/
+.agents-wrapper ul.disp-desktop li {
+	margin-left: -5px;
+	margin-top: -5px;
+}
+.agents-wrapper ul.disp-desktop li.agent-1, .agents-wrapper ul.disp-desktop li.agent-2, .agents-wrapper ul.disp-desktop li.agent-3, .agents-wrapper ul.disp-desktop li.agent-4, .agents-wrapper ul.disp-desktop li.agent-5, .agents-wrapper ul.disp-desktop li.agent-6,
+.agents-wrapper ul.disp-desktop li.agent-12, .agents-wrapper ul.disp-desktop li.agent-13, .agents-wrapper ul.disp-desktop li.agent-14, .agents-wrapper ul.disp-desktop li.agent-15, .agents-wrapper ul.disp-desktop li.agent-16, .agents-wrapper ul.disp-desktop li.agent-17 {
+left: 4%;
+}
+.agents-wrapper ul.disp-desktop li.agent-7, .agents-wrapper ul.disp-desktop li.agent-8, .agents-wrapper ul.disp-desktop li.agent-9, .agents-wrapper ul.disp-desktop li.agent-10, .agents-wrapper ul.disp-desktop li.agent-11 {
+	left: 11.5%;
+}
+
+
+/*
+.agents-wrapper ul.disp-desktop li.agent-1,
+.agents-wrapper ul.disp-desktop li.agent-2,
+.agents-wrapper ul.disp-desktop li.agent-3,
+.agents-wrapper ul.disp-desktop li.agent-4,
+.agents-wrapper ul.disp-desktop li.agent-5 {
+	top: 0%;
+	left: 12%;
+}
+.agents-wrapper ul.disp-desktop li.agent-6 {
+	clear: both;
+}
+.agents-wrapper ul.disp-desktop li.agent-6,
+.agents-wrapper ul.disp-desktop li.agent-7,
+.agents-wrapper ul.disp-desktop li.agent-8,
+.agents-wrapper ul.disp-desktop li.agent-9 {
+	top: -2%;
+	left: 19.5%;
+}*/

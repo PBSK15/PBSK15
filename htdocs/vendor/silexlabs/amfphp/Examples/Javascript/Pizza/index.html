@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<LINK href="style.css" rel="stylesheet" type="text/css">
+<title>amfPHP JSON Pizza Example</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="json2.js"></script>
+
+<script language="javascript">
+function call()
+{
+   /**
+    * notes:
+    * - parameters here could be left empty, they are just here to make the code easier to adapt
+    * - $.post method here is used because amfPHP JSON plugin expects data as POST. So can't use more obvious getJSON
+    * - if you always use the same parameters, you can do without json2.js, by setting for example
+    * callData = '{"serviceName":"PizzaService", "methodName":"getPizza","parameters":[]}'
+    */
+
+   var callData = JSON.stringify({"serviceName":"PizzaService", "methodName":"getPizza","parameters":[]});
+    $.post("../../Php/?contentType=application/json", callData, onSuccess);
+   
+} 
+
+function onSuccess(data)
+{
+	alert("pizza : "  + data);
+}
+</script>
+
+</head>
+
+<body>
+    <h2>amfPHP JSON Pizza Example</h2>
+<input type="button" value="Get A Pizza" id="bimButton" onClick="call()" width="200" height="100" />
+<div id="response" />
+</body>
+</html>

@@ -1,0 +1,61 @@
+body
+{
+background: #155694;
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#header
+{
+height: 100px;
+width: 950px;
+margin: 0 auto;
+}
+
+#header #nav
+{
+float: right;
+width: 675px;
+text-align: right;
+}
+
+#header #nav img
+{
+margin: 0 0 0 5px;
+}
+
+#header #logos
+{
+width: 275px;
+float: left;
+}
+
+#game
+{
+text-align: center;
+background: black;
+background-image: url('/webonauts/images/gamebackground.jpg');
+clear: both;
+}
+
+#footer
+{
+color: #63a3ce;
+width: 950px;
+margin: 25px auto;
+text-align: right;
+font-size: 11px;
+}
+
+#footer a
+{
+color: #63a3ce;
+text-decoration: underline;
+}
+
+#footer a:hover
+{
+color: white;
+text-decoration: none;
+}

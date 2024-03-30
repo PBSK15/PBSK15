@@ -1,0 +1,30 @@
+{
+  "resources": [
+    "mixie-bot.m4a",
+    "mixie-bot.oga",
+    "mixie-bot.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "BetterGetBackToTheLunchLab": {
+      "start": 6,
+      "end": 10.77,
+      "loop": false
+    },
+    "ProfessorYourGoggles": {
+      "start": 12,
+      "end": 15.403333333333332,
+      "loop": false
+    },
+    "TakeCareOfThisMyself": {
+      "start": 17,
+      "end": 20.067687074829934,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

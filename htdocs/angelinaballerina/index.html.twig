@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Angelina Ballerina</title>
+	<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<style type="text/css">
+
+body {
+	margin: 0px;
+}
+.wrapper {
+	position: relative;
+	z-index: 5;
+	top: 0px;
+	overflow: visible;
+	visibility: visible;
+	right: 0px;
+	bottom: 0px;
+	min-width:1024px;
+	min-height:800px;
+	left: 0px;
+}
+.scrollMaker {
+	height: 800px;
+	width: 1024px;
+	margin-left: -510px;
+	position: absolute;
+	visibility: visible;
+	z-index: 1;
+	left: 50%;
+	top: 0px;
+	overflow: visible;
+}
+</style>
+{% include 'template_includes/bridge_js_include.html' %}
+</head>
+<body bgcolor="#ffffff">
+
+
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+
+<!--url's used in the movie-->
+<!--text used in the movie-->
+<!-- saved from url=(0013)about:internet -->
+<div class="scrollMaker"></div>
+<div class="wrapper">
+<div id="flashcontent" style=""><!-- Welcome to the online home of Angelina Ballerina at PBSKids.org! --></div>
+<script type="text/javascript">
+   var fo = new SWFObject("index.swf", "flashDiv", "100%", "800px", "9.0.0", "#FFFFFF");
+   fo.addParam("allowScriptAccess", "always");
+   fo.addVariable("kidsPage", "(none)");
+   fo.addVariable("tvDataName", "(none)");
+   fo.addVariable("commonName", "PBS");
+   fo.addVariable("documentURI", "/angelinaballerina/index.html");
+   // PBS_enable_cdn(fo);
+   fo.write("flashcontent");
+</script>
+</div>
+</body>
+</html>

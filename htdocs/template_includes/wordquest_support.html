@@ -1,0 +1,62 @@
+		<!-- begin include -->
+
+<!--
+THE FOLLOWING DO NOT APPEAR TO BE NEEDED. -Jer
+$DOCUMENT_URI = /\/electriccompany\//                                                                   ||
+(($DOCUMENT_URI = /\/electriccompany\//) && ($DOCUMENT_URI != /\/electriccompany\/pranksterplanet\/jertest.html/))  ||
+
+$DOCUMENT_URI = /^\/electriccompany\/index.html$/                      ||
+$DOCUMENT_URI = /^\/electriccompany\/srsindex.html$/                   ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/sortitout\/$/              ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/sortitout\/index.html$/    ||
+$DOCUMENT_URI = /^\/electriccompany\/games/musicman\/$/                ||
+$DOCUMENT_URI = /^\/electriccompany\/games/musicman\/index.html$/      ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/escapes\/$/                ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/escapes\/index.html$/      ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/chaingame\/$/              ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/chaingame\/index.html$/    ||
+-->
+<!-- THE GREAT WORD QUEST SUPPORT FILES -->
+<!-- The content below must write even if the user is not logged in.-->
+<link rel="stylesheet" href="/wordquest/css/trackingBanner.css" type="text/css" id="trackingBannerSpecificCSS" />
+<script type="text/javascript" src="/wordquest/js/swfobject.js"></script>
+<script type="text/javascript" src="/wordquest/js/trackingBanner.js"></script>
+<script type="text/javascript" src="/wordquest/js/trackerInterface.js"></script>
+
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+
+
+<script type="text/javascript" src="/wordquest/js/jquery.cookie.js"></script>
+
+<div id="GWQContainer" align="center">
+
+        <div id="flashSharedObjectProxyContainer" align="center">
+
+                <div id="flashSharedObjectProxyContent" align="center">
+                </div>
+
+                <script type="text/javascript">
+                        var params = {
+                                allowscriptaccess: "always"
+                        };
+                        var flashvars = {
+                                pbsGoKidsId: $.cookie('pbskids.userid'), 
+                                username: $.cookie('pbskids.username'), 
+                                stationLocale: $.cookie('pbskids.station')
+                        };
+                        var attributes = {id:"flashSharedObjectProxyContent", name:"flashSharedObjectProxyContent"};
+                        swfobject.embedSWF("https://pbskids.org/wordquest/media/swf/modules/sharedObjectProxy/sharedObjectProxy.swf", "flashSharedObjectProxyContent", "960", "1", "9.0.124", "/wordquest/media/media/swf/global/expressInstall/expressInstall.swf", flashvars, params, attributes);
+                </script>
+
+        </div>
+
+        <div id="trackingBannerContainer" align="center">
+
+                <div id="flashTrackingBannerContent" align="center">
+                </div>
+
+        </div>
+
+</div>
+
+<!-- END THE GREAT WORD QUEST SUPPORT FILES -->

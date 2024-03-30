@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<player>
+
+<settings
+
+defaultVolume = "1"
+autoplay = "true"
+finished = "4"
+unfinished = "1"
+
+mainBackgroundColor = "000000"
+buttonsBackgroundColor = "000000"
+buttonsOutlineColor = "ffffff"
+buttonsIconColor = "00ffff"
+buttonsIconOverColor = "FFFFFF"
+volumeBarColor = "FFFFFF"
+loadBarColor = "018786"
+progressBarColor ="00ffff"
+
+spectrumLeftColor = "ffffff"
+spectrumLeftLineColor = "FFFFFF"
+spectrumRightColor = "00ffff"
+spectrumRightLineColor = "00FFFF"
+
+/>
+
+<song>
+<title>CVC Clothing</title>
+<url>reggae/mp3/songs/r_mp3_clothingsong.mp3</url>
+</song>
+
+<song>
+<title>CVC Beat</title>
+<url>reggae/mp3/songs/r_mp3_gottabeatsong.mp3</url>
+</song>
+
+<song>
+<title>CVC Rainbow</title>
+<url>reggae/mp3/songs/r_mp3_rainbowsong.mp3</url>
+</song>
+
+<song>
+<title>CVC Groove</title>
+<url>reggae/mp3/songs/r_main_song3_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Beat</title>
+<url>reggae/mp3/songs/r_main_song4_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Reggae Swing</title>
+<url>reggae/mp3/songs/r_main_song1_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Reggae Delight</title>
+<url>reggae/mp3/songs/r_main_song2_withsolos.mp3</url>
+</song>
+
+<song>
+<title>CVC Sky</title>
+<url>reggae/mp3/songs/CVC_ReggaeSong1_Ver1.mp3</url>
+</song>
+
+<song>
+<title>CVC Feeling</title>
+<url>reggae/mp3/songs/CVC_ReggaeSong2_Ver1.mp3</url>
+</song>
+
+<song>
+<title>CVC Sitting</title>
+<url>reggae/mp3/songs/CVC_ReggaeSong3_Ver1.mp3</url>
+</song>
+
+</player>
+

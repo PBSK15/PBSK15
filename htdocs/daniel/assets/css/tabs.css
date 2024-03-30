@@ -1,0 +1,64 @@
+#currentTab
+{
+	position:absolute;
+	display: block;
+	width: 200px;
+	height: 65px;
+	margin-top:0px;
+	background-position: -14px -78px;
+	z-index:100;
+}
+
+#currentTabText
+{
+	position:absolute;
+	display: block;
+	width: 200px;
+	height: 65px;
+	margin-top:0px;
+	background-position: -14px -147px;
+	z-index:101;
+}
+
+#navTab
+{
+	position:absolute;
+	display: block;
+	width: 182px;
+	height: 47px;
+	margin-top:0px;
+	background-position: -14px -5px;
+}
+
+#navTab:hover
+{ 
+	cursor:pointer;
+}
+
+#navTab span
+{
+	position: absolute;
+	top: -999em;
+}
+
+#tabText
+{
+	position:absolute;
+	display: block;
+	width: 182px;
+	height: 47px;
+	margin-top:0px;
+	background-position: -14px -5px;
+}
+
+#tabText:hover
+{ 
+	cursor:pointer;
+	background-position: -14px -77px;
+}
+
+#tabText span
+{
+	position: absolute;
+	top: -999em;
+}

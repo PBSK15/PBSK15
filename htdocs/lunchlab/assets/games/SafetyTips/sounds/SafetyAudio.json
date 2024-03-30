@@ -1,0 +1,75 @@
+{
+  "resources": [
+    "sounds/SafetyAudio.m4a",
+    "sounds/SafetyAudio.oga",
+    "sounds/SafetyAudio.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "AnythingFlammable": {
+      "start": 6,
+      "end": 14.441768707482993,
+      "loop": false
+    },
+    "CookWithAGrownup": {
+      "start": 16,
+      "end": 18.102108843537415,
+      "loop": false
+    },
+    "Grating": {
+      "start": 20,
+      "end": 26.973628117913833,
+      "loop": false
+    },
+    "MixingBowl": {
+      "start": 28,
+      "end": 33.872517006802724,
+      "loop": false
+    },
+    "NeverRun": {
+      "start": 35,
+      "end": 37.902902494331066,
+      "loop": false
+    },
+    "OvenMitts": {
+      "start": 39,
+      "end": 46.60759637188209,
+      "loop": false
+    },
+    "PanHandles": {
+      "start": 48,
+      "end": 55.40739229024943,
+      "loop": false
+    },
+    "Peeler": {
+      "start": 57,
+      "end": 61.471156462585036,
+      "loop": false
+    },
+    "RawMeats": {
+      "start": 63,
+      "end": 68.83916099773242,
+      "loop": false
+    },
+    "Sharp": {
+      "start": 70,
+      "end": 76.87353741496598,
+      "loop": false
+    },
+    "WashFruits": {
+      "start": 78,
+      "end": 85.27394557823129,
+      "loop": false
+    },
+    "WashHands": {
+      "start": 87,
+      "end": 90.53687074829932,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

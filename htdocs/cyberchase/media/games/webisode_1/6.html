@@ -1,0 +1,75 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 1 . Panel 6 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/bg6.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel6_03.gif";
+n12 = new Image();
+n12.src = "images/panel6b_03.gif";
+
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 800);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "3") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<body  onload="timeimgs('2')" style="margin: 0px">
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><img src="images/panel6_01.gif" width=551 height=85 alt="" border="0" usemap="#top"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel6_02.gif" WIDTH=158 HEIGHT=136 alt="" border="0"></TD>
+		<TD><IMG SRC="images/panel6_03.gif" WIDTH=272 HEIGHT=136 alt="" border="0" name="n1"></TD>
+		<TD><IMG SRC="images/panel6_04.gif" WIDTH=121 HEIGHT=136 alt="" border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3><img src="images/panel6_05.gif" width=551 height=179 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+
+	<map name="next">
+<area alt="next" coords="457,116,526,169" href="7.html">
+<area alt="Motherboard is the brain of the giant computer system that oversees all of Cyberchase." coords="28,7,335,71" nohref>
+</map>
+
+
+<map name="top">
+<area alt="How It All Started" coords="27,10,241,44" href="../webisodes-global/how_started.html">
+<area alt="Webisode 1" coords="246,12,357,43" href="1.html">
+</map>
+
+</td></tr></table>
+	
+
+
+
+</BODY>
+</HTML>

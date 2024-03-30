@@ -1,0 +1,20 @@
+{
+  "resources": [
+    "Fizzy_Salutations.m4a",
+    "Fizzy_Salutations.oga",
+    "Fizzy_Salutations.mp3"
+  ],
+  "spritemap": {
+    "silence": {
+      "start": 0,
+      "end": 5,
+      "loop": true
+    },
+    "Fizzy_Salutations": {
+      "start": 6,
+      "end": 10.737006802721089,
+      "loop": false
+    }
+  },
+  "autoplay": "silence"
+}

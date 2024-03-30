@@ -1,0 +1,124 @@
+{% extends 'curiousgeorge/includes/templates/html5_game_page.html.twig' %}
+{% set pageTitle = 'Build-a-Bot' %}
+{% set specialInclude = '<style>*{-webkit-tap-highlight-color:rgba(0, 0, 0, 0)}@font-face{font-family:\'Wellfleet\';src:url(\'fonts/Wellfleet-Regular.ttf\') format(\'truetype\')}.Wellfleet{font-family:\'Wellfleet\', Arial, serif;font-weight:400}#html5-marquee{clear:both;background-image:url("/curiousgeorge/img/bg_pattern.gif");background-repeat:repeat;height:650px;width:100%}#blueborder{position:absolute;z-index:4}#canvas_parent{position:relative;top:-12px;left:53px}#html5game{display:none;position:absolute;border-radius:25px;z-index:5}#dhCanvas{z-index:-1;position:absolute;left:53px;margin-top:520px;display:none}#coverImg{display:none;position:absolute;border-radius:25px;z-index:3}#startBtn{display:none;position:absolute;left:572px;top:363px;z-index:6;cursor:pointer}#startBtn:hover{cursor:pointer}#ftr-games{top:650px;left:150px}#ftr_play{margin-top:-25px}</style>' %}
+
+{% block gameFrame %}	<!-- HTML5 game specific -->
+	<div id="html5-marquee">
+		<div id="canvas_parent" width="900" height="506">
+			<img id="startBtn" src="img/site/play_btn.png" onClick="beginLoader()">
+			<img id="coverImg" src="img/site/splash.jpg" >
+			<img id="blueborder" src="img/site/blueborder.png" >
+
+			<canvas id="html5game" width="900" height="506"></canvas>
+		</div>
+	</div>
+
+
+	<!--hidden second canvas to create and copy bitmap data -->
+	<canvas id="dhCanvas" width="900" height="506"></canvas>
+{% endblock %}
+
+{% block specialJs %}
+<!-- HTML5 game specific -->
+	<script type="text/javascript" src="js/soundmanager2/soundmanager2-nodebug-jsmin.js"></script>
+	<script type="text/javascript" src="js/createjs/easeljs-0.7.0.min.js"></script>
+	<script type="text/javascript" src="js/createjs/tweenjs-0.5.0.min.js"></script>
+	<script type="text/javascript" src="js/createjs/preloadjs-0.4.0.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery/jquery-1.8.2.min.js"></script>
+
+
+	<!--sounds file-->
+	<script type="text/javascript" src="js/sound.js"></script>
+	<!--engine file-->
+	<script type="text/javascript" src="js/renderer.js"></script>
+	<!--animations file-->
+	<script type="text/javascript" src="js/anims.js"></script>
+<!-- HTML5 game specific -->
+<script>
+var dType = "";
+	var browser = ""; //to store specific type of browser
+
+  	$(document).ready(initload); //alternative to body onLoad-- so once css and html body is loaded
+
+  	function initload()
+  	{
+		//**console.log('initload');
+		// document.getElementById('startBtn').style.display = 'none';
+		// document.getElementById('coverImg').style.display = 'inline';
+
+		//DEVICE DETECTION:
+
+		//if //**console.log doesn't exist (IE), use log instead, so //**console.log calls won't halt JS
+		if(typeof console === "undefined") console = { log: function() { } };
+
+		//if allowed browser- proper dType and sizing:
+		if( (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)) ) {
+			//redirect of iOS <= 5.0
+			if (/OS [1-4](.*) like Mac OS X/i.test(navigator.userAgent)) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+			dType = 'iOS';
+		}
+		//android?
+		else if( (navigator.userAgent.search("Android") != -1) ){ //&& (navigator.userAgent.search("Chrome") != -1)) {
+	var androidversion = parseFloat(navigator.userAgent.slice(navigator.userAgent.indexOf("Android")+8));
+	if (androidversion < 4.0) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+	dType = 'android';
+}
+		//else, a desktop browser, with version-based redirect to /curiousgeorge/games/updatebrowser.html:
+		else{
+
+			if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var chversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(chversion < 24) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType = 'desktop';
+			}
+			else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var safversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				//minimum safari support: 5.0 in Snow Leopard
+				if(safversion < 533.21) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType = 'desktop';
+			}
+			else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var ffversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(ffversion < 18) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType = 'desktop';
+			}
+
+			else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){
+				var ieversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(ieversion < 9.0) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType='ie';
+			}
+			else{
+				//alert('unknown desktop browser');
+				dType = 'desktop';
+			}
+		}
+
+		//**console.log('dType:'  + dType);
+		//
+
+		if(dType=='iOS' || dType=='android'){
+			document.getElementById('coverImg').style.display = 'inline';
+			document.getElementById('startBtn').style.display = 'inline';
+		}
+		else{ beginLoader(); }
+	}
+
+	//called automatically, or startBtn tap:
+	function beginLoader(){
+		document.getElementById('startBtn').style.display = 'none';
+		document.getElementById('html5game').style.display = 'inline';
+		document.getElementById('coverImg').style.display = 'inline';
+
+		doTheLoad();
+	}
+
+	</script>
+{% endblock %}

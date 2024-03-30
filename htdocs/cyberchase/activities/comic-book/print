@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Activities &mdash; Comic Book &mdash; Print</title>
+	<style type="text/css">
+		@media all {
+			.page-image {
+				width: 750px;
+				margin: 10px auto;
+			}
+		}
+
+		@media print {
+			.page-break {
+				page-break-after: always;
+			}
+
+			.page-image {
+				width: 7.8in;
+				margin: 0 auto;
+			}
+		}
+	</style>
+	<script type="text/javascript" src="http://pbskids.org/cyberchase/static/js/jquery-1.4.2.min.js" ></script>
+</head>
+<body>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-1of12_printable.png" width="750" height="971"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-2of12_printable.png" width="750" height="979"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-3of12_printable.png" width="750" height="958"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-4of12_printable.png" width="750" height="964"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-5of12_printable.png" width="750" height="969"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-6of12_printable.png" width="750" height="972"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-7of12_printable.png" width="750" height="966"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-8of12_printable.png" width="750" height="969"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-9of12_printable.png" width="750" height="966"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-10of12_printable.png" width="750" height="969"/>
+</div>
+
+<div class="page-break page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-11of12_printable.png" width="750" height="969"/>
+</div>
+
+<div class="page-image">
+	<img src="http://pbskids.org/cyberchase/media/images/cache/images/content/activities/comicbook-12of12_printable.png" width="750" height="971"/>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() { window.print(); });
+</script>
+</body>
+</html>

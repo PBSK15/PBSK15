@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?><root><cycles>
+<cycle id="1">
+<name>CYCLE 1 </name>
+<description>Tools &amp; Measurement</description>
+</cycle>
+<cycle id="3">
+<name>CYCLE 3 </name>
+<description>Senses</description>
+</cycle>
+<cycle id="2">
+<name>CYCLE 2</name>
+<description>Transformation &amp; Change</description>
+</cycle>
+<cycle id="4">
+<name>CYCLE 4</name>
+<description>Health</description>
+</cycle>
+<cycle id="5">
+<name>CYCLE 5</name>
+<description>Simple Machines</description>
+</cycle>
+<cycle id="6">
+<name>CYCLE 6</name>
+<description>Backyard Science</description>
+</cycle>
+<cycle id="7">
+<name>CYCLE 7</name>
+<description>Human Body</description>
+</cycle>
+<cycle id="12">
+<name>CYCLE Play Date Week</name>
+<description>Sid's Play Date Week</description>
+</cycle>
+<cycle id="13">
+<name>CYCLE 9</name>
+<description>Force &amp; Motion</description>
+</cycle>
+<cycle id="8">
+<name>CYCLE 8</name>
+<description>Weather</description>
+</cycle>
+<cycle id="15">
+<name>CYCLE 10</name>
+<description>Light &amp; Shadow</description>
+</cycle>
+<cycle id="17">
+<name>CYCLE 11</name>
+<description>Environment &amp; Habitat</description>
+</cycle>
+<cycle id="19">
+<name>CYCLE 13</name>
+<description>Special Episodes</description>
+</cycle>
+<cycle id="20">
+<name>CYCLE 12</name>
+<description>Technology &amp; Engineering</description>
+</cycle>
+</cycles>
+<thisWeekBanner targetURL="cleansup.html" imgPath="banner_environmentalsys.png" />
+<homepage>
+<intro audioPath="114_sid_intro_environment.mp3" />
+<billboards>
+<board type="PlayThis" imgPath="game_cleansup.png" audioPath="301_sid_genericGame.mp3" targetURL="cleansup.html"></board>
+<board type="PlayThis" imgPath="RLGL_homepage.png" audioPath="games_sid_rlgl.mp3" targetURL="redLightGreenLight.html"></board>
+</billboards>
+<characterHovers>
+<sid audioPath="322_sid_environment.mp3" targetURL="videoplayer.html?guid=056f42d5-6d3f-4f05-b970-c2fff97b3987" />
+<gabriela audioPath="417_gab_environment.mp3" targetURL="cleansup.html" />
+<may audioPath="617_may_environment.mp3" targetURL="videoplayer.html?guid=bc0b114b-8406-4ccb-88a8-3b0b584387d1" />
+<gerald audioPath="517_gerald_environment.mp3" targetURL="videoplayer.html?guid=50b37340-522c-493c-a917-c02646344a2d" />
+</characterHovers>
+</homepage>
+<activities>
+<activity active="true"><id>playground</id><swf>playground_v3_2.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>zone1</id><swf>zone1_v1.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>zone2</id><swf>zone2_v1.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>zone3</id><swf>zone3_v1.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>video</id><swf>videoplayer.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>collectionGame</id><swf>collectionGame_v3.swf</swf><tmm>collection_tmm_v2.swf</tmm></activity>
+<activity active="true"><id>questionBox</id><swf>questionBox.swf</swf><tmm>QuestionBox_tmm_v2.swf</tmm></activity>
+<activity active="true"><id>mysteryLunchbox</id><swf>mysteryLunchbox.swf</swf><tmm>MysteryLunchbox_tmm_v1.swf</tmm></activity>
+<activity active="true"><id>kitchenMagician</id><swf>kitchenMagician.swf</swf><tmm>KitchenMagician_tmm_v1.swf</tmm></activity>
+<activity active="true"><id>isense</id><swf>ISense.swf</swf><tmm>ISense_tmm_v1.swf</tmm></activity>
+<activity active="true"><id>journals</id><swf>journals_v3.swf</swf><tmm>CharacterJournal_tmm_v1.swf</tmm></activity>
+<activity active="true"><id>sandboxSymphony</id><swf>sandboxSymphony.swf</swf><tmm>SSymphony_tmm_v1.swf</tmm></activity>
+<activity active="true"><id>rolypoly</id><swf>rolypoly.swf</swf><tmm>rolypoly_TMM.swf</tmm></activity>
+<activity active="true"><id>sayWhat</id><swf>sayWhat.swf</swf><tmm>SayWhat_TMM.swf</tmm></activity>
+<activity active="true"><id>balanceAct</id><swf>balanceAct2.swf</swf><tmm>BalacingAct_TMM.swf</tmm></activity>
+<activity active="true"><id>weather</id><swf>weatherWheel.swf</swf><tmm>WeatherWheel_TMM.swf</tmm></activity>
+<activity active="true"><id>mixItUp</id><swf>mixItUp.swf</swf><tmm>MIU_v2.swf</tmm></activity>
+<activity active="true"><id>sidSays</id><swf>sidSays.swf</swf><tmm>SidSays_TMM.swf</tmm></activity>
+<activity active="true"><id>gameIndex</id><swf>gameIndex.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>funbook</id><swf>funbook.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>cleansUp</id><swf>trashCollector.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>germs</id><swf>germs.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>shadow</id><swf>shadow.swf</swf><tmm>Shadow_TMM.swf</tmm></activity>
+<activity active="true"><id>treehouse</id><swf>treehouse.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>towerTopple</id><swf>towertopple.swf</swf><tmm>towertopple_TMM.swf</tmm></activity>
+<activity active="true"><id>journalDraw</id><swf>journalDraw.swf</swf><tmm>CharacterJournal_tmm_v1.swf</tmm></activity>
+<activity active="true"><id>crystalsRule</id><swf>fablab.swf	</swf><tmm>fablab_crystalsrule_TMM.swf</tmm></activity>
+<activity active="true"><id>fabLabMenu</id><swf>fablab.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>panBalance</id><swf>fablab.swf</swf><tmm>fablab_panbalance_TMM.swf</tmm></activity>
+<activity active="true"><id>snowflakeMatch</id><swf>fablab.swf</swf><tmm>fablab_snowflakematch_TMM.swf</tmm></activity>
+<activity active="true"><id>snowSearch</id><swf>fablab.swf</swf><tmm>	fablab_snowsearch_TMM.swf</tmm></activity>
+<activity active="true"><id>sortingBox</id><swf>fablab.swf	</swf><tmm>fablab_sortingbox_TMM.swf</tmm></activity>
+<activity active="true"><id>vegetableHarvest</id><swf>fablab.swf</swf><tmm>fablab_vegetableharvest_TMM.swf</tmm></activity>
+<activity active="true"><id>vegetablePatterns</id><swf>fablab.swf</swf><tmm>fablab_vegetablepatterns_TMM.swf</tmm></activity>
+<activity active="true"><id>vegetablePlanting</id><swf>fablab.swf</swf><tmm>fablab_vegetableplanting_TMM.swf</tmm></activity>
+<activity active="true"><id>weatherSurprise</id><swf>fablab.swf</swf><tmm>fablab_weathersurprise_TMM.swf</tmm></activity>
+<activity active="true"><id>scientist</id><swf>scientist.swf</swf><tmm>Scientist_TMM.swf</tmm></activity>
+<activity active="true"><id>journalDrawReturn</id><swf>journalDrawReturn.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>flyWithMe</id><swf>flywithme.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>redLightGreenLight</id><swf>redLightGreenLight.swf</swf><tmm></tmm></activity>
+<activity active="true"><id>span_crystalsRule</id><swf>span_fablab.swf</swf><tmm>span_fablab_crystalsrule_TMM.swf</tmm></activity>
+<activity active="true"><id>span_fabLabMenu</id><swf>span_fablab.swf</swf><tmm>span_default_TMM.swf</tmm></activity>
+<activity active="true"><id>span_panBalance</id><swf>span_fablab.swf</swf><tmm>span_fablab_panbalance_TMM.swf</tmm></activity>
+<activity active="true"><id>span_snowflakeMatch</id><swf>span_fablab.swf</swf><tmm>span_fablab_snowflakematch_TMM.swf</tmm></activity>
+<activity active="true"><id>span_snowSearch</id><swf>span_fablab.swf</swf><tmm>span_fablab_snowsearch_TMM.swf</tmm></activity>
+<activity active="true"><id>span_sortingBox</id><swf>span_fablab.swf</swf><tmm>span_fablab_sortingbox_TMM.swf</tmm></activity>
+<activity active="true"><id>span_vegetableHarvest</id><swf>span_fablab.swf</swf><tmm>span_fablab_vegetableharvest_TMM.swf</tmm></activity>
+<activity active="true"><id>span_vegetablePatterns</id><swf>span_fablab.swf</swf><tmm>span_fablab_vegetablepatterns_TMM.swf</tmm></activity>
+<activity active="true"><id>span_vegetablePlanting</id><swf>span_fablab.swf</swf><tmm>span_fablab_vegetableplanting_TMM.swf</tmm></activity>
+<activity active="true"><id>span_weatherSurprise</id><swf>span_fablab.swf</swf><tmm>span_fablab_weathersurprise_TMM.swf</tmm></activity>
+</activities>
+<zone1>
+<journals>
+<defaultTab id='' />
+<sid>
+<page tab="1">
+<uid>57</uid>
+<image>journals/107_Sid.swf</image>
+<vo>journals/pics/sid_101.mp3</vo>
+</page>
+<page tab="1">
+<uid>58</uid>
+<image>journals/108_Sid.swf</image>
+<vo>journals/pics/sid_102.mp3</vo>
+</page>
+<page tab="1">
+<uid>59</uid>
+<image>journals/106_Sid_002.swf</image>
+<vo>journals/pics/sid_103.mp3</vo>
+</page>
+<page tab="1">
+<uid>60</uid>
+<image>journals/109_Sid_002b.swf</image>
+<vo>journals/pics/sid_104.mp3</vo>
+</page>
+<page tab="2">
+<uid>61</uid>
+<image>journals/101_Sid_005.swf</image>
+<vo>journals/pics/sid_106.mp3</vo>
+</page>
+<page tab="2">
+<uid>62</uid>
+<image>journals/103_Sid_003b.swf</image>
+<vo></vo>
+</page>
+<page tab="2">
+<uid>63</uid>
+<image>journals/104_Sid_002.swf</image>
+<vo>journals/pics/sid_109.mp3</vo>
+</page>
+<page tab="3">
+<uid>64</uid>
+<image>journals/111_Sid_003.swf</image>
+<vo>journals/pics/sid_111.mp3</vo>
+</page>
+<page tab="3">
+<uid>65</uid>
+<image>journals/112_Sid_001.swf</image>
+<vo>journals/pics/sid_112.mp3</vo>
+</page>
+<page tab="3">
+<uid>66</uid>
+<image>journals/113_Sid_001.swf</image>
+<vo>journals/pics/sid_113.mp3</vo>
+</page>
+<page tab="3">
+<uid>67</uid>
+<image>journals/114_Sid_004b.swf</image>
+<vo>journals/pics/sid_114.mp3</vo>
+</page>
+<page tab="4">
+<uid>81</uid>
+<image>journals/116_Sid_001.swf</image>
+<vo>journals/pics/sid_116.mp3</vo>
+</page>
+<page tab="4">
+<uid>83</uid>
+<image>journals/117_Sid.swf</image>
+<vo>journals/pics/sid_117.mp3</vo>
+</page>
+<page tab="4">
+<uid>85</uid>
+<image>journals/118_Sid.swf</image>
+<vo>journals/pics/sid_118.mp3</vo>
+</page>
+<page tab="4">
+<uid>87</uid>
+<image>journals/119_Sid_002.swf</image>
+<vo>journals/pics/sid_119.mp3</vo>
+</page>
+<page tab="5">
+<uid>91</uid>
+<image>journals/121_Sid.swf</image>
+<vo>journals/pics/sid_121.mp3</vo>
+</page>
+<page tab="5">
+<uid>93</uid>
+<image>journals/122_Sid.swf</image>
+<vo>journals/pics/sid_122.mp3</vo>
+</page>
+<page tab="5">
+<uid>95</uid>
+<image>journals/123_Sid.swf</image>
+<vo>journals/pics/sid_123.mp3</vo>
+</page>
+<page tab="5">
+<uid>97</uid>
+<image>journals/124_Sid.swf</image>
+<vo>journals/pics/sid_124.mp3</vo>
+</page>
+<page tab="6">
+<uid>99</uid>
+<image>journals/126_Sid.swf</image>
+<vo>journals/pics/sid_126.mp3</vo>
+</page>
+<page tab="6">
+<uid>101</uid>
+<image>journals/127_Sid.swf</image>
+<vo>journals/pics/sid_127.mp3</vo>
+</page>
+<page tab="6">
+<uid>103</uid>
+<image>journals/128_Sid.swf</image>
+<vo>journals/pics/sid_128.mp3</vo>
+</page>
+<page tab="6">
+<uid>105</uid>
+<image>journals/129_Sid.swf</image>
+<vo>journals/pics/sid_129.mp3</vo>
+</page>
+<page tab="8">
+<uid>108</uid>
+<image>journals/136_Sid.swf</image>
+<vo>journals/pics/sid_136.mp3</vo>
+</page>
+<page tab="8">
+<uid>109</uid>
+<image>journals/137_Sid.swf</image>
+<vo>journals/pics/sid_137.mp3</vo>
+</page>
+<page tab="8">
+<uid>112</uid>
+<image>journals/138_Sid.swf</image>
+<vo>journals/pics/sid_138.mp3</vo>
+</page>
+<page tab="8">
+<uid>113</uid>
+<image>journals/139_Sid.swf</image>
+<vo>journals/pics/sid_139.mp3</vo>
+</page>
+</sid>
+<gerald>
+<page tab="1">
+<uid>68</uid>
+<image>journals/107_Gerald_003.swf</image>
+<vo>journals/pics/gerald_101.mp3</vo>
+</page>
+<page tab="2">
+<uid>69</uid>
+<image>journals/104_Gerald_002b.swf</image>
+<vo>journals/pics/gerald_109.mp3</vo>
+</page>
+<page tab="4">
+<uid>82</uid>
+<image>journals/117_Gerald.swf</image>
+<vo>journals/pics/gerald_117.mp3</vo>
+</page>
+<page tab="5">
+<uid>96</uid>
+<image>journals/124_Gerald.swf</image>
+<vo>journals/pics/gerald_124.mp3</vo>
+</page>
+<page tab="8">
+<uid>107</uid>
+<image>journals/136_Gerald.swf</image>
+<vo>journals/pics/gerald_136.mp3</vo>
+</page>
+<page tab="6">
+<uid>100</uid>
+<image>journals/127_Gerald.swf</image>
+<vo>journals/pics/gerald_127.mp3</vo>
+</page>
+<page tab="6">
+<uid>104</uid>
+<image>journals/129_Gerald.swf</image>
+<vo>journals/pics/gerald_129.mp3</vo>
+</page>
+<page tab="8">
+<uid>110</uid>
+<image>journals/137_Gerald.swf</image>
+<vo>journals/pics/gerald_137.mp3</vo>
+</page>
+</gerald>
+<gabriela>
+<page tab="1">
+<uid>70</uid>
+<image>journals/106_Gab_003.swf</image>
+<vo>journals/pics/gabriela_103.mp3</vo>
+</page>
+<page tab="1">
+<uid>71</uid>
+<image>journals/109_Gab_002b.swf</image>
+<vo>journals/pics/gabriela_104.mp3</vo>
+</page>
+<page tab="2">
+<uid>72</uid>
+<image>journals/103_Gab_002.swf</image>
+<vo>journals/pics/gabriela_108.mp3</vo>
+</page>
+<page tab="3">
+<uid>73</uid>
+<image>journals/111_Gab_002.swf</image>
+<vo>journals/pics/gabriela_111.mp3</vo>
+</page>
+<page tab="3">
+<uid>74</uid>
+<image>journals/114_Gab_002.swf</image>
+<vo>journals/pics/gabriela_114.mp3</vo>
+</page>
+<page tab="4">
+<uid>80</uid>
+<image>journals/116_Gab_002.swf</image>
+<vo>journals/pics/gabriela_116.mp3</vo>
+</page>
+<page tab="4">
+<uid>84</uid>
+<image>journals/118_Gab.swf</image>
+<vo>journals/pics/gabriela_118.mp3</vo>
+</page>
+<page tab="5">
+<uid>92</uid>
+<image>journals/122_Gab.swf</image>
+<vo>journals/pics/gabriela_122.mp3</vo>
+</page>
+<page tab="6">
+<uid>102</uid>
+<image>journals/128_Gab.swf</image>
+<vo>journals/pics/gabriela_128.mp3</vo>
+</page>
+<page tab="6">
+<uid>106</uid>
+<image>journals/126_May.swf</image>
+<vo>journals/pics/gabriela_126.mp3</vo>
+</page>
+<page tab="8">
+<uid>114</uid>
+<image>journals/139_Gab.swf</image>
+<vo>journals/pics/gabriela_139.mp3</vo>
+</page>
+</gabriela>
+<may>
+<page tab="1">
+<uid>75</uid>
+<image>journals/108_May.swf</image>
+<vo>journals/pics/may_102.mp3</vo>
+</page>
+<page tab="2">
+<uid>76</uid>
+<image>journals/101_May_002.swf</image>
+<vo>journals/pics/may_106.mp3</vo>
+</page>
+<page tab="2">
+<uid>77</uid>
+<image>journals/102_May_004.swf</image>
+<vo>journals/pics/may_107.mp3</vo>
+</page>
+<page tab="3">
+<uid>78</uid>
+<image>journals/112_May_001.swf</image>
+<vo>journals/pics/may_112.mp3</vo>
+</page>
+<page tab="3">
+<uid>79</uid>
+<image>journals/113_May_001b.swf</image>
+<vo>journals/pics/may_113.mp3</vo>
+</page>
+<page tab="4">
+<uid>86</uid>
+<image>journals/119_May_002.swf</image>
+<vo>journals/pics/may_119.mp3</vo>
+</page>
+<page tab="5">
+<uid>90</uid>
+<image>journals/121_May.swf</image>
+<vo>journals/pics/may_121.mp3</vo>
+</page>
+<page tab="5">
+<uid>94</uid>
+<image>journals/123_May.swf</image>
+<vo>journals/pics/may_123.mp3</vo>
+</page>
+<page tab="8">
+<uid>111</uid>
+<image>journals/138_May.swf</image>
+<vo>journals/pics/may_138.mp3</vo>
+</page>
+</may>
+</journals>
+</zone1>
+</root>

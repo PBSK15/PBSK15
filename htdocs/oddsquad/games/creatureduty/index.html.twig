@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<title>Creature Duty . Games . Odd Squad | PBS KIDS</title>
+<meta name="description" content=""/>
+
+<link href="css/MyFontsWebfontsKit.css" rel="stylesheet" type="text/css" />
+<link href="css/gamestyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="//use.typekit.net/nuo4rii.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
+<script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
+<script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
+<script src="http://code.createjs.com/soundjs-0.5.2.min.js"></script>
+<script src="http://code.createjs.com/preloadjs-0.4.0.min.js"></script>
+<script type="text/javascript" src="http://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script>
+<script src = "js/lib/ssnamespace.js"> </script>
+<script src = "js/lib/OddSquadNamespace.js"> </script>
+<script src = "js/lib/UserLogin.js"> </script>
+
+<!--<script type="text/javascript" src="//use.typekit.net/dpz3lxg.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
+
+<link href="/oddsquad/css/reset.min.css" rel="stylesheet" type="text/css" />
+<link href="/oddsquad/css/base.css" rel="stylesheet" type="text/css" />
+<link href="/oddsquad/css/global.css" rel="stylesheet" type="text/css" />
+
+<!-- Integration -->
+<script type="text/javascript" src="/oddsquad/js/jquery.pageGenratr.js"></script>
+<script type="text/javascript" src="/oddsquad/js/agent.js"></script>
+<script type="text/javascript" src="/oddsquad/js/achievements.js"></script>
+<script type="text/javascript" src="/oddsquad/js/locker.js"></script>
+<script type="text/javascript" src="/oddsquad/js/functions.init.js"></script>
+
+
+<!-- MovieClips and Graphics -->
+<script type="text/javascript" src = "js/assets/bitmap_assets.js"> </script>
+<script type="text/javascript" src = "js/assets/food_assets.js"> </script>
+<script type="text/javascript" src = "js/assets/button_assets.js"> </script>
+<script type="text/javascript" src = "js/assets/creature_assets.js"> </script>
+<script type="text/javascript" src = "js/assets/habitat_assets.js"> </script>
+
+<!-- Command Utils -->
+
+<script type="text/javascript" src = "js/lib/command/AbstractCommand.js"> </script>
+<script type="text/javascript" src = "js/lib/command/AjaxCommand.js"> </script>
+<script type="text/javascript" src = "js/lib/command/ApplyCommand.js"> </script>
+<script type="text/javascript" src = "js/lib/command/CommandQueue.js"> </script>
+<script type="text/javascript" src = "js/lib/command/CommandSet.js"> </script>
+<script type="text/javascript" src = "js/lib/command/CSSCommand.js"> </script>
+<script type="text/javascript" src = "js/lib/command/EaseToCommand.js"> </script>
+<script type="text/javascript" src = "js/lib/command/ListenerCommand.js"> </script>
+<script type="text/javascript" src = "js/lib/command/LockCommand.js"> </script>
+<script type="text/javascript" src = "js/lib/command/ThreadCommand.js"> </script>
+
+<!--  DB -->
+
+<script type="text/javascript" src = "js/lib/AbstractEventDispatcher.js"> </script>
+<script type="text/javascript" type="text/javascript" src = "js/lib/AbstractObject.js"> </script>
+<script type="text/javascript" src = "js/lib/Iterator.js"> </script>
+<script type="text/javascript" src = "js/lib/AchievementManager.js"> </script>
+<script type="text/javascript" type="text/javascript" src = "js/lib/AchievementsPopup.js"> </script>
+<script type="text/javascript" src = "js/lib/BaseEvent.js"> </script>
+<script type="text/javascript" src = "js/lib/CreatureDutyAchievementManager.js"> </script>
+<script type="text/javascript" src = "js/lib/DebugUtil.js"> </script>
+<script type="text/javascript" src = "js/lib/Util.js"> </script>
+<script type="text/javascript" src = "js/lib/Event.js"> </script>
+
+<script type="text/javascript" src = "js/lib/KeyValueStorage.js"> </script>
+
+<!-- Menu, Video -->
+<script type="text/javascript" src = "js/lib/MenuWidget.js"> </script>
+<script type="text/javascript" src = "js/lib/MenuHelper.js"> </script>
+<script type="text/javascript" src = "js/lib/pbs-video.js"> </script>
+<script type="text/javascript" src = "js/lib/BrowserDetection.js"> </script>
+<script type="text/javascript" src = "js/lib/PageFocus.js"> </script>
+
+<!-- Game -->
+<script type="text/javascript" src = "js/AssetManager.js"> </script>
+<script type="text/javascript" src = "js/GameData.js"> </script>
+<script type="text/javascript" src = "js/AudioData.js"> </script>
+<script type="text/javascript" src = "js/AudioManager.js"> </script>
+<script type="text/javascript" src = "js/Prompts.js"> </script>
+<script type="text/javascript" src = "js/VisualEffects.js"> </script>
+<script type="text/javascript" src = "js/Food.js"> </script>
+<script type="text/javascript" src = "js/FoodTray.js"> </script>
+<script type="text/javascript" src = "js/Cutter.js"> </script>
+<script type="text/javascript" src = "js/FoodSpread.js"> </script>
+<script type="text/javascript" src = "js/Pen.js"> </script>
+<script type="text/javascript" src = "js/Bowl.js"> </script>
+<script type="text/javascript" src = "js/Creature.js"> </script>
+<script type="text/javascript" src = "js/HelpPrompt.js"> </script>
+<script type="text/javascript" src = "js/Tube.js"> </script>
+<script type="text/javascript" src = "js/PhaseManager.js"> </script>
+<script type="text/javascript" src = "js/GameManager.js"> </script>
+
+
+<script type="text/javascript" src = "js/pageSetup.js"></script>
+
+<script type="text/javascript">
+
+	var secretVar = window.location.href;
+	secretVar = secretVar.substring(secretVar.indexOf("?")+1);
+	var toShowLogs = (secretVar !== undefined && secretVar == "debug");
+
+	function getErrorObj(){
+		try { throw Error('') } catch(err) { return err; }
+	}
+	function _log(){
+		if(toShowLogs){
+			var err =  getErrorObj();
+			if(!(err.stack == null || err.stack == undefined)){
+				var caller_line = err.stack.split("\n")[4];
+				if(caller_line !== undefined){
+					var index = caller_line.indexOf("at ");
+					var clean = caller_line.slice(index+(window.chrome ? 2 : 1), caller_line.length);
+					console.log.apply(console,arguments);
+					console.log("%c                "+clean,"color:lightslategray;");
+				}
+			}
+		}
+	}
+
+	function resizeVideo(withAlert){
+		
+		var vidWrapper = document.getElementById("videoplayerwrapper");
+		var vidProper = document.getElementById("pbs-video-player");
+		var baseElement = document.getElementById("creaturedutycanvas");
+		var innerCanvasWrapper = document.getElementById("gameBack");
+		
+		var baseAspect = 4/3;
+		var basePos = getPos(baseElement);
+		var vidPos = getPos(vidWrapper);
+		var vidTop = vidPos.y;
+
+		var vidWrapperChild = vidWrapper.firstChild;
+
+		if(innerCanvasWrapper != null && baseElement != null){
+
+			var targetHeight = Math.min((window.innerHeight - basePos.y),(window.innerWidth/baseAspect));
+			innerCanvasWrapper.style.maxHeight =  targetHeight + 'px';
+			baseElement.style.maxHeight = targetHeight + 'px';
+		
+			var targetWidth = Math.min(Math.min(1024,targetHeight*baseAspect),window.innerWidth);
+			//innerCanvasWrapper.style.maxWidth = targetWidth + 'px';
+			baseElement.style.maxWidth =  targetWidth + 'px';
+
+			var revisedTargetHeight = targetWidth/baseAspect;
+			innerCanvasWrapper.style.maxHeight =  revisedTargetHeight + 'px';
+			baseElement.style.maxHeight = revisedTargetHeight + 'px';
+
+			if(vidWrapper != undefined && vidWrapper != null){
+
+				var baseScale = Math.min(window.innerWidth/1024, (window.innerHeight - basePos.y)/768);
+				var leftEdge = ((window.innerWidth - targetWidth)/2);
+
+				vidWrapper.style.width = vidWrapper.style.minWidth = (706*Math.min(1, baseScale)) + 'px';
+				vidWrapper.style.height = vidWrapper.style.minHeight = (395*Math.min(1, baseScale)) + 'px';
+				vidWrapper.style.left = (leftEdge + 161*Math.min(1, baseScale)) + 'px';
+				vidWrapper.style.top = (Math.max(-456, (- 456*baseScale))) + 'px';
+				
+				vidProper.style.width = vidWrapper.style.width;
+				vidProper.style.height = vidWrapper.style.height;
+				vidProper.style.left = vidWrapper.style.left;
+				vidProper.style.top = vidWrapper.style.top;
+			
+			}
+			/*
+			_log((window.innerHeight - basePos.y)+", "+(window.innerWidth/baseAspect)+", "+targetWidth+", "+leftEdge+", "+(161*Math.min(1, baseScale)));
+			if(withAlert){
+				alert((window.innerHeight - basePos.y)+", "+(window.innerWidth/baseAspect)+", "+targetWidth+", "+leftEdge+", "+(161*Math.min(1, baseScale)));
+			}
+			*/
+		}
+		if(stage != undefined){
+			stage.update();	
+		}
+	};
+
+
+
+	window.onresize = function (event) {
+		resizeVideo(false);
+	};
+
+</script>
+
+</head>
+<body class="odd_squad_creatureduty" onload="init();">
+ 
+                
+  {% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+
+	<div class="odd-wrapper canvaswrapper">
+		<div class="innerwrapper" id="gameBack">
+			<canvas class="standard-outline" id="creaturedutycanvas" width="1024" height="768" ></canvas>
+		</div>
+		<div id="videoplayerwrapper">
+			<video id="pbs-video-player" controls autoplay><source src="videos/creatureduty_intro.mp4" type="video/mp4">
+				<source src="videos/creatureduty_intro.webm" type="video/webm">
+				<source src="videos/creatureduty_intro.ogg" type="video/ogg"></video>
+		</div>
+	</div>
+<nav class="game-nav">
+<!-- style="top:110px; right:-10px;"-->
+    <a href="/games/" class="btn-close" style="right:-10px;" data-genratrTarget onClick="pushUrl('/games/', 'Games', event)"><span>Close<i></i></span></a>
+  </nav>
+</body>
+</html>

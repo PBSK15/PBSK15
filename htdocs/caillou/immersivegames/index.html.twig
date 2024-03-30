@@ -1,0 +1,28 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set alternateTitle = true %}
+{% set pageTitle = ' Games' %}
+{% set keywds = 'Caillou, Kayu, caillou games, kayu games' %}
+{% set desc = 'Play Games with Caillou! Caillou needs help dring the train in his Caillou Train Game, can you help. Play with Caillou!' %}
+
+{% block specialScripts %}<script src="/includes/flash/swfobject.js" type="text/javascript"></script>
+<script type="text/javascript">function newImage(arg) {	if (document.images) {		rslt = new Image();		rslt.src = arg;		return rslt;	}}function changeImages() {	if (document.images && (preloadFlag == true)) {		for (var i=0; i<changeImages.arguments.length; i+=2) {			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];		}	}}var preloadFlag = false;function preloadImages() {	if (document.images) {		entete_over = newImage("/caillou/images/entete-over.gif");		preloadFlag = true;	}}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="preloadImages();">' %}
+
+{% block mainContent %}<div id="header" align="center">
+ <table width="756" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+   <tr>
+    <td width="50">&nbsp;</td>
+    <td width="150" align="left"><a href="http:pbskids.org/"><img name="PBS KIDS" src="/caillou/images/PBSLogo.gif" width="42" height="54" border="0" alt="PBS KIDS" title="PBS KIDS"></a></td>
+    <td width="300" align="left"><a href="/caillou/index.html" onmouseover="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseout="changeImages('entete', '/caillou/images/entete.gif'); return true;" onmousedown="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseup="changeImages('entete', '/caillou/images/entete-over.gif'); return true;"><img name="entete" src="/caillou/images/entete.gif" width="184" height="96" border="0" alt="Caillou Homepage" title="Caillou Homepage"></a></td>
+   </tr>
+  </tbody>
+ </table>
+</div><div id="main-center" align="center">
+ <div id="flashcontent">
+  <h1>Caillou Games</h1> Play fun educational games with Caillou! To play these games, you'll need to install the free <a href="http:get.adobe.com/flashplayer">Adobe Flash Player</a>.
+ </div>
+ <script type="text/javascript">		var so = new SWFObject("main.swf", "main", "750", "540", "7,0,0,0", "#FFFFFF");		var ID = getQueryParamValue("gameID");		if(ID != null)			so.addVariable("gameID", ID);			so.addParam("wmode","transparent");				so.write("flashcontent");	</script>
+</div>{% endblock %}

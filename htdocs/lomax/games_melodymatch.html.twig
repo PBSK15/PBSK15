@@ -1,0 +1,13 @@
+{% extends 'lomax/includes/lomaxPage.html.twig' %}
+{% set pageTitle = 'Melody Match - ' %}
+
+
+{% block flashScript %}<script type="text/javascript">
+            var fo = new SWFObject("gameholder.swf", "flashcontent", "772", "680", "9", "#ffd904");
+            PBS_enable_cdn(fo);
+            fo.addParam("wmode", "transparent");
+            fo.addParam("allowScriptAccess", "always");
+            fo.addVariable("game","1");
+            fo.write("flashcontent");
+            </script>{% endblock %}
+

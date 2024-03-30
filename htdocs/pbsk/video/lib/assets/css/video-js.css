@@ -1,0 +1,2529 @@
+/*!
+Video.js Default Styles (http://videojs.com)
+Version 4.12.15
+Create your own skin at http://designer.videojs.com
+*/
+/* SKIN
+================================================================================
+The main class name for all skin-specific styles. To make your own skin,
+replace all occurrences of 'vjs-default-skin' with a new name. Then add your new
+skin name to your video tag instead of the default skin.
+e.g. <video class="video-js my-skin-name">
+*/
+.pbskids-default-skin {
+  color: #cccccc;
+  overflow: hidden;
+}
+
+
+
+/* Custom Icon Font
+--------------------------------------------------------------------------------
+The control icons are from a custom font. Each icon corresponds to a character
+(e.g. "\e001"). Font icons allow for easy scaling and coloring of icons.
+*/
+@font-face {
+  font-family: 'VideoJS';
+  src: url('../font/vjs.eot');
+  src: url('../font/vjs.eot?#iefix') format('embedded-opentype'), url('../font/vjs.woff') format('woff'), url('../font/vjs.ttf') format('truetype'), url('../font/vjs.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* always show the video when in fullscreen mode */
+.pbskids-default-skin.video-js.vjs-fullscreen { display: block !important; }
+
+/* Base UI Component Classes
+--------------------------------------------------------------------------------
+*/
+/* Slider - used for Volume bar and Seek bar */
+.pbskids-default-skin .vjs-slider {
+  /* Replace browser focus highlight with handle highlight */
+  outline: 0;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  /* background-color-with-alpha */
+  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.9);
+}
+.pbskids-default-skin .vjs-slider:focus {
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 2em #ffffff;
+  -moz-box-shadow: 0 0 2em #ffffff;
+  box-shadow: 0 0 2em #ffffff;
+}
+.pbskids-default-skin .vjs-slider-handle {
+  position: absolute;
+  /* Needed for IE6 */
+  left: 0;
+  top: 0;
+}
+.pbskids-default-skin .vjs-slider-handle:before {
+  content: "\e009";
+  font-family: VideoJS;
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0em 0em 1em #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Rotate the square icon to make a diamond */
+  /* transform */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+
+/* Control Bar
+--------------------------------------------------------------------------------
+The default control bar that is a container for most of the controls.
+*/
+.pbskids-default-skin .vjs-control-bar {
+  /* Start hidden */
+  display: none;
+  position: absolute;
+  /* Place control bar at the bottom of the player box/video.
+     If you want more margin below the control bar, add more height. */
+  bottom: 0;
+  /* Use left/right to stretch to 100% width of player div */
+  left: 0;
+  right: 0;
+  /* Height includes any margin you want above or below control items */
+  height: 3.0em;
+  /* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7, 20, 30, 0.7);
+}
+/* Hide the control bar when not in fullscreen mode */
+html:not(.isfullscreen) .pbskids-default-skin .vjs-control-bar {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+}
+/* Show the control bar only once the video has started playing */
+.pbskids-default-skin.vjs-has-started .vjs-control-bar {
+  display: block;
+  /* Visibility needed to make sure things hide in older browsers too. */
+
+  visibility: visible;
+  opacity: 1;
+  /* transition */
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  -moz-transition: visibility 0.1s, opacity 0.1s;
+  -o-transition: visibility 0.1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+.pbskids-default-skin.vjs-fullscreen.vjs-controls-disabled .vjs-control-bar{
+  display: block;
+  position: fixed;
+}
+/* Hide the control bar when the video is playing and the user is inactive  */
+.pbskids-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  /* transition */
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s;
+}
+.pbskids-default-skin.vjs-controls-disabled .vjs-control-bar {
+  display: none;
+}
+.pbskids-default-skin.vjs-using-native-controls .vjs-control-bar {
+  display: none;
+}
+/* The control bar shouldn't show after an error */
+.pbskids-default-skin.vjs-error .vjs-control-bar {
+  display: none;
+}
+/* Don't hide the control bar if it's audio */
+.vjs-audio.pbskids-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  opacity: 1;
+  visibility: visible;
+}
+/* IE8 is flakey with fonts, and you have to change the actual content to force
+fonts to show/hide properly.
+  - "\9" IE8 hack didn't work for this
+  - Found in XP IE8 from http://modern.ie. Does not show up in "IE8 mode" in IE9
+*/
+@media \0screen {
+  .pbskids-default-skin.vjs-user-inactive.vjs-playing .vjs-control-bar :before {
+    content: "";
+  }
+}
+/* General styles for individual controls. */
+.pbskids-default-skin .vjs-control {
+  outline: none;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 3.0em;
+  width: 4em;
+}
+/* Font button icons */
+.pbskids-default-skin .vjs-control:before {
+  font-family: VideoJS;
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* Replacement for focus outline */
+.pbskids-default-skin .vjs-control:focus:before,
+.pbskids-default-skin .vjs-control:hover:before {
+  text-shadow: 0em 0em 1em #ffffff;
+}
+.pbskids-default-skin .vjs-control:focus {
+  /*  outline: 0; */
+  /* keyboard-only users cannot see the focus on several of the UI elements when
+  this is set to 0 */
+
+}
+/* Hide control text visually, but have it available for screenreaders */
+.pbskids-default-skin .vjs-control-text {
+  /* hide-visually */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+
+/* Play/Pause
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin .vjs-play-control {
+  width: 5em;
+  cursor: pointer;
+}
+.pbskids-default-skin .vjs-play-control:before {
+  content: "\e001";
+}
+.pbskids-default-skin.vjs-playing .vjs-play-control:before {
+  content: "\e002";
+}
+
+
+
+/* Playback toggle
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin .vjs-playback-rate .vjs-playback-rate-value {
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.pbskids-default-skin .vjs-playback-rate.vjs-menu-button .vjs-menu .vjs-menu-content {
+  width: 4em;
+  left: -2em;
+  list-style: none;
+}
+
+
+
+/* Volume/Mute
+-------------------------------------------------------------------------------- */
+.pbskids-default-skin .vjs-mute-control,
+.pbskids-default-skin .vjs-volume-menu-button {
+  cursor: pointer;
+  float: right;
+}
+.pbskids-default-skin .vjs-mute-control:before,
+.pbskids-default-skin .vjs-volume-menu-button:before {
+  content: "\e006";
+}
+.pbskids-default-skin .vjs-mute-control.vjs-vol-0:before,
+.pbskids-default-skin .vjs-volume-menu-button.vjs-vol-0:before {
+  content: "\e003";
+}
+.pbskids-default-skin .vjs-mute-control.vjs-vol-1:before,
+.pbskids-default-skin .vjs-volume-menu-button.vjs-vol-1:before {
+  content: "\e004";
+}
+.pbskids-default-skin .vjs-mute-control.vjs-vol-2:before,
+.pbskids-default-skin .vjs-volume-menu-button.vjs-vol-2:before {
+  content: "\e005";
+}
+.pbskids-default-skin .vjs-volume-control {
+  width: 5em;
+  float: right;
+}
+.pbskids-default-skin .vjs-volume-bar {
+  width: 5em;
+  height: 0.6em;
+  margin: 1.1em auto 0;
+}
+.pbskids-default-skin .vjs-volume-level {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.5em;
+  /* assuming volume starts at 1.0 */
+
+  width: 100%;
+  background: #66a8cc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+.pbskids-default-skin .vjs-volume-bar .vjs-volume-handle {
+  width: 0.5em;
+  height: 0.5em;
+  /* Assumes volume starts at 1.0. If you change the size of the
+     handle relative to the volume bar, you'll need to update this value
+     too. */
+
+  left: 4.5em;
+}
+.pbskids-default-skin .vjs-volume-handle:before {
+  font-size: 0.9em;
+  top: -0.2em;
+  left: -0.2em;
+  width: 1em;
+  height: 1em;
+}
+
+
+/* Captions Settings Dialog Buttons */
+.vjs-default-button,
+.vjs-done-button {
+  background-color: #00C3F7;
+  border: none;
+  margin: 0 0 0 .75em;
+  padding: 2px 6px 3px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+/* Captions Settings Dialog */
+.vjs-text-track-settings {
+  position: absolute;
+  z-index: 300;
+
+  background-color: #FFF;
+  opacity: 1;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+
+  padding: 0;
+  right: 2%;
+  bottom: 70px;
+
+  width: 96%;
+  max-width: 450px;
+  min-width: 292px;
+
+  height: 90%;
+  max-height: 240px;
+}
+.vjs-text-track-settings:after{
+  content: "";
+  position: absolute;
+  border: transparent solid 16px;
+  border-top: 20px #FFF solid;
+  border-bottom: 0;
+  bottom: -12px;
+  right: 10px;
+}
+.vjs-text-track-settings select {
+  color: black;
+  font-family: system-ui;
+  font-size: 11px;
+  border: 1px solid #aaa;
+}
+.pbskids-tiny-video .vjs-text-track-settings{
+  bottom: 10px;
+}
+.pbskids-tiny-video .vjs-text-track-settings:after{
+  content:none;
+}
+.vjs-text-track-settings .vjs-tracksettings,
+.vjs-text-track-settings .pbskids-captions-help{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: auto;
+  color: #717171;
+  background-color: #EEE;
+  text-align: left;
+}
+.vjs-text-track-settings .vjs-tracksettings-colors,
+.vjs-text-track-settings .vjs-tracksettings-font {
+  float: left;
+}
+.vjs-text-track-settings .vjs-tracksettings-colors:after,
+.vjs-text-track-settings .vjs-tracksettings-font:after,
+.vjs-text-track-settings .vjs-tracksettings-controls:after {
+  clear: both;
+}
+.vjs-text-track-settings .vjs-tracksettings-controls {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  left: 1em;
+  text-align: right;
+}
+.vjs-text-track-settings .vjs-tracksetting {
+  margin: 5px;
+  padding: 3px;
+  min-height: 40px;
+}
+.vjs-text-track-settings .vjs-tracksetting label {
+  display: block;
+  width: 100px;
+  margin-bottom: 5px;
+  font-size: 1em;
+  line-height: 1.2em;
+  text-transform: none;
+}
+.vjs-text-track-settings .vjs-tracksetting select{
+  appearance:menulist;
+  -moz-appearance:menulist;
+  -webkit-appearance:menulist;
+  -webkit-rtl-ordering: logical;
+  -webkit-writing-mode: horizontal-tb;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  align-items: center;
+  white-space: pre;
+  cursor: default;
+  color: black;
+  background-color: rgb(248, 248, 248);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 166, 166);
+  border-radius: 2px;
+
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+}
+.vjs-text-track-settings .vjs-tracksetting option {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.vjs-text-track-settings .vjs-tracksetting select:not(:-internal-list-box) {
+  overflow: visible !important;
+}
+.vjs-text-track-settings .vjs-tracksetting span {
+  display: inline;
+  margin-left: 5px;
+}
+.vjs-text-track-settings .vjs-tracksetting > div {
+  margin-bottom: 5px;
+  min-height: 20px;
+}
+.vjs-text-track-settings .vjs-tracksetting > div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  min-height: 0;
+}
+.vjs-text-track-settings label > input {
+  margin-right: 10px;
+}
+.vjs-text-track-settings input[type="button"] {
+  width: 40px;
+  height: 40px;
+}
+
+
+/* Captions Help Dialog */
+.vjs-text-track-settings .pbskids-captions-help *{
+  color: inherit;
+}
+
+.vjs-text-track-settings .pbskids-captions-toggle-help{
+  background-color: #00C3F7;
+  border: none;
+  margin: 0;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 100%;
+  bottom: 10px;
+  left: 12px;
+  position: absolute;
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.vjs-text-track-settings .pbskids-captions-help .pbskids-captions-close-help{
+  background-color: #F70000;
+  border: none;
+  margin: 0;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 1.6em;
+  height: 1.6em;
+  cursor: pointer;
+  float: right;
+  border-radius: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.vjs-text-track-settings .pbskids-captions-help{
+  display: none;
+}
+
+.vjs-text-track-settings.show-help .pbskids-captions-help{
+  display: block;
+  padding: 0.75em;
+  line-height: 1.2em;
+  font-size: 11px;
+  position: relative;
+  z-index: 1;
+  height: calc(100% - 20px)
+}
+
+.vjs-text-track-settings .pbskids-captions-help h2{
+  font-size: 1.8em;
+  line-height: 1.2em;
+  margin: 0.25em 0 0.75em;
+  padding: 0;
+  text-shadow: none;
+  font-family: inherit;
+}
+
+.vjs-text-track-settings .pbskids-captions-help dl{
+  margin: 1em;
+  padding: 0;
+}
+
+.vjs-text-track-settings .pbskids-captions-help dt{
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.vjs-text-track-settings .pbskids-captions-help dd{
+  margin: 0 0 1.5em 1em;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.vjs-text-track-settings .pbskids-captions-help blockquote{
+  margin: 0.75em 2em 1em;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.vjs-text-track-settings .pbskids-captions-help p{
+  padding: 0;
+  margin: 0.75em 0;
+  width: auto;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.vjs-text-track-settings .pbskids-captions-help ol,
+.vjs-text-track-settings .pbskids-captions-help ul{
+  margin: 0 0 0 2em;
+  padding: 0;
+  float: none;
+  clear: both;
+  width: auto;
+  position: static;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.vjs-text-track-settings .pbskids-captions-help li{
+  margin: 0 0 0.75em;
+  padding: 0;
+  float: none;
+  clear: both;
+  display: list-item;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.pbskids-default-skin .vjs-modal-dialog.vjs-text-track-settings {
+  background: #fff;
+  width: 452px;
+  height: 220px;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  margin-left: 50%;
+  margin-top: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.pbskids-default-skin .vjs-modal-dialog {
+  overflow-x: hidden !important;
+}
+.pbskids-default-skin .vjs-modal-dialog .vjs-modal-dialog-content {
+  height: 100%;
+  padding: 10px;
+  overflow-y: auto;
+  white-space: nowrap;
+}
+.pbskids-default-skin .vjs-modal-dialog,
+.pbskids-default-skin .vjs-modal-dialog .vjs-modal-dialog-content * {
+  outline: none;
+}
+.pbskids-default-skin .vjs-modal-dialog.vjs-text-track-settings:after {
+  display: block;
+  content: '';
+  background: #EEE;
+  border: none;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 43px;
+  left: 10px;
+}
+.pbskids-default-skin .vjs-modal-dialog.vjs-text-track-settings legend {
+  color: #717171;
+  margin: 0;
+  font-size: 11px;
+}
+.pbskids-default-skin .vjs-text-track-settings select {
+  -webkit-appearance: menulist-button;
+  max-width: 75px;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0;
+}
+.pbskids-default-skin .vjs-text-track-settings fieldset {
+  text-align: left;
+}
+.pbskids-default-skin .vjs-control.vjs-close-button {
+  display: none;
+}
+.pbskids-default-skin .pbskids-captions-help {
+  margin: 10px;
+}
+
+
+/* The volume menu button is like menu buttons (captions/subtitles) but works
+    a little differently. It needs to be possible to tab to the volume slider
+    without hitting space bar on the menu button. To do this we're not using
+    display:none to hide the slider menu by default, and instead setting the
+    width and height to zero. */
+.pbskids-default-skin .vjs-volume-menu-button .vjs-menu {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top-color: transparent;
+}
+.pbskids-default-skin .vjs-volume-menu-button .vjs-menu .vjs-menu-content {
+  height: 0;
+  width: 0;
+}
+.pbskids-default-skin .vjs-volume-menu-button:hover .vjs-menu,
+.pbskids-default-skin .vjs-volume-menu-button .vjs-menu.vjs-lock-showing {
+  border-top-color: rgba(7, 40, 50, 0.5);
+  /* Same as ul background */
+
+}
+.pbskids-default-skin .vjs-volume-menu-button:hover .vjs-menu .vjs-menu-content,
+.pbskids-default-skin .vjs-volume-menu-button .vjs-menu.vjs-lock-showing .vjs-menu-content {
+  height: 2.9em;
+  width: 10em;
+}
+
+
+
+/* Progress
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin .vjs-progress-control {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  font-size: 0.3em;
+  height: 1em;
+  /* Set above the rest of the controls. */
+  top: -1em;
+  /* Shrink the bar slower than it grows. */
+  /* transition */
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* On hover, make the progress bar grow to something that's more clickable.
+    This simply changes the overall font for the progress bar, and this
+    updates both the em-based widths and heights, as wells as the icon font */
+.pbskids-default-skin:hover .vjs-progress-control {
+  font-size: .9em;
+  /* Even though we're not changing the top/height, we need to include them in
+      the transition so they're handled correctly. */
+
+  /* transition */
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* Box containing play and load progresses. Also acts as seek scrubber. */
+.pbskids-default-skin.video-js .vjs-progress-control .vjs-progress-holder {
+  height: 100%;
+  margin: 0;
+}
+/* Progress Bars */
+.pbskids-default-skin .vjs-progress-holder .vjs-play-progress,
+.pbskids-default-skin .vjs-progress-holder .vjs-load-progress,
+.pbskids-default-skin .vjs-progress-holder .vjs-load-progress div {
+  position: absolute;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* updated by javascript during playback */
+
+  width: 0;
+  /* Needed for IE6 */
+  left: 0;
+  top: 0;
+}
+.pbskids-default-skin .vjs-play-progress {
+  /*
+    Using a data URI to create the white diagonal lines with a transparent
+      background. Surprisingly works in IE8.
+      Created using http://www.patternify.com
+    Changing the first color value will change the bar color.
+    Also using a paralax effect to make the lines move backwards.
+      The -50% left position makes that happen.
+  */
+
+  background: #66a8cc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+.pbskids-default-skin .vjs-load-progress {
+  background: #646464 /* IE8- Fallback */;
+  background: rgba(255, 255, 255, 0.2);
+}
+/* there are child elements of the load progress bar that represent the
+   specific time ranges that have been buffered */
+.pbskids-default-skin .vjs-load-progress div {
+  background: #787878 /* IE8- Fallback */;
+  background: rgba(255, 255, 255, 0.1);
+}
+.pbskids-default-skin .vjs-seek-handle {
+  width: 1.5em;
+  height: 100%;
+}
+.pbskids-default-skin .vjs-seek-handle:before {
+  padding-top: 0.1em /* Minor adjustment */;
+}
+
+.pbskids-video-control .scrubber-track {
+  position: relative;
+}
+
+.pbskids-video-control .scrubber-track::before,
+.pbskids-default-skin .vjs-progress-control .vjs-slider-horizontal::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 300%;
+  min-height: 20px;
+  max-height: 26px;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.pbskids-default-skin .vjs-progress-control .vjs-slider-horizontal::before {
+  z-index: 1;
+}
+
+
+/* ADDITIONS : Vast-Vpaid-Plugin (Ads)
+--------------------------------------------------------------------------------
+*/
+
+/* hide swf added by the new version of the library that sometimes messes with styles */
+#vpaid_video_flash_tester_el {
+  visibility: hidden;
+}
+.pbskids-default-skin .vjs-ads-label {
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  display: none;
+  width: auto;
+  padding-left: 10px;
+}
+
+.pbskids-default-skin.vjs-ad-playing .vjs-control.vjs-ads-label {
+  display: block;
+}
+
+/* DISABLE seeking while displaying an ad */
+.pbskids-default-skin.vjs-ad-playing .vjs-progress-control {
+  pointer-events: none;
+}
+
+.pbskids-default-skin.vjs-ad-playing .vjs-play-progress {
+  background-color: #ffe400 !important;
+}
+
+.pbskids-default-skin .vast-blocker{
+  display: none !important;
+  pointer-events: none !important;
+}
+
+
+
+/* ADDITIONS : KIDS Video Player Controls
+--------------------------------------------------------------------------------
+*/
+.pbskids-video-control.disabled-control{
+  /*background: #CCC !important;*/
+  opacity: 0.5 !important;
+  pointer-events: none !important;
+}
+
+    .pbskids-video-control.disabled-control *{
+      /*opacity: 0.75;*/
+    }
+
+
+
+/* Live Mode
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin.vjs-live .vjs-time-control,
+.pbskids-default-skin.vjs-live .vjs-time-divider,
+.pbskids-default-skin.vjs-live .vjs-progress-control {
+  display: none;
+}
+.pbskids-default-skin.vjs-live .vjs-live-display {
+  display: block;
+}
+
+
+
+/* Live Display
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin .vjs-live-display {
+  display: none;
+  font-size: 1em;
+  line-height: 3em;
+}
+/* Time Display
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin .vjs-time-control {
+  display: block;
+  font-size: 1em;
+  /* Align vertically by making the line height the same as the control bar */
+  line-height: 3em;
+}
+.pbskids-default-skin .vjs-current-time {
+  float: left;
+  display: block !important;
+}
+.pbskids-default-skin .vjs-duration {
+  float: left;
+  display: block !important;
+}
+/* Remaining time is in the HTML, but not included in default design */
+.pbskids-default-skin .vjs-remaining-time {
+  display: none;
+  float: left;
+}
+.pbskids-default-skin.video-js .vjs-time-control.vjs-time-divider {
+  display: block;
+  float: left;
+  line-height: 3em;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  min-width: 0;
+}
+
+
+
+/* Fullscreen
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin .vjs-fullscreen-control {
+  width: 3.8em;
+  cursor: pointer;
+  float: right;
+}
+.pbskids-default-skin .vjs-fullscreen-control:before {
+  content: "\e000";
+}
+/* Switch to the exit icon when the player is in fullscreen */
+.pbskids-default-skin.vjs-fullscreen .vjs-fullscreen-control:before {
+  content: "\e00b";
+}
+
+
+
+/* Big Play Button (play button at start)
+--------------------------------------------------------------------------------
+Positioning of the play button in the center or other corners can be done more
+easily in the skin designer. http://designer.videojs.com/
+*/
+.pbskids-default-skin .vjs-big-play-button {
+  position: absolute;
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: inherit;
+  cursor: pointer;
+  background: transparent;
+}
+
+.pbskids-default-skin .vjs-big-play-button span{
+  height: 100%;
+  display: block;
+}
+
+/* Hide while video is playing and on errors */
+.pbskids-default-skin.vjs-playing .vjs-big-play-button,
+.pbskids-default-skin.vjs-waiting .vjs-big-play-button,
+.vjs-error .vjs-big-play-button {
+  display: none;
+}
+
+
+
+/* Loading Spinner
+--------------------------------------------------------------------------------
+*/
+.vjs-loading-spinner {
+  /* Should be hidden by default */
+  display: none;
+  border: none !important;
+}
+
+.vjs-loading-spinner span{
+  height: 100%;
+  display: block;
+}
+
+/* Errors are unrecoverable without user interaction so hide the spinner */
+.vjs-error .vjs-loading-spinner,
+.vjs-seeking .vjs-loading-spinner{
+  display: none;
+}
+
+
+
+/* Onhover Overlay
+--------------------------------------------------------------------------------
+*/
+.pbskids-onhover-overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+ .vjs-waiting .pbskids-onhover-overlay {
+  background: rgba(0,0,0,.25);
+}
+
+.pbskids-onhover-overlay .normal-screen-img,
+.pbskids-onhover-overlay .full-screen-img{
+  display: none;
+  top: 8px;
+  right: 8px;
+  position: absolute;
+  max-height: 100%;
+}
+
+.pbskids-onhover-overlay.has-touch .normal-screen-img,
+.vjs-user-active .pbskids-onhover-overlay .normal-screen-img{
+  display: block;
+}
+
+.vjs-fullscreen .pbskids-onhover-overlay .normal-screen-img{
+  display: none !important;
+}
+
+.vjs-fullscreen.vjs-user-active .pbskids-onhover-overlay .full-screen-img{
+  display: block;
+}
+
+/* Make sure the controls are stacked above the video. On older Android versions, this was a problem. */
+.vjs-control-bar,
+.vjs-modal-dialog,
+.vjs-loading-spinner,
+.vjs-big-play-button,
+.pbskids-onhover-overlay,
+.pbskids-captions-toggle-settings{
+  z-index: 1;
+}
+
+.pbskids-captions-toggle-settings{
+  display: none;
+}
+
+.pbskids-captions-showing .pbskids-captions-toggle-settings{
+  display: block;
+  position: absolute;
+  right: 2em;
+  bottom: 2em;
+  width: 73px;
+  height: 33px;
+  background: url("/pbsk/video/lib/assets/img/cc-settings-icon.png") no-repeat center center;
+  background-color: #333;
+  background-color: rgba(51,51,51,0.8);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pbskids-captions-showing.vjs-controls-enabled.vjs-user-active .pbskids-captions-toggle-settings,
+.pbskids-captions-showing.vjs-fullscreen .pbskids-captions-toggle-settings{
+  bottom: 5em;
+}
+
+
+/* In-Video-Game Overlay and Overrides
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin.pbskids-game-overlay{
+  display: none;
+}
+
+.pbskids-default-skin.pbskids-invideogame-active .pbskids-game-overlay{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* HIDE other overlays */
+.pbskids-default-skin.pbskids-invideogame-active .vjs-big-play-button,
+.pbskids-default-skin.pbskids-invideogame-active .pbskids-onhover-overlay{
+  display: none;
+}
+
+/* DISABLE seeking while displaying an ad */
+.pbskids-default-skin.pbskids-invideogame-active .vjs-progress-control {
+  pointer-events: none;
+}
+
+.pbskids-default-skin.pbskids-invideogame-active .vjs-play-progress {
+  background-color: #ffe400 !important;
+}
+
+/* HIDE videojs controls while is playing. Just in case, prevent pointer events.  */
+.pbskids-default-skin.pbskids-invideogame-active.vjs-fullscreen.vjs-controls-disabled .vjs-control-bar{
+  display: none;
+  pointer-events: none;
+}
+
+/* Some games may opt to shrink and move the video to a corner during gameplay */
+.pbskids-default-skin.pbskids-invideogame-active.video-top-left .vjs-tech,
+.pbskids-default-skin.pbskids-invideogame-active.video-top-right .vjs-tech,
+.pbskids-default-skin.pbskids-invideogame-active.video-bottom-left .vjs-tech,
+.pbskids-default-skin.pbskids-invideogame-active.video-bottom-right .vjs-tech{
+  width: 25% !important;
+  height: 25% !important;
+  /*z-index: 2;*/
+  border: 2px white solid;
+  -webkit-transition: all ease-out 0.5;
+  transition: all ease-out 0.5;
+}
+
+.pbskids-default-skin.pbskids-invideogame-active.video-top-right .vjs-tech{
+  left: auto !important;
+  right: 0 !important;
+}
+
+.pbskids-default-skin.pbskids-invideogame-active.video-bottom-left .vjs-tech{
+  top: auto !important;
+  bottom: 0 !important;
+}
+
+.pbskids-default-skin.pbskids-invideogame-active.video-bottom-right .vjs-tech{
+  top: auto !important;
+  bottom: 0 !important;
+  left: auto !important;
+  right: 0 !important;
+}
+
+
+/* Error Display
+--------------------------------------------------------------------------------
+*/
+.vjs-error-display {
+  display: none;
+}
+.vjs-error .vjs-error-display {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.vjs-error-display div {
+  background: none repeat scroll 0 0 #FFF;
+  border-radius: 22px;
+  color: #75c700;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 2em 5%;
+  left: 5%;
+  vertical-align: middle;
+  bottom: 5%;
+  position: absolute;
+  width: 80%;
+}
+.vjs-error-display a,
+.vjs-error-display a:visited {
+  color: #F4A460;
+}
+
+
+
+/* Menu Buttons (Captions/Subtitles/etc.)
+--------------------------------------------------------------------------------
+*/
+.pbskids-default-skin .vjs-menu-button {
+  cursor: pointer;
+}
+.pbskids-default-skin .vjs-subs-caps-button {
+  font-size: 20px;
+  line-height: 10px;
+  width: 40px;
+  z-index: 1;
+}
+.pbskids-default-skin .vjs-menu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0em;
+  /* (Width of vjs-menu - width of button) / 2 */
+
+  width: 0em;
+  height: 0em;
+  margin-bottom: 3em;
+  border-left: 2em solid transparent;
+  border-right: 2em solid transparent;
+  border-top: 1.55em solid #000000;
+  /* Same width top as ul bottom */
+
+  border-top-color: rgba(7, 40, 50, 0.5);
+  /* Same as ul background */
+
+}
+/* Button Pop-up Menu */
+.pbskids-default-skin .vjs-menu-button .vjs-menu .vjs-menu-content {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 10em;
+  bottom: 1.5em;
+  /* Same bottom as vjs-menu border-top */
+
+  max-height: 15em;
+  overflow: auto;
+  left: -2em;
+  /* Width of menu - width of button / 2 */
+
+  /* background-color-with-alpha */
+  background-color: #07141e;
+  /*background-color: rgba(7, 20, 30, 0.7);*/
+  /* box-shadow */
+  -webkit-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+  box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+}
+.pbskids-default-skin .vjs-menu-button:hover .vjs-control-content .vjs-menu,
+.pbskids-default-skin .vjs-control-content .vjs-menu.vjs-lock-showing {
+  display: block;
+}
+/* prevent menus from opening while scrubbing (FF, IE) */
+.pbskids-default-skin.vjs-scrubbing .vjs-menu-button:hover .vjs-control-content .vjs-menu {
+  display: none;
+}
+.pbskids-default-skin .vjs-menu-button ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0.3em 0 0.3em 0;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.pbskids-default-skin .vjs-menu-button ul li:focus,
+.pbskids-default-skin .vjs-menu-button ul li:hover{
+  background-color: #A2B0BB;
+  color: #222;
+}
+
+.pbskids-default-skin .vjs-menu-button ul li.vjs-selected {
+  color: #111;
+  /* background-color-with-alpha */
+  background-color: #ffffff;
+  /*background-color: rgba(255, 255, 255, 0.75);*/
+}
+.pbskids-default-skin .vjs-menu-button ul li.vjs-menu-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 0;
+  margin: 0 0 0.3em 0;
+  font-weight: bold;
+  cursor: default;
+}
+/* Subtitles Button */
+.pbskids-default-skin .vjs-subtitles-button:before {
+  content: "\e00c";
+}
+/* Captions Button */
+.pbskids-default-skin .vjs-captions-button:before {
+  content: "\e008";
+}
+/* Chapters Button */
+.pbskids-default-skin .vjs-chapters-button:before {
+  content: "\e00c";
+}
+.pbskids-default-skin .vjs-chapters-button.vjs-menu-button .vjs-menu .vjs-menu-content {
+  width: 24em;
+  left: -12em;
+}
+/* Replacement for focus outline */
+.pbskids-default-skin .vjs-captions-button:focus .vjs-control-content:before,
+.pbskids-default-skin .vjs-captions-button:hover .vjs-control-content:before {
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 1em #ffffff;
+  -moz-box-shadow: 0 0 1em #ffffff;
+  box-shadow: 0 0 1em #ffffff;
+}
+
+.pbskids-default-skin .vjs-captions-button .vjs-menu-item,
+.pbskids-default-skin .vjs-subtitles-button .vjs-menu-item {
+  height: 32px;
+  line-height: 32px;
+}
+.pbskids-default-skin .vjs-captions-button .vjs-menu-item.vjs-texttrack-settings{
+  display: none !important;
+}
+
+.pbskids-default-skin.vjs-paused .vjs-big-play-button { display: block; }
+
+/*
+REQUIRED STYLES (be careful overriding)
+================================================================================
+When loading the player, the video tag is replaced with a DIV,
+that will hold the video tag or object tag for other playback methods.
+The div contains the video playback element (Flash or HTML5) and controls,
+and sets the width and height of the video.
+
+** If you want to add some kind of border/padding (e.g. a frame), or special
+positioning, use another containing element. Otherwise you risk messing up
+control positioning and full window mode. **
+*/
+
+/* copied from https://vjs.zencdn.net/7.0.3/video-js.css */
+/* a few blocks have been commented out */
+
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before, .vjs-button > .vjs-icon-placeholder:before, .video-js .vjs-modal-dialog, .vjs-modal-dialog .vjs-modal-dialog-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before, .vjs-button > .vjs-icon-placeholder:before {
+  text-align: center; }
+
+@font-face {
+  font-family: VideoJS;
+  src: url(data:application/font-woff;charset=utf-8;base64,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) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.vjs-icon-play-circle {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-play-circle:before {
+    content: "\f102"; }
+
+.vjs-icon-square {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-square:before {
+    content: "\f10a"; }
+
+.vjs-icon-spinner {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-spinner:before {
+    content: "\f10b"; }
+
+.vjs-icon-subtitles, .video-js .vjs-subtitles-button .vjs-icon-placeholder, .video-js .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js.video-js:lang(en-GB) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js.video-js:lang(en-IE) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js.video-js:lang(en-AU) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js.video-js:lang(en-NZ) .vjs-subs-caps-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-subtitles:before, .video-js .vjs-subtitles-button .vjs-icon-placeholder:before, .video-js .vjs-subs-caps-button .vjs-icon-placeholder:before,
+  .video-js.video-js:lang(en-GB) .vjs-subs-caps-button .vjs-icon-placeholder:before,
+  .video-js.video-js:lang(en-IE) .vjs-subs-caps-button .vjs-icon-placeholder:before,
+  .video-js.video-js:lang(en-AU) .vjs-subs-caps-button .vjs-icon-placeholder:before,
+  .video-js.video-js:lang(en-NZ) .vjs-subs-caps-button .vjs-icon-placeholder:before {
+    content: "\f10c"; }
+
+.vjs-icon-captions, .video-js .vjs-captions-button .vjs-icon-placeholder, .video-js:lang(en) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-captions:before, .video-js .vjs-captions-button .vjs-icon-placeholder:before, .video-js:lang(en) .vjs-subs-caps-button .vjs-icon-placeholder:before,
+  .video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder:before {
+    content: "\f10d"; }
+
+.vjs-icon-chapters, .video-js .vjs-chapters-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-chapters:before, .video-js .vjs-chapters-button .vjs-icon-placeholder:before {
+    content: "\f10e"; }
+
+.vjs-icon-share {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-share:before {
+    content: "\f10f"; }
+
+.vjs-icon-cog {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-cog:before {
+    content: "\f110"; }
+
+.vjs-icon-circle, .video-js .vjs-play-progress, .video-js .vjs-volume-level {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-circle:before, .video-js .vjs-play-progress:before, .video-js .vjs-volume-level:before {
+    content: "\f111"; }
+
+.vjs-icon-circle-outline {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-circle-outline:before {
+    content: "\f112"; }
+
+.vjs-icon-circle-inner-circle {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-circle-inner-circle:before {
+    content: "\f113"; }
+
+.vjs-icon-hd {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-hd:before {
+    content: "\f114"; }
+
+.vjs-icon-cancel, .video-js .vjs-control.vjs-close-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-cancel:before, .video-js .vjs-control.vjs-close-button .vjs-icon-placeholder:before {
+    content: "\f115"; }
+
+.vjs-icon-replay, .video-js .vjs-play-control.vjs-ended .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-replay:before, .video-js .vjs-play-control.vjs-ended .vjs-icon-placeholder:before {
+    content: "\f116"; }
+
+.vjs-icon-facebook {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-facebook:before {
+    content: "\f117"; }
+
+.vjs-icon-gplus {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-gplus:before {
+    content: "\f118"; }
+
+.vjs-icon-linkedin {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-linkedin:before {
+    content: "\f119"; }
+
+.vjs-icon-twitter {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-twitter:before {
+    content: "\f11a"; }
+
+.vjs-icon-tumblr {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-tumblr:before {
+    content: "\f11b"; }
+
+.vjs-icon-pinterest {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-pinterest:before {
+    content: "\f11c"; }
+
+.vjs-icon-audio-description, .video-js .vjs-descriptions-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-audio-description:before, .video-js .vjs-descriptions-button .vjs-icon-placeholder:before {
+    content: "\f11d"; }
+
+.vjs-icon-audio, .video-js .vjs-audio-button .vjs-icon-placeholder {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-audio:before, .video-js .vjs-audio-button .vjs-icon-placeholder:before {
+    content: "\f11e"; }
+
+.vjs-icon-next-item {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-next-item:before {
+    content: "\f11f"; }
+
+.vjs-icon-previous-item {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-previous-item:before {
+    content: "\f120"; }
+
+.video-js {
+  display: block;
+  vertical-align: top;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  padding: 0;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  word-break: initial; }
+  .video-js:-moz-full-screen {
+    position: absolute; }
+  .video-js:-webkit-full-screen {
+    width: 100% !important;
+    height: 100% !important; }
+
+.video-js[tabindex="-1"] {
+  outline: none; }
+
+.video-js *,
+.video-js *:before,
+.video-js *:after {
+  box-sizing: inherit; }
+
+.video-js ul {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  list-style-position: outside;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.video-js.vjs-fluid,
+.video-js.vjs-16-9,
+.video-js.vjs-4-3 {
+  width: 100%;
+  max-width: 100%;
+  height: 0; }
+
+.video-js.vjs-16-9 {
+  padding-top: 56.25%; }
+
+.video-js.vjs-4-3 {
+  padding-top: 75%; }
+
+.video-js.vjs-fill {
+  width: 100%;
+  height: 100%; }
+
+.video-js .vjs-tech {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+body.vjs-full-window {
+  padding: 0;
+  margin: 0;
+  height: 100%; }
+
+.vjs-full-window .video-js.vjs-fullscreen {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0; }
+
+.video-js.vjs-fullscreen {
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 0 !important; }
+
+.video-js.vjs-fullscreen.vjs-user-inactive {
+  cursor: none; }
+
+.vjs-hidden {
+  display: none !important; }
+
+.vjs-disabled {
+  opacity: 0.5;
+  cursor: default; }
+
+.video-js .vjs-offscreen {
+  height: 1px;
+  left: -9999px;
+  position: absolute;
+  top: 0;
+  width: 1px; }
+
+.vjs-lock-showing {
+  display: block !important;
+  opacity: 1;
+  visibility: visible; }
+
+.vjs-no-js {
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  margin: 0px auto; }
+
+.vjs-no-js a,
+.vjs-no-js a:visited {
+  color: #66A8CC; }
+
+.video-js .vjs-button {
+  background: none;
+  border: none;
+  color: inherit;
+  display: inline-block;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  text-decoration: none;
+  transition: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.video-js .vjs-control.vjs-close-button {
+  cursor: pointer;
+  height: 3em;
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+  z-index: 2; }
+
+.video-js .vjs-modal-dialog {
+  background: rgba(0, 0, 0, 0.8);
+  background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+  overflow: auto; }
+
+.video-js .vjs-modal-dialog > * {
+  box-sizing: border-box; }
+
+.vjs-modal-dialog .vjs-modal-dialog-content {
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding: 20px 24px;
+  z-index: 1; }
+
+.vjs-menu-button {
+  cursor: pointer; }
+
+.vjs-menu-button.vjs-disabled {
+  cursor: default; }
+
+.vjs-workinghover .vjs-menu-button.vjs-disabled:hover .vjs-menu {
+  display: none; }
+
+.vjs-menu .vjs-menu-content {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto; }
+
+.vjs-menu .vjs-menu-content > * {
+  box-sizing: border-box; }
+
+.vjs-scrubbing .vjs-control.vjs-menu-button:hover .vjs-menu {
+  display: none; }
+
+.vjs-menu li {
+  list-style: none;
+  margin: 0;
+  padding: 0.2em 0;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: lowercase; }
+
+.vjs-menu li.vjs-menu-item:focus,
+.vjs-menu li.vjs-menu-item:hover {
+  background-color: #73859f;
+  background-color: rgba(115, 133, 159, 0.5); }
+
+.vjs-menu li.vjs-selected,
+.vjs-menu li.vjs-selected:focus,
+.vjs-menu li.vjs-selected:hover {
+  background-color: #fff;
+  color: #2B333F; }
+
+.vjs-menu li.vjs-menu-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 0;
+  margin: 0 0 0.3em 0;
+  font-weight: bold;
+  cursor: default; }
+
+.vjs-menu-button-popup .vjs-menu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 10em;
+  left: -3em;
+  height: 0em;
+  margin-bottom: 1.5em;
+  border-top-color: rgba(43, 51, 63, 0.7); }
+
+.vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+  background-color: #2B333F;
+  background-color: rgba(43, 51, 63, 0.7);
+  position: absolute;
+  width: 100%;
+  bottom: 1.5em;
+  max-height: 15em; }
+
+.vjs-workinghover .vjs-menu-button-popup:hover .vjs-menu,
+.vjs-menu-button-popup .vjs-menu.vjs-lock-showing {
+  display: block; }
+
+.video-js .vjs-menu-button-inline {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  overflow: hidden; }
+
+.video-js .vjs-menu-button-inline:before {
+  width: 2.222222222em; }
+
+.video-js .vjs-menu-button-inline:hover,
+.video-js .vjs-menu-button-inline:focus,
+.video-js .vjs-menu-button-inline.vjs-slider-active,
+.video-js.vjs-no-flex .vjs-menu-button-inline {
+  width: 12em; }
+
+.vjs-menu-button-inline .vjs-menu {
+  opacity: 0;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 4em;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s; }
+
+.vjs-menu-button-inline:hover .vjs-menu,
+.vjs-menu-button-inline:focus .vjs-menu,
+.vjs-menu-button-inline.vjs-slider-active .vjs-menu {
+  display: block;
+  opacity: 1; }
+
+.vjs-no-flex .vjs-menu-button-inline .vjs-menu {
+  display: block;
+  opacity: 1;
+  position: relative;
+  width: auto; }
+
+.vjs-no-flex .vjs-menu-button-inline:hover .vjs-menu,
+.vjs-no-flex .vjs-menu-button-inline:focus .vjs-menu,
+.vjs-no-flex .vjs-menu-button-inline.vjs-slider-active .vjs-menu {
+  width: auto; }
+
+.vjs-menu-button-inline .vjs-menu-content {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  overflow: hidden; }
+
+.video-js .vjs-control-bar {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.0em;
+  background-color: #2B333F;
+  background-color: rgba(43, 51, 63, 0.7); }
+
+.vjs-has-started .vjs-control-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  -moz-transition: visibility 0.1s, opacity 0.1s;
+  -ms-transition: visibility 0.1s, opacity 0.1s;
+  -o-transition: visibility 0.1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s; }
+
+.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  visibility: visible;
+  opacity: 0;
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -ms-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s; }
+
+.vjs-audio.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  opacity: 1;
+  visibility: visible; }
+
+.vjs-has-started.vjs-no-flex .vjs-control-bar {
+  display: table; }
+
+.video-js .vjs-control {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 4em;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.vjs-button > .vjs-icon-placeholder:before {
+  font-size: 1.8em;
+  line-height: 1.67; }
+
+.video-js .vjs-control:focus:before,
+.video-js .vjs-control:hover:before,
+.video-js .vjs-control:focus {
+  text-shadow: 0em 0em 1em white; }
+
+.video-js .vjs-control-text {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.vjs-no-flex .vjs-control {
+  display: table-cell;
+  vertical-align: middle; }
+
+.video-js .vjs-custom-control-spacer {
+  display: none; }
+
+.video-js .vjs-progress-control {
+  cursor: pointer;
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 4em; }
+
+.video-js .vjs-progress-control.disabled {
+  cursor: default; }
+
+.vjs-live .vjs-progress-control {
+  display: none; }
+
+.vjs-no-flex .vjs-progress-control {
+  width: auto; }
+
+.video-js .vjs-progress-holder {
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  height: 0.3em; }
+
+.video-js .vjs-progress-control .vjs-progress-holder {
+  margin: 0 10px; }
+
+.video-js .vjs-progress-control:hover .vjs-progress-holder {
+  font-size: 1.666666666666666666em; }
+
+.video-js .vjs-progress-control:hover .vjs-progress-holder.disabled {
+  font-size: 1em; }
+
+.video-js .vjs-progress-holder .vjs-play-progress,
+.video-js .vjs-progress-holder .vjs-load-progress,
+.video-js .vjs-progress-holder .vjs-load-progress div {
+  position: absolute;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 0; }
+
+.video-js .vjs-play-progress {
+  background-color: #fff; }
+  .video-js .vjs-play-progress:before {
+    font-size: 0.9em;
+    position: absolute;
+    right: -0.5em;
+    top: -0.333333333333333em;
+    z-index: 1; }
+
+.video-js .vjs-load-progress {
+  background: rgba(115, 133, 159, 0.5); }
+
+.video-js .vjs-load-progress div {
+  background: rgba(115, 133, 159, 0.75); }
+
+.video-js .vjs-time-tooltip {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  color: #000;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 6px 8px 8px 8px;
+  pointer-events: none;
+  position: relative;
+  top: -3.4em;
+  visibility: hidden;
+  z-index: 1; }
+
+.video-js .vjs-progress-holder:focus .vjs-time-tooltip {
+  display: none; }
+
+.video-js .vjs-progress-control:hover .vjs-time-tooltip,
+.video-js .vjs-progress-control:hover .vjs-progress-holder:focus .vjs-time-tooltip {
+  display: block;
+  font-size: 0.6em;
+  visibility: visible; }
+
+.video-js .vjs-progress-control.disabled:hover .vjs-time-tooltip {
+  font-size: 1em; }
+
+.video-js .vjs-progress-control .vjs-mouse-display {
+  display: none;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  z-index: 1; }
+
+.vjs-no-flex .vjs-progress-control .vjs-mouse-display {
+  z-index: 0; }
+
+.video-js .vjs-progress-control:hover .vjs-mouse-display {
+  display: block; }
+
+.video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -ms-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s; }
+
+.video-js.vjs-user-inactive.vjs-no-flex .vjs-progress-control .vjs-mouse-display {
+  display: none; }
+
+.vjs-mouse-display .vjs-time-tooltip {
+  color: #fff;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.video-js .vjs-slider {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 0.45em 0 0.45em;
+  /* iOS Safari */
+  -webkit-touch-callout: none;
+  /* Safari */
+  -webkit-user-select: none;
+  /* Konqueror HTML */
+  -khtml-user-select: none;
+  /* Firefox */
+  -moz-user-select: none;
+  /* Internet Explorer/Edge */
+  -ms-user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+  user-select: none;
+  background-color: #73859f;
+  background-color: rgba(115, 133, 159, 0.5); }
+
+.video-js .vjs-slider.disabled {
+  cursor: default; }
+
+.video-js .vjs-slider:focus {
+  text-shadow: 0em 0em 1em white;
+  -webkit-box-shadow: 0 0 1em #fff;
+  -moz-box-shadow: 0 0 1em #fff;
+  box-shadow: 0 0 1em #fff; }
+
+.video-js .vjs-mute-control {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.video-js .vjs-volume-control {
+  cursor: pointer;
+  margin-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.video-js .vjs-volume-control.vjs-volume-horizontal {
+  width: 5em; }
+
+.video-js .vjs-volume-panel .vjs-volume-control {
+  visibility: visible;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin-left: -1px; }
+
+.video-js .vjs-volume-panel {
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -ms-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s; }
+  .video-js .vjs-volume-panel:hover .vjs-volume-control,
+  .video-js .vjs-volume-panel:active .vjs-volume-control,
+  .video-js .vjs-volume-panel:focus .vjs-volume-control,
+  .video-js .vjs-volume-panel .vjs-volume-control:hover,
+  .video-js .vjs-volume-panel .vjs-volume-control:active,
+  .video-js .vjs-volume-panel .vjs-mute-control:hover ~ .vjs-volume-control,
+  .video-js .vjs-volume-panel .vjs-volume-control.vjs-slider-active {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    -webkit-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+    -moz-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+    -ms-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+    -o-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
+    transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s; }
+    .video-js .vjs-volume-panel:hover .vjs-volume-control.vjs-volume-horizontal,
+    .video-js .vjs-volume-panel:active .vjs-volume-control.vjs-volume-horizontal,
+    .video-js .vjs-volume-panel:focus .vjs-volume-control.vjs-volume-horizontal,
+    .video-js .vjs-volume-panel .vjs-volume-control:hover.vjs-volume-horizontal,
+    .video-js .vjs-volume-panel .vjs-volume-control:active.vjs-volume-horizontal,
+    .video-js .vjs-volume-panel .vjs-mute-control:hover ~ .vjs-volume-control.vjs-volume-horizontal,
+    .video-js .vjs-volume-panel .vjs-volume-control.vjs-slider-active.vjs-volume-horizontal {
+      width: 5em;
+      height: 3em; }
+  .video-js .vjs-volume-panel.vjs-volume-panel-horizontal:hover, .video-js .vjs-volume-panel.vjs-volume-panel-horizontal:active, .video-js .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-slider-active {
+    width: 9em;
+    -webkit-transition: width 0.1s;
+    -moz-transition: width 0.1s;
+    -ms-transition: width 0.1s;
+    -o-transition: width 0.1s;
+    transition: width 0.1s; }
+
+.video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-vertical {
+  height: 8em;
+  width: 3em;
+  left: -3.5em;
+  -webkit-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+  -moz-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+  -ms-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+  -o-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
+  transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s; }
+
+.video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal {
+  -webkit-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+  -moz-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+  -ms-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+  -o-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+  transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s; }
+
+.video-js.vjs-no-flex .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal {
+  width: 5em;
+  height: 3em;
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none; }
+
+.video-js.vjs-no-flex .vjs-volume-control.vjs-volume-vertical,
+.video-js.vjs-no-flex .vjs-volume-panel .vjs-volume-control.vjs-volume-vertical {
+  position: absolute;
+  bottom: 3em;
+  left: 0.5em; }
+
+.video-js .vjs-volume-panel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.video-js .vjs-volume-bar {
+  margin: 1.35em 0.45em; }
+
+.vjs-volume-bar.vjs-slider-horizontal {
+  width: 5em;
+  height: 0.3em; }
+
+.vjs-volume-bar.vjs-slider-vertical {
+  width: 0.3em;
+  height: 5em;
+  margin: 1.35em auto; }
+
+.video-js .vjs-volume-level {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff; }
+  .video-js .vjs-volume-level:before {
+    position: absolute;
+    font-size: 0.9em; }
+
+.vjs-slider-vertical .vjs-volume-level {
+  width: 0.3em; }
+  .vjs-slider-vertical .vjs-volume-level:before {
+    top: -0.5em;
+    left: -0.3em; }
+
+.vjs-slider-horizontal .vjs-volume-level {
+  height: 0.3em; }
+  .vjs-slider-horizontal .vjs-volume-level:before {
+    top: -0.3em;
+    right: -0.5em; }
+
+.video-js .vjs-volume-panel.vjs-volume-panel-vertical {
+  width: 4em; }
+
+.vjs-volume-bar.vjs-slider-vertical .vjs-volume-level {
+  height: 100%; }
+
+.vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level {
+  width: 100%; }
+
+.video-js .vjs-volume-vertical {
+  width: 3em;
+  height: 8em;
+  bottom: 8em;
+  background-color: #2B333F;
+  background-color: rgba(43, 51, 63, 0.7); }
+
+.video-js .vjs-volume-horizontal .vjs-menu {
+  left: -2em; }
+
+.vjs-poster {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-color: #000000;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%; }
+
+.vjs-has-started .vjs-poster {
+  display: none; }
+
+.vjs-audio.vjs-has-started .vjs-poster {
+  display: block; }
+
+.vjs-using-native-controls .vjs-poster {
+  display: none; }
+
+.video-js .vjs-live-control {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  font-size: 1em;
+  line-height: 3em; }
+
+.vjs-no-flex .vjs-live-control {
+  display: table-cell;
+  width: auto;
+  text-align: left; }
+
+.video-js .vjs-time-control {
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  font-size: 1em;
+  line-height: 3em;
+  min-width: 2em;
+  width: auto;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.vjs-live .vjs-time-control {
+  display: none; }
+
+.video-js .vjs-current-time,
+.vjs-no-flex .vjs-current-time {
+  display: none; }
+
+.video-js .vjs-duration,
+.vjs-no-flex .vjs-duration {
+  display: none; }
+
+.vjs-time-divider {
+  display: none;
+  line-height: 3em; }
+
+.vjs-live .vjs-time-divider {
+  display: none; }
+
+.video-js .vjs-play-control .vjs-icon-placeholder {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.vjs-text-track-display {
+  position: absolute;
+  bottom: 3em;
+  left: 0;
+  right: 0;
+  top: 0;
+  pointer-events: none; }
+
+.video-js.vjs-user-inactive.vjs-playing .vjs-text-track-display {
+  bottom: 1em; }
+
+.video-js .vjs-text-track {
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 0.1em; }
+
+.vjs-subtitles {
+  color: #fff; }
+
+.vjs-captions {
+  color: #fc6; }
+
+.vjs-tt-cue {
+  display: block; }
+
+video::-webkit-media-text-track-display {
+  -moz-transform: translateY(-3em);
+  -ms-transform: translateY(-3em);
+  -o-transform: translateY(-3em);
+  -webkit-transform: translateY(-3em);
+  transform: translateY(-3em); }
+
+.video-js.vjs-user-inactive.vjs-playing video::-webkit-media-text-track-display {
+  -moz-transform: translateY(-1.5em);
+  -ms-transform: translateY(-1.5em);
+  -o-transform: translateY(-1.5em);
+  -webkit-transform: translateY(-1.5em);
+  transform: translateY(-1.5em); }
+
+.video-js .vjs-fullscreen-control {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.vjs-playback-rate > .vjs-menu-button,
+.vjs-playback-rate .vjs-playback-rate-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.vjs-playback-rate .vjs-playback-rate-value {
+  pointer-events: none;
+  font-size: 1.5em;
+  line-height: 2;
+  text-align: center; }
+
+.vjs-playback-rate .vjs-menu {
+  width: 4em;
+  left: 0em; }
+
+.vjs-error .vjs-error-display .vjs-modal-dialog-content {
+  font-size: 1.4em;
+  text-align: center; }
+
+.vjs-error .vjs-error-display:before {
+  color: #fff;
+  content: 'X';
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  left: 0;
+  line-height: 1;
+  margin-top: -0.5em;
+  position: absolute;
+  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-align: center;
+  top: 50%;
+  vertical-align: middle;
+  width: 100%; }
+
+.vjs-loading-spinner {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  opacity: 0.85;
+  text-align: left;
+  border: 6px solid rgba(43, 51, 63, 0.7);
+  box-sizing: border-box;
+  background-clip: padding-box;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  visibility: hidden; }
+
+.vjs-seeking .vjs-loading-spinner,
+.vjs-waiting .vjs-loading-spinner {
+  display: block;
+  animation: 0s linear 0.3s forwards vjs-spinner-show; }
+
+@keyframes vjs-spinner-show {
+  to {
+    visibility: visible; } }
+
+@-webkit-keyframes vjs-spinner-show {
+  to {
+    visibility: visible; } }
+
+@keyframes vjs-spinner-spin {
+  100% {
+    transform: rotate(360deg); } }
+
+/*@-webkit-keyframes vjs-spinner-spin {
+  100% {
+    -webkit-transform: rotate(360deg); } }*/
+
+@keyframes vjs-spinner-fade {
+  0% {
+    border-top-color: #73859f; }
+  20% {
+    border-top-color: #73859f; }
+  35% {
+    border-top-color: white; }
+  60% {
+    border-top-color: #73859f; }
+  100% {
+    border-top-color: #73859f; } }
+
+@-webkit-keyframes vjs-spinner-fade {
+  0% {
+    border-top-color: #73859f; }
+  20% {
+    border-top-color: #73859f; }
+  35% {
+    border-top-color: white; }
+  60% {
+    border-top-color: #73859f; }
+  100% {
+    border-top-color: #73859f; } }
+
+.vjs-chapters-button .vjs-menu ul {
+  width: 24em; }
+
+.video-js .vjs-subs-caps-button + .vjs-menu .vjs-captions-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
+  position: absolute; }
+
+.video-js .vjs-subs-caps-button + .vjs-menu .vjs-captions-menu-item .vjs-menu-item-text .vjs-icon-placeholder:before {
+  font-family: VideoJS;
+  content: "\f10d";
+  font-size: 1.5em;
+  line-height: inherit; }
+
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-custom-control-spacer {
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto; }
+
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen).vjs-no-flex .vjs-custom-control-spacer {
+  width: auto; }
+
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-playback-rate, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-progress-control,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-volume-control,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-descriptions-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-subtitles-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-audio-button {
+  display: none; }
+
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-playback-rate,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-control,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-descriptions-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-subtitles-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-audio-button {
+  display: none; }
+
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-playback-rate,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-volume-control,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-descriptions-button, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-subtitles-button .vjs-audio-button {
+  display: none; }
+
+
+.vjs-modal-dialog.vjs-text-track-settings {
+  background-color: #2B333F;
+  background-color: rgba(43, 51, 63, 0.75);
+  color: #fff;
+  height: 70%; }
+
+.vjs-text-track-settings .vjs-modal-dialog-content {
+  display: table; }
+
+.vjs-text-track-settings .vjs-track-settings-colors,
+.vjs-text-track-settings .vjs-track-settings-font,
+.vjs-text-track-settings .vjs-track-settings-controls {
+  display: table-cell; }
+
+.vjs-text-track-settings .vjs-track-settings-controls {
+  text-align: right;
+  vertical-align: bottom; }
+
+@supports (display: grid) {
+  .vjs-text-track-settings .vjs-modal-dialog-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto; }
+  .vjs-text-track-settings .vjs-track-settings-colors {
+    display: block;
+    grid-column: 1;
+    grid-row: 1; }
+  .vjs-text-track-settings .vjs-track-settings-font {
+    grid-column: 2;
+    grid-row: 1; }
+  .vjs-text-track-settings .vjs-track-settings-controls {
+    grid-column: 2;
+    grid-row: 2; } }
+
+.vjs-track-setting > select {
+  margin-right: 5px; }
+
+.vjs-text-track-settings fieldset {
+  margin: 5px;
+  padding: 3px;
+  border: none; }
+
+.vjs-text-track-settings fieldset span {
+  display: inline-block; }
+
+.vjs-text-track-settings legend {
+  color: #fff;
+  margin: 0 0 5px 0; }
+
+.vjs-text-track-settings .vjs-label {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+
+/*.vjs-track-settings-controls button:focus,
+.vjs-track-settings-controls button:active {
+  outline-style: solid;
+  outline-width: medium;
+  background-image: linear-gradient(0deg, #fff 88%, #73859f 100%); }
+
+.vjs-track-settings-controls button:hover {
+  color: rgba(43, 51, 63, 0.75); }
+
+.vjs-track-settings-controls button {
+  background-color: #fff;
+  background-image: linear-gradient(-180deg, #fff 88%, #73859f 100%);
+  color: #2B333F;
+  cursor: pointer;
+  border-radius: 2px; }
+
+.vjs-track-settings-controls .vjs-default-button {
+  margin-right: 1em; }*/
+
+@media print {
+  .video-js > *:not(.vjs-tech):not(.vjs-poster) {
+    visibility: hidden; } }
+
+.vjs-resize-manager {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  visibility: hidden; }

@@ -1,0 +1,178 @@
+{% extends 'lunchlab/includes/lunchLabPage.html.twig' %}
+{% set pageTitle = 'Don\'t Forget the Nuts . Music' %}
+
+
+{% block mainContent %}<div id="containerContainer">
+ <div id="pageLoader"></div>
+ <div class="clearfix contentContainer">
+  <div id="content" class="clearfix">
+   <div class="frame">
+    <div class="topRightCorner"></div>
+    <div class="topLeftCorner"></div>
+    <div class="bottomRightCorner"></div>
+    <div class="bottomLeftCorner"></div>
+    <div class="topBar"></div>
+    <div class="bottomBar"></div>
+    <div class="leftBar"></div>
+    <div class="rightBar"></div>
+    <div id="songInfo" class="clearfix">
+     <img class="songThumb" id="songThumb" src="http://pbskids.org/lunchlab/assets/music/forget-nuts-thumb.jpg"><a id="videoButton" class="button major" data-id="78" data-href="/lunchlab/videos/video/freezer-burn-dont-forget-the-nuts">Watch Video</a>
+     <h1 id="songName">Don't Forget the Nuts</h1><img src="http://pbskids.org/lunchlab/assets/images/music/PopsSmall.png?v=3" id="berryPops"><img src="http://pbskids.org/lunchlab/assets/images/music/BananaSmall.png?v=3" id="banana"><img src="http://pbskids.org/lunchlab/assets/images/music/PeasSmall.png?v=3" id="peas">
+    </div>
+    <div class="musicPlayer" id="musicPlayer">
+     <audio id="audio"><source id="ogg" src="http://pbskids.org/lunchlab/assets/music/forget-nuts.ogg?v=3" type="audio/ogg; codecs=vorbis"> <source id="mp3" src="http://pbskids.org/lunchlab/assets/music/forget-nuts.mp3?v=3" type="audio/mp3">This browser is not supported.
+     </audio><button id="prevButton"><span class="icon-previous"></span></button><button id="playButton" class="paused"><span class="icon-play"></span><span class="icon-pause"></span></button>
+     <div id="seeker">
+      <div id="bar">
+       <div id="played"></div>
+       <div id="playHead"></div>
+      </div>
+     </div><button id="nextButton"><span class="icon-next"></span></button>
+    </div>
+    <ul id="tracks" class="clearfix tracks" data-selected="forget-nuts">
+     <li data-id="music/forget-nuts" data-trackid="20" class="selected"><a href="/lunchlab/music/forget-nuts" data-mp3="http://pbskids.org/lunchlab/assets/music/forget-nuts.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/forget-nuts.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/forget-nuts-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Don't Forget the Nuts
+       </div></a></li>
+     <li data-id="music/food-rainbow" data-trackid="19"><a href="/lunchlab/music/food-rainbow" data-mp3="http://pbskids.org/lunchlab/assets/music/food-rainbow.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/food-rainbow.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/food-rainbow-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Food Rainbow
+       </div></a></li>
+     <li data-id="music/seven-seas" data-trackid="18"><a href="/lunchlab/music/seven-seas" data-mp3="http://pbskids.org/lunchlab/assets/music/seven-seas.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/seven-seas.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/seven-seas-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Feast of the Seven Seas
+       </div></a></li>
+     <li data-id="music/ballad-fiber" data-trackid="15"><a href="/lunchlab/music/ballad-fiber" data-mp3="http://pbskids.org/lunchlab/assets/music/ballad-fiber.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/ballad-fiber.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/ballad-fiber-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Ballad of Fiber
+       </div></a></li>
+     <li data-id="music/calcium" data-trackid="16"><a href="/lunchlab/music/calcium" data-mp3="http://pbskids.org/lunchlab/assets/music/calcium.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/calcium.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/calcium-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Calcium Yum Yum
+       </div></a></li>
+     <li data-id="music/grow-tomato" data-trackid="17"><a href="/lunchlab/music/grow-tomato" data-mp3="http://pbskids.org/lunchlab/assets/music/grow-tomato.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/grow-tomato.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/grow-tomato-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Grow a Tomato
+       </div></a></li>
+     <li data-id="music/sodium" data-trackid="14"><a href="/lunchlab/music/sodium" data-mp3="http://pbskids.org/lunchlab/assets/music/sodium.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/sodium.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/sodium-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Watch Out For Sodium
+       </div></a></li>
+     <li data-id="music/many-foods" data-trackid="13"><a href="/lunchlab/music/many-foods" data-mp3="http://pbskids.org/lunchlab/assets/music/many-foods.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/many-foods.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/many-foods-thumb.png?v=3">
+       </div>
+       <div class="name">
+        So Many Foods
+       </div></a></li>
+     <li data-id="music/tummy-blues" data-trackid="12"><a href="/lunchlab/music/tummy-blues" data-mp3="http://pbskids.org/lunchlab/assets/music/tummy-blues.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/tummy-blues.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/tummy-blues-thumb.png?v=3">
+       </div>
+       <div class="name">
+        Stuffed Tummy Blues
+       </div></a></li>
+     <li data-id="music/halloween" data-trackid="11"><a href="/lunchlab/music/halloween" data-mp3="http://pbskids.org/lunchlab/assets/music/halloween.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/halloween.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/halloween-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Don't Trick Your Stomach
+       </div></a></li>
+     <li data-id="music/exercise" data-trackid="1"><a href="/lunchlab/music/exercise" data-mp3="http://pbskids.org/lunchlab/assets/music/exercise.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/exercise.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/exercise-thumb.png?v=3">
+       </div>
+       <div class="name">
+        Exercise!
+       </div></a></li>
+     <li data-id="music/fruit" data-trackid="2"><a href="/lunchlab/music/fruit" data-mp3="http://pbskids.org/lunchlab/assets/music/fruit.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/fruit.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/fruit-thumb.png?v=3">
+       </div>
+       <div class="name">
+        Fruit is Nature's Candy
+       </div></a></li>
+     <li data-id="music/heart" data-trackid="3"><a href="/lunchlab/music/heart" data-mp3="http://pbskids.org/lunchlab/assets/music/heart.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/heart.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/heart-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Give Your Heart a Valentine
+       </div></a></li>
+     <li data-id="music/hydration" data-trackid="5"><a href="/lunchlab/music/hydration" data-mp3="http://pbskids.org/lunchlab/assets/music/hydration.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/hydration.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/hydration-thumb.png?v=3">
+       </div>
+       <div class="name">
+        Hydration Nation
+       </div></a></li>
+     <li data-id="music/holiday" data-trackid="4"><a href="/lunchlab/music/holiday" data-mp3="http://pbskids.org/lunchlab/assets/music/holiday.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/holiday.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/holiday-thumb.png?v=3">
+       </div>
+       <div class="name">
+        Holiday Food
+       </div></a></li>
+     <li data-id="music/veggies" data-trackid="6"><a href="/lunchlab/music/veggies" data-mp3="http://pbskids.org/lunchlab/assets/music/veggies.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/veggies.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/veggies-thumb.png?v=3">
+       </div>
+       <div class="name">
+        Veggie Fever
+       </div></a></li>
+     <li data-id="music/wheat" data-trackid="7"><a href="/lunchlab/music/wheat" data-mp3="http://pbskids.org/lunchlab/assets/music/wheat.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/wheat.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/wheat-thumb.png?v=3">
+       </div>
+       <div class="name">
+        Wheat is Sweet
+       </div></a></li>
+     <li data-id="music/lunch-lab" data-trackid="8"><a href="/lunchlab/music/lunch-lab" data-mp3="http://pbskids.org/lunchlab/assets/music/lunch-lab.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/lunch-lab.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/lunch-lab-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Lunch Lab Theme
+       </div></a></li>
+     <li data-id="music/freddy" data-trackid="9"><a href="/lunchlab/music/freddy" data-mp3="http://pbskids.org/lunchlab/assets/music/freddy.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/freddy.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/freddy-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Fast Food Freddy Theme
+       </div></a></li>
+     <li data-id="music/corporal" data-trackid="10"><a href="/lunchlab/music/corporal" data-mp3="http://pbskids.org/lunchlab/assets/music/corporal.mp3?v=3" data-ogg="http://pbskids.org/lunchlab/assets/music/corporal.ogg?v=3" class="songLink">
+       <div class="image">
+        <img src="http://pbskids.org/lunchlab/assets/music/corporal-thumb.jpg?v=3">
+       </div>
+       <div class="name">
+        Corporal Cup Theme
+       </div></a></li>
+    </ul>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+

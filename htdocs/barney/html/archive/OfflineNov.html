@@ -1,0 +1,133 @@
+<HTML>
+
+        <head>
+                <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+                <meta name="generator" content="GoLive CyberStudio 3">
+                <title>Offline Activities</title>
+                <csscriptdict>
+                        <script><!--
+function CSScriptInit() {
+CSILoad('button',new Array(/*URL*/'../images/PlayA.gif',/*URL*/'../images/PlayB.gif',/*URL*/'',''));
+CSILoad('button2',new Array(/*URL*/'../images/AboutA.gif',/*URL*/'../images/AboutB.gif',/*URL*/'',''));
+CSILoad('button4',new Array(/*URL*/'../images/TVA.gif',/*URL*/'../images/TVB.gif',/*URL*/'',''));
+CSILoad('button5',new Array(/*URL*/'../images/BackA.gif',/*URL*/'../images/BackB.gif',/*URL*/'',''));
+}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+        var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+        if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+                elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+        return elem;
+}
+function CSButtonReturn () {
+        var bAgent = window.navigator.userAgent; 
+        var bAppName = window.navigator.appName;
+        if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+                return false; // follow link
+        else return true; // follow link
+}
+CSIm = new Object();
+function CSIShow(n,i) {
+        if (document.images) {
+                if (CSIm[n]) {
+                        var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+                        if (img) {img.src = CSIm[n][i].src; self.status = CSIm[n][3];}
+                        return true;
+                }
+        }
+        return false;
+}
+function CSILoad(im,ar) {
+        if (document.images) {
+                CSIm[im] = new Object();
+                for (var i=0;i<3;i++) {
+                        if (ar[i] != '') { CSIm[im][i] = new Image(); CSIm[im][i].src = ar[i]; }
+                        else CSIm[im][i] = 0;
+                }
+                CSIm[im][3] = ar[3];
+        }
+}
+
+// --></script>
+                </csscriptdict>
+        </head>
+
+        <body background="../images/OctBkgrd.gif" bgcolor="#ffdba1" onload="CSScriptInit();">
+                <center>
+                        <a href="../index.html"><img height="60" width="176" src="../images/BFLogo.gif" border="0"></a><csobj w="58" h="60" t="Button" ht="../images/PlayB.gif"><a href="games.html" onmouseover="return CSIShow('button',1)" onmouseout="return CSIShow('button',0)" onclick="return CSButtonReturn()"><img src="../images/PlayA.gif" width="58" height="60" name="button" border="0"></a></csobj><csobj w="57" h="60" t="Button" ht="../images/AboutB.gif"><a href="About.html" onmouseover="return CSIShow('button2',1)" onmouseout="return CSIShow('button2',0)" onclick="return CSButtonReturn()"><img src="../images/AboutA.gif" width="57" height="60" name="button2" border="0"></a></csobj><img height="60" width="57" src="../images/CaregiverA.gif" border="0"><csobj w="57" h="60" t="Button" ht="../images/TVB.gif"><a href="/cgi-registry/in_your_town/router.cgi?nola=BAFR&program=barney" onmouseover="return CSIShow('button4',1)" onmouseout="return CSIShow('button4',0)" onclick="return CSButtonReturn()"><img src="../images/TVA.gif" width="57" height="60" name="button4" border="0"></a></csobj><csobj w="57" h="60" t="Button" ht="../images/BackB.gif"><a href="../index.html" onmouseover="return CSIShow('button5',1)" onmouseout="return CSIShow('button5',0)" onclick="return CSButtonReturn()"><img src="../images/BackA.gif" width="57" height="60" name="button5" border="0"></a></csobj><a href="http://pbskids.org"><img height="60" width="58" src="../images/PBSKids.gif" border="0"></a>
+
+<table cool width="523" height="1319" border="0" cellpadding="0" cellspacing="0" gridx="16" showgridx gridy="16" showgridy bgcolor="white">
+                                <tr height="9">
+                                        <td width="1" height="9"><spacer type="block" width="1" height="9"></td>
+                                        <td width="2" height="9"><spacer type="block" width="2" height="9"></td>
+                                        <td width="247" height="72" colspan="2" rowspan="2" valign="top" align="left" xpos="2"><img height="72" width="189" src="../images/CaregiverTry3.gif"></td>
+                                        <td width="214" height="9"><spacer type="block" width="214" height="9"></td>
+                                        <td width="57" height="9"><spacer type="block" width="57" height="9"></td>
+                                </tr>
+                                <tr height="63">
+                                        <td width="1" height="63"><spacer type="block" width="1" height="63"></td>
+                                        <td width="2" height="63"><spacer type="block" width="2" height="63"></td>
+                                        <td width="214" height="63" colspan="1" rowspan="1" valign="top" align="left" xpos="249" content csheight="60">
+                                                <a href="NovemberFun.html"><font face="Verdana" size="2" color="#669900">November Fun<br>
+                                                </font></a><a href="LessonPlans.html"><font face="Verdana" size="2" color="#669900">Lesson Plans<br>
+                                                </font></a><a href="MostWeb.html"><font face="Verdana" size="2" color="#669900">Getting the most from the Web<br>
+                                                </font></a><a href="Offline.html"><font face="Verdana" size="2" color="#669900">Offline Activities</font></a></td>
+                                        <td width="57" height="63"><spacer type="block" width="57" height="63"></td>
+                                </tr>
+                                <tr height="1242">
+                                        <td width="1" height="1242"><spacer type="block" width="1" height="1242"></td>
+                                        <td width="2" height="1242"><spacer type="block" width="2" height="1242"></td>
+                                        
+                                        <td width="499" height="1242" colspan="4" rowspan="1" valign="top" align="left" xpos="21">
+<table ALIGN="LEFT" border="0" cellpadding="0" cellspacing="0" frame width="480">
+							<tr>
+								<td><BLOCKQUOTE><font face="Verdana"><b>Off line activities</b></font> 
+
+									</font><BR><font size="2" face="Verdana"><b>November<P>
+									</b>
+									<B>Fun with leaves!</B>
+									<BR>Autumn brings with it many changes.  The most visible of all changes is the colorful autumn leaves.  When green leaves change to red, orange, yellow, and brown, it is obvious to the very youngest child that fall is in the air.  To celebrate the changing leaves and the season of autumn, we hope you and your child will enjoy these fun and easy activities.
+									<P><B>Fall wreath</B>
+									<BR>Collect several large paper grocery bags.  Cut out the bottom and down one side of each bag.  Thoroughly wet the paper bags and crumple them.  Spread them flat to dry.  After they have dried, cut leaf shapes out of the papers, and then sponge-paint the leaves in fall colors.  When the paint is dry, arrange the leaves on a circular piece of construction paper.  Hang it as a welcome sign for all visitors!
+									<P><B>Leaf card game</B>
+									<BR>Go outside and collect five pairs of matching leaves and one leaf that doesn't match at all.  Press the leaves by laying them between paper towels and stacking books on top.  In a few days, the leaves should be ready to glue onto index cards.  Use the cards to play a variation of "Old Maid."  Pass out the cards so they are divided among all the players.  In turn, each player picks a card from the person on the left and then lays down any matching pair.  Continue until all the pairs are matched.  Whoever is left holding the odd leaf wins.
+									<P><B>Leaf centerpiece</B>
+									<BR>Make a centerpiece out of autumn leaves.  Collect leaves of all shapes and sizes.  Stick leaves, pine cones, and sticks into a lump of clay.  When finished, place the centerpiece on the table.  It will be a nice addition to the dinner table.
+									<P><B>Leaf blowing</B>
+									<BR>Go outside with your child and choose a leaf.  Tilt your heads back, holding the leaves just above your mouths and puff as hard as you can.  See how long you and your child can keep the leaves floating before they hit the ground.
+									<P><B>Leaf critters</B>
+									<BR>Gather leaves of all sizes, shapes and colors.  Glue them onto a piece of colored paper.  Encourage your child to use his/her imagination to make the leaves into people, animals, or anything!  Next, have your child draw a design or picture around the leaf creature.  Ask your child to tell you about his/her picture.  Does the creature have a name?  What does it eat?
+									<P><B>Leaf comparison</B>
+									<BR>After collecting leaves outside, compare and sort them by looking at their colors and shapes.  How many leaves are red?  Orange?  Brown?  Yellow?
+									<P><B>Leaf mosaics</B>
+									<BR>Crumple dry, colorful leaves into small pieces and glue them onto paper in mosaic patterns.  
+									<P><B>Leaf crowns</B>
+									<BR>Cut a piece of construction paper so that it is about four inches tall and long enough to fit around your child's head.  Help your child glue autumn leaves onto the construction paper.  When the glue is dry, tape the construction paper in a circle so that it will fit on your child.  Your child will have fun wearing this leaf crown! 
+									<P><B>Leaf dance</B>
+									<BR>When walking through a park or the woods on an autumn day, notice how the leaves fall.  Do they fall straight down, or do they twirl?  Encourage your child to imitate a falling leaf.  
+									<P><CENTER><HR WIDTH="200"></CENTER><P>
+									<B>Barney Says: Take a couple of minutes to talk to your child about autumn.  Tell me what you know about autumn.</B><UL><LI>What are some of the colors of autumn?<LI>Look at a tree where the leaves are changing color.<LI>How many different colored leaves can you find?<LI>Why do people wear warmer clothes in autumn?</UL>
+									<P><CENTER><HR WIDTH="200"></CENTER><P>
+									<B>Good books to read: Children enjoy the special time you spend reading to them-snuggle up with your child and read!</B><br>
+									<br>
+									<I>1,2,3 Thanksgiving!</I> by W. Nikola-Lisa, Whitman. A counting book illustrates the numbers 1 through 10 with scenes of the Thanksgiving holiday.<br>
+									<br>
+									<I>Barney's Thanksgiving</I> by Stephen White, Barney Publishing. Barney, BJ and Baby Bop work together to prepare a special Thanksgiving feast to share with all their friends.<br>
+									<br>
+									<I>Hard Scrabble Harvest</I> by Dahlov Ipcar, Doubleday. Verse and humorous pictures describe the yearlong efforts that go into making a bountiful harvest. <br>
+									<br>
+									<I>Red Leaf, Yellow Leaf</I> by Lois Ehlert, Harcourt, Brace, Jovanovich. Colorful illustrations tell the story of a maple tree throughout the year.<br>
+									<br>
+									<I>Thanksgiving Day</I> by Gail Gibbons, Holiday House. The origins, traditions, and contemporary celebrations of Thanksgiving are simplified for a young audience.</font></p>
+									<P><BR><BR></BLOCKQUOTE>
+								</td>
+							</tr>
+						</table></td>
+				</tr>
+			</table><img height="17" width="520" src="../images/Bottom.gif"></center>
+	</body>
+
+</html>

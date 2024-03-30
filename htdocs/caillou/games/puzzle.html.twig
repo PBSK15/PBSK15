@@ -1,0 +1,103 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Games . Puzzle Game . Intro' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script language="JavaScript">	function setLoaded( )	{		isLoaded = true;	}</script>
+<script type="text/javascript">	var isRolloverOn = false;	if (document.images)	{		games_on = new Image( );		games_on.src = "images/Master_btn_games-over.gif";		games_off = new Image( );	 		games_off.src = "images/Master_btn_games.gif"; 				coloring_on = new Image( );		coloring_on.src = "images/Master_btn_coloring-over.gif";		coloring_off = new Image( );		coloring_off.src = "images/Master_btn_coloring.gif";			greetings_on = new Image( );		greetings_on.src = "images/Master_btn_greetings-over.gif";		greetings_off = new Image( );		greetings_off.src = "images/Master_btn_greetings.gif";				caillouhome_on = new Image( );		caillouhome_on.src = "images/Master_caillou-over.gif";		caillouhome_off = new Image( );		caillouhome_off.src = "images/Master_caillou.gif";			back_on = new Image( );		back_on.src = "images/Master_back-over.gif";		back_off = new Image( );		back_off.src = "images/Master_back.gif";			play_on = new Image( );		play_on.src = "puzzle/images/puzzle_play-over.gif";		play_off = new Image( );		play_off.src = "puzzle/images/puzzle_play.gif";			flashplayer_on = new Image( );		flashplayer_on.src = "puzzle/images/puzzle_flashplayer-over.gif";		flashplayer_off = new Image( );		flashplayer_off.src = "puzzle/images/puzzle_flashplayer.gif";			}	          function act(imgName)        {			if( document.images )				document[imgName].src = eval( imgName + '_on.src' );        }	  		function inact(imgName)		{			if( document.images )				document[imgName].src = eval(imgName + '_off.src');  		}</script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="setLoaded();" background="images/bkg_blue-bfly2.gif" text="black" link="black" vlink="white" alink="#fff600" leftmargin="10" marginheight="10" marginwidth="10" topmargin="10">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td><a href="https://pbskids.org/"><img src="images/Master_pbs.gif" alt="PBS Kids Homepage" name="PBSKids" height="92" width="92" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_yellow-left.gif" alt="" height="92" width="183"></td>
+        <td colspan="3"><a onmouseover="act('caillouhome')" onmouseout="inact('caillouhome')" href="../index.html"><img src="images/Master_caillou.gif" alt="Caillou Homepage" name="caillouhome" height="92" width="200" border="0"></a></td>
+        <td colspan="2"><img src="images/Master_yellow-right.gif" alt="" height="92" width="183"></td>
+        <td><a onmouseover="act('back')" onmouseout="inact('back')" href="../activities/activities.html"><img src="images/Master_back.gif" alt="Going back" name="back" height="92" width="92" border="0"></a></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_red.gif" alt="" height="356" width="92"></td>
+        <td colspan="7" bgcolor="#FFFFFF">
+         <div align="center">
+          <table width="566" border="0" cellspacing="0" cellpadding="0">
+           <tbody>
+            <tr>
+             <td colspan="4"><img src="puzzle/images/puzzle_title.gif" alt="The Puzzle Game" height="46" width="566"></td>
+            </tr>
+            <tr>
+             <td rowspan="4"><img src="puzzle/images/puzzle_left.gif" alt="Left border" height="310" width="24"></td>
+             <td colspan="2"><img src="puzzle/images/puzzle_text.gif" alt="If there is one thing Caillou loves to do when the weather is sad, it is solving puzzles. Help Caillou and his grandma solve jigsaw puzzles." height="208" width="301"></td>
+             <td rowspan="4"><a href="puzzle/index.html"><img src="puzzle/images/puzzle_caillou.jpg" alt="Caillou solving puzzles with Grandma" name="puzzle_caillou" height="310" width="241" border="0"></a></td>
+            </tr>
+            <tr>
+             <td><img src="puzzle/images/puzzle_flashtext.gif" alt="To play this game, the Flash player must be installed." height="40" width="204"></td>
+             <td rowspan="2"><a onmouseover="act('play')" onmouseout="inact('play')" href="puzzle/index.html"><img src="puzzle/images/puzzle_play.gif" alt="Play" name="play" height="60" width="97" border="0"></a></td>
+            </tr>
+            <tr>
+             <td><a onmouseover="act('flashplayer')" onmouseout="inact('flashplayer')" href="https://www.macromedia.com/software/flashplayer/" title="Macromedia Flash Player"><img src="puzzle/images/puzzle_flashplayer.gif" alt="Click here to get it." name="flashplayer" height="20" width="204" border="0"></a></td>
+            </tr>
+            <tr>
+             <td colspan="2"><img src="puzzle/images/puzzle_bottom.gif" alt="Botoom border" height="42" width="301"></td>
+            </tr>
+           </tbody>
+          </table>
+         </div></td>
+        <td><img src="images/Master_green.gif" alt="" height="356" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/Master_red-bottom.gif" alt="" height="90" width="92"></td>
+        <td><img src="images/Master_blue-left.gif" alt="" height="90" width="95"></td>
+        <td colspan="2"><img src="images/Master_btn_games.gif" name="games" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_btn_greetings.gif" name="greetings" height="90" width="126" border="0"></td>
+        <td colspan="2"><img src="images/Master_btn_coloring.gif" name="coloring" height="90" width="125" border="0"></td>
+        <td><img src="images/Master_blue-right.gif" alt="" height="90" width="95"></td>
+        <td><img src="images/Master_green-bottom.gif" alt="" height="90" width="92"></td>
+       </tr>
+       <tr>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="126"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="37"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="88"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="95"></td>
+        <td><img src="images/spacer.gif" alt="" height="1" width="92"></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr>
+   <td>
+    <div align="center">
+     <table width="566" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="12">
+        <td height="12"></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"><!-- Footer nav bar goes here -->
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+          <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td>
+         <div align="center"></div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table>{% endblock %}

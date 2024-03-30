@@ -1,0 +1,1297 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>
+
+		Frequently Asked Questions . 
+
+Help! . PBS KIDS</title>
+
+<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/style.css" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="/includes/javascript/jquery.quicksearch.js"></script>
+<script type="text/javascript" src="/help/scripts/help.js"></script>
+<script type="text/javascript" src="/includes/javascript/bridge.urls.js"></script>
+<script type="text/javascript" src="/includes/javascript/bridge.js"></script>
+
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/ie6.css" />
+<script src="/gmac_assets/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  DD_belatedPNG.fix('#sidebar h2, #navigation li, #navigation li a, #backtotop a img, #logos, #content, #sidebar, .inner, .bottom, .kids img, .go img');
+</script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/ie7.css" />
+<![endif]-->
+
+
+
+
+
+<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script type="text/javascript" src="/includes/flash/dispatcher.js"></script>
+<script language="VBScript" src="/includes/flash/dispatcher.vbs"></script>
+<script type="text/javascript" src="/includes/flash/pbsflash.js"></script>
+
+</head>
+
+<body>
+
+
+<!-- Google Tag Manager --> 
+<noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MR8JHB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript> 
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+   var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+})(window,document,'script','dataLayer','GTM-MR8JHB');
+</script> 
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+var GA_setvar;
+(function() {
+ var getCookie = function(c_name) {
+     if (document.cookie.length>0) {
+         c_start=document.cookie.indexOf(c_name + "=");
+         if (c_start!=-1) {
+             c_start=c_start + c_name.length+1;
+             c_end=document.cookie.indexOf(";",c_start);
+             if (c_end==-1) c_end=document.cookie.length;
+             return unescape(document.cookie.substring(c_start,c_end));
+         }
+     }
+     return "";
+ };
+
+ var pbskids_wested = getCookie('pbskids.wested');
+
+ if(pbskids_wested){
+     GA_setvar = {pbskids_wested: pbskids_wested};
+ }
+
+ //Determines if user is logged in
+ var pbskids_username = getCookie('pbskids.username');
+ //Determines if account is new
+ var returning = getCookie('pbskids.returning');
+
+ GA_customvar = {};
+
+ var ua_codes = "UA-4005067-1,UA-4005001-1,ET-4005001-3"; 
+ var ua_codes_list = ua_codes.split(',');
+
+ var login_info;
+ //Setup log in info custom variable string
+ if (pbskids_username){
+    login_info = "l=1";
+    
+    if(returning){
+      login_info += "&r=1";
+    }
+    else{
+      login_info += "&r=0";
+    }
+ }
+ else{
+    login_info = "l=0&r=0";
+ } 
+
+ for (i=0; i <  ua_codes_list.length; i++){
+  var cv_array = [["GO login tracking", login_info, 2]];
+  GA_customvar[ua_codes_list[i]] = cv_array;
+ }
+
+})();
+
+</script>
+
+<script id="pbskids-headband-script" type="text/javascript" src="/pbs-kids-headband/js/headband.js?v=16"></script>
+<script type='text/javascript' src='https://pbskids.org/js/loader/lib/PBS.KIDS.require.js' data-main='/js/loader/loaders/producer-legacy.require.config.js'></script>
+
+<script type="text/javascript">
+var GA_env = { ua_list: "UA-4005067-1,UA-4005001-1,ET-4005001-3" };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-4db5d466.js" type="text/javascript"></script>
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005420" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "https://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://b.scorecardresearch.com/p?c1=2&c2=3005420&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="container">
+
+	<div id="sidebar">
+		<div id="logos">
+			<ul>
+				<li class="kids"><a href="/"><img src="images/logo-pbskids.png" width="137" height="139" alt="PBS KIDS" /></a></li>
+			</ul>
+		</div><!-- end #logos -->
+		<div class="inner">
+		
+			<ul id="navigation">
+	<li class="home"><a href="/help/">Home</a></li>
+	<li class="faq current"><a href="/help/faq.html">Frequently Asked Questions</a></li>
+	<li class="writetous"><a href="/help/write.html">Write to Us</a></li>
+</ul>
+
+
+			
+		</div><!-- end .inner -->
+	</div><!-- end #sidebar -->
+
+	<div id="content">
+		<div class="inner">
+
+			<h1 id="titleFAQ">F.A.Q.</h1>
+		
+			<h2>Frequently Asked Questions</h2>
+			
+			
+			<div id="faq-jumplinks">
+				
+				<ul>
+				
+					<li><a href="#aboutpbskids">About PBS KIDS Content</a>
+						
+						<ul>
+							<li><a href="#mission">What is PBS KIDS&rsquo; mission?</a></li>
+							<li><a href="#pbskidsgo">What happened to PBS KIDS GO! ?</a></li>
+							<li><a href="#educationalgoals">What are PBS KIDS&rsquo; educational goals and how are they supported?</a></li>
+							<li><a href="#research">Is there research that proves kids learn critical skills from PBS KIDS?</a></li>
+							<li><a href="#showideas">I would like to produce a show for PBS KIDS. Where do I send my show idea?</a></li>
+							<li><a href="#showcontact">I have a question or comment about a PBS KIDS show or website. Who should I contact?</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#tv">Television Questions</a>
+				
+						<ul>
+							<li><a href="#whenon">How do I find out when a show is on?</a></li>
+							<li><a href="#cantfind">What do I do if I can&rsquo;t find a show anymore?</a></li>
+							<li><a href="#happened">What happened to that show I used to watch?</a></li>
+							<li><a href="#birthday">How can I have my child&rsquo;s name appear on PBS KIDS on his or her birthday?</a></li>
+							<li><a href="#storiesdrawings">How can kids send stories and drawings to be on TV?</a></li>
+							<li><a href="#anothershow">There&rsquo;s a program on another channel that I think should be on PBS. Where do I send this suggestion?</a></li>
+							<li><a href="#sprout">What is PBS KIDS Sprout?</a></li>
+						</ul>
+						
+					</li>
+					
+					<li><a href="#webquestions">Web Site Questions</a>
+				
+						<ul>
+							<li><a href="#published">How can kids send stories or art to be published on PBS KIDS?</a></li>
+							<li><a href="#find">How do I find a specific activity on the site?</a></li>
+							<li><a href="#noweb">Why don&rsquo;t some shows have a Web sites here?</a></li>
+							<li><a href="#notv">Why do some of the sites not have television shows?</a></li>
+							<li><a href="#permission">Do I need permission to use lesson plans and printables in the classroom?</a></li>
+							<li><a href="#technicalproblem">I have a technical problem with a PBS KIDS Web site. Can you help me fix it?</a></li>
+						</ul>
+					
+					</li>
+          
+          <li><a href="#closedcaptioning">Closed Captioning</a>
+						
+						<ul>
+							<li><a href="#closedcaptions">What is closed captioning?</a></li>
+							<li><a href="#captioningconcerns">What if I have a concern with closed captioning on the online PBS KIDS video player(s) or PBS KIDS video iOS app?</a></li>
+							<li><a href="#nocaptions">Why do some videos have closed captioning and others do not?</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#techtips">Technical Tips</a>
+				
+						<ul>
+							<li><a href="#computersetup">How do I get the most out of this site? What do I need to download and install?</a></li>
+							<li><a href="#notworking">Why isn&rsquo;t the game, video, or song working?</a></li>
+							<li><a href="#ecard">Someone sent me an e-card. How do I open it?</a></li>
+							<li><a href="#error">What do the error messages on my screen mean?</a></li>
+							<li><a href="#freezing">My computer is freezing up. What does that mean?</a></li>
+							<li><a href="#bookmark">How do I bookmark PBS KIDS?</a></li>
+							<li><a href="#slowdownload">Things take a long time to download. Is something wrong?</a></li> 	
+						</ul>
+						
+					</li>
+					
+					<li><a href="#onlinesafety">Online Safety</a>					
+						<ul>
+							<li><a href="#privacy">What is a Privacy Policy?</a></li>
+							<li><a href="#coppa">What is COPPA? How does PBS KIDS comply?</a></li>
+							<li><a href="#cookie">What is a cookie? Should I accept them?</a></li>
+						</ul>
+					</li>
+				
+					<li><a href="#login">Login Accounts</a>				
+						
+						<ul>
+							<li><a href="#goaccount">Why can’t I log into my PBS KIDS account?</a></li>	
+							<li><a href="#islandaccount">Where can I find help for my PBS KIDS Island account?</a></li>
+							<li><a href="#playaccount">Where can I find help for my PBS KIDS PLAY! account?</a></li>
+							<li><a href="#whyusername">Why do I need a username and password for some activities on PBS KIDS?</a></li>
+							<li><a href="#login_personal">What personal information does PBS KIDS need to create my username?</a></li>
+							<li><a href="#login_info">What will PBS KIDS do with my login information?</a></li>
+							<li><a href="#get_username">How do I get a username and password for PBS KIDS?</a></li>
+							<li><a href="#good_username">What&rsquo;s a good username to use?</a></li>
+							<li><a href="#forgot_username">What do I do if I forget my PBS KIDS username or password?</a></li>
+							<li><a href="#delete_goaccount">Can I delete my PBS KIDS Account?</a></li>
+
+						</ul>
+						
+					</li>
+					
+					<li><a href="#mobile">Mobile</a>
+				
+						<ul>
+							<li><a href="#billing">How do I reach customer service or billing?</a></li>
+							<li><a href="#no_sound">There's no sound. What do I do?</a></li>
+							<li><a href="#crashing">My app is crashing. What do I do?</a></li>
+							<li><a href="#finish_download">My app didn't finish downloading. What do I do?</a></li>
+							<li><a href="#uninstall">How do I uninstall my app?</a></li>
+							<li><a href="#iphone">Where can I find PBS KIDS iPhone Apps?</a></li>
+							<li><a href="#bugreport">How do I report a bug?</a></li>
+							<li><a href="#proceeds">Where do the proceeds from PBS KIDS Apps go?</a></li>
+						</ul>
+					</li>
+
+
+          <li><a href="#supervision">PBS KIDS Super Vision App</a>
+          </li>
+					
+					<li><a href="#pbskidsplay">PBS KIDS PLAY</a>
+				  	<ul>
+							<li><a href="#play">What is PBS KIDS PLAY?</a></li>
+							<li><a href="#try">How can I try PBS KIDS PLAY?</a></li>
+							<li><a href="#proceeds">Where do the proceeds from PBS KIDS PLAY! go?</a></li>
+						</ul>
+					</li>
+				
+					
+						
+					<li><a href="#otherquestions">Other Questions</a>
+				
+						<ul>
+							<li><a href="#merchandise">Where can I find PBS KIDS merchandise?</a></li>
+							<li><a href="#livecharacters">Where can I see my favorite PBS KIDS character live?</a></li>
+						</ul>
+						
+					</li>
+					
+					<!--
+					<li><a href="#writetous">Write to Us</a>
+									
+						<ul>
+							<li><a href="#writeto">How do I write to PBS KIDS or my favorite television show?</a></li>
+							<li><a href="#question">Who can answer my question about a character?</a></li>
+							<li><a href="#program">I have a question or comment about something I saw on a program.</a></li>
+							<li><a href="#idea">Where do I send my show idea?</a></li>
+						</ul>
+						
+					</li> -->
+			
+			</div><!-- end #faq-jumplinks -->
+			
+			
+			<div id="faq-search">
+				<h4>Search the FAQ</h4>
+				
+				<p>Looking for something in particular? Try filtering the results with a word or two here.</p>
+				
+				<input type="text" class="text" value="Search the FAQ" />
+				<input type="image" src="/help/images/clear.gif" width="63" height="29" alt="Clear" class="clear" />
+
+				<p class="status">Currently showing all FAQs.</p>
+			</div>
+			
+			<div id="faq">
+			
+				<!-- ABOUT PBS KIDS CONTENT -->
+				
+				<h3 id="aboutpbskids">About PBS KIDS Content</h3>
+				
+				<dl>
+					<dt id="mission">What is PBS KIDS&rsquo; mission?</dt>
+					
+					<dd>
+						<p>PBS KIDS is committed to making a positive impact on the lives of children through curriculum-based entertainment with positive role models and content designed to nurture a child&rsquo;s total well-being. With a 360-degree approach towards learning and reaching children, PBS KIDS leverages the full spectrum of media and technology to build knowledge, critical thinking, imagination and curiosity. PBS KIDS encourages children to interact as respectful citizens in a diverse society. By involving parents, teachers, caregivers and communities as learning partners, PBS KIDS helps to empower children for success in school and in life. PBS&rsquo; bottom line is measured by how much it contributes to the welfare of America&rsquo;s children.</p>
+						
+						<p>PBS&rsquo;s children&rsquo;s media and family and educator resources include PBS KIDS television series, <a href="/">pbskids.org</a>, <a href="https://pbsparents.org">PBS Parents</a>, <a href="https://pbsteachers.org">PBS Teachers</a>, <a href="/read/">PBS KIDS Raising Readers</a> and literacy events across the country. PBS is a nonprofit media enterprise owned and operated by the nation&rsquo;s 356 public television stations.</p>
+						
+						<p><a href="https://www.pbs.org/aboutpbs/aboutpbs_corp.html">Learn more about PBS.</a></p>
+
+					</dd>
+					
+					<dt id="pbskidsgo">What happened to PBS KIDS GO! ?</dt>
+					
+					<dd>
+						<p>The PBSKIDSGO.org website has been combined with the overall PBS KIDS experience. PBS KIDS remains committed to delivering high quality educational experiences for school-aged children.  Shows such as WILD KRATTS, THE ELECTRIC COMPANY, FETCH! WITH RUFF RUFFMAN, WORDGIRL, ARTHUR, CYBERCHASE and more are all still available on your local PBS station and on <ahref="https://pbskids.org">PBSKIDS.org</a>. The <a href="https://pbskids.org/go/studio/">Cartoon Studio</a> is still available and the Secret Box is now your <a href="https://pbskids.org/profile/">PBS KIDS Profile page</a>.</p>
+						
+						<p>PBS KIDS is still the place for shows like <a href="/sesame">Sesame Street</a>, <a href="/curiousgeorge">Curious George</a>, <a href="/superwhy">Super Why</a>, <a href="/clifford">Clifford</a>, and <a href="/barney">Daniel Tiger's Neighborhood</a>, and <a href="/">pbskids.org</a> is the home for all of these characters! On most local stations, PBS KIDS shows are on TV in the morning &ndash; check <a href="/pkhomepage/redir/fromkids/tvschedules/index.html">TV Times</a> to see what time your favorites air in your area.</p>
+
+					</dd>
+					
+					<dt id="educationalgoals">What are PBS KIDS&rsquo; educational goals and how are they supported?</dt>
+					
+					<dd>
+						<p>PBS KIDS content helps preschool and school aged children in each of the four key areas of childhood development &ndash; cognitive, social, emotional and physical.</p>
+						
+						<p>Funded by a Ready To Learn grant from the United States Department of Education, the Ready To Learn initiative is developing engaging PBS KIDS Raising Readers television programs, exciting games, playful Web sites, and easy-to-use learning resources for kids, parents, caregivers, and teachers—all with the goal of helping children ages 2 to 8 get ready to read.</p>
+						
+						<p>As a critical area of development, PBS is strengthening its offerings around science, technology, engineering and math (STEM), inviting children to explore and develop interest and appreciation for the natural and life sciences through programs including <a href="/sid">Sid the Science Kid</a>, <a href="/curiousgeorge">Curious George</a>, <a href="/cyberchase">Cyberchase</a> and <a href="/dinosaurtrain">Dinosaur Train</a>.</p>
+						
+						<p>We work with experienced educational film or television producers who involve children, educational researchers, parents, educators, daycare providers and subject-matter experts in the design and production process. PBS and its producers conduct research to determine the best ways to engage children in active viewing in order to achieve the educational goals within PBS KIDS content.</p>
+						
+						<p>PBS requires its children&rsquo;s producers to create educational support materials for young people and the adults who care for them.  Programs are extended beyond broadcast to interactive learning activities on <a href="/">pbskids.org</a>, as well as through educational outreach activities and print materials.</p>
+						
+						<p>Parents and Caregivers can find Parent-Child learning activities and supporting materials based on PBS KIDS content at <a href="https://pbsparents.org">PBS Parents</a>.</p>
+						
+						<p>Lesson plans relating to PBS KIDS content can be found at <a href="https://pbsteachers.org">PBS Teachers</a>.</p>
+
+					</dd>
+					
+					<dt id="research">Is there research that proves that kids learn critical skills from PBS KIDS?</dt>
+					
+					<dd>
+						<p>Series-based research has proven that PBS&rsquo;s preschool and early elementary school content contributes towards engaging and inspiring children to succeed in the core curriculum areas that lead the nation&rsquo;s education agenda. For example, a recent study on the preschool series <a href="/superwhy">Super Why</a>, conducted by the Annenberg School for Communication at the University of Pennsylvania, illustrated that the series strengthens the literacy skills of preschoolers, with all kids showing statistically significant improvement on standardized literacy tests. Most notably, the children from low-income families with poor reading skills and at risk for failure in school scored 46% higher on standardized tests than those who did not watch Super Why.</p>
+						
+						<p>Other series-based research on programs including <a href="/lions">Between the Lions</a> and <a href="/wordworld">Word World</a> has also proven a significant impact in children&rsquo;s literacy skill development by watching these programs. Series such as <a href="/sesame">Sesame Street</a> and <a href="/barney">Barney &amp; Friends</a> have proven their ability to positively impact children&rsquo;s school readiness and have helped children develop core social emotional skills to better relate to and communicate with their peers. For school-age children, research conducted on <a href="/cyberchase">Cyberchase</a> demonstrates the series&rsquo; success in helping children strengthen their math skills, while studies conducted on <a href="/mayaandmiguel">Maya &amp; Miguel</a> have proven the series&rsquo; ability to help children develop positive attitudes towards ethnic diversity.</p>
+
+					</dd>
+					
+					<dt id="showideas">I would like to produce a show for PBS KIDS. Where do I send my show idea?</dt>
+					
+					<dd>
+						<p>If you have an idea for a new show, you can contact 
+				
+				<a href="/tvschedules/localizer.html?dest=/help/faq.html&station=(none)">your local station</a>
+				
+				 or you can take a look at <a href="https://www.pbs.org/producers/">Producing for PBS</a>.</p>
+				
+					</dd>
+					
+					<dt id="showcontact">I have a question or comment about a PBS KIDS show or website. Who should I contact?</dt>
+					
+					<dd>
+						<p>Producers for each program and website are responsible for the program or site&rsquo;s content and technical experience. You can find contact information for PBS KIDS Producers by selecting an item from this list:</p>
+						<form action="/help/showlist.html" method="get" class="showselect">
+	<select name="prog">
+	<option value="angelina">Angelina Ballerina</option>
+<option value="arthur">Arthur</option>
+<option value="barney">Barney</option>
+<option value="berenstainbears">Berenstain Bears</option>
+<option value="lions">Between the Lions</option>
+<option value="bob">Bob the Builder</option>
+<option value="caillou">Caillou</option>
+<option value="clifford">Clifford the Big Red Dog</option>
+<option value="curious">Curious George</option>
+<option value="cyberchase">Cyberchase</option>
+<option value="designsquad">Design Squad</option>
+<option value="dinosaurtrain">Dinosaur Train</option>
+<option value="dontbuyit">Don&rsquo;t Buy It</option>
+<option value="dragonflytv">DragonflyTV</option>
+<option value="eekoworld">Eekoworld</option>
+<option value="fetch">Fetch!</option>
+<option value="lunchlab">Fizzy&rsquo;s Lunch Lab</option>
+<option value="frannysfeet">Franny&rsquo;s Feet</option>
+<option value="greens">The Greens</option>
+<option value="bigbigworld">It&rsquo;s a Big Big World</option>
+<option value="itsmylife">It&rsquo;s My Life</option>
+<option value="mamamirabelle">Mama Mirabelle</option>
+<option value="martha">Martha Speaks</option>
+<option value="mayaandmiguel">Maya and Miguel</option>
+<option value="rogers">Mister Rogers&rsquo; Neighborhood</option>
+<option value="buster">Postcards from Buster</option>
+<option value="sesame">Sesame Street</option>
+<option value="superwhy">Super Why!</option>
+<option value="thomas">Thomas &amp; Friends</option>
+<option value="toopyandbinoo">Toopy and Binoo</option>
+<option value="wordgirl">Word Girl</option>
+<option value="wordworld">WordWorld</option>
+<option value="zoboo">Zoboomafoo</option>
+<option value="zoom">ZOOM</option>
+
+	</select>
+	<input type="image" src="/help/images/go.gif" width="38" height="29" alt="Go" />
+</form>
+					</dd>
+				</dl>
+			
+				<!-- TELEVISION QUESTIONS -->
+				
+				<h3 id="tv">Television Questions</h3>
+				
+				<dl>
+				
+					<dt id="whenon">How do I find out when a show is on?</dt>
+					
+					<dd>
+						<p>To find out when a program is on TV, visit our <a href="/pkhomepage/redir/fromkids/tvschedules/index.html">TV Times</a> page.</p>
+					</dd>
+					
+					<dt id="cantfind">What do I do if I can&rsquo;t find a show anymore?</dt>
+					
+					<dd>
+						<p>If you can&rsquo;t find a program anymore, it might be on at a different time. Check <a href="/pkhomepage/redir/fromkids/tvschedules/index.html">TV Times</a> for more information.</p>
+						
+						<p>If you still can&rsquo;t find it, it might be because your PBS station is not airing it anymore. Check with 
+						<a href="/tvschedules/localizer.html?dest=/help/faq.html&station=(none)">your local station</a> for more information.</p>
+					</dd>
+					
+					<dt id="happened">What happened to that show I used to watch?</dt>
+					
+					<dd>
+						<p>See if you can find the program you are looking for in the pull-down list below.</p>		
+								
+						<form action="/help/old_showlist.html" method="get" class="showselect">
+							<select name="prog">
+								<option value="321_contact">3-2-1 Contact</option>
+	<option value="adventures">Adventures from the Book of Virtues</option>
+	<option value="anne">Anne of Green Gables</option>
+	<option value="comfy_couch">Big Comfy Couch</option>
+	<option value="bill_nye">Bill Nye the Science Guy</option>
+	<option value="corduroy">Corduroy</option>
+	<option value="charlie_horse">Charlie Horse Music Pizza</option>
+    <option value="dragontales">Dragon Tales</option>
+	<option value="electric_company">The Electric Company</option>
+	<option value="elliott">Elliott Moose</option>
+	<option value="ghostwriter">Ghostwriter</option>
+    <option value="bigbigworld">It's a Big Big World</option>
+	<option value="jakers">Jakers! The Adventures of Piggley Winks</option>
+	<option value="kidsongs">Kidsongs</option>
+	<option value="liberty">Liberty's Kids</option>
+	<option value="magic_school_bus">The Magic School Bus</option>
+	<option value="marvin">Marvin the Tap-Dancing Horse</option>
+	<option value="newtons_apple">Newton's Apple</option>
+	<option value="bookwormbunch">PBS Kids Bookworm Bunch</option>
+	<option value="puzzle_place">The Puzzle Place</option>
+	<option value="redwall">Redwall</option>
+	<option value="sevenlittlemonsters">Seven Little Monsters</option>
+	<option value="shining_time">Shining Time Station</option>
+	<option value="storytime">Storytime</option>
+    <option value="tugboat">Theodore Tugboat</option>
+	<option value="timothy">Timothy Goes to School</option>
+	<option value="totstv">Tots TV</option>
+	<option value="carmen_san_diego">Where in Time is Carmen San Diego?</option>
+	<option value="wimzie">Wimzie's House</option>
+	<option value="wishbone">Wishbone</option>
+	
+	        
+			
+			        
+
+							</select>
+							<input type="image" src="/help/images/go.gif" width="38" height="29" alt="Go" />
+						</form>
+						
+						<p>If you still can&rsquo;t find it, check with 
+				<a href="/tvschedules/localizer.html?dest=/help/faq.html&station=(none)">your local station</a> for more information.</p>
+				
+					</dd>
+					
+					<dt id="birthday">How can I have my child&rsquo;s name appear on PBS KIDS on his or her birthday?</dt>
+					
+					<dd>
+						<p>PBS KIDS does not sponsor a national birthday club, however some of our PBS Member Stations have local kids&rsquo; clubs which broadcast birthday announcements on-air. Contact 
+				<a href="/tvschedules/localizer.html?dest=/help/faq.html&station=(none)">your local station</a>  to see if there&rsquo;s a birthday club in your area. They will be very happy to tell you about any local PBS KIDS&rsquo; clubs or events.</p>
+						
+						<p>To submit cards for The Sunny Side Up Show, please visit <a href="https://www.sproutonline.com/sprout/ssu/Birthdays.aspx" title="PBS KIDS SPROUT">PBS KIDS SPROUT</a>.</p>
+					</dd>
+					
+					<dt id="storiesdrawings">How can kids send stories and drawings to be on TV?</dt>
+					
+					<dd>
+						<p>Create and submit a story on <a href="/storyfactory/">Dot&rsquo;s Story Factory</a> for the chance to be featured on PBS KIDS. Submissions are selected to be showcased in our <a href="/storyfactory/showroom.html">online showroom</a> and on TV based on storytelling, relevance, and appropriateness.</p>
+					</dd>
+					
+					<dt id="anothershow">There&rsquo;s a program on another channel that I think should be on PBS. Where do I send this suggestion?</dt>
+					
+					<dd>
+						<p>You can write to 
+				<a href="/tvschedules/localizer.html?dest=/help/faq.html&station=(none)">your local station</a> and suggest the program.</p>
+					</dd>
+					
+					<dt id="sprout">What is PBS KIDS Sprout?</dt>
+					
+					<dd>
+						<p>Providing enhanced delivery of a trusted source of favorite children&rsquo;s educational programs, on-demand and around the clock, PBS KIDS Sprout on Demand launched in April 2005 and PBS KIDS Sprout (the cable channel) launched in October 2005. Offering families 24-hour access to high-quality, educational kids programming, PBS KIDS Sprout is a partnership between Comcast, the country&rsquo;s leading cable operator; PBS, the most trusted provider of award-winning children&rsquo;s programming; and HIT Entertainment and Sesame Workshop, two of the leading providers of quality entertainment for young children. The programs featured on PBS KIDS Sprout include episodes of <a href="/angelinaballerina/">Angelina Ballerina</a>, <a href="/barney/">Barney &amp; Friends</a>, Bob the Builder, <a href="/caillou/">Caillou</a>, <a href="/dragontales/">Dragon Tales</a>, <a href="/jayjay/">Jay Jay the Jet Plane</a>, <a href="/sesame/">Sesame Street</a>, <a href="/teletubbies/">Teletubbies</a>, Thomas &amp; Friends and more.</p>
+					</dd>					
+					
+				</dl>
+			
+				<!-- WEB SITE QUESTIONS -->
+			
+				<h3 id="webquestions">Web Site Questions</h3>
+				
+				<dl>					
+					<dt id="published">How can kids send stories or art to be published on PBS KIDS?</dt>
+				
+					<dd>
+						<p>Many of the sites on PBS KIDS have submission areas for you to share your creative work. There are a few ways you can find places to publish your work:</p>
+						
+						<ul>
+							<li>Be on the lookout for links that ask you to &ldquo;send your work&rdquo; or to &ldquo;share your thoughts&rdquo;.</li>
+							<li><a href="/findit/">Search</a> using keywords like &ldquo;share&rdquo;, &ldquo;submissions&rdquo;, or &ldquo;send&rdquo;.</li>
+						</ul>
+					</dd>
+					
+					<dt id="find">How do I find a specific activity on the site?</dt>
+					
+					<dd>
+						<p>If you know the title of the activity or keywords that might help find it, you can <a href="/findit/">search PBS KIDS</a>. For example, you might do a general search for &ldquo;cookie recipes&rdquo; or a more specific search for &ldquo;Cyberchase railroad&rdquo; (if you were looking for the Cyberchase Railroad Repair activity). If you don&rsquo;t find what you want the first time, try a different combination of words.</p>
+									
+						<p>If you know which site has the activity you&rsquo;re looking for, you can also check the homepage of that site to see if they have a a special section for games and activities, program-specific site map, or search area.</p>
+					</dd>
+					
+					<dt id="noweb">Why don&rsquo;t some shows have a Web sites here?</dt>
+					
+					<dd>				
+						<p>Some of the programs you watch on 
+			<a href="/tvschedules/localizer.html?dest=/help/faq.html&station=(none)">your local station</a> might not be PBS KIDS programs. Many stations air programs produced locally or distributed by another organization, such as <a href="https://www.aptonline.org/">American Public Television</a>. Also, some television producers choose not to make Web sites for their shows.</p>
+					</dd>
+					
+					<dt id="notv">Why do some of the sites not have television shows?</dt>
+					
+					<dd>
+						<p>Some of the content on PBS KIDS was created specifically for the Web, allowing us to experiment with new topics and broaden the scope of our curriculum. Some examples of Web-original projects are <a href="/aaworld/">African American World for Kids</a>, <a href="/itsmylife/">It&rsquo;s My Life</a>, <a href="/eekoworld/">EekoWorld</a>, <a href="/newsflashfive/">News Flash Five</a>, <a href="/democracy/">The Democracy Project</a> and <a href="/license/">Get Your Web License</a>. Other PBS KIDS sites, such as <a href="/africa/">Africa for Kids</a>, <a href="/wayback/">American Experience's WayBack</a> and <a href="/historydetectives/">History Detectives Kids</a>, are age-appropriate companions to primetime television shows that can be enjoyed by the whole family.</p>
+					</dd>					
+					
+					<dt id="permission">Do I need permission to use lesson plans and printables in the classroom?</dt>
+				
+					<dd>
+						<p>You do not need permission for classroom use of lesson plans you find on <a href="/">PBS KIDS</a>, <a href="https://pbsparents.org">PBS Parents</a> or <a href="https://pbsteachers.org">PBS Teachers</a>. You may also distribute printed pages from these sites to students, but you should follow these guidelines.</p>
+				
+						<ul>
+							<li>Each printed page must include the site&rsquo;s url on it.</li>
+							<li>You cannot charge students to receive these pages.</li>
+							<li>You cannot reprint elements from a PBS KIDS page in a newsletter or booklet without permission from PBS.</li>
+						</ul>
+					</dd>
+				
+					<dt id="technicalproblem">I have a technical problem with a PBS KIDS Web site. Can you help me fix it?</dt>
+					
+					<dd>
+						<p>If you have a technical difficulty (for example, a game doesn&rsquo;t work, a Web page won&rsquo;t load, sound and video won&rsquo;t play, etc.), please go to <a href="#techtips">Technical Tips</a> for help.</p>
+					</dd>
+					
+				</dl>
+				
+				<!-- CLOSED CAPTION QUESTIONS -->
+				<h3 id="closedcaptioning">Closed Captioning</h3>
+
+<dl>					
+<dt id="closedcaptions">What is closed captioning?</dt>
+
+<dd>
+  <p>Closed captioning is the visual display of the audio portion of video programming. Captioning provides access to individuals who are deaf or hard of hearing.</p>
+</dd>
+
+<dt id="captioningconcerns">What if I have a concern with closed captioning on the online PBS KIDS video player(s) or PBS KIDS video iOS app?</dt>
+
+<dd>
+  <p>For closed captioning feedback, please contact:</p>
+  <blockquote><p>Steve Scheel<br />
+     Senior Director, PBS Media Operations<br />
+     2100 Crystal Drive<br />
+     Arlington, VA 22202<br />
+     Tel: 703-739-5481<br />
+     Fax: 703-739-5777<br />
+     Email: <a href="mailto:closedcaptioning@pbs.org">closedcaptioning@pbs.org</a>
+  </p></blockquote>
+
+  <p>Please make sure your feedback includes all of the information required by the Federal Communications Commission. If you do not include this information, we will ask you to provide the missing information:</p>
+  <ol>
+    <li>Your name, postal address, and other contact information, such as telephone number or e-mail address;</li>
+    <li>The name, postal address, website, or e-mail address of the video programming distributor and/or video programming owner against which a complaint is made, and information sufficient to identify the particular video programming involved (i.e. Show title and the name of the video clip);</li>
+    <li>Information sufficient to identify the software or device used to view the program;</li>
+    <li>The date and time of the incident, and a statement of the facts sufficient to show that the video programming distributor and/or video programming owner has violated the requirements;</li>
+    <li>The specific relief sought; and</li>
+    <li>The preferred format or method of response to the feedback.</li>
+  </ol>
+</dd>
+
+<dt id="nocaptions">Why do some videos have closed captioning and others do not?</dt>
+
+<dd>				
+  <p>PBS KIDS is working to include closed captioning on as many videos as possible.  At a minimum, PBS complies with the rules of the Federal Communications Commission requiring captioned programs shown on TV to be captioned when shown on the Internet.  These rules cover full-length programming, but not consumer-generated media, video clips, outtakes, or content shown on the Internet that has not been shown on TV with captions after certain specified dates.  We are happy to hear from you if you have suggestions or feedback on our online closed captioning efforts.</p>
+</dd>			
+
+</dl>
+        
+				<!-- TECH TIPS -->
+				
+				<h3 id="techtips">Technical Tips</h3>
+				
+				<dl>
+					
+					<dt id="computersetup">How do I get the most out of this site? What do I need to download and install?</dt>
+					
+					<dd>
+					
+						<p>To fully enjoy PBS KIDS, we recommend the following computer set-up.</p>
+						
+						<h4>Web Browser</h4>
+						
+						<p>This site is best viewed with the latest version of either</p>
+						
+						<ul>
+							<li><a href="https://www.microsoft.com/windows/Internet-explorer/">Internet Explorer</a> (version 7 or higher),</li>
+							<li><a href="https://www.mozilla.com/firefox/">Mozilla Firefox</a> (version 3 or higher),</li>
+							<li>or <a href="https://www.apple.com/safari/">Apple Safari</a> (version 4 or newer).</li>
+						</ul>
+						
+						<h4>Screen Size</h4>
+						
+						<p>The <a href="/">pbskids.org</a> site is best viewed with a screen resolution of 1024x768 or larger. On a 800x600 screen, the graphics and text will appear larger but you will see less at one time without scrolling. Some games and other activities may be difficult to use on screen resolutions smaller than 800x600.</p>
+						
+						<p>If you don&rsquo;t know how to change your screen resolution, you can visit the support site for your operating system.</p>
+						
+						<ul>
+							<li>Windows: <a href="https://support.microsoft.com/">https://support.microsoft.com/</a></li>
+							<li>Mac: <a href="https://www.apple.com/support/">https://www.apple.com/support/</a></li>
+						</ul>
+						
+						<h4>Plug-ins</h4>
+						
+						<p>Many PBS KIDS sites use free plug-ins to make activities more fun and interactive. The plug-ins are listed below, but not all activities require these plug-ins. Each of these can be downloaded for free.</p>
+						
+						<p>If you&rsquo;re not sure if your computer has these plug-ins or if you need to install one or more of them, ask an adult to help you.</p>
+						
+						<ul>
+							<li><a href="https://get.adobe.com/flashplayer/">Adobe Flash Player</a>: Most PBS KIDS games, videos and activities use the Flash Player.</li>
+							<li><a href="https://www.java.com/en/download/index.jsp">Java</a>: Some PBS KIDS games use the Java plug-in.</li>
+							<li><a href="https://www.apple.com/quicktime/download/">QuickTime</a>: Plays videos and audio.</li>
+							<li><a href="https://get.adobe.com/reader/">Adobe Reader</a>: Used to display PDFs for downloading and printing coloring pages and other printable activities.</li>
+							<li><a href="https://www.real.com/">Real Player</a>: Plays videos and audio.</li>
+							<li><a href="https://get.adobe.com/shockwave/">Shockwave</a>: Used to play games.</li>
+						</ul>
+						
+					</dd>
+					
+					<dt id="notworking">Why isn&rsquo;t the game, video, or song working?</dt>
+					
+					<dd>
+						<p>Many issues with content not working properly can be solved by updating the various plug-ins listed above and using a supported browser. If you are recieving an error message, check below to find out how to address these issues. If you have tried all of the methods for fixing plug-in and browser issues and believe the site has a problem, <a href="write.html">let us know</a>.</p>
+					</dd>
+						
+					<dt id="ecard">Someone sent me an e-card. How do I open it?</dt>
+					
+					<dd>
+						<p>To open your e-card, click on the link in your e-mail or carefully cut and paste the address into your web browser&rsquo;s address bar.</p>
+						
+						<p>If the address is on two or more lines, it might not work properly. Instead, cut and paste each line into your web browser&rsquo;s address bar to make one long string.</p>
+						
+						<p>Also, it&rsquo;s important to remember that if your card was sent more than 14 days ago, it will have expired and no longer be accessible.</p>
+					</dd>
+					
+					<dt id="error">What do the error messages on my screen mean?</dt>
+					
+					<dd>
+						
+						<h4>What looks most like the error message you saw?</h4>
+						
+						<ul>
+							<li><a href="#server">&ldquo;500 Internal Server Error&rdquo;</a></li>
+							<li><a href="#forms">&ldquo;Security Warning&mdash;you are about to submit personal information&rdquo;</a></li>
+							<li><a href="#none">None of these messages matches my error</a></li>
+						</ul>
+							
+						<h4 id="server">500 Internal Server Error</h4>
+						
+						<p>If you see a message like "500 Server Error" or "The page could not be displayed," this probably means that there was a problem with the PBS KIDS Web servers. Sometimes there are so many people visiting the site that the computers that run PBS KIDS start having problems. If the problem happens just once, it will probably be fixed in a few minutes&mdash;you should come back to the page a little later and try to see it again. If you try to visit the same page the next day and still see this kind of error, please <a href="write.html">let us know</a>.</p>
+						
+						<h4 id="forms">Security Warnings</h4>
+						
+						<p>When you see &ldquo;Security Warning &mdash; you are about to submit personal information&rdquo; on your screen, it usually means that a Web site that you visited has set or is trying to set a &ldquo;cookie&rdquo; on your computer. You can learn more about cookies on <a href="#cookie">this page</a>. Sometimes when you are leaving a Web site that uses cookies and come to the PBS Kids Web site, you will see the &ldquo;Security Warning&rdquo; message.</p>
+						
+						<h4 id="none">None of these messages matches my error</h4>
+						
+						<p>There are many other possible error messages that browsers can display. For more information on the error you are recieving you can visit the support site for your browser.</p>
+						
+						<ul>
+							<li><a href="https://support.microsoft.com/">Internet Explorer</a></li>
+							<li><a href="https://support.mozilla.com/">Mozilla Firefox</a></li>
+							<li><a href="https://www.apple.com/support/safari/">Apple Safari</a></li>
+							<li><a href="https://www.google.com/support/chrome/">Google Chrome</a></li>
+							<li><a href="https://www.opera.com/support/">Opera</a></li>
+						</ul>
+
+					</dd>
+					
+					<dt id="freezing">My computer is freezing up. What does that mean?</dt>
+					
+					<dd>
+					
+						<p>If your computer is freezing up when you try to play a game or visit a page on PBS Kids, it may be because Flash, or Java, isn't set up correctly on your machine. Visit &ldquo;<a href="#game">The game never starts. What should I do?</a>&rdquo; for more information on checking if these plug-ins are properly installed.</p>
+
+
+						<p> If your computer has a PBS KIDS Web page as a background on your desktop, which means you can see PBS KIDS when you&rsquo;re not looking at a Web browser, then the "Active Desktop" has been set. This can happen accidentally if you right-click on your mouse and select "Set as Wallpaper" or "Set as Background" when using Internet Explorer.</p>
+						
+						<p>If you don&rsquo;t have a continuous connection to the Internet, (for example, if you have to dial-up to surf the Web), this can cause your computer to freeze. (The computer tries to display the Web page all the time, so to do that, it tries to connect to the Internet, which depending on your type of connection might not always be possible.)</p>
+						
+						<p>To stop showing a PBS KIDS page as your computer's background, you should probably turn off Active Desktop. <em>This only applies to Windows users.</em></p>
+						
+						<p>To turn off Active Desktop:</p>
+											
+						<ol>
+							<li>Click on the Start button on the lower left corner of your screen.</li>
+							<li>Select "Settings" and then "Control Panel."</li>
+							<li>In the "Control Panel" window, click on "Display."</li>
+							<li>In the "Display" window, click on the "Web" tab.</li>
+							<li>The "Web" tab will have a check box with a check in it for "Show Web content on my Active Desktop". Below it will be one or more check boxes with names of Web pages. If you see anything with a check mark, clear it by clicking on the check box.</li>
+							<li>When the check boxes are empty, click on "OK."</li>
+						</ol>
+						
+						<p>If your computer is freezing or is not producing sound while on our site even though you have updated the most recent version of Internet Explorer, it could be a problem in the software Internet Explorer uses to run Java applets.</p>
+						
+						<p>To fix it, try installing the most recent version of <a href="https://www.java.com/en/download/index.jsp">Java</a>.</li></p>
+						
+					</dd>
+					
+					<dt id="bookmark">How do I bookmark PBS KIDS?</dt>
+					
+					<dd>
+					
+						<p>Bookmarking a site means you&rsquo;re saving it in your Web browser so that you can visit it again easily in the future. Look for &ldquo;Bookmarks&rdquo;, &ldquo;Favorites&rdquo; or an icon such as a star in your browser to add PBS KIDS to your bookmarks list. If you&rsquo;re having trouble finding out how to bookmark PBS KIDS, you can visit the support site for your browser listed above.</p>
+						
+					</dd>
+					
+					<dt id="slowdownload">Things take a long time to download. Is something wrong?</dt>
+					
+					<dd>
+					
+						<p>If the games are taking a long time to appear, it may be that you aren&rsquo;t using the most recent version of the your Web browser or the needed plug-in. Visit our recommended site set-up section at the top of this page for links to these downloads.</p>
+						
+						<p>Even if you&rsquo;re using the most recent plug-ins and Web browser versions, though, you might need to be patient. We build all the activities on PBS KIDS to download as quickly as possible so that you won&rsquo;t have to wait. However, if you&rsquo;re visiting our site from a dial-up connection or during peak traffic times (in the evening), then you might need to wait a minute or two for the download to finish. This is most common with games and videos.</p>
+						
+					</dd>
+								
+				</dl>
+				
+				<!-- ONLINE SAFETY -->
+				
+				<h3 id="onlinesafety">Online Safety</h3>
+				
+				<dl>
+					<dt id="privacy">What is a Privacy Policy?</dt>
+					                              
+					<dd>
+						<p>A privacy policy tells you how a Web site deals with your personal information. It will tell you what kind of information is collected (like your e-mail address, your last name, or your address), how it will be used (perhaps to send e-cards or to enter a contest) and whether it will be shared with other people.</p>
+						
+						<p>You can learn more about privacy policies and Children&rsquo;s Online Privacy Protection Act at <a href="https://www.ftc.gov/privacy/privacyinitiatives/childrens.html" title="The Federal Trade Commissions&rsquo; Privacy Initiatives Site">the Federal Trade Commissions&rsquo; Privacy Initiatives site</a>.</p>
+
+						<p><a href="/privacy">Read the PBS KIDS Privacy Policy.</a></p>
+					</dd>                                    
+				
+					<dt id="coppa">What is COPPA? How does PBS KIDS comply?</dt>	
+					<dd>
+						<p>The Children&rsquo;s Online Privacy Protection Act (COPPA) went into effect in April 2000. It sets rules for anyone who runs a Web site for kids under 13 years old. The rules deal with how a Web site can use personal information you might give to the site, such as your e-mail address or last name, so that you will know what information is being collected and how it might be used.</p>
+						
+						<p>The <a href="/privacy/">PBS KIDS Privacy Policy</a> tells you exactly how we deal with the personal information we collect on our site.</p>
+						
+						<p>You can learn more about Children&rsquo;s Online Privacy Protection Act at <a href="https://www.ftc.gov/privacy/privacyinitiatives/childrens.html" title="The Federal Trade Commissions&rsquo; Privacy Initiatives Site">the Federal Trade Commissions&rsquo; Privacy Initiatives site</a>.</p>
+						
+					</dd>
+				
+					<dt id="cookie">What is a cookie? Should I accept them?</dt>
+					
+					<dd><p>As you surf around pbskids.org, it is possible that several cookies will be set on your computer. A cookie is information a Web site puts on your computer's hard drive so that the site can remember your preferences or which pages you visited on that site.</p>
+					<p>PBS uses the information from cookies to deliver relevant local resources, remember browser preferences, and improve our visitors' experiences on the site. No personal information is ever stored in a PBS KIDS cookie, even if you have entered your name or e-mail address on other parts of PBS Online.</p>
+					<p>PBS does not sell information collected by cookies or use the information for commerce-related purposes. In addition, PBS will not filter content based on your preferences without permission.</p>
+					<ul>PBS KIDS only uses cookies at the following times:
+						<li>If you localize pbskids.org to the PBS station nearest you, a cookie will tell us your station's call letters. PBS KIDS only keeps track of how many computers choose each station. You can choose to have your computer remember a different station, or no station at all, at any time. Please note that if you come to pbskids.org from a local station site, and you were not previously localized to a station, you may be automatically localized to that station.</li>
+						<li>If you watch a video clip or listen to an audio clip on pbskids.org, a cookie may remember which media player (such as Real Player or QuickTime) and which type of connection (high or low bandwidth) you prefer to use on your computer. You can change your video and audio preferences at any time, or choose a player each time you view or listen to a clip.</li>
+						<li>As you explore pbskids.org, a session cookie will tell us which pages you visit and the amount of time between each page visit. This cookie does not remember any information about you or your computer, it just tells us at PBS KIDS how long visitors spend on our sites and which pages receive the most traffic. A "session cookie" only remembers information about your current visit to the site.</li>
+					</ul>
+					<p>If you decide that you do not want to accept cookies, all features on PBS KIDS will still work. Your preferences won&rsquo;t be stored, though, so you may have to reenter information (for the TV schedule, for example) each time you visit those pages.</p></dd>
+				</dl>
+
+                               
+				<!-- LOGIN ACCOUNTS -->
+				
+				<h3 id="login">Login Accounts</h3>
+				
+				<!-- <p>If you play with EekoWorld, Cyberchase, Fetch!, Kratts&rsquo; Creatures or Kids World Sports, you may notice that you can create a username and password for PBS KIDS GO!</p> -->
+				
+				<dl>
+					<dt id="goaccount">Why can’t I log into my PBS KIDS account?</dt>
+                                        <dd>
+						<p>If you have forgotten your PBS KIDS account password, please <a href="https://pbskids.org/go/apps/auth/forgot_password/">click here to reset it</a>.</p>
+
+						<p>Also, all PBS KIDS user accounts are moderated to make sure they do not contain personally identifiable information such as first and last names or profanity.</p>
+
+						<p>If your user account appeared to have personally identifiable information or profanity, it may have been deactivated.</p>
+
+						<p>If your user account contained multiple names, other personally identifiable information or profanity, you will need to create a new account.</p>
+
+						<p>If you believe that your account has been wrongly denied, please <a href="https://pbskids.org/help/write.html">contact us</a>.</p>
+</p>
+					</dd>
+					<dt id="islandaccount">Where can I find help for my PBS KIDS Island account?</dt>
+                                        <dd>
+						<p>If you need assistance with your <a href="/read/">PBS KIDS Island</a> account, please visit <a href="/read/about/faq.html">PBS KIDS Raising Readers help section</a></p>
+					</dd>
+					<dt id="playaccount">Where can I find help for my PBS KIDS PLAY! account?</dt>
+                                        <dd>
+						<p>If you need assistance with your <a href="https://pbskidsplay.org/playnow/?CKF6663&btn=1">PBS KIDS PLAY!</a> account, please contact <a href="https://pbskidsplay.org/pages/faq/">PBS KIDS PLAY!&rsquo;s support center</a>.</p>
+					</dd>
+					<dt id="whyusername">Why do I need a username and password for some activities on PBS KIDS?</dt>
+					
+					<dd>
+						<p>You need to log in if you would like to save points and other game information (like your EekoCreature while playing in <a href="/eekoworld/">EekoWorld</a> or your game pieces while playing on <a href="/krattscreatures/">Kratts&rsquo; Creatures</a>). Before you login for the first time, you will have to <a href="/go/apps/auth/signup/?destination=/go/">register</a> by creating a username and a password and answering a secret question (which we need in case you forget your password). Please note, though, that you can still play without a username. You just will not be able to save points.</p>
+					</dd>
+					
+					<dt id="login_personal">What personal information does PBS KIDS need to create my username?</dt>
+					
+					<dd>
+						<p>None. PBS KIDS does not require you to provide personal information to create a username. You will, however, be asked to choose a word or phrase, which you will use to log in. (For more information on what to use for a username, please read "<a href="#good_username">What&rsquo;s a good username to use?</a>" below.) You will also have to pick a password and a secret question and answer (in case you forget your password). For more information on how PBS KIDS deals with personal information on our site, please visit the <a href="/privacy/">PBS KIDS Online Privacy Policy</a>.</p>
+					</dd>
+					
+					<dt id="login_info">What will PBS KIDS do with my username and login information?</dt>
+					
+					<dd>We only use your username and password to save and retrieve your points and saved game information. We do not collect any information from you that would allow us or other users to know who you are. We encourage you to create a username that does not include your real name, where you live, or any other information you do not want to share. For more information, please visit the <a href="/privacy/">PBS KIDS Online Privacy Policy</a>.</dd>
+					
+					<dt id="get_username">How do I get a username and password for PBS KIDS?</dt>
+					
+					<dd>
+						<p>You can get a username and password by <a href="/go/apps/auth/signup/?destination=/go/">registering</a>. It&rsquo;s absolutely free.</p>
+					</dd>
+					
+					<dt id="good_username">What&rsquo;s a good username to use?</dt>
+					
+					<dd>
+						<p>Your username should be a word or phrase that you can easily remember and that does not tell any personal information about you. You should not use your last name, your address or zip code, your phone number, the school you attend, or any information that would help someone identify you. Your favorite color or activity and a number, such as blue223 or sledding95, is a good place to start.</p>
+					</dd>
+					
+					<dt id="forgot_username">What do I do if I forget my PBS KIDS username or password?</dt>
+					
+					<dd>
+						<p>It&rsquo;s a good idea to write down your username and password in a safe place, just in case you forget. If you forget your username, you&rsquo;ll need to create a new account and start over. If you forget your password, there is a <a href="https://pbskids.org/cgi-registry/authentication/forgot.pl?destination=/mypbskids&activity_path=/mypbskids">&ldquo;Forgot password&rdquo; link</a> beneath the login area. Enter your username and answer to the secret question to retrieve your password.</p>
+					</dd>
+					
+				
+					<dt id="delete_goaccount">Can I delete my PBS KIDS Account?</dt>
+					
+					<dd>
+						<p>Since PBS KIDS doesn't collect identifiable information, we have no way to verify if an account deletion request is coming from the account owner or not. Because of this we are unable to delete user account. You can stop using your account at any time without the need to delete it.</p>
+					</dd>
+				
+				</dl>
+				
+				
+					
+				<!-- MOBILE -->
+				
+				<h3 id="mobile">Mobile</h3>
+				
+				<dl>
+                
+					<dt id="billing">How do I reach customer service or billing?</dt>
+					
+					<dd>				
+						<p>For billing questions or other inquiries about your App Store transaction, visit <a href="https://www.apple.com/support/itunes/"> www.apple.com/support/itunes/</a></p>
+                        <br />
+                        <p>For billing questions or other inquiries about you Amazon Store transaction, visit <a href="https://to.pbs.org/Amazon_support">https://to.pbs.org/Amazon_support</a></p>
+					</dd>
+
+					<dt id="no_sound">There's no sound. What do I do?</dt>
+					
+					<dd>				
+						<p>1: Check that the mute button (top button on left hand side of iPhone or switch on right hand side of iPad) is not set to mute.</p>
+                        <p>2: Press the volume buttons on the left hand side of the iPhone or the right hand side of the iPad.</p>
+                        <p>3: If none of these work, open the 'Music' application and use the volume slider to increase the volume.</p>
+                        <br />
+                        <p>If that fails to work, launch the app and then:</p>
+                        <p>1: Double Press the Home Button to bring up the fast switching menu (bottom of the screen)</p>
+                        <p>2: Swipe the menu from left to right twice</p>
+                        <p>3: You should now see a volume level. Drag the slider from left to right to increase the volume.</p>
+					</dd>
+
+					<dt id="crashing">My app is crashing. What do I do?</dt>
+					
+					<dd>				
+						<p>First, try restarting your device: Hold down the power button until the screen reads "slide to power off." Power off the device by moving the slider. Once it's fully shut down, turn the device back on and then try restarting the app.
+If that fails to solve the issue, make sure your device is running the latest version of Apple's iPhone OS. To verify this, sync your device with iTunes on your computer. Another recommended step is to make sure you have the latest version of Apple's iTunes software. To verify this, launch iTunes and select "Check for Updates" from the Help menu.
+                        <br />
+Lastly, if you sync'd your app from a computer to your device, it's possible there was an issue with the sync. Try uninstalling the app and then re-sync. If your app continues to crash, please post a comment in the next step of this feedback form.</p>
+					</dd>
+
+					<dt id="finish_download">My app didn't finish downloading. What do I do?</dt>
+					
+					<dd>				
+						<p>Make sure that your network connection is active. The App Store should detect that your download was interrupted and should continue it whenever your connection is restored. If this does not happen, visit <a href="www.apple.com/support/itunes/">www.apple.com/support/itunes/</a></p>
+					</dd>
+
+					<dt id="uninstall">How do I uninstall my app?</dt>
+					
+					<dd>				
+						<p>First, press and hold the app icon until all the icons start to wiggle. Then tap the "x" in the corner of the app you want to delete. Tap the "Delete" button to permanently remove the app. Press the Home button to return to the regular menu. NOTE: Uninstalling will remove all app-related data from your device, too. And, if you do not have a backup on another device, you will need to re-download from the App Store.</p>
+					</dd>
+
+					<dt id="iphoneapps">Where can I find PBS KIDS iPhone apps?</dt>
+					
+					<dd>				
+						<p>You can download PBS KIDS iPhone apps by visiting <a href="/mobile">pbskids.org/mobile</a>, or go directly to the <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewArtist?id=324323339">PBS iTunes App Store</a>.</p>
+					</dd>
+
+					<dt id="ringtones">Where can I download shows, podcasts, wallpapers and ringtones for my phone or mobile device?</dt>
+
+					<dd>
+						<p>Download content you and your kids can enjoy together on your mobile device from <a href="https://pbskids.org/mobile/">PBS KIDS Mobile Downloads</a>.</p>
+					</dd>
+					
+					<dt id="bugreport">How do I report a bug?</dt>
+					
+					<dd>
+<!--						
+						<p>For the Curious George Coloring Book app, email <a href="mailto:support@MobileDeluxe.com">support@MobileDeluxe.com</a>.</p>
+						<p>For the Mister Rogers&rsquo; Make a Journal app, email <a href="mailto:support@touchscreenpreschoolgames.com">support@touchscreenpreschoolgames.com</a>.</p>
+						<p>For the Martha Speaks Dog Party app, email <a href="mailto:interactive_tech@wgbh.org">interactive_tech@wgbh.org</a>.</p>
+						<p>For the Super WHY! app, email <a href="mailto:support@beancreative.com">support@beancreative.com</a>.</p>
+						<p>For the PBS KIDS Photo Factory app, email <a href="mailto:support@touchscreenpreschoolgames.com">support@touchscreenpreschoolgames.com</a>.</p>
+-->
+
+
+<!--						<iframe src="https://spreadsheets.google.com/embeddedform?formkey=dGI4QlZwcHV5d2J1WWhxaWI3eWo5d2c6MQ" width="520" height="815" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+
+
+<!--						<div id="surveyMonkeyInfo"><div><script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=G7KIIIjccae2KAzW5Lasjg_3d_3d"> </script></div></div> -->
+							<div id="surveyMonkeyInfo">
+								<script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=r9sU9hIzy3_2bKgu5uZaw_2f1Q_3d_3d"></script>
+							</div>
+
+
+
+
+<!-- google static form elements begin -->
+<!--
+
+						<div class="ss-form-container">
+
+						<div class="ss-form">
+						<form action="https://spreadsheets.google.com/formResponse?formkey=dGI4QlZwcHV5d2J1WWhxaWI3eWo5d2c6MQ&amp;ifq" method="POST" id="ss-form">
+
+							<div class="errorbox-good">
+							<div class="ss-item ss-item-required ss-radio">
+
+							<div class="ss-form-entry">
+								<label class="ss-q-title" for="entry_0">Which app are you contacting us about?<span class="ss-required-asterisk">*</span></label>
+								<label class="ss-q-help" for="entry_0"></label>
+								<ul class="ss-choices">
+									<li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.0.group" value="Dinosaur Train Eggspress" class="ss-q-radio" id="group_0_1">Dinosaur Train Eggspress</label></li>
+									<li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.0.group" value="Martha Speaks Dog Party" class="ss-q-radio" id="group_0_2">Martha Speaks Dog Party</label></li>
+									<li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.0.group" value="PBS for iPad" class="ss-q-radio" id="group_0_3">PBS for iPad</label></li>
+									<li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.0.group" value="PBS KIDS Photo Factory" class="ss-q-radio" id="group_0_4">PBS KIDS Photo Factory</label></li>
+									<li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.0.group" value="PBS NewsHour" class="ss-q-radio" id="group_0_5">PBS NewsHour</label></li>
+									<li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.0.group" value="SUPER WHY!" class="ss-q-radio" id="group_0_6">SUPER WHY!</label></li>
+									<li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.0.group" value="SUPER WHY! for iPad" class="ss-q-radio" id="group_0_7">SUPER WHY! for iPad</label></li>
+									<li class="ss-choice-item"><input type="radio" name="entry.0.group" value="__option__" class="ss-q-radio" id="other_option:0">
+										<label for="other_option:0">Other:</label>
+										<input type="text" name="entry.0.group.other_option_" value="" class="ss-q-other">
+									</li>
+								</ul>
+							</div>
+							
+							</div>
+							</div>
+							<div class="errorbox-good">
+							<div class="ss-item ss-item-required ss-select">
+								
+							<div class="ss-form-entry">
+								<label class="ss-q-title" for="entry_2">Why are you contacting PBS?<span class="ss-required-asterisk">*</span></label>
+								<label class="ss-q-help" for="entry_2"></label>
+								<select name="entry.2.single" id="entry_2">
+									<option value="I need help on a technical issue.">I need help on a technical issue.</option> <option value="I&#39;d like to offer my feedback.">I&#39;d like to offer my feedback.</option>
+									<option value="I have an issue with downloading or payment.">I have an issue with downloading or payment.</option>
+								</select>
+							</div>
+							
+							</div>
+							</div>
+							<div class="errorbox-good">
+							<div class="ss-item ss-item-required ss-paragraph-text">
+								
+							<div class="ss-form-entry">
+								<label class="ss-q-title" for="entry_3">Please describe the technical issue you are having:<span class="ss-required-asterisk">*</span></label>
+								<label class="ss-q-help" for="entry_3"></label>
+								<textarea name="entry.3.single" class="ss-q-long" id="entry_3"></textarea>
+							</div>
+
+							</div>
+							</div>
+
+							<input type="hidden" name="pageNumber" value="0">
+							<input type="hidden" name="backupCache" value="">
+
+							<div class="ss-item ss-navigate">
+								<div class="ss-form-entry">
+									<input type="submit" name="submit" value="Submit">
+								</div>
+							</div>
+
+						</form>
+
+						<script type="text/javascript">
+							(function() {
+								var divs = document.getElementById('ss-form').
+								getElementsByTagName('div');
+								var numDivs = divs.length;
+								for (var j = 0; j < numDivs; j++) {
+									if (divs[j].className == 'errorbox-bad') {
+										divs[j].lastChild.firstChild.lastChild.focus();
+										return;
+									}
+								}
+								for (var i = 0; i < numDivs; i++) {
+									var div = divs[i];
+									if (div.className == 'ss-form-entry' &&
+									div.firstChild &&
+									div.firstChild.className == 'ss-q-title') {
+										div.lastChild.focus();
+										return;
+									}
+								}
+							})();
+						</script>
+
+						</div>
+						</div>
+
+-->
+						<!--/ end google form include -->
+
+					</dd>
+					
+					<dt id="proceeds">Where do the proceeds from PBS KIDS Apps go?</dt>
+					
+					<dd>
+						<p>By downloading a PBS KIDS App, you are directly supporting PBS KIDS programming. As a non-profit public media organization, every dollar we make is reinvested into creating more quality content that serves the needs of today&rsquo;s parents, caregivers and children.</p>
+					</dd>
+					
+				</dl>
+
+
+        <!-- PBS KIDS SuperVision -->
+        <h3 id="supervision">PBS KIDS Super Vision&trade; App</h3>
+        <p>We welcome and appreciate your feedback for the PBS KIDS Super Vision&trade; App. Please send any questions or feedback to <a href="mailto:supervisionapp@pbs.org">supervisionapp@pbs.org</a></p>
+        <ul>
+            <li>The connect code is a one-time code. Once retrieved, the connect code lasts 48 hours and cannot be used multiple times. Once you connect, you can close the app without losing any data.</li>
+            <li>If you click the DISCONNECT button on the app or website, you will lose all data for that session.</li>
+            <li>You can also lose data from your child's online sessions by deleting cookies in your browser. You will NOT lose data on the connection session if you clear your cache in your browser.</li>
+        </ul>
+
+        <dl>
+          <dt>Do I lose all of my child's activity when I disconnect?</dt>
+          <dd>Yes, if you disconnect the app from the website, you will lose the current information on website session. The code is a one-time identifier for the device. You cannot re-use this code to get the information back.</dd>
+          
+
+          <dt>Can I reconnect with the same code?</dt>
+          <dd>The connect code can only be used once. If you attempt to connect the app to the same code, the app will not work.</dd>
+                    
+
+          <dt>Will my connection get lost if I lose access to wifi or the network?</dt>
+          <dd>No. You only lose connection when you hit the DISCONNECT button on the app or on the web browser.</dd>
+          
+
+          <dt>Does this app connect to other PBS KIDS mobile apps?</dt>
+          <dd>No. Currently, the PBS KIDS Super Vision app only connects to pbskids.org. We are, however, planning to have this app connect to other PBS KIDS apps (specifically the PBS KIDS Video iOS app) in the future. Please stay tuned for updates or <a href="https://pbskids.org/newsletter/">sign up for our newsletter</a> to receive the latest information about PBS KIDS launches and updates.</dd>
+          
+
+          <dt>Can the app control and view multiple devices and computers?</dt>
+          <dd>No. Currently the app can only control and receive data from one computer at a time. We hope to offer the option to connect to multiple devices in the near future. Please email us at <a href="mailto:supervisionapp@pbs.org?Subject=Feedback%20for%20Super%20Vision%20App">supervisionapp@pbs.org</a> if you would like this feature.</dd>
+          
+
+          <dt>Can I use the same connect code for multiple devices?</dt>
+          <dd>Since the app can only control one pbskids.org session at a time, you cannot use the same code for multiple devices. One code can only be used once, and for one device. If you disconnect from the app or the website, you can go to pbskids.org to receive a new code</dd>
+
+
+          <dt>Can the app differentiate between multiple children?</dt>
+          <dd>Since the app only uses one code, it cannot differentiate between multiple children who may access pbskids.org from the same device. However, we hope to offer this functionality in the future.</dd>
+        
+
+          <dt>Can this app only track the videos and games my child watched and played?</dt>
+          <dd>Yes, currently the PBS KIDS Super Vision app tracks the videos your child watches and the games your child plays on pbskids.org. The app also tells you what skills and educational concepts your child encounters in these activities. The app will also suggest tips and activity ideas for you to extend that learning later.</dd>
+          
+
+          <dt>How do I use the Play Timer?</dt>
+          <dd>The Play Timer is a feature that allows you to remotely put the website to "sleep." You can stop your child's play on the website immediately, or set a specific time for the site to shut down. The app offers several customized options for shutting down play that can help you and your family ease the transition from computer time to the next family activity. For example, depending on your Play Timer settings, the site will alert your child that it's time for a meal, time for school, time for bed, or just time to stop playing online. The Play Timer only shuts down the pbskids.org website, not any other websites. </dd>
+          
+
+          <dt>My child cannot access the pbskids.org site after I set the timer. How do I disable it?</dt>
+          <dd>You can disable the Play Timer from your phone. Go to PLAY TIMER, and click on WAKE UP. You may also just refresh the browser and URL - the Play Timer will no longer be active.</dd>
+          
+
+          <dt>What is the "Activity Summary?"</dt>
+          <dd>It is a summary of your child's video and game activity on pbskids.org in the last week (or since you first connected the app, if that was less than a week ago).  Specifically, the summary will provide information about:
+            <ul class="bulleted-list"> 
+              <li>Your child's favorite show</li>
+              <li>Your child's most-watched video</li>
+              <li>The most-played game</li>
+              <li>The top educational skills your child learned</li>
+            </ul>
+            <p>Based on this summary, the PBS KIDS Super Vision app will also recommend to you which other PBS KIDS shows your child might enjoy, and suggest at-home activities you might play together that may meet your child's interests. Please note that the Activity Summary only tracks seven days' worth of your child's activity on pbskids.org.</p>
+          </dd>
+
+
+          <dt>Are there any other PBS KIDS parent apps?</dt>
+          <dd>You can view all PBS KIDS apps with the MORE APPS button. You can also view a list of all PBS KIDS apps, albums, e-books, and more by going to <a href="https://pbskids.org/apps">pbskids.org/apps</a>. Another PBS Parents app available is the <a href="https://pbskids.org/apps/pbs-parents-play--learn.html">PBS Parent Play &amp; Learn app.</a></dd>
+          
+
+          <dt>Where can I find more information about PBS KIDS shows, including the age ranges and educational goals for each?</dt>
+          <dd>Each activity listed within the PBS KIDS Super Vision app should include an "i" icon. Click on the "i" icon to see more specific information about each PBS KIDS series, including the target age range, description, educational focus, and website URL.</dd>
+
+          <dt>Is PBS KIDS collecting any personal info with this app?</dt>
+          <dd>
+            <p>The PBS KIDS Super Vision app does not collect any personally identifiable information.</p>
+
+            <p>Parents have trusted PBS KIDS for many years to make safe and quality educational children's content that family members of all ages can enjoy. We understand how important privacy is to you and your family, which is why we are committed to creating a safe and secure environment that family members of all ages can enjoy. As a not-for-profit public institution, our goal is to collect only the information about our users and their use of our services that will help us provide the best experience possible and achieve PBS's mission of helping educate all children.</p>
+
+            <p>The PBS KIDS Privacy Policy describes how we use, share, and protect information that we collect from you and your child online through pbskids.org and any other non-commercial websites or online services that PBS operates and that link to this Privacy Policy (collectively, the "Services"). This Privacy Policy applies only to the Services.</p>
+
+            <p>Go to <a href="https://pbskids.org/privacy/">PBS KIDS PRIVACY POLICY</a></p>
+          </dd>
+
+
+          <dt>Is the app secure?</dt>
+          <dd>The PBS KIDS Super Vision app uses a one-time connect code to pair the pbskids.org experience to the app on your phone. Not only is this connection method very safe, no personally identifiable information is transferred.</dd>
+        </dl>
+
+
+
+        <!-- PBS KIDS PLAY -->
+        <h3 id="pbskidsplay">PBS KIDS PLAY</h3>
+        <dl>
+          <dt id="play">What is PBS KIDS PLAY?</dt>
+          <dd>
+            <p>PBS KIDS PLAY! is a personalized learning service for kids ages 3 to 6 that is designed to enhance school readiness. PLAY! offers all-new educational games that adjust in difficulty based on each child&rsquo;s skill level. It also features easy-to-use parental tools which enables parents to track their child&rsquo;s learning progress &ndash; and more!</p>
+            <p>For more information on PBS KIDS PLAY!, please visit <a href="https://pbskidsplay.org/playnow/?CKF6663&btn=1">www.pbskidsplay.org.</a></p>
+          </dd>
+          
+
+          <dt id="try">How can I try PBS KIDS PLAY?</dt>
+          <dd>
+            <p>You can download a free trial version of PBS KIDS PLAY! at <a href="https://pbskidsplay.org/playnow/?CKF6663&btn=1">www.pbskidsplay.org</a>.</p>
+          </dd>
+          
+
+          <dt id="proceeds">Where do the proceeds from PBS KIDS PLAY! go?</dt>
+          <dd>
+            <p>By subscribing to PBS KIDS PLAY!, you are directly supporting PBS KIDS programming. As a non-profit public media organization, every dollar we make is reinvested into creating more quality content that serves the needs of today&rsquo;s parents, caregivers and children.</p>
+          </dd>
+        </dl>     
+				
+				
+				<!-- PBS KIDS PLAY -->
+				
+				<h3 id="pbskidsplay">PBS KIDS PLAY</h3>
+				
+				<dl>
+					
+					<dt id="play">What is PBS KIDS PLAY?</dt>
+					
+					<dd>
+						<p>PBS KIDS PLAY! is a personalized learning service for kids ages 3 to 6 that is designed to enhance school readiness. PLAY! offers all-new educational games that adjust in difficulty based on each child&rsquo;s skill level. It also features easy-to-use parental tools which enables parents to track their child&rsquo;s learning progress &ndash; and more!</p>
+						
+						<p>For more information on PBS KIDS PLAY!, please visit <a href="https://pbskidsplay.org/playnow/?CKF6663&btn=1">www.pbskidsplay.org.</a></p>
+					</dd>
+					
+					<dt id="try">How can I try PBS KIDS PLAY?</dt>
+					
+					<dd>
+						<p>You can download a free trial version of PBS KIDS PLAY! at <a href="https://pbskidsplay.org/playnow/?CKF6663&btn=1">www.pbskidsplay.org</a>.</p>
+					</dd>
+					
+					<dt id="proceeds">Where do the proceeds from PBS KIDS PLAY! go?</dt>
+					
+					<dd>
+						<p>By subscribing to PBS KIDS PLAY!, you are directly supporting PBS KIDS programming. As a non-profit public media organization, every dollar we make is reinvested into creating more quality content that serves the needs of today&rsquo;s parents, caregivers and children.</p>
+					</dd>
+				</dl>			
+				
+				
+				
+				
+				
+				<!-- OTHER QUESTIONS -->
+				
+				<h3 id="otherquestions">Other Questions</h3>
+				
+				<dl>
+				
+					<dt id="merchandise">Where can I find PBS KIDS merchandise?</dt>
+					
+					<dd>
+					
+						<p>The <a href="https://shop.pbskids.org" title="PBS KIDS Shop">PBS KIDS Shop</a> is a single destination to find DVDs, toys, clothing, party supplies and more featuring all your favorite PBS KIDS characters. With every purchase on the PBS KIDS Shop, a portion will go to support public television and the educational programming that continues to shape the minds of children.</p>
+
+						<p>Additionally, some PBS KIDS program-related merchandise is available at <a href="https://www.shoppbs.org/" title="Shop PBS">Shop PBS</a>. You can also <a href="https://pbskids.org/help/write.html">contact the producers of the program</a> directly with your request. Don’t forget, you can check out many PBS KIDS books and videos for free from your local library.</p>
+
+						
+					</dd>
+				
+					<dt id="livecharacters">Where can I see my favorite PBS KIDS character live?</dt>	
+
+					<dd><p>Live appearances by PBS KIDS characters are usually organized by the producers of the program, or by your local station. To find contact the producers of a program, choose from the list below.</p>
+					<p>Or you can write to 
+
+                                <a href="/tvschedules/localizer.html?dest=/help/faq.html%23livecharacters&station=(none)">your local station</a>for more information</p>
+					<p>Event information is sometimes listed on the <a href="https://www.pbs.org/parents/tvprograms/pbskids/">program&rsquo;s PBS Parents site</a>.</p>
+                                        </dd>
+				</dl>
+				
+				
+				<p class="end">Still have questions? <a href="write.html">Write to PBS KIDS.</a></p>
+			
+			</div><!-- end #faq -->
+		
+			<div id="footer">
+				<p><a href="/tvschedules/">TV Times</a> | <a href="/">PBS KIDS</a></p>
+				<p>Copyright &copy; 1995-2013 Public Broadcasting Service (<a href="https://pbs.org">PBS</a>). All rights reserved.</p>
+			</div><!-- end #footer -->
+		
+		</div><!-- end .inner -->
+		<div class="bottom">
+		</div><!-- end .bottom  -->
+	</div><!-- end #content -->
+
+
+<div id="backtotop">
+	<a href="#container"><img src="/help/images/backtotop.png" width="132" height="41" alt="Back to Top" /></a>
+</div><!-- end #backtotop -->
+
+
+</div><!-- end #container -->
+
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Redirect 302 /producerplayer/js/producerplayer2.js https://www-tc.pbskids.org/producerplayer/js/producerplayer2.js
+Redirect 302 /pbsk/video/lib/jquery.pbskidsvideo.latest.js https://www-tc.pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.latest.js
+Redirect 302 /pbsk/video/lib/jquery.pbskidsvideo.min-latest.js https://www-tc.pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js
+Redirect 302 /oddsquad/js/jquery.pbskidsvideo.latest.js https://www-tc.pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.latest.js
+
+# Compatibility with legacy sid nav
+Redirect 301 /sid/playground.html /sid/?
+# Redirect 301 /kidsactivity/messages/v2/messages.json https://pbskids.org/kidsactivity/messages/v2/messages.php
+
+
+# Parents teachers redirects
+Redirect 301 /curiousgeorge/parentsteachers/ https://www.pbs.org/parents/curiousgeorge/
+Redirect 301 /sid/parentsteachers/ https://www.pbs.org/parents/sid/
+Redirect 301 /arthur/parentsteachers/ https://www.pbs.org/parents/arthur/
+Redirect 301 /caillou/parentsteachers/ https://www.pbs.org/parents/caillou/
+Redirect 301 /martha/parentsteachers/ https://www.pbs.org/parents/martha/
+Redirect 301 /wordworld/parentsandteachers/ https://www.pbs.org/parents/wordworld/
+
+
+
+Redirect 301 /cgi-registry/postmaster.pl https://pbskids.org/
+Redirect 302 /cgi-registry/wordgirl/wordOfDay.pl /cgi-registry/wordgirl/wordOfDay.xml
+
+
+# WK: Redirect URLs for Creature Roundup puzzles to the "roundup" versions of the games; the assets for the puzzles are missing
+# End each URL with ? to snip off the URL query string parameter passed on by the universal_controller.php rewrite rule.
+Redirect 302 /wildkratts/games/roundup/hummingbird/ /wildkratts/games/hummingbird-hover-roundup/?
+Redirect 302 /wildkratts/games/roundup/crocodile/ /wildkratts/games/crochatch-roundup/?
+Redirect 302 /wildkratts/games/roundup/aardvark/ /wildkratts/games/aardvark-town-roundup/?
+Redirect 302 /wildkratts/games/roundup/frogfish/ /wildkratts/games/frogfish-feast-roundup/?
+Redirect 302 /wildkratts/games/roundup/spider/ /wildkratts/games/webtastic-roundup/?
+
+# Code review warning: VERY lazy workaround
+Redirect 301 /lunchlab/.html /lunchlab/home.html
+
+ErrorDocument 404 /whoops.html
+
+# Replace enablecdn in URLs. This is typically supposed to redirect to www-tc.pbskids.org
+RewriteRule ^(.*)enablecdn(.*)$ $1$2 [R=301,L]
+
+# Redirect URLs with "_" subdirectories
+RewriteRule ^(.*)_/([^/]+)(/.*)?$ /$1$2$3 [R=301,L]
+
+# Redirect @ to ?, symptom of wget
+RewriteRule ^(.*)@(.*)$ $1?$2 [N,R=301,L]
+
+RewriteRule ^(.*)cgi-registry(.*)\.cgi$ $1cgi-registry$2.php [L,R=301]
+
+
+
+
+<IfModule mod_rewrite.c>
+	RewriteBase /
+
+	# Force https to reduce same-origin policy collisions, especially between iframes
+	RewriteCond %{HTTPS} off 
+	# Make sure the request is GET, otherwise data will be lost in the HTTPS redirect (as is the case with the classic WK games)
+	RewriteCond %{REQUEST_METHOD} ^.*GET.*$ [NC]
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,END]
+
+
+	RewriteRule ^bates/pbskids/(.*)$ /$1 [R=301,L]
+
+	# Little messages in the navbar
+	RewriteRule ^kidsactivity/messages/v2/messages\.json$ kidsactivity/messages/v2/messages.php [L,QSA]
+
+	# Login system
+	RewriteRule ^go/apps/auth/signup/(\d+)$ /universal_controller.php?url=/go/apps/auth/signup/$1.php [L]
+	RewriteRule ^go/apps/auth/login/(\d+)$ /universal_controller.php?url=/go/apps/auth/login/$1.php [L]
+
+
+	# Support the lunch lab site's "smooth" navigation
+	# We have to use html instead of json because of the Content-Type header. Why it only works with text/html is beyond me
+	RewriteCond %{REQUEST_URI} ^\/lunchlab [NC]
+	RewriteCond %{REQUEST_URI} !\.php$
+	RewriteCond %{REQUEST_METHOD} ^.*POST.*$ [NC]
+	RewriteRule ^(.*)$ /$1.html [L,R=301]
+
+
+	RewriteCond %{REQUEST_URI} ^/wildkratts/scripts/creaturepedia/slir/w\d+-h\d+/(.+\.\w+)$
+  	RewriteRule ^(.*)$ /wildkratts/scripts/creaturepedia/slir.php?dimensions=w126-h84&url=%1 [L,R=301]
+
+
+	# Force trailing slash
+	RewriteCond %{REQUEST_URI} .*[/]$
+    RewriteRule ^(.*)$ /universal_controller.php?url=$1index.html [L,QSA]
+
+	
+	
+
+	# Redirect all html pages to the central controller
+	RewriteRule ^(.*)\.html$ /universal_controller.php?url=$1.html [L,QSA]
+
+</IfModule>

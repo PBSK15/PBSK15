@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+<TITLE> Cyberchase . Webisode 3 . Panel 3 | PBS Kids</TITLE>
+<style>
+.webbg { 
+		background-image : url(images/3bg3.jpg);
+		background-repeat : no-repeat;
+	}
+</style>
+
+<script language="JavaScript">
+
+if (document.images) { // Preloaded images
+n11 = new Image();
+n11.src = "images/panel3_03.gif";
+n12 = new Image();
+n12.src = "images/panel3b_03.gif";
+n13 = new Image();
+n13.src = "images/panel3c_03.gif";
+}
+function timeimgs(numb) { // Reusable timer
+thetimer = setTimeout("imgturn('" +numb+ "')", 800);
+}
+function imgturn(numb) { // Reusable image turner
+if (document.images) {
+if (numb == "4") { // This will loop the image
+document["n1"].src = eval("n11.src");
+timeimgs('2');
+}
+else { document["n1"].src = eval("n1" + numb + ".src");
+timeimgs(numb = ++numb);
+}
+}
+}
+
+</script>
+</head>
+<BODY  onload="timeimgs('2')" style="margin: 0px;">
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td class="webbg">
+	
+<TABLE WIDTH=551 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/panel3_01.gif" WIDTH=551 HEIGHT=211 alt="MEANWHILE, ON EARTH, THREE KIDS WHO DON'T KNOW EACH OTHER ARE ABOUT TO HAVE THE ADVENTURE OF THEIR LIVES.      I GOTTA ORGANIZE THIS STUFF!" border="0" usemap="#panel"></TD>
+	</TR>
+	<TR>
+		<TD><IMG SRC="images/panel3_02.gif" WIDTH=224 HEIGHT=72 alt="" border="0"></TD>
+		<TD><IMG SRC="images/panel3_03.gif" WIDTH=120 HEIGHT=72 name="n1" alt="" border="0"></TD>
+		<TD><IMG SRC="images/panel3_04.gif" WIDTH=207 HEIGHT=72 alt="MEET JACKIE, WHO HAS HER OWN STYLE..." border="0"></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3><IMG SRC="images/panel3_05.gif" WIDTH=551 HEIGHT=117 alt="" border="0" usemap="#next"></TD>
+	</TR>
+</TABLE>
+
+	
+</td></tr></table>
+
+<map name="panel">
+<area alt="Webisode 3" coords="249,12,352,43" href="1.html" shape="RECT">
+<area alt="How It All Started" coords="51,13,240,37" href="../webisodes-global/how_started.html">
+</map>
+<map name="next">
+<area alt="next" coords="454,38,527,111" href="4.html">
+</map>
+
+
+
+</BODY>
+</HTML>

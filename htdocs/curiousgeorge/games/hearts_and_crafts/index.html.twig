@@ -1,0 +1,91 @@
+{% extends 'curiousgeorge/includes/templates/html5_game_page.html.twig' %}
+{% set pageTitle = 'George\'s Hearts and Crafts' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="css/georgehc_main.css" /><style>*{-webkit-tap-highlight-color:rgba(0, 0, 0, 0)}@font-face{font-family:\'Wellfleet\';src:url(\'fonts/Wellfleet-Regular.ttf\') format(\'truetype\')}.Wellfleet{font-family:\'Wellfleet\', Arial, serif;font-weight:400}#html5-marquee{clear:both;background-image:url("/curiousgeorge/img/bg_pattern.gif");background-repeat:repeat;height:650px;width:100%}#blueborder{position:absolute;z-index:4}#canvas_parent{position:relative;top:-12px;left:53px}#html5game{display:none;position:absolute;border-radius:25px;z-index:5}#dhCanvas{z-index:-1;position:absolute;left:53px;margin-top:520px;display:none}#coverImg{display:none;position:absolute;border-radius:25px;z-index:3}#startBtn{display:none;position:absolute;left:572px;top:363px;z-index:6;cursor:pointer}#startBtn:hover{cursor:pointer}#ftr-games{top:650px;left:150px}#ftr_play{margin-top:-25px}</style>' %}
+
+{% block gameFrame %}	<div id="html5-marquee">
+		<div id="canvas_parent" width="900" height="506">
+			<div id="georgehc-game-box">
+				<div id="georgehc-game">
+					<canvas id="georgehc-game-canv" class="fullsize" width="900" height="506"></canvas>			
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--hidden second canvas to create and copy bitmap data -->
+	<canvas id="dhCanvas" width="900" height="506"></canvas>{% endblock %}
+	
+{% block specialJs %}<script type="text/javascript">
+function checkBrowser()
+	{
+		//DEVICE DETECTION:
+
+		//if //**console.log doesn't exist (IE), use log instead, so //**console.log calls won't halt JS
+		if(typeof console === "undefined") console = { log: function() { } };
+
+			//if allowed browser- proper dType and sizing:
+			if( (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)) ) {
+				//redirect of iOS <= 5.0
+				if (/OS [1-4](.*) like Mac OS X/i.test(navigator.userAgent)) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType = 'iOS';
+			}
+			//android?
+			else if( (navigator.userAgent.search("Android") != -1) ){ //&& (navigator.userAgent.search("Chrome") != -1)) {
+			var androidversion = parseFloat(navigator.userAgent.slice(navigator.userAgent.indexOf("Android")+8));
+			if (androidversion < 4.0) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+			dType = 'android';
+		}
+		//else, a desktop browser, with version-based redirect to /curiousgeorge/games/updatebrowser.html:
+		else{
+
+			if (/Chrome[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var chversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(chversion < 24) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType = 'desktop';
+			}
+			else if (/Safari[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var safversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				//minimum safari support: 5.0 in Snow Leopard
+				if(safversion < 533.21) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType = 'desktop';
+			}
+			else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){
+				var ffversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(ffversion < 18) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType = 'desktop';
+			}
+
+			else if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){
+				var ieversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+				if(ieversion < 9.0) window.location.href = "/curiousgeorge/games/updatebrowser.html";
+
+				dType='ie';
+			}
+			else{
+				//alert('unknown desktop browser');
+				dType = 'desktop';
+			}
+		}
+
+		console.log('>>	dType:'  + dType);	
+	}
+	checkBrowser();
+</script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/createjs/easeljs-0.8.0.min.js"></script>
+	<script type="text/javascript" src="js/createjs/preloadjs-0.6.0.min.js"></script>
+	<script type="text/javascript" src="js/createjs/soundjs-0.6.0.min.js"></script>
+	<script type="text/javascript" src="js/createjs/tweenjs-0.6.0.min.js"></script>
+
+	<script type="text/javascript" src="js/CharacterSound.js"></script>
+<script type="text/javascript" src="js/gameController.js"></script>
+<script type="text/javascript">
+gameController.getType(dType);
+</script>{% endblock %}

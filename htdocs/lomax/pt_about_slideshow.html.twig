@@ -1,0 +1,61 @@
+{% extends 'lomax/includes/lomaxPtPage.html.twig' %}
+{% set pageTitle = 'Parents and Teachers | ' %}
+
+
+{% block mainContent %}<div id="content_outer">
+ <div id="content">
+  <div id="pt_menu">
+   <div class="pt_menu_btn">
+    <a href="pt_about.html"><img src="imgs/btn_pt_about_over.gif" border="0" width="114" height="39" alt="About the Program" name="btn_pt_about"></a><br>
+   </div>
+   <div class="pt_menu_btn">
+    <a href="pt_tvsched.html"><img src="imgs/btn_pt_tvsched.gif" border="0" width="114" height="39" alt="TV Schedule" name="btn_pt_tvsched" onmouseover="MM_swapImage('btn_pt_tvsched','','imgs/btn_pt_tvsched_over.gif',1);" onmouseout="MM_swapImgRestore();"></a><br>
+   </div>
+   <div class="pt_menu_btn">
+    <a href="pt_activities.html"><img src="imgs/btn_pt_activities.gif" border="0" width="114" height="39" alt="Activities / Lesson Plans" name="btn_pt_activities" onmouseover="MM_swapImage('btn_pt_activities','','imgs/btn_pt_activities_over.gif',1);" onmouseout="MM_swapImgRestore();"></a><br>
+   </div>
+   <div class="pt_menu_btn">
+    <a href="pt_resources.html"><img src="imgs/btn_pt_resources.gif" border="0" width="114" height="39" alt="Resources" name="btn_pt_resources" onmouseover="MM_swapImage('btn_pt_resources','','imgs/btn_pt_resources_over.gif',1);" onmouseout="MM_swapImgRestore();"></a><br>
+   </div>
+   <div class="pt_menu_btn">
+    <a href="pt_site.html"><img src="imgs/btn_pt_site.gif" border="0" width="114" height="39" alt="About the Site" name="btn_pt_site" onmouseover="MM_swapImage('btn_pt_site','','imgs/btn_pt_site_over.gif',1);" onmouseout="MM_swapImgRestore();"></a><br>
+   </div>
+   <div class="pt_menu_btn">
+    <a href="pt_contact.html"><img src="imgs/btn_pt_contact.gif" border="0" width="114" height="39" alt="Contact Us" name="btn_pt_contact" onmouseover="MM_swapImage('btn_pt_contact','','imgs/btn_pt_contact_over.gif',1);" onmouseout="MM_swapImgRestore();"></a><br>
+   </div>
+  </div>
+  <div id="content_inner">
+   <div id="spacer"></div> <!--content start-->
+   <h1>About the Program</h1>
+   <h2 class="heading"><img src="imgs/pt/abt_slideshow.gif" width="84" height="78" border="0" alt="Slideshow"><br> Slideshow</h2> <br>
+   <table width="500" height="550" border="0" cellpadding="0" cellspacing="0" background="imgs/pt/abt_slideshow_bg.gif" style="background-repeat: no-repeat; background-position: 46px 20px;">
+    <tbody>
+     <tr>
+      <td height="496" align="left" valign="top">
+       <table width="413" height="492" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody>
+         <tr>
+          <td height="326" align="center"><img src="imgs/pt/slides/slide1.jpg" alt="Slide" name="slideshow" width="373" height="251"></td>
+         </tr>
+         <tr>
+          <td height="180" align="center" valign="top">
+           <table width="500">
+            <tbody>
+             <tr>
+              <td align="left" valign="top"><a href="javascript:chgImg(-1)"><img src="imgs/pt/abt_slideshow_left.gif" alt="Previous" width="61" height="58" border="0"></a></td>
+              <td align="center" valign="top">
+               <div id="caption"></div></td>
+              <td align="right" valign="top"><a href="javascript:chgImg(+1)"><img src="imgs/pt/abt_slideshow_right.gif" alt="Next" width="60" height="57" border="0"></a></td>
+             </tr>
+            </tbody>
+           </table></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+    </tbody>
+   </table> <!--content end-->
+  </div>
+ </div>
+</div>{% endblock %}
+

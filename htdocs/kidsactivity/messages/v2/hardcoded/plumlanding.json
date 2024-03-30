@@ -1,0 +1,83 @@
+{
+    "content": {
+        "age_range": "2-4", 
+        "shop_url": null, 
+        "title": "PBS KIDS", 
+        "url": "http://pbskids.org/", 
+        "curriculum": [
+            {
+                "name": "Fine Arts", 
+                "description": "The expression of imagination through music, art, movement, & dramatic play."
+            }, 
+            {
+                "name": "Literacy", 
+                "description": "The ability to read & write. "
+            }, 
+            {
+                "name": "Math", 
+                "description": "A systematic standardized language designed to describe, measure, compare, & show relationships.  "
+            }, 
+            {
+                "name": "Health", 
+                "description": "Improving the physical & mental well-being of individuals & communities by increasing their knowledge or influencing their attitudes. "
+            }, 
+            {
+                "name": "Science", 
+                "description": "The study of the world & beyond, the living & non-living inhabitants, & their interaction within their habitats.  "
+            }, 
+            {
+                "name": "Social Emotional", 
+                "description": "Learning to understand & manage emotions, & achieve positive goals."
+            }, 
+            {
+                "name": "Social Studies", 
+                "description": "An integrated field of study that draws upon many disciplines, including economics, geography, & history."
+            }, 
+            {
+                "name": "Animals", 
+                "description": "A living thing that is not a human being or a plant. "
+            }, 
+            {
+                "name": "Engineering", 
+                "description": "The process of inventing, designing, & developing the tools we use in society."
+            }, 
+            {
+                "name": "Spanish", 
+                "description": "The language of Spain, Mexico, and many countries in Latin America."
+            }, 
+            {
+                "name": "Dance", 
+                "description": "The art of moving the body and feet in a rhythmic way and usually in time to music. "
+            }, 
+            {
+                "name": "Music", 
+                "description": "The art of sequencing & combining a succession of sounds in time so they produce a composition having unity."
+            }, 
+            {
+                "name": "Nutrition", 
+                "description": "Understanding the importance of a healthy diet & eating habits and incorporating these habits into daily routines."
+            }
+        ], 
+        "parents_url": null, 
+        "short_description": "", 
+        "itunes_url": null, 
+        "type": [
+            "Site"
+        ], 
+        "long_description": ""
+    }, 
+    "messages": [
+        {
+            "link_title": "", 
+            "weight": 50, 
+            "action_text": "Learn more", 
+            "content": "http://www.pbs.org/parents/holidays/5-meaningful-holiday-traditions-kids/", 
+            "subtype": "activity", 
+            "tooltip_title": "", 
+            "link": "", 
+            "short_description": "5 Meaningful Holiday Traditions for Kids", 
+            "type": "Parents", 
+            "long_description": "5 Meaningful Holiday Traditions for Kids."
+        }
+    ]
+}

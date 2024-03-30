@@ -1,0 +1,13 @@
+{% extends 'lomax/includes/lomaxPage.html.twig' %}
+{% set pageTitle = 'Ragtime Annie - ' %}
+
+
+{% block flashScript %}<script type="text/javascript">
+            var fo = new SWFObject("music.swf", "flashcontent", "772", "487", "9", "#ffd904");
+            PBS_enable_cdn(fo);
+            fo.addParam("wmode", "transparent");
+            fo.addParam("allowScriptAccess", "always");
+            fo.addVariable("song", "12");
+            fo.write("flashcontent");
+            </script>{% endblock %}
+

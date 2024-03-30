@@ -1,0 +1,35 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Activities . Paper Dolls . Rosie Outfit 6' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation, colouring pages' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script type="text/javascript">  var isRolloverOn = false;  if (document.images) {	close_buttonon = new Image();	close_buttonon.src = "../images/back_btn-over.gif";	close_buttonoff = new Image();	close_buttonoff.src = "../images/back_btn.gif";	}	                  function act(imgName) {                if (document.images) {                    document[imgName].src = eval(imgName + 'on.src');                }            }                      function inact(imgName) {                if (document.images) {                    document[imgName].src = eval(imgName + 'off.src');                }            }</script>
+{% endblock %}
+
+{% set bodyTag = '<body bgcolor="#FFFFFF">' %}
+
+{% block mainContent %}<div align="center">
+ <table width="540" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+   <tr>
+    <td width="20%"><a href="https:pbskids.org/"><img src="../images/pbs_logo.gif" alt="PBS Kids homepage" height="72" width="50" border="0"></a></td>
+    <td width="60%">
+     <div align="center"><a href="../../index.html"><img src="../images/caillou_word.gif" alt="Caillou homepage" height="72" width="179" border="0"></a>
+     </div></td>
+    <td width="20%">
+     <div align="right"><a onmouseover="document.close_button.src=close_buttonon.src" onmouseout="document.close_button.src=close_buttonoff.src" href="index2.html"><img src="../images/back_btn.gif" alt="Go back" name="close_button" height="59" width="92" border="0"></a>
+     </div></td>
+   </tr>
+  </tbody>
+ </table>
+ <table width="540" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+   <tr>
+    <td><img src="images/outfit_rosie6.gif" alt="Outfit 1 for Rosie" height="650" width="540"></td>
+   </tr>
+   <tr>
+    <td align="center"><img src="images/spacer.gif" alt="" height="32" width="32" border="0"></td>
+   </tr>
+  </tbody>
+ </table>
+</div>{% endblock %}

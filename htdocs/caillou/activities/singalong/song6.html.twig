@@ -1,0 +1,56 @@
+{% extends 'caillou/includes/legacyPage.html.twig' %}
+{% set pageTitle = 'Printables & Activities . Singalong' %}
+{% set keywds = 'Caillou, Rosie, Gilbert, Teddy, Rexy, pre-school, Cinar, PBS, ready to learn, kids, games, children, animation' %}
+{% set desc = 'The Official Caillou Web Site' %}
+
+{% block specialScripts %}<script type="text/javascript">function newImage(arg) {	if (document.images) {		rslt = new Image();		rslt.src = arg;		return rslt;	}}function changeImages() {	if (document.images && (preloadFlag == true)) {		for (var i=0; i<changeImages.arguments.length; i+=2) {			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];		}	}}var preloadFlag = false;function preloadImages() {	if (document.images) {		 Connect_the_dits_over = newImage("images/Connect-the-dits-over.gif");		 Your_own_Storybook_over = newImage("images/Your-own-Storybook-over.gif");		 Paper_dolls_over = newImage("images/Paper-dolls-over.gif");		 Memory_Activity_over = newImage("images/Memory-Activity-over.gif");		 Coloring_Book_over = newImage("images/Coloring-Book-over.gif");		 Return_Printable_over = newImage("images/Return_Printable-over.gif");		preloadFlag = true;	}} </script>
+{% endblock %}
+
+{% set bodyTag = '<body onload="preloadImages();">' %}
+
+{% block mainContent %}<table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <tbody>
+  <tr>
+   <td>
+    <div align="center"><a name="top"></a>
+     <table width="756" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr>
+        <td width="50">&nbsp;</td>
+        <td width="150" align="left"><a href="https://pbskids.org/"><img name="PBS KIDS" src="/caillou/images/PBSLogo.gif" width="42" height="54" border="0" alt="PBS KIDS" title="PBS KIDS"></a></td>
+        <td width="300" align="left"><a href="/caillou/index.html" onmouseover="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseout="changeImages('entete', '/caillou/images/entete.gif'); return true;" onmousedown="changeImages('entete', '/caillou/images/entete-over.gif'); return true;" onmouseup="changeImages('entete', '/caillou/images/entete-over.gif'); return true;"><img name="entete" src="/caillou/images/entete.gif" width="184" height="96" border="0" alt="Caillou Homepage" title="Caillou Homepage"></a></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+  <tr height="16">
+   <td bgcolor="white" height="16">
+    <div align="center">
+     <table width="550" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+       <tr height="22">
+        <td width="300" height="22">&nbsp;</td>
+        <td height="22"></td>
+        <td width="231" height="22"></td>
+       </tr>
+       <tr>
+        <td valign="top" width="300"><p class="Song_text"><img src="images/Song2_title.gif" alt="Vacation" name="song" height="50" width="320" border="0"><br> <img src="images/separator.gif" alt="separator" height="23" width="136" border="0"><br></p> <object id="audio" classid="CLSID:CFCDAA03-8BE4-11CF-B84B-0020AFBBCCFA" width="166" height="26"> <param name="autostart" value="true"> <param name="SRC" value="https://media.pbs.org/ramgen/caillou/vacation.ra"> <param name="CONTROLS" value="ControlPanel"> <param name="CONSOLE" value="audio"> <embed name="audio" src="https://media.pbs.org/ramgen/caillou/vacation.ra?embed" type="audio/x-pn-realaudio-plugin" autostart="true" width="166" height="26" hspace="0" vspace="0" border="0" controls="ControlPanel" console="audio"> </object> <object id="audio" classid="CLSID:CFCDAA03-8BE4-11CF-B84B-0020AFBBCCFA" width="166" height="26"> <param name="autostart" value="true"> <param name="SRC" value="https://media.pbs.org/ramgen/caillou/vacation.ra"> <param name="CONTROLS" value="StatusPanel"> <param name="CONSOLE" value="audio"> <embed name="audio" src="https://media.pbs.org/ramgen/caillou/vacation.ra?embed" type="audio/x-pn-realaudio-plugin" autostart="true" width="166" height="26" hspace="0" vspace="0" border="0" controls="StatusPanel" console="audio"> </object> <p class="instruct_normal">You need <span class="instruct_bold">RealPlayer</span> to be able to play the songs. Click <a href="https://www.real.com/player/index.html" title="RealPlayer"><span class="instruct_bold">here</span></a> to get the real player plugin. <img src="images/separator.gif" alt="separator" name="separator" height="23" width="175" border="0"><br></p> <p class="Song_text">Caillou, have you got your bags packed?<br> The whole family is going on a vacation!</p> <p class="Song_text">Yay! We're going on a vacation!</p> <p class="Song_text">Have mommy pack my bags,<br> Bring my new hat,<br> We're off on a holiday,<br> Imagine that!<br> Let's get in the car,<br> Bring Teddy Bear.<br> If you leave him here,<br> He won't be there!</p> <p class="Song_text">Va-ca-tion, a week away!<br> Family time to laugh and play!<br> Va-ca-tion, a week of fun,<br> For you and me and everyone!</p> <p class="Song_text">Daddy, are we almost there yet?<br> I can't wait!</p> <p class="Song_text">New things to do,<br> Swim in the waves,<br> Build castles of sand,<br> Explore a cave;<br> Buy some postcards,<br> Let's be sure to send,<br> Each one back home,<br> To all my friends!</p> <p class="Song_text">Va-ca-tion, a week away!<br> Family time to laugh and play!<br> Va-ca-tion, a week of fun,<br> For you and me and everyone!</p>
+         <div align="center"><a href="#top" onmouseover="changeImages('top', 'images/btn_top-over.gif'); return true;" onmouseout="changeImages('top', 'images/btn_top.gif'); return true;" onmousedown="changeImages('top', 'images/btn_top-over.gif'); return true;" onmouseup="changeImages('top', 'images/btn_top-over.gif'); return true;"><img src="images/btn_top.gif" alt="Go to the top" name="top" height="61" width="62" border="0"></a>
+         </div></td>
+        <td></td>
+        <td valign="top" width="231">
+         <div align="center">
+          <p><img src="images/sing_caillou.jpg" alt="Caillou playing the trumpet" height="314" width="231" border="0"></p>
+          <p><a href="../songs.html" onmouseover="changeImages('back', 'images/btn_moresongs-over.gif'); return true;" onmouseout="changeImages('back', 'images/btn_moresongs.gif'); return true;" onmousedown="changeImages('back', 'images/btn_moresongs-over.gif'); return true;" onmouseup="changeImages('back', 'images/btn_moresongs-over.gif'); return true;"><img src="images/btn_moresongs.gif" alt="More songs" name="back" width="110" height="61" border="0" id="back"></a></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div></td>
+  </tr>
+ </tbody>
+</table><div align="center">
+ <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">| <a class="footer" href="/caillou/">Home</a> | <a class="footer" href="/caillou/immersivegames/">Play with Caillou</a> | <a class="footer" href="/caillou/activities/">Printables &amp; Activities</a> | <br> <a class="footer" href="https://pbskids.org/tvschedules/airdates.html?title_id=CAIU">Caillou on TV</a> | <a class="footer" href="/caillou/parentsteachers/">Parents &amp; Teachers</a></p>
+ <p style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;text-align:center;">Web site copyright © <a class="footer" href="/caillou/copyright.html">2007</a> COOKIE JAR ENTERTAINMENT™<br> Les Editions Chouette. All rights reserved. <a class="footer" href="https://pbskids.org/privacy/">PBS Privacy Policy</a></p>
+</div>{% endblock %}

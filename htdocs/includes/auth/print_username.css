@@ -1,0 +1,65 @@
+/* CSS for printing the username & password */
+
+body {
+    background-color: #fff;
+    display: block;
+}
+
+h1, p {
+    display: none;
+}
+
+h3.print {
+    display: block;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30% auto 1em;
+    text-align: center;
+}
+
+dl.printout {
+    border: 3px dashed #000;
+    display: block;
+    font-family: Arial;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 2em 0;
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+}
+
+dl.printout dt {
+    color: #555;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0 1% 0 0;
+    text-align: right;
+    text-transform: lowercase;
+    width: 59%;
+}
+
+dl.printout dd {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 1%;
+    text-align: left;
+    width: 39%;
+}
+
+dl.printout dt img {
+    display: block;
+    height: 90px;
+    left: 7%;
+    position: absolute;
+    top: 25%;
+    width: 100px;
+}
+
+.button {
+    display: none;
+}
+

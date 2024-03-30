@@ -1,0 +1,26 @@
+{% extends 'lunchlab/includes/lunchLabPage.html.twig' %}
+{% set pageTitle = 'Contact Us' %}
+
+
+{% block mainContent %}<div id="containerContainer">
+ <div id="pageLoader"></div>
+ <div class="clearfix contentContainer">
+  <div id="content" class="clearfix">
+   <div class="center frame clearfix admin">
+    <div class="topRightCorner"></div>
+    <div class="topLeftCorner"></div>
+    <div class="bottomRightCorner"></div>
+    <div class="bottomLeftCorner"></div>
+    <div class="topBar"></div>
+    <div class="bottomBar"></div>
+    <div class="leftBar"></div>
+    <div class="rightBar"></div>
+    <h1>Contact Us</h1>
+    <form id="contactForm" class="clearfix" method="post" action="">
+     <label for="email">Your E-Mail</label><input class="text required" type="text" id="email" name="email"><label for="name">Your Name</label><input class="text required" type="text" id="name" name="name"><label for="subject">Subject</label><input class="text required" type="text" id="subject" name="subject"><label for="message">Message</label><textarea id="message" name="message" class="required"></textarea><input class="button major" type="submit" value="Submit" id="submit"><input type="hidden" name="form" value="LunchLab\Forms\ContactUs">
+    </form>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+

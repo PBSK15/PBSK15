@@ -1,0 +1,348 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+a { color: #F10; }
+a:visited { color: #B50C00; }
+
+body {
+	/*font: 0.8em/1.2em 'Trebuchet MS' , arial, verdana, sans-serif;*/
+	font: 62.5% 'Trebuchet MS' , arial, verdana, sans-serif;
+	color: #003F59;
+	background-color: #F10;
+	background-image: url(https://pbskids.org/curiousgeorge/img/bg_pattern.gif);
+	background-repeat: repeat;
+}
+
+.border img { vertical-align: bottom; }
+
+p {
+	font-size: 1.2em;
+	margin-bottom: .8em;
+}
+
+ul.list { font-size: 1.2em; }
+ul.list li { margin: 0 0 1em 1.5em; }
+
+#flash-game {
+	position: absolute;
+	top: 88px;
+	left: 18px;
+	text-align: center;
+}
+
+#flash-game #nametag { margin: -4px 0 0 89px; }
+#flash-game #nametag p { margin: 30px 0 0; }
+
+#cgi-game {
+	position: absolute;
+	top: 92px;
+	left: 89px;
+}
+
+#cgi-game #frame-left {
+	float: left;
+	width: 58px;
+}
+
+#cgi-game #frame-left-gs {
+	float: left;
+	width: 132px;
+}
+
+#cgi-game #frame-right {
+	float: left;
+	width: 58px;
+}
+
+#cgi-game img, #cgi-game input { display: block; }
+#cgi-game #nametag { margin: -3px 0 0 57px; }
+
+#play-btn-gp {
+	position: absolute;
+	top: 320px;
+	left: 160px;
+}
+
+#ftr {
+	width: 732px;
+	margin: 25px 0 25px 0;
+	text-align: center;
+	color: #01415b;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+#ftr-games {
+	position: absolute;
+	top: 550px;
+	left: 50px;
+	width: 705px;
+	text-align: center;
+	color: #01415b;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+#ftr a, #ftr-games a {
+	color: #F10;
+	font-size: 1.2em;
+}
+
+#ftr a, #ftr-games a:hover { text-decoration: underline; }
+
+div.icon {
+	float: left;
+	width: 143px;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+div.icon-txt { margin: 30px 0 0 5px; }
+
+div.icon-dbl {
+	float: left;
+	width: 245px;
+	padding: 0 0 20px 20px;
+}
+
+div.icon a {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+div.icon img {
+	padding: 5px 0 0;
+	width: 118px;
+	height: 107px;
+}
+
+h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 1.4em;
+	font-weight: normal;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#int {
+	margin: -15px 0 0 30px;
+	width: 740px;
+}
+
+/* #int img { vertical-align: bottom; } */
+#int-content {
+	width: 733px;
+	background-image: url(/curiousgeorge/img/int_bg.gif);
+	background-repeat: repeat-y;
+	color: #003F59;
+}
+
+#int-content #img { text-align: center; }
+#int-content #img2 { text-align: center; }
+
+#int-content #img img {
+	vertical-align: bottom;
+	width: 512px;
+	height: 548px;
+}
+
+#int-content #img2 img {
+	vertical-align: bottom;
+	width: 512px;
+	height: 548px;
+}
+
+#nav {
+	background-color: #F10;
+	height: 105px;
+}
+
+#nav-container { width: 780px; }
+#nav img { vertical-align: bottom; }
+
+#nav img#logo-pbskids {
+	height: 91px;
+	width: 71px;
+}
+
+#nav img#logo-cg {
+	height: 91px;
+	width: 222px;
+}
+
+#nav img#games {
+	height: 91px;
+	width: 114px;
+}
+
+#nav img#printables {
+	height: 91px;
+	width: 117px;
+}
+
+#nav img#video {
+	height: 91px;
+	width: 117px;
+}
+
+#nav img#pt {
+	height: 91px;
+	width: 117px;
+}
+
+#nav img#parents {
+	display: inline;
+	vertical-align: top;
+	height: 46px;
+	width: 117px;
+}
+
+#nav img#teachers {
+	vertical-align: top;
+	height: 46px;
+	width: 117px;
+}
+
+#nav #ptnav {
+	position: absolute;
+	display: inline;
+	width: 117px;
+	height: 92px;
+}
+
+#print-nav {
+	position: absolute;
+	top: 105px;
+	left: 430px;
+}
+
+#print-ftr { display: none; }
+#print-ftr2 { display: none; }
+
+#pt-tag {
+	position: absolute;
+	width: 724px;
+	margin: 400px 0 25px 70px;
+	text-align: center;
+}
+
+#uno {
+	float: left;
+	width: 280px;
+}
+
+#uno img {
+	position: relative;
+	margin: -73px 0 0 10px;
+}
+
+#dos {
+	float: left;
+	width: 429px;
+	margin: 0 0 0 -15px;
+}
+
+#print-lgl { display: none; }
+
+#print-counter {
+	width: 235px;
+	height: 75px;
+	background: url(/curiousgeorge/printables/img/p_title.gif) no-repeat 0px 0px;
+	float: left;
+	text-align: center;
+	color: #FFF;
+}
+
+#print-counter a {
+	width: 235px;
+	height: 75px;
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#print-counter h2 { padding: 50px 0 0 0; }
+
+#print-nav-index {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+}
+
+.print-spacer {
+	width: 72px;
+	height: 55px;
+	float: left;
+}
+
+#vid-counter {
+	width: 235px;
+	height: 75px;
+	background: url(/curiousgeorge/video/img/v_title.gif) no-repeat 0px 0px;
+	float: left;
+	text-align: center;
+	color: #FFF;
+}
+
+#vid-counter a {
+	width: 235px;
+	height: 75px;
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#vid-counter h2 { padding: 50px 0 0 0; }
+
+#vid-nav {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+}
+
+.vid-spacer {
+	width: 72px;
+	height: 55px;
+	float: left;
+}
+
+#uno-vid {
+	float: left;
+	width: 429px;
+	margin: 10px 0 0 5px;
+}
+
+#dos-vid {
+	float: left;
+	width: 294px;
+	margin: 0 0 0 0px;
+}
+
+#ftr_play {
+	float: right;
+	width: 146px;
+	margin-top: -50px;
+	padding: 0;
+}
+
+#ftr_play p {
+	text-indent: 5px;
+	color: #03536E;
+}

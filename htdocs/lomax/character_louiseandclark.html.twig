@@ -1,0 +1,12 @@
+{% extends 'lomax/includes/lomaxPage.html.twig' %}
+{% set pageTitle = 'Louise & Clark - ' %}
+
+
+{% block flashScript %}<script type="text/javascript">
+            var fo = new SWFObject("character_louiseandclark.swf", "flashcontent", "772", "487", "9", "#ffd904");
+            PBS_enable_cdn(fo);
+            fo.addParam("wmode", "transparent");
+            fo.addParam("allowScriptAccess", "always");
+            fo.write("flashcontent");
+            </script>{% endblock %}
+

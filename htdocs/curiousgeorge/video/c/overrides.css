@@ -1,0 +1,38 @@
+#drive-in {
+margin-top: 26px;
+width: 961px;
+height: 716px;
+padding-top: 51px;
+background: transparent url(https://res.cloudinary.com/good-old-pbs-cdn/image/upload/2015/pbsk_resources/curiousgeorge/video/img/vidplayer-bg.png)
+}
+
+#player {
+margin: 0 auto;
+width: 775px;
+position: relative;
+}
+
+#car {
+position: absolute;
+top: 636px;
+left: 195px;
+}
+
+#localization {
+margin: 18px 0 10px 325px;
+width: 350px;
+text-align: center;
+overflow: auto;
+}
+
+#localization p {
+float: left;
+text-align: center;
+clear: none;
+width: 268px;
+font-size: 12px;
+}
+
+#localization img {
+float: right;
+}

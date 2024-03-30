@@ -1,0 +1,448 @@
+{
+  "resources": [    
+    "output.mp3",
+    "output.ogg"
+  ],
+  "spritemap": {
+    "12_Level Starts": {
+      "start": 0,
+      "end": 2.0572789115646257,
+      "loop": false
+    },
+    "14_Tube Selection Appears": {
+      "start": 4,
+      "end": 5.636394557823129,
+      "loop": false
+    },
+    "15A_Tube Appears in Ruler": {
+      "start": 7,
+      "end": 9.858684807256235,
+      "loop": false
+    },
+    "15_Tube Clicked": {
+      "start": 11,
+      "end": 11.73795918367347,
+      "loop": false
+    },
+    "16_Tube Falls Into Place_1": {
+      "start": 13,
+      "end": 15.666666666666666,
+      "loop": false
+    },
+    "16_Tube Falls Into Place_2": {
+      "start": 17,
+      "end": 19.76800453514739,
+      "loop": false
+    },
+    "16_Tube Falls Into Place_3": {
+      "start": 21,
+      "end": 23.528004535147392,
+      "loop": false
+    },
+    "18_Passes Tube Boundry_1": {
+      "start": 25,
+      "end": 25.345986394557823,
+      "loop": false
+    },
+    "18_Passes Tube Boundry_2": {
+      "start": 27,
+      "end": 27.29097505668934,
+      "loop": false
+    },
+    "18_Passes Tube Boundry_3": {
+      "start": 29,
+      "end": 29.411473922902495,
+      "loop": false
+    },
+    "19_Collect Juice Box": {
+      "start": 31,
+      "end": 32.19467120181406,
+      "loop": false
+    },
+    "20_Hit Unfinished Pipe Section": {
+      "start": 34,
+      "end": 35.477437641723355,
+      "loop": false
+    },
+    "21_Hit Unturned Pipe Section": {
+      "start": 37,
+      "end": 38.15265306122449,
+      "loop": false
+    },
+    "23_Turns Piece_1": {
+      "start": 40,
+      "end": 42.22931972789116,
+      "loop": false
+    },
+    "23_Turns Piece_2": {
+      "start": 44,
+      "end": 46.09453514739229,
+      "loop": false
+    },
+    "24_Marshmellow Obsticle": {
+      "start": 48,
+      "end": 48.970680272108844,
+      "loop": false
+    },
+    "25_Flip Piece_1": {
+      "start": 50,
+      "end": 53.58401360544218,
+      "loop": false
+    },
+    "25_Flip Piece_2": {
+      "start": 55,
+      "end": 57.666666666666664,
+      "loop": false
+    },
+    "28_Finger Appears": {
+      "start": 59,
+      "end": 60.69385487528345,
+      "loop": false
+    },
+    "29A_Measure Tool STOPS": {
+      "start": 62,
+      "end": 62.99734693877551,
+      "loop": false
+    },
+    "29_Drag Measure Tool_LOOP": {
+      "start": 64,
+      "end": 64.50133786848073,
+      "loop": false
+    },
+    "31_Rotation Piece Pulse": {
+      "start": 66,
+      "end": 67.28,
+      "loop": false
+    },
+    "39_End Level Screen Appears": {
+      "start": 69,
+      "end": 73.3953514739229,
+      "loop": false
+    },
+    "45_Barber Pole": {
+      "start": 75,
+      "end": 75.52800453514739,
+      "loop": false
+    },
+    "46A_Ball Finishes Tube Maze": {
+      "start": 77,
+      "end": 79.72263038548753,
+      "loop": false
+    },
+    "46_Pin Wheel": {
+      "start": 81,
+      "end": 82.58401360544218,
+      "loop": false
+    },
+    "47_Fish Bowl": {
+      "start": 84,
+      "end": 84.58401360544218,
+      "loop": false
+    },
+    "48_Ball Pit": {
+      "start": 86,
+      "end": 86.5546485260771,
+      "loop": false
+    },
+    "49_Loop": {
+      "start": 88,
+      "end": 88.85333333333334,
+      "loop": false
+    },
+    "50_Passes Rings": {
+      "start": 90,
+      "end": 90.36800453514739,
+      "loop": false
+    },
+    "51_Popcorn": {
+      "start": 92,
+      "end": 92.4373469387755,
+      "loop": false
+    },
+    "54_Music Box": {
+      "start": 94,
+      "end": 95.57868480725624,
+      "loop": false
+    },
+    "55_Sludge": {
+      "start": 97,
+      "end": 97.94868480725624,
+      "loop": false
+    },
+    "56_Energy Bridge": {
+      "start": 99,
+      "end": 99.87160997732427,
+      "loop": false
+    },
+    "57_Vines": {
+      "start": 101,
+      "end": 102.25641723356009,
+      "loop": false
+    },
+    "58_Energy Generator": {
+      "start": 104,
+      "end": 105.2658276643991,
+      "loop": false
+    },
+    "59_Fabric Tube": {
+      "start": 107,
+      "end": 107.81643990929705,
+      "loop": false
+    },
+    "5_Play_Button": {
+      "start": 109,
+      "end": 110.62133786848072,
+      "loop": false
+    },
+    "60_RUBBER": {
+      "start": 112,
+      "end": 112.84090702947846,
+      "loop": false
+    },
+    "61_STEAM": {
+      "start": 114,
+      "end": 115.2243537414966,
+      "loop": false
+    },
+    "9_Level Selection Scrolls_2": {
+      "start": 117,
+      "end": 118.89868480725623,
+      "loop": false
+    },
+    "9_Level Selection_Scrolls_1": {
+      "start": 120,
+      "end": 122.30401360544218,
+      "loop": false
+    },
+    "Olive_Tube Games_1A": {
+      "start": 124,
+      "end": 127.7098185941043,
+      "loop": false
+    },
+    "Olive_TubeGames_13": {
+      "start": 129,
+      "end": 133.36698412698414,
+      "loop": false
+    },
+    "Olive_TubeGames_2A": {
+      "start": 135,
+      "end": 136.7871655328798,
+      "loop": false
+    },
+    "Olive_TubeGames_FB A": {
+      "start": 138,
+      "end": 139.9895918367347,
+      "loop": false
+    },
+    "Olive_TubeGames_FB B": {
+      "start": 141,
+      "end": 143.76265306122448,
+      "loop": false
+    },
+    "Olive_TubeGames_FB C": {
+      "start": 145,
+      "end": 147.32265306122449,
+      "loop": false
+    },
+    "Olive_TubeGames_FB D": {
+      "start": 149,
+      "end": 151.60868480725622,
+      "loop": false
+    },
+    "Olive_TubeGames_FB E": {
+      "start": 153,
+      "end": 155.37868480725623,
+      "loop": false
+    },
+    "Olive_TubeGames_FB F": {
+      "start": 157,
+      "end": 160.11201814058956,
+      "loop": false
+    },
+    "Olive_TubeGames_FB G": {
+      "start": 162,
+      "end": 165.15201814058958,
+      "loop": false
+    },
+    "Olive_TubeGames_FB H": {
+      "start": 167,
+      "end": 169.70931972789117,
+      "loop": false
+    },
+    "Olive_TubeGames_FB I": {
+      "start": 171,
+      "end": 173.7102947845805,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 10": {
+      "start": 175,
+      "end": 177.53868480725623,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 10A": {
+      "start": 179,
+      "end": 181.69868480725623,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 11": {
+      "start": 183,
+      "end": 189.31201814058957,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 11A": {
+      "start": 191,
+      "end": 197.96426303854875,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 12": {
+      "start": 199,
+      "end": 204.9126530612245,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 14": {
+      "start": 206,
+      "end": 209.96666666666667,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 2": {
+      "start": 211,
+      "end": 215.32371882086167,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 2A": {
+      "start": 217,
+      "end": 221.96739229024942,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 3": {
+      "start": 223,
+      "end": 226.38138321995464,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 4": {
+      "start": 228,
+      "end": 231.51569160997732,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 4_1": {
+      "start": 233,
+      "end": 236.6907709750567,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 4_1A": {
+      "start": 238,
+      "end": 241.74839002267575,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 5": {
+      "start": 243,
+      "end": 248.58573696145126,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 6": {
+      "start": 250,
+      "end": 254.0853514739229,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 7": {
+      "start": 256,
+      "end": 260.1154648526077,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 7A": {
+      "start": 262,
+      "end": 266.1159410430839,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 8": {
+      "start": 268,
+      "end": 270.65598639455783,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 9": {
+      "start": 272,
+      "end": 277.598820861678,
+      "loop": false
+    },
+    "Olive_TubeGames_Instr 9A": {
+      "start": 279,
+      "end": 284.1477097505669,
+      "loop": false
+    },
+    "Olive_TubeGames_Int 1A": {
+      "start": 286,
+      "end": 290.04462585034014,
+      "loop": false
+    },
+    "Olive_TubeGames_Int 1C": {
+      "start": 292,
+      "end": 293.72714285714284,
+      "loop": false
+    },
+    "Olive_TubeGames_Int 2": {
+      "start": 295,
+      "end": 296.5163945578231,
+      "loop": false
+    },
+    "Olive_TubeGames_Int 3": {
+      "start": 298,
+      "end": 303.21206349206346,
+      "loop": false
+    },
+    "Olive_TubeGames_Math 1": {
+      "start": 305,
+      "end": 309.83773242630383,
+      "loop": false
+    },
+    "Olive_TubeGames_Math 2": {
+      "start": 311,
+      "end": 316.1413378684807,
+      "loop": false
+    },
+    "Olive_TubeGames_Math 5": {
+      "start": 318,
+      "end": 322.17501133786845,
+      "loop": false
+    },
+    "Olive_TubeGames_Math 6": {
+      "start": 324,
+      "end": 330.7626530612245,
+      "loop": false
+    },
+    "Olive_TubeGames_Math 7": {
+      "start": 332,
+      "end": 334.8102267573696,
+      "loop": false
+    },
+    "Olive_TubeGames_Math 8": {
+      "start": 336,
+      "end": 338.69419501133785,
+      "loop": false
+    },
+    "Tubes_PU_1_01": {
+      "start": 340,
+      "end": 341.6565079365079,
+      "loop": false
+    },
+    "Tubes_PU_1_ALT_B_01": {
+      "start": 343,
+      "end": 345.3958276643991,
+      "loop": false
+    },
+    "TUBE_Launch": {
+      "start": 347,
+      "end": 348.6426530612245,
+      "loop": false
+    },
+    "TUBE_Squishinate": {
+      "start": 350,
+      "end": 352.06133786848073,
+      "loop": false
+    },
+    "TUBE_Squishinate_Reverse": {
+      "start": 354,
+      "end": 356.06133786848073,
+      "loop": false
+    }
+  }
+}

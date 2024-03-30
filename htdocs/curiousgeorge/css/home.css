@@ -1,0 +1,107 @@
+body#hm { background: #f10; }
+
+#ftr {
+	width: 840px;
+	margin-top: 12px;
+}
+
+#ftr_play {
+	width: 840px;
+	margin: 10px 0 8px;
+}
+
+#ftr-hm {
+	color: #FFF;
+	margin: 0;
+}
+
+#ftr-hm a {
+	color: #FFD600;
+	text-decoration: underline;
+}
+
+#hm-content {
+	background-image: url(/curiousgeorge/img/hm_box_bg.gif);
+	background-repeat: repeat-y;
+	height: 125px;
+}
+
+#hm-container {
+	width: 744px;
+	height: 342px;
+}
+
+#hm-copy {
+	clear: both;
+	padding: 20px 0 50px 0;
+}
+
+#hm-copy p {
+	color: #6D0801;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 13px;
+}
+
+#hm-feature {
+	position: relative;
+	width: 497px;
+	float: right;
+	margin: -14px 0 0 0;
+}
+
+#hm-funders {
+	text-align: center;
+	color: #B50C00;
+	width: 730px;
+}
+
+#hm-george {
+	position: absolute;
+	top: 34px;
+	left: 3px;
+}
+
+#hm-hl {
+	position: absolute;
+	top: 102px;
+	left: 30px;
+	width: 450px;
+}
+
+#hm-hl img {
+	width: 209;
+	height: 130;
+	margin: 0 7px 0 7px;
+}
+
+#hm-marquee {
+	clear: both;
+	background-image: url(/curiousgeorge/img/bg_pattern.gif);
+	background-repeat: repeat;
+	height: 427px;
+}
+
+#hm-station-txt a { color: #FFD600; }
+
+#hm-station-txt {
+	width: 868px;
+	text-align: center;
+}
+
+#hm-station-txt p { margin: 6px 0 0; }
+
+#nav, #nav-container { width: 877px; }
+
+#nav img#logo-cg-hm {
+	height: 91px;
+	width: 222px;
+}
+
+#nav-container a { float: left; }
+
+/* Kit added 2008-02-14 */
+#hm-pbsplaybadge {
+	float: right;
+	width: 112px;
+}

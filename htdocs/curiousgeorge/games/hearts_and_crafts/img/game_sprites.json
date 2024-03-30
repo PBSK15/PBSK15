@@ -1,0 +1,5 @@
+{
+    "images": ["img/game_sprites_0.png", "img/game_sprites_1.png"],
+    "frames": [[268, 2, 329, 437, 0, -7, -5], [2, 349, 376, 340, 1, -5, -9], [385, 2, 376, 341, 1, -5, -5], [477, 469, 518, 346, 0, -3, -4], [382, 349, 376, 340, 1, -3, -9], [2, 2, 379, 343, 1, -2, -4], [601, 2, 379, 343, 0, -4, -3], [2, 469, 471, 430, 0, -4, -4], [2, 2, 262, 463, 0, 0, -14], [765, 2, 148, 164, 1, -6, -5], [2, 693, 140, 151, 1, -11, -11], [762, 349, 128, 163, 1, -14, -4]],
+    "animations": {"sketch1": {"frames": [9]}, "char_hundley": {"frames": [2]}, "char_george": {"frames": [3]}, "char_gnocchi": {"frames": [4]}, "char_allie": {"frames": [6]}, "sketch2": {"frames": [10]}, "choose": {"frames": [7]}, "sketch3": {"frames": [11]}, "char_pisghetti": {"frames": [1]}, "card": {"frames": [0]}, "outline": {"frames": [8]}, "char_myh": {"frames": [5]}}
+}

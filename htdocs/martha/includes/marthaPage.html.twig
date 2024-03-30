@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+<head>
+
+<title>Martha Speaks{{pageTitle}} | PBS KIDS</title>
+
+<script type="text/javascript" src="https://pbskids.org/includes/javascript/sites/martha/martha.js"></script>
+{% include 'template_includes/flash_embed.html' %}
+{% include 'template_includes/bridge_js_include.html' %}
+
+<!-- new for html5 nav-->
+<script type="text/javascript" src="/martha/j/jquery.min.js"></script>
+<script type="text/javascript" src="/martha/j/jquery.jblitter.js"></script>
+<script type="text/javascript" src="/martha/j/navbar1000_sub2.js"></script>
+<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+
+{% block specialHead %}{% endblock %}
+
+</head>
+
+{{bodyOpeningTag|raw}}
+
+
+<!--start nav: specific game page (folder within martha/games -->
+<div id="globalnav" style="background-image:url('/martha/i/kitchenfloor.png'); background-repeat:no-repeat; width:1000px;">
+	<a href="/pbskidsgo/"><img src="/martha/i/pbslogo.gif" [attributes] style="margin-left:10px; margin-right:10px; margin-bottom:55px;" /></a>
+
+	<canvas id="logo" width="205" height="133" style="cursor:pointer;">
+		<a href="/martha/index.html"><img src="/martha/i/static_marthalogo.png"></a>
+	</canvas>
+
+    {% if selectedNav == 'games' %}
+	    <a href="../index.html"><img src="/martha/i/steak_highlighted.png" style="margin-left:-3px; margin-right:-20px;"></a>
+    {% else %}
+        {% if selectedNav != 'video' %}
+            <img src="/martha/i/spacer.gif" width="15px">
+        {% endif %}
+        <canvas id="games" width="143" height="133" style="cursor:pointer;">
+		    <a href="games/index.html"><img src="/martha/i/static_steak.png"></a>
+	    </canvas>
+    {% endif %}
+
+    {% if selectedNav == 'print' %}
+        <a href="index.html"><img src="/martha/i/chickenleg_highlighted.png" style="margin-left: -5px; margin-right:-2px; "></a>
+    {% else %}
+	    <canvas id="print" width="163" height="133" style="cursor:pointer;">
+		    <a href="/martha/prints/index.html"><img src="/martha/i/static_chickenleg.png"></a>
+	    </canvas>
+    {% endif %}
+
+    {% if selectedNav == 'video' %}
+        <a href="index.html"><img src="/martha//i/hotdog_highlighted.png"></a>
+    {% else %}
+	    <canvas id="video" width="146" height="133" style="cursor:pointer;">
+		    <a href="/martha/videos/index.html"><img src="/martha/i/static_hotdog.png"></a>
+	    </canvas>
+    {% endif %}
+
+    {% if selectedNav == 'stories' %}
+        <a href="index.html"><img src="/martha//i/storybook_highlighted.png" style="margin-left: -30px;"></a>
+    {% else %}
+	    <!--Martha's Stories	-->
+	    <canvas id="stories" width="199" height="133" style="cursor:pointer;">
+		    <a href="/martha/stories/index.html"><img src="/martha/i/static_storybook.png"></a>
+	    </canvas>
+    {% endif %}
+
+</div>
+<!--end nav: games page -->
+
+{% if wordQuestInclude == true %}
+<!--
+THE FOLLOWING DO NOT APPEAR TO BE NEEDED. -Jer
+$DOCUMENT_URI = /\/electriccompany\//                                                                   ||
+(($DOCUMENT_URI = /\/electriccompany\//) && ($DOCUMENT_URI != /\/electriccompany\/pranksterplanet\/jertest.html/))  ||
+
+$DOCUMENT_URI = /^\/electriccompany\/index.html$/                      ||
+$DOCUMENT_URI = /^\/electriccompany\/srsindex.html$/                   ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/sortitout\/$/              ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/sortitout\/index.html$/    ||
+$DOCUMENT_URI = /^\/electriccompany\/games/musicman\/$/                ||
+$DOCUMENT_URI = /^\/electriccompany\/games/musicman\/index.html$/      ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/escapes\/$/                ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/escapes\/index.html$/      ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/chaingame\/$/              ||
+$DOCUMENT_URI = /^\/electriccompany\/games\/chaingame\/index.html$/    ||
+-->
+<!-- THE GREAT WORD QUEST SUPPORT FILES -->
+<!-- The content below must write even if the user is not logged in.-->
+<link rel="stylesheet" href="/wordquest/css/trackingBanner.css" type="text/css" id="trackingBannerSpecificCSS" />
+<script type="text/javascript" src="/wordquest/js/swfobject.js"></script>
+<script type="text/javascript" src="/wordquest/js/trackingBanner.js"></script>
+<script type="text/javascript" src="/wordquest/js/trackerInterface.js"></script>
+
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+
+
+<script type="text/javascript" src="/wordquest/js/jquery.cookie.js"></script>
+
+<div id="GWQContainer" align="center">
+
+        <div id="flashSharedObjectProxyContainer" align="center">
+
+                <div id="flashSharedObjectProxyContent" align="center">
+                </div>
+
+                <script type="text/javascript">
+                        var params = {
+                                allowscriptaccess: "always"
+                        };
+                        var flashvars = {
+                                pbsGoKidsId: $.cookie('pbskids.userid'), 
+                                username: $.cookie('pbskids.username'), 
+                                stationLocale: $.cookie('pbskids.station')
+                        };
+                        var attributes = {id:"flashSharedObjectProxyContent", name:"flashSharedObjectProxyContent"};
+                        swfobject.embedSWF("https://pbskids.org/wordquest/media/swf/modules/sharedObjectProxy/sharedObjectProxy.swf", "flashSharedObjectProxyContent", "960", "1", "9.0.124", "/wordquest/media/media/swf/global/expressInstall/expressInstall.swf", flashvars, params, attributes);
+                </script>
+
+        </div>
+
+        <div id="trackingBannerContainer" align="center">
+
+                <div id="flashTrackingBannerContent" align="center">
+                </div>
+
+        </div>
+
+</div>
+
+<!-- END THE GREAT WORD QUEST SUPPORT FILES -->
+{% endif %}
+
+
+
+
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+
+
+
+{% block mainContent %}{% endblock %}
+
+{% if ptWrapper == true %}
+<div id="ptvid">
+<a href="/martha/parentsteachers/index.html" id="ptlink"><img src="/martha/i/pt_link.gif" class="ro" alt="Parents and Teachers" width="238" height="39" border="0" /></a>
+<!--<a href="0" id="vidlink">link link link</a>--></div>
+{% elseif ptWrapper == false %}
+<a href="/martha/parentsteachers/index.html" id="ptlink"><img src="/martha/i/pt_link.gif" class="ro" alt="Parents and Teachers" width="238" height="39" border="0" /></a>
+{% endif %}
+
+
+<!-- #bbinclude "bottomnav.incl" -->
+<div id="footernav">
+<a href="/martha/games/index.html">Games</a> |
+<a href="/martha/prints/index.html">Print</a> |
+<a href="/martha/videos/index.html">Video</a> |
+<a href="/martha/parentsteachers/index.html">Parents &amp; Teachers</a>
+<br />
+<a href="/martha/parentsteachers/site/sitemap.html">Site Map</a> |
+<a href="/martha/parentsteachers/site/copyright.html">&copy; 2015 WGBH</a> |
+<a href="/privacy/">PBS Kids Privacy Policy</a> | <a href="http://sgptv.org/programs/program/martha-speaks/">Program Sponsorship</a>
+</div>
+{% if boilerplateNav == true %}
+<br />
+<div style="width:590px;margin-left:210px;background:#fff;"><img src="i/station_top.gif" width="590" height="10" alt="" />
+
+<p style="text-align:center;padding:6px;margin:0;">Find out when Martha Speaks is on <a href="/tvschedules/localizer.html?nola=MSPE&amp;dest=/martha/">your local station</a>!</p>
+
+
+<!--CSS gives div class "funderbed" the background of funder-logos.gif, and defines coordinates for images for the below li links-->
+<div class="funderbed">
+	<ul>
+		<li id="wgbh"><a href="http://main.wgbh.org/">WGBH</a></li>
+		<li id="cpb"><a href="http://www.cpb.org">CPB</a></li>
+		<li id="dhx"><a href="http://www.dhxmedia.com/">DHX Media</a></li>
+		<li id="avdf"><a href="http://www.avdf.org/">The Arthur Vining Davis Foundations</a></li>
+		<li id="wgbh"><span>WGBH Children's Educational Media Fund</span></li>
+		<!--<li id="cec"><a href="http://www.chuckecheese.com/">Chuck E. Cheese's</a></li>-->
+		<li id="oasis"><a href="http://oasisanimation.com/">Oasis Animation</a></li>
+		<li id="abcf"><a href="http://www.abcmouse.com/">ABCmouse.com</a></li>
+	</ul>
+</div>
+
+<img src="i/station_bottom.gif" alt="" width="590" height="10" /></div>
+
+<!--div style="margin:12px 0 0 329px;"><img src="i/funders2.gif" width="346" height="71" border="0" alt="US Department of Education, Corporation for Public Broadcasting, Arthur Vining Davis Foundations" title="" /></div-->
+
+<div id="boilerplate">
+
+<p>Martha Speaks is a production of WGBH Boston and Oasis Animation Inc.</p>
+
+<p>Corporate funding for Martha Speaks is provided by ABCmouse.com. Additional series funding is provided by the WGBH Children's Educational Media Fund including The Germeshausen Foundation and by public television viewers.</p>
+
+<p>&copy; 2015 WGBH Educational Foundation. All rights reserved. &quot;Martha&quot; and all characters and underlying materials (including artwork) from the &quot;Martha&quot; books are trademarks of and copyrights of Susan Meddaugh and used under license. All other characters and underlying materials are trademarks of and copyrights of WGBH.&nbsp;All third party trademarks are the property of their respective owners. Used with permission.</p>
+
+<div style="margin:12px 0 0 400px;"><a href="/read"><img src="i/raising_readers.gif" alt="Part of the PBS KIDS Raising Readers Campaign" width="185" height="65" border="0" /></a></div>
+
+
+</div>
+<script type="text/javascript">
+	if(!PBS_FlashCanPlay(9)) {
+		location.replace("/martha/martha_noflash.html");
+	}
+</script>
+{% else %}
+<br /><br /><br />
+<!-- end bbinclude -->
+{% endif %}
+
+</body>
+</html>

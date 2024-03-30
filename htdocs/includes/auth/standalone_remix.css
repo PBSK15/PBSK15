@@ -1,0 +1,725 @@
+/* For the stand-alone version of the Authentication System */
+
+body {
+    background-color: #99cc00;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+html body .right {
+    float: right;
+}
+
+h1 {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #4B6300;
+}
+
+a {
+    color: #526810;
+}
+
+a:visited {
+    color: #526810;
+}
+
+a:hover {
+    color: #CC630D;
+}
+
+.prompt-buttons {
+    margin: 10px auto;
+    width: 311px;
+}
+
+.prompt-buttons div.username, .prompt-buttons div.changepassword {
+    margin-bottom: 5px;
+}
+
+/* Hide labels via CSS if JS is enabled */
+html.js label {
+    display: none;
+}
+
+/* Some exceptions... */
+html.js .signinform label {
+    display: block;
+}
+
+input {
+    border: 1px solid #666;    
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.errorlist {
+    background-color: #E66521;
+    color: #fff;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 5px;
+    width: 500px;
+}
+
+.signinbox .errorlist {
+    margin: 0;
+    width: auto;
+}
+
+.signinbox .errorlist li {
+    margin: 0;
+    padding: 0;
+}
+
+div.password {
+    margin: 5px;
+}
+
+html.js div#auth-secretquestion {
+    display: none;
+}
+
+/* Printout */
+h3.print {
+    display: none;
+}
+
+img.print {
+    display: none;
+}
+
+dl.printout {
+    background-color: #fff;
+    background-image: url(images/pink-line.gif);
+    background-position: 50px 0;
+    background-repeat: repeat-y;
+    overflow: hidden;
+    width: 500px;
+    margin: 1em auto 0;
+    padding: 15px 0 0 0;
+}
+
+dl.printout dt, dl.printout dd {
+    border-bottom: 1px solid #A8EFEF;
+    border-top: 1px solid #A8EFEF;
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 1%;
+    width: 48%;
+}
+
+dl.printout dt {
+    clear: left;
+    color: #808184;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+dl.printout dd {
+    color: #515151;
+    text-align: left;
+}
+
+dl.printout dt.first, dl.printout dd.first {
+    border-bottom: 0;
+    font-size: 16px;
+}
+
+p.writethis {
+    background-position: -517px -210px;
+}
+
+p.print {
+    background-color: #fff;
+    background-image: url(images/pink-line.gif);
+    background-position: 50px 0;
+    background-repeat: repeat-y;
+    margin: 0 auto 1em;
+    overflow: hidden;
+    width: 500px;
+}
+
+p.print a {
+    border: 2px solid #555;
+    color: #555;
+    float: right;
+    font-size: 11px;
+    display: block;
+    margin: 5px;
+    padding: 2px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+p.print a:hover {
+    background-color: #ccc;
+}
+
+/* ORANGE BUTTON STYLING */
+
+/* Button is the frame */
+.button {
+    border: 0;
+    display: block;
+    float: left;
+    height: 57px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* .inner holds right button bevel */
+.button .inner {
+    background-image: url(images/button-orange.gif);
+    background-position: 100% -7px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 57px;
+    left: 0;
+    padding-right: 7px;
+    position: relative;
+    xtext-indent: -9999px;
+    top: 0;
+}
+
+.button .inner.disabled {
+    opacity: .5;
+}
+
+/* p holds bottom button bevel */
+.button p {
+    background-image: url(images/button-orange.gif);
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 57px;
+    margin: 0;
+    padding: 0;
+}
+
+/* a holds button image */
+.button a {
+    background-color: #e48b16;
+    background-image: url(images/button-orange.gif);
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+}
+
+.button.text a, .button.text span {
+    background-color: #e48b16;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    padding: 15px 15px 5px;
+    text-decoration: none;
+    text-indent: 0;
+}
+
+.button input {
+    background-color: #e48b16;
+    background-image: url(images/button-orange.gif);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0;
+    font-weight: bold;
+    line-height: 0;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-indent: -9999px;
+}
+
+/* Specific Orange Buttons */
+
+.button.ok a, .button.ok input {
+    background-position: 0 -64px;
+    width: 58px;
+}
+
+.button.signin a, .button.signin input {
+    background-position: 0 -114px;
+    width: 107px;
+}
+
+.button.done {
+   float: none;
+   margin: 0 auto;
+   width: 207px; 
+}
+
+.button.done a {
+    background-position: 55px -164px;
+    width: 200px;
+}
+
+.button.username a {
+    background-position: 0 -214px;
+    width: 304px;
+}
+
+.button.nousername a {
+    background-position: 16px -264px;
+    width: 304px;
+}
+
+#go-auth .button.changepassword a {
+    background-position: 20px -314px;
+    width: 304px;
+}
+
+#go-auth .button.changesecretcode a {
+    background-position: 8px -364px;
+    width: 304px;
+}
+
+#go-auth select {
+    margin: 0;
+}
+
+
+/* FAVORITE SELECTION */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ul.fields {
+    display: block;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 10px 0 30px;
+    position: relative;
+    right: -35px;
+    width: 460px;
+}
+
+ul.fields.active {
+    background-image: url(images/arrow.gif);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+}
+
+ul.fields li {
+    float: left;
+    height: 57px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 64px;
+}
+
+ul.fields li.selected {
+    background-image: none;
+
+} 
+ 
+ul.fields li.selected label {
+    background-color: #fff200;
+}
+
+ul.fields li label.disabled {
+    filter: alpha(opacity = 50);
+    opacity: .5;
+}
+
+ul.fields li label.disabled.selected {
+    filter: alpha(opacity = 100);
+    opacity: 1;
+}
+
+ul.fields li label {
+    background-image: url(images/button-back.gif);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 57px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-indent: -9999px;
+    top: 0;
+    width: 64px; 
+}
+
+ul.fields li label span {
+    background-color: #fff;
+    background-image: url(images/icons.gif);
+    display: block;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 57px;
+}
+
+ul.fields li.default.hidden {
+    left: -9999px;
+    position: absolute;
+}
+    
+
+/* Favorites */
+
+/* Animals */
+#login-cat span { background-position: 0 0; }
+#login-dog span { background-position: -57px 0; }
+#login-turtle span { background-position: -114px 0; }
+#login-fish span { background-position: -171px 0; }
+#login-bird span { background-position: -228px 0; }
+
+#login-cat.selected span { background-position: 0 -150px; }
+#login-dog.selected span { background-position: -57px -150px; }
+#login-turtle.selected span { background-position: -114px -150px; }
+#login-fish.selected span { background-position: -171px -150px; }
+#login-bird.selected span { background-position: -228px -150px; }
+
+
+/* Food */
+#login-taco span { background-position: 0 -50px; }
+#login-pizza span { background-position: -57px -50px; }
+#login-apple span { background-position: -114px -50px; }
+#login-hamburger span { background-position: -171px -50px; }
+#login-spaghetti span { background-position: -228px -50px; }
+
+#login-taco.selected span { background-position: 0 -200px; }
+#login-pizza.selected span { background-position: -57px -200px; }
+#login-apple.selected span { background-position: -114px -200px; }
+#login-hamburger.selected span { background-position: -171px -200px; }
+#login-spaghetti.selected span { background-position: -228px -200px; }
+
+/* Colors */
+#login-red span { background-position: 0 -100px; }
+#login-blue span { background-position: -57px -100px; }
+#login-yellow span { background-position: -114px -100px; }
+#login-orange span { background-position: -114px -100px; }
+#login-purple span { background-position: -171px -100px; }
+#login-green span { background-position: -228px -100px; }
+
+#login-red.selected span { background-position: 0 -250px; }
+#login-blue.selected span { background-position: -57px -250px; }
+#login-yellow.selected span { background-position: -114px -250px; }
+#login-orange.selected span { background-position: -114px -250px; }
+#login-purple.selected span { background-position: -171px -250px; }
+#login-green.selected span { background-position: -228px -250px; }
+
+/* Unimportant example styling */
+
+h3 {
+    clear: left;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em 0 1em;
+}
+
+li.submit {
+    width: auto !important;
+}
+
+/* This is for the favorites selector -- makes it invisible initially */
+li.submit .button {
+    display: none;
+}
+
+html.js .button.initialHide {
+    display: none;
+}
+
+/* Will never display with js enabled, so shouldn't occupy space */
+#go-auth .button.jsHide {
+    display: none;
+}
+
+.jsHide {
+    display: none;
+}
+
+ul.buttons {
+    list-style-type: none;
+    margin: 1em 0 0;
+    padding: 0;
+}
+
+ul.buttons li {
+    display: block;
+    margin: 0 auto 5px;
+    overflow: auto;
+    width: 302px;
+}
+
+ul.buttons label {
+    display: block;
+    overflow: hidden;
+}
+
+ul.buttons li input {
+    left: -9999px;
+    position: absolute;
+}
+
+ul.buttons li div.button.text a, ul.buttons li div.button.text span {
+    width: 260px;
+}
+
+
+/* Text Spriting
+ *
+ * Text sprites are given the class of sprite AND a classname of the first two words in the text.
+ *
+ */
+
+h1.sprite, h3.sprite, p.sprite, label.sprite {
+    background-image: url(images/text.gif);
+    height: 30px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    /*width: 517px;*/
+    width: 300px;
+	border:5px solid red;
+}
+
+h1.changeyour {
+    background-position: 0 -210px;
+}
+
+h1.changeyourcode {
+    background-position: 0 -270px;
+}
+
+h1.changeyourquestion {
+    background-position: 0 -300px;
+}
+
+p.toplay {
+    background-position: -517px 0;
+}
+
+h1.makeup {
+    background-position: 0 -30px;
+}
+
+p.saveyour {
+    background-position: -517px -30px;
+}
+
+h1.thatname {
+    background-position: 0 -60px;
+}
+
+p.howabout {
+    background-position: -517px -60px;
+}
+
+p.trya {
+    background-position: -1153px 0;
+    float: left;
+    height: 40px !important;
+    width: 167px !important;
+}
+
+p.trya a {
+    display: block;
+    height: 40px;
+}
+
+p.usesecretquestion {
+    background-position: -1153px -60px;
+    float: left;
+    height: 30px;
+    width: 220px;
+}
+
+p.usesecretcode {
+    background-position: -1153px -90px;
+    float: left;
+    height: 30px;
+    width: 220px;
+}
+
+p.usesecretquestion a, p.usesecretcode a {
+    display: block;
+    position: relative;
+}
+
+h1.thisis {
+    background-position: 0 -90px;
+}
+
+p.youcan {
+    background-position: -517px -90px;
+}
+
+p.typeyour {
+    background-position: -517px -120px;
+}
+
+h1.makeyour {
+    background-position: 0 -120px;
+}
+
+h1.makeyourquestion {
+    background-position: 0 -240px;
+}
+
+h1.changeyour {
+    background-position: 0 -360px;
+}
+
+p.pickyour {
+    background-position: -517px -150px;
+}
+
+p.picka {
+    background-position: -517px -300px;
+}
+
+p.thiswill {
+    background-position: -517px -180px;
+}
+
+h1.youdid {
+    background-position: 0 -150px;
+}
+
+p.writethis {
+    background-position: -517px -210px;
+}
+
+h1.getyour {
+    background-position: 0 -180px;
+}
+
+p.whatis {
+    background-position: -517px -240px;
+}
+
+p.answerthe {
+    background-position: -517px -270px;
+}
+
+h3.recentusers {
+    background-position: -1034px -60px;
+    height: 20px;
+    margin: 0 auto;
+    width: 119px !important;
+}
+
+label.username {
+    background-position: -1034px 0;
+    height: 25px;
+    width: 119px;
+}
+
+label.password {
+    background-position: -1034px -30px;
+    height: 25px;
+    width: 119px;
+}
+
+/* Welcome */
+
+div.signin-signup {
+    margin: 1em auto 0;
+    overflow: hidden 0;
+    width: 311px;
+}
+
+div.signin-signup .button {
+    margin: 0 0 10px;
+}
+
+/* Signin Box */
+
+.signinbox {
+    background-color: #acdc22;
+    background-image: url(images/signin-stripe.gif);
+    /*background-position: 270px 0;*/
+	background-position:center; 
+    background-repeat: repeat-y;
+    margin: 20px auto 0;
+    overflow: hidden;
+    padding: 10px 0;
+    /*width: 450px;*/
+    width: 300px;
+}
+
+.signinbox .signinform {
+    float: left;
+    /*padding: 0 20px 10px;*/
+    padding: 0 35px 10px;
+    text-align: left;
+    width: 230px;
+}
+
+.signinbox .signinform label {
+    margin: 0;
+}
+
+.signinbox .signinform input {
+    text-align: left;
+}
+
+.signinbox .signinform input#id_password {
+    margin-bottom: 20px;
+}
+
+
+/*-- Removed because those Dive have been removed from loginHTML
+.signinbox .users {
+    float: left;
+    margin-left: 13px;
+    width: 160px;
+}
+
+.signinbox .users ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    text-align: left;
+}
+
+.signinbox .users ul li {
+
+}
+
+.signinbox .users ul li a {
+    color: #5C8403;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+*/
