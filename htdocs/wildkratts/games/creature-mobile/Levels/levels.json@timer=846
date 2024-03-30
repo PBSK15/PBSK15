@@ -1,0 +1,44 @@
+{
+    "Track 1": {
+        "levelfile" : "level00.json",
+        "image": "sm_screen_lv0.png",
+        "image_large": "lg_screen_lv0.png",
+        "sky": "prototype",
+        "difficulty": 1
+    },
+    "Track 2": {
+        "levelfile" : "level01.json",
+        "image": "sm_screen_lv1.png",
+        "image_large": "lg_screen_lv1.png",
+        "sky": "mountain",
+        "difficulty": 2
+    },
+    "Track 3": {
+        "levelfile" : "level02.json",
+        "image": "sm_screen_lv2.png",
+        "image_large": "lg_screen_lv2.png",
+        "sky": "snowy",
+        "difficulty": 4
+    },
+    "Track 4": {
+        "levelfile" : "level05.json",
+        "image": "sm_screen_lv5.png",
+        "image_large": "lg_screen_lv5.png",
+        "sky": "prototype",
+        "difficulty": 4
+    },
+    "Track 5": {
+        "levelfile" : "level04.json",
+        "image": "sm_screen_lv4.png",
+        "image_large": "lg_screen_lv4.png",
+        "sky": "mountain",
+        "difficulty": 6
+    },
+    "Track 6": {
+        "levelfile" : "level03.json",
+        "image": "sm_screen_lv3.png",
+        "image_large": "lg_screen_lv3.png",
+        "sky": "mountain",
+        "difficulty": 6
+    }
+}

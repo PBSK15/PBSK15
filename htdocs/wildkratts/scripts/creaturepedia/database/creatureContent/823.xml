@@ -1,0 +1,131 @@
+<content id="823"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Flying Fish Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Flying fish have wing like pectoral fins that help them glide out of the water and through the air! They are able to glide for long distances with the help of their tail fins which they swish in the water to propel them back up!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/87/FishFlyOthers.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Flying fish feed on small aquatic animals and plants such as copepods, zooplankton, and larval fish.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/87/FLYINGfishFoodHealth.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Flying fish live in warm ocean waters worldwide!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/87/Flying-Fish.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Large fish and mammals all prey on flying fish including dolphins, tuna, marlin, sea lions and mackerel. Birds and squid have been known to prey on them as well.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/87/FlyingFish-Creature-powers-Pic.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Flying Fish Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Flying fish can glide up to 655 feet (200 meters) without coming back down, sometimes reaching heights of over 4 feet (1 meter) above the water! In order to take flight, they first increase their speed underwater, getting up to 37 mph (60 kph).
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/87/FishFlyAVIVA.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

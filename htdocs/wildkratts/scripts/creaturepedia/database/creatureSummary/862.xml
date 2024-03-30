@@ -1,0 +1,51 @@
+<creatureSummary id="862">
+			<name>
+				Walrus
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/23/Walrus main.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="793">
+					<name>
+						Land
+					</name>
+				</habitat><habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="550">
+					<name>
+						Mammals
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="797">
+					<name>
+						Arctic
+					</name>
+				</region><region id="800">
+					<name>
+						Europe
+					</name>
+				</region><region id="801">
+					<name>
+						North America
+					</name>
+				</region><region id="802">
+					<name>
+						Oceans
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

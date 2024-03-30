@@ -1,0 +1,153 @@
+<content id="822"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Firefly Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Fireflies are insects that produce their own light! Fireflies have dedicated light organs in their abdomens. As they take in oxygen, special cells combine it with a substance called luciferin to produce light with almost no heat. This is called bioluminescence.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/26/Firefly glow.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/26/Firefly.png
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Adult fireflies can eat nectar and pollen, but typically do not eat at all as adults spending their time looking for a mate. Female fireflies lay their eggs in the ground or water where they hatch into larvae. Before becoming adults fireflies, the larvae spend the next 1 or 2 years eating soft-bodied prey, like worms and slugs.  One technique used when they capture prey is to inject them with venom through hollow mandibles.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/26/Picture 5.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							There are over 2000 species of firefly and they live in warm, temperate, and tropical environments around the world. Fireflies love moisture and often live in humid areas in North America and Asia.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/26/Firefly range map.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Fireflies don't have many predators. One of the reasons researchers think they flash their abdomens is to advertise to birds, frogs, toads, and other animals that they taste bad! Fireflies can sometimes eat other fireflies. One species even mimics another species to lure them in to eat them!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/26/Firefly predator.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/26/Picture 6.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Firefly Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Fireflies are not flies but beetles! This group of arthropods has 2 sets of wings. &#160;The ones in the front are not used for flying but form a hard, shell-like structure, called an elytra that protects the hind wings. &#160;These are the wings that are used for flight by most of the beetle family.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/26/Firefly cps.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/26/Firefly cps thumbnail.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

@@ -1,0 +1,146 @@
+<content id="826"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Giant Pacific Octopus Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							The giant Pacific octopus has lots of powers packed into one creature.  Jet propulsion, arm regeneration, instant color-changing camouflage and an ink defense are just a few of them!  With a 30 foot wide (9 meters), 600 pound (272 kilograms) body, this creature is one powerhouse of a mollusk!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/21/3-photo or still frame of a Giant Pacific Octopus.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							The giant Pacific octopus has a beak similar to a parrot's. This beak helps break things open, letting it get to the tasty meat inside. It can also use its strong arms to pry open shells and has the ability to subdue its prey by injecting toxic saliva from its mouth area.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/21/9-video clip of an octopus opening a jar.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/21/3-photo or still frame of a Giant Pacific Octopus.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							The giant Pacific octopus is a cold water creature and can be found in the Pacific and Atlantic Oceans, further north than almost all other species of octopus.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/21/GPO range map.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Giant Pacific octopuses have a few tricks to escape their predators, like harbor seals, sperm whales, sharks, and otters.  They hide out in caves, den sites, or within vegetation and use their color-changing camouflage to blend into their surroundings.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/21/8-Enemy asset-Live action footage of octopus on cave like rocks and color change.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/21/GPO enemy thumbnail.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Giant Pacific Octopus Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Giant pacific octopuses are considered the most intelligent of all invertebrates (creatures without a backbone). They like to live stylishly as well.  Some octopus species will collect crustacean shells and other objects to construct fortresses or "gardens" around their lairs.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/21/Octopus main.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>
+		

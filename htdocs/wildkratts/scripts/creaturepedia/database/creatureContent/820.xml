@@ -1,0 +1,153 @@
+<content id="820"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Draco Lizard Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Draco Lizards have the power to glide! Their ribs can actually extend, opening flaps of skin that stretch from the Draco's front legs to back legs. They can glide at least 200 feet from one tree to another.  It's a great way to get around in the Southeast Asian rainforests.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/32/WK 104 Draco.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/32/Draco still.png
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Draco lizards feed on invertebrates, like small ants and termites.  Most of the time, they'll sit on a tree trunk or branch waiting for ants or termites to come to them.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/32/Draco still.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							There are several species of Draco lizard.  Together they inhabit the rainforests of southeast Asia and southern India.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/32/Draco home range copy.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Draco lizards don&#8217;t just glide to move around among the trees in the forest, but to escape danger too!  When threatened by a predator, a Draco lizard will climb, run, or hide, but if threats like birds, snakes, and primates are still able to catch and eat them, the lizard will deploy its &#8220;wings&#8221; for a glide getaway!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/32/WK 104 Draco climb.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/32/Draco still4.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Draco Lizard Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Draco lizards are also called "flying dragons" because of their adaptation to gliding between trees.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/32/4-Power asset-animation clip of kratt bros with draco power.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/32/Picture 4.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

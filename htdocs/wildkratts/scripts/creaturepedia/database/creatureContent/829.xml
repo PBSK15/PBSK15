@@ -1,0 +1,146 @@
+<content id="829"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Gray Squirrel Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Gray squirrels run fast and jump long distances on tiny tree branches. They can leap up to 8 feet! Gray squirrels are not always gray, they can be reddish, pure white or pure black!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/35/Squirrel power.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/35/Squirrel power thumb.png
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Gray squirrels love all kinds of nuts and seeds. They also love acorns! Gray squirrels eat white oak acorns right away and store red and other types of oak acorns for the spring. If over the winter they forget where they left their stash of acorns, these can grow into new oak trees. In this way squirrels help plant oak forests!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/35/Squirrel food and health.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/35/Squirrel food and health thumb.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Gray squirrels love to live in dense woodlands and like to build their nests in large tree branches or hollow trunks. Gray squirrels are also very adapted to city life and in certain areas are very abundant in yards and parks. Gray squirrels are native to eastern North America and the west coast of the United States.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/35/Gray squirrel home base.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Gray squirrels have lots of predators including hawks, owls, raccoons, foxes, skunks, snakes and cats! Luckily they are fast and are able work as teams to distract predators with a tail shake before disappearing!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/35/Squirrel main 2.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Gray Squirrel Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Squirrels are super climbers and can climb down a tree head first! They use their super sense of smell to sniff out acorns that they had stored away for the winter. Squirrels are very important because they help plant trees! Every year they make thousands of caches of acorns and seeds. Some of these grow into new plants and trees!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/35/Squirrel main.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

@@ -1,0 +1,658 @@
+{% extends 'wildkratts/includes/wildKrattsPage.html.twig' %}
+{% set specialTitle = false %}
+{% set pageTitle = ' . Videos' %}
+{% set desc = 'Watch video of amazing animal adventures from Wild Kratts!' %}
+{% set keywds = 'Wild Kratts, Tortuga, Creaturepedia, Games,Habitats, Kratt Brothers, Video Clips,Episodes, Videos' %}
+
+
+{% block specialHead %}<style type="text/css">
+
+
+ 
+.playerouter {
+  background: #37669A;
+  width: 834px;
+  height: 424px;
+  height: 453px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+ 
+#playlist-wrapper {
+  float: right;
+  background: #FFF;
+}
+
+
+#now-playing-list-iScrollContainer{
+  height: 23.5em;
+  height: 25.4em;
+  height: 427px;
+}
+ 
+#now-playing-list{
+  width: 19em;
+  margin:0;
+  padding:0;
+}
+
+    #now-playing-list .playlistItem{
+      width: auto;
+      padding: 0.571428571em;
+      margin:0;
+      list-style: none; 
+      color: #6E8988;
+      font-size: 0.875em;
+      cursor: pointer;
+      overflow: hidden;
+      clear: both;
+      border-bottom: 3px solid #eee;
+    }
+
+    #now-playing-list .playlistItem:hover, #now-playing-list .playlistItem.selected{
+      border-bottom: 3px solid #FCC73E;
+    }
+     
+    .playlistItem:hover,
+    .playlistItem.selected
+    {
+      background: #FFE960;
+    }
+     
+            .playlistItem .thumb-container{
+              float: left;
+              overflow: hidden;
+              width: 4.928571429em;
+              height: 3.78571em;
+            }
+             
+            .playlistItem .thumbnailkidsgodefault{
+              width:100%;
+              height: 3.78571em;
+              border:0;
+              vertical-align: top;
+              background: #333;
+              display: block;
+            }
+             
+            .playlistItem .new-label,
+            .playlistItem .fullep-label
+            {
+              display:none;
+            }
+             
+           .playlistItem.new-video .new-label{
+              position: absolute;
+              top: 4px;
+              left: -30px;
+              color: white;
+              background: green;
+              width: 89px;
+              display: block;
+              text-align: center;
+              padding: 2px 0;
+              transform:rotate(-45deg);
+              -ms-transform:rotate(-45deg); /* IE 9 */
+              -webkit-transform:rotate(-45deg); /* Opera, Chrome, and Safari */
+              font-size: 12px;
+              font-weight: bold;
+            }
+             
+            .playlistItem.episode .fullep-label{
+              background-color: #3899FF;
+              bottom: 1.5em;
+              color: #FFF;
+              font-weight: bold;
+              font-size: 0.72em;
+              display: block;
+              text-align: center;
+              padding: 0.2em 0;
+              position: relative;
+            }
+             
+            .playlistItem .video-info{
+              width: 12.2em;
+              height: 3.78571em;
+              margin:0;
+              padding:0;
+              overflow: hidden;
+              float: left;
+              padding-left: 1%;
+            }
+     
+                .video-info .expiration{ 
+                  font-size: 0.8em; 
+                  color: #ED6A42; 
+                }
+             
+             
+    #now-playing-list .showmore-videos{
+      background: none repeat scroll 0 0 #FF9537;
+      color: #FFFFFF;
+      font-weight: bold;
+      padding: 12px 0;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+    }
+     
+     
+#now-playing-list-iScrollContainer .loading-indicator,
+#now-playing-list-iScrollContainer .appending-indicator
+{
+  width:50px;
+  height:50px;
+  display:none;
+  margin:20px auto;
+}
+ 
+#now-playing-list-iScrollContainer .appendingIndicator-container{
+  color: #FF9545;
+  text-align: center;
+  padding:10px 0;
+}
+ 
+    #now-playing-list-iScrollContainer .appendingIndicator-container .appending-indicator{
+      display:inline-block;
+      zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+      margin: 0 10px 0 0;
+      vertical-align: middle;
+    }
+ 
+    #now-playing-list-iScrollContainer .appendingIndicator-container span{
+      margin-right:5px;
+    }
+           
+         
+#now-playing-list-iScrollContainer .scrollbarV{
+  float: right;
+  height: 100%;
+  width: 1.42em;
+  background:#37669A;
+  position: relative;
+  z-index: 100;
+}
+ 
+#now-playing-list-iScrollContainer .scrollbarV.touch{
+  width: 0.42em;
+  background:none;
+}
+ 
+    #now-playing-list-iScrollContainer .scrollbarV div{
+      background:#FCC73E;
+      border:solid 2px #37669A;
+    }
+ 
+    #now-playing-list-iScrollContainer .scrollbarV.touch div{
+      border-radius:0.42em;
+      background:#AECECE;
+      border:none;
+    }            
+ 
+ 
+#no-results-message{
+  color: #6E8988;
+  display: none;
+  text-align: center;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+ 
+    #no-results-message p{
+      margin:1em 0;
+    }
+ 
+    #no-results-message a{
+      color: #6E8988;
+    }
+
+
+
+video, object, embed, button{ outline:none; border:none; }
+button{ cursor:pointer; vertical-align:middle; }
+button img { vertical-align:middle; height:1.2em; } 
+ 
+#player{
+  width: 530px;
+  float:left;
+  background: #37669A;
+}
+  
+    #player .frame {
+      background:#FFF;
+      background: #37669a;
+      background: #fcc73e;
+      border:solid 8px #FFF;
+      border: none;
+      border-radius: 16px;
+      border-radius: 0;
+    }
+  
+        #player #video-player{
+          width:530px;
+          height:298px;
+          /*background:#333;*/
+          display:block;
+        }
+         
+        #player .timer-remaining{
+          color:#AECECE;
+          color: #37669A;
+          font-size:0.875em;
+          font-family: Arial, sans-serif;
+          width:11.2244898%;
+          margin-right:1.36054422%;
+          text-align:right;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+        }
+  
+        #player .scrubber{
+          width:72.10884354%;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+          margin:8px 0 2px;
+          cursor:pointer;
+        }
+  
+            #player .scrubber .scrubber-track{
+              width:100%;
+              height:6px;
+              margin:10px;
+              background-color:#ca9f32;
+              border-radius:0px;
+              display:inline-block;
+              zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+              vertical-align:middle;
+              text-align:left;
+            }
+  
+            #player .scrubber .scrubber-thumb{
+              width:19px;
+              height:19px;
+              background:#37669A;
+              border: solid 2px #37669A;
+              border-radius: 26px;
+              border-radius: 0px;
+              position:relative !important;
+              top:-7px;
+            }
+  
+    #player #controlrack{
+      margin:22px auto 0px;
+      padding-bottom:11px;
+      text-align:center;
+      background: #37669A;
+    }
+     
+        #player #controlrack button{
+          width:112px;
+          padding:0px;
+          border-bottom: solid #7b8cad 8px;
+          line-height: 56px;
+          font-size: 36px;
+          font-weight: bold;
+          color: #FFF;
+          text-transform: uppercase;
+ 
+          background: #a0b5db;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+          position:relative;
+        }
+         
+        #player #controlrack button:hover{
+          border-bottom: 0px;
+          bottom: -4px;
+        }
+  
+        #player #controlrack button.play-pause {
+          margin-left: 8px;
+          margin-right: 8px;
+
+          width: 208px;
+        }
+ 
+            #player #controlrack button.play-pause:before {
+              content: "Play";
+            }
+ 
+            #player #controlrack button.play-pause.playing:before {
+              content: "Pause";
+            }
+ 
+            #player #controlrack button.play-pause:after {
+              content: "";
+              display: inline-block;
+              width: 0px;
+              height: 0px;
+              margin: -6px 0 -2px 10px;
+              border-left: 20px solid #FFF;
+              border-top: 16px transparent solid;
+              border-bottom: 16px solid transparent;
+            }
+ 
+            #player #controlrack button.play-pause.playing:after {
+              width: 5px;
+              height: 0.75em;
+              margin: -4px 0 0 10px;
+              border-left: 10px solid #FFF;
+              border-right: 10px solid #FFF;
+              border-top: none;
+              border-bottom: none;
+            }
+ 
+            #player #controlrack button.next:before{
+              content: "";
+              background: #FFF;
+              width: 20px;
+              height: 18px;
+              display: inline-block;
+              vertical-align: middle;
+              line-height: normal;
+              top: -3px;
+              position: relative;
+            }
+ 
+            #player #controlrack button.next:after{
+              content: "";
+              width: 0px;
+              height: 0px;
+              border-left: 28px solid #FFF;
+              border-bottom: 20px solid transparent;
+              border-top: 20px transparent solid;
+              display: inline-block;
+              vertical-align: middle;
+              line-height: normal;
+              margin-right: -4px;
+              top: -3px;
+              position: relative;
+            }
+ 
+            #player #controlrack button.previous:before{
+              content: "";
+              width: 0px;
+              height: 0px;
+              border-right: 28px solid #FFF;
+              border-bottom: 20px solid transparent;
+              border-top: 20px transparent solid;
+              display: inline-block;
+              vertical-align: middle;
+              line-height: normal;
+              margin-left: -4px;
+              top: -3px;
+              position: relative;
+            }
+ 
+            #player #controlrack button.previous:after{
+              content: "";
+              background: #FFF;
+              width: 20px;
+              height: 18px;
+              display: inline-block;
+              vertical-align: middle;
+              line-height: normal;
+              top: -3px;
+              position: relative;
+            }
+             
+        #player #controlrack #captions-button{
+          width: 40px;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 16px;
+          margin-left: 8px;
+          margin-left: 468px;
+          margin-top: -44px;
+          padding:8px 0;
+
+        }
+
+        #player #controlrack #mute-button{
+          width: 40px;
+          height: 40px;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 16px;
+          margin-left: 8px;
+          padding:8px 0;
+          background-image: url("/wildkratts/img/icon-mute-unmute.png");
+          background-repeat: no-repeat;
+          background-position: 2px -41px;
+          margin-top: -50px;
+        }
+
+        #player #controlrack #mute-button.muted {
+          background-position: 2px -4px;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+
+          .playerouter {
+            width: 100%;
+            height: 355px;
+            overflow: visible;
+            padding-top: 0;
+            background: none;
+            margin-top: -10px;
+          }
+
+          #player {
+            width: 100%;
+            width: 100vw;
+            height: 50vw;
+            float: none;
+
+          }
+
+          #player #video-player {
+            width: 100%;
+            height: 45vw;
+            margin: 0 auto;
+          }
+
+          #playlist-wrapper {
+            float: none;
+            clear:both;
+            width: 90%;
+            max-width: 300px;
+            margin: 190px auto 0 auto;
+          }
+
+          #now-playing-list-iScrollContainer {
+            width: 23.4em;
+            width: 300px;
+            height: 300px;
+            margin-bottom: 50px;
+          }
+
+          #player .scrubber{
+            width: 50%;
+            margin: 0 auto;
+            padding-bottom: 3px;
+            padding-top: 3px;
+          }
+
+          #player #controlrack button.play-pause {
+            width: 40%;
+          }
+
+          #player #controlrack button {
+            width: 18%;
+          }
+
+          #player #controlrack #captions-button {
+            width: 8%;
+            width: 30px;
+            margin-left: 83%;
+            margin-top: -30px;
+
+          }
+
+          #player #controlrack #mute-button {
+            width: 8%;
+            width: 30px;
+            max-width: 40px;
+            background-position: -4px -41px;          }
+
+          #player #controlrack {
+            margin-top: 0px;
+            padding-top: 25px;
+            padding-bottom: 11px;
+        }
+
+        .bmobtab #player #controlrack button.play-pause {
+          font-size: 25px;
+        }
+      }
+
+
+        @media only screen and (max-width: 460px) {
+          #player #controlrack #captions-button {
+            width: 8%;
+            width: 30px;
+            margin-left: 86%;
+            margin-top: -30px;
+          }
+        }
+
+        @media only screen and (max-width: 370px) {
+          #playlist-wrapper {
+            margin: 150px auto 0 auto;
+          }
+        }
+
+</style>
+{% endblock %}
+
+
+{% set bodyClass = 'bmobtab videos' %}
+
+
+{% block mobileNav %}<div class="mywide mnav"><a href="http://pbskids.org/"><img id="mpbslogo" alt="PBS Logo" src="/wildkratts/img/nav/mobile/logo_pbs.png" width="37" height="37"></a> <a href="/wildkratts/"><img alt="Wild Kratts Logo" id="mwklogo" src="/wildkratts/img/nav/mobile/logo_wk.png" width="110" height="104"></a>
+ <nav>
+  <ul>
+   <li id="navm-games"><a href="/wildkratts/games"><img alt="Games" class="games" src="/wildkratts/img/nav/mobile/m_nav_games.png" width="60" height="60"></a></li>
+   <li id="navm-videos"><a href="/wildkratts/videos"><img alt="Videos" class="videos" src="/wildkratts/img/nav/mobile/m_nav_videos.png" width="60" height="60"></a></li>
+   <li id="navm-creat"><a href="/wildkratts/creaturepedia"><img alt="Creaturepedia" class="creaturepedia" src="/wildkratts/img/nav/mobile/m_nav_creaturepedia.png" width="60" height="60"></a></li>
+  </ul>
+ </nav>
+</div>{% endblock %}
+
+
+
+
+{% block mainContent %}<div class="gmain">
+ <div class="container">
+  <div class="playerouter">
+   <div id="player">
+    <div class="frame">
+     <video id="video-player"></video> <span class="timer-remaining">00:00</span>
+     <div class="scrubber">
+      <div class="scrubber-track"><button class="scrubber-thumb"></button>
+      </div><!--/ .scrubber-track -->
+     </div><!--/ .scrubber -->
+    </div><!--/ .frame -->
+    <div id="controlrack"><button class="previous" title="Previous"></button> <button class="play-pause" title="Play/Pause"></button> <button class="next" title="Next"></button> <button id="mute-button" title="Mute/Unmute"></button> <button id="captions-button" title="Closed Captions">CC</button>
+    </div><!--/ #controlrack -->
+   </div><!--/ #player -->
+   <div id="playlist-wrapper">
+    <ul id="now-playing-list">
+     <li class="playlistItem">
+      <div class="thumb-container"><img class="thumbnailkidsgodefault" src="#" alt="Show"> <span class="fullep-label"><span class="full-label">Full </span>Episode</span> <span class="new-label">New</span>
+      </div>
+      <div class="video-info"><span class="video-title"></span> (<span class="video-duration"></span>) <span class="video-expiration"></span>
+      </div></li>
+    </ul><!--/ #now-playing-list -->
+   </div>
+  </div><!-- /.playerouter --> <!-- subpagespromo.html -->
+  <div class="promosubpage mynarrow">
+   <div class="promosub1">
+    <a href="/wildkratts/creaturepedia/"><img alt="Promo 1" src="/wildkratts/img/promos/promo_v1.jpg" width="285" height="116"></a>
+   </div>
+   <div class="promosub2">
+    <a href="/wildkratts/games/monkey-mayhem/"><img alt="Promo 2" src="/wildkratts/img/promos/promo_c1.jpg" width="285" height="116"></a>
+   </div>
+  </div> <!-- /subpagespromo.html -->
+ </div><!--/container-->
+</div>{% endblock %}
+
+
+
+
+{% block specialMiddleElems %}{% endblock %}
+
+
+
+
+{% block specialBody %}<script type="text/javascript" src="http://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script>
+<script type="text/javascript">
+$(function(){
+  var player, 
+      playlist;
+ 
+  function init(){ 
+    //console.log("init()");
+    player = new org.pbskids.video.Player( "video-player",
+             {
+               onPlayerComplete      : onPlayerComplete,
+               onVideoClick          : "toggle-fullscreen",
+               pauseToggleControl    : "#controlrack .play-pause",
+               captionsToggleControl : "#captions-button",
+               muteToggleControl     : "#mute-button",
+               timerRemaining        : "#player .timer-remaining",
+               scrubber              : "#player .scrubber",
+               debugMode             : true,
+               onHoverOverlay        : {
+                 url:"http://pbskids.org/pbsk/video/img/button_big.png",
+                 width:"43px", height:"43px",
+                 fs_url:"http://pbskids.org/pbsk/video/img/button_small.png",
+                 fs_width:"78px", fs_height:"30px",
+               },
+               loadingOverlay        : {
+                 url:"http://pbskids.org/pbsk/video/img/arrowspin.gif",
+                 swf:"http://pbskids.org/pbsk/video/swf/arrowspin.swf",
+                 width:"50px", height:"50px"
+               }
+             });
+  }//init()
+ 
+  function onPlayerComplete(e){
+    console.log("onPlayerComplete()");
+    if( e.success ){
+      console.log("Player was successfully built");
+      finalize(e.player);
+    }
+    else {
+      alert("Whoops! Something went wrong building the player: " + e.message);
+    }
+  }//onPlayerComplete()
+ 
+ 
+   function finalize(playerInstance){
+    playlist = new org.pbskids.video.PlayList(
+        "now-playing-list",
+        "playlistItem",
+         playerInstance,
+        {
+          debugMode: true,
+          loadingIndicator      : "http://pbskids.org/video/img/arrowspin.gif",
+          loadMoreVideosMessage : "Show More Videos",
+          loadMoreButtonClass   : "showmore-videos",
+          previousVideoControl  : "#controlrack .previous",
+          nextVideoControl      : "#controlrack .next"
+        }
+    );
+    playlist.refresh();
+  }//finalize
+  
+   
+  $(document).ready(init);
+
+});
+</script>
+{% endblock %}
+

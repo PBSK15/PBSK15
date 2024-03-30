@@ -1,0 +1,153 @@
+<content id="814"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Burrowing Owl Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Burrowing owls have long legs that look like stilts! They are different from most owls in many ways.  They live in burrows underground, are active both day and night, and their favorite foods are insects, not mice!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/unknown/103/Burrowing owl creature power.mp4
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/unknown/103/Burrowing owl creature power thumb.jpg
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Burrowing owls like to catch insects in the air or on foot. Their diet also includes small vertebrates such as lizards, frogs, and small rodents. Burrowing owls will also eat fruit and seeds.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/unknown/103/Burrowing owl food and health.mp4
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/unknown/103/Burrowing owl food and health thumb.jpg
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Burrowing owls range from western Canada and most of Central America. They are also found in Florida and some Caribbean Islands. They range as far south as the bottom of South America.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/unknown/103/Burrowing-Owl-HOME-BASE.jpg
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Predators of the burrowing owls include hawks, owls, eagles, foxes, coyotes, badgers, snakes, and domestic cats and dogs.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/unknown/103/Burrowing-owl-danger-alert.PNG
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Burrowing Owl Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Burrowing owls don't dig their own burrows. They live in abandoned ground squirrel, prairie dog, fox, coyote, and badger holes. Because they love to live underground, they are also called ground owls.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/unknown/103/Burrowing owl style.mp4
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/unknown/103/Burrowing owl style thumb.jpg
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

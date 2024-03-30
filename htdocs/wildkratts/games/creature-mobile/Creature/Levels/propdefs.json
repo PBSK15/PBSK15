@@ -1,0 +1,394 @@
+{
+    "arrows":{
+        "Image": "arrows",
+        "ImageSource": "arrows.png",
+        "HeightScale": 1.88,
+        "Aspect": 1.1648936170212767,
+        "EditColor": "rgba(55,36,66,1)"
+    },
+    "bg_tree1":{
+        "Image": "bg_tree1",
+        "ImageSource": "bg_tree1.png",
+        "HeightScale": 0.74,
+        "Aspect": 8.108108108108109,
+        "EditColor": "rgba(55,73,45,1)"
+    },
+    "bush1":{
+        "Image": "bush1",
+        "ImageSource": "bush1.png",
+        "HeightScale": 1.36,
+        "Aspect": 2.2205882352941178,
+        "EditColor": "rgba(27,45,18,1)"
+    },
+    "bush2":{
+        "Image": "bush2",
+        "ImageSource": "bush2.png",
+        "HeightScale": 1.64,
+        "Aspect": 1.2865853658536586,
+        "EditColor": "rgba(85,51,26,1)"
+    },
+    "cattail":{
+        "Image": "cattail",
+        "ImageSource": "cattail.png",
+        "HeightScale": 2.07,
+        "Aspect": 0.3333333333333333,
+        "EditColor": "rgba(85,51,26,1)"
+    },
+    "chris_cheer1_128x225":{
+        "Image": "chris_cheer1_128x225",
+        "ImageSource": "chris_cheer1_128x225.png",
+        "HeightScale": 1.74,
+        "Aspect": 1.1264367816091954,
+        "EditColor": "rgba(50,50,47,1)"
+    },
+    "corn1":{
+        "Image": "corn1",
+        "ImageSource": "corn1.png",
+        "HeightScale": 2.82,
+        "Aspect": 0.3546099290780142,
+        "EditColor": "rgba(87,78,38,1)"
+    },
+    "corn2":{
+        "Image": "corn2",
+        "ImageSource": "corn2.png",
+        "HeightScale": 2.82,
+        "Aspect": 0.5319148936170213,
+        "EditColor": "rgba(87,78,38,1)"
+    },
+    "flag":{
+        "Image": "flag",
+        "ImageSource": "flag.png",
+        "HeightScale": 1.34,
+        "Aspect": 0.7388059701492538,
+        "EditColor": "rgba(173,95,10,1)"
+    },
+    "grass1":{
+        "Image": "grass1",
+        "ImageSource": "grass1.png",
+        "HeightScale": 0.65,
+        "Aspect": 3.646153846153846,
+        "EditColor": "rgba(68,109,39,1)"
+    },
+    "grass2":{
+        "Image": "grass2",
+        "ImageSource": "grass2.png",
+        "HeightScale": 0.89,
+        "Aspect": 2.168539325842697,
+        "EditColor": "rgba(63,102,36,1)"
+    },
+    "grass3":{
+        "Image": "grass3",
+        "ImageSource": "grass3.png",
+        "HeightScale": 0.8,
+        "Aspect": 3.025,
+        "EditColor": "rgba(97,157,52,1)"
+    },
+    "grass4":{
+        "Image": "grass4",
+        "ImageSource": "grass4.png",
+        "HeightScale": 0.85,
+        "Aspect": 1.0235294117647058,
+        "EditColor": "rgba(68,111,38,1)"
+    },
+    "grass5":{
+        "Image": "grass5",
+        "ImageSource": "grass5.png",
+        "HeightScale": 1.19,
+        "Aspect": 1.134453781512605,
+        "EditColor": "rgba(76,119,44,1)"
+    },
+    "grass6":{
+        "Image": "grass6",
+        "ImageSource": "grass6.png",
+        "HeightScale": 1.14,
+        "Aspect": 1.1578947368421053,
+        "EditColor": "rgba(73,105,43,1)"
+    },
+    "grass7":{
+        "Image": "grass7",
+        "ImageSource": "grass7.png",
+        "HeightScale": 1.22,
+        "Aspect": 0.5983606557377049,
+        "EditColor": "rgba(73,105,43,1)"
+    },
+    "lily_pads":{
+        "Image": "lily_pads",
+        "ImageSource": "lily_pads.png",
+        "HeightScale": 0.21,
+        "Aspect": 6.285714285714286,
+        "EditColor": "rgba(49,133,60,1)"
+    },
+    "log1":{
+        "Image": "log1",
+        "ImageSource": "log1.png",
+        "HeightScale": 0.95,
+        "Aspect": 3.1894736842105265,
+        "EditColor": "rgba(56,63,29,1)"
+    },
+    "Marker1":{
+        "Image": "Marker1",
+        "ImageSource": "Marker1.png",
+        "HeightScale": 1.68,
+        "Aspect": 0.19642857142857142,
+        "EditColor": "rgba(57,51,69,1)"
+    },
+    "marker2":{
+        "Image": "marker2",
+        "ImageSource": "marker2.png",
+        "HeightScale": 1.67,
+        "Aspect": 0.31736526946107785,
+        "EditColor": "rgba(56,51,68,1)"
+    },
+    "marker_water":{
+        "Image": "marker_water",
+        "ImageSource": "marker_water.png",
+        "HeightScale": 1.85,
+        "Aspect": 0.3027027027027027,
+        "EditColor": "rgba(84,77,97,1)"
+    },
+    "rock1":{
+        "Image": "rock1",
+        "ImageSource": "rock1.png",
+        "HeightScale": 0.54,
+        "Aspect": 3.185185185185185,
+        "EditColor": "rgba(92,81,63,1)"
+    },
+    "rock2":{
+        "Image": "rock2",
+        "ImageSource": "rock2.png",
+        "HeightScale": 0.72,
+        "Aspect": 2.9027777777777777,
+        "EditColor": "rgba(62,54,35,1)"
+    },
+    "rock3":{
+        "Image": "rock3",
+        "ImageSource": "rock3.png",
+        "HeightScale": 0.97,
+        "Aspect": 1.4536082474226804,
+        "EditColor": "rgba(62,54,35,1)"
+    },
+    "snow1":{
+        "Image": "snow1",
+        "ImageSource": "snow1.png",
+        "HeightScale": 0.48,
+        "Aspect": 10.166666666666666,
+        "EditColor": "rgba(174,193,206,1)"
+    },
+    "snow2":{
+        "Image": "snow2",
+        "ImageSource": "snow2.png",
+        "HeightScale": 0.36,
+        "Aspect": 9.36111111111111,
+        "EditColor": "rgba(175,195,210,1)"
+    },
+    "snow3":{
+        "Image": "snow3",
+        "ImageSource": "snow3.png",
+        "HeightScale": 0.23,
+        "Aspect": 9.652173913043478,
+        "EditColor": "rgba(173,193,208,1)"
+    },
+    "snow_log":{
+        "Image": "snow_log",
+        "ImageSource": "snow_log.png",
+        "HeightScale": 0.99,
+        "Aspect": 3.0606060606060606,
+        "EditColor": "rgba(50,82,64,1)"
+    },
+    "snow_rock1":{
+        "Image": "snow_rock1",
+        "ImageSource": "snow_rock1.png",
+        "HeightScale": 1.18,
+        "Aspect": 1.8898305084745763,
+        "EditColor": "rgba(109,100,117,1)"
+    },
+    "snow_rock2":{
+        "Image": "snow_rock2",
+        "ImageSource": "snow_rock2.png",
+        "HeightScale": 0.61,
+        "Aspect": 2.8524590163934427,
+        "EditColor": "rgba(93,95,108,1)"
+    },
+    "snow_rock3":{
+        "Image": "snow_rock3",
+        "ImageSource": "snow_rock3.png",
+        "HeightScale": 0.8,
+        "Aspect": 2.7125,
+        "EditColor": "rgba(78,70,86,1)"
+    },
+    "snow_rock4":{
+        "Image": "snow_rock4",
+        "ImageSource": "snow_rock4.png",
+        "HeightScale": 1.04,
+        "Aspect": 1.3557692307692308,
+        "EditColor": "rgba(180,187,210,1)"
+    },
+    "snow_tree1":{
+        "Image": "snow_tree1",
+        "ImageSource": "snow_tree1.png",
+        "HeightScale": 6.09,
+        "Aspect": 0.6206896551724138,
+        "EditColor": "rgba(185,202,226,1)"
+    },
+    "snow_tree2":{
+        "Image": "snow_tree2",
+        "ImageSource": "snow_tree2.png",
+        "HeightScale": 4.7,
+        "Aspect": 0.35106382978723405,
+        "EditColor": "rgba(31,82,106,1)"
+    },
+    "snow_tree3":{
+        "Image": "snow_tree3",
+        "ImageSource": "snow_tree3.png",
+        "HeightScale": 5.54,
+        "Aspect": 1.0433212996389891,
+        "EditColor": "rgba(63,69,89,1)"
+    },
+    "snow_tree4":{
+        "Image": "snow_tree4",
+        "ImageSource": "snow_tree4.png",
+        "HeightScale": 6.22,
+        "Aspect": 0.5434083601286174,
+        "EditColor": "rgba(0,100,128,1)"
+    },
+    "snow_tree5":{
+        "Image": "snow_tree5",
+        "ImageSource": "snow_tree5.png",
+        "HeightScale": 5.6,
+        "Aspect": 1.0517857142857143,
+        "EditColor": "rgba(207,222,251,1)"
+    },
+    "tree1":{
+        "Image": "tree1",
+        "ImageSource": "tree1.png",
+        "HeightScale": 6.2,
+        "Aspect": 0.7387096774193549,
+        "EditColor": "rgba(48,80,34,1)"
+    },
+    "tree10":{
+        "Image": "tree10",
+        "ImageSource": "tree10.png",
+        "HeightScale": 3.69,
+        "Aspect": 0.6856368563685636,
+        "EditColor": "rgba(48,80,34,1)"
+    },
+    "tree11":{
+        "Image": "tree11",
+        "ImageSource": "tree11.png",
+        "HeightScale": 4.95,
+        "Aspect": 0.9515151515151515,
+        "EditColor": "rgba(84,45,14,1)"
+    },
+    "tree12":{
+        "Image": "tree12",
+        "ImageSource": "tree12.png",
+        "HeightScale": 5.51,
+        "Aspect": 0.9219600725952813,
+        "EditColor": "rgba(188,170,107,1)"
+    },
+    "tree13":{
+        "Image": "tree13",
+        "ImageSource": "tree13.png",
+        "HeightScale": 4.2,
+        "Aspect": 0.9809523809523809,
+        "EditColor": "rgba(63,68,26,1)"
+    },
+    "tree14":{
+        "Image": "tree14",
+        "ImageSource": "tree14.png",
+        "HeightScale": 4.75,
+        "Aspect": 0.7136842105263158,
+        "EditColor": "rgba(63,68,26,1)"
+    },
+    "tree15":{
+        "Image": "tree15",
+        "ImageSource": "tree15.png",
+        "HeightScale": 5.2,
+        "Aspect": 0.7288461538461538,
+        "EditColor": "rgba(63,68,26,1)"
+    },
+    "tree2":{
+        "Image": "tree2",
+        "ImageSource": "tree2.png",
+        "HeightScale": 4.2,
+        "Aspect": 1.2190476190476192,
+        "EditColor": "rgba(63,68,26,1)"
+    },
+    "tree3":{
+        "Image": "tree3",
+        "ImageSource": "tree3.png",
+        "HeightScale": 6.76,
+        "Aspect": 0.591715976331361,
+        "EditColor": "rgba(63,68,26,1)"
+    },
+    "tree4":{
+        "Image": "tree4",
+        "ImageSource": "tree4.png",
+        "HeightScale": 4.87,
+        "Aspect": 0.5236139630390144,
+        "EditColor": "rgba(125,141,28,1)"
+    },
+    "tree5":{
+        "Image": "tree5",
+        "ImageSource": "tree5.png",
+        "HeightScale": 4.28,
+        "Aspect": 0.6214953271028038,
+        "EditColor": "rgba(186,190,49,1)"
+    },
+    "tree6":{
+        "Image": "tree6",
+        "ImageSource": "tree6.png",
+        "HeightScale": 4.99,
+        "Aspect": 1.188376753507014,
+        "EditColor": "rgba(85,111,31,1)"
+    },
+    "tree7":{
+        "Image": "tree7",
+        "ImageSource": "tree7.png",
+        "HeightScale": 2.99,
+        "Aspect": 1.3110367892976589,
+        "EditColor": "rgba(81,91,21,1)"
+    },
+    "tree8":{
+        "Image": "tree8",
+        "ImageSource": "tree8.png",
+        "HeightScale": 5.88,
+        "Aspect": 0.8418367346938775,
+        "EditColor": "rgba(78,42,6,1)"
+    },
+    "tree9":{
+        "Image": "tree9",
+        "ImageSource": "tree9.png",
+        "HeightScale": 3.73,
+        "Aspect": 0.5951742627345844,
+        "EditColor": "rgba(152,83,25,1)"
+    },
+    "water_grass1":{
+        "Image": "water_grass1",
+        "ImageSource": "water_grass1.png",
+        "HeightScale": 1.61,
+        "Aspect": 0.6770186335403726,
+        "EditColor": "rgba(152,83,25,1)"
+    },
+    "water_grass2":{
+        "Image": "water_grass2",
+        "ImageSource": "water_grass2.png",
+        "HeightScale": 1.8,
+        "Aspect": 0.6833333333333333,
+        "EditColor": "rgba(152,83,25,1)"
+    },
+    "water_log1":{
+        "Image": "water_log1",
+        "ImageSource": "water_log1.png",
+        "HeightScale": 0.72,
+        "Aspect": 1.25,
+        "EditColor": "rgba(136,139,106,1)"
+    },
+    "water_log2":{
+        "Image": "water_log2",
+        "ImageSource": "water_log2.png",
+        "HeightScale": 0.93,
+        "Aspect": 0.7634408602150538,
+        "EditColor": "rgba(110,113,81,1)"
+    }
+}

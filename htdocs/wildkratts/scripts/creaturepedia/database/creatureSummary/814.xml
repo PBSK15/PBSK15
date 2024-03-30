@@ -1,0 +1,39 @@
+<creatureSummary id="814">
+			<name>
+				Burrowing Owl
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/unknown/103/Burrowing-Owl-MAIN.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="794">
+					<name>
+						Air
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="551">
+					<name>
+						Birds
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="801">
+					<name>
+						North America
+					</name>
+				</region><region id="803">
+					<name>
+						South America
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

@@ -1,0 +1,35 @@
+<creatureSummary id="819">
+			<name>
+				Dolphin
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/83/Dolphin-MAIN_161202_112718.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="550">
+					<name>
+						Mammals
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="802">
+					<name>
+						Oceans
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

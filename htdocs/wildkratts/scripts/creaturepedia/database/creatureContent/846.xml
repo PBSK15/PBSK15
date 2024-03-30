@@ -1,0 +1,162 @@
+<content id="846"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Peregrine Falcon Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Peregrine falcons are expert hunters that prey on birds and bats in mid-flight. Peregrines hunt from above and after sighting their prey, they drop into a "stoop" - a steep dive - that can exceed 200 miles (322 kilometers) an hour making it the fastest creature in the world!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/27/Peregrine 2.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/27/Peregrine 2 thumbnail.png
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							The peregrine falcon feeds on medium sized birds like doves, waterfowl, songbirds, waders, and pigeons. Worldwide, the peregrine falcon eats up to 2000 different species of birds! This raptor also likes to eat bats, rats, voles, hares, mice and squirrels.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/27/Falcon_1.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/27/Falcon thumnail.png
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Peregrine falcons have a huge range.  In fact, their range circles the globe.  They can be found speeding across the skies of every continent except Antarctica.  They are the one of the most widespread bird of prey.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/27/Peregrine home range.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Peregrine falcons have few predators, but adults and young can be preyed upon by creatures such as great horned owls, golden eagles, gyrfalcons, wolverines, foxes, and wild cats.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/27/Peregrine chick.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/27/Peregrine chick thumbnail.png
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Peregrine Falcon Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							These falcons have many adaptations to help them reach these amazing speeds.   They have special bones in their nostrils to break up the air flow entering them, a large ridge along the breastbone that supports more chest muscles, special eyelids and moisturizing glands keep eyes sharp, free of debris, and from drying out, and an aerodynamic shape during their stoop mode.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/27/Peregrine power.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/27/Peregrine power.png
+								</uri>
+								</mediaItem>			
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

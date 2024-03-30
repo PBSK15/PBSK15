@@ -1,0 +1,131 @@
+<content id="817"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Cockatoo Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							There are about 21 species of cockatoo and they are one noisy bird! They are probably the loudest of all the parrots and scream to communicate with each other or just for the fun of making noise. Their loud voices help them communicate over long distances and even when they can't see each other in the thick dark forests where they live.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/56/cockatoo.jpg
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Cockatoos gather in large feeding groups to gobble up nuts, fruits, and seeds. Some types of cockatoo even eat beetle larvae. Cockatoos feed in groups so they can watch out for each other. While some feed, others stand guard to make sure everyone is safe.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/56/Cockatoo main.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Cockatoos live in Australia and parts of Asia. They love all kinds of forests from eucalyptus, to rainforest, and even evergreen forest!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/56/Cockatoo home base.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Cockatoo predators are foxes, snakes, wedge-tailed eagles, and hawks. Eagles and hawks can find them high in the trees, while foxes might find them when they venture to the ground to eat the fallen seeds.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/56/Cockatoo enemies.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Cockatoo Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Cockatoos can use their feet much like we use our hands and they are terrific climbers! Being super climbers helps them live in the thick forest where it's hard to fly. Climbing also helps them get at their favorite fruits and nuts.  They can also hold their food in one foot while balancing on a branch with the other!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/56/Cockatoo main.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

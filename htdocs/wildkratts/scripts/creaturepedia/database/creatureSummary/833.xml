@@ -1,0 +1,35 @@
+<creatureSummary id="833">
+			<name>
+				Hawksbill Turtle
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/75/Hawksbill-turtle-MAIN_161202_113956.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="552">
+					<name>
+						Reptiles
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="802">
+					<name>
+						Oceans
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

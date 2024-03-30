@@ -1,0 +1,153 @@
+<content id="833"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Hawksbill Turtle Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Hawksbill turtles have special creature powers that include  a beak-like mouth it uses to break and scrape sponges and algae from the reef. They have two claws on each flipper, a shell with serrated edges, and overlapping plates or scutes.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/75/Hawksbill Creature Power.mp4
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/75/Hawksbill Creature Power thumbnail.jpg
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Hawksbill turtles hang around coral reefs where they can munch on their favorite food, the sea sponge. They will also eat mollusks, marine algae, crustaceans, sea urchins, fish and jellyfish.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/75/Hawksbill food and health.mp4
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/75/Hawksbill food and health thumbnail.jpg
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Hawksbill turtles prefer the warm, tropical waters of the Atlantic, Pacific and Indian Oceans. They swim along the coastlines where food and nesting sites are abundant.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/75/Hawksbill-turtle-HOME-BASE.jpg
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Hawksbill turtles&#8217; hard shells and super swimming skills protect them, but they are still preyed upon by crocodiles, octopuses, sharks and other large fish, and humans.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/75/Hawksbill enemy asset.mp4
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/75/Hawksbill enemy asset thumbnail.jpg
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Hawksbill Turtle Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Hawksbill turtles, like green and loggerhead sea turtles, migrate long distances between the nesting beaches and feeding areas. Adult and young sea turtles are able to sense the Earth's magnetic field, and scientists think they use this to find their way.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/75/Turtle-Secret-Fact.PNG
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

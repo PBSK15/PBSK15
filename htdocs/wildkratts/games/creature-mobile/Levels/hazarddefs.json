@@ -1,0 +1,126 @@
+{
+    "none": {
+        "name": "none",
+        "type": "region",
+        "acceleration": 10.0,
+
+        "amplitude": 0,
+        "frequency": 0,
+
+        "immunities": [
+        ],
+
+        "boost": "Run"
+
+    },
+    "offroad": {
+        "name": "offroad",
+        "type": "region",
+        "acceleration": 10.0,
+
+        "amplitude": 20,
+        "frequency": 6,
+
+        "immunities": [
+        ],
+
+        "boost": "Offroad"
+
+    },
+    "zachbot": {
+        "name": "zachbot",
+        "type": "impact",
+        "acceleration": 5.0,
+
+        "amplitude": 50,
+        "frequency": 4,
+
+        "immunities": [
+            "tortoise",
+            "bison"
+        ]
+    },
+    "rock": {
+        "name": "rock",
+        "type": "impact",
+        "acceleration": 5.0,
+
+        "amplitude": 50,
+        "frequency": 4,
+
+        "immunities": [
+            "roadrunner",
+            "hare",
+            "bison"
+        ]
+    },
+    "log": {
+        "name": "log",
+        "type": "impact",
+        "acceleration": 5.0,
+
+        "amplitude": 40,
+        "frequency": 3,
+
+        "immunities": [
+            "roadrunner",
+            "hare",
+            "bison"
+        ]
+    },
+    "bush": {
+        "name": "bush",
+        "type": "impact",
+        "acceleration": 5.0,
+
+        "amplitude": 10,
+        "frequency": 1,
+
+        "immunities": [
+            "roadrunner",
+            "hare",
+            "bison"
+        ]
+    },
+    "water": {
+        "name": "water",
+        "type": "region",
+        "acceleration": 10.0,
+
+        "amplitude": 50,
+        "frequency": 1,
+
+        "immunities": [
+        ],
+
+        "boost": "Swim"
+    },
+    "mud": {
+        "name": "mud",
+        "type": "region",
+        "acceleration": 10.0,
+
+        "amplitude": 20,
+        "frequency": 2,
+
+        "immunities": [
+        ],
+
+        "boost": "Mud"
+
+    },
+    "snow": {
+        "name": "snow",
+        "type": "region",
+        "acceleration": 10.0,
+
+        "amplitude": 20,
+        "frequency": 4,
+
+        "immunities": [
+        ],
+
+        "boost": "Snow"
+
+    }
+}

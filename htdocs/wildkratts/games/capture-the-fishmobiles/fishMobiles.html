@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, user-scalable=no, minimal-ui" />
+    <title>GAME!</title>
+
+    <link rel="stylesheet" type="text/css" href="Game/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="Game/css/game.css">
+
+    <script type="text/javascript" src="Game/Jquery.js"></script>
+    <!-- Block Crypted -->
+    <script type="text/javascript" src="Game/FishMobiles/scripts.js"></script>
+    <!-- Block CryptedEnd -->
+
+    <!-- Block Uncrypted 
+    <script type="text/javascript" src="Game/Timer.js"></script>
+    <script type="text/javascript" src="Game/UIElements.js"></script>
+    <script type="text/javascript" src="Game/Audio.js"></script>
+    <script type="text/javascript" src="Game/Keys.js"></script>
+    <script type="text/javascript" src="Game/Animation.js"></script>
+    <script type="text/javascript" src="Game/AnimatedEffect.js"></script>
+    <script type="text/javascript" src="Game/PointsManager.js"></script>
+    <script type="text/javascript" src="Game/Browser.js"></script>
+    <script type="text/javascript" src="Game/PauseScreen.js"></script>
+    <script type="text/javascript" src="Game/SceneManager.js"></script>
+    <script type="text/javascript" src="Game/GameManager.js"></script>
+
+    <script type="text/javascript" src="Game/FishMobiles/FishmobileAudio.js"></script>
+    <script type="text/javascript" src="Game/FishMobiles/Birds.js"></script>
+    <script type="text/javascript" src="Game/FishMobiles/Fishmobile.js"></script>
+    <script type="text/javascript" src="Game/FishMobiles/Debris.js"></script>
+    <script type="text/javascript" src="Game/FishMobiles/EnergyBar.js"></script>
+    <script type="text/javascript" src="Game/FishMobiles/Tutorial.js"></script>
+    <script type="text/javascript" src="Game/FishMobiles/MenuScene.js"></script>
+    <script type="text/javascript" src="Game/FishMobiles/GameScene.js"></script>
+    <script type="text/javascript" src="Game/FishMobiles/EndGameScreen.js"></script>
+    <!-- Block Uncrypted End -->
+
+</head>
+<body>
+
+    <div id="gameView">
+        <div id="gameCenter">
+            <canvas id="gameCanvas" width="988" height="556"></canvas>
+
+            <svg id="svgCanvas" width="988" height="556" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;" >
+
+                <g id="gameSceneSvg">
+                    <g id="hud" style="display:none">
+                        <image id="scoreIcon" xlink:href="./Images/FishMobiles/icon_score.png" x="0" y="5" width="70" height="43" style=""></image>
+                        <text id="scoreText" class="screenTitle" x="80" y="50" text-anchor="begin" font-size="60" fill="white" stroke="black" stroke-width="2">0</text>
+                        <rect id="birdArea" x="0" y="0" width="988" height="556" fill="rgba(0, 0, 0, 0)"></rect>
+                        <rect id="ospreyButton" x="838" y="290" width="150" height="150" fill="rgba(0, 0, 0, 0)"></rect>
+                        <rect id="pelicanButton" x="0" y="290" width="150" height="150" fill="rgba(0, 0, 0 ,0)"></rect>
+                        <image id="energyIcon" xlink:href="./Images/FishMobiles/icon_energy.png" x="225" y="5" width="70" height="43" style=""></image>
+                    </g>
+                </g>
+
+                <g id="pauseScreenSvg" style="display:none;">
+                    <rect x="0" y="0" width="988" height="556" fill="rgba(0,0,0,0.5)"></rect>
+                    <path d="m45,46 q-0,-25 29,-29 l0,0 200,0 q21,-2 34,27 l602,0 q28,0 32,35 l-22,421 q-4,19 -31,22 l-797,0 q-24,0 -31,-40z" fill="rgba(253,138,0,0.83)" stroke="white" stroke-width="5"></path>
+
+                    <text class="screenTitle" x="71" y="90" text-anchor="begin" font-size="76" fill="white" stroke="black" stroke-width="2">PAUSE</text>
+                    <foreignObject x="80" y="66" width="824" height="430">
+                        <body xmlns="http://www.w3.org/1999/xhtml">
+                        <div class="screenContent">
+                            <p>SOME TEXT</p>
+                        </div>
+                        </body>
+                    </foreignObject>
+                </g>
+
+                <g id="endGameScreenSvg" style="display:none">
+                    <rect x="0" y="0" width="988" height="556" fill="rgba(0,0,0,0.4)"></rect>
+                    <path d="m95.21344,44.40824l810.72015,-2.33315c27.11383,1.91109 36.00793,9.85218 32.17834,45.57077l-17.38116,387.85036c-0.70612,19.70752 -7.1178,29.83231 -23.9032,30.3746c-16.7854,0.54214 -749.93082,0.5918 -776.82143,0.15326c-26.8906,-0.43851 -31.83418,-8.09918 -34.74928,-29.35959l-18.83424,-397.81783c-4.38766,-22.07099 6.9358,-35.08727 28.79081,-34.43842z" id="svg_1" stroke="white" stroke-width="5" transform="translate(-5, 0)" fill="rgba(253,138,0,0.83)"></path>
+                    <rect x="125" y="93" width="744" height="368" fill="rgba(255,232,204,1)"></rect>
+                    <text id="endTitle" class="screenTitle" x="425" y="110" text-anchor="begin" font-size="80" fill="white" stroke="black" stroke-width="2">GREAT JOB!</text>
+                    <text id="endScoreText" x="650" y="250" text-anchor="middle" font-size="50" fill="black">You scored 0 points!</text>
+                    <image xlink:href="./Images/FishMobiles/endgame_bros.png" x="-80" y="-40" width="600" height="660" style=""></image>
+
+                    <g id="playAgainButton" transform="translate(470,350) scale(0.9, 0.9)">
+                        <image xlink:href="./Images/Common/UI/button_off.png" preserveAspectRatio="none" x="0" y="0" width="200" height="100" style=""></image>
+                        <image xlink:href="./Images/Common/UI/button_press.png" preserveAspectRatio="none" x="0" y="0" width="200" height="100" style="display:none;"></image>
+                        <text class="buttonText" x="17" y="60" font-size="40" fill="white" stroke="black" stroke-width="1.5">Play Again!</text>
+                    </g>
+                    <g id="mainMenuButton" transform="translate(670,350) scale(0.9, 0.9)">
+                        <image xlink:href="./Images/Common/UI/button_off.png" preserveAspectRatio="none" x="0" y="0" width="200" height="100" style=""></image>
+                        <image xlink:href="./Images/Common/UI/button_press.png" preserveAspectRatio="none" x="0" y="0" width="200" height="100" style="display:none;"></image>
+                        <text class="buttonText" x="20" y="60" font-size="40" fill="white" stroke="black" stroke-width="1.5">Main Menu</text>
+                    </g>
+                </g>
+            </svg>
+
+        </div>
+    </div>
+
+    <div id="gameImages" style="display:none;">
+    </div>
+
+    <div id="gameSounds" style="display:none;">
+    </div>
+
+</body>
+</html>

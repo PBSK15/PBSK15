@@ -1,0 +1,35 @@
+<creatureSummary id="804">
+			<name>
+				Aardvark
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/18/Aardvark main.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="793">
+					<name>
+						Land
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="550">
+					<name>
+						Mammals
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="796">
+					<name>
+						Africa
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

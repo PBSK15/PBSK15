@@ -1,0 +1,53 @@
+{% extends 'wildkratts/includes/wildKrattsPage.html.twig' %}
+{% set specialTitle = false %}
+{% set pageTitle = ' . Creaturepedia' %}
+{% set desc = 'Discover cool info and videos about your favorite animals in the Wild Kratts database.' %}
+{% set keywds = 'Wild Kratts, Tortuga, Creaturepedia, Games,Habitats, Kratt Brothers, Avatar, Power Suits' %}
+{% set bodyClass = 'bmobtab creaturepedia' %}
+
+
+{% block mobileNav %}<div class="mywide mnav"><a href="http://pbskids.org/"><img id="mpbslogo" alt="PBS Logo" src="/wildkratts/img/nav/mobile/logo_pbs.png" width="37" height="37"></a> <a href="/wildkratts/"><img alt="Wild Kratts Logo" id="mwklogo" src="/wildkratts/img/nav/mobile/logo_wk.png" width="110" height="104"></a>
+ <nav>
+  <ul>
+   <li id="navm-games"><a href="/wildkratts/games"><img alt="Games" class="games" src="/wildkratts/img/nav/mobile/m_nav_games.png" width="60" height="60"></a></li>
+   <li id="navm-videos"><a href="/wildkratts/videos"><img alt="Videos" class="videos" src="/wildkratts/img/nav/mobile/m_nav_videos.png" width="60" height="60"></a></li>
+   <li id="navm-creat"><a href="/wildkratts/creaturepedia"><img alt="Creaturepedia" class="creaturepedia" src="/wildkratts/img/nav/mobile/m_nav_creaturepedia.png" width="60" height="60"></a></li>
+  </ul>
+ </nav>
+</div>{% endblock %}
+
+
+
+
+{% block mainContent %}<div class="gmain">
+ <div class="container">
+  <div id="flashcontent" class="creaturepedia-desktop"><span id="noflash-message"></span><br> <br> <span id="noflash-link"></span>
+  </div> <img id="videoplacer" class="creaturepedia-mobile-message" alt="Creaturepedia Coming Soon on Mobile" src="/wildkratts/img/wow_facts.gif" width="797" height="638"> <!-- subpagespromo.html -->
+  <div class="promosubpage mynarrow">
+   <div class="promosub1">
+    <a href="/wildkratts/games/monkey-mayhem/"><img alt="Promo 1" src="/wildkratts/img/promos/promo_c1.jpg" width="285" height="116"></a>
+   </div>
+   <div class="promosub2">
+    <a href="/wildkratts/videos/"><img alt="Promo 2" src="/wildkratts/img/promos/promo_c2.jpg" width="285" height="116"></a>
+   </div>
+  </div> <!-- /subpagespromo.html -->
+ </div><!--/container-->
+</div>{% endblock %}
+
+
+
+
+{% block specialMiddleElems %}{% endblock %}
+
+
+
+
+{% block specialBody %}<script type="text/javascript" language="javascript">
+            var swfContentPath = 'creaturepedia/Creaturepedia.swf' // line to be changed for each game
+            //Remove comments as necessary
+            //var roundUpMode = false;
+            //var video_keyword = "crocgame";
+        </script>
+<script src="/wildkratts/js/gamesjs.js"></script>
+{% endblock %}
+

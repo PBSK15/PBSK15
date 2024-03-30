@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no"/>
+        <title>creatureGame</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="assets/css/iframe.css">
+        <link rel="stylesheet" href="assets/css/creature.css">
+        <link rel="stylesheet" href="assets/css/libraries.css">
+    </head>
+    <body id="gamepage">
+        <div id="gameView">
+        <div id="GameCenter">
+            <img id="splashImage" width="988" height="556" src="./assets/images/AvivaLoading2.png"/>
+                <canvas id="FloorCanvas" width="988" height="556"  ></canvas>
+                <canvas id="GameCanvas" width="988" height="556" ></canvas>
+                <svg id="svgCanvas" width="990" height="558" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none; margin-left:-1px;">
+
+                <g id="racing_screen_svg" style="display:none;">
+                    <rect id="controlLeft"  fill="rgba(255,0,0,0)" x="0"   y="0" width="50%" height="100%"></rect>
+                    <rect id="controlRight" fill="rgba(0,0,255,0)" x="50%"   y="0" width="50%" height="100%"></rect>
+
+                    <g clip-path="url(#miniMapClip)">
+                        <g id="path_svg" transform="matrix(0.8, 0, 0, 0.8, 66, 76) translate(0,0)" >
+                            <g id="svgStamps"></g>
+                            <g id="levelPaths"></g>
+
+                            <g id="zachRepresentation">
+                                <circle id="zachCircle" cx="0" cy="0" r="10" fill="#912921" stroke="black"></circle>
+                                <path d="M0,-5 0,5 M0,5 5,0 M0,5 -5,0" stroke="white"></path>
+                            </g>
+                            <g id="playerRepresentation">
+                                <circle cx="0" cy="0" r="10" fill="#2AFF83" stroke="black" id="playerCircle"></circle>
+                            </g>
+                            <g id="zachBotsRepresentation">
+                            </g>
+                        </g>
+                    </g>
+
+                    <g id = "powerConsole">
+                        <g id = "powerButton0" class="powerButton" transform="translate(828,496)">
+                            <circle class="powerBg" r="50" cx="0" cy="0" fill="#555555" stroke="#73878F" stroke-width="5"></circle>
+                            <image x="-50" y="-50" width="100" height="100" xlink:href=""></image>
+                            <circle class="button" r="50" cx="0" cy="0" fill="rgba(0, 0, 0, 0)"></circle>
+                        </g>
+                        <g id = "powerButton1" class="powerButton" transform="translate(928,436)">
+                            <circle class="powerBg" r="50" cx="0" cy="0" fill="#555555" stroke="#73878F" stroke-width="5"></circle>
+                            <image x="-50" y="-50" width="100" height="100" xlink:href=""></image>
+                            <circle class="button" r="50" cx="0" cy="0" fill="rgba(0, 0, 0, 0)"></circle>
+                        </g>
+                        <g id = "powerButton2" class="powerButton" transform="translate(828,376)">
+                            <circle class="powerBg" r="50" cx="0" cy="0" fill="#555555" stroke="#73878F" stroke-width="5"></circle>
+                            <image x="-50" y="-50" width="100" height="100" xlink:href=""></image>
+                            <circle class="button" r="50" cx="0" cy="0" fill="rgba(0, 0, 0, 0)"></circle>
+                        </g>
+                        <g id = "powerButton3" class="powerButton" transform="translate(928,316)">
+                            <circle class="powerBg" r="50" cx="0" cy="0" fill="#555555" stroke="#73878F" stroke-width="5"></circle>
+                            <image x="-50" y="-50" width="100" height="100" xlink:href=""></image>
+                            <circle class="button" r="50" cx="0" cy="0" fill="rgba(0, 0, 0, 0)"></circle>
+                        </g>
+                    </g>
+                    <g id = "rewardSlot" class="powerButton" transform="translate(215, 473)">
+                        <image x="-80" y="-40" width="160" height="80" xlink:href="./assets/images/CockpitUI/powerup_empty.png"></image>
+                        <rect class="button" width="160" height="80" fill="rgba(0, 0, 0, 0)" transform="translate(-80, -40)"></circle>
+                    </g>
+
+                    <g id="endgame" style="display:none;">
+                        <rect x="0" y="0" width="990" height="558" fill="rgba(0,0,0,0.85)"></rect>
+                        <image style="display:none;" id="winBanner"  x="50" y="0" width="888" height="420" xlink:href="./assets/images/EndGame/Win_988x556.png"></image>
+                        <image style="display:none;" id="loseBanner" x="50" y="0" width="888" height="420" xlink:href="./assets/images/EndGame/Lose_988x556.png"></image>
+                    </g>
+                </g>
+
+                <g id="lab_screen_svg" style="display:none;" transform="translate(0,0)">
+                    <path id="avivaButton" d="m473,220 100,0 0,316 -100,0z" fill="rgba(0,0,0,0)"></path>
+
+                    <!-- stat description boxes: -->
+                    <rect id="desc_weight"   x="1040" y="400" width="330" height="30" fill="rgba(255,0,255,0)"></rect>
+                    <rect id="desc_cost"     x="1040" y="430" width="330" height="30" fill="rgba(255,255,0,0)"></rect>
+                    <rect id="desc_duration" x="1040" y="460" width="330" height="30" fill="rgba(0,255,255,0)"></rect>
+
+
+                    <g id="powerSlots" transform="translate(88,38)" style="display:none;">
+                        <g class="powerSlot selected" transform="translate(513,342)">
+                            <path class="slotbg"    d="M0,0 73,0 81,86 -8,84z" fill="#434365" stroke="none"></path>
+                            <path class="slotfg"    d="M8,10 65,9 73,77 0,76z" fill="#1B1B27" stroke="none"></path>
+                            <path class="slotempty" d="M10,32 12,15 25,15 M 50,15 61,15 63,32 M 51,72 67,72 66,60 M 7,59 5,72 23,72" fill="none" stroke="#4870B6" stroke-width="3"></path>
+                            <image class="slotIcon" x="5" y="10" width="63" height="67" preserveAspectRatio="none" xlink:href="" style="display:none;"></image>
+                            <g class="removeButton" >
+                                <circle fill="rgba(0,0,0,0)" r="25" cy="15" cx="55"></circle>
+                                <image x="53" y="0" width="30" height="30" xlink:href="./assets/images/LabAssets/icon_remove.png"></image>
+                            </g>
+
+                        </g>
+
+                        <g class="powerSlot" transform="translate(603,342)">
+                            <path class="slotbg"    d="M-8,0 81,0 73,86 0,84z" fill="#434365" stroke="none"></path>
+                            <path class="slotfg"    d="M0,10 73,9 65,77 8,76z" fill="#1B1B27" stroke="none"></path>
+                            <path class="slotempty" d="M8,32 6,15 25,15 M 50,15 68,15 66,32 M 50,72 61,72 63,60 M 11,59 12,72 27,72" fill="none" stroke="#4870B6" stroke-width="3"></path>
+                            <image class="slotIcon" x="5" y="10" width="63" height="67" preserveAspectRatio="none" xlink:href="" style="display:none;"></image>
+                            <g class="removeButton" >
+                                <circle fill="rgba(0,0,0,0)" r="25" cy="15" cx="55"></circle>
+                                <image x="53" y="0" width="30" height="30" xlink:href="./assets/images/LabAssets/icon_remove.png"></image>
+                            </g>
+                        </g>
+
+                        <g class="powerSlot" transform="translate(693,342)">
+                            <path class="slotbg"    d="M0,0 73,0 81,86 -8,84z" fill="#434365" stroke="none"></path>
+                            <path class="slotfg"    d="M8,10 65,9 73,77 0,76z" fill="#1B1B27" stroke="none"></path>
+                            <path class="slotempty" d="M10,32 12,15 25,15 M 50,15 61,15 63,32 M 51,72 67,72 66,60 M 7,59 5,72 23,72" fill="none" stroke="#4870B6" stroke-width="3"></path>
+                            <image class="slotIcon" x="5" y="10" width="63" height="67" preserveAspectRatio="none" xlink:href="" style="display:none;"></image>
+                            <g class="removeButton" >
+                                <circle fill="rgba(0,0,0,0)" r="25" cy="15" cx="55"></circle>
+                                <image x="53" y="0" width="30" height="30" xlink:href="./assets/images/LabAssets/icon_remove.png"></image>
+                            </g>
+                        </g>
+
+                        <g class="powerSlot" transform="translate(782,342)">
+                            <path class="slotbg"    d="M-8,0 81,0 73,86 0,84z" fill="#434365" stroke="none"></path>
+                            <path class="slotfg"    d="M0,10 73,9 65,77 8,76z" fill="#1B1B27" stroke="none"></path>
+                            <path class="slotempty" d="M8,32 6,15 25,15 M 50,15 68,15 66,32 M 50,72 61,72 63,60 M 11,59 12,72 27,72" fill="none" stroke="#4870B6" stroke-width="3"></path>
+                            <image class="slotIcon" x="5" y="10" width="63" height="67" preserveAspectRatio="none" xlink:href="" style="display:none;"></image>
+                            <g class="removeButton" >
+                                <circle fill="rgba(0,0,0,0)" r="25" cy="15" cx="55"></circle>
+                                <image x="53" y="0" width="30" height="30" xlink:href="./assets/images/LabAssets/icon_remove.png"></image>
+                            </g>
+                        </g>
+                    </g>
+
+                    <path id="addremovebutton" d="m1052,158 285,0 0,188 -285,7z" fill="rgba(0,0,0,0)"></path>
+
+                    <g>
+                        <image x="78" y="85" width="288" height="100" preserveAspectRatio="none" xlink:href="./assets/images/LabAssets/terrain.png"></image>
+                    </g>
+
+                    <g transform="translate(106,15)">
+                        <image id="power_select_background" x="945" y="4" width="288" height="121" preserveAspectRatio="none" xlink:href="./assets/images/LabAssets/creature_select_move.png"></image>
+                    </g>
+
+                    <g id="lab_tutorial_highlights">
+                        <path id="lab_tutorial_flash_0" class="tutorialVisible" fill="rgba(255,255,255,0.3)" d="m107,113 0,54 q-25,0,-27,-27 0,-27,27,-27 m227,0 0,54 q25,0,27,-27 0,-27,-27,-27"></path>
+                        <path id="lab_tutorial_flash_1" class="tutorialVisible" fill="rgba(255,255,255,0.3)" d="m903,482 0,64 q-32,0,-32,-32 0,-32,32,-32 q32,0,32,32 0,32,-32,32 m24,-60 q27,0,27,27 0,27,-27,27" ></path>
+                        <path id="lab_tutorial_flash_2" class="tutorialVisible" fill="rgba(255,255,255,0.3)" d="m1097,90 q-13,0,-16,12 l0,-18 -3,0 0,-65 248,0 0,66 -18,0 0,12 q-8,-7,-16,-6" ></path>
+                        <path id="lab_tutorial_flash_3" class="tutorialVisible" fill="rgba(255,255,255,0.1)" d="m1046,142 297,4 16,188 -305,7z" ></path>
+                        <path id="lab_tutorial_flash_4" class="tutorialVisible" fill="rgba(255,255,255,0.3)" d="m1081,84 0,54 q-25,0,-27,-27 0,-27,27,-27 m227,0 0,54 q25,0,27,-27 0,-27,-27,-27" ></path>
+                    </g>
+
+                </g>
+
+                <g id="racing_power_up_screen" style="display:none;">
+                    <rect x="0" y="0" width="988" height="556" fill="rgba(0,0,0,0.5)"></rect>
+                    <path d="m95.21344,44.40824l810.72015,-2.33315c27.11383,1.91109 36.00793,9.85218 32.17834,45.57077l-17.38116,387.85036c-0.70612,19.70752 -7.1178,29.83231 -23.9032,30.3746c-16.7854,0.54214 -749.93082,0.5918 -776.82143,0.15326c-26.8906,-0.43851 -31.83418,-8.09918 -34.74928,-29.35959l-18.83424,-397.81783c-4.38766,-22.07099 6.9358,-35.08727 28.79081,-34.43842z" id="svg_1" stroke="white" stroke-width="5" transform="translate(-5, 0)" fill="rgba(253,138,0,0.83)"/>
+                    <rect x="100" y="68" width="794" height="418" fill="rgba(255,232,204,1)"></rect>
+
+                    <g id="power_up_content">
+                        <g id="power_up_title">
+                            <text class="powerUpTitle" x="80" y="110" text-anchor="begin" font-size="80" fill="white" stroke="black" stroke-width="2">USE A POWER UP!</text>
+
+
+                            <g class="power_up_page">
+                                <switch>
+                                    <foreignObject x="80" y="80" width="824" height="430">
+                                        <body xmlns="http://www.w3.org/1999/xhtml">
+                                        <div class="powerUpContentText">
+                                            <p>A power up can be used to give you a one-time advantage during this race. Select one of the available power ups below to enhance your racer!</p>
+                                        </div>
+                                        </body>
+                                    </foreignObject>
+                                    <text font-size="24" font-family="DINE">
+                                        <tspan x="10" y="10">A power up can be used to give you a one-time advantage during this race.</tspan>
+                                        <tspan x="10" y="20">Select one of the available power ups below to enhance your racer!</tspan>
+                                    </text>
+                                </switch>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="power_up_page_buttons">
+                    </g>
+                </g>
+
+                <g id="lab_help_screen_svg" style="display:none;">
+                    <rect x="0" y="0" width="988" height="556" fill="rgba(0,0,0,0.5)"></rect>
+                    <path d="m45,46 q-0,-25 29,-29 l0,0 200,0 q21,-2 34,27 l602,0 q28,0 32,35 l-22,421 q-4,19 -31,22 l-797,0 q-24,0 -31,-40z" fill="rgba(253,138,0,0.83)" stroke="white" stroke-width="5"></path>
+                    <rect x="80" y="66" width="824" height="430" fill="rgba(255,232,204,1)"></rect>
+
+                    <g id="help_content">
+                        <g id="lab_help">
+                            <text class="helpTitle" x="71" y="90" text-anchor="begin" font-size="76" fill="white" stroke="black" stroke-width="2">HELP</text>
+
+
+                            <g class="helpPage">
+                                <switch>
+                                    <foreignObject x="80" y="66" width="824" height="430">
+                                        <body xmlns="http://www.w3.org/1999/xhtml">
+                                            <div class="helpContentText">
+                                                <p>THE LAB:</p>
+                                                <p>Use the lab screen to choose a level and your racer's animal powers.</p>
+                                                <br>
+                                                <p>The left side of the lab allows you to pick a level.  Each level features a different arrangement of hazards and obstacales that will require different combinations animal powers to gain an advantage in the race.</p>
+                                                <br>
+                                                <p>The right side of the lab allowed you to select up to four animal powers that will be available to you while racing.  Animal powers are divided into movement-based powers and defensive powers.  Try to match the traits of each animal to the environment you will be racing in.</p>
+                                            </div>
+                                        </body>
+                                    </foreignObject>
+                                    <text font-size="24" font-family="DINE">
+                                        <tspan x="100" y="140">THE LAB:</tspan>
+                                        <tspan x="100" y="170">Use the lab screen to choose a level and your racer's animal powers.</tspan>
+                                        <tspan x="100" y="230">The left side of the lab allows you to pick a level.  Each level features a different arrangement of hazards</tspan>
+                                        <tspan x="100" y="260">and obstacales that will require different combinations animal powers to gain an advantage in the race.</tspan>
+                                        <tspan x="100" y="320">The right side of the lab allowed you to select up to four animal powers that will be available to you while </tspan>
+                                        <tspan x="100" y="350">racing.  Animal powers are divided into movement-based powers and defensive powers.  Try to match the </tspan>
+                                        <tspan x="100" y="380">traits of each animal to the environment you will be racing in.</tspan>
+                                    </text>
+                                </switch>
+                            </g>
+
+                            <g class="helpPage">
+                                <switch>
+                                    <foreignObject x="80" y="66" width="824" height="430">
+                                        <body xmlns="http://www.w3.org/1999/xhtml">
+                                            <div class="helpContentText">
+                                                <p>POWERS:</p>
+                                                <p>Each animal power you select will be able to be activated, one at a time, during the race.  The racer has a limited amount of energy per race; using a power will use some of this energy.</p>
+                                                <br>
+                                                <p>The activated power will influence your potential speed, depending on the environment you are in.  All of the selected powers will contribute to the recer's weight and slow you down, even when not activated.  Some powers may be reduced (or not work at all) if the racer is too heavy.</p>
+
+                                            </div>
+                                        </body>
+                                    </foreignObject>
+                                    <text font-size="24" font-family="DINE">
+                                        <tspan x="100" y="140">POWERS:</tspan>
+                                        <tspan x="100" y="170">Each animal power you select will be able to be activated, one at a time, during the race. </tspan>
+                                        <tspan x="100" y="200">The racer has a limited amount of energy per race; using a power will use some of this energy.</tspan>
+                                        <tspan x="100" y="260">The activated power will influence your potential speed, depending on the environment you are in.  </tspan>
+                                        <tspan x="100" y="290">All of the selected powers will contribute to the recer's weight and slow you down, even when not </tspan>
+                                        <tspan x="100" y="320">activated.  Some powers may be reduced (or not work at all) if the racer is too heavy.</tspan>
+                                    </text>
+                                </switch>
+                            </g>
+
+                        </g>
+
+                        <g id="race_pause">
+                            <text class="helpTitle" x="71" y="90" text-anchor="begin" font-size="76" fill="white" stroke="black" stroke-width="2">PAUSE</text>
+                            <switch>
+                                <foreignObject x="80" y="66" width="824" height="430">
+                                    <body xmlns="http://www.w3.org/1999/xhtml">
+                                        <div class="helpContentText">
+                                            <p>HOW TO PLAY THE GAME:</p>
+                                            <p>Touch the left and right sides of the game or use the arrow keys to move from side to side.</p>
+                                            <br>
+                                            <p>Try to avoid running into obstacles, or getting hit by Zach Bots.</p>
+                                            <br>
+                                            <p>Use the buttons on the right of the screen to activate creature powers.  Some powers can be used to defend yourself against Zach or obstacles in the level, other powers give you a speed boost, or an advantage while over certain terrain.</p>
+                                        </div>
+                                    </body>
+                                </foreignObject>
+                                <text font-size="24" font-family="DINE">
+                                    <tspan x="100" y="140">HOW TO PLAY THE GAME:</tspan>
+                                    <tspan x="100" y="170">Touch the left and right sides of the game or use the arrow keys to move from side to side.</tspan>
+                                    <tspan x="100" y="230">Try to avoid running into obstacles, or getting hit by Zach Bots.</tspan>
+                                    <tspan x="100" y="290">Use the buttons on the right of the screen to activate creature powers.  Some powers can be </tspan>
+                                    <tspan x="100" y="320">used to defend yourself against Zach or obstacles in the level, other powers give you a speed </tspan>
+                                    <tspan x="100" y="350">boost, or an advantage while over certain terrain.</tspan>
+                                </text>
+                            </switch>
+                        </g>
+                    </g>
+
+                    <g id="helpPageButtons">
+                        <text id="pageCountText" x="890" y="481" text-anchor="end" font-size="26" fill="#F5562B">Page 1/1</text>
+                    </g>
+
+                </g>
+
+                <g id="help_toggle_button" transform="translate(860,10)">
+                    <rect fill="rgba(0,0,0,0)" height="65" width="65" y="-15" x="-15"></rect> <!-- Hit rect to make the button "bigger" -->
+                    <g id="help_button_close">
+                        <image xlink:href="./assets/images/LabAssets/help_close.png" preserveAspectRatio="none" x="0" y="0" width="45" height="45" style=""></image>
+                        <image xlink:href="./assets/images/LabAssets/help_close_press.png" preserveAspectRatio="none" x="0" y="0" width="45" height="45" style="display:none;"></image>
+                    </g>
+                    <g id="help_button_open">
+                        <image xlink:href="./assets/images/LabAssets/help.png" preserveAspectRatio="none" x="0" y="0" width="45" height="45" style=""></image>
+                        <image xlink:href="./assets/images/LabAssets/help_close_press.png" preserveAspectRatio="none" x="0" y="0" width="45" height="45" style="display:none;"></image>
+                    </g>
+                </g>
+
+                <defs>
+                    <clipPath id="miniMapClip">
+                        <!-- This path should match the shape of the mini-map -->
+                        <path d="M0,0 128,0 132,144 0,149z"></path>
+                    </clipPath>
+                    <radialGradient id="activeGradient" fx="50%" fy="50%" r="0%" spreadMethod="pad">
+                        <stop id="activeGradStop1" offset="0%"   stop-color="#00edff" stop-opacity="1"></stop>
+                        <stop id="activeGradStop2" offset="100%" stop-color="#555555" stop-opacity="1"></stop>
+                    </radialGradient>
+
+                    <linearGradient id="leftButtonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="white" stop-opacity="0.35"></stop>
+                        <stop offset="100%" stop-color="white" stop-opacity="0"></stop>
+                    </linearGradient>
+
+                    <linearGradient id="rightButtonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="white" stop-opacity="0"></stop>
+                        <stop offset="100%" stop-color="white" stop-opacity="0.35"></stop>
+                    </linearGradient>
+
+                </defs>
+
+            </svg>
+                <div id="GameImages" style="display:none;">
+                </div>
+
+                <div id="GameSounds" style="display:none;">
+
+
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/libraries.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

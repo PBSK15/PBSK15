@@ -1,0 +1,60 @@
+.gmain .container {
+	text-align: center;
+    width: 100%;
+}
+
+.promosubpage.mynarrow div {
+    text-align: left;
+}
+
+#gameContainer{
+	position: relative;
+}
+
+@media screen and (min-width: 988px) {
+	#gameContainer{
+		width: 988px;
+		height: 556px;
+	}
+}
+
+@media screen and (max-width: 988px) {
+	#gameContainer{
+		width: 788px;
+		height: 443px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#gameContainer{
+		width: 788px;
+		height: 443px;
+	}
+}
+@media screen and (max-width: 720px) {
+	#gameContainer{
+		width: 630px;
+		height: 354px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#gameContainer{
+		width: 420px;
+		height: 236px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	#gameContainer{
+		width: 400px;
+		height: 225px;
+	}
+}
+
+@media screen and (max-width: 438px) {
+	#gameContainer{
+		width: 280px;
+		height: 158px;
+	}
+}

@@ -1,0 +1,47 @@
+.gmain .container {
+	text-align: center;
+    width: 100%;
+}
+
+.promosubpage.mynarrow div {
+    text-align: left;
+}
+
+#memGameContainer{
+	position: relative;
+}
+
+@media screen and (min-width: 988px) {
+	#memGameContainer{
+		width: 988px;
+		height: 566px;
+	}
+}
+
+@media screen and (max-width: 988px) {
+	#memGameContainer{
+		width: 450px;
+		height: 258px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#memGameContainer{
+		width: 420px;
+		height: 241px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	#memGameContainer{
+		width: 400px;
+		height: 229px;
+	}
+}
+
+@media screen and (max-width: 438px) {
+	#memGameContainer{
+		width: 280px;
+		height: 160px;
+	}
+}

@@ -1,0 +1,43 @@
+<creatureSummary id="805">
+			<name>
+				American Crocodile
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/88/AlligatorAndMartinCPS.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="793">
+					<name>
+						Land
+					</name>
+				</habitat><habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="552">
+					<name>
+						Reptiles
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="801">
+					<name>
+						North America
+					</name>
+				</region><region id="803">
+					<name>
+						South America
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

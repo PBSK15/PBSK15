@@ -1,0 +1,43 @@
+{% extends 'wildkratts/includes/wildKrattsPage.html.twig' %}
+{% set specialTitle = false %}
+{% set pageTitle = '' %}
+{% set desc = 'Wild Kratts, Tortuga, Creaturepedia, Games,Habitats, Kratt Brothers, concentration' %}
+{% set keywds = 'Wild Kratts, Tortuga, Creaturepedia, Games,Habitats, Kratt Brothers, concentration' %}
+
+
+{% block specialHead %}<script type="text/javascript" id="headband-callback" _src="/wildkratts/js/headband-callback.js"></script>
+<link rel="stylesheet" type="text/css" href="Game/css/iframe.css">
+{% endblock %}
+
+
+{% set bodyClass = 'bmobtab gameplay' %}
+
+
+{% block mobileNav %}<div class="mywide mnav"><a href="http://pbskids.org/"><img id="mpbslogo" alt="PBS Logo" src="/wildkratts/img/nav/mobile/logo_pbs.png" width="37" height="37"></a> <a href="/wildkratts/"><img alt="Wild Kratts Logo" id="mwklogo" src="/wildkratts/img/nav/mobile/logo_wk.png" width="110" height="104"></a>
+ <nav>
+  <ul>
+   <li id="navm-games"><a href="/wildkratts/games"><img alt="Games" class="games" src="/wildkratts/img/nav/mobile/m_nav_games.png" width="60" height="60"></a></li>
+   <li id="navm-videos"><a href="/wildkratts/videos"><img alt="Videos" class="videos" src="/wildkratts/img/nav/mobile/m_nav_videos.png" width="60" height="60"></a></li>
+   <li id="navm-creat"><a href="/wildkratts/creaturepedia"><img alt="Creaturepedia" class="creaturepedia" src="/wildkratts/img/nav/mobile/m_nav_creaturepedia.png" width="60" height="60"></a></li>
+  </ul>
+ </nav>
+</div>{% endblock %}
+
+
+
+
+{% block mainContent %}<div class="gmain">
+ <div class="container"><iframe id="gameContainer" src="rhinoBowl.html" scrolling="no"> </iframe>
+ </div><!--/container-->
+</div>{% endblock %}
+
+
+
+
+{% block specialMiddleElems %}{% endblock %}
+
+
+
+
+{% block specialBody %}{% endblock %}
+

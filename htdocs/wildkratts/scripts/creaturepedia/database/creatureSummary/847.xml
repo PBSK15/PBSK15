@@ -1,0 +1,39 @@
+<creatureSummary id="847">
+			<name>
+				Platypus
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/24/Platypus main.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="793">
+					<name>
+						Land
+					</name>
+				</habitat><habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="550">
+					<name>
+						Mammals
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="799">
+					<name>
+						Australia
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

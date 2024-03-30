@@ -1,0 +1,35 @@
+<creatureSummary id="854">
+			<name>
+				Sloth
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/82/Sloth-Secret-fact.PNG
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="793">
+					<name>
+						Land
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="550">
+					<name>
+						Mammals
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="803">
+					<name>
+						South America
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

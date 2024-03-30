@@ -1,0 +1,63 @@
+<creatureSummary id="834">
+			<name>
+				Hermit Crab
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/90/HermitCrab-Creature-Power-pic.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="793">
+					<name>
+						Land
+					</name>
+				</habitat><habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="555">
+					<name>
+						Arthropods
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="796">
+					<name>
+						Africa
+					</name>
+				</region><region id="798">
+					<name>
+						Asia
+					</name>
+				</region><region id="799">
+					<name>
+						Australia
+					</name>
+				</region><region id="800">
+					<name>
+						Europe
+					</name>
+				</region><region id="801">
+					<name>
+						North America
+					</name>
+				</region><region id="802">
+					<name>
+						Oceans
+					</name>
+				</region><region id="803">
+					<name>
+						South America
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

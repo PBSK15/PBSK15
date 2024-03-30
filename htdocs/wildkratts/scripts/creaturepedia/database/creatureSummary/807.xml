@@ -1,0 +1,39 @@
+<creatureSummary id="807">
+			<name>
+				Basilisk
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/30/Basilik main.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="793">
+					<name>
+						Land
+					</name>
+				</habitat><habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="552">
+					<name>
+						Reptiles
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="803">
+					<name>
+						South America
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

@@ -1,0 +1,1214 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: top;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.testbox {
+    width: 100%;
+    height: 30px;
+    background: red;
+}
+
+
+header {
+    margin-top: 0px;
+    padding-top: 12px;
+    height: 110px;
+    background: #fcc73e url("../img/nav/header_bg.png") no-repeat center;
+    border-bottom: 4px solid #5a7b8b;
+
+}
+
+body {
+    background: #99C9D5 url("../img/wk_tile.jpg") repeat;
+    margin-top: 0;
+    min-width: 966px;
+
+}
+
+
+.container {
+    width: 966px;
+
+    margin: 0 auto;
+}
+
+.gmain .container {
+    width: 834px;
+    margin: 0px auto;
+    text-align: left;
+    padding-top: 55px;
+}
+
+.games .gmain .container img, .habitats .gmain .container img {
+    margin: 0 10px;
+    background: url("../img/buttons/box_bg_0.png") center center no-repeat;
+}
+
+.games .gmain .container img:hover, .habitats .gmain .container img:hover {
+    background: url("../img/buttons/box_bg_1.png") center center no-repeat;
+}
+
+#pbslogo {
+    margin-left: 1px;
+    margin-top: -1px;
+    z-index: 3;
+}
+
+#wklogo {
+    margin-left: 16px;
+    margin-top: 1px;
+    z-index: 3;
+}
+
+header nav {
+    margin-top: -157px;
+    margin-left: 205px;
+    font-family: 'Bangers', cursive;
+    color: #494949;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 1px  1px 5px #1c1c1c, 1px -1px 5px #1c1c1c, -1px  1px 5px #1c1c1c, -1px -1px 5px #1c1c1c; 
+    font-size: 23px;
+    /*position: relative;*/
+}
+
+header nav li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 0px;
+    /*position: relative;*/
+}
+
+header nav li:nth-child(4) {
+    margin-left: 4px;
+    margin-right: 11px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav p {
+    position: absolute;
+    width: 111px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+header nav .games p {
+    left: 5px;
+}
+
+
+img {
+    display: inline-block;
+}
+
+.main-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-content img {
+    position: absolute;
+}
+
+.main {
+    /*background: url("../img/main-bg.jpg") no-repeat center;*/
+    background: url("../img/bgs/bg_main.gif") no-repeat center;
+    height: 580px;
+}
+
+.main .container {
+    padding-top: 43px;
+}
+
+.games .gmain {
+    background: url("../img/bgs/bg_games.png") no-repeat center top;
+    /*margin-top: -30px;*/
+}
+
+.videos .gmain {
+    background: url("../img/bgs/bg_video.png") no-repeat center top;
+    /*margin-top: -30px;*/
+}
+
+.habitats .gmain {
+    background: url("../img/bgs/bg_habitat.png") no-repeat center top;
+    /*margin-top: -30px;*/
+}
+
+.creaturepedia .gmain {
+    background: url("../img/bgs/bg_creaturepedia.png") no-repeat center top;
+    /*margin-top: -30px;*/    
+}
+
+.yourroom .gmain {
+        background: url("../img/bgs/bg_yourroom.png") no-repeat center top;
+    /*margin-top: -30px;*/
+}
+
+
+
+
+
+#mrsloth, #chris, #martin, #bird, #jimmy, #aviva, #raccoon {
+    position: relative;
+}
+
+
+#mrsloth {
+    margin-top: -32px; 
+    margin-bottom: 32px;
+    margin-left: 241px;
+    margin-right: -241px;
+}
+
+#bird {
+    margin-top: 22px;
+    margin-bottom: -22px;
+    margin-left: 500px;
+    margin-right: -500px;
+}
+
+#rhino {
+    margin-top: 334px;
+    margin-bottom: -334px;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+#chris {
+    margin-top: 135px;
+    margin-bottom: -135px;
+    margin-left: -260px;
+    margin-right: 260px;
+    z-index: 10;
+}
+
+#martin {
+    margin-top: 135px;
+    margin-bottom: -135px;
+    margin-left: -554px;
+    margin-right: 554px;
+    z-index: 10;
+}
+
+#koki {
+    margin-top: -192px;
+    margin-bottom: 192px;
+    margin-left: 750px;
+    margin-right: -750px;
+}
+
+#jimmy {
+    margin-top: -217px;
+    margin-bottom: 217px;
+    margin-left: 532px;
+    margin-right: -532px;
+}
+
+#raccoon {
+    margin-top: -37px;
+    margin-bottom: 37px;
+    margin-left: 446px;
+    margin-right: -446px;
+}
+
+#aviva {
+    margin-top: -202px;
+    margin-bottom: 202px;
+    margin-left: 275px;
+    margin-right: -275px;
+    z-index: 10;
+}
+
+.promo1 {
+    width: 182px;
+    height: 128px;
+    /*background: url("../img/home/promo_left.gif") no-repeat center center;*/
+    margin-top: -695px;
+    margin-bottom: 695px;
+    margin-left: 29px;
+    margin-right: -29px;
+    margin-top: -397px;
+    margin-bottom: 397px;
+    margin-left: -435px;
+    margin-right: 103px;
+    display: inline-block;
+}
+
+.promo2 {
+    width: 186px;
+    height: 129px;
+    /*background: url("../img/home/promo_right.gif") no-repeat center center;*/
+    margin-top: -832px;
+    margin-bottom: 832px;
+    margin-left: 751px;
+    margin-right: -751px;
+    margin-top: -405px;
+    margin-bottom: 405px;
+    margin-left: 434px;
+    margin-right: -434px;
+    display: inline-block;
+}
+
+@-moz-document url-prefix() {
+    .promo2 {
+        margin-left: 283px;
+    }
+}
+
+.promosub1 {
+    background: url("../img/promosub1bg.png");
+    height: 149px;
+    width: 413px;
+    display: inline-block;
+}
+
+.promosub2 {
+    background: url("../img/promosub2bg.png");
+    height: 149px;
+    width: 413px;
+    display: inline-block;
+}
+
+.promosubpage {
+    margin-top: 60px;
+}
+
+.gmain .container .promosub1 img {
+    margin-top: 11px;
+    margin-left: 95px;
+}
+
+.gmain .container .promosub2 img {
+    margin-top: 11px;
+    margin-left: 29px;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+.theme-light.slider-wrapper {
+background: none;
+padding: 10px;
+width: 414px;
+/*
+    margin-top: -849px;
+    margin-bottom: 849px;
+    margin-left: 269px;
+    margin-right: -269px;
+    width: 414px;
+    */
+}
+
+
+.nivo-controlNav {
+    display: none;
+}
+
+a.nivo-prevNav {
+    margin-top: -175px;
+    margin-bottom: 175px;
+}
+
+a.nivo-nextNav {
+    margin-top: -175px;
+    margin-bottom: 175px;
+}
+
+.slider-wrapper {
+    margin-top: -859px;
+    margin-bottom: 859px;
+    margin-left: 259px;
+    margin-right: -259px;
+    margin-top: -602px;
+    margin-bottom: 602px;
+    margin-left: 258px;
+    margin-right: -258px;
+    width: 434px;
+    height: 201px;
+}
+
+nav img {
+    background: url('../img/nav/nav_bg0.png') no-repeat center center;
+}
+
+nav li.currentpage img, .games #nav-games img, .habitats #nav-habitats img, .videos #nav-videos img, .creaturepedia #nav-creat img, .yourroom #nav-room img, .gameplay #nav-games img, .habitatplay #nav-habitats img {
+    background: url('../img/nav/nav_bg1.png') no-repeat center center;
+}
+
+nav li img:hover {
+    background: url('../img/nav/nav_bg1.png') no-repeat center center;
+}
+
+
+footer {
+    z-index: 2;
+    border-top: 5px solid #669DAB;
+    text-align: center;
+    padding: 20px 10px 5px 10px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+footer a:hover {
+    color: #77FFFA;
+}
+
+footer nav li {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0 8px 0 3px;
+    margin: 0;
+}
+
+.footernav2 {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.footernav2 li {
+    padding: 0 7px 0 4px;
+}
+
+
+footer a {
+    color: white;
+}
+
+footer nav li:last-child {
+    border-right: none;
+}
+
+footer img {
+    margin: 10px 0;
+
+}
+
+
+.footerimg2 {
+    width: 948px;
+    /*max-width: 90%;*/
+    background: #17c3f7;
+    border: 4px solid #669DAB;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+.credits {
+    width: 956px;
+    /*max-width: 90%;*/
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #FCC137;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 0px;
+    padding-bottom: 0;
+    color: #4E3801;
+    font-weight: normal;
+}
+
+#findsite {
+    display: block;
+    width: 100px;
+}
+
+.presentedby, .producedby, .developedby, .fundingby {
+    display: inline-block;
+    margin: 15px 0 0 0;
+    padding: 0px 24px;
+    padding: 0px 22px;
+}
+
+.credits p {
+    margin: 0;
+}
+
+
+.divider {
+    padding-top: 10px;
+}
+
+.presentedby, .producedby, .developedby {
+    border-right: 0px solid #D2A43E;
+}
+
+.presentedby {
+    float: left;
+}
+
+.localstation {
+    background: #D99F17;
+    padding: 10px 10px;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.bell {
+    padding: 0 2px 0 6px;
+}
+
+.forparents {
+    display: none;
+    background: #4C81A0;
+    width: 200px;
+    margin: -38px auto 38px auto;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 4px 4px 0 0;
+}
+
+.bmobtab .hidefooter {
+    display: block;
+}
+
+.games footer, .videos footer, .gameplay footer, .habitatplay footer, .creaturepedia footer, .yourroom footer, .habitats footer, .sitemap footer {
+    border-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .footerimg2 {
+        width: 90%;
+    }
+
+    footer img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .bmobtab .footerimg2 {
+        max-width: 90%;
+    }
+
+    .bmobtab .credits {
+        max-width: 90%;
+        margin-top: 15px;
+    }
+
+    .bmobtab .divider {
+        display: none;
+    }
+
+    .presentedby, .producedby, .developedby, .fundingby {
+        margin: 5px 0 0 0;
+        padding: 0px 10px;
+    }
+
+    footer {
+        padding: 20px 5px;
+    }
+
+    .bmobtab footer {
+        position: relative;
+        width: 100%;        
+        bottom: -20px;
+        bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 0;
+        /*background: #8FC4D2;*/
+    }
+
+    .bmobtab.gameplay footer, .bmobtab.habitatplay footer,  .bmobtab.yourroom footer {
+        bottom: -170px;
+    }
+
+
+    .bmobtab.gameplay footer {
+        bottom: -150px;
+        bottom: -20px;
+    }
+
+    .bmobtab.gameplay.amatch footer {
+        bottom: -60px;
+    }
+
+
+    .bmobtab.creaturepedia footer {
+        bottom: -120px;
+        bottom: -20px;
+    }
+
+    .bmobtab.videos footer {
+        bottom: -355px;
+    }
+
+    @media only screen and (min-width: 450px) {
+        .bmobtab.videos footer {
+            bottom: -450px;
+        }
+    }
+
+    .bmobtab footer.footer-expanded {
+        margin-top: -450px;
+        margin-top: -200px;
+        border-top: none;
+    }
+
+    .bmobtab.gameplay footer.footer-expanded {
+        margin-top: -150px;
+    }
+
+    .bmobtab footer.footer-expanded .myads {
+        display: none;
+    }
+
+    .bmobtab .hidefooter {
+        display: none;
+        visibility: hidden;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        background: #8FC4D2;
+    }
+
+    .bmobtab .footer-expanded .hidefooter {
+        display:block;
+        visibility: visible;
+        padding-top: 10px;
+    }
+
+    .bmobtab .forparents {
+        margin-bottom: 0;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .bmobtab .gmain .container {
+        margin: 0px auto 50px auto;
+        margin: 0px auto 0px auto;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
+
+.mmain {
+    text-align: center;
+}
+
+.bmobtab .mynav1 {
+    background: url('../img/nav/mobile/m_home_games.png') no-repeat center center;  
+    width: 297px;
+    height: 141px;  
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.bmobtab .mynav2 {
+    background: url('../img/nav/mobile/m_home_videos.png') no-repeat center center;  
+    width: 297px;
+    height: 141px;  
+    margin: 0 auto;
+    margin-top: -13px;
+}
+
+.bmobtab .mynav3 {
+    background: url('../img/nav/mobile/m_home_creaturepedia.png') no-repeat center center;  
+    width: 297px;
+    height: 141px;  
+    margin: 0 auto;
+    margin-top: -13px;
+}
+
+.bmobtab .mynav {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.mywide {
+    display: none;
+}
+
+.smmain .container {
+    width: 840px;
+}
+
+.smmain h1 {
+    font-family: 'Bangers', cursive;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 1px  1px 5px #1c1c1c, 1px -1px 5px #1c1c1c, -1px  1px 5px #1c1c1c, -1px -1px 5px #1c1c1c; 
+    font-size: 34px;
+}
+
+.smmain li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #385A63;
+    list-style-type: disc;
+    list-style-position: inside;
+
+}
+
+.smmain>.container>ul>li {
+    padding: 20px 0;
+}
+
+.smmain>.container>ul>li>a {
+    color: #385A63;
+    text-decoration: none;
+}
+
+.smmain>.container>ul>li:first-child {
+    padding: 0px 0 20px;
+}
+
+.smmain ul {
+    padding: 0;
+}
+
+.sitemapgroup {
+    background: #598C9F;
+    padding: 10px 5px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.smmain h1 {
+    margin-top: 40px;
+}
+
+.sitemapgroup a:hover {
+    color: #77FFFA;
+}
+
+.sitemapgroup li {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.sitemapgroup ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 40px;
+    width: 190px;
+}
+
+.sitemapgroup ul.first {
+    border-right: 1px solid #7AADC0;
+}
+
+.sitemapgroup ul.second {
+    border-right: 1px solid #7AADC0;
+
+}
+
+.sitemapgroup ul.third {
+    vertical-align: top;
+}
+
+.sitemapgroup li {
+    line-height: 2.1;
+}
+
+.sitemapgroup li.samechunk {
+    line-height: 1.6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sitemapgroup a {
+    color: white;
+}
+
+#smhabitats ul {
+    min-height: 115px;
+}
+
+#smparents ul {
+    min-height: 95px;
+}
+
+#flashcontent {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #385A63;
+}
+
+.games-legend {
+    margin-top: 35px;
+    padding-top: 14px;
+    border-top: 2px solid #6FA3B1;
+}
+
+.legend {
+    display: inline-block;
+    width: 230px;
+    padding-bottom: 10px;
+}
+
+.games .gmain .container .games-legend img {
+    background: none;
+    vertical-align: bottom;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/*
+@media only screen and (max-width: 966px) {
+    .container {
+        position:absolute;
+        width:90%;
+        margin: 0 auto; 
+    }
+}
+*/
+
+@media only screen and (min-width: 600px) {
+    .bmobtab .mywide {
+        display: none;
+    }
+
+
+
+    .bmobtab .mynarrow {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    /*
+    .mnav {
+        width: 100%;
+        margin: 0 auto;
+    } 
+    */
+
+    .bmobtab header.home {
+        background: #fcc73e url("/wildkratts/img/nav/mobile/m_bg_top.jpeg") no-repeat left center;
+    }
+
+    .bmobtab .smmain .container {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .bmobtab .sitemapgroup ul {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .bmobtab #smhabitats ul {
+        min-height: 0;
+    }
+
+    .bmobtab #smparents ul {
+        min-height: 0;
+    }
+
+    .bmobtab header {
+        height: 132px;
+    }
+
+    .bmobtab header.mgameplay {
+        height: 50px;
+    }
+
+    .bmobtab header.home {
+        height: 114px;
+    }
+
+    .bmobtab header img {
+        display: inline-block;
+    }
+
+    #mpbslogo {
+        margin-top: -5px;
+        margin-left: 15px;
+    }
+
+    #mwklogo {
+        margin-left: -10px;
+        margin-top: 16px;
+    }
+
+    .home #mwklogo {
+        margin-left: -10px;
+        margin-top: 0px;
+    }
+
+    #mwkclosegame {
+        float: right;
+        margin-right: 10px;
+    }
+
+
+    .bmobtab .mywide {
+        display: block!important;
+    }
+
+
+    .bmobtab .container {
+        width: 100%;
+    }
+
+
+    .bmobtab .mynarrow {
+        display: none;
+    }
+
+    body.bmobtab {
+        min-width: 0;
+    }
+
+
+
+    body.bmobtab {
+        background: #99C9D5 url("../img/nav/mobile/m_homebg.png") center 125px no-repeat;
+    }
+
+    body.bmobtab.games, body.bmobtab.videos, body.bmobtab.gameplay, body.bmobtab.habitatplay, body.bmobtab.creaturepedia, body.bmobtab.yourroom, body.bmobtab.habitats, body.bmobtab.sitemap {
+        background: #99C9D5 url("../img/wk_tile.jpg") repeat;
+    }
+
+    .bmobtab header .mywide nav {
+        margin-top: -86px;
+        margin-left: 165px;
+    }
+
+    .bmobtab header .mywide nav li {
+        margin-left: 0px;
+    }
+
+    .bmobtab header .mywide nav img {
+        background: url('../img/nav/mobile/m_nav_bg0.png') no-repeat center center;
+    }
+
+    .bmobtab header .mywide nav li.currentpage img, .bmobtab.games header .mywide nav li#navm-games img, .bmobtab.gameplay header .mywide nav li#navm-games img, .bmobtab.videos header .mywide nav li#navm-videos img, .bmobtab.creaturepedia header .mywide nav li#navm-creat img {
+        background: url('../img/nav/mobile/m_nav_bg1.png') no-repeat center center;
+    }    
+
+    .bmobtab header .mywide nav img:hover {
+        background: url('../img/nav/mobile/m_nav_bg1.png') no-repeat center center;
+    }    
+
+    .bmobtab.games .gmain, .bmobtab.videos .gmain, .bmobtab.gameplay .gmain, .bmobtab.habitatplay .gmain, .bmobtab.creaturepedia .gmain,.bmobtab.yourroom .gmain, .bmobtab.habitats .gmain {
+        background: none
+    }
+
+    .bmobtab img#videoplacer {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .bmobtab img#comingsoon {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        margin-bottom: 113px;
+    }
+
+    nav {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .bmobtab .games-legend {
+        width: 265px;
+        margin: 20px auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    #mpbslogo {
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+    #mwklogo {
+        margin-left: -20px;
+        margin-top: 16px;
+    }
+
+    .bmobtab header .mywide nav {
+        margin-top: -86px;
+        margin-left: 145px;
+    }
+
+    .bmobtab header .mywide nav li {
+        margin-left: -5px;
+    }
+
+}
+
+
+@media only screen and (max-width: 330px) {
+
+    #mpbslogo {
+        margin-left: 0px;
+    }
+
+    #mwklogo {
+        margin-left: -25px;
+    }
+
+    .bmobtab header .mywide nav {
+        margin-left: 138px;
+    }
+
+}
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .bmobtab .mynav1 {
+    background-image: url('../img/nav/mobile/m_home_games@2x.png');
+    background-size: 297px 141px;
+  }
+
+  .bmobtab .mynav2 {
+    background-image: url('../img/nav/mobile/m_home_videos@2x.png');
+    background-size: 297px 141px;
+  }
+
+    .bmobtab .mynav3 {
+    background-image: url('../img/nav/mobile/m_home_creaturepedia@2x.png');
+    background-size: 297px 141px;
+  }
+
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 600px){
+    .bmobtab header.home {
+        background: #fcc73e url("/wildkratts/img/nav/mobile/m_bg_top@2x.jpeg") no-repeat left center;
+        background-size: 800px 138px;
+    }
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+/*
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+*/

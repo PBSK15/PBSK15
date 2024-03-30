@@ -1,0 +1,124 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Photoshoot</title>
+
+<script src="modernizr-1.6.min.js"></script>
+
+<script src="shoot.js"></script>
+<script src="asset.js"></script>
+<script src="audio.js"></script>
+<script src="browser.js"></script>
+<script src="load.js"></script>
+<script src="talk.js"></script>
+
+<script src="splash.js"></script>
+<script src="splash_io.js"></script>
+
+<script src="map.js"></script>
+<script src="map_io.js"></script>
+<script src="map_icon.js"></script>
+
+<script src="game.js"></script>
+<script src="game_target.js"></script>
+<script src="game_icon.js"></script>
+<script src="game_home.js"></script>
+<script src="game_help.js"></script>
+<script src="game_end.js"></script>
+<script src="game_io.js"></script>
+
+<script src="zone_af.js"></script>
+<script src="zone_au.js"></script>
+<script src="zone_in.js"></script>
+<script src="zone_so.js"></script>
+<script src="zone_sa.js"></script>
+<script src="zone_na.js"></script>
+
+<script type="text/javascript">
+
+window.addEventListener('load', psShootLoaded, false);	
+
+function psShootLoaded() 
+{
+	psShootStart();	
+}
+
+function psShootHide()
+{
+	psTalkStop();
+}
+
+window.addEventListener('resize', psShootResize, false);
+window.addEventListener('orientationchange', psShootResize, false);
+window.addEventListener('pagehide', psShootHide, false );
+
+function psShootResize() 
+{
+    var newW = window.innerWidth;
+    var newH = window.innerHeight;
+    	
+	displayW = newW;
+	displayH = newH;    
+	
+	if( displayW > 960 )
+		displayW = 960;
+	    
+    if( displayH > 640 )
+    	displayH = 640;
+    	
+    displayScaleX = displayW / 960.0;
+    displayScaleY = displayH / 640.0;
+    
+    if( displayScaleX < displayScaleY )
+    	displayScale = displayScaleX;
+    else
+    	displayScale = displayScaleY;
+    	
+    if( displayScale > 1.0 )
+    	displayScale = 1.0;    	
+    	
+	displayW = 960 * displayScale;
+	displayH = 640 * displayScale;    	
+    	
+	//displayX = (newW - displayW) / 2;
+	//displayY = (newH - displayH) / 2;    
+	
+	displayX = 0;
+	displayY = 0;
+				
+	if( displayX < 0 )
+		displayX = 0;
+	if( displayY < 0 )
+		displayY = 0;
+		
+	displayCX = displayW / 2;
+	displayCY = displayH / 2;
+		    
+	displayCanvas.left   = 0;
+	displayCanvas.top    = 0;
+    displayCanvas.width  = displayW;
+    displayCanvas.height = displayH;
+	
+	psShootAdjust();
+}
+
+</script> 
+</head>
+
+<body>
+<div id="shootBody" style="position : absolute; left:0px; top:0px;">
+<canvas id="shootCanvas">
+ Your browser does not support the HTML 5 Canvas. 
+</canvas>
+</div>
+
+<div id="GameSounds" style="display:none;">
+</div>
+
+</body>
+</html>

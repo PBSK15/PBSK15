@@ -1,0 +1,154 @@
+<content id="811"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Blue Jay Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							The blue jay is known as a noisy and boisterous bird. Its loud cries are used to warn other birds and animals of danger, but are also often just for fun. The jay is also known to imitate raptor calls. No one knows why for sure, but one reason thought is that the sound may scare other birds away, leaving all the food for the jays!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/34/Blue jay creature power.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/34/Blue jay creature power thumbnail.png
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							The blue jay eats acorns, nuts, and seeds, and insects like caterpillars, grasshoppers, and beetles. Blue jays store acorns in the ground by tapping them into the earth to keep them for later. Sometimes, they don't find the acorns they stored and the acorn starts to sprout into a tree. In this way, blue jays plant forests!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/34/Blue jay food and health.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/34/Blue jay food and health thumbnail.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Blue jays live across North America, but mostly in eastern and central areas.
+They are found in all kinds of forests, but especially near oak trees. They like forest edges more than deep forest. Blue jays especially like urban and suburban areas, especially where oaks or bird feeders are found.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/34/Blue jay home range.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Adult blue jays are preyed on by different species of hawks, owls, and falcons. Blue jay parents will defend their chicks against predators. Both parents will attack and chase hawks, falcons, raccoons, cats, snakes, squirrels, and even humans away from their nests.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/34/Blue jay enemies thumbnail.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Blue Jay Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Blue jays are unpredictable! Thousands of blue jays migrate in flocks along the Great Lakes and Atlantic coasts, but some stay north all winter. Young jays may be more likely to migrate than adults, but many adults also migrate. Some blue jays migrate south one year, stay north the next winter, and then migrate south again the next year.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/34/Blue jay living creature style.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/34/Blue jay living creature style thumbnail.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

@@ -1,0 +1,35 @@
+<creatureSummary id="850">
+			<name>
+				Remora
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/46/Remora main.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="554">
+					<name>
+						Fish
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="802">
+					<name>
+						Oceans
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

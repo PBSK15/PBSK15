@@ -1,0 +1,35 @@
+<creatureSummary id="811">
+			<name>
+				Blue Jay
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/34/Blue jay main.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="794">
+					<name>
+						Air
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="551">
+					<name>
+						Birds
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="801">
+					<name>
+						North America
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

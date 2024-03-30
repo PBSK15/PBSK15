@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Wild Kratts . Tortuga HQ | PBS KIDS</title>
+	<meta name='description' content="Enter the Wild Kratts Headquarters. Play games, create a character, and more!">	
+	<meta name='keywords' content="Wild Kratts Tortuga Bridge Head Quarters, Home page with Aviva Koki Jimmy Z, Landing page to access Your Room, Landing page to access Creaturepedia, Landing page to access Games, Landing page to access Habitats, Kratt Brothers games homepage">
+	<!--<script type="text/javascript"> var swfContentPath = 'Tortuga.swf'; var disableHomeLink = true; </script>-->
+	<!-- local CSS -->
+<!--<link rel="stylesheet" href="/wildkratts/style.css" type="text/css" media="screen" charset="utf-8">-->
+
+<!-- external apis -->
+{% include 'template_includes/min_jquery_include.html' %}
+
+<!-- local apis -->
+<!--
+<script type="text/javascript" src="/wildkratts/js/cookies.js"></script>
+<script type="text/javascript" src="/wildkratts/js/auth.js"></script>
+<script type="text/javascript" src="/wildkratts/js/main.js"></script>
+<script type="text/javascript" id="headband-callback" _src="/wildkratts/js/headband-callback.js"></script>
+-->
+<!-- PBS -->
+<!--
+<link type="text/css" media="screen" rel="stylesheet" href="/includes/auth/ajax.css" />
+<script type="text/javascript" src="/includes/javascript/bridge.urls.js"></script>
+<script type="text/javascript" src="/includes/javascript/bridge.js"></script>
+-->
+<script type="text/javascript" src="http://pbskids.org/producerplayer/js/producerplayer2.js"></script>
+
+
+<!-- TVO -->
+<!--<link rel="stylesheet" href="/wildkratts/styleTVO.css" type="text/css" media="screen" charset="utf-8">-->
+
+
+
+<!--	<script type="text/javascript" id="headband-overrides" _src="/wildkratts/headband/homepage-overrides.js"></script> -->
+</head>
+<body style="background-color: transparent;">
+<div style="margin-top:20px;">
+<div id="videoDisplay">
+	
+
+</div>
+</div>
+<!--==========================================================\\ -->
+	<!--  BEGIN PBS KIDS GO! BROADBAND PLAYER MODULE          \\-->
+	
+	<script type="text/javascript">
+		var configObj = {};
+			//configObj.category = swfobject.getQueryParamValue("keyword");
+			configObj.keywords = swfobject.getQueryParamValue("keyword");
+			configObj.IsClip = "true";
+			configObj.controlLayoutURL = "http://pbskids.org/producerplayer/data/metaLayout-GoSquare-AllControls.xml";
+			configObj.playerSkinURL = "http://pbskids.org/producerplayer/swf/skins/skinKidsGoSquared.swf";
+			configObj.dockBanner = "false";
+			configObj.dockReleaseList = "false";
+			configObj.aspectRatio = "16:9";
+			configObj.playerPaddingTop = 0;
+			configObj.playerPaddingLeft = 0;
+			configObj.containerWidth = 480;
+			configObj.containerHeight = 320;
+			configObj.releaseCols = 1;
+	
+		pbs.kidsgo.producerplayer.init(configObj, "videoDisplay");
+	
+	</script>
+	
+	<!--  END PBS KIDS GO! BROADBAND PLAYER MODULE                 //-->
+	<!--==========================================================// -->
+</body>
+</html>

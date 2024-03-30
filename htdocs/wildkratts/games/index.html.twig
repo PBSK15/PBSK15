@@ -1,0 +1,54 @@
+{% extends 'wildkratts/includes/wildKrattsPage.html.twig' %}
+{% set specialTitle = false %}
+{% set pageTitle = ' . Games' %}
+{% set desc = '' %}
+{% set keywds = '' %}
+{% set bodyClass = 'games' %}
+
+
+{% block mobileNav %}<div class="mywide mnav"><a href="http://pbskids.org/"><img id="mpbslogo" alt="PBS Logo" src="/wildkratts/img/nav/mobile/logo_pbs.png" width="37" height="37"></a> <a href="/wildkratts/"><img alt="Wild Kratts Logo" id="mwklogo" src="/wildkratts/img/nav/mobile/logo_wk.png" width="110" height="104"></a>
+ <nav>
+  <ul>
+   <li id="navm-games"><a href="/wildkratts/games"><img alt="Games" class="games" src="/wildkratts/img/nav/mobile/m_nav_games.png" width="60" height="60"></a></li>
+   <li id="navm-videos"><a href="/wildkratts/videos"><img alt="Videos" class="videos" src="/wildkratts/img/nav/mobile/m_nav_videos.png" width="60" height="60"></a></li>
+   <li id="navm-creat"><a href="/wildkratts/creaturepedia"><img alt="Creaturepedia" class="creaturepedia" src="/wildkratts/img/nav/mobile/m_nav_creaturepedia.png" width="60" height="60"></a></li>
+  </ul>
+ </nav>
+</div>{% endblock %}
+
+
+
+
+{% block mainContent %}<div class="gmain">
+ <div class="container"><a href="/wildkratts/games/rhino-bowl/"><img alt="Rhino Bowl" src="/wildkratts/img/buttons/btn_game_rhinobowl.png" width="255" height="155"></a>
+				<a href="/wildkratts/games/creature-mobile/"><img alt="Creature Mobile" src="/wildkratts/img/buttons/btn_game_creaturemobile.png" width="255" height="155"></a><a href="/wildkratts/games/capture-the-fishmobiles/"><img alt="Capture The Fishmobiles" src="/wildkratts/img/buttons/btn_game_fishmobiles.png" width="255" height="155"></a> <a href="/wildkratts/games/monkey-mayhem/"><img alt="Monkey Mayhem" src="/wildkratts/img/buttons/btn_game_monkeymayhem.png" width="255" height="155"></a> <!--
+                <a href="#"><img alt="Creature Mobile" src="/wildkratts/img/buttons/btn_game_creaturemobile.png" width="255" height="155"></a>
+                --> <a href="/wildkratts/games/dolphin-dive/"><img alt="Dolphin Dive" class="nf" src="/wildkratts/img/buttons/btn_game_dolphindive.png" width="255" height="155"></a> <a href="/wildkratts/games/snakegame"><img alt="Slither Run" class="nf" src="/wildkratts/img/buttons/btn_game_slitherrun.png" width="255" height="155"></a> <a href="/wildkratts/games/animal-match/"><img alt="Animal Match" src="/wildkratts/img/buttons/btn_game_animalmatch.png" width="255" height="155"></a> <a href="/wildkratts/games/photoshoot/"><img alt="Photoshoot" src="/wildkratts/img/buttons/btn_game_photoshoot.png" width="255" height="155"></a> <a href="/wildkratts/games/go-cheetah-go/"><img alt="Go Cheetah Go" class="nf" src="/wildkratts/img/buttons/btn_game_gocheetahgo.png" width="255" height="155"></a> <a href="/wildkratts/games/roundup/"><img alt="Game Roundup" class="nf" src="/wildkratts/img/buttons/btn_game_roundup.png" width="255" height="155"></a> <a href="/wildkratts/games/webtastic/"><img alt="Webtastic" class="nf" src="/wildkratts/img/buttons/btn_game_webtastic.png" width="255" height="155"></a> <a href="/wildkratts/games/hummingbird-hover/"><img alt="Flower Flyer" class="nf" src="/wildkratts/img/buttons/btn_game_flowerflyer.png" width="255" height="155"></a> <a href="/wildkratts/games/crochatch/"><img alt="Croc Hatch" class="nf" src="/wildkratts/img/buttons/btn_game_crochatch.png" width="255" height="155"></a> <a href="/wildkratts/games/frogfish-feast/"><img alt="Frog Fish Feast" class="nf" src="/wildkratts/img/buttons/btn_game_frogfishfeast.png" width="255" height="155"></a> <a href="/wildkratts/games/aardvark-town/"><img alt=" Aardvark Town" class="nf" src="/wildkratts/img/buttons/btn_game_aardvarktown.png" width="255" height="155"></a> <a href="/wildkratts/games/supergame/"><img alt="Habitat Rescue" class="nf" src="/wildkratts/img/buttons/btn_game_habitatrescue.png" width="255" height="155"></a> <a href="/wildkratts/games/caracal-leap/"><img alt="Caracal Leap" class="nf" src="/wildkratts/img/buttons/btn_game_caracalleap.png" width="255" height="155"></a> <a href="/wildkratts/games/draco-glide/"><img alt=" Draco Glide" class="nf" src="/wildkratts/img/buttons/btn_game_dracoglide.png" width="255" height="155"></a> <a href="/wildkratts/games/ride-on-remora/"><img alt="Ride on Ramora" class="nf" src="/wildkratts/img/buttons/btn_game_rideonramora.png" width="255" height="155"></a> <a href="/wildkratts/games/go-nuts/"><img alt="Go Nuts" class="nf" src="/wildkratts/img/buttons/btn_game_gonuts.png" width="255" height="155"></a> <a href="/wildkratts/games/kickboxing-kangaroo/"><img alt="Kick Boxing" class="nf" src="/wildkratts/img/buttons/btn_game_kickboxing.png" width="255" height="155"></a> <a href="/wildkratts/games/going-batty/"><img alt="Going Batty" class="nf" src="/wildkratts/img/buttons/btn_game_goingbatty.png" width="255" height="155"></a> <a href="/wildkratts/games/firefly-flash/"><img alt="Firefly Flash" class="nf" src="/wildkratts/img/buttons/btn_game_fireflyflash.png" width="255" height="155"></a>
+  <div class="games-legend">
+   <div class="legend"><img alt="Difficulty Meter" width="80" height="24" src="/wildkratts/img/buttons/key_meter.png"><span>Difficulty Meter</span>
+   </div>
+   <div class="legend"><img alt="Powersuit Bonus" width="34" height="35" src="/wildkratts/img/buttons/key_paw.png"><span>Powersuit Bonus</span>
+   </div>
+  </div> <!-- /.games-legend --> <!-- subpagespromo.html -->
+  <div class="promosubpage mynarrow"><!--div class="promosub1"><a href="/wildkratts/games/monkey-mayhem/"><img alt="Promo 1" src="/wildkratts/img/promos/promo_g1.jpg" width="285" height="116"></a></div>
+					<div class="promosub2"><a href="/wildkratts/videos/"><img alt="Promo 2" src="/wildkratts/img/promos/promo_g2.jpg" width="285" height="116"></a></div-->
+   <div class="promosub1">
+    <a href="/wildkratts/games/capture-the-fishmobiles/"><img alt="Promo 1" src="/wildkratts/img/promos/promo_g3.jpg" width="285" height="116"></a>
+   </div>
+   <div class="promosub2">
+    <a href="/wildkratts/games/rhino-bowl/"><img alt="Promo 2" src="/wildkratts/img/promos/promo_g4.jpg" width="285" height="116"></a>
+   </div>
+  </div> <!-- /subpagespromo.html -->
+ </div><!--/container-->
+</div>{% endblock %}
+
+
+
+
+{% block specialMiddleElems %}{% endblock %}
+
+
+
+
+{% block specialBody %}{% endblock %}
+

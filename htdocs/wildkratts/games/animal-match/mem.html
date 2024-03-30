@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, user-scalable=no, minimal-ui" />
+
+    <title>MEMORY GAME!</title>
+
+    <link rel="stylesheet" type="text/css" href="Memory/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="Memory/css/memory.css">
+
+    <script type="text/javascript" src="Memory/jquery.js"></script>
+    <script type="text/javascript" src="Memory/jquery.cookies.2.1.0.min.js"></script>
+    <script type="text/javascript" src="Memory/scripts.js"></script>    
+</head>
+<body>
+    <div id="gameView">
+        <div id="GameCenter">
+            <canvas id="GameCanvas" width="988" height="566"></canvas>
+
+            <svg id="svgCanvas" width="988" height="566" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+                <g id="start_screen_svg" style="display:none;" transform="translate(0,0)">
+
+                </g>
+
+                <g id="setup_screen_svg" style="display:none;" transform="translate(0,0)">
+
+                </g>
+
+                <g id="play_screen_svg" style="display:none;" transform="translate(0,0)">
+
+                </g>
+
+                <g id="help_screen_svg" style="display:none;" transform="translate(0,0)">
+                    <image id="helpScreen" x="0" y="0" width="988" height="566" xlink:href="./Images/Screens/Info Pop Up.png"></image>
+                    <g id="help_close">
+                        <rect x="870" y="32" width="60" height="60" fill="rgba(0,0,0,0)"></rect>
+                    </g>
+                </g>
+            </svg>
+
+        </div>
+    </div>
+    
+    <div id="GameImages" style="display:none;">
+    </div>
+
+    <div id="GameSounds" style="display:none;">
+    </div>
+
+</body>
+</html>

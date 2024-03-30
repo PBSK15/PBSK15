@@ -1,0 +1,67 @@
+.gmain .container {
+	text-align: center;
+    width: 100%;
+}
+
+.promosubpage.mynarrow div {
+    text-align: left;
+}
+
+#creatureGameContainer{
+	position: relative;
+}
+
+@media screen and (min-width: 988px) {
+	#creatureGameContainer{
+		width: 988px;
+		height: 556px;
+	}
+}
+
+@media screen and (max-width: 988px) {
+	#creatureGameContainer{
+		width: 788px;
+		height: 443px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#creatureGameContainer{
+		width: 788px;
+		height: 443px;
+	}
+}
+@media screen and (max-width: 720px) {
+	#creatureGameContainer{
+		width: 630px;
+		height: 354px;
+	}
+}
+
+@media screen and (max-width: 988px) {
+	#creatureGameContainer{
+		width: 450px;
+		height: 253px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#creatureGameContainer{
+		width: 420px;
+		height: 236px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	#creatureGameContainer{
+		width: 400px;
+		height: 225px;
+	}
+}
+
+@media screen and (max-width: 438px) {
+	#creatureGameContainer{
+		width: 280px;
+		height: 158px;
+	}
+}

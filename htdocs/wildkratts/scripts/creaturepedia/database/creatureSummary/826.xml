@@ -1,0 +1,35 @@
+<creatureSummary id="826">
+			<name>
+				Giant Pacific Octopus
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/21/Octopus main.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="795">
+					<name>
+						Water
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="556">
+					<name>
+						Mollusks
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="802">
+					<name>
+						Oceans
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

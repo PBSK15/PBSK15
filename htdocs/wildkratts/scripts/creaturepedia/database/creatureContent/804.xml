@@ -1,0 +1,152 @@
+<content id="804"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Aardvark Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Aardvarks are digging machines! They have massive, powerful claws that are like having a shovel on each finger. An aardvark can dig himself underground in 5 minutes flat! But why dig so much? Aardvarks make homes underground to hide from predators. And it's a great tool to get at their favorite food -Termites!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/58/3_Main Image_photo or still frame of an aardvark.jpg
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Aardvarks eat almost nothing but termites and ants. They don't have teeth, but they do have two other features that help them get at their food. They have Digging Power to bust open the concrete-like termite mounds. Plus, a long, sticky tongue to slurp up the little snacks.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/58/8-Food asset-Animation of slurpy eating termites.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/58/8-Food asset-Animation of slurpy eating termites.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Aardvarks roam all over Africa. They're super secretive and hard to find. Plus, they travel huge distances. Since they're such great diggers, they can just make a new burrow wherever they go.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/58/11-Aardvark range map.jpg
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Lions, Hyenas, and Leopards all eat aardvarks if they can catch them above ground. If attacked, an aardvark will first try to dig underground. But if there is no time, they'll use their long claws to slash at their enemy and defend themselves.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/58/12-Enemy asset-animation of aardvark fighting hyena.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/58/Danger thumbnail.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Aardvark Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Aardvarks dig so many burrows that they end up making homes for lots of creatures on the African savannah. Here are just a few of the animals that use old aardvark burrows as their homes: Caracal cats, South African Shelducks, Warthogs, Spotted Hyenas, African Rock Pythons, Porcupines, and Monitor Lizards.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/58/5-Power asset-animation clip of Kratt bros with Aardvark power.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/58/Creature Power Aardvard.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>

@@ -1,0 +1,79 @@
+{% extends 'wildkratts/includes/wildKrattsPage.html.twig' %}
+{% set specialTitle = false %}
+{% set pageTitle = '' %}
+{% set desc = 'Enter the Wild Kratts Headquarters. Play games, create a character, and more!' %}
+{% set keywds = 'Wild Kratts, Tortuga, Creaturepedia, Games,Habitats, Kratt Brothers, Home' %}
+{% set bodyClass = '' %}
+
+
+{% block mobileNav %}<div class="mywide mnav"><a href="http://pbskids.org/"><img id="mpbslogo" alt="PBS Logo" src="/wildkratts/img/nav/mobile/logo_pbs.png" width="37" height="37"></a> <a href="/wildkratts/"><img alt="Wild Kratts Logo" id="mwklogo" src="/wildkratts/img/nav/mobile/logo_wk.png" width="110" height="104"></a>
+</div>{% endblock %}
+
+
+
+
+{% block mainContent %}<div class="main mynarrow">
+            <div class="container">
+                <!--CHRISTMAS COMMENTED: img id="mrsloth" src="img/home/mister_sloth.gif" alt="Mr Sloth" width="122" height="123"-->
+				<img id="mrsloth" src="img/home/mister_hare_c.gif" alt="Mr Sloth" width="105" height="115">
+
+				<!--<img id="bird" src="img/home/mister_bird.gif" width="82" height="78">-->
+                <canvas id="bird" width="82" height="78"></canvas>
+				
+                <!--CHRISTMAS COMMENTED: img id="rhino" src="img/home/mister_rhino.gif" alt="Mr Rhino" width="203" height="190"-->
+				<img id="rhino" src="img/home/mister_cheetah_c.gif" alt="Mr Rhino" width="229" height="170">
+                <!--<img id="chris" src="img/home/chriskratt.gif" alt="Chris" width="159" height="405">-->
+                <canvas id="chris" width="159" height="405"></canvas>
+			
+                <!--<img id="martin" src="img/home/martinkratt.gif" alt="Martin" width="188" height="405">-->
+                 <canvas id="martin" width="188" height="405"></canvas>
+
+                <!--CHRISTMAS COMMENTED: img id="koki" src="img/home/koki1.gif" alt="Koki" width="199" height="227"-->
+				<!--CHRISTMAS COMMENTED: img id="jimmy" src="img/home/jimmy.gif" alt="Jimmy" width="63" height="222"-->
+				<img id="koki" src="img/home/koki1_c.gif" alt="Koki" width="233" height="266">
+                
+                <!--CHRISTMAS COMMENTED:img id="raccoon" src="img/home/mister_raccoon.gif" alt="Mr Raccoon" width="84" height="97"-->
+				<img id="raccoon" src="img/home/mister_ferret_c.gif" alt="Mr Raccoon" width="116" height="85">
+                <!--<img id="aviva" src="img/home/aviva.gif" alt="Aviva" width="101" height="298">-->
+                <canvas id="aviva" width="101" height="298"></canvas> 
+<!--
+                <a href="/wildkratts/games/videos/"><div class="promo1"></div></a>
+                <a href="/wildkratts/games/monkey-mayhem/"><div class="promo2"></div></a>
+-->
+                <a href="/wildkratts/videos/"><img src="img/home/promo_left.gif" class="promo1"></a>
+                <a href="/wildkratts/creaturepedia/"><img src="img/home/promo_right.gif" class="promo2"></a>
+
+                <div class="slider-wrapper theme-light">
+                    <div class="ribbon"></div>
+                    <div id="slider" style="overflow:hidden;" class="nivoSlider">
+						<a href="/wildkratts/videos/"><img src="img/home/home_sliderChristmas_1.jpg" alt="Slider 1" /></a>
+						<a href="/wildkratts/games/power-suit-maker"><img src="img/home/home_sliderPowerSuit.jpg" alt="Slider 2" width="414" height="171"/></a>
+					    <a href="/wildkratts/games/rhino-bowl"><img src="img/home/home_sliderRhinoBowl.jpg" alt="Slider 3" width="414" height="171"/></a>
+						<a href="/wildkratts/games/creature-mobile"><img src="img/home/home_sliderCreatureMobile.jpg" alt="Slider 4" width="414" height="171"/></a>
+						<a href="/wildkratts/games/capture-the-fishmobiles"><img src="img/home/home_sliderFishmobile.jpg" alt="Slider 5" width="414" height="171"/></a>
+                        <a href="/wildkratts/games/photoshoot/"><img src="img/home/feature_sample001.jpg" alt="Slider 6" width="414" height="171"/></a>
+                        <a href="/wildkratts/games/animal-match"><img src="img/home/feature_sample002.jpg" alt="Slider 7" /></a>
+                        <a href="/wildkratts/creaturepedia/"><img src="img/home/feature_sample003.jpg" alt="Slider 8" /></a>
+                    </div>
+                </div>
+                <!--<canvas id="bird1" width="82" height="78"></canvas>-->
+
+
+            </div><!--/container-->
+        </div><!--/main-->{% endblock %}
+
+
+
+
+{% block specialMiddleElems %}{% endblock %}
+
+
+
+
+{% block specialBody %}{% endblock %}
+
+{% set jsOverride = true %}
+{% block customJs %}<script src="/wildkratts/js/main_christmas.js"></script>{% endblock %}
+
+{% set cssOverride = true %}
+{% block customCss %}<link rel="stylesheet" href="/wildkratts/css/main_christmas.css">{% endblock %}

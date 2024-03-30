@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world gameWidth="850" gameHeight="575">
+	<animations>
+		<animation name="ph1_intro1" source="assets/level/boreal/anim/itszac_chris.swf" bytes="25000" />
+		<animation name="ph1_hit2" source="assets/level/boreal/anim/dontforget_switch_martin.swf" bytes="25000" />
+		<animation name="ph1_key" source="assets/level/boreal/anim/chris_yougotakey.swf" bytes="8000" />
+		<animation name="ph1_cage1" source="assets/level/boreal/anim/Chris_Temp_Forest_3d.swf" paused="true" bytes="12000" />
+		<animation name="ph1_cage2" source="assets/level/boreal/anim/Martin_Temp_Forest_3d.swf" paused="true" bytes="33000" />
+		<animation name="ph2_intro" source="assets/level/boreal/anim/anotherchallenge.swf" bytes="20000"/>
+		<animation name="ph2_hint" source="assets/level/boreal/anim/try_climbing_glide_chris.swf" bytes="16000"/>
+		<animation name="ph2_hit" source="assets/level/boreal/anim/Martin_Temp_Forest_3e.swf" bytes="12000" />
+		<animation name="ph2_slow" source="assets/level/boreal/anim/Martin_Temp_Forest_3g.swf" bytes="12000"/>
+		<animation name="ph2_cage1" source="assets/level/boreal/anim/Martin_Temp_Forest_3i.swf" paused="true" bytes="37000"/>
+		<animation name="ph2_cage2" source="assets/level/boreal/anim/Chris_Temp_Forest_3i.swf" paused="true" bytes="25000"/>
+		<animation name="ph3_intro" source="assets/level/boreal/anim/keepgoing_cave_chris.swf" bytes="20000"/>
+		<animation name="ph3_hitnocave1" source="assets/level/boreal/anim/Chris_Temp_Forest_3k.swf" bytes="20000"/>
+		<animation name="ph3_hitnocave2" source="assets/level/boreal/anim/Martin_Temp_Forest_3j.swf" bytes="20000"/>
+		<animation name="ph3_pass" source="assets/level/boreal/anim/Martin_Temp_Forest_3k.swf" bytes="29000"/>
+		<animation name="ph3_cage1" source="assets/level/boreal/anim/Martin_Temp_Forest_3l.swf" paused="true" bytes="16000"/>
+		<animation name="ph3_cage2" source="assets/level/boreal/anim/Chris_Temp_Forest_3m.swf" paused="true" bytes="33000"/>
+		<animation name="boss_intro1" source="assets/level/boreal/anim/caught_up_to_zac_chris.swf" bytes="25000"/>
+		<!-- <animation name="boss_intro2" source="assets/level/boreal/anim/youcantgettocontroller_martin.swf" bytes="20000"/> -->
+		<animation name="boss_bothit1" source="assets/level/boreal/anim/climb_higher.swf" bytes="16000"/>
+		<animation name="boss_bothit2" source="assets/level/boreal/anim/jump_on_zacbots.swf" bytes="16000"/>
+		<animation name="boss_hint" source="assets/level/boreal/anim/Chris_Temp_Forest_3p.swf" bytes="20000"/>
+		<animation name="boss_hit1" source="assets/level/boreal/anim/Martin_Temp_Forest_3n.swf" bytes="20000"/>
+		<animation name="boss_hit2" source="assets/level/boreal/anim/Chris_Temp_Forest_3q.swf" bytes="16000"/>
+		<animation name="boss_complete1" source="assets/level/boreal/anim/youdidit_domecontrollerzac_chris.swf" bytes="20000"/>
+		<animation name="boss_complete2" source="assets/level/boreal/anim/now_crack_the_code_chris.swf" bytes="25000"/>
+		<animation name="quiz_wrong" source="assets/level/boreal/anim/try_again_chris.swf" bytes="16000"/>
+		<animation name="boss_quiz1" source="assets/level/boreal/anim/Martin_Temp_Forest_3p.swf" bytes="33000"/>
+		<animation name="boss_quiz2" source="assets/level/boreal/anim/Martin_Temp_Forest_3q.swf" bytes="16000"/>
+		<animation name="boss_quiz_q1" source="assets/level/boreal/anim/Chris_Temp_Forest_3s.swf" bytes="16000"/>
+		<animation name="boss_quiz_q2" source="assets/level/boreal/anim/Martin_Temp_Forest_3r.swf" bytes="20000"/>
+		<animation name="boss_quiz_q3" source="assets/level/boreal/anim/Chris_Temp_Forest_3u.swf" bytes="16000"/>
+		<animation name="boss_quiz_q4" source="assets/level/boreal/anim/Chris_Temp_Forest_3v.swf" bytes="16000"/>
+		<animation name="boss_quiz_q5" source="assets/level/boreal/anim/Chris_Temp_Forest_3w.swf" bytes="16000"/>
+		<animation name="boss_quiz_q6" source="assets/level/boreal/anim/Martin_Temp_Forest_3t.swf" bytes="16000"/>
+		<animation name="rescue" source="assets/level/australia/anim/anim_rescue.swf" paused="true" bytes="8000"/>	
+		<animation name="challenge" source="assets/level/australia/anim/anim_challenge.swf" bytes="16000"/>
+	</animations>
+	<quiz>
+		<question>What are three ways that temperate forest animals survive in their habitat?</question> 
+		<answers>
+			<answer anim="boss_quiz_q1" correct="true"><![CDATA[They migrate south during the cold winters]]></answer>
+			<answer anim="boss_quiz_q2" correct="true"><![CDATA[Some animals have one coat for summer and a furrier one to keep them warm in winter]]></answer>
+			<answer anim="boss_quiz_q3" correct="true"><![CDATA[They store food for the winter when there is little to eat]]></answer>
+			<answer anim="boss_quiz_q4"><![CDATA[They don’t have any fur because it is always super hot]]></answer>
+			<answer anim="boss_quiz_q5"><![CDATA[They are very furry because it is always cold]]></answer>
+			<answer anim="boss_quiz_q6"><![CDATA[It is always nighttime, so they have large eyes]]></answer>
+		</answers>
+	</quiz>
+	<common>
+		<Avatar width="35" mass="1.32" height="100" source="zac.swf" jumpHeight="500" maxSpeedX="250" acceleration="60" maxHealth="10000000000" boost="40" hurtMagnitudeY="350" rotation="0" artType="" id="hero" restitution="0" boostDuration="26" offsetX="0" offsetY="50" hurtMagnitudeX="150" dampY="1" hurtInvincibility="0" dampX="1" parallax="-1" x="100" maxSpeedY="720" y="700" killBounceHeight="40" friction="0.6" movable="true"/>
+	</common>
+	<global> 	
+		<Boss source="assets/sprites/zac.swf" friction="0.6" x="500" offsetX="0" artType="" loop="true" mass="1" y="300" id="boss" parallax="1.0002" offsetY="0" width="100" rotation="0" height="200" />	
+  		<Background source="assets/level/boreal/ph1_bg1.jpg" parallax="0.4" x="-24" y="-10.9" id="ph1_bg1" width="1173" />
+  		<Background source="assets/level/boreal/ph1_bg2.jpg" parallax="0.4" x="1146" y="-10.9" id="ph1_bg2" width="1406" />
+  		<Background source="assets/level/boreal/ph1_bg3.jpg" parallax="0.4" x="2552" y="-10.9" id="ph1_bg3" width="1172" />
+  		<Background source="assets/level/boreal/ph1_mid1.png" parallax="1" x="-1" y="192" id="ph1_mid1"/>
+  		<Background source="assets/level/boreal/ph1_mid2.png" parallax="1" x="1101" y="120" id="ph1_mid2"/>
+  		<Background source="assets/level/boreal/ph1_mid3.png" parallax="1" x="2218" y="189" id="ph1_mid3"/>
+  		<Background source="assets/level/boreal/ph1_mid4.png" parallax="1" x="3346" y="83" id="ph1_mid4"/>
+  		<Background source="assets/level/boreal/ph1_mid_water.png" parallax="1" x="1525" y="849" id="ph1_midwater"/>
+  		<Background source="assets/level/boreal/ph1_mid_cave1_fg.png" parallax="1.000015" x="2751.92047" y="656.95165" id="ph1_midcavefg1"/>
+   		<Background source="assets/level/boreal/ph1_mid_cave1_dark.png" parallax="1.00001" x="2711.92047" y="667.95165" id="ph1_midcave1"/>
+  		<Background source="assets/level/boreal/ph1_mid_cave2_dark.png" parallax="1.00001" x="3854.87894" y="682.95131" id="ph1_midcave2"/>
+  		<Background source="assets/level/boreal/ph1_mid_cave2_fg.png" parallax="1.00001" x="3862.8289400000003" y="671.90131" id="ph1_midcavefg2"/>
+  			<Platform y="698.45" offsetX="0" width="38.00000250339508" offsetY="0" height="39.00000452995384" source="" parallax="-1" artType="" restitution="0" mass="0" id="Platform38" x="2457" movable="false" rotation="0" friction="0.6"/>
+ 		<Platform y="759.15" offsetX="0" width="14.141891868031491" offsetY="0" height="124.63976802751505" source="" parallax="-1" artType="" restitution="0" mass="0" id="Platform45" x="2485.05" movable="false" rotation="-17.245427437745526" friction="0.6"/>
+  	</global>
+  	<zone name="1">
+  <Trigger y="639" movable="false" offsetX="0" width="10" offsetY="0" height="292" source="" mass="0" parallax="-1" friction="0.6" id="Trigger_ph1intro" x="213" rotation="0" artType="" restitution="0"/>
+  		<Platform y="800" offsetX="0" width="565.2275405883789" offsetY="0" height="28.9" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform1" x="303" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="777.5" offsetX="0" width="57.999998450279236" offsetY="0" height="21.76850989162922" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform2" x="614" restitution="0" rotation="0" movable="false"/>
+  		<!--<Trigger y="639" offsetX="0" width="10" offsetY="0" height="292" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Trigger_ph1intro" x="213" restitution="0" rotation="0" movable="false"/>-->
+  		<Platform y="592" offsetX="0" width="26" offsetY="0" height="518.9818447828293" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform24" x="13.1" restitution="0" rotation="0" movable="false"/>
+  		<Cloud y="632" offsetX="0" width="95.99999785423279" offsetY="0" height="10" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud1" x="610.5" restitution="0" rotation="0" movable="false"/>
+  		<Cloud y="556" offsetX="0" width="141.99999904632568" offsetY="0" height="10" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud4" x="476.5" restitution="0" rotation="0" movable="false"/>
+  		<Ladder y="622" offsetX="0" width="48.000000953674316" offsetY="0" height="328.89909821748734" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Ladder1" x="550.5" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="758.5" offsetX="0" width="45.01589834690094" offsetY="0" height="23.000000417232513" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform17" x="665.5" restitution="0" rotation="0" movable="false"/>
+ 		<Platform y="732.45" offsetX="0" width="61.000001430511475" offsetY="0" height="36.000001430511475" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform18" x="719" restitution="0" rotation="0" movable="false"/>
+  		<PoseBeam y="690" offsetX="-25" width="30" height="185" source="assets/sprites/robot.swf" seqFrequency="2" mass="0" friction="0.6" visible="true" parallax="-1" artType="" id="Bot1" x="322.95"  rotation="0" seqDuration="1" />
+  		<!--<PoseBeam y="470" offsetX="-25" width="30" height="170" source="assets/sprites/robot.swf" seqFrequency="2" mass="0" friction="0.6" visible="true" parallax="-1" artType="" id="Bot2" x="490" rotation="0" seqDuration="1" />-->
+  		<SequenceSwitch y="500" offsetX="0" width="70" offsetY="43" height="74" source="assets/sprites/poseswitch.swf" mass="0" friction="0.6" target="Bot3" timeout="-1" parallax="-1" artType="" id="BotSwitch1" x="410" restitution="0" rotation="0" movable="false"/>
+  </zone>
+  <zone name="2">
+		<Platform y="698" offsetX="0" width="103.00254821777344" offsetY="0" height="19.906258583068848" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform19" x="798.45" restitution="0" rotation="0" movable="false"/>
+  		<Trigger y="562" offsetX="0" width="24.97657060623169" offsetY="0" height="252.99999976158142" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Trigger_ph1pass" x="938.5" restitution="0" rotation="0" movable="false"/>
+  		<PoseBeam y="590" offsetX="-25" width="30" offsetY="0" height="202" source="assets/sprites/robot_red.swf" mass="0" friction="0.6" visible="true" parallax="-1" artType="" id="Bot3" x="760" rotation="0"/>
+  		<Platform y="715" offsetX="0" width="87.00000047683716" offsetY="0" height="23.999999463558197" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform20" x="945.5" restitution="0" rotation="0" movable="false"/>
+ 		<Platform y="768.4" offsetX="0" width="16.289931379255854" offsetY="0" height="95.94070014776455" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform23" x="907.8" restitution="0" rotation="1.8947829490388388" movable="false"/>
+ 		<Platform y="764" offsetX="0" width="20.68532427801103" offsetY="0" height="121.7136472010504" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform25" x="844.5" restitution="0" rotation="-4.274320413641695" movable="false"/>
+  		  <Platform y="790.5" offsetX="0" width="50" offsetY="0" height="23" source="" artType="" parallax="-1" id="Platform26" x="880" rotation="0" restitution="0" movable="false" mass="0" friction="0.6"/>
+  		 <AnimalCageKey y="650" destroyDelay="500" offsetX="0" width="57" offsetY="0" height="250" source="assets/sprites/animalcage_key.swf" mass="0" friction="0.6" parallax="-1" artType="" id="key1" x="830" restitution="0" rotation="0" movable="false"/>
+  		<AnimalCage y="675.9" offsetX="0" width="120" offsetY="0" height="20" source="assets/sprites/animalcage_squirrel.swf" mass="0" friction="0.6" parallax="-1.001" artType="" hideIfRightOfStage="false" id="Cage1" x="1216" rotation="0" movable="false" />
+  </zone>
+  <zone name="3">
+		<Platform y="528.5" parallax="-1" artType="" width="12.999999523162842" offsetY="0" height="280.99777698516846" source="" mass="0" movable="false" friction="0.6" id="Platform35" x="781.5" rotation="0" offsetX="0" restitution="0"/>
+   		<Platform y="728.5" offsetX="0" width="80.0000011920929" offsetY="0" height="20.999999344348907" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform21" x="1028" restitution="0" rotation="0" movable="false"/>
+ 		<Platform y="733.5" offsetX="0" width="161.00000143051147" offsetY="0" height="17.000000178813934" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform22" x="1205.5" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="722.5" offsetX="0" width="148.9870548248291" offsetY="0" height="9.000000357627869" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform29" x="1608.5" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="789.5" offsetX="0" width="70.99999785423279" offsetY="0" height="20.999999344348907" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform30" x="1718.5" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="823" offsetX="0" width="56.00000023841858" offsetY="0" height="50" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform31" x="1777" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="762.5" offsetX="0" width="18.000000715255737" offsetY="0" height="70.99999785423279" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform32" x="1673" restitution="0" rotation="0" movable="false"/>
+ 		<Lava y="837" offsetX="0" width="324.9840598106384" offsetY="0" height="29" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Lava1" x="1225" restitution="0" rotation="0" movable="false"/>
+   		<Platform y="895.6" offsetX="0" width="89.48425050525667" offsetY="0" height="21.603179293473435" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform40" x="2334.75" restitution="0" rotation="-17.07920833512855" movable="false"/>
+  		<Platform y="974.7" offsetX="0" width="95.48625498195983" offsetY="0" height="12.063078781452216" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform41" x="2202.6" restitution="0" rotation="-18.424427713020627" movable="false"/>
+  		<Platform y="936.55" offsetX="0" width="80.60676155701367" offsetY="0" height="14.572790802808724" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform42" x="2270.95" restitution="0" rotation="-38.52518540592902" movable="false"/>
+  		<Platform y="860.9" offsetX="0" width="14.53103517667445" offsetY="0" height="49.99999511862419" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform43" x="2373.3" restitution="0" rotation="20.106228739021528" movable="false"/>
+   		<Water y="911.5" mass="0" width="523.9999771118164" offsetY="0" height="147.00000286102295" movable="false" offsetX="0" friction="0.6" parallax="-1" artType="" id="Water1" x="2112" restitution="0" rotation="0" source=""/>
+   		<Trigger y="553" offsetX="0" width="24.000000715255737" offsetY="0" height="350" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Trigger_ph2intro" x="1373.95" restitution="0" rotation="0" movable="false"/>
+ 		<PoseBeam y="475" offsetX="-25" width="30" offsetY="0" height="170" source="assets/sprites/robot.swf" seqFrequency="3" mass="0" friction="0.6" visible="true" parallax="-1" artType="" id="Bot4" x="1745" rotation="0" seqDuration="1"/>
+  		<Ladder y="619" offsetX="0" width="47.99999988079071" offsetY="0" height="355.9999828338623" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Ladder2" x="1801" restitution="0" rotation="0" movable="false"/>
+   		<Cloud y="517" offsetX="0" width="164.99008892525347" offsetY="0" height="9.993342757435098" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud5" x="1900.45" restitution="0" rotation="-0.00037149820603792153" movable="false"/>
+  		<Cloud y="556" offsetX="0" width="140" offsetY="0" height="10" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud7" x="1725" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="913.7" offsetX="0" width="172.57768303177966" offsetY="0" height="20.34789722202127" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform7" x="1869.15" restitution="0" rotation="69.46947184443633" movable="false"/>
+   		<Platform y="727" parallax="-1" offsetX="0" width="204.00000178813934" offsetY="0" height="18" source="" mass="0" movable="false" friction="0.6" id="Platform5" x="1449.5" rotation="0" artType="" restitution="0"/>
+  		<Platform y="827.5" offsetX="0" width="47.999998927116394" offsetY="0" height="27.000001072883606" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform33" x="1829" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="991.5" offsetX="0" width="272.00001499056816" offsetY="0" height="11.000000059604645" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform3" x="2024.95" restitution="0" rotation="0" movable="false"/>
+  		<SequenceSwitch y="510" offsetX="0" width="70" offsetY="43" height="74" source="assets/sprites/poseswitch.swf" mass="0" friction="0.6" target="Bot5" timeout="-1" parallax="-1" artType="" id="BotSwitch2" x="1660" restitution="0" rotation="0" movable="false"/>
+  		<Cloud y="818" offsetX="0" width="50" offsetY="0" height="10" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud3" x="1870" restitution="0" rotation="0" movable="false"/>
+  		  <Platform y="750" offsetX="0" width="76.00000095367432" offsetY="0" height="162.00000286102295" source="" parallax="-1" artType="" restitution="0" mass="0" id="Platform37" x="2401.5" movable="false" rotation="0" friction="0.6"/>
+  	 </zone>
+  <zone name="4">
+		<Trigger y="650" offsetX="0" width="23.000000417232513" offsetY="0" height="302" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Trigger_ph2complete" x="2453.5" restitution="0" rotation="0" movable="false"/>
+  		<PoseBeam y="560" offsetX="-25" width="30" offsetY="0" height="210" source="assets/sprites/robot_red.swf" mass="0" friction="0.6" visible="true" parallax="-1" artType="" id="Bot5" x="2400" rotation="0"/>
+  		 <AnimalCageKey y="489" movable="false" offsetX="0" width="57" spawnAtStageEnter="false" height="243" source="assets/sprites/animalcage_key.swf" mass="0" offsetY="0" respawnUntilKilled="true" parallax="-1" destroyDelay="500" friction="0.6" id="key2" x="2297" rotation="0" artType="" restitution="0"/>
+  		<!--<Platform y="736.9" parallax="-1" artType="" width="10.9749436378479" offsetY="0" height="175.99999904632568" source="" mass="0" movable="false" friction="0.6" id="Platform37" x="2347.5" rotation="0" offsetX="0" restitution="0"/>-->
+   		<Platform y="828" offsetX="0" width="258.02339923381805" offsetY="0" height="25" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform6" x="2499" restitution="0" rotation="0" movable="false"/>
+  		<Trigger y="650" offsetX="0" width="50" offsetY="0" height="302" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Trigger_ph3intro" x="2650" restitution="0" rotation="0" movable="false"/>
+ 		<AnimalCage y="770.7" offsetX="0" width="140" height="620" source="assets/sprites/animalcage_wolf.swf" mass="0" friction="0.6" parallax="-1.001" artType="" id="Cage3" x="2603" rotation="0" movable="false" />
+	</zone>
+	<zone name="5">
+	<Cloud y="784" offsetX="0" width="75" offsetY="0" height="10" restitution="0" artType="" source="" parallax="-1" id="Cloud8" x="2691.5" rotation="0" movable="false" mass="0" friction="0.6"/>
+		<Platform y="663.5" parallax="-1" artType="" width="9.973746538162231" offsetY="0" height="276.99999809265137" source="" mass="0" movable="false" friction="0.6" id="Platform36" x="2405" rotation="0" offsetX="0" restitution="0"/>
+		<Platform y="844.5" offsetX="0" width="469.0014362335205" offsetY="0" height="17.02420711517334" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform4" x="2860.5" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="757.6" offsetX="0" width="18.068079813535313" offsetY="0" height="167.06554287312215" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform8" x="3097.95" restitution="0" rotation="-17.06956709717287" movable="false"/>
+ 		<Platform y="673" offsetX="0" width="325" offsetY="0" height="15.999999642372131" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform9" x="2915.5" restitution="0" rotation="0" movable="false"/>
+  		<Cloud y="648" offsetX="0" width="93.00000071525574" offsetY="0" height="10" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud11" x="3058.5" restitution="0" rotation="0" movable="false"/>
+  		<Cloud y="620" offsetX="0" width="69.9999988079071" offsetY="0" height="10" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud12" x="2761" restitution="0" rotation="0" movable="false"/>
+  		<Cloud y="732" mass="0" width="50" offsetY="0" height="10" movable="false" offsetX="0" friction="0.6" parallax="-1" artType="" id="Cloud13" x="2725" restitution="0" rotation="0" source=""/>
+  		<Cloud y="751" mass="0" width="23.999999463558197" offsetY="0" height="10" movable="false" offsetX="0" friction="0.6" parallax="-1" artType="" id="Cloud14" x="2692" restitution="0" rotation="0" source=""/>
+  		<Platform y="702" offsetX="0" width="126.99999809265137" offsetY="0" height="15.999999642372131" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform10" x="3197.5" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="720.5" offsetX="0" width="40.99999964237213" offsetY="0" height="20.999999344348907" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform11" x="3277.5" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="785" offsetX="0" width="21.99999988079071" offsetY="0" height="103.99999618530273" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform12" x="3304" restitution="0" rotation="0" movable="false"/>
+  		<PoseBeam y="549" offsetX="-25" width="30" offsetY="0" height="195" source="assets/sprites/robot.swf" seqFrequency="2" mass="0" friction="0.6" visible="true" parallax="-1" artType="" id="Bot6" x="3071.85" rotation="0" seqDuration="1"/>
+  </zone>
+  <zone name="6">
+		<Platform y="839" offsetX="0" width="440.00000953674316" offsetY="0" height="18.000000715255737" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform13" x="3536" restitution="0" rotation="0" movable="false"/>
+  		<PoseBeam y="666" offsetX="-25" width="30" offsetY="0" height="330" source="assets/sprites/robot_red.swf" mass="0" friction="0.6" visible="true" parallax="-1" artType="" id="Bot7" x="3378" rotation="0"/>
+   		<AnimalCageKey y="799" destroyDelay="500" offsetX="0" width="57" offsetY="0" height="500" source="assets/sprites/animalcage_key.swf" mass="0" friction="0.6" parallax="-1" artType="" id="key3" x="3446" restitution="0" rotation="0" movable="false" />
+ 		<AnimalCage y="690" mass="0" width="20" offsetY="0" height="300" source="assets/sprites/animalcage_butterfly.swf" friction="0.6" parallax="-1.001" artType="" id="Cage2" x="3483" respawnUntilKilled="true" rotation="0" movable="false" />
+ 		<Trigger y="560" offsetX="0" width="18.999999701976776" offsetY="0" height="532.0000052452087" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Trigger_ph3complete" x="3655" restitution="0" rotation="0" movable="false"/>
+ 		<Trigger y="758.5" parallax="-1" offsetX="0" width="331.0000057220459" offsetY="0" height="165.00000655651093" source="" mass="0" movable="false" friction="0.6" id="Trigger_ph3cave" x="2931.5" rotation="0" artType="" restitution="0"/>
+ 		<SequenceSwitch y="790" offsetX="0" width="70" offsetY="0" height="74" source="assets/sprites/poseswitch_still.swf" mass="0" friction="0.6" target="Bot7" timeout="-1" parallax="-1" artType="" id="BotSwitch3" x="3010" restitution="0" rotation="0" movable="false" enabled="false"/>
+ 		<SequenceSwitch y="800" offsetX="0" width="70" offsetY="43" height="74" source="assets/sprites/poseswitch_top.swf" mass="0" friction="0.6" parallax="1.0002" artType="" id="BotSwitch3Top" x="3000" restitution="0" rotation="0" movable="false" enabled="false"/>
+ 		<Ladder y="638.5" offsetX="0" width="52" offsetY="0" height="420" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Ladder3" x="3578" restitution="0" rotation="0" movable="false"/>
+	</zone>
+	<zone name="7">
+  		<Platform y="593.45" parallax="-1" artType="" width="15.999999642372131" offsetY="0" height="463.0000114440918" source="" mass="0" movable="false" friction="0.6" id="Platform27" x="3396" rotation="0" offsetX="0" restitution="0"/>
+  		<Cloud y="609" offsetX="0" width="160.00000548362732" offsetY="0" height="10" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud9" x="3487" restitution="0" rotation="0" movable="false"/>
+  		
+  <Cloud y="412" parallax="-1" offsetX="0" width="153.00000095367432" offsetY="0" height="10" source="" mass="0" movable="false" friction="0.6" id="Cloud10" x="4374.5" rotation="0" artType="" restitution="0"/>
+  <Cloud y="581" friction="0.6" offsetX="0" width="101" offsetY="0" height="10" mass="0" source="" movable="false" parallax="-1" id="Cloud6" x="4500" rotation="0" artType="" restitution="0"/>
+  <Platform y="569.5" parallax="-1" offsetX="0" width="21" offsetY="0" height="542" source="" mass="0" movable="false" friction="0.6" id="Platform16" x="4511.5" rotation="0" artType="" restitution="0"/>
+  		<Cloud y="720" offsetX="0" width="66.00000262260437" offsetY="0" height="10" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Cloud2" x="1705" restitution="0" rotation="0" movable="false"/>
+		<Platform y="845" offsetX="0" width="261.00000058155683" offsetY="0" height="15.266364764581294" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform14" x="3882.45" restitution="0" rotation="3.3469559318669093" movable="false"/>
+  		<Platform y="851.5" offsetX="0" width="200" offsetY="0" height="12.999999523162842" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform15" x="4104" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="837.4" offsetX="0" width="11.448591177839532" offsetY="0" height="347.1017596260824" source="" mass="0" restitution="0" parallax="-1" movable="false" id="Platform28" x="4509.1" rotation="-90.55621375049148" friction="0.6" artType=""/>
+ 		<Platform y="690.5" offsetX="0" width="304.9999952316284" offsetY="0" height="18.99999976158142" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform34" x="4054.5" restitution="0" rotation="0" movable="false"/>
+  		<Platform y="713" offsetX="0" width="50" offsetY="0" height="21.99999988079071" source="" mass="0" friction="0.6" parallax="-1" artType="" id="Platform35" x="3892" restitution="0" rotation="0" movable="false"/>
+   		<Platform y="845" offsetX="0" width="141.22915460456457" offsetY="0" height="11.078870304623369" source="" mass="0" restitution="0" parallax="-1" movable="false" id="Platform39" x="4268.95" rotation="-4.485206243358064" friction="0.6" artType=""/>
+  		<Platform y="688.15" mass="0" width="79.40798532115679" offsetY="0" height="13.999999427135679" movable="false" offsetX="0" friction="0.6" parallax="-1" artType="" id="Platform44" x="3108.5" restitution="0" rotation="22.757657005900477" source=""/>
+  		<Cloud y="761" mass="0" width="44.999998807907104" offsetY="0" height="10" movable="false" offsetX="0" friction="0.6" parallax="-1" artType="" id="Cloud15" x="3824.5" restitution="0" rotation="0" source=""/>
+  		<Cloud y="729" mass="0" width="23.000000417232513" offsetY="0" height="10" movable="false" offsetX="0" friction="0.6" parallax="-1" artType="" id="Cloud16" x="3857.5" restitution="0" rotation="0" source=""/>
+  		<Cloud y="781" mass="0" width="15.999999642372131" offsetY="0" height="10" movable="false" offsetX="0" friction="0.6" parallax="-1" artType="" id="Cloud17" x="3792" restitution="0" rotation="0" source=""/>
+  <Ladder y="582.5" friction="0.6" offsetX="0" width="38" offsetY="0" height="502.9999905824661" mass="0" source="" movable="false" parallax="-1" id="Ladder4" x="4443" rotation="0" artType="" restitution="0"/>
+  		<Cloud y="712" offsetX="0" width="50" restitution="0" height="10" source="" mass="0" offsetY="0" parallax="-1" movable="false" id="Cloud18" x="4225" rotation="0" friction="0.6" artType=""/>
+  		<Cloud y="725" offsetX="0" width="34.00000035762787" restitution="0" height="10" source="" mass="0" offsetY="0" parallax="-1" movable="false" id="Cloud19" x="4269" rotation="0" friction="0.6" artType=""/>
+   		<Trigger y="772.5" offsetX="0" width="296.9926357269287" offsetY="0" height="145.00000476837158" source="" mass="0" parallax="-1" movable="false" friction="0.6" id="Trigger_bosscave" x="4048.7" rotation="0" artType="" restitution="0"/>
+	  	<PoseBeam y="600" offsetX="-25" width="30" offsetY="0" height="160" source="assets/sprites/robot.swf" seqFrequency="2" mass="1" friction="0.6" visible="true" parallax="-1" artType="" id="BossBot1" x="3901.85" rotation="0" seqDuration="1"/>
+  		<PoseBeam y="600" offsetX="-25" width="30" offsetY="0" height="160" source="assets/sprites/robot.swf" seqFrequency="2" mass="1" friction="0.6" visible="true" parallax="-1" artType="" id="BossBot2" x="4207" rotation="0" seqDuration="1"/>
+  		<ControllerBeam y="671" offsetX="0" width="30" height="1" source="assets/sprites/controllerbeam.swf" mass="1" friction="0.6" invincible="true" visible="true" parallax="-1" artType="" maxHealth="400" id="Controller" x="4057" rotation="0" />
+  		<SequenceSwitch y="795" offsetX="0" width="70" offsetY="0" height="74" source="assets/sprites/poseswitch_still.swf" mass="0" friction="0.6" timeout="-1" parallax="-1" artType="" id="BotSwitch4" x="4100" restitution="0" rotation="0" movable="false" enabled="false"/>
+  		<SequenceSwitch y="795" offsetX="0" width="70" offsetY="43" height="74" source="assets/sprites/poseswitch_top.swf" mass="0" friction="0.6" timeout="-1" parallax="1.0002" artType="" id="BotSwitch4Top" x="4085" restitution="0" rotation="0" movable="false" enabled="false"/>
+  		<SequenceSwitch y="1510.6" offsetX="0" width="89" offsetY="43" height="74" source="assets/sprites/poseswitch.swf" mass="0" friction="0.6" parallax="-1" artType="" id="PoseBeamSwitch1" x="5600" restitution="0" rotation="0" movable="false"/>
+   </zone>
+</world>

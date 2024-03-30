@@ -1,0 +1,39 @@
+<creatureSummary id="817">
+			<name>
+				Cockatoo
+			</name>
+			<thumbnail>
+				<mediaItem id="142">
+					<mediaType>image</mediaType>
+					<uri>
+						/wildkratts/media/creaturepedia/56/Cockatoo main.png
+					</uri>
+				</mediaItem>
+			</thumbnail>
+			<habitats>
+				<habitat id="794">
+					<name>
+						Air
+					</name>
+				</habitat>
+			</habitats>
+			<families>
+				<family id="551">
+					<name>
+						Birds
+					</name>
+				</family>
+			</families>
+			<regions>
+				<region id="798">
+					<name>
+						Asia
+					</name>
+				</region><region id="799">
+					<name>
+						Australia
+					</name>
+				</region>
+			</regions>
+		</creatureSummary>
+		

@@ -1,0 +1,153 @@
+<content id="821"><contentSection id="1">
+				<title>
+					Creature Power
+				</title>
+				<navigationLabel>
+					Elephant Power!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							An elephant's trunk has more than 100000 muscles! A human body only has 639 muscles. The elephant can use it's trunk to do so many things from ripping branches off trees to picking up a single blade of grass! An elephant can hold a gallon of water in it's trunk before spraying it in it's mouth for a drink or on it's back to cool off.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/47/Elephant feeding.f4v
+							</uri>
+							<thumbnail>
+								<mediaItem id="164">
+									<mediaType>image</mediaType>
+									<uri>
+										/wildkratts/media/creaturepedia/47/Elephant feeding thumbnail.png
+									</uri>
+								</mediaItem>
+							</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="2">
+				<title>
+					Food and Health
+				</title>
+				<navigationLabel>
+					Food and Health
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							Elephants eat up to 450 lbs (204 kilograms) of grass, fruit, bark, and acacia leaves a day and drink about 30 gallons (114 litres) of water a day. Elephants have sensitive skin so they protect it by spraying it with sand and mud to act as sunscreen and to cool down in the hot sun.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/47/Elephant food and health.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/47/Elephant food and health thumbnail.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="3">
+				<title>
+					Home Base
+				</title>
+				<navigationLabel>
+					Home Base
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							There are two different kinds of elephants. African elephants have ears the shape of the continent of Africa. African elephants have wrinkly skin and two "fingers" at the end of their trunk. Asian elephants are smaller, they have smoother skin and only one "finger" at the end of their trunk!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/47/Elephant range map.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="4">
+				<title>
+					Danger Alert
+				</title>
+				<navigationLabel>
+					Danger Alert
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							The low resounding calls elephants make can be heard by other elephants up to 5 miles (8 kilometers) away. Elephants use these calls to transmit information about danger, water and food. Adult elephants have no natural predators but lions and crocodiles can prey on the calves. Poaching and habitat loss are the biggest threat.
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>image</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/47/Elephant enemy.png
+							</uri>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection><contentSection id="5">
+				<title>
+					Livin' Creature Style
+				</title>
+				<navigationLabel>
+					Livin' Elephant Style!
+				</navigationLabel>
+				<contentItems>
+					<contentItem id="126">
+						<title>
+							
+						</title>
+						<text>
+							An elephant's trunk is so strong an adult male elephant can lift about 600 pounds (272 kilograms)! That means he could lift you and about 14 of your friends! The largest elephant on record was an adult male African elephant. It weighed about 24,000 pounds (10,890 kilograms) and was 13 feet (4 meters) tall at the shoulder!
+						</text>
+						<order>
+							0
+						</order>
+						<mediaItem id="165">
+							<mediaType>video</mediaType>
+							<uri>
+								/wildkratts/media/creaturepedia/47/Elephant feeding.f4v
+							</uri>
+							<thumbnail>
+							<mediaItem id="164">
+								<uri>
+									/wildkratts/media/creaturepedia/47/Elephant feeding thumbnail.png
+								</uri>
+							</mediaItem>
+						</thumbnail>
+						</mediaItem>
+					</contentItem>
+				</contentItems>
+			</contentSection></content>
