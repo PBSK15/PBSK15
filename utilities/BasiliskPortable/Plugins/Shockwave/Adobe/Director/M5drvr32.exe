@@ -1,0 +1,13 @@
+.OPTION EXPLICIT
+.Set CabinetNameTemplate=SWDIR.CAB 
+.Set Cabinet=on
+.Set Compress=on
+;Reserve space for PKS#7 Code Signature
+.Set ReservePerCabinetSize=4096
+..\source\swdir.inf
+..\source\SwDir.dll
+..\source\Dirapi.dll
+..\source\Idle32.exe
+..\source\Iml32.dll
+..\source\xtras\Swadcmpr.x32
+..\source\xtras\Swastrm.x32

@@ -1,0 +1,35 @@
+All changes to the default Basilisk configuration are listed below.
+
+Configured custom plugin directories in Basilisk-Portable.ini
+Other changes to Basilisk-Portable.ini (lines starting with ; are commented out): 
+ShowSplash=false
+;(multiple instances)
+;MOZ_NO_REMOTE=1
+
+Preferences set:
+When Basilisk starts show a blank page
+Play DRM content
+Block pop-up windows - false
+Send a signal that you don't want to be tracked
+Remember logins for sites - false
+Basilisk will use custom settings for history
+Remember search and form history - false
+Automatically update search engines - false
+Never check for updates
+Query OCSP responder servers to confirm the current validity of certificates - false
+
+about:config Switches Set:
+extensions.blocklist.enabled - false
+javascript.options.wasm - true
+network.captive-portal-service.enabled - false
+network.stricttransportsecurity.preloadlist - false
+security.mixed_content.send_hsts_priming - false
+browser.newtabpage.directory.ping - blank
+browser.newtabpage.directory.source - blank
+extensions.systemAddon.update.url - blank
+media.gmp-manager.url - blank
+dom.ipc.plugins.asyncdrawing.enabled - false
+dom.ipc.plugins.flash.disable-protected-mode - true
+dom.disable_window_open_feature.location - false
+dom.allow_scripts_to_close_windows - true
+plugin.scan.plid.all - false

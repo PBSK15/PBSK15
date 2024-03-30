@@ -1,0 +1,113 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.18f|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+np32dsw.dll|$
+C:\Program Files (x86)\PBSK15\utilities\BasiliskPortable\Plugins\Shockwave\Adobe\Director\np32dsw.dll|$
+12.3.5.205|$
+1586755276625|0|0|0|$
+Adobe Shockwave for Director Netscape plug-in, version 12.3.5.205|$
+Shockwave for Director|$
+1
+0|application/x-director|Shockwave Movie|dir,dxr,dcr|$
+npjp2.dll|$
+C:\Program Files (x86)\PBSK15\utilities\BasiliskPortable\Plugins\JDK_1.8.0_181\jre\bin\plugin2\npjp2.dll|$
+11.181.2.13|$
+1570301655036|0|0|0|$
+Next Generation Java Plug-in 11.181.2 for Mozilla browsers|$
+Java(TM) Platform SE 8 U181|$
+40
+0|application/x-java-applet|Java Applet||$
+1|application/x-java-bean|JavaBeans||$
+2|application/x-java-vm|||$
+3|application/x-java-applet;version=1.1.1|||$
+4|application/x-java-bean;version=1.1.1|||$
+5|application/x-java-applet;version=1.1|||$
+6|application/x-java-bean;version=1.1|||$
+7|application/x-java-applet;version=1.2|||$
+8|application/x-java-bean;version=1.2|||$
+9|application/x-java-applet;version=1.1.3|||$
+10|application/x-java-bean;version=1.1.3|||$
+11|application/x-java-applet;version=1.1.2|||$
+12|application/x-java-bean;version=1.1.2|||$
+13|application/x-java-applet;version=1.3|||$
+14|application/x-java-bean;version=1.3|||$
+15|application/x-java-applet;version=1.2.2|||$
+16|application/x-java-bean;version=1.2.2|||$
+17|application/x-java-applet;version=1.2.1|||$
+18|application/x-java-bean;version=1.2.1|||$
+19|application/x-java-applet;version=1.3.1|||$
+20|application/x-java-bean;version=1.3.1|||$
+21|application/x-java-applet;version=1.4|||$
+22|application/x-java-bean;version=1.4|||$
+23|application/x-java-applet;version=1.4.1|||$
+24|application/x-java-bean;version=1.4.1|||$
+25|application/x-java-applet;version=1.4.2|||$
+26|application/x-java-bean;version=1.4.2|||$
+27|application/x-java-applet;version=1.5|||$
+28|application/x-java-bean;version=1.5|||$
+29|application/x-java-applet;version=1.6|||$
+30|application/x-java-bean;version=1.6|||$
+31|application/x-java-applet;version=1.7|||$
+32|application/x-java-bean;version=1.7|||$
+33|application/x-java-applet;version=1.8|||$
+34|application/x-java-bean;version=1.8|||$
+35|application/x-java-applet;jpi-version=1.8.0_181|||$
+36|application/x-java-bean;jpi-version=1.8.0_181|||$
+37|application/x-java-vm-npruntime|||$
+38|application/x-java-applet;deploy=11.181.2|||$
+39|application/x-java-applet;javafx=8.0.181|||$
+Npxgplugin.dll|$
+C:\Program Files (x86)\PBSK15\utilities\BasiliskPortable\Plugins\SoundPlayback\Npxgplugin.dll|$
+5.0.0.68|$
+1671569205310|0|0|0|$
+MIDPLUG(TM) for XG ver1.01|$
+MIDPLUG for XG|$
+9
+0|audio/midi|MIDI|mid,midi|$
+1|audio/x-midi|MIDI|mid,midi|$
+2|audio/mid|MIDI|mid,midi|$
+3|audio/x-mid|MIDI|mid,midi|$
+4|audio/x-wav|WAVE|wav|$
+5|audio/wav|WAVE|wav|$
+6|audio/x-aiff|AIFF|aif,aiff|$
+7|audio/aiff|AIFF|aif,aiff|$
+8|audio/basic|AU|au|$
+npmod32.dll|$
+C:\Program Files (x86)\PBSK15\utilities\BasiliskPortable\Plugins\SoundPlayback\npmod32.dll|$
+4.10.1.9|$
+1671569205313|0|0|0|$
+Module Plugin Library v1.91.05|$
+MOD Plugin|$
+8
+0|audio/x-mod|All Modules|mod,s3m,med,xm,it,mdz,itz,xmz,s3z|$
+1|audio/mod|ProTracker Modules|mod|$
+2|audio/x-zipped-mod|Zipped Modules|mdz|$
+3|audio/s3m|ScreamTracker Modules|s3m|$
+4|audio/x-s3m|ScreamTracker Modules|s3m|$
+5|audio/xm|FastTracker Modules|xm|$
+6|audio/x-zipped-it|Zipped IT Module|itz|$
+7|audio/it|Impulse Tracker Modules|it|$
+npsid.dll|$
+C:\Program Files (x86)\PBSK15\utilities\BasiliskPortable\Plugins\SoundPlayback\npsid.dll|$
+1.0.0.1|$
+1671569205316|0|0|0|$
+SIDPLAY plug-in 1.2.15 for Win32, libsidplay 1.36.57|$
+  SIDPlug|$
+2
+0|audio/prs.sid|SID tunes|sid|$
+1|audio/x-sidtune|SID tunes|sid|$
+NPSWF32_32_0_0_363.dll|$
+C:\Program Files (x86)\PBSK15\utilities\BasiliskPortable\Plugins\Flash\NPSWF32_32_0_0_363.dll|$
+32.0.0.363|$
+1671569204911|0|0|0|$
+Shockwave Flash 32.0 r0|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+
+[INVALID]

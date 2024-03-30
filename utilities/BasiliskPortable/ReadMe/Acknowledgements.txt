@@ -1,0 +1,7 @@
+This portable distribution would not have been possible without the work involved in the following
+third-party libraries and tools:
+
+1. WinPenPack for supplying a base framework to build the portable launcher on.
+2. Markus Oberhumer, Laszlo Molnar & John Reiser for their work on UPX.
+3. Portableapps.com for their convenient AppCompactor GUI.
+4. Igor Pavlov for his excellent 7-zip compression program.
