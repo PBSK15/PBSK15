@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+
+	<!--
+	<game 	position="" 	REQUIRED - Position index on landing page grid. Numbers 1 through total number of spaces.
+			imageURL="/" 	REQUIRED - Image url to be loaded
+			soundURL="" 	OPTIONAL - This value is passed to the shell .swf, which play the sound given. If no value is provided, no sound will play.
+			id="" 			OPTIONAL BUT SUGGESTED - This value is passed to the shell .swf, which decides which url corresponds with the ID.
+			link="" 		OPTIONAL - This value can be used to overwrite or substitute the id value, which will bypass the id being sent to the shell .swf and calls a navigateToURL in the games .swf
+			linkWindow="" 	OPTIONAL - Target window for the link value. Only works with link navigateToURL. If not provided, _self is default.
+	 />
+	-->
+	
+	<game 	position="1" 
+			id="misspower" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/wordgirl_face_off.png"
+			soundURL="site_audio/games_landing/wordgirlfaceoff.mp3"
+			backgroundScale="0.98"
+			backgroundX="81"
+			backgroundY="54"
+			backgroundLinesColor="684d66"
+			backgroundColor1="43374f" 
+			strokeColor="FB9F1A" />
+			
+	<game 	position="2" 
+			id="drtwobrains" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/dr_two_brains_lair.png"
+			soundURL="site_audio/games_landing/drtwobrainslair.mp3"
+			backgroundScale="0.98"
+			backgroundX="78"
+			backgroundY="180"
+			backgroundLinesColor="fd4545"
+			backgroundColor1="c32922"
+			strokeColor="FB9F1A" />
+			
+	<game 	position="3" 
+			id="powerwords" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/power_words.png"
+			soundURL="site_audio/games_landing/powerwords.mp3"
+			backgroundScale="0.63"
+			backgroundX="99"
+			backgroundY="54"
+			backgroundLinesColor="ce5995"
+			backgroundColor1="c23a7b"
+			strokeColor="FB9F1A" />
+			
+	<game	position="4" 
+			id="robotworkshop" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/robot_workshop.png" 
+			soundURL="site_audio/games_landing/robotworkshop.mp3"
+			backgroundScale="0.63"
+			backgroundX="99"
+			backgroundY="108"
+			backgroundLinesColor="699da2"
+			backgroundColor1="5a868d"
+			strokeColor="FB9F1A" />
+			
+	<game 	position="5" 
+			id="chuckgame" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/chucks_extreme_crusher.png" 
+			soundURL="site_audio/games_landing/chuckgame.mp3"
+			backgroundScale="1.01"
+			backgroundX="83"
+			backgroundY="49"
+			backgroundLinesColor="3aa0c3"
+			backgroundColor1="4cc2e8"
+			strokeColor="FB9F1A" />
+			
+	<game 	position="6" 
+			id="buildalair" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/build_a_lair.png"
+			soundURL="site_audio/games_landing/buildalair.mp3"
+			backgroundScale="0.53"
+			backgroundX="106"
+			backgroundY="140"
+			backgroundLinesColor="8247c3"
+			backgroundColor1="7d25be"
+			strokeColor="FB9F1A" />
+			
+	<game 	position="7" 
+			id="prettyprincess" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/pretty_princess.png" 
+			soundURL="site_audio/games_landing/sparkletopia.mp3"
+			backgroundScale="0.85"
+			backgroundX="177"
+			backgroundY="145"
+			backgroundLinesColor="e78cc9"
+			backgroundColor1="fbc5ea"
+			backgroundColor2="df6fbb"
+			strokeColor="FB9F1A" />
+			
+	<game 	position="8" 
+			id="storybookadventures"
+            link="https://pbskids.org/wordgirl/games/storybookadventure/"
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/storybook_adventures.png" 
+			soundURL="site_audio/games_landing/story_title.mp3"
+			backgroundScale="0.63"
+			backgroundX="80"
+			backgroundY="67"
+			backgroundLinesColor="f4c900"
+			backgroundColor1="edb200"
+			strokeColor="FB9F1A" />
+			
+	<game 	position="9" 
+			link="https://pbskids.org/go/studio/characters/" 
+			linkWindow="_self" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/build_a_character.png"
+			soundURL="site_audio/games_landing/buildacharacter.mp3"
+			backgroundScale="0.63"
+			backgroundX="91"
+			backgroundY="116"
+			backgroundLinesColor="bed030"
+			backgroundColor1="d4e458"
+			strokeColor="FB9F1A" />
+	
+	<scroller>
+		<game 	id="favoriteword" 
+				imageURL="/enablecdn/wordgirl/cdn_content/images/games/whats_your_favorite_word.png" 
+				soundURL="site_audio/games_landing/favoriteword.mp3"
+				backgroundScale="0.63"
+				backgroundX="136"
+				backgroundY="58"
+				backgroundLinesColor="6d0e14"
+				backgroundColor1="371113"
+				strokeColor="FB9F1A" />
+				
+		<game 	id="mazemania" 
+				imageURL="/enablecdn/wordgirl/cdn_content/images/games/maze_mania.png"
+				soundURL="site_audio/games_landing/mazemania.mp3"
+				backgroundScale="0.63"
+				backgroundX="123"
+				backgroundY="46"
+				backgroundLinesColor="64acd8"
+				backgroundColor1="78cbfd"
+				strokeColor="FB9F1A" />
+				
+		<game 	id="comicstripcapers"
+				imageURL="/enablecdn/wordgirl/cdn_content/images/games/comic_strip_capers.png" 
+				soundURL="site_audio/games_landing/comicstripcapers.mp3"
+				backgroundScale="0.63"
+				backgroundX="119"
+				backgroundY="35"
+				backgroundLinesColor="45a99a"
+				backgroundColor1="2b9182"
+				strokeColor="FB9F1A" />
+
+		<game 	id="freezeframe" 
+				imageURL="/enablecdn/wordgirl/cdn_content/images/games/huggy_faces_freeze_frame.png" 
+				soundURL="site_audio/games_landing/freezeframe.mp3"
+				backgroundScale="1.00"
+				backgroundX="39"
+				backgroundY="58"
+				backgroundLinesColor="f67f44"
+				backgroundColor1="ff995c"
+				strokeColor="FB9F1A" />
+											
+		<game 	id="huggydance" 
+				imageURL="/enablecdn/wordgirl/cdn_content/images/games/huggy_dance.png"
+				soundURL="site_audio/games_landing/huggydance.mp3"
+				backgroundScale="0.84"
+				backgroundX="116"
+				backgroundY="54"
+				backgroundLinesColor="4099ce"
+				backgroundColor1="3388ba"
+				strokeColor="FB9F1A" />
+				
+		<game 	id="comicbook" 
+				imageURL="/enablecdn/wordgirl/cdn_content/images/games/comic_book.png"
+				soundURL="site_audio/games_landing/comicbook.mp3"
+				backgroundScale="1.00"
+				backgroundX="128"
+				backgroundY="44"
+				backgroundLinesColor="d7eefb"
+				backgroundColor1="c0d8ef"
+				strokeColor="FB9F1A" />
+	</scroller>
+</games>

@@ -1,0 +1,83 @@
+{
+  "urls": [
+    "sfx_track.mp3",
+    "sfx_track.ogg"
+  ],
+  "audioSprite": [
+    {
+      "id": "cheese_music",
+      "startTime": 0,
+      "duration": 6924.580498866213
+    },
+    {
+      "id": "cheese_squish",
+      "startTime": 8000,
+      "duration": 1253.877551020409
+    },
+    {
+      "id": "cheese_taptoaim",
+      "startTime": 11000,
+      "duration": 2847.346938775511
+    },
+    {
+      "id": "cheese_taptoshoot",
+      "startTime": 15000,
+      "duration": 2063.673469387755
+    },
+    {
+      "id": "goop_music",
+      "startTime": 19000,
+      "duration": 34170.294784580496
+    },
+    {
+      "id": "goop_spray",
+      "startTime": 55000,
+      "duration": 574.6938775510203
+    },
+    {
+      "id": "narrator_cheeseometer",
+      "startTime": 57000,
+      "duration": 4963.265306122452
+    },
+    {
+      "id": "narrator_mobile_goopinstr",
+      "startTime": 63000,
+      "duration": 4938.208616780045
+    },
+    {
+      "id": "narrator_mobile_instr",
+      "startTime": 69000,
+      "duration": 4337.392290249426
+    },
+    {
+      "id": "narrator_ready_play",
+      "startTime": 75000,
+      "duration": 4623.673469387753
+    },
+    {
+      "id": "narrator_round1",
+      "startTime": 81000,
+      "duration": 1332.2448979591854
+    },
+    {
+      "id": "narrator_round2",
+      "startTime": 84000,
+      "duration": 1227.7551020408168
+    },
+    {
+      "id": "narrator_round3",
+      "startTime": 87000,
+      "duration": 1541.2244897959226
+    },
+    {
+      "id": "timer_beep",
+      "startTime": 90000,
+      "duration": 2063.6734693877515
+    },
+    {
+      "id": "timer_buzz",
+      "startTime": 94000,
+      "duration": 1071.020408163264
+    }
+  ]
+}

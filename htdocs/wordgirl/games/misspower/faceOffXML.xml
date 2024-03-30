@@ -1,0 +1,292 @@
+<faceOff>
+	<LoaderMax name="initialAssets" load="true" prependURLs="../../cdn_content/games/misspowerfaceoff/">
+		<SWFLoader name="faceOffSwf" url="faceOff.swf" autoPlay="false" estimatedBytes="1200000" />
+		<SWFLoader name="winAnimation" url="winAnimation3.swf" autoPlay="false" estimatedBytes="196000" />
+	</LoaderMax>
+	
+	<LoaderMax name="requiredAudio" load="true" prependURLs="../../cdn_content/games/misspowerfaceoff/required_audio/">
+	   	<!-- MUSIC AUDIO -->
+		<MP3Loader autoPlay="false" name="bgMusic" url="bgmusic.mp3" startTime="25" endTime="15950" volume=".7" loop="true" estimatedBytes="131000" />
+		<MP3Loader autoPlay="false" name="powerMoveMusic" url="power_move_music.mp3" startTime="50" endTime="7250" volume=".3" loop="true" estimatedBytes="66000" />
+		
+		<!-- VOICEOVER AUDIO -->
+		<MP3Loader autoPlay="false" name="levelIntro" url="levelintro.mp3" estimatedBytes="27000" />
+		<MP3Loader autoPlay="false" name="getReady" url="getready.mp3" estimatedBytes="11000" />
+		<MP3Loader autoPlay="false" name="helpantonym" url="helpantonym.mp3" estimatedBytes="21000" />
+		<MP3Loader autoPlay="false" name="clickopposite" url="clickopposite.mp3" estimatedBytes="17000" />
+		<MP3Loader autoPlay="false" name="another" url="herecomesanother.mp3" estimatedBytes="11000" />
+		<MP3Loader autoPlay="false" name="thatsnotit" url="thatsnotit.mp3" estimatedBytes="7000" />
+		<MP3Loader autoPlay="false" name="powermove" url="powermove.mp3" estimatedBytes="10000" />
+		<MP3Loader autoPlay="false" name="clickfast" url="clickfast.mp3" estimatedBytes="23000" />
+		<MP3Loader autoPlay="false" name="eachlight" url="eachlight.mp3" estimatedBytes="16000" />
+		<MP3Loader autoPlay="false" name="readygo" url="readygo.mp3" estimatedBytes="11000" />
+		<MP3Loader autoPlay="false" name="tryPowerMoveAgain" url="quickpowermove.mp3" estimatedBytes="25000" />
+		<MP3Loader autoPlay="false" name="useNiceWord" url="useniceword.mp3" estimatedBytes="49000" />
+		<MP3Loader autoPlay="false" name="wgRound1Win" url="3ptwgwin.mp3" estimatedBytes="28000" />
+		<MP3Loader autoPlay="false" name="wgRound2Win" url="winagainlast.mp3" estimatedBytes="20000" />
+		<MP3Loader autoPlay="false" name="wgRound3Win" url="youwin.mp3" estimatedBytes="29000" />
+		<MP3Loader autoPlay="false" name="mpGameWin" url="3ptsplayagain.mp3" estimatedBytes="27000" />
+		<MP3Loader autoPlay="false" name="playAgain" url="playagain.mp3" estimatedBytes="11000" />
+	</LoaderMax>
+	
+	<LoaderMax name="sfxSounds" load="false" prependURLs="../../cdn_content/games/misspowerfaceoff/sound_effects/">
+	   	<!-- SFX AUDIO -->
+		<MP3Loader autoPlay="false" name="click" url="library_click.mp3" />
+		<MP3Loader autoPlay="false" name="mouseOver" url="btn_rollover.mp3" />
+		<MP3Loader autoPlay="false" name="beginRound" url="bowlhit.mp3" />
+		<MP3Loader autoPlay="false" name="laserEyes" url="lasereyes.mp3" />
+		<MP3Loader autoPlay="false" name="punch" url="barrel_explode.mp3" />
+		<MP3Loader autoPlay="false" name="ahh" url="ahh2.mp3" />
+		<MP3Loader autoPlay="false" name="oooph" url="oooph.mp3" />
+		<MP3Loader autoPlay="false" name="wooh" url="wooh.mp3" />
+		<MP3Loader autoPlay="false" name="wordup" url="wordup.mp3" />
+		<MP3Loader autoPlay="false" name="earnPoint" url="powerup.mp3" />
+		<MP3Loader autoPlay="false" name="laserEyesAffect" url="laser.mp3" />
+		<MP3Loader autoPlay="false" name="mpShield" url="mpshield.mp3" />
+		<MP3Loader autoPlay="false" name="frozenBreath" url="winterWind.mp3" />
+		<MP3Loader autoPlay="false" name="frozenBreathAffect" url="ice_cracking_2.mp3" />
+		<MP3Loader autoPlay="false" name="breakingIce" url="breakingice.mp3" />
+		<MP3Loader autoPlay="false" name="windTunnel" url="umbrella_wind.mp3" />
+		<MP3Loader autoPlay="false" name="fadeLight" url="lightfadeout.mp3" />
+		<MP3Loader autoPlay="false" name="newLight" url="click_ui_button_2.mp3" />
+		<MP3Loader autoPlay="false" name="correctLight" url="library_click.mp3" />
+		<MP3Loader autoPlay="false" name="wrong" url="wrong.mp3" />
+		<MP3Loader autoPlay="false" name="zipFly" url="zipnfly.mp3" />
+	</LoaderMax>
+	
+	<LoaderMax name="winScenes" load="false" prependURLs="../../cdn_content/games/misspowerfaceoff/">
+		<SWFLoader name="winAnimation1" url="winAnimation1.swf" autoPlay="false" />
+		<SWFLoader name="winAnimation2" url="winAnimation2.swf" autoPlay="false" />
+	</LoaderMax>
+	
+	<maingamespage url="https://pbskids.org/wordgirl/games/" />
+	<helpStrings>
+		<powermove><![CDATA[Give WordGirl more power by <br/>clicking the lights as fast as you can.<br/> You must click each light before <br/>it goes out.]]></powermove>
+		<antonym><![CDATA[Help WordGirl defeat <br/>Miss Power's word with an antonym. <br/>Click on the word that means the <br/>opposite of]]></antonym>
+		<misc><![CDATA[Help WordGirl face off <br/>against Miss Power in an epic battle <br/>of words! When Miss Power uses a mean word or Power Move against WordGirl, <br/>help WordGirl use nice words, or her <br/>own Power Move, to save the day!]]></misc>
+	</helpStrings>
+	<rounds>
+		<round soundsBase="../../cdn_content/games/misspowerfaceoff/wordbank/">
+			<wordSet defUrl="missmean.mp3">
+				<mpWord mp3url="mean.mp3">Mean</mpWord>
+				<wgWord mp3url="nice.mp3">Nice</wgWord>
+				<word mp3url="bright.mp3">Bright</word>
+				<word mp3url="bitter.mp3">Bitter</word>
+			</wordSet>
+			<wordSet defUrl="destprot.mp3">
+				<mpWord mp3url="destroy.mp3">Destroy</mpWord>
+				<wgWord mp3url="protect.mp3">Protect</wgWord>
+				<word mp3url="insult.mp3">Insult</word>
+				<word mp3url="notice.mp3">Notice</word>
+			</wordSet>
+			<wordSet defUrl="politerude.mp3">
+				<mpWord mp3url="rude.mp3">Rude</mpWord>
+				<wgWord mp3url="polite.mp3">Polite</wgWord>
+				<word mp3url="giddy.mp3">Giddy</word>
+				<word mp3url="cold.mp3">Cold</word>
+			</wordSet>
+			<wordSet defUrl="makecalm.mp3">
+				<mpWord mp3url="worried.mp3">Worried</mpWord>
+				<wgWord mp3url="calm.mp3">Calm</wgWord>
+				<word mp3url="greedy.mp3">Greedy</word>
+				<word mp3url="fabulous.mp3">Fabulous</word>
+			</wordSet>
+			<wordSet defUrl="argueagree.mp3">
+				<mpWord mp3url="argue.mp3">Argue</mpWord>
+				<wgWord mp3url="agree.mp3">Agree</wgWord>
+				<word mp3url="identify.mp3">Identify</word>
+				<word mp3url="regret.mp3">Regret</word>
+			</wordSet>
+			<wordSet defUrl="genself.mp3">
+				<mpWord mp3url="selfish.mp3">Selfish</mpWord>
+				<wgWord mp3url="generous.mp3">Generous</wgWord>
+				<word mp3url="glum.mp3">Glum</word>
+				<word mp3url="eager.mp3">Eager</word>
+			</wordSet>
+			<wordSet defUrl="harshkind.mp3">
+				<mpWord mp3url="harsh.mp3">Harsh</mpWord>
+				<wgWord mp3url="kind.mp3">Kind</wgWord>
+				<word mp3url="fresh.mp3">Fresh</word>
+				<word mp3url="weak.mp3">Weak</word>
+			</wordSet>
+			<wordSet defUrl="attackdef.mp3">
+				<mpWord mp3url="attack.mp3">Attack</mpWord>
+				<wgWord mp3url="defend.mp3">Defend</wgWord>
+				<word mp3url="dash.mp3">Dash</word>
+				<word mp3url="doubt.mp3">Doubt</word>
+			</wordSet>
+			<wordSet defUrl="joyunhap.mp3">
+				<mpWord mp3url="unhappy.mp3">Unhappy</mpWord>
+				<wgWord mp3url="joyous.mp3">Joyous</wgWord>
+				<word mp3url="dreary.mp3">Dreary</word>
+				<word mp3url="sweet.mp3">Sweet</word>
+			</wordSet>
+			<!--<wordSet defUrl="happysad.mp3">
+				<mpWord mp3url="sad.mp3">Sad</mpWord>
+				<wgWord mp3url="happy.mp3">Happy</wgWord>
+				<word mp3url="assist.mp3">Assist</word>
+				<word mp3url="dream.mp3">Dream</word>
+			</wordSet>-->
+			<wordSet defUrl="builddem.mp3">
+				<mpWord mp3url="demolish.mp3">Demolish</mpWord>
+				<wgWord mp3url="build.mp3">Build</wgWord>
+				<word mp3url="ban.mp3">Ban</word>
+				<word mp3url="avoid.mp3">Avoid</word>
+			</wordSet>
+			<!--<wordSet defUrl="goodbad.mp3">
+				<mpWord mp3url="bad.mp3">Bad</mpWord>
+				<wgWord mp3url="good.mp3">Good</wgWord>
+				<word mp3url="antsy.mp3">Antsy</word>
+				<word mp3url="curious.mp3">Curious</word>
+			</wordSet>-->
+		</round>
+		<round soundsBase="../../cdn_content/games/misspowerfaceoff/wordbank/">
+			<wordSet defUrl="nemesisfriend.mp3">
+				<mpWord mp3url="nemesis.mp3">Nemesis</mpWord>
+				<wgWord mp3url="friend.mp3">Friend</wgWord>
+				<word mp3url="champion.mp3">Champion</word>
+				<word mp3url="idol.mp3">Idol</word>
+			</wordSet>
+			<wordSet defUrl="blissmiss.mp3">
+				<mpWord mp3url="misery.mp3">Misery</mpWord> 
+				<wgWord mp3url="bliss.mp3">Bliss</wgWord>
+				<word mp3url="denial.mp3">Denial</word>
+				<word mp3url="surprise.mp3">Surprise</word>
+			</wordSet>
+			<wordSet defUrl="foolclever.mp3">
+				<mpWord mp3url="foolish.mp3">Foolish</mpWord>
+				<wgWord mp3url="clever.mp3">Clever</wgWord>
+				<word mp3url="rotten.mp3">Rotten</word>
+				<word mp3url="kind.mp3">Kind</word>
+			</wordSet>
+			<wordSet defUrl="careclumsy.mp3">
+				<mpWord mp3url="clumsy.mp3">Clumsy</mpWord>
+				<wgWord mp3url="careful.mp3">Careful</wgWord>
+				<word mp3url="edible.mp3">Edible</word>
+				<word mp3url="uncertain.mp3">Uncertain</word>
+			</wordSet>
+			<wordSet defUrl="admiredespise.mp3">
+				<mpWord mp3url="despise.mp3">Despise</mpWord>
+				<wgWord mp3url="admire.mp3">Admire</wgWord>
+				<word mp3url="neglect.mp3">Neglect</word>
+				<word mp3url="frolic.mp3">Frolic</word>
+			</wordSet>
+			<wordSet defUrl="authcount.mp3">
+				<mpWord mp3url="counterfeit.mp3">Counterfeit</mpWord>
+				<wgWord mp3url="authentic.mp3">Authentic</wgWord>
+				<word mp3url="ragged.mp3">Ragged</word>
+				<word mp3url="shiny.mp3">Shiny</word>
+			</wordSet>
+			<wordSet defUrl="worryrelx.mp3">
+				<mpWord mp3url="worried.mp3">Worried</mpWord>
+				<wgWord mp3url="relaxed.mp3">Relaxed</wgWord>
+				<word mp3url="tired.mp3">Tired</word>
+				<word mp3url="famished.mp3">Famished</word>
+			</wordSet>
+			<wordSet defUrl="charmirritate.mp3">
+				<mpWord mp3url="irritating.mp3">Irritating</mpWord>
+				<wgWord mp3url="charming.mp3">Charming</wgWord>
+				<word mp3url="boastful.mp3">Boastful</word>
+				<word mp3url="awkward.mp3">Awkward</word>
+			</wordSet>
+			<wordSet defUrl="gentlefero.mp3">
+				<mpWord mp3url="ferocious.mp3">Ferocious</mpWord>
+				<wgWord mp3url="gentle.mp3">Gentle</wgWord>
+				<word mp3url="elated.mp3">Elated</word>
+				<word mp3url="drowsy.mp3">Drowsy</word>
+			</wordSet>
+			<wordSet defUrl="wasteconserv.mp3">
+				<mpWord mp3url="waste.mp3">Waste</mpWord>
+				<wgWord mp3url="conserve.mp3">Conserve</wgWord>
+				<word mp3url="mimic.mp3">Mimic</word>
+				<word mp3url="respect.mp3">Respect</word>
+			</wordSet>
+			<wordSet defUrl="dispdeli.mp3">
+				<mpWord mp3url="disappointed.mp3">Disappointed</mpWord>
+				<wgWord mp3url="delighted.mp3">Delighted</wgWord>
+				<word mp3url="elegant.mp3">Elegant</word>
+				<word mp3url="splendid.mp3">Splendid</word>
+			</wordSet>
+			<wordSet defUrl="encouragedepress.mp3">
+				<mpWord mp3url="depress.mp3">Depress</mpWord>
+				<wgWord mp3url="encourage.mp3">Encourage</wgWord>
+				<word mp3url="debate.mp3">Debate</word>
+				<word mp3url="deny.mp3">Deny</word>
+			</wordSet>
+		</round>
+		<round soundsBase="../../cdn_content/games/misspowerfaceoff/wordbank/">
+			<wordSet defUrl="appeaseagg.mp3">
+				<mpWord mp3url="aggravate.mp3">Aggravate</mpWord>
+				<wgWord mp3url="appease.mp3">Appease</wgWord>
+				<word mp3url="enthrall.mp3">Enthrall</word>
+				<word mp3url="clarify.mp3">Clarify</word>
+			</wordSet>
+			<wordSet defUrl="generousgreed.mp3">
+				<mpWord mp3url="greedy.mp3">Greedy</mpWord>
+				<wgWord mp3url="generous.mp3">Generous</wgWord>
+				<word mp3url="finicky.mp3">Finicky</word>
+				<word mp3url="mistaken.mp3">Mistaken</word>
+			</wordSet>
+			<wordSet defUrl="attentincon.mp3">
+				<mpWord mp3url="inconsiderate.mp3">Inconsiderate</mpWord>
+				<wgWord mp3url="attentive.mp3">Attentive</wgWord>
+				<word mp3url="mystified.mp3">Mystified</word>
+				<word mp3url="potent.mp3">Potent</word>
+			</wordSet>
+			<wordSet defUrl="criticcompl.mp3">
+				<mpWord mp3url="criticism.mp3">Criticism</mpWord>
+				<wgWord mp3url="compliment.mp3">Compliment</wgWord>
+				<word mp3url="dilemma.mp3">Dilemma</word>
+				<word mp3url="observation.mp3">Observation</word>
+			</wordSet>
+			<wordSet defUrl="uncertconfid.mp3">
+				<mpWord mp3url="uncertainty.mp3">Uncertainty</mpWord>
+				<wgWord mp3url="confidence.mp3">Confidence</wgWord>
+				<word mp3url="patience.mp3">Patience</word>
+				<word mp3url="satisfaction.mp3">Satisfaction</word>
+			</wordSet>
+			<wordSet defUrl="consoleagitate.mp3">
+				<mpWord mp3url="agitate.mp3">Agitate</mpWord>
+				<wgWord mp3url="console.mp3">Console</wgWord>
+				<word mp3url="exaggerate.mp3">Exaggerate</word>
+				<word mp3url="neglect.mp3">Neglect</word>
+			</wordSet>
+			<wordSet defUrl="cowardcourage.mp3">
+				<mpWord mp3url="cowardly.mp3">Cowardly</mpWord>
+				<wgWord mp3url="courageous.mp3">Courageous</wgWord>
+				<word mp3url="envious.mp3">Envious</word>
+				<word mp3url="pensive.mp3">Pensive</word>
+			</wordSet>
+			<wordSet defUrl="decepthonest.mp3">
+				<mpWord mp3url="deception.mp3">Deception</mpWord>
+				<wgWord mp3url="honesty.mp3">Honesty</wgWord>
+				<word mp3url="strategy.mp3">Strategy</word>
+				<word mp3url="regret.mp3">Regret</word>
+			</wordSet>
+			<wordSet defUrl="deterdoubt.mp3">
+				<mpWord mp3url="doubtful.mp3">Doubtful</mpWord>
+				<wgWord mp3url="determined.mp3">Determined</wgWord>
+				<word mp3url="frantic.mp3">Frantic</word>
+				<word mp3url="rowdy.mp3">Rowdy</word>
+			</wordSet>
+			<wordSet defUrl="patientfrust.mp3">
+				<mpWord mp3url="frustrated.mp3">Frustrated</mpWord>
+				<wgWord mp3url="patient.mp3">Patient</wgWord>
+				<word mp3url="savvy.mp3">Savvy</word>
+				<word mp3url="furious.mp3">Furious</word>
+			</wordSet>
+			<wordSet defUrl="forgeryorig.mp3">
+				<mpWord mp3url="forgery.mp3">Forgery</mpWord>
+				<wgWord mp3url="original.mp3">Original</wgWord>
+				<word mp3url="gadget.mp3">Gadget</word>
+				<word mp3url="feline.mp3">Feline</word>
+			</wordSet>
+			<wordSet defUrl="flattercriticize.mp3">
+				<mpWord mp3url="criticize.mp3">Criticize</mpWord>
+				<wgWord mp3url="flatter.mp3">Flatter</wgWord>
+				<word mp3url="reveal.mp3">Reveal</word>
+				<word mp3url="cooperate.mp3">Cooperate</word>
+			</wordSet>
+		</round>
+	</rounds>
+</faceOff>

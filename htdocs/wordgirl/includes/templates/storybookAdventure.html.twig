@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>{{pageTitle|raw}}</title>
+    	<meta charset="utf-8">
+    	<!-- Hide UI elements such as URL bar and bottom bar when iOS is on homescreen.-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- Set the iOS status bar color to black. -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <!-- Set viewport properties -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <!-- Main storybook style -->
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="../engine/css/storybook-shell.css">
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="../engine/css/engine.css">
+        <!-- Optional custom css -->
+        <link media="screen, projection" rel="stylesheet" type="text/css" href="css/custom.css">
+        <!-- Custom fonts -->
+        <link href="fonts/fonts.css" rel="stylesheet" type="text/css">
+
+        <link href="../navigation/style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+ 
+    <body>
+        <div id="pbsStorybookPlayer">
+        <!-- Progress Bar -->
+        <div id="progressWrapper">
+            <img id="progressTextImage" src="../engine/images/loading.png" />
+            <div id="progressBar"><div id="progressBarFill"></div></div>
+            <div id="progressText"></div>
+        </div>
+        <div id="readyToStart"></div>
+
+	    <!-- Storybook elements will be injected here -->
+        <div id="pbsStorybookContainer"></div>
+
+        <div class="navigation-bar">
+            <div class="navigation-bar-background left"></div>
+            <div class="navigation-bar-background right"></div>
+            <a class="navigation-bar-logo left" href="http://pbskids.org">
+                <img src="../navigation/pbs-kids-logo.png">
+            </a>
+            <a class="navigation-bar-logo right" href="http://pbskids.org/wordgirl/games">
+                <img src="../navigation/exit.png">
+            </a>
+        </div>
+
+        <div id="landscape-modal">
+   		    <img id="rotate-device-icon" src="../engine/images/rotate-device.png" alt="Please Turn Device" />
+   	    </div>
+    </div>
+        <!-- Load library js files -->
+        <script src="../engine/lib/underscore-min.js"></script>
+        <script src="../engine/lib/jquery-1.8.3.min.js"></script>
+        <script src="../engine/plug/modernizr/modernizr.custom.js"></script>
+        <script src="../engine/plug/ismobile/ismobile.js"></script>
+
+        <!-- Load storybook engine js files -->
+        <script src="../engine/js/pbs.js"></script>
+        <script src="../engine/js/eventDispatcher.js"></script>
+        <script src="../engine/js/interaction.js"></script>
+        <script src="../engine/js/resourceLoader.js"></script>
+	    <script src="../engine/js/book.js"></script>
+	    <script src="../engine/js/page.js"></script>
+	    <script src="../engine/js/textArea.js"></script>
+	    <script src="../engine/js/view.js"></script>
+        <script src="../engine/js/sprite.js"></script>
+        <script src="../engine/js/cycler.js"></script>
+        <script src="../engine/js/drawingPad.js"></script>
+        <script src="../engine/js/audioPlayer.js"></script>
+        <script src="../engine/js/sound.js"></script>
+        <script src="../engine/js/audible.js"></script>
+
+        <!-- Load plugins -->
+        <script src="config/config-choices.js"></script>
+        <script src="config/config-audio.js"></script>
+
+        <!-- Load Implementation js files-->
+	    <script src="config/config-book.js"></script>
+
+        <script src="config/config-page-defaults.js"></script>
+
+        <script src="config/config-page-01.js"></script>
+        <script src="config/config-page-02.js"></script>
+
+        <script src="config/config-page-03.js"></script>
+        <script src="config/config-page-04.js"></script>
+
+        <script src="config/config-page-05.js"></script>
+        <script src="config/config-page-06.js"></script>
+
+        <script src="config/config-page-07.js"></script>
+        <script src="config/config-page-08.js"></script>
+
+	    <script>
+            var book;
+
+            (function (GLOBAL, PBS) {
+
+				// Create the storybook
+				book = PBS.KIDS.storybook.book(
+                    GLOBAL,
+                    PBS,
+                    GLOBAL.document.getElementById("pbsStorybookContainer"),
+                    PBS.KIDS.storybook.config
+                );
+
+                // Load the storybook resources
+				book.load();
+
+                book.addEventListener("BOOK-LOADED", function () {
+                    var bookframe_cover = document.createElement("img");
+                    var bookframe_full = document.createElement("img");
+                    var bookframe_top = document.createElement("img");
+                    var bookframe_bottom = document.createElement("img");
+
+                    bookframe_cover.className += 'book-frame cover';
+                    bookframe_full.className += 'book-frame full';
+                    bookframe_top.className += 'book-frame top';
+                    bookframe_bottom.className += 'book-frame bottom';
+
+                    bookframe_cover.src = "images/book-frame-cover.png";
+                    bookframe_full.src = "images/book-frame-full.png";
+                    bookframe_top.src = "images/book-frame-top.png";
+                    bookframe_bottom.src = "images/book-frame-bottom.png";
+
+                    var bookContainer = document.getElementById("pbsBookContainer");
+
+                    bookContainer.appendChild(bookframe_cover);
+                    bookContainer.appendChild(bookframe_full);
+                    bookContainer.appendChild(bookframe_top);
+                    bookContainer.appendChild(bookframe_bottom);
+                });
+
+                return PBS.KIDS.storybook;
+            } (window, PBS));
+	    </script>
+
+         
+      {% include 'template_includes/modern_headband_include.html' %}
+      {% include 'template_includes/modern_pbsk_js.html' %}
+
+
+    </body>
+</html>

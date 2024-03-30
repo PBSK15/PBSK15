@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<promoResources>
+	<assetLocation><![CDATA[/enablecdn/wordgirl/cdn_content/homepage/toppromo/]]></assetLocation>
+	<links>
+		<!--<link id="unlockable" imageURL="WG_LibraryWeekPROMO.jpg" soundURL="wg_home18.mp3" mood="surprised" gesturescript="body,0.1,surprised|face,3,happy|body,4,happy"/>
+		-->
+		<link id="drtwobrains" imageURL="twobrainsgame_top.jpg" soundURL="wg_home18.mp3" mood="happy" gesturescript="body,0.1,surprised|face,3,happy|body,4,happy"/>
+		<link id="misspower" imageURL="WgMpFaceOff.jpg" soundURL="wg_home18.mp3" mood="happy" gesturescript="body,0.1,angry|face,3.5,flat"/>
+		<link id="buildalair" imageURL="buildLair_top.jpg" soundURL="wg_home12.mp3" mood="happy" gesturescript="body,0.1,happy|face,1.2,surprised|face,1.2,flat|face,2.5,surprised|body+face,4.5,flat"/>
+		<link id="chuckgame" imageURL="chuckExtreme_top.jpg" soundURL="wg_home18.mp3" mood="surprised" gesturescript="body,0.1,surprised|face,3,happy|body,4,happy"/>
+		<link id="powerwords" imageURL="powerWords_top.jpg" soundURL="wg_home18.mp3" mood="happy" gesturescript="body,0.1,angry|face,3.5,flat"/>
+		<link id="robotworkshop" imageURL="TobeyRoboWrkshp.jpg" soundURL="wg_home25.mp3" mood="surprised" gesturescript="body,0.1,surprised|body+face,2.4,happy|body+face,3.9,flat"/>
+	</links>
+	<resources>
+		<resource id="leftArrow" URL="leftArrow.png" type="image"/>
+		<resource id="rightArrow" URL="rightArrow.png" type="image"/>
+	</resources>
+</promoResources>

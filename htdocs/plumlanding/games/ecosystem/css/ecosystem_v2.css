@@ -1,0 +1,59 @@
+/*
+-----------------------------------------------
+WGBH Digital
+Plum Landing Terrarium Game
+kal_gieber@wgbh.org
+April 2014
+----------------------------------------------- 
+*/
+
+#terr-game-box {
+	float:left;
+	position:relative;
+	width:994px;
+	height:562px;
+}
+
+#terr-game-box canvas {
+	position:absolute;
+}
+
+#animtxt_block span{
+	width:380px;
+	display:block;
+}
+
+/* LOADING POSITION OVERRIDE */
+
+#terr-game-box #loading {
+	position:absolute;
+    bottom: 6px;
+}
+
+/* POINTS DISPLAY STYLES OVERRIDES */
+
+#terr-game-box .user-points-main {
+	padding: .15em 0;
+	overflow:hidden;
+}
+
+#terr-game-box .user-points-main h1 {
+	margin-left: .1em;
+	margin-right: .075em;
+	text-align:left;
+}
+
+#terr-game-box .user-points-main h6 {
+	margin-left: .45em;
+	text-align:left;
+}
+
+/* GAME DIV - SET UP FOR VIRTUAL WORLD */
+#terr-game {
+	width: 988px;
+	height: 556px;
+}
+
+.pos_abs {
+	position:absolute;
+}

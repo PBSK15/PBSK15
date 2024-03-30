@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Hal Hardbargain]]></title>
+	<description><![CDATA[Gadget whiz Hal Hardbargain runs Hal Hardbargain's Supervillain Supply Store, where villains like Dr. Two Brains can come to get a bargain. Even WordGirl visits his store when she's in a crunch for supplies. But are his bargains too good to be true? And is he playing both sides?]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_hardbargain.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/halhardbargain.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|halhardbargain_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_hardbargain.png" title="Coloring Page"/>
+		<activity id="printables|halhardbargain_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

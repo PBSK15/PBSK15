@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Birthday Girl]]></title>
+	<description><![CDATA[When you first meet her, Eileen (aka the Birthday Girl) seems like an adorable little girl. However, she thinks that every day is her birthday and that she deserves special treatment. Her downfall is greed. If someone dares to tell her no, she grows into a giant green monster until she gets her way. She's been known to steal Bob (and dress him up), climb tall buildings, even try to make Violet her best friend.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_birthdaygirl.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/birthdaygirl.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|bGirl_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_birthdaygirl.png" title="Coloring Page"/>
+		<activity id="printables|bGirl_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+		<activity id="scavenger" iconURL="images/heroVillain/character/activity_scavenger.png" title="Scavenger Hunt"/>
+		<activity id="buildalair" iconURL="images/heroVillain/character/activity_buildalair.png" title="Build-A-Lair"/>
+		<activity id="freezeframe" iconURL="images/heroVillain/character/activity_freezeframe.png" title="Freeze Frame"/>
+	</activities>
+</gameResources>

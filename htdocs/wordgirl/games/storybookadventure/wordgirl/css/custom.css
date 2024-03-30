@@ -1,0 +1,69 @@
+/** Storybook Custom CSS **/
+
+.choice1-option1,
+.choice1-option2,
+.choice1-option3,
+.choice2-option1,
+.choice2-option2,
+.choice2-option3,
+.choice3-option1,
+.choice3-option2,
+.choice3-option3 {
+	display: none;
+}
+
+.page1-speaker,
+.page2-speaker,
+.page3-speaker,
+.page4-speaker,
+.page5-speaker,
+.page6-speaker,
+.page7-speaker,
+.page8-speaker {
+	cursor: pointer;
+}
+
+.highlightedWord {
+	border-bottom: 2px solid #FFDE42;
+	color: #ffde42;
+}
+
+.mainText .playSoundOnPress {
+	border-bottom: 2px solid #486A90;
+	color: #486A90;
+}
+
+.secondary-text .playSoundOnPress {
+	border-bottom: 2px solid #FFDE42;
+	color: #ffde42;
+}
+
+.mainText {
+	line-height: 160% !important;
+}
+
+.clickable-word {
+	line-height: 160% !important;
+}
+
+.highlightedText {
+	line-height: 160% !important;
+}
+
+.hidden {
+	display: none;
+}
+
+.blank_box {
+	background: #fc4445;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+/* iphone 3gs */
+@media only screen and (device-width:320px) and (device-height:480px) and (-webkit-device-pixel-ratio: 1) {
+	.mainText {
+		line-height: 150% !important;
+		font-size: 22.5em !important;
+	}
+}

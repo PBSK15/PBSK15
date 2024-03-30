@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Todd "Scoops" Ming]]></title>
+	<description><![CDATA[Scoops is a reporter on The Daily Rag, Public School 131's school newspaper. Scoops desperately wants to be an ace reporter. He's a go-getter who knows there are a thousand stories in the big city and he wants to be the first to report them, especially uncovering Wordgirl's secret identity. Becky has a secret crush on Scoops and is somehow always able to get him an inside story on WordGirl.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_scoops.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/scoops.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|scoops_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_scoops.png" title="Coloring Page"/>
+		<activity id="printables|scoops_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

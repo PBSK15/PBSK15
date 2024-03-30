@@ -1,0 +1,340 @@
+<game>
+
+	<!-- necessary files for game play -->
+
+	<files>
+		<game type="swf">game.swf</game>
+		<sandwiches type="swf">sandwiches.swf</sandwiches>
+		<dropfoods type="swf">dropfoods.swf</dropfoods>
+		
+		<angry type="swf">angry.swf</angry>
+		<quizzical type="swf">quizzical.swf</quizzical>
+		<happy type="swf">happy.swf</happy>
+		<flat type="swf">flat.swf</flat>
+		
+		
+		<!-- AUDIO -->
+		
+		<!-- generic -->
+		<correct type="mp3">aud/correct.mp3</correct>
+		<incorrect type="mp3">aud/incorrect.mp3</incorrect>
+		<transition type="mp3">aud/transition.mp3</transition>
+		
+		
+		
+		<!-- level 1 specific -->
+		<l1Intro1 type="mp3">aud/l1_intro001.mp3</l1Intro1>
+		<!-- <l1Intro5 type="mp3">aud/l1_intro005.mp3</l1Intro5> -->
+		
+		<l1Correct1 type="mp3">aud/l2_correct001.mp3</l1Correct1>
+		<l1Correct2 type="mp3">aud/l2_correct008.mp3</l1Correct2>
+		<l1Correct3 type="mp3">aud/l2_correct009.mp3</l1Correct3>
+		
+		
+		
+		<!-- level 2 specific -->
+		<crunch type="mp3">aud/crunch.mp3</crunch>
+		<crusherRolling type="mp3" loop="true">aud/crusher_rolling.mp3</crusherRolling>
+		<crusherJump type="mp3">aud/crusher_jump.mp3</crusherJump>
+		<crusherPound type="mp3">aud/crusher_pound.mp3</crusherPound>
+		<squish type="mp3">aud/squish.mp3</squish>
+		<timeAlert type="mp3">aud/alarm.mp3</timeAlert>
+		
+		<l2Intro type="mp3">aud/voupdated.mp3</l2Intro>
+
+		<l2Incorrect1 type="mp3">aud/l2_incorrect001.mp3</l2Incorrect1>
+		<l2Incorrect2 type="mp3">aud/l2_incorrect002.mp3</l2Incorrect2>
+		<l2Incorrect3 type="mp3">aud/l2_incorrect003.mp3</l2Incorrect3>
+		<l2Incorrect4 type="mp3">aud/l2_incorrect004.mp3</l2Incorrect4>
+		<l2Incorrect5 type="mp3">aud/l2_incorrect005.mp3</l2Incorrect5>
+		<l2Correct1 type="mp3">aud/l2_correct001.mp3</l2Correct1>
+		<l2Correct2 type="mp3">aud/l2_correct002.mp3</l2Correct2>
+		<l2Correct3 type="mp3">aud/l2_correct003.mp3</l2Correct3>
+		<l2Correct4 type="mp3">aud/l2_correct004.mp3</l2Correct4>
+		<l2Correct5 type="mp3">aud/l2_correct005.mp3</l2Correct5>
+		<l2Correct6 type="mp3">aud/l2_correct006.mp3</l2Correct6>
+		<l2Correct7 type="mp3">aud/l2_correct007.mp3</l2Correct7>
+		<l2Correct8 type="mp3">aud/l2_correct008.mp3</l2Correct8>
+		<l2Correct9 type="mp3">aud/l2_correct009.mp3</l2Correct9>
+		
+		
+		<!-- level 3 specific -->
+		<l3Intro1 type="mp3">aud/l3_intro001a.mp3</l3Intro1>
+		<l3Intro2 type="mp3">aud/l3_intro001b.mp3</l3Intro2>
+		<l3Intro3 type="mp3">aud/l3_intro001c.mp3</l3Intro3>
+	
+		<l3Incorrect1 type="mp3">aud/l1_incorrect001.mp3</l3Incorrect1>
+		
+		<l3Correct1 type="mp3">aud/l3_correct001.mp3</l3Correct1>
+		<l3Correct2 type="mp3">aud/l3_correct002.mp3</l3Correct2>
+		<l3Correct3 type="mp3">aud/l3_correct003.mp3</l3Correct3>
+		<l3Correct4 type="mp3">aud/l3_correct004.mp3</l3Correct4>
+		<l3Correct5 type="mp3">aud/l3_correct005.mp3</l3Correct5>
+		<l3Correct6 type="mp3">aud/l3_correct006.mp3</l3Correct6>
+		<l3Correct7 type="mp3">aud/l3_correct007.mp3</l3Correct7>
+		
+		<end1 type="mp3">aud/end001.mp3</end1>
+		<end2 type="mp3">aud/end002.mp3</end2>
+	</files>
+	
+	
+	
+	<music>aud/theme.mp3</music>
+	<music2>aud/theme2.mp3</music2>
+	<music3>aud/theme3.mp3</music3>
+	
+	
+	<!-- words, distractors and level2 obstacles all from one movie clip!!! -->
+	<words>
+		
+		<item frame="1" level="1">
+			<word>bitter</word>
+			<distractors>2,8</distractors>
+			<splatType color="0xB7D147">splat</splatType>
+		</item>
+		
+		<item frame="2" level="1">
+			<word>charred</word>
+			<distractors>11,12</distractors>
+			<splatType color="0x563832">crumbs</splatType>
+		</item>
+		
+		<item frame="3" level="1">
+			<word>crumbly</word>
+			<distractors>2,10</distractors>
+			<splatType color="0xC49F4D">crumbs</splatType>
+		</item>
+		
+		<item frame="4" level="1">
+			<word>disgusting</word>
+			<distractors>13,14</distractors>
+			<splatType color="0x9966CC">splat</splatType>
+			<opposite>delicious</opposite>
+			<dropFood>
+				<right>70,71,72</right>
+				<distractors>1,2,3,4,50,51,52,80,81,82,90,91,92,100,101,102,103,110,111,112,113,120,121,122,123</distractors>
+			</dropFood>
+		</item>
+		
+		<item frame="5" level="1">
+			<word>flavorless</word>
+			<distractors>5,9</distractors>
+			<splatType color="0xD3CCC0">crumbs</splatType>
+			<opposite>savory</opposite>
+			<dropFood>
+				<right>20,21,22</right>
+				<distractors>1,2,3,4,50,51,52,60,61,62,80,81,82,90,91,92,100,101,102,103,110,111,112,113,120,121,122,123</distractors>
+			</dropFood>
+		</item>
+		
+		<item frame="6" level="1">
+			<word>moldy</word>
+			<distractors>1,10</distractors>
+			<splatType color="0x666633">splat</splatType>
+			<opposite>fresh</opposite>
+			<dropFood>
+				<right>141,142,143</right>
+				<distractors>10,11,12,20,21,22,30,31,32,40,41,42,50,51,52,60,61,62,70,71,72,80,81,82,100,101,102,103,110,111,112,113,120,121,122,123</distractors>
+			</dropFood>
+		</item>
+		
+		<item frame="7" level="1">
+			<word>pungent</word>
+			<distractors>9,14</distractors>
+			<splatType color="0x33CC00">splat</splatType>
+		</item>
+		
+		<item frame="8" level="1">
+			<word>soggy</word>
+			<distractors>2,11</distractors>
+			<splatType color="0x23A8FF">splat</splatType>
+			<opposite>crispy</opposite>
+			<dropFood>
+				<right>10,11,12</right>
+				<distractors>1,2,3,4,40,41,42,50,51,52,60,61,62,80,81,82,90,91,92,100,101,102,103,110,111,112,113,120,121</distractors>
+			</dropFood>
+		</item>
+		
+		<item frame="9" level="1">
+			<word>sour</word>
+			<distractors>10,13</distractors>
+			<splatType color="0x66CC99">splat</splatType>
+			<opposite>sweet</opposite>
+			<dropFood>
+				<right>60,61,62</right>
+				<distractors>1,2,3,4,10,11,12,20,21,22,30,31,32,40,41,42,50,51,52,80,81,82,90,91,92,100,101,102,103,110,111,112,113,120,121,122,123</distractors>
+			</dropFood>
+		</item>
+		
+		<item frame="10" level="1">
+			<word>spicy</word>
+			<distractors>1,6</distractors>
+			<splatType color="0xDD6E00">splat</splatType>.
+			<opposite>bland</opposite>
+			<dropFood>
+				<right>1,2,3,4</right>
+				<distractors>10,11,12,20,21,22,30,31,32,40,41,42,50,51,52,60,61,62,70,71,72,80,81,82,100,101,102,103,110,111,112,113,120,121,122,123</distractors>
+			</dropFood>
+		</item>
+<!--		
+		<item frame="11" level="1">
+			<word>stale</word>
+			<distractors>8,12</distractors>
+			<splatType color="0xff0000">splat</splatType>
+		</item>
+-->		
+		<item frame="12" level="1">
+			<word>withered</word>
+			<distractors>2,8</distractors>
+			<splatType color="0x33663A">splat</splatType>
+			<opposite>succulent</opposite>
+			<dropFood>
+				<right>40,41,42</right>
+				<distractors>1,2,3,4,11,12,20,22,50,51,52,60,61,62,70,71,72,80,81,82,90,91,92,100,101,102,103,110,111,112,113,120,121,122,123</distractors>
+			</dropFood>
+		</item>
+		
+	</words>
+	
+	<distractors>
+				
+		<item frame="21">
+			<word>club</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="22">
+			<word>hoagie</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="23">
+			<word>meaty</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="24">
+			<word>gooey</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="25">
+			<word>stacked</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="26">
+			<word>palatable</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="27">
+			<word>panini</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="28">
+			<word>drizzled</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="29">
+			<word>toasted</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="30">
+			<word>burger</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="31">
+			<word>palatable</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="32">
+			<word>stuffed</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="33">
+			<word>submarine</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="34">
+			<word>leafy</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+		<item frame="35">
+			<word>distractor15</word>
+			<splatType >crumbs</splatType>
+		</item>
+		
+	</distractors>
+
+
+	<level2Obstacles>
+		<item frame="40">
+			<word>obstacle1</word>
+			<splatType>NONE</splatType>
+		</item>
+		<item frame="41">
+			<word>obstacle2</word>
+			<splatType>NONE</splatType>
+		</item>
+		<item frame="42">
+			<word>obstacle3</word>
+			<splatType>NONE</splatType>
+		</item>
+		<item frame="43">
+			<word>obstacle4</word>
+			<splatType>NONE</splatType>
+		</item>
+	</level2Obstacles>
+
+	
+	<level1>
+		<correct>l1Correct1</correct>
+		<correct>l1Correct2</correct>
+		<correct>l1Correct3</correct>
+	</level1>
+	
+	
+	<level2>
+		<intro>l2Intro5</intro>
+		
+		<incorrect>l2Incorrect1</incorrect>
+		<incorrect>l2Incorrect2</incorrect>
+		<incorrect>l2Incorrect3</incorrect>
+		<incorrect>l2Incorrect4</incorrect>
+		<incorrect>l2Incorrect5</incorrect>
+
+		<correct>l2Correct1</correct>
+		<correct>l2Correct2</correct>
+		<correct>l2Correct3</correct>
+		<correct>l2Correct4</correct>
+		<correct>l2Correct5</correct>
+		<correct>l2Correct6</correct>
+		<correct>l2Correct7</correct>
+		<correct>l2Correct8</correct>
+		<correct>l2Correct9</correct>
+		
+		<speeds>6|9|12</speeds>
+	</level2>
+	
+	<level3>
+		<incorrect>l3Incorrect1</incorrect>
+
+		<correct>l3Correct1</correct>
+		<correct>l3Correct2</correct>
+		<correct>l3Correct3</correct>
+		<correct>l3Correct4</correct>
+		<correct>l3Correct5</correct>
+		<correct>l3Correct6</correct>
+		<correct>l3Correct7</correct>
+	</level3>
+	
+</game>

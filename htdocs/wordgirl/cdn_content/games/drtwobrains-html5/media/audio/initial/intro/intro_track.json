@@ -1,0 +1,20 @@
+{
+  "urls": [
+    "intro_track.ogg",
+    "intro_track.m4a",
+    "intro_track.mp3",
+    "intro_track.ac3"
+  ],
+  "audioSprite": [
+    {
+      "id": "game2intro",
+      "startTime": 0,
+      "duration": 8907.755102040817
+    },
+    {
+      "id": "turnintocheese",
+      "startTime": 10000,
+      "duration": 3448.163265306123
+    }
+  ]
+}

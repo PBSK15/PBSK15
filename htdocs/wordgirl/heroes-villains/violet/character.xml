@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Violet]]></title>
+	<description><![CDATA[Violet Heaslip is Becky's best friend in the whole world. They met in Art Appreciation Class (after Becky failed art class 3 times in a row). Where Becky lacks creativitiy, Violet is an artistic genius. Violet spends her time day-dreaming and lost in thought. Violet is kind and caring and perhaps a little absentminded. She has a unique perspective on the world, which might be why Becky gets along with her so well.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_violet.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/violet.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="prettyprincessgame" iconURL="images/heroVillain/princess/prettyprincess_game.png" title="Magical Rescue"/>
+		<activity id="printables|violet_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_violet.png" title="Coloring Page"/>
+		<activity id="printables|violet_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

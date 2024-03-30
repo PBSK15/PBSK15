@@ -1,0 +1,43 @@
+{
+"images": ["sheet.png"],
+"frames": [
+
+    [983, 53, 36, 25], 
+    [662, 2, 91, 182], 
+    [755, 119, 171, 65], 
+    [2, 2, 449, 287], 
+    [928, 97, 94, 74], 
+    [755, 2, 116, 115], 
+    [936, 261, 70, 52], 
+    [453, 2, 207, 208], 
+    [613, 212, 128, 98], 
+    [453, 212, 158, 101], 
+    [873, 2, 108, 93], 
+    [851, 261, 83, 50], 
+    [983, 2, 33, 49], 
+    [743, 186, 106, 126], 
+    [851, 186, 122, 73]
+],
+"animations": {
+    
+        "Asteroid":[0], 
+        "Astronaut":[1], 
+        "Cloud":[2], 
+        "Comet":[3], 
+        "Crater":[4], 
+        "Earth":[5], 
+        "Graph":[6], 
+        "Jupiter":[7], 
+        "Saturn":[8], 
+        "Rover":[9], 
+        "Satellite":[10], 
+        "Space_Shuttle":[11], 
+        "Star":[12], 
+        "Telescope":[13], 
+        "Weather_Chart":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:b653c127667a4fc225fb71c2f121b346:b45f44affcf94e2f575a282d416122bb:2ea37baa3004d71598bdaa074748cd76$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

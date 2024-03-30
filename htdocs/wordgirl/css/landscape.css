@@ -1,0 +1,972 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+html {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+q, blockquote {
+	quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+	content: none;
+}
+
+a img {
+	border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+
+body {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.wrapper {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	height: auto;
+	position: relative;
+}
+
+.content {
+	position: relative;
+	left: 50%;
+	margin-left: -522px;
+	top: 20px;
+	width: 1024px;
+	height: 680px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+.content.home {
+	height: 660px;
+}
+.content.game {
+	height: 770px;
+}
+.content.games {
+	height: 660px;
+}
+.content .modules {
+	background: #ffffff;
+	width: 1024px;
+	top: 0;
+	left: 0;
+	left: 0;
+	height: 637px;
+	overflow: hidden;
+	position: relative;
+}
+.content .modules.game {
+	height: 732px;
+}
+.content .modules .module {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 12px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content .modules .module.banner {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/banner/background.png") center center no-repeat;
+	width: 995px;
+	height: 87px;
+	left: 1px;
+	overflow: hidden;
+}
+.content .modules .module.banner .item {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content .modules .module.banner .item.pbskids {
+	transition: all .05s linear;
+	-webkit-transition: all .05s linear;
+	-moz-transition: all .05s linear;
+	-o-transition: all .05s linear;
+	-ms-transition: all .05s linear;
+	left: 15px;
+	top: 4px;
+}
+.content .modules .module.banner .item.pbskids:hover {
+	transform: scale(1.025, 1.025);
+	-webkit-transform: scale(1.025, 1.025);
+	-moz-transform: scale(1.025, 1.025);
+	-o-transform: scale(1.025, 1.025);
+	-ms-transform: scale(1.025, 1.025);
+	z-index: 9999;
+}
+.content .modules .module.banner .item.wordgirl {
+	transition: all .05s linear;
+	-webkit-transition: all .05s linear;
+	-moz-transition: all .05s linear;
+	-o-transition: all .05s linear;
+	-ms-transition: all .05s linear;
+	left: 818px;
+	top: 6px;
+}
+.content .modules .module.banner .item.wordgirl:hover {
+	transform: scale(1.025, 1.025);
+	-webkit-transform: scale(1.025, 1.025);
+	-moz-transform: scale(1.025, 1.025);
+	-o-transform: scale(1.025, 1.025);
+	-ms-transform: scale(1.025, 1.025);
+	z-index: 9999;
+}
+.content .modules .module.banner .item.centerpiece {
+	left: 345px;
+	top: -20px;
+}
+.content .modules .module.banner .item.centerpiece.games, .content .modules .module.banner .item.centerpiece.video {
+	left: 390px;
+	top: 10px;
+}
+.content .modules .module.banner .item.centerpiece.heroesVillains {
+	left: 315px;
+	top: 0;
+}
+.content .modules .module.banner .item.centerpiece.sparkletopia {
+	left: 350px;
+	top: 20px;
+}
+.content .modules .module.banner .item.centerpiece.storybook {
+	left: 360px;
+	top: 20px;
+}
+
+.wordgirl_animation_wrapper {
+	top: 104px;
+	left: 6px;
+	overflow: hidden;
+	width: 638px !important;
+	height: 513px !important;
+	position: relative;
+}
+
+.content .modules .module.swiffy.wordgirl {
+	border: none !important;
+	-webkit-overflow-scrolling: touch;
+	-moz-overflow-scrolling: touch;
+	-o-overflow-scrolling: touch;
+	-ms-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+.content .modules .module.swiffy.characters {
+	width: 347px;
+	height: 319px;
+	top: 295px;
+	left: 650px;
+}
+.content .modules .module.swiffy.characters .character {
+	top: 0;
+	left: 0;
+	width: 347px;
+	height: 319px;
+	display: none;
+	position: absolute;
+}
+.content .modules .module.swiffy.characters .character.huggy {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/huggy.png") no-repeat;
+	display: block;
+}
+.content .modules .module.swiffy.characters .character.dr2brains {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/dr2brains.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.tobey {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/tobey.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.tj {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/tj.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.chuck {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/chuck.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.whammer {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/whammer.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.violet {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/violet.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.butcher {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/butcher.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.granny {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/granny.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.toddscoops {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/toddscoops.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.mrbig {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/mrbig.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.ladyredundant {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/ladyredundant.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.timbotsford {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/timbotsford.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.sallybotsford {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/sallybotsford.png") no-repeat;
+}
+.content .modules .module.swiffy.characters .character.birthdaygirleileen {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/characters/birthdaygirleileen.png") no-repeat;
+}
+.content .modules .module.game {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/game/background.png") center center no-repeat;
+	width: 995px;
+	height: 610px;
+	top: 100px;
+}
+.content .modules .module.game.storybook {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/game/storybook.png") center center no-repeat;
+	width: 995px;
+	height: 610px;
+}
+
+
+
+
+
+.character-image {
+	width: 226px;
+	height: 210px;
+}
+
+.character-image.captain-huggy {
+	background: url("/wordgirl/cdn_content/characters/desktop/captain-huggy.png") no-repeat;
+}
+.character-image.dr-two-brains {
+	background: url("/wordgirl/cdn_content/characters/desktop/dr-two-brains.png") no-repeat;
+}
+.character-image.tobey {
+	background: url("/wordgirl/cdn_content/characters/desktop/tobey.png") no-repeat;
+}
+.character-image.tj-botsford {
+	background: url("/wordgirl/cdn_content/characters/desktop/tj-botsford.png") no-repeat;
+}
+.character-image.chuck {
+	background: url("/wordgirl/cdn_content/characters/desktop/chuck.png") no-repeat;
+}
+.character-image.whammer {
+	background: url("/wordgirl/cdn_content/characters/desktop/whammer.png") no-repeat;
+}
+.character-image.violet {
+	background: url("/wordgirl/cdn_content/characters/desktop/violet.png") no-repeat;
+}
+.character-image.the-butcher {
+	background: url("/wordgirl/cdn_content/characters/desktop/the-butcher.png") no-repeat;
+}
+.character-image.granny {
+	background: url("/wordgirl/cdn_content/characters/desktop/granny.png") no-repeat;
+}
+.character-image.todd-scoops {
+	background: url("/wordgirl/cdn_content/characters/desktop/todd-scoops.png") no-repeat;
+}
+.character-image.mr-big {
+	background: url("/wordgirl/cdn_content/characters/desktop/mr-big.png") no-repeat;
+}
+.character-image.lady-redundant {
+	background: url("/wordgirl/cdn_content/characters/desktop/lady-redundant.png") no-repeat;
+}
+.character-image.tim-botsford {
+	background: url("/wordgirl/cdn_content/characters/desktop/tim-botsford.png") no-repeat;
+}
+.character-image.sally-botsford {
+	background: url("/wordgirl/cdn_content/characters/desktop/sally-botsford.png") no-repeat;
+}
+.character-image.birthday-girl {
+	background: url("/wordgirl/cdn_content/characters/desktop/birthday-girl.png") no-repeat;
+}
+
+
+.character-title-image.captain-huggy {
+	background: url("/wordgirl/cdn_content/characters/desktop/captain-huggy-title.png") no-repeat;
+	width: 213px;
+	height: 37px;
+}
+.character-title-image.dr-two-brains {
+	background: url("/wordgirl/cdn_content/characters/desktop/dr-two-brains-title.png") no-repeat;
+	width: 155px;
+	height: 35px;
+}
+.character-title-image.tobey {
+	background: url("/wordgirl/cdn_content/characters/desktop/tobey-title.png") no-repeat;
+	width: 68px;
+	height: 36px;
+}
+.character-title-image.tj-botsford {
+	background: url("/wordgirl/cdn_content/characters/desktop/tj-botsford-title.png") no-repeat;
+	width: 226px;
+	height: 210px;
+}
+.character-title-image.chuck {
+	background: url("/wordgirl/cdn_content/characters/desktop/chuck-title.png") no-repeat;
+	width: 259px;
+	height: 28px;
+}
+.character-title-image.whammer {
+	background: url("/wordgirl/cdn_content/characters/desktop/whammer-title.png") no-repeat;
+	width: 137px;
+	height: 36px;
+}
+.character-title-image.violet {
+	background: url("/wordgirl/cdn_content/characters/desktop/violet-title.png") no-repeat;
+	width: 72px;
+	height: 36px;
+}
+.character-title-image.the-butcher {
+	background: url("/wordgirl/cdn_content/characters/desktop/the-butcher-title.png") no-repeat;
+	width: 128px;
+	height: 37px;
+}
+.character-title-image.granny {
+	background: url("/wordgirl/cdn_content/characters/desktop/granny-title.png") no-repeat;
+	width: 131px;
+	height: 35px;
+}
+.character-title-image.todd-scoops {
+	background: url("/wordgirl/cdn_content/characters/desktop/todd-scoops-title.png") no-repeat;
+	width: 190px;
+	height: 34px;
+}
+.character-title-image.mr-big {
+	background: url("/wordgirl/cdn_content/characters/desktop/mr-big-title.png") no-repeat;
+	width: 79px;
+	height: 37px;
+}
+.character-title-image.lady-redundant {
+	background: url("/wordgirl/cdn_content/characters/desktop/lady-redundant-title.png") no-repeat;
+	width: 264px;
+	height: 38px;
+}
+.character-title-image.tim-botsford {
+	background: url("/wordgirl/cdn_content/characters/desktop/tim-botsford-title.png") no-repeat;
+	width: 141px;
+	height: 38px;
+}
+.character-title-image.sally-botsford {
+	background: url("/wordgirl/cdn_content/characters/desktop/sally-botsford-title.png") no-repeat;
+	width: 166px;
+	height: 37px;
+}
+.character-title-image.birthday-girl {
+	background: url("/wordgirl/cdn_content/characters/desktop/birthday-girl-title.png") no-repeat;
+	width: 200px;
+	height: 37px;
+}
+
+
+
+
+
+.content .modules .module.video {
+	font-family: Arial, sans-serif;
+}
+.content .modules .module.video.video-player {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	top: 105px;
+	left: 5px;
+}
+.content .modules .module.video.video-player video, .content .modules .module.video.video-player object, .content .modules .module.video.video-player embed, .content .modules .module.video.video-player button {
+	outline: none;
+	border: none;
+}
+.content .modules .module.video.video-player button {
+	cursor: pointer;
+	vertical-align: middle;
+}
+.content .modules .module.video.video-player button img {
+	vertical-align: middle;
+	height: 1.2em;
+}
+.content .modules .module.video.video-player #player {
+	width: 638px;
+	position: absolute;
+}
+.content .modules .module.video.video-player #player .frame {
+	background: #ffffff;
+	border: solid 8px #ffffff;
+	border-radius: 16px;
+}
+.content .modules .module.video.video-player #player #video-player {
+	width: 622px !important;
+	height: 350px !important;
+	background: #000;
+	display: block;
+}
+.content .modules .module.video.video-player #player .timer-remaining {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	/*IE7 fix for "display:inline-block"*/
+	color: #AECECE;
+	font-size: 0.875em;
+	width: 35px;
+	margin-right: 5px;
+	text-align: right;
+	vertical-align: middle;
+}
+.content .modules .module.video.video-player #player .scrubber {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	/*IE7 fix for "display:inline-block"*/
+	width: 72.10884354%;
+	margin: 8px 0 2px;
+	cursor: pointer;
+}
+.content .modules .module.video.video-player #player .scrubber .scrubber-track {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	/*IE7 fix for "display:inline-block"*/
+	width: 90%;
+	height: 6px;
+	margin: 10px;
+	background: url("/wordgirl/cdn_content/images/html5/video/scrubber-track.png") repeat-x;
+	border-radius: 10px;
+	vertical-align: middle;
+	text-align: left;
+}
+.content .modules .module.video.video-player #player .scrubber .scrubber-thumb {
+	width: 28px;
+	height: 31px;
+	background: url("/wordgirl/cdn_content/images/html5/video/dot.png") no-repeat;
+	position: relative !important;
+	top: -10px;
+}
+.content .modules .module.video.video-player #player #controlrack {
+	margin: 10px auto 0px;
+	padding-bottom: 11px;
+	text-align: center;
+}
+.content .modules .module.video.video-player #player #controlrack span {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	/*IE7 fix for "display:inline-block"*/
+	width: 112px;
+	padding-bottom: 10px;
+}
+.content .modules .module.video.video-player #player #controlrack span .down {
+	top: 10px;
+	position: relative;
+	padding-bottom: 0px;
+}
+.content .modules .module.video.video-player #player #controlrack span:hover button {
+	background: url("/wordgirl/cdn_content/images/html5/video/play-pause-background-hover.png") no-repeat;
+}
+
+.touch-device .content .modules .module.video.video-player #player #controlrack span:hover button {
+	background: url("/wordgirl/cdn_content/images/html5/video/play-pause-background.png") no-repeat;
+}
+
+.content .modules .module.video.video-player #player #controlrack span.play-pause {
+	margin: 0 8px 0 8px;
+	width: 208px;
+}
+.content .modules .module.video.video-player #player #controlrack span.play-pause.playing #icon-play {
+	display: none;
+}
+.content .modules .module.video.video-player #player #controlrack span.play-pause.playing #icon-pause {
+	display: inline !important;
+}
+.content .modules .module.video.video-player #player #controlrack span.play-pause img {
+	height: 30px;
+}
+
+.content .modules .module.video.video-player #player #controlrack span button {
+	width: 100%;
+	height: 85px;
+	color: #FF9545;
+	background: url("/wordgirl/cdn_content/images/html5/video/play-pause-background.png") no-repeat;
+	border-radius: 20px;
+}
+
+.content .modules .module.video.video-player #player #controlrack span button img {
+	height: 48px;
+}
+.content .modules .module.video.video-player #player #controlrack #captions-button {
+	width: 44px;
+	height: 44px;
+	background: url("/wordgirl/cdn_content/images/html5/video/cc.png") no-repeat;
+	font-weight: bold;
+	border-radius: 14px;
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-left: 8px;
+}
+.content .modules .module.video.video-player #playlist-wrapper {
+	display: none;
+	background: #ffffff;
+	position: absolute;
+	left: 660px;
+	top: 7px;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list {
+	width: 320px;
+	margin: 0;
+	padding: 0;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem {
+	width: 281px;
+	padding: 0.571428571em;
+	margin: 0;
+	list-style: none;
+	color: #6E8988;
+	font-size: 0.875em;
+	cursor: pointer;
+	overflow: hidden;
+	clear: both;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem.selected,
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem:hover {
+	background: #cefbff;
+	color: #494949;
+}
+
+.touch-device .content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem.selected,
+.touch-device .content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem:hover {
+	background: #ffffff;
+	color: #6E8988;
+}
+
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem.new-video .new-label {
+	display: inline-block;
+	zoom: 1;
+	width: 40px;
+	height: 40px;
+	margin-bottom: -40px;
+	float: right;
+	position: relative;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem .thumb-container {
+	float: left;
+	overflow: hidden;
+	width: 4.928571429em;
+	height: 3.78571em;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem .thumbnailkidsgodefault {
+	width: 100%;
+	height: 3.78571em;
+	border: 0;
+	vertical-align: top;
+	background: #333;
+	display: block;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem .new-label {
+	display: inline-block;
+	zoom: 1;
+	width: 40px;
+	height: 40px;
+	margin-bottom: -40px;
+	float: right;
+	position: relative;
+	display: none;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem .fullep-label {
+	background-color: #3899FF;
+	bottom: 1.5em;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 0.72em;
+	display: block;
+	text-align: center;
+	padding: 0.2em 0;
+	position: relative;
+	display: none;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem .video-info {
+	width: 195px;
+	text-align: left;
+	height: 3.78571em;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: left;
+	padding-left: 10px;
+	color: #007987;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem .video-info .expiration {
+	font-size: 0.8em;
+	color: #ED6A42;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list .thumb-container {
+	float: left;
+	overflow: hidden;
+	width: 4.928571429em;
+	height: 3.78571em;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer {
+	height: 480px;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .loading-indicator,
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .appending-indicator {
+	width: 50px;
+	height: 50px;
+	display: none;
+	margin: 20px auto;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .showmore-videos {
+	background: none repeat scroll 0 0 #FF9537;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 12px 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .appendingIndicator-container {
+	color: #FF9545;
+	text-align: center;
+	padding: 10px 0;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .appendingIndicator-container .appending-indicator {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	/*IE7 fix for "display:inline-block"*/
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .appendingIndicator-container .appendingIndicator-container span {
+	margin-right: 5px;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .scrollbarV {
+	float: right;
+	height: 100%;
+	width: 1.42em;
+	background: #febb0f;
+	position: relative;
+	z-index: 100;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .scrollbarV div {
+	background: #FFF;
+	border: solid 2px #fda30c;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .scrollbarV.touch {
+	width: 0.42em;
+	background: none;
+}
+.content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer .scrollbarV.touch div {
+	border-radius: 0.42em;
+	background: #fda30c;
+	border: none;
+}
+.content .modules .module.video.video-player #no-results-message {
+	color: #6E8988;
+	display: none;
+	text-align: center;
+	width: 90%;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+.content .modules .module.video.video-player #no-results-message p {
+	margin: 1em 0;
+}
+.content .modules .module.video.video-player #no-results-message a {
+	color: #6E8988;
+}
+.content .modules .module.navigation.button {
+	transition: all .05s linear;
+	-webkit-transition: all .05s linear;
+	-moz-transition: all .05s linear;
+	-o-transition: all .05s linear;
+	-ms-transition: all .05s linear;
+}
+.content .modules .module.navigation.button:hover {
+	transform: scale(1.025, 1.025);
+	-webkit-transform: scale(1.025, 1.025);
+	-moz-transform: scale(1.025, 1.025);
+	-o-transform: scale(1.025, 1.025);
+	-ms-transform: scale(1.025, 1.025);
+	z-index: 9999;
+}
+
+.content .modules.games .banner-white-bg {
+	display: none;
+}
+
+.content .modules .module.navigation.button.games {
+	left: 655px;
+	top: 102px;
+}
+.content .modules .module.navigation.button.video {
+	left: 663px;
+	top: 201px;
+}
+
+.modules .module.navigation.button.video .games-page-image {
+	display: none;
+}
+
+.modules.games .module.navigation.button.video .games-page-image {
+	display: block;
+}
+
+.content .modules.games .module.navigation.button.games {
+	display: none;
+}
+
+.content .modules.games .module.navigation.button.video {
+	left: 663px;
+	top: 101px;
+}
+
+.content .modules .module.game-buttons.slider {
+	width: 650px;
+	height: 312px;
+	left: 5px;
+	top: 100px;
+	position: absolute;
+	margin: 0;
+}
+
+.content .modules .module.story1-large {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/button/pp.png") center center no-repeat;
+	width: 645px;
+	height: 294px;
+	/*position: absolute;*/
+	top: 5px;
+	left: 9px;
+	margin: 0;
+	transition: all .05s linear;
+	-webkit-transition: all .05s linear;
+	-moz-transition: all .05s linear;
+	-o-transition: all .05s linear;
+	-ms-transition: all .05s linear;
+}
+
+.content .modules .module.story1-large:hover {
+	transform: scale(1.02, 1.02);
+	-webkit-transform: scale(1.02, 1.02);
+	-moz-transform: scale(1.02, 1.02);
+	-o-transform: scale(1.02, 1.02);
+	-ms-transform: scale(1.02, 1.02);
+	z-index: 9999;
+}
+
+.content .modules .module.navigation.button.story1 {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/button/d2bl.png") center center no-repeat;
+	width: 319px;
+	height: 214px;
+	left: -6px;
+	top: 300px;
+}
+.content .modules .module.navigation.button.story2 {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/button/comic_book.png") center center no-repeat;
+	width: 320px;
+	height: 211px;
+	left: 325px;
+	top: 300px;
+}
+.content .modules .module.navigation.button.story3 {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/button/story3.png") center center no-repeat;
+	width: 320px;
+	height: 211px;
+	left: 436px;
+	top: 426px;
+}
+
+/* Storybook Adventures module */
+.content .modules .module.sb_adventures {
+	width: 332px;
+	height: 395px;
+	top: 189px;
+	left: 662px;
+}
+
+.content .modules .module.sb_adventures .adventure {
+	display: block;
+	position: relative;
+	margin: 0;
+}
+
+.content .modules .module.sb_adventures .adventure.sb_banner {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/button/storybook_adventures_banner.png") center center no-repeat;
+	background-size: 100%;
+	width: 332px;
+	height: 49px;
+	top: 0;
+	left: 0;
+}
+
+.content .modules .module.sb_adventures .adventure.butcher_battle {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/button/butcher_battle.png") center center no-repeat;
+	width: 332px;
+	height: 115px;
+	top: 10px;
+	left: 0;
+}
+
+.content .modules .module.sb_adventures .adventure.berry_buddies {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/button/berry_buddies_b.png") center center no-repeat;
+	width: 332px;
+	height: 115px;
+	top: 20px;
+	left: 0;
+}
+
+.content .modules .module.sb_adventures .adventure.becky_dayoff {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/modules/button/becky_dayoff.png") center center no-repeat;
+	width: 332px;
+	height: 116px;
+	top: 30px;
+	left: 0;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	font-size: 100%;
+}
+#footer .app.promo.button {
+	display: inline-block;
+	/* display: none !important; */
+}
+#footer.games .app.promo.button, #footer.home .app.promo.button {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/footer/promo.png") center center no-repeat;
+	width: 993px;
+	height: 75px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	/*IE7 fix for "display:inline-block"*/
+	transition: all .05s linear;
+	-webkit-transition: all .05s linear;
+	-moz-transition: all .05s linear;
+	-o-transition: all .05s linear;
+	-ms-transition: all .05s linear;
+	padding: 15px;
+}
+#footer.games .app.promo.button:hover, #footer.home .app.promo.button:hover {
+	transform: scale(1.025, 1.025);
+	-webkit-transform: scale(1.025, 1.025);
+	-moz-transform: scale(1.025, 1.025);
+	-o-transform: scale(1.025, 1.025);
+	-ms-transform: scale(1.025, 1.025);
+	z-index: 9999;
+}
+#footer .message {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	line-height: 13px;
+	color: #ffffff;
+}
+#footer .message a {
+	text-decoration: none;
+}
+#footer .message a:visited {
+	color: #1BA1D0;
+}
+#footer .message a:link {
+	color: #9AEEF4;
+}
+#footer .sponsors .logo {
+	background-position: center center;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	/*IE7 fix for "display:inline-block"*/
+	height: 50px;
+	width: 87px;
+}
+#footer .sponsors .logo img {
+	vertical-align: middle;
+	position: relative;
+	top: 5px;
+}
+
+.html5_wrapper {
+	background: url("/wordgirl/cdn_content/images/html5/desktop/background.jpg") center 15px no-repeat #1277c9;
+	position: relative;
+	height: 680px;
+}
+
+.flash_content.site_map {
+	font-size: 80%;
+	height: 50px;
+	line-height: 1.3em;
+}
+
+#noflash.html5 {
+	position: relative;
+	top: 25px;
+	width: 1024px;
+	padding: 0;
+	left: 0;
+	background: transparent;
+}
+
+.touchOverlay {
+	position: absolute;
+	width: 530px;
+	height: 530px;
+	top: 105px;
+	background: transparent;
+}
+
+.touchOverlay.horizontal {
+	width: 660px;
+	height: 345px;
+	top: 285px;
+}
+
+.desktop-image {
+	display: block !important;
+}
+
+.modules.games .module.navigation.button.video .desktop-image {
+	display: none !important;
+}
+
+.mobile-image {
+	display: none !important;
+}

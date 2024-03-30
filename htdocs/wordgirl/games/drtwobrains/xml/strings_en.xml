@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameText>
+	<scene id="TitleScreen">
+		<gameTitle><![CDATA[Home Alone in<br/>Dr. Two Brain's Lair]]></gameTitle>
+		<playButton>
+			<buttonLabel>Play!</buttonLabel>
+		</playButton>
+	</scene>
+	<scene id="Intro">
+		<skipButton>
+			<buttonLabel>Skip</buttonLabel>
+		</skipButton>
+	</scene>
+	<scene id="CheeseRound">
+		<scoreLabel>SCORE</scoreLabel>
+		<round>ROUND</round>
+		<instructions>
+			<spaceBar>SPACE BAR</spaceBar>
+		</instructions>
+		<menuButton>
+			<buttonLabel>MENU</buttonLabel>
+		</menuButton>
+		<helpButton>
+			<buttonLabel>HELP</buttonLabel>
+		</helpButton>
+		<helpField>Use the arrow buttons on your keyboard to aim the cheese ray. Then press the spacebar to shoot. Try to fill up the cheese-o-meter before Dr. Two Brains comes back!</helpField>
+	</scene>
+	<scene id="GoopRound">
+		<scoreLabel>SCORE</scoreLabel>
+		<round>BONUS ROUND!</round>
+		<menuButton>
+			<buttonLabel>MENU</buttonLabel>
+		</menuButton>
+		<helpButton>
+			<buttonLabel>HELP</buttonLabel>
+		</helpButton>
+		<helpField>Use the left and right arrow buttons to aim the goop ray. Then press the spacebar to shoot.</helpField>
+	</scene>
+	<scene id="Success">
+		<scoreLabel>YOUR SCORE:</scoreLabel>
+		<playAgainButton>
+			<buttonLabel>Play Again!</buttonLabel>
+		</playAgainButton>
+	</scene>
+	<scene id="Lose">
+		<scoreLabel>YOUR SCORE:</scoreLabel>
+		<tryAgainButton>
+			<buttonLabel>Try Again!</buttonLabel>
+		</tryAgainButton>
+	</scene>
+</GameText>

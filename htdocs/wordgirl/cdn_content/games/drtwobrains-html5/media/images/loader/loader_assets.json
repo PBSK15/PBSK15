@@ -1,0 +1,19 @@
+{
+"images": ["loader_assets.png"],
+"frames": [
+
+    [2, 2, 1440, 1440], 
+    [206, 1444, 174, 181], 
+    [2, 1444, 202, 192]
+],
+"animations": {
+    
+        "loader_bg":[0], 
+        "loader_star":[1], 
+        "tb_face":[2]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:67b1ee20395207f655ebd94f573859db:11dc455e80c1acad1bcd2fb7a2215461:4b9af80cc54b19cf8094814b6e892b9d$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

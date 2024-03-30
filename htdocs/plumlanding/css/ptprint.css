@@ -1,0 +1,61 @@
+body {
+	color:#000;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+	color: #311c79 !important;
+}
+
+#footernav {
+	display:none;
+}
+
+#vidplayer, .illus, .carousel {
+	display:none;
+}
+
+a {
+	color:#311c79 !important;
+}
+
+#activity .acc-open {
+	display:block;
+}
+
+.acc-chevron {
+	display:none !important;
+}
+
+.printbtn {
+	display:none;
+}
+
+.c_arrow {
+	display:none;
+}
+
+.acc {
+	-moz-box-shadow:   none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+.acc-open {
+	display:block !important;
+}
+
+.handouts {
+	width:100%;
+	display:block;
+	page-break-before:always;
+}
+
+img.handout {
+	width:98%;
+	height:auto;
+}
+
+/*
+.act-ask {
+	border:1px solid;
+}*/

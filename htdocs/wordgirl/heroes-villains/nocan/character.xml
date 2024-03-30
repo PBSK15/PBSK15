@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Nocan the Contrarian]]></title>
+	<description><![CDATA[Nocan the Contrarian is the sea-faring traveler who visits the City from the distant land of Contraria. He says and does the opposite of everything. When WordGirl says she's strong, he says, "NO! You are weak!" He wields a mighty sword that he slams into the ground causing everything around it to be destroyed. Every time he comes ashore, antonyms, chaos, and confusion are sure to follow.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_nocan.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/nocan.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|nocan_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_nocan.png" title="Coloring Page"/>
+		<activity id="printables|nocan_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

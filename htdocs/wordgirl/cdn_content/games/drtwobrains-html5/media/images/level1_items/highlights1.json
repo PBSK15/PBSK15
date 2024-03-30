@@ -1,0 +1,43 @@
+{
+"images": ["highlight_sheet.png"],
+"frames": [
+
+    [496, 192, 74, 78], 
+    [199, 341, 96, 81], 
+    [526, 2, 44, 53], 
+    [2, 341, 195, 82], 
+    [526, 57, 43, 75], 
+    [169, 425, 98, 85], 
+    [369, 390, 92, 102], 
+    [335, 192, 159, 196], 
+    [463, 420, 50, 42], 
+    [335, 2, 189, 188], 
+    [269, 424, 98, 85], 
+    [2, 425, 165, 85], 
+    [496, 344, 69, 74], 
+    [2, 2, 331, 337], 
+    [496, 272, 74, 70]
+],
+"animations": {
+    
+        "Bird":[0], 
+        "Cactus":[1], 
+        "Egg":[2], 
+        "Fish":[3], 
+        "Flower":[4], 
+        "Fossil":[5], 
+        "Insect":[6], 
+        "Mammal":[7], 
+        "Fungus":[8], 
+        "Octopus":[9], 
+        "Reptile":[10], 
+        "Seeds":[11], 
+        "Snail":[12], 
+        "Spider":[13], 
+        "Watering_Can":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:c9c2fede68f6e781f067e8190eb79552:a175dc28f863374261f5a3019dde44d0:8e509a51e5538155b2e04e5f20d67edd$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

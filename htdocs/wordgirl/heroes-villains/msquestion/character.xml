@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Ms. Question]]></title>
+	<description><![CDATA[Who is this woman? What does she do? What's her superpower? How did she become a villain? In case you haven't guessed by now, everything she says is in the form of a question. Stay tuned to see if WordGirl can get a straight answer.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_msquestion.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/msquestion.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|msQuestion_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_msquestion.png" title="Coloring Page"/>
+		<activity id="printables|msQuestion_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+	</activities>
+</gameResources>

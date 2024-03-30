@@ -1,0 +1,29 @@
+{
+    "images": ["goop_spray.png"],
+    "frames": [
+
+        [2, 2, 9, 342], 
+        [13, 2, 9, 342], 
+        [24, 2, 9, 342], 
+        [35, 2, 9, 342], 
+        [46, 2, 9, 342], 
+        [2, 346, 9, 342], 
+        [13, 346, 9, 342], 
+        [24, 346, 9, 342], 
+        [35, 346, 9, 342], 
+        [46, 346, 9, 342], 
+        [2, 690, 9, 342], 
+        [13, 690, 9, 342], 
+        [24, 690, 9, 342], 
+        [35, 690, 9, 342], 
+        [46, 690, 9, 342]
+    ],
+    "animations": {
+            "test": [],
+            "spray": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14, false]
+    },
+    "texturepacker": [
+            "SmartUpdateHash: $TexturePacker:SmartUpdate:aa98ae7240d4a6c7d25e6fcaf4bb40f1:75cbe4c89cca39b9e80e3bbf4e5bd347:cfc23c1811b28f7ebf664e47d9e5a126$",
+            "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+    ]
+}

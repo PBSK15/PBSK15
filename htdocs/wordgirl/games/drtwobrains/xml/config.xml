@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameConfig>
+
+	<devMediaPath>./</devMediaPath>
+	<!-- Every subsequent path should be relative to the baseMediaURL. -->
+	<baseMediaURL>https://pbskids.org/wordgirl/cdn_content/games/drtwobrains/</baseMediaURL>
+	
+	<!-- <font file="Fonts.swf" weight="12" preload="true"/> -->
+	
+	<sound file="audio/mouseover.mp3" channel="effects" preload="true" volume=".2" />
+	<sound file="audio/click.mp3" channel="effects" preload="true" volume="1" />
+	<sound file="audio/squish.mp3" channel="background" preload="true" volume=".5" />
+	
+	<soundSequence name="GameMusic" loop="true" autoPlay="true" preload="true">
+		<sound file="audio/music.mp3" channel="music" volume=".75" start="15" duration="6855" />
+	</soundSequence>
+	
+	<scene id="TitleScreen" file="scenes/TitleScreen.swf" preload="true" weight="188">
+		<soundSequence name="GameMusic" autoPlay="true"></soundSequence>
+	</scene>
+	
+	<scene id="Intro" file="scenes/Intro.swf" weight="389">
+		<soundSequence name="GameMusic" autoPlay="true"></soundSequence>
+	</scene>
+	
+	<scene id="CheeseRound" file="scenes/CheeseRound.swf" config="xml/cheese_config.xml" weight="537">
+	
+		<sound file="audio/ding.mp3" volume=".1" />
+		<sound file="audio/beep.mp3" channel="timer" volume=".5" />
+		<sound file="audio/buzz.mp3" channel="timer" volume="1" />
+	
+		<sound file="audio/cheesefill.mp3" channel="effects" volume=".2" />
+	
+		<sound file="audio/thatsit.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/2yougotit.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/looksdelicious.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/ideatthat.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/mmmm.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/heyhey.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/goodshot.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/thatwasit.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/goodaim.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/2thatsright.mp3" channel="voiceover" volume="1" />
+		
+		<sound file="audio/thatsnotit.mp3" channel="voiceover" volume="1" />
+		
+		<soundSequence name="Fish">
+			<sound file="audio/thefish.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/fishareanimals.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Insect">
+			<sound file="audio/theinsect.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/aninsectis.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Seeds">
+			<sound file="audio/theseeds.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/aseedfrom.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Octopus">
+			<sound file="audio/theoctopus.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/anoctopushas.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Fungus">
+			<sound file="audio/thefungus.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/fungushasno.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Egg">
+			<sound file="audio/theegg.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/anegghashard.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Reptile">
+			<sound file="audio/thereptile.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/reptileslikecroc.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Bird">
+			<sound file="audio/thebird.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/birdsareanimals.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Spider">
+			<sound file="audio/thespider.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/aspiderisvery.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Fossil">
+			<sound file="audio/thefossil.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/afossilremain.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="WateringCan">
+			<sound file="audio/thewateringcan.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/awateringcan.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Mammal">
+			<sound file="audio/themammal.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/amammallikecat.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Snail">
+			<sound file="audio/thesnail.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/asnailisasmall.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Flower">
+			<sound file="audio/theflower.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/afloweristhe.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Cactus">
+			<sound file="audio/thecactus.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/acactusgrows.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		
+		<sound file="audio/2round1.mp3" channel="voiceover" volume="1" />
+		
+		<soundSequence name="GameMusic" autoPlay="true"></soundSequence>
+		
+		<sound file="audio/trytohit.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/aimat.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/canyouhit.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/aimtherayat.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/trytoget.mp3" channel="voiceover" volume="1" />
+		
+		<soundSequence name="Instructions">
+			<sound file="audio/ready2play.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/2leftandright.mp3" channel="voiceover" volume="1"  />
+			<sound file="audio/thenspacebar.mp3" channel="voiceover" volume="1"  />
+			<sound file="audio/cheeseometer.mp3" channel="voiceover" volume="1"  />
+		</soundSequence>
+		
+		<soundSequence name="CheeseHelp">
+			<sound file="audio/2leftandright.mp3" channel="voiceover" volume="1"  />
+			<sound file="audio/thenspacebar.mp3" channel="voiceover" volume="1"  />
+			<sound file="audio/cheeseometer.mp3" channel="voiceover" volume="1"  />
+		</soundSequence>
+		
+		<soundSequence name="CheeseHelpShort">
+			<sound file="audio/2leftandright.mp3" channel="voiceover" volume="1"  />
+			<sound file="audio/thenspacebar.mp3" channel="voiceover" volume="1"  />
+		</soundSequence>
+		
+	</scene>
+	
+	<scene id="GoopRound" file="scenes/GoopRound.swf" config="xml/goop_config.xml" weight="250">
+		
+		<sound file="audio/music2.mp3" channel="music" loop="true" autoPlay="true" volume=".75" start="55" duration="6850" />
+		
+		<sound file="audio/goopcontrols.mp3" channel="voiceover" volume="1"  />
+		<sound file="audio/everythinggoop.mp3" channel="voiceover" volume="1"  />
+		<sound file="audio/charlieseegoop.mp3" channel="voiceover" volume="1"  />
+		<sound file="audio/youreallygood.mp3" channel="voiceover" volume="1"  />
+		
+		<sound file="audio/goospray.mp3" channel="ambient" volume=".25"  />
+	
+		<soundSequence name="GoopInstructions">
+			<sound file="audio/goodjobgoop.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/hitfallingstuff.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		
+		<soundSequence name="GoopHelp">
+			<sound file="audio/leftandrightgoop.mp3" channel="voiceover" volume="1"  />
+			<sound file="audio/thenspacebar.mp3" channel="voiceover" volume="1"  />
+		</soundSequence>
+		
+	</scene>
+	
+	<scene id="CheeseRound" file="scenes/CheeseRound.swf" config="xml/cheese_config.xml" weight="537">
+	
+		<sound file="audio/2round2.mp3" channel="voiceover" volume="1" />
+		
+		<sound file="audio/backtocheese.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/aimfastagain.mp3" channel="voiceover" volume="1" />
+		<sound file="audio/procheeseray.mp3" channel="voiceover" volume="1" />
+		
+		<soundSequence name="Graph">
+			<sound file="audio/thegraph.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/agraphcanshow.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="WeatherChart">
+			<sound file="audio/theweatherchart.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/aweatherchart.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Telescope">
+			<sound file="audio/thetelescope.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/youcanlook.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Asteroid">
+			<sound file="audio/theasteroid.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/anasteroid.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Satellite">
+			<sound file="audio/thesatellite.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/asatelliteissent.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Cloud">
+			<sound file="audio/thecloud.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/cloudsareshapes.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Earth">
+			<sound file="audio/theearth.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/earthisthename.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="SpaceShuttle">
+			<sound file="audio/thespaceshuttle.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/aspaceshuttle.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Astronaut">
+			<sound file="audio/theastronaut.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/anastronautis.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Star">
+			<sound file="audio/thestar.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/starsareballs.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Rover">
+			<sound file="audio/therover.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/aroverisamachine.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Saturn">
+			<sound file="audio/saturn.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/someplanetslike.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Comet">
+			<sound file="audio/thecomet.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/cometshavelong.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Crater">
+			<sound file="audio/thecrater.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/acraterisavery.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Jupiter">
+			<sound file="audio/jupiter.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/jupiterislarge.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		
+		<soundSequence name="GameMusic" autoPlay="true"></soundSequence>
+		
+	</scene>
+	
+	<scene id="GoopRound" file="scenes/GoopRound.swf" config="xml/goop_config.xml" weight="250">
+	
+		<sound file="audio/music2.mp3" channel="music" loop="true" autoPlay="true" volume=".75" start="55" duration="6850" />
+	
+		<soundSequence name="ReplayGoop">
+			<sound file="audio/playgoopagain.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		
+	</scene>
+	
+	<scene id="CheeseRound" file="scenes/CheeseRound.swf" config="xml/cheese_config.xml" weight="537">
+	
+		<sound file="audio/2round3.mp3" channel="voiceover" volume="1" />
+
+		<soundSequence name="Magnet">
+			<sound file="audio/themagnet.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/magnetscanpull.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Thermometer">
+			<sound file="audio/thethermometer.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/athermometermeas.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Binoculars">
+			<sound file="audio/thebinoculars.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/youcanlookthru.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="RecyclingBin">
+			<sound file="audio/therecyclingbin.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/arecyclingbin.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Goggles">
+			<sound file="audio/thegoggles.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/gogglesareakind.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="LightBulb">
+			<sound file="audio/thelightbulb.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/alightbulbis.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Notebook">
+			<sound file="audio/thenotebook.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/anotebookisasmall.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Ruler">
+			<sound file="audio/theruler.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/arulerisatool.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Beaker">
+			<sound file="audio/thebeaker.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/abeakerisa.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Microscope">
+			<sound file="audio/themicroscope.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/amicroscopeis.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Pulley">
+			<sound file="audio/thepulley.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/apulleyisamachine.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Calculator">
+			<sound file="audio/thecalculator.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/acalculatorcan.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Hammer">
+			<sound file="audio/thehammer.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/ahammerisatool.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="Scale">
+			<sound file="audio/thescale.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/ascaleisamach.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		<soundSequence name="MagnifyingGlass">
+			<sound file="audio/themagnifying.mp3" channel="voiceover" volume="1" />
+			<sound file="audio/magnifyinglarger.mp3" channel="voiceover" volume="1" />
+		</soundSequence>
+		
+		<soundSequence name="GameMusic" autoPlay="true"></soundSequence>
+		
+	</scene>
+	
+	<scene id="Success" file="scenes/Success.swf" weight="418">
+		<soundSequence name="GameMusic" autoPlay="true"></soundSequence>
+	</scene>
+	
+	<scene id="Lose" file="scenes/Lose.swf" weight="475">
+		<soundSequence name="GameMusic" autoPlay="true"></soundSequence>
+	</scene>
+	
+</GameConfig>

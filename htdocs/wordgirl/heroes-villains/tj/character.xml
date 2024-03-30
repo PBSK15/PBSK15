@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[TJ]]></title>
+	<description><![CDATA[TJ is Becky's 7-year-old brother and the biological son of Tim and Sally Botsford. He's super excited about everything!!! TJ idolizes WordGirl. In fact, he's the President and founding member of The Official WordGirl Fan Club. TJ thinks the fact that WordGirl flies and lifts supertankers is awesome!!! Little does he know WordGirl is his sister, Becky.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_tj.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/tj.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="prettyprincessgame" iconURL="images/heroVillain/princess/prettyprincess_game.png" title="Magical Rescue"/>
+		<activity id="printables|tj_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_tj.png" title="Coloring Page"/>
+		<activity id="printables|tj_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

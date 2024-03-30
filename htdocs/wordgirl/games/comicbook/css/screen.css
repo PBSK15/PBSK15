@@ -1,0 +1,1548 @@
+.navigation-bar {
+background: transparent !important;
+box-shadow: none !important;
+}
+.navigation-bar-background {
+display: none !important;   
+}
+
+.navigation-bar-actions{
+position: absolute;
+top: 11px;
+right: 20px;
+}
+
+.navigation-bar-actions .action{
+display: inline-block;
+margin-left: 10px;
+}
+
+[data-action=restart-comic],
+[data-action=quit-comic]{
+display: block;
+}
+
+@media only screen and (max-width: 1023px) and (max-height: 767px){
+	.navigation-bar-actions{
+		right: 10px;
+		top: 5px;
+	}
+	
+	.navigation-bar-actions .action {
+    	margin-left: 4px;
+	}
+
+	.navigation-bar-actions .action img {
+		height: 25px;
+	}
+
+}
+
+.text-svg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, ../sass/_svg.scss */
+#svg-title {
+  top: 20px;
+  left: 300px;
+  font-family: butcherman-caps, sans-serif;
+  font-size: 7em;
+  stroke-width: 2px;
+  stroke: black;
+  letter-spacing: -0.2em;
+  
+  height: auto;
+}
+/* line 17, ../sass/_svg.scss */
+#svg-title text {
+  -webkit-transform: translateY(90px);
+  -moz-transform: translateY(90px);
+  -ms-transform: translateY(90px);
+  -o-transform: translateY(90px);
+  transform: translateY(90px);
+}
+
+/* line 22, ../sass/_svg.scss */
+#svg-clak {
+  top: 100px;
+  left: 100px;
+  font-family: sue-ellen-francisco, sans-serif;
+  font-size: 7em;
+  fill: #bfe0b8;
+  stroke-width: 4px;
+  stroke: black;
+  
+  height: auto;
+}
+
+/* line 32, ../sass/_svg.scss */
+#svg-grr {
+  top: 300px;
+  font-family: creepster, sans-serif;
+  font-size: 5em;
+  fill: #feea60;
+  stroke-width: 4px;
+  stroke: black; 
+  
+  padding: 0 30px;
+  height: auto;
+}
+
+/* line 44, ../sass/_svg.scss */
+#svg-beep text {
+  font-family: chango, sans-serif;
+  font-size: 2rem;
+  stroke-width: 2;
+  stroke-meterlimit: 10;
+  stroke: #000000;
+}
+/* line 52, ../sass/_svg.scss */
+#svg-beep .svg-beep-fill {
+  fill: #B9E5FA;
+}
+/* line 56, ../sass/_svg.scss */
+#svg-beep .svg-beep-shadow {
+  transform: translateY(3px);
+}
+/* line 60, ../sass/_svg.scss */
+#svg-beep .svg-beep-g {
+  transform: translate(800px, 250px) rotate(-13deg) scale(1.5);
+}
+/* line 64, ../sass/_svg.scss */
+#svg-beep .svg-beep-2 {
+  transform: translateY(30px);
+}
+
+/* line 70, ../sass/_svg.scss */
+#svg-aaa .svg-aaa-bubble {
+  transform: translate(0px, 60px);
+}
+/* line 74, ../sass/_svg.scss */
+#svg-aaa .svg-aaa-g {
+  transform: translate(40px, 150px);
+}
+/* line 78, ../sass/_svg.scss */
+#svg-aaa text {
+  fill: #231F20;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  font-family: bangers, sans-serif;
+  font-style: italic;
+  font-size: 3rem;
+  transform: rotate(-10deg);
+}
+/* line 89, ../sass/_svg.scss */
+#svg-aaa text.svg-aaa-back {
+  stroke: #231F20;
+  stroke-width: 7;
+}
+/* line 95, ../sass/_svg.scss */
+#svg-aaa tspan:nth-child(2) {
+  transform: translateY(3px);
+}
+
+/* line 101, ../sass/_svg.scss */
+.svg-chomp text {
+  fill: #d1222a;
+  stroke: black;
+  stroke-width: 1;
+  font-size: 5rem;
+  font-family: bangers, sans-serif;
+  font-weight: bold;
+}
+
+/* line 112, ../sass/_svg.scss */
+#svg-chomp text {
+  transform: translate(250px, 350px) rotate(10deg);
+}
+
+/* line 118, ../sass/_svg.scss */
+#svg-chomp-2 text {
+  font-size: 7rem;
+  transform: translate(10px, 500px) rotate(-3deg);
+}
+
+/* line 126, ../sass/_svg.scss */
+#svg-tac .svg-tac-g {
+  transform: translate(25px, 280px) rotate(-5deg);
+}
+/* line 130, ../sass/_svg.scss */
+#svg-tac text {
+  fill: #fce75d;
+  stroke: black;
+  stroke-width: 3;
+  font-size: 5rem;
+  font-family: permanent-marker;
+}
+/* line 138, ../sass/_svg.scss */
+#svg-tac .svg-tac-shadow {
+  fill: black;
+  transform: translateY(4px);
+}
+
+/* line 145, ../sass/_svg.scss */
+#svg-scrunch text {
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+  font-family: permanent-marker;
+  font-size: 3rem;
+  transform: rotate(5deg) translate(100px, 530px);
+}
+
+/* line 155, ../sass/_svg.scss */
+.svg-eeww {
+  font-family: architects-daughter;
+  font-size: 6rem;
+}
+/* line 159, ../sass/_svg.scss */
+.svg-eeww text {
+  transform: translateY(50px);
+}
+
+/* line 165, ../sass/_svg.scss */
+#svg-eeww-2 text {
+  transform: translateX(-300px) translateY(50px);
+}
+
+/* line 172, ../sass/_svg.scss */
+#svg-thud text {
+  fill: #c24155;
+  stroke: black;
+  stroke-width: 10;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  font-size: 8rem;
+  font-family: chango, sans-serif;
+  transform: translate(20px, 300px) rotate(-30deg) scale(0.95);
+}
+
+/* line 185, ../sass/_svg.scss */
+#svg-zas text {
+  fill: #c0e0b7;
+  stroke: black;
+  stroke-width: 10;
+  font-size: 8rem;
+  font-family: chango, sans-serif;
+  transform: translate(100px, 200px) rotate(-20deg);
+}
+
+/* line 196, ../sass/_svg.scss */
+#svg-thud-2 text {
+  fill: #fee33d;
+  stroke: black;
+  stroke-width: 4;
+  font-size: 8rem;
+  font-family: chango, sans-serif;
+  transform: translate(0px, 240px);
+}
+
+/* line 1, ../sass/_bubbles.scss */
+.bubble {
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 0.75em;
+  z-index: 2;
+}
+
+/* line 8, ../sass/_bubbles.scss */
+.bubble--square {
+  font-family: permanent-marker, sans-serif;
+  background: white;
+  border: 3px solid black;
+}
+
+/* line 14, ../sass/_bubbles.scss */
+.bubble--round {
+  padding: .5em;
+  padding-top: 1.25em;
+  font-family: gochi-hand, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+/* line 25, ../sass/_bubbles.scss */
+.bubble--round svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* line 33, ../sass/_bubbles.scss */
+.bubble-yellow {
+  background: #fffbd2;
+}
+
+/* line 37, ../sass/_bubbles.scss */
+#bubble-one {
+  top: 40px;
+  left: 40px;
+  width: 260px;
+}
+
+/* line 43, ../sass/_bubbles.scss */
+#bubble-two {
+  top: 40px;
+  left: 40px;
+  width: 120px;
+  height: 60px;
+}
+
+/* line 50, ../sass/_bubbles.scss */
+#bubble-three {
+  top: 40px;
+  left: 40px;
+  width: 140px;
+  height: 70px;
+}
+
+/* line 57, ../sass/_bubbles.scss */
+#bubble-four {
+  top: 20px;
+  left: 0px;
+  width: 200px;
+  height: 120px;
+  padding: 1em;
+}
+
+/* line 64, ../sass/_bubbles.scss */
+#bubble-five {
+  top: 100px;
+  left: 175px;
+  width: 200px;
+  height: 150px;
+}
+
+/* line 71, ../sass/_bubbles.scss */
+#bubble-six {
+  top: 30px;
+  left: 50px;
+  width: 100px;
+  font-size: 2.5rem;
+  padding: .5em;
+  line-height: 30px;
+}
+
+/* line 80, ../sass/_bubbles.scss */
+#bubble-seven {
+  top: 30px;
+  right: 50px;
+  width: 200px;
+  height: 120px;
+}
+
+/* line 87, ../sass/_bubbles.scss */
+#bubble-eight {
+  top: 30px;
+  left: 60px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 94, ../sass/_bubbles.scss */
+#bubble-nine {
+  top: 30px;
+  right: 50px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 101, ../sass/_bubbles.scss */
+#bubble-ten {
+  top: 370px;
+  right: 400px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 108, ../sass/_bubbles.scss */
+#bubble-eleven {
+  top: 400px;
+  right: 210px;
+  width: 200px;
+  font-size: 3rem;
+  border-width: 5px;
+  padding-top: 1em;
+}
+
+/* line 117, ../sass/_bubbles.scss */
+#bubble-twelve {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  max-width: 400px;
+  font-weight: 100;
+  font-family: gochi-hand, sans-serif;
+  font-style: italic;
+}
+
+/* line 127, ../sass/_bubbles.scss */
+#bubble-13 {
+  top: 30px;
+  right: 400px;
+  width: 200px;
+  height: 100px;
+  font-size: 1.5rem;
+}
+
+/* line 135, ../sass/_bubbles.scss */
+#bubble-14 {
+  top: 170px;
+  left: 30px;
+  width: 200px;
+  height: 100px;
+  font-size: 1.5rem;
+}
+
+/* line 143, ../sass/_bubbles.scss */
+#bubble-15 {
+  top: 30px;
+  right: 30px;
+  width: 200px;
+  height: 80px;
+  font-size: 2rem;
+}
+
+/* line 151, ../sass/_bubbles.scss */
+#bubble-15-1 {
+  top: -10px;
+  left: 0px;
+  width: 200px;
+  height: 75px;
+  padding-top: 1.5em;
+}
+
+/* line 158, ../sass/_bubbles.scss */
+#bubble-15-2 {
+  top: 60px;
+  left: 140px;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 165, ../sass/_bubbles.scss */
+#bubble-15-3 {
+  top: -10px;
+  left: 220px;
+  width: 200px;
+  height: 70px;
+}
+
+/* line 172, ../sass/_bubbles.scss */
+#bubble-15-4 {
+  top: 70px;
+  right: 30px;
+  width: 190px;
+  height: 130px;
+}
+
+/* line 179, ../sass/_bubbles.scss */
+#bubble-16-1 {
+  top: 0px;
+  right: 260px;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 186, ../sass/_bubbles.scss */
+#bubble-16-2 {
+  top: 10px;
+  right: 160px;
+  width: 100px;
+  height: 60px;
+}
+
+/* line 193, ../sass/_bubbles.scss */
+#bubble-16-3 {
+  top: 100px;
+  right: 30px;
+  width: 70px;
+  height: 30px;
+}
+
+/* line 200, ../sass/_bubbles.scss */
+#bubble-17-1 {
+  top: 10px;
+  left: 30px;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 207, ../sass/_bubbles.scss */
+#bubble-17-2 {
+  top: 100px;
+  right: 230px;
+  width: 150px;
+  height: 100px;
+}
+
+/* line 214, ../sass/_bubbles.scss */
+#bubble-21-1 {
+  top: -20px;
+  left: 20px;
+  width: 270px;
+}
+
+/* line 220, ../sass/_bubbles.scss */
+#bubble-22-1 {
+  top: 100px;
+  right: 230px;
+  width: 170px;
+  height: 120px;
+  padding-top: 1.5em;
+}
+
+/* line 227, ../sass/_bubbles.scss */
+#bubble-22-2 {
+  top: 260px;
+  right: 300px;
+  width: 150px;
+  height: 100px;
+}
+
+/* line 234, ../sass/_bubbles.scss */
+#bubble-23-1 {
+  top: -10px;
+  left: -10px;
+  width: 250px;
+  height: 120px;
+  padding-top: 1.5em;
+}
+
+/* line 241, ../sass/_bubbles.scss */
+#bubble-23-2 {
+  top: 120px;
+  right: 60px;
+  width: 150px;
+  height: 60px;
+}
+
+/* line 248, ../sass/_bubbles.scss */
+#bubble-23-3 {
+  top: 200px;
+  left: 10px;
+  width: 120px;
+  height: 50px;
+}
+
+/* line 255, ../sass/_bubbles.scss */
+#bubble-24-1 {
+  top: 20px;
+  left: 170px;
+  width: 150px;
+  height: 70px;
+}
+
+/* line 262, ../sass/_bubbles.scss */
+#bubble-24-2 {
+  top: 120px;
+  left: 60px;
+  width: 150px;
+  height: 70px;
+}
+
+/* line 269, ../sass/_bubbles.scss */
+#bubble-24-3 {
+  top: 200px;
+  left: 200px;
+  width: 100px;
+  height: 30px;
+}
+
+#frame25 > svg {
+  overflow: visible;
+}
+
+/* line 276, ../sass/_bubbles.scss */
+#bubble-25-1 {
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 70px;
+}
+
+/* line 283, ../sass/_bubbles.scss */
+#bubble-25-2 {
+  top: 80px;
+  left: 0px;
+  width: 170px;
+  height: 110px;
+}
+
+/* line 290, ../sass/_bubbles.scss */
+#bubble-25-3 {
+  top: 130px;
+  left: 150px;
+  width: 140px;
+  height: 130px;
+}
+
+/* line 297, ../sass/_bubbles.scss */
+#bubble-27-1 {
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  height: 80px;
+}
+
+/* line 304, ../sass/_bubbles.scss */
+#bubble-28-1 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 80px;
+}
+
+/* line 311, ../sass/_bubbles.scss */
+#bubble-28-2 {
+  top: 40px;
+  left: 180px;
+  width: 160px;
+  height: 100px;
+}
+
+/* line 318, ../sass/_bubbles.scss */
+#bubble-29-1 {
+  top: 20px;
+  left: 10px;
+  width: 220px;
+  height: 130px;
+}
+
+/* line 325, ../sass/_bubbles.scss */
+#bubble-29-2 {
+  top: 380px;
+  right: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+/* line 332, ../sass/_bubbles.scss */
+#bubble-29-3 {
+  top: 440px;
+  right: 10px;
+  width: 170px;
+  height: 110px;
+}
+
+/* line 339, ../sass/_bubbles.scss */
+#bubble-30-1 {
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 50px;
+}
+
+/* line 346, ../sass/_bubbles.scss */
+#bubble-30-2 {
+  top: 100px;
+  right: 20px;
+  width: 70px;
+  height: 50px;
+}
+
+/* line 353, ../sass/_bubbles.scss */
+#bubble-31-1 {
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 130px;
+  padding: 1.5em;
+}
+
+/* line 361, ../sass/_bubbles.scss */
+#bubble-32-1 {
+  top: 20px;
+  left: 170px;
+  width: 170px;
+  height: 80px;
+}
+
+/* line 368, ../sass/_bubbles.scss */
+#bubble-33-1 {
+  top: 20px;
+  left: 170px;
+  width: 130px;
+  height: 80px;
+}
+
+/* line 375, ../sass/_bubbles.scss */
+#bubble-34-1 {
+  top: 20px;
+  left: 20px;
+  width: 330px;
+}
+
+/* line 381, ../sass/_bubbles.scss */
+#bubble-34-2 {
+  top: 250px;
+  left: 170px;
+  width: 240px;
+  height: 140px;
+  font-size: 1.5rem;
+  padding: 1.2em;
+}
+
+/* line 390, ../sass/_bubbles.scss */
+#bubble-35-1 {
+  top: 10px;
+  left: 10px;
+  width: 240px;
+  height: 130px;
+  padding: 1.2em;
+}
+
+/* line 398, ../sass/_bubbles.scss */
+#bubble-35-2 {
+  top: 50px;
+  left: 280px;
+  width: 160px;
+  height: 70px;
+}
+
+/* line 405, ../sass/_bubbles.scss */
+#bubble-36-1 {
+  top: 10px;
+  left: 10px;
+  width: 240px;
+  height: 130px;
+  padding: 1.2em;
+}
+
+/* line 413, ../sass/_bubbles.scss */
+#bubble-36-2 {
+  top: 50px;
+  left: 280px;
+  width: 160px;
+  height: 90px;
+}
+
+/* line 420, ../sass/_bubbles.scss */
+#bubble-37-1 {
+  top: 50px;
+  left: 20px;
+  width: 240px;
+  font-size: 1em;
+}
+
+/* line 427, ../sass/_bubbles.scss */
+#bubble-37-2 {
+  top: 150px;
+  left: 180px;
+  width: 160px;
+  height: 90px;
+}
+
+/* line 434, ../sass/_bubbles.scss */
+#bubble-38-1 {
+  top: 60px;
+  left: 20px;
+  width: 160px;
+  font-size: 1em;
+}
+
+/* line 441, ../sass/_bubbles.scss */
+#bubble-38-2 {
+  top: 150px;
+  right: 20px;
+  width: 160px;
+  padding: 1em;
+}
+
+/* line 448, ../sass/_bubbles.scss */
+#bubble-38-3 {
+  top: 260px;
+  left: 20px;
+}
+
+/* line 453, ../sass/_bubbles.scss */
+#bubble-39-1 {
+  top: 20px;
+  left: 20px;
+  width: 160px;
+  height: 30px;
+}
+
+/* line 460, ../sass/_bubbles.scss */
+#bubble-39-2 {
+  top: 150px;
+  left: 180px;
+}
+
+/* line 465, ../sass/_bubbles.scss */
+#bubble-40-1 {
+  top: 20px;
+  left: 20px;
+  width: 350px;
+}
+
+/* line 471, ../sass/_bubbles.scss */
+#bubble-41-1 {
+  top: 50px;
+  left: 70px;
+  width: 150px;
+  height: 80px;
+}
+
+/* line 478, ../sass/_bubbles.scss */
+#bubble-42-1 {
+  top: 10px;
+  left: 10px;
+  width: 130px;
+  height: 60px;
+}
+
+/* line 485, ../sass/_bubbles.scss */
+#bubble-42-2 {
+  top: 90px;
+  left: 10px;
+  width: 120px;
+  height: 50px;
+}
+
+/* line 492, ../sass/_bubbles.scss */
+#bubble-42-3 {
+  top: 50px;
+  right: 30px;
+  width: 80px;
+  height: 30px;
+}
+
+/* line 499, ../sass/_bubbles.scss */
+#bubble-43-1 {
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 70px;
+}
+
+/* line 506, ../sass/_bubbles.scss */
+#bubble-43-2 {
+  top: 0px;
+  right: 0px;
+  width: 140px;
+  height: 80px;
+}
+
+/* line 513, ../sass/_bubbles.scss */
+#bubble-44-1 {
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 70px;
+}
+
+/* line 520, ../sass/_bubbles.scss */
+#bubble-44-2 {
+  top: 0px;
+  left: 120px;
+  width: 130px;
+  height: 80px;
+}
+
+/* line 527, ../sass/_bubbles.scss */
+#bubble-44-3 {
+  top: 20px;
+  right: 10px;
+  width: 160px;
+  height: 80px;
+}
+
+/* line 534, ../sass/_bubbles.scss */
+#bubble-45-1 {
+  top: 0px;
+  left: 10px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 541, ../sass/_bubbles.scss */
+#bubble-45-2 {
+  top: 30px;
+  left: 130px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 548, ../sass/_bubbles.scss */
+#bubble-46-1 {
+  top: 0px;
+  left: 100px;
+  width: 150px;
+  height: 70px;
+}
+
+/* line 555, ../sass/_bubbles.scss */
+#bubble-46-2 {
+  top: 330px;
+  left: 50px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 562, ../sass/_bubbles.scss */
+#bubble-47-1 {
+  top: 0px;
+  left: 40px;
+  width: 300px;
+  height: 120px;
+  padding-top: 1.5em;
+}
+
+/* line 569, ../sass/_bubbles.scss */
+#bubble-48-1 {
+  top: 0px;
+  left: 40px;
+  width: 300px;
+  height: 80px;
+}
+
+/* line 576, ../sass/_bubbles.scss */
+#bubble-48-2 {
+  top: 90px;
+  left: 10px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 583, ../sass/_bubbles.scss */
+#bubble-49-1 {
+  top: 20px;
+  left: 20px;
+  width: 170px;
+  height: 50px;
+}
+
+/* line 590, ../sass/_bubbles.scss */
+#bubble-49-2 {
+  top: 20px;
+  left: 240px;
+  width: 100px;
+  height: 40px;
+  padding: 1em;
+}
+
+/* line 598, ../sass/_bubbles.scss */
+#bubble-51-1 {
+  top: 20px;
+  left: 20px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 605, ../sass/_bubbles.scss */
+#bubble-51-2 {
+  bottom: 40px;
+  right: 20px;
+  width: 180px;
+  height: 60px;
+}
+
+/* line 612, ../sass/_bubbles.scss */
+#bubble-52-1 {
+  top: 20px;
+  left: 120px;
+  width: 170px;
+  height: 50px;
+  font-size: 1.4rem;
+  padding-top: 1em;
+}
+
+/* line 620, ../sass/_bubbles.scss */
+#bubble-52-2 {
+  top: 90px;
+  left: 100px;
+  width: 100px;
+  height: 40px;
+  padding-top: 1em;
+}
+
+/* line 628, ../sass/_bubbles.scss */
+#bubble-54-1 {
+  top: 40px;
+  right: 20px;
+  width: 170px;
+  height: 50px;
+}
+
+/* line 635, ../sass/_bubbles.scss */
+#bubble-54-2 {
+  bottom: 60px;
+  right: 20px;
+  width: 140px;
+  height: 70px;
+}
+
+/* line 642, ../sass/_bubbles.scss */
+#bubble-55-1 {
+  top: 20px;
+  left: 20px;
+  width: 190px;
+  font-size: 1.2rem;
+}
+
+/* line 649, ../sass/_bubbles.scss */
+#bubble-55-2 {
+  top: 10px;
+  left: 320px;
+  width: 170px;
+  padding: 1.5em 1.25em 1.25em;
+}
+
+/* line 656, ../sass/_bubbles.scss */
+#bubble-55-3 {
+  top: 10px;
+  left: 575px;
+  width: 110px;
+  height: 30px;
+}
+
+/* line 663, ../sass/_bubbles.scss */
+#bubble-56-1 {
+  left: 0;
+  top: 0;
+  width: 130px;
+}
+
+/* line 669, ../sass/_bubbles.scss */
+#bubble-56-2 {
+  left: 130px;
+  top: 0;
+  width: 230px;
+  padding: 1.3em;
+}
+
+/* line 676, ../sass/_bubbles.scss */
+#bubble-56-3 {
+  top: 140px;
+  right: 0px;
+  width: 140px;
+}
+
+/* line 682, ../sass/_bubbles.scss */
+#bubble-57-1 {
+  padding: 1em;
+  bottom: 80px;
+  left: 20px;
+  width: 130px;
+}
+
+/* line 689, ../sass/_bubbles.scss */
+#bubble-57-2 {
+  padding: 1em;
+  bottom: 40px;
+  left: 140px;
+  width: 130px;
+}
+
+/* line 697, ../sass/_bubbles.scss */
+#bubble-58-1 {
+  top: 10px;
+  left: 10px;
+  width: 170px;
+  height: 110px;
+}
+
+/* line 704, ../sass/_bubbles.scss */
+#bubble-58-2 {
+  top: 20px;
+  left: 180px;
+  width: 130px;
+}
+
+/* line 710, ../sass/_bubbles.scss */
+#bubble-59-1 {
+  top: 333px;
+  right: 10px;
+  width: 120px;
+}
+
+/* line 716, ../sass/_bubbles.scss */
+#bubble-60-1 {
+  top: 30px;
+  left: 350px;
+  width: 160px;
+}
+
+/* line 722, ../sass/_bubbles.scss */
+#bubble-60-2 {
+  top: 35px;
+  left: 500px;
+  width: 160px;
+  height: 80px;
+}
+
+/* line 729, ../sass/_bubbles.scss */
+#bubble-61-1 {
+  top: 20px;
+  right: 20px;
+  width: 120px;
+}
+
+/* line 735, ../sass/_bubbles.scss */
+#bubble-62-1 {
+  bottom: 130px;
+  left: 400px;
+  width: 120px;
+}
+
+/* line 741, ../sass/_bubbles.scss */
+#bubble-62-2 {
+  bottom: 20px;
+  left: 400px;
+  width: 180px;
+}
+
+/* line 747, ../sass/_bubbles.scss */
+#bubble-63-1 {
+  bottom: 10px;
+  left: 100px;
+  width: 80px;
+}
+
+/* line 753, ../sass/_bubbles.scss */
+#bubble-64-1 {
+  top: 10px;
+  left: 20px;
+  width: 140px;
+  padding: 1.1em;
+}
+
+/* line 760, ../sass/_bubbles.scss */
+#bubble-65-1 {
+  top: 10px;
+  left: 20px;
+  width: 140px;
+}
+
+/* line 766, ../sass/_bubbles.scss */
+#bubble-66-1 {
+  top: 0px;
+  left: 20px;
+  width: 180px;
+  padding: 1.1em;
+}
+
+/* line 773, ../sass/_bubbles.scss */
+#bubble-66-2 {
+  top: 10px;
+  left: 220px;
+  width: 140px;
+}
+
+/* line 779, ../sass/_bubbles.scss */
+#bubble-67-1 {
+  top: 20px;
+  left: 20px;
+  font-size: 1.5rem;
+  padding-top: 1em;
+  height: 30px;
+}
+
+/* line 785, ../sass/_bubbles.scss */
+#bubble-68-1 {
+  top: 10px;
+  left: 20px;
+  width: 100px;
+  padding-top: 1em;
+}
+
+/* line 791, ../sass/_bubbles.scss */
+#bubble-68-2 {
+  top: 68px;
+  left: 20px;
+  width: 120px;
+  height: 70px;
+  padding-top: 1em;
+}
+
+/* line 797, ../sass/_bubbles.scss */
+#bubble-69-1 {
+  top: 10px;
+  left: 20px;
+  width: 100px;
+  height: 30px;
+  padding-top: 1em;
+}
+
+/* line 803, ../sass/_bubbles.scss */
+#bubble-69-2 {
+  top: 50px;
+  left: 20px;
+  width: 120px;
+  height: 60px;
+  font-size: 1.3rem;
+}
+
+/* line 811, ../sass/_bubbles.scss */
+#bubble-71-1 {
+  top: 10px;
+  left: 20px;
+  width: 150px;
+}
+
+/* line 817, ../sass/_bubbles.scss */
+#bubble-71-2 {
+  top: 30px;
+  left: 320px;
+  width: 150px;
+  height: 120px;
+}
+
+/* line 824, ../sass/_bubbles.scss */
+#bubble-72-1 {
+  top: 20px;
+  left: 40px;
+  height: 90px;
+  width: 150px;
+}
+
+/* line 830, ../sass/_bubbles.scss */
+#bubble-72-2 {
+  top: 120px;
+  left: 70px;
+  height: 50px;
+  width: 150px;
+}
+
+/* line 836, ../sass/_bubbles.scss */
+#bubble-73-1 {
+  top: 20px;
+  left: 20px;
+  width: 280px;
+}
+
+/* line 842, ../sass/_bubbles.scss */
+#bubble-74-1 {
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  font-size: 1.2rem;
+}
+
+/* line 849, ../sass/_bubbles.scss */
+#bubble-75-1 {
+  top: 20px;
+  left: 20px;
+  width: 280px;
+  font-size: 1.2rem;
+}
+
+/* line 856, ../sass/_bubbles.scss */
+#bubble-76-1 {
+  top: 20px;
+  right: 20px;
+  height: 50px;
+  width: 130px;
+}
+
+/* line 862, ../sass/_bubbles.scss */
+#credits {
+  position: absolute;
+  top: 140px;
+  right: 20px;
+  width: 250px;
+  font-family: permanent-marker, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+@-webkit-keyframes dotone {
+  /* line 11, ../sass/screen.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 15, ../sass/screen.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes dottwo {
+  /* line 21, ../sass/screen.scss */
+  25% {
+    opacity: 0;
+  }
+
+  /* line 25, ../sass/screen.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes dotthree {
+  /* line 31, ../sass/screen.scss */
+  50% {
+    opacity: 0;
+  }
+
+  /* line 35, ../sass/screen.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 40, ../sass/screen.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  line-height: 1.1;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #000;
+}
+
+/* line 51, ../sass/screen.scss */
+#debugger {
+  position: fixed;
+  padding: 1em;
+  bottom: 0;
+  left: 0;
+  background: red;
+  color: white;
+  z-index: 1000;
+}
+
+/* line 61, ../sass/screen.scss */
+#instructions {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#instructions svg{
+  width: 100%;
+  height: 100%;
+}
+
+/* line 69, ../sass/screen.scss */
+#preloader {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  color: #FBCA25;
+  text-align: center;
+  font-size: 2rem;
+  font-family: gochi-hand, sans-serif;
+  pointer-events: none;
+  -mox-flex-direction: column;
+  -moz-align-content: space-around;
+  -moz-justify-content: center;
+  -webkit-align-content: space-around;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+/* line 98, ../sass/screen.scss */
+#preloader.hide {
+  opacity: 0;
+}
+
+/* line 103, ../sass/screen.scss */
+#loader-text {
+  opacity: 0;
+}
+/* line 107, ../sass/screen.scss */
+#loader-text .dot:nth-child(1) {
+  -webkit-animation: dotone 1s infinite;
+}
+/* line 111, ../sass/screen.scss */
+#loader-text .dot:nth-child(2) {
+  -webkit-animation: dottwo 1s infinite;
+}
+/* line 115, ../sass/screen.scss */
+#loader-text .dot:nth-child(3) {
+  -webkit-animation: dotthree 1s infinite;
+}
+
+/* line 122, ../sass/screen.scss */
+.wf-gochihand-n4-active #loader-text {
+  opacity: 1;
+}
+
+/* line 127, ../sass/screen.scss */
+#preloader-svg {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 132, ../sass/screen.scss */
+#canvas-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 140, ../sass/screen.scss */
+#dom-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#dom-container,
+#canvas-view,
+#instructions,
+#video-holder{
+top:0;
+}
+
+/* line 149, ../sass/screen.scss */
+#dom-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 155, ../sass/screen.scss */
+.frame {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.frame > svg {
+}
+/* line 160, ../sass/screen.scss */
+.frame.in {
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  opacity: 1;
+}
+
+/* line 166, ../sass/screen.scss */
+#credits {
+  position: absolute;
+  top: 140px;
+  right: 20px;
+  width: 250px;
+  font-family: permanent-marker, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* line 176, ../sass/screen.scss */
+#video-holder {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 100;
+}
+/* line 186, ../sass/screen.scss */
+#video-holder.in {
+  display: block;
+}
+
+/* line 191, ../sass/screen.scss */
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 199, ../sass/screen.scss */
+#video-ui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 207, ../sass/screen.scss */
+#video-close-btn {
+position: absolute;
+right: 20px;
+top: 20px;
+width: 50px;
+height: 50px;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+}
+
+/* line 217, ../sass/screen.scss */
+#video-play-btn {
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -25px;
+margin-top: -25px;
+width: 50px;
+height: 50px;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+transform: scale(3);
+}
+
+/* line 228, ../sass/screen.scss */
+#video-play-btn-svg #video-play {
+  opacity: 1;
+}
+/* line 232, ../sass/screen.scss */
+#video-play-btn-svg #video-pause {
+  opacity: 0;
+}
+/* line 237, ../sass/screen.scss */
+#video-play-btn-svg.pause #video-play {
+  opacity: 0;
+}
+/* line 241, ../sass/screen.scss */
+#video-play-btn-svg.pause #video-pause {
+  opacity: 1;
+}
+
+/* line 247, ../sass/screen.scss */
+#home-btn {
+  position: absolute;
+  left: 330px;
+  top: 220px;
+  width: 188px;
+  height: 120px;
+  opacity: 0;
+  cursor: pointer;
+}

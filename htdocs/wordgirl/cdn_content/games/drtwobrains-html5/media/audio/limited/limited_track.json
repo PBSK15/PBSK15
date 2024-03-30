@@ -1,0 +1,313 @@
+{
+  "urls": [
+    "limited_track.mp3",
+    "limited_track.ogg"
+  ],
+  "audioSprite": [
+    {
+      "id": "game2intro",
+      "startTime": 0,
+      "duration": 8907.755102040817
+    },
+    {
+      "id": "turnintocheese",
+      "startTime": 10000,
+      "duration": 3448.163265306123
+    },
+    {
+      "id": "PerryTailThwack",
+      "startTime": 15000,
+      "duration": 992.6530612244893
+    },
+    {
+      "id": "aimat",
+      "startTime": 17000,
+      "duration": 835.9183673469381
+    },
+    {
+      "id": "narrator_mobile_instr",
+      "startTime": 19000,
+      "duration": 4337.392290249433
+    },
+    {
+      "id": "whatnincompoops",
+      "startTime": 25000,
+      "duration": 6974.693877551019
+    },
+    {
+      "id": "i_Bird",
+      "startTime": 33000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Cactus",
+      "startTime": 36000,
+      "duration": 1044.897959183672
+    },
+    {
+      "id": "i_Egg",
+      "startTime": 39000,
+      "duration": 705.3061224489809
+    },
+    {
+      "id": "i_Fish",
+      "startTime": 41000,
+      "duration": 992.6530612244875
+    },
+    {
+      "id": "i_Flower",
+      "startTime": 43000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Fossil",
+      "startTime": 46000,
+      "duration": 888.1632653061189
+    },
+    {
+      "id": "i_Fungus",
+      "startTime": 48000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "i_Insect",
+      "startTime": 51000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "i_Mammal",
+      "startTime": 53000,
+      "duration": 940.4081632653032
+    },
+    {
+      "id": "i_Octopus",
+      "startTime": 55000,
+      "duration": 1227.7551020408168
+    },
+    {
+      "id": "i_Reptile",
+      "startTime": 58000,
+      "duration": 1227.7551020408168
+    },
+    {
+      "id": "i_Seeds",
+      "startTime": 61000,
+      "duration": 1280.0000000000011
+    },
+    {
+      "id": "i_Snail",
+      "startTime": 64000,
+      "duration": 940.4081632653032
+    },
+    {
+      "id": "i_Spider",
+      "startTime": 66000,
+      "duration": 1044.897959183672
+    },
+    {
+      "id": "i_Watering_Can",
+      "startTime": 69000,
+      "duration": 1488.9795918367383
+    },
+    {
+      "id": "goop_hitfallingstuff",
+      "startTime": 72000,
+      "duration": 2795.1020408163317
+    },
+    {
+      "id": "goop_playwithgoopray",
+      "startTime": 76000,
+      "duration": 6086.5306122449
+    },
+    {
+      "id": "narrator_mobile_goopinstr",
+      "startTime": 84000,
+      "duration": 4938.208616780045
+    },
+    {
+      "id": "organic_whoosh_23wav",
+      "startTime": 90000,
+      "duration": 470.2040816326587
+    },
+    {
+      "id": "charliethishappen",
+      "startTime": 92000,
+      "duration": 5955.918367346939
+    },
+    {
+      "id": "i_Asteroid",
+      "startTime": 99000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "i_Astronaut",
+      "startTime": 102000,
+      "duration": 1384.4897959183697
+    },
+    {
+      "id": "i_Beaker",
+      "startTime": 105000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "i_Binoculars",
+      "startTime": 108000,
+      "duration": 1488.9795918367383
+    },
+    {
+      "id": "i_Calculator",
+      "startTime": 111000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "i_Cloud",
+      "startTime": 114000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Comet",
+      "startTime": 117000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "i_Crater",
+      "startTime": 120000,
+      "duration": 1097.142857142856
+    },
+    {
+      "id": "i_Earth",
+      "startTime": 123000,
+      "duration": 783.6734693877503
+    },
+    {
+      "id": "i_Goggles",
+      "startTime": 125000,
+      "duration": 1384.4897959183697
+    },
+    {
+      "id": "i_Graph",
+      "startTime": 128000,
+      "duration": 992.6530612245017
+    },
+    {
+      "id": "i_Hammer",
+      "startTime": 130000,
+      "duration": 809.7959183673424
+    },
+    {
+      "id": "i_Jupiter",
+      "startTime": 132000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "i_Light_Bulb",
+      "startTime": 135000,
+      "duration": 1175.5102040816325
+    },
+    {
+      "id": "i_Magnet",
+      "startTime": 138000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Magnifying_Glass",
+      "startTime": 141000,
+      "duration": 2220.4081632653188
+    },
+    {
+      "id": "i_Microscope",
+      "startTime": 145000,
+      "duration": 1253.8775510203948
+    },
+    {
+      "id": "i_Notebook",
+      "startTime": 148000,
+      "duration": 1149.3877551020546
+    },
+    {
+      "id": "i_Pulley",
+      "startTime": 151000,
+      "duration": 835.9183673469488
+    },
+    {
+      "id": "i_Recycling_Bin",
+      "startTime": 153000,
+      "duration": 1724.0816326530535
+    },
+    {
+      "id": "i_Rover",
+      "startTime": 156000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "i_Ruler",
+      "startTime": 158000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "i_Satellite",
+      "startTime": 160000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "i_Saturn",
+      "startTime": 162000,
+      "duration": 992.6530612245017
+    },
+    {
+      "id": "i_Scale",
+      "startTime": 164000,
+      "duration": 1097.1428571428703
+    },
+    {
+      "id": "i_Space_Shuttle",
+      "startTime": 167000,
+      "duration": 1436.734693877554
+    },
+    {
+      "id": "i_Star",
+      "startTime": 170000,
+      "duration": 1071.020408163264
+    },
+    {
+      "id": "i_Telescope",
+      "startTime": 173000,
+      "duration": 1332.2448979591854
+    },
+    {
+      "id": "i_Thermometer",
+      "startTime": 176000,
+      "duration": 1175.5102040816325
+    },
+    {
+      "id": "i_Weather_Map",
+      "startTime": 179000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "iamsoproud",
+      "startTime": 182000,
+      "duration": 2560.0000000000023
+    },
+    {
+      "id": "goop_playgoopagain",
+      "startTime": 186000,
+      "duration": 4388.571428571424
+    },
+    {
+      "id": "charlieseegoop",
+      "startTime": 192000,
+      "duration": 4597.551020408162
+    },
+    {
+      "id": "everythinggoop",
+      "startTime": 198000,
+      "duration": 3996.7346938775563
+    },
+    {
+      "id": "whodidthis",
+      "startTime": 203000,
+      "duration": 6713.469387755112
+    }
+  ]
+}

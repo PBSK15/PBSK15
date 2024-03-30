@@ -1,0 +1,422 @@
+/* NAV */
+
+#header .selected {
+	background-color:#5EBD37;
+}
+
+#header .selected:hover {
+	background-color:#5EBD37;
+}
+
+#pe {
+	position:static;
+	display:inline-block;
+	width:30%;
+	margin-top:2em;
+	margin-left:2em;
+}
+
+#pe .btn-alt{
+	margin-right:1em;
+}
+
+.pebody {
+	background-color:#faf9f7;
+}
+
+	/* ACTIVITIES */
+
+
+	/* override row-group */
+
+	row-group {
+		padding:0;
+		margin:0;
+	}
+
+	#activity {
+/*		background-color:#faf9f7;*/
+		margin:0;
+		padding:0;
+		/*border:2px solid rgba(0, 0, 0, 0.15);
+		font-family: 'Dosis', Helvetica, Arial, sans-serif;*/
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		color:#666;
+	}
+
+	#activity h1 {
+		margin:.25em 2%;
+	}
+
+	#act-body {
+		float:left;
+		width:65%;
+		margin-left:2%;
+	}
+
+	.illus {
+		width:100%;
+	}
+
+#activity h3 {
+	line-height:1em;
+}
+
+#activity a {
+	color:#33A1A5;
+	font-size:1em;
+}
+
+#activity a.btn {
+	color:white;
+}
+
+#activity p {
+	font-size:1em;
+}
+
+#activity ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+
+}
+
+
+#activity ol > li {
+    position:relative; /* Create a positioning context */
+    list-style:none; /* Disable the normal item numbering */
+    margin-left:1.5em;
+}
+
+#activity ol > li:before {
+    content:counter(li)"."; /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    left:-2.2em;
+    width:32px;
+    text-align: right;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:1.5em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+
+    font-weight:bold;
+}
+
+
+#activity li ol,
+#activity li ul {margin-top:6px;}
+#activity ol ol li:last-child {margin-bottom:0;}
+
+#activity ul {
+	margin-left:16px;
+}
+
+#activity li,#activity dl {
+    font-weight: 400;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.27777778em; /* 23/16 */
+	margin:.25em 0;
+}
+
+#activity ul li {
+	list-style-type:disc;
+	margin-left:1em;
+}
+
+
+
+
+
+/* PATHWAYS */
+
+.pttitle {
+	font-style:italic;
+}
+
+#pathway {
+		background-color:#faf9f7;
+		/*font-family: 'Dosis', Helvetica, Arial, sans-serif;*/
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		color:#666;
+		margin-bottom:20px;
+}
+
+
+#pathway h1 {
+	margin:0;
+}
+
+.pathintro {
+	padding:10px;
+}
+
+.pathintro p {
+	margin-top:10px;
+	margin-right:14.68254%; /* 148/1008 */
+}
+
+.pathday {
+	border-top:4px solid #c3c3c3;
+	clear:both;
+	padding:10px;
+}
+
+
+.pathday h2 {
+	float:left;
+	display:inline-block;
+	width: 14.68254%; /* 148/1008 */
+}
+
+
+.pathday .singleday {
+	margin-left:14.68254%; /* 148/1008 */
+}
+
+.pathday > div {
+	float:left;
+	width:80%;
+
+}
+
+.pathobj {
+	margin-top:1em;
+	clear:both;
+	font-size:89.5%;
+	line-height:100%;
+}
+
+.pathobj .col-3 {
+	width:27.399849%; /* 23.015873/.84 */
+	text-align:center;
+
+
+}
+
+
+.pathobj h5 {
+	display:inline-block;
+	background-image:url('../i/common/circle.svg');
+	background-repeat:no-repeat;
+	color:#fff;
+	width:30px;
+	height:30px;
+	text-align:center;
+}
+
+#pathway:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#act-sidebar .printbtn {
+	color:#fff;
+}
+
+.acc {
+	background-color:#edecea;
+	margin-top:.5em;
+	overflow:hidden;
+}
+
+.acc-toggle {
+	background-color:#259bf6;
+	height:78px;
+}
+
+.acc-toggle:hover {
+	background-color:#51aff8;
+}
+
+.acc-body {
+}
+
+
+
+	.timespan {
+		margin-top:.1em;
+		margin-left:.5em;
+		padding:0 .25em;
+		font-size:.55em;
+		background-color:#c0ebff;
+		color:#259bf7;
+	}
+
+	#act-sidebar {
+		float:right;
+		width:28%;
+		margin-left:2%;
+		margin-right:2%;
+		background-color:#eae4f7;
+	}
+
+	#act-sidebar .acc-toggle {
+		height:2.5em;
+	}
+
+	#act-sidebar .acc {
+		width:95%;
+
+		-webkit-border-radius: 12px; /* 12/19 */
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+
+		margin:1em 2% 1em 2.5%;
+
+	}
+
+
+	#act-sidebar .acc-toggle>h2,#act-sidebar .acc-toggle>h3 {
+		padding-top:6px;
+	}
+
+#act-sidebar .acc-chevron {
+		width:100%;
+		margin-top:2px;
+		margin-right:2px;
+	}
+
+#act-sidebar .hold-chevron {
+	float:right;
+	width:32px;
+	margin-top:.35em;
+	margin-right:.35em;
+}
+
+
+#act-sidebar a {
+	font-size:100%;
+}
+
+#act-sidebar>h3 {
+	margin:.5em 2% 0 2%;
+}
+
+#act-sidebar p {
+	margin:0 2%;
+	}
+
+
+/* override basic styles for sidebar */
+	#act-sidebar h3 {
+		font-size:1.5em;
+	}
+
+	#act-sidebar h4 {
+		font-size:1.3125em;
+	}
+
+	#act-sidebar h5 {
+		font-size:1.3125em;
+	}
+
+
+
+
+
+	.acc-open {
+		line-height:1em;
+	}
+
+	.acc-open>li,.acc-open>dt,.acc-open>dd {
+		margin:0 .4em;
+	}
+
+	#activity .acc-open>ol,#activity .acc-open>ul {
+		margin-left:24px;
+	}
+
+	#activity .acc-open>p, #activity .acc-open>h4,#activity .acc-open>h5,#activity .acc-open>h3, #activity .acc-open>ul, #activity .acc-open>ol {
+		margin:12px;
+	}
+
+
+
+	.act-ask h5 {
+		background-image:url('../i/common/ic_question.svg');
+		background-repeat:no-repeat;
+		padding-left:1em;
+		background-position:0 4px;
+	}
+
+	.act-ask {
+		margin:1em 3em;
+		padding:10px 1em;
+		background-color:#e8e3f7;
+
+		-moz-box-shadow:    0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, .1);
+
+	}
+
+	li .act-ask { /* counteract indents */
+		margin-left:2em;
+	}
+
+	.act-ask dd {
+		font-style:italic;
+		color: #311c79;
+		margin:0 2em 1em 2em;
+	}
+
+	.act-ask dt {
+		display:list-item;
+		list-style-type:disc;
+		margin:.5em 1.5em 0 1.5em;
+	}
+
+
+	#activity .act-ask li {
+		display:list-item;
+		list-style-type:disc;
+		margin:.5em 1em 0 .25em;
+	}
+
+	.act-ask .response {
+		display:block;
+		font-style:italic;
+		color: #311c79;
+		margin:.25em 1em 1em 1.75em;
+	}
+
+
+	#activity .part {
+		font-size:1em;
+		line-height:1em;
+	}
+
+	.part1 {
+		background-color: #6A51C2;
+		color: #fff;
+		padding:3px;
+		display:inline-block;
+		font-size:1em;
+		font-weight:normal;
+		line-height:1em;
+		margin-bottom:3px;
+	}
+
+	.parttitle {
+		display:block;
+		font-size:2.056em;
+		line-height:1em;
+	}
+
+	.subtitle {
+		font-size:.8em;
+		display:block;
+		margin-top:-.25em;
+	}
+
+	.handouts {
+		display:none;
+	}
+

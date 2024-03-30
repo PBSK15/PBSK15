@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[The Learnerer]]></title>
+	<description><![CDATA[A villain with the talent to see things once and learn them immediately, The Learnerer knows WordGirl's every move, or so he thinks. One thing he might want to work on, however, is his tendency to add extra suffixes to the end of words, like "learnerer."]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_learnerer.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/learnerer.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|learnerer_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_learnerer.png" title="Coloring Page"/>
+		<activity id="printables|learnerer_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

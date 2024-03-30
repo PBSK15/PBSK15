@@ -1,0 +1,17 @@
+{
+	"images":["desertmulti.png"],
+	"frames":[
+		[1312, 0, 91, 100, 0, 0, 0],
+		[1208, 0, 104, 199, 0, -6, -1],
+		[1403, 0, 80, 54, 0, 0, 0],
+		[627, 0, 581, 618, 0, -3, -1],
+		[0, 0, 627, 638, 0, 0, 0]
+	],
+	"animations":{
+		"desertpea": {"frames": [2]},
+		"spinifexgrass": {"frames": [0]},
+		"neverfailgrass": {"frames": [1]},
+		"mulga": {"frames": [3]},
+		"bloodwood_flowering": {"frames": [4]}
+	}
+}

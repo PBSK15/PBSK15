@@ -1,0 +1,175 @@
+{
+  "urls": [
+    "henchmen_phrases.ogg",
+    "henchmen_phrases.m4a",
+    "henchmen_phrases.mp3",
+    "henchmen_phrases.ac3"
+  ],
+  "audioSprite": [
+    {
+      "id": "d_Asteroid",
+      "startTime": 0,
+      "duration": 4362.448979591837
+    },
+    {
+      "id": "d_Astronaut",
+      "startTime": 6000,
+      "duration": 4127.34693877551
+    },
+    {
+      "id": "d_Cloud",
+      "startTime": 12000,
+      "duration": 5459.591836734696
+    },
+    {
+      "id": "d_Comet",
+      "startTime": 19000,
+      "duration": 3500.4081632653056
+    },
+    {
+      "id": "d_Crater",
+      "startTime": 24000,
+      "duration": 4179.591836734694
+    },
+    {
+      "id": "d_Earth",
+      "startTime": 30000,
+      "duration": 2716.734693877548
+    },
+    {
+      "id": "d_Graph",
+      "startTime": 34000,
+      "duration": 5459.591836734696
+    },
+    {
+      "id": "d_Jupiter",
+      "startTime": 41000,
+      "duration": 3134.6938775510225
+    },
+    {
+      "id": "d_Rover",
+      "startTime": 46000,
+      "duration": 5198.367346938774
+    },
+    {
+      "id": "d_Satellite",
+      "startTime": 53000,
+      "duration": 5433.4693877551035
+    },
+    {
+      "id": "d_Saturn",
+      "startTime": 60000,
+      "duration": 5851.428571428571
+    },
+    {
+      "id": "d_Space_Shuttle",
+      "startTime": 67000,
+      "duration": 3369.7959183673447
+    },
+    {
+      "id": "d_Star",
+      "startTime": 72000,
+      "duration": 3761.632653061227
+    },
+    {
+      "id": "d_Telescope",
+      "startTime": 77000,
+      "duration": 5328.979591836742
+    },
+    {
+      "id": "d_Weather_Chart",
+      "startTime": 84000,
+      "duration": 3604.897959183674
+    },
+    {
+      "id": "i_Asteroid",
+      "startTime": 89000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "i_Astronaut",
+      "startTime": 92000,
+      "duration": 1384.4897959183697
+    },
+    {
+      "id": "i_Cloud",
+      "startTime": 95000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Comet",
+      "startTime": 98000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "i_Crater",
+      "startTime": 101000,
+      "duration": 1097.142857142856
+    },
+    {
+      "id": "i_Earth",
+      "startTime": 104000,
+      "duration": 783.6734693877503
+    },
+    {
+      "id": "i_Graph",
+      "startTime": 106000,
+      "duration": 992.6530612244875
+    },
+    {
+      "id": "i_Jupiter",
+      "startTime": 108000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "i_Rover",
+      "startTime": 111000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "i_Satellite",
+      "startTime": 113000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "i_Saturn",
+      "startTime": 115000,
+      "duration": 992.6530612244875
+    },
+    {
+      "id": "i_Space_Shuttle",
+      "startTime": 117000,
+      "duration": 1436.734693877554
+    },
+    {
+      "id": "i_Star",
+      "startTime": 120000,
+      "duration": 1071.020408163264
+    },
+    {
+      "id": "i_Telescope",
+      "startTime": 123000,
+      "duration": 1332.2448979591854
+    },
+    {
+      "id": "i_Weather_Chart",
+      "startTime": 126000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "roundbegin_aimfastagain",
+      "startTime": 129000,
+      "duration": 4414.693877551031
+    },
+    {
+      "id": "roundbegin_backtocheese",
+      "startTime": 135000,
+      "duration": 4388.571428571424
+    },
+    {
+      "id": "roundbegin_procheeseray",
+      "startTime": 141000,
+      "duration": 4649.795918367346
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "urls": [
+    "fail_track.ogg",
+    "fail_track.m4a",
+    "fail_track.mp3",
+    "fail_track.ac3"
+  ],
+  "audioSprite": [
+    {
+      "id": "PerryTailThwack",
+      "startTime": 0,
+      "duration": 992.6530612244899
+    },
+    {
+      "id": "charliethishappen",
+      "startTime": 2000,
+      "duration": 5955.918367346939
+    },
+    {
+      "id": "organic_whoosh_23wav",
+      "startTime": 9000,
+      "duration": 470.20408163265336
+    },
+    {
+      "id": "silencewav",
+      "startTime": 11000,
+      "duration": 10083.265306122448
+    },
+    {
+      "id": "whatnincompoops",
+      "startTime": 23000,
+      "duration": 6974.693877551019
+    }
+  ]
+}

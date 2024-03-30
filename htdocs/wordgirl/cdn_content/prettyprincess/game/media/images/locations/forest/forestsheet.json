@@ -1,0 +1,33 @@
+{
+"images": ["forestsheet.png"],
+"frames": [
+
+    [124, 2, 142, 190], 
+    [357, 179, 215, 150], 
+    [477, 2, 132, 151], 
+    [124, 375, 230, 54], 
+    [574, 306, 91, 91], 
+    [2, 2, 120, 429], 
+    [124, 194, 231, 179], 
+    [268, 2, 207, 175], 
+    [574, 155, 92, 149], 
+    [357, 331, 83, 65]
+],
+"animations": {
+    
+        "forest_gargoyle":[0], 
+        "forest_ghosts":[1], 
+        "forest_jackolantern":[2], 
+        "forest_platform":[3], 
+        "forest_skull":[4], 
+        "forest_spider":[5], 
+        "forest_tombstone1":[6], 
+        "forest_tombstone2":[7], 
+        "forest_willow":[8], 
+        "willow_counter":[9]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:648ac72e0ff14d2ce3c2193085e65a85:195bce6362d506951d8dac394220821e:0e768a039cf86885881c8023339c7044$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

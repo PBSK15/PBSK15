@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Mom & Dad]]></title>
+	<description><![CDATA[Tim and Sally Botsford are Becky's adopted parents. Tim is always supportive, even when he doesn't know what he's being supportive about. Sally's lifelong ambition is to be a guest on a gameshow...any gameshow. Unfortunately, she isn't very good. They don't seem to notice that Becky and WordGirl are never in the same place at the same time, or how they look exactly alike.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_momdad.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/momdad.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|momDad_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_momanddad.png" title="Coloring Page"/>
+		<activity id="printables|momDad_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="scavenger" iconURL="images/heroVillain/character/activity_scavenger.png" title="Scavenger Hunt"/>
+	</activities>
+</gameResources>

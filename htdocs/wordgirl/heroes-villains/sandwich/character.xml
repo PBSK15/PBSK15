@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Chuck the Evil Sandwich Making Guy]]></title>
+	<description><![CDATA[Chuck the Evil Sandwich Making Guy tried to use his sandwich making powers for good. In fact, most people thought that having amazing sandwich making abilities was actually kind of silly.  He decided that if people weren't going to realize his greatness on their own, he would force them to realize it.  Chuck sometimes has a hard time coming up with the right word for the occasion, hence the name.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_chuck.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/sandwich.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="chuckgame" iconURL="images/heroVillain/character/activity_chuckextreme.png" title="Chuck's Extreme Sandwich Crusher"/>
+		<activity id="printables|chuck_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_chuck.png" title="Coloring Page"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+		<activity id="printables|chuck_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="freezeframe" iconURL="images/heroVillain/character/activity_freezeframe.png" title="Freeze Frame"/>
+		<activity id="buildalair" iconURL="images/heroVillain/character/activity_buildalair.png" title="Build-A-Lair"/>
+		<activity id="scavenger" iconURL="images/heroVillain/character/activity_scavenger.png" title="Scavenger Hunt"/>
+	</activities>
+</gameResources>

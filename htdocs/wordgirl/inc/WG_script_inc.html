@@ -1,0 +1,140 @@
+<!-- begin include -->
+
+
+<script type="text/javascript" src="/wordgirl/script/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://pbskids.org/includes/flash/swfobject2.js"></script>
+<script type="text/javascript" src="https://pbskids.org/modules/kidsgo/setcookie.js"></script>
+<script type="text/javascript" src="/wordgirl/script/swfaddress.js"></script>
+<script type="text/javascript" src="https://www-tc.pbskids.org/includes/javascript/textresizedetector.min.js"></script>
+<script type='text/javascript' src='/includes/javascript/homepage-size.uncompressed.js'></script>
+
+<script type="text/javascript">
+    var links = {
+        games:"games/",
+        homepage:"",
+        unlockable:"unlockable/",
+        buildalair:"games/buildalair/",
+        robotworkshop:"games/robotworkshop/",
+        mazemania:"games/mazemania/",
+        powerwords:"games/powerwords/",
+        freezeframe:"games/freezeframe/",
+        comicstripcapers:"games/comicstripcapers/",
+        huggydance:"games/huggydance/",
+        favoriteword:"games/favoriteword/",
+        comicbook:"games/comicbook/",
+        printables:"printables/",
+        chuckgame:"games/chucksandwich/",
+        misspower:"games/misspower/",
+        drtwobrains:"games/drtwobrains/",
+
+        prettyprincess:"prettyprincess/",
+        prettyprincessgame:"prettyprincess/game",
+        prettyprincessvideos:"prettyprincess/videos",
+        prettyprincessprintables:"prettyprincess/printables",
+
+        heroesvillains:"heroes-villains/",
+        adventures:"adventures/",
+        clips:"adventures/#clips",
+        butcherisms:"adventures/butcherisms/",
+        beastar:"adventures/beastar/",
+        honeybee:"adventures/honeybee/",
+        haveaword:"adventures/mihaw/",
+        scavenger:"adventures/scavenger/",
+
+        char_birthdaygirl:"heroes-villains/birthdaygirl",
+        char_butcher:"heroes-villains/butcher",
+        char_granny:"heroes-villains/granny",
+        char_huggyface:"heroes-villains/huggyface",
+        char_lady:"heroes-villains/lady",
+        char_momdad:"heroes-villains/momdad",
+        char_mrbig:"heroes-villains/mrbig",
+        char_msquestion:"heroes-villains/msquestion",
+        char_nocan:"heroes-villains/nocan",
+        char_nrg:"heroes-villains/energymonster",
+        char_sandwich:"heroes-villains/sandwich",
+        char_scoops:"heroes-villains/scoops",
+        char_seymour:"heroes-villains/seymour",
+        char_tj:"heroes-villains/tj",
+        char_tobey:"heroes-villains/tobey",
+        char_twobrains:"heroes-villains/twobrains",
+        char_violet:"heroes-villains/violet",
+        char_whammer:"heroes-villains/whammer",
+        char_wordgirl:"heroes-villains/wordgirl",
+        char_victoria:"heroes-villains/victoriabest",
+        char_bampy:"heroes-villains/bampy",
+        char_princess:"heroes-villains/prettyprincess",
+        char_halhardbargain:"heroes-villains/halhardbargain",
+        char_sonnydays:"heroes-villains/sonnydays",
+        char_learnerer:"heroes-villains/learnerer",
+
+        parents:"https://www.pbs.org/parents/wordgirl/parentsandteachers.html",
+        teachers:"https://www.pbs.org/teachers/wordgirl/",
+        pbskids:"https://pbskids.org/pbskidsgo/",
+
+        noid:""
+    };
+    function navWithID( pageID )
+    {
+        if (pageID == "parents"){
+            bridge(links[pageID], 'PBS Parents');
+        } else if (pageID == "teachers") {
+            bridge(links[pageID], 'PBS Teachers');
+        } else if (pageID == "pbskids") {
+            window.location = links[pageID];
+        } else {
+            window.location = "/wordgirl/" + links[pageID];
+        }
+    }
+    function launchPrintable(targetfile, name, params) {
+        var domain = "/enablecdn/wordgirl/cdn_content/printables/" + targetfile;
+        window.open(domain, name, params);
+    }
+
+    // kids logo
+    var cookieString = "" + document.cookie;
+    var kidslogo = "false";
+    if ( cookieString.indexOf("pbskids.fromkids") != -1 )
+    {
+        //alert("from kids cookie found");
+        kidslogo = "true";
+    } else {
+        //alert("kids cookie not found: " + document.cookie);
+    }
+
+    // support legacy bookmarks
+    function checkLegacy(){
+        var pathArray = SWFAddress.getPathNames();
+        switch (pathArray[1])
+        {
+            case "game_1": //freeze frame
+                navWithID("freezeframe");
+                break;
+            case "game_2": //power words
+                navWithID("powerwords");
+                break;
+            case "game_3": //Comic Strip Capers
+                navWithID("comicstripcapers");
+                break;
+            case "game_4": //maze-mania
+                navWithID("mazemania");
+                break;
+            case "game_8": // huggy-dance
+                navWithID("huggydance");
+                break;
+            case "game_9": // robot-workshop
+                navWithID("robotworkshop");
+                break;
+            case "game_10": //build-a-lair
+                navWithID("buildalair");
+                break;
+            case "comicBook": //comic book
+                navWithID("comicbook");
+                break;
+            default:
+            // ignore
+        }
+    }
+
+</script>
+
+<!-- end include -->

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0, user-scalable=no, minimal-ui"/>
+        <title>WordGirl . Games . Dr. Two Brains | PBS KIDS GO! </title>
+        <meta name="Keywords" content="wordgirl, two brains, cheese, heist, power, science, vocabulary, word, game"/>
+        <meta name="Description" content="Dr. Two Brains went out on a cheese heist and left his two henchmen, and you, all alone in his lair. Time to play with the cheese ray! Fill the Cheese-o-meter by turning everything in the lair to cheese! Learn science vocabulary as you cheese your way through three rounds of fast-paced fun! You?ll be sure to impress Dr. Two Brains with your hard work and all that delicious cheese!"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Pretty Princess. Magical Rescue Adventure Game">
+        <link href="/wordgirl/cdn_content/games/navigation/navigation.css" rel="stylesheet">
+        <style>
+            #canvas {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            body, html {
+                background-color: #000;
+            }
+        </style>
+        <script type="text/javascript" src="/wordgirl/cdn_content/games/drtwobrains-html5/lib/startup.js"></script>
+
+	<script> 
+		var cdnPath = "/wordgirl/cdn_content/games/drtwobrains-html5/";
+		loadLib = function() {
+			var iPhone = /iPhone/i.test(navigator.userAgent);
+			var iPad = /iPad/i.test(navigator.userAgent);
+			var webkitNative = /Version/i.test(navigator.userAgent) && !(/Chrome/i.test(navigator.userAgent));
+			var iOS = iPhone || iPad;
+			var path;
+			
+
+			if(iOS || webkitNative) {
+				path = cdnPath+ "tools/lib/createjs/libraries_old.js";
+			} else {
+				path = cdnPath+ "tools/lib/createjs/libraries.js";
+			}
+			var script = document.createElement('script');
+			script.type = 'text/javascript';
+			script.src = path;
+			
+			script.onerror = function() {
+				throw(
+					'Failed to load library from ' + path
+				);
+			};
+			var head = document.getElementsByTagName('head');
+			head[0].appendChild(script);
+		};
+		loadLib();
+
+	</script>
+        <!-- <script type="text/javascript" src="/wordgirl/cdn_content/games/drtwobrains-html5/tools/lib/createjs/libraries.js"></script> -->
+        <script type="text/javascript" src="/wordgirl/cdn_content/games/drtwobrains-html5/lib/game/game-min.js"></script>
+    </head>
+ 
+    <body>
+     
+                
+{% include 'template_includes/modern_headband_include.html' %}
+	
+  {% include 'template_includes/modern_pbsk_js.html' %}
+
+
+
+        <div id="container">
+            <div id="wrapper">
+                <canvas id="canvas" style="position: absolute; z-index: 0"></canvas>
+            </div>
+        </div>
+        <div class="navigation-bar">
+            <div class="navigation-bar-background left"></div>
+            <div class="navigation-bar-background right"></div>
+            <a class="navigation-bar-logo left" href="http://pbskids.org">
+                <img src="/wordgirl/cdn_content/games/navigation/pbs-kids-logo.png">
+            </a>
+            <a class="navigation-bar-logo right" href="http://pbskids.org/wordgirl/games">
+                <img src="/wordgirl/cdn_content/games/navigation/exit.png" width="40" height="40">
+            </a>
+        </div>
+        <div id="landscape-modal">
+            <img id="rotate-device-icon" src="/wordgirl/cdn_content/games/navigation/rotate-device.png" alt="Please Turn Device" />
+        </div>
+        <script type="text/javascript">
+            GameStartup.init("/wordgirl/cdn_content/games/drtwobrains-html5/");
+         </script>
+    </body>
+</html>

@@ -1,0 +1,316 @@
+html {	
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #170e0e;
+	height: 100%;
+}
+
+p {
+	margin-top: 0;	
+}
+
+em {
+	font-weight: bold;
+	font-style: italic;	
+}
+
+/* Engine Container */
+
+#pbsStorybookContainer {
+	/* Keep all elements within the pages */
+	overflow-x: hidden;
+	
+	/* Turn off tap highlight in Mobile Safari */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	
+	/* Relative position is required to position the absolute positioned elements */
+	position: relative !important;
+	
+	width: 100%;
+	height: 100%;
+}
+
+/* Background */
+
+#pbsBookWrapper {
+	/* Keep all elements within the wrapper */
+	overflow-x: hidden;
+
+	width: 100%;
+	height: 100%;
+}
+
+/* Book */
+
+#pbsBookContainer {
+	width: 100%; 
+
+}
+
+.pbsPageTurnContainer {
+	position: relative;
+	
+	/* Keep all elements within the pages */
+	overflow-x: hidden;
+
+	width: 50%;
+	height: 100%;
+	
+	/* Represent book depth */
+	border-bottom: 2px #333 solid;
+}
+
+.pbsPageTurnPageContainer {
+
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+}
+
+.pbsRightPageTurnGradient {
+
+	/* Represent page edge */
+	border-right: 4px #000 solid;
+
+	position: absolute;
+
+	background-image: -webkit-gradient(linear, 100% 0%, 0% 0%, from(rgba(100, 100, 100, 0)), to(rgba(100, 100, 100, 0.5)));
+	background-image: -webkit-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5)); 
+	background-image: -moz-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -ms-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -o-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	
+	width: 100%;
+	height: 100%;
+}
+
+.pbsLeftPageTurnGradient {
+	/* Represent page edge */
+	border-left: 4px #000 solid;
+
+	position: absolute;
+
+	background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgba(100, 100, 100, 0)), to(rgba(100, 100, 100, 0.5)));
+	background-image: -webkit-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5)); 
+	background-image: -moz-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -ms-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	background-image: -o-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
+	
+	width: 100%;
+	height: 100%;
+}
+
+.pbsPagesContainer {
+
+	position: absolute;
+	
+	/* Keep all elements within the pages */
+	overflow-x: hidden;
+	overflow-y: hidden;
+	
+	width: 100%;
+	height: 100%;
+	
+	/* Represent book depth */
+	border-bottom: 2px #333 solid;
+	
+	/* Book shadow */
+	-moz-box-shadow: 0px 1px 5px 0px #000;
+	-webkit-box-shadow: 0px 1px 5px 0px #000;
+	box-shadow: 0px 1px 5px 0px #000;
+}
+
+.pbsPageContainer {
+	height: 100%;
+	float: left;
+}
+
+.pbsPage {
+	/* Relative position is required to position the absolute positioned elements */
+	position: relative !important;
+	
+	width: 100%;
+	height: 100%;
+}
+
+.pbsPageCanvas {
+	/* Position left page and right page next to each other */
+	float: left;
+	
+	width: 100%;
+	height: 100%;
+}
+
+.pbsSprite {
+	
+}
+
+.pbsCanvas {
+	/* Layer the element on top of the page */
+	position: absolute;
+}
+
+.pbsTextArea {
+	/* Layer the element on top of the page */
+	position: absolute;
+	
+	margin: 0;
+	
+	/* Remove the default text cursor */
+	cursor: default;
+	
+	/* Prevent highlighting text on drag */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.pbsDrawingPad {
+	/* Layer the element on top of the page */
+	position: absolute;
+	
+	margin: 0;
+}
+
+.drawingCanvas {
+	position: absolute;
+	
+	width: 100%;
+	height: 100%;
+}
+
+/* Page Buttons */
+
+.pbsStorybookNav {
+	/* Nav container will have absolute buttons so it does not need dimensions */
+	width: 0;
+	height: 0;
+}
+
+
+
+
+
+/* prevent scroll bars on page turn */
+.pbsPageContainer,
+.pbsPageTurnContainer,
+.pbsPagesContainer {
+	overflow: hidden;
+}
+
+
+/* Loading */
+
+
+.loadingContainer {
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#progressWrapper {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+#progressWrapper #progressBar {
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	background: #000000;
+	height: 4em;
+	width: 50%;
+	position: relative;
+	overflow: hidden;
+	border: solid #FC5E5B 1em;
+	box-shadow: .5em .5em 0 #991A13;
+}
+
+#progressWrapper #progressBar #progressBarFill {
+	background: #ffffff;
+	height: 100%;
+	width: 0;
+}
+
+#progressWrapper #progressText {
+	background: rgba(0, 0, 0, 0);
+	font-family: Helvetica, Arial;
+	font-weight: bold;
+	width: 100%;
+	font-size: 4em;
+	position: relative;
+	margin-top: 2%;
+	color: #FFF;
+	text-align: center;
+}
+
+#progressWrapper #progressTextImage {
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	width: 20%;
+	height: 20%;
+	max-width: 371px;
+	max-height: 86px;
+	display: block;
+	border-radius: 3px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+	margin-bottom: 2%;
+}
+
+#progressWrapper #progressTextImage:empty
+{
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+
+
+#readyToStart {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: transparent url('../images/loading-ready.png') no-repeat center center;
+	background-size: contain;
+	display: none;
+}
+
+
+/* iphone 3gs */
+@media only screen and (device-width:320px) and (device-height:480px) and (-webkit-device-pixel-ratio: 1) {
+
+	#progressWrapper #progressBar {
+		height: 2em;
+		border: solid #FC5E5B .5em;
+		box-shadow: .2em .2em 0 #991A13;
+	}
+
+	#progressWrapper #progressText {
+		font-size: 2em;
+	}
+}

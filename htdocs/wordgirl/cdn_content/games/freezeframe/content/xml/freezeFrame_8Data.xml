@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<menu name="questions">
+	
+    <question value="Dr. Boxleitner smells the __________ floating under his nose." hint="" time="21">
+        <item value="Football" correct="false"/>
+        <item value="Aroma" correct="true"/>
+        <item value="Happy" correct="false"/>
+    </question>
+    
+    <question value="TJ ________ Becky when he jumps around the corner." hint="" time="55">
+        <item value="Melts" correct="false"/>
+        <item value="Slimes" correct="false"/>
+        <item value="Startles" correct="true"/>
+    </question>
+
+    <question value="Becky ________ how to get her brother TJ to leave so she can turn into WordGirl and save the day." hint="" time="101">
+        <item value="Contemplates" correct="true"/>
+        <item value="Slips" correct="false"/>
+        <item value="Looks" correct="false"/>
+    </question>
+    
+    <item video="games/freezeframe/content/video/WordGirl107.flv"/>
+			
+</menu>

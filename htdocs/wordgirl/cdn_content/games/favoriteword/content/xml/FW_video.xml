@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<video name="videoNav">
+	<item thumb="content/images/WG_FW_Banana_thumb.jpg" videoVal="content/video/WG_FW_Banana.flv" videoText="Banana"/>	
+	<item thumb="content/images/WG_FW_C-F_thumb.jpg" videoVal="content/video/WG_FW_C-F.flv" videoText="CremeBrulee/Fab"/>	
+	<item thumb="content/images/WG_FW_D-G_thumb.jpg" videoVal="content/video/WG_FW_D-G.flv" videoText="Drum/Guffaw"/>	
+	<item thumb="content/images/WG_FW_F-A_thumb.jpg" videoVal="content/video/WG_FW_F-A.flv" videoText="Food/Acting"/>	
+	<item thumb="content/images/WG_FW_G-R_thumb.jpg" videoVal="content/video/WG_FW_G-R.flv" videoText="Gymnastics/RazzleDazzle"/>	
+	<item thumb="content/images/WG_FW_O-H_thumb.jpg" videoVal="content/video/WG_FW_O-H.flv" videoText="Orange/Harmonica"/>	
+	<item thumb="content/images/WG_FW_P-C_thumb.jpg" videoVal="content/video/WG_FW_P-C.flv" videoText="Plethora/Cuddly"/>	
+	<item thumb="content/images/WG_FW_R-P_thumb.jpg" videoVal="content/video/WG_FW_R-P.flv" videoText="Refresh/Paleontology"/>	
+	<item thumb="content/images/WG_FW_S-S_thumb.jpg" videoVal="content/video/WG_FW_S-S.flv" videoText="Singing/Scrumptious"/>	
+	<item thumb="content/images/WG_FW_Shishkabob_thumb.jpg" videoVal="content/video/WG_FW_Shishkabob.flv" videoText="Shishkabob"/>	
+	<item thumb="content/images/WG_FW_C-S_thumb.jpg" videoVal="content/video/WG_FW_C-S.flv" videoText="Curious/Star"/>	
+	<item thumb="content/images/WG_FW_D-M_thumb.jpg" videoVal="content/video/WG_FW_D-M.flv" videoText="Dream/Monkey"/>	
+	<item thumb="content/images/WG_FW_L-Z_thumb.jpg" videoVal="content/video/WG_FW_L-Z.flv" videoText="Labyrinth/Zinnias"/>	
+	<item thumb="content/images/WG_FW_SW_thumb.jpg" videoVal="content/video/WG_FW_SW.flv" videoText="Sweet"/>
+	<item thumb="content/images/WG_FW_T-S_thumb.jpg" videoVal="content/video/WG_FW_T-S.flv" videoText="Terrific/Space"/>	
+	<item thumb="content/images/WG_FW_C-E_thumb.jpg" videoVal="content/video/WG_FW_C-E.flv" videoText="Cracker/Exquisite"/>	
+	<item thumb="content/images/WG_FW_A-P_thumb.jpg" videoVal="content/video/WG_FW_A-P.flv" videoText="Adventure/Pugnacious"/>
+	<item thumb="content/images/WG_FW_A-T_thumb.jpg" videoVal="content/video/WG_FW_A-T.flv" videoText="Animals/Teacher"/>
+	<item thumb="content/images/WG_FW_C_thumb.jpg" videoVal="content/video/WG_FW_C.flv" videoText="Conserve"/>
+	<item thumb="content/images/WG_FW_M-E_thumb.jpg" videoVal="content/video/WG_FW_M-E.flv" videoText="Mystery/Elfin"/>	
+</video>

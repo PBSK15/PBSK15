@@ -1,0 +1,123 @@
+{
+  "urls": [
+    "bossbattle-vo.ogg",
+    "bossbattle-vo.mp3"
+  ],
+  "audioSprite": [
+    {
+      "id": "countcloudy_gloom",
+      "startTime": 0,
+      "duration": 3761.632653061224
+    },
+    {
+      "id": "countcloudy_howdareyou",
+      "startTime": 5000,
+      "duration": 1416.9841269841274
+    },
+    {
+      "id": "countcloudy_laugh",
+      "startTime": 8000,
+      "duration": 3552.9931972789122
+    },
+    {
+      "id": "countcloudy_mindyourownbusiness",
+      "startTime": 13000,
+      "duration": 2496.9841269841277
+    },
+    {
+      "id": "countcloudy_whydontyoumindyourownbusiness",
+      "startTime": 17000,
+      "duration": 2496.9841269841277
+    },
+    {
+      "id": "countcloudy_youllneversaveher",
+      "startTime": 21000,
+      "duration": 1944.965986394557
+    },
+    {
+      "id": "countcloudy_youwillneversaveher",
+      "startTime": 24000,
+      "duration": 1656.9841269841277
+    },
+    {
+      "id": "countcloudy_youwillneversucceed",
+      "startTime": 27000,
+      "duration": 1944.965986394557
+    },
+    {
+      "id": "countcloudy_youwillruinme",
+      "startTime": 30000,
+      "duration": 1728.979591836733
+    },
+    {
+      "id": "luteplayer_almostcomplete",
+      "startTime": 33000,
+      "duration": 12421.473922902493
+    },
+    {
+      "id": "luteplayer_beckywon",
+      "startTime": 47000,
+      "duration": 8101.473922902493
+    },
+    {
+      "id": "luteplayer_firstplace",
+      "startTime": 57000,
+      "duration": 3205.487528344669
+    },
+    {
+      "id": "luteplayer_intro_clouds",
+      "startTime": 62000,
+      "duration": 5113.469387755103
+    },
+    {
+      "id": "luteplayer_intro_ice",
+      "startTime": 69000,
+      "duration": 5725.487528344673
+    },
+    {
+      "id": "luteplayer_intro_tower",
+      "startTime": 76000,
+      "duration": 5221.47392290249
+    },
+    {
+      "id": "luteplayer_rightnow",
+      "startTime": 83000,
+      "duration": 4069.4784580498863
+    },
+    {
+      "id": "luteplayer_secondplace",
+      "startTime": 89000,
+      "duration": 3313.469387755106
+    },
+    {
+      "id": "luteplayer_tjwon",
+      "startTime": 94000,
+      "duration": 7273.4693877551
+    },
+    {
+      "id": "luteplayer_violetwon",
+      "startTime": 103000,
+      "duration": 7489.478458049888
+    },
+    {
+      "id": "prettyprincess_hooray",
+      "startTime": 112000,
+      "duration": 3030.2040816326466
+    },
+    {
+      "id": "prettyprincess_hooray_yousavedme",
+      "startTime": 117000,
+      "duration": 2770.045351473925
+    },
+    {
+      "id": "prettyprincess_thanksforsavingme",
+      "startTime": 121000,
+      "duration": 7314.2857142857165
+    },
+    {
+      "id": "prettyprincess_yourescuedmefromthatevilcountcloudy",
+      "startTime": 130000,
+      "duration": 5407.346938775504
+    }
+  ]
+}

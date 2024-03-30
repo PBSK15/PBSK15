@@ -1,0 +1,40 @@
+{
+  "urls": [
+    "goop_phrases.ogg",
+    "goop_phrases.m4a",
+    "goop_phrases.mp3",
+    "goop_phrases.ac3"
+  ],
+  "audioSprite": [
+    {
+      "id": "charlieseegoop",
+      "startTime": 0,
+      "duration": 4597.551020408163
+    },
+    {
+      "id": "everythinggoop",
+      "startTime": 6000,
+      "duration": 3996.734693877551
+    },
+    {
+      "id": "goop_controls",
+      "startTime": 11000,
+      "duration": 4858.775510204081
+    },
+    {
+      "id": "goop_hitfallingstuff",
+      "startTime": 17000,
+      "duration": 2795.102040816328
+    },
+    {
+      "id": "goop_playgoopagain",
+      "startTime": 21000,
+      "duration": 4388.5714285714275
+    },
+    {
+      "id": "goop_playwithgoopray",
+      "startTime": 27000,
+      "duration": 6086.5306122449
+    }
+  ]
+}

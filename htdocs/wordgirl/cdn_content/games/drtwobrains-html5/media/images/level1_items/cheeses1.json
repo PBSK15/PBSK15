@@ -1,0 +1,43 @@
+{
+"images": ["cheese_sheet.png"],
+"frames": [
+
+    [124, 147, 103, 46], 
+    [2, 201, 73, 36], 
+    [77, 205, 31, 42], 
+    [2, 80, 132, 61], 
+    [97, 143, 25, 60], 
+    [124, 195, 91, 56], 
+    [254, 2, 73, 55], 
+    [145, 2, 107, 143], 
+    [284, 205, 37, 25], 
+    [2, 2, 141, 76], 
+    [2, 143, 93, 56], 
+    [229, 147, 93, 56], 
+    [217, 205, 65, 42], 
+    [254, 113, 23, 24], 
+    [254, 59, 61, 52]
+],
+"animations": {
+    
+        "Bird":[0], 
+        "Cactus":[1], 
+        "Egg":[2], 
+        "Fish":[3], 
+        "Flower":[4], 
+        "Fossil":[5], 
+        "Insect":[6], 
+        "Mammal":[7], 
+        "Fungus":[8], 
+        "Octopus":[9], 
+        "Reptile":[10], 
+        "Seeds":[11], 
+        "Snail":[12], 
+        "Spider":[13], 
+        "Watering_Can":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:3688176f2b9cc7b827a614e2029aa4a2:27a63d5ad830a1e2536da85c536907ba:ec3671ba7430739022c9630e59520fe8$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

@@ -1,0 +1,43 @@
+{
+"images": ["highlight_sheet.png"],
+"frames": [
+
+    [2, 342, 74, 79], 
+    [71, 495, 52, 45], 
+    [2, 423, 74, 56], 
+    [2, 109, 86, 51], 
+    [2, 290, 77, 50], 
+    [61, 628, 59, 43], 
+    [61, 573, 61, 53], 
+    [2, 162, 85, 62], 
+    [2, 481, 67, 90], 
+    [2, 61, 90, 46], 
+    [81, 290, 41, 127], 
+    [2, 2, 92, 57], 
+    [2, 573, 57, 89], 
+    [2, 226, 82, 62], 
+    [78, 419, 44, 74]
+],
+"animations": {
+    
+        "Beaker":[0], 
+        "Binoculars":[1], 
+        "Calculator":[2], 
+        "Goggles":[3], 
+        "Hammer":[4], 
+        "Light_Bulb":[5], 
+        "Magnet":[6], 
+        "Magnifying_Glass":[7], 
+        "Microscope":[8], 
+        "Notebook":[9], 
+        "Pulley":[10], 
+        "Recycling_Bin":[11], 
+        "Ruler":[12], 
+        "Scale":[13], 
+        "Thermometer":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:e2b9533a9aa1e57ce7dac3f7bd65d7c8:4374332bb1c8c5b90c811ff59f0458ef:afe0e926389901b6a2e9edf203bae620$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

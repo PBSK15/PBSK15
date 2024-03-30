@@ -1,0 +1,524 @@
+/*
+-----------------------------------------------
+WGBH Interactive
+Plum Landing video test
+kal_gieber@wgbh.org
+created: 6/19/2013
+-----------------------------------------------
+*/
+
+/*  FONTS  */
+
+@font-face {
+	font-family: 'KidsControls';
+	src:url('fnt/KidsControls.eot');
+	src:url('fnt/KidsControls.eot?#iefix') format('embedded-opentype'),
+		url('fnt/KidsControls.woff') format('woff'),
+		url('fnt/KidsControls.ttf') format('truetype'),
+		url('fnt/KidsControls.svg#KidsControls') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'KidsControls';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-o-transform: scale(1);
+    text-rendering: optimizeLegibility;
+}
+
+
+/* -------------------------- GENERAL SETTINGS ------------------------- */
+
+#vidplayer {
+	margin:0;
+	padding:0;
+}
+
+#video-player {
+	max-width:100%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#video-player-swf {
+	max-width:100%;
+	width:100%;
+	min-height:1%;
+}
+
+
+/* -------------------------- GENERAL STYLES --------------------------- */
+
+#player .hidden {visibility:hidden;}
+
+/* -------------------------- VIDEO PLAYER AREA ------------------------ */
+
+#player {
+	width:100%;
+	position:relative;
+}
+
+#player p {
+	font-size:1em;
+}
+
+#player img, #player div {
+	margin:0;
+	padding:0;
+}
+
+#player button {
+	cursor:pointer;
+	vertical-align:middle;
+	padding:0;
+	margin:0;
+
+
+}
+
+#player button img {
+	vertical-align:middle;
+	max-width:90%;
+	max-height:90%;
+	width:75%;
+}
+
+/* -------------------------- VIDEO PLAYER CONTROLS -------------------- */
+
+#player-controls {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:5em;
+	background-color:#665ac0;
+	overflow:hidden;
+}
+
+
+
+#player-controls p {
+	margin:0;
+	padding:0;
+}
+
+#player-controls ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+#player-controls ul li {
+	float:left;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+
+/* changes the color of the icon font buttons on hover */
+
+#player-controls ul li:hover .icons {
+	color:#999;
+}
+
+/* changes the transparency of the icon images on hover */
+
+#player-controls ul li:hover img {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	/*width: 100%;*/
+	max-width:90%;
+	max-height:80%;
+
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=75);
+
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.75;
+
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.75;
+
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.75;
+}
+
+#player-controls ul li span {
+	display:block;
+}
+
+#player-controls .icon-text {
+	position: absolute;
+	top: -9999px;
+ 	left: -9999px;
+}
+
+#player-controls ul li button {
+	background-color:#31a0a3;
+	border:none;
+	width:3em;
+	height:3em;
+	color: white;
+	-webkit-border-radius: .5em; /* 12/19 */
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	margin-bottom: 1.053em; /* 20/19 */
+
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.5);
+	box-shadow:         0px 4px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* hides the caption, fullscreen and volume display when on phone size screen */
+#player-controls .settings-area {
+	/*display:none;*/
+	width:10%;
+	text-align:center;
+}
+
+#player-controls .play-area {
+	width:10%;
+	text-align:center;
+}
+
+#player-controls span.bt_back {
+	margin-top:1em;
+}
+
+#player-controls span.bt_back button {
+}
+
+#player-controls span.play-pause {
+
+}
+
+
+
+#player-controls span.play-pause button {
+	margin:0 auto;
+	width:3em;
+}
+
+/* sets the styling of the icon font display on the buttons */
+#player-controls .icons {
+	color:#fff;
+	font-size:2em;
+	line-height:34px;
+}
+
+/* modifies the styling of the icon font display on the play button */
+#player-controls .play-pause #icon-play .icons {
+	font-size:2em;
+	line-height:26px;
+	padding:0px;
+}
+
+
+/* modifies the styling of the icon font display on the play button */
+#player-controls .play-pause #icon-pause .icons {
+	font-size:1.65em;
+	line-height:25px;
+	padding:0px;
+}
+
+#player-controls .time-area {
+	min-width:8%;
+	height:3em;
+	margin-top:1em;
+}
+
+#player-controls .timer-remaining {
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	text-align:center;
+	font-size:1.5em;
+	color:#fff;
+	margin-top:.25em;
+}
+
+.capton {
+	color:#666;
+}
+
+.captoff {
+	color:#999;
+}
+
+#player-controls span.play-pause #icon-pause,
+#player-controls span.mute-unmute #icon-unmute,
+#player-controls span.toggle-captions #icon-capton,
+#player-controls span.play-pause.playing #icon-play,
+#player-controls span.mute-unmute.muted #icon-mute,
+#player-controls span.toggle-captions.captions-on #icon-captoff
+{
+	display:none;
+}
+
+#player-controls span.play-pause.playing #icon-pause,
+#player-controls span.mute-unmute.muted #icon-unmute,
+#player-controls .toggle-captions.captions-on #icon-capton
+{
+	display:inline;
+}
+
+#player-controls .scrubber-area, #player-controls .scrubber-area.fs-enabled {
+	min-width:50%;
+	width:60%;
+}
+
+#player-controls .scrubber {
+	width:100%;
+	height:3em;
+	margin:1em 0;
+	display:inline-block;
+}
+
+#player-controls .scrubber-area .scrubber-track {
+    background-color: #fff;
+	height: .75em;
+	margin-top:1em;
+    width:100%;
+	-webkit-border-radius: .5em; /* 12/19 */
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+#player-controls .scrubber-area .scrubber-thumb{
+	width:1.5em;
+	height:2.75em;
+	position:relative !important;
+	/*top:-1em;*/
+}
+
+#player-controls .scrubber-area .scrubber-thumb.enabled-control{
+	top:-1em;
+}
+
+/* -------------------------- SCROLL BAR ------------------------------- */
+
+#playlist-column-iScrollContainer .scrollbarV{
+	float: right;
+	height: 100%;
+	width: 1em;
+	background:#ccc;
+	position: relative;
+	z-index: 100;
+}
+
+#playlist-column-iScrollContainer .scrollbarV.touch{
+	width: 0.42em;
+	background:none;
+}
+
+#playlist-column-iScrollContainer .scrollbarV div{
+	background:#666;
+	border:solid 2px #ccc;
+}
+
+#playlist-column-iScrollContainer .scrollbarV.touch div{
+	border-radius:0.42em;
+	background:#ccc;
+	border:none;
+}
+
+/* -------------------------- PLAYLIST - GENERAL ----------------------- */
+
+#playlistBT-main #player, .playlist-main #player {
+	margin-bottom:1em;
+}
+
+/* -------------------------- PLAYLIST - LIST VIEW --------------------- */
+
+.playlist-main {
+	width:100%;
+}
+
+.playlist-main .playlist-left {
+	float:none;
+	width:100%;
+}
+
+.playlist-main .playlist-right {
+	float:none;
+	width:100%;
+	margin:0 0 1em 0;
+}
+
+.playlist-main #playlist-column {
+	list-style: none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+.playlist-main #playlist-column-iScrollContainer {
+	border:1px solid #ccc;
+    height: 31.5em;
+}
+
+.playlist-main #playlist-column .playlist-item{
+	padding: 0.571428571em;
+	margin:0;
+	color: #6E8988;
+	font-size: 0.8em;
+	font-family:sans-serif;
+	cursor: pointer;
+	border-bottom:1px solid #ccc;
+	overflow: hidden;
+}
+
+.playlist-main #playlist-column .playlist-item .thumb-container {
+	float:left;
+	width:55%;
+}
+
+.playlist-main #playlist-column .playlist-item .thumb-container img {
+	width:100%;
+}
+
+
+.playlist-main #playlist-column .playlist-item .video-info {
+	float:right;
+	width:37%;
+	margin-right:5%;
+}
+
+.playlist-main .playlist-item:hover,
+.playlist-main .playlist-item.selected {
+	background: #FFE960;
+}
+
+/* -------------------------- PLAYLIST - BUTTON VIEW ------------------- */
+
+#playlistBT-main {
+	width:100%;
+}
+
+#playlistBT-main #playlist-column {
+	list-style: none;
+	margin:0 0 1em 0;
+	padding:0 0 1em 0;
+	width:100%;
+	background-color:#e6e7e9;
+	overflow:hidden;
+}
+
+#playlistBT-main #playlist-column-iScrollContainer {
+/*    height: 31.5em;	use this to set up the button playlist to being  scrollable	*/
+}
+
+.playlist-main #playlist-column-iScrollContainer {
+	border:1px solid #ccc;
+    height: 31.5em;
+}
+
+#playlistBT-main #playlist-column .playlist-item{
+	display:block;
+	width:75%;
+	margin:0 auto;
+	padding-top:1.5em;
+	cursor: pointer;
+	overflow:hidden;
+}
+
+#playlistBT-main #playlist-column .playlist-item img {
+	width:97%;
+    border-radius: 20px;
+    border:2px solid #919191;
+}
+
+#playlistBT-main .playlist-item.selected img,
+#playlistBT-main .playlist-item:hover img {
+	border-color: #FFE960 !important;
+}
+
+
+
+#playlistBT-main #playlist-column .playlist-item h2 {
+	font-weight:bold;
+	font-size: .9em;
+	font-family:sans-serif;
+	line-height:1.4em;
+	margin:0;
+	padding:0;
+}
+
+
+#playlistBT-main #playlist-column .playlist-item .video-description {
+	font-size: .75em;
+	font-family:sans-serif;
+	line-height:1.2em;
+	margin:0;
+	padding:0;
+}
+
+/* PLUM ADDITIONS */
+
+.playlist-item.selected a {
+	background-color: #9e89e5 !important;
+	border-color:#9e89e5;
+}
+
+.playlist-item .highlight-icon {
+	display:none;
+}
+
+.playlist-item.selected .highlight-icon {
+	display:block;
+	width:30px;
+	right:10px;
+}
+
+#vidplaylist h3 {
+	margin-top:.6em;
+	margin-bottom:.6em;
+}
+
+/* ipad "fix" */
+/*
+#video-player {
+	min-height:530px;
+}
+
+
+#activity #video-player {
+	min-height:350px;
+}
+*/
+#vidwrapper {
+	width: 100%;
+	position: relative;
+	display:block;
+	height: 0;
+}
+
+#vidwrapper video, #vidwrapper embed, #vidwrapper object {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#player .widescreen { padding-bottom: 56.25%; } /* 4x3 would be 75% */
+
+/* override pbs overlay: */
+
+#vidwrapper > div { margin-top: 0 !important; }
+#vidwrapper div.overlay img { display: inline-block; }

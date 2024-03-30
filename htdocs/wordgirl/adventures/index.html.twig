@@ -1,0 +1,59 @@
+{% extends 'wordgirl/includes/templates/nonFlashWGPage.html.twig' %}
+{% set pageTitle = '. Videos | PBS KIDS GO!' %}
+{% set keywds = 'wordgirl, videos, adventures, huggy dance, may I have a word, favorite words, children, tv, television, cartoons' %}
+{% set desc = 'Watch WordGirl clips and full length shows. Be A Star in WordGirl, Scavenger Hunt, Butcherisms, May I Have a Word, Honey Bee Hunt.' %}
+
+
+{% block swfEmbedScript %}<script>            var flashvars = {};            flashvars.cdn_root = "/enablecdn/wordgirl/cdn_content/";            flashvars.site_root = "/wordgirl/";            flashvars.page_xml_url = "homepage.xml";            flashvars.content_swf_url = "VideosProxy.swf";            flashvars.framing = "comic";            flashvars.releaseEndIndex = 50;            flashvars.controlLayoutURL = "http://pbskids.org/producerplayer/data/metaLayout-GoSquare-AllControls.xml";            flashvars.playerSkinURL = "http://pbskids.org/producerplayer/swf/skins/skinKidsGoSquared_small.swf";            flashvars.releaseListSkinURL = "http://pbskids.org/producerplayer/swf/skins/skinKidsGoSquared.swf";            flashvars.IsClip = "false";            flashvars.dockBanner = "false";            flashvars.dockReleaseList = "left";            flashvars.playerWidth = 340;            flashvars.aspectRatio = "4:3";            flashvars.playerPaddingTop = 0;            flashvars.playerPaddingLeft = 0;            flashvars.releaseListWidth = 370;            flashvars.releaseListHeight = 310;            flashvars.releaseListPaddingTop = 0;            flashvars.releaseListPaddingLeft = 0;            flashvars.thumbnailWidth = 69;            flashvars.thumbnailHeight = 53;            flashvars.containerWidth = 780;            flashvars.containerHeight = 410;            flashvars.releaseCols = 1;            flashvars.playerColorScheme =                "<colorschemes>"+                    "<player>"+                    "<backgroundColor>0xd9b52d</backgroundColor>"+                    "<frameColor>0xcd8936</frameColor>"+                    "<controlColor>0xffffff</controlColor>"+                    "<controlBackgroundColor>0xefca3f</controlBackgroundColor>"+                    "<controlFrameColor>0xf4b84c</controlFrameColor>"+                    "<controlHighlightColor>0xffffff</controlHighlightColor>"+                    "<controlHoverColor>0xbc952c</controlHoverColor>"+                    "<controlSelectedColor>0xcd8936</controlSelectedColor>"+                    "<loadProgressColor>0xd9b52d</loadProgressColor>"+                    "<playProgressColor>0xb86028</playProgressColor>"+                    "<scrubberColor>0xf4b84c</scrubberColor>"+                    "<scrubberFrameColor>0xa5ce39</scrubberFrameColor>"+                    "<scrubTrackColor>0xd66f28</scrubTrackColor>"+                    "<textBackgroundColor>0xf68920</textBackgroundColor>"+                    "<textColor>0xffffff</textColor>"+                    "<subtitlesBackgroundColor>0x000000</subtitlesBackgroundColor>"+                    "</player>"+                    "</colorschemes>";            flashvars.releaseListColorScheme =                "<colorschemes>"+                    "<releaseList>"+                    "<backgroundColor>0xd9b52d</backgroundColor>"+                    "<frameColor>0xcd8936</frameColor>"+                    "<itemBackgroundColor>0xf78a1c</itemBackgroundColor>"+                    "<itemBackground2Color>0xf4b84c</itemBackground2Color>"+                    "<itemBackgroundHoverColor>0x2e440b</itemBackgroundHoverColor>"+                    "<itemBackgroundSelectedColor>0x2e440b</itemBackgroundSelectedColor>"+                    "<itemFrameColor>0xefca3f</itemFrameColor>"+                    "<textColor>0xffffff</textColor>"+                    "<text2Color>0xffffff</text2Color>"+                    "<textFrameColor>0xffffff</textFrameColor>"+                    "<textHoverColor>0xe4edce</textHoverColor>"+                    "<textSelectedColor>0xe4edce</textSelectedColor>"+                    "<thumbnailFrameColor>0xcd8936</thumbnailFrameColor>"+                    "<thumbnailFrameColor>0xcd8936</thumbnailFrameColor>"+                    "<scrollButtonColor>0xf4b84c</scrollButtonColor>"+                    "<scrollIconColor>0xffffff</scrollIconColor>"+                    "<scrollThumbColor>0xf4b84c</scrollThumbColor>"+                    "<scrollTrackColor>0xffffff</scrollTrackColor>"+                    "<scrollTrackFrameColor>0x78993E</scrollTrackFrameColor>"+                    "</releaseList>"+                    "</colorschemes>";            var params = {};            params.menu = "false";            params.wmode = "transparent";            params.allowFullScreen = "true";            params.bgcolor = "#1277C9";            params.allowscriptaccess = "always";            swfobject.embedSWF("/enablecdn/wordgirl/cdn_content/WordGirlShell.swf", "WordGirl", "960", "800", "10.0.0", false, flashvars, params);        </script>{% endblock %}
+
+
+{% set bodyTag = '<body ontouchstart=""></body>' %}
+
+
+{% block html5Content %}<div class="html5_content html5_wrapper">
+ <div class="html5 content video">
+  <div class="modules video">
+   <div class="banner module"><a class="pbskids item" href="http://pbskids.org/"> <img src="/wordgirl/cdn_content/images/html5/logos/logo_pbskids.png" alt="PBS Kids"> </a> <img src="/wordgirl/cdn_content/images/html5/desktop/modules/banner/video.png" class="centerpiece item video" alt="Video"> <a class="wordgirl item" href="/wordgirl/"> <img src="/wordgirl/cdn_content/images/html5/logos/logo_wordgirl.png" alt="WordGirl"> </a>
+   </div>
+   <div class="video video-player module">
+    <div id="player">
+     <div class="frame">
+      <video id="video-player"></video> <span class="timer-remaining">00:00</span>
+      <div class="scrubber">
+       <div class="scrubber-track"><button class="scrubber-thumb"></button>
+       </div>
+      </div>
+     </div>
+     <div id="controlrack"><span class="previous"> <button title="Previous"> <img src="/wordgirl/cdn_content/images/html5/video/previous.png" alt="Previous"> </button> </span> <span class="play-pause"> <button title="Play/Pause"> <img id="icon-play" src="/wordgirl/cdn_content/images/html5/video/play.png" alt="Play"> <img id="icon-pause" src="/wordgirl/cdn_content/images/html5/video/pause.png" alt="Pause" style="display: none;"> </button> </span> <span class="next"> <button title="Next"> <img src="/wordgirl/cdn_content/images/html5/video/next.png" alt="Next"> </button> </span> <button id="captions-button" title="Closed Captions">CC</button>
+     </div>
+    </div>
+    <div id="playlist-wrapper">
+     <ul id="now-playing-list">
+      <li class="playlistItem">
+       <div class="thumb-container"><img class="new-label" src="http://pbskids.org/video/img/new_sticker.png" alt="New"> <img class="thumbnailkidsgodefault" src=""> <span class="fullep-label"><span class="full-label">Full </span>Episode</span>
+       </div>
+       <div class="video-info"><span class="video-title"></span> (<span class="video-duration"></span>) <span class="video-expiration"></span>
+       </div></li>
+     </ul>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block flashContent %}<div class="flash_content" data-id="flash-content">
+ <div id="wrapper" class="flash">
+  <div id="WordGirl"></div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}<script>   $(function(){       var player, playlist;       function init(){           player = new org.pbskids.video.Player( "video-player", {               onPlayerComplete      : onPlayerComplete,               onVideoClick          : "toggle-fullscreen",               pauseToggleControl    : "#controlrack .play-pause",               captionsToggleControl : "#captions-button",               timerRemaining        : "#player .timer-remaining",               scrubber              : "#player .scrubber",               debugMode             : true,               onHoverOverlay        : {                   url:"http://pbskids.org/video/img/button_big.png",                   width:"58px", height:"30px",                   fs_url:"http://pbskids.org/video/img/button_small.png",                   fs_width:"78px"               },               loadingOverlay : {                   url:"http://pbskids.org/video/img/arrowspin.gif",                   swf:"http://pbskids.org/video/img/arrowspin.swf",                   width:"50px", height:"50px"               }           });       }       function onPlayerComplete(e){           if( e.success ){               finalize(e.player);           }           else {               console.log("Whoops! Something went wrong building the player: " + e.message);           }       }       function finalize(playerInstance){           playlist = new org.pbskids.video.PlayList(                   "now-playing-list",                   "playlistItem",                   playerInstance,                   {                       debugMode: true,                       loadingIndicator      : "http://pbskids.org/video/img/arrowspin.gif",                       loadMoreVideosMessage : "Show More Videos",                       loadMoreButtonClass   : "showmore-videos",                       previousVideoControl  : "#controlrack .previous",                       nextVideoControl      : "#controlrack .next"                   }           );           playlist.refresh();           $('#playlist-wrapper').fadeIn();       }       $(document).ready(function() {           if(!swfobject.getFlashPlayerVersion().release) {               init();           }       });   });    //test for touch events support and if not supported, attach .no-touch class to the HTML tag.    if ("ontouchstart" in document.documentElement) {        document.documentElement.className += " touch-device";    }</script>{% endblock %}
+
+
+{% set footerClass = 'footer video' %}

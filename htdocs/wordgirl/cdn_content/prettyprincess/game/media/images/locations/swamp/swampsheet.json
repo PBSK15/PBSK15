@@ -1,0 +1,43 @@
+{
+"images": ["swampsheet.png"],
+"frames": [
+
+    [518, 323, 252, 107], 
+    [2, 289, 171, 189], 
+    [589, 2, 174, 145], 
+    [765, 2, 165, 134], 
+    [175, 289, 108, 186], 
+    [518, 432, 297, 67], 
+    [285, 267, 231, 234], 
+    [518, 267, 232, 54], 
+    [495, 154, 139, 111], 
+    [229, 2, 264, 263], 
+    [2, 2, 225, 285], 
+    [636, 149, 111, 111], 
+    [765, 138, 151, 131], 
+    [495, 2, 92, 150], 
+    [817, 271, 83, 64]
+],
+"animations": {
+    
+        "swamp_alligator":[0], 
+        "swamp_burntwood":[1], 
+        "swamp_bush":[2], 
+        "swamp_dirtclump":[3], 
+        "swamp_fern":[4], 
+        "swamp_hole":[5], 
+        "swamp_owlfence":[6], 
+        "swamp_platform":[7], 
+        "swamp_rock":[8], 
+        "swamp_spookytree1":[9], 
+        "swamp_spookytree2":[10], 
+        "swamp_trap":[11], 
+        "swamp_tumbleweed":[12], 
+        "swamp_willow":[13], 
+        "willow_counter":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:a29ffb6f0924f3e5e89875372ba86b94:558d51eda1be59f4fc2faf2351f5f79a:8be6cecbf3bac5b8ba64bd5a76acd75f$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

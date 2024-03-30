@@ -1,0 +1,21 @@
+{
+"images": ["kb1.png"],
+"frames": [
+
+    [2, 1367, 911, 301], 
+    [2, 1013, 960, 352], 
+    [2, 2, 960, 600], 
+    [2, 604, 960, 407]
+],
+"animations": {
+    
+        "backgroundboxes":[0], 
+        "floor":[1], 
+        "lights":[2], 
+        "windows":[3]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:a1cbd270bb3aba88a14b9b0942da747b:b75795fd6400447c1dfdb59f739d0eea:6e710c5c2e3ae6b6dfca9cdf507bf8ab$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

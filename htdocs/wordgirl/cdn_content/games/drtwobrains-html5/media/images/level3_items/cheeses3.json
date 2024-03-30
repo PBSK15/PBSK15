@@ -1,0 +1,43 @@
+{
+"images": ["cheese_sheet.png"],
+"frames": [
+
+    [131, 43, 46, 48], 
+    [127, 93, 50, 29], 
+    [244, 2, 63, 32], 
+    [2, 2, 91, 38], 
+    [74, 91, 51, 23], 
+    [179, 98, 40, 28], 
+    [227, 74, 43, 37], 
+    [244, 36, 58, 36], 
+    [179, 42, 46, 54], 
+    [172, 2, 70, 38], 
+    [272, 74, 29, 46], 
+    [95, 2, 75, 39], 
+    [2, 42, 45, 76], 
+    [74, 43, 55, 46], 
+    [49, 42, 23, 60]
+],
+"animations": {
+    
+        "Beaker":[0], 
+        "Binoculars":[1], 
+        "Calculator":[2], 
+        "Goggles":[3], 
+        "Hammer":[4], 
+        "Light_Bulb":[5], 
+        "Magnet":[6], 
+        "Magnifying_Glass":[7], 
+        "Microscope":[8], 
+        "Notebook":[9], 
+        "Pulley":[10], 
+        "Recycling_Bin":[11], 
+        "Ruler":[12], 
+        "Scale":[13], 
+        "Thermometer":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:1154ca9bc82163879d99f7108f090212:939d230b284e10778fc540782bd7dfbe:8098e4d669d789230845ed7e8a2a62d8$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

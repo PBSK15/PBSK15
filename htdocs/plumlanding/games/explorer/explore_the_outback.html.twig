@@ -1,0 +1,125 @@
+{% extends 'plumlanding/includes/plumLandingPage.html.twig' %}
+{% set pageTitle = 'Games : Explore the Outback' %}
+
+
+{% block specialHead %}<link rel="stylesheet" type="text/css" href="css/explorer.css"><script type="text/javascript">
+	var world='desert';
+	var thisgamename='explore_the_outback';
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="plumpage" class="desertbg">
+ <div id="header"><!-- #bbinclude "navbar.incl"-->
+  <div id="navbar" class="boxedin">
+   <a name="navbar"></a>
+   <div class="row-group">
+    <div class="col-12"><a href="http://pbskids.org/" id="pbslogo"><img src="/plumlanding/i/common/pbskids_logo.svg" alt="PBS Kids"></a> <a href="/plumlanding/index.html" id="plumlogo"><img class="image-fluid" src="/plumlanding/i/common/plum_logo.svg" alt="Plum Landing"></a>
+     <ul id="nav">
+      <li class="gnav"><a href="/plumlanding/games/index.html" class="gnav-button selected">
+        <div class="nav-icon"><img src="/plumlanding/i/common/game_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble1_border.svg" alt="">
+        </div> <span class="gnav-text">Games</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/video/index.html" class="gnav-button ">
+        <div class="nav-icon bubble2"><img src="/plumlanding/i/common/video_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble2_border.svg" alt="">
+        </div> <span class="gnav-text">Video</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/ship/index.html" class="gnav-button ">
+        <div class="nav-icon bubble3"><img src="/plumlanding/i/common/ship_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble3_border.svg" alt="">
+        </div> <span class="gnav-text">The Ship</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/pictures/index.html" class="gnav-button ">
+        <div class="nav-icon"><img src="/plumlanding/i/common/pictures_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble1_border.svg" alt="">
+        </div> <span class="gnav-text">Pictures</span> </a></li>
+      <li class="gnav" id="loginnav"><a id="mystuff" class="gnav-button" data-action="pbskids-login-sign-in">
+        <div id="myicon" class="nav-icon bubble3"><img src="/plumlanding/i/common/mystuff_icon.svg" alt="My Stuff">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble3_border.svg" alt="">
+        </div> <span class="gnav-text">Sign In</span></a></li>
+     </ul>
+     <div id="pe"><a href="/plumlanding/parents/index.html" class="btn-alt btn-small">Parents</a> <a href="/plumlanding/educators/index.html" class="btn-alt btn-small">Educators</a>
+     </div>
+    </div>
+   </div>
+  </div> <!-- end bbinclude -->
+ </div> <!-- end header -->
+ <div id="middle">
+  <hr class="fadeout">
+  <div id="content">
+   <div class="boxedin headless">
+    <div id="game" class="card"><img id="splashimg" class="fullsize" src="i/explore_the_outback.jpg" width="988" height="556" alt="Explore the Outback">
+     <canvas id="explorergame" class="fullsize" width="988" height="556"></canvas>
+    </div>
+    <div class="row-group centered">
+     <div class="col-4 nofloat"><a class="thumb-highlight" href="../index.html"> <img class="image-fluid" src="../i/more_games.jpg" alt="More Games"> </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <hr class="fadefooter">
+ <div id="footer"><!-- #bbinclude "footer.incl" #nojq#=1-->
+  <div class="boxedin">
+   <div class="row-group">
+    <div class="col-12">
+     <div>
+      <ul id="footernav">
+       <li><a href="/plumlanding/index.html">Home</a></li>
+       <li><a href="/plumlanding/games/index.html">Games</a></li>
+       <li><a href="/plumlanding/video/index.html">Video</a></li>
+       <li><a href="/plumlanding/ship/index.html">The Ship</a></li>
+       <li><a href="/plumlanding/pictures/index.html">Pictures</a></li>
+       <li><a href="/plumlanding/mystuff/index.html">My Stuff</a></li>
+       <li><a href="/plumlanding/parents/index.html">Parents</a></li>
+       <li class="end"><a href="/plumlanding/educators/index.html">Educators</a></li> <br>
+       <li><a href="http://www.sgptv.org/programs/program/plum-landing/">Program Sponsorship</a></li>
+       <li><a href="/plumlanding/educators/partners.html">Partners</a></li>
+       <li><a href="/plumlanding/about/index.html">About</a></li>
+       <li><a href="/plumlanding/about/sitemap.html">Site Map</a></li>
+       <li><a href="/plumlanding/about/contact.html">Contact Us</a></li>
+       <li><a href="http://pbskids.org/privacy/">Privacy Policy</a></li>
+      </ul>
+     </div>
+    </div>
+    <div class="col-12"><a href="/plumlanding/about/copyright.html" class="fineprint">© 2015 WGBH Educational Foundation</a>
+    </div>
+   </div>
+  </div> <!-- end bbinclude -->
+ </div>
+ <script type="text/javascript" src="../../js/createJS/easeljs-0.7.0.min.js"></script>
+ <script type="text/javascript" src="../../js/createJS/flashplugin-0.5.1.min.js"></script>
+ <script type="text/javascript" src="../../js/createJS/tweenjs-0.5.1.min.js"></script>
+ <script type="text/javascript" src="../../js/createJS/soundjs-0.5.1.min.js"></script>
+ <script type="text/javascript" src="../../js/createJS/preloadjs-0.3.1.min.js"></script>
+ <script type="text/javascript" src="../../js/createJS/movieclip-0.7.0.min.js"></script>
+ <script type="text/javascript" src="js/plumlib/Vect.js"></script>
+ <script type="text/javascript" src="js/plumlib/GameBits.js"></script>
+ <script type="text/javascript" src="js/explorerclasses.js"></script>
+ <script type="text/javascript" src="js/fpc/Camera.js"></script>
+ <script type="text/javascript" src="js/plumlib/Critter.js"></script>
+ <script type="text/javascript" src="js/plumlib/PlumPuppet.js"></script>
+ <script type="text/javascript" src="js/fpc/DisplayElement.js"></script>
+ <script type="text/javascript" src="js/fpc/BGDisplayElement.js"></script> <!--script type="text/javascript" src="js/StaticDisplayElement.js"></script>
+<script type="text/javascript" src="js/MovingDisplayElement.js"></script>
+<script type="text/javascript" src="js/WigglingDisplayElement.js"></script-->
+ <script type="text/javascript" src="js/plumlib/CharacterSound.js"></script>
+ <script type="text/javascript" src="js/fpc/Background.js"></script>
+ <script type="text/javascript" src="js/fpc/GroundShape.js"></script>
+ <script type="text/javascript" src="js/fpc/Mesh.js"></script>
+ <script type="text/javascript" src="js/fpc/ContourSlice.js"></script>
+ <script type="text/javascript" src="js/plumlib/TickerText.js"></script>
+ <script type="text/javascript" src="js/Config.js"></script>
+ <script type="text/javascript" src="js/easelexplorer.js"></script>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}<script type="text/javascript" src="../../js/createJS/easeljs-0.7.0.min.js"></script><script type="text/javascript" src="../../js/createJS/flashplugin-0.5.1.min.js"></script><script type="text/javascript" src="../../js/createJS/tweenjs-0.5.1.min.js"></script><script type="text/javascript" src="../../js/createJS/soundjs-0.5.1.min.js"></script><script type="text/javascript" src="../../js/createJS/preloadjs-0.3.1.min.js"></script><script type="text/javascript" src="../../js/createJS/movieclip-0.7.0.min.js"></script><script type="text/javascript" src="js/plumlib/Vect.js"></script><script type="text/javascript" src="js/plumlib/GameBits.js"></script><script type="text/javascript" src="js/explorerclasses.js"></script><script type="text/javascript" src="js/fpc/Camera.js"></script><script type="text/javascript" src="js/plumlib/Critter.js"></script><script type="text/javascript" src="js/plumlib/PlumPuppet.js"></script><script type="text/javascript" src="js/fpc/DisplayElement.js"></script><script type="text/javascript" src="js/fpc/BGDisplayElement.js"></script><script type="text/javascript" src="js/plumlib/CharacterSound.js"></script><script type="text/javascript" src="js/fpc/Background.js"></script><script type="text/javascript" src="js/fpc/GroundShape.js"></script><script type="text/javascript" src="js/fpc/Mesh.js"></script><script type="text/javascript" src="js/fpc/ContourSlice.js"></script><script type="text/javascript" src="js/plumlib/TickerText.js"></script><script type="text/javascript" src="js/Config.js"></script><script type="text/javascript" src="js/easelexplorer.js"></script>{% endblock %}
+

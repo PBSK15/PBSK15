@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Bampy Botsford]]></title>
+	<description><![CDATA[Bampy Botsford, Becky and TJ's paternal grandfather is a spry older gentleman who tells great stories!  He believes in using simple tools, rather than crazy technology, to beat the bad guys.  What makes him extra special is that he's the only person (besides Captain Huggy Face) who knows WordGirl's secret identity.  This brings the two of them even closer together as they work as a team to battle the villains.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_bampy.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/bampy.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|coloring/bampy.pdf" iconURL="images/heroVillain/character/activity_coloring_bampy.png" title="Coloring Page"/>
+		<activity id="printables|bookmarks/bampy.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

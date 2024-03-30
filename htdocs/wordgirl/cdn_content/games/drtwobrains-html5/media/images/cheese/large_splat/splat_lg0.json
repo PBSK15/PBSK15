@@ -1,0 +1,15 @@
+{
+"images": ["splat_lg0.png"],
+"frames": [
+
+    [2, 2, 1071, 1202]
+],
+"animations": {
+    
+        "cheese-splash_0009_splash0011.png":[0]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:b34e5d632614d435b9ea54c42a1af6ff:f3caeeb146195ec23524f4448c41079d:8d80aff441c3f8c4a083c2671431a197$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

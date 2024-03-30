@@ -1,0 +1,35 @@
+<div class="swiffy characters module">
+    <a href="/wordgirl/heroes-villains/" class="character huggy"></a>
+    <a href="/wordgirl/heroes-villains/" class="character dr2brains"></a>
+    <a href="/wordgirl/heroes-villains/" class="character tobey"></a>
+    <a href="/wordgirl/heroes-villains/" class="character tj"></a>
+    <a href="/wordgirl/heroes-villains/" class="character chuck"></a>
+    <a href="/wordgirl/heroes-villains/" class="character whammer"></a>
+    <a href="/wordgirl/heroes-villains/" class="character violet"></a>
+    <a href="/wordgirl/heroes-villains/" class="character butcher"></a>
+    <a href="/wordgirl/heroes-villains/" class="character granny"></a>
+    <a href="/wordgirl/heroes-villains/" class="character toddscoops"></a>
+    <a href="/wordgirl/heroes-villains/" class="character mrbig"></a>
+    <a href="/wordgirl/heroes-villains/" class="character ladyredundant"></a>
+    <a href="/wordgirl/heroes-villains/" class="character timbotsford"></a>
+    <a href="/wordgirl/heroes-villains/" class="character sallybotsford"></a>
+    <a href="/wordgirl/heroes-villains/" class="character birthdaygirleileen"></a>
+</div>
+
+<script>
+    $(function() {
+        $('.character').each(function() {
+            var characterImage = $(this).css('background-image').replace('url(','').replace(')','').replace(/\"/g,'');
+            $('<img>').attr('src', characterImage).load(function() {
+                //console.log('loaded: ', characterImage);
+            });
+        });
+
+        function fadeNext() {
+            $('.character').first().hide().appendTo($('.characters'));
+            $('.character').first().show();
+        }
+
+        var rotate = setInterval(fadeNext, 2500);
+    });
+</script>

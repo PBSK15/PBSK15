@@ -1,0 +1,625 @@
+/*
+
+Site:     	PBS KIDS - LESS Template (replace w/ actual site/project name)
+Author:     Miguel Montanez | PBS KIDS Digital
+Date:       26 Jan 2013
+
+/* ==|== PBS Defaults & Meyer Reset ============================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	background: transparent url('../images/background-room.png') no-repeat center center;
+	background-size: cover;
+	line-height: 1;
+	color: black;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+/* ==|== PBS Defaults (via pbs-kids.mixins.less) ================================ */
+.center-block {
+	display: block;
+	margin: 0 auto;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+	zoom: 1;
+}
+.container:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+/* ==|== Primary Syles ========================================================== */
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+body.loading-screen{
+	height: 100% !important;
+}
+
+body {
+	font-family: Colfax-Regular, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.4;
+	font-style: normal;
+}
+/* links*/
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #ff9900;
+}
+a:focus,
+a:hover,
+a:active {
+	text-decoration: underline;
+	color: #cc7a00;
+}
+a:focus img,
+a:hover img {
+	border: none;
+	outline: none;
+}
+
+.pbsTextArea span[style*="font-family"][style*="Raphael-Icons"]{
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-family: 'Raphael-Icons';
+	font-size: 2.5em;
+	position: relative;
+	top: 0.3em;
+	left: 0.1em;
+	line-height: 0;
+	text-shadow: none;
+	opacity: 0;
+	background-size: 100%;
+}
+
+.silent .pbsTextArea span[style*="font-family"][style*="Raphael-Icons"]{
+	opacity: .25;
+}
+
+.silent .pbsTextArea:hover span[style*="font-family"][style*="Raphael-Icons"]{
+	opacity: 1;
+}
+
+/* layout
+---------------------------------------- */
+#pbsStorybookPlayer {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.loadingContainer {
+	position: absolute;
+	top: -85px;
+	left: 0;
+	height: 131% !important;
+}
+
+.book-loaded #pbsStorybookPlayer:after{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	top: 81%;
+	height: auto;
+	width: 100%;
+	left: 0;
+	z-index: 0;
+}
+
+@media only screen and (max-height: 768px){
+	.book-loaded #pbsStorybookPlayer:after {
+		display: none;
+	}
+}
+
+#loadingText {
+	display: none;
+}
+
+#pbsStorybookContainer {
+	min-height: 550px;
+	max-height: 800px;
+	overflow: visible !important;
+	height: 80% !important;
+	margin-top:85px;
+	float: left;
+}
+
+#pbsBookWrapper {
+	min-height: 683px;
+	max-height: 815px;
+}
+
+#pbsBookContainer {
+	position: relative;
+	z-index: 2;
+}
+
+.pbsStorybookNav {
+	width: 100% !important;
+	height: 0;
+	position: absolute;
+	z-index: 3;
+	top: 40%;
+}
+#landscape-modal {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	display:none;
+	z-index: 1000;
+}
+#landscape-modal h1 {
+	display: block;
+	margin: 29% auto;
+	color: #fff;
+	font-size: 46px;
+	text-align: center;
+}
+
+/* Control Bar */
+
+#pbsStorybookControls{
+	display: block;
+	width: 90%;
+	height: 50px;
+	position: fixed;
+	left: 50%;
+	margin-left: -45%;
+	z-index: 1000;
+	overflow: visible;
+}
+
+#pbsStorybookControls .brand{
+	display: block;
+	float: left;
+	padding: 20px 14px 0;
+	margin: -20px 0 0 -14px;
+	width: 70px;
+	height: 87px;
+
+	background: #8BD8D8;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8BD8D8), color-stop(1, #6DB5B4));
+	background: -ms-linear-gradient(bottom, #8BD8D8, #6DB5B4);
+	background: -moz-linear-gradient(center bottom, #8BD8D8 0%, #6DB5B4 100%);
+	background: -o-linear-gradient(#6DB5B4, #8BD8D8);
+
+	border-bottom: 4px solid #45918F;
+
+	border-radius: 56px 0px 50px 50px;
+}
+
+#pbsStorybookControls .brand em{
+	position: absolute;
+	left: -999em;
+}
+
+#pbsStorybookControls .brand img{
+	margin: 4px 0 0;
+}
+
+
+#pbsStorybookControls .show-brand{
+	position: absolute;
+	width: 330px;
+	left: 50%;
+	margin-left: -165px;
+	top: 0;
+	height: 75px;
+}
+
+
+#pbsStorybookControls .show-logo{
+	display: block;
+	width: 98%;
+	margin: 0 1%;
+	height: 91%;
+	text-align: center;
+	background: rgba(0,0,0,.05);
+}
+
+#pbsStorybookControls .show-logo img{
+	width: 80%;
+	margin-top: 4px;
+}
+
+#pbsStorybookControls .show-logo em{
+	position: absolute;
+	left: -999em;
+}
+
+
+#pbsStorybookControls,
+#pbsStorybookControls .show-brand{
+	background: #8BD8D8;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8BD8D8), color-stop(1, #6DB5B4));
+	background: -ms-linear-gradient(bottom, #8BD8D8, #6DB5B4);
+	background: -moz-linear-gradient(center bottom, #8BD8D8 0%, #6DB5B4 100%);
+	background: -o-linear-gradient(#6DB5B4, #8BD8D8);
+	border-bottom: 4px solid #45918F;
+}
+
+
+
+/* Book Frame Wrapper */
+#pbsBookWrapper{
+	overflow: visible !important;
+}
+
+
+
+.on-internal img.book-frame,
+.on-cover img.book-frame.cover{
+display: block;
+}
+
+.on-internal.to-cover img.book-frame,
+.on-internal img.book-frame.cover,
+.on-cover.transitioning img.book-frame.cover{
+display: none;
+}
+
+img.book-frame{
+position: absolute;
+z-index: 1000;
+display: none;
+}
+
+img.book-frame.cover{
+display: block;
+width: 111.7%;
+margin: -2px 0 0 -7.4%;
+z-index: -1;
+}
+
+img.book-frame.full{
+z-index: -1;
+width: 104%;
+left: -2%;
+top: -0.8%;
+height: 106.4%;
+}
+
+img.book-frame.top,
+img.book-frame.bottom{
+width: 100.1%;
+height: auto;
+left: 0;
+z-index: 1001;
+}
+
+img.book-frame.top{
+top: -.8%;
+}
+
+img.book-frame.bottom{
+bottom: -2.5%;
+}
+
+
+
+#pbsStorybookContainer .pbsPagesContainer{
+	border: none;
+	box-shadow: none;
+}
+
+#pbsStorybookContainer .pbsPageTurnContainer,
+#pbsStorybookContainer .pbsRightPageTurnGradient,
+#pbsStorybookContainer .pbsLeftPageTurnGradient{
+	border: none;
+}
+
+
+@media only screen and (max-height: 900px){
+
+}
+
+@media only screen and (max-width: 1175px){
+
+}
+
+@media only screen and (max-device-width: 1024px) and (orientation:landscape) {
+	#landscape-modal{
+		display: none;
+	}
+	#pbsBookWrapper,
+	#pbsStorybookControls,
+	.pbsStorybookNav,
+	.loadingContainer,
+	#pbsStorybookPlayer:after{
+		opacity: 1;
+	}
+
+}
+
+@media only screen and (max-device-width: 768px) and (orientation:portrait) {
+	#pbsBookWrapper,
+	#pbsStorybookControls,
+	.pbsStorybookNav,
+	.loadingContainer,
+	#pbsStorybookPlayer:after{
+		opacity: 0;
+	}
+	#landscape-modal {
+		display: block;
+	}
+    #progressWrapper {
+	    display: none;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (max-height: 767px){
+	#pbsStorybookContainer {
+		margin-top: 0;
+	}
+
+	#pbsBookWrapper {
+		min-height: 100%;
+		max-height: 100%;
+		top: 0;
+		position: absolute;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	#pbsStorybookContainer {
+		min-height: 300px;
+		margin-top: 10px;
+	}
+	#pbsStorybookControls{
+		background: none;
+		border: none;
+		width: 100%;
+		height: 0;
+		left: 0;
+		margin: 0;
+	}
+
+	#pbsStorybookControls .show-brand{
+		display: none;
+	}
+
+	#pbsStorybookControls .exit-btn {
+		border: none;
+		background-color: rgba(0, 0, 0, 0.2);
+		padding: 2px;
+		border-radius: 20px;
+		width: 54px;
+		height: 54px;
+		right: 6px;
+		zoom: .85;
+	}
+	#pbsStorybookControls .brand {
+		padding: 0;
+		width: 58px;
+		height: auto;
+		background: transparent;
+		border: none;
+		margin: 0 10px;
+	}
+
+	#pbsStorybookControls .brand img{
+		margin: 0;
+		width: 100%;
+	}
+
+	.pbsStorybookNav{
+		zoom: .6;
+		top: 42%;
+	}
+
+	.loadingContainer {
+		zoom: .5;
+	}
+
+	.on-last-page #replay-book-btn,
+	#replay-book-btn{
+		display: none !important;
+	}
+}
+
+
+/* WOBBLE */
+@-webkit-keyframes wobble {
+	0% { -webkit-transform: scale(1.1); }
+	45% { -webkit-transform: scale(0.95); }
+	100% { -webkit-transform: scale(1.0); }
+}
+@-moz-keyframes wobble {
+	0% { -moz-transform: scale(1.0); }
+	45% { -moz-transform: scale(0.95); }
+	100% { -moz-transform: scale(1.0); }
+}
+@keyframes wobble {
+	0% { transform: scale(1.1); }
+	45% { transform: scale(0.95); }
+	100% { transform: scale(1.0); }
+}
+
+
+.pbsPageButton:hover canvas {
+	cursor: pointer;
+}
+
+/* safari and chrome */
+@-webkit-keyframes wiggle {
+	0% {-webkit-transform:rotate(4deg);}
+	50% {-webkit-transform:rotate(-4deg);}
+	100% {-webkit-transform:rotate(4deg);}
+}
+
+/* firefox */
+@-moz-keyframes wiggle {
+	0% {-moz-transform:rotate(4deg);}
+	50% {-moz-transform:rotate(-4deg);}
+	100% {-moz-transform:rotate(4deg);}
+}
+
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+	0% {transform:rotate(4deg);}
+	50% {transform:rotate(-4deg);}
+	100% {transform:rotate(4deg);}
+}
+
+
+/* safari and chrome */
+@-webkit-keyframes turnandsnap {
+	0% {-webkit-transform:rotate(0deg);}
+	80% {-webkit-transform:rotate(-90deg);}
+	94% {-webkit-transform:rotate(4deg);}
+	97% {-webkit-transform:rotate(-4deg);}
+	100% {-webkit-transform:rotate(0deg);}
+}
+
+/* firefox */
+@-moz-keyframes turnandsnap {
+	0% {-moz-transform:rotate(0deg);}
+	75% {-moz-transform:rotate(-90deg);}
+	94% {-moz-transform:rotate(4deg);}
+	97% {-moz-transform:rotate(-4deg);}
+	100% {-moz-transform:rotate(0deg);}
+}
+
+/* anyone brave enough to implement the ideal method */
+@keyframes turnandsnap {
+	0% {transform:rotate(0deg);}
+	75% {transform:rotate(-90deg);}
+	94% {transform:rotate(4deg);}
+	97% {transform:rotate(-4deg);}
+	100% {transform:rotate(0deg);}
+}
+
+
+#rotate-device-icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 85%;
+	margin: -36% 0 0 -42.5%;
+
+	-webkit-animation: turnandsnap 5s infinite;
+	-moz-animation: turnandsnap 5s infinite;
+	animation: turnandsnap 5s infinite;
+}
+
+.speaker,
+.playSoundOnPress,
+.page1_item,
+.page1_items,
+.page2_item,
+.page2_items,
+.page3_item,
+.page3_items,
+.page4_item,
+.page4_items,
+.page5_item,
+.page5_items,
+.page6_item,
+.page6_items,
+.page7_item,
+.page7_items,
+.page8_item,
+.page8_items {
+	cursor: pointer;
+}
+
+@keyframes fadeInAndOut
+{
+	0% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:0;}
+}
+
+@-moz-keyframes fadeInAndOut /* Firefox */
+{
+	0% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:0;}
+}
+
+@-webkit-keyframes fadeInAndOut /* Safari and Chrome */
+{
+	0% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:0;}
+}
+
+@-o-keyframes fadeInAndOut /* Opera */ {
+	0% {opacity:0;}
+	50% {opacity:1;}
+	100% {opacity:0;}
+}
+
+.blank_box {
+	opacity: 0;
+	-webkit-animation: fadeInAndOut 3s infinite; /* Safari 4+ */
+	-moz-animation:    fadeInAndOut 3s infinite; /* Fx 5+ */
+	-o-animation:      fadeInAndOut 3s infinite; /* Opera 12+ */
+	animation:         fadeInAndOut 3s infinite; /* IE 10+ */
+}

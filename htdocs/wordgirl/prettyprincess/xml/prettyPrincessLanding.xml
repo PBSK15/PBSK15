@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<pageResources>
+	<assetLocation><![CDATA[prettyprincess/assets/]]></assetLocation>
+	<resources>
+		<resource id="happyPrincess" URL="PP_happy.swf" type="movieclip"/>
+		<resource id="sadPrincess" URL="PP_sad.swf" type="movieclip"/>
+		<resource id="flatPrincess" URL="PP_flat.swf" type="movieclip"/>
+		<!--<resource id="happyCloudy" URL="CC_happy.swf" type="movieclip"/>
+		<resource id="sadCloudy" URL="CC_sad.swf" type="movieclip"/>
+		<resource id="flatCloudy" URL="CC_flat.swf" type="movieclip"/>-->
+		<resource id="staticCloudy" URL="staticCloudy.png" type="image"/>
+		<resource id="castle" URL="castleBackground.png" type="image"/>
+		<resource id="dragon" URL="dragon.png" type="image"/>
+		<resource id="princess" URL="princess.png" type="image"/>
+		<resource id="cloud1" URL="cloud1.png" type="image"/>
+		<resource id="cloud2" URL="cloud2.png" type="image"/>
+		<resource id="cloud3" URL="cloud3.png" type="image"/>
+		<resource id="cloud1text" URL="text_games.png" type="image"/>
+		<resource id="cloud2text" URL="text_printables.png" type="image"/>
+		<resource id="cloud3text" URL="text_videos.png" type="image"/>
+		<!--<resource id="games_cloudy" URL="game_cloudy.mp3" type="sound"/>
+		<resource id="printables_cloudy" URL="printables_cloudy.mp3" type="sound"/>
+		<resource id="videos_cloudy" URL="videos_cloudy.mp3" type="sound"/>
+		<resource id="games_princess" URL="game_princess.mp3" type="sound"/>
+		<resource id="printables_princess" URL="printables_princess.mp3" type="sound"/>
+		<resource id="videos_princess" URL="videos_princess.mp3" type="sound"/>-->
+		<resource id="games_princess" URL="game_VO.mp3" type="sound"/>
+		<resource id="printables_princess" URL="printables_VO.mp3" type="sound"/>
+		<resource id="videos_princess" URL="videos_VO.mp3" type="sound"/>
+	</resources>
+</pageResources>

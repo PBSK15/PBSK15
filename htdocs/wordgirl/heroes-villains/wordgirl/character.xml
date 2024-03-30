@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Becky/WordGirl]]></title>
+	<description><![CDATA[WordGirl is actually mild-mannered 5th grader Becky Botsford in disguise! Becky left Planet Lexicon as an infant and arrived on Earth when her spaceship crash-landed. By age 2, she was completing crossword puzzles and already knew every word in the dictionary (and most hieroglyphics, too). Crime doesn't pay, but knowing the right word for the right moment is priceless!]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_wordgirl.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/wordgirl.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="prettyprincessgame" iconURL="images/heroVillain/princess/prettyprincess_game.png" title="Magical Rescue"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+		<activity id="scavenger" iconURL="images/heroVillain/character/activity_scavenger.png" title="Scavenger Hunt"/>
+		<activity id="freezeframe" iconURL="images/heroVillain/character/activity_freezeframe.png" title="Freeze Frame"/>
+		<activity id="buildalair" iconURL="images/heroVillain/character/activity_buildalair.png" title="Build-A-Lair"/>
+		<activity id="printables|wordGirl_CGeasy.pdf" iconURL="images/heroVillain/character/activity_cryptogram_easy.png" title="Cryptogram Easy"/>
+		<activity id="printables|wordGirl_CGhard.pdf" iconURL="images/heroVillain/character/activity_cryptogram_hard.png" title="Cryptogram Hard"/>
+		<activity id="printables|wordGirl_CW.pdf" iconURL="images/heroVillain/character/activity_crossword.png" title="Cross Word"/>
+		<activity id="printables|wordGirl_WF.pdf" iconURL="images/heroVillain/character/activity_wordfind.png" title="Word Find"/>
+		<activity id="printables|wordGirl_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="printables|wordGirl_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_wordgirl.png" title="Coloring Page"/>
+		<activity id="printables|wordGirl_WS.pdf" iconURL="images/heroVillain/character/activity_wordscramble.png" title="Word Scramble"/>		
+	</activities>
+</gameResources>

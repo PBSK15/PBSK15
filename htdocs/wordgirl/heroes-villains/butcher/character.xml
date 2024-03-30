@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[The Butcher]]></title>
+	<description><![CDATA[The Butcher is a crook who “butchers” the English language. He mangles words or makes them up altogether. As a result, his cons are a complete debacle, or as he would say, a "dark buckle". He also has complete control over all meat and most meat by-products.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_butcher.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/butcher.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|butcher_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_butcher.png" title="Coloring Page"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+		<activity id="printables|butcher_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="freezeframe" iconURL="images/heroVillain/character/activity_freezeframe.png" title="Freeze Frame"/>
+		<activity id="butcherisms" iconURL="images/heroVillain/character/activity_butcherisms.png" title="Butcherisms"/>
+		<activity id="scavenger" iconURL="images/heroVillain/character/activity_scavenger.png" title="Scavenger Hunt"/>
+		<activity id="buildalair" iconURL="images/heroVillain/character/activity_buildalair.png" title="Build-A-Lair"/>
+	</activities>
+</gameResources>

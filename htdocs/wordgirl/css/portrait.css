@@ -1,0 +1,579 @@
+
+body.portrait {
+	background: #1277c9;
+}
+
+.portrait .content {
+	background: none;
+	padding: 0 0 0 0;
+	width: 770px;
+	height: 1240px;
+	margin-left: -395px;
+	border-left: 10px solid #1277c9;
+	border-right: 10px solid #1277c9;
+}
+
+.portrait .content.heroesVillains {
+	height: 940px;
+}
+.portrait .content.home {
+	height: 1220px;
+}
+.portrait .content.games {
+	height: 1440px;
+}
+.portrait .content.game {
+	height: 660px;
+}
+.portrait .content .modules {
+	background: #ffffff;
+	height: 1190px;
+	width: 770px;
+}
+
+.portrait .content .modules.games {
+	background: none;
+	height: 2195px;
+	width: 770px;
+}
+
+.portrait .content .modules.heroesVillains {
+	height: 940px;
+	background: url('/wordgirl/cdn_content/characters/mobile/character-background.png') no-repeat;
+}
+.portrait .content .modules .module.banner {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/banner/background.png") center center no-repeat;
+	top: 5px;
+	width: 737px;
+	height: 111px;
+	overflow: hidden;
+}
+.portrait .content .modules .module.banner .item.centerpiece {
+	left: 221px;
+}
+.portrait .content .modules .module.banner .item.centerpiece.home {
+	clip: rect(0px, 250px, 124px, 0px);
+}
+.portrait .content .modules .module.banner .item.centerpiece.games,
+.portrait .content .modules .module.banner .item.centerpiece.video {
+	left: 270px;
+	top: 20px;
+}
+.portrait .content .modules .module.banner .item.centerpiece.heroesVillains {
+	left: 201px;
+	top: 10px;
+}
+.portrait .content .modules .module.banner .item.centerpiece.sparkletopia {
+	left: 230px;
+	top: 30px;
+}
+.portrait .content .modules .module.banner .item.centerpiece.storybook {
+	left: 240px;
+	top: 30px;
+}
+.portrait .content .modules .module.banner .item.pbskids {
+	top: 14px;
+}
+.portrait .content .modules .module.banner .item.wordgirl {
+	left: 566px;
+	top: 14px;
+}
+.portrait .content .modules .module.game {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/game/background.png") center center no-repeat;
+	width: 737px;
+	height: 452px;
+	top: 120px;
+}
+.portrait .content .modules .module.game.storybook {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/game/storybook.png") center center no-repeat;
+	width: 737px;
+	height: 460px;
+}
+.portrait .content .modules .module.video.video-player {
+	top: 127px;
+}
+.portrait .content .modules .module.video.video-player #player {
+	left: 65px;
+}
+.portrait .content .modules .module.video.video-player #playlist-wrapper {
+	left: 125px;
+	top: 525px;
+}
+.portrait .content .modules .module.video.video-player #playlist-wrapper #now-playing-list {
+	width: 510px;
+}
+.portrait .content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem {
+	width: 475px;
+}
+.portrait .content .modules .module.video.video-player #playlist-wrapper #now-playing-list .playlistItem .video-info {
+	width: 390px;
+}
+.portrait .content .modules .module.video.video-player #playlist-wrapper #now-playing-list-iScrollContainer {
+	height: 480px;
+}
+
+.portrait .wordgirl_animation_wrapper {
+	top: 225px;
+	left: 5px;
+	overflow: hidden;
+	width: 735px !important;
+	height: 585px !important;
+	position: relative;
+}
+
+.portrait .content .modules .module.swiffy.wordgirl {
+	border: none !important;
+	-webkit-overflow-scrolling: touch;
+	-moz-overflow-scrolling: touch;
+	-o-overflow-scrolling: touch;
+	-ms-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+.portrait .content .modules .module.swiffy.characters {
+	width: 733px;
+	height: 328px;
+	top: 830px;
+	left: 5px;
+}
+.portrait .content .modules .module.swiffy.characters .character {
+	top: 0px;
+	width: 733px;
+	height: 328px;
+	display: none;
+	position: absolute;
+}
+
+.portrait .content.heroesVillains .modules .module.swiffy.characters,
+.portrait .content.heroesVillains .modules .module.swiffy.characters .character {
+	display: none !important;
+}
+
+.portrait .content .modules .module.swiffy.characters .character.huggy {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/huggy.png") no-repeat;
+	display: block;
+}
+.portrait .content .modules .module.swiffy.characters .character.dr2brains {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/dr2brains.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.tobey {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/tobey.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.tj {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/tj.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.chuck {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/chuck.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.whammer {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/whammer.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.violet {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/violet.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.butcher {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/butcher.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.granny {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/granny.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.toddscoops {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/toddscoops.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.mrbig {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/mrbig.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.ladyredundant {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/ladyredundant.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.timbotsford {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/timbotsford.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.sallybotsford {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/sallybotsford.png") no-repeat;
+}
+.portrait .content .modules .module.swiffy.characters .character.birthdaygirleileen {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/birthdaygirleileen.png") no-repeat;
+}
+
+
+.portrait #character-wrapper {
+		background: transparent;
+		width: 770px;
+		height: 720px;
+		top: 230px;
+		left: 0;
+	}
+
+.portrait #character-wrapper-inner {
+		position: absolute;
+		z-index: 1;
+		top: 13px;
+		left: 10px;
+		width: 755px;
+		height: 720px;
+		overflow: auto;
+	}
+
+.portrait #scroller ul {
+		list-style:none;
+		padding:0;
+		margin:0;
+		width:100%;
+		text-align:left;
+	}
+
+.portrait #scroller li {
+		height: 678px;
+		width: 750px;
+		margin: 0 10px 25px 0;
+		position: relative;
+	}
+
+.portrait #scroller li .character-title-image,
+.portrait #scroller li.left .character-title-image,
+.portrait #scroller li.right .character-title-image {
+		position: absolute;
+		left: 70px;
+		top: 360px;
+	}
+
+.portrait #scroller li .character-image,
+.portrait #scroller li.left .character-image,
+.portrait #scroller li.right .character-image {
+		position: absolute;
+		width: 733px;
+		height: 328px;
+		top: 14px;
+		left: 7px;
+	}
+
+.portrait #scroller li.left,
+.portrait #scroller li.right {
+		background: url('/wordgirl/cdn_content/characters/mobile/character-container.png') 36px 275px no-repeat;
+	}
+
+.portrait #scroller li .description,
+.portrait #scroller li.left .description,
+.portrait #scroller li.right .description {
+		left: 70px;
+		top: 420px;
+		font-size: 22px;
+		width: 590px;
+		line-height: 30px;
+	}
+
+.portrait .character-image.captain-huggy {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/huggy.png") no-repeat;
+	}
+.portrait .character-image.dr-two-brains {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/dr2brains.png") no-repeat;
+	}
+.portrait .character-image.tobey {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/tobey.png") no-repeat;
+	}
+.portrait .character-image.tj-botsford {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/tj.png") no-repeat;
+	}
+.portrait .character-image.chuck {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/chuck.png") no-repeat;
+	}
+.portrait .character-image.whammer {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/whammer.png") no-repeat;
+	}
+.portrait .character-image.violet {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/violet.png") no-repeat;
+	}
+.portrait .character-image.the-butcher {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/butcher.png") no-repeat;
+	}
+.portrait .character-image.granny {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/granny.png") no-repeat;
+	}
+.portrait .character-image.todd-scoops {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/toddscoops.png") no-repeat;
+	}
+.portrait .character-image.mr-big {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/mrbig.png") no-repeat;
+	}
+.portrait .character-image.lady-redundant {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/ladyredundant.png") no-repeat;
+	}
+.portrait .character-image.tim-botsford {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/timbotsford.png") no-repeat;
+	}
+.portrait .character-image.sally-botsford {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/sallybotsford.png") no-repeat;
+	}
+.portrait .character-image.birthday-girl {
+		background: url("/wordgirl/cdn_content/images/html5/mobile/modules/characters/birthdaygirleileen.png") no-repeat;
+	}
+
+
+
+.portrait .character-title-image.captain-huggy {
+		background: url("/wordgirl/cdn_content/characters/mobile/captain-huggy-title.png") no-repeat;
+		width: 277px;
+		height: 46px;
+	}
+.portrait .character-title-image.dr-two-brains {
+		background: url("/wordgirl/cdn_content/characters/mobile/dr-two-brains-title.png") no-repeat;
+		width: 211px;
+		height: 46px;
+	}
+.portrait .character-title-image.tobey {
+		background: url("/wordgirl/cdn_content/characters/mobile/tobey-title.png") no-repeat;
+		width: 188px;
+		height: 45px;
+	}
+.portrait .character-title-image.tj-botsford {
+		background: url("/wordgirl/cdn_content/characters/mobile/tj-botsford-title.png") no-repeat;
+		width: 182px;
+		height: 46px;
+	}
+.portrait .character-title-image.chuck {
+		background: url("/wordgirl/cdn_content/characters/mobile/chuck-title.png") no-repeat;
+		width: 499px;
+		height: 46px;
+	}
+.portrait .character-title-image.whammer {
+		background: url("/wordgirl/cdn_content/characters/mobile/whammer-title.png") no-repeat;
+		width: 186px;
+		height: 46px;
+	}
+.portrait .character-title-image.violet {
+		background: url("/wordgirl/cdn_content/characters/mobile/violet-title.png") no-repeat;
+		width: 92px;
+		height: 45px;
+	}
+.portrait .character-title-image.the-butcher {
+		background: url("/wordgirl/cdn_content/characters/mobile/the-butcher-title.png") no-repeat;
+		width: 164px;
+		height: 45px;
+	}
+.portrait .character-title-image.granny {
+		background: url("/wordgirl/cdn_content/characters/mobile/granny-title.png") no-repeat;
+		width: 178px;
+		height: 46px;
+	}
+.portrait .character-title-image.todd-scoops {
+		background: url("/wordgirl/cdn_content/characters/mobile/todd-scoops-title.png") no-repeat;
+		width: 263px;
+		height: 46px;
+	}
+.portrait .character-title-image.mr-big {
+		background: url("/wordgirl/cdn_content/characters/mobile/mr-big-title.png") no-repeat;
+		width: 101px;
+		height: 44px;
+	}
+.portrait .character-title-image.lady-redundant {
+		background: url("/wordgirl/cdn_content/characters/mobile/lady-redundant-title.png") no-repeat;
+		width: 327px;
+		height: 46px;
+	}
+.portrait .character-title-image.tim-botsford {
+		background: url("/wordgirl/cdn_content/characters/mobile/tim-botsford-title.png") no-repeat;
+		width: 186px;
+		height: 45px;
+	}
+.portrait .character-title-image.sally-botsford {
+		background: url("/wordgirl/cdn_content/characters/mobile/sally-botsford-title.png") no-repeat;
+		width: 215px;
+		height: 46px;
+	}
+.portrait .character-title-image.birthday-girl {
+		background: url("/wordgirl/cdn_content/characters/mobile/birthday-girl-title.png") no-repeat;
+		width: 252px;
+		height: 46px;
+	}
+
+
+.portrait .content .modules .module.navigation.button {
+	-moz-transition: none !important;
+	-webkit-transition: none !important;
+	-o-transition: color 0 ease-in !important;
+	transition: none !important;
+	-moz-transform: none !important;
+	-webkit-transform: none !important;
+	-o-transform: color 0 ease-in !important;
+	transform: none !important;
+}
+
+
+.portrait .content .modules.games .banner-white-bg {
+	display: block;
+	background: #fff;
+	width: 100%;
+	height: 250px;
+	position: absolute;
+}
+
+.portrait .content .modules .module.navigation.button.games {
+	left: 5px;
+	top: 130px;
+}
+.portrait .content .modules .module.navigation.button.video {
+	left: 385px;
+	top: 130px;
+}
+
+.portrait .content .modules.games .module.navigation.button.games {
+	display: block;
+}
+
+.portrait .content .modules .module.game-buttons.slider {
+	width: 770px;
+	height: 889px;
+	left: 0;
+	top: 275px;
+	position: absolute;
+	margin: 0;
+	background: #ffffff;
+}
+
+.portrait .content .modules .module.story1-large {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/button/pp.png") center center no-repeat;
+	width: 710px;
+	height: 263px;
+	position: relative;
+	top: 30px;
+	left: 0;
+}
+.portrait .content .modules .module.story2-large {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/button/story2-large.png") center center no-repeat;
+	width: 720px;
+	height: 452px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.portrait .content .modules .module.story3-large {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/button/story3-large.png") center center no-repeat;
+	width: 720px;
+	height: 452px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.portrait .content .modules .module.game-buttons.slider .module.navigation.button {
+	margin: 0;
+	left: 0;
+	width: 710px;
+	height: 263px;
+	position: relative;
+}
+
+.portrait .content .modules .module.navigation.button.story1 {
+	top: 50px;
+}
+.portrait .content .modules .module.navigation.button.story2 {
+	top: 70px;
+}
+
+.portrait .content .modules.game {
+	height: 610px;
+}
+
+.portrait .content .modules.games .module.characters {
+	top: 940px;
+}
+.portrait .content.games {
+	height: 1330px;
+}
+
+/* Storybook Adventures module */
+.portrait .content .modules .module.sb_adventures {
+	width: 770px;
+	height: 1000px;
+	top: 1190px;
+	left: 0;
+	background: #fff;
+	margin: 0;
+}
+
+.portrait .content .modules .module.sb_adventures .adventure {
+	display: block;
+	position: relative;
+	left: 30px;
+}
+
+.portrait .content .modules .module.sb_adventures .adventure.sb_banner {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/button/storybook_adventures_banner.png") center center no-repeat;
+	background-size: 100%;
+	width: 712px;
+	height: 95px;
+	top: 30px;
+}
+
+.portrait .content .modules .module.sb_adventures .adventure.butcher_battle {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/button/butcher_battle.png") center center no-repeat;
+	width: 710px;
+	height: 263px;
+	top: 50px;
+}
+
+.portrait .content .modules .module.sb_adventures .adventure.berry_buddies {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/button/berry_buddies_b.png") center center no-repeat;
+	width: 710px;
+	height: 263px;
+	top: 70px;
+}
+
+.portrait .content .modules .module.sb_adventures .adventure.becky_dayoff {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/modules/button/becky_dayoff.png") center center no-repeat;
+	width: 710px;
+	height: 263px;
+	top: 90px;
+}
+
+.portrait #footer.home .app.promo.button,
+.portrait #footer.games .app.promo.button {
+	background: url("/wordgirl/cdn_content/images/html5/mobile/footer/promo.png") center center no-repeat;
+	width: 738px;
+	height: 149px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	/*IE7 fix for "display:inline-block"*/
+	padding: 15px;
+}
+
+.portrait .games-page-image {
+	display: none !important;
+}
+
+.portrait .desktop-image {
+	display: none !important;
+}
+
+.portrait .mobile-image {
+	display: block !important;
+}
+
+.portrait .html5_wrapper {
+	background: #1277c9;
+	position: relative;
+	height: 1240px;
+}
+
+.portrait .html5_wrapper.games {
+	background: #1277c9;
+	height: 2240px;
+}
+
+.portrait .html5_wrapper.heroesVillains {
+	height: 970px;
+}
+
+.portrait .touchOverlay {
+	width: 640px;
+	height: 600px;
+	top: 230px;
+}
+
+.portrait .touchOverlay.horizontal {
+	width: 770px;
+	height: 465px;
+	top: 365px;
+}

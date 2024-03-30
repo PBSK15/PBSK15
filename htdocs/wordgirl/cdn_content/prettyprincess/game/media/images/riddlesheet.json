@@ -1,0 +1,59 @@
+{
+"images": ["riddlesheet.png"],
+"frames": [
+
+    [570, 380, 140, 124], 
+    [712, 254, 140, 124], 
+    [570, 254, 140, 124], 
+    [712, 128, 140, 124], 
+    [570, 128, 140, 124], 
+    [428, 380, 140, 124], 
+    [428, 254, 140, 124], 
+    [428, 128, 140, 124], 
+    [712, 2, 140, 124], 
+    [570, 2, 140, 124], 
+    [428, 2, 140, 124], 
+    [286, 380, 140, 124], 
+    [286, 254, 140, 124], 
+    [286, 128, 140, 124], 
+    [286, 2, 140, 124], 
+    [144, 380, 140, 124], 
+    [144, 254, 140, 124], 
+    [144, 128, 140, 124], 
+    [144, 2, 140, 124], 
+    [2, 380, 140, 124], 
+    [2, 254, 140, 124], 
+    [2, 128, 140, 124], 
+    [2, 2, 140, 124]
+],
+"animations": {
+    
+        "castle_crown":[0], 
+        "castle_dragon1":[1], 
+        "castle_present":[2], 
+        "castle_unicorn":[3], 
+        "castle_wands":[4], 
+        "flowerfield_birdbath":[5], 
+        "flowerfield_flowers":[6], 
+        "flowerfield_log":[7], 
+        "flowerfield_snail":[8], 
+        "forest_ghosts":[9], 
+        "forest_jackolantern":[10], 
+        "forest_skull":[11], 
+        "forest_spider":[12], 
+        "swamp_alligator":[13], 
+        "swamp_bush":[14], 
+        "swamp_owlfence":[15], 
+        "swamp_spookytree2":[16], 
+        "swamp_trap":[17], 
+        "village_princesshat":[18], 
+        "village_rockinghorse":[19], 
+        "village_spinner":[20], 
+        "village_squirrel":[21], 
+        "village_vase":[22]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:3505833a3a78fdde9e99840592870912:ba21eee49f2de132c808068470e1cb21:dde855bd86fb82b85536445717546b8e$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

@@ -1,0 +1,8 @@
+{% extends 'wordgirl/includes/templates/flashWGPage.html.twig' %}
+{% set pageTitle = '. Games | PBS KIDS GO' %}
+{% set keywds = 'games,word games, vocabulary , huggy dance  favorite words children, tv,  carnival, dunk huggy ' %}
+{% set desc = 'Play word games with WordGirl and Captain Huggy Face to build vocabulary.' %}
+
+
+{% block swfEmbedScript %}<script>			swfobject.embedSWF(                "/enablecdn/wordgirl/cdn_content/WordGirlShell.swf",                "WordGirl",                "960",                "800",                "10.0.0",                false,                {                    cdn_root: "/enablecdn/wordgirl/cdn_content/",                    site_root: "/wordgirl/",                    bg_music_url: "site_audio/homepage/theme_instro.mp3",                    page_xml_url: "word-girl-games-landing.xml",                    content_swf_url: "GameLandingProxy.swf",                    framing: "comic"                },                {                    bgcolor: "#1277C9",                    allowscriptaccess: "always",                    menu: false                });		</script>{% endblock %}
+

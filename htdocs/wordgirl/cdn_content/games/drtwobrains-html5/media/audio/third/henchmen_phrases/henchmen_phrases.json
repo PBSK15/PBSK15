@@ -1,0 +1,160 @@
+{
+  "urls": [
+    "henchmen_phrases.ogg",
+    "henchmen_phrases.m4a",
+    "henchmen_phrases.mp3",
+    "henchmen_phrases.ac3"
+  ],
+  "audioSprite": [
+    {
+      "id": "d_Beaker",
+      "startTime": 0,
+      "duration": 3448.1632653061224
+    },
+    {
+      "id": "d_Binoculars",
+      "startTime": 5000,
+      "duration": 4806.530612244898
+    },
+    {
+      "id": "d_Calculator",
+      "startTime": 11000,
+      "duration": 5355.102040816327
+    },
+    {
+      "id": "d_Goggles",
+      "startTime": 18000,
+      "duration": 3474.2857142857133
+    },
+    {
+      "id": "d_Hammer",
+      "startTime": 23000,
+      "duration": 3683.2653061224505
+    },
+    {
+      "id": "d_Light_Bulb",
+      "startTime": 28000,
+      "duration": 4440.816326530608
+    },
+    {
+      "id": "d_Magnet",
+      "startTime": 34000,
+      "duration": 4597.551020408162
+    },
+    {
+      "id": "d_Magnifying_Glass",
+      "startTime": 40000,
+      "duration": 5825.306122448978
+    },
+    {
+      "id": "d_Microscope",
+      "startTime": 47000,
+      "duration": 4127.34693877551
+    },
+    {
+      "id": "d_Notebook",
+      "startTime": 53000,
+      "duration": 3369.7959183673447
+    },
+    {
+      "id": "d_Pulley",
+      "startTime": 58000,
+      "duration": 5250.612244897959
+    },
+    {
+      "id": "d_Recycling_Bin",
+      "startTime": 65000,
+      "duration": 8698.775510204086
+    },
+    {
+      "id": "d_Ruler",
+      "startTime": 75000,
+      "duration": 2795.1020408163317
+    },
+    {
+      "id": "d_Scale",
+      "startTime": 79000,
+      "duration": 3996.7346938775563
+    },
+    {
+      "id": "d_Thermometer",
+      "startTime": 84000,
+      "duration": 2377.1428571428573
+    },
+    {
+      "id": "i_Beaker",
+      "startTime": 88000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "i_Binoculars",
+      "startTime": 91000,
+      "duration": 1488.9795918367383
+    },
+    {
+      "id": "i_Calculator",
+      "startTime": 94000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "i_Goggles",
+      "startTime": 97000,
+      "duration": 1384.4897959183697
+    },
+    {
+      "id": "i_Hammer",
+      "startTime": 100000,
+      "duration": 809.7959183673424
+    },
+    {
+      "id": "i_Light_Bulb",
+      "startTime": 102000,
+      "duration": 1175.5102040816325
+    },
+    {
+      "id": "i_Magnet",
+      "startTime": 105000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Magnifying_Glass",
+      "startTime": 108000,
+      "duration": 2220.408163265304
+    },
+    {
+      "id": "i_Microscope",
+      "startTime": 112000,
+      "duration": 1253.877551020409
+    },
+    {
+      "id": "i_Notebook",
+      "startTime": 115000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "i_Pulley",
+      "startTime": 118000,
+      "duration": 835.9183673469346
+    },
+    {
+      "id": "i_Recycling_Bin",
+      "startTime": 120000,
+      "duration": 1724.0816326530676
+    },
+    {
+      "id": "i_Ruler",
+      "startTime": 123000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "i_Scale",
+      "startTime": 125000,
+      "duration": 1097.142857142856
+    },
+    {
+      "id": "i_Thermometer",
+      "startTime": 128000,
+      "duration": 1175.5102040816325
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+"images": ["ui_assets.png"],
+"frames": [
+
+    [365, 2, 328, 294], 
+    [2, 2, 361, 390], 
+    [401, 393, 97, 97], 
+    [1430, 392, 113, 57], 
+    [1430, 392, 113, 57], 
+    [1430, 451, 113, 57], 
+    [1830, 2, 18, 28], 
+    [1545, 193, 232, 251], 
+    [1169, 193, 335, 197], 
+    [978, 393, 450, 85], 
+    [695, 193, 472, 85], 
+    [500, 393, 476, 87], 
+    [1545, 446, 124, 36], 
+    [916, 2, 155, 167], 
+    [695, 2, 219, 168], 
+    [1087, 2, 741, 189], 
+    [2, 394, 397, 105], 
+    [365, 298, 720, 93]
+],
+"animations": {
+    
+        "cheese_help_text":[0], 
+        "cheesegoop-medium":[1], 
+        "crosshairs":[2], 
+        "help-button":[3], 
+        "help_button":[4], 
+        "menu_button":[5], 
+        "mute":[6], 
+        "play_again":[7], 
+        "play_button":[8], 
+        "round0001":[9], 
+        "round0002":[10], 
+        "round0003":[11], 
+        "score":[12], 
+        "skip":[13], 
+        "timer_bg":[14], 
+        "title_board":[15], 
+        "try_again":[16], 
+        "your_score":[17]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:3a408124aeea9e9c07d42955ca32b01a:1cfa22d28f28c39d9052fc3789c5e8b5:8650151a451756dce3e191c93cc92796$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

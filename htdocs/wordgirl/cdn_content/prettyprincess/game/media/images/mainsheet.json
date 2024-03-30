@@ -1,0 +1,45 @@
+{
+"images": ["mainsheet.png"],
+"frames": [
+
+    [833, 429, 152, 82], 
+    [605, 499, 213, 115], 
+    [236, 218, 460, 106], 
+    [236, 326, 384, 128], 
+    [2, 2, 232, 412], 
+    [236, 110, 460, 106], 
+    [236, 2, 460, 106], 
+    [833, 333, 178, 94], 
+    [698, 175, 247, 156], 
+    [698, 2, 323, 171], 
+    [820, 513, 126, 68], 
+    [605, 616, 203, 73], 
+    [622, 333, 209, 164], 
+    [2, 416, 199, 245], 
+    [404, 456, 199, 220], 
+    [203, 456, 199, 237]
+],
+"animations": {
+    
+        "BlankPlaque":[0], 
+        "BlankPlaqueL":[1], 
+        "ChooseDestination":[2], 
+        "ChooseHero":[3], 
+        "ChooseHeroWindow":[4], 
+        "ChooseNextPath":[5], 
+        "ChoosePath":[6], 
+        "CloseBtn":[7], 
+        "PlayAgainBtn":[8], 
+        "QuestionCloud":[9], 
+        "SkipBtn":[10], 
+        "VocabCloud":[11], 
+        "Wand":[12], 
+        "beckyCircle":[13], 
+        "tjCircle":[14], 
+        "violetCircle":[15]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:fe8fbd8181dc6ee0ac597840e2bd1a5d:ec93b13b2477387e69b0db311e2d5713:51a477f6eee01c8ae3a6380f6bd7c007$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

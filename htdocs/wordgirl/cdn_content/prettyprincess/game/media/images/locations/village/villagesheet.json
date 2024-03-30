@@ -1,0 +1,37 @@
+{
+"images": ["villagesheet.png"],
+"frames": [
+
+    [440, 153, 128, 135], 
+    [169, 218, 77, 172], 
+    [248, 304, 199, 145], 
+    [241, 451, 230, 54], 
+    [169, 392, 70, 109], 
+    [2, 2, 258, 214], 
+    [2, 218, 165, 194], 
+    [2, 414, 93, 92], 
+    [262, 2, 176, 300], 
+    [449, 290, 82, 145], 
+    [440, 2, 92, 149], 
+    [473, 437, 83, 64]
+],
+"animations": {
+    
+        "village_barrel":[0], 
+        "village_gnome":[1], 
+        "village_haystack":[2], 
+        "village_platform":[3], 
+        "village_princesshat":[4], 
+        "village_sparklepony":[5], 
+        "village_spinner":[6], 
+        "village_squirrel":[7], 
+        "village_tree":[8], 
+        "village_vase":[9], 
+        "village_willow":[10], 
+        "willow_counter":[11]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:ba43e86701e402606019f9b95178bb7b:90ec62efedd3f6897d2d29f8e55cc00c:b95fe54227a9fa7e2f7b19e295790129$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

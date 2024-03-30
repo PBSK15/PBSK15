@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Challenges>
+	<Config>
+		<Audio>
+			<CorrectAnswer></CorrectAnswer>
+			<WrongAnswer></WrongAnswer>
+		</Audio>
+	</Config>
+	
+	<Lair name="mrBig">
+		<Challenge id="0">
+			<Audio>
+				<Definition>84_gpcmgc_DefGargantuan.mp3</Definition>
+				<Instructions>39_gpcmvsc_Gargantuan.mp3</Instructions>
+			</Audio>
+			<Answers>mc_bday_girl_01_main,mc_bday_girl_02_main,mc_bday_girl_03_main,mc_bday_girl_04_main,mc_butcher_01_main,mc_butcher_02_main,mc_butcher_03_main,mc_butcher_04_main,mc_butcher_05_main,mc_chuck_01_main,mc_chuck_02_main,mc_chuck_03_main,mc_chuck_04_main,mc_chuck_05_main,mc_decoration_01_main,mc_decoration_02_main,mc_decoration_03_main,mc_decoration_04_main,mc_decoration_05_main,mc_decoration_06_main,mc_decoration_07_main,mc_decoration_08_main,mc_decoration_09_main,mc_decoration_10_main,mc_decoration_11_main,mc_decoration_12_main,mc_decoration_13_main,mc_decoration_14_main,mc_decoration_15_main,mc_decoration_16_main,mc_decoration_17_main,mc_decoration_18_main,mc_decoration_19_main,mc_decoration_20_main,mc_decoration_21_main,mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main,mc_fun_stuff_01_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_04_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main,mc_fun_stuff_07_main,mc_fun_stuff_08_main,mc_fun_stuff_09_main,mc_fun_stuff_10_main,mc_fun_stuff_11_main,mc_fun_stuff_12_main,mc_fun_stuff_13_main,mc_fun_stuff_14_main,mc_fun_stuff_15_main,mc_fun_stuff_16_main,mc_fun_stuff_17_main,mc_fun_stuff_18_main,mc_fun_stuff_19_main,mc_fun_stuff_20_main,mc_fun_stuff_22_main,mc_furniture_01_main,mc_furniture_02_main,mc_furniture_03_main,mc_furniture_04_main,mc_furniture_05_main,mc_furniture_06_main,mc_furniture_07_main,mc_furniture_08_main,mc_furniture_09_main,mc_furniture_10_main,mc_furniture_11_main,mc_furniture_12_main,mc_furniture_13_main,mc_furniture_14_main,mc_furniture_15_main,mc_granny_may_01_main,mc_granny_may_02_main,mc_granny_may_03_main,mc_granny_may_04_main,mc_granny_may_05_main,mc_lady_redundant_01_main,mc_lady_redundant_02_main,mc_lady_redundant_03_main,mc_lady_redundant_04_main,mc_lady_redundant_05_main,mc_mr_big_01_main,mc_mr_big_02_main,mc_mr_big_03_main,mc_mr_big_04_main,mc_mr_big_05_main,mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main,mc_rugs_05_main,mc_tool_01_main,mc_tool_02_main,mc_tool_03_main,mc_two_brain_01_main,mc_two_brain_02_main,mc_two_brain_03_main,mc_two_brain_04_main,mc_two_brain_05_main,mc_word_girl_01_main,mc_word_girl_02_main,mc_word_girl_03_main,mc_word_girl_04_main,mc_word_girl_05_main,mc_word_girl_06_main,mc_word_girl_07_main,mc_word_girl_08_main,mc_word_girl_09_main</Answers>
+		</Challenge>
+		<Challenge id="1">
+			<Audio>
+				<Definition>85_gpcmgc_DefRefined.mp3</Definition>
+				<Instructions>40_gpcmvsc_Refined.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_19_main,mc_decoration_20_main,mc_furniture_04_main,mc_furniture_13_main</Answers>
+		</Challenge>
+	</Lair>
+	<Lair name="TheBirthdayGirl">
+		<Challenge id="0">
+			<Audio>
+				<Definition>86_gpcmgc_DefTreat.mp3</Definition>
+				<Instructions>41_gpcmvsc_Treat.mp3</Instructions>
+			</Audio>
+			<Answers>mc_bday_girl_01_main,mc_bday_girl_02_main,mc_bday_girl_03_main,mc_bday_girl_04_main,mc_butcher_01_main,mc_butcher_02_main,mc_butcher_03_main,mc_butcher_04_main,mc_butcher_05_main,mc_chuck_01_main,mc_chuck_02_main,mc_chuck_03_main,mc_chuck_04_main,mc_chuck_05_main,mc_decoration_01_main,mc_decoration_02_main,mc_decoration_03_main,mc_decoration_04_main,mc_decoration_05_main,mc_decoration_06_main,mc_decoration_07_main,mc_decoration_08_main,mc_decoration_09_main,mc_decoration_10_main,mc_decoration_11_main,mc_decoration_12_main,mc_decoration_13_main,mc_decoration_14_main,mc_decoration_15_main,mc_decoration_16_main,mc_decoration_17_main,mc_decoration_18_main,mc_decoration_19_main,mc_decoration_20_main,mc_decoration_21_main,mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main,mc_fun_stuff_01_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_04_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main,mc_fun_stuff_07_main,mc_fun_stuff_08_main,mc_fun_stuff_09_main,mc_fun_stuff_10_main,mc_fun_stuff_11_main,mc_fun_stuff_12_main,mc_fun_stuff_13_main,mc_fun_stuff_14_main,mc_fun_stuff_15_main,mc_fun_stuff_16_main,mc_fun_stuff_17_main,mc_fun_stuff_18_main,mc_fun_stuff_19_main,mc_fun_stuff_20_main,mc_fun_stuff_22_main,mc_furniture_01_main,mc_furniture_02_main,mc_furniture_03_main,mc_furniture_04_main,mc_furniture_05_main,mc_furniture_06_main,mc_furniture_07_main,mc_furniture_08_main,mc_furniture_09_main,mc_furniture_10_main,mc_furniture_11_main,mc_furniture_12_main,mc_furniture_13_main,mc_furniture_14_main,mc_furniture_15_main,mc_granny_may_01_main,mc_granny_may_02_main,mc_granny_may_03_main,mc_granny_may_04_main,mc_granny_may_05_main,mc_lady_redundant_01_main,mc_lady_redundant_02_main,mc_lady_redundant_03_main,mc_lady_redundant_04_main,mc_lady_redundant_05_main,mc_mr_big_01_main,mc_mr_big_02_main,mc_mr_big_03_main,mc_mr_big_04_main,mc_mr_big_05_main,mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main,mc_rugs_05_main,mc_tool_01_main,mc_tool_02_main,mc_tool_03_main,mc_two_brain_01_main,mc_two_brain_02_main,mc_two_brain_03_main,mc_two_brain_04_main,mc_two_brain_05_main,mc_word_girl_01_main,mc_word_girl_02_main,mc_word_girl_03_main,mc_word_girl_04_main,mc_word_girl_05_main,mc_word_girl_06_main,mc_word_girl_07_main,mc_word_girl_08_main,mc_word_girl_09_main</Answers>
+		</Challenge>
+		<Challenge id="1">
+			<Audio>
+				<Definition>87_gpcmgc_DefCelebrate.mp3</Definition>
+				<Instructions>42_gpcmvsc_Celebrate.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main</Answers>
+		</Challenge>
+	</Lair>
+		<Lair name="LadyRedundantWoman">
+		<Challenge id="0">
+			<Audio>
+				<Definition>88_gpcmgc_DefElegant.mp3</Definition>
+				<Instructions>43_gpcmvsc_Elegant.mp3</Instructions>
+			</Audio>
+			<Answers>mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main</Answers>
+		</Challenge>
+		<Challenge id="1">
+			<Audio>
+				<Definition>89_gpcmgc_DefReplicate.mp3</Definition>
+				<Instructions>44_gpcmvsc_Replicate.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_04_main,mc_decoration_05_main,mc_decoration_07_main,mc_decoration_09_main,mc_decoration_11_main,mc_decoration_12_main,mc_decoration_13_main,mc_decoration_14_main,mc_decoration_15_main,mc_decoration_16_main,mc_decoration_17_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main</Answers>
+		</Challenge>
+	</Lair>
+		<Lair name="TheButcher">
+		<Challenge id="0">
+			<Audio>
+				<Definition>90_gpcmgc_DefArsenal.mp3</Definition>
+				<Instructions>45_gpcmvsc_Arsenal.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main</Answers>
+		</Challenge>
+		<Challenge id="1">
+			<Audio>
+				<Definition>91_gpcmgc_DefRaw.mp3</Definition>
+				<Instructions>46_gpcmvsc_Raw.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main</Answers>
+		</Challenge>
+	</Lair>
+		<Lair name="ChuckTheEvilSandwichMakingGuy">
+		<Challenge id="0">
+			<Audio>
+				<Definition>92_gpcmgc_DefWhet.mp3</Definition>
+				<Instructions>47_gpcmvsc_Whet.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main</Answers>
+		</Challenge>
+		<Challenge id="1">
+			<Audio>
+				<Definition>93_gpcmgc_DefDivert.mp3</Definition>
+				<Instructions>48_gpcmvsc_Diverting.mp3</Instructions>
+			</Audio>
+			<Answers>mc_fun_stuff_01_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_04_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main,mc_fun_stuff_07_main,mc_fun_stuff_08_main,mc_fun_stuff_09_main,mc_fun_stuff_10_main,mc_fun_stuff_11_main,mc_fun_stuff_15_main,mc_fun_stuff_16_main,mc_fun_stuff_18_main,mc_fun_stuff_19_main,mc_fun_stuff_22_main,mc_furniture_11_main,mc_decoration_07_main,mc_decoration_08_main</Answers>
+		</Challenge>
+	</Lair>
+		<Lair name="Dr.TwoBrains">
+		<Challenge id="0">
+			<Audio>
+				<Definition>94_gpcmgc_DefEntice.mp3</Definition>
+				<Instructions>49_gpcmvsc_Entice.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main</Answers>
+		</Challenge>
+		<Challenge id="1">
+			<Audio>
+				<Definition>95_gpcmgc_DefOccupied.mp3</Definition>
+				<Instructions>50_gpcmvsc_Occupied.mp3</Instructions>
+			</Audio>
+			<Answers>mc_fun_stuff_01_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_04_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main,mc_fun_stuff_07_main,mc_fun_stuff_08_main,mc_fun_stuff_09_main,mc_fun_stuff_10_main,mc_fun_stuff_11_main,mc_fun_stuff_15_main,mc_fun_stuff_16_main,mc_fun_stuff_18_main,mc_fun_stuff_19_main,mc_fun_stuff_22_main,mc_furniture_11_main,mc_decoration_07_main,mc_decoration_08_main</Answers>
+		</Challenge>
+	</Lair>
+		<Lair name="GrannyMay">
+		<Challenge id="0">
+			<Audio>
+				<Definition>96_gpcmgc_DefDazzling.mp3</Definition>
+				<Instructions>51_gpcmvsc_Dazzling.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_19_main,mc_decoration_11_main,mc_decoration_20_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_05_main,mc_fun_stuff_08_main,mc_fun_stuff_13_main,mc_fun_stuff_14_main,mc_fun_stuff_19_main,mc_furniture_04_main,mc_furniture_10_main,mc_furniture_13_main</Answers>
+		</Challenge>
+		<Challenge id="1">
+			<Audio>
+				<Definition>98_gpcmgc_DefIlluminate.mp3</Definition>
+				<Instructions>52_gpcmvsc_Illuminate.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_19_main,mc_decoration_20_main,mc_furniture_13_main,mc_furniture_04_main</Answers>
+		</Challenge>
+	</Lair>
+	<Lair name="WordGirl">
+		<Challenge id="0">
+			<Audio>
+				<Definition>97_gpcmgc_DefAmuse.mp3</Definition>
+				<Instructions>53_gpcmvsc_Amuse.mp3</Instructions>
+			</Audio>
+			<Answers>mc_fun_stuff_01_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_04_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main,mc_fun_stuff_07_main,mc_fun_stuff_08_main,mc_fun_stuff_09_main,mc_fun_stuff_10_main,mc_fun_stuff_11_main,mc_fun_stuff_15_main,mc_fun_stuff_16_main,mc_fun_stuff_18_main,mc_fun_stuff_19_main,mc_fun_stuff_22_main,mc_furniture_11_main,mc_decoration_07_main,mc_decoration_08_main</Answers>
+		</Challenge>
+		<Challenge id="1">
+			<Audio>
+				<Definition>99_gpcmgc_DefBounce.mp3</Definition>
+				<Instructions>54_gpcmvsc_Bounce.mp3</Instructions>
+			</Audio>
+			<Answers>mc_fun_stuff_12_main,mc_furniture_06_main,mc_furniture_08_main,mc_furniture_15_main</Answers>
+		</Challenge>
+	</Lair>
+	<Generic>
+		<Challenge id="0">
+			<Audio>
+				<Definition>100_gpcmgc_DefRelax.mp3</Definition>
+				<Instructions>55_gpcmgc_Relax.mp3</Instructions>
+			</Audio>
+			<Answers>mc_furniture_01_main,mc_furniture_05_main,mc_furniture_06_main,mc_furniture_08_main,mc_furniture_15_main,mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main</Answers>
+		</Challenge>
+		<Challenge id="4">
+			<Audio>
+				<Definition>104_gpcmgc_DefMasterpiece.mp3</Definition>
+				<Instructions>59_gpcmgc_Masterpiece.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_04_main,mc_decoration_05_main,mc_decoration_07_main,mc_decoration_09_main,mc_decoration_11_main,mc_decoration_12_main,mc_decoration_13_main,mc_decoration_014_main,mc_decoration_015_main,mc_decoration_16_main,mc_decoration_17_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main</Answers>
+		</Challenge>
+		<Challenge id="5">
+			<Audio>
+				<Definition>123_gpcmgc_DefSlumber.mp3</Definition>
+				<Instructions>78_gpcmgc_Slumber.mp3</Instructions>
+			</Audio>
+			<Answers>mc_furniture_06_main,mc_furniture_08_main,mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main,mc_furniture_01_main</Answers>
+		</Challenge>
+		<Challenge id="7">
+			<Audio>
+				<Definition>107_gpcmgc_DefNemesis.mp3</Definition>
+				<Instructions>62_gpcmgc_Nemesis.mp3</Instructions>
+			</Audio>
+			<Answers>mc_bday_girl_01,mc_bday_girl_02,mc_bday_girl_03,mc_bday_girl_04,mc_bday_girl_05,mc_butcher_01,mc_butcher_02,mc_butcher_03,mc_butcher_04,mc_butcher_05,mc_chuck_01_main,mc_chuck_02_main,mc_chuck_03_main,mc_chuck_04_main,mc_chuck_05_main,mc_granny_may_01,mc_granny_may_02,mc_granny_may_03,mc_granny_may_04,mc_granny_may_05,mc_lady_redundant_01,mc_lady_redundant_02,mc_lady_redundant_03,mc_lady_redundant_04,mc_lady_redundant_05,mc_mr_big_01,mc_mr_big_02,mc_mr_big_03,mc_mr_big_04,mc_mr_big_05,mc_two_brain_01,mc_two_brain_02,mc_two_brain_03,mc_two_brain_05,mc_decoration_04_main,mc_decoration_05_main</Answers>
+		</Challenge>
+		<Challenge id="9">
+			<Audio>
+				<Definition>109_gpcmgc_DefShimmer.mp3</Definition>
+				<Instructions>64_gpcmgc_Shimmer.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_19_main,mc_decoration_11_main,mc_decoration_20_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_05_main,mc_fun_stuff_08_main,mc_fun_stuff_13_main,mc_fun_stuff_14_main,mc_fun_stuff_19_main,mc_furniture_04_main,mc_furniture_10_main,mc_furniture_13_main</Answers>
+		</Challenge>
+		<Challenge id="10">
+			<Audio>
+				<Definition>110_gpcmgc_DefSidekick.mp3</Definition>
+				<Instructions>65_gpcmgc_Sidekick.mp3</Instructions>
+			</Audio>
+			<Answers>mc_fun_stuff_22_main,mc_word_girl_06_main,mc_word_girl_07_main,mc_word_girl_08_main,mc_word_girl_09_main</Answers>
+		</Challenge>
+		<Challenge id="11">
+			<Audio>
+				<Definition>111_gpcmgc_DefTexture.mp3</Definition>
+				<Instructions>66_gpcmgc_Texture.mp3</Instructions>
+			</Audio>
+			<Answers>mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main,mc_food_05_main,mc_food_06_main,mc_fun_stuff_10_main,mc_fun_stuff_12_main,mc_fun_stuff_20_main,mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main,mc_furniture_06_main,mc_furniture_08_main,mc_furniture_15_main</Answers>
+		</Challenge>
+		<Challenge id="13">
+			<Audio>
+				<Definition>126_gpcmgc_DefAstounding.mp3</Definition>
+				<Instructions>81_gpcmgc_Astounding.mp3</Instructions>
+			</Audio>
+			<Answers>mc_word_girl_01_main,mc_word_girl_02_main,mc_word_girl_03_main,mc_word_girl_04_main,mc_word_girl_05_main,mc_fun_stuff_22_main,mc_decoration_13_main</Answers>
+		</Challenge>
+		<Challenge id="15">
+			<Audio>
+				<Definition>115_gpcmgc_DefAppetite.mp3</Definition>
+				<Instructions>70_gpcmgc_Appetite.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main</Answers>
+		</Challenge>
+		<Challenge id="16">
+			<Audio>
+				<Definition>116_gpcmgc_DefDazzling.mp3</Definition>
+				<Instructions>71_gpcmgc_Dazzling.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_19_main,mc_decoration_11_main,mc_decoration_20_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_05_main,mc_fun_stuff_08_main,mc_fun_stuff_13_main,mc_fun_stuff_14_main,mc_fun_stuff_19_main,mc_furniture_04_main,mc_furniture_10_main,mc_furniture_13_main</Answers>
+		</Challenge>
+		<Challenge id="18">
+			<Audio>
+				<Definition>118_gpcmgc_DefElegant.mp3</Definition>
+				<Instructions>73_gpcmgc_Elegant.mp3</Instructions>
+			</Audio>
+			<Answers>mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main</Answers>
+		</Challenge>
+		<Challenge id="19">
+			<Audio>
+				<Definition>119_gpcmgc_DefGnaw.mp3</Definition>
+				<Instructions>74_gpcmgc_Gnaw.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main</Answers>
+		</Challenge>
+		<Challenge id="20">
+			<Audio>
+				<Definition>119_gpcmgc_DefGnaw.mp3</Definition>
+				<Instructions>74_gpcmgc_Gnaw.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main</Answers>
+		</Challenge>
+		<Challenge id="21">
+			<Audio>
+				<Definition>125_gpcmgc_DefWicked.mp3</Definition>
+				<Instructions>80_gpcmgc_Wicked.mp3</Instructions>
+			</Audio>
+			<Answers>mc_bday_girl_01,mc_bday_girl_02,mc_bday_girl_03,mc_bday_girl_04,mc_bday_girl_05,mc_butcher_01,mc_butcher_02,mc_butcher_03,mc_butcher_04,mc_butcher_05,mc_chuck_01_main,mc_chuck_02_main,mc_chuck_03_main,mc_chuck_04_main,mc_chuck_05_main,mc_granny_may_01,mc_granny_may_02,mc_granny_may_03,mc_granny_may_04,mc_granny_may_05,mc_lady_redundant_01,mc_lady_redundant_02,mc_lady_redundant_03,mc_lady_redundant_04,mc_lady_redundant_05,mc_mr_big_01,mc_mr_big_02,mc_mr_big_03,mc_mr_big_04,mc_mr_big_05,mc_two_brain_01,mc_two_brain_02,mc_two_brain_03,mc_two_brain_05,mc_decoration_04_main,mc_decoration_05_main</Answers>
+		</Challenge>
+		<Challenge id="23">
+			<Audio>
+				<Definition>123_gpcmgc_DefSlumber.mp3</Definition>
+				<Instructions>78_gpcmgc_Slumber.mp3</Instructions>
+			</Audio>
+			<Answers>mc_furniture_01_main,mc_furniture_05_main,mc_furniture_06_main,mc_furniture_08_main,mc_furniture_15_main,mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main</Answers>
+		</Challenge>
+		
+		<Challenge id="24">
+			<Audio>
+				<Definition>123_gpcmgc_DefSlumber.mp3</Definition>
+				<Instructions>133_gpcmgc_Glum.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_07_main,mc_decoration_08_main,mc_fun_stuff_01_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_04_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main,mc_fun_stuff_07_main,mc_fun_stuff_08_main,mc_fun_stuff_09_main,mc_fun_stuff_10_main,mc_fun_stuff_11_main,mc_fun_stuff_15_main,mc_fun_stuff_16_main,mc_fun_stuff_19_main,mc_fun_stuff_22_main,mc_furniture_11_main,</Answers>
+		</Challenge>
+		<Challenge id="25">
+			<Audio>
+				<Definition>123_gpcmgc_DefSlumber.mp3</Definition>
+				<Instructions>134_gpcmgc_Impressive.mp3</Instructions>
+			</Audio>
+			<Answers>mc_bday_girl_01_main,mc_bday_girl_02_main,mc_bday_girl_03_main,mc_bday_girl_04_main,mc_butcher_01_main,mc_butcher_02_main,mc_butcher_03_main,mc_butcher_04_main,mc_butcher_05_main,mc_chuck_01_main,mc_chuck_02_main,mc_chuck_03_main,mc_chuck_04_main,mc_chuck_05_main,mc_decoration_01_main,mc_decoration_02_main,mc_decoration_03_main,mc_decoration_04_main,mc_decoration_05_main,mc_decoration_06_main,mc_decoration_07_main,mc_decoration_08_main,mc_decoration_09_main,mc_decoration_10_main,mc_decoration_11_main,mc_decoration_12_main,mc_decoration_13_main,mc_decoration_14_main,mc_decoration_15_main,mc_decoration_16_main,mc_decoration_17_main,mc_decoration_18_main,mc_decoration_19_main,mc_decoration_20_main,mc_decoration_21_main,mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main,mc_fun_stuff_01_main,mc_fun_stuff_02_main,mc_fun_stuff_03_main,mc_fun_stuff_04_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main,mc_fun_stuff_07_main,mc_fun_stuff_08_main,mc_fun_stuff_09_main,mc_fun_stuff_10_main,mc_fun_stuff_11_main,mc_fun_stuff_12_main,mc_fun_stuff_13_main,mc_fun_stuff_14_main,mc_fun_stuff_15_main,mc_fun_stuff_16_main,mc_fun_stuff_17_main,mc_fun_stuff_18_main,mc_fun_stuff_19_main,mc_fun_stuff_20_main,mc_fun_stuff_22_main,mc_furniture_01_main,mc_furniture_02_main,mc_furniture_03_main,mc_furniture_04_main,mc_furniture_05_main,mc_furniture_06_main,mc_furniture_07_main,mc_furniture_08_main,mc_furniture_09_main,mc_furniture_10_main,mc_furniture_11_main,mc_furniture_12_main,mc_furniture_13_main,mc_furniture_14_main,mc_furniture_15_main,mc_granny_may_01_main,mc_granny_may_02_main,mc_granny_may_03_main,mc_granny_may_04_main,mc_granny_may_05_main,mc_lady_redundant_01_main,mc_lady_redundant_02_main,mc_lady_redundant_03_main,mc_lady_redundant_04_main,mc_lady_redundant_05_main,mc_mr_big_01_main,mc_mr_big_02_main,mc_mr_big_03_main,mc_mr_big_04_main,mc_mr_big_05_main,mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main,mc_rugs_05_main,mc_tool_01_main,mc_tool_02_main,mc_tool_03_main,mc_two_brain_01_main,mc_two_brain_02_main,mc_two_brain_03_main,mc_two_brain_04_main,mc_two_brain_05_main,mc_word_girl_01_main,mc_word_girl_02_main,mc_word_girl_03_main,mc_word_girl_04_main,mc_word_girl_05_main,mc_word_girl_06_main,mc_word_girl_07_main,mc_word_girl_08_main,mc_word_girl_09_main</Answers>
+		</Challenge>
+		<Challenge id="26">
+			<Audio>
+				<Definition>123_gpcmgc_DefSlumber.mp3</Definition>
+				<Instructions>135_gpcmgc_Drowsy.mp3</Instructions>
+			</Audio>
+			<Answers>mc_furniture_06_main,mc_furniture_08_main,mc_rugs_01_main,mc_rugs_02_main,mc_rugs_03_main,mc_rugs_04_main,mc_furniture_01_main</Answers>
+		</Challenge>
+		<Challenge id="27">
+			<Audio>
+				<Definition>123_gpcmgc_DefSlumber.mp3</Definition>
+				<Instructions>136_gpcmgc_Tempting.mp3</Instructions>
+			</Audio>
+			<Answers>mc_food_01_main,mc_food_02_main,mc_food_03_main,mc_food_04_main,mc_food_05_main,mc_food_06_main,mc_food_07_main,mc_food_08_main,mc_food_09_main,mc_food_10_main,mc_food_11_main</Answers>
+		</Challenge>
+		<Challenge id="28">
+			<Audio>
+				<Definition>123_gpcmgc_DefSlumber.mp3</Definition>
+				<Instructions>137_gpcmgc_Opponent.mp3</Instructions>
+			</Audio>
+			<Answers>mc_bday_girl_01,mc_bday_girl_02,mc_bday_girl_03,mc_bday_girl_04,mc_bday_girl_05,mc_butcher_01,mc_butcher_02,mc_butcher_03,mc_butcher_04,mc_butcher_05,mc_chuck_01_main,mc_chuck_02_main,mc_chuck_03_main,mc_chuck_04_main,mc_chuck_05_main,mc_granny_may_01,mc_granny_may_02,mc_granny_may_03,mc_granny_may_04,mc_granny_may_05,mc_lady_redundant_01,mc_lady_redundant_02,mc_lady_redundant_03,mc_lady_redundant_04,mc_lady_redundant_05,mc_mr_big_01,mc_mr_big_02,mc_mr_big_03,mc_mr_big_04,mc_mr_big_05,mc_two_brain_01,mc_two_brain_02,mc_two_brain_03,mc_two_brain_05,mc_decoration_04_main,mc_decoration_05_main</Answers>
+		</Challenge>
+		<Challenge id="29">
+			<Audio>
+				<Definition>123_gpcmgc_DefSlumber.mp3</Definition>
+				<Instructions>138_gpcmgc_Priceless.mp3</Instructions>
+			</Audio>
+			<Answers>mc_decoration_04_main,mc_decoration_05_main,mc_decoration_07_main,mc_decoration_09_main,mc_decoration_11_main,mc_decoration_12_main,mc_decoration_13_main,mc_decoration_014_main,mc_decoration_015_main,mc_decoration_16_main,mc_decoration_17_main,mc_fun_stuff_05_main,mc_fun_stuff_06_main</Answers>
+		</Challenge>
+	</Generic>
+</Challenges>

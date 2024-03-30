@@ -1,0 +1,260 @@
+/*
+-----------------------------------------------
+WGBH Digital
+Plum Landing CBP Game
+----------------------------------------------- 
+*/
+
+/* -------------------- FONTS ---------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+	font-family:'Dosis-Bold';
+	src:url('fnt/Dosis-Bold.ttf') format("truetype");
+}
+
+@font-face {
+	font-family:'Dosis-SemiBold';
+	src:url('fnt/Dosis-SemiBold.ttf') format("truetype");
+}
+
+@font-face {
+	font-family:'Dosis-Medium';
+	src:url('fnt/Dosis-Medium.ttf') format("truetype");
+}
+
+.bold {
+	font-family:'Dosis-Bold';
+}
+
+.hidden {
+	visibility:hidden;
+}
+
+body {
+	font-family:'Dosis-Medium', Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height ~29.5;
+	font-weight: 500;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+h1, h2, h3, h4, h5, h6, h7 {
+	font-weight: 700;
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	color: #311c79;
+	line-height: 1.175em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 0.375em; /* 6/16 */
+}
+
+h1 {
+	font-size: 3.875em; /* 62/16 */
+}
+
+h2 {
+	font-size: 3em; /* 48/16 */
+}
+
+h3 {
+	font-size: 2.3125em; /* 37/16 */
+}
+
+h4 {
+	font-size: 1.875em; /* 30/16 */
+}
+
+h5 {
+	font-size: 1.5em; /* 24/16 */
+}
+
+h6 {
+	font-size: 1.3125em; /* 21/16 */	
+}
+
+h7 {
+	font-size: 1.125em; /* 18/16 */	
+}
+
+div{
+	-moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#canvasContainer{
+	float: left;
+	width: 988px;
+	height: 556px;
+}
+
+#stagecanvas {
+	/*float:left;
+	position:relative;
+	width:988px;
+	height:556px;
+	margin-top:4px;
+	margin-left:5px;
+	*/
+	position:absolute;
+
+	/*background-color: #cccccc;*/
+}
+
+#gameDataContainer{
+	float: right;
+}
+
+#gameRoundContainer{
+	float: left;
+	overflow:scroll; height: 560px; width: 400px;
+	margin-top:4px;
+	margin-left:10px;
+}
+
+#plinkScreenContent{
+	/*
+	width:350px;
+	display:block;
+	*/
+	position:absolute;
+}
+
+#plinkScreenContent *.* {
+	position:absolute;
+}
+
+#hideShowLink{
+	margin-top:4px;
+	margin-left:5px;
+}
+
+/* GAME BLURB STYLES */
+
+[class*='game-blurb'] {
+	font-weight: 500;
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;	
+	font-size: 1.875em; /* 30/16 */
+	line-height: 1.233em; /* 37/30 */
+	color: #311c79;
+}
+
+.game-blurb-sm  {
+	font-size: 1.5em; /* 24/16 */
+}
+
+.blurb-emphasis {
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;	
+	font-size: 1.875em; /* 30/16 */
+	font-weight: 700;
+	background-color: #5ebc37;
+	color: white;
+	line-height: 1.33333em; /* 40/30 */	
+	padding: .05em 0;
+	position: relative;
+    left: .2em;
+    box-shadow: .2em 0 0 0 #5ebc37, -.2em 0 0 0 #5ebc37;
+}
+
+.game-blurb-sm .blurb-emphasis {
+	line-height: 1.4em;		
+}
+
+.game-blurb-caption {
+	font-size: 1.125em; /* 18/16 */	
+}
+
+.show {
+	visibility: visible;
+}
+.hide {
+	visibility: hidden;
+}
+
+#loading {
+	font-family:'Dosis';
+	width:30%;
+	height:170px;
+	font-size:1.5em;
+	color:#fff;
+	margin-top:388px;
+	text-transform: uppercase;
+	text-align:center;
+	left:35%;
+	background-image:url("../assets/img/plum/plink-loader_small.png");
+	background-position:50% bottom;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+#loading #spinner {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-image:url("../assets/img/plum/plink-loader_inner.gif");
+	background-position:50% bottom;
+	background-repeat:no-repeat;
+}
+
+#loading .text {
+	width:70%;
+	display:block;
+	margin:0 auto;
+	background-color:#665ac1; /* should hide */
+	-webkit-border-radius: .632em; /* 12/19 */
+	-moz-border-radius: .632em;
+	border-radius: .632em;
+	border:1px solid #665ac1;
+	overflow:hidden;
+	position:relative;
+}
+
+#loading .words {
+	position:relative;
+}
+
+#loading #bar {
+	background-color:#311B7A;
+	width:0%;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0px;
+	-webkit-border-radius: .632em; /* 12/19 */
+	-moz-border-radius: .632em;
+	border-radius: .632em;
+	border:1px solid #311B7A;
+}
+
+
+/* POINTS DISPLAY STYLES */
+
+.user-points-main {
+	display: inline-block;
+	background-color: #5ebc37;
+	padding: .15em .45em;
+	margin-bottom: .375em;
+}
+
+.user-points-main h1 {
+	color: white;
+	margin-top: -.175em;	
+	margin-bottom: -.05em;
+}
+
+.user-points-main h6 {
+	color: #311c79;
+	text-transform: uppercase;
+	margin-bottom: .1em;	
+}

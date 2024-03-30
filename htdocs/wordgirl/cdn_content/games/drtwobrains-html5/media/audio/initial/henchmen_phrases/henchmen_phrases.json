@@ -1,0 +1,245 @@
+{
+  "urls": [
+    "henchmen_phrases.ogg",
+    "henchmen_phrases.m4a",
+    "henchmen_phrases.mp3",
+    "henchmen_phrases.ac3"
+  ],
+  "audioSprite": [
+    {
+      "id": "aimat",
+      "startTime": 0,
+      "duration": 835.9183673469388
+    },
+    {
+      "id": "aimtherayat",
+      "startTime": 2000,
+      "duration": 1436.7346938775509
+    },
+    {
+      "id": "canyouhit",
+      "startTime": 5000,
+      "duration": 862.0408163265303
+    },
+    {
+      "id": "d_Bird",
+      "startTime": 7000,
+      "duration": 2951.8367346938776
+    },
+    {
+      "id": "d_Cactus",
+      "startTime": 11000,
+      "duration": 4205.714285714286
+    },
+    {
+      "id": "d_Egg",
+      "startTime": 17000,
+      "duration": 6635.102040816328
+    },
+    {
+      "id": "d_Fish",
+      "startTime": 25000,
+      "duration": 2533.87755102041
+    },
+    {
+      "id": "d_Flower",
+      "startTime": 29000,
+      "duration": 5119.999999999997
+    },
+    {
+      "id": "d_Fossil",
+      "startTime": 36000,
+      "duration": 4754.285714285715
+    },
+    {
+      "id": "d_Fungus",
+      "startTime": 42000,
+      "duration": 8568.163265306126
+    },
+    {
+      "id": "d_Insect",
+      "startTime": 52000,
+      "duration": 3761.632653061227
+    },
+    {
+      "id": "d_Mammal",
+      "startTime": 57000,
+      "duration": 5694.693877551018
+    },
+    {
+      "id": "d_Octopus",
+      "startTime": 64000,
+      "duration": 3787.755102040819
+    },
+    {
+      "id": "d_Reptile",
+      "startTime": 69000,
+      "duration": 4832.653061224491
+    },
+    {
+      "id": "d_Seeds",
+      "startTime": 75000,
+      "duration": 3552.6530612244896
+    },
+    {
+      "id": "d_Snail",
+      "startTime": 80000,
+      "duration": 4205.714285714279
+    },
+    {
+      "id": "d_Spider",
+      "startTime": 86000,
+      "duration": 3970.612244897964
+    },
+    {
+      "id": "d_Watering_Can",
+      "startTime": 91000,
+      "duration": 4362.4489795918325
+    },
+    {
+      "id": "hit_goodaim",
+      "startTime": 97000,
+      "duration": 1097.142857142856
+    },
+    {
+      "id": "hit_goodshot",
+      "startTime": 100000,
+      "duration": 1201.6326530612246
+    },
+    {
+      "id": "hit_heyhey",
+      "startTime": 103000,
+      "duration": 1253.877551020409
+    },
+    {
+      "id": "hit_ideatthat",
+      "startTime": 106000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "hit_looksdelicious",
+      "startTime": 109000,
+      "duration": 1541.2244897959226
+    },
+    {
+      "id": "hit_mmmm",
+      "startTime": 112000,
+      "duration": 1384.4897959183697
+    },
+    {
+      "id": "hit_thatsit",
+      "startTime": 115000,
+      "duration": 888.1632653061189
+    },
+    {
+      "id": "hit_thatsright",
+      "startTime": 117000,
+      "duration": 783.6734693877503
+    },
+    {
+      "id": "hit_thatwasit",
+      "startTime": 119000,
+      "duration": 888.1632653061189
+    },
+    {
+      "id": "hit_yougotit",
+      "startTime": 121000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Bird",
+      "startTime": 124000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Cactus",
+      "startTime": 127000,
+      "duration": 1044.897959183686
+    },
+    {
+      "id": "i_Egg",
+      "startTime": 130000,
+      "duration": 705.3061224489738
+    },
+    {
+      "id": "i_Fish",
+      "startTime": 132000,
+      "duration": 992.6530612245017
+    },
+    {
+      "id": "i_Flower",
+      "startTime": 134000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "i_Fossil",
+      "startTime": 137000,
+      "duration": 888.1632653061331
+    },
+    {
+      "id": "i_Fungus",
+      "startTime": 139000,
+      "duration": 1149.3877551020546
+    },
+    {
+      "id": "i_Insect",
+      "startTime": 142000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "i_Mammal",
+      "startTime": 144000,
+      "duration": 940.4081632653174
+    },
+    {
+      "id": "i_Octopus",
+      "startTime": 146000,
+      "duration": 1227.7551020408168
+    },
+    {
+      "id": "i_Reptile",
+      "startTime": 149000,
+      "duration": 1227.7551020408168
+    },
+    {
+      "id": "i_Seeds",
+      "startTime": 152000,
+      "duration": 1280.0000000000011
+    },
+    {
+      "id": "i_Snail",
+      "startTime": 155000,
+      "duration": 940.4081632653174
+    },
+    {
+      "id": "i_Spider",
+      "startTime": 157000,
+      "duration": 1044.897959183686
+    },
+    {
+      "id": "i_Watering_Can",
+      "startTime": 160000,
+      "duration": 1488.9795918367383
+    },
+    {
+      "id": "miss_thatsnotit",
+      "startTime": 163000,
+      "duration": 1044.897959183686
+    },
+    {
+      "id": "trytoget",
+      "startTime": 166000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "trytohit",
+      "startTime": 168000,
+      "duration": 914.285714285711
+    },
+    {
+      "id": "youreallygood",
+      "startTime": 170000,
+      "duration": 1802.4489795918441
+    }
+  ]
+}

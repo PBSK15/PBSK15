@@ -1,0 +1,138 @@
+{% extends 'wordgirl/includes/templates/nonFlashWGPage.html.twig' %}
+{% set pageTitle = '. Characters | PBS KIDS GO!' %}
+{% set keywds = 'Wordgirl, huggy face, butcher,characters,granny may, scoops, whammer,toby,energy monster, lady redundant woman, nocan the contrarian, seymour smooth' %}
+{% set desc = 'Heroes, Villains & Mere Mortals features the different WordGirl characters and links to their own specific games and activities.' %}
+
+
+{% block swfEmbedScript %}<script>            var flashvars = {cdn_root: "/enablecdn/wordgirl/cdn_content/", site_root:"/wordgirl/", page_xml_url:"herovillain.xml", content_swf_url:"CharacterProxy.swf", framing:"comic"};            var params = {};            params.bgcolor = "#1277C9";            params.allowscriptaccess = "always";            params.menu = false;            swfobject.embedSWF("/enablecdn/wordgirl/cdn_content/WordGirlShell.swf", "WordGirl", "960", "800", "10.0.0", false, flashvars, params);        </script>{% endblock %}
+
+
+{% set bodyTag = '<body></body>' %}
+
+
+{% block html5Content %}<div class="html5_content html5_wrapper heroesVillains">
+ <div class="html5 content heroesVillains">
+  <div class="modules heroesVillains">
+   <div class="banner module"><a class="pbskids item" href="http:pbskids.org/"> <img src="/wordgirl/cdn_content/images/html5/logos/logo_pbskids.png" alt="PBS Kids"> </a> <img src="/wordgirl/cdn_content/images/html5/desktop/modules/banner/heroesVillains.png" class="centerpiece item heroesVillains" alt="Characters"> <a class="wordgirl item" href="/wordgirl/"> <img src="/wordgirl/cdn_content/images/html5/logos/logo_wordgirl.png" alt="WordGirl"> </a>
+   </div> <a href="/wordgirl/games" class="games navigation button module"> <img class="desktop-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/games.png" alt="Games"> <img class="mobile-image" src="/wordgirl/cdn_content/images/html5/mobile/modules/button/games.png" alt="Games"></a> <a href="/wordgirl/adventures/" class="video navigation button module"> <img class="games-page-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/video_btn.png" alt="Video"> <img class="desktop-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/video.png" alt="Video"> <img class="mobile-image" src="/wordgirl/cdn_content/images/html5/mobile/modules/button/video.png" alt="Video"></a>
+   <div class="swiffy characters module"><a href="/wordgirl/heroes-villains/" class="character huggy"></a> <a href="/wordgirl/heroes-villains/" class="character dr2brains"></a> <a href="/wordgirl/heroes-villains/" class="character tobey"></a> <a href="/wordgirl/heroes-villains/" class="character tj"></a> <a href="/wordgirl/heroes-villains/" class="character chuck"></a> <a href="/wordgirl/heroes-villains/" class="character whammer"></a> <a href="/wordgirl/heroes-villains/" class="character violet"></a> <a href="/wordgirl/heroes-villains/" class="character butcher"></a> <a href="/wordgirl/heroes-villains/" class="character granny"></a> <a href="/wordgirl/heroes-villains/" class="character toddscoops"></a> <a href="/wordgirl/heroes-villains/" class="character mrbig"></a> <a href="/wordgirl/heroes-villains/" class="character ladyredundant"></a> <a href="/wordgirl/heroes-villains/" class="character timbotsford"></a> <a href="/wordgirl/heroes-villains/" class="character sallybotsford"></a> <a href="/wordgirl/heroes-villains/" class="character birthdaygirleileen"></a>
+   </div>
+   <script>    $(function() {        $('.character').each(function() {            var characterImage = $(this).css('background-image').replace('url(','').replace(')','');            $('<img>').attr('src', characterImage).load(function() {                console.log('loaded: ' + characterImage);            });        });        function fadeNext() {            $('.character').first().hide().appendTo($('.characters'));            $('.character').first().show();        }        var rotate = setInterval(fadeNext, 2500);    });</script>
+   <div id="character-wrapper">
+    <div id="character-wrapper-inner">
+     <div id="scroller">
+      <ul id="thelist">
+       <li class="left">
+        <div class="character-image captain-huggy"></div>
+        <div class="character-title-image captain-huggy"></div>
+        <div class="description">
+         Captain HuggyFace is WordGirl's greatest ally! This brilliant monkey is also from Planet Lexicon (he was piloting WordGirl's spaceship when it crashed.) Unlike WordGirl, Captain HuggyFace has no super powers and often has to take the bus home when WordGirl forgets that he can't fly.
+        </div></li>
+       <li class="right">
+        <div class="character-image violet"></div>
+        <div class="character-title-image violet"></div>
+        <div class="description">
+         Violet Heaslip is Becky's best friend. They met in Art Appreciation class (after Becky failed art class 3 times in a row.) Where Becky lacks creativity, Violet is an artistic genius. Violet spends her time day-dreaming and lost in thought.
+        </div></li>
+       <li class="left">
+        <div class="character-image tobey"></div>
+        <div class="character-title-image tobey"></div>
+        <div class="description">
+         Tobey is a 10-year-old genius who causes serious property damage in order to get WordGirl's attention. (Not that he's ever going to admit it.) He's a master of robotics, building giant robots to do his bidding. He's constantly trying to prove that he can outsmart WordGirl.
+        </div></li>
+       <li class="right">
+        <div class="character-image tj-botsford"></div>
+        <div class="character-title-image tj-botsford"></div>
+        <div class="description">
+         TJ is Becky's 7-year-old brother and the biological son of Tim and Sally Botsford. He's super excited about everything! Particularly, TJ idolizes WordGirl. In fact, he's the president of The Official WordGirl Fan Club. (Little does he know that WordGirl is his sister, Becky.)
+        </div></li>
+       <li class="left">
+        <div class="character-image whammer"></div>
+        <div class="character-title-image whammer"></div>
+        <div class="description">
+         The Whammer began his villainous career as a sidekick for Chuck the Evil Sandwich Making Guy. The thing is, he's not very good at being a sidekick. When he whams his fists together he sends out a sonic wave that crushes whatever is in its path! Wham! He loves to wham!
+        </div></li>
+       <li class="right">
+        <div class="character-image chuck"></div>
+        <div class="character-title-image chuck"></div>
+        <div class="description">
+         Chuck the Evil Sandwich Making Guy tried to use his sandwich making powers for good, but most people thought that having amazing sandwich making abilities was actually kind of silly. He decided that if people weren't going to realize his greatness on their own, he would force them.
+        </div></li>
+       <li class="left">
+        <div class="character-image dr-two-brains"></div>
+        <div class="character-title-image dr-two-brains"></div>
+        <div class="description">
+         Doctor Two-Brains used to be the brilliant, kind-hearted scientist Dr. Boxleitner before he accidentally fused his brain with that of a lab rat. He battles with himself, trying to contain his uncontrollable urge to steal cheese and take over the city.
+        </div></li>
+       <li class="right">
+        <div class="character-image the-butcher"></div>
+        <div class="character-title-image the-butcher"></div>
+        <div class="description">
+         The Butcher is a crook who butchers the English language. He mangles words or makes them up altogether. As a result, his cons are a complete debacle, or as he would say, "a dark buckle." He also has complete control over all meat and most meat by-products.
+        </div></li>
+       <li class="left">
+        <div class="character-image todd-scoops"></div>
+        <div class="character-title-image todd-scoops"></div>
+        <div class="description">
+         Scoops is a reporter on The Daily Rag, Public School 131's school newspaper. Scoops desperately wants to be an ace reporter. He knows there are thousands of stories in the big city and he wants to be the first to report them, especially uncovering WordGirl's secret identity.
+        </div></li>
+       <li class="right">
+        <div class="character-image granny"></div>
+        <div class="character-title-image granny"></div>
+        <div class="description">
+         Granny May is a sweet old lady on the outside, but a mean, grumpy criminal on the inside. She plays the role of a feeble, kindly, hard-of-hearing grandma in order to deceive the city and rob everyone blind.
+        </div></li>
+       <li class="left">
+        <div class="character-image lady-redundant"></div>
+        <div class="character-title-image lady-redundant"></div>
+        <div class="description">
+         When Beatrice Bixby, a disgruntled copy shop employee, pushed an unfamiliar button she merged with a photocopier and became the evil Lady Redundant Woman. When she touches her nose she makes copies of herself and sends them out into the world to do her dastardly deeds.
+        </div></li>
+       <li class="right">
+        <div class="character-image mr-big"></div>
+        <div class="character-title-image mr-big"></div>
+        <div class="description">
+         Mr. Big is an evil businessman who loves to concoct schemes that involve using mind control to take over the city. He also loves squeezing really squishy things. I know… we think it's weird too.
+        </div></li>
+       <li class="left">
+        <div class="character-image sally-botsford"></div>
+        <div class="character-title-image sally-botsford"></div>
+        <div class="description">
+         Sally Botsford is Becky's adopted mom. Her lifelong ambition is to be a guest on a gameshow… any gameshow. Unfortunately, she isn't very good. Even she doesn't know Becky's secret identity as WordGirl!
+        </div></li>
+       <li class="right">
+        <div class="character-image tim-botsford"></div>
+        <div class="character-title-image tim-botsford"></div>
+        <div class="description">
+         Tim Botsford is Becky's adopted dad. Tim is always supportive, even when he doesn't know what he's being supportive about. He also hasn't noticed that Becky and WordGirl look exactly alike- and are BOTH his daughter!
+        </div></li>
+       <li class="left">
+        <div class="character-image birthday-girl"></div>
+        <div class="character-title-image birthday-girl"></div>
+        <div class="description">
+         When you meet her, Eileen seems like an adorable little girl. However, she thinks that every day is her birthday and that she deserves special treatment. Her downfall is greed. If someone dares to tell her no, she grows into a giant green monster until she gets her way.
+        </div></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block flashContent %}<div class="flash_content" data-id="flash-content">
+ <div id="wrapperhome" class="flash">
+  <div id="WordGirl"></div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}<script>    if(!swfobject.getFlashPlayerVersion().release) {        var iScrollbar = function(iScroll, theme) {            if(iScroll.vScrollbar == true) {                var track = $(iScroll.vScrollbarWrapper).unbind("mousedown.iScrollbar");                var bar = track.find("div");                var y = 0;                track.bind("mousedown.iScrollbar", function(e) {                    if(e.target.className == theme+"V") {                        var offset = e.pageY-track.parent().offset().top;                        var percent = Math.round(offset*100/iScroll.vScrollbarSize)/100;                        iScroll.scrollTo(0, percent*iScroll.maxScrollY, 0);                    } else {                        var y = iScroll.y;                        jQuery(window).bind("mousemove.iScrollbar", function(move) {                            var movement = e.pageY-move.pageY;                            var movementPercent = movement*100/iScroll.vScrollbarMaxScroll;                            var movementY = -(movementPercent/100)*iScroll.maxScrollY+y;                            if(movementY > 0) {                                movementY = 0;                            }                            if(movementY<iScroll.maxScrollY) {                                movementY = iScroll.maxScrollY;                            }                            iScroll.scrollTo(0, movementY, 0);                        });                        $(window).bind("mouseup.iScrollbar", function() {                            $(window).unbind("mousemove.iScrollbar");                        });                    }                });            } else {                var track = $(iScroll.hScrollbarWrapper).unbind("mousedown.iScrollbar");                var bar = track.find("div");                var x = 0;                track.bind("mousedown.iScrollbar", function(e) {                    if(e.target.className == theme+"H") {                        var offset = e.pageX-track.offset().left;                        var percent = Math.round(offset*100/iScroll.hScrollbarSize)/100;                        iScroll.scrollTo(percent*iScroll.maxScrollX, 0, 0);                    } else {                        var x = iScroll.x;                        $(window).bind("mousemove.iScrollbar", function(move) {                            var movement = e.pageX-move.pageX;                            var movementPercent = movement*100/iScroll.hScrollbarMaxScroll;                            var movementX = -(movementPercent/100)*iScroll.maxScrollX+x;                            if(movementX>0) {                                movementX = 0;                            }                            if(movementX<iScroll.maxScrollX) {                                movementX = iScroll.maxScrollX;                            }                            iScroll.scrollTo(movementX, 0, 0);                        });                        $(window).bind("mouseup.iScrollbar", function() {                            $(window).unbind("mousemove.iScrollbar");                        });                    }                });            }        };        var characterPageScroller;        function loaded() {            var characterPageScroller = new iScroll('character-wrapper-inner', {                scrollbarClass: 'myScrollbar'            });            iScrollbar(characterPageScroller, 'myScrollbar');        }        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);        document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);    }</script>{% endblock %}
+
+
+{% set footerClass = 'footer heroesVillains' %}

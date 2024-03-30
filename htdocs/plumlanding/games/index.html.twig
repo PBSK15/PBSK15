@@ -1,0 +1,137 @@
+{% extends 'plumlanding/includes/plumLandingPage.html.twig' %}
+{% set pageTitle = 'Games' %}
+
+
+{% block specialHead %}<style type="text/css">
+	#highlight {
+		background-image: url("i/banner_games.jpg");
+	}
+</style>{% endblock %}
+
+
+{% set bodyOpeningTag = '<body>' %}
+{% set headbandId = 'pbsheadband' %}
+
+
+{% block mainContent %}<div id="plumpage" class="tealbg">
+ <div id="header"><!-- #bbinclude "navbar.incl"-->
+  <div id="navbar" class="boxedin">
+   <a name="navbar"></a>
+   <div class="row-group">
+    <div class="col-12"><a href="http://pbskids.org/" id="pbslogo"><img src="/plumlanding/i/common/pbskids_logo.svg" alt="PBS Kids"></a> <a href="/plumlanding/index.html" id="plumlogo"><img class="image-fluid" src="/plumlanding/i/common/plum_logo.svg" alt="Plum Landing"></a>
+     <ul id="nav">
+      <li class="gnav"><a href="/plumlanding/games/index.html" class="gnav-button selected">
+        <div class="nav-icon"><img src="/plumlanding/i/common/game_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble1_border.svg" alt="">
+        </div> <span class="gnav-text">Games</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/video/index.html" class="gnav-button ">
+        <div class="nav-icon bubble2"><img src="/plumlanding/i/common/video_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble2_border.svg" alt="">
+        </div> <span class="gnav-text">Video</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/ship/index.html" class="gnav-button ">
+        <div class="nav-icon bubble3"><img src="/plumlanding/i/common/ship_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble3_border.svg" alt="">
+        </div> <span class="gnav-text">The Ship</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/pictures/index.html" class="gnav-button ">
+        <div class="nav-icon"><img src="/plumlanding/i/common/pictures_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble1_border.svg" alt="">
+        </div> <span class="gnav-text">Pictures</span> </a></li>
+      <li class="gnav" id="loginnav"><a id="mystuff" class="gnav-button" data-action="pbskids-login-sign-in">
+        <div id="myicon" class="nav-icon bubble3"><img src="/plumlanding/i/common/mystuff_icon.svg" alt="My Stuff">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble3_border.svg" alt="">
+        </div> <span class="gnav-text">Sign In</span></a></li>
+     </ul>
+     <div id="pe"><a href="/plumlanding/parents/index.html" class="btn-alt btn-small">Parents</a> <a href="/plumlanding/educators/index.html" class="btn-alt btn-small">Educators</a>
+     </div>
+    </div>
+   </div>
+  </div> <!-- end bbinclude -->
+ </div> <!-- end header -->
+ <div id="highlight">
+  <!--img src="i/banner_games.jpg" alt="" width="1623" height="290"-->
+  <hr class="fadeout">
+  <div class="boxedin">
+   <div class="margin">
+    <div class="nofloat col-5 callout-highlight"><a class="nofloat thumb-highlight" href="/plumlanding/games/outdoor_adventures/index.html"> <img class="highlight-icon" src="/plumlanding/i/common/game_icon_hi.svg"> <img class="image-fluid" src="/plumlanding/i/highlights/outdoor_adventures_high.jpg"> </a>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div id="middle">
+  <hr class="rivets">
+  <div id="content" class="boxedin">
+   <div class="row-group">
+    <div class="col-12">
+     <h1 class="emphasis-dark">Games</h1>
+    </div>
+    <div class="col-12">
+     <h5 class="emphasis-light">Play! Explore! Create! Share! And discover the wonders of our amazing planet!</h5>
+    </div>
+   </div>
+   <div class="row-group multisize"><!-- #bbinclude "gameslist.incl" -->
+    <div class="col-3"><a class="thumb-purpleunder" href="can_you_dig_it/index.html"> <img class="image-fluid" src="../i/thumb/can_you_dig_it_th.jpg"> <span class="tn-text-in">Can You Dig It?</span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="mangroovin/index.html"> <img class="image-fluid" src="../i/thumb/mangroovin_th.jpg"> <span class="tn-text-in">Mangroovin'</span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="outdoor_adventures/index.html"> <img class="image-fluid" src="../i/thumb/outdoor_adventures_th.jpg"> <span class="tn-text-in">Outdoor Adventures <br><span class="tn-sub">Earn Badges with Your Family</span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="explorer/explore_the_outback.html"> <img class="image-fluid" src="../i/thumb/explore_the_outback_th.jpg"> <span class="tn-text-in">Explore the Outback <br><span class="tn-sub">Missions in the Australian Desert</span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="ecosystem/feed_the_dingo.html"> <img class="image-fluid" src="../i/thumb/feed_the_dingo_th.jpg"> <span class="tn-text-in">Feed the Dingo <br><span class="tn-sub">A Desert Ecosystem Game </span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="explorer/water_safari.html"> <img class="image-fluid" src="../i/thumb/water_safari_th.jpg"> <span class="tn-text-in">Water Safari <br><span class="tn-sub">Belize Mangroves Missions</span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="ecosystem/make_a_mangrove.html"> <img class="image-fluid" src="../i/thumb/make_a_mangrove_th.jpg"> <span class="tn-text-in">Make a Mangrove <br><span class="tn-sub">An Ecosystem Game </span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="explorer/rocky_mountain_roundup.html"> <img class="image-fluid" src="../i/thumb/rocky_mountain_roundup_th.jpg"> <span class="tn-text-in">Rocky Mountain Roundup <br><span class="tn-sub">Missions in the Canadian Rockies</span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="ecosystem/mountain_scramble.html"> <img class="image-fluid" src="../i/thumb/mountain_scramble_th.jpg"> <span class="tn-text-in">Mountain Scramble <br><span class="tn-sub">An Ecosystem Game </span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="explorer/jungle_rangers.html"> <img class="image-fluid" src="../i/thumb/jungle_rangers_th.jpg"> <span class="tn-text-in">Jungle Rangers <br><span class="tn-sub">Missions in the Borneo Rainforest</span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="ecosystem/jungle_jeopardy.html"> <img class="image-fluid" src="../i/thumb/jungle_jeopardy_th.jpg"> <span class="tn-text-in">Jungle Jeopardy <br><span class="tn-sub">An Ecosystem Game </span></span> </a>
+    </div>
+    <div class="col-3"><a class="thumb-purpleunder" href="nature_sketchpad/index.html"> <img class="image-fluid" src="../i/thumb/nature_sketchpad_th.jpg"> <span class="tn-text-in">Nature Sketchpad</span> </a>
+    </div> <!-- end bbinclude -->
+   </div>
+  </div>
+ </div>
+ <hr class="fadefooter">
+ <div id="footer"><!-- #bbinclude "footer.incl" -->
+  <div class="boxedin">
+   <div class="row-group">
+    <div class="col-12">
+     <div>
+      <ul id="footernav">
+       <li><a href="/plumlanding/index.html">Home</a></li>
+       <li><a href="/plumlanding/games/index.html">Games</a></li>
+       <li><a href="/plumlanding/video/index.html">Video</a></li>
+       <li><a href="/plumlanding/ship/index.html">The Ship</a></li>
+       <li><a href="/plumlanding/pictures/index.html">Pictures</a></li>
+       <li><a href="/plumlanding/mystuff/index.html">My Stuff</a></li>
+       <li><a href="/plumlanding/parents/index.html">Parents</a></li>
+       <li><a href="/plumlanding/educators/index.html">Educators</a></li>
+       <li><a href="/plumlanding/about/index.html">About</a></li>
+       <li><a href="/plumlanding/about/sitemap.html">Site Map</a></li>
+       <li><a href="/plumlanding/about/contact.html">Contact Us</a></li>
+       <li><a href="http://pbskids.org/privacy/">Privacy Policy</a></li>
+      </ul>
+     </div>
+     <div class="col-12"><a href="/plumlanding/about/copyright.html" class="fineprint">© 2014 WGBH Educational Foundation</a>
+     </div>
+    </div>
+   </div>
+  </div> <!-- end bbinclude -->
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}{% endblock %}
+

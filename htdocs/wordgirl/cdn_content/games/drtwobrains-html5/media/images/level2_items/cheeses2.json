@@ -1,0 +1,43 @@
+{
+"images": ["cheese_sheet.png"],
+"frames": [
+
+    [76, 211, 36, 24], 
+    [165, 2, 69, 178], 
+    [2, 149, 132, 60], 
+    [236, 172, 92, 56], 
+    [330, 173, 84, 53], 
+    [236, 56, 102, 61], 
+    [350, 128, 64, 43], 
+    [2, 2, 161, 145], 
+    [136, 182, 76, 56], 
+    [236, 119, 112, 51], 
+    [357, 2, 61, 51], 
+    [2, 211, 72, 36], 
+    [136, 149, 23, 23], 
+    [350, 56, 72, 70], 
+    [236, 2, 119, 52]
+],
+"animations": {
+    
+        "Asteroid":[0], 
+        "Astronaut":[1], 
+        "Cloud":[2], 
+        "Comet":[3], 
+        "Crater":[4], 
+        "Earth":[5], 
+        "Graph":[6], 
+        "Jupiter":[7], 
+        "Saturn":[8], 
+        "Rover":[9], 
+        "Satellite":[10], 
+        "Space_Shuttle":[11], 
+        "Star":[12], 
+        "Telescope":[13], 
+        "Weather_Chart":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:153cae6497531f8737f3e1f9646d33b4:7919293f22a6544a21e43c500a4a9092:6b12983caf1e21a7f43ab2cfb3aed997$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

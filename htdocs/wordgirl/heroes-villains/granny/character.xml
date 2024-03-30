@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Granny May]]></title>
+	<description><![CDATA[Granny May is a sweet old lady on the outside, but a mean, grumpy criminal on the inside. She plays the role of a feeble, kindly, hard-of-hearing grandma in order to deceive the city and rob everyone blind.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_granny.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/granny.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|granny_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_grannymay.png" title="Coloring Page"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+		<activity id="printables|granny_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="freezeframe" iconURL="images/heroVillain/character/activity_freezeframe.png" title="Freeze Frame"/>
+		<activity id="scavenger" iconURL="images/heroVillain/character/activity_scavenger.png" title="Scavenger Hunt"/>
+		<activity id="buildalair" iconURL="images/heroVillain/character/activity_buildalair.png" title="Build-A-Lair"/>
+	</activities>
+</gameResources>

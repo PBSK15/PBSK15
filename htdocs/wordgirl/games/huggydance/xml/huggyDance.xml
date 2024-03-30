@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<moods>
+	<mood name="Annoyed" id="annoyed" restrictedItems="irked|drowsy|livid"/>
+	<mood name="Chipper" id="chipper" restrictedItems="adorable|ecstatic|exhilarated|joyous"/>
+	<mood name="Delighted" id="delighted" restrictedItems="enthusiastic|jubilant|alert|ecstatic|exhilarated|joyous"/>
+	<mood name="Drowsy" id="drowsy" restrictedItems="annoyed|glum|lackadaisical|downtrodden"/>
+	<mood name="Flabbergasted" id="flabbergasted" restrictedItems="flummoxed|dazed|perplexed|astounded"/>
+	<mood name="Flummoxed" id="flummoxed" restrictedItems="flabbergasted|pensive|perplexed|mystified"/>
+	<mood name="Frenzied" id="frenzied" restrictedItems="alarmed|alert"/>
+	<mood name="Glum" id="glum" restrictedItems="drowsy|downtrodden"/>
+	<mood name="Grimace" id="grimace" restrictedItems="annoyed|livid"/>
+	<mood name="Irked" id="irked" restrictedItems="annoyed|livid"/>
+	<mood name="Jubilant" id="jubilant" restrictedItems="enthusiastic|delighted|ecstatic|exhilarated|joyous"/>
+	<mood name="Lackadaisical" id="lackadaisical" restrictedItems="drowsy|dazed"/>
+	<mood name="Livid" id="livid" restrictedItems="annoyed|grimace|enraged"/>
+	<mood name="Pensive" id="pensive" restrictedItems="flummoxed|perplexed"/>
+	<mood name="Robust" id="robust" restrictedItems="enthusiastic"/>
+	<mood name="Sheepish" id="sheepish" restrictedItems="adorable"/>
+	<mood name="Adorable" id="adorable" restrictedItems="chipper"/>
+	<mood name="Awestruck" id="awestruck" restrictedItems="dazed|alert|astounded|ecstatic|exhilarated|joyous"/>
+	<mood name="Dazed" id="dazed" restrictedItems="awestruck|flabbergasted|flummoxed|lackadaisical|downtrodden|mystified"/>
+	<mood name="Mischievous" id="mischievous" restrictedItems="null"/>
+	<mood name="Perplexed" id="perplexed" restrictedItems="pensive|flabbergasted|flummoxed|mystified"/>
+	<mood name="Enthusiastic" id="enthusiastic" restrictedItems="jubilant|delighted"/>
+	<mood name="Alarmed" id="alarmed" restrictedItems="frenzied"/>
+	<mood name="Alert" id="alert" restrictedItems="delighted|frenzied|awestruck|astounded"/>
+	<mood name="Astounded" id="astounded" restrictedItems="alert|flabbergasted|awestruck"/>
+	<mood name="Downtrodden" id="downtrodden" restrictedItems="drowsy|glum|dazed"/>
+	<mood name="Ecstatic" id="ecstatic" restrictedItems="exhilarated|joyous|chipper|delighted|jubilant|awestruck"/>
+    <mood name="Enraged" id="enraged" restrictedItems="livid"/>
+	<mood name="Exhilarated" id="exhilarated" restrictedItems="ecstatic|joyous|chipper|delighted|jubilant|awestruck"/>
+	<mood name="Joyous" id="joyous" restrictedItems="ecstatic|exhilarated|chipper|delighted|jubilant|awestruck"/>
+	<mood name="Mystified" id="mystified" restrictedItems="flummoxed|dazed|perplex"/>
+</moods>

@@ -1,0 +1,43 @@
+{% extends 'wordgirl/includes/templates/nonFlashWGPage.html.twig' %}
+{% set pageTitle = '. Games | PBS KIDS GO' %}
+{% set keywds = 'games,word games, vocabulary , huggy dance  favorite words children, tv,  carnival, dunk huggy ' %}
+{% set desc = 'Play word games with WordGirl and Captain Huggy Face to build vocabulary.' %}
+
+
+{% block swfEmbedScript %}<script>			swfobject.embedSWF(                "/enablecdn/wordgirl/cdn_content/WordGirlShell.swf",                "WordGirl",                "960",                "800",                "10.0.0",                false,                {                    cdn_root: "/enablecdn/wordgirl/cdn_content/",                    site_root: "/wordgirl/",                    bg_music_url: "site_audio/homepage/theme_instro.mp3",                    page_xml_url: "word-girl-games-landing.xml",                    content_swf_url: "GameLandingProxy.swf",                    framing: "comic"                },                {                    bgcolor: "#1277C9",                    allowscriptaccess: "always",                    menu: false                });		</script>{% endblock %}
+
+
+{% set bodyTag = '<body></body>' %}
+
+
+{% block html5Content %}<div class="html5_content html5_wrapper games">
+ <div class="html5 content games">
+  <div class="modules games">
+   <div class="banner-white-bg"></div>
+   <div class="banner module"><a class="pbskids item" href="http://pbskids.org/"> <img src="/wordgirl/cdn_content/images/html5/logos/logo_pbskids.png" alt="PBS Kids"> </a> <img src="/wordgirl/cdn_content/images/html5/desktop/modules/banner/games.png" class="centerpiece item games" alt="Games"> <a class="wordgirl item" href="/wordgirl/"> <img src="/wordgirl/cdn_content/images/html5/logos/logo_wordgirl.png" alt="WordGirl"> </a>
+   </div> <a href="/wordgirl/adventures/" class="video navigation button module"> <img class="games-page-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/video_btn.png" alt="Video"> <img class="desktop-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/video.png" alt="Video"> <img class="mobile-image" src="/wordgirl/cdn_content/images/html5/mobile/modules/button/video.png" alt="Video"></a> <a href="/wordgirl/games" class="games navigation button module"> <img class="desktop-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/games.png" alt="Games"> <img class="mobile-image" src="/wordgirl/cdn_content/images/html5/mobile/modules/button/games.png" alt="Games"></a>
+   <div class="game-buttons slider module"><a href="/wordgirl/prettyprincess/game" class="game-button-large story1-large module"></a> <a href="/wordgirl/games/drtwobrains-html5" class="story1 navigation button module"> <img class="desktop-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/d2bl.png" alt="Play Story 1"> <img class="mobile-image" src="/wordgirl/cdn_content/images/html5/mobile/modules/button/d2bl.png" alt="Play Story 1"> </a> <a href="/wordgirl/games/comicbook/" class="story2 navigation button module"> <img class="desktop-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/comic_book.png" alt="Play Story 2"> <img class="mobile-image" src="/wordgirl/cdn_content/images/html5/mobile/modules/button/comic_book.png" alt="Play Story 2"> </a>
+   </div>
+   <div class="module sb_adventures">
+    <div class="adventure sb_banner"></div> <a href="/wordgirl/games/storybookadventure/wordgirl/" class="module navigation button adventure butcher_battle"></a> <a href="/wordgirl/games/storybookadventure/pretty-princess/" class="module navigation button adventure berry_buddies"></a> <a href="/wordgirl/games/storybookadventure/becky-botsford/" class="module navigation button adventure becky_dayoff"></a>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block flashContent %}<div class="flash_content" data-id="flash-content">
+ <div id="wrapper" class="flash">
+  <div id="WordGirl"></div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}<script>    /* $(function() {       $('.game-button-large').hide();        function fadeNextGamePromo() {            $('.game-button-large').first().fadeOut().appendTo($('.game-buttons'));            $('.game-button-large').first().fadeIn();        }        var rotateGamePromos = setInterval(fadeNextGamePromo, 3000);     }); */</script>{% endblock %}
+
+
+{% set footerClass = 'footer games' %}

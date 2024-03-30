@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<menu name="questions">
+	
+    <question value="Becky ___________ TJ when she hugs him and tells him he is “the sweetest brother ever." hint="" time="30">
+        <item value="Compliments" correct="true"/>
+        <item value="Invents" correct="false"/>
+        <item value="Chases" correct="false"/>
+    </question>
+    
+    <question value="There is a great ________ at the grocery store as people scream and yell and cause a ruckus." hint="" time="75">
+        <item value="Bell" correct="false"/>
+        <item value="Garden" correct="false"/>
+        <item value="Hullabaloo" correct="true"/>
+    </question>
+
+    <question value="Dr. Two-Brains ________ his own book when he tells the audience it “is available at your local book store." hint="" time="84">
+        <item value="Promotes" correct="true"/>
+        <item value="Climbs" correct="false"/>
+        <item value="Completes" correct="false"/>
+    </question>
+	
+	<question value="WordGirl uses toilet paper to ________ the people who slip and slide in the olive oil." hint="" time="95">
+        <item value="Stir" correct="false"/>
+        <item value="Cushion" correct="true"/>
+        <item value="Dazzle" correct="false"/>
+    </question>
+    
+    <item video="games/freezeframe/content/video/WordGirl108.flv"/>
+			
+</menu>

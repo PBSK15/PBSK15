@@ -1,0 +1,59 @@
+{
+"images": ["bonus_assets.png"],
+"frames": [
+
+    [2, 2, 960, 600], 
+    [1292, 391, 384, 186], 
+    [964, 2, 326, 590], 
+    [1811, 331, 20, 278], 
+    [1761, 813, 97, 97], 
+    [1646, 758, 25, 38], 
+    [1384, 579, 318, 177], 
+    [1704, 331, 105, 480], 
+    [712, 877, 162, 78], 
+    [1585, 331, 113, 40], 
+    [712, 957, 113, 39], 
+    [1161, 817, 246, 165], 
+    [1161, 594, 221, 221], 
+    [515, 877, 195, 119], 
+    [1646, 813, 113, 197], 
+    [2, 604, 511, 378], 
+    [515, 604, 377, 271], 
+    [894, 604, 265, 351], 
+    [1585, 2, 300, 327], 
+    [1292, 2, 291, 387], 
+    [1409, 925, 86, 30], 
+    [1761, 912, 86, 29], 
+    [1409, 758, 235, 165]
+],
+"animations": {
+    
+        "bonus_round_bg":[0], 
+        "bonus_round_text":[1], 
+        "charlie_tween":[2], 
+        "cheese_ray_barrel":[3], 
+        "crosshairs":[4], 
+        "endcap":[5], 
+        "goop_help_text":[6], 
+        "goop_meter":[7], 
+        "goop_meter_timer":[8], 
+        "lower_ring_bot":[9], 
+        "lower_ring_top":[10], 
+        "mouse_blimp":[11], 
+        "mouse_logo":[12], 
+        "mouse_trap":[13], 
+        "mouse_wheel":[14], 
+        "rg_base":[15], 
+        "screen_goop1":[16], 
+        "screen_goop2":[17], 
+        "screen_goop3":[18], 
+        "screen_goop4":[19], 
+        "upper_ring_bot":[20], 
+        "upper_ring_top":[21], 
+        "van":[22]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:54edbabc9c4cd8dc568b7d18cb428bde:6fd4473c85baf77bcecabef0ee28f634:d69b90bee735e33a64cb8078b77e0218$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

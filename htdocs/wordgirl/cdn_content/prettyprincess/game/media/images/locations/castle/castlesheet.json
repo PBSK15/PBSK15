@@ -1,0 +1,37 @@
+{
+"images": ["castlesheet.png"],
+"frames": [
+
+    [459, 265, 174, 150], 
+    [211, 2, 233, 283], 
+    [2, 338, 203, 133], 
+    [652, 2, 73, 136], 
+    [211, 287, 230, 53], 
+    [319, 342, 138, 104], 
+    [652, 140, 71, 117], 
+    [2, 2, 207, 334], 
+    [446, 2, 204, 261], 
+    [207, 342, 110, 140], 
+    [635, 265, 92, 149], 
+    [459, 417, 83, 64]
+],
+"animations": {
+    
+        "castle_dragon1":[0], 
+        "castle_dragon2":[1], 
+        "castle_jewels":[2], 
+        "castle_mirror":[3], 
+        "castle_platform":[4], 
+        "castle_present":[5], 
+        "castle_scepter":[6], 
+        "castle_statue":[7], 
+        "castle_unicorn":[8], 
+        "castle_wands":[9], 
+        "castle_willow":[10], 
+        "willow_counter":[11]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:191d2c9eedf738c49e5fb9e9e18988e1:7a924172f1f4a1a39aabe5e62ee9d031:cb014eb469b4d2caea86f1fa87f0175b$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

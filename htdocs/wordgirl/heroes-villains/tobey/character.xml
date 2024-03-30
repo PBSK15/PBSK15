@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Tobey]]></title>
+	<description><![CDATA[Tobey is a 10-year-old genius who causes serious property damage in order to get WordGirl's attention, not that he'd ever admit it. He's a master of robotics, building giant robots to do his bidding. He's constantly trying to prove that he is WordGirl's intellectual superior, and that he isn't afraid of his mommy.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_tobey.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/tobey.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|tobey_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_tobey.png" title="Coloring Page"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+		<activity id="printables|tobey_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="freezeframe" iconURL="images/heroVillain/character/activity_freezeframe.png" title="Freeze Frame"/>
+		<activity id="robotworkshop" iconURL="images/heroVillain/character/activity_robotworkshop.png" title="Tobey's Robot Workshop"/>
+	</activities>
+</gameResources>

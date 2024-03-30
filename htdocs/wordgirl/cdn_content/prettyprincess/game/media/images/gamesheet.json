@@ -1,0 +1,23 @@
+{
+"images": ["gamesheet.png"],
+"frames": [
+
+    [2, 2, 512, 95], 
+    [220, 131, 48, 48], 
+    [342, 99, 48, 48], 
+    [220, 99, 120, 30], 
+    [2, 99, 216, 526]
+],
+"animations": {
+    
+        "corner-cloud":[0], 
+        "help-btn-over":[1], 
+        "help-btn":[2], 
+        "shadow":[3], 
+        "tower":[4]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:3a8e8a345735022c3c9967d101611b19:e75186c295451fbc501f8fdd397d6e4d:598745b7937611c76936c41e2348ef9c$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

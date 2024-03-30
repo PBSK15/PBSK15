@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<mainPage>true</mainPage>
+	<description><![CDATA[Mom & Dad	]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/momDad.png" type="image"/>
+	</resources>
+	<activities>
+		<activity id="coloring" iconURL="images/heroVillain/character/coloringPage.jpg" title="Coloring Page"/>
+		<activity id="bookmark" iconURL="images/heroVillain/character/bookMark.jpg" title="Bookmark"/>
+		<activity id="coloring2" iconURL="images/heroVillain/character/coloringPage.jpg" title="Coloring Page"/>
+		<activity id="bookmark2" iconURL="images/heroVillain/character/bookMark.jpg" title="Bookmark"/>
+		<activity id="coloring3" iconURL="images/heroVillain/character/coloringPage.jpg" title="Coloring Page"/>
+		<activity id="bookmark3" iconURL="images/heroVillain/character/bookMark.jpg" title="Bookmark"/>
+		<activity id="coloring4" iconURL="images/heroVillain/character/coloringPage.jpg" title="Coloring Page"/>
+		<activity id="bookmark4" iconURL="images/heroVillain/character/bookMark.jpg" title="Bookmark"/>
+		<activity id="coloring5" iconURL="images/heroVillain/character/coloringPage.jpg" title="Coloring Page"/>
+		<activity id="bookmark5" iconURL="images/heroVillain/character/bookMark.jpg" title="Bookmark"/>
+	</activities>
+</gameResources>

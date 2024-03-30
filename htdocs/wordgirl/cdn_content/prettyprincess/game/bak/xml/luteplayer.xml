@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<luteResources>
+	<assetLocation></assetLocation>
+	<resources>
+		<resource id="flat" URL="swfs/luteFlat.swf" type="movieclip"/>
+		<resource id="happy" URL="swfs/luteHappy.swf" type="movieclip"/>
+		<resource id="lp_intro_castle"                                  URL="audio/pp_game_luteplayer_intro1_tower.mp3" type="sound"/>
+		<resource id="lp_intro_lake"                                    URL="audio/pp_game_luteplayer_intro2_frozenlake.mp3" type="sound"/>
+		<resource id="lp_intro_clouds"                                  URL="audio/pp_game_luteplayer_intro3_clouds.mp3" type="sound"/>
+		<resource id="lp_ihaveariddleforyou"                            URL="audio/pp_game_luteplayer_ihaveariddleforyou.mp3" type="sound"/>
+		<resource id="lp_riddle_drearyswamp"                            URL="audio/pp_game_luteplayer_riddle_drearyswamp.mp3" type="sound"/>
+		<resource id="lp_riddle_effervescentvillage"                    URL="audio/pp_game_luteplayer_riddle_effervescentvillage.mp3" type="sound"/>
+		<resource id="lp_riddle_enchantedcastle"                        URL="audio/pp_game_luteplayer_riddle_enchantedcastle.mp3" type="sound"/>
+		<resource id="lp_riddle_fancifulvillage"                        URL="audio/pp_game_luteplayer_riddle_fancifulvillage.mp3" type="sound"/>
+		<resource id="lp_riddle_forbiddingswamp"                        URL="audio/pp_game_luteplayer_riddle_forbiddingswamp.mp3" type="sound"/>
+		<resource id="lp_riddle_gloomyswamp"                            URL="audio/pp_game_luteplayer_riddle_gloomyswamp.mp3" type="sound"/>
+		<resource id="lp_riddle_hauntedforest"                          URL="audio/pp_game_luteplayer_riddle_hauntedforest.mp3" type="sound"/>
+		<resource id="lp_riddle_magicalcastle"                          URL="audio/pp_game_luteplayer_riddle_magicalcastle.mp3" type="sound"/>
+		<resource id="lp_riddle_mysticalcastle"                         URL="audio/pp_game_luteplayer_riddle_mysticalcastle.mp3" type="sound"/>
+		<resource id="lp_riddle_ominousforest"                          URL="audio/pp_game_luteplayer_riddle_ominousforest.mp3" type="sound"/>
+		<resource id="lp_riddle_peacefulflowerfield"                    URL="audio/pp_game_luteplayer_riddle_peacefulfield.mp3" type="sound"/>
+		<resource id="lp_riddle_sereneflowerfield"                      URL="audio/pp_game_luteplayer_riddle_serenefield.mp3" type="sound"/>
+		<resource id="lp_riddle_sinisterforest"                         URL="audio/pp_game_luteplayer_riddle_sinisterforest.mp3" type="sound"/>
+		<resource id="lp_riddle_tranquilflowerfield"                    URL="audio/pp_game_luteplayer_riddle_tranquilfield.mp3" type="sound"/>
+		<resource id="lp_riddle_whimsicalvillage"                       URL="audio/pp_game_luteplayer_riddle_whimsicalvillage.mp3" type="sound"/>
+		<resource id="lp_oops"                                          URL="audio/pp_game_luteplayer_oops.mp3" type="sound"/>
+		<resource id="lp_keeptrying"                                    URL="audio/pp_game_luteplayer_keeptrying.mp3" type="sound"/>
+		<resource id="lp_congratulations"                               URL="audio/pp_game_luteplayer_congratulations.mp3" type="sound"/>
+	</resources>
+</luteResources>

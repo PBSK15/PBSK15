@@ -1,0 +1,20 @@
+{
+  "urls": [
+    "success.ogg",
+    "success.m4a",
+    "success.mp3",
+    "success.ac3"
+  ],
+  "audioSprite": [
+    {
+      "id": "iamsoproud",
+      "startTime": 0,
+      "duration": 2560
+    },
+    {
+      "id": "whodidthis",
+      "startTime": 4000,
+      "duration": 6713.469387755101
+    }
+  ]
+}

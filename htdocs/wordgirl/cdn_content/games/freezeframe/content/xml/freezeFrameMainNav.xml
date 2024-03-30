@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<menu name="videoNav">
+	
+	 <item thumb="content/images/FF_videoThumb_107.jpg" xmlData="content/xml/freezeFrame_8Data.xml"/>
+	 <item thumb="content/images/FF_videoThumb_108.jpg" xmlData="content/xml/freezeFrame_9Data.xml"/>
+	 <item thumb="content/images/FF_videoThumb_109.jpg" xmlData="content/xml/freezeFrame_10Data.xml"/>
+        <item thumb="content/images/FF_videoThumb_1A.jpg" xmlData="content/xml/freezeFrame_1Data.xml"/>
+        
+<item thumb="content/images/FF_videoThumb_101.jpg" xmlData="content/xml/freezeFrame_2Data.xml"/>
+       
+ <item thumb="content/images/FF_videoThumb_102.jpg" xmlData="content/xml/freezeFrame_3Data.xml"/>
+ <item thumb="content/images/FF_videoThumb_103.jpg" xmlData="content/xml/freezeFrame_4Data.xml"/>
+        <item thumb="content/images/FF_videoThumb_104.jpg" xmlData="content/xml/freezeFrame_5Data.xml"/>
+     <item thumb="content/images/FF_videoThumb_105.jpg" xmlData="content/xml/freezeFrame_6Data.xml"/>
+   <item thumb="content/images/FF_videoThumb_106.jpg" xmlData="content/xml/freezeFrame_7Data.xml"/>
+    			
+</menu>

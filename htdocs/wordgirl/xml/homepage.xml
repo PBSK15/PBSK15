@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<pageResources>
+	<assetLocation><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetLocation>
+	<promo1XML><![CDATA[xml/topPromo.xml]]></promo1XML>
+	<promo2XML><![CDATA[xml/bottomPromo.xml]]></promo2XML>
+	<resources>
+		<resource id="background" URL="images/homepage/mainBG.jpg" type="image"/>
+		<!--<resource id="newsburst" URL="images/homepage/watchCallout.png" type="image" destination="adventures"/>-->
+		<!-- <resource id="newsburst" URL="images/homepage/WG_EnterBTN.png" type="image" destination="adventures"/> -->
+		<resource id="area2" URL="swfs/homepage/WG_huggyAnim.swf" type="movieclip" destination="huggydance"/>
+		<resource id="angry" URL="swfs/homepage/WG_angry.swf" type="movieclip"/>
+		<resource id="happy" URL="swfs/homepage/WG_happy.swf" type="movieclip" destination="mazemania"/>
+		<resource id="flat" URL="swfs/homepage/WG_flat.swf" type="movieclip"/>
+		<resource id="surprised" URL="swfs/homepage/WG_surprise.swf" type="movieclip"/>
+		<resource id="flybyMP3" URL="site_audio/homepage/flyby.mp3" type="sound"/>
+		<resource id="danceMP3" URL="site_audio/homepage/HuggyDance.mp3" type="sound"/>
+		<resource id="takeoffMP3" URL="site_audio/homepage/takeOff.mp3" type="sound"/>
+		<resource id="spaceship" URL="site_audio/homepage/whoosh.mp3" type="sound"/>
+		<resource id="huggySqueak" URL="site_audio/homepage/huggySqueak.mp3" type="sound"/>
+	</resources>
+	<WGidles>
+		<idle id="01" soundURL="site_audio/homepage/wg_home01.mp3" mood="happy" gesturescript="body,0.1,happy"/>
+		<idle meta="prettyprincessgame" imageURL="homepage/toppromo/princess_top.jpg" id="02" soundURL="site_audio/homepage/wg_home28.mp3" mood="angry" gesturescript="body,0.1,angry|face,3.5,flat"/>
+		<idle meta="chuckgame" imageURL="homepage/toppromo/chuckExtreme_top.jpg" id="03" soundURL="site_audio/homepage/wg_home02.mp3" mood="happy" gesturescript="body,0.1,waving"/>
+		<idle meta="chuckgame" imageURL="homepage/toppromo/chuckExtreme_top.jpg" id="06" dance="true" soundURL="site_audio/homepage/wg_home06.mp3" mood="happy" gesturescript="body,0.1,happy|body,3.6,flat|face,3.9,flat"/>
+		<idle meta="huggydance" imageURL="homepage/toppromo/huggyDance_top.jpg" id="07" soundURL="site_audio/homepage/wg_home07.mp3" mood="happy" gesturescript="body,0.1,flat"/>
+		<idle id="08" soundURL="site_audio/homepage/wg_home08.mp3" mood="happy" gesturescript="body,0.1,surprised|face,1.9,flat|body,2.0,flat"/>
+		<idle meta="buildalair" imageURL="homepage/toppromo/buildLair_top.jpg" id="12" soundURL="site_audio/homepage/wg_home12.mp3" mood="happy" gesturescript="body,0.1,happy|face,1.2,flat|body,4.1,flat|face,4.2,happy"/>
+		<idle meta="powerwords" imageURL="homepage/toppromo/powerWords_top.jpg" id="13" soundURL="site_audio/homepage/wg_home13.mp3" mood="angry" gesturescript="body,0.1,angry|face,3.1,happy|body,3.2,flat"/>
+		<!-- <idle meta="butcherisms" imageURL="homepage/toppromo/butcherisms_top.jpg" id="14" soundURL="site_audio/homepage/wg_home14.mp3" mood="angry" gesturescript="body,0.1,crossArms|face,4.5,flat|body,5.8,flat"/> -->
+		<!-- <idle meta="beastar" imageURL="homepage/toppromo/beStar_top.jpg" id="17" soundURL="site_audio/homepage/wg_home17.mp3" mood="happy" gesturescript="body,0.1,happy|face,3.2,happy|body,4.0,flat"/> -->
+		<idle meta="chuckgame" imageURL="homepage/toppromo/chuckExtreme_top.jpg" id="18" soundURL="site_audio/homepage/wg_home18.mp3" mood="surprised" gesturescript="body,0.1,flat|face,3.2,happy|body,3.21,happy"/>
+		<!-- <idle meta="scavenger" imageURL="homepage/toppromo/scavenger_top.jpg" id="19" soundURL="site_audio/homepage/wg_home19.mp3" mood="happy" gesturescript="body,0.1,happy|body,3.5,flat"/> -->
+		<idle id="22" soundURL="site_audio/homepage/wg_home22.mp3" mood="happy" gesturescript="body,0.1,waving"/>
+		<idle meta="robotworkshop" imageURL="homepage/toppromo/tobey_top.jpg" id="25" soundURL="site_audio/homepage/wg_home25.mp3" mood="happy" gesturescript="body,0.1,flat|face,2.8,happy|body,2.9,angry"/>
+		<idle id="29" soundURL="site_audio/homepage/wg_home29.mp3" mood="angry" gesturescript="body,0.1,crossArms|face,2.4,happy|body,2.5,happy"/>
+		<idle id="34" soundURL="site_audio/homepage/wg_home34.mp3" mood="happy" gesturescript="body,0.1,happy|face,2.1,flat"/>
+	</WGidles>
+	<huggyIdles>
+		<!-- <idle meta="haveaword" type="general"/> -->
+		<idle meta="powerwords" type="taichi"/>
+		<idle meta="huggydance" type="dance"/>
+		<idle meta="comicstripcapers" type="jump"/>
+	</huggyIdles>
+</pageResources>

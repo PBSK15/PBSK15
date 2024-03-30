@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[The Whammer]]></title>
+	<description><![CDATA[The Whammer began his villainous career as a sidekick for Chuck the Evil Sandwich Making Guy. The thing is... he's not very good at being a sidekick. When he whams his fists together he sends out a sonic wave that crushes whatever is in its path. Wham! He loves to wham things and when he whams them, he whams them good! Yeah! He thinks he is totally Whammer (whatever that means). WHAM!]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_whammer.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/whammer.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|whammer_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_whammer.png" title="Coloring Page"/>
+		<activity id="printables|whammer_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+	</activities>
+</gameResources>

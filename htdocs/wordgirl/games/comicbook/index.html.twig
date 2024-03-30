@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2013 Adobe Systems Incorporated. All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Word Girl: Mystery Meat</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no">
+
+		<meta property="og:title" content="Mystery Meat"/>
+		<meta property="og:url" content=""/>
+		<meta property="og:image" content="assets/images/icons/apple-touch-icon.png"/>
+		<meta property="og:site_name" content="Word Girl"/>
+		<meta property="og:type" content="comic"/>
+
+        <link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/images/icons/apple-touch-icon-57x57-precomposed.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icons/apple-touch-icon-72x72-precomposed.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/apple-touch-icon-114x114-precomposed.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icons/apple-touch-icon-144x144-precomposed.png" />
+
+        <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="navigation/style.css" rel="stylesheet" type="text/css">
+        <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
+        
+    
+	<!--[if IE]>
+        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+		
+        <script src="js/vendor/modernizr/modernizr.js"></script>
+    </head>
+    <body>
+        <div class="navigation-bar">
+            <div class="navigation-bar-background left"></div>
+            <div class="navigation-bar-background right"></div>
+            <a class="navigation-bar-logo left" href="http://pbskids.org">
+                <img src="../../cdn_content/games/storybookadventure/navigation/pbsKidsLogo.png">
+            </a>
+            
+            <ul class="navigation-bar-actions">
+                <li class="action">
+                    <a data-action="restart-comic">
+                        <img src="assets/images/WG_book-refresh.png">
+                    </a>
+                </li>
+                <li class="action">
+                    <a data-action="quit-comic" href="http://pbskids.org/wordgirl/games">
+                        <img src="../../cdn_content/games/storybookadventure/navigation/exit.png">
+                    </a>
+                </li>   
+            </ul>
+        </div>
+    
+        <div id="comic-book-ui" role="main">
+        
+            <canvas id="canvas-view"></canvas>
+            
+            <!--<div id="debugger">debug</div>-->
+    
+            <div id="dom-container">
+                <div id="dom-view">
+    
+                    <section id="cover" class="frame">
+    
+                    </section>
+    
+                    <section id="frame1" class="frame">
+                        <div id="bubble-one" class="bubble bubble--square bubble-yellow">
+                            <span>A</span>n ominous and shadowy figure sneaks into the museum!
+                        </div> 
+                    </section>
+    
+                    <section id="frame4" class="frame">
+                        <svg id="svg-clak" class="text-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="304px" height="150px" viewBox="0 0 304 150" enable-background="new 0 0 304 150" xml:space="preserve">
+                            <defs>
+                                <path id="clak-path" fill="none" d="M20.1,79.809c0,0,92.808,44.949,156.594,41.592c74.942-3.944,108.498-24.608,108.498-24.608"/>
+                            </defs>
+                            <text>
+                                <textPath xlink:href="#clak-path">
+                                   CLAK!
+                                </textPath>
+                            </text>
+                        </svg>
+                    </section>
+    
+                    <section id="frame5" class="frame">
+                        <svg id="svg-grr" class="text-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="469px" height="166px" viewBox="0 0 469 166" enable-background="new 0 0 469 166" xml:space="preserve">
+                            <defs>
+                                <path id="grr-path" fill="none" d="M21.239,104.647c0,0,23.247-50.164,124.799-23.247s193.317,31.812,236.14,15.906s66.07-25.694,66.07-25.694"/>
+                                <path id="grr-path-start" fill="none" d="M21.239,104.647c0,0,23.247-50.164,124.799-23.247s193.317,31.812,236.14,15.906s66.07-25.694,66.07-25.694"/>
+                                <path id="grr-path-stop" fill="none" d="M3.826,66.939c0,0,56.997,53.997,136.493,46.498S267.813,65.44,351.808,80.439s113.994,52.497,113.994,52.497"/>
+                            </defs>
+                            <text>
+                                <textPath xlink:href="#grr-path">
+                                   GRRRRRRRRRRR
+                                </textPath>
+                            </text>
+                        </svg>
+                    </section>
+                    
+                    <section id="frame7" class="frame">
+                        <svg id="svg-title" class="text-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="769px" height="120px" viewBox="0 0 769 120">
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#7da8d9;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#dce6f5;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <text fill="url(#grad1)">
+                                MYSTERY MEAT
+                            </text>
+                        </svg>
+                        <div id="credits">
+                            JACK FERRAIOLO &amp;</br>
+                            WILL SHEPARD</br>
+                            WRITERS</br></br>
+                            MARK SUMERAK</br>
+                            COMIC STRIP ADAPTATION</br></br>
+                            CARLOS OLIVARES</br>
+                            ARTIST</br></br>
+                            SOTOCOLOR'S J. BROWN</br>
+                            COLORIST</br></br>
+                            CHRIS ELIOPOULOS</br>
+                            LETTERER</br></br>
+                            SPECIAL THANKS TO THE TEAMS AT PBS KIDS GO! SCHOLASTIC INC., AND SOUP2NUTS
+                        </div>
+                        <div id="bubble-two" class="bubble bubble--round" data-point="230, 150" data-c="5">
+                            HEH,<br/> HEH, HEH...
+                        </div>
+                    </section>
+                    
+                    <section id="frame9" class="frame">
+                        <div id="bubble-three" class="bubble bubble--round" data-point="200, 130" data-c="5">
+                            HOLD<br/> IT RIGHT THERE, FELLA!
+                        </div>
+                    </section>
+                    
+                    <section id="frame10" class="frame">
+                        
+                        <div id="bubble-four" class="bubble bubble--round" data-point="150, 230" data-c="1">
+                            FELLA?<br/> NO, NO... I'M THE BUTCHER! AND I'M HERE TO STEALIZE THIS ANCIENT DIAMOND HERE!
+                        </div>
+                        
+                        <div id="bubble-five" class="bubble bubble--round" data-point="400, 240" data-c="7">
+                            THE<br/> WORD ISN'T<br/> "STEALIZE." IT'S<br/> "STEAL". AND BESIDES, THAT'S NOT AN<br/> ANCIENT<br/> DIAMOND.
+                        </div>
+    
+                    </section>
+    
+                    <section id="frame11" class="frame">
+                        <div id="bubble-six" class="bubble bubble--round" data-point="100, 250" data-c="0">
+                            IT'S NOT?
+                        </div>
+                        <div id="bubble-seven" class="bubble bubble--round" data-point="530, 240" data-c="3">
+                            NOPE.<br/> IT'S AN ANCIENT ZIRCONIA. THAT'S AN ANCIENT DIAMOND<br/> OVER THERE.
+                        </div>
+                    </section>
+    
+                    <section id="frame12" class="frame">
+                        <div id="bubble-eight" class="bubble bubble--round" data-point="160, 200" data-c="0">
+                            OH.<br/> WELL, I'LL TAKE IT ANYWAY. IT'S ALL SPARGLY!
+                        </div>
+                        <div id="bubble-nine" class="bubble bubble--round" data-point="440, 240" data-c="3">
+                            THE<br/> WORD IS<br/> "SPARKLY", NOT "SPARGLY."
+                        </div>
+                    </section>
+                    
+                    <section id="frame13" class="frame">
+                        <svg id="svg-beep" class="text-svg" width="1118px" height="613px">
+                            <g class="svg-beep-g" transform="translate(800, 250)">
+                                <g class="svg-beep-1">
+                                    <text class="svg-beep-shadow" transform="translate(0, 3)">BEEP!</text>
+                                    <text class="svg-beep-fill">BEEP!</text>
+                                </g>
+                                <g class="svg-beep-2" transform="translate(0, 30)">
+                                    <text class="svg-beep-shadow" transform="translate(0, 3)">BEEP!</text>
+                                    <text class="svg-beep-fill">BEEP!</text>
+                                </g>
+                            </g>
+                        </svg>
+                        <div id="bubble-twelve" class="bubble bubble--square bubble-yellow">
+                            MEANWHILE, IN THE SPACESHIP LAIR OF WORDGIRL AND CAPTAIN HUGGY FACE...
+                        </div>
+                        <div id="bubble-ten" class="bubble bubble--round" data-point="470, 300" data-c="30">
+                            A<br/> ROBBERY? AT THE MUSEUM? C'MON, HUGGY.
+                        </div>
+                        <div id="bubble-eleven" class="bubble bubble--round">
+                            WORRRRD UP!
+                        </div>
+                    </section>
+                    
+                    <section id="frame14" class="frame">
+                        <div id="bubble-13" class="bubble bubble--round" data-point="260, 200" data-c="6">
+                            PUT THAT<br/> DIAMOND DOWN,<br/> BUTCHER!  
+                        </div>
+                        <div id="bubble-14" class="bubble bubble--round" data-point="150, 400" data-c="0">
+                            WORDGIRL<br/> AND CAPTAIN<br/> HUGGY FACE!
+                        </div>
+                        <div id="bubble-15" class="bubble bubble--round" data-point="400, 200" data-c="45">
+                            THAT'S RIGHT,<br/> BUTCHER!
+                        </div>
+                    </section>
+                    
+                    <section id="frame15" class="frame">
+                        <div id="bubble-15-2" class="bubble bubble--round" data-point="440, 140" data-c="13">
+                            YOU<br/> MEAN CUBIC<br/> ZIRCONIA?
+                        </div>
+                        <div id="bubble-15-3" class="bubble bubble--round" data-point="160, 30" data-c="38">
+                            THAT<br/> KINDA SOUNDS<br/> FAMILIAR...
+                        </div>
+                        <div id="bubble-15-1" class="bubble bubble--round" data-point="100, 200" data-c="0">
+                            IT'S NOT A DIAMOND<br/> IT'S A CUBIC ZAMBONIA.<br/> SEE?
+                        </div>
+    
+                        <div id="bubble-15-4" class="bubble bubble--round" data-point="460, 250" data-c="0">
+                            OH YEAH?<br/> WELL, LET'S SEE<br/> IF THIS SOUNDS<br/> FAMILIAR: YOU'RE<br/> GOING TO JAIL.
+                        </div>
+                    </section>
+    
+                    <section id="frame16" class="frame">
+                        <svg id="svg-aaa" class="text-svg">
+                            <path class="svg-aaa-bubble" transform="translate(0, 60)" fill="#FFFFFF" stroke="#231F20" stroke-width="3" stroke-miterlimit="10" d="M116.509,29.211c-25.773,0-46.667,15.521-46.667,34.667c0,10.178,5.905,19.331,15.308,25.673l-107.974,56.327l-2.667,10l126.85-59.212c4.752,1.211,9.845,1.878,15.15,1.878c25.773,0,46.667-15.521,46.667-34.667S142.282,29.211,116.509,29.211z"/>
+                            <g class="svg-aaa-g" transform="translate(40, 150)">
+                                <text class="svg-aaa-back">
+                                    <tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>!</tspan><tspan>!</tspan><tspan>!</tspan>
+                                </text>
+                                <text>
+                                    <tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>A</tspan><tspan>!</tspan><tspan>!</tspan><tspan>!</tspan>
+                                </text>
+                            </g>
+                        </svg>
+                        <div id="bubble-16-1" class="bubble bubble--round" data-point="360, 40" data-c="10">
+                            NOT IF I<br/> CAN HELP IT.<br/> AND I CAN!
+                        </div>
+                        <div id="bubble-16-2" class="bubble bubble--round" data-point="370, 120" data-c="48">
+                            HAM-<br/>ALANCHE!!
+                        </div>
+                        <div id="bubble-16-3" class="bubble bubble--round" data-point="760, 200" data-c="10">
+                            UGH!
+                        </div>
+                    </section>
+    
+                    <section id="frame17" class="frame">
+                        <svg id="svg-chomp" class="text-svg svg-chomp">
+                            <text transform="translate(250, 350)">CHOMP!</text>
+                        </svg>
+                        <div id="bubble-17-1" class="bubble bubble--round" data-point="100, 140" data-c="0">
+                            UH...<br/> LITTLE HELP<br/> HERE.
+                        </div>
+                        <div id="bubble-17-2" class="bubble bubble--round" data-point="1000, 220" data-c="7">
+                            HASTA<br/> LA BYE BYE,<br/> WORD GIRL!<br/> HA HA HA!
+                        </div>
+                    </section>
+    
+                    <section id="frame19" class="frame">
+                        <svg id="svg-tac" class="text-svg">
+                            <g class="svg-tac-g" transform="translate(25, 280)">
+                                <text class="svg-tac-shadow">TAC!</text>
+                                <text>TAC!</text>
+                            </g>
+                        </svg>
+                    </section>
+    
+                    <section id="frame21" class="frame">
+                         <div id="bubble-21-1" class="bubble bubble--square bubble-yellow">
+                            <span>L</span>ater at the home of Becky Botsford (also known as word girl)...
+                        </div> 
+                    </section>
+    
+                    <section id="frame22" class="frame">
+                        <div id="bubble-22-1" class="bubble bubble--round" data-point="600, 240" data-c="8">
+                            WHAT'S<br/> WRONG BOB?<br/> IT'S NOT LIKE YOU<br/> TO REFUSE<br/> HAM.
+                        </div>
+                        <div id="bubble-22-2" class="bubble bubble--round" data-point="350, 380" data-c="42">
+                            HE,<br/> UHHHH...<br/> HAD A LATE<br/> SNACK
+                        </div>
+                    </section>
+    
+                    <section id="frame23" class="frame">
+                        <div id="bubble-23-1" class="bubble bubble--round" data-point="50, 250" data-c="44">
+                            DID YOU GUYS SEE<br/> THE NEWS TODAY?<br/> WORD GIRL FACED<br/> OFF AGAINST THE<br/> BUTCHER!
+                        </div>
+                        <div id="bubble-23-2" class="bubble bubble--round" data-point="200, 230" data-c="0">
+                            OOOH!<br/> HOW'D SHE<br/> DO?
+                        </div>
+                        <div id="bubble-23-3" class="bubble bubble--round" data-point="100, 430" data-c="0">
+                            NOT SO<br/> GREAT.
+                        </div>
+                    </section>
+    
+                    <section id="frame24" class="frame">
+                        <div id="bubble-24-1" class="bubble bubble--round" data-point="250, 250" data-c="0">
+                            SHE WASN'T<br/> COMPLETELY<br/> <em>INEFFECTIVE</em>.
+                        </div>
+                        <div id="bubble-24-2" class="bubble bubble--round" data-point="100, 270" data-c="0">
+                            SHE<br/> GOT BURIED IN A<br/> HAM-ALANCHE.
+                        </div>
+                        <div id="bubble-24-3" class="bubble bubble--round" data-point="300, 330" data-c="0">
+                            *HUMPH*
+                        </div>
+                    </section>
+    
+                    <section id="frame25" class="frame">
+                        <div id="bubble-25-1" class="bubble bubble--round" data-point="250, 250" data-c="10">
+                            THE BUTCHER HAS<br/> ALWAYS GIVEN HER<br/> A HARD TIME
+                        </div>
+                        <div id="bubble-25-2" class="bubble bubble--round" data-point="100, 270" data-c="0">
+                            YUP, BUT THAT<br/> HAIRY LITTLE BOY<br/> THAT FOLLOWS HER<br/> AROUND SEEMS TO<br/> DO OKAY...
+                        </div>
+                        <div id="bubble-25-3" class="bubble bubble--round" data-point="250, 310" data-c="3">
+                            YUP, HE'S<br/> PROVEN TO BE<br/> PRETTY EFFECTIVE<br/> AGAINST THE<br/> BUTCHER
+                        </div>
+                    </section>
+    
+                    <section id="frame26" class="frame">
+                        <svg id="svg-scrunch" class="text-svg">
+                            <text transform="translate(100, 530)">SCRUNCH</text>
+                        </svg>
+                    </section>
+                    
+                    <section id="frame27" class="frame">
+                        <div id="bubble-27-1" class="bubble bubble--round" data-point="360, 120" data-c="45">
+                            WHOA, HONEY!<br/> WHAT'D YOU DO<br/> TO THAT FORK?
+                        </div>
+                    </section>
+    
+                    <section id="frame28" class="frame">
+                        <div id="bubble-28-1" class="bubble bubble--round" data-point="250, 100" data-c="10">
+                            OH, THIS? UHH...<br/> THIS IS A SCULPTURE...<br/> FOR ART CLASS...
+                        </div>
+                        <div id="bubble-28-2" class="bubble bubble--round" data-point="270, 250" data-c="0">
+                            AND BOB DID<br/> IT...WITH HIS<br/> MONKEY<br/> STRENGTH...
+                        </div>
+                    </section>
+                    
+                    <section id="frame29" class="frame">
+                        <div id="bubble-29-1" class="bubble bubble--round" data-point="300, 140" data-c="10">
+                            IT'S VERY NICE,<br/> BOB, BUT THAT'S THE<br/> 14TH SCULPTURE YOU'VE MADE THIS MONTH.<br/> WE'RE RUNNING OUT<br/> OF FORKS.  
+                        </div>
+                        <div id="bubble-29-2" class="bubble bubble--round" data-point="630, 350" data-c="30">
+                            HE SAYS <em>SORRY</em>...
+                        </div>
+                        <div id="bubble-29-3" class="bubble bubble--round" data-point="470, 250" data-c="100">
+                            UMMM... MAY<br/> WE BE EXCUSED?<br/> I HAVE TO TRIPLE-CHECK MY HOMEWORK.
+                        </div>
+                    </section>
+    
+                    <section id="frame30" class="frame">
+                        <div id="bubble-30-1" class="bubble bubble--round" data-point="-100, 50" data-c="35">
+                            THAT'S MY GIRL!
+                        </div>
+                        <div id="bubble-30-2" class="bubble bubble--round" data-point="300, 200" data-c="0">
+                            SHOW-OFF!
+                        </div>
+                    </section>
+                    
+                    <section id="frame31" class="frame">
+                        <div id="bubble-31-1" class="bubble bubble--round" data-point="270, 240" data-c="5">
+                            I SWEAR TO YOU, HUGGY... NOTHING IS GOING TO STAND IN MY WAY OF FINDING THE BUTCHER AND PUTTING HIM BEHIND BARS...
+                        </div>
+                    </section>
+    
+                    <section id="frame32" class="frame">
+                        <div id="bubble-32-1" class="bubble bubble--round" data-point="150, 100" data-c="40">
+                            YOU GUYS<br/> ALMOST FORGOT,<br/> IT'S PUDDING<br/> NIGHT!
+                        </div>
+                    </section>
+                    
+                    <section id="frame33" class="frame">
+                        <div id="bubble-33-1" class="bubble bubble--round" data-point="250, 200" data-c="0">
+                            ...STARTING RIGHT AFTER DESSERT.
+                        </div>
+                    </section>
+                    
+                    <section id="frame34" class="frame">
+                        <div id="bubble-34-1" class="bubble bubble--square bubble--yellow" data-point="250, 100" data-c="10">
+                            MEANWHILE, IN THE LAIR OF THE BUTCHER...
+                        </div>
+                        <div id="bubble-34-2" class="bubble bubble--round" data-point="300, 500" data-c="0">
+                            OH, MAN... THAT<br/> HAM-ALANCHE TOTALLY WORKED! KIND OF...BUT I STILL HAVE NOTHING TO SHOW<br/> FOR IT!
+                        </div>
+                    </section>
+    
+                    <section id="frame35" class="frame">
+                        <div id="bubble-35-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            IF IT WEREN'T FOR<br/> THAT LITTLE HARIY GUY, I'D HAVE THAT SPARKLY THING RIGHT NOW! IT WOULD HAVE GIVEN THIS JOINT A TOUCH OF CLASS!
+                        </div>
+                        <div id="bubble-35-2" class="bubble bubble--round" data-point="320, 180" data-c="0">
+                            BUT CAPTAIN<br/> HUGGY FACE EATS EVERYTHING!
+                        </div>
+                    </section>
+                    
+                    <section id="frame36" class="frame">
+                        <div id="bubble-36-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            IF ONLY THERE WAS<br/> A PLACE WHERE I COULD<br/> GET A BOOK FULL OF RECIPES, STUFF TO KCOOK THAT A MONKEY SUPER HERO WOULDN'T LIKE.
+                        </div>
+                        <div id="bubble-36-2" class="bubble bubble--round" data-point="320, 180" data-c="45">
+                            BUT WHERE<br/> WOULD I GET ASUCH A "COOK-BOOK"?
+                        </div>
+                    </section>
+                    
+                    <section id="frame37" class="frame">
+                        <div id="bubble-37-1" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            GOOD THING THE BUTCHER DOESN'T KNOW ABOUT THE LIBRARY, RIGHT, KIDS?
+                        </div>
+                        <div id="bubble-37-2" class="bubble bubble--round" data-point="230, 300" data-c="46">
+                            THEY GOT A<br/> BOOK LIKE THAT<br/> AT THE LIBRARY?
+                        </div>
+                    </section>
+                    
+                    <section id="frame38" class="frame">
+                        <div id="bubble-38-1" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            WAIT A MINUTE. YOU CAN READ WHAT I'M SAYING?
+                        </div>
+                        <div id="bubble-38-2" class="bubble bubble--round" data-point="190, 270" data-c="45">
+                            YEAH, OF<br/> COURSE. IT'S WRITTEN RIGHT THERE.
+                        </div>
+                        <div id="bubble-38-3" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            OH.
+                        </div>
+                    </section>
+                    
+                    <section id="frame39" class="frame">
+                        <div id="bubble-39-1" class="bubble bubble--round" data-point="130, 140" data-c="0">
+                            TO THE LIBRARY!
+                        </div>
+                        <div id="bubble-39-2" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            WHOOPS...
+                        </div>
+                    </section>
+    
+                    <section id="frame40" class="frame">
+                        <div id="bubble-40-1" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            MOMENTS LATER AT THE CITY PUBLIC LIBRARY...
+                        </div>
+                    </section>
+    
+                    <section id="frame41" class="frame">
+                        <div id="bubble-41-1" class="bubble bubble--round" data-point="250, 300" data-c="4">
+                            HERE'S THE COOKBOOK YOU REQUESTED, <br/>SIR...
+                        </div>
+                    </section>
+                    
+                    <section id="frame42" class="frame">
+                        <div id="bubble-42-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            THANKS! I'LL TAKE IT...TO GO...
+                        </div>
+                        <div id="bubble-42-2" class="bubble bubble--round" data-point="70, 200" data-c="0">
+                            ...FOR FREE! HA HA!
+                        </div>
+                        <div id="bubble-42-3" class="bubble bubble--round" data-point="230, 200" data-c="0">
+                            OKAY.
+                        </div>
+                    </section>
+                    
+                    <section id="frame43" class="frame">
+                        <div id="bubble-43-1" class="bubble bubble--round" data-point="80, 200" data-c="0">
+                            WHAT DO<br/> YOU MEAN, "OKAY"?
+                        </div>
+                        <div id="bubble-43-2" class="bubble bubble--round" data-point="230, 300" data-c="0">
+                            SIR, THIS IS A LIBRARY. ALL OF THE BOOKS ARE FREE.
+                        </div>
+                    </section>
+                    
+                    <section id="frame44" class="frame">
+                        <div id="bubble-44-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            BUT DON'T WORRY BUTCHER...
+                        </div>
+                        <div id="bubble-44-2" class="bubble bubble--round" data-point="200, 130" data-c="0">
+                            ...YOU'RE<br/> ABOUT TO PAY FOR YOUR CRIMES!
+                        </div>
+                        <div id="bubble-44-3" class="bubble bubble--round" data-point="470, 270" data-c="3">
+                            OH YEAH?<br/> WELL, WORDGIRL, YOU'RE JUST IN TIME.
+                        </div>
+                    </section>
+                    
+                    <section id="frame45" class="frame">
+                        <div id="bubble-45-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            DINNER IS SERVED!
+                        </div>
+                        <div id="bubble-45-2" class="bubble bubble--round" data-point="200, 150" data-c="0">
+                            PASTRAMI ATTACK!
+                        </div>
+                    </section>
+                    
+                    <section id="frame46" class="frame">
+                        <div id="bubble-46-1" class="bubble bubble--round" data-point="240, 130" data-c="3">
+                            HA HA! YOUR ATTACKS ARE <em>INEFFECTIVE</em>
+                        </div>
+                        <div id="bubble-46-2" class="bubble bubble--round" data-point="200, 430" data-c="5">
+                            IN-A-WHAT NOW?
+                        </div>
+                    </section>
+                    
+                    <section id="frame47" class="frame">
+                        <div id="bubble-47-1" class="bubble bubble--round" data-point="270, 180" data-c="3">
+                            <em>INNEFECTIVE</em>. IT MEANS<br/> YOUR MEAT ATTACKS DON'T WORK<br/> THE WAY YOU WANT THEM TO BECAUSE HUGGY'S APPETITE CAN NEVER BE DEFEATED.
+                        </div>
+                    </section>
+                    
+                    <section id="frame48" class="frame">
+                        <div id="bubble-48-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            i wasn't trying to defeat<br/> him...i just needed a couple of seconds to read my new cookbook.
+                        </div>
+                        <div id="bubble-48-2" class="bubble bubble--round" data-point="150, 270" data-c="47">
+                            and now that<br/> i have, i've got a <br/>little something new for ya, furball.
+                        </div>
+                    </section>
+                    
+                    <section id="frame49" class="frame">
+                        <div id="bubble-49-1" class="bubble bubble--round" data-point="50, 200" data-c="45">
+                            CHICKEN LIVER FRICASSEE!!
+                        </div>
+                        <div id="bubble-49-2" class="bubble bubble--round" data-point="350, 140" data-c="0">
+                            HUGGY! INCOMING!
+                        </div>
+                    </section>
+    
+                    <section id="frame50" class="frame">
+                        <svg id="svg-chomp-2" class="text-svg svg-chomp">
+                            <text transform="translate(10, 500)">CHOMP!</text>
+                        </svg>
+                    </section>
+    
+                    <section id="frame51" class="frame">
+                        <div id="bubble-51-1" class="bubble bubble--round" data-point="250, 100" data-c="10">
+                            HUGGY? ARE YOU OKAY?
+                        </div>
+                        <div id="bubble-51-2" class="bubble bubble--round" data-point="-100, 450" data-c="35">
+                            HEY, WORDGIRL... LUNCH IS ON YOU!
+                        </div>
+                    </section>
+                    
+                    <section id="frame52" class="frame">
+                        <div id="bubble-52-1" class="bubble bubble--round" data-point="280, 150" data-c="3">
+                            CHICKEN LIVER FRICASSEE!!
+                        </div>
+                        <div id="bubble-52-2" class="bubble bubble--round" data-point="120, 180" data-c="45">
+                            HUGGY! HELP!
+                        </div>
+                    </section>
+                    
+                    <section id="frame54" class="frame">
+                        <div id="bubble-54-1" class="bubble bubble--round" data-point="600, -100" data-c="26">
+                            HA HA! I AM VICTRONIOUS!
+                        </div>
+                        <div id="bubble-54-2" class="bubble bubble--round" data-point="670, 450" data-c="25">
+                            THAT'S DUE<br/> BACK IN TWO WEEKS!
+                        </div>
+                    </section>
+                    
+                    <section id="frame55" class="frame">
+                        <div id="bubble-55-1" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            LATER, AFTER SOME REPULSIVE DIGGING OUT...
+                        </div>
+                        <div id="bubble-55-2" class="bubble bubble--round" data-point="370, 190" data-c="45">
+                            WHAT HAPPENED BACK THERE? I THOUGHT YOU EAT <em>EVERYTHING?</em>
+                        </div>
+                        <div id="bubble-55-3" class="bubble bubble--round" data-point="570, 170" data-c="46">
+                            SQUEAK!
+                        </div>
+                    </section>
+                    
+                    <section id="frame56" class="frame">
+                        <div id="bubble-56-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            YES, I GUESS IT'S CLEAR NOW THAT YOU<br/> DON'T.
+                        </div>
+                        <div id="bubble-56-2" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            WHAT ARE WE GOING<br/> TO DO? THE CHICKEN LIVER FRICASSEE IS SO REPULSIVE THAT YOU'RE <em>INEFFECTIVE!</em> AND I'VE NEVER FACED THE BUTCHER ALONE...
+                        </div>
+                        <div id="bubble-56-3" class="bubble bubble--round" data-point="250, 300" data-c="45">
+                            I NEED MORE TIME TO THINK OF A PLAN...
+                        </div>
+                    </section>
+                    
+                    <section id="frame57" class="frame">
+                        <svg id="svg-eeww" class="text-svg svg-eeww">
+                            <defs>
+                                <path id="eeww-path" fill="none" stroke="#231F20" stroke-miterlimit="10" d="M19.947,245.368c0,0,50-88,242-88c23.921,0,69.387-23.086,117.888-11.82c68.112,15.82,112.112,33.82,184.112-2.18c86.978-43.489,77.574-62.117,140-44c52.002,15.092,64-26,90-26s24,6,96,0"/>
+                            </defs>
+                            <text>
+                                <textPath xlink:href="#eeww-path">
+                                    WWWEEOOOWWWEEEOOoOo
+                                </textPath>
+                            </text>
+                        </svg>
+    
+                        <div id="bubble-57-1" class="bubble bubble--round" data-point="170, 370" data-c="20">
+                            I GUESS I<br/> DON'T HAVE THAT TIME...
+                        </div>
+                        <div id="bubble-57-2" class="bubble bubble--round" data-point="215, 400" data-c="25">
+                            COME ON, HUGGY, BACK TO THE MUSEUM!
+                        </div>
+                    </section>
+                    
+                    <section id="frame58" class="frame">
+                        <svg id="svg-eeww-2" class="text-svg svg-eeww">
+                            <defs>
+                                <path id="eeww-path-2" fill="none" stroke="#231F20" stroke-miterlimit="10" d="M19.947,245.368c0,0,50-88,242-88c23.921,0,69.387-23.086,117.888-11.82c68.112,15.82,112.112,33.82,184.112-2.18c86.978-43.489,77.574-62.117,140-44c52.002,15.092,64-26,90-26s24,6,96,0"/>
+                            </defs>
+                            <text>
+                                <textPath xlink:href="#eeww-path-2">
+                                    WWWEEOOOWWWEEEOOoOo
+                                </textPath>
+                            </text>
+                        </svg>
+                        <div id="bubble-58-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            ALL RIGHT--THE BUTCHER IS BACK IN BUSINESS! I WANT THAT ANCIENT CUBIC ZAMBONIA!
+                        </div>
+                        <div id="bubble-58-2" class="bubble bubble--round" data-point="230, 100" data-c="49">
+                            AND MAKE IT QUICK!
+                        </div>
+                    </section>
+                    
+                    <section id="frame59" class="frame">
+                        <svg id="svg-thud" class="text-svg">
+                            <text transform="translate(-40, 300)">THUD</text>
+                        </svg>
+                        <div id="bubble-59-1" class="bubble bubble--round" data-point="370, 290" data-c="20">
+                            GAME OVER, BUTCHER!
+                        </div>
+                    </section>
+                   
+                    <section id="frame60" class="frame">
+                        <div id="bubble-60-1" class="bubble bubble--round" data-point="300, 100" data-c="40">
+                            WORDGIRL! AND CAPTAIN...
+                        </div>
+                        <div id="bubble-60-2" class="bubble bubble--round" data-point="300, 100" data-c="100">
+                            HEY--WHERE'S YOUR SIDEKICK? I DON'T SEE HIM.
+                        </div>
+                    </section>
+                    
+                    <section id="frame61" class="frame">
+                        <div id="bubble-61-1" class="bubble bubble--round" data-point="250, 100" data-c="40">
+                            HUGGY, COME ON!
+                        </div>
+                    </section>
+                    
+                    <section id="frame62" class="frame">
+                        <svg id="svg-zas" class="text-svg">
+                            <text transform="translate(100, 200)">ZAS!</text>
+                        </svg>
+                        <div id="bubble-62-1" class="bubble bubble--round" data-point="480, 370" data-c="25">
+                            HEY, LITTLE GUY.
+                        </div>
+                        <div id="bubble-62-2" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            YOU LOOK LIKE<br/> YOU WANT A SECOND HELPING OF MY CHICKEN LIVER FRICASSEE!
+                        </div>
+                    </section>
+    
+                    <section id="frame63" class="frame">
+                        <div id="bubble-63-1" class="bubble bubble--round" data-point="250, 400" data-c="20">
+                            HIT THE DECK!
+                        </div>
+                    </section>
+                    
+                    <section id="frame64" class="frame">
+                        <div id="bubble-64-1" class="bubble bubble--round" data-point="-50, 100" data-c="40">
+                            HA HA HA! HOPE YOU LIKE 'EM, FUZZFACE!
+                        </div>
+                    </section>
+                    
+                    <section id="frame65" class="frame">
+                        <div id="bubble-65-1" class="bubble bubble--round" data-point="250, 100" data-c="10">
+                            HUGGY, YOU HAVE TO EAT YOUR WAY OUT<br/> OF THERE!
+                        </div>
+                    </section>
+    
+                    <section id="frame66" class="frame">
+                        <div id="bubble-66-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            NOW, LET'S SEE<br/> WHAT I CAN COOK UP FOR YOU, WORDGIRL!
+                        </div>
+                        <div id="bubble-66-2" class="bubble bubble--round" data-point="320, 140" data-c="0">
+                            HOW ABOUT<br/> MY PORK CHOP CHOP?
+                        </div>
+                    </section>
+                    
+                    <section id="frame67" class="frame">
+                        <div id="bubble-67-1" class="bubble bubble--round" data-point="100, 100" data-c="3">
+                            WHOA!
+                        </div>
+                    </section>
+    
+                    <section id="frame68" class="frame">
+                        <div id="bubble-68-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            HA! YOU<br/> MISSED!
+                        </div>
+                        <div id="bubble-68-2" class="bubble bubble--round" data-point="120, 300" data-c="0">
+                            HERE,<br/> TAKE A SEAT,<br/> BUTCHER!
+                        </div>
+                    </section>
+    
+                    <section id="frame69" class="frame">
+                        <div id="bubble-69-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            UH-OH.
+                        </div>
+                        <div id="bubble-69-2" class="bubble bubble--round" data-point="100, 200" data-c="0">
+                            MEATBALL MAYHEM!!
+                        </div>
+                    </section>
+    
+                    <section id="frame70" class="frame">
+                        <svg id="svg-thud-2" class="text-svg">
+                            <text transform="translate(0, 240)">THUD</text>
+                        </svg>
+                    </section>
+    
+                    <section id="frame71" class="frame">
+                        <div id="bubble-71-1" class="bubble bubble--round" data-point="120, 150" data-c="0">
+                            DRAT! AND<br/> THAT WAS MY BEST PUN...
+                        </div>
+                        <div id="bubble-71-2" class="bubble bubble--round" data-point="750, 100" data-c="10">
+                            LET'S SEE<br/> HOW YOU LIKE<br/> MY KEILBASA CRUSHER, WORDGIRL!
+                        </div>
+                    </section>
+                    
+                    <section id="frame72" class="frame">
+                        <div id="bubble-72-1" class="bubble bubble--round" data-point="250, 100" data-c="100">
+                            I CAN'T HOLD<br/> OFF THESE MEAT ATTACKS MUCH LONGER.
+                        </div>
+                        <div id="bubble-72-2" class="bubble bubble--round" data-point="220, 230" data-c="4">
+                            HUGGY, I NEED YOUR HELP!
+                        </div>
+                    </section>
+    
+                    <section id="frame73" class="frame">
+                        <div id="bubble-73-1" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            WILL WORDGIRL FIND A WAY TO DEFEAT THE BUTCHER?
+                        </div>
+                    </section>
+                    
+                    <section id="frame74" class="frame">
+                        <div id="bubble-74-1" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            WILL CAPTAIN HUGGY FACE OVERCOME THE REPULSIVE CHICKEN LIVERS TO BREAK OUT AND COME TO HER AID?
+                        </div>
+                    </section>
+    
+                    <section id="frame75" class="frame">
+                        <div id="bubble-75-1" class="bubble bubble--square" data-point="250, 100" data-c="10">
+                            WILL THERE BE ANY ROOM LEFT IN THESE PANELS IF THE MEAT KEEPS FLYING AROUND LIKE THIS?
+                        </div>
+                    </section>
+    
+                    <section id="frame76" class="frame">
+                        <div id="bubble-76-1" class="bubble bubble--round" data-point="350, 100" data-c="40">
+                            SORRY ABOUT THAT.
+                        </div>
+                    </section>
+    
+                    <section id="frame78" class="frame">
+                        <button id="home-btn"></button>
+                    </section>
+                </div>
+            </div>
+    
+            <div id="video-holder">
+                <video id="video"></video>
+                <div id="video-ui">
+                    <div id="video-close-btn">
+                        <svg width="50" height="50">
+                            <polygon fill="#FFFFFF" points="40.182,14.932 33.818,8.568 25.25,17.136 16.682,8.568 10.318,14.932 18.886,23.5 10.318,32.068 
+                            16.682,38.432 25.25,29.864 33.818,38.432 40.182,32.068 31.614,23.5 "/>
+                        </svg>
+                    </div>
+                    <div id="video-play-btn">
+                        <svg id="video-play-btn-svg" width="50" height="50">
+                            <polygon id="video-play" fill="#FFFFFF" points="16,10.024 36.073,24.5 16,38.976 "/>
+                            <g id="video-pause">
+                                <rect x="10" y="9" fill="#FFFFFF" width="10" height="32"/>
+                                <rect x="29" y="9" fill="#FFFFFF" width="10" height="32"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="instructions">
+                <svg id="instructions-svg"></svg>
+            </div>
+    
+            <div id="preloader">
+    			<svg version="1.1" id="preloader-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    				 width="203.547px" height="178px" viewBox="0 0 203.547 178" enable-background="new 0 0 203.547 178" xml:space="preserve">
+    			<path fill="black" stroke="#FBCA25" stroke-width="3" d="M48.116,14.186c-5.576,4.079-8.801,9.495-9.743,16.226c-0.255,1.734-0.398,3.395-0.255,4.976v0.133
+    				l0.038,1.682c0.035,0.635,0.035,1.291,0.108,1.937l0.035,0.415c0.328,2.603,1.05,5.004,2.247,7.353
+    				c-1.089-0.213-1.811-0.516-2.247-0.935c-0.398-0.576-0.757-0.893-0.977-0.995c-0.471,0.569-0.506,1.881-0.29,4.017
+    				c0.328,2.097,2.101,4.285,5.36,6.473c3.113,2.087,7.314,3.706,12.458,4.798c-0.761,0.363-1.595,0.733-2.425,1.159
+    				c-1.305-0.325-2.572-0.649-3.842-0.935c-3.947-1.113-7.496-2.575-10.682-4.446c-3.113-1.874-5.685-3.769-7.604-5.643
+    				c-1.919-1.822-3.476-3.706-4.781-5.531c-1.302-1.877-2.607-4.432-3.839-7.628c0.363-0.513,0.544-0.925,0.653-1.344
+    				c0.108-0.468,0.108-1.26,0-2.251c-0.108-1.033-0.726-1.724-1.846-2.125l-0.147-0.073l-0.035-0.195
+    				c0.035-0.796-0.108-1.57-0.471-2.247c-0.618-1.099-1.521-1.668-2.645-1.738c-1.41-0.084-2.568,0.342-3.51,1.221l-0.038,0.052
+    				l-0.108,0.101l-0.181,0.056c-0.761,0.154-1.41,0.422-2.028,0.827c-0.614,0.419-0.904,1.047-0.977,1.78l-0.073,0.733l-0.035,0.15
+    				c-0.471,0.576-0.761,1.309-0.869,2.129c-0.108,1.204,0.181,2.366,0.977,3.402l1.232,1.56c1.012,1.256,1.738,2.404,2.209,3.504
+    				c0.108,0.209,0.722,1.417,1.919,3.608c1.193,2.247,2.715,4.376,4.491,6.41c1.846,2.034,3.51,3.811,5.105,5.318
+    				c1.556,1.518,3.259,2.924,4.962,4.383c1.738,1.364,4.09,3.036,7.059,4.966c2.935,1.822,5.939,3.497,8.982,4.913
+    				c0.722,0.311,1.703,0.726,2.97,1.298h0.325l0.181,0.213c-0.181,4.383,1.124,9.694,3.912,15.853
+    				c2.823,6.114,4.924,10.19,6.337,12.273l0.035,0.045l0.147,0.318c-0.073,1.152,0.178,2.307,0.687,3.552
+    				c0.216,0.468,0.471,0.935,0.761,1.305v0.049l0.07,0.108c0.471,0.673,1.089,1.246,1.811,1.668v0.049l0.509,0.269
+    				c1.448,2.659,2.931,4.906,4.31,6.731c-1.487,3.28-2.498,6.77-3.081,10.479l-0.035,0.056c-0.255,5.172,1.085,9.091,4.163,11.592
+    				c3.912,2.603,8.982,2.666,15.103,0.265c2.244-0.9,4.379-1.888,6.302-2.984c0.939,0.677,1.954,1.35,2.931,2.045
+    				c3.005,2.348,6.302,4.693,9.959,7.143c1.811,1.145,3.549,2.184,5.178,3.179l8.979,4.969c0.038,5.098,0.471,8.713,1.124,10.905
+    				c0.907,2.659,2.355,4.428,4.383,5.262c1.232,0.52,2.101,0.52,2.788,0.056c0.687-0.415,1.05-1.302,1.193-2.659
+    				c0.22-2.195,0.29-4.327,0.147-6.375c-0.108-2.024-0.147-4.167-0.147-6.369c-0.073-2.558-0.471-4.017-1.267-4.268
+    				c-0.653-0.541-1.193-0.946-1.591-1.2c-0.401-0.262-1.05-0.778-1.958-1.57l0.073,0.419l-0.073-0.419
+    				c-2.788-2.191-5.468-4.432-8.075-6.724c-1.919-1.79-3.912-3.496-5.904-5.227l-0.359-0.67c-0.942-1.678-1.811-3.14-2.68-4.449
+    				c-0.799-1.249-1.487-2.61-2.027-4.058c-0.509-1.476-1.124-2.509-1.811-3.182c-0.726-0.635-1.197-0.995-1.521-1.061l-0.579,0.066
+    				l-3.078,1.724l-0.216,0.098c-2.39-2.39-4.927-5.011-7.642-7.984c1.846-2.561,2.896-5.269,3.113-8.043
+    				c2.139-0.356,4.491-0.52,7.063-0.356c10.539,0.516,15.752,0.722,15.609,0.625c3.329-0.691,5.14-2.244,5.468-4.76
+    				c-3.189,0.37-7.569-1.818-13.219-6.669c-5.688-4.798-10.284-9.446-13.906-13.937c-1.267-1.417-2.645-2.973-4.093-4.753L89,77.435
+    				c4.634,2.359,9.886,5.747,15.787,10.134c-0.143,1.717-0.251,2.603-0.251,2.666l0.07,0.405c0,0.216,0.038,0.53,0.108,0.942
+    				c0.038,0.412,0.073,0.83,0.255,1.26l0.255,0.572l0.579,0.565l0.761,0.161h0.757l0.726-0.161l0.255-0.098h0.143l0.181,0.056
+    				l0.255,0.359h0.073v0.042c0.506,0.537,1.05,0.852,1.738,0.9c1.556,0.209,2.788-0.363,3.549-1.672l0.073-0.101h0.143l0.181-0.052
+    				c0.433-0.157,0.904-0.482,1.302-0.893l0.038-0.042l0.471-0.75l0.216-0.782l0.035-0.869l0.038-0.171l0.07-0.049l0.147-0.262
+    				l0.216-0.935c0-0.37-0.035-0.782-0.143-1.092c-0.108-0.44-0.22-0.785-0.436-1.11c-0.216-0.419-0.506-0.837-0.869-1.152l-0.687-0.614
+    				c-0.398-0.216-1.159-0.527-2.247-0.942c-0.433-0.108-0.722-0.209-0.939-0.209L98.994,72.748c-3.224-2.506-6.627-4.7-10.106-6.581
+    				c-3.545-1.832-7.206-3.193-10.971-4.076c3.043-0.311,5.615-0.883,7.785-1.78c3.368-1.35,5.252-3.12,5.576-5.252
+    				c0.363-2.09,0.436-3.504,0.22-4.128c0.035,0.035-0.328,0.262-1.124,0.715c-0.722,0.426-1.884,0.482-3.476,0.269
+    				c-1.63-0.269-2.317-1.249-2.101-3.071c0.181-0.998,0.363-2.09,0.688-3.298c1.193-2.349,2.027-5.011,2.464-7.932
+    				c0.324-1.825,0.359-3.657,0.251-5.381c-0.324-4.697-1.989-8.972-4.959-12.939c-4.167-5.521-9.67-8.773-16.551-9.757l-0.579-0.056
+    				h0.073C59.485,8.648,53.511,10.225,48.116,14.186 M20.702,33.078l-0.035-0.059h0.035V33.078z M80.524,128.009
+    				c-0.579-0.059-1.085-0.206-1.63-0.356l0.328-0.632C79.655,127.336,80.091,127.691,80.524,128.009 M78.28,129.415v0.112l-0.035-0.056
+    				L78.28,129.415z M99.103,139.217l-0.108,0.066l0.073-0.115L99.103,139.217z"/>
+    			<path fill="black" stroke="#FBCA25" stroke-width="3" d="M146.794,37.148c0-1.493-0.506-2.764-1.448-3.811c-0.726-0.83-1.954-1.985-3.587-3.441
+    				c-4.09,0.677-7.094,1.357-9.052,1.978c-0.904,0.311-2.533,0.886-5.032,1.825c-1.668,4.795-2.753,8.204-3.078,10.235
+    				c-0.328,1.563-0.509,3.186-0.579,4.802c-0.108,1.93-0.108,3.863,0,5.779c0.07,1.79,0.29,3.57,0.687,5.377
+    				c0.29,1.783,0.761,3.511,1.375,5.283c0.544,1.574,1.159,3.078,1.846,4.634c0.834,1.727,1.776,3.353,2.9,4.91
+    				c0.869,1.054,1.664,2.139,2.642,3.137c-1.232,1.036-2.282,2.191-3.151,3.388c-1.41,1.769-2.533,3.769-3.402,5.884v0.066l-0.216,0.52
+    				l-0.147,0.429l-0.471,1.56c-0.073,0.415-0.251,1.085-0.398,2.083c-0.181,1.001-0.216,1.567-0.216,1.679c0,0.143,0,0.415-0.038,0.872
+    				c0,0.429-0.07,1.521-0.07,3.242c0,1.776,0.29,3.908,0.722,6.421c0.181,0.834,0.398,1.773,0.687,2.806
+    				c0.363,1.42,0.869,2.516,1.34,3.301c0.834,1.138,1.958,2.188,3.441,3.085c1.378,0.883,1.958,1.298,1.703,1.246l-0.108,0.16
+    				l-0.328,0.255l-0.722,0.628c-0.29,0.206-0.544,0.412-0.907,0.583c-1.12,0.712-2.387,1.033-3.8,0.984
+    				c-1.448-0.098-2.499-0.199-3.116-0.311l-0.29,0.038c-0.07,0-0.108,0.22-0.108,0.646c-0.433,1.713-1.124,3.28-2.062,4.742
+    				c-0.977,1.574-2.97,2.973-5.831,4.226c-0.216-0.056-1.124-0.056-2.68,0.049l0.29,0.059c-1.015,0-1.703,0.307-2.101,0.837
+    				c-0.506,0.576-0.471,1.246,0.147,2.045v0.035c0.579,0.576,1.159,0.935,1.846,1.054c-0.108,0.886,0.216,1.56,0.942,1.979
+    				c0.541,0.317,1.302,0.422,2.279,0.317c0.255,0.782,0.834,1.197,1.668,1.141c1.413-0.056,2.75-0.789,4.128-2.087
+    				c0.869-0.991,1.591-1.982,2.209-3.022l0.398,0.461c0.324,0.157,0.796,0.122,1.375-0.15c0.907-0.482,1.56-1.033,1.849-1.672
+    				c0.325-0.632,0.325-1.302,0-2.097c-0.509-1.145-0.834-2.554-0.942-4.222l-0.038-0.161c0,0,1.521-0.255,4.526-0.719
+    				c2.973-0.524,5.29-1.103,6.812-1.679c1.556-0.621,3.005-1.511,4.418-2.607c0.541-0.419,0.904-0.834,1.193-1.302l0.834-0.052
+    				c1.521-0.108,2.642-0.262,3.367-0.415c0.796-0.209,1.483-0.367,2.244-0.632c0.726-0.202,1.487-0.468,2.282-0.83
+    				c0.614-0.209,1.159-0.516,1.738-0.897l0.073-0.049c1.302-0.778,2.352-1.508,3.151-2.132c0.614-0.583,1.228-1.054,1.919-1.466
+    				c0.579-0.367,1.085-0.579,1.738-0.782c0.761-0.199,1.556-0.269,2.39-0.108c0.506,0.108,1.05,0.373,1.518,0.722l0.147,0.119
+    				l0.544,0.513c0.181,0.262,0.433,0.844,0.761,1.828c0.251,0.946,0.579,1.515,0.869,1.783l0.796,0.572l0.942,0.049
+    				c0.324,0,0.722-0.213,1.159-0.531c0.471-0.359,0.942-1.731,1.448-4.051c0.471-2.404,1.302-4.917,2.499-7.572
+    				c0.436-0.956,1.159-1.675,2.136-2.254c0.328-0.164,0.688-0.255,1.016-0.255c0.796-0.063,1.448-0.216,2.136-0.583
+    				c1.05-0.618,1.521-1.288,1.267-2.041c-0.216-0.771-0.796-1.249-1.591-1.5c-0.799-0.206-1.919,0.157-3.333,1.148
+    				c-1.448,0.928-2.572,2.293-3.441,3.96l0.436-0.83c0.761-1.511,1.919-2.659,3.367-3.549c0.831-0.478,1.267-1.207,1.34-2.139
+    				c0.07-1.099-0.436-1.668-1.595-1.731c-1.193-0.091-2.244,0.314-3.113,1.204c-0.108-0.307-0.398-0.513-0.799-0.729
+    				c-0.359-0.161-1.085-0.094-2.027,0.272c-0.977,0.3-1.665,1.504-1.993,3.497c-0.324,1.982-0.506,3.751-0.614,5.409v4.442
+    				c-0.796-1.103-1.012-2.659-0.687-4.749c0.035-1.246-0.363-2.08-1.305-2.401c-0.942-0.363-1.773-0.213-2.425,0.475
+    				c-0.398,0.363-0.506,0.939-0.398,1.78c-0.579-0.164-1.124-0.213-1.738-0.213c-0.398,0.049-1.016,0.147-1.958,0.36
+    				c-0.108-0.68-0.251-1.246-0.433-1.773c-0.108-0.37-0.181-0.792-0.363-1.092c-0.216-0.415-0.506-0.89-0.869-1.522l-0.29-0.356
+    				l-0.181-0.22v-0.045l-0.108-0.094c-1.016-1.253-1.63-2.31-1.884-3.235c-0.251-1.099-0.363-1.993-0.251-2.725
+    				c0.07-0.516,0.251-1.302,0.579-2.352c4.491-0.311,7.677-0.461,9.415-0.419c2.533,0,5.248,0.579,8.222,1.731l0.939,0.415
+    				c1.703,0.677,3.298,1.626,4.854,2.722c1.302,0.984,2.533,2.028,3.692,3.176c0.401,0.422,0.942,0.883,1.413,1.357
+    				c0.398,0.482,0.796,0.886,1.159,1.354c0.29,0.367,0.506,0.719,0.618,1.089c0.108,0.328,0.216,0.844,0.29,1.679l0.108,0.415
+    				l0.108,0.827l-0.398,0.422l-0.29,0.161l-0.436-0.032l-0.324,0.032l-0.471,0.213c-0.614,0.405-0.834,0.984-0.579,1.766
+    				c-0.509,0.321-0.726,0.904-0.509,1.577l0.112,0.527c0.251,0.817,0.649,1.452,1.34,1.975c0.541,0.363,1.193,0.673,1.954,0.988
+    				c0.761,0.262,1.34,0.426,1.773,0.426h0.29h0.073c0.038,0,0.255-0.059,0.653-0.265c0.324-0.203,0.907-0.576,1.63-1.047
+    				c0.726-0.471,1.193-1.04,1.448-1.832c0.216-0.572,0.29-1.134,0.29-1.713c-0.073-0.844-0.29-1.623-0.653-2.355l-0.468-0.785
+    				l-0.618-0.82l-0.108-0.314c-0.363-0.9-0.726-1.78-1.197-2.663c-0.468-0.886-0.977-1.72-1.626-2.607
+    				c-0.544-0.789-1.162-1.57-1.703-2.355c-1.05-1.403-2.101-2.614-3.078-3.591c-1.849-1.836-3.877-3.514-6.156-5.074
+    				c-1.958-1.305-3.877-2.352-5.723-3.133c1.193-0.778,2.209-1.877,3.078-3.176c1.811-2.666,1.993-5.538,0.653-8.515l0.035,0.063
+    				l-0.363-0.684c-0.614-0.942-1.302-1.661-2.097-2.195v-0.412v-0.059v-0.506l0.433-0.216c0.796-0.429,1.193-0.946,1.193-1.525
+    				c0.073-0.562-0.035-1.029-0.324-1.515c-0.255-0.408-0.761-0.719-1.413-0.775l-0.614-0.108c-0.977-3.015-2.97-5.538-5.939-7.297
+    				c-2.861-1.734-5.939-2.516-9.233-2.247l-1.992-9.191c0.471-0.37,0.652-0.736,0.614-1.305c0-0.841-0.398-1.295-1.228-1.455h-0.073
+    				h-0.035c-0.544,0.038-0.942,0.213-1.305,0.52c-0.324,0.363-0.471,0.729-0.471,1.096l0.324,0.74l0.436,0.461l0.325,0.098
+    				l-0.143-0.045l0.143,0.045v0.164l0.073,0.251c0.398,2.942,0.834,5.911,1.232,8.885h-0.038c-4.128,0.837-7.349,2.914-9.704,6.267
+    				v0.035c-1.989,2.82-2.896,5.803-2.568,8.989l-0.799,0.359c-0.579,0.318-0.869,0.785-0.942,1.312
+    				c-0.07,0.454,0.038,0.991,0.293,1.462c0.251,0.516,0.83,0.778,1.699,0.935h0.687l0.255,0.628l-0.506,0.154l-0.436,0.157
+    				c-0.471-0.157-0.904-0.377-1.375-0.579c-3.982-1.979-7.063-4.854-9.342-8.706c-1.34-2.254-2.282-4.606-2.788-7.105
+    				c-0.509-2.394-0.799-4.795-0.834-7.147c-0.035-3.713,0.579-7.209,1.919-10.605l0.471-1.246l4.31-0.415l-0.108,0.258
+    				c-0.112,0.408-0.073,0.844,0.143,1.263c0.579,1.403,1.664,2.069,3.116,2.027c0.541,0.572,1.12,0.991,1.846,1.246
+    				c2.607,0.939,4.634,0.262,6.082-1.968C146.721,38.495,146.867,37.87,146.794,37.148"/>
+    			<polygon fill="#231F20" points="113.406,109.382 113.48,109.382 113.514,109.322 "/>
+                </svg>
+                <div id="loader-text">Loading<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>
+            </div>
+        </div> <!-- End #cmic-book-ui -->
+        
+{% include 'template_includes/modern_headband_include.html' %}
+	
+  {% include 'template_includes/modern_pbsk_js.html' %}
+
+
+
+
+		
+    </body>
+</html>

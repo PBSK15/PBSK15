@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CheeseRound>
+
+	<feedback>
+	
+		<positive>audio/everythinggoop.mp3</positive>
+		<positive>audio/charlieseegoop.mp3</positive>
+		<positive>audio/youreallygood.mp3</positive>
+
+	</feedback>
+	
+</CheeseRound>

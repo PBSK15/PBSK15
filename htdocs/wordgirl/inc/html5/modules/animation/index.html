@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Girl Homepage Animation</title>
+	<style type="text/css">
+		html,body
+        {
+			background-color: #ffffff;
+			color: #ffffff;
+			font-family: helvetica, arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			font-size: 12pt;
+		}
+		
+		#canvas
+        {
+            background: #ffffff;
+			position: relative;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+		}
+        #audiotag
+        {
+            width:0%;
+            height:0%;
+        }
+	</style>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <script language="javascript" type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script src='/wordgirl/script/ismobile.js'></script>
+    <script src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="lib/impact/impact.js"></script>
+    <script type="text/javascript" src="lib/game/main.js"></script>
+    <script src="audio/strings.js"></script>
+</head>
+<body>
+    <script src="js/base64-binary.js"></script>
+    <script src="js/SoundJockey.js"></script>
+    <script src="js/SoundJockeyz.js"></script>
+    <div id="impactdiv" onMouseDown="SoundJockey.initSounds();">
+        <canvas id="canvas"></canvas>
+    </div>
+    <script>
+        function searchString(data) {
+            for (var i=0;i<data.length;i++)	{
+                var dataString = data[i].string;
+                var dataProp = data[i].prop;
+                if (dataString) {
+                    if (dataString.indexOf(data[i].subString) != -1)
+                        return data[i].identity;
+                }
+                else if (dataProp)
+                    return data[i].identity;
+            }
+        };
+        (function()
+        {
+            var IE9 = /MSIE 9.0/i.test(navigator.userAgent);
+            var iPhone = /iPhone/i.test(navigator.userAgent);
+            var iPhone4 = (ig.ua.iPhone && ig.ua.pixelRatio == 2);
+            var iPad = /iPad/i.test(navigator.userAgent);
+            var android = /android/i.test(navigator.userAgent);
+            var kindle = /Silk/i.test(navigator.userAgent);
+            var winPhone = /Windows Phone/i.test(navigator.userAgent);
+            var iOS = ig.ua.iPhone || ig.ua.iPhone4 || ig.ua.iPad;
+            var androidDevice = ig.ua.android || ig.ua.kindle || ig.ua.winPhone;
+            var mobile = ig.ua.iOS || ig.ua.android || ig.ua.winPhone || ig.ua.kindle;
+            var touchDevice = (('ontouchstart' in window) || (window.navigator.msMaxTouchPoints));
+
+            var dataOS = [
+                {
+                    string: navigator.platform,
+                    subString: "Win",
+                    identity: "Windows"
+                },
+                {
+                    string: navigator.platform,
+                    subString: "Mac",
+                    identity: "Mac"
+                },
+                {
+                    string: navigator.platform,
+                    subString: "Linux",
+                    identity: "Linux"
+                }];
+
+            var OS = searchString(dataOS) || "an unknown OS";
+
+//            if(!IE9 || !mobile || !touchDevice)
+            if(OS === "Windows" || OS === "Mac" || OS === "Linux")
+            {
+                var format = navigator.userAgent.match(/(iPad|iPhone|iPod|Safari|MSIE)/g) ? 'mp3' : 'ogg';
+                var tag = document.createElement('audio');
+                tag.setAttribute('id', 'bgaudiotag');
+                if(format === "mp3")
+                    tag.setAttribute('src', 'audio/theme_instro.mp3');
+                else
+                    tag.setAttribute('src', 'audio/theme_instro.ogg');
+                tag.preload = 'auto';
+                tag.volume = .25;
+                document.body.appendChild(tag);
+                tag.play();
+            }
+
+            if(/android/i.test(navigator.userAgent) || /Silk/i.test(navigator.userAgent))
+            {
+                var tag = document.createElement('audio');
+                    tag.setAttribute('id', 'audiotag');
+                    tag.setAttribute('src', 'audio/wg.mp3');
+                    tag.preload = 'auto';
+                    document.body.appendChild(tag);
+
+                new SoundJockeyz();
+                window.soundJockeyz.addSoundFile('audio','audio/wg.mp3','xml/audio.xml', "audiotag");
+            }
+        })();
+    </script>
+</body>
+</html>

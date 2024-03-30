@@ -1,0 +1,43 @@
+{
+"images": ["cheese_spray.png"],
+"frames": [
+
+    [2, 2, 9, 358], 
+    [13, 2, 9, 358], 
+    [24, 2, 9, 358], 
+    [35, 2, 9, 358], 
+    [46, 2, 9, 358], 
+    [2, 362, 9, 358], 
+    [13, 362, 9, 358], 
+    [24, 362, 9, 358], 
+    [35, 362, 9, 358], 
+    [46, 362, 9, 358], 
+    [2, 722, 9, 358], 
+    [13, 722, 9, 358], 
+    [24, 722, 9, 358], 
+    [35, 722, 9, 358], 
+    [46, 722, 9, 358]
+],
+"animations": {
+        "spray":
+        "cheese_spray0002":[0], 
+        "cheese_spray0003":[1], 
+        "cheese_spray0004":[2], 
+        "cheese_spray0005":[3], 
+        "cheese_spray0006":[4], 
+        "cheese_spray0007":[5], 
+        "cheese_spray0008":[6], 
+        "cheese_spray0009":[7], 
+        "cheese_spray0010":[8], 
+        "cheese_spray0011":[9], 
+        "cheese_spray0012":[10], 
+        "cheese_spray0013":[11], 
+        "cheese_spray0014":[12], 
+        "cheese_spray0015":[13], 
+        "cheese_spray0016":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:064b3ede8b70905d96f5cd386a6b9d35:f6b678b5de06066241e5f0e6894a733e:ab02e1307de4301f2b6a971f6c2cceab$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

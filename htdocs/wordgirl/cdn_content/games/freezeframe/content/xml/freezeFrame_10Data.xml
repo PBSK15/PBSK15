@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<menu name="questions">
+	
+    <question value="Becky feels _______ when her father asks what happened at the grocery store because she doesn&apos;t want him to know she is WordGirl." hint="" time="35">
+        <item value="Joyful" correct="false"/>
+        <item value="Awkward" correct="true"/>
+        <item value="Merry" correct="false"/>
+    </question>
+    
+    <question value="Dr. Two-Brains&apos; ray __________ the pile of cash into goop." hint="" time="73">
+        <item value="Transforms" correct="true"/>
+        <item value="Teases" correct="false"/>
+        <item value="Accepts" correct="false"/>
+    </question>
+
+    <question value="TJ is ____________ to see WordGirl zip into the sky past his window." hint="" time="131">
+        <item value="Stunned" correct="true"/>
+        <item value="Angry" correct="false"/>
+        <item value="Hungry" correct="false"/>
+    </question>
+    
+    <item video="games/freezeframe/content/video/WordGirl109.flv"/>
+			
+</menu>

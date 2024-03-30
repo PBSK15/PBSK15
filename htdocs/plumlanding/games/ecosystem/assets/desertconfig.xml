@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<terrarium name="Desert">
+
+<param scale_max="0.70" scale_min="0.4" upper="220" lower="456" threshold="220" scroll="horz" startpos="left" />
+
+<loc name="anywhere" left="0" right="1976" top="0" bottom="456" />
+
+<sp name="spinifex" family="bush" loc="anywhere" fullname="Spinifex Grass" partial="true" freq="0" num="16" index="1">
+	<boundary loc="anywhere" top="220" />
+</sp>
+
+<sp name="neverfailgrass" family="bush" loc="anywhere" fullname="Never-Fail Grass" partial="true" freq="0" num="16" index="2">
+	<boundary loc="anywhere" top="220" />
+</sp>
+
+<sp name="desertpea" family="bush" loc="anywhere" fullname="Sturt's Desert Pea" partial="true" freq="0" num="16" index="3">
+	<boundary loc="anywhere" top="220" />
+</sp>
+
+<sp name="mulga" family="tree" loc="anywhere" fullname="Mulga Tree" partial="true" freq="0" num="6" index="4">
+	<lpoint x="200" y="-500" />
+	<lpoint x="-256" y="-354" />
+	<lpoint x="-170" y="-500" />
+	<boundary loc="anywhere" top="220" />
+</sp>
+
+<sp name="bloodwood_flowering" family="tree" loc="anywhere" fullname="Bloodwood Tree" partial="true" freq="0" num="6" index="5">
+	<lpoint x="190" y="-440" />
+	<lpoint x="-240" y="-354" />
+	<lpoint x="-236" y="-500" />
+	<boundary loc="anywhere" top="220" />
+</sp>
+
+<sp name="ant" family="insect" loc="anywhere" fullname="Ant" movement="walk" size=".15" speed=".05" maxalt="0" partial="false" freq="1" starve="2" num="35" index="6">
+	<food name="spinifex" amt=".2" />
+	<food name="bloodwood_flowering" amt=".1" />
+	<food name="desertpea" amt=".2" />
+	<boundary loc="anywhere" top="220" left="4" right="1970" />
+</sp>
+
+<sp name="termite" family="insect" loc="anywhere" fullname="Termite" movement="walk" size=".15" speed=".05" maxalt="0" partial="false" freq="1" starve="2" num="35" index="7">
+	<food name="mulga"  amt=".1" />
+	<food name="bloodwood_flowering" amt=".1" />
+	<food name="spinifex" amt=".2" />
+	<boundary loc="anywhere" top="220" left="4" right="1970" />
+</sp>
+
+<sp name="honeyeater" family="bird" loc="anywhere" fullname="Spiny-cheeked Honeyeater" movement="fly" size=".05" speed=".5" maxalt="5" partial="false" freq="1" starve="2" num="8" index="8">
+	<food name="desertpea" amt="1" />
+	<food name="bloodwood_flowering" amt=".1" />
+	<shelter type="tree" />
+	<boundary loc="ground" top="220" bottom="420" left="50" right="1936" />
+</sp>
+
+<sp name="thornydevil" family="reptile" loc="anywhere" fullname="Thorny Devil" movement="walk" size=".05" speed=".1" maxalt="0" partial="false" freq="3" starve="6" num="16" index="9">
+	<food name="ant" amt="4" />
+	<boundary loc="anywhere" top="220" left="50" right="1930" />
+</sp>
+
+<sp name="kangaroo" family="mammal" loc="anywhere" fullname="Red Kangaroo" movement="walk" size=".15" speed=".2" maxalt="0" partial="false" freq="1" starve="4" num="8" index="10">
+	<food name="neverfailgrass" amt="1.5" />
+	<boundary loc="anywhere" top="220" left="60" right="1926" />
+</sp>
+
+<sp name="spinifexmouse" family="mammal" loc="anywhere" fullname="Spinifex-hopping Mouse" movement="walk" size=".05" speed=".1" maxalt="0" partial="false" freq="1" starve="2" num="18" index="11">
+	<food name="ant" amt="3" />
+	<food name="spinifex" amt=".5" />
+	<food name="neverfailgrass" amt=".5" />
+	<food name="termite" amt="3" />
+	<boundary loc="anywhere" top="220" left="20" right="1956" />
+</sp>
+
+<sp name="bilby" family="mammal" loc="anywhere" fullname="Bilby" movement="walk" size="1" speed=".1" maxalt="0" partial="false" freq="1" starve="2" num="18" index="12">
+	<food name="termite" amt="3" />
+	<food name="spinifex" amt="1" />
+	<food name="neverfailgrass" amt=".5" />
+	<food name="ant" amt="3" />
+	<boundary loc="anywhere" top="220" left="20" right="1956" />
+</sp>
+
+<sp name="eagle" family="bird" loc="anywhere" fullname="Wedged-tail Eagle" movement="fly" size=".1" speed=".4" maxalt="5" partial="false" freq="2" starve="4" num="4" index="13">
+	<food name="bilby" amt="1" />
+	<food name="spinifexmouse" amt="1" />
+	<food name="thornydevil" amt="1" />
+	<shelter type="tree" />
+	<boundary loc="ground" top="220" bottom="400" left="60" right="1926" />
+</sp>
+
+<sp name="dingo" family="mammal" loc="anywhere" fullname="Dingo" movement="walk" size=".15" speed=".2" maxalt="0" partial="false" freq="2" starve="6" num="4" index="14">
+	<food name="spinifexmouse" amt="2" />
+	<food name="kangaroo" amt="1" />
+	<food name="bilby" amt="2" />
+	<food name="thornydevil" amt="2" />
+	<boundary loc="anywhere" top="220" left="60" right="1926" />
+</sp>
+
+</terrarium>

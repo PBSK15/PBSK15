@@ -1,0 +1,8 @@
+{% extends 'wordgirl/includes/templates/flashWGPage.html.twig' %}
+{% set pageTitle = '. Characters . Captain Huggy Face | PBS KIDS GO!' %}
+{% set keywds = 'Captain huggy face, games, dance, power words, coloring page, bookmark, freeze frame, printables. Monkey, Bob.' %}
+{% set desc = 'Games, activities and printables featuring Captain Huggy Face.' %}
+
+
+{% block swfEmbedScript %}<script type="text/javascript">			var flashvars = {cdn_root: "/enablecdn/wordgirl/cdn_content/", site_root:"/wordgirl/", page_xml_url:"character.xml", content_swf_url:"CharacterProxy.swf", framing:"comic"};			var params = {};			params.bgcolor = "#1277C9";			params.allowscriptaccess = "always";			params.menu = false;			swfobject.embedSWF("/enablecdn/wordgirl/cdn_content/WordGirlShell.swf", "WordGirl", "960", "800", "10.0.0", false, flashvars, params);		</script>{% endblock %}
+

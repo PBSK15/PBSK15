@@ -1,0 +1,335 @@
+{% extends 'plumlanding/includes/plumLandingPage.html.twig' %}
+{% set pageTitle = 'Home' %}
+
+
+{% block specialHead %}<style type="text/css">
+
+
+	#highlight {
+		max-height:380px;
+		height:344px;
+		position:relative;
+		background-image: url("i/home/space_bg.jpg");
+		background-repeat:no-repeat;
+	}
+
+	#highlight.h_space {
+		background-image: url("i/bgs/home_space_bg.jpg");
+	}
+	
+	#highlight.h_desert {
+		background-image: url("i/bgs/home_desert_bg.jpg");
+	}
+
+	#highlight.h_jungle {
+		background-image: url("i/bgs/home_jungle_bg.jpg");
+	}
+	
+	#highlight.h_mangrove {
+		background-image: url("i/bgs/home_mangrove_bg.jpg");
+	}
+	
+	#highlight.h_mountain {
+		background-image: url("i/bgs/home_mountain_bg.jpg");
+	}
+
+
+	#plumlogo {
+		float:none;
+		display:block;
+		position:relative;
+		width:30%;
+		height:auto;
+		margin:50px auto 30px auto;
+		/*
+		transition: top 1s;
+		-webkit-transition: top 1s;  Safari */
+	}
+	
+	#splash {
+		position:relative;		
+		overflow:hidden;
+	}
+	
+	#flow {
+		height:344px;
+		width:100%;
+	}
+	
+	#cutoff {
+		position:relative;
+		top:0px;
+	}
+	
+	#leftkids {
+		display:block;
+		position:absolute;
+		left:6%;
+		top:30px;
+	}
+	
+	#rightkids {
+		display:block;
+		position:absolute;
+		left:72%;
+		top:0;
+	}
+	
+	#tagline {
+		display:block;
+		position:relative;
+		width:auto;
+		margin:0 auto;
+	}
+
+	#homenav {
+		background-color:#6A51C2;
+		position:relative;
+	}
+	
+	#homenav #nav {
+	
+		margin:10px auto;
+		display:block;
+		padding-bottom:5px;
+		padding-left:70px;
+	}
+
+	.rivets {
+		position:relative;
+		top:-3px;
+	}
+	
+	#content {
+		margin-top:2.5em;
+		margin-bottom:2.5em;
+	}
+	
+	#pande {
+		background-color:#fff;
+		margin-bottom:-12px;
+		padding-bottom:12px;
+	}
+
+	#pbslogo {
+		position:absolute;
+		top:0px;
+		left:18px;
+	}
+
+
+	.pebox {
+		background-color:#BCEBFF;
+		color: #311c79;
+		position:relative;
+	}
+	
+	.pebox h4 {
+		margin-bottom:0;
+	}
+	.pebox p {
+		color:;
+	}
+		
+
+
+	.peboxbody {
+		float:right;
+		margin-right:2%;
+		margin-top:.5em;
+		color: #311c79;
+		width:45%;
+		display:inline-block;
+	}
+	
+	.pebox>img {
+		display:block;
+		margin:0;
+	}
+	
+	
+	.arrowlink {
+		position:absolute;
+		bottom:4px;
+		right:4px;
+	}
+
+</style>{% endblock %}
+
+
+{% set bodyOpeningTag = '<body>' %}
+{% set headbandId = 'pbsheadband' %}
+
+
+{% block mainContent %}<div id="plumpage" class="tealbg">
+ <div id="highlight" class="scroll">
+  <div id="splash" class="boxedin">
+   <div id="flow" class="boxedin">
+    <div id="cutoff">
+     &nbsp; <a href="http://pbskids.org/" id="pbslogo"><img src="i/common/pbskids_logo.svg" alt="PBS Kids"></a> <img id="leftkids" class="bubblebounce" src="i/home/bubble_kids1.png" alt="Kids in a bubble" width="240" height="164"> <img id="plumlogo" src="i/home/logo_big.svg" alt="Plum Landing" width="285" height="188"> <img id="rightkids" class="bubblebounce" src="i/home/bubble_kids2.png" alt="Kids in a bubble" width="266" height="223">
+    </div> <img id="tagline" src="i/home/tagline.svg" alt="Exploring your world one mission at a time" width="630" height="30">
+   </div>
+  </div>
+ </div>
+ <div id="homenav">
+  <hr class="rivets"> <!-- #bbinclude "navbar.incl" #page#="homepage" -->
+  <div id="navbar" class="boxedin">
+   <a name="navbar"></a>
+   <div class="row-group">
+    <div class="col-12">
+     <ul id="nav">
+      <li class="gnav"><a href="/plumlanding/games/index.html" class="gnav-button ">
+        <div class="nav-icon"><img src="/plumlanding/i/common/game_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble1_border.svg" alt="">
+        </div> <span class="gnav-text">Games</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/video/index.html" class="gnav-button ">
+        <div class="nav-icon bubble2"><img src="/plumlanding/i/common/video_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble2_border.svg" alt="">
+        </div> <span class="gnav-text">Video</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/ship/index.html" class="gnav-button ">
+        <div class="nav-icon bubble3"><img src="/plumlanding/i/common/ship_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble3_border.svg" alt="">
+        </div> <span class="gnav-text">The Ship</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/pictures/index.html" class="gnav-button ">
+        <div class="nav-icon"><img src="/plumlanding/i/common/pictures_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble1_border.svg" alt="">
+        </div> <span class="gnav-text">Pictures</span> </a></li>
+      <li class="gnav" id="loginnav"><a id="mystuff" class="gnav-button" data-action="pbskids-login-sign-in">
+        <div id="myicon" class="nav-icon bubble3"><img src="/plumlanding/i/common/mystuff_icon.svg" alt="My Stuff">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble3_border.svg" alt="">
+        </div> <span class="gnav-text">Sign In</span></a></li>
+     </ul>
+     <div id="pe"><a href="/plumlanding/parents/index.html" class="btn-alt btn-small">Parents</a> <a href="/plumlanding/educators/index.html" class="btn-alt btn-small">Educators</a>
+     </div>
+    </div>
+   </div>
+  </div> <!-- end bbinclude -->
+ </div>
+ <div id="middle">
+  <hr class="fadeout">
+  <div id="content" class="boxedin">
+   <div class="row-group">
+    <div class="col-12">
+     <h4 class="emphasis-dark">Watch and Play</h4>
+    </div>
+    <div class="col-6"><a class="thumb-highlight" href="/plumlanding/games/ecosystem/mountain_scramble.html"> <img class="highlight-icon" src="/plumlanding/i/common/game_icon_hi.svg"> <img class="image-fluid" src="/plumlanding/i/highlights/mountain_scramble_high.jpg"> </a>
+    </div>
+    <div class="col-6"><a class="thumb-highlight" href="/plumlanding/video/mangrove.html?guid=1e872b58-4e4d-4a68-ac0b-fb4d105cc66c"> <img class="highlight-icon" src="/plumlanding/i/common/video_icon_hi.svg"> <img class="image-fluid" src="/plumlanding/i/highlights/136_water_carries_everything_high.jpg"> </a>
+    </div>
+   </div>
+   <div class="row-group">
+    <div class="col-12">
+     <h4 class="emphasis-dark">Make Something</h4>
+    </div>
+   </div>
+   <div class="row-group" id="ugc">
+    <script type="text/javascript">
+		
+		var data={"missions": [{"app_text": "Take a photo with Brad!", "app_question_text": "Tell us what's in your photo!", "submission": {"age": 138, "image": "/plumlanding/media/submissions/15/04/30/C6FB3CCD-9F2A-44C6-85C2-D90D8AA14937.jpg", "id": 314930, "name": "gf13818153678", "description": ""}, "title": "Brad Photobomb", "web_text": "We asked you to take photos of Brad and tell us what's in your photo!", "filename": "brad_photobomb", "tag": "Photo Hunt Mission", "type": "A", "id": 85}, {"app_text": "Interesting things in nature", "app_question_text": "What is interesting about this?", "submission": {"age": 8, "image": "/plumlanding/media/submissions/15/05/01/199160C8-3213-4402-B52B-2224A6FB9884.jpg", "id": 315878, "name": "Ella Knight", "description": "this is the weather after the storm"}, "title": "Interesting Things", "web_text": "We asked you to take photos of interesting things in nature and tell Plum about them.", "filename": "interesting_things", "tag": "Photo Hunt Mission", "type": "A", "id": 53}, {"app_text": "Water", "app_question_text": "What do you know about this water?", "submission": {"image": "/plumlanding/media/submissions/15/05/01/383661A6-9ECD-4A98-9713-13A255C2B336.jpg", "id": 315698, "name": "gdjhv46336", "description": " "}, "title": "Water", "web_text": "We asked you to take photos of water and tell Plum where it's from. ", "filename": "water", "tag": "Photo Hunt Mission", "type": "A", "id": 54}, {"app_text": "Signs of animal life", "app_question_text": "What did you find?", "submission": {"age": 8, "image": "/plumlanding/media/submissions/15/05/01/7430C86C-F1FB-4395-9242-DFF802EEAAC9.jpg", "id": 316086, "name": "naya", "description": "this is a creature could a dog!"}, "title": "Animal Life", "web_text": "We asked you to take photos of signs of animal life and tell Plum what you found.", "filename": "animal_life", "tag": "Photo Hunt Mission", "type": "A", "id": 55}]}
+		
+			//	var m=0;
+			//	var node=document.getElementById('ugc');
+			//	node.innerHTML='';
+				for(var m=0; m<4;m++) {
+					var mi=data.missions[m];
+					var sub=mi.submission;
+					document.write('<div class="col-3"><a class="thumb-purpleunder" href="pictures/showpictures.html?m='+mi.id+'"><img class="image-fluid" src="'+sub.image+'" /><span class="tn-text-in">'+mi.title+'</span></a></div>');
+				}
+		</script>
+   </div>
+   <div class="row-group">
+    <div class="col-2">
+     &nbsp;
+    </div>
+    <div class="col-4"><a class="thumb-highlight" href="games/nature_sketchpad/index.html"> <img class="image-fluid" src="i/highlights/thin_sketchpad_high.jpg" alt="Nature Sketchpad"> </a>
+    </div>
+    <div class="col-4"><a class="thumb-highlight" href="http://pbskids.org/apps/plums-photo-hunt.html"> <img class="image-fluid" src="i/highlights/thin_app_high.jpg" alt="Plum's Photo Hunt App"> </a>
+    </div>
+    <div class="col-2">
+     &nbsp;
+    </div>
+   </div>
+  </div>
+  <div id="pande">
+   <hr class="rivets ">
+   <div class="boxedin">
+    <div class="row-group headless">
+     <div class="col-6 card"><a href="parents/index.html">
+       <div class="pebox">
+        <div class="peboxbody bodytext">
+         <h4>Parents</h4>
+         <p class="small">Discover a world of science activities to do with your kids!</p>
+        </div> <img src="i/thumb/parent_index_th.jpg" alt="Parents" width="232" height="131"><img class="arrowlink" src="i/common/btn_icon_arrow.svg" alt="See Parents section">
+       </div></a>
+     </div>
+     <div class="col-6 card"><a href="educators/index.html">
+       <div class="pebox">
+        <div class="peboxbody bodytext">
+         <h4>Educators</h4>
+         <p class="small">Here is our entire digital curriculum for PLUM LANDING!</p>
+        </div> <img src="i/thumb/educator_index_th.jpg" alt="Educators" width="232" height="131"> <img class="arrowlink" src="i/common/btn_icon_arrow.svg" alt="See Educators section">
+       </div></a>
+     </div>
+    </div>
+   </div>
+   <hr class="fadefooter">
+  </div>
+ </div>
+ <div id="footer">
+  <div class="boxedin">
+   <div class="col-12">
+    <div>
+     <ul id="footernav">
+      <li><a href="/plumlanding/index.html">Home</a></li>
+      <li><a href="/plumlanding/games/index.html">Games</a></li>
+      <li><a href="/plumlanding/video/index.html">Video</a></li>
+      <li><a href="/plumlanding/ship/index.html">The Ship</a></li>
+      <li><a href="/plumlanding/pictures/index.html">Pictures</a></li>
+      <li><a href="/plumlanding/mystuff/index.html">My Stuff</a></li>
+      <li><a href="/plumlanding/parents/index.html">Parents</a></li>
+      <li class="end"><a href="/plumlanding/educators/index.html">Educators</a></li> <br>
+      <li><a href="http://www.sgptv.org/programs/program/plum-landing/">Program Sponsorship</a></li>
+      <li><a href="/plumlanding/educators/partners.html">Partners</a></li>
+      <li><a href="/plumlanding/about/index.html">About</a></li>
+      <li><a href="/plumlanding/about/sitemap.html">Site Map</a></li>
+      <li><a href="/plumlanding/about/contact.html">Contact Us</a></li>
+      <li><a href="http://pbskids.org/privacy/">Privacy Policy</a></li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <div class="row-group centered">
+   <div class="col-8 nofloat jleft">
+    <div id="wgbh"><a href="http://www.wgbh.org/"><img src="i/common/logo_wgbh.png" alt="WGBH" width="101" height="37"></a>
+     <p>PLUM LANDING™ is produced by WGBH.</p>
+    </div>
+   </div>
+  </div>
+  <div class="row-group centered">
+   <div id="funders"><span class="fund">Major Funding</span> <a href="http://www.nsf.org/"><img src="i/common/logo_nsf.png" alt="NSF: National Science Foundation" width="63" height="63"></a> <a href="http://www.cpb.org/"><img src="i/common/logo_cpb.png" alt="CPB: Corporation for Public Broadcasting" width="58" height="73"></a> <img src="i/common/logo_kendeda.png" alt="Kendeda" width="121" height="45"> <span class="fund" style="margin-left:8px;">Additional Funding</span> <a href="http://www.nrs.fs.fed.us/"><img src="i/common/logo_usfs.png" alt="USDA Forest Service" width="54" height="58"></a>
+   </div>
+  </div>
+  <div class="row-group centered">
+   <div class="col-8 nofloat jleft">
+    <p>Major funding forÂ&nbsp;PLUM LANDINGÂ&nbsp;is provided by the National Science Foundation, the Corporation for Public Broadcasting, and The Kendeda Fund. Additional funding is provided by the Northern Research Station, Forest Service, U.S. Department of Agriculture.</p>
+    <p>This PLUM LANDING material is based upon work supported by the National Science Foundation under Grant No. DRL-1114515.Â&nbsp;Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
+    <p><a href="about/copyright.html">© 2015 WGBH Educational Foundation.</a> PLUM LANDING is a trademark or registered trademark of WGBH Educational Foundation. All rights reserved. All third party trademarks are the property of their respective owners. Used with permission.</p>
+   </div>
+  </div>
+ </div>
+ <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+ <script type="text/javascript" src="js/plumlogin.js"></script>
+ <script type="text/javascript" src="js/anim2.js"></script>
+ <script type="text/javascript" src="js/home.js"></script>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}{% endblock %}
+

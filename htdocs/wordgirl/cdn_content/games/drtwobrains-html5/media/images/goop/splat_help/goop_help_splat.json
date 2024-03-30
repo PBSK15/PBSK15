@@ -1,0 +1,38 @@
+{
+"images": ["goop_help_splat.png"],
+"frames": [
+
+    [15, 664, 5, 6, 0, 2, 3], 
+    [2, 664, 11, 12, 0, 5, 6], 
+    [94, 623, 27, 30, 0, 13, 15], 
+    [94, 562, 52, 59, 0, 26, 29], 
+    [2, 562, 90, 100, 0, 45, 50], 
+    [877, 2, 136, 153, 0, 68, 76], 
+    [799, 384, 193, 216, 0, 96, 108], 
+    [536, 384, 261, 293, 0, 130, 146], 
+    [536, 2, 339, 380, 0, 169, 190], 
+    [2, 2, 532, 558, 0, 266, 279],
+    [2, 2, 532, 558, 0, 266, 0]
+],
+"animations": {
+    
+        "help_splat_0000_goop_splash0003.png":[0], 
+        "help_splat_0001_goop_splash0004.png":[1], 
+        "help_splat_0002_goop_splash0005.png":[2], 
+        "help_splat_0003_goop_splash0006.png":[3], 
+        "help_splat_0004_goop_splash0007.png":[4], 
+        "help_splat_0005_goop_splash0008.png":[5], 
+        "help_splat_0006_goop_splash0009.png":[6], 
+        "help_splat_0007_goop_splash0010.png":[7], 
+        "help_splat_0008_goop_splash0011.png":[8], 
+        "help_splat_0009_goop_splash0012.png":[9],
+        "help_splat":[0,9],
+        "idle":[0],
+        "last":[10],
+        "goop_end":[8]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:60139db04afef4f12070ba85ed3292ca:d347e058239799f5c2d7cbe29e3df38b:c9bc850db05a8450dae63c21526e084e$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

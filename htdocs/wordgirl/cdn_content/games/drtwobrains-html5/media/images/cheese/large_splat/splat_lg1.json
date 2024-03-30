@@ -1,0 +1,33 @@
+{
+"images": ["splat_lg1.png"],
+"frames": [
+
+    [827, 780, 32, 36, 0, 16, 18], 
+    [827, 687, 82, 91, 0, 41, 45], 
+    [1246, 1169, 163, 184, 0, 81, 92], 
+    [964, 1169, 280, 313, 0, 140, 156], 
+    [964, 687, 428, 480, 0, 214, 240], 
+    [827, 2, 609, 683, 0, 304, 341], 
+    [2, 2, 823, 924, 0, 411, 462], 
+    [2, 2, 1071, 1202, 1, 535, 601],
+    [2, 928, 960, 600, 0, 480, 300],
+    [2, 928, 960, 600, 0]
+],
+"animations": {
+    
+        "cheese-splash_0002_splash0004.png":[0], 
+        "cheese-splash_0003_splash0005.png":[1], 
+        "cheese-splash_0004_splash0006.png":[2], 
+        "cheese-splash_0005_splash0007.png":[3], 
+        "cheese-splash_0006_splash0008.png":[4], 
+        "cheese-splash_0007_splash0009.png":[5], 
+        "cheese-splash_0008_splash0010.png":[6], 
+        "cheesegoop-exlarge-crop":[7],
+        "lg_splat": [0,8],
+        "last": [9]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:b34e5d632614d435b9ea54c42a1af6ff:f3caeeb146195ec23524f4448c41079d:8d80aff441c3f8c4a083c2671431a197$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

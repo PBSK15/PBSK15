@@ -1,0 +1,32 @@
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta content="True" name="HandheldFriendly">
+
+<script src='/wordgirl/script/ismobile.js'></script>
+<script>
+
+    if(isMobile.apple.phone || isMobile.apple.ipod || isMobile.android.phone || isMobile.phone) {
+        currentOrientation = "portrait";
+        document.write('<meta name="viewport" content="width=790  target-densitydpi=low-dpi">');
+    } else {
+        var currentOrientation = "landscape";
+        document.write('<meta name="viewport" content="width=1044  target-densitydpi=low-dpi">');
+    }
+
+</script>
+
+<link rel="stylesheet" href="/wordgirl/css/style.css" />
+<link rel="stylesheet" href="/wordgirl/css/landscape.css" />
+<link rel="stylesheet" href="/wordgirl/css/portrait.css" />
+
+<!--[if lt IE 10]>
+<link rel="stylesheet" href=/wordgirl/css/ie9.css" />
+<![endif]-->
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/wordgirl/css/ie8.css" />
+<![endif]-->
+
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="/wordgirl/css/ie7.css" />
+<![endif]-->

@@ -1,0 +1,8 @@
+{% extends 'wordgirl/includes/templates/flashWGPage.html.twig' %}
+{% set pageTitle = '. Games . Miss Power Faceoff | PBS KIDS GO!' %}
+{% set keywds = '' %}
+{% set desc = '' %}
+
+
+{% block swfEmbedScript %}<script type="text/javascript">			var flashvars = {cdn_root: "/enablecdn/wordgirl/cdn_content/", site_root:"/wordgirl/", page_xml_url:"faceOffXML.xml", content_swf_url:"games/misspowerfaceoff/faceOffShell.swf", framing:"comic", introVideo:"games/misspowerfaceoff/mspower_introvideo.flv"};			var params = {};			params.bgcolor = "#1277C9";			params.allowscriptaccess = "always";			params.menu = false;			swfobject.embedSWF("/enablecdn/wordgirl/cdn_content/WordGirlShell.swf", "WordGirl", "960", "800", "10.0.0", false, flashvars, params);		</script>{% endblock %}
+

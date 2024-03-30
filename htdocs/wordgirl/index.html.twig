@@ -1,0 +1,43 @@
+{% extends 'wordgirl/includes/templates/nonFlashWGPage.html.twig' %}
+{% set pageTitle = '| PBS Kids' %}
+{% set keywds = 'WordGirl, Captain Huggy Face, superhero, games, vocabulary, videos, tv, television, literacy, education, Butcher, Energy Monster, Ms Question, Dr. Two Brains, Chuck Sandwich Making Guy, Mr. Big, Ms Word, Granny May, Lady Redundant Woman' %}
+{% set desc = 'Animated Super hero WordGirl fights crime using her superhero strength and her colossal vocabulary with her monkey sidekick, Captain Huggy Face.' %}
+
+
+{% block swfEmbedScript %}<script>            swfobject.embedSWF(                "/enablecdn/wordgirl/cdn_content/WordGirlShell.swf",                "WordGirl",                "1160",                "800",                "10.0.0",                false,                {                    cdn_root: "/enablecdn/wordgirl/cdn_content/",                    site_root: "/wordgirl/",                    page_xml_url: "xml/homepage.xml",                    content_swf_url: "HomePageProxy.swf",                    is_homepage: "true",                    bg_music_url: "site_audio/homepage/theme_instro.mp3",                    k_logo: kidslogo                },                {                    bgcolor: "#1277C9",                    wmode: "transparent",                    allowscriptaccess: "always",                    menu: false                });        </script>{% endblock %}
+
+
+{% set bodyTag = '<body onload="checkLegacy();"></body>' %}
+
+
+{% block html5Content %}<div class="html5_content html5_wrapper">
+ <div class="html5 content home">
+  <div class="modules home">
+   <div class="banner module"><a class="pbskids item" href="http://pbskids.org/"> <img src="/wordgirl/cdn_content/images/html5/logos/logo_pbskids.png" alt="PBS Kids"> </a> <img src="/wordgirl/cdn_content/images/html5/desktop/modules/banner/home.png" class="centerpiece item home" alt="Home"> <a class="wordgirl item" href="/wordgirl/"> <img src="/wordgirl/cdn_content/images/html5/logos/logo_wordgirl.png" alt="WordGirl"> </a>
+   </div> <a href="/wordgirl/games" class="games navigation button module"> <img class="desktop-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/games.png" alt="Games"> <img class="mobile-image" src="/wordgirl/cdn_content/images/html5/mobile/modules/button/games.png" alt="Games"></a> <a href="/wordgirl/adventures/" class="video navigation button module"> <img class="games-page-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/video_btn.png" alt="Video"> <img class="desktop-image" src="/wordgirl/cdn_content/images/html5/desktop/modules/button/video.png" alt="Video"> <img class="mobile-image" src="/wordgirl/cdn_content/images/html5/mobile/modules/button/video.png" alt="Video"></a>
+   <div class="swiffy characters module"><a href="/wordgirl/heroes-villains/" class="character huggy"></a> <a href="/wordgirl/heroes-villains/" class="character dr2brains"></a> <a href="/wordgirl/heroes-villains/" class="character tobey"></a> <a href="/wordgirl/heroes-villains/" class="character tj"></a> <a href="/wordgirl/heroes-villains/" class="character chuck"></a> <a href="/wordgirl/heroes-villains/" class="character whammer"></a> <a href="/wordgirl/heroes-villains/" class="character violet"></a> <a href="/wordgirl/heroes-villains/" class="character butcher"></a> <a href="/wordgirl/heroes-villains/" class="character granny"></a> <a href="/wordgirl/heroes-villains/" class="character toddscoops"></a> <a href="/wordgirl/heroes-villains/" class="character mrbig"></a> <a href="/wordgirl/heroes-villains/" class="character ladyredundant"></a> <a href="/wordgirl/heroes-villains/" class="character timbotsford"></a> <a href="/wordgirl/heroes-villains/" class="character sallybotsford"></a> <a href="/wordgirl/heroes-villains/" class="character birthdaygirleileen"></a>
+   </div>
+   <script>    $(function() {        $('.character').each(function() {            var characterImage = $(this).css('background-image').replace('url(','').replace(')','');            $('<img>').attr('src', characterImage).load(function() {                //console.log('loaded: ' + characterImage);            });        });        function fadeNext() {            $('.character').first().hide().appendTo($('.characters'));            $('.character').first().show();        }        var rotate = setInterval(fadeNext, 2500);    });</script>
+   <div class="wordgirl_animation_wrapper"><iframe class="swiffy wordgirl module" src="/wordgirl/inc/html5/modules/animation" width="100%" height="100%" scrolling="no"></iframe>
+   </div>
+   <script>               $('.swiffy.wordgirl.module').click(function() {                   $(this).css('pointer-events', 'none');               });            </script> <!--[if lt IE 9]>                <img class="swiffy wordgirl module substitute" src="/wordgirl/cdn_content/images/html5/desktop/modules/swiffy/wordgirl.png">            <![endif]-->
+  </div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block flashContent %}<div class="flash_content" data-id="flash-content">
+ <div id="wrapperhome" class="flash">
+  <div id="WordGirl"></div>
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}{% endblock %}
+
+
+{% set footerClass = 'footer home' %}

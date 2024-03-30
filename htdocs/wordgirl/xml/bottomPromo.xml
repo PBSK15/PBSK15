@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<promoResources>
+	<assetLocation><![CDATA[/enablecdn/wordgirl/cdn_content/homepage/bottompromo/]]></assetLocation>
+	<links>
+		<link id="prettyprincessgame" imageURL="princess_bottom.jpg" soundURL="wg_home28.mp3" mood="angry" gesturescript="body,0.1,angry|face,3.5,flat"/>
+		<link id="huggydance" imageURL="HuggyDance.jpg" soundURL="wg_home18.mp3" mood="surprised" gesturescript="body,0.1,surprised|face,3,happy|body,4,happy"/>
+		<link id="mazemania" imageURL="mazeMania_bottom.jpg" soundURL="wg_home15.mp3" mood="angry" gesturescript="face,0.9,happy|body,2.9,happy|body,4,flat|face,5.5,flat|face,8,happy"/>
+		<!-- <link id="haveaword" imageURL="mayWord_bottom.jpg" soundURL="wg_home07.mp3" mood="flat" gesturescript="face,0.9,happy"/> -->
+		<!--<link id="butcherisms" imageURL="Butcherisms_bottom.jpg" soundURL="wg_home14.mp3" mood="angry" gesturescript="body,0.1,angry|face,4.7,surprised|face,5.6,flat"/>-->
+		<!--<link id="beastar" imageURL="beStar_bottom.jpg" soundURL="wg_home17.mp3" mood="flat" gesturescript="body,0.7,flat|face,2.6,happy|body+face,5.9,flat"/>-->
+		<!--<link id="huggydance" imageURL="huggyDance_bottom.jpg" soundURL="wg_home07.mp3" mood="flat" gesturescript="face,0.9,happy"/>-->
+		<!--<link id="powerwords" imageURL="dr2brain_bottom.jpg" soundURL="wg_home07.mp3" mood="flat" gesturescript="face,0.9,happy"/>-->
+		<!--<link id="honeybee" imageURL="honey_bottom.jpg" soundURL="wg_home07.mp3" mood="flat" gesturescript="face,0.9,happy"/>-->
+	</links>
+	<resources>
+		<resource id="leftArrow" URL="leftArrow.png" type="image"/>
+		<resource id="rightArrow" URL="rightArrow.png" type="image"/>
+	</resources>
+</promoResources>

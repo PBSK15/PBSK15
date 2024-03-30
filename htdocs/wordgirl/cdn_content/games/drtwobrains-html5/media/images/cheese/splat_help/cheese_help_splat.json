@@ -1,0 +1,37 @@
+{
+"images": ["cheese_help_splat.png"],
+"frames": [
+
+    [15, 664, 6, 7, 0, 3, 3], 
+    [2, 664, 11, 13, 0, 5, 6], 
+    [93, 623, 27, 30, 0, 13, 15], 
+    [93, 562, 53, 59, 0, 26, 29], 
+    [2, 562, 89, 100, 0, 44, 50], 
+    [877, 2, 136, 153, 0, 68, 76], 
+    [799, 385, 193, 217, 0, 96, 108], 
+    [536, 385, 261, 293, 0, 130, 146], 
+    [536, 2, 339, 381, 0, 169, 190], 
+    [2, 2, 532, 558, 0, 266, 279],
+    [2, 2, 532, 558, 0, 266, 0]
+],
+"animations": {
+    
+        "help_cheese_splat_0001_splash0003.png":[0], 
+        "help_cheese_splat_0002_splash0004.png":[1], 
+        "help_cheese_splat_0003_splash0005.png":[2], 
+        "help_cheese_splat_0004_splash0006.png":[3], 
+        "help_cheese_splat_0005_splash0007.png":[4], 
+        "help_cheese_splat_0006_splash0008.png":[5], 
+        "help_cheese_splat_0007_splash0009.png":[6], 
+        "help_cheese_splat_0008_splash0010.png":[7], 
+        "help_cheese_splat_0009_splash0011.png":[8], 
+        "help_cheese_splat_0010_splash0012.png":[9],
+        "help_splat":[0,9],
+        "idle":[0],
+        "last":[10]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:d503f7bb8771c5044108028e09f3d9e1:b18ceb9e328aaea7cba72045393fdf53:ab7037e3caf0812d679587adb6e968eb$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

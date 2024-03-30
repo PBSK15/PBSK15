@@ -1,0 +1,41 @@
+{
+"images": ["splash_hit.png"],
+"frames": [
+
+    [2, 2, 244, 123], 
+    [248, 2, 244, 123], 
+    [494, 2, 244, 123], 
+    [740, 2, 244, 123], 
+    [986, 2, 244, 123], 
+    [1232, 2, 244, 123], 
+    [2, 127, 244, 123], 
+    [248, 127, 244, 123], 
+    [494, 127, 244, 123], 
+    [740, 127, 244, 123], 
+    [986, 127, 244, 123], 
+    [986, 127, 244, 123], 
+    [1232, 127, 244, 123], 
+    [1232, 127, 244, 123]
+],
+"animations": {
+    
+        "CheeseShotSplat0008":[0], 
+        "CheeseShotSplat0009":[1], 
+        "CheeseShotSplat0010":[2], 
+        "CheeseShotSplat0011":[3], 
+        "CheeseShotSplat0012":[4], 
+        "CheeseShotSplat0013":[5], 
+        "CheeseShotSplat0014":[6], 
+        "CheeseShotSplat0015":[7], 
+        "CheeseShotSplat0016":[8], 
+        "CheeseShotSplat0017":[9], 
+        "CheeseShotSplat0018":[10], 
+        "CheeseShotSplat0019":[11], 
+        "CheeseShotSplat0020":[12], 
+        "CheeseShotSplat0021":[13]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:a73aeda637b851a71f5778bac5ee788f:ef4b033bd3b888b0d4cc6ee4c323700a:9d77f426f8bf39dedbdfbef6c961bdda$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

@@ -1,0 +1,35 @@
+{
+	"images":["desert_icons.png"],
+	"frames":[
+		[0, 0, 78, 78, 0, 0, 0],
+		[78, 0, 78, 78, 0, 0, 0],
+		[156, 0, 78, 78, 0, 0, 0],
+		[234, 0, 78, 78, 0, 0, 0],
+		[312, 0, 78, 78, 0, 0, 0],
+		[390, 0, 78, 78, 0, 0, 0],
+		[0, 78, 78, 78, 0, 0, 0],
+		[78, 78, 78, 78, 0, 0, 0],
+		[156, 78, 78, 78, 0, 0, 0],
+		[234, 78, 78, 78, 0, 0, 0],
+		[312, 78, 78, 78, 0, 0, 0],
+		[390, 78, 78, 78, 0, 0, 0],
+		[0, 156, 78, 78, 0, 0, 0],
+		[78, 156, 78, 78, 0, 0, 0]
+	],
+	"animations":{
+		"honeyeater": {"frames": [5]},
+		"spinifexmouse": {"frames": [7]},
+		"neverfailgrass": {"frames": [2]},
+		"spinifex": {"frames": [12]},
+		"mulga": {"frames": [0]},
+		"ant": {"frames": [13]},
+		"bilby": {"frames": [8]},
+		"bloodwood_flowering": {"frames": [1]},
+		"eagle": {"frames": [10]},
+		"thornydevil": {"frames": [4]},
+		"kangaroo": {"frames": [6]},
+		"dingo": {"frames": [9]},
+		"desertpea": {"frames": [3]},
+		"termite": {"frames": [11]}
+	}
+}

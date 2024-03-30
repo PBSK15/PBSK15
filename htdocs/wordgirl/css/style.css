@@ -1,0 +1,301 @@
+.teaser {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.teaser a {
+	font-family: Arial, Helvetica, sans-serif, Myriad;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.teaser a:hover{
+	color: #000000;
+}
+
+.teaser a:hover{
+	color: #000000;
+}
+
+div.videocategory {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	color:#efca3f;	
+	font-weight:bold;
+	font-size: 1em;
+	width:250px; 
+	float:left; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*padding:0px 25px;*/
+}
+div.videocategory a:link{
+	color: #efca3f;
+}
+div.videocategory a:visited{
+	color: #935820;
+}
+
+div.videocategory a:link{
+	color: #efca3f;
+}
+div.videocategory a:hover{
+	color: #c2742a;
+}
+
+#noflash{
+	background-color: white;
+	position: relative;
+	top: 125px;
+	width: 600px;
+	color: #666666;
+    font-family: Arial;
+    font-size: 12pt;
+    margin-left: auto ;
+	margin-right: auto ;
+	padding: 10px
+}
+#noflashGames{
+	background-color: white;
+	position: relative;
+	top: 65px;
+	width: 600px;
+	color: #666666;
+    font-family: Arial;
+    font-size: 12pt;
+    margin-left: auto ;
+	margin-right: auto ;
+	padding: 10px
+}
+#noflash_nav{
+	width: 960px;
+	position: relative;
+    margin-left: auto ;
+	margin-right: auto ;
+}
+.noFlashHeader{
+   color: #1277C9;
+   font-size: 14pt;
+}
+
+#wrapper {
+	background-image:url('/enablecdn/wordgirl/cdn_content/images/comicBG.jpg');
+				background-repeat:no-repeat;
+  /*width: 1405px ;
+  margin-left: auto ;
+  margin-right: auto ;
+    text-align: center; */
+    background-position: 50% top;
+    min-width: 960px;
+}
+#wrapperhome {
+	background-image:url('/enablecdn/wordgirl/cdn_content/images/comicBG.jpg');
+				background-repeat:no-repeat;
+  /*width: 1405px ;
+  margin-left: auto ;
+  margin-right: auto ;
+    text-align: center; */
+    background-position: 50% top;
+    min-width: 1160px;
+     outline:none;
+}
+
+#WordGirl {
+	height:705px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	min-width: 960px;
+	outline:none;
+}
+
+body{
+	background-color: #1277C9; /*ps: change this value to the same background color of your flash movie*/
+	text-align:center; 
+	margin:0;
+}
+
+#footer {
+	font-family:verdana;
+	text-align:center;
+	font-size:80%;
+	color:#ffffff;
+}
+
+#footer a {
+	text-decoration:none;
+}
+
+#footer a:link {
+	color:#9aeef4;
+}
+
+#footer a:visited {
+	color:#1ba1d0;
+}
+
+#footer a:hover {
+	color:#ffffff;
+}
+
+#footer {
+	font-family:verdana;
+	text-align:center;
+	font-size:80%;
+	color:#ffffff;
+}
+
+#noflash a {
+	text-decoration:none;
+}
+
+#noflash a:link {
+	color:#1277C9;
+}
+
+#noflash a:visited {
+	color:#1277C9;
+}
+
+#noflash a:hover {
+	color:#9aeef4;
+}
+
+
+
+
+
+
+#character-wrapper {
+	background: url('/wordgirl/cdn_content/characters/desktop/character-background.png') no-repeat;
+	width: 638px;
+	height: 513px;
+	top: 110px;
+	left: 12px;
+	position: relative;
+}
+
+#character-wrapper-inner {
+	position: absolute;
+	z-index: 1;
+	top: 13px;
+	left: 20px;
+	width: 610px;
+	height: 490px;
+	overflow: auto;
+}
+
+#scroller {
+	position:absolute; z-index:1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width:100%;
+	padding:0;
+}
+
+#scroller ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:left;
+}
+
+#scroller li {
+	height: 233px;
+	width: 542px;
+	margin: 0 10px 25px 25px;
+	position: relative;
+}
+
+#scroller li .description {
+	width: 270px;
+	position: absolute;
+	top: 80px;
+	font-weight: bold;
+	font-size: 13.3px;
+	color: #32352A;
+	font-family: Arial;
+}
+
+#scroller li .character-title-image {
+	position: absolute;
+	top: 30px;
+}
+
+#scroller li .character-image {
+	position: absolute;
+	top: 14px;
+}
+
+/* right */
+#scroller li.left {
+	background: url('/wordgirl/cdn_content/characters/desktop/character-container-left.png') no-repeat;
+}
+
+#scroller li.left .description {
+	left: 255px;
+}
+
+#scroller li.left .character-image {
+	left: 7px;
+}
+
+#scroller li.left .character-title-image {
+	left: 255px;
+}
+
+/* left */
+#scroller li.right {
+	background: url('/wordgirl/cdn_content/characters/desktop/character-container-right.png') no-repeat;
+}
+
+#scroller li.right .description {
+	left: 40px;
+}
+
+#scroller li.right .character-image {
+	left: 318px;
+}
+
+#scroller li.right .character-title-image {
+	left: 40px;
+}
+
+.myScrollbarV {
+	pointer-events: auto !important;
+	position:absolute;
+	z-index:100;
+	width:8px;
+	bottom:7px;
+	top:2px;
+	right:1px
+}
+
+.myScrollbarV > div {
+	pointer-events: auto !important;
+	position:absolute;
+	z-index:100;
+	width:100%;
+
+	background: #00cde1; /* Old browsers */
+	background: -moz-linear-gradient(left, #00cde1 0%, #00a6b6 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#00cde1), color-stop(99%,#00a6b6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #00cde1 0%,#00a6b6 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #00cde1 0%,#00a6b6 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #00cde1 0%,#00a6b6 99%); /* IE10+ */
+	background: linear-gradient(to right, #00cde1 0%,#00a6b6 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cde1', endColorstr='#00a6b6',GradientType=1 ); /* IE6-9 */
+
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+
+	-webkit-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.5);
+
+	border: 1px solid #00cde1;
+}
+

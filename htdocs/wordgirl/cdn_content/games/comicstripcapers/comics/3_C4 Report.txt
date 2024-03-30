@@ -1,0 +1,123 @@
+3_C4.swf Movie Report
+----------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          19145          19145    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0             0                   448
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+PrintBlob                              0           374                     0
+Symbol 8                             184             0                     0
+blobBtn_mc                             0           400                   323
+text.btn                              60             0                     0
+buttons.mc                             0             0                     0
+2BR-FR-EYES-BLINK-001                  0             0                     0
+NOALPHAGOOGLES                         0             0                     0
+BEC-34R-NECK-0001                      0             0                     0
+BEC-34R-HEAD-0001                      0             0                     0
+BEC-34R-NOSE-0001                      0             0                     0
+WOR-34R-HAIR-FR-0001                   0             0                     0
+WOR-34R-HELMET-0001                    0             0                     0
+BEC-34R-EYES-0001                      0             0                     0
+BEC-34R-TALK-0001                      0             0                     0
+comic.graphic                          0             0                     0
+comic2.graphic                      4993             0                     0
+2BR-34R-EYES-001                       0             0                     0
+2BR-34R-HAIRFR-001                     0             0                     0
+2BR-34R-BRAIN-002                      0             0                     0
+2BR-34R-GOGGLES-001                    0             0                     0
+2BR-34R-EARR-001                       0             0                     0
+2BR-34R-WISKR-001                      0             0                     0
+2BR-34R-WISKL-001                      0             0                     0
+2BR-34R-NOSE-001                       0             0                     0
+2BR-PUPIL-001                          0             0                     0
+BOX-34R-TALK                           0             0                     0
+2BR-34R-EARL-001                       0             0                     0
+2BR-34R-HEAD-001                       0             0                     0
+2BR-34R-HAIRBK-001                     0             0                     0
+laser                                  0             0                     0
+101-trees6                             0             0                     0
+101-trees3                             0             0                     0
+2BR-34BR-HEAD-001                      0             0                     0
+2BR-34BR-HAIR-001                      0             0                     0
+DOC                                    0             0                     0
+Symbol 11                              0             0                     0
+Symbol 12                              0             0                     0
+Symbol 13                              0             0                     0
+Symbol 5                               0             0                     0
+Symbol 6                               0             0                     0
+Symbol 7                               0             0                     0
+Symbol 9                               0             0                     0
+Symbol 4                               0             0                     0
+window003                              0             0                     0
+buildin005                             0             0                     0
+Symbol 3                               0             0                     0
+BEC-34L-TALK-0001                      0             0                     0
+BEC-PUPIL-0001                         0             0                     0
+BEC-34L-EYES-0001                      0             0                     0
+WOR-34L-HELMET-0001                    0             0                     0
+WOR-34L-HAIR-FR-0001                   0             0                     0
+BEC-34L-NOSE-0001                      0             0                     0
+BEC-34L-HEAD-0001                      0             0                     0
+BEC-34L-NECK-0001                      0             0                     0
+WOR-34L-TORSO-0001                     0             0                     0
+BEC-34L-HAIR-BK-0001                   0             0                     0
+103-BG-trees3                          0             0                     0
+103-BG-trees5                          0             0                     0
+112-BG-TOY-building                    0             0                     0
+103-BG-BUILDING-AHOB                   0             0                     0
+112-BG-TOY-building33                  0             0                     0
+Symbol 2                               0             0                     0
+103-BG-STREETLAMP                      0             0                     0
+112-PROP-MAILBOX-0001                  0             0                     0
+101-skyscraper8                        0             0                     0
+101-skyscraper9                        0             0                     0
+101-skyscraper4                        0             0                     0
+101-skyscraper11                       0             0                     0
+101-skyscraper10                       0             0                     0
+101-skyscraper                         0             0                     0
+101-building9                          0             0                     0
+101-building8                          0             0                     0
+101-skyscraper2                        0             0                     0
+101-building4                          0             0                     0
+101-skyscraper1                        0             0                     0
+101-building1                          0             0                     0
+101-building3                          0             0                     0
+101-building2                          0             0                     0
+Symbol 1                               0             0                     0
+2BR-FR-HAIRBK-001                      0             0                     0
+2BR-FR-HEAD-001                        0             0                     0
+2BR-FR-EYES-001                        0             0                     0
+2BR-FR-NOSE-001                        0             0                     0
+2BR-FR-WISKR-001                       0             0                     0
+2BR-FR-WISKL-001                       0             0                     0
+2BR-FR-EARR-001                        0             0                     0
+2BR-FR-EARL-001                        0             0                     0
+2BR-FR-GOOGLES-001                     0             0                     0
+glow1                                  0             0                     0
+glow2                                  0             0                     0
+glows                                  0             0                     0
+2BR-FR-BRAIN-002                       0             0                     0
+2BR-FR-HAIRFR-001                      0             0                     0
+BOX-FR-GOGGLESFR-001                   0             0                     0
+BOX-FR-TALK                            0             0                     0
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+AlterEgo BB                   12020     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+
+ActionScript Bytes    Location
+------------------    --------
+               448    Scene 1:Layer 5:1
+               113    blobBtn_mc:Layer 3:1:No instance name assigned(text.btn)
+               109    blobBtn_mc:Layer 3:1:No instance name assigned(text.btn)
+               101    blobBtn_mc:PritBlob:1:printText_mc(PrintBlob)
+
+
+
+

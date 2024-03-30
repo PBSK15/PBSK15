@@ -1,0 +1,26 @@
+/* replace SVG images with PNGs for IE8 and below */
+
+/* in style.css */
+
+.avatar {
+	background: url("../i/common/bubble3_bg.png");
+	}
+
+.avatar.big {
+	background: url("../img/bubble_bg_ajngl.png");	
+}
+
+
+/* in added.css */
+
+	.nav-icon {
+		background-image: url("../i/common/bubble1_bg.png");
+	}
+	
+	.bubble2 {
+		background-image: url("../i/common/bubble2_bg.png");
+	}
+	
+	.bubble3 {
+		background-image: url("../i/common/bubble3_bg.png");
+	}

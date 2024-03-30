@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Font size="60" family="AdLib" height="83" style="Regular">
+ <Char width="19" offset="0 63" rect="1 67 0 0" code=" "/>
+ <Char width="57" offset="0 0" rect="2 4 59 64" code="A"/>
+ <Char width="59" offset="3 0" rect="62 4 56 65" code="B"/>
+ <Char width="63" offset="2 -2" rect="119 2 60 67" code="C"/>
+ <Char width="60" offset="3 1" rect="180 5 57 63" code="D"/>
+ <Char width="56" offset="2 0" rect="238 4 54 64" code="E"/>
+ <Char width="50" offset="2 -2" rect="293 2 49 66" code="F"/>
+ <Char width="62" offset="2 -2" rect="343 2 60 67" code="G"/>
+ <Char width="57" offset="2 -1" rect="404 3 55 65" code="H"/>
+ <Char width="27" offset="4 1" rect="460 5 21 63" code="I"/>
+ <Char width="46" offset="1 -2" rect="482 2 44 67" code="J"/>
+ <Char width="64" offset="3 1" rect="527 5 64 62" code="K"/>
+ <Char width="47" offset="3 0" rect="592 4 45 64" code="L"/>
+ <Char width="69" offset="2 1" rect="638 5 67 63" code="M"/>
+ <Char width="59" offset="2 1" rect="706 5 57 63" code="N"/>
+ <Char width="63" offset="2 -1" rect="764 3 61 66" code="O"/>
+ <Char width="54" offset="3 0" rect="826 4 53 64" code="P"/>
+ <Char width="61" offset="2 -1" rect="880 3 60 80" code="Q"/>
+ <Char width="58" offset="3 1" rect="941 5 57 63" code="R"/>
+ <Char width="63" offset="2 -2" rect="999 2 60 67" code="S"/>
+ <Char width="52" offset="1 -1" rect="1060 3 52 65" code="T"/>
+ <Char width="54" offset="2 0" rect="1113 4 51 65" code="U"/>
+ <Char width="52" offset="0 -1" rect="1165 3 54 66" code="V"/>
+ <Char width="82" offset="1 1" rect="1220 5 81 63" code="W"/>
+ <Char width="59" offset="0 1" rect="1302 5 62 63" code="X"/>
+ <Char width="50" offset="0 -1" rect="1365 3 51 66" code="Y"/>
+ <Char width="54" offset="2 2" rect="1417 6 53 61" code="Z"/>
+ <Char width="48" offset="2 18" rect="1471 22 46 46" code="a"/>
+ <Char width="50" offset="3 -2" rect="1518 2 48 67" code="b"/>
+ <Char width="51" offset="2 17" rect="1567 21 49 48" code="c"/>
+ <Char width="52" offset="1 0" rect="1617 4 50 64" code="d"/>
+ <Char width="50" offset="1 17" rect="1668 21 48 48" code="e"/>
+ <Char width="41" offset="2 -3" rect="1717 1 41 68" code="f"/>
+ <Char width="50" offset="1 18" rect="1759 22 48 65" code="g"/>
+ <Char width="43" offset="2 0" rect="1808 4 42 64" code="h"/>
+ <Char width="26" offset="5 0" rect="1851 4 19 64" code="i"/>
+ <Char width="28" offset="1 0" rect="1871 4 25 83" code="j"/>
+ <Char width="49" offset="2 0" rect="1897 4 50 65" code="k"/>
+ <Char width="26" offset="5 1" rect="1948 5 19 63" code="l"/>
+ <Char width="79" offset="2 18" rect="1968 22 76 46" code="m"/>
+ <Char width="47" offset="2 19" rect="2045 23 45 45" code="n"/>
+ <Char width="49" offset="2 17" rect="2091 21 48 48" code="o"/>
+ <Char width="50" offset="3 18" rect="2140 22 48 64" code="p"/>
+ <Char width="52" offset="1 18" rect="2189 22 50 66" code="q"/>
+ <Char width="40" offset="2 20" rect="2240 24 40 43" code="r"/>
+ <Char width="44" offset="2 18" rect="2281 22 43 47" code="s"/>
+ <Char width="37" offset="1 5" rect="2325 9 38 59" code="t"/>
+ <Char width="48" offset="1 19" rect="2364 23 47 45" code="u"/>
+ <Char width="42" offset="0 20" rect="2412 24 44 44" code="v"/>
+ <Char width="68" offset="1 20" rect="2457 24 68 44" code="w"/>
+ <Char width="45" offset="-1 19" rect="2526 23 49 45" code="x"/>
+ <Char width="44" offset="0 18" rect="2576 22 46 65" code="y"/>
+ <Char width="44" offset="2 19" rect="2623 23 43 45" code="z"/>
+</Font>

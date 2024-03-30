@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<!-- #bbinclude "head.incl" #pagetitle#="Games"-->
+<title>{{pageTitle|raw}} . PLUM LANDING | PBS KIDS</title>
+<!-- hacky fix -->
+<link rel="stylesheet" type="text/css" href="/plumlanding/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/plumlanding/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/plumlanding/css/added.css" />
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="/plumlanding/css/ie8.css" />
+<![endif]--><script type="text/javascript" src="/plumlanding/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/plumlanding/js/plumlogin.js"></script>
+<!-- end bbinclude -->
+{% block specialHead %}{% endblock %}
+</head>
+
+{{bodyOpeningTag|raw}}
+<!-- #bbinclude "headband.incl" -->
+{% if headbandId == "header" %}
+    {% block specialHeadband %}{% endblock %}
+{% else %}
+<div id="{{headbandId|raw}}">
+                
+{% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+  
+
+</div>
+{% endif %}
+<!-- end bbinclude -->
+{% block mainContent %}{% endblock %}
+</body>
+{% block specialBody %}{% endblock %}
+</html>

@@ -1,0 +1,78 @@
+{
+  "urls": [
+    "sfx.ogg",
+    "sfx.mp3"
+  ],
+  "audioSprite": [
+    {
+      "id": "sfx_bounceback",
+      "startTime": 0,
+      "duration": 628.0045351473923
+    },
+    {
+      "id": "sfx_cc_explode1",
+      "startTime": 2000,
+      "duration": 2482.6984126984134
+    },
+    {
+      "id": "sfx_cc_explode2",
+      "startTime": 6000,
+      "duration": 4608.979591836735
+    },
+    {
+      "id": "sfx_click",
+      "startTime": 12000,
+      "duration": 79.43310657596392
+    },
+    {
+      "id": "sfx_endlevel",
+      "startTime": 14000,
+      "duration": 4389.637188208617
+    },
+    {
+      "id": "sfx_fw_chimes1",
+      "startTime": 20000,
+      "duration": 3423.106575963718
+    },
+    {
+      "id": "sfx_fw_chimes2",
+      "startTime": 25000,
+      "duration": 2665.5555555555566
+    },
+    {
+      "id": "sfx_fw_chimes3",
+      "startTime": 29000,
+      "duration": 4076.1678004535183
+    },
+    {
+      "id": "sfx_jump",
+      "startTime": 35000,
+      "duration": 240.99773242630107
+    },
+    {
+      "id": "sfx_landing",
+      "startTime": 37000,
+      "duration": 549.6371882086137
+    },
+    {
+      "id": "sfx_riddle_ca",
+      "startTime": 39000,
+      "duration": 1281.0657596371868
+    },
+    {
+      "id": "sfx_thunder1",
+      "startTime": 42000,
+      "duration": 6144.96598639456
+    },
+    {
+      "id": "sfx_thunder2",
+      "startTime": 50000,
+      "duration": 7368.979591836734
+    },
+    {
+      "id": "sfx_thunder3",
+      "startTime": 59000,
+      "duration": 10680.997732426305
+    }
+  ]
+}

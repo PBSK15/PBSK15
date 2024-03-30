@@ -1,0 +1,24 @@
+{
+"images": ["goop_barrel.png"],
+"frames": [
+
+    [2, 44, 113, 39], 
+    [24, 117, 86, 29], 
+    [2, 85, 20, 278], 
+    [24, 85, 86, 30], 
+    [2, 2, 113, 40], 
+    [24, 148, 25, 38]
+],
+"animations": {
+        "lowerRing_top":[0], 
+        "upperRing_top":[1], 
+        "barrel":[2], 
+        "upperRing_bot":[3], 
+        "lowerRing_bot":[4], 
+        "endCap":[5]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:8dd442864e0f7bff4eb6af006cca4ad6:20e8536dd833892bb8ef7991c6ac1822:314145f15bbcf31cf450553aa153532c$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

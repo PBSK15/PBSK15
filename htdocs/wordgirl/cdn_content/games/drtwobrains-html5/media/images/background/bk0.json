@@ -1,0 +1,21 @@
+{
+"images": ["kb0.png"],
+"frames": [
+
+    [2, 604, 960, 380], 
+    [2, 2, 970, 600], 
+    [2, 986, 960, 174], 
+    [2, 1162, 956, 303]
+],
+"animations": {
+    
+        "backwall":[0], 
+        "bg":[1], 
+        "foregroundboxes":[2], 
+        "midgroundboxes":[3]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:a1cbd270bb3aba88a14b9b0942da747b:b75795fd6400447c1dfdb59f739d0eea:6e710c5c2e3ae6b6dfca9cdf507bf8ab$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

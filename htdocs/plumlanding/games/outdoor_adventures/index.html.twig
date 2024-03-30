@@ -1,0 +1,177 @@
+{% extends 'plumlanding/includes/plumLandingPage.html.twig' %}
+{% set pageTitle = 'Outdoor Adventures' %}
+
+
+{% block specialHead %}<style type="text/css">
+
+
+
+#adventureinfo {
+		width:100%;
+		height:459px;
+		background-repeat:no-repeat;
+		background-image:url('i/outdoor_adventures_banner.jpg');
+}
+
+.badgeicon {
+		vertical-align:bottom;
+}
+
+#adventureinfo h5 {
+	margin-left:30px;
+	margin-top:22%;
+	margin-bottom:0;
+	font-size:1.75em;
+}
+
+#adventureinfo .user-points-main {
+	margin-left:30px;
+	margin-top:0;
+}
+</style><script type="text/javascript">
+	var miss={"missions": [{"submission": {"user_id": 164428, "name": "New Earthling", "image": "/plumlanding/media/submissions/15/01/29/New_Earthling_311915589_plant_inspector_20150130_0101.png", "additional_data": "Went with: Mom,  Sibling,  Teacher,  Dad,  Friend\r\nWhere found: Indoors\r\nBest plant part: Flowers\r\nHealth level: Very Very (100%)\r\n", "avatar": "walkingstick", "id": 252549, "description": "###### Here's What We Found\r\nIt had very,very,very small leaves\r\n\r\n###### How This Plant Lives\r\nWater sun and love"}, "title": "Plant Inspector", "badge": {"q1": "What did you discover looking closely at the plant? ", "q2a": "How This Plant Lives", "q2": "What does the plant need to survive? \r\n", "q1a": "Here's What We Found", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "Where does the plant live?", "options": "Indoors;Outdoors", "printquestion": "Where found"}, {"type": "R", "question": "What do you like best about the plant?", "options": "Flowers;Leaves;Seeds;Shape;Other", "printquestion": "Best plant part"}, {"type": "S", "question": "How healthy is it?", "options": "Not;Very", "printquestion": "Health level"}], "level": "Easy", "t2": "Be a Plant Inspector", "id": 1}, "web_text": "Look closely at a plant that lives outside or inside your home. ", "filename": "plant_inspector", "tag": "Outdoor Adventure", "web_text2": "Draw your plant and label what was interesting about it.", "type": "O", "id": 89}, {"submission": {"user_id": 164462, "name": "New Earthling", "image": "/plumlanding/media/submissions/15/01/29/New_Earthling_883514135_animal_inspector_20150130_0156.png", "additional_data": "Went with: Mom\r\nNumber of legs: Four\r\nEats: Both\r\nFear factor: Very Not (0%)\r\n", "avatar": "walkingstick", "id": 252634, "description": "###### Here's What We Found\r\nfood, water, shelter, love and care\r\n\r\n###### I'd Like to Know More!\r\nnothing"}, "title": "Animal Inspector", "badge": {"q1": "Tell Plum about the animal you found. What do you think it needs to survive?", "q2a": "I'd Like to Know More!", "q2": "What more do you want to know about this animal?", "q1a": "Here's What We Found", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "How many legs does the animal have?", "options": "None;Two;Four;More than Four", "printquestion": "Number of legs"}, {"type": "R", "question": "What does the animal eat?", "options": "Other animals;Plants;Both", "printquestion": "Eats"}, {"type": "S", "question": "How scary is it?", "options": "Not;Very", "printquestion": "Fear factor"}], "level": "Easy", "t2": "Watch for Wildlife or Pets!", "id": 2}, "web_text": "Look for an animal in your neighborhood. It could be a bird, an insect, or even your pet.", "filename": "animal_inspector", "tag": "Outdoor Adventure", "web_text2": "Draw the animal and label what was interesting about it.", "type": "O", "id": 90}, {"submission": {"user_id": 122416, "name": "honeybunny336", "image": "/plumlanding/media/submissions/15/01/29/honeybunny336_506413476_clouds_or_shadows_20150130_0112.png", "additional_data": "Went with:  Friend\r\nWeather: Sunny\r\nTime of day: Evening\r\nHeat: Not (37%)\r\n", "avatar": "bilby", "id": 252561, "description": "###### Here's What We Noticed\r\nthe clouds looked very very bumpy and the temperature was nice and warm.\r\n\r\n###### Here's What I'd Like to Know\r\nhow do they make shapes and turn into different sizes"}, "title": "Clouds or Shadows", "badge": {"q1": "What did you notice about the clouds or shadows you observed and the weather, time, and temperature?", "q2a": "Here's What I'd Like to Know", "q2": "Can you think of some questions that scientists might ask about clouds and the weather?", "q1a": "Here's What We Noticed", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "Weather", "options": "Sunny; Rainy; Neither", "printquestion": "Weather"}, {"type": "R", "question": "When did you look?", "options": "Morning;Afternoon;Evening;Night", "printquestion": "Time of day"}, {"type": "S", "question": "How hot was it?", "options": "Not;Very", "printquestion": "Heat"}], "level": "Easy", "t2": "Find Clouds or Shadows", "id": 3}, "web_text": "Look up and around to see all the cool clouds or shadows you can find.", "filename": "clouds_or_shadows", "tag": "Outdoor Adventure", "web_text2": "Draw the clouds or shadows you found.", "type": "O", "id": 91}, {"submission": {"user_id": 148223, "name": "Madison27927", "image": "/plumlanding/media/submissions/15/01/30/Madison27927_290921337_favorite_place_in_nature_20150130_1256.png", "additional_data": "Went with: Mom\r\nTime of day:  Afternoon\r\nWeather: Sunny\r\nHeat: Very Very (91%)\r\n", "avatar": "sunbird", "id": 252723, "description": "###### Here's What We Found\r\nIn  my park  there  are  lots  of  butterflys"}, "title": "Favorite Place in Nature", "badge": {"q1": "What animals and plants live in your favorite place in nature?", "q2a": "Here's What I Thought ", "q2": "What thoughts or feelings do you notice as you sit quietly in your favorite place?", "q1a": "Here's What We Found", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "When did you visit?", "options": "Morning; Afternoon; Evening; Night", "printquestion": "Time of day"}, {"type": "R", "question": "Weather", "options": "Sunny; Rainy; Neither", "printquestion": "Weather"}, {"type": "S", "question": "How hot was it?", "options": "Not;Very", "printquestion": "Heat"}], "level": "Easy", "t2": "Draw Your Favorite Place in Nature", "id": 4}, "web_text": "Spend some time in your favorite place outdoors. If you don't have one, choose one! ", "filename": "favorite_place_in_nature", "tag": "Outdoor Adventure", "web_text2": "Draw your favorite place in nature.", "type": "O", "id": 92}, {"submission": {"user_id": 155126, "name": "New Earthling", "image": "/plumlanding/media/submissions/15/01/06/New_Earthling_47589706_tree_inspector_20150106_1323.png", "avatar": "mangrovewarbler", "id": 240085, "description": "###### In My Tree\r\nbees panda squirrel apples, life changes with season changes\r\n\r\n###### What Trees Can Tell Us\r\nnature is very beautiful"}, "title": "Tree Inspector", "badge": {"q1": "What kinds of living things use it or live in the tree? Does life here change when seasons change?", "q2a": "What Trees Can Tell Us", "q2": "What did you learn about nature by looking closely at a tree? ", "q1a": "In My Tree", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "What kinds of animals did you notice most?", "options": "Birds;Insects;Mammals;Other", "printquestion": "Most animals"}, {"type": "R", "question": "When did you visit?", "options": "Morning; Afternoon; Evening; Night", "printquestion": "Time of day"}, {"type": "S", "question": "How interesting was it?", "options": "Not;Very", "printquestion": "Interest"}], "level": "Medium", "t2": "See Who Lives on a Tree", "id": 5}, "web_text": "How many different living things use the trees where you live? Pick a tree and spend a few minutes observing it closely. ", "filename": "tree_inspector", "tag": "Outdoor Adventure", "web_text2": "Draw the tree and label all the different living things on it.", "type": "O", "id": 93}, {"submission": {"user_id": 151203, "name": "KYlovely876", "image": "/plumlanding/media/submissions/15/01/05/KYlovely876_183289201_listen_up_20150105_1742.png", "additional_data": "Went with:  Dad,  Other\r\nTime of day:  Afternoon\r\nWeather: Sunny\r\nInterest: Very (61%)\r\n", "avatar": "xanthorialichen", "id": 239661, "description": "###### What We Heard\r\nbuzz.........buzz.........buzz\r\n\r\n###### How the Sounds Change   \r\nI don't know"}, "title": "Listen Up", "badge": {"q1": "How are the animals making these sounds?", "q2a": "How the Sounds Change   ", "q2": "How are the sounds of nature different at different times of day? In different weather?", "q1a": "What We Heard", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "When did you visit?", "options": "Morning; Afternoon; Evening; Night", "printquestion": "Time of day"}, {"type": "R", "question": "Weather", "options": "Sunny; Rainy; Neither", "printquestion": "Weather"}, {"type": "S", "question": "How interesting was it?", "options": "Not;Very", "printquestion": "Interest"}], "level": "Medium", "t2": "Listen for Birds and Insects", "id": 6}, "web_text": "You can't always see animals, but you can sometimes hear them! Go outside and listen for animal sounds.", "filename": "listen_up", "tag": "Outdoor Adventure", "web_text2": "Draw what you heard outside and who you think is making the noise.", "type": "O", "id": 94}, {"submission": {"user_id": 164508, "name": "New Earthling", "image": "/plumlanding/media/submissions/15/01/30/New_Earthling_407383448_trash_detective_20150130_1110.png", "additional_data": "Went with:  Sibling\r\nMost trash: Plastic\r\nHow I felt: Sad\r\nYuckiness: Very Not (0%)\r\n", "avatar": "bilby", "id": 252717, "description": "###### Trash Types\r\nplastic bottles.plastic bottles is very hard to recycle\r\n\r\n###### Trash Places\r\nyes .that we make our home mother earth dirty by throwing things "}, "title": "Trash Detective", "badge": {"q1": "What is the most common type of trash you found? ", "q2a": "Trash Places", "q2": "Were any places more likely to have trash than others? What does that tell you about that place? ", "q1a": "Trash Types", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "C", "question": "What trash did you see?", "options": "Glass;Plastic;Paper;Other", "printquestion": "Most trash"}, {"type": "R", "question": "How did you feel?", "options": "Happy;Sad;Angry;Other", "printquestion": "How I felt"}, {"type": "S", "question": "Was it yucky?", "options": "Not;Very", "printquestion": "Yuckiness"}], "level": "Medium", "t2": "Be a Trash Detective", "id": 7}, "web_text": "Have you seen trash in your neighborhood where it doesn't belong? Where does it come from? Where does it end up? ", "filename": "trash_detective", "tag": "Outdoor Adventure", "web_text2": "Draw a map showing where you found trash in your neighborhood.", "type": "O", "id": 95}, {"submission": {"user_id": 6067, "name": "paris9955", "image": "/plumlanding/media/submissions/15/01/05/paris9955_300929664_sniffing_safari_20150105_1430.png", "additional_data": "Went with:  Other\r\nTime of day: Morning\r\nWeather: Sunny\r\nHeat: Very Very (100%)\r\n", "avatar": "cvirescensorchid", "id": 239602, "description": "###### Outdoor Smells\r\nFlowers \r\n\r\n###### Why Things Smell!\r\nI don't know"}, "title": "Sniffing Safari", "badge": {"q1": "What did you smell? What was making that smell?", "q2a": "Why Things Smell!", "q2": "How are smells different at different times of day? In different weather? ", "q1a": "Outdoor Smells", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "When did you visit?", "options": "Morning; Afternoon; Evening; Night", "printquestion": "Time of day"}, {"type": "R", "question": "Weather", "options": "Sunny; Rainy; Neither", "printquestion": "Weather"}, {"type": "S", "question": "How hot was it?", "options": "Not;Very", "printquestion": "Heat"}], "level": "Medium", "t2": "Go on a Sniffing Safari", "id": 8}, "web_text": "What does it smell like when you go outside? Take a walk through your neighborhood and sniff!", "filename": "sniffing_safari", "tag": "Outdoor Adventure", "web_text2": "Draw what you smelled outside and who or what you think makes the smell!", "type": "O", "id": 96}, {"submission": {"user_id": 21651, "name": "creation989", "image": "/plumlanding/media/submissions/15/01/05/creation989_415093190_map_animal_habitats_20150106_0049.png", "additional_data": "Went with: Mom,  Friend,  Other\r\nTime of day:  Afternoon\r\nWeather: Sunny\r\nHeat: Very (65%)\r\n", "avatar": "birdwingbutterfly", "id": 239936, "description": "###### Animal Habitats\r\nTwo. The park and woods.\r\n\r\n###### How These Animals Live\r\nThe squirrel stores food for the winter and lives in a tree.But the bunny doesn't  store food and doesn't live in a tree."}, "title": "Map Animal Habitats", "badge": {"q1": "What animal habitats did you find?", "q2a": "How These Animals Live", "q2": "How do the animals you saw find food, water, and shelter?", "q1a": "Animal Habitats", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "When did you visit?", "options": "Morning; Afternoon; Evening; Night", "printquestion": "Time of day"}, {"type": "R", "question": "Weather", "options": "Sunny; Rainy; Neither", "printquestion": "Weather"}, {"type": "S", "question": "How hot was it?", "options": "Not;Very", "printquestion": "Heat"}], "level": "Hard", "t2": "Map Animal Habitats Where You Live", "id": 9}, "web_text": "Find out where animals live in your neighborhood. They might live in playing fields, parking lots, backyards, gardens, parks, or the woods.", "filename": "map_animal_habitats", "tag": "Outdoor Adventure", "web_text2": "Draw a map of the different animal habitats in your neighborhood.", "type": "O", "id": 97}, {"submission": {"user_id": 161203, "name": "Designerboys", "image": "/plumlanding/media/submissions/15/01/29/Designerboys_262195581_count_plants_and_animals_20150130_0053.png", "additional_data": "Went with:  Friend\r\nNoticed most: Plants\r\nWeather: Sunny\r\nThings seen: Few (33%)\r\n", "avatar": "mourningcloak", "id": 252540, "description": "###### Here's What We Found\r\nI saw purple flowers and spiders.\r\n\r\n###### My Square Thoughts\r\nAn even amount because it was in the garden and we always water it. So it always gets soggy there.\r\n"}, "title": "Count Plants and Animals", "badge": {"q1": "What plants and animals did you find?", "q2a": "My Square Thoughts", "q2": "Did you find a lot or only a few different kinds of plants and animals? Why do you think that is?", "q1a": "Here's What We Found", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "What did you notice most?", "options": "Insects;Plants;Dirt", "printquestion": "Noticed most"}, {"type": "R", "question": "Weather", "options": "Sunny; Rainy; Neither", "printquestion": "Weather"}, {"type": "S", "question": "How many things did you see?", "options": "Few;Many", "printquestion": "Things seen"}], "level": "Hard", "t2": "Count Different Plants and Animals", "id": 10}, "web_text": "Mark off a square outside in the grass or dirt, just a few feet across. Look at it really closely and note how many different kinds of plants and animals you find there.", "filename": "count_plants_and_animals", "tag": "Outdoor Adventure", "web_text2": "Draw what you found in your square.", "type": "O", "id": 98}, {"submission": {"user_id": 6520, "name": "feza882", "image": "/plumlanding/media/submissions/15/01/06/feza882_676670268_nature_walk_or_hike_20150106_1910.png", "additional_data": "Went with:  Friend\r\nTime of day:  Afternoon\r\nWeather: Sunny\r\nHeat: Very Very (100%)\r\n", "avatar": "mangrovewarbler", "id": 240133, "description": "###### Where We Went\r\nnature park. yes!\r\n\r\n###### What We Noticed\r\nno animal will bite you, and the plants where big \r\n"}, "title": "Nature Walk or Hike", "badge": {"q1": "Where did you go? Was it fun?", "q2a": "What We Noticed", "q2": "What did you notice about the animals and plants you saw?", "q1a": "Where We Went", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "When did you visit?", "options": "Morning; Afternoon; Evening; Night", "printquestion": "Time of day"}, {"type": "R", "question": "Weather", "options": "Sunny; Rainy; Neither", "printquestion": "Weather"}, {"type": "S", "question": "How hot was it?", "options": "Not;Very", "printquestion": "Heat"}], "level": "Hard", "t2": "Take a Walk or a Hike", "id": 11}, "web_text": "Go for a nature walk or a hike and collect data on the plants, animals, and weather you find. If your hike takes you to higher or lower ground, note how what you see changes as you go.", "filename": "nature_walk_or_hike", "tag": "Outdoor Adventure", "web_text2": "Draw yourself on a nature walk or hiking with your family.", "type": "O", "id": 99}, {"submission": {"user_id": 23360, "name": "carmen190", "image": "/plumlanding/media/submissions/15/01/06/carmen190_981399306_water_watcher_20150106_1718.png", "additional_data": "Went with:  Friend,  Other\r\nTime of day:  Afternoon\r\nWeather: Sunny\r\nThings seen: Very Few (0%)\r\n", "avatar": "barredowl", "id": 240119, "description": "###### What We Saw\r\nWe saw a slug on a stick floating around I think it needs wet places to survive.We saw a duck but we thought it was taking a bat\r\n\r\n###### What We Didn't See\r\nWe thing the water was avaporating plus the water looked like it had germs in it."}, "title": "Water Watcher", "badge": {"q1": "Tell Plum about the living things you saw in and around the water. How do they survive there?", "q2a": "What We Didn't See", "q2": "Do you think there are living things that you can't see in or around the water? What might they be? ", "q1a": "What We Saw", "qw": [{"type": "C", "question": "Who went with you?", "options": "Mom; Dad; Sibling; Friend; Teacher; Other", "printquestion": "Went with"}, {"type": "R", "question": "When did you visit?", "options": "Morning; Afternoon; Evening; Night", "printquestion": "Time of day"}, {"type": "R", "question": "Weather", "options": "Sunny; Rainy; Neither", "printquestion": "Weather"}, {"type": "S", "question": "How many things did you see?", "options": "Few;Many", "printquestion": "Things seen"}], "level": "Hard", "t2": "Water Watcher", "id": 12}, "web_text": "Visit a nearby lake, river, or stream. See how many different types of plants and animals live there.", "filename": "water_watcher", "tag": "Outdoor Adventure", "web_text2": "Draw the different types of living things you saw in and around the water.", "type": "O", "id": 100}]}
+</script>{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="plumpage" class="tealbg">
+ <div id="header"><!-- #bbinclude "navbar.incl" -->
+  <div id="navbar" class="boxedin">
+   <a name="navbar"></a>
+   <div class="row-group">
+    <div class="col-12"><a href="http://pbskids.org/" id="pbslogo"><img src="/plumlanding/i/common/pbskids_logo.svg" alt="PBS Kids"></a> <a href="/plumlanding/index.html" id="plumlogo"><img class="image-fluid" src="/plumlanding/i/common/plum_logo.svg" alt="Plum Landing"></a>
+     <ul id="nav">
+      <li class="gnav"><a href="/plumlanding/games/index.html" class="gnav-button selected">
+        <div class="nav-icon"><img src="/plumlanding/i/common/game_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble1_border.svg" alt="">
+        </div> <span class="gnav-text">Games</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/video/index.html" class="gnav-button ">
+        <div class="nav-icon bubble2"><img src="/plumlanding/i/common/video_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble2_border.svg" alt="">
+        </div> <span class="gnav-text">Video</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/ship/index.html" class="gnav-button ">
+        <div class="nav-icon bubble3"><img src="/plumlanding/i/common/ship_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble3_border.svg" alt="">
+        </div> <span class="gnav-text">The Ship</span> </a></li>
+      <li class="gnav"><a href="/plumlanding/pictures/index.html" class="gnav-button ">
+        <div class="nav-icon"><img src="/plumlanding/i/common/pictures_icon.svg" alt="">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble1_border.svg" alt="">
+        </div> <span class="gnav-text">Pictures</span> </a></li>
+      <li class="gnav" id="loginnav"><a id="mystuff" class="gnav-button" data-action="pbskids-login-sign-in">
+        <div id="myicon" class="nav-icon bubble3"><img src="/plumlanding/i/common/mystuff_icon.svg" alt="My Stuff">
+        </div>
+        <div class="bubble-border"><img src="/plumlanding/i/common/bubble3_border.svg" alt="">
+        </div> <span class="gnav-text">Sign In</span></a></li>
+     </ul>
+     <div id="pe"><a href="/plumlanding/parents/index.html" class="btn-alt btn-small">Parents</a> <a href="/plumlanding/educators/index.html" class="btn-alt btn-small">Educators</a>
+     </div>
+    </div>
+   </div>
+  </div> <!-- end bbinclude -->
+ </div> <!-- end header -->
+ <div id="middle">
+  <hr class="fadeout">
+  <div id="content" class="boxedin">
+   <div class="headless card margin white">
+    <div id="adventureinfo">
+     <h5 class="emphasis-light">Explore outdoors with your family,<br>share what you find, and earn cool badges!</h5><br>
+     <div class="user-points-main">
+      <h6>Badges earned<br>worldwide:</h6>
+      <h1 id="badgenumber">3644</h1>
+     </div>
+    </div>
+    <div class="row-group headless">
+     <div class="col-12">
+      <h4><img class="badgeicon" src="i/badging_index_icon_easy.png" alt="" width="30" height="34"> EASY</h4>
+     </div>
+    </div>
+    <div class="row-group multisize">
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=89"> <img class="image-fluid" src="../../pictures/i/plant_inspector.jpg"> <span class="tn-text-in">Be a Plant Inspector</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=90"> <img class="image-fluid" src="../../pictures/i/animal_inspector.jpg"> <span class="tn-text-in">Watch for Wildlife or Pets!</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=91"> <img class="image-fluid" src="../../pictures/i/clouds_or_shadows.jpg"> <span class="tn-text-in">Find Clouds or Shadows</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=92"> <img class="image-fluid" src="../../pictures/i/favorite_place_in_nature.jpg"> <span class="tn-text-in">Draw Your Favorite Place in Nature</span> </a>
+     </div>
+    </div>
+    <div class="row-group ">
+     <div class="col-12">
+      <h4><img class="badgeicon" src="i/badging_index_icon_medium.png" alt="" width="30" height="34"> MEDIUM</h4>
+     </div>
+    </div>
+    <div class="row-group multisize">
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=93"> <img class="image-fluid" src="../../pictures/i/tree_inspector.jpg"> <span class="tn-text-in">See Who Lives on a Tree</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=94"> <img class="image-fluid" src="../../pictures/i/listen_up.jpg"> <span class="tn-text-in">Listen for Birds and Insects</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=95"> <img class="image-fluid" src="../../pictures/i/trash_detective.jpg"> <span class="tn-text-in">Be a Trash Detective</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=96"> <img class="image-fluid" src="../../pictures/i/sniffing_safari.jpg"> <span class="tn-text-in">Go on a Sniffing Safari</span> </a>
+     </div>
+    </div>
+    <div class="row-group ">
+     <div class="col-12">
+      <h4><img class="badgeicon" src="i/badging_index_icon_hard.png" alt="" width="30" height="34"> HARD</h4>
+     </div>
+    </div>
+    <div class="row-group multisize">
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=97"> <img class="image-fluid" src="../../pictures/i/map_animal_habitats.jpg"> <span class="tn-text-in">Map Animal Habitats Where You Live</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=98"> <img class="image-fluid" src="../../pictures/i/count_plants_and_animals.jpg"> <span class="tn-text-in">Count Different Plants and Animals</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=99"> <img class="image-fluid" src="../../pictures/i/nature_walk_or_hike.jpg"> <span class="tn-text-in">Take a Walk or a Hike</span> </a>
+     </div>
+     <div class="col-3"><a class="thumb-purpleunder" href="adventure.html?m=100"> <img class="image-fluid" src="../../pictures/i/water_watcher.jpg"> <span class="tn-text-in">Water Watcher</span> </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <hr class="fadefooter">
+ <div id="footer"><!-- #bbinclude "footer.incl" #nojq#="1" -->
+  <div class="boxedin">
+   <div class="row-group">
+    <div class="col-12">
+     <div>
+      <ul id="footernav">
+       <li><a href="/plumlanding/index.html">Home</a></li>
+       <li><a href="/plumlanding/games/index.html">Games</a></li>
+       <li><a href="/plumlanding/video/index.html">Video</a></li>
+       <li><a href="/plumlanding/ship/index.html">The Ship</a></li>
+       <li><a href="/plumlanding/pictures/index.html">Pictures</a></li>
+       <li><a href="/plumlanding/mystuff/index.html">My Stuff</a></li>
+       <li><a href="/plumlanding/parents/index.html">Parents</a></li>
+       <li><a href="/plumlanding/educators/index.html">Educators</a></li>
+       <li><a href="/plumlanding/about/index.html">About</a></li>
+       <li><a href="/plumlanding/about/sitemap.html">Site Map</a></li>
+       <li><a href="/plumlanding/about/contact.html">Contact Us</a></li>
+       <li><a href="http://pbskids.org/privacy/">Privacy Policy</a></li>
+      </ul>
+     </div>
+     <div class="col-12"><a href="/plumlanding/about/copyright.html" class="fineprint">© 2014 WGBH Educational Foundation</a>
+     </div>
+    </div>
+   </div>
+  </div> <!-- end bbinclude -->
+ </div>
+</div>{% endblock %}
+
+
+
+
+{% block specialBody %}<script type="text/javascript">
+		$(document).ready(function() {
+			var ff=39250;
+			var bn=$("#badgenumber");
+			var tp=parseInt(bn.html()) || 0;
+			tp+=ff;
+			bn.html(tp);
+		});
+	</script>{% endblock %}
+

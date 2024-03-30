@@ -1,0 +1,25 @@
+{
+"images": ["barrelparts.png"],
+"frames": [
+
+    [28, 106, 55, 26], 
+    [28, 75, 55, 29], 
+    [28, 2, 69, 35], 
+    [28, 39, 69, 34], 
+    [28, 134, 23, 22], 
+    [2, 2, 24, 180]
+],
+"animations": {
+    
+        "ring1_bot":[0], 
+        "ring1_top":[1], 
+        "ring2_top":[2], 
+        "ring2_bot":[3], 
+        "ball":[4], 
+        "barrel":[5]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:bc6105c7140675a4db3c6f0d1d2ed264:08dfec374b55c024051e909fd9ce942e:2955c7b6335b30160ad7f1355781a2a4$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

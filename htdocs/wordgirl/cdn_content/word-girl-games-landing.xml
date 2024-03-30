@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+
+	<!--
+	<game 	position="" 	REQUIRED - Position index on landing page grid. Numbers 1 through total number of spaces.
+			imageURL="/" 	REQUIRED - Image url to be loaded
+			soundURL="" 	OPTIONAL - This value is passed to the shell .swf, which play the sound given. If no value is provided, no sound will play.
+			id="" 			OPTIONAL BUT SUGGESTED - This value is passed to the shell .swf, which decides which url corresponds with the ID.
+			link="" 		OPTIONAL - This value can be used to overwrite or substitute the id value, which will bypass the id being sent to the shell .swf and calls a navigateToURL in the games .swf
+			linkWindow="" 	OPTIONAL - Target window for the link value. Only works with link navigateToURL. If not provided, _self is default.
+	 />
+	-->
+	
+	<game 	position="1" 
+			id="" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/wordgirl_face_off.jpg"
+			soundURL="site_audio/games_landing/wordgirlfaceoff.mp3" />
+			
+	<game 	position="2" 
+			id="" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/dr_two_brains_lair.jpg"
+			soundURL="site_audio/games_landing/drtwobrainslair.mp3" />
+			
+	<game 	position="3" 
+			id="powerwords" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/power_words.jpg"
+			soundURL="site_audio/games_landing/powerwords.mp3" />
+			
+	<game	position="4" 
+			id="robotworkshop" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/robot_workshop.jpg" 
+			soundURL="site_audio/games_landing/robotworkshop.mp3" />
+			
+	<game 	position="5" 
+			id="chuckgame" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/chucks_extreme_crusher.jpg" 
+			soundURL="site_audio/games_landing/chuckgame.mp3" />
+			
+	<game 	position="6" 
+			id="buildalair" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/build_a_lair.jpg"
+			soundURL="site_audio/games_landing/buildalair.mp3" />
+			
+	<game 	position="7" 
+			id="prettyprincessgame" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/pretty_princess.png" 
+			soundURL="site_audio/games_landing/sparkletopia.mp3"
+			backgroundScale="0.85"
+			backgroundX="177"
+			backgroundY="145"
+			backgroundLinesColor="ff00ff"
+			backgroundColor1="fbc5ea"
+			backgroundColor2="df6fbb" />
+			
+	<game 	position="8" 
+			id="favoriteword" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/whats_your_favorite_word.jpg" 
+			soundURL="site_audio/games_landing/favoriteword.mp3" />
+			
+	<game 	position="9" 
+			link="https://pbskids.org/go/studio/characters/" 
+			linkWindow="_self" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/build_a_character.jpg"
+			soundURL="site_audio/games_landing/buildacharacter.mp3" />
+			
+	<game 	position="10" 
+			id="mazemania" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/maze_mania.jpg"
+			soundURL="site_audio/games_landing/mazemania.mp3" />
+			
+	<game 	position="11" 
+			id="comicstripcapers"
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/comic_strip_capers.jpg" 
+			soundURL="site_audio/games_landing/comicstripcapers.mp3" />
+			
+	<game 	position="12" 
+			id="freezeframe" 
+			imageURL="/enablecdn/wordgirl/cdn_content/images/games/huggy_faces_freeze_frame.jpg" 
+			soundURL="site_audio/games_landing/freezeframe.mp3" />
+			
+	<game 	position="13" 
+			id="comicbook" imageURL="/enablecdn/wordgirl/cdn_content/images/games/comic_book.jpg"
+			soundURL="site_audio/games_landing/comicbook.mp3" />
+			
+	<game 	position="14" 
+			id="huggydance" imageURL="/enablecdn/wordgirl/cdn_content/images/games/huggy_dance.jpg"
+			soundURL="site_audio/games_landing/huggydance.mp3" />
+</games>

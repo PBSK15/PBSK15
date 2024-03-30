@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Seymour Smooth]]></title>
+	<description><![CDATA[Seymour is a slick con artist with his own TV studio. He'’s the city'’s latest villain and the ultimate game show host. His shows include, “Answer All My Questions and Win Stuff!”, “Wishful Thinking” and “Win a Shiny New Car.” With a zing and a smile his teeth can blind you while he gets away. A quick flick of his hair and you’'ll be covered in game show host strength hair gel.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_seymour.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/seymour.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|seymour_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_seymour.png" title="Coloring Page"/>
+		<activity id="printables|seymour_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

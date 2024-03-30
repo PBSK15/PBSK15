@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CheeseRound>
+
+	<feedback>
+	
+		<positive>audio/thatsit.mp3</positive>
+		<positive>audio/2yougotit.mp3</positive>
+		<positive>audio/looksdelicious.mp3</positive>
+		<positive>audio/ideatthat.mp3</positive>
+		<positive>audio/mmmm.mp3</positive>
+		<positive>audio/heyhey.mp3</positive>
+		<positive>audio/goodshot.mp3</positive>
+		<positive>audio/thatwasit.mp3</positive>
+		<positive>audio/goodaim.mp3</positive>
+		<positive>audio/2thatsright.mp3</positive>
+		
+		<negative>audio/thatsnotit.mp3</negative>
+		
+	</feedback>
+	
+	<replay>audio/backtocheese.mp3</replay>
+	<replay>audio/aimfastagain.mp3</replay>
+	<replay>audio/procheeseray.mp3</replay>
+	
+	<prefixes>
+		<prefix>audio/trytohit.mp3</prefix>
+		<prefix>audio/aimat.mp3</prefix>
+		<prefix>audio/canyouhit.mp3</prefix>
+		<prefix>audio/aimtherayat.mp3</prefix>
+		<prefix>audio/trytoget.mp3</prefix>
+	</prefixes>
+	
+	<round>
+		<item name="Fish"></item>
+		<item name="Insect"></item>
+		<item name="Seeds"></item>
+		<item name="Octopus"></item>
+		<item name="Fungus"></item>
+		<item name="Egg"></item>
+		<item name="Reptile"></item>
+		<item name="Bird"></item>
+		<item name="Spider"></item>
+		<item name="Fossil"></item>
+		<item name="WateringCan"></item>
+		<item name="Mammal"></item>
+		<item name="Snail"></item>
+		<item name="Flower"></item>
+		<item name="Cactus"></item>
+	</round>
+	
+	<round>
+		<item name="Graph"></item>
+		<item name="WeatherChart"></item>
+		<item name="Telescope"></item>
+		<item name="Asteroid"></item>
+		<item name="Satellite"></item>
+		<item name="Cloud"></item>
+		<item name="Earth"></item>
+		<item name="SpaceShuttle"></item>
+		<item name="Astronaut"></item>
+		<item name="Star"></item>
+		<item name="Rover"></item>
+		<item name="Saturn"></item>
+		<item name="Comet"></item>
+		<item name="Crater"></item>
+		<item name="Jupiter"></item>
+		<item name="Asteroid"></item>
+	</round>
+	
+	<round>
+		<item name="Magnet"></item>
+		<item name="Thermometer"></item>
+		<item name="Binoculars"></item>
+		<item name="RecyclingBin"></item>
+		<item name="Goggles"></item>
+		<item name="LightBulb"></item>
+		<item name="Notebook"></item>
+		<item name="Ruler"></item>
+		<item name="Beaker"></item>
+		<item name="Microscope"></item>
+		<item name="Pulley"></item>
+		<item name="Calculator"></item>
+		<item name="Hammer"></item>
+		<item name="Scale"></item>
+		<item name="MagnifyingGlass"></item>
+	</round>
+	
+</CheeseRound>

@@ -1,0 +1,41 @@
+{
+"images": ["flowerfieldsheet.png"],
+"frames": [
+
+    [438, 2, 224, 222], 
+    [2, 257, 219, 191], 
+    [478, 226, 181, 142], 
+    [223, 283, 253, 126], 
+    [664, 171, 179, 136], 
+    [664, 2, 228, 167], 
+    [2, 2, 238, 253], 
+    [661, 309, 146, 102], 
+    [223, 411, 230, 54], 
+    [242, 2, 194, 279], 
+    [845, 171, 98, 193], 
+    [478, 370, 94, 77], 
+    [894, 2, 92, 149], 
+    [574, 370, 83, 64]
+],
+"animations": {
+    
+        "flowerfield_birdbath":[0], 
+        "flowerfield_bonsaitree":[1], 
+        "flowerfield_bush1":[2], 
+        "flowerfield_bush2":[3], 
+        "flowerfield_dirt":[4], 
+        "flowerfield_flowers":[5], 
+        "flowerfield_giraffe":[6], 
+        "flowerfield_log":[7], 
+        "flowerfield_platform":[8], 
+        "flowerfield_pottedplant":[9], 
+        "flowerfield_shrub":[10], 
+        "flowerfield_snail":[11], 
+        "flowerfield_willow":[12], 
+        "willow_counter":[13]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:fd4fca1266b84b068fc348e04d2ac0fc:3168dda261231c03a88a98ddb8d0ecbc:382e3970eac843ef931ab9b1ef646ac6$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

@@ -1,0 +1,35 @@
+{
+"images": ["adlib_score.png"],
+"frames": [
+
+    [2, 2, 70, 92], 
+    [74, 2, 43, 89], 
+    [119, 2, 66, 89], 
+    [187, 2, 70, 92], 
+    [259, 2, 76, 92], 
+    [337, 2, 69, 92], 
+    [408, 2, 71, 92], 
+    [481, 2, 62, 91], 
+    [545, 2, 73, 92], 
+    [620, 2, 72, 92], 
+    [694, 2, 37, 65]
+],
+"animations": {
+    
+        "0":[0], 
+        "1":[1], 
+        "2":[2], 
+        "3":[3], 
+        "4":[4], 
+        "5":[5], 
+        "6":[6], 
+        "7":[7], 
+        "8":[8], 
+        "9":[9], 
+        "colon":[10]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:3d0775cc0653cc8e8ca5d640b4715c6e:00609f56654c0c313b8ef206672d0932:af1183b5f28dc53dec0260ba02c44fcc$",
+        "Created with TexturePacker (https://www.texturepacker.com) for EaselJS"
+]
+}

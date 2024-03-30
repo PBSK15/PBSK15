@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Sonny Days]]></title>
+	<description><![CDATA[Weatherman and meteorologist Sonny Days is a total professional who prides himself in giving the most accurate and honest weather forecast possible. He'll even throw in "happy birthday" shout-outs to the people of the city (but only if it's your real birthday). And when skies turn stormy, he keeps his cool and works together with WordGirl to set things sunny again.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_sonnydays.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/sonnydays.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|sonnydays_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_sonnydays.png" title="Coloring Page"/>
+		<activity id="printables|sonnydays_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+	</activities>
+</gameResources>

@@ -1,0 +1,20 @@
+{
+"framerate":24,
+"images":["vw_powerup_icons.png"],
+"frames":[
+    [2, 2, 60, 28, 0, 0, 0],
+    [70, 2, 60, 28, 0, 0, 0],
+    [138, 2, 60, 28, 0, 0, 0],
+    [2, 38, 60, 28, 0, 0, 0],
+    [70, 38, 60, 28, 0, 0, 0],
+    [138, 38, 60, 28, 0, 0, 0]
+],
+"animations":{
+    "bubblebuddy_off": {"frames": [1, 1, 1, 1, 1], "speed": 1},
+    "doubler": {"frames": [4, 4, 4, 4, 4], "speed": 1},
+    "plusone_off": {"frames": [3, 3, 3, 3, 3], "speed": 1},
+    "bubblebuddy": {"frames": [0, 0, 0, 0], "speed": 1},
+    "doubler_off": {"frames": [5, 5, 5, 5, 5], "speed": 1},
+    "plusone": {"frames": [2, 2, 2, 2, 2], "speed": 1}
+}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Pretty Princess]]></title>
+	<description><![CDATA[Unlike the other people of Sparkletopia, Pretty Princess was born with a level head on her shoulders. She loves her kingdom and looks forward to becoming its ruler one day.  Pretty Princess is honorable, fair-minded, and forthright. But she was raised entirely within the confines of the royal estate, and so when she sets foot in her own kingdom for the first time she discovers how incredibly silly the place is.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_princess.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/princess.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="prettyprincessgame" iconURL="images/heroVillain/princess/prettyprincess_game.png" title="Magical Rescue"/>
+		<activity id="prettyprincessvideos" iconURL="images/heroVillain/princess/prettyprincess_videos.png" title="Videos"/>
+		<activity id="prettyprincessprintables" iconURL="images/heroVillain/princess/prettyprincess_printables.png" title="Printables"/>
+		<activity id="printables|coloring/prettyprincess.pdf" iconURL="images/heroVillain/character/activity_coloring_prettyprincess.png" title="Coloring Page"/>
+		<activity id="printables|bookmarks/prettyprincess.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<!--<activity id="prettyprincess" iconURL="images/heroVillain/character/activity_prettyprincess.png" title="Magical Rescue"/>-->
+	</activities>
+</gameResources>

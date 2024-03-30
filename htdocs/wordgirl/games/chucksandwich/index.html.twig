@@ -1,0 +1,8 @@
+{% extends 'wordgirl/includes/templates/flashWGPage.html.twig' %}
+{% set pageTitle = '. Games . Chuck\'s Extreme Crusher | PBS KIDS GO!' %}
+{% set keywds = 'chuck, sandwiches, crusher, game, evil sandwich making guy, vocabulary. ' %}
+{% set desc = 'Help Chuck the Evil Sandwich Making Guy identify his least favorite sandwiches and crush them!' %}
+
+
+{% block swfEmbedScript %}<script type="text/javascript">			var flashvars = {cdn_root: "/enablecdn/wordgirl/cdn_content/", site_root:"/wordgirl/", page_xml_url:"xml/main.xml", content_swf_url:"games/chucksandwich/main.swf", framing:"comic"};			var params = {};			params.bgcolor = "#1277C9";			params.allowscriptaccess = "always";			params.menu = false;			swfobject.embedSWF("/enablecdn/wordgirl/cdn_content/WordGirlShell.swf", "WordGirl", "960", "800", "10.0.0", false, flashvars, params);		</script>{% endblock %}
+

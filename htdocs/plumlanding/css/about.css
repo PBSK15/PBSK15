@@ -1,0 +1,39 @@
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.group { zoom: 1; } /* for IE 6/7 */
+
+.card {
+	background: #faf9f7;
+	padding-bottom: 24px;
+}
+
+h2 {
+	margin-top: 1em;
+	margin-bottom: 0.125em;
+	line-height: 1.125em;
+}
+
+h2:first-child { margin-top: 0; }
+
+.col-4 img {
+	display: block;
+	padding-top: 27em;
+}
+
+.col-4 img:first-child { padding-top: 8em; }
+
+.innercard {
+	padding-top: 0.3125em;
+	padding-bottom: 1em;
+}
+
+.sect-row {
+/*	width: 988px; */
+	border-top: 4px solid #c3c3c3;
+	padding: 15px 0;
+}
+
+.sect-intro { padding: 6px 0 0 18px; }

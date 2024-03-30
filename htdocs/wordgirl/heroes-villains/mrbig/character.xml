@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Mr. Big]]></title>
+	<description><![CDATA[Mr. Big is an evil businessman who loves to concoct schemes that involve using mind control to take over the city. He also loves squeezing really squishy things. I know...we think it's weird too.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_mrbig.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/mrbig.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|MrBig_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_mrbig.png" title="Coloring Page"/>
+		<activity id="printables|MrBig_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+		<activity id="buildalair" iconURL="images/heroVillain/character/activity_buildalair.png" title="Build-A-Lair"/>
+		<activity id="scavenger" iconURL="images/heroVillain/character/activity_scavenger.png" title="Scavenger Hunt"/>
+	</activities>
+</gameResources>

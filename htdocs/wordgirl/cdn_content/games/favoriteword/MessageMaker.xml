@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <defaults font="5" fontcolor="0xff0000" normalpagecolor="0x000000" currentpagecolor="0xffffff"/>
+
+  <email>
+    <subject>
+      <![CDATA[Worrrd up!  You've received a Mysterious message from %%yourname%%.]]>
+    </subject>
+    <contents>
+      <![CDATA[Salutations. (that means Hi) %%friendsname%%.  
+
+	WordGirl here to let you know that your friend %%yourname%% has sent you a Mysterious Message from my website!	
+      
+      https://pbskids.org/wordgirl/games/favoriteword/?FWmessage=m%%link%%
+
+	To check it out, click on the link above.  You can also carefully type this address into your web browser or cut-and-paste it into your browser window.
+
+	Thanks, and worrrd up!
+	WordGirl
+      
+      ]]>
+    </contents>
+  </email>
+  
+  <category id='1' name="Kids' Favorites">
+    <set id='1'>
+      <word id='1000' word='ability'/>
+      <word id='1001' word='benevolent'/>
+      <word id='1002' word='candy'/>
+      <word id='1003' word='colorful'/>
+      <word id='1004' word='dance'/>
+      <word id='1005' word='distracted'/>
+      <word id='1006' word='empathetic'/>
+      <word id='1007' word='family'/>
+      <word id='1008' word='flame'/>
+      <word id='1009' word='gadgets'/>
+      <word id='1010' word='hilarious'/>
+      <word id='1011' word='imaginary'/>
+      <word id='1012' word='jump'/>
+      <word id='1013' word='kumquat'/>
+      <word id='1014' word='lamprey'/>
+	    <word id='1015' word='lively'/>
+      <word id='1016' word='mischievous'/>
+      <word id='1017' word='neat'/>
+      <word id='1018' word='ocean'/>
+      <word id='1019' word='peculiar'/>
+      <word id='1020' word='pizzazz'/>
+      <word id='1021' word='read'/>
+      <word id='1022' word='salsa'/>
+      <word id='1023' word='shopping'/>
+      <word id='1024' word='sorry'/>
+      <word id='1025' word='sweet'/>
+      <word id='1026' word='timid'/>
+      <word id='1027' word='understanding'/>
+      <word id='1028' word='vacation'/>
+      <word id='1029' word='victorious'/>
+      <word id='1030' word='wacky'/>
+      <word id='1031' word='wild'/>
+      <word id='1032' word='wow'/>
+	    <word id='1033' word='yes'/>
+      <word id='1034' word='zealous'/>
+      <word id='1035' word='zoo'/>
+      <word id='1036' word='zucchini'/>
+	  </set>
+    
+    <set id='2'>
+      <word id='1037' word='accomplish'/>
+      <word id='1038' word='antique'/>
+      <word id='1039' word='army'/>
+      <word id='1040' word='banana'/>
+      <word id='1041' word='bravery'/>
+      <word id='1042' word='cantankerous'/>
+      <word id='1043' word='captain'/>
+      <word id='1044' word='chortle'/>
+      <word id='1045' word='cooperation'/>
+      <word id='1046' word='dance'/>
+      <word id='1047' word='disco'/>
+      <word id='1048' word='dog'/>
+      <word id='1049' word='elegant'/>
+      <word id='1050' word='enchanted'/>
+      <word id='1051' word='exquisite'/>
+	    <word id='1052' word='flowers'/>
+      <word id='1053' word='galaxy'/>
+      <word id='1054' word='googolplex'/>
+      <word id='1055' word='hello'/>
+      <word id='1056' word='hypothesis'/>
+      <word id='1057' word='invent'/>
+      <word id='1058' word='jewels'/>
+      <word id='1059' word='kitty'/>
+      <word id='1060' word='learn'/>
+      <word id='1061' word='magic'/>
+      <word id='1062' word='mermaid'/>
+      <word id='1063' word='Mommy'/>
+      <word id='1064' word='nature'/>
+      <word id='1065' word='oddball'/>
+      <word id='1066' word='panda'/>
+      <word id='1067' word='play'/>
+      <word id='1068' word='pool'/>
+      <word id='1069' word='rambunctious'/>
+	    <word id='1070' word='scheme'/>
+      <word id='1071' word='singer'/>
+      <word id='1072' word='technically'/>
+      <word id='1073' word='trust'/>
+    </set>
+
+    <set id='3'>
+      <word id='1074' word='actor'/>
+      <word id='1075' word='apostrophe'/>
+      <word id='1076' word='ballerina'/>
+      <word id='1077' word='biologist'/>
+      <word id='1078' word='book'/>
+      <word id='1079' word='cake'/>
+      <word id='1080' word='cereal'/>
+      <word id='1081' word='chortle'/>
+      <word id='1082' word='climate'/>
+      <word id='1083' word='Dad'/>
+      <word id='1084' word='divisible'/>
+      <word id='1085' word='dude'/>
+      <word id='1086' word='exercise'/>
+      <word id='1087' word='farm'/>
+      <word id='1088' word='fuzzy'/>
+	    <word id='1089' word='gold'/>
+      <word id='1090' word='gum'/>
+      <word id='1091' word='hippopotamus'/>
+      <word id='1092' word='illusionist'/>
+      <word id='1093' word='internet'/>
+      <word id='1094' word='juggle'/>
+      <word id='1095' word='lament'/>
+      <word id='1096' word='lightbulb'/>
+      <word id='1097' word='mammal'/>
+      <word id='1098' word='new'/>
+      <word id='1099' word='noodle'/>
+      <word id='1100' word='peace'/>
+      <word id='1101' word='pets'/>
+      <word id='1102' word='ponder'/>
+      <word id='1103' word='puppy'/>
+      <word id='1104' word='repetition'/>
+      <word id='1105' word='silly'/>
+      <word id='1106' word='swimming'/>
+  	  <word id='1107' word='tractor'/>
+      <word id='1108' word='velvet'/>
+      <word id='1109' word='water'/>
+      <word id='1110' word='zebra'/>
+    </set>
+
+    <set id='4'>
+      <word id='1111' word='actually'/>
+      <word id='1112' word='anecdote'/>
+      <word id='1113' word='arithmetic'/>
+      <word id='1114' word='blubber'/>
+      <word id='1115' word='bongo'/>
+      <word id='1116' word='caramel'/>
+      <word id='1117' word='chinchilla'/>
+      <word id='1118' word='computer'/>
+      <word id='1119' word='cunning'/>
+      <word id='1120' word='distracted'/>
+      <word id='1121' word='encyclopedia'/>
+      <word id='1122' word='fabulous'/>
+      <word id='1123' word='forest'/>
+      <word id='1124' word='gold'/>
+      <word id='1125' word='hug'/>
+	    <word id='1126' word='industrious'/>
+      <word id='1127' word='jazzy'/>
+      <word id='1128' word='kiosk'/>
+      <word id='1129' word='laugh'/>
+      <word id='1130' word='math'/>
+      <word id='1131' word='miniscule'/>
+      <word id='1132' word='mystic'/>
+      <word id='1133' word='nice'/>
+      <word id='1134' word='parents'/>
+      <word id='1135' word='play'/>
+      <word id='1136' word='powerful'/>
+      <word id='1137' word='racing'/>
+      <word id='1138' word='rock'/>
+      <word id='1139' word='scary'/>
+      <word id='1140' word='sisters'/>
+      <word id='1141' word='sparkles'/>
+      <word id='1142' word='silly'/>
+      <word id='1143' word='tango'/>
+	    <word id='1144' word='travelling'/>
+      <word id='1145' word='vicious'/>
+      <word id='1146' word='wild'/>
+      <word id='1147' word='yellow'/>
+    </set>
+
+    <set id='5'>
+      <word id='1148' word='adventure'/>
+      <word id='1149' word='anthropologist'/>
+      <word id='1150' word='astonished'/>
+      <word id='1151' word='ballerina'/>
+      <word id='1152' word='beautiful'/>
+      <word id='1153' word='blue'/>
+      <word id='1154' word='bubbly'/>
+      <word id='1155' word='cats'/>
+      <word id='1156' word='cheetah'/>
+      <word id='1157' word='cookie'/>
+      <word id='1158' word='crafts'/>
+      <word id='1159' word='demand'/>
+      <word id='1160' word='doctor'/>
+      <word id='1161' word='ecstatic'/>
+      <word id='1162' word='evaporation'/>
+	    <word id='1163' word='extraordinary'/>
+      <word id='1164' word='fiddlesticks'/>
+      <word id='1165' word='funny'/>
+      <word id='1166' word='guacamole'/>
+      <word id='1167' word='impressive'/>
+      <word id='1168' word='kind'/>
+      <word id='1169' word='love'/>
+      <word id='1170' word='millionaire'/>
+      <word id='1171' word='money'/>
+      <word id='1172' word='neat'/>
+      <word id='1173' word='oxymoron'/>
+      <word id='1174' word='plumber'/>
+      <word id='1175' word='predicament'/>
+      <word id='1176' word='quadruple'/>
+      <word id='1177' word='scrupulous'/>
+      <word id='1178' word='snap'/>
+      <word id='1179' word='squishy'/>
+      <word id='1180' word='teacher'/>
+	    <word id='1181' word='travelling'/>
+      <word id='1182' word='ultimate'/>
+      <word id='1183' word='water'/>
+      <word id='1184' word='writing'/>
+    </set>
+
+    <set id='6'>
+      <word id='1185' word='agile'/>
+      <word id='1186' word='artistic'/>
+      <word id='1187' word='baby'/>
+      <word id='1188' word='belt'/>
+      <word id='1189' word='book'/>
+      <word id='1190' word='capacious'/>
+      <word id='1191' word='chocolate'/>
+      <word id='1192' word='detective'/>
+      <word id='1193' word='diamond'/>
+      <word id='1194' word='diva'/>
+      <word id='1195' word='drizzle'/>
+      <word id='1196' word='exciting'/>
+      <word id='1197' word='flamboyant'/>
+      <word id='1198' word='funky'/>
+      <word id='1199' word='generosity'/>
+	    <word id='1200' word='glue'/>
+      <word id='1201' word='guacamole'/>
+      <word id='1202' word='hedgehog'/>
+      <word id='1203' word='hubbub'/>
+      <word id='1204' word='independent'/>
+      <word id='1205' word='invincible'/>
+      <word id='1206' word='juxtapose'/>
+      <word id='1207' word='literally'/>
+      <word id='1208' word='microscopic'/>
+      <word id='1209' word='monotonous'/>
+      <word id='1210' word='obliterate'/>
+      <word id='1211' word='perfectionist'/>
+      <word id='1212' word='pixie'/>
+      <word id='1213' word='procrastinate'/>
+      <word id='1214' word='pumpernickel'/>
+      <word id='1215' word='recycle'/>
+      <word id='1216' word='sagacious'/>
+      <word id='1217' word='short'/>
+	    <word id='1218' word='snuggle'/>
+      <word id='1219' word='super'/>
+      <word id='1220' word='tornado'/>
+      <word id='1221' word='vegetables'/>
+    </set>
+
+    <set id='7'>
+      <word id='1222' word='alien'/>
+      <word id='1223' word='antique'/>
+      <word id='1224' word='awesome'/>
+      <word id='1225' word='bike'/>
+      <word id='1226' word='bowling'/>
+      <word id='1227' word='cantankerous'/>
+      <word id='1228' word='cello'/>
+      <word id='1229' word='cheetah'/>
+      <word id='1230' word='community'/>
+      <word id='1231' word='cuddle'/>
+      <word id='1232' word='dictionary'/>
+      <word id='1233' word='effervescent'/>
+      <word id='1234' word='establish'/>
+      <word id='1235' word='exhilaration'/>
+      <word id='1236' word='fashion'/>
+  	  <word id='1237' word='forever'/>
+      <word id='1238' word='glamorous'/>
+      <word id='1239' word='Hollywood'/>
+      <word id='1240' word='kiss'/>
+      <word id='1241' word='lament'/>
+      <word id='1242' word='luminous'/>
+      <word id='1243' word='misunderstanding'/>
+      <word id='1244' word='mystery'/>
+      <word id='1245' word='ominous'/>
+      <word id='1246' word='phobia'/>
+      <word id='1247' word='pounce'/>
+      <word id='1248' word='recess'/>
+      <word id='1249' word='sensational'/>
+      <word id='1250' word='shrunk'/>
+      <word id='1251' word='slow'/>
+      <word id='1252' word='splendid'/>
+      <word id='1253' word='star'/>
+      <word id='1254' word='thesaurus'/>
+	    <word id='1255' word='twilight'/>
+      <word id='1256' word='veterinarian'/>
+      <word id='1257' word='weird'/>
+      <word id='1258' word='zero'/>
+    </set>
+
+    <set id='8'>
+      <word id='1259' word='ambidextrous'/>
+      <word id='1260' word='astronaut'/>
+      <word id='1261' word='bamboo'/>
+      <word id='1262' word='boogie'/>
+      <word id='1263' word='cappuccino'/>
+      <word id='1264' word='cheerleader'/>
+      <word id='1265' word='conserve'/>
+      <word id='1266' word='courage'/>
+      <word id='1267' word='cute'/>
+      <word id='1268' word='dinosaur'/>
+      <word id='1269' word='dolphin'/>
+      <word id='1270' word='dream'/>
+      <word id='1271' word='elfin'/>
+      <word id='1272' word='establish'/>
+      <word id='1273' word='extraneous'/>
+	    <word id='1274' word='fantastic'/>
+      <word id='1275' word='food'/>
+      <word id='1276' word='games'/>
+      <word id='1277' word='hamster'/>
+      <word id='1278' word='hyper'/>
+      <word id='1279' word='insipid'/>
+      <word id='1280' word='kitty'/>
+      <word id='1281' word='loquacious'/>
+      <word id='1282' word='memory'/>
+      <word id='1283' word='modern'/>
+      <word id='1284' word='oblivious'/>
+      <word id='1285' word='perpendicular'/>
+      <word id='1286' word='pizza'/>
+      <word id='1284' word='pretty'/>
+      <word id='1288' word='purple'/>
+      <word id='1289' word='queen'/>
+      <word id='1290' word='school'/>
+      <word id='1291' word='sleep'/>
+	    <word id='1292' word='spontaneous'/>
+      <word id='1293' word='squeegee'/>
+      <word id='1294' word='valentine'/>
+      <word id='1295' word='warm'/>
+    </set>
+
+    <set id='9'>
+      <word id='1296' word='amusing'/>
+      <word id='1297' word='apple'/>
+      <word id='1298' word='belch'/>
+      <word id='1299' word='bombastic'/>
+      <word id='1300' word='celebration'/>
+      <word id='1301' word='chocolate'/>
+      <word id='1302' word='coffee'/>
+      <word id='1303' word='coordination'/>
+      <word id='1304' word='crunchy'/>
+      <word id='1305' word='detective'/>
+      <word id='1306' word='dragon'/>
+      <word id='1307' word='enchanted'/>
+      <word id='1308' word='faith'/>
+      <word id='1309' word='Friday'/>
+      <word id='1310' word='friend'/>
+      <word id='1311' word='goggles'/>
+      <word id='1312' word='hip hop'/>
+      <word id='1313' word='irksome'/>
+      <word id='1314' word='jaguar'/>
+      <word id='1315' word='midnight'/>
+      <word id='1316' word='mustang'/>
+      <word id='1317' word='nature'/>
+      <word id='1318' word='penguin'/>
+      <word id='1319' word='photosynthesis'/>
+      <word id='1320' word='popcorn'/>
+      <word id='1321' word='pugnacious'/>
+      <word id='1322' word='rutabaga'/>
+      <word id='1323' word='sharing'/>
+      <word id='1324' word='sky'/>
+      <word id='1325' word='soccer'/>
+      <word id='1326' word='spaghetti'/>
+      <word id='1327' word='sports'/>
+      <word id='1328' word='struggle  '/>
+      <word id='1329' word='stylish'/>
+      <word id='1330' word='victorious'/>
+      <word id='1331' word='words'/>
+      <word id='1332' word='writing'/>
+    </set>
+
+    <set id='10'>
+      <word id='1333' word='animals'/>
+      <word id='1334' word='astronaut'/>
+      <word id='1335' word='awesome'/>
+      <word id='1336' word='belch'/>
+      <word id='1337' word='butterscotch'/>
+      <word id='1338' word='chasm'/>
+      <word id='1339' word='clairvoyance'/>
+      <word id='1340' word='cobra'/>
+      <word id='1341' word='constellation'/>
+      <word id='1342' word='cornucopia'/>
+      <word id='1343' word='crawfish'/>
+      <word id='1344' word='curiosity'/>
+      <word id='1345' word='demand'/>
+      <word id='1346' word='discombobulated'/>
+      <word id='1347' word='ecstatic'/>
+	    <word id='1348' word='elephant'/>
+      <word id='1349' word='estimate'/>
+      <word id='1350' word='excursion'/>
+      <word id='1351' word='feisty'/>
+      <word id='1352' word='flamboyant'/>
+      <word id='1353' word='flag'/>
+      <word id='1354' word='gymnastics'/>
+      <word id='1355' word='heart'/>
+      <word id='1356' word='koalas'/>
+      <word id='1357' word='lemonade'/>
+      <word id='1358' word='mischievous'/>
+      <word id='1359' word='monkey'/>
+      <word id='1360' word='old'/>
+      <word id='1361' word='potato'/>
+      <word id='1362' word='pseudonym'/>
+      <word id='1363' word='righteous'/>
+      <word id='1364' word='shine'/>
+      <word id='1365' word='space'/>
+	    <word id='1366' word='spring'/>
+      <word id='1367' word='spy'/>
+      <word id='1368' word='understanding'/>
+      <word id='1369' word='world'/>
+    </set>
+  </category>
+
+  <category id='2' name='WordGirl Words'>
+    <set id='1'>
+      <word id='2001' word='abandon'/>
+      <word id='2002' word='adhere'/>
+      <word id='2003' word='ban'/>
+      <word id='2004' word='bicker'/>
+      <word id='2005' word='bring'/>
+      <word id='2006' word='calm'/>
+      <word id='2007' word='compassion'/>
+      <word id='2008' word='crouch'/>
+      <word id='2009' word='dazzle'/>
+      <word id='2010' word='decrease'/>
+      <word id='2011' word='diversion'/>
+      <word id='2012' word='dumbbell'/>
+      <word id='2013' word='encourage'/>
+      <word id='2014' word='exaggerate'/>
+      <word id='2015' word='fishing'/>
+      <word id='2016' word='flail'/>
+      <word id='2017' word='futile'/>
+      <word id='2018' word='gasp'/>
+      <word id='2019' word='hoax'/>
+      <word id='2020' word='holler'/>
+      <word id='2021' word='identical'/>
+      <word id='2022' word='increase'/>
+      <word id='2023' word='investigate'/>
+      <word id='2024' word='mayonnaise'/>
+      <word id='2025' word='mischievous'/>
+      <word id='2026' word='opportunity'/>
+      <word id='2027' word='pompous'/>
+      <word id='2028' word='reputation'/>
+      <word id='2029' word='scheme'/>
+      <word id='2030' word='statue'/>
+      <word id='2031' word='think'/>
+      <word id='2032' word='trail'/>
+      <word id='2033' word='ultimate'/>
+      <word id='2034' word='vicious'/>
+      <word id='2035' word='whisper'/>
+      <word id='2036' word='wrap'/>
+    </set>
+
+    <set id='2'>
+      <word id='2037' word='abandon'/>
+      <word id='2038' word='appetite'/>
+      <word id='2039' word='ban'/>
+      <word id='2040' word='brag'/>
+      <word id='2041' word='calm'/>
+      <word id='2042' word='clobber'/>
+      <word id='2043' word='coordinated'/>
+      <word id='2044' word='crumple'/>
+      <word id='2045' word='deactivate'/>
+      <word id='2046' word='disappointed'/>
+      <word id='2047' word='dumbbell'/>
+      <word id='2048' word='encase'/>
+      <word id='2049' word='extreme'/>
+      <word id='2050' word='find'/>
+      <word id='2051' word='forgery'/>
+      <word id='2052' word='gallop'/>
+      <word id='2053' word='guarantee'/>
+      <word id='2054' word='horrible'/>
+      <word id='2055' word='hullabaloo'/>
+      <word id='2056' word='ignore'/>
+      <word id='2057' word='intimidating'/>
+      <word id='2058' word='juicer'/>
+      <word id='2059' word='laser'/>
+      <word id='2060' word='malfunction'/>
+      <word id='2061' word='oblivious'/>
+      <word id='2062' word='perfect'/>
+      <word id='2063' word='promenade'/>
+      <word id='2064' word='remind'/>
+      <word id='2065' word='save'/>
+      <word id='2066' word='somersault'/>
+      <word id='2067' word='swift'/>
+      <word id='2068' word='terrific'/>
+      <word id='2069' word='triumph'/>
+      <word id='2070' word='uncomfortable'/>
+      <word id='2071' word='victory'/>
+      <word id='2072' word='withdraw'/>
+    </set>
+
+    <set id='3'>
+      <word id='2073' word='absurd'/>
+      <word id='2074' word='ally'/>
+      <word id='2075' word='bashful'/>
+      <word id='2076' word='boogie'/>
+      <word id='2077' word='building'/>
+      <word id='2078' word='capture'/>
+      <word id='2079' word='clumsy'/>
+      <word id='2080' word='complain'/>
+      <word id='2081' word='crouch'/>
+      <word id='2082' word='danger'/>
+      <word id='2083' word='demolish'/>
+      <word id='2084' word='disentangle'/>
+      <word id='2085' word='drench'/>
+      <word id='2086' word='exaggerate'/>
+      <word id='2087' word='famished'/>
+      <word id='2088' word='flabbergasted'/>
+      <word id='2089' word='glimpse'/>
+      <word id='2090' word='happy'/>
+      <word id='2091' word='identity'/>
+      <word id='2092' word='inhale'/>
+      <word id='2093' word='joyful'/>
+      <word id='2094' word='magnificent'/>
+      <word id='2095' word='misunderstanding'/>
+      <word id='2096' word='observe'/>
+      <word id='2097' word='panic'/>
+      <word id='2098' word='pout'/>
+      <word id='2099' word='pulverize'/>
+      <word id='2100' word='release'/>
+      <word id='2101' word='retaliate'/>
+      <word id='2102' word='seldom'/>
+      <word id='2103' word='slither'/>
+      <word id='2104' word='squint'/>
+      <word id='2105' word='supply'/>
+      <word id='2106' word='topple'/>
+      <word id='2107' word='unnecessary'/>
+      <word id='2108' word='whine'/>
+    </set>
+
+    <set id='4'>
+      <word id='2109' word='abundant'/>
+      <word id='2110' word='avoid '/>
+      <word id='2111' word='bicker'/>
+      <word id='2112' word='bring'/>
+      <word id='2113' word='bubbly'/>
+      <word id='2114' word='change'/>
+      <word id='2115' word='colossal'/>
+      <word id='2116' word='convince'/>
+      <word id='2117' word='crime'/>
+      <word id='2118' word='dangle'/>
+      <word id='2119' word='decorate'/>
+      <word id='2120' word='disintegrate'/>
+      <word id='2121' word='dodge'/>
+      <word id='2122' word='encourage'/>
+      <word id='2123' word='expand'/>
+      <word id='2124' word='failure'/>
+      <word id='2125' word='flatter'/>
+      <word id='2126' word='forget'/>
+      <word id='2127' word='generous'/>
+      <word id='2128' word='guacamole'/>
+      <word id='2129' word='hodgepodge'/>
+      <word id='2130' word='idolize'/>
+      <word id='2131' word='ketchup'/>
+      <word id='2132' word='masterpiece'/>
+      <word id='2133' word='musical'/>
+      <word id='2134' word='offend'/>
+      <word id='2135' word='pounce'/>
+      <word id='2136' word='relief'/>
+      <word id='2137' word='ride'/>
+      <word id='2138' word='scratch'/>
+      <word id='2139' word='silly'/>
+      <word id='2140' word='specific'/>
+      <word id='2141' word='startle'/>
+      <word id='2142' word='target'/>
+      <word id='2143' word='transform'/>
+      <word id='2144' word='vague'/>
+    </set>
+	
+    <set id='5'>
+      <word id='2145' word='accelerate'/>
+      <word id='2146' word='arrest'/>
+      <word id='2147' word='beverage'/>
+      <word id='2148' word='brush'/>
+      <word id='2149' word='cheese'/>
+      <word id='2150' word='coincidence'/>
+      <word id='2151' word='confine'/>
+      <word id='2152' word='coupon'/>
+      <word id='2153' word='dash'/>
+      <word id='2154' word='decide'/>
+      <word id='2155' word='devour'/>
+      <word id='2156' word='disrobe'/>
+      <word id='2157' word='doomed'/>
+      <word id='2158' word='enormous'/>
+      <word id='2159' word='fight'/>
+      <word id='2160' word='flee'/>
+      <word id='2161' word='foolish'/>
+      <word id='2162' word='glum'/>
+      <word id='2163' word='hoist'/>
+      <word id='2164' word='impress'/>
+      <word id='2165' word='meaty'/>
+      <word id='2166' word='messy'/>
+      <word id='2167' word='persist'/>
+      <word id='2168' word='predicament'/>
+      <word id='2169' word='puncture'/>
+      <word id='2170' word='radiate'/>
+      <word id='2171' word='repeat'/>
+      <word id='2172' word='ruckus'/>
+      <word id='2173' word='secret'/>
+      <word id='2174' word='shocked'/>
+      <word id='2175' word='smell'/>
+      <word id='2176' word='spray'/>
+      <word id='2177' word='struggle'/>
+      <word id='2178' word='tickle'/>
+      <word id='2179' word='trainer'/>
+      <word id='2180' word='upstage'/>
+    </set>
+	
+    <set id='6'>
+      <word id='2181' word='adhere'/>
+      <word id='2182' word='bolt'/>
+      <word id='2183' word='city'/>
+      <word id='2184' word='compromise'/>
+      <word id='2185' word='cumbersome'/>
+      <word id='2186' word='dazzle'/>
+      <word id='2187' word='despise'/>
+      <word id='2188' word='display'/>
+      <word id='2189' word='down'/>
+      <word id='2190' word='escape'/>
+      <word id='2191' word='fierce'/>
+      <word id='2192' word='flood'/>
+      <word id='2193' word='frustrate'/>
+      <word id='2194' word='immobilize'/>
+      <word id='2195' word='lure'/>
+      <word id='2196' word='melody'/>
+      <word id='2197' word='mustard'/>
+      <word id='2198' word='opponent'/>
+      <word id='2199' word='pinch'/>
+      <word id='2200' word='potent'/>
+      <word id='2201' word='predict'/>
+      <word id='2202' word='punish'/>
+      <word id='2203' word='rapid'/>
+      <word id='2204' word='reveal'/>
+      <word id='2205' word='seize'/>
+      <word id='2206' word='similar'/>
+      <word id='2207' word='stampede'/>
+      <word id='2208' word='steal'/>
+      <word id='2209' word='strange'/>
+      <word id='2210' word='supreme'/>
+      <word id='2211' word='sweltering'/>
+      <word id='2212' word='tasty'/>
+      <word id='2213' word='timid'/>
+      <word id='2214' word='tradition'/>
+      <word id='2215' word='trickle'/>
+      <word id='2216' word='try'/>
+    </set>
+	
+    <set id='7'>
+      <word id='2217' word='age'/>
+      <word id='2218' word='attack'/>
+      <word id='2219' word='bombard'/>
+      <word id='2220' word='clamp'/>
+      <word id='2221' word='compassion'/>
+      <word id='2222' word='consume'/>
+      <word id='2223' word='deceive'/>
+      <word id='2224' word='depend'/>
+      <word id='2225' word='destroy'/>
+      <word id='2226' word='diabolical'/>
+      <word id='2227' word='diversion'/>
+      <word id='2228' word='evil'/>
+      <word id='2229' word='explode'/>
+      <word id='2230' word='fishing'/>
+      <word id='2231' word='fling'/>
+      <word id='2232' word='furious'/>
+      <word id='2233' word='hurl'/>
+      <word id='2234' word='intercept'/>
+      <word id='2235' word='mimic'/>
+      <word id='2236' word='nestle'/>
+      <word id='2237' word='pizzazz'/>
+      <word id='2238' word='preposterous'/>
+      <word id='2239' word='proud'/>
+      <word id='2240' word='rescue'/>
+      <word id='2241' word='robot'/>
+      <word id='2242' word='shelter'/>
+      <word id='2243' word='silhouette'/>
+      <word id='2244' word='snooze'/>
+      <word id='2245' word='start'/>
+      <word id='2246' word='stitch'/>
+      <word id='2247' word='strike'/>
+      <word id='2248' word='suspicious'/>
+      <word id='2249' word='think'/>
+      <word id='2250' word='timid'/>
+      <word id='2251' word='trap'/>
+      <word id='2252' word='vegetarian'/>
+    </set>
+	
+    <set id='8'>
+      <word id='2253' word='age'/>
+      <word id='2254' word='assist'/>
+      <word id='2255' word='bombard'/>
+      <word id='2256' word='bread'/>
+      <word id='2257' word='clever'/>
+      <word id='2258' word='conceal'/>
+      <word id='2259' word='confusing'/>
+      <word id='2260' word='contagious'/>
+      <word id='2261' word='decrease'/>
+      <word id='2262' word='deflect'/>
+      <word id='2263' word='devotion'/>
+      <word id='2264' word='distract'/>
+      <word id='2265' word='explode'/>
+      <word id='2266' word='fishing'/>
+      <word id='2267' word='fling'/>
+      <word id='2268' word='fly'/>
+      <word id='2269' word='hurl'/>
+      <word id='2270' word='intercept'/>
+      <word id='2271' word='mimic'/>
+      <word id='2272' word='nestle'/>
+      <word id='2273' word='pizzazz'/>
+      <word id='2274' word='preposterous'/>
+      <word id='2275' word='protest'/>
+      <word id='2276' word='rescue'/>
+      <word id='2277' word='restore'/>
+      <word id='2278' word='rumple'/>
+      <word id='2279' word='shop'/>
+      <word id='2280' word='sizzle'/>
+      <word id='2281' word='sneak'/>
+      <word id='2282' word='squash'/>
+      <word id='2283' word='stampede'/>
+      <word id='2284' word='stop'/>
+      <word id='2285' word='stubborn'/>
+      <word id='2286' word='transportation'/>
+      <word id='2287' word='trap'/>
+      <word id='2288' word='vegetarian'/>
+    </set>
+	
+  </category>
+
+  <category id='3' name='Extras'>
+    <set id='1'>
+      <word id='3001' word="'"/>
+	    <word id='3002' word='!'/>
+      <word id='3003' word='.'/>
+      <word id='3004' word='?'/>
+      <word id='3005' word='a'/>
+      <word id='3006' word='about'/>
+      <word id='3007' word='an'/>
+      <word id='3008' word='and'/>
+      <word id='3009' word='as'/>
+      <word id='3010' word='be'/>
+      <word id='3011' word='because'/>
+      <word id='3012' word='but'/>
+      <word id='3013' word='by'/>
+      <word id='3014' word='do'/>
+      <word id='3015' word='ed'/>
+      <word id='3016' word='for'/>
+      <word id='3017' word='from'/>
+      <word id='3018' word='get'/>
+      <word id='3019' word='give'/>
+	    <word id='3020' word='go'/>
+      <word id='3021' word='has'/>
+      <word id='3022' word='have'/>
+      <word id='3023' word='he'/>
+      <word id='3024' word='her'/>
+      <word id='3025' word='here'/>
+      <word id='3026' word='him'/>
+      <word id='3027' word='hire'/>
+      <word id='3028' word='his'/>
+      <word id='3029' word='I'/>
+      <word id='3030' word='in'/>
+      <word id='3031' word='is'/>
+      <word id='3032' word='it'/>
+      <word id='3033' word='make'/>
+      <word id='3034' word='more'/>
+      <word id='3035' word='much'/>
+      <word id='3036' word='need'/>
+      <word id='3037' word='not'/>
+      <word id='3038' word='of'/>
+      <word id='3039' word='or'/>
+      <word id='3040' word='out'/>
+      <word id='3041' word='put'/>
+      <word id='3042' word='s'/>
+      <word id='3043' word='she'/>
+      <word id='3044' word='since'/>
+      <word id='3045' word='so'/>
+      <word id='3046' word='take'/>
+      <word id='3047' word='the'/>
+      <word id='3048' word='their'/>
+      <word id='3049' word='them'/>
+      <word id='3050' word='there'/>
+      <word id='3051' word='they'/>
+      <word id='3052' word='through'/>
+      <word id='3053' word='to'/>
+      <word id='3054' word='up'/>
+      <word id='3055' word='use'/>
+      <word id='3056' word='want'/>
+      <word id='3057' word='we'/>
+      <word id='3058' word='while'/>
+      <word id='3059' word='will'/>
+      <word id='3060' word='yet'/>
+    </set>
+	</category>
+
+  <category id='4' name='Names'>
+    <set id='1'>
+      <word id='4001' word='Becky'/>
+      <word id='4002' word='Bob'/>
+      <word id='4003' word='Captain Huggy Face'/>
+      <word id='4004' word='Chuck the Evil Sandwich-Making Guy'/>
+      <word id='4005' word='Dr. Two-Brains'/>
+      <word id='4006' word='Granny May'/>
+      <word id='4007' word='Mr. Big'/>
+      <word id='4008' word='Mr. Botsford'/>
+      <word id='4009' word='Mrs. Botsford'/>
+      <word id='4010' word='Scoops'/>
+      <word id='4011' word='T.J. Botsford'/>
+      <word id='4012' word='The Butcher'/>
+      <word id='4013' word='The Narrator'/>
+      <word id='4014' word='Tobey'/>
+      <word id='4015' word='Violet'/>
+      <word id='4016' word='WordGirl'/>
+    </set>
+  </category>
+
+  <fonts>
+    <font id='1' name='BillyBold' size='14'/>
+    <font id='2' name='ChickenBasket' size='16'/>
+    <font id='3' name='Comic' size='14'/>
+    <font id='4' name='HoboStd' size='14'/>
+    <font id='5' name='JumpingBean' size='14'/>
+    <font id='6' name='Palatino' size='14'/>
+  </fonts>
+
+  <colors>
+    <color id='1' color='0x0000FF'/>
+    <color id='2' color='0xFF9900'/>
+    <color id='3' color='0x009900'/>
+    <color id='4' color='0x0099CC'/>
+    <color id='5' color='0x00FF00'/>
+    <color id='6' color='0xBA00FF'/>
+  </colors>
+</data>

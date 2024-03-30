@@ -1,0 +1,167 @@
+<wordgirlmazedata>
+	<level id="1">
+		<wordset mainword="SMART" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="BRAINY,CLEVER,WISE,INTELLIGENT,WITTY" />
+			<incorrectwords words="FLY,HERO,MONKEY,DANCE,HOT DOG" />
+			<cloudset set="1,4,5,7,10" />
+			<cloudset set="2,4,6,8,9" />
+			<cloudset set="1,3,6,7,10" />
+			<cloudset set="2,3,4,7,9" />
+		</wordset>
+		
+		<wordset mainword="BOLD" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="BRAVE,DARING,UNAFRAID,SPIRITED,GUTSY" />
+			<incorrectwords words="BUTCHER,DIAMOND,CAMERA,BANANA,STAR" />
+			<cloudset set="1,4,5,7,10" />
+			<cloudset set="2,4,6,8,9" />
+			<cloudset set="1,3,6,7,10" />
+			<cloudset set="2,3,4,7,9" />
+		</wordset>		
+		
+		<wordset mainword="CHEERFUL" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="HAPPY,JOLLY,CONTENT,PLEASED,CHIPPER" />
+			<incorrectwords words="CLOTHING,DASH,TOAST,OCEAN,WEAK" />
+			<cloudset set="1,4,5,7,10" />
+			<cloudset set="2,4,6,8,9" />
+			<cloudset set="1,3,6,7,10" />
+			<cloudset set="2,3,4,7,9" />
+		</wordset>		
+		
+		<wordset mainword="GLITTER" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="SPARKLE,SHIMMER,DAZZLE,GLISTEN,TWINKLE" />
+			<incorrectwords words="SOCK,GROUP,MISCHIEF,SANDWICH,TUMBLE" />
+			<cloudset set="1,4,5,7,10" />
+			<cloudset set="2,4,6,8,9" />
+			<cloudset set="1,3,6,7,10" />
+			<cloudset set="2,3,4,7,9" />
+		</wordset>		
+		
+		<wordset mainword="POWER" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="STRENGTH,FORCE,VIGOR,SKILL,MIGHT" />
+			<incorrectwords words="NET,SPIDER,FIDDLE,UGLY,KANGAROO" />
+			<cloudset set="1,4,5,7,10" />
+			<cloudset set="2,4,6,8,9" />
+			<cloudset set="1,3,6,7,10" />
+			<cloudset set="2,3,4,7,9" />
+		</wordset>		
+		
+		<wordset mainword="CHUCKLE" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="GIGGLE,LAUGH,GUFFAW,SNICKER,TWITTER" />
+			<incorrectwords words="EAGLE,SCREAM,PENCIL,HOLIDAY,POLICE" />
+			<cloudset set="1,4,5,7,10" />
+			<cloudset set="2,4,6,8,9" />
+			<cloudset set="1,3,6,7,10" />
+			<cloudset set="2,3,4,7,9" />
+		</wordset>		
+	</level>
+	<level id="2">		
+		<wordset mainword="CONQUER" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="DEFEAT,THWART,VANQUISH,TRIUMPH,CRUSH" />
+			<incorrectwords words="VILLAIN,CHEESE,ROBOT,FLIP,RETREAT" />
+			<cloudset set="3,4,5,7,9" />
+			<cloudset set="1,5,6,7,10" />
+			<cloudset set="2,4,7,8,10" />
+			<cloudset set="1,3,6,8,9" />
+		</wordset>		
+		
+		<wordset mainword="FABULOUS" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="EXCELLENT,SUPER,AWESOME,TERRIFIC,FANTASTIC" />
+			<incorrectwords words="DENTIST,ENTRANCE,PORCUPINE,EXHAUSTION,ORDINARY" />
+			<cloudset set="3,4,5,7,9" />
+			<cloudset set="1,5,6,7,10" />
+			<cloudset set="2,4,7,8,10" />
+			<cloudset set="1,3,6,8,9" />
+		</wordset>		
+
+		<wordset mainword="HUSTLE" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="RUSH,SCURRY,HURRY,DASH,SPEED" />
+			<incorrectwords words="PARAKEET,HAMMOCK,MASK,GLORIOUS,DELAY" />
+			<cloudset set="3,4,5,7,9" />
+			<cloudset set="1,5,6,7,10" />
+			<cloudset set="2,4,7,8,10" />
+			<cloudset set="1,3,6,8,9" />
+		</wordset>		
+		
+		<wordset mainword="OUTWIT" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="BAFFLE,BEAT,HOODWINK,TRICK,CONFUSE" />
+			<incorrectwords words="FERRY,RELAX,OCTOPUS,GRAMMAR,FAIL" />
+			<cloudset set="3,4,5,7,9" />
+			<cloudset set="1,5,6,7,10" />
+			<cloudset set="2,4,7,8,10" />
+			<cloudset set="1,3,6,8,9" />
+		</wordset>		
+		
+		<wordset mainword="PECULIAR" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="ODD,BIZARRE,STRANGE,WACKY,UNUSUAL" />
+			<incorrectwords words="HOVER,PUDDING,MOSQUITO,HELICOPTER,NORMAL" />
+			<cloudset set="3,4,5,7,9" />
+			<cloudset set="1,5,6,7,10" />
+			<cloudset set="2,4,7,8,10" />
+			<cloudset set="1,3,6,8,9" />
+		</wordset>		
+		
+		<wordset mainword="THRILLING" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="LIVELY,EXCITING,WILD,SENSATIONAL,ROUSING" />
+			<incorrectwords words="LIZARD,ELBOW,MUSICAL,MASCOT,BORING" />
+			<cloudset set="3,4,5,7,9" />
+			<cloudset set="1,5,6,7,10" />
+			<cloudset set="2,4,7,8,10" />
+			<cloudset set="1,3,6,8,9" />
+		</wordset>		
+	</level>
+	<level id="3">
+		<wordset mainword="VALOR" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="COURAGE,BRAVERY,TENACITY,SPUNK,DETERMINATION" />
+			<incorrectwords words="TIMID,FEARFUL,LAIR,SWINDLE,VANISH" />
+			<cloudset set="2,3,5,7,10" />
+			<cloudset set="1,3,7,8,9" />
+			<cloudset set="2,5,6,8,10" />
+			<cloudset set="1,4,5,9,10" />
+		</wordset>
+		
+		<wordset mainword="CONFIDENTIAL" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="PRIVATE,SECRET,CLASSIFIED,HIDDEN,UNDERCOVER" />
+			<incorrectwords words="PUBLIC,FAMILIAR,BARNACLE,SKYSCRAPER,OUTCAST" />
+			<cloudset set="2,3,5,7,10" />
+			<cloudset set="1,3,7,8,9" />
+			<cloudset set="2,5,6,8,10" />
+			<cloudset set="1,4,5,9,10" />
+		</wordset>
+		
+		<wordset mainword="GADGET" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="TOOL,DEVICE,APPARATUS,GIZMO,CONTRAPTION" />
+			<incorrectwords words="FORTIFY,PLASMA,EVADE,HILARIOUS,GORILLA" />
+			<cloudset set="2,3,5,7,10" />
+			<cloudset set="1,3,7,8,9" />
+			<cloudset set="2,5,6,8,10" />
+			<cloudset set="1,4,5,9,10" />
+		</wordset>
+		
+		<wordset mainword="STENCH" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="ODOR,SMELL,AROMA,STINK,REEK" />
+			<incorrectwords words="SWEETNESS,FRAGRANT,SCOFF,TRAPEZE,CONFETTI" />
+			<cloudset set="2,3,5,7,10" />
+			<cloudset set="1,3,7,8,9" />
+			<cloudset set="2,5,6,8,10" />
+			<cloudset set="1,4,5,9,10" />
+		</wordset>
+		
+		<wordset mainword="PROSPER" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="SUCCEED,BLOSSOM,THRIVE,FLOURISH,TRIUMPH" />
+			<incorrectwords words="SURRENDER,YIELD,EMERALD,TABOO,FRENZY" />
+			<cloudset set="2,3,5,7,10" />
+			<cloudset set="1,3,7,8,9" />
+			<cloudset set="2,5,6,8,10" />
+			<cloudset set="1,4,5,9,10" />
+		</wordset>
+		
+		<wordset mainword="ILLUMINATE" numcorrectwords="5" numincorrectwords="5">
+			<correctwords words="BRIGHTEN,SPOTLIGHT,IGNITE,HIGHLIGHT,LIGHTEN" />
+			<incorrectwords words="OBSCURE,DARKEN,FORGERY,BOOMERANG,CREATIVE" />
+			<cloudset set="2,3,5,7,10" />
+			<cloudset set="1,3,7,8,9" />
+			<cloudset set="2,5,6,8,10" />
+			<cloudset set="1,4,5,9,10" />
+		</wordset>		
+	</level>
+</wordgirlmazedata>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0, user-scalable=no, minimal-ui"/>
+        <meta name="Keywords" content="pretty princess, game, magical rescue, sparkletopia, count cloudy, penelope pony, magic pony, power hour. "/>
+        <meta name="Description" content="Play the Pretty Princess Magical Rescue Adventure Game here!"/>
+        <title>WordGirl . Pretty Princess . Magical Rescue Adventure Game | PBS KIDS GO!</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Pretty Princess. Magical Rescue Adventure Game">
+        <link href="/wordgirl/cdn_content/games/navigation/navigation.css" rel="stylesheet">
+        <style>
+			body, html {
+                background-color: #f680c9;
+            }
+        </style>
+        <script src="/wordgirl/cdn_content/prettyprincess/game/js/libraries.js"></script>
+        <script src="/wordgirl/cdn_content/prettyprincess/game/js/game.min.js"></script>
+        <script src="/wordgirl/cdn_content/prettyprincess/game/js/gameConfig.js"></script>
+        <script src="/wordgirl/cdn_content/prettyprincess/game/js/startup.js"></script>
+    </head>
+ 
+    <body>
+      
+ {% include 'template_includes/modern_headband_include.html' %}
+	
+  {% include 'template_includes/modern_pbsk_js.html' %}
+
+
+        <div class="navigation-bar">
+            <div class="navigation-bar-background left"></div>
+            <div class="navigation-bar-background right"></div>
+            <a class="navigation-bar-logo left" href="http://pbskids.org">
+                <img src="/wordgirl/cdn_content/games/navigation/pbs-kids-logo.png">
+            </a>
+            <a class="navigation-bar-logo right" href="http://pbskids.org/wordgirl/games">
+                <img src="/wordgirl/cdn_content/games/navigation/exit.png" width="40" height="40">
+            </a>
+        </div>        
+        <div id="container">
+            <div id="wrapper">
+                <canvas id="bgCanvas" style="position: absolute; z-index: 0"></canvas>
+                <canvas id="fgCanvas" style="position: absolute; z-index: 1"></canvas>
+            </div>
+        </div>
+        <div id="landscape-modal">
+            <img id="rotate-device-icon" src="/wordgirl/cdn_content/games/navigation/rotate-device.png" alt="Please Turn Device" />
+        </div>
+        <script type="text/javascript">
+            GameStartup.init("/wordgirl/cdn_content/prettyprincess/game/");
+         </script>
+    </body>
+</html>

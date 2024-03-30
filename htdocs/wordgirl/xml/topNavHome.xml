@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopNav siteLogo="images/topnav/logo.png" siteLogoRollOverMP3="site_audio/top_navigation/wordUp.mp3">
+  <simpleNavButton X="135" Y="15" buttonSwf="images/topnav/WGlogo.png" rollOverMP3="site_audio/top_navigation/home.mp3">
+    <metaInfo id="homepage"/>
+  </simpleNavButton>
+  <simpleNavButton X="623" Y="2" buttonSwf="images/topnav/top_characters.png" rollOverMP3="site_audio/top_navigation/characters.mp3">
+    <metaInfo id="heroesvillains"/>
+  </simpleNavButton>
+  <simpleNavButton X="280" Y="0" buttonSwf="images/topnav/top_games.png" rollOverMP3="site_audio/top_navigation/games.mp3">
+    <metaInfo id="games"/>
+  </simpleNavButton>
+  <simpleNavButton X="452" Y="3" buttonSwf="images/topnav/top_videos.png" rollOverMP3="site_audio/top_navigation/videos.mp3">
+    <metaInfo id="adventures"/>
+  </simpleNavButton>
+  <!--<<simpleNavButton X="798" Y="5" buttonSwf="images/topnav/parents.png" rollOverMP3="site_audio/top_navigation/parents.mp3">
+    <metaInfo id="parents"/>
+  </simpleNavButton>
+  <simpleNavButton X="798" Y="42" buttonSwf="images/topnav/teachers.png" rollOverMP3="site_audio/top_navigation/teachers.mp3">
+    <metaInfo id="teachers"/>
+  </simpleNavButton>
+  simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="site_audio/top_navigation/pbskidsgo.mp3">-->
+  <simpleNavButton X="50" Y="0" buttonSwf="images/topnav/PBSlogo.png" kidsButtonSwf="images/topnav/KIDSlogo.png" rollOverMP3="">
+    <metaInfo id="pbskids"/>
+  </simpleNavButton>
+</TopNav>

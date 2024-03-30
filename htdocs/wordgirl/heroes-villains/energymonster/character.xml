@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Energy Monster]]></title>
+	<description><![CDATA[Born at the Energy Plant on the outskirts of town, the Energy Monster grows by absorbing energy from the city through power lines, movie theaters, and even your TV. He usually appears when WordGirl has something she'd much rather be doing, like celebrating her birthday or getting to school on time. He doesn't say much but this villain has a powerful ZAP that will make your hair stand on end.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_energymonster.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/nrg.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|nrgMonster_CB.pdf" iconURL="images/heroVillain/character/activity_coloring_energymonster.png" title="Coloring Page"/>
+		<activity id="printables|nrgMonster_BM.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>
+		<activity id="powerwords" iconURL="images/heroVillain/character/activity_powerword.png" title="Power Words"/>
+	</activities>
+</gameResources>

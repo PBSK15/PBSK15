@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?> 
+<gameResources>
+	<alignment>evil</alignment>
+	<assetsPath><![CDATA[/enablecdn/wordgirl/cdn_content/]]></assetsPath>
+	<title><![CDATA[Victoria Best]]></title>
+	<description><![CDATA[Victoria Best is Becky’'s over-achieving classmate. Constant prodding from her parents encourages Victoria to stop at nothing when it comes to being declared the winner. With her magical recorder, she’'s able to hypnotize people and take things right out of their hands. It bothers Victoria to no end when she hears people talking about WordGirl, the BEST superhero in the city.]]></description>
+	<resources>
+		<resource id="characterImage" URL="images/heroVillain/character/characters_victoria.png" type="image"/>
+		<resource id="characterSound" URL="site_audio/heroesvillains/victoria.mp3" type="sound"/>
+	</resources>
+	<activities>
+		<activity id="printables|coloring/victoria.pdf" iconURL="images/heroVillain/character/activity_coloring_victoria.png" title="Coloring Page"/>
+		<activity id="printables|bookmarks/victoria.pdf" iconURL="images/heroVillain/character/activity_bookmark.png" title="Bookmark"/>	
+	</activities>
+</gameResources>

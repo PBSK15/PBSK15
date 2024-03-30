@@ -1,0 +1,8 @@
+{% extends 'wordgirl/includes/templates/flashWGPage.html.twig' %}
+{% set pageTitle = '. Pretty Princess . Princess Game & Color Play | PBS KIDS GO!' %}
+{% set keywds = 'pretty princess, games, printables, coloring pages, sparkletopia, count cloudy, penelope pony, magic pony, power hour. ' %}
+{% set desc = '' %}
+
+
+{% block swfEmbedScript %}<script type="text/javascript">			var flashvars = {cdn_root: "/enablecdn/wordgirl/cdn_content/", site_root:"/wordgirl/", bg_music_url:"site_audio/princess/PrettyPrincess.mp3", page_xml_url:"xml/prettyPrincessLanding.xml", content_swf_url:"PrettyPrincessLandingProxy.swf", framing:"empty"};			var params = {};			params.bgcolor = "#f680c9";			params.allowscriptaccess = "always";			params.menu = false;			params.wmode = "opaque";			swfobject.embedSWF("/enablecdn/wordgirl/cdn_content/WordGirlShell.swf", "WordGirl", "960", "800", "10.0.0", false, flashvars, params);		</script>{% endblock %}
+
