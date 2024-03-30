@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Marthur Sticker Mashup | PBS Kids' %}
+{% set desc = 'What happens when Arthur meets Martha? You decide by creating a mashup with stickers from each show!' %}
+{% set keywds = 'MARTHA, ARTHUR, mashup, stickers, create, kids shows' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-6cc">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="marthur.html" target="_self"><img src="../../i/games/stickerbook_splash.gif" width="880" height="541" border="0" alt="Play Marthur Sticker Mashup"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/stickers/index.html" id="rcStickers">Baby Kate Stickers</a></li>
+   <li><a href="/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP" id="rcVideoMashup">Marthur Video Mashup</a></li>
+   <li><a href="/arthur/games/comiccreator/index.html" id="rcComic">Comic Creator</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

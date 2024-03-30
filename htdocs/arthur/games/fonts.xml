@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<fonts>
+		<font linkage="Times" menuentry="Times New Roman" file="fonts/basicfonts.swf" thumbnail="fonts/TimesNewRoman.png"/>
+		<font linkage="Arial" menuentry="Arial" file="fonts/basicfonts.swf" thumbnail="fonts/Arial.png"/>
+		<font linkage="Verdana" menuentry="Verdana" file="fonts/basicfonts.swf" thumbnail="fonts/Verdana.png"/>
+		<font linkage="AmbienteScript" menuentry="Ambiente Script" file="fonts/AmbienteScript.swf" thumbnail="fonts/AmbienteScript.png"/>
+		<font linkage="ArabescoScript" menuentry="Arabesco Script" file="fonts/ArabescoScript.swf" thumbnail="fonts/ArabescoScript.png"/>
+		<font linkage="Curlz" menuentry="Curlz" file="fonts/Curlz.swf" thumbnail="fonts/Curlz.png"/>
+		<badfont linkage="DakotaHandwriting" menuentry="Dakota Handwriting" file="fonts/DakotaHandwriting.swf" thumbnail="fonts/DakotaHandwriting.png"/>
+		<font linkage="BravoScript" menuentry="Bravo Script" file="fonts/BravoScript.swf" thumbnail="fonts/BravoScript.png"/>
+		<font linkage="Charme" menuentry="Charme" file="fonts/Charme.swf" thumbnail="fonts/Charme.png"/>
+		<font linkage="ChelsiesHand" menuentry="Chelsies Hand" file="fonts/ChelsiesHand.swf" thumbnail="fonts/ChelsiesHand.png"/>
+		<font linkage="Cornet" menuentry="Cornet" file="fonts/Cornet.swf" thumbnail="fonts/Cornet.png"/>
+		<font linkage="Polonaise" menuentry="Polonaise" file="fonts/Polonaise.swf" thumbnail="fonts/Polonaise.png"/>
+		<font linkage="FlemishScript" menuentry="Flemish Script" file="fonts/FlemishScript.swf" thumbnail="fonts/FlemishScript.png"/>
+		<font linkage="JustLeftHand" menuentry="Just Left Hand" file="fonts/JustLeftHand.swf" thumbnail="fonts/JustLeftHand.png"/>
+		<font linkage="Flash" menuentry="Flash" file="fonts/Flash.swf" thumbnail="fonts/Flash.png"/>
+		<font linkage="Gando" menuentry="Gando" file="fonts/Gando.swf" thumbnail="fonts/Gando.png"/>
+		<font linkage="Blair" menuentry="Blair" file="fonts/Blair.swf" thumbnail="fonts/Blair.png"/>
+		<font linkage="CalSans" menuentry="Cal Sans" file="fonts/CalSans.swf" thumbnail="fonts/CalSans.png"/>
+		<font linkage="Impact" menuentry="Impact" file="fonts/Impact.swf" thumbnail="fonts/Impact.png"/>
+		<font linkage="Futura" menuentry="Futura" file="fonts/Futura.swf" thumbnail="fonts/Futura.png"/>
+		<font linkage="Acme" menuentry="Acme" file="fonts/Acme.swf" thumbnail="fonts/Acme.png"/>
+		<font linkage="AioPoster" menuentry="Aio Poster" file="fonts/AioPoster.swf" thumbnail="fonts/AioPoster.png"/>
+		<font linkage="Glitterati" menuentry="Glitterati" file="fonts/Glitterati.swf" thumbnail="fonts/Glitterati.png"/>
+		<font linkage="BethCaps" menuentry="Beth Caps" file="fonts/BethCaps.swf" thumbnail="fonts/BethCaps.png"/>
+		<font linkage="CrystalRadio" menuentry="Crystal Radio" file="fonts/CrystalRadio.swf" thumbnail="fonts/CrystalRadio.png"/>
+		<font linkage="Alleycat" menuentry="Alleycat" file="fonts/Alleycat.swf" thumbnail="fonts/Alleycat.png"/>
+		<font linkage="Ambrosia" menuentry="Ambrosia" file="fonts/Ambrosia.swf" thumbnail="fonts/Ambrosia.png"/>
+		<font linkage="AmericanText" menuentry="American Text" file="fonts/AmericanText.swf" thumbnail="fonts/AmericanText.png"/>
+		<font linkage="Artistik" menuentry="Artistik" file="fonts/Artistik.swf" thumbnail="fonts/Artistik.png"/>
+		<font linkage="BermudaDots" menuentry="Bermuda Dots" file="fonts/BermudaDots.swf" thumbnail="fonts/BermudaDots.png"/>
+		<font linkage="Bighouse" menuentry="Bighouse" file="fonts/Bighouse.swf" thumbnail="fonts/Bighouse.png"/>
+		<font linkage="Andesite" menuentry="Andesite" file="fonts/Andesite.swf" thumbnail="fonts/Andesite.png"/>
+		<font linkage="Allise" menuentry="Allise" file="fonts/Allise.swf" thumbnail="fonts/Allise.png"/>
+		<font linkage="Domaigne" menuentry="Domaigne" file="fonts/Domaigne.swf" thumbnail="fonts/Domaigne.png"/>
+		<font linkage="Egbert" menuentry="Egbert" file="fonts/Egbert.swf" thumbnail="fonts/Egbert.png"/>
+		<font linkage="FontDinerDotCom" menuentry="Font Diner Dot Com" file="fonts/FontDinerDotCom.swf" thumbnail="fonts/FontDinerDotCom.png"/>
+		<font linkage="Funhouse" menuentry="Funhouse" file="fonts/Funhouse.swf" thumbnail="fonts/Funhouse.png"/>
+		<font linkage="Harlequin" menuentry="Harlequin" file="fonts/Harlequin.swf" thumbnail="fonts/Harlequin.png"/>
+		<font linkage="MardiGraas" menuentry="MardiGraas" file="fonts/MardiGraas.swf" thumbnail="fonts/MardiGraas.png"/>
+	</fonts>
+</root>

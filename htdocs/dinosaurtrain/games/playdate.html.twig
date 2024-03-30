@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Play Date' %}
+{% set desc = 'Play a game with Buddy, Tiny, Shiny or Don! Choose from Tic-Tac-Toe, Dino Ball or Dots n\\\' Boxes. Be sure to use your manners and take turns on your Play Date!' %}
+{% set keywds = 'Buddy, Tiny, Shiny, Don, Tic Tac Toe, Dots n Boxes, Dino Ball' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#9f4504');
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/PlayDate_Shell.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

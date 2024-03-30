@@ -1,0 +1,94 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'Arthur Family Health | PBS KIDS' %}
+
+{% set videoCss = true %}{% set specialInclude = '<style type="text/css">	#content ul { clear: both; }	#content li {		display: block;		width: 19%;		float: left;		list-style: none;	}	#content li a {		display: block;		text-decoration: none;	}	#content li img {		width: 100%;		max-width: 179px;	}	#content li a > div {		display: table;		width: 100%;		height: 40px;		padding: 8px 0;		margin-top: 10px;		font: 1.4375em/20px "lilita one", sans-serif;		letter-spacing: 1px;		text-transform: uppercase;		color: #fff;		border-radius: 12px;		-webkit-border-radius: 12px;	}	#content li span {		text-align: center;		display: table-cell;		vertical-align: middle;	}	.item1, .item2, .item3, .item4 { margin-right: 1%; }	.caret-home {		display: none;		background: url(img/sprites.png) no-repeat;		background-position: -33px 5px;		width: 22px;		height: 22px;		margin: 8px 13px 0 0;		float: right;		border-radius: 11px;		-webkit-border-radius: 11px;	}	div.green { background: #407340; }	div.purple { background: #783c78; }	div.pink { background: #a64776; }	div.teal { background: #007373; }	div.blue { background: #039; }	div.green .caret-home { background-color: #89ba85; }	div.purple .caret-home { background-color: #be8bbe; }	div.pink .caret-home { background-color: #bf8cbf; }	div.teal .caret-home { background-color: #00bebe; }	div.blue .caret-home { background-color: #a0c9e9; }	h3 { margin: 50px 0 10px 1px; }	@media only screen and (max-width: 788px) {		.caret-home { display: table-cell; }		#content ul { margin-right: 15px; }		#content li img { display: none; }		#content li {			float: none;			width: 100%;		}		.item1, .item2, .item3, .item4 { margin-right: 0; }		#content li span { text-align: left; }		#content li a > div { padding-left: 15px; }	}	</style>' %}
+{% set bodyClass = 'orange' %}
+
+{%block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><a href="asthma/">Asthma</a></li>
+   <li><a href="allergy/">Peanut Allergy</a></li>
+   <li><a href="nutrition/">Nutrition</a></li>
+   <li><a href="resilience/">Resilience</a></li>
+   <li><a href="fitness/">Fitness</a></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Home</a>
+   </div>
+   <ul>
+    <li><a href="asthma/">Asthma</a></li>
+    <li><a href="allergy/">Peanut Allergy</a></li>
+    <li><a href="nutrition/">Nutrition</a></li>
+    <li><a href="resilience/">Resilience</a></li>
+    <li><a href="fitness/">Fitness</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="home group"><img class="col7" src="img/home_family.png" alt="">
+  <div class="col5">
+   <p class="mar-t-xlg">Dealing with your child's health can be challenging and sometimes scary. Arthur and his friends are here to help with games, videos, and resources designed to help keep your family safe and strong.</p>
+  </div>
+  <ul class="group">
+   <li class="item1"><a href="asthma/"> <img src="img/thumb_asthma2.png" alt="Athur &amp; Buster">
+     <div class="green">
+      <span>Asthma</span>
+      <div class="caret-home"></div>
+     </div> </a></li>
+   <li class="item2"><a href="allergy/"> <img src="img/thumb_peanutallergy2.png" alt="Binky">
+     <div class="purple">
+      <span>Peanut<br>Allergy</span>
+      <div class="caret-home"></div>
+     </div> </a></li>
+   <li class="item3"><a href="nutrition/"> <img src="img/thumb_nutrition2.png" alt="Brain &amp; Buster">
+     <div class="pink">
+      <span>Nutrition</span>
+      <div class="caret-home"></div>
+     </div> </a></li>
+   <li class="item4"><a href="resilience/"> <img src="img/thumb_resilience2.png" alt="Francine &amp; Buster">
+     <div class="teal">
+      <span>Resilience</span>
+      <div class="caret-home"></div>
+     </div> </a></li>
+   <li class="item5"><a href="fitness/"> <img src="img/thumb_fitness2.png" alt="D.W.">
+     <div class="blue">
+      <span>Fitness</span>
+      <div class="caret-home"></div>
+     </div> </a></li>
+  </ul>
+  <h3>Featured Video</h3>
+  <div id="player" class="col7vid single-video">
+   <div class="video-wrapper widescreen">
+    <video id="video-player"></video>
+   </div>
+   <div id="player-controls" class="hidden">
+    <div class="play-pause vid-ctl-btn"><button title="Play/Pause"> <span id="icon-play" class="vid-ctl-icon">play</span> <span id="icon-pause" class="vid-ctl-icon">pause</span> </button>
+    </div>
+    <div class="show-fullscreen vid-ctl-btn removed"><button title="Full-screen"> <span id="icon-fs" class="vid-ctl-icon">full-screen</span> </button>
+    </div>
+    <div class="toggle-captions vid-ctl-btn"><button title="Captions on/off"> <span id="icon-captoff" class="vid-ctl-icon">CC</span> <span id="icon-capton" class="vid-ctl-icon">CC</span> </button>
+    </div>
+    <div class="mute-unmute vid-ctl-btn"><button title="Mute/Unmute"> <span id="icon-mute" class="vid-ctl-icon">mute</span> <span id="icon-unmute" class="vid-ctl-icon">unmute</span> </button>
+    </div>
+    <div class="timer-remaining">
+     ––:––
+    </div>
+    <div class="scrubber">
+     <div class="scrubber-track">
+      <button class="scrubber-thumb"></button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="col5 vid-txt"><!-- DISABLEDinclude virtual="inc/feat_videos_home.html" -->
+   <script>var videoID="3341dfa9-4baa-4e6e-a5ae-308c244978a1";</script>
+   <p>Take a video tour of the site!</p>
+  </div>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="js/video2.js"></script><script src="https://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script><script src="js/main.js"></script><script src="js/jquery-1.10.2.min.js"></script>' %}

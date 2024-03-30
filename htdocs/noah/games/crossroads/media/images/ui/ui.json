@@ -1,0 +1,22 @@
+{
+
+"images": [
+    "ui.png"
+],
+
+"frames": [
+    [1, 1, 400, 476, 0, 0, 0],
+    [402, 1, 48, 40, 0, 0, 0]
+],
+
+"animations": {
+    "SmallMenuBg": [0],
+    "SpeechBubbleTail": [1]
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:6fd5bb97eed5ad3eaea3826d73eda60c:71bb298c7c3cc36359df1be4a30aef4b:5b04aa198265472a3c5f56958d78e97b$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

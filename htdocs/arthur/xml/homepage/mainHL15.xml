@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Alien: Assembly Required</title>
+			<href>/arthur/games/alien/index.html</href>
+			<imgurl>/arthur/i/related/alien.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Comic Creator</title>
+			<href>/arthur/games/comiccreator/index.html</href>
+			<imgurl>/arthur/i/related/comic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Facts and Opinions</title>
+			<href>/arthur/games/factsopinions/index.html</href>
+			<imgurl>/arthur/i/related/factsopinions.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Green Challenge</title>
+			<href>/arthur/games/gogreen/index.html</href>
+			<imgurl>/arthur/i/related/gogreen.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>/arthur/i/related/grooveit.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Video</title>
+			<href>/arthur/video/index.html</href>
+			<imgurl>/arthur/i/related/video.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Vomitrocious</title>
+			<href>/arthur/video/index.html?pid=0pfsNjVreZEtsBlA_VmtjpeY2hcZrQ_c</href>
+			<imgurl>/arthur/i/related/vomitrocious.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lights, Camera... Opera!</title>
+			<href>/arthur/video/index.html?pid=hlB0I0bTnyKOeR2rle38YbSitnn_dp0t</href>
+			<imgurl>/arthur/i/related/lightscamera.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

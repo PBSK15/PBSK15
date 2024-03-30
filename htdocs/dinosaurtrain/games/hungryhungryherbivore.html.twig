@@ -1,0 +1,21 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Hungry Hungry Herbivore' %}
+{% set desc = 'Guide Tank the Triceratops to find yummy plants to eat while keeping him safe with his herd! Learn about herbivores, what they ate, and that they travel in herds. ' %}
+{% set keywds = 'science game for kids, dinosaur herd safety, triceratops game, herbivore game, dinosaur train game, predator game' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	// var obj	= new SWFObject('/dinosaurtrain/media/swfs/hh.swf', 'hhSWF', '1100', '440', '9', '#E8DA70');
+	// obj.write('main_content');
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/hh.swf', 'swfContent', w, '100%', '10.1', 'E8DA70' )
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

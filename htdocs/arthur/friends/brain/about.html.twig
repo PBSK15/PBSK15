@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . The Brain\'s About Me Page | PBS Kids' %}
+{% set desc = 'Learn about Brains favorite things and take a poll on what you do with your electronics when youre not using them.' %}
+{% set keywds = 'interests, Brain, school, smart, favorites' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cc9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/brain_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/brain_top.swf", "brain", "960", "363", "9", "#cccc99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "brain");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-brain">The Brain's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Conquering my fear of water. Now I love to swim!
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Getting a B- on a test.
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Finding the rare Green-Tailed Grebe. Wish I'd had my camera!
+    </dd>
+   </dl>
+   <div id="pollWrapper">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you turn off the water while brushing your teeth?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/brain/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="brain"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="../../i/friends/books/brain_book1.jpg" width="148" height="117" alt="Amazing Spiders book cover" border="0"> <h4>Amazing Spiders</h4> <p>by Alexandra Parsons<br> Did you know that if a spider loses a leg, it simply grows a new one? Check out this book for fascinating inside information and photos.</p></li>
+    <li><img src="../../i/friends/books/brain_book2.jpg" width="148" height="117" alt="The Icky Bug Alphabet Book book cover" border="0"> <h4>The Icky Bug Alphabet Book</h4> <p>by Jerry Pallotta<br> A beautiful bug for each letter of the alphabet with some nifty facts, too</p></li>
+    <li><img src="../../i/friends/books/brain_book3.jpg" width="148" height="117" alt="If You Hopped Like a Frog book cover" border="0"> <h4>If You Hopped Like a Frog</h4> <p>by David M. Schwartz<br> Did you know that if we were fleas, we could jump as high as the torch on the Statue of Liberty?</p></li>
+    <li><img src="/arthur/i/1px.gif" width="148" height="117" alt="" border="0"> <h4>Silly Science Tricks</h4> <p>by Peter Murray<br> You can do cool things with science. Learn how to turn a chicken bone into rubber and how to make a balloon inflate itself.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/games/askbrain/index.html" id="rcAskBrain">Ask The Brain</a></li>
+   <li><a href="/arthur/games/lunchomatic/index.html" id="rcLunch">Lunch-o-matic</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

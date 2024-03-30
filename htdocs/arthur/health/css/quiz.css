@@ -1,0 +1,116 @@
+p { padding: 0 0 1em 10px; }
+
+.col7 li {
+	font-size: medium;
+	line-height: normal;
+}
+
+#quiz-btns {
+	width: 100%;
+	height: 50px;
+	clear: both;
+	padding-top: 25px;
+	position: relative;
+}
+
+.quiz ul {
+	margin: 0;
+	padding: 0;
+}
+
+.quiz li {
+	clear: left;
+	list-style: none;
+	margin: 0;
+	padding: 12px 0;
+}
+
+.quiz li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	min-height: 50px;
+}
+
+.quiz li span { font: 1.4em/1.2em montserrat, sans-serif; }
+
+.quiz li div span { font: 29px/29px "lilita one", sans-serif; }
+
+.quiz li div {
+	float: left;
+	color: #fff;
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	-webkit-border-radius: 23px;
+	margin: 2px 13px 0 10px;
+}
+
+.quiz span {
+	display: table-cell;
+	vertical-align: middle;
+	height: 50px;
+}
+
+.quiz div span {
+	padding-left: 1px;
+	width: 46px;
+	height: 46px;
+	text-align: center;
+}
+
+#fdbk {
+	letter-spacing: -1px;
+	display: none;
+	font: bold 1.875em montserrat, sans-serif;
+	color: #f93;
+	text-transform: uppercase;
+}
+
+.btn-std {
+	display: none;
+	position: absolute;
+	right: 0;
+}
+
+p.tip {
+	display: none;
+	font: 1.3em/1.3em montserrat, sans-serif;
+	color: #fff;
+	margin-top: 20px;
+	padding: 25px 25px 27px 34px;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+li.chosen {
+	background: #f9d85d;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+#fdbk, #quest { font-weight: bold; }
+
+h5 { margin-bottom: 1.5em; }
+
+@media only screen and (max-width: 759px) {
+	p.tip {
+		font: 1.2em/1.175em montserrat, sans-serif;
+		padding:  1em 0.9em;
+		margin-top: 10px;
+	}
+}
+
+.orange .quiz ul div { background: #ff6e08; }
+.green .quiz ul div { background: #407340; }
+.purple .quiz ul div { background: #7340a6; }
+.pink .quiz ul div { background: #a64776; }
+.teal .quiz ul div { background: #007373; }
+.blue .quiz ul div { background: #039; }
+
+.orange p.tip { background-color: #f93; }
+.green p.tip { background-color: #696; }
+.purple p.tip { background-color: #96c; }
+.pink p.tip { background-color: #ca6b9a; }
+.teal p.tip { background-color: #099; }
+.blue p.tip { background-color: #3266cc; }

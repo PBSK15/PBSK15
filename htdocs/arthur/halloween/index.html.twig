@@ -1,0 +1,32 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Halloween | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-f93">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="halloweenHeader">Halloween</h4>
+  </div> <img src="../i/halloween/halloween_arthur.gif" width="197" height="341" alt="Arthur dressed as Bionic Bunny" border="0" class="float-left">
+  <div id="printablesNavIcons">
+   <ul id="halloweenNavIcons">
+    <li id="hColoring" class="icon"><a href="coloring.html"><span>Halloween Coloring Pages</span></a></li>
+    <li id="hMasks" class="icon"><a href="/arthur/print/masks/index.html"><span>Masks</span></a></li>
+    <li id="hAlien" class="icon"><a href="/arthur/games/alien/index.html"><span>Alien: Assembly Required</span></a></li>
+    <li id="hCrank" class="icon"><a href="/arthur/games/crankitup/index_halloween.html"><span>Crank It Up</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Ask Prunell</a></li>
+   <li><a href="/arthur/games/crankitup/index_halloween.html" id="rcCrankHalloween">Crank It Up!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

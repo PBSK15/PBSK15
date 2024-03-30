@@ -1,0 +1,52 @@
+<html>
+<head>
+    {% if altTitle == true %}
+        <title>Arthur | PBS Kids | Mobile</title>
+    {% else %}
+	    <title>Arthur | Mobile | {{additionalTitle|raw}}</title>
+    {% endif %}
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+
+	<script src="/arthur/mobile/js/respond.min.js"></script>
+<!--
+	<script src="../js/querystringUtil.js"></script>
+	<script src="../js/detectmobilebrowser.js"></script>-->
+
+    {% if noPageCss == false %}
+	        <link rel="stylesheet" type="text/css" href="/arthur/mobile/css/page.css">
+    {% endif %}
+
+    {{specialInclude|raw}}
+
+	<!--<script type="text/javascript" src="../js/utility.js"> </script>-->
+</head>
+
+<body>
+<!-- PBS Global Kids include -->
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+
+
+
+<!-- end bbinclude -->
+<div id="page"> 
+	{% block mainPage %}{% endblock %}
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body{
+	/*background-color:#33cbcc;*/
+	background-color:#99ccff;
+	font-family:Montserrat, sans-serif;
+	color: #000099;
+}
+
+#mainContent{
+	/*background-color:#33cbcc;*/
+	border:none;
+	/*height: 80%;*/
+}
+
+#bottom{
+	border-top: solid 1px #000;
+	/*height: 20%;*/
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<strings>
+		<string name="LIVPRODUCT">LIVPRODUCT</string>
+		
+		<string name="DIRTY_WORDS_FAIL">Our dirty word filter thinks you should clean up your language. Your design will not be saved.</string>
+		<string name="SERVICE_ERROR_ON_SAVE">There was a problem with your save, please try again.</string>
+		<string name="DOCUMENT_NOT_SAVED">Your document was not saved.</string>
+		<string name="DESIGN_NAME_ERROR">Please give your document a name. If you reuse a name, that document will be saved over.</string>
+		<string name="SAVE_OVER_DESIGN">Do you want to save over your design with the same name?</string>
+		<string name="SAVE_AS_PUBLIC">Thank you for submitting your design. All designs are reviewed for display in the Liv Gallery within 48 hours.</string>
+		<string name="TOO_MANY_DESIGNS">You can't save any more designs. Please delete some first.</string>
+		<string name="TOO_MANY_IMAGES">You can't save any more images. Please delete some first.</string>
+		<string name="MAX_CATEGORIES">You can only check up to 5 categories</string>
+		
+		<string name="LOAD_ERROR">There was an error loading that file.</string>
+		
+		<string name="LOGIN_TO_UPLOAD">you need to be logged in to upload images</string>
+		<string name="NOT_LOGGED_IN">You are not logged in.  You must be logged in to save designs, print and upload photos.</string>
+		<string name="UPLOAD_FAIL">There was a problem with your upload</string>
+		<string name="SAVE_BEFORE_PRINT">You must save your design before printing.</string>
+		
+		<string name="DO_TARSIN">You are about to visit the Tarsin website to retrieve your Cellphone Wallpaper.</string>
+		<string name="DO_EXPORT"><![CDATA[A new window will open with your %template.xml.@name% Computer Wallpaper.  Right-click and save to download the image to your desktop.]]></string>
+		<string name="DO_ZAZZLE_EXPORT"><![CDATA[You are about to visit the Zazzle website to purchase your %template.xml.@name%.]]></string>
+		<string name="DO_PRODUCT_EXPORT">A new window will open with your Product Design.  Right-click and save to download the image to your desktop</string>
+		
+		<string name="HELP_LINK"><![CDATA[/index.cfm?p=content&itemID=153]]></string>
+		<string name="PRINT_HELP_LINK"><![CDATA[/index.cfm?p=content&itemID=153#print]]></string>
+		<string name="PRINT_TEST_LINK"><![CDATA[https://cdn.crayola.com/livCrayola/swf/test-print.pdf]]></string>
+		
+		<string name="EMPTY"><![CDATA[]]></string>
+		<string name="CONFIRM_HEADER"><![CDATA[<b>Final Check:</b>]]></string>
+		<string name="CONFIRM_MSG_INSERT"><![CDATA[You are about to print an insert sheet that can be used for Liv Crayola Binders, Notebooks and Folders.<br/><br/>•  Do you have the correct Binder, Notebook or Folder insert sheet loaded in your printer?<br/><br/>For best results, use your printer's highest quality settings.]]></string>
+		<string name="CONFIRM_MSG_PEN"><![CDATA[You are printing your designs on the adhesive sheet.<br/><br/>•  Do you have the correct writing instrument adhesive sheet loaded in your printer?<br/>•  Is the paper facing the right way for your printer? <a href="/index.cfm?p=content&itemID=153#print" target="_blank"><font color="#ad409d">(not sure? printing tips)</font></a><br/><br/>For best results, use your printer's highest quality settings.]]></string>
+		<string name="CONFIRM_MSG_RULER"><![CDATA[You are printing your design on a perforated sheet of paper. This sheet can only go through the printer once.<br/><br/>•  Have you set designs for both ruler and index card areas?<br/>•  Do you have the perforated Ruler/Index Card paper loaded in your printer?<br/>•  Is the paper facing the right way for your printer? <a href="/index.cfm?p=content&itemID=153#print" target="_blank"><font color="#ad409d">(not sure? printing tips)</font></a><br/><br/>For best results, use your printer's highest quality settings.]]></string>
+		<string name="CONFIRM_MSG_LOCKER"><![CDATA[You are printing your design on a perforated sheet of paper. This sheet can only go through the printer once.<br/><br/>•  Have you set designs for both locker board areas?<br/>•  Do you have the perforated locker board paper loaded in your printer?<br/>•  Is the paper facing the right way for your printer? <a href="/index.cfm?p=content&itemID=153#print" target="_blank"><font color="#ad409d">(not sure? printing tips)</font></a><br/><br/>For best results, use your printer's highest quality settings.]]></string>
+		<string name="CONFIRM_MSG_BLANK"><![CDATA[You are about to print your designs on a blank sheet of paper.<br/><br/>•  Do you have a blank sheet of paper loaded in your printer?<br/><br/>For best results, use your printer's highest quality settings.]]></string>
+		
+		<string name="CONTEST_STRING"><![CDATA[Enter me in the <a href="/contest/" target="_blank"><font color="#ad409d"><b>contest</b></font></a> I agree to the <a href="/contest_rules/" target="_blank"><font color="#ad409d"><b>terms and conditions</b></font></a>]]></string>
+		
+		
+		<string name="LOADER_LOADING">Loading...</string>
+		<string name="LOADER_SAVING">Saving...</string>
+		<string name="LOADER_EXPORTING">Exporting...</string>
+		<string name="LOADER_DELETING">Deleting...</string>
+		<string name="LOADER_CONNECTING">Connecting...</string>
+		
+		
+	</strings>
+</root>
+
+
+
+
+
+

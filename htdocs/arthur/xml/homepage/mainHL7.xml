@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Art Gallery</title>
+			<href>/arthur/games/artgallery/index.html</href>
+			<imgurl>/arthur/i/related/gallery.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Virtual Goose</title>
+			<href>/arthur/games/virtualgoose/index.html</href>
+			<imgurl>/arthur/i/related/goose.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Stickerbook Mashup</title>
+			<href>/arthur/games/marthursticker/index.html</href>
+			<imgurl>/arthur/i/related/stickerbook.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Supermarket Adventure</title>
+			<href>/arthur/games/supermarket/index.html</href>
+			<imgurl>/arthur/i/related/supermarket.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy's Wardrobe</title>
+			<href>/arthur/games/wardrobe/index.html</href>
+			<imgurl>/arthur/i/related/wardrobe.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>The Lint Rush</title>
+			<href>/arthur/video/index.html?pid=msANwkSPX_1u6ScqaB_ldGGqoLroUFot</href>
+			<imgurl>/arthur/i/related/lintrush.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Fernkenstein's Monster</title>
+			<href>/arthur/video/index.html?pid=KcqIq1eAQQm3RP1c_AHTxNnPh2QaxwTX</href>
+			<imgurl>/arthur/i/related/fernkenstein.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Castles in the Sky</title>
+			<href>/arthur/video/index.html?pid=jrQFQic9P_YJ_yf32ZVzZp2LrkThcWdo</href>
+			<imgurl>/arthur/i/related/castlesinsky.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Room To Ride</title>
+			<href>/arthur/video/index.html?pid=CzGhWX80_TK8ceDD4yDXoltE4E4u0Uew</href>
+			<imgurl>/arthur/i/related/roomtoride.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

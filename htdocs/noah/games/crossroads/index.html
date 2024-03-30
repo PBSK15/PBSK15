@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oh Noah! Crossroads!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-mobile-web-app-title" content="Crossroads!">
+
+<link rel="stylesheet" type="text/css" href="css/game.css">
+
+	<!-- <script type="text/javascript" src="http://stage.pbskids.org/kartkingdom/api/kartkingdom.cheator.min.js"></script> -->
+	<script type="text/javascript" src="http://stage.pbskids.org/kartkingdom/api/kartkingdom.minigame.min-latest.js"></script>
+	<script type="text/javascript" src="js/libraries.js"></script>
+
+	
+
+	<script type="text/javascript" src="js/game.min.js"></script>
+	<script type="text/javascript" src="js/game-config.js"></script>
+
+<style>
+		html,body {
+			background-color: #a1c6be;
+			color: #fff;
+			font-family: helvetica, arial, sans-serif;
+			margin: 0;
+			font-size: 12pt;
+
+		}
+		
+		#canvas, #webglCanvas {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: 0;
+		}
+
+.pbslogo-gamefullscreen { display: inline; padding-left: 10px; width:30px;}
+
+.noahlogo-gamefullscreen {  width:70px; padding-top: 3px; }
+
+.header-gamefullscreen {
+    height:40px;
+    background:#FFF;
+    border-bottom:0px solid #3E8F33;
+    width:100%;
+    margin-top:0px auto;
+
+}
+
+
+
+#menu-gamefullscreen ul{ margin: 0; padding: 1px; }
+
+#menu-gamefullscreen li {display: inline;}
+
+
+#hide {
+	display:hidden;
+  position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+
+#headband-container {display:hidden;   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+
+
+</style>
+
+
+</head>
+<body>
+<div class="header-gamefullscreen">
+<div id="menu-gamefullscreen"><ul>
+<li ><a href="http://pbskids.org/"><img src="../../img/logos/logo_pbs_small.png"/; class="pbslogo-gamefullscreen" ></a></li>
+<li><a  href="http://pbskids.org/noah/"><img src="../../img/logos/logo_ohnoah_small.png"; class="noahlogo-gamefullscreen"/></a></li>
+</ul>
+</div> </div>
+
+<div id="hide"><script>
+    var lookupTable = {
+    "": "UA-4005001-1,ET-4005001-3",
+    "aaworld": "UA-4005001-1,UA-3968572-1,UA-3999801-1,ET-3999801-2",
+    "arthur": "UA-4005001-1,UA-3966576-1,UA-3999950-1,ET-3999950-2",
+    "beeswax": "UA-4005001-1,UA-3966576-1,UA-10616832-1,ET-10616832-2",
+    "berenstainbears": "UA-4005001-1,UA-3968098-1,UA-3994369-1,ET-3994369-2",
+    "buster": "UA-4005001-1,UA-3966576-1,UA-3999991-1,ET-3999991-2",
+    "caillou": "UA-4005001-1,UA-3967441-1,UA-3993958-1,ET-3993958-2",
+    "caillou_french": "UA-4005001-1,UA-3967441-1,UA-3993993-1,ET-3993993-2",
+    "catinthehat": "UA-4005001-1,UA-16154142-1,UA-16155509-1,ET-16155509-2",
+    "chuck": "UA-4005001-1,UA-3968372-1,UA-21787719-1,ET-21787719-2",
+    "clifford": "UA-4005001-1,UA-3968372-1,UA-3999587-1,ET-3999587-2",
+    "clifford/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3968372-1,UA-3999587-1",
+    "curiousgeorge": "UA-4005001-1,UA-3966576-1,UA-4000040-1,ET-4000040-2",
+    "curiousgeorge/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3966576-1,UA-4000040-1",
+    "cyberchase": "UA-4005001-1,UA-3968572-1,UA-2223922-1,ET-2223922-2",
+    "cyberchase/parentsteachers": "UA-1996666-1,UA-3964855-1,UA-3978951-1,ET-3978951-2,UA-3966759-1,UA-2223922-1",
+    "daniel": "UA-4005001-1,UA-3967651-1,UA-30580064-1,ET-30580064-2",
+    "designsquad": "UA-4005001-1,UA-3966576-1,UA-4000083-1,ET-4000083-2",
+    "dinosaurtrain": "UA-4005001-1,UA-10166412-1,UA-10166683-1,ET-10166683-2",
+    "dontbuyit": "UA-4005001-1,UA-3967876-1,UA-3994203-1,ET-3994203-2",
+    "dragonflytv": "UA-4005001-1,UA-3965989-1,UA-3999924-1,ET-3999924-2",
+    "earthday": "UA-4005001-1,UA-3964855-1,UA-3994540-1,ET-3994540-2",
+    "eekoworld": "UA-4005001-1,UA-3967115-1,UA-3993810-1,ET-3993810-2",
+    "electriccompany": "UA-4005001-1,UA-3968507-1,UA-5414685-1,ET-5414685-2",
+    "fetch": "UA-4005001-1,UA-3966576-1,UA-4000129-1,ET-4000129-2",
+    "frannysfeet": "UA-4005001-1,UA-3968572-1,UA-3999901-1,ET-3999901-2",
+    "healthysummer": "UA-4005001-1,UA-3964855-1,UA-3994602-1,ET-3994602-2",
+    "hooper": "UA-4005001-1,UA-3964855-1,UA-3994749-1,ET-3994749-2",
+    "in_your_town": "UA-4005001-1,UA-3964855-1,UA-3994707-1,ET-3994707-2",
+    "island": "UA-4005001-1,UA-3964855-1,UA-3992719-1,ET-3992719-2",
+    "itsmylife": "UA-4005001-1,UA-3967369-1,UA-3993912-1,ET-3993912-2",
+    "lab": "UA-4005001-1,UA-3964855-1,UA-26042731-1,ET-26042731-2",
+    "lifeboat": "UA-4005001-1,UA-10617025-1,UA-10617056-1,ET-10617056-2",
+    "lions": "UA-4005001-1,UA-3966576-1,UA-4000155-1,ET-4000155-2",
+    "lomax": "UA-4005001-1,UA-6719338-1,UA-6719298-1,ET-6719298-2",
+    "loopscoops": "UA-4005001-1,UA-3966576-1,UA-20228423-1,ET-20228423-2",
+    "lunchlab": "UA-4005001-1,UA-10616664-1,UA-10616734-1,ET-10616734-2",
+    "martha": "UA-4005001-1,UA-3966576-1,UA-5036549-1,ET-5036549-2",
+    "mayaandmiguel": "UA-4005001-1,UA-3968372-1,UA-3999619-1,ET-3999619-2",
+    "noah": "UA-4005001-1,UA-3968572-1,UA-21783296-1,ET-21783296-2",
+    "pets": "UA-4005001-1,UA-3964855-1,UA-3994771-1,ET-3994771-2",
+    "readytolearn": "UA-4005001-1,UA-3964855-1,UA-26042731-3,UA-26042731-4",
+    "retired_backyardjungle.html": "UA-4005001-1,UA-3967720-1,UA-3994136-1,ET-3994136-2",
+    "rogers": "UA-4005001-1,UA-3967651-1,UA-3994102-1,ET-3994102-2",
+    "scigirls": "UA-4005001-1,UA-3965989-1,UA-10617102-1,ET-10617102-2",
+    "sesame": "UA-4005001-1,UA-3968507-1,UA-3999779-1,ET-3999779-2",
+    "sid": "UA-4005001-1,UA-3963045-1,UA-5035505-1,ET-5035505-2",
+    "speakout": "UA-4005001-1,UA-3964855-1,UA-6307581-1,ET-6307581-2",
+    "storyfactory": "UA-4005001-1,UA-3964855-1,UA-3994817-1,ET-3994817-2",
+    "superwhy": "UA-4005001-1,UA-3968166-1,UA-3994472-1,ET-3994472-2",
+    "talentshow": "UA-4005001-1,UA-3964855-1,UA-3999413-1,ET-3999413-2",
+    "thomasandfriends": "UA-4005001-1,UA-3967794-1,UA-42889099-1,ET-42889099-2",
+    "toopyandbinoo": "UA-4005001-1,UA-6043722-1,UA-6043633-1,ET-6043633-2",
+    "video": "UA-4005001-1,ET-4005001-5",
+    "wildkratts": "UA-4005001-1,UA-3967957-1,UA-18413296-1,ET-18413296-2",
+    "wilsonandditch": "UA-4005001-1,UA-10166412-1,UA-10616776-1,ET-10616776-2",
+    "wordgirl": "UA-4005001-1,UA-3968372-1,UA-3999648-1,ET-3999648-2",
+    "wordquest": "UA-4005001-1,UA-3964855-1,UA-15498767-1,ET-15498767-2",
+    "wordworld": "UA-4005001-1,UA-3968877-1,UA-4000339-1,ET-4000339-2",
+    "writerscontest": "UA-4005001-1,UA-3964855-1,UA-15499539-1,ET-15499539-2",
+    "zoboo": "UA-4005001-1,UA-3967957-1,UA-3994275-1,ET-3994275-2",
+    "zoom": "UA-4005001-1,UA-3966576-1,UA-4000252-1,ET-4000252-2",
+    "readyjetgo": "UA-4005001-1,UA-69435322-1,UA-68471816-1,ET-68471816-2",
+    "naturecat": "UA-4005001-1,UA-69435628-1,UA-68465755-1,ET-68465755-2",
+    "plumlanding": "UA-4005001-1,UA-3966576-1,UA-47836444-1,ET-47836444-2",
+    "oddsquad": "UA-4005001-1,UA-3967651-1,UA-50934115-1,ET-50934115-2",
+    "bobthebuilder": "UA-4005001-1,UA-3967794-1,UA-68468616-1,ET-68468616-2",
+    "peg": "UA-4005001-1,UA-24428255-1,ET-24428255-2",
+    "splashandbubbles": "UA-4005001-1,UA-10166412-1,UA-77875190-1,ET-77875190-2"
+};
+var ua_codes = "";
+try {
+    var pathArray = window.location.pathname.split( '/' );
+    ua_codes = lookupTable[pathArray[1]];
+    if (ua_codes == "" || ua_codes == null) {
+        ua_codes = "UA-4005001-1,ET-4005001-3";
+    }
+} catch (e) {
+    ua_codes = "UA-4005001-1,ET-4005001-3";
+}
+</script>  
+
+                
+  
+    <script type="text/javascript">
+  (function() {
+    var getCookie = function(c_name) {
+      if (document.cookie.length > 0) {
+        c_start = document.cookie.indexOf(c_name + "=");
+        if (c_start != -1) {
+          c_start = c_start + c_name.length + 1;
+          c_end = document.cookie.indexOf(";", c_start);
+          if (c_end == -1)
+            c_end = document.cookie.length;
+          return unescape(document.cookie.substring(c_start, c_end));
+        }
+      }
+      return "";
+    };
+
+    //Determines if user is logged in
+    var pbskids_username = getCookie('pbskids.username');
+    //Determines if account is new
+    var returning = getCookie('pbskids.returning');
+
+    GA_customvar = {};
+    //var ua_codes = '(none)';
+    //end paste
+
+
+    var ua_codes_list = ua_codes.split(',');
+
+    var login_info;
+    //Setup log in info custom variable string
+    if (pbskids_username) {
+      login_info = "l=1";
+      if (returning) {
+        login_info += "&r=1";
+      } else {
+        login_info += "&r=0";
+      }
+    } else {
+      login_info = "l=0&r=0";
+    }
+
+    for ( i = 0; i < ua_codes_list.length; i++) {
+      var cv_array = [["GO login tracking", login_info, 2]];
+      GA_customvar[ua_codes_list[i]] = cv_array;
+    }
+
+  })();
+</script>
+
+	<script type="text/javascript">
+var GA_env = { ua_list: ua_codes };
+
+GA_env.vars = { localized: 0 };
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="/js/ga-current.js" type="text/javascript"></script>
+
+  <!-- Begin comScore Tag -->
+<script>
+   document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+ <script>
+  COMSCORE.beacon({
+    c1:2,
+    c2:3005420,
+    c3:"",
+    c4:"r53-vip-soup.pbskids.org/noah/games/crossroads/index.html",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=3005420&c3=&c4=r53-vip-soup.pbskids.org/noah/games/crossroads/index.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+
+
+
+
+
+
+<div id="pbs-ga-overlay" style="position:fixed; top:0; height:20px; padding:4px; background-color:#ccc; color:#000; width:100%; opacity:0.75; text-align:center; z-index:100;" onClick="this.style.display='none'; return false;">
+  <span style="opacity:1.0; font-family: sans-serif; font-size: 12px;"> 
+    Global Include is good.
+    <script type="application/javascript">
+      var GA_env_test = '(none)';
+    </script> 
+     
+      <span style="background-color: #f00">GA_env is unset!</span> 
+     
+  </span>
+</div>
+
+
+       
+
+
+
+  
+
+  <link rel="stylesheet" type="text/css" href='https://cms-tc.pbskids.org/headband/resources/sass/producer-headband.css' />
+
+  <div id="headband-container" class='producer-headband '>
+    <div class="headband-nav">
+      <ul class="headband-primary-nav">
+        <!-- Do not delete this. This is used for structure and is a
+        placeholder if we want to add the newsletter button back. -->
+      </ul>
+
+      <div id="parents-message-bar">
+        <div class="wrap">
+          <div id="parents-messages"></div>
+        </div>
+        <div class="parents-bar-tooltips"></div>
+        <button id="squished-headband-toggle"><span class="hidden">Toggle message bar</span></button>
+      </div>
+
+      <ul class="headband-supplementary-nav">
+          <li class="nav-item apps"><a href="/apps">Apps</a></li>
+
+          
+            <li class="nav-item shop"><a href="https://shop.pbskids.org/?utm_source=PBS_kids&utm_medium=brandsite&utm_content=ShopButton&utm_campaign=homepage_091914">Shop</a></li>
+            <li class="nav-item parents"><a href="https://pbskids.org/grownups/">Parents</a></li>
+          
+
+          <li class="nav-item station" style="display:none;"></li>
+
+          <li class="nav-item tv-times"><a href="/tv-times/">TV Times</a></li>
+          <li class="nav-item settings">
+            <button data-action="settings-trigger">Settings</button>
+          </li>
+      </ul>
+    </div>
+
+  </div> <!-- End Headband -->
+
+
+    <script type='text/javascript' src='/js/loader/lib/PBS.KIDS.require.js' data-main='/js/loader/loaders/producers.require.config.js' ></script>
+
+  
+
+
+ </div>
+
+
+	<div id="gameHolder"> 
+		<canvas id="gameCanvas" style="position:absolute; z-index:0;">
+			<img style="width:100%; height:auto;" src="media/images/unsupported.jpg" />
+		</canvas>
+	</div>
+
+	<script type="text/javascript">
+		ig.deploy("gameHolder", "media/", {
+			game: "3cbfcf2b-edcb-4d88-8352-c5edb7c4f824",
+			cheese_pickup: "b3e92c88-1ece-4074-9c6a-a6b2fd62a9b3",
+			noah_pickup: "93154f0a-ef55-44ba-a542-99e502ece746",
+			all_three: "ea86047f-1209-4d18-89c1-dfbbbbca2498",
+			beat_all: "b3986986-8542-4df1-9f08-c384e136a17c"
+		});
+	</script>
+</body>
+</html>

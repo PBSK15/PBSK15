@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Ask Brain</title>
+			<href>/arthur/games/askbrain/index.html</href>
+			<imgurl>/arthur/i/related/askbrain.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Comic Creator</title>
+			<href>/arthur/games/comiccreator/index.html</href>
+			<imgurl>/arthur/i/related/comic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Virtual Goose</title>
+			<href>/arthur/games/virtualgoose/index.html</href>
+			<imgurl>/arthur/i/related/goose.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Letters To Arthur</title>
+			<href>/arthur/games/letterstoarthur/index.html</href>
+			<imgurl>/arthur/i/related/letters.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Movie Maker</title>
+			<href>/arthur/games/moviemaker/index.html</href>
+			<imgurl>/arthur/i/related/moviemaker.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>/arthur/i/related/grooveit.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Falafelosophy</title>
+			<href>/arthur/video/index.html?pid=_n415FcdTUEm4MW2soUeNaembcKZghPf</href>
+			<imgurl>/arthur/i/related/falafelosophy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tales of Grotesquely Grim</title>
+			<href>/arthur/video/index.html?pid=67ptokFuv546f8Ul4PxEs9I9kZM887RQ</href>
+			<imgurl>/arthur/i/related/grotesquelygrim.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Election</title>
+			<href>/arthur/video/index.html?pid=_CWks8YP3AYHfcjlUjgnO6uHGPLeFiSd</href>
+			<imgurl>/arthur/i/related/election.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lights, Camera... Opera!</title>
+			<href>/arthur/video/index.html?pid=hlB0I0bTnyKOeR2rle38YbSitnn_dp0t</href>
+			<imgurl>/arthur/i/related/lightscamera.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

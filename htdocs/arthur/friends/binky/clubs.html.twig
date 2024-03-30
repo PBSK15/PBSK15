@@ -1,0 +1,35 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Binky\'sGames & Printables Page | PBS Kids' %}
+{% set desc = 'View all of Binkys clubs and see how artistic and talented this lovable bully really is-- what a dancer!' %}
+{% set keywds = 'Binky, clubs, interests, art, music, dancing' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/binky_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/binky_top.swf", "binky", "960", "363", "9", "#ccffcc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "clubs");			   fo.addVariable("char", "binky");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-binky">Binky'simages</a>
+  <div id="friendsContent">
+   <h1>My Clubs</h1>
+   <hr class="friendsRuler">
+   <ul id="myClubs">
+    <li id="myclubDance" class="icon"><a href="/arthur/clubs/dance/index.html">Dance Club</a></li>
+    <li id="myclubPoetry" class="icon"><a href="/arthur/clubs/poetry/index.html">Poetry Club</a></li>
+    <li id="myclubFashion" class="icon"><a href="#" class="comingSoon">Fashion Club</a></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/artgallery/index.html" id="rcGallery">Art Gallery</a></li>
+   <li><a href="/arthur/games/factsopinions/index.html" id="rcFactOpinion">Facts and Opinions</a></li>
+   <li><a href="/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP" id="rcVideoMashup">Marthur Video</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

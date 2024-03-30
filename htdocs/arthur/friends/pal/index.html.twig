@@ -1,0 +1,36 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Pal\'s Games & Printables Page | PBS Kids' %}
+{% set desc = 'Play games featuring Pal and print out the printable games and activities to have even more fun!' %}
+{% set keywds = 'Go Fetch, About Face, Pal, games,  print' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cf9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/pal_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/pal_top.swf", "pal", "960", "363", "9", "#ccff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "games");			   fo.addVariable("char", "pal");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-pal">Pal's images</a>
+  <div id="friendsContent">
+   <h1>My Games &amp; Printables</h1>
+   <hr class="friendsRuler">
+   <ul id="myGames">
+    <li id="friendsAboutFace" class="icon"><a href="../../games/aboutface/index.html"><span>About Face</span></a></li>
+    <li id="friendsFetch" class="icon"><a href="../../print/fetch/index.html"><span>Go Fetch!</span></a></li>
+    <li id="friendsColoring" class="icon"><a href="../../print/coloringpages/coloring.html#pg-pal1"><span>Coloring Pages</span></a></li>
+    <li id="friendsTrading" class="icon"><a href="../../print/tradingcards/cards.html#pg-pal1"><span>Trading Cards</span></a></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/stickers/index.html" id="rcStickers">Baby Kate's Stickers</a></li>
+   <li><a href="/arthur/games/braingame/index.html" id="rcBrainGame">Brain Game</a></li>
+   <li><a href="/arthur/games/dontwakekate/index.html" id="rcDWK">Don't Wake Kate</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

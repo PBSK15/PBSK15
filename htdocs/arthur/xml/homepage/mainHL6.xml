@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Ask Prunella</title>
+			<href>/arthur/games/askprunella/index.html</href>
+			<imgurl>/arthur/i/related/askprunella.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwood City Map</title>
+			<href>/arthur/games/elwoodcity/index.html</href>
+			<imgurl>/arthur/i/related/elwoodcity.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go! George Go!</title>
+			<href>/arthur/games/gogeorgego/index.html</href>
+			<imgurl>/arthur/i/related/gogeorgego.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Hey, Francine</title>
+			<href>/arthur/games/heyfrancine/index.html</href>
+			<imgurl>/arthur/i/related/heyfrancine.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sugar Bowl Poll</title>
+			<href>/arthur/games/sugarbowlpoll/index.html</href>
+			<imgurl>/arthur/i/related/poll.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>/arthur/i/related/grooveit.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Vomitrocious</title>
+			<href>/arthur/video/index.html?pid=0pfsNjVreZEtsBlA_VmtjpeY2hcZrQ_c</href>
+			<imgurl>/arthur/i/related/vomitrocious.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>What Scared Sue Ellen?</title>
+			<href>/arthur/video/index.html?pid=1rGV7eojmwkdv6fr72JZb47CxvbR49NT</href>
+			<imgurl>/arthur/i/related/scaredsueellen.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Arthur's Show Biz</title>
+			<href>/arthur/video/index.html?pid=V4H5nMqUTvotFbyczuekoqt2ldlhatzR</href>
+			<imgurl>/arthur/i/related/showbiz.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Francine's Pilfered Paper</title>
+			<href>/arthur/video/index.html?pid=iPfEH_q_CeS7_b49fu24__rgHTa9CG_S</href>
+			<imgurl>/arthur/i/related/pilferedpaper.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lights, Camera... Opera!</title>
+			<href>/arthur/video/index.html?pid=hlB0I0bTnyKOeR2rle38YbSitnn_dp0t</href>
+			<imgurl>/arthur/i/related/lightscamera.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

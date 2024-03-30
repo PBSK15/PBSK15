@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . The Tibble Twins\' About Me Page | PBS Kids' %}
+{% set desc = 'Read up on the Tibble Twins to find out their interests and favorite things. Take a poll and see if other kids agree with you!' %}
+{% set keywds = 'Tibble Twins, ARTHUR, brothers, interets, profile' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cf9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/tibbles_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/tibbles_top.swf", "tibbles", "960", "363", "9", "#ccff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "tibbles");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="/arthur/friends/tibbles/photos.html" class="photoWall p-tibbles">The Tibble Twins' photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Making a mess and painting pictures together.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Making a mess and ruining Grandma's Birthday dinner.
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Playing drums in the music festival. (We were LOUD!)
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_cf9">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Is my brother annoying?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/tibbles/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="tibbles"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/tibbles_book1.jpg" width="148" height="117" alt="Pigs Aplenty, Pigs Galore! book cover" border="0"> <h4>Pigs Aplenty, Pigs Galore!</h4> <p>by David McPhail<br> Imagine dozens of pigs visiting your home, ordering pizza, blasting loud music, making oatmeal in the sink... Sounds like fun!</p></li>
+    <li><img src="/arthur/i/friends/books/tibbles_book2.jpg" width="148" height="117" alt="Skip to My Lou book cover" border="0"> <h4>Skip to My Lou</h4> <p>by Nadine Bernard Westcott<br> You can sing the song as you giggle at the great illustrations.</p></li>
+    <li><img src="/arthur/i/friends/books/tibbles_book3.jpg" width="148" height="117" alt="Where the Wild Things Are book cover" border="0"> <h4>Where the Wild Things Are</h4> <p>by Maurice Sendak<br> Let the wild rumpus begin! Max's mom thinks he's acting too wild, but we think he's terrific!</p></li>
+    <li><img src="/arthur/i/friends/books/tibbles_book4.jpg" width="148" height="117" alt="Max Cleans Up book cover" border="0"> <h4>Max Cleans Up</h4> <p>by Rosemary Wells<br> Max's room is a mess. His big sister Ruby tells him to clean it up. Max does, but in his own way.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/superactionchallenge/index.html" id="rcSuperAction">Super Action Challenge</a></li>
+   <li><a href="/arthur/print/playmaker/index.html" id="rcPlayMaker">Play Maker</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

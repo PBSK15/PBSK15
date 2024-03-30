@@ -1,0 +1,28 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Supermarket Adventure! | PBS Kids' %}
+{% set desc = 'Help D.W. do the grocery shopping by dragging food into her cart. Go through the grocery store and select the items requested.' %}
+{% set keywds = 'groceries, food, shopping, healthy, eat' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="marketbg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/supermarket_header.gif" width="619" height="72" border="0" alt="Supermarket Adventure - Help D.W. do the grocery shopping by dragging food into her cart." id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="supermarket">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/supermarket/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("supermarket.swf", "movie", "595", "350", "6", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				   fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+   <li><a href="/arthur/games/groovygarden/index.html" id="rcGroovy">Groovy Garden</a></li>
+   <li><a href="/arthur/games/lunchomatic/index.html" id="rcLunch">Lunch-o-matic</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

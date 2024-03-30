@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Window Watcher' %}
+{% set desc = 'Be a Nature Tracker with Buddy as you help him discover all kinds of creatures, including some of the biggest dinosaurs that ever lived! Help him identify the different animals in his field guide.  Look closely, they can be hard to spot!' %}
+{% set keywds = 'Science games for kids, Field Guide, Nature Tracker , Train game, Science games for kids, dinosaur facts' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/NatureTracker.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

@@ -1,0 +1,29 @@
+#content { padding:0; }
+#content #feature { margin:0; }
+
+#sliderWrapper { width:960px; overflow:hidden; height:568px; padding:0; margin:0; position: relative;}	
+.slider { width:960px; height:568px; margin:0; }
+#sliderIcons { position:relative; background:url('../i/friends/friends_bg.gif') top left no-repeat; height:568px; padding:196px 0 0 84px; z-index:1; left:0; }
+#sliderIcons ul {  width:880px; }
+.slider#friends #sliderIcons li a { display:block; height:0; overflow:hidden; }
+.slider#friends #sliderIcons #binky a { width:136px; padding:229px 0 0 0; background:url('../i/friends/char_binky.png') top left no-repeat; margin:56px 0 0 0; }
+.slider#friends #sliderIcons #francine a { width:89px; padding:202px 0 0 0; background:url('../i/friends/char_francine.png') top left no-repeat; margin:91px 0 0 10px; }
+.slider#friends #sliderIcons #buster a { width:66px; padding:216px 0 0 0; background:url('../i/friends/char_buster.png') top left no-repeat; margin:47px 0 0 14px; }
+.slider#friends #sliderIcons #pal a { width:83px; padding:96px 0 0 0; background:url('../i/friends/char_pal.png') top left no-repeat; margin:205px 0 0 4px; }
+.slider#friends #sliderIcons #arthur a { width:80px; padding:217px 0 0 0; background:url('../i/friends/char_arthur.png') top left no-repeat; margin:100px 0 0 6px; }
+.slider#friends #sliderIcons #dw a { width:77px; padding:176px 0 0 0; background:url('../i/friends/char_dw.png') top left no-repeat; margin:94px 0 0 11px; }
+.slider#friends #sliderIcons #brain a { width:107px; padding:226px 0 0 0; background:url('../i/friends/char_brain.png') top left no-repeat; margin:78px 0 0 8px; }
+.slider#friends #sliderIcons #muffy a { width:90px; padding:202px 0 0 0; background:url('../i/friends/char_muffy.png') top left no-repeat; margin:75px 0 0 10px; }
+.slider#friends #sliderIcons #fern a { width:105px; padding:236px 0 0 0; background:url('../i/friends/char_fern.png') top left no-repeat; margin:74px 0 0 5px; }
+.slider#friends #sliderIcons #george a { width:95px; padding:215px 0 0 0; background:url('../i/friends/char_george.png') top left no-repeat; margin:81px 0 0 39px; }
+.slider#friends #sliderIcons #kate a { width:76px; padding:111px 0 0 0; background:url('../i/friends/char_kate.png') top left no-repeat; margin:195px 0 0 10px; }
+.slider#friends #sliderIcons #sue a { width:113px; padding:219px 0 0 0; background:url('../i/friends/char_sue.png') top left no-repeat; margin:75px 0 0 5px; }
+.slider#friends #sliderIcons #tibbles a { width:149px; padding:180px 0 0 0; background:url('../i/friends/char_tibbles.png') top left no-repeat; margin:75px 0 0 21px; }
+.slider#friends #sliderIcons #prunella a { width:92px; padding:240px 0 0 0; background:url('../i/friends/char_prunella.png') top left no-repeat; margin:43px 0 0 29px; }
+.slider#friends #sliderIcons #macgrady a { width:86px; padding:272px 0 0 0; background:url('../i/friends/char_macgrady.png') top left no-repeat; margin:23px 0 0 10px; }
+.slider#friends #sliderIcons #mrsread a { width:77px; padding:269px 0 0 0; background:url('../i/friends/char_mrsread.png') top left no-repeat; margin:23px 0 0 29px; }
+.slider#friends #sliderIcons #mrread a { width:102px; padding:269px 0 0 0; background:url('../i/friends/char_mrread.png') top left no-repeat; margin:12px 0 0 15px; }
+.slider#friends #sliderIcons #ratburn a { width:98px; padding:260px 0 0 0; background:url('../i/friends/char_ratburn.png') top left no-repeat; margin:34px 0 0 23px; }
+.slider#friends #sliderIcons #thora a { width:97px; padding:238px 0 0 0; background:url('../i/friends/char_thora.png') top left no-repeat; margin:43px 0 0 17px; }
+.slider#friends #sliderIcons #emily a { width:97px; padding:217px 0 0 0; background:url('../i/friends/char_emily.png') top left no-repeat; margin:21px 0 0 24px; }
+.slider#friends #sliderIcons #ladonna a { width:83px; padding:263px 0 0 0; background:url('../i/friends/char_ladonna.png') top left no-repeat; margin:21px 10px 0 34px; }

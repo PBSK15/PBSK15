@@ -1,0 +1,169 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . The Brain\'s Photos Page | PBS Kids' %}
+{% set desc = 'Browse Brains photos and read his captions and friends comments. He has a lot of tips on how to conserve water too!' %}
+{% set keywds = 'conservation, water, photographs, school, Brain' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cc9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/brain_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/brain_top.swf", "brain", "960", "363", "9", "#cccc99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "brain");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-brain">The Brain's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/brain5.jpg" width="354" height="250" alt="The Brain heading a soccer ball." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_brain.gif" width="85" height="83" alt="The Brain avatar" border="0" id="avatar">
+    <h3>A new way to use my head.</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="fran-cmt"><a href="/arthur/friends/francine/index.html">FRANCINE</a>
+       <p>Cool header!/p&gt;</p>
+      </div>
+      <div class="fran-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/brain5.jpg" width="354" height="250" alt="The Brain heading a soccer ball." border="0" id="mainImg">
+       <h3>A new way to use my head.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="fran-cmt"><a href="/arthur/friends/francine/index.html">FRANCINE</a>
+          <p>Cool header!</p>
+         </div>
+         <div class="fran-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/brain6.jpg" width="354" height="250" alt="Principal Haney and The Brain in a school hallway." border="0" id="mainImg">
+       <h3>Mr. Haney is a great man.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/brain7.jpg" width="354" height="250" alt="The Brain holding up a paper with an A grade on it." border="0" id="mainImg">
+       <h3>Studied hard, and got an A.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="ratburn-cmt"><a href="/arthur/friends/ratburn/index.html">MR. RATBURN</a>
+          <p>Very nice work, Alan.</p>
+         </div>
+         <div class="ratburn-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/brain1.jpg" width="354" height="250" alt="The Brain and friends canoeing on the river." border="0" id="mainImg">
+       <h3>If we conserve water, then our lakes, streams, and rivers are happier.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="buster-cmt"><a href="/arthur/friends/buster/index.html">BUSTER</a>
+          <p>The lake was happy? Did the water tell you that? The Brain, can you talk to water?</p>
+         </div>
+         <div class="buster-cmtbtm"></div>
+        </div>
+        <div class="comment">
+         <div class="brain-cmt"><a href="/arthur/friends/brain/index.html">BRAIN</a>
+          <p>That WOULD be cool.</p>
+         </div>
+         <div class="brain-cmtbtm"></div>
+        </div>
+        <div class="comment">
+         <div class="buster-cmt"><a href="/arthur/friends/buster/index.html">BUSTER</a>
+          <p>Darn. I had some questions for the pond. (Namely, "What did you do with my baseball?")</p>
+         </div>
+         <div class="buster-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/brain2.jpg" width="354" height="250" alt="Arthur and D.W. wearing raincoats and walking in the rain." border="0" id="mainImg">
+       <h3>What a rainy day! If we had collected all the rain from our roof, we could have had 400 gallons.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="arthur-cmt"><a href="/arthur/friends/arthur/index.html">ARTHUR</a>
+          <p>Boy did I get wet that day! I'm glad it helped water your plants, though!</p>
+         </div>
+         <div class="arthur-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/brain3.jpg" width="354" height="250" alt="Muffy brushing her teeth at the sink." border="0" id="mainImg">
+       <h3>Toothbrush Tip: turn off the water while brushing.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/brain4.jpg" width="354" height="250" alt="Buster sitting by a bathtub full of water." border="0" id="mainImg">
+       <h3>Baths are fun, but they use a lot of water. A shower is better.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/games/braingame/index.html" id="rcBrainGame">Brain Game</a></li>
+   <li><a href="/arthur/games/lunchomatic/index.html" id="rcLunch">Lunch-o-matic</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

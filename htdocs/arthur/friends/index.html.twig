@@ -1,0 +1,53 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends | PBS Kids' %}
+{% set desc = 'All of the ARTHUR characters are hanging out. Read what they each have to say. Play with the tree house toy. Navigate to the characters profile pages.' %}
+{% set keywds = 'Friends, ARTHUR, characters, community, tree house, profiles' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/friends_indx.css" media="screen"/>' %}
+{% set selectedNav = 'friends' %}
+
+
+{% block mainContent %}<div id="content" class="bg-6c6">
+ <div id="mainFeature">
+  <div id="flashcontent" class="friendsIndx">
+   <div id="circleNav" class="circleNav-friends"></div>
+   <div id="sliderWrapper" class="slider-friends"><span class="prev">Previous</span>
+    <div class="slider" id="friends">
+     <ul id="sliderIcons">
+      <li>
+       <ul>
+        <li id="binky"><a href="/arthur/friends/binky/index.html">Binky</a></li>
+        <li id="francine"><a href="/arthur/friends/francine/index.html">Francine</a></li>
+        <li id="buster"><a href="/arthur/friends/buster/index.html">Buster</a></li>
+        <li id="pal"><a href="/arthur/friends/pal/index.html">Pal</a></li>
+        <li id="arthur"><a href="/arthur/friends/arthur/index.html">Arthur</a></li>
+        <li id="dw"><a href="/arthur/friends/dw/index.html">D.W.</a></li>
+        <li id="brain"><a href="/arthur/friends/brain/index.html">The Brain</a></li>
+        <li id="muffy"><a href="/arthur/friends/muffy/index.html">Muffy</a></li>
+       </ul></li>
+      <li>
+       <ul>
+        <li id="fern"><a href="/arthur/friends/fern/index.html">Fern</a></li>
+        <li id="george"><a href="/arthur/friends/george/index.html">George</a></li>
+        <li id="ladonna"><a href="/arthur/friends/ladonna/index.html">Ladonna</a></li>
+        <li id="sue"><a href="/arthur/friends/sue_ellen/index.html">Sue Ellen</a></li>
+        <li id="tibbles"><a href="/arthur/friends/tibbles/index.html">The Tibble Twins</a></li>
+        <li id="prunella"><a href="/arthur/friends/prunella/index.html">Prunella</a></li>
+       </ul></li>
+      <li>
+       <ul>
+        <li id="emily"><a href="/arthur/friends/emily/index.html">Emily</a></li>
+        <li id="macgrady"><a href="/arthur/friends/macgrady/index.html">Mrs. MacGrady</a></li>
+        <li id="mrsread"><a href="/arthur/friends/mom/index.html">Mrs. Read</a></li>
+        <li id="kate"><a href="/arthur/friends/baby_kate/index.html">Baby Kate</a></li>
+        <li id="mrread"><a href="/arthur/friends/dad/index.html">Mr. Read</a></li>
+        <li id="ratburn"><a href="/arthur/friends/ratburn/index.html">Mr. Ratburn</a></li>
+        <li id="thora"><a href="/arthur/friends/grandma/index.html">Grandma Thora</a></li>
+       </ul></li>
+     </ul>
+    </div> <span class="next">Next</span>
+   </div>
+  </div>
+  <script type="text/javascript">				var hash=window.location.hash.split("#")[1];				if(hash==undefined){hash=1;}								function updateIt(page)	{if(page!=undefined){window.location.hash="#"+page;}}			   var fo = new SWFObject("../media/friends_index.swf", "friendIndx", "960", "568", "9", "#ffffff");			    fo.addVariable("page", hash);			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   fo.write("flashcontent");				</script>
+ </div> <!--<div id="relatedContent">				<ul>				<li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>				<li><a href="/arthur/print/bookmarks/index.html" id="rcBookmarks">Bookmarks</a></li>				<li><a href="/arthur/games/comiccreator/index.html" id="rcComic">Comic Creator</a></li>				</ul>			</div>-->
+</div>{% endblock %}
+

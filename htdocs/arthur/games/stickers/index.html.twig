@@ -1,0 +1,221 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Baby Kate Stickers | PBS Kids' %}
+{% set desc = 'Send Baby Kate a card full of stickers! Then youll get a thank you card back in return!' %}
+{% set keywds = 'Baby Kate, stickers, card, letter, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+{% set onloadAtr = ' onload="loadStickers();"' %}
+
+
+{% block mainContent %}<div id="content" class="bg-fff">
+ <div class="ruler"></div>
+ <div id="mainFeature" class="fo_header">
+  <script language="JavaScript">			// Init vars
+				var lowerRange = 1;
+				var upperRange = 51;
+				var numItems = 4;
+				var currSticker = 0;
+				var itemNumArray = new Array(numItems);
+				var itemNumCounter, newItemNum;
+				var itemNumFound;
+				
+				
+				// ----------------------------------------
+				//         GET RANDOM STICKERS NUMS
+				// ----------------------------------------
+				
+				// select itemNums for the stickers
+				for (itemNumCounter = 0; itemNumCounter < numItems; itemNumCounter++) {
+					// init itemNumFound
+					itemNumFound = false;
+				
+					// randomly select an itemNum
+					newItemNum = Math.round(Math.random() * (upperRange - lowerRange)) + lowerRange;
+					
+					// make sure item not already chosen
+					while(!(itemNumFound)) {
+						// check if number already chosen
+						if (isElt(itemNumArray, newItemNum)) {
+							// taken, try adding 1
+							newItemNum = (newItemNum + 1);
+							
+							// make sure not beyond range
+							if (newItemNum > upperRange) {
+								// set to lowest 
+								newItemNum = lowerRange;
+							}
+						} else {
+							itemNumFound = true;
+						}
+					}
+				
+					// add item to array
+					itemNumArray[itemNumCounter] = newItemNum;
+				}
+				
+				
+				// ----------------------------------------
+				//             STICKER ITEMS
+				// ----------------------------------------
+				
+				// create sticker_item
+				function sticker_item (itemID,itemNum,width,height) {
+					if (document.images) {
+						this.itemNum = itemNumArray[itemNum].toString();
+						img_prefix = "images/stickers/sticker" + this.itemNum;
+						this.sticker_off = new Image (width,height);
+						this.sticker_off.src = "../../i/games/1px.gif";
+						this.sticker_on = new Image (width,height);
+						this.sticker_on.src = img_prefix + ".gif";
+					}
+				}
+				
+				// set sticker item to new sticker_item
+				function new_sticker_item (itemID,itemNum,width,height) {
+					sticker_item [itemID] = new sticker_item (itemID,itemNum,width,height);
+				}
+				
+				// add sticker
+				function sticker_add (itemID) {
+					if (document.images) {
+						// update chosen sticker and the hidden field
+						document.images ["sticker" + currSticker + "chosen"].src = sticker_item [itemID].sticker_on.src;
+						document.bkfanmail["sticker" + currSticker + "selected"].value = sticker_item [itemID].itemNum;
+				
+						// update currSticker
+						currSticker = (currSticker + 1) % numItems;
+					}
+				}
+				
+				// remove sticker
+				function sticker_remove (itemID) {
+					if (document.images) {
+						document.images [itemID + "chosen"].src = sticker_item [itemID].sticker_off.src;
+						document.bkfanmail[itemID + "selected"].value = "NULL";
+					}
+				}
+					  
+				// load the stickers
+				function loadStickers () {
+					var i; 
+					
+					if (document.images) {
+						for (i = 0; i < numItems; i++) {
+							document.images ["sticker" + i.toString()].src = sticker_item ["sticker" + i.toString()].sticker_on.src;
+						}
+					}
+				}
+				
+				// create stickers for page
+				new_sticker_item ("sticker0",0,131,106);
+				new_sticker_item ("sticker1",1,131,106);
+				new_sticker_item ("sticker2",2,131,106);
+				new_sticker_item ("sticker3",3,131,106);
+				
+				
+				
+				// ----------------------------------------
+				//            UTILITY FUNCTIONS
+				// ----------------------------------------
+				
+				// check if value is an element an array
+				function isElt(theArray, theElt) {
+					var index;
+					var found = false;
+					
+					// for each element of the array
+					for (index = 0; index < theArray.length; index++) {
+						// check if elt is equal
+						if (theArray[index] == theElt) {
+							// found elt
+							found = true;
+							break;
+						}
+					}
+					
+					// return found
+					return found;
+				}</script><!-- *****   LIVE SERVER **** -->
+  <form action="/cgi-registry/arthur/stickers.php" method="post" name="bkfanmail" id="sticker_form">
+   <!-- ****  LOCAL TEST ***** --><!--<form action="/cgi-bin/stickers.cgi" method="post" name="bkfanmail" id="sticker_form">-->
+   <table border="0" width="601" cellspacing="0" cellpadding="0" id="sticker_table">
+    <tbody>
+     <tr>
+      <td>
+       <table border="0" width="601" cellspacing="0" cellpadding="0">
+        <tbody>
+         <tr>
+          <td width="601" colspan="4" align="center" bgcolor="#FFFFFF"><img src="images/stickers_header.gif" width="601" height="82" alt="Baby Kate Stickers"></td>
+         </tr>
+         <tr><!--<td width="11" bgcolor="#FFFFFF"><a name="stickertop"><img src="../../i/games/1px.gif" width="11" height="73" alt=""></a></td>-->
+          <td width="293" bgcolor="#FF99CC"><img src="images/to_kate_top_left.gif" width="293" height="73" alt="Send some stickers to Baby Kate!"></td>
+          <td width="17" bgcolor="#FFFFFF"><img src="../../i/games/1px.gif" width="17" height="73" alt=""></td>
+          <td width="293" bgcolor="#FF99CC"><img src="images/to_kate_top_right.gif" width="293" height="73" alt="To Baby Kate,"></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <table border="0" width="601" cellspacing="0" cellpadding="0" align="left">
+        <tbody>
+         <tr><!--<td width="11" bgcolor="#FFFFFF"><img src="../../i/games/1px.gif" width="11" height="106" alt=""></td>-->
+          <td width="10" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="10" height="106" alt=""></td>
+          <td width="131" height="106" bgcolor="#FF99CC"><a href="#stickertop" onclick="sticker_add('sticker0');"><img src="../../i/games/1px.gif" width="131" height="106" name="sticker0" border="0" alt=""></a></td>
+          <td width="11" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="11" height="106" alt=""></td>
+          <td width="131" height="106" bgcolor="#FF99CC"><a href="#stickertop" onclick="sticker_add('sticker1');"><img src="../../i/games/1px.gif" width="131" height="106" name="sticker1" border="0" alt=""></a></td>
+          <td width="10" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="10" height="106" alt=""></td>
+          <td width="17" bgcolor="#FFFFFF"><img src="../../i/games/1px.gif" width="17" height="106" alt=""></td>
+          <td width="10" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="10" height="106" alt=""></td>
+          <td width="131" height="106" bgcolor="#FF99CC"><a href="#stickertop" onclick="sticker_remove('sticker0');"><img src="../../i/games/1px.gif" width="131" height="106" name="sticker0chosen" border="0" alt=""></a><input type="hidden" value="NULL" name="sticker0selected" alt=""></td>
+          <td width="11" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="11" height="106" alt=""></td>
+          <td width="131" height="106" bgcolor="#FF99CC"><a href="#stickertop" onclick="sticker_remove('sticker1');"><img src="../../i/games/1px.gif" width="131" height="106" name="sticker1chosen" border="0" alt=""></a><input type="hidden" value="NULL" name="sticker1selected" alt=""></td>
+          <td width="10" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="10" height="106" alt=""></td>
+         </tr>
+         <tr><!--<td width="11" bgcolor="#FFFFFF"><img src="../../i/games/1px.gif" width="11" height="106" alt=""></td>-->
+          <td width="10" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="10" height="106" alt=""></td>
+          <td width="131" height="106" bgcolor="#FF99CC"><a href="#stickertop" onclick="sticker_add('sticker2');"><img src="../../i/games/1px.gif" width="131" height="106" name="sticker2" border="0" alt=""></a></td>
+          <td width="11" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="11" height="106" alt=""></td>
+          <td width="131" height="106" bgcolor="#FF99CC"><a href="#stickertop" onclick="sticker_add('sticker3');"><img src="../../i/games/1px.gif" width="131" height="106" name="sticker3" border="0" alt=""></a></td>
+          <td width="10" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="10" height="106" alt=""></td>
+          <td width="17" bgcolor="#FFFFFF"><img src="../../i/games/1px.gif" width="17" height="106" alt=""></td>
+          <td width="10" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="10" height="106" alt=""></td>
+          <td width="131" height="106" bgcolor="#FF99CC"><a href="#stickertop" onclick="sticker_remove('sticker2');"><img src="../../i/games/1px.gif" width="131" height="106" name="sticker2chosen" border="0" alt=""></a><input type="hidden" value="NULL" name="sticker2selected" alt=""></td>
+          <td width="11" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="11" height="106" alt=""></td>
+          <td width="131" height="106" bgcolor="#FF99CC"><a href="#stickertop" onclick="sticker_remove('sticker3');"><img src="../../i/games/1px.gif" width="131" height="106" name="sticker3chosen" border="0" alt=""></a><input type="hidden" value="NULL" name="sticker3selected" alt=""></td>
+          <td width="10" bgcolor="#FF99CC"><img src="../../i/games/1px.gif" width="10" height="106" alt=""></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+     <tr>
+      <td>
+       <table border="0" width="601" cellspacing="0" cellpadding="0" align="left">
+        <tbody>
+         <tr><!--<td width="11" height="54" bgcolor="#FFFFFF" rowspan="2"><img src="../../i/games/1px.gif" width="11" height="54" alt=""></td>-->
+          <td width="293" height="54" rowspan="2" valign="top"><img src="images/to_kate_bottom_left.gif" width="293" height="54" alt=""></td>
+          <td width="17" height="54" bgcolor="#FFFFFF" rowspan="2"><img src="../../i/games/1px.gif" width="17" height="54" alt=""></td>
+          <td width="73" height="54" rowspan="2" valign="top"><img src="images/to_kate_from.gif" width="73" height="54" alt="From,"></td>
+          <td width="139" height="36" bgcolor="#FF99CC" align="center"><input type="text" name="from" maxlength="20" size="10"></td>
+          <td width="81" height="54" rowspan="2" valign="top"><input type="image" src="images/to_kate_send.gif" width="81" height="54" border="0"></td>
+         </tr>
+         <tr>
+          <td width="139" height="18"><img src="images/to_kate_bottom_right.gif" width="139" height="18" alt=""> <input type="hidden" name="featurepath" value="/arthur/games/stickers/"></td>
+         </tr>
+        </tbody>
+       </table></td>
+     </tr>
+    </tbody>
+   </table>
+  </form>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/baby_kate/index.html" id="rcKate">Baby Kate</a></li>
+   <li><a href="/arthur/friends/brain/index.html" id="rcBrain">The Brain</a></li>
+   <li><a href="/arthur/games/marthursticker/index.html" id="rcStickerBook">Marthur Stickerbook Mashup</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

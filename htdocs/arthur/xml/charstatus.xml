@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<char>
+	<c name="arthur">
+		<l>Pal IS a true pal!</l>
+		<l>I guess D.W.'s okay. Just don't tell HER I said that...</l>
+		<l>Do your parents make you eat weird food, too?</l>
+		<l>Today I'm doing the laundry. Full loads only, to save electricity.</l>
+		<l>Today I'm dressing for the season to help save electricity.</l>
+		<l>Today I'm putting in fluorescent light bulbs. They use less electricity.</l>
+		<l>Today I'm exercising. So the next time I have to shovel, I'll be ready!</l>
+	</c>
+	<c name="binky">
+		<l>Between you and me, ballet is pretty cool...</l>
+		<l>As I always said: "Clarinet? You bet!"</l>
+		<l>What are YOU looking at? Oh... It's you. HI!</l>
+		<l>Today I'm biking to a friend's house.</l>
+		<l>Today I'm biking to my school.</l>
+		<l>Today I'm making sure my bike is all tuned up.</l>
+		<l>Today I'm helping repair a friend's bike.</l>
+		<l>Today I'm biking around my neighborhood to stay in shape.</l>
+	</c>
+	<c name="ladonna">
+		<l>Why don't people eat pie for breakfast all the time?</l>
+		<l>Hey! Ladonna Compson here. Nice to meet you!</l>		
+		<l>General Higgins is the world's smartest white rat.</l>		
+		<l>After a blizzard, there's enough snow to build an entire snow town!</l>		
+		<l>My daddy says I'm a garbage disposal with legs!</l>
+		<l>The largest crab I ever caught was as big as a pizza!</l>
+		<l>I just LOVE a good story. Don't you?</l>
+		<l>Did I ever tell you about the time we had a bear as a pet?</l>
+	</c>
+	<c name="brain">
+		<l>Logic is my secret weapon!</l>
+		<l>School is just like relaxing, only with desks.</l>
+		<l>The more I learn, the more there is to learn. Fantastic!</l>
+		<l>Today I'm timing my shower. Five minutes should do it. I'm not that big.</l>
+		<l>Today I'm washing vegetables in a bowl. I'll save the water for my plants.</l>
+		<l>Today I'm checking our sinks and tubs for leaks. No wasted water here!</l>
+		<l>Today I'm checking our water meter. Lots of movement might mean a leak.</l>
+		<l>Today I'm putting a water bottle in the refrigerator to keep it cold.</l>
+		<l>Today I'm making sure to turn off the water while I'm brushing my teeth.</l>
+		<l>Today I'm checking my rainwater-collecting barrel for water for my plants!</l>
+	</c>
+	
+	<c name="buster">
+		<l>My food collection gets fuzzier every day!</l>
+		<l>If you can hear me, aliens, my name is Buster!</l>
+		<l>Bionic Bunny is just so cool!</l>
+		<l>Today I'm eating food from my garden.</l>
+		<l>Today I'm using up leftovers in my refrigerator.</l>
+		<l>Today I'm trying a new recipe.</l>
+		<l>Today I'm trying a new food.</l>
+		<l>Today I'm eating lots of vegetables.</l>
+		<l>Today I'm eating a delicious salad I made with my mom.</l>
+	</c>
+		
+	<c name="dw">
+		<l>Who invented brothers anyway?</l>
+		<l>Cows that sing and dance? The best!</l>
+		<l>If you want to wait on me hand and foot, I won't stop you.</l>
+		<l>Today I'm turning off lights no one's using.</l>
+		<l>Today I'm turning off radios no one's using.</l>
+		<l>Today I'm turning off televisions no one's using.</l>
+		<l>Today I'm turning off video games no one's using.</l>
+		<l>Today I'm making sure Arthur doesn't waste electricity.</l>
+	</c>
+	
+	<c name="francine">
+		<l>Anyone want to play soccer?</l>
+		<l>Drumming is crazy AND good. It's crazygood!</l>
+		<l>The best feeling? Hitting a home run!</l>
+		<l>Today I'm helping to choose plants for the side of my apartment building.</l>
+		<l>Today I'm looking for plants that will grow here without a lot of work.</l>
+		<l>Today I'm cleaning up trash in the yard around my apartment building.</l>
+		<l>Today I'm helping my neighbors plant a new tree.</l>
+	</c>
+	
+	<c name="muffy">
+		<l>My sense of style is superb!</l>
+		<l>Oh, Bailey? Can you top off my tea, please?</l>
+		<l>If you need a party planned, I'm your girl!</l>
+		<l>Today I'm printing on reused paper.</l>
+		<l>Today I'm checking in with Chef to make sure we're not wasting food.</l>
+		<l>Today I'm giving Chef reusable canvas bags for the food shopping.</l>
+		<l>Today I'm cleaning out one of our spare rooms. There's a LOT to recycle!</l>
+		<l>Today I'm having Bailey check our composter for dirt for our garden.</l>
+		<l>Today I'm going out just ONCE for errands. Not lots of little trips.</l>
+		<l>Today I'm talking to Mommy and Daddy to make sure we buy less stuff.</l>
+	</c>
+		
+	<c name="pal">
+		<l>Woof, woof, rrrrrrrr. (I'll get you, Nemo!)</l>
+		<l>Ruff, ruff, ruff! (Squirrels, I'm watching you!)</l>
+		<l>Rowr, rowr, rowr, rowr, rowr!!!! (Arthur's home! Arthur's home!)</l>
+	</c>
+	
+	<c name="fern">
+		<l>Don't worry - Fern is on the case!</l>
+		<l>I just LOVE a good mystery!</l>
+		<l>Do you think reading will ever be an Olympic sport?</l>
+	</c>
+	
+	<c name="george">
+		<l>Wally wants to say hello. "Howdy, howdy, howdy!"</l>
+		<l>Who knew the blues could feel so good?</l>
+		<l>I may be quiet... but I'm shy too! Ha-ha! That's a pretty silly joke!</l>
+	</c>
+	
+	<c name="baby_kate">
+		<l>Babababa wheeeee! (Mommy, Daddy, look at me!)</l>
+		<l>Waaaaaaaaaaah! (I could go for a bottle right about now.)</l>
+		<l>Paga paga, pbbbbbbbbt! (Pal, come quick. You have to see this!)</l>
+	</c>
+	
+	<c name="tibbles">
+		<l>Don't worry. We won't break it... much.</l>
+		<l>We don't know what you're talking about... and we didn't do it!</l>
+		<l>Having lots and lots and lots and lots and lots of energy is good, right?</l>
+	</c>
+	
+	<c name="prunella">
+		<l>You will have many adventures in your life -- enjoy them all!</l>
+		<l>My crystal ball is hazy right now. Come back tomorrow.</l>
+		<l>Aren't the Henry Skreever books the best!</l>
+	</c>
+	
+	<c name="macgrady">
+		<l>I just love my kids! All 500 of them!</l>
+		<l>Stop on by. (I'll give you some extra applesauce.)</l>
+		<l>Friends are the best!</l>
+	</c>
+	
+	<c name="mom">
+		<l>I'm just a farm girl at heart.</l>
+		<l>Okay, kids! Time to clean your rooms!</l>
+		<l>Ah, the kids are asleep. A little Mommy time!</l>
+	</c>
+	
+	<c name="dad">
+		<l>Do you think cheese, chocolate, and gravy would taste good on peas?</l>
+		<l>Grab those oven mitts and let's get cookin'!</l>
+		<l>Shh... I have a souffle in the oven.</l>
+	</c>
+	
+	<c name="ratburn">
+		<l>My two favorite words: pop quiz.</l>
+		<l>Please write two pages about "What I did on my vacation."</l>
+		<l>It's tough to be a good teacher. Luckily, I'm really tough!</l>
+	</c>
+	
+	<c name="emily">
+		<l>Bon jour, je m'appelle Emily.</l>
+		<l>I hope D.W. can come over and play!</l>
+		<l>Preschool is the best!</l>
+	</c>
+	
+	<c name="sue_ellen">
+		<l>You meet so many great people when you travel!</l>
+		<l>Travel broadens the mind...</l>
+		<l>It's so fun to learn about other cultures!</l>
+	</c>
+	<c name="grandma">
+		<l>In some places, burned cookies are a delicacy.</l>
+		<l>Brownies are SUPPOSED to be that hard. It's good for your teeth.</l>
+		<l>I put lots of love into everything I make!</l>
+	</c>
+</char>

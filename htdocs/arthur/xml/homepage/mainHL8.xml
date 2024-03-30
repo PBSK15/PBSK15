@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Comic Creator</title>
+			<href>/arthur/games/comiccreator/index.html</href>
+			<imgurl>/arthur/i/related/comic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groovy Garden</title>
+			<href>/arthur/games/groovygarden/index.html</href>
+			<imgurl>/arthur/i/related/groovygarden.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Letters To...</title>
+			<href>/arthur/games/lettersto/index.html</href>
+			<imgurl>/arthur/i/related/letters_to.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lunch-o-matic</title>
+			<href>/arthur/games/lunchomatic/index.html</href>
+			<imgurl>/arthur/i/related/lunchomatic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Baby Kate's Stickers</title>
+			<href>/arthur/games/stickers/index.html</href>
+			<imgurl>/arthur/i/related/stickers.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Play Maker</title>
+			<href>/arthur/print/playmaker/index.html</href>
+			<imgurl>/arthur/i/related/playmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Video</title>
+			<href>/arthur/video/index.html</href>
+			<imgurl>/arthur/i/related/video.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Video Mashup</title>
+			<href>/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP</href>
+			<imgurl>/arthur/i/related/videomashup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tales of Grotesquely Grim</title>
+			<href>/arthur/video/index.html?pid=67ptokFuv546f8Ul4PxEs9I9kZM887RQ</href>
+			<imgurl>/arthur/i/related/grotesquelygrim.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Election</title>
+			<href>/arthur/video/index.html?pid=_CWks8YP3AYHfcjlUjgnO6uHGPLeFiSd</href>
+			<imgurl>/arthur/i/related/election.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

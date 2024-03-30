@@ -1,0 +1,28 @@
+{
+
+"images": [
+    "titlesheet.png"
+],
+
+"frames": [
+    [1, 1, 207, 349, 0, 0, 0],
+    [209, 1, 790, 188, 0, 0, 0],
+    [209, 190, 297, 298, 0, 0, 0],
+    [507, 190, 165, 167, 0, 0, 0],
+    [507, 358, 261, 118, 0, 0, 0]
+],
+
+"animations": {
+    "Noah": [0],
+    "Title": [1],
+    "Coco": [2],
+    "PlayBtn": [3],
+    "Logo": [4]
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:96e56215b8fa5110a5f8ac5f0d906a88:0df4465cf7ea47e6023e6483330e5cc6:9023e31e0d0a7fd48242eeb3795f4c9a$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

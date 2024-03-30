@@ -1,0 +1,54 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Play Maker | PBS Kids' %}
+{% set desc = 'If you really want to look like an ARTHUR character, print out these masks and fool everyone!' %}
+{% set keywds = 'masks, costumes, performance, play' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../index.html"><h4 id="playHeader">Play Maker</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../script.html"><span>Script</span></a></li>
+   <li><a href="../props/index.html"><span>Props</span></a></li>
+   <li><a href="../masks/index.html" class="selected"><span>Masks</span></a></li>
+   <li><a href="../costumes.html"><span>Costumes</span></a></li>
+   <li><a href="../tips/index.html"><span>Tips</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Masks</h1>
+    </div>
+   </div>
+   <div id="masksContent">
+    <p>Here are masks for each character in the play <a href="../script.html">D.W. Gets Her Library Card</a>. Click each mask below and follow the directions for putting it together. The actors can wear the masks with everyday clothes, or as part of a <a href="../costumes.html">costume</a>.</p> <img src="../../../i/print/playmaker/francine_masks.gif" width="154" height="270" alt="Francine holding a Arthur mask" border="0" class="float-right">
+    <ul id="pmMasksIcons">
+     <li id="arthurMasks" class="icon"><a href="masks.html#pg-arthur">Arthur</a></li>
+     <li id="busterMasks" class="icon"><a href="masks.html#pg-buster">Buster</a></li>
+     <li id="binkyMasks" class="icon"><a href="masks.html#pg-binky">Binky</a></li>
+     <li id="dwMasks" class="icon"><a href="masks.html#pg-dw">D.W.</a></li>
+     <li id="francineMasks" class="icon"><a href="masks.html#pg-francine">Francine</a></li>
+     <li id="timmyMasks" class="icon"><a href="masks.html#pg-timmy">Timmy</a></li>
+     <li id="tommyMasks" class="icon"><a href="masks.html#pg-tommy" class="icon">Tommy</a></li>
+     <li id="turnerMasks" class="icon"><a href="masks.html#pg-turner">Ms. Turner</a></li>
+    </ul>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+   <li><a href="/arthur/games/alien/index.html" id="rcAlien">Alien: Assembly Required</a></li>
+   <li><a href="/arthur/games/letsdrawarthur/index.html" id="rcDrawArthur">Let's Draw Arthur</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

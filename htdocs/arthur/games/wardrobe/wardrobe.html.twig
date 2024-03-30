@@ -1,0 +1,27 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Muffy\'s Wardrobe | PBS Kids' %}
+{% set desc = 'Choose an activity for Muffy to get ready for, then dress her in the correct outfit! Shell always be stylish!' %}
+{% set keywds = 'fashion, style, dressing, wardrobe, Muffy, play' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-933">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/wardrobe_header.gif" width="619" height="82" border="0" alt="Muffy's Wardrobe - Choose an activity for Muffy, then help her pick the four items she'll need to make the correct outfit." id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="wardrobe">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/wardrobe/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("wardrobe.swf", "movie", "595", "325", "4", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				  fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/index.html" id="rcHoliday">Holiday</a></li>
+   <li><a href="/arthur/games/effectivedetective/index.html" id="rcDetective">Effective Detective</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

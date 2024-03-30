@@ -1,0 +1,129 @@
+<game id="calling_superreaders" hasSponsorBar="false">
+	<title><![CDATA[SUPER WHY! . GAMES . CALLING ALL SUPER READERS | PBS KIDS]]></title>
+	
+	
+	<swf url="sections/games/calling_superreaders/mathfrogger.swf" />
+	
+	
+	
+	<settings
+		difficultyIsAdjustable = "false"
+		helpIsActive = "false"
+		hasPrintable = "false"
+		endScreenLibraryID = "superwhy_endscreen"
+		endScreenClassName = "SuperWhyEndScreen"
+		printImagesToLoad = "3"
+	/>
+	
+	
+	<libraries>
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />	
+		<library id="superwhy_endscreen" url="libraries/superwhy_endscreen.swf" />	
+		<library id="mathfrogger_endscreen" url="libraries/superwhy_endscreen.swf" />
+	</libraries>
+
+	
+	<assets>
+		
+		<libs>
+			<endscreen_id><![CDATA[mathfrogger_endscreen]]></endscreen_id>
+			<endscreen_classname><![CDATA[SuperWhyEndScreen]]></endscreen_classname>
+		</libs>
+		
+		<swfs id="swfs" isGroup="true">
+			<swf id="ui"url="sections/games/calling_superreaders/mathfroggerUI.swf" />
+		</swfs>
+		
+		<voiceovers id="voiceovers" isGroup="true">
+
+			<audio id="easy" type="audio" url="sections/games/calling_superreaders/audio/intro/easy.mp3" />
+			<audio id="medium" type="audio" url="sections/games/calling_superreaders/audio/intro/medium.mp3" />
+			<audio id="hard" type="audio" url="sections/games/calling_superreaders/audio/intro/hard.mp3" />
+		</voiceovers>
+		
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		</promos>
+
+		
+		
+		<audio id="clickPrompt" type="audio" url="audio/numbers/VO_08.mp3"/>
+		
+		<gameVO id="gameVO" isGroup="true">
+			<audio id="clickNumber" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_14.mp3"/>
+			<audio id="n_1" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_61.mp3"/>
+			<audio id="n_2" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_62.mp3"/>
+			<audio id="n_3" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_63.mp3"/>
+			<audio id="n_4" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_64.mp3"/>
+			<audio id="n_5" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_65.mp3"/>
+			<audio id="n_6" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_66.mp3"/>
+
+			<audio id="n_7" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_67.mp3"/>
+			<audio id="n_8" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_68.mp3"/>
+			<audio id="n_9" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_69.mp3"/>
+			<audio id="n_10" type="audio" url="sections/games/calling_superreaders/audio/numbers/VO_70.mp3"/>
+			
+			<audio id="equationLine0" type="audio" url="sections/games/calling_superreaders/audio/SDC/VO_20.mp3"/>
+			<audio id="equationLineALPHA_PIG" type="audio" url="sections/games/calling_superreaders/audio/SDC/VO_09.mp3"/>
+			<audio id="equationLinePRINCESS" type="audio" url="sections/games/calling_superreaders/audio/SDC/VO_10.mp3"/>
+			<audio id="equationLineWONDER_RED" type="audio" url="sections/games/calling_superreaders/audio/SDC/VO_11.mp3"/>
+			<audio id="plus" type="audio" url="sections/games/calling_superreaders/audio/SDC/VO_20.mp3"/>
+
+			<audio id="equals" type="audio" url="sections/games/calling_superreaders/audio/SDC/VO_21.mp3"/>
+			
+			<audio id="kudos0" type="audio" url="sections/games/calling_superreaders/audio/kudos/VO_27.mp3"/>
+			<audio id="kudos1" type="audio" url="sections/games/calling_superreaders/audio/kudos/VO_28.mp3"/>
+			<audio id="kudos2" type="audio" url="sections/games/calling_superreaders/audio/kudos/VO_29.mp3"/>
+			<audio id="kudos3" type="audio" url="sections/games/calling_superreaders/audio/kudos/VO_30.mp3"/>
+			<audio id="kudos4" type="audio" url="sections/games/calling_superreaders/audio/kudos/VO_31.mp3"/>
+			<audio id="kudos5" type="audio" url="sections/games/calling_superreaders/audio/kudos/VO_26.mp3"/>
+			<audio id="kudos6" type="audio" url="sections/games/calling_superreaders/audio/kudos/VO_25.mp3"/>
+			<audio id="kudos7" type="audio" url="sections/games/calling_superreaders/audio/kudos/VO_4.mp3"/>
+
+			
+			
+			<audio id="wrong0" type="audio" url="sections/games/calling_superreaders/audio/oops/VO_32.mp3"/>
+			<audio id="wrong1" type="audio" url="sections/games/calling_superreaders/audio/oops/VO_33.mp3"/>
+			<audio id="explainGoal" type="audio" url="sections/games/calling_superreaders/audio/oops/VO_17.mp3"/>
+			
+			<audio id="winGame" type="audio" url="sections/games/calling_superreaders/audio/SDC/VO_33.mp3"/>
+			
+			<audio id="pickupPRINCESS" type="audio" url="sections/games/calling_superreaders/audio/pickups/VO_36.mp3"/>
+			<audio id="pickupALPHA_PIG" type="audio" url="sections/games/calling_superreaders/audio/pickups/VO_37.mp3"/>
+			<audio id="pickupWONDER_RED" type="audio" url="sections/games/calling_superreaders/audio/pickups/VO_38.mp3"/>
+			
+			<audio id="delayPrompt" type="audio" url="sections/games/calling_superreaders/audio/timeout/VO_39.mp3"/>
+			
+			<audio id="lastRow0" type="audio" url="sections/games/calling_superreaders/audio/last_row/VO_22.mp3"/>
+
+			<audio id="lastRow1" type="audio" url="sections/games/calling_superreaders/audio/last_row/VO_23.mp3"/>
+			
+			<audio id="payoff_0_ALPHA_PIG" type="audio" url="sections/games/calling_superreaders/audio/payoff/VO_40.mp3"/>
+			<audio id="payoff_0_PRINCESS" type="audio" url="sections/games/calling_superreaders/audio/payoff/VO_41.mp3"/>
+			<audio id="payoff_0_WONDER_RED" type="audio" url="sections/games/calling_superreaders/audio/payoff/VO_42.mp3"/>
+			
+			<!-- these represent frame labels in the fla... reference those to see who lives where. -->
+			<audio id="payoff_1_1" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_55.mp3"/>
+			<audio id="payoff_1_2" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_44.mp3"/>
+			<audio id="payoff_1_3" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_46.mp3"/>
+			<audio id="payoff_1_4" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_48.mp3"/>
+			<audio id="payoff_1_5" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_49.mp3"/>
+			<audio id="payoff_1_6" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_58.mp3"/>
+			<audio id="payoff_1_7" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_51.mp3"/>
+			<audio id="payoff_1_8" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_45.mp3"/>
+			<audio id="payoff_1_9" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_47.mp3"/>
+			<audio id="payoff_1_10" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_57.mp3"/>
+			<audio id="payoff_1_11" type="audio" url="sections/games/calling_superreaders/audio/payoff/payoff_locations/VO_53.mp3"/>
+
+			
+			
+			
+		</gameVO>
+		
+		
+		
+	</assets>
+</game>

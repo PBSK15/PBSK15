@@ -1,0 +1,1975 @@
+{
+  "symbols": {
+    "LogObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 344,
+        "x": 13,
+        "height": 60,
+        "y": 89
+      },
+      "asset": "Log"
+    },
+    "BarrelLid": {
+      "type": "sprite",
+      "asset": "BarrelLid"
+    },
+    "ANIM-DistratorAnim": {
+      "type": "animation",
+      "animation": "DistractorJungle"
+    },
+    "Vines": {
+      "type": "sprite",
+      "asset": "Vines"
+    },
+    "ANIM-Zebra": {
+      "type": "animation",
+      "animation": "Zebra"
+    },
+    "BarrelNoLid": {
+      "type": "sprite",
+      "asset": "BarrelNoLid"
+    },
+    "SPOT-Crate": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "SpotCrateBack"
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 129,
+          "y": -29
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 106,
+          "y": -32
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 161,
+          "y": -47
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 139,
+          "y": -27
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 97,
+          "rot": 18.93,
+          "y": -47
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 129,
+          "y": -33
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 128,
+          "y": -39
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 134,
+          "y": -46
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": 113,
+          "y": -23
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 118,
+          "rot": 11.42,
+          "y": -46
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 147,
+          "y": -58
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": 88,
+          "y": -45
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 149,
+          "y": -32
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 155,
+          "y": -39
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 137,
+          "y": -36
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 103,
+          "y": -44
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 158,
+          "y": -20
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 157,
+          "y": -61
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 149,
+          "y": -35
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 127,
+          "rot": -14.42,
+          "y": -47
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 140,
+          "y": -33
+        },
+        {
+          "sprite": "SpotCrateFront"
+        }
+      ]
+    },
+    "SPOT-TreeGroup": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-watermelon",
+          "x": 67,
+          "y": 440
+        },
+        {
+          "sprite": "FO-umbrella",
+          "x": 134,
+          "y": 211
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 88,
+          "y": 401
+        },
+        {
+          "sprite": "FO-raft",
+          "x": 247,
+          "y": 484
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 179,
+          "y": 413
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 252,
+          "y": 434
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 73,
+          "y": 450
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 79,
+          "y": 454
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": 42,
+          "y": 428
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 90,
+          "y": 433
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": 4,
+          "y": 500
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 269,
+          "y": 462
+        },
+        {
+          "sprite": "FO-chair",
+          "x": 50,
+          "sx": 0.8,
+          "y": 368,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-bread",
+          "x": 69,
+          "y": 471
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 290,
+          "y": 416
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 39,
+          "y": 460
+        },
+        {
+          "sprite": "FO-balloons",
+          "x": 152,
+          "y": 211
+        },
+        {
+          "sprite": "PathTreeGroup"
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 164,
+          "y": 500
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 241,
+          "y": 490
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 157,
+          "y": 469
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 176,
+          "y": 498
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 122,
+          "y": 496
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 213,
+          "y": 488
+        }
+      ]
+    },
+    "ANIM-MonkeySwing": {
+      "type": "animation",
+      "animation": "MonkeySwinging"
+    },
+    "ANIM-DistratorAnimClose": {
+      "type": "animation",
+      "animation": "DistractorClose"
+    },
+    "SPOT-Chair": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-chair"
+        },
+        {
+          "sprite": "FO-chair"
+        }
+      ]
+    },
+    "BounceGame": {
+      "type": "sprite",
+      "asset": "BounceGame"
+    },
+    "Sky": {
+      "type": "sprite",
+      "asset": "Sky"
+    },
+    "TreeTrunk": {
+      "type": "sprite",
+      "asset": "TreeTrunk"
+    },
+    "ANIM-Elephant": {
+      "type": "animation",
+      "animation": "Elephant"
+    },
+    "BackFoliage_01": {
+      "type": "sprite",
+      "asset": "BackFoliage_01"
+    },
+    "Bush1": {
+      "type": "sprite",
+      "asset": "Bush1"
+    },
+    "Pit": {
+      "type": "sprite",
+      "asset": "Pit"
+    },
+    "Crate": {
+      "type": "sprite",
+      "asset": "Crate"
+    },
+    "TreeTrunkObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 114,
+        "x": 16,
+        "height": 70,
+        "y": 18
+      },
+      "asset": "TreeTrunk"
+    },
+    "EndLevelBlock": {
+      "type": "entity",
+      "box": {
+        "width": 200,
+        "x": 0,
+        "height": 768,
+        "y": 0
+      }
+    },
+    "ANIM-Parrot": {
+      "type": "animation",
+      "animation": "Parrot"
+    },
+    "Bush2": {
+      "type": "sprite",
+      "asset": "Bush2"
+    },
+    "SpotCrateBack": {
+      "type": "sprite",
+      "asset": "SpotCrateBack"
+    },
+    "PitFront": {
+      "type": "sprite",
+      "asset": "PitFront"
+    },
+    "Path": {
+      "type": "sprite",
+      "asset": "Path"
+    },
+    "BackFoliage_03": {
+      "type": "sprite",
+      "asset": "BackFoliage_03"
+    },
+    "BarrelLibObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 116,
+        "x": 12,
+        "height": 156,
+        "y": 19
+      },
+      "asset": "BarrelLid"
+    },
+    "PathTreeGroup": {
+      "type": "sprite",
+      "asset": "PathTreeGroup"
+    },
+    "SPOT-Pit": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "Pit"
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 82,
+          "y": 9
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 107,
+          "y": 15
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 95,
+          "y": 11
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 94,
+          "y": 12
+        },
+        {
+          "sprite": "FO-balloons",
+          "x": 57,
+          "y": -86
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 78,
+          "rot": 11.26,
+          "y": 13
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 114,
+          "y": 10
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 121,
+          "y": 27
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 108,
+          "y": 19
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 121,
+          "y": 19
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 83,
+          "y": 9
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 125,
+          "y": 1
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 110,
+          "y": 24
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 111,
+          "y": -8
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 98,
+          "y": 11
+        },
+        {
+          "sprite": "PitFront"
+        }
+      ]
+    },
+    "CrateObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 210,
+        "x": 8,
+        "height": 128,
+        "y": 14
+      },
+      "asset": "Crate"
+    },
+    "SPOT-Umbrella": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-umbrella"
+        },
+        {
+          "sprite": "FO-umbrella"
+        }
+      ]
+    },
+    "ForegroundBush": {
+      "type": "sprite",
+      "asset": "ForegroundBush"
+    },
+    "SpotCrateFront": {
+      "type": "sprite",
+      "asset": "SpotCrateFront"
+    },
+    "BackFoliage_04": {
+      "type": "sprite",
+      "asset": "BackFoliage_04"
+    },
+    "TrunkBush": {
+      "type": "sprite",
+      "asset": "TrunkBush"
+    },
+    "SPOT-CrateStack": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-balloons",
+          "x": 35,
+          "sx": 0.9,
+          "y": -133,
+          "sy": 0.9
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": -75,
+          "y": 99
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 228,
+          "y": 74
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 245,
+          "y": 126
+        },
+        {
+          "sprite": "FO-bread",
+          "x": -69,
+          "y": 113
+        },
+        {
+          "sprite": "Crate",
+          "sx": 0.8,
+          "y": 87,
+          "sy": 0.8
+        },
+        {
+          "sprite": "Crate",
+          "x": 92,
+          "sx": 0.8,
+          "y": 96,
+          "sy": 0.8
+        },
+        {
+          "sprite": "Crate",
+          "x": 29,
+          "sx": 0.8,
+          "y": 6,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-apple",
+          "x": 152,
+          "y": 52
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 184,
+          "y": 58
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": -59,
+          "y": 157
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 129,
+          "y": 106
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 187,
+          "rot": 39.6,
+          "y": 39
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 173,
+          "y": 149
+        }
+      ]
+    },
+    "BackFoliage_02": {
+      "type": "sprite",
+      "asset": "BackFoliage_02"
+    },
+    "TRIGGER-BounceGame": {
+      "type": "trigger",
+      "triggerType": "BounceGame"
+    },
+    "BackFoliage_05": {
+      "type": "sprite",
+      "asset": "BackFoliage_05"
+    },
+    "TrunkBushObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 82,
+        "x": 79,
+        "height": 74,
+        "y": 14
+      },
+      "asset": "TrunkBush"
+    },
+    "TRIGGER-Character": {
+      "type": "trigger",
+      "triggerType": "Character"
+    },
+    "PathTree": {
+      "type": "sprite",
+      "asset": "PathTree"
+    },
+    "SPOT-ObivousCrate": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "Crate",
+          "sx": 0.9,
+          "sy": 0.9
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 87,
+          "rot": 37.34,
+          "y": -56
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 76,
+          "y": -45
+        },
+        {
+          "sprite": "FO-apple",
+          "x": 75,
+          "y": -45
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 87,
+          "rot": 21.43,
+          "y": -39
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 132,
+          "rot": 104.07,
+          "y": -13
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 73,
+          "y": -46
+        },
+        {
+          "x": 39,
+          "sx": 0.89,
+          "y": -10,
+          "sprite": "FO-sunglasses",
+          "rot": -3.76,
+          "sy": 0.89
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 28,
+          "sx": 0.9,
+          "y": -25,
+          "sy": 0.9
+        }
+      ]
+    },
+    "ANIM-Hippo": {
+      "type": "animation",
+      "animation": "Hippo"
+    },
+    "ANIM-Tiger": {
+      "type": "animation",
+      "animation": "Tiger"
+    },
+    "SPOT-Barrel": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-balloons",
+          "x": 5,
+          "sx": 0.6,
+          "y": -60,
+          "sy": 0.6
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 17,
+          "sx": 0.8,
+          "y": -39,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-chair",
+          "x": -110,
+          "sx": 0.7,
+          "y": -22,
+          "sy": 0.7
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 13,
+          "y": -32
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 61,
+          "rot": 23.08,
+          "y": -59
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 50,
+          "y": 60
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 76,
+          "y": 72
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": -89,
+          "y": 75
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 74,
+          "y": 55
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": -12,
+          "rot": 16.5,
+          "y": -58
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 18,
+          "y": -60
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": -50,
+          "y": 21
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": -91,
+          "y": 24
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 27,
+          "y": -45
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 76,
+          "y": 44
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 19,
+          "y": -45
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 44,
+          "y": 27
+        },
+        {
+          "sprite": "FO-onion",
+          "x": -31,
+          "y": 59
+        },
+        {
+          "sprite": "FO-orange",
+          "x": -29,
+          "y": 65
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 100,
+          "y": 61
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 87,
+          "y": 41
+        },
+        {
+          "sprite": "FO-raft",
+          "x": -89,
+          "y": 71
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 119,
+          "rot": 13.07,
+          "y": -13
+        },
+        {
+          "x": 39,
+          "sx": 0.8,
+          "y": -177,
+          "sprite": "FO-umbrella",
+          "rot": 12.29,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 20,
+          "sx": 0.8,
+          "y": -41,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-sunglasses",
+          "x": -68,
+          "y": 87
+        },
+        {
+          "sprite": "BarrelNoLid"
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 81,
+          "y": 65
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": -10,
+          "y": 14
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 78,
+          "y": 74
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 124,
+          "rot": 95.75,
+          "y": 96
+        }
+      ]
+    },
+    "Chest": {
+      "type": "sprite",
+      "asset": "Chest"
+    },
+    "ANIM-MonkeyChew": {
+      "type": "animation",
+      "animation": "MonkeyChew"
+    },
+    "SPOT-Tree": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-balloons",
+          "x": 162,
+          "y": 199
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 243,
+          "y": 422
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 240,
+          "y": 406
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 252,
+          "y": 413
+        },
+        {
+          "sprite": "FO-umbrella",
+          "x": 86,
+          "y": 192
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 272,
+          "y": 367
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 277,
+          "y": 417
+        },
+        {
+          "sprite": "FO-raft",
+          "x": 71,
+          "y": 467
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 286,
+          "y": 389
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 114,
+          "y": 417
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 266,
+          "y": 419
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": 85,
+          "y": 419
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 278,
+          "y": 393
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 62,
+          "y": 459
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 291,
+          "y": 405
+        },
+        {
+          "x": 28,
+          "sx": 0.83,
+          "y": 371,
+          "sprite": "FO-chair",
+          "rot": -2.75,
+          "sy": 0.83
+        },
+        {
+          "sprite": "FO-bread",
+          "x": 120,
+          "y": 466
+        },
+        {
+          "sprite": "PathTree"
+        },
+        {
+          "sprite": "FO-apple",
+          "x": 271,
+          "y": 480
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 270,
+          "y": 462
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 94,
+          "y": 513
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 280,
+          "y": 490
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 287,
+          "y": 499
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 261,
+          "y": 482
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 230,
+          "y": 484
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 273,
+          "y": 477
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 286,
+          "y": 507
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 273,
+          "y": 479
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 274,
+          "y": 484
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 277,
+          "y": 474
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 264,
+          "y": 489
+        }
+      ]
+    },
+    "Log": {
+      "type": "sprite",
+      "asset": "Log"
+    },
+    "TRIGGER-DrawingBoard": {
+      "type": "trigger",
+      "triggerType": "DrawingBoard"
+    },
+    "ChestObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 158,
+        "x": 1,
+        "height": 132,
+        "y": 26
+      },
+      "asset": "Chest"
+    }
+  },
+  "distractor": [
+    {
+      "px": 0,
+      "name": "background",
+      "children": [
+        {
+          "symbol": "Sky",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.95,
+      "name": "backgroundFoliage",
+      "children": [
+        {
+          "symbol": "BackFoliage_05",
+          "x": -189,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 165,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 519,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 873,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 1227,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 1581,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "behindGround",
+      "children": []
+    },
+    {
+      "px": 1,
+      "name": "ground",
+      "children": [
+        {
+          "symbol": "Path",
+          "x": 0,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 1375,
+          "y": 443
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "path",
+      "children": [
+        {
+          "symbol": "Vines",
+          "x": 678,
+          "y": -3
+        },
+        {
+          "symbol": "PathTree",
+          "x": 1099,
+          "y": -2
+        },
+        {
+          "symbol": "TreeTrunk",
+          "x": 815,
+          "y": 482
+        },
+        {
+          "symbol": "ANIM-DistratorAnim",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "closePath",
+      "children": [
+        {
+          "symbol": "Bush2",
+          "x": 41,
+          "y": 532
+        },
+        {
+          "symbol": "Bush1",
+          "x": 1299,
+          "y": 559
+        }
+      ]
+    },
+    {
+      "px": 1.1,
+      "name": "foreground",
+      "children": [
+        {
+          "symbol": "ForegroundBush",
+          "x": 957,
+          "y": 534
+        }
+      ]
+    }
+  ],
+  "level": [
+    {
+      "px": 0,
+      "name": "background",
+      "children": [
+        {
+          "symbol": "Sky",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.95,
+      "name": "backgroundFoliage",
+      "children": [
+        {
+          "symbol": "BackFoliage_05",
+          "x": -189,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 165,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 519,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 873,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 1227,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 1581,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 1935,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 2289,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 2643,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 2997,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 3351,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 3705,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 4059,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 4413,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 4767,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 5121,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 5475,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 5829,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 6183,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 6537,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 6891,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 7245,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 7599,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 7953,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 8307,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 8661,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 9015,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 9369,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 9723,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 10077,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 10431,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 10785,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 11139,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 11493,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 11847,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 12201,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 12555,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 12909,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 13263,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 13617,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 13971,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 14325,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 14679,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 15033,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 15387,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 15741,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 16095,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 16449,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 16803,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 17157,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 17511,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 17865,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 18219,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 18573,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 18927,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 19281,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 19635,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 19989,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 20343,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_04",
+          "x": 20697,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_05",
+          "x": 21051,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_01",
+          "x": 21405,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_02",
+          "x": 21759,
+          "y": 0
+        },
+        {
+          "symbol": "BackFoliage_03",
+          "x": 22113,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "behindGround",
+      "children": [
+        {
+          "symbol": "ANIM-Hippo",
+          "x": 14926,
+          "y": 255
+        },
+        {
+          "symbol": "ANIM-Tiger",
+          "x": 8030,
+          "y": 359
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "ground",
+      "children": [
+        {
+          "symbol": "Path",
+          "x": 0,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 1375,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 2750,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 4125,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 5500,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 6875,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 8250,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 9625,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 11000,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 12375,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 12375,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 13750,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 15125,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 16500,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 17875,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 19250,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 20625,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 22000,
+          "y": 443
+        },
+        {
+          "symbol": "Path",
+          "x": 23375,
+          "y": 443
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "path",
+      "children": [
+        {
+          "symbol": "PathTree",
+          "x": 3986,
+          "y": 1
+        },
+        {
+          "symbol": "Vines",
+          "x": 3688,
+          "y": 0
+        },
+        {
+          "symbol": "ChestObstacle",
+          "x": 7687,
+          "y": 462
+        },
+        {
+          "symbol": "TrunkBushObstacle",
+          "x": 8589,
+          "y": 522
+        },
+        {
+          "symbol": "TRIGGER-DrawingBoard",
+          "x": 11112,
+          "y": 0
+        },
+        {
+          "symbol": "TRIGGER-BounceGame",
+          "x": 11112,
+          "y": 0
+        },
+        {
+          "symbol": "Crate",
+          "x": 12999,
+          "sx": 0.73,
+          "y": 436,
+          "sy": 0.73
+        },
+        {
+          "symbol": "Crate",
+          "x": 12974,
+          "sx": 0.73,
+          "y": 353,
+          "sy": 0.73
+        },
+        {
+          "symbol": "Crate",
+          "x": 12993,
+          "sx": 0.73,
+          "y": 271,
+          "sy": 0.73
+        },
+        {
+          "symbol": "BarrelLid",
+          "x": 13133,
+          "y": 370,
+          "sy": 0.89
+        },
+        {
+          "symbol": "SPOT-Barrel",
+          "x": 14180,
+          "hiddenObject": "OPEN",
+          "y": 412
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 13220,
+          "y": 575,
+          "characterSpot": 10
+        },
+        {
+          "symbol": "SPOT-Crate",
+          "sx": 0.8,
+          "y": 436,
+          "x": 15341,
+          "hiddenObject": "OPEN",
+          "sy": 0.8
+        },
+        {
+          "symbol": "BarrelLibObstacle",
+          "x": 14846,
+          "y": 427
+        },
+        {
+          "symbol": "LogObstacle",
+          "x": 15631,
+          "y": 459
+        },
+        {
+          "symbol": "CrateObstacle",
+          "x": 16229,
+          "y": 483
+        },
+        {
+          "symbol": "CrateObstacle",
+          "x": 16021,
+          "y": 482
+        },
+        {
+          "symbol": "CrateObstacle",
+          "x": 16048,
+          "y": 377
+        },
+        {
+          "symbol": "PathTree",
+          "x": 17531,
+          "y": 1
+        },
+        {
+          "symbol": "TreeTrunkObstacle",
+          "x": 18110,
+          "y": 523
+        },
+        {
+          "symbol": "Vines",
+          "x": 17386,
+          "y": 0
+        },
+        {
+          "symbol": "PathTree",
+          "x": 22451,
+          "y": 0
+        },
+        {
+          "symbol": "Vines",
+          "x": 22159,
+          "y": 0
+        },
+        {
+          "symbol": "Crate",
+          "x": 22801,
+          "sx": 0.8,
+          "y": 443,
+          "sy": 0.8
+        },
+        {
+          "symbol": "SPOT-Barrel",
+          "x": 19536,
+          "hiddenObject": "OPEN",
+          "y": 425
+        },
+        {
+          "symbol": "TrunkBushObstacle",
+          "x": 21204,
+          "y": 520
+        },
+        {
+          "symbol": "LogObstacle",
+          "x": 21700,
+          "y": 458
+        },
+        {
+          "symbol": "ChestObstacle",
+          "x": 17622,
+          "y": 465
+        },
+        {
+          "symbol": "CrateObstacle",
+          "x": 3195,
+          "y": 489
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 6553,
+          "y": 581,
+          "characterSpot": 11
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 10531,
+          "y": 573,
+          "characterSpot": 12
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 18926,
+          "y": 578,
+          "characterSpot": 13
+        },
+        {
+          "symbol": "EndLevelBlock",
+          "x": 22877,
+          "y": 0
+        },
+        {
+          "symbol": "ANIM-MonkeySwing",
+          "x": 3793,
+          "y": 142
+        },
+        {
+          "symbol": "ANIM-MonkeyChew",
+          "x": 3986,
+          "y": 437
+        },
+        {
+          "symbol": "ANIM-Parrot",
+          "x": 17468,
+          "y": 70
+        },
+        {
+          "symbol": "ANIM-Zebra",
+          "x": 20094,
+          "y": 402
+        },
+        {
+          "symbol": "ANIM-Elephant",
+          "x": 22861,
+          "y": 256
+        },
+        {
+          "symbol": "Crate",
+          "x": 23352,
+          "y": 485
+        },
+        {
+          "symbol": "Crate",
+          "x": 23490,
+          "y": 495
+        },
+        {
+          "symbol": "Crate",
+          "x": 23402,
+          "y": 384
+        },
+        {
+          "symbol": "SPOT-Tree",
+          "x": 1997,
+          "hiddenObject": "OPEN",
+          "y": 0
+        },
+        {
+          "symbol": "SPOT-Barrel",
+          "x": 4683,
+          "hiddenObject": "OPEN",
+          "y": 416
+        },
+        {
+          "symbol": "SPOT-TreeGroup",
+          "x": 7179,
+          "hiddenObject": "OPEN",
+          "y": 0
+        },
+        {
+          "symbol": "SPOT-TreeGroup",
+          "x": 8907,
+          "hiddenObject": "OPEN",
+          "y": 0
+        },
+        {
+          "symbol": "SPOT-CrateStack",
+          "x": 16664,
+          "hiddenObject": "OPEN",
+          "y": 347
+        },
+        {
+          "symbol": "SPOT-TreeGroup",
+          "x": 20409,
+          "hiddenObject": "OPEN",
+          "y": 0
+        },
+        {
+          "symbol": "SPOT-ObivousCrate",
+          "x": 9622,
+          "hiddenObject": "OPEN",
+          "y": 428
+        },
+        {
+          "symbol": "SPOT-ObivousCrate",
+          "x": 22340,
+          "hiddenObject": "OPEN",
+          "y": 446
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "closePath",
+      "children": [
+        {
+          "symbol": "Bush2",
+          "x": 1436,
+          "y": 553
+        },
+        {
+          "symbol": "Bush1",
+          "x": 3729,
+          "y": 555
+        },
+        {
+          "symbol": "SPOT-Pit",
+          "x": 5394,
+          "hiddenObject": "OPEN",
+          "y": 644
+        },
+        {
+          "symbol": "Bush1",
+          "x": 5722,
+          "y": 560
+        },
+        {
+          "symbol": "Bush1",
+          "x": 9695,
+          "y": 590
+        },
+        {
+          "symbol": "Bush1",
+          "x": 12391,
+          "y": 572
+        },
+        {
+          "symbol": "SPOT-Pit",
+          "x": 2452,
+          "hiddenObject": "OPEN",
+          "y": 643
+        },
+        {
+          "symbol": "SPOT-Pit",
+          "x": 14838,
+          "hiddenObject": "OPEN",
+          "y": 644
+        }
+      ]
+    },
+    {
+      "px": 1.1,
+      "name": "foreground",
+      "children": [
+        {
+          "symbol": "ForegroundBush",
+          "x": 3044,
+          "y": 535
+        },
+        {
+          "symbol": "ForegroundBush",
+          "x": 5480,
+          "y": 533
+        },
+        {
+          "symbol": "ForegroundBush",
+          "x": 10215,
+          "y": 534
+        }
+      ]
+    }
+  ]
+}

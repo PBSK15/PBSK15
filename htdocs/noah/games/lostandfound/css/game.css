@@ -1,0 +1,103 @@
+html,body {
+	background-color: #000;
+	color: #fff;
+	font-family: helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#gameHolder {
+	width: 100%;
+	height: 100%;
+}
+
+canvas {
+	display: block;
+}
+
+/* Begin iOS 7 CSS */
+#ios7 {
+	display: none;
+}
+
+@media only screen and (max-device-width: 480px) {	
+
+	#ios7 {
+		margin: 0 auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5); 
+		z-index: 1000;
+		text-align: center;
+	}
+
+	#ios7 #box {
+		background: #9bc322;
+		width: 86%;
+		height: 43%;
+		margin: 2%;
+		border: solid 5px white;
+		text-align: left;
+		padding: 5%;
+		overflow: hidden;
+		display: table;
+	}
+
+	#ios7 #box #message {
+		font-family: Matterhorn, Arial, Helvetica, sans-serif;
+		font-size: 13.8pt;
+		display: table-cell;
+		vertical-align: middle;
+		color: #ffffff;
+		width: 100%;
+		padding-top: 2%;
+		height: 100px;
+	}
+
+	#ios7 #icon {
+		float: left;
+		margin: 3% 4%;
+	}
+
+	#ios7 #add-button {
+		float: right;
+		margin: 3% 4% 3% 0;
+	}
+
+	#ios7 #close-button {
+		position: absolute;
+		right: 17px;
+		top: 18px;
+	}
+
+	#ios7 #options-button {
+		position: relative;
+		top: 2px;
+		margin-top: -2px;
+	}
+}
+
+
+@media only screen and (orientation: portrait){	
+
+	#ios7 #box {
+		height: 90%;
+		text-align: center;
+	}
+
+	#ios7 #icon {
+		margin: -100% 40% 0%;
+		top: -10%;
+		float: none;
+		clear: both;
+	}
+	
+	#ios7 #add-button {
+		margin: 30% 40% -60%;
+		float: none;
+		clear: both;
+	}
+}

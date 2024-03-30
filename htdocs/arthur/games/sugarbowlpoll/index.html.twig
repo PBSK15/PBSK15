@@ -1,0 +1,53 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Sugar Bowl Poll | PBS Kids' %}
+{% set desc = 'Take the Sugar Bowl Poll - a survey to see what things you prefer over others. Then see what other kids prefer!' %}
+{% set keywds = 'poll, vote, survey, kids, preferences, likes' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fff">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header">
+   <table width="637" border="0" cellspacing="0" cellpadding="0" id="sugarBowlPoll">
+    <tbody>
+     <tr>
+      <td colspan="6"><img src="../../i/games/sugarbowlpoll/top2n.gif" alt=" " width="637" height="33"></td>
+     </tr>
+     <tr valign="top">
+      <td rowspan="2"><img src="../../i/games/sugarbowlpoll/shop3n.gif" alt="Sugar Bowl Poll, Arthur and friends hanging out" width="361" height="428"></td>
+      <td colspan="5"><img src="../../i/games/sugarbowlpoll/cliptop4n.gif" alt=" " width="276" height="127"></td>
+     </tr>
+     <tr valign="top">
+      <td><img src="../../i/games/sugarbowlpoll/clipleft.gif" alt=" " width="16" height="301"></td>
+      <td bgcolor="#ffffcc"><img src="../../../../i/games/sugarbowlpoll/1px.gif" width="13" height="1" alt=" "></td>
+      <td bgcolor="#ffffcc"><img src="../../../../i/games/sugarbowlpoll/1px.gif" width="200" height="1" alt=" "><br><br>
+       <form action="/cgi-registry/poll/poll.pl" method="post" style="display:inline"><input type="hidden" name="results" value="arthur/games/sugarbowlpoll/results.tmpl"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="halloween"> <input type="hidden" name="question1.exists" value="true"> <span class="poll-text">Which would you rather be for Halloween?</span><br><br>
+        <div style="padding-left:20px"><input type="radio" name="q1" value="1"><span class="poll-text">something scary</span><sub>&nbsp;</sub> <br> <input type="radio" name="q1" value="2"><span class="poll-text">something funny</span>
+        </div> <br>
+        <div style="padding-right:20px" align="right">
+         <input type="submit" value=" vote " style="color:#000000;background-color:#ffcccc">&nbsp;
+        </div>
+       </form></td>
+      <td bgcolor="#ffffcc"><img src="../../../../i/games/sugarbowlpoll/1px.gif" width="13" height="1" alt=" "></td>
+      <td><img src="../../i/games/sugarbowlpoll/clipright2.gif" alt=" " width="34" height="301"></td>
+     </tr>
+     <tr>
+      <td colspan="6"><img src="../../i/games/sugarbowlpoll/introbot2.gif" alt=" " width="637" height="26"></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/muffy/index.html" id="rcMuffy">Muffy</a></li>
+   <li><a href="/arthur/print/cootiecatcher/index.html" id="rcCootie">Cootie Catcher</a></li>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Asak Prunella</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

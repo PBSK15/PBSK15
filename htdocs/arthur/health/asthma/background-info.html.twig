@@ -1,0 +1,141 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = ' Info . Arthur' %}
+{% set specialInclude = '' %}
+{% set bodyClass = 'green' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><h2><a href="../asthma/">Asthma</a></h2></li>
+   <li><a href="../allergy/">Peanut Allergy</a></li>
+   <li><a href="../nutrition/">Nutrition</a></li>
+   <li><a href="../resilience/">Resilience</a></li>
+   <li><a href="../fitness/">Fitness</a></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Asthma</a>
+   </div>
+   <ul>
+    <li><a href="../allergy/">Peanut Allergy</a></li>
+    <li><a href="../nutrition/">Nutrition</a></li>
+    <li><a href="../resilience/">Resilience</a></li>
+    <li><a href="../fitness/">Fitness</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="group">
+  <div id="wrap-n-a-t">
+   <ul id="nav-area-top">
+    <li>
+     <div>
+      <div class="caret-area"></div>More<span> Sections</span>
+     </div>
+     <ul class="nav-area">
+      <li>
+       <div>
+        The Basics
+       </div>
+       <ul>
+        <li><a href="background-info.html">Background Information</a></li>
+        <li><a href="tips1.html">Tips for Grown-ups</a></li>
+        <li><a href="tips-kids.html">Tips for Kids</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="educators.html">For Educators</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Games &amp; Activities
+       </div>
+       <ul>
+        <li><a href="triggers1.html">Asthma Triggers</a></li>
+        <li><a href="story1.html">Buster's Breathless Story</a></li>
+        <li><a href="lung-defender.html">Buster Baxter: Lung Defender</a></li>
+        <li><a href="stay-active.html">Stay Active with Asthma</a></li>
+        <li><a href="quiz.html">Asthma Quiz</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Videos
+       </div>
+       <ul>
+        <li><a href="episode.html">Buster's Breathless</a></li>
+        <li><a href="asthma-rap.html">Asthma Rap</a></li>
+        <li><a href="kids-action.html">Kids in Action</a></li>
+        <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+       </ul></li>
+     </ul></li>
+   </ul>
+  </div>
+  <h3>The Basics</h3>
+  <h4>Background Information</h4>
+  <hr>
+  <div class="group"><img class="col5" src="../img/asthma_bginfo_1.png" alt="Buster coughing.">
+   <div class="col7">
+    <div class="banner">
+     <p>Asthma is a common disease that can make breathing very difficult. There is no cure for asthma, but with proper care and the right medicine, kids with asthma can lead active, healthy lives. Asthma can be a lifelong illness but it can be managed.</p>
+    </div>
+   </div>
+  </div>
+  <div class="col7 cntr">
+   <p class="dark">What happens during an asthma attack?</p>
+   <p>During an asthma attack, the walls of the airways inside the lungs swell up. When airways become narrow and clogged, less air can flow through them. This is what makes it hard to breathe. It can be pretty scary for your child — and you. Knowing what's going on will help everyone calm down and deal with the attack.</p>
+   <hr>
+   <p class="dark">Talk to your doctor.</p>
+   <p>Check with your doctor if your child has any of these symptoms:</p>
+   <ul>
+    <li>Wheezing or a whistling noise made while breathing.</li>
+    <li>A cough that just won't stop, especially at night, after exercise, or in cold weather.</li>
+    <li>Shortness of breath, especially when exercising.</li>
+   </ul>
+  </div>
+  <div id="wrap-n-a-b">
+   <ul id="nav-area-bot">
+    <li>
+     <div>
+      <div class="caret-area"></div>More Sections
+     </div>
+     <ul class="nav-area">
+      <li>
+       <div>
+        The Basics
+       </div>
+       <ul>
+        <li><a href="background-info.html">Background Information</a></li>
+        <li><a href="tips1.html">Tips for Grown-ups</a></li>
+        <li><a href="tips-kids.html">Tips for Kids</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="educators.html">For Educators</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Games &amp; Activities
+       </div>
+       <ul>
+        <li><a href="triggers1.html">Asthma Triggers</a></li>
+        <li><a href="story1.html">Buster's Breathless Story</a></li>
+        <li><a href="lung-defender.html">Buster Baxter: Lung Defender</a></li>
+        <li><a href="stay-active.html">Stay Active with Asthma</a></li>
+        <li><a href="quiz.html">Asthma Quiz</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Videos
+       </div>
+       <ul>
+        <li><a href="episode.html">Buster's Breathless</a></li>
+        <li><a href="asthma-rap.html">Asthma Rap</a></li>
+        <li><a href="kids-action.html">Kids in Action</a></li>
+        <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+       </ul></li>
+     </ul></li>
+   </ul>
+  </div>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="../js/jquery-1.10.2.min.js"></script><script src="../js/main.js"></script>' %}

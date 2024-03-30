@@ -1,0 +1,111 @@
+<game id="storybookcreator" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPERWHY'S STORYBOOK CREATOR | PBS KIDS]]></title>
+	<swf url="sections/games/storybookcreator/storybookcreator.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		idleTime = "30000"
+	/>
+
+	<email 	sendURL="http://pbskids.org/cgi-registry/tell_a_friend.cgi"
+			urlToSend="http://pbskids.org/superwhy/index.html#game/storybookcreator" 
+			thanksURL="/superwhy/sections/games/storybookcreator/email/success.html" 
+			errorURL="/superwhy/sections/games/storybookcreator/email/error.html">
+			<content><![CDATA[Checkout the story I created on the SUPER WHY site!]]></content>		
+	</email>
+	
+	<config>
+		<storySelector bookDistance="400" bookSpeed="1" bookMovement="easeOutBack" />
+	</config>
+	
+	<books>
+		<book location="sections/games/storybookcreator/books/jack.swf" />
+		<book location="sections/games/storybookcreator/books/princess.swf" />
+		<book location="sections/games/storybookcreator/books/pigs.swf" />
+		<book location="sections/games/storybookcreator/books/red.swf" />
+	</books>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="superwhy_endscreen" url="libraries/superwhy_endscreen.swf" />
+	</libraries> 
+
+	<assets>
+		
+		<shell_vo id="shell_vo" isGroup="true">
+			<shell_vo id="title" type="audio" url="sections/games/storybookcreator/audio/superwhy_storybook.mp3"/>
+			<shell_vo id="pick_a_story" type="audio" url="sections/games/storybookcreator/audio/choose_story.mp3"/>
+			<shell_vo id="jack" type="audio" url="sections/games/storybookcreator/audio/jack.mp3"/>
+			<shell_vo id="princess" type="audio" url="sections/games/storybookcreator/audio/princess.mp3"/>
+			<shell_vo id="pigs" type="audio" url="sections/games/storybookcreator/audio/pigs.mp3"/>
+			<shell_vo id="red" type="audio" url="sections/games/storybookcreator/audio/red.mp3"/>
+			<shell_vo id="next" type="audio" url="sections/games/storybookcreator/audio/next.mp3"/>
+			<shell_vo id="back" type="audio" url="sections/games/storybookcreator/audio/back.mp3"/>
+			<shell_vo id="type_in_name" type="audio" url="sections/games/storybookcreator/audio/type_in_name.mp3"/>
+			<shell_vo id="ok" type="audio" url="sections/games/storybookcreator/audio/ok.mp3"/>
+			<shell_vo id="easy_hard" type="audio" url="sections/games/storybookcreator/audio/easy_hard.mp3"/>
+			<shell_vo id="easy" type="audio" url="sections/games/storybookcreator/audio/read_with.mp3"/>
+			<shell_vo id="hard" type="audio" url="sections/games/storybookcreator/audio/read_own.mp3"/>
+			<shell_vo id="lets_read" type="audio" url="sections/games/storybookcreator/audio/letsread.mp3"/>
+			<shell_vo id="music" type="audio" url="sections/games/storybookcreator/audio/music.mp3"/>
+			<shell_vo id="email" type="audio" url="sections/games/storybookcreator/audio/email.mp3"/>
+			<shell_vo id="print" type="audio" url="sections/games/storybookcreator/audio/print.mp3"/>
+			<shell_vo id="preview" type="audio" url="sections/games/storybookcreator/audio/see_work.mp3"/>
+			<shell_vo id="read_storybook" type="audio" url="sections/games/storybookcreator/audio/read_your_storybook.mp3"/>
+			<shell_vo id="send" type="audio" url="sections/games/storybookcreator/audio/send.mp3"/>
+			<shell_vo id="yes" type="audio" url="sections/games/storybookcreator/audio/yes.mp3"/>
+			<shell_vo id="no" type="audio" url="sections/games/storybookcreator/audio/no.mp3"/>
+			<shell_vo id="print_confirmation" type="audio" url="sections/games/storybookcreator/audio/sureprint.mp3"/>
+			<shell_vo id="email_confirmation" type="audio" url="sections/games/storybookcreator/audio/emailfamily.mp3"/>
+			<shell_vo id="choose" type="audio" url="sections/games/storybookcreator/audio/choose.mp3"/>
+			<shell_vo id="keep_reading" type="audio" url="sections/games/storybookcreator/audio/keepreading.mp3"/>
+			<shell_vo id="hey" type="audio" url="sections/games/storybookcreator/audio/hey.mp3"/>
+			<shell_vo id="lets_change1" type="audio" url="sections/games/storybookcreator/audio/letschange1.mp3"/>
+			<shell_vo id="lets_change2" type="audio" url="sections/games/storybookcreator/audio/letschange2.mp3"/>
+			<shell_vo id="why_writer" type="audio" url="sections/games/storybookcreator/audio/whywriterwrite.mp3"/>
+			<shell_vo id="zap" type="audio" url="sections/games/storybookcreator/audio/zap.mp3"/>
+			<shell_vo id="zap2" type="audio" url="sections/games/storybookcreator/audio/zap2.mp3"/>
+			<shell_vo id="skip" type="audio" url="sections/games/storybookcreator/audio/skip.mp3"/>
+			<shell_vo id="sure_finish" type="audio" url="sections/games/storybookcreator/audio/surefinished.mp3"/>
+			<shell_vo id="done" type="audio" url="sections/games/storybookcreator/audio/done.mp3"/>
+			<shell_vo id="see_work" type="audio" url="sections/games/storybookcreator/audio/see_work.mp3"/>
+			<shell_vo id="choose_word" type="audio" url="sections/games/storybookcreator/audio/choose_word.mp3"/>
+		</shell_vo>
+		
+		<kudos id="kudos" isGroup="true">
+			<kudos id="nice" type="audio" url="sections/games/storybookcreator/audio/nice.mp3"/>
+			<kudos id="right" type="audio" url="sections/games/storybookcreator/audio/right.mp3"/>
+			<kudos id="super" type="audio" url="sections/games/storybookcreator/audio/super.mp3"/>
+			<kudos id="wow" type="audio" url="sections/games/storybookcreator/audio/wow.mp3"/>
+			<kudos id="awesome" type="audio" url="sections/games/storybookcreator/audio/awesome.mp3"/>
+			<kudos id="cool" type="audio" url="sections/games/storybookcreator/audio/cool.mp3"/>
+			<kudos id="funny" type="audio" url="sections/games/storybookcreator/audio/funny.mp3"/>
+		</kudos>
+		
+		<soundfx id="soundfx" isGroup="true">
+			<soundfx id="sfx_book_select_and_next_page" type="audio" url="sections/games/storybookcreator/audio/sfx_book_select_and_next_page.mp3"/>
+			<soundfx id="sfx_btn_press" type="audio" url="sections/games/storybookcreator/audio/sfx_btn_press.mp3"/>
+			<soundfx id="sfx_btn_rollover" type="audio" url="sections/games/storybookcreator/audio/sfx_btn_rollover.mp3"/>
+			<soundfx id="sfx_btn_whyboard_press" type="audio" url="sections/games/storybookcreator/audio/sfx_btn_whyboard_press.mp3"/>
+			<soundfx id="sfx_change_object_in" type="audio" url="sections/games/storybookcreator/audio/sfx_change_object_in.mp3"/>
+			<soundfx id="sfx_change_object_out" type="audio" url="sections/games/storybookcreator/audio/sfx_change_object_out.mp3"/>
+			<soundfx id="sfx_superwhy_flyin" type="audio" url="sections/games/storybookcreator/audio/sfx_superwhy_flyin.mp3"/>
+			<soundfx id="sfx_page_object_in_out" type="audio" url="sections/games/storybookcreator/audio/sfx_page_object_in_out.mp3"/>
+			<soundfx id="sfx_whyboard_in_out" type="audio" url="sections/games/storybookcreator/audio/sfx_whyboard_in_out.mp3"/>
+			<soundfx id="sfx_btn_keyboard_rollover" type="audio" url="sections/games/storybookcreator/audio/sfx_btn_keyboard_rollover.mp3"/>
+			<soundfx id="sfx_book_select_whoosh" type="audio" url="sections/games/storybookcreator/audio/sfx_book_select_whoosh.mp3"/>
+		</soundfx>
+		
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="superwhy" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+			<promo id="alphapig" location="game/alphabricks" url="promos/endscreen_promo_ap_bricks.jpg" />
+		</promos>
+
+	</assets>
+	
+
+</game>

@@ -1,0 +1,24 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Crank It Up | PBS Kids' %}
+{% set desc = 'Its Halloween! D.W. has devised a musical contraption. Help her make music while she bikes!' %}
+{% set keywds = 'music, D.W., instrument, percussion, diy, contraption, Halloween' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="crankbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="crankitup_halloween.html" target="_self"><img src="../../i/games/crank_splash_halloween.gif" width="595" height="410" border="0" alt="Play Crank It Up"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+   <li><a href="/arthur/games/globalgizmo/index.html" id="rcGlobal">Global Gizmo</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

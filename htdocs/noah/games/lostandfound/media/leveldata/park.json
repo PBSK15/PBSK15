@@ -1,0 +1,1639 @@
+{
+  "symbols": {
+    "mailbox": {
+      "type": "sprite",
+      "asset": "mailbox"
+    },
+    "back-tree": {
+      "type": "sprite",
+      "asset": "back-tree"
+    },
+    "SPOT-BenchFront": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-avacado",
+          "x": 460,
+          "y": 94
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 17,
+          "y": 107
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 306,
+          "rot": 40.02,
+          "y": 76
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 363,
+          "y": 186
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": 40,
+          "y": 179
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 45,
+          "rot": 71.47,
+          "y": 171
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 470,
+          "y": 89
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 18,
+          "y": 95
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 357,
+          "rot": 99.29,
+          "y": 196
+        },
+        {
+          "sprite": "FO-sunglasses",
+          "x": 66,
+          "y": 188
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 10,
+          "y": 89
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 44,
+          "y": 180
+        }
+      ]
+    },
+    "ANIM-DogUp": {
+      "type": "animation",
+      "animation": "DogUp"
+    },
+    "hydrant": {
+      "type": "sprite",
+      "asset": "hydrant"
+    },
+    "bike2": {
+      "type": "sprite",
+      "asset": "bike2"
+    },
+    "manhole": {
+      "type": "sprite",
+      "asset": "manhole"
+    },
+    "barricade": {
+      "type": "sprite",
+      "asset": "barricade"
+    },
+    "TRIGGER-BounceGame": {
+      "type": "trigger",
+      "triggerType": "BounceGame"
+    },
+    "coneObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 34,
+        "x": 23,
+        "height": 106,
+        "y": 1
+      },
+      "asset": "cone"
+    },
+    "ANIM-BarricadeLight": {
+      "type": "animation",
+      "animation": "BarricadeLight"
+    },
+    "ANIM-DogSide": {
+      "type": "animation",
+      "animation": "DogSide"
+    },
+    "bush": {
+      "type": "sprite",
+      "asset": "bush"
+    },
+    "open-manhole": {
+      "type": "sprite",
+      "asset": "open-manhole"
+    },
+    "bench": {
+      "type": "sprite",
+      "asset": "bench"
+    },
+    "ANIM-ParkDistractor": {
+      "type": "animation",
+      "animation": "ParkDistractor"
+    },
+    "trashcanObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 102,
+        "x": 9,
+        "height": 100,
+        "y": 13
+      },
+      "asset": "trashcan"
+    },
+    "foldingtableObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 248,
+        "x": 9,
+        "height": 140,
+        "y": 5
+      },
+      "asset": "foldingtable"
+    },
+    "fore-tree": {
+      "type": "sprite",
+      "asset": "fore-tree"
+    },
+    "TRIGGER-Character": {
+      "type": "trigger",
+      "triggerType": "Character"
+    },
+    "sky": {
+      "type": "sprite",
+      "asset": "sky"
+    },
+    "benchObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 536,
+        "x": 1,
+        "height": 86,
+        "y": 148
+      },
+      "asset": "bench"
+    },
+    "trashcan": {
+      "type": "sprite",
+      "asset": "trashcan"
+    },
+    "tools": {
+      "type": "sprite",
+      "asset": "tools"
+    },
+    "ANIM-BirdNest": {
+      "type": "animation",
+      "animation": "BirdNest"
+    },
+    "ANIM-Pigeons": {
+      "type": "animation",
+      "animation": "Pigeons"
+    },
+    "spot-manhole-back": {
+      "type": "sprite",
+      "asset": "spot-manhole-back"
+    },
+    "SPOT-BenchBack": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-apple",
+          "x": -18,
+          "y": 161
+        },
+        {
+          "sprite": "FO-balloons",
+          "x": 12,
+          "y": -140
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 375,
+          "y": -25
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 52,
+          "y": -22
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 461,
+          "rot": 75.48,
+          "y": -16
+        },
+        {
+          "sprite": "FO-bread",
+          "x": -56,
+          "y": 140
+        },
+        {
+          "sprite": "FO-chair",
+          "x": 95,
+          "rot": -6.99,
+          "y": -92
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": -23,
+          "y": 136
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 461,
+          "y": 131
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 464,
+          "y": 131
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": -50,
+          "y": 150
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 478,
+          "y": 104
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": -81,
+          "y": 104
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 411,
+          "y": -15
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 488,
+          "y": 125
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 488,
+          "y": 138
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 364,
+          "y": -16
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 49,
+          "y": -25
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": -18,
+          "y": 90
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 59,
+          "y": -16
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 472
+        },
+        {
+          "sprite": "FO-umbrella",
+          "x": 317,
+          "y": -138
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 480,
+          "y": 116
+        },
+        {
+          "sprite": "FO-raft",
+          "x": 441,
+          "y": 146
+        }
+      ]
+    },
+    "NewstandBack": {
+      "type": "sprite",
+      "asset": "NewstandBack"
+    },
+    "busstop": {
+      "type": "sprite",
+      "asset": "busstop"
+    },
+    "ground": {
+      "type": "sprite",
+      "asset": "ground"
+    },
+    "fore-tree2": {
+      "type": "sprite",
+      "asset": "fore-tree2"
+    },
+    "fountain": {
+      "type": "sprite",
+      "asset": "fountain"
+    },
+    "fountainObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 132,
+        "x": 3,
+        "height": 144,
+        "y": 28
+      },
+      "asset": "fountain"
+    },
+    "spot-manhole-front": {
+      "type": "sprite",
+      "asset": "spot-manhole-front"
+    },
+    "EndLevelBlock": {
+      "type": "entity",
+      "box": {
+        "width": 200,
+        "x": 0,
+        "height": 768,
+        "y": 0
+      }
+    },
+    "SPOT-Manhole": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "spot-manhole-back"
+        },
+        {
+          "sprite": "FO-apple",
+          "x": 25,
+          "y": 1
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 24,
+          "y": 7
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 21,
+          "y": 4
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 23,
+          "y": 11
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 23,
+          "y": 13
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 25,
+          "y": -5
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 15,
+          "y": 13
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 19,
+          "y": -2
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 22,
+          "rot": 11.22,
+          "y": -5
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 30
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 34,
+          "y": 12
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 22,
+          "y": 6
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 18,
+          "y": 7
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 30,
+          "y": 17
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 37,
+          "y": 10
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 40,
+          "y": 7
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 38,
+          "y": -17
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 28,
+          "y": 15
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 22,
+          "y": 1
+        },
+        {
+          "sprite": "FO-sunglasses",
+          "x": 20,
+          "y": 25
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 45,
+          "y": 14
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 27,
+          "y": -8
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 28,
+          "y": -6
+        },
+        {
+          "sprite": "spot-manhole-front"
+        }
+      ]
+    },
+    "TRIGGER-DrawingBoard": {
+      "type": "trigger",
+      "triggerType": "DrawingBoard"
+    },
+    "foldingtable": {
+      "type": "sprite",
+      "asset": "foldingtable"
+    },
+    "ANIM-Cat": {
+      "type": "animation",
+      "animation": "Cat"
+    },
+    "TRIGGER-OldLady": {
+      "type": "trigger",
+      "triggerType": "OldLady"
+    },
+    "NewstandFront": {
+      "type": "sprite",
+      "asset": "NewstandFront"
+    },
+    "cone": {
+      "type": "sprite",
+      "asset": "cone"
+    },
+    "bike1": {
+      "type": "sprite",
+      "asset": "bike1"
+    },
+    "SPOT-Fountian": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-apple",
+          "x": 83,
+          "y": 113
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 79,
+          "y": 118
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": -28,
+          "y": 87
+        },
+        {
+          "sprite": "FO-bread",
+          "x": 11,
+          "y": 107
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 5,
+          "y": 127
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 52,
+          "y": 112
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 73,
+          "y": 67
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": -44,
+          "y": 106
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 54,
+          "y": 116
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": -62,
+          "y": 118
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 57,
+          "y": 98
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 36,
+          "y": 112
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 20,
+          "y": 68
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 58,
+          "y": 94
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 47,
+          "y": 88
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 68,
+          "y": 105
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 15,
+          "y": 108
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 7,
+          "y": 111
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 76,
+          "y": 107
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 24,
+          "y": 108
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 62,
+          "y": 57
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 76,
+          "y": 118
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 146,
+          "rot": 102,
+          "y": 138
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 31,
+          "y": 109
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 73,
+          "y": 114
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 21,
+          "y": 85
+        }
+      ]
+    }
+  },
+  "distractor": [
+    {
+      "px": 0,
+      "name": "background",
+      "children": [
+        {
+          "symbol": "sky",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.4,
+      "name": "farTrees",
+      "children": [
+        {
+          "symbol": "back-tree",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 1246,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 2492,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.9,
+      "name": "closeTrees",
+      "children": [
+        {
+          "symbol": "fore-tree",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 1100,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "behindGround",
+      "children": []
+    },
+    {
+      "px": 1,
+      "name": "ground",
+      "children": [
+        {
+          "symbol": "ground",
+          "x": 0,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 1258,
+          "y": 509
+        },
+        {
+          "symbol": "bush",
+          "x": 0,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 405,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 810,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 1215,
+          "y": 374
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "path",
+      "children": [
+        {
+          "symbol": "open-manhole",
+          "x": 930,
+          "y": 551
+        },
+        {
+          "symbol": "tools",
+          "x": 1085,
+          "y": 432
+        },
+        {
+          "symbol": "cone",
+          "x": 1139,
+          "y": 524
+        },
+        {
+          "symbol": "barricade",
+          "x": 606,
+          "y": 394
+        },
+        {
+          "symbol": "barricade",
+          "x": 739,
+          "y": 447
+        },
+        {
+          "symbol": "cone",
+          "x": 640,
+          "y": 518
+        },
+        {
+          "symbol": "ANIM-BarricadeLight",
+          "x": 626,
+          "y": 395
+        },
+        {
+          "symbol": "ANIM-BarricadeLight",
+          "x": 760,
+          "y": 448
+        },
+        {
+          "symbol": "ANIM-ParkDistractor",
+          "x": 607,
+          "y": 82
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "closePath",
+      "children": []
+    },
+    {
+      "px": 1.1,
+      "name": "foreground",
+      "children": []
+    }
+  ],
+  "level": [
+    {
+      "px": 0,
+      "name": "background",
+      "children": [
+        {
+          "symbol": "sky",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.65,
+      "name": "farTrees",
+      "children": [
+        {
+          "symbol": "back-tree",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 1246,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 2492,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 3738,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 4984,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 6230,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 7476,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 8722,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 9968,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 11214,
+          "y": 0
+        },
+        {
+          "symbol": "back-tree",
+          "x": 12460,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.9,
+      "name": "closeTrees",
+      "children": [
+        {
+          "symbol": "ANIM-DogSide",
+          "x": 9513,
+          "y": 283
+        },
+        {
+          "symbol": "fore-tree",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree",
+          "x": 2250,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree",
+          "x": 4500,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree",
+          "x": 6750,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree",
+          "x": 9000,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree",
+          "x": 11250,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree",
+          "x": 13500,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree",
+          "x": 15750,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 1100,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 3368,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 5636,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 7904,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 10172,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 12440,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 14708,
+          "y": 0
+        },
+        {
+          "symbol": "fore-tree2",
+          "x": 16976,
+          "y": 0
+        },
+        {
+          "symbol": "ANIM-BirdNest",
+          "x": 7000,
+          "y": 170
+        },
+        {
+          "symbol": "ANIM-BirdNest",
+          "x": 15990,
+          "y": 168
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "behindGround",
+      "children": [
+        {
+          "symbol": "ANIM-DogUp",
+          "x": 13798,
+          "y": 564
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "ground",
+      "children": [
+        {
+          "symbol": "ground",
+          "x": 0,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 1258,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 2516,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 3774,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 5032,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 6290,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 7548,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 8806,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 10064,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 11322,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 12580,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 13838,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 15096,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 16354,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 17612,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 18870,
+          "y": 509
+        },
+        {
+          "symbol": "ground",
+          "x": 20128,
+          "y": 509
+        },
+        {
+          "symbol": "bush",
+          "x": 0,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 405,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 810,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 1215,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 1620,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 2025,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 2430,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 2835,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 3240,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 3645,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 4050,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 4455,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 4860,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 5265,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 5670,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 6075,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 6480,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 6885,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 7290,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 7695,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 8100,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 8505,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 8910,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 9315,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 9720,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 10125,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 10530,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 10935,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 11340,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 11745,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 12150,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 12555,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 12960,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 13365,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 13770,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 14175,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 14580,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 14985,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 15390,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 15795,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 16200,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 16605,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 17010,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 17415,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 17820,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 18225,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 18630,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 19035,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 19440,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 19845,
+          "y": 374
+        },
+        {
+          "symbol": "bush",
+          "x": 20250,
+          "y": 374
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "path",
+      "children": [
+        {
+          "symbol": "benchObstacle",
+          "x": 3393,
+          "y": 370
+        },
+        {
+          "symbol": "fountainObstacle",
+          "x": 4044,
+          "y": 432
+        },
+        {
+          "symbol": "SPOT-BenchFront",
+          "x": 3395,
+          "hiddenObject": "OPEN",
+          "y": 370
+        },
+        {
+          "symbol": "coneObstacle",
+          "x": 6047,
+          "y": 502
+        },
+        {
+          "symbol": "bike2",
+          "x": 6601,
+          "y": 276
+        },
+        {
+          "symbol": "SPOT-BenchBack",
+          "x": 6639,
+          "hiddenObject": "OPEN",
+          "y": 377
+        },
+        {
+          "symbol": "benchObstacle",
+          "x": 6639,
+          "y": 377
+        },
+        {
+          "symbol": "TRIGGER-BounceGame",
+          "x": 8437,
+          "y": 0
+        },
+        {
+          "symbol": "TRIGGER-DrawingBoard",
+          "x": 8437,
+          "y": 0
+        },
+        {
+          "symbol": "bike1",
+          "x": 10109,
+          "y": 309
+        },
+        {
+          "symbol": "SPOT-Fountian",
+          "x": 10167,
+          "hiddenObject": "OPEN",
+          "y": 433
+        },
+        {
+          "symbol": "fountainObstacle",
+          "x": 10167,
+          "y": 433
+        },
+        {
+          "symbol": "benchObstacle",
+          "x": 10793,
+          "y": 377
+        },
+        {
+          "symbol": "trashcanObstacle",
+          "x": 12727,
+          "y": 493
+        },
+        {
+          "symbol": "SPOT-BenchFront",
+          "x": 10792,
+          "hiddenObject": "OPEN",
+          "y": 376
+        },
+        {
+          "symbol": "SPOT-BenchBack",
+          "x": 15396,
+          "hiddenObject": "OPEN",
+          "y": 378
+        },
+        {
+          "symbol": "SPOT-Fountian",
+          "x": 17930,
+          "hiddenObject": "OPEN",
+          "y": 433
+        },
+        {
+          "symbol": "benchObstacle",
+          "x": 15404,
+          "y": 378
+        },
+        {
+          "symbol": "bike1",
+          "x": 16414,
+          "y": 322
+        },
+        {
+          "symbol": "bike2",
+          "x": 17011,
+          "y": 289
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 16895,
+          "y": 567,
+          "characterSpot": 14
+        },
+        {
+          "symbol": "fountainObstacle",
+          "x": 17930,
+          "y": 433
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 14186,
+          "y": 586,
+          "characterSpot": 15
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 4953,
+          "y": 564,
+          "characterSpot": 16
+        },
+        {
+          "symbol": "open-manhole",
+          "x": 19660,
+          "y": 551
+        },
+        {
+          "symbol": "tools",
+          "x": 19815,
+          "y": 432
+        },
+        {
+          "symbol": "cone",
+          "x": 19869,
+          "y": 524
+        },
+        {
+          "symbol": "barricade",
+          "x": 19336,
+          "y": 394
+        },
+        {
+          "symbol": "barricade",
+          "x": 19469,
+          "y": 447
+        },
+        {
+          "symbol": "cone",
+          "x": 19370,
+          "y": 518
+        },
+        {
+          "symbol": "EndLevelBlock",
+          "x": 19331,
+          "y": -1
+        },
+        {
+          "symbol": "benchObstacle",
+          "x": 7588,
+          "y": 376
+        },
+        {
+          "symbol": "SPOT-BenchFront",
+          "x": 7592,
+          "hiddenObject": "OPEN",
+          "y": 372
+        },
+        {
+          "symbol": "foldingtableObstacle",
+          "x": 12874,
+          "y": 465
+        },
+        {
+          "symbol": "ANIM-BarricadeLight",
+          "x": 19357,
+          "y": 395
+        },
+        {
+          "symbol": "ANIM-BarricadeLight",
+          "x": 19490,
+          "y": 449
+        },
+        {
+          "symbol": "ANIM-Pigeons",
+          "x": 6160,
+          "y": 450
+        },
+        {
+          "symbol": "ANIM-Pigeons",
+          "x": 12453,
+          "y": 448
+        },
+        {
+          "symbol": "trashcanObstacle",
+          "x": 15142,
+          "y": 493
+        },
+        {
+          "symbol": "SPOT-Fountian",
+          "x": 2445,
+          "hiddenObject": "OPEN",
+          "y": 434
+        },
+        {
+          "symbol": "fountainObstacle",
+          "x": 2445,
+          "y": 434
+        },
+        {
+          "symbol": "NewstandBack",
+          "x": 11592,
+          "y": 0
+        },
+        {
+          "symbol": "TRIGGER-OldLady",
+          "x": 11592,
+          "y": 0
+        },
+        {
+          "symbol": "NewstandFront",
+          "x": 11661,
+          "y": 282
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "closePath",
+      "children": [
+        {
+          "symbol": "busstop",
+          "x": 1785,
+          "y": 168
+        }
+      ]
+    },
+    {
+      "px": 1.06,
+      "name": "foreground",
+      "children": [
+        {
+          "symbol": "SPOT-Manhole",
+          "x": 2073,
+          "hiddenObject": "OPEN",
+          "y": 687
+        },
+        {
+          "symbol": "hydrant",
+          "x": 3078,
+          "y": 560
+        },
+        {
+          "symbol": "mailbox",
+          "x": 5756,
+          "y": 526
+        },
+        {
+          "symbol": "mailbox",
+          "x": 14118,
+          "y": 516
+        },
+        {
+          "symbol": "SPOT-Manhole",
+          "x": 13801,
+          "hiddenObject": "OPEN",
+          "y": 688
+        },
+        {
+          "symbol": "hydrant",
+          "x": 15313,
+          "y": 577
+        },
+        {
+          "symbol": "ANIM-Cat",
+          "x": 15743,
+          "y": 734
+        }
+      ]
+    }
+  ]
+}

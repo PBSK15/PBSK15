@@ -1,0 +1,51 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Play Maker | PBS Kids' %}
+{% set desc = 'Here are all the props needed for performing the ARTHUR play, D.W. Gets Her Library Card. Just print and color, then use them in your show!' %}
+{% set keywds = 'props, stage, performance, play' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../index.html"><h4 id="playHeader">Play Maker</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../script.html"><span>Script</span></a></li>
+   <li><a href="../props/index.html" class="selected"><span>Props</span></a></li>
+   <li><a href="../masks/index.html"><span>Masks</span></a></li>
+   <li><a href="../costumes.html"><span>Costumes</span></a></li>
+   <li><a href="../tips/index.html"><span>Tips</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Props</h1>
+    </div>
+   </div>
+   <div id="masksContent">
+    <p>Props are the objects you use in a play. For the play <a href="../script.html">D.W. Gets Her Library Card</a>, you can use a table, chairs, and books to create the library. For things like the video screen and Binky's earphones, you can always pretend!</p>
+    <p>Here's some other cool stuff to print, color, and use for your play:</p>
+    <ul id="pmPropsIcons">
+     <li id="ticketsProps" class="icon"><a href="props.html#pg-tickets" class="selected">Tickets</a></li>
+     <li id="bookProps" class="icon"><a href="props.html#pg-book">Book</a></li>
+     <li id="cardProps" class="icon"><a href="props.html#pg-card">Libary Card</a></li>
+     <li id="posterProps" class="icon"><a href="props.html#pg-poster">Poster</a></li>
+    </ul>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>
+   <li><a href="/arthur/print/bookmarks/index.html" id="rcBookmarks">Bookmarks</a></li>
+   <li><a href="/arthur/games/comiccreator/index.html" id="rcComic">Comic Creator</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

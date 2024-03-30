@@ -1,0 +1,83 @@
+		<div id="topNav">
+		<!-- #bbinclude "nav.pl"  #section#="games"-->
+			<a href="/pbskidsgo/" title="go to PBSKids Go" id="pbsLogo">PBS Kids Go!</a>
+			
+			{% if selectedNav == 'home' %}
+				<a href="/arthur/index.html" title="go play cootie catcher"><img src="/arthur/i/alt/cootie.png" width="289" height="325" border="0" alt="Cootie Catcher" id="main-hilight"/></a>
+			{% else %}
+				<a href="/arthur/index.html" title="go to Arthur site" id="arthurLogo">Arthur</a>
+			{% endif %}
+	
+			<ul>
+				{% if selectedNav == 'friends' %}
+					<li id="navFriends" class="selected">
+				{% else %}
+					<li id="navFriends">
+				{% endif %}
+						<a href="/arthur/friends/index.html">Friends</a>
+					</li>
+				{% if selectedNav == 'games' %}
+					<li id="navGames" class="selected">
+				{% else %}
+					<li id="navGames">
+				{% endif %}
+						<a href="/arthur/games/index.html">Games</a>
+					</li>
+				{% if selectedNav == 'videos' %}
+					<li id="navVideos" class="selected">
+				{% else %}
+					<li id="navVideos">
+				{% endif %}
+						<a href="/arthur/video/index.html">Video</a>
+					</li>
+				{% if selectedNav == 'print' %}
+					<li id="navPrints" class="selected">
+				{% else %}
+					<li id="navPrints">
+				{% endif %}
+						<a href="/arthur/print/index.html">Print</a>
+					</li>
+				{% if selectedNav == 'clubs' %}
+					<li id="navClubs" class="selected">
+				{% else %}
+					<li id="navClubs">
+				{% endif %}
+						<a href="/arthur/clubs/index.html">Clubs</a>
+					</li>
+				{% if noPT is defined %}
+					{% if noPT == false %}
+						<li id="navPT">
+							<a href="/arthur/parentsteachers/index.html">Parents &amp; Teachers</a>
+						</li>
+					{% endif %}
+				{% else %}
+					<li id="navPT">
+						<a href="/arthur/parentsteachers/index.html">Parents &amp; Teachers</a>
+					</li>
+				{% endif %}
+	
+			</ul>
+			
+			{{specialNav|raw}}
+
+		</div>
+		
+		{% if selectedNav == 'videos' %}
+			{% if karaoke == false %}
+				<div id="videoNav">
+					<ul>
+						<li id="navClips" class="selected"><a href="index.html">Clips &amp; Episodes</a></li>
+						<!--<li id="navPanache"><a href="games.html">Games</a></li>-->
+						<li id="navKaraoke"><a href="karaoke.html">Karaoke</a></li>
+					</ul>
+				</div>
+			{% else %}
+				<div id="videoNav">
+					<ul>
+						<li id="navClips"><a href="index.html">Clips &amp; Episodes</a></li>
+						<!--<li id="navPanache"><a href="games.html">Games</a></li>-->
+						<li id="navKaraoke" class="selected"><a href="karaoke.html">Karaoke</a></li>
+					</ul>
+				</div>
+			{% endif %}
+		{% endif %}

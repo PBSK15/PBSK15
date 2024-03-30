@@ -1,0 +1,97 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Dad\'s Photos Page | PBS Kids' %}
+{% set desc = '' %}
+{% set keywds = '' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cc9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/dad_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/dad_top.swf", "dad", "960", "363", "9", "#cccc99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "dad");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-dad">Dad's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/dad1.jpg" width="354" height="250" alt="Mr. Read icing a giant cake." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_dad.gif" width="85" height="83" alt="Dad avatar" border="0" id="avatar">
+    <h3>Ta-da! Another cake masterpiece!</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="pal-cmt"><a href="/arthur/friends/pal/index.html">PAL</a>
+       <p>Rowr-rowr! (Just one lick. Please?)</p>
+      </div>
+      <div class="pal-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/dad1.jpg" width="354" height="250" alt="Mr. Read icing a giant cake." border="0" id="mainImg">
+       <h3>Ta-da! Another cake masterpiece!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="pal-cmt"><a href="/arthur/friends/pal/index.html">PAL</a>
+          <p>Rowr-rowr! (Just one lick. Please?)</p>
+         </div>
+         <div class="pal-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/dad2.jpg" width="354" height="250" alt="Binky, Arthur, Mr. Read and D.W. floating to shore on a surfboard." border="0" id="mainImg">
+       <h3>D.W. does NOT like seaweed.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="dw-cmt"><a href="/arthur/friends/dw/index.html">D.W.</a>
+          <p>Well, who does? TOO SLIMY!</p>
+         </div>
+         <div class="dw-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/dad3.jpg" width="354" height="250" alt="Mr. and Mrs. Read dancing at a party." border="0" id="mainImg">
+       <h3>Dancing up a storm.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/grandma/index.html" id="rcThora">Grandma Thora</a></li>
+   <li><a href="/arthur/games/yougottobekidding/index.html" id="rcKidding">You've Got To Be Kidding</a></li>
+   <li><a href="/arthur/print/coloringpages/index.html" id="rcColoring">Coloring Pages</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

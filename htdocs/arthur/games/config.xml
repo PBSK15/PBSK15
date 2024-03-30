@@ -1,0 +1,548 @@
+<?xml version="1.0"?>
+<root>
+	<basePath>../</basePath>
+	<notbasePath>/go/studio/</notbasePath>
+	<cdnPath>https://pbskids.org/go/studio/</cdnPath>
+	<imagePath>images/</imagePath>
+	<fontsPath>fonts.xml</fontsPath>
+	<stringsPath>strings.xml</stringsPath>
+	<charactersPath>assets/characters/</charactersPath>
+	<characterPath/>
+	<logoPath>images/pbscblogo.png</logoPath>
+	<skin name="fg alpha" primarycolor="0xaed723" secondarycolor="0x7caedc" hilitecolor="0xff9A00"/>
+	<skin name="bluesy" primarycolor="0x0066ff" secondarycolor="0xff00ff" hilitecolor="0xffff00"/>
+	<cbbgfill startcolor="0x66cccc" endcolor="0x66cccc"/> <!-- image="images/bg.png"-->
+	<speechbubbles>
+		<asset type="pbs_character" thumbURL="assets/characters/speechbubble.swf" assetURL="assets/characters/speechbubble.swf"/>
+	</speechbubbles>
+	<starters>
+		<resource>
+			<link>https://pbskids.org/characters/index.html?id=243</link>
+			<thumbnail_url>https://pbskids.org/upload/characters/thumbnails/2011/06/2b780a24-8d1e-11e0-81d4-0011259de55e.jpg</thumbnail_url>
+			<data>AAAHAFAHHAAFHHFAABABAAA|HSGYBUGYAJNMHFDMNVIWCUAKGGDM0IWCUAKNUMSEEGYBUGYAJNM|DDDBDDEDDEDBFBJBIBDDB|wordgirl</data>
+			<name>Your Girl</name>
+			<id>243</id>
+		</resource>
+		<resource>
+			<link>https://pbskids.org/characters/index.html?id=244</link>
+			<thumbnail_url>https://pbskids.org/upload/characters/thumbnails/2011/06/98625c66-8d1e-11e0-811e-0011259de55e.jpg</thumbnail_url>
+			<data>FBFBKBCKKBCKKFJBJFBFB|HSGYBUGYAJNMHFDMNVIWCUAKGGDM0IWCUAKNUMSEEGYBUGYAJNM|HHHBHHJHHJEGCCGBGGHHB|wordgirl</data>
+			<name>Your Boy</name>
+			<id>244</id>
+		</resource>
+	</starters>
+	<posers>
+		<poser name="huggy" assetURL="assets/characters/huggy.swf" startdata="|GODMACIWDBAKHSGYAVGYAHNMDHDM0IW0AKFFGYCJGY0NMNUMS|BBB|huggy">
+			<framedata bodydata="|GODMACIWDBAKJQGYAVGYAHNMDHDM0IW0AKBRGYCJGY0NMNUMS|BBB|huggy" x="93" y="282" scaleX="0.7" scaleY="0.7" flipH="false"/>
+			<framedata bodydata="|GODMACIWDBAKKFGYAVGYAHNMDHDM0IW0AKHOGYCJGY0NMBAMS|BBB|huggy" x="93" y="282" scaleX="0.7" scaleY="0.7" flipH="false"/>
+			<framedata bodydata="|GODMACIWDBAKJJGYEGGYAHNMDHDM0IW0AKBXGYELGY0NMASMS|BBB|huggy" x="93" y="282" scaleX="0.7" scaleY="0.7" flipH="false"/>
+		</poser>
+	</posers>
+	<categoryCarousel>
+		<category name="PLACES" thumbURL="assets/categories/places.png"/>
+		<category name="MY CHARACTERS" thumbURL="assets/categories/mycharacters.png"/>
+		<category name="PROPS" thumbURL="assets/categories/props.png"/>
+		<category name="FOOD" thumbURL="assets/categories/food.png"/>
+		<category name="WORDGIRL" thumbURL="assets/categories/wordgirl.png"/>
+		<category name="ARTHUR" thumbURL="assets/categories/arthur.png"/>
+		<category name="ELECTRIC COMPANY" thumbURL="assets/categories/electriccompany.png"/>
+		<category name="FETCH" thumbURL="assets/categories/fetch.png"/>
+		<category name="MARTHA SPEAKS" thumbURL="assets/categories/martha.png"/>
+	</categoryCarousel>
+	<assetCarousel>
+		<category name="PLACES">
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_kitchen_party.jpg" assetURL="assets/places/wg_kitchen_party.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_frontdoor_presents.jpg" assetURL="assets/places/wg_frontdoor_presents.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_livingroom_party.jpg" assetURL="assets/places/wg_livingroom_party.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_livingroom_presents.jpg" assetURL="assets/places/wg_livingroom_presents.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_frontdoor.jpg" assetURL="assets/places/wg_frontdoor.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_livingroom_paints.jpg" assetURL="assets/places/wg_livingroom_paints.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_dinette.jpg" assetURL="assets/places/wg_dinette.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_dinette_day.jpg" assetURL="assets/places/wg_dinette_day.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_dinette_night.jpg" assetURL="assets/places/wg_dinette_night.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_kitchen.jpg" assetURL="assets/places/wg_kitchen.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_house_interior.jpg" assetURL="assets/places/wg_house_interior.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_dirty_dishes.jpg" assetURL="assets/places/wg_dirty_dishes.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_refrigerator.jpg" assetURL="assets/places/wg_refrigerator.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_food_spotlight.jpg" assetURL="assets/places/wg_food_spotlight.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_lounge_candles.jpg" assetURL="assets/places/wg_lounge_candles.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_lounge_day.jpg" assetURL="assets/places/wg_lounge_day.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_lounge_night.jpg" assetURL="assets/places/wg_lounge_night.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_livingroom.jpg" assetURL="assets/places/wg_livingroom.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_tv.jpg" assetURL="assets/places/wg_tv.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_basement_door.jpg" assetURL="assets/places/wg_basement_door.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_basement_stairs.jpg" assetURL="assets/places/wg_basement_stairs.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_basement_stairs2.jpg" assetURL="assets/places/wg_basement_stairs2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_basement.jpg" assetURL="assets/places/wg_basement.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_spotlight.jpg" assetURL="assets/places/wg_spotlight.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_basement_couch.jpg" assetURL="assets/places/wg_basement_couch.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_basement_window.jpg" assetURL="assets/places/wg_basement_window.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_basement_window_rain.jpg" assetURL="assets/places/wg_basement_window_rain.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_monster_crash.jpg" assetURL="assets/places/wg_monster_crash.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_monster_crash2.jpg" assetURL="assets/places/wg_monster_crash2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_tabletennis.jpg" assetURL="assets/places/wg_tabletennis.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_neighborhood_mailbox.jpg" assetURL="assets/places/wg_neighborhood_mailbox.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_piano.jpg" assetURL="assets/places/wg_piano.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_arm_chair.jpg" assetURL="assets/places/wg_arm_chair.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_books.jpg" assetURL="assets/places/wg_books.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_control_room.jpg" assetURL="assets/places/wg_control_room.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_control_room2.jpg" assetURL="assets/places/wg_control_room2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_bench.jpg" assetURL="assets/places/wg_bench.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_gym.jpg" assetURL="assets/places/wg_gym.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_icecream_truck.jpg" assetURL="assets/places/wg_icecream_truck.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_park.jpg" assetURL="assets/places/wg_park.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_birdhouse.jpg" assetURL="assets/places/wg_birdhouse.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_traffic_circle.jpg" assetURL="assets/places/wg_traffic_circle.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_street_scene.jpg" assetURL="assets/places/wg_street_scene.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_street_scene2.jpg" assetURL="assets/places/wg_street_scene2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_street_scene4.jpg" assetURL="assets/places/wg_street_scene4.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_street_buildings.jpg" assetURL="assets/places/wg_street_buildings.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_shop_front.jpg" assetURL="assets/places/wg_shop_front.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_trashcans.jpg" assetURL="assets/places/wg_trashcans.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_city_building.jpg" assetURL="assets/places/wg_city_building.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_city_building2.jpg" assetURL="assets/places/wg_city_building2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_street.jpg" assetURL="assets/places/wg_street.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_street2.jpg" assetURL="assets/places/wg_street2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_cityscape.jpg" assetURL="assets/places/wg_cityscape.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_cityscape2.jpg" assetURL="assets/places/wg_cityscape2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_cityscape3.jpg" assetURL="assets/places/wg_cityscape3.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_cityscape4.jpg" assetURL="assets/places/wg_cityscape4.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_cityscape5.jpg" assetURL="assets/places/wg_cityscape5.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_cityscape6.jpg" assetURL="assets/places/wg_cityscape6.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_cityscape8.jpg" assetURL="assets/places/wg_cityscape8.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_bridge.jpg" assetURL="assets/places/wg_bridge.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_city_bridge.jpg" assetURL="assets/places/wg_city_bridge.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_city_bridge3.jpg" assetURL="assets/places/wg_city_bridge3.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_city_ocean.jpg" assetURL="assets/places/wg_city_ocean.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_bridge_skyline.jpg" assetURL="assets/places/wg_bridge_skyline.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_ship.jpg" assetURL="assets/places/wg_ship.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_traffic.jpg" assetURL="assets/places/wg_traffic.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_warehouse.jpg" assetURL="assets/places/wg_warehouse.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_warehouse2.jpg" assetURL="assets/places/wg_warehouse2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/wg_warehouse3.jpg" assetURL="assets/places/wg_warehouse3.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_lounge.jpg" assetURL="assets/places/ar_lounge.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_kitchen.jpg" assetURL="assets/places/ar_kitchen.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_library.jpg" assetURL="assets/places/ar_library.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_candystore.jpg" assetURL="assets/places/ar_candystore.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_hallway.jpg" assetURL="assets/places/ar_hallway.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_treehouse.jpg" assetURL="assets/places/ar_treehouse.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_treehouse2.jpg" assetURL="assets/places/ar_treehouse2.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_park.jpg" assetURL="assets/places/ar_park.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_musicroom.jpg" assetURL="assets/places/ar_musicroom.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_cafeteria.jpg" assetURL="assets/places/ar_cafeteria.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_desk.jpg" assetURL="assets/places/ar_desk.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ar_schoolhallway.jpg" assetURL="assets/places/ar_schoolhallway.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ec_prankster_forest.jpg" assetURL="assets/places/ec_prankster_forest.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ec_tower.jpg" assetURL="assets/places/ec_tower.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ec_junkyard.jpg" assetURL="assets/places/ec_junkyard.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ec_city_street.jpg" assetURL="assets/places/ec_city_street.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ec_museum.jpg" assetURL="assets/places/ec_museum.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/fe_armchair.jpg" assetURL="assets/places/fe_armchair.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/fe_desk.jpg" assetURL="assets/places/fe_desk.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/fe_lounge.jpg" assetURL="assets/places/fe_lounge.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/fe_mat.jpg" assetURL="assets/places/fe_mat.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/fe_office.jpg" assetURL="assets/places/fe_office.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_backyard.jpg" assetURL="assets/places/ma_backyard.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_bedroom.jpg" assetURL="assets/places/ma_bedroom.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_boardwalk.jpg" assetURL="assets/places/ma_boardwalk.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_campsite.jpg" assetURL="assets/places/ma_campsite.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_cornerstore.jpg" assetURL="assets/places/ma_cornerstore.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_house.jpg" assetURL="assets/places/ma_house.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_kitchen.jpg" assetURL="assets/places/ma_kitchen.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_lab.jpg" assetURL="assets/places/ma_lab.jpg"/>
+			<asset type="background" thumbURL="assets/places/thumbnails/ma_park_winter.jpg" assetURL="assets/places/ma_park_winter.jpg"/>
+		</category>
+		<category name="MY CHARACTERS">
+			<asset type="user_character" thumbURL="https://pbskids.org/upload/characters/thumbnails/2011/06/98625c66-8d1e-11e0-811e-0011259de55e.jpg" assetURL="assets/characters/wordgirl.swf"/>
+			<asset type="user_character" thumbURL="https://pbskids.org/upload/characters/thumbnails/2011/06/2b780a24-8d1e-11e0-81d4-0011259de55e.jpg" assetURL="assets/characters/wordgirl.swf"/>
+		</category>
+		<category name="PROPS">
+			<asset type="prop" thumbURL="assets/props/wg_huggy_balloons.swf" assetURL="assets/props/wg_huggy_balloons.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_present.swf" assetURL="assets/props/wg_wordgirl_present.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_huggy_present.swf" assetURL="assets/props/wg_huggy_present.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_huggy_walkietalkie.swf" assetURL="assets/props/wg_huggy_walkietalkie.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_huggy_workoutposter.swf" assetURL="assets/props/wg_huggy_workoutposter.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_chest.swf" assetURL="assets/props/wg_wordgirl_chest.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_communicator.swf" assetURL="assets/props/wg_wordgirl_communicator.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_costume.swf" assetURL="assets/props/wg_wordgirl_costume.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_crime_alarm.swf" assetURL="assets/props/wg_wordgirl_crime_alarm.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_fan_club_tree_house.swf" assetURL="assets/props/wg_wordgirl_fan_club_tree_house.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_photo.swf" assetURL="assets/props/wg_wordgirl_photo.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_science_lab.swf" assetURL="assets/props/wg_wordgirl_science_lab.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_spacecraft.swf" assetURL="assets/props/wg_wordgirl_spacecraft.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_unicorn_statue.swf" assetURL="assets/props/wg_wordgirl_unicorn_statue.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_walkie_talkie.swf" assetURL="assets/props/wg_wordgirl_walkie_talkie.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_doll.swf" assetURL="assets/props/wg_wordgirl_doll.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_computer_on.swf" assetURL="assets/props/wg_wordgirl_computer_on.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_wordgirl_tv.swf" assetURL="assets/props/wg_wordgirl_tv.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_book.swf" assetURL="assets/props/wg_drtwobrains_book.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_cheese_bag.swf" assetURL="assets/props/wg_drtwobrains_cheese_bag.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_cheese_couch.swf" assetURL="assets/props/wg_drtwobrains_cheese_couch.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_computer.swf" assetURL="assets/props/wg_drtwobrains_computer.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_master_plan_chalkboard.swf" assetURL="assets/props/wg_drtwobrains_master_plan_chalkboard.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_mouse_raygun.swf" assetURL="assets/props/wg_drtwobrains_mouse_raygun.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_raygun.swf" assetURL="assets/props/wg_drtwobrains_raygun.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_raygun2.swf" assetURL="assets/props/wg_drtwobrains_raygun2.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_raygun3.swf" assetURL="assets/props/wg_drtwobrains_raygun3.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_remote.swf" assetURL="assets/props/wg_drtwobrains_remote.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_remote2.swf" assetURL="assets/props/wg_drtwobrains_remote2.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_security_door.swf" assetURL="assets/props/wg_drtwobrains_security_door.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_trap.swf" assetURL="assets/props/wg_drtwobrains_trap.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_tubes.swf" assetURL="assets/props/wg_drtwobrains_tubes.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_drtwobrains_wanted_poster.swf" assetURL="assets/props/wg_drtwobrains_wanted_poster.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_gear.swf" assetURL="assets/props/wg_chuck_gear.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_gizmo.swf" assetURL="assets/props/wg_chuck_gizmo.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_gizmo2.swf" assetURL="assets/props/wg_chuck_gizmo2.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_gizmo3_frontview.swf" assetURL="assets/props/wg_chuck_gizmo3_frontview.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_gizmo3_sideview.swf" assetURL="assets/props/wg_chuck_gizmo3_sideview.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_gizmo3_backview.swf" assetURL="assets/props/wg_chuck_gizmo3_backview.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_headphones.swf" assetURL="assets/props/wg_chuck_headphones.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_lever.swf" assetURL="assets/props/wg_chuck_lever.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_plastic_wrap.swf" assetURL="assets/props/wg_chuck_plastic_wrap.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_remote.swf" assetURL="assets/props/wg_chuck_remote.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_sandwich_maker.swf" assetURL="assets/props/wg_chuck_sandwich_maker.swf"/>
+			<asset type="prop" thumbURL="assets/props/wg_chuck_screw.swf" assetURL="assets/props/wg_chuck_screw.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_cow.swf" assetURL="assets/props/ar_cow.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_guitar.swf" assetURL="assets/props/ar_guitar.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_bike.swf" assetURL="assets/props/ar_bike.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_hat_1.swf" assetURL="assets/props/ar_hat_1.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_hat_2.swf" assetURL="assets/props/ar_hat_2.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_hat_3.swf" assetURL="assets/props/ar_hat_3.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_joke_book.swf" assetURL="assets/props/ar_joke_book.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_limo.swf" assetURL="assets/props/ar_limo.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_puppet.swf" assetURL="assets/props/ar_puppet.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_teddy_bear.swf" assetURL="assets/props/ar_teddy_bear.swf"/>
+			<asset type="prop" thumbURL="assets/props/ar_tuba.swf" assetURL="assets/props/ar_tuba.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_50_point_sign.swf" assetURL="assets/props/fe_50_point_sign.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_bag_of_rocks.swf" assetURL="assets/props/fe_bag_of_rocks.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_blossims_laptop.swf" assetURL="assets/props/fe_blossims_laptop.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_bottled_something.swf" assetURL="assets/props/fe_bottled_something.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_building_supplies.swf" assetURL="assets/props/fe_building_supplies.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_cell_phone.swf" assetURL="assets/props/fe_cell_phone.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_clock.swf" assetURL="assets/props/fe_clock.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_computer_chair.swf" assetURL="assets/props/fe_computer_chair.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_computer_chair2.swf" assetURL="assets/props/fe_computer_chair2.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_fetch9000_computer.swf" assetURL="assets/props/fe_fetch9000_computer.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_flower.swf" assetURL="assets/props/fe_flower.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_poodle_photo.swf" assetURL="assets/props/fe_poodle_photo.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_potted_plant.swf" assetURL="assets/props/fe_potted_plant.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_spoon.swf" assetURL="assets/props/fe_spoon.swf"/>
+			<asset type="prop" thumbURL="assets/props/fe_table.swf" assetURL="assets/props/fe_table.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_basket_of_dogtoys.swf" assetURL="assets/props/ma_basket_of_dogtoys.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_bball_hoop.swf" assetURL="assets/props/ma_bball_hoop.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_bow.swf" assetURL="assets/props/ma_bow.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_dog_ball.swf" assetURL="assets/props/ma_dog_ball.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_dog_bone.swf" assetURL="assets/props/ma_dog_bone.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_drum.swf" assetURL="assets/props/ma_drum.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_fire_hydrent.swf" assetURL="assets/props/ma_fire_hydrent.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_fire_truck.swf" assetURL="assets/props/ma_fire_truck.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_flower_hat.swf" assetURL="assets/props/ma_flower_hat.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_food_dish.swf" assetURL="assets/props/ma_food_dish.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_frisbee.swf" assetURL="assets/props/ma_frisbee.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_leash.swf" assetURL="assets/props/ma_leash.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_maraca.swf" assetURL="assets/props/ma_maraca.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_motorized_scooter.swf" assetURL="assets/props/ma_motorized_scooter.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_piano.swf" assetURL="assets/props/ma_piano.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_skateboard.swf" assetURL="assets/props/ma_skateboard.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_soccer_ball.swf" assetURL="assets/props/ma_soccer_ball.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_tambourine.swf" assetURL="assets/props/ma_tambourine.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_windsurfing_cart.swf" assetURL="assets/props/ma_windsurfing_cart.swf"/>
+			<asset type="prop" thumbURL="assets/props/ma_xylophone.swf" assetURL="assets/props/ma_xylophone.swf"/>
+		</category>
+		<category name="FOOD">
+			<asset type="prop" thumbURL="assets/food/wg_food_birthday_cake.swf" assetURL="assets/food/wg_food_birthday_cake.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_birthday_cake_slice.swf" assetURL="assets/food/wg_food_birthday_cake_slice.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_red_apple.swf" assetURL="assets/food/wg_food_red_apple.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_green_apple.swf" assetURL="assets/food/wg_food_green_apple.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_banana_bunch.swf" assetURL="assets/food/wg_food_banana_bunch.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_grapes.swf" assetURL="assets/food/wg_food_grapes.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_lemon.swf" assetURL="assets/food/wg_food_lemon.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_lemons_bunch.swf" assetURL="assets/food/wg_food_lemons_bunch.swf"/>
+			<!-- /* extra */ -->
+			<asset type="prop" thumbURL="assets/food/wg_food_orange.swf" assetURL="assets/food/wg_food_orange.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_watermelon.swf" assetURL="assets/food/wg_food_watermelon.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_watermelon_half.swf" assetURL="assets/food/wg_food_watermelon_half.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_watermelon_slice.swf" assetURL="assets/food/wg_food_watermelon_slice.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_broccoli.swf" assetURL="assets/food/wg_food_broccoli.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_carrot.swf" assetURL="assets/food/wg_food_carrot.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_lettuce.swf" assetURL="assets/food/wg_food_lettuce.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_pie.swf" assetURL="assets/food/wg_food_pie.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_cat_tea_set_teapot.swf" assetURL="assets/food/wg_food_cat_tea_set_teapot.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_cat_tea_set_teacup.swf" assetURL="assets/food/wg_food_cat_tea_set_teacup.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_cat_tea_set_sugar.swf" assetURL="assets/food/wg_food_cat_tea_set_sugar.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_cat_tea_set_creamer.swf" assetURL="assets/food/wg_food_cat_tea_set_creamer.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_apple_pie_slice.swf" assetURL="assets/food/wg_food_apple_pie_slice.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_blueberry_pie.swf" assetURL="assets/food/wg_food_blueberry_pie.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_box_of_cookies.swf" assetURL="assets/food/wg_food_box_of_cookies.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_chocolate_donut.swf" assetURL="assets/food/wg_food_chocolate_donut.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_donut_sprinkles.swf" assetURL="assets/food/wg_food_donut_sprinkles.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_jelly_donut.swf" assetURL="assets/food/wg_food_jelly_donut.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_glazed_donuts.swf" assetURL="assets/food/wg_food_glazed_donuts.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_plate_of_donuts.swf" assetURL="assets/food/wg_food_plate_of_donuts.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_cinnamon_bun.swf" assetURL="assets/food/wg_food_cinnamon_bun.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_cupcake.swf" assetURL="assets/food/wg_food_cupcake.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_cupcake_plate.swf" assetURL="assets/food/wg_food_cupcake_plate.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_cookie_plate.swf" assetURL="assets/food/wg_food_cookie_plate.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_hotdog.swf" assetURL="assets/food/wg_food_hotdog.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_hotdog_tray.swf" assetURL="assets/food/wg_food_hotdog_tray.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_hotdog_crown.swf" assetURL="assets/food/wg_food_hotdog_crown.swf"/>
+			<!-- <asset type="prop" thumbURL="assets/food/wg_food_ice_cream_float.swf" assetURL="assets/food/wg_food_ice_cream_float.swf"/> /* offset */ -->
+			<asset type="prop" thumbURL="assets/food/wg_food_slushie.swf" assetURL="assets/food/wg_food_slushie.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_hot_coco.swf" assetURL="assets/food/wg_food_hot_coco.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_soda.swf" assetURL="assets/food/wg_food_soda.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_soda3.swf" assetURL="assets/food/wg_food_soda3.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_luau_drink.swf" assetURL="assets/food/wg_food_luau_drink.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_bacon.swf" assetURL="assets/food/wg_food_bacon.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_beef.swf" assetURL="assets/food/wg_food_beef.swf"/>
+			<!-- /* extra */ -->
+			<asset type="prop" thumbURL="assets/food/wg_food_ham.swf" assetURL="assets/food/wg_food_ham.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_steak.swf" assetURL="assets/food/wg_food_steak.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_fish.swf" assetURL="assets/food/wg_food_fish.swf"/>
+			<asset type="prop" thumbURL="assets/food/wg_food_chicken.swf" assetURL="assets/food/wg_food_chicken.swf"/>
+			<!-- /* extra */ -->
+			<asset type="prop" thumbURL="assets/food/wg_food_cheese_wedge.swf" assetURL="assets/food/wg_food_cheese_wedge.swf"/>
+		</category>
+		<category name="WORDGIRL">
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_eating.swf" assetURL="assets/wordgirl/wg_chf_eating.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_spinning.swf" assetURL="assets/wordgirl/wg_chf_spinning.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_fighting.swf" assetURL="assets/wordgirl/wg_chf_fighting.swf"/>
+			<!-- /* off */ -->
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_kung_fu.swf" assetURL="assets/wordgirl/wg_chf_kung_fu.swf"/>
+			<!-- /* off */ -->
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_kung_fu2.swf" assetURL="assets/wordgirl/wg_chf_kung_fu2.swf"/>
+			<!-- /* off */ -->
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_running.swf" assetURL="assets/wordgirl/wg_wordgirl_running.swf"/>
+			<!-- /* off */ -->
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_walking.swf" assetURL="assets/wordgirl/wg_wordgirl_walking.swf"/>
+			<!-- /* off */ -->
+			<asset type="pbs_character" thumbURL="assets/wordgirl/becky_walk_iso.swf" assetURL="assets/wordgirl/becky_walk_iso.swf"/>
+			<!-- /* off */ -->
+			<!-- <asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_flying.swf" assetURL="assets/wordgirl/wg_wordgirl_flying.swf"/> / * AS2 */ -->
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_front.swf" assetURL="assets/wordgirl/wg_wordgirl_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_front2.swf" assetURL="assets/wordgirl/wg_wordgirl_front2.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_wordgirl_side.swf" assetURL="assets/wordgirl/wg_wordgirl_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_becky_front.swf" assetURL="assets/wordgirl/wg_becky_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_becky_front2.swf" assetURL="assets/wordgirl/wg_becky_front2.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_becky_side.swf" assetURL="assets/wordgirl/wg_becky_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_bob_front.swf" assetURL="assets/wordgirl/wg_bob_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_bob_side.swf" assetURL="assets/wordgirl/wg_bob_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_front.swf" assetURL="assets/wordgirl/wg_chf_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chf_side.swf" assetURL="assets/wordgirl/wg_chf_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chuck_front.swf" assetURL="assets/wordgirl/wg_chuck_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_chuck_side.swf" assetURL="assets/wordgirl/wg_chuck_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_drtwobrains_front.swf" assetURL="assets/wordgirl/wg_drtwobrains_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_drtwobrains_side.swf" assetURL="assets/wordgirl/wg_drtwobrains_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_mrbig_front.swf" assetURL="assets/wordgirl/wg_mrbig_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_mrbig_side.swf" assetURL="assets/wordgirl/wg_mrbig_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_butcher_front.swf" assetURL="assets/wordgirl/wg_butcher_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_butcher_side.swf" assetURL="assets/wordgirl/wg_butcher_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_msquestion_front.swf" assetURL="assets/wordgirl/wg_msquestion_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_msquestion_side.swf" assetURL="assets/wordgirl/wg_msquestion_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_tim_front.swf" assetURL="assets/wordgirl/wg_tim_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_tim_side.swf" assetURL="assets/wordgirl/wg_tim_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_sally_front.swf" assetURL="assets/wordgirl/wg_sally_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_sally_side.swf" assetURL="assets/wordgirl/wg_sally_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_tj_front.swf" assetURL="assets/wordgirl/wg_tj_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_tj_side.swf" assetURL="assets/wordgirl/wg_tj_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_violet_front.swf" assetURL="assets/wordgirl/wg_violet_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_violet_side.swf" assetURL="assets/wordgirl/wg_violet_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_victoria_front.swf" assetURL="assets/wordgirl/wg_victoria_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_victoria_side.swf" assetURL="assets/wordgirl/wg_victoria_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_scoops_front.swf" assetURL="assets/wordgirl/wg_scoops_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_scoops_side.swf" assetURL="assets/wordgirl/wg_scoops_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_tobey_front.swf" assetURL="assets/wordgirl/wg_tobey_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/wordgirl/wg_tobey_side.swf" assetURL="assets/wordgirl/wg_tobey_side.swf"/>
+		</category>
+		<category name="ARTHUR">
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_standing.swf" assetURL="assets/arthur/ar_arthur_standing.swf"/>
+			<!-- /* too small */ -->
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_wave.swf" assetURL="assets/arthur/ar_arthur_wave.swf"/>
+			<!-- <asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_front.swf" assetURL="assets/arthur/ar_arthur_front.swf"/> AS2 -->
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_books.swf" assetURL="assets/arthur/ar_arthur_books.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_camping.swf" assetURL="assets/arthur/ar_arthur_camping.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_camera.swf" assetURL="assets/arthur/ar_arthur_camera.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_arthur_shocked.swf" assetURL="assets/arthur/ar_arthur_shocked.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_buster_smile.swf" assetURL="assets/arthur/ar_buster_smile.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_buster_talking.swf" assetURL="assets/arthur/ar_buster_talking.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_dw_standing.swf" assetURL="assets/arthur/ar_dw_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_dw_silly.swf" assetURL="assets/arthur/ar_dw_silly.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_dw_angry.swf" assetURL="assets/arthur/ar_dw_angry.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_pal_jumping.swf" assetURL="assets/arthur/ar_pal_jumping.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_pal_beg.swf" assetURL="assets/arthur/ar_pal_beg.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_pal_sitting.swf" assetURL="assets/arthur/ar_pal_sitting.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_pal_sitting2.swf" assetURL="assets/arthur/ar_pal_sitting2.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_binky_happy.swf" assetURL="assets/arthur/ar_binky_happy.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_binky_standing.swf" assetURL="assets/arthur/ar_binky_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_binky_waving.swf" assetURL="assets/arthur/ar_binky_waving.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_francine_standing.swf" assetURL="assets/arthur/ar_francine_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_francine_waving.swf" assetURL="assets/arthur/ar_francine_waving.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_francine_shocked.swf" assetURL="assets/arthur/ar_francine_shocked.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_muffy_standing.swf" assetURL="assets/arthur/ar_muffy_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_muffy_waving.swf" assetURL="assets/arthur/ar_muffy_waving.swf"/>
+			<!-- <asset type="pbs_character" thumbURL="assets/arthur/ar_muffy_ashamed.swf" assetURL="assets/arthur/ar_muffy_ashamed.swf"/> AS2 -->
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_muffy_shocked.swf" assetURL="assets/arthur/ar_muffy_shocked.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_sue_ellen_standing.swf" assetURL="assets/arthur/ar_sue_ellen_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_sue_ellen_smile.swf" assetURL="assets/arthur/ar_sue_ellen_smile.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_kate_smile.swf" assetURL="assets/arthur/ar_kate_smile.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_kate_laughing.swf" assetURL="assets/arthur/ar_kate_laughing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_tibbles_smile.swf" assetURL="assets/arthur/ar_tibbles_smile.swf"/>
+			<asset type="pbs_character" thumbURL="assets/arthur/ar_tibbles_standing.swf" assetURL="assets/arthur/ar_tibbles_standing.swf"/>
+		</category>
+		<category name="ELECTRIC COMPANY">
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_angry.swf" assetURL="assets/electriccompany/ec_jessica_angry.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_shout.swf" assetURL="assets/electriccompany/ec_jessica_shout.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/jessica_run_to_camera.swf" assetURL="assets/electriccompany/jessica_run_to_camera.swf"/>
+			<!-- /* extra */ -->
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_sandwich_costume.swf" assetURL="assets/electriccompany/ec_jessica_sandwich_costume.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_standing.swf" assetURL="assets/electriccompany/ec_jessica_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_sassy.swf" assetURL="assets/electriccompany/ec_jessica_sassy.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_shocked.swf" assetURL="assets/electriccompany/ec_jessica_shocked.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_standing.swf" assetURL="assets/electriccompany/ec_jessica_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_jessica_tired.swf" assetURL="assets/electriccompany/ec_jessica_tired.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_standing.swf" assetURL="assets/electriccompany/ec_marcus_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_standing2.swf" assetURL="assets/electriccompany/ec_marcus_standing2.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_shout.swf" assetURL="assets/electriccompany/ec_marcus_shout.swf"/>
+			<!-- /* extra */ -->
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_run.swf" assetURL="assets/electriccompany/ec_marcus_run.swf"/>
+			<!-- /* extra */ -->
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_shocked.swf" assetURL="assets/electriccompany/ec_marcus_shocked.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_sandwich_costume.swf" assetURL="assets/electriccompany/ec_marcus_sandwich_costume.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_hero_pose.swf" assetURL="assets/electriccompany/ec_marcus_hero_pose.swf"/>
+			<!-- /* extra */ -->
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_bent_down.swf" assetURL="assets/electriccompany/ec_marcus_bent_down.swf"/>
+			<!-- /* extra, too big */ -->
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_marcus_rocket.swf" assetURL="assets/electriccompany/ec_marcus_rocket.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_manny_menacing.swf" assetURL="assets/electriccompany/ec_manny_menacing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_manny_flying.swf" assetURL="assets/electriccompany/ec_manny_flying.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_francine_standing.swf" assetURL="assets/electriccompany/ec_francine_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_francine_air_quotes.swf" assetURL="assets/electriccompany/ec_francine_air_quotes.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_annie_dance.swf" assetURL="assets/electriccompany/ec_annie_dance.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_annie_shuffle.swf" assetURL="assets/electriccompany/ec_annie_shuffle.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_danny_angry.swf" assetURL="assets/electriccompany/ec_danny_angry.swf"/>
+			<asset type="pbs_character" thumbURL="assets/electriccompany/ec_danny_showcase.swf" assetURL="assets/electriccompany/ec_danny_showcase.swf"/>
+		</category>
+		<category name="FETCH">
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_walk_and_talk.swf" assetURL="assets/fetch/fe_ruff_walk_and_talk.swf"/>
+			<!-- /* offset */ -->
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_happy_dance_fixed.swf" assetURL="assets/fetch/fe_ruff_happy_dance_fixed.swf"/>
+			<!-- /* offset */ -->
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_angry_noooo.swf" assetURL="assets/fetch/fe_ruff_angry_noooo.swf"/>
+			<!-- /* offset */ -->
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_standing.swf" assetURL="assets/fetch/fe_ruff_standing.swf"/>
+			<!-- /* too big */ -->
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_happy.swf" assetURL="assets/fetch/fe_ruff_happy.swf"/>
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_reading_paper.swf" assetURL="assets/fetch/fe_ruff_reading_paper.swf"/>
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_ruff_desk_hop.swf" assetURL="assets/fetch/fe_ruff_desk_hop.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_chet_dancing.swf" assetURL="assets/fetch/fe_chet_dancing.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_chet_dancing2.swf" assetURL="assets/fetch/fe_chet_dancing2.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_chet_jump_around.swf" assetURL="assets/fetch/fe_chet_jump_around.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_chet_tail_bounce.swf" assetURL="assets/fetch/fe_chet_tail_bounce.swf"/> AS2 -->
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_chet_trenchcoat.swf" assetURL="assets/fetch/fe_chet_trenchcoat.swf"/>
+			<!-- /* offset */ -->
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_walking_left.swf" assetURL="assets/fetch/fe_blossom_walking_left.swf"/>
+			<!-- /* offset */ -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_walking_right.swf" assetURL="assets/fetch/fe_blossom_walking_right.swf"/> offset -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_dancing.swf" assetURL="assets/fetch/fe_blossom_dancing.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_dancing2.swf" assetURL="assets/fetch/fe_blossom_dancing2.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_dancing3.swf" assetURL="assets/fetch/fe_blossom_dancing3.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/fetch/fe_blossom_dancing4.swf" assetURL="assets/fetch/fe_blossom_dancing4.swf"/> AS2 -->
+			<asset type="pbs_character" thumbURL="assets/fetch/fe_grandma_ruffman_wave.swf" assetURL="assets/fetch/fe_grandma_ruffman_wave.swf"/>
+			<!-- /* too big */ -->
+		</category>
+		<category name="MARTHA SPEAKS">
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_martha_super_pooch_cape_flapping.swf" assetURL="assets/martha/ma_martha_super_pooch_cape_flapping.swf"/> AS2 -->
+			<asset type="pbs_character" thumbURL="assets/martha/ma_martha_eating.swf" assetURL="assets/martha/ma_martha_eating.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_martha_eating2.swf" assetURL="assets/martha/ma_martha_eating2.swf"/>
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_martha_back_kick.swf" assetURL="assets/martha/ma_martha_back_kick.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_martha_dainty_sitting.swf" assetURL="assets/martha/ma_martha_dainty_sitting.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_martha_shaking_off_water.swf" assetURL="assets/martha/ma_martha_shaking_off_water.swf"/> AS2 -->
+			<asset type="pbs_character" thumbURL="assets/martha/ma_helen_walking.swf" assetURL="assets/martha/ma_helen_walking.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_helen_soccer_uniform_front.swf" assetURL="assets/martha/ma_helen_soccer_uniform_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_helen_soccer_uniform_back.swf" assetURL="assets/martha/ma_helen_soccer_uniform_back.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_helen_calypso_costume_front.swf" assetURL="assets/martha/ma_helen_calypso_costume_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_helen_calypso_costume_side.swf" assetURL="assets/martha/ma_helen_calypso_costume_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_helen_covering_eyes.swf" assetURL="assets/martha/ma_helen_covering_eyes.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_alice_standing.swf" assetURL="assets/martha/ma_alice_standing.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_alice_standing2.swf" assetURL="assets/martha/ma_alice_standing2.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_alice_standing_backview.swf" assetURL="assets/martha/ma_alice_standing_backview.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_alice_kitten.swf" assetURL="assets/martha/ma_alice_kitten.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_alice_tophat.swf" assetURL="assets/martha/ma_alice_tophat.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_truman_standing_front.swf" assetURL="assets/martha/ma_truman_standing_front.swf"/>
+			<!-- /* offset */ -->
+			<asset type="pbs_character" thumbURL="assets/martha/ma_truman_standing_back.swf" assetURL="assets/martha/ma_truman_standing_back.swf"/>
+			<!-- /* offset */ -->
+			<asset type="pbs_character" thumbURL="assets/martha/ma_truman_hat_goggles.swf" assetURL="assets/martha/ma_truman_hat_goggles.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_truman_golf.swf" assetURL="assets/martha/ma_truman_golf.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_truman_dracula.swf" assetURL="assets/martha/ma_truman_dracula.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_truman_afraid.swf" assetURL="assets/martha/ma_truman_afraid.swf"/>
+			<!-- /* offset */ -->
+			<asset type="pbs_character" thumbURL="assets/martha/ma_td_running.swf" assetURL="assets/martha/ma_td_running.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_td_flying_super_hero_truman.swf" assetURL="assets/martha/ma_td_flying_super_hero_truman.swf"/>
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_bert_running.swf" assetURL="assets/martha/ma_bert_running.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_bert_running_backview.swf" assetURL="assets/martha/ma_bert_running_backiew.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_francois_running.swf" assetURL="assets/martha/ma_francois_running.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_skits_run_in_circle.swf" assetURL="assets/martha/ma_skits_run_in_circle.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_skits_wake_up.swf" assetURL="assets/martha/ma_skits_wake_up.swf"/> AS2 -->
+			<!-- <asset type="pbs_character" thumbURL="assets/martha/ma_skits_sledding.swf" assetURL="assets/martha/ma_skits_sledding.swf"/> AS2 -->
+			<asset type="pbs_character" thumbURL="assets/martha/ma_professor_monkey_front.swf" assetURL="assets/martha/ma_professor_monkey_front.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_professor_monkey_side.swf" assetURL="assets/martha/ma_professor_monkey_side.swf"/>
+			<asset type="pbs_character" thumbURL="assets/martha/ma_professor_monkey_back.swf" assetURL="assets/martha/ma_professor_monkey_back.swf"/>
+		</category>
+	</assetCarousel>
+	<soundCarousel>
+		<soundfx>
+			<item title="Arthur Ready Lets Go" assetURL="assets/audio/sounds/ar_ready_lets_go.mp3"/>
+			<item title="ArthurTada" assetURL="assets/audio/sounds/ar_tada.mp3"/>
+			<item title="Arthur Way To Go" assetURL="assets/audio/sounds/ar_way_to_go.mp3"/>
+			<item title="Arthur WooHoo" assetURL="assets/audio/sounds/ar_woohoo.mp3"/>
+			<item title="Electric Company Annie" assetURL="assets/audio/sounds/ec_annie.mp3"/>
+			<item title="Electric Company Danny" assetURL="assets/audio/sounds/ec_danny.mp3"/>
+			<item title="Electric Company Francine" assetURL="assets/audio/sounds/francine.mp3"/>
+			<item title="Electric Company Jessica 1" assetURL="assets/audio/sounds/ec_jessica1.mp3"/>
+			<item title="Electric Company Jessica 2" assetURL="assets/audio/sounds/ec_jessica2.mp3"/>
+			<item title="Electric Company Jessica 3" assetURL="assets/audio/sounds/ec_jessica3.mp3"/>
+			<item title="Electric Company Manny" assetURL="assets/audio/sounds/ec_manny.mp3"/>
+			<item title="Electric Company Marcus 1" assetURL="assets/audio/sounds/ec_marcus1.mp3"/>
+			<item title="Electric Company Marcus 2" assetURL="assets/audio/sounds/ec_marcus2.mp3"/>
+			<item title="Electric Company Marcus 3" assetURL="assets/audio/sounds/ec_marcus3.mp3"/>
+			<item title="Martha Hooray" assetURL="assets/audio/sounds/ma_hooray.mp3"/>
+			<item title="Martha Here We Go" assetURL="assets/audio/sounds/ma_here_we_go.mp3"/>
+		</soundfx>
+		<music>
+			<item title="Wordgirl Theme Instrumental" assetURL="assets/audio/music/wg_theme_instrumental.mp3"/>
+			<item title="Wordgirl Hero Climatic" assetURL="assets/audio/music/wg_hero_climactic.mp3"/>
+			<item title="Wordgirl Hero Flying" assetURL="assets/audio/music/wg_hero_flying_background.mp3"/>
+			<item title="Wordgirl Theme Jazz" assetURL="assets/audio/music/wg_theme_jazz.mp3"/>
+			<item title="Wordgirl Chuck Theme" assetURL="assets/audio/music/wg_chuck_theme.mp3"/>
+			<item title="Wordgirl Spy Action" assetURL="assets/audio/music/wg_spy_action.mp3"/>
+			<item title="Wordgirl Strident Action" assetURL="assets/audio/music/wg_strident_action.mp3"/>
+			<item title="Wordgirl Cork and Crown" assetURL="assets/audio/music/corkandcrown_30.mp3"/>
+			<item title="Wordgirl Evil Jazz" assetURL="assets/audio/music/wg_evil_jazz.mp3"/>
+			<item title="Wordgirl Slinky Panther" assetURL="assets/audio/music/wg_slinky_panther.mp3"/>
+			<item title="Wordgirl Falling Sky" assetURL="assets/audio/music/fallingsky_30.mp3"/>
+			<item title="Wordgirl End Theme Instrumental" assetURL="assets/audio/music/wg_end_theme_instrumental.mp3"/>
+			<item title="Arthur Sad" assetURL="assets/audio/music/ar_sad.mp3"/>
+			<item title="Arthur Scary" assetURL="assets/audio/music/ar_scary.mp3"/>
+			<item title="Arthur Exciting" assetURL="assets/audio/music/ar_exciting.mp3"/>
+			<item title="Arthur Funny" assetURL="assets/audio/music/ar_funny.mp3"/>
+			<item title="Arthur Happy" assetURL="assets/audio/music/ar_happy.mp3"/>
+			<item title="Electric Company Oompah" assetURL="assets/audio/music/ec_oompah.mp3"/>
+			<item title="Electric Company Theme" assetURL="assets/audio/music/ec_theme.mp3"/>
+			<item title="Electric Company Thinking" assetURL="assets/audio/music/ec_thinking.mp3"/>
+			<item title="Fetch Cheesy" assetURL="assets/audio/music/fe_cheesy.mp3"/>
+			<item title="Fetch Disco" assetURL="assets/audio/music/fe_disco.mp3"/>
+			<item title="Fetch Sidewinding" assetURL="assets/audio/music/fe_sidewinding.mp3"/>
+			<item title="Fetch Dogears Theme" assetURL="assets/audio/music/fe_dogears_theme.mp3"/>
+			<item title="Fetch Dogears Full" assetURL="assets/audio/music/fe_dogears_full.mp3"/>
+			<item title="Fetch Dog Pound Techno" assetURL="assets/audio/music/fe_dog_pound_techno.mp3"/>
+			<item title="Fetch Dog Pound Cossack" assetURL="assets/audio/music/fe_dogpound_cossack.mp3"/>
+			<item title="Fetch Luge Race" assetURL="assets/audio/music/fe_luge_race.mp3"/>
+		</music>
+	</soundCarousel>
+	<bs>pbpxfhpx,shpx,encrobneq,fuvg</bs>
+	<bw1>nffung,nff-ung,nffpybja,nff-pybja,nffyvpxre,nff-yvpxre,nffzhapu,nff-zhapu,onzcbg,ovgpul,ohgg-cvengr,puvap,pubqr,pbbpuvr,pbbpul,pbbgre,phzqhzcfgre,phzwbpxl,phzthmmyre,qrttb,qvpxjnq,qvpxjrrq,qvxr,qbpuront,qhznff,tbbpu,thvqb,unaqwbo,urro,ubaxrl,wnpxnff,whatyrohaal,xbbpu,xbbgpu,xenhg,xhag,ynzrnff,zvatr,zhssqevire,avttnobb,avtyrg,ahgfnpx,cnxv,cnabbpu,cvffrq,cbyybpx,cbbanal,chagn,dhrrs,dhrreonvg,evzwbo,ehfxv,fnaqavttre,fcybbtr,gneq,int,inwnlwnl,jnaxre,uhffl,juberont,69,42b,666,6avar,6g96glavar,nobefu,nobegv,npruby,nprjuby,nubyr,NVQF,nany,nahf,nefr,nefba,nfuuby,nfuby,nfbuby,nff,nffuby,nffub,nguuby,nmuby,nmjuby,onyyfnp,onefgrq,onfgneq,onfgeq,ornare,orrcubyr,orrire,ovnpu,ovngpu,ovpu,ovtohg,ovbgpu,ovaynqra,ovcbyne,ov7pu,ovgpu,ovgz,ovmngpu,oybbq,oybjwbo,oyhag,obaqnt,obare,obat,obbo,obbgr,obbgv,obbgl,obguby,obgguby,obggjuby,obgjuby,obgl,ogpu,ohsh,ohat,ohfgrr,ohfgl,ohgvr,ohgl,olpu,olgpu,pnpn,pnppn,pnpx,pnzrygbr,pnecr&#x2122;hapu,puvax,pyvg,pyvgyvpx,pbpnva,pbpnar,pbpx,pbxrq,pbxre,pbyhzova,pbaqbz,pbba,pbehcg,pbk,penpx,penx,penc,pend,pebgpu,pehry,pehax,phz,phaav,phag,qnza,qvnern,qvneurn,qvneern,qvneeurn,qvpx,qvx,qvyqb,qvee,qvfrnf,qbtqb,qbat,qbcr,qbhpur,qeht,qehax,qlvat,qlxr,robyn,s_px,snt,sntt,sneg,spx,sryba,srygpu,srgvfu,srghf,sx,sbo,sbpx,sbx,sbbx,shpx,shp,shqtrcnpx,shx,shd,sip,six,sid,tnatfg,tnfu,trabpvqr,tvm,tatfg,tbanq,tbabevn,tbabeeu,tbbx,tebhaqm,unge,urnqtvire,uryy,urzc,urecrf,uvwnpx,uvwnx,uvgyre,uvggyre,ubont,ubrf,</bw1>
+	<bw2>ubzvpvq,ubzb,ubbpu,ubbxn,uber,ubbxre,ubbgre,ubbge,ubeal,ubearl,uhzc,uhff,vzzbyngr,vaprfg,vasrpg,wnpxbs,wnxbs,wnc,wrex,wrfhf,wvm,wbpxfgenc,whtf,whvpl,whaxvr,xvqanc,xvqfqvr,xvxr,xvyy,xvax,xvfnoyr,xvfzl,xvffzl,xxx,xenpx,xenx,xenc,xehax,xlxr,ynovn,ynk,yrpu,yrpure,yrffll,yrfob,yrgpu,yrjq,yrmob,yvne,yvxzl,yvxe,yvdhbe,yfq,yhfg,znsvn,znxrbhg,znfbpu,znfgreo,znfgheo,znlurz,zvxruhag,zbsb,zbyrfg,zhss,zhapu,zheqn,zheqre,zheqe,anxq,anxrq,anxrl,anfg,anmv,arteb,avttn,avttre,avtre,avzsb,avccyr,azbq,ahqr,alzsb,alzcub,bcvhz,betnf,betv,betl,bfnzn,cnagv,cnagl,crpxre,crpxe,crqbs,crqbc,crr,cravf,cravm,crec,crei,cunt,cuhp,cuhx,cvyy,cvzc,cvff,cvfgby,cynlob,cynltvey,cynltey,czc,cbba,cbbgl,cbea,cevpx,cebfgvghgr,cebmn,chor,chovp,chxr,chffr,chffv,chffl,chgm,clzc,cleb,dhrre,enpvf,encr,encva,encvfg,enie,errsre,ergneq,fnqvf,fnqbzn,fngna,fnkl,fpngb,fperj,fpebghz,fphz,frpxf,frpfrr,frpm,frrkl,frxf,frxm,frzra,frfl,frk,frkl,frml,frmml,funir,furvg,fuvrg,fuvg,fuvmavg,fuebbz,fug,fuhghc,fvpxb,fvkfvkfvk,fvkgl9,fvkglavar,fxnax,fynt,fyrnm,fyrml,fyhg,fznegnm,fzxa,fzbxr,fzbxa,fzbxe,fzhg,fangpu,fcrez,fcvp,fcyvs,fgnpxq,fgnpxrq,fgvss,fgbaq,fgbarq,fgbare,fgbae,fgenaty,fgencba,fgevccre,fhpx,fhvpvq,fhx,fhk,fkr,fkv,fkl,flcuvy,gnyvona,gnzcba,greebevfg,grfgnpy,grfgnpyr,grfgvpy,grfgvpyr,grfgvf,gursg,gubat,guht,gvtugtvey,gvtugte,gvtugthey,gveq,gvgf,gbxr,gbepuhe,gbeghe,gbjryurnq,gheq,gjng,hclbhe,heva,hfrzr,intvan,intvar,intl,inwvan,ivnten,ivbyra,ivetra,ivetva,ibqxn,ihyin,jnpxbss,jnat,jnax,jrrq,jrgonpx,jrapu,junpxbss,juber,jvab,jgp,jgs,kengrq,kgp,kkk,chgn,znevpba,puvatn,puva,puvatngr,puvatnyb,crar,pubpub,puhpun,phfpn,abznzrf,craqrwb,cvapur,neerpub,pbwba,phyb,cvatn,raphyne</bw2>
+	<bw3>uvwbqrchgn,thrl,nany,nahf,nff,nffrf,nffubyr,nffubyrf,nffjvcr,onyy-fnpx,onyyfnp,orng-bss,orngvat bss,orngvatbss,orngbss,ornire,ovngpu,ovgpu,ovgpurf,ovgpuva,ovgpuvat,ovgr zr,ovgr-zr,ovgrzr,oybj wbo,oybj-wbo,oybjwbo,obss,obvax,obare,obarfzbxre,obbowbo,oebjaybir.pbz,ohz shpx,ohzshpx,ohzshpxvat,ohzcuhp,ohzcuhpx,ohzcuhpxvat,ohatubyr,ohg ubyr,ohg-shpx,ohg-shpxvat,ohg-ubyr,ohg-cuhp,ohgshpx,ohgshpxre,ohgshpxvat,ohgubyr,ohgcuhp,ohgcuhpx,ohgg ubyr,ohgg-shpx,ohgg-ubyr,ohgg-cuhpx,ohggshpx,ohggshpxrq,ohggshpxre,ohggshpxvat,ohggubyr,ohggenz,pnecrg zhapure,pnecrgzhapure,puvax,puevfg,pvepyrwrex,pyvg,pyvgbevf,pbpx,pbpx fhpxre,pbpx-fhpxre,pbpxfhpxre,pbafhzcgvbawhapgvba,pbafhzcgvbawhapgvba.pbz,pbbpu,pbba,phz,phzzvat,phzfubg,phag,phagf,qntb,qnza,qvp,qvp fhpxre,qvp-yvpxre,qvp-fhpxre,qvp-fhpxvat,qvpx,qvpx urnq,qvpx yvpxre,qvpx fzbxre,qvpx fhpxre,qvpx-urnq,qvpx-yvpxre,qvpx-fhpxre,qvpx-fhpxvat,qvpxurnq,qvpxurnqf,qvpxyvpxre,qvpxyvpxvat,qvpxf,qvpxfzbxre,qvpxfhpxre,qvpyvpxre,qvpfzbxre,qvpfhpxre,qvpfhpxvat,qbat,qbhpur ont,qbhpuront,qlxr,rng zr,rngzr,rwnphyngr,rwnphyngrq,raplpybcrqvnqenzngvpn,snt,snt*,snttbg,sna fgntr,srypu,srypure,srypuvat,srygpu,srygpure,srygpuvat,shpx,shpx onyy,shpx jnq,shpx-onyy,shpxonyy,shpxrq,shpxre,shpxvat,shpxjnq,shqtr cnpxre,shqtr-cnpxre,shqtrcnpxre,shxd,shdhrq,t-fcbg,turl,tvtnag0e,tvtnagbe,tbngfr,tbq qnza,tbqqnz,tbqqnzvg,tbbx,tfcbg,unv2h,unve cvr,unaq wbo,unaq-wbo,uneq-ba,ubzb,ubzb-frkhny,ubarl-cbg,ubarlcbg,ubeal,ubg a jrg,ubgajrg,uhzc,uhzcrq,uhzcvat,vawha,wnc,wrex bss,wrex-bss,wrexrq bss,wrexrqbss,wrexvat bss,wrexvatbss,wrexbss,wrfhf,wrjr,wvt,wvtnobb,wvtnobbf,wvtf,wvmm,whtf,xvxr,xabpxref,xlxr,yrzbacnegl,yrfob,yrmob,yrmmvr,yhi cbg,yhi-cbg,yhicbg,znevpba,znfgreongr,znfgreongrq,znfgreongvat,znfgheongr,znfgheongrq</bw3>
+	<bw4>znfgheongvat,zrngfcva,zreq,zbaxrl shpxre,zbaxrl-shpxre,zbaxrl-shpxvat,zbaxrl-cuhpxre,zbaxrlshpxre,zbaxrlcuhpxre,zbgure shpxre,zbgure cuhpxre,zbgure-shpxre,zbgure-cuhpxre,zbgureshpxrq,zbgureshpxre,zbgureshpxvat,zbgurecuhpxre,zhs qvire,zhs-qvire,zhsqvire,zhsqvivat,zhss,zhss qvire,zhss qvivat,zhss-qvire,zhss-qvivat,zhssqvivat,zhat,zhag,anqf,avttn,avttre,avttref,avccyr,ahgf,ahggf,betnfz,crpxreurnq,crpxrejbbq,cravyr,cravf,cuhpx,cuhpxre,cuhpxvat,cuhpxd,cuhpd,cuhx,cuhxre,cuhxvat,cvf,cvff,cbba-gnat,cbbagnat,cbepu wbpxrl,cbepu zbaxrl,cevpx,chovp unve,chovpunve,chovpx,chovpxunve,chovx,chovxunve,charwb,chffrl,chffvr,chffl,chgm,dhrre,fpuybat,fpuzhpx,fperjvat,frzna,frzra,frzba,fuvg,fuvg urnq,fuvg-urnq,fuvgurnq,fuyg,fubeg unvef,fubegunvef,fyvpx,fybcr,fyhg,fyhgf,fzrtzn,fangpu,fbo,fbzovgpu,fba bs n ovgpu,fba-bin-ovgpu,fbabinovgpu,fcnax gur zbaxrl,fcnax-gur-zbaxrl,fcnf,fcrez,fcuvapgre,fcvp,fcvpx,fcbbtr,fgrnxnaqpurrfr.pbz,fgvss,fgvssvr,fgvssl,fhp,fhpx,fhpxrq,fhpxvat,fhpxbss,fhpxf,fhk,gnyyl jnpxre,grfgnpyrf,grfgvpyrf,gungffbtnl,gvg,gvgwbo,gvgf,gvggvrf,gvgglf,gbjry urnq,ghotvey,gjng,htnl,hetnl,intvan,ihyin,jnpx bss,jnpxrq bss,jnpxrqbss,jnpxvat,jnpxvatbss,jnpxbss,jnx bss,jnxrqbss,jnxbss,jnebspbadhrfg,jrgonpx,juber,jbc</bw4>
+	<gw>uryyb,furyy,fubr,fubrf,lvccrr,lvccrr,fcrrq,onff,pynff,znff,tynff,cnff,znff,tenff,fuvgnxr,fuber,fcvyy,pngrecvyyne,pngrecvyyne,enppbba,pnany,oratnl,fcbba,fgbxrq,fgbxr,phevat,raqhevat,fgbxrq,puhzc,fgbxrq</gw>
+</root>

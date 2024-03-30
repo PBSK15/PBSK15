@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Hydration Station' %}
+{% set desc = 'Help your team get hydrated at the hydration station! Kids will choose the correct-sized container to fill the watering hole so the dinosaurs drink the right amount.' %}
+{% set keywds = 'water drinking game, math games, Dinosaur Train, Kids math games, preschool math game, capacity game, sports game, volume game' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell_RTL.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/HydrationStation.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

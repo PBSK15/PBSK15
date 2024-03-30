@@ -1,0 +1,58 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Baby Kate\'s Party Hats | PBS Kids' %}
+{% set desc = 'Celebrate and have a party while wearing this Arthur crown! It has Arthurs ears sticking out of it, how fun?!' %}
+{% set keywds = 'Arthur, hat, crown, celebration, party' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="hatsHeader">Party Hats</h4></a>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Arthur's Crown</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printParty">
+    <li id="arthurcrown">
+     <div class="page">
+      <img src="../../i/print/hats/arthur_crown.gif" width="548" height="716" alt="Arthur's Crown" border="0" class="hats img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="arthurhat">
+     <div class="page">
+      <img src="../../i/print/hats/arthur_partyhat.gif" width="548" height="716" alt="Arthur's Party Hat" border="0" class="hats img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="dwtiara">
+     <div class="page">
+      <img src="../../i/print/hats/dw_tiara.gif" width="548" height="716" alt="D.W.'s Tiara" border="0" class="hats img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="dwhat">
+     <div class="page">
+      <img src="../../i/print/hats/dw_partyhat.gif" width="548" height="716" alt="D.W.'s Party Hat" border="0" class="hats img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/print/playmaker/index.html" id="rcPlayMaker">Play Maker</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

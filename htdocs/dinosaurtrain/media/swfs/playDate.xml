@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<game>
+	<music>
+		<!-- <asset id='bkgAudio' url='DT_TinyFishing.mp3' /> -->
+	</music>
+    <shell>
+        <asset id='buddy_intro' url='playDate_Buddy_100.mp3' />
+        <asset id='buddy_chooseMe' url='playDate_Buddy_101.mp3' />
+        <asset id='buddy_I_will_choose' url='playDate_Buddy_102.mp3' />
+        <asset id='buddy_tictactoe' url='playDate_Buddy_103.mp3' />
+        <asset id='buddy_dotsnboxes' url='playDate_Buddy_104_alt.mp3' />
+        <asset id='buddy_pong' url='playDate_Buddy_105.mp3' />
+        <asset id='buddy_now_you_choose' url='playDate_Buddy_200.mp3' />
+        <asset id='buddy_tictactoe_roll' url='playDate_Buddy_201.mp3' />
+        <asset id='buddy_dotsnboxes_roll' url='playDate_Buddy_202_alt.mp3' />
+        <asset id='buddy_pong_roll' url='playDate_Buddy_203.mp3' />
+        <asset id='buddy_sounds_like_fun' url='playDate_Buddy_204.mp3' />
+        
+        <asset id='tiny_intro' url='playDate_Tiny_100.mp3' />
+        <asset id='tiny_chooseMe' url='playDate_Tiny_101.mp3' />
+        <asset id='tiny_I_will_choose' url='playDate_Tiny_102.mp3' />
+        <asset id='tiny_tictactoe' url='playDate_Tiny_103.mp3' />
+        <asset id='tiny_dotsnboxes' url='playDate_Tiny_104_alt.mp3' />
+        <asset id='tiny_pong' url='playDate_Tiny_105.mp3' />
+        <asset id='tiny_now_you_choose' url='playDate_Tiny_200.mp3' />
+        <asset id='tiny_tictactoe_roll' url='playDate_Tiny_201.mp3' />
+        <asset id='tiny_dotsnboxes_roll' url='playDate_Tiny_202_alt.mp3' />
+        <asset id='tiny_pong_roll' url='playDate_Tiny_203.mp3' />
+        <asset id='tiny_sounds_like_fun' url='playDate_Tiny_204.mp3' />
+        
+        <asset id='don_intro' url='playDate_Don_100.mp3' />
+        <asset id='don_chooseMe' url='playDate_Don_101.mp3' />
+        <asset id='don_I_will_choose' url='playDate_Don_102.mp3' />
+        <asset id='don_tictactoe' url='playDate_Don_103.mp3' />
+        <asset id='don_dotsnboxes' url='playDate_Don_104.mp3' />
+        <asset id='don_pong' url='playDate_Don_105.mp3' />
+        <asset id='don_now_you_choose' url='playDate_Don_200.mp3' />
+        <asset id='don_tictactoe_roll' url='playDate_Don_201.mp3' />
+        <asset id='don_dotsnboxes_roll' url='playDate_Don_202.mp3' />
+        <asset id='don_pong_roll' url='playDate_Don_203.mp3' />
+        <asset id='don_sounds_like_fun' url='playDate_Don_204.mp3' />
+        
+        <asset id='shiny_intro' url='playDate_Shiny_100.mp3' />
+        <asset id='shiny_chooseMe' url='playDate_Shiny_101.mp3' />
+        <asset id='shiny_I_will_choose' url='playDate_Shiny_102.mp3' />
+        <asset id='shiny_tictactoe' url='playDate_Shiny_103.mp3' />
+        <asset id='shiny_dotsnboxes' url='playDate_Shiny_104_alt.mp3' />
+        <asset id='shiny_pong' url='playDate_Shiny_105.mp3' />
+        <asset id='shiny_now_you_choose' url='playDate_Shiny_200.mp3' />
+        <asset id='shiny_tictactoe_roll' url='playDate_Shiny_201.mp3' />
+        <asset id='shiny_dotsnboxes_roll' url='playDate_Shiny_104_alt.mp3' />
+        <asset id='shiny_pong_roll' url='playDate_Shiny_203.mp3' />
+        <asset id='shiny_sounds_like_fun' url='playDate_Shiny_204.mp3' />
+        
+    </shell>
+    
+    <tictactoe>
+    
+		<asset id='buddy_tictactoe_intro' url='playDate_Buddy_300.mp3' />
+        <asset id='buddy_tictactoe_player_first' url='playDate_Buddy_303.mp3' />
+        <asset id='buddy_tictactoe_opponent_first' url='playDate_Buddy_302.mp3' />
+        <asset id='buddy_tictactoe_pause1' url='playDate_Buddy_305.mp3' />
+        <asset id='buddy_tictactoe_pause2' url='playDate_Buddy_306.mp3' />
+        <asset id='buddy_tictactoe_pause3' url='playDate_Buddy_307.mp3' />
+        <asset id='buddy_tictactoe_player_win' url='playDate_Buddy_308.mp3' />
+        <asset id='buddy_tictactoe_opponent_win' url='playDate_Buddy_309.mp3' />
+        <asset id='buddy_tictactoe_tie_game' url='playDate_Buddy_310.mp3' />
+        <asset id='buddy_tictactoe_play_again' url='playDate_Buddy_311.mp3' />
+        <asset id='buddy_tictactoe_player_first2' url='playDate_Buddy_313.mp3' />
+        <asset id='buddy_tictactoe_opponent_first2' url='playDate_Buddy_312.mp3' />
+        <asset id='buddy_say_goodbye' url='playDate_Buddy_314.mp3' />
+        
+        <asset id='tiny_tictactoe_intro' url='playDate_Tiny_300.mp3' />
+        <asset id='tiny_tictactoe_player_first' url='playDate_Tiny_303.mp3' />
+        <asset id='tiny_tictactoe_opponent_first' url='playDate_Tiny_302.mp3' />
+        <asset id='tiny_tictactoe_pause1' url='playDate_Tiny_305.mp3' />
+        <asset id='tiny_tictactoe_pause2' url='playDate_Tiny_306.mp3' />
+        <asset id='tiny_tictactoe_pause3' url='playDate_Tiny_307.mp3' />
+        <asset id='tiny_tictactoe_player_win' url='playDate_Tiny_308.mp3' />
+        <asset id='tiny_tictactoe_opponent_win' url='playDate_Tiny_309.mp3' />
+        <asset id='tiny_tictactoe_tie_game' url='playDate_Tiny_310.mp3' />
+        <asset id='tiny_tictactoe_play_again' url='playDate_Tiny_311.mp3' />
+        <asset id='tiny_tictactoe_player_first2' url='playDate_Tiny_313.mp3' />
+        <asset id='tiny_tictactoe_opponent_first2' url='playDate_Tiny_312.mp3' />
+        <asset id='tiny_say_goodbye' url='playDate_Tiny_314.mp3' />
+        
+        <asset id='don_tictactoe_intro' url='playDate_Don_300.mp3' />
+        <asset id='don_tictactoe_player_first' url='playDate_Don_303.mp3' />
+        <asset id='don_tictactoe_opponent_first' url='playDate_Don_302.mp3' />
+        <asset id='don_tictactoe_pause1' url='playDate_Don_305.mp3' />
+        <asset id='don_tictactoe_pause2' url='playDate_Don_306.mp3' />
+        <asset id='don_tictactoe_pause3' url='playDate_Don_307.mp3' />
+        <asset id='don_tictactoe_player_win' url='playDate_Don_308.mp3' />
+        <asset id='don_tictactoe_opponent_win' url='playDate_Don_309.mp3' />
+        <asset id='don_tictactoe_tie_game' url='playDate_Don_310.mp3' />
+        <asset id='don_tictactoe_play_again' url='playDate_Don_311.mp3' />
+        <asset id='don_tictactoe_player_first2' url='playDate_Don_313.mp3' />
+        <asset id='don_tictactoe_opponent_first2' url='playDate_Don_312.mp3' />
+        <asset id='don_say_goodbye' url='playDate_Don_314.mp3' />
+        
+        <asset id='shiny_tictactoe_intro' url='playDate_Shiny_300.mp3' />
+        <asset id='shiny_tictactoe_player_first' url='playDate_Shiny_303.mp3' />
+        <asset id='shiny_tictactoe_opponent_first' url='playDate_Shiny_302.mp3' />
+        <asset id='shiny_tictactoe_pause1' url='playDate_Shiny_305.mp3' />
+        <asset id='shiny_tictactoe_pause2' url='playDate_Shiny_306.mp3' />
+        <asset id='shiny_tictactoe_pause3' url='playDate_Shiny_307.mp3' />
+        <asset id='shiny_tictactoe_player_win' url='playDate_Shiny_308.mp3' />
+        <asset id='shiny_tictactoe_opponent_win' url='playDate_Shiny_309.mp3' />
+        <asset id='shiny_tictactoe_tie_game' url='playDate_Shiny_310.mp3' />
+        <asset id='shiny_tictactoe_play_again' url='playDate_Shiny_311.mp3' />
+        <asset id='shiny_tictactoe_player_first2' url='playDate_Shiny_313.mp3' />
+        <asset id='shiny_tictactoe_opponent_first2' url='playDate_Shiny_312.mp3' />
+        <asset id='shiny_say_goodbye' url='playDate_Shiny_314.mp3' />
+        
+	</tictactoe>
+    
+    <dotsnboxes>
+    
+        <asset id='buddy_dots_intro' url='playDate_Buddy_301.mp3' />
+        <asset id='buddy_dots_player_first' url='playDate_Buddy_303.mp3' />
+        <asset id='buddy_dots_opponent_first' url='playDate_Buddy_302.mp3' />
+        <asset id='buddy_dots_your_turn' url='playDate_Buddy_304.mp3' />
+        <asset id='buddy_dots_pause1' url='playDate_Buddy_305.mp3' />
+        <asset id='buddy_dots_pause2' url='playDate_Buddy_306.mp3' />
+        <asset id='buddy_dots_pause3' url='playDate_Buddy_307.mp3' />
+        <asset id='buddy_dots_player_win' url='playDate_Buddy_308.mp3' />
+        <asset id='buddy_dots_opponent_win' url='playDate_Buddy_309.mp3' />
+        <asset id='buddy_dots_tie_game' url='playDate_Buddy_310.mp3' />
+        <asset id='buddy_say_goodbye' url='playDate_Buddy_314.mp3' />
+        
+        <asset id='tiny_dots_intro' url='playDate_Tiny_301.mp3' />
+        <asset id='tiny_dots_player_first' url='playDate_Tiny_303.mp3' />
+        <asset id='tiny_dots_opponent_first' url='playDate_Tiny_302.mp3' />
+        <asset id='tiny_dots_your_turn' url='playDate_Tiny_304.mp3' />
+        <asset id='tiny_dots_pause1' url='playDate_Tiny_305.mp3' />
+        <asset id='tiny_dots_pause2' url='playDate_Tiny_306.mp3' />
+        <asset id='tiny_dots_pause3' url='playDate_Tiny_307.mp3' />
+        <asset id='tiny_dots_player_win' url='playDate_Tiny_308.mp3' />
+        <asset id='tiny_dots_opponent_win' url='playDate_Tiny_309.mp3' />
+        <asset id='tiny_dots_tie_game' url='playDate_Tiny_310.mp3' />
+        <asset id='tiny_say_goodbye' url='playDate_Tiny_314.mp3' />
+        
+        <asset id='don_dots_intro' url='playDate_Don_301.mp3' />
+        <asset id='don_dots_player_first' url='playDate_Don_303.mp3' />
+        <asset id='don_dots_opponent_first' url='playDate_Don_302.mp3' />
+        <asset id='don_dots_your_turn' url='playDate_Don_304.mp3' />
+        <asset id='don_dots_pause1' url='playDate_Don_305.mp3' />
+        <asset id='don_dots_pause2' url='playDate_Don_306.mp3' />
+        <asset id='don_dots_pause3' url='playDate_Don_307.mp3' />
+        <asset id='don_dots_player_win' url='playDate_Don_308.mp3' />
+        <asset id='don_dots_opponent_win' url='playDate_Don_309.mp3' />
+        <asset id='don_dots_tie_game' url='playDate_Don_310.mp3' />
+        <asset id='don_say_goodbye' url='playDate_Don_314.mp3' />
+        
+        <asset id='shiny_dots_intro' url='playDate_Shiny_301.mp3' />
+        <asset id='shiny_dots_player_first' url='playDate_Shiny_303.mp3' />
+        <asset id='shiny_dots_opponent_first' url='playDate_Shiny_302.mp3' />
+        <asset id='shiny_dots_your_turn' url='playDate_Shiny_304.mp3' />
+        <asset id='shiny_dots_pause1' url='playDate_Shiny_305.mp3' />
+        <asset id='shiny_dots_pause2' url='playDate_Shiny_306.mp3' />
+        <asset id='shiny_dots_pause3' url='playDate_Shiny_307.mp3' />
+        <asset id='shiny_dots_player_win' url='playDate_Shiny_308.mp3' />
+        <asset id='shiny_dots_opponent_win' url='playDate_Shiny_309.mp3' />
+        <asset id='shiny_dots_tie_game' url='playDate_Shiny_310.mp3' />
+        <asset id='shiny_say_goodbye' url='playDate_Shiny_314.mp3' />
+        
+    </dotsnboxes>
+    
+	<pong>
+    
+		<asset id='buddy_pong_intro' url='playDate_Buddy_400.mp3' />
+        <asset id='buddy_pong_readyGo' url='playDate_Buddy_401.mp3' />
+        <asset id='buddy_pong_oppGoal' url='playDate_Buddy_402.mp3' />
+        <asset id='buddy_pong_playerGoal' url='playDate_Buddy_403.mp3' />
+        <asset id='buddy_pong_help' url='playDate_Buddy_404.mp3' />
+        <asset id='buddy_say_goodbye' url='playDate_Buddy_314.mp3' />
+        <asset id='buddy_pong_player_win' url='playDate_Buddy_308.mp3' />
+        <asset id='buddy_pong_opponent_win' url='playDate_Buddy_309.mp3' />
+        
+        <asset id='tiny_pong_intro' url='playDate_Tiny_400.mp3' />
+        <asset id='tiny_pong_readyGo' url='playDate_Tiny_401.mp3' />
+        <asset id='tiny_pong_oppGoal' url='playDate_Tiny_402.mp3' />
+        <asset id='tiny_pong_playerGoal' url='playDate_Tiny_403.mp3' />
+        <asset id='tiny_pong_help' url='playDate_Tiny_404.mp3' />
+        <asset id='tiny_say_goodbye' url='playDate_Tiny_314.mp3' />
+        <asset id='tiny_pong_player_win' url='playDate_Tiny_308.mp3' />
+        <asset id='tiny_pong_opponent_win' url='playDate_Tiny_309.mp3' />
+        
+        <asset id='don_pong_intro' url='playDate_Don_400.mp3' />
+        <asset id='don_pong_readyGo' url='playDate_Don_401.mp3' />
+        <asset id='don_pong_oppGoal' url='playDate_Don_402.mp3' />
+        <asset id='don_pong_playerGoal' url='playDate_Don_403.mp3' />
+        <asset id='don_pong_help' url='playDate_Don_404.mp3' />
+        <asset id='don_say_goodbye' url='playDate_Don_314.mp3' />
+        <asset id='don_pong_player_win' url='playDate_Don_308.mp3' />
+        <asset id='don_pong_opponent_win' url='playDate_Don_309.mp3' />
+        
+        <asset id='shiny_pong_intro' url='playDate_Shiny_400.mp3' />
+        <asset id='shiny_pong_readyGo' url='playDate_Shiny_401.mp3' />
+        <asset id='shiny_pong_oppGoal' url='playDate_Shiny_402.mp3' />
+        <asset id='shiny_pong_playerGoal' url='playDate_Shiny_403.mp3' />
+        <asset id='shiny_pong_help' url='playDate_Shiny_404.mp3' />
+        <asset id='shiny_say_goodbye' url='playDate_Shiny_314.mp3' />
+        <asset id='shiny_pong_player_win' url='playDate_Shiny_308.mp3' />
+        <asset id='shiny_pong_opponent_win' url='playDate_Shiny_309.mp3' />
+        
+	</pong>
+</game>

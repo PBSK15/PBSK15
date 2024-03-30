@@ -1,0 +1,415 @@
+/* Sticker Creator */
+#sticker-tools .tool-buttons button{
+border: 0;
+outline: 0;
+color: #fff;
+height: 42px;
+width: 70px;
+background: url("i/present/cc_clear_save_print.png") 0 0 no-repeat transparent;
+text-indent: -999em;
+}
+
+#sticker-tools #save-sticker{
+width: 59px;
+background-position: left -42px;
+}
+#sticker-tools #save-sticker:hover{
+background-position: -59px -42px;
+}
+
+#sticker-tools #print-sticker{
+ /* height:43px;*/
+  width: 63px;
+  margin:0 8px;
+  background-position: left -85px;
+}
+#sticker-tools #print-sticker:hover{
+  background-position: -63px -85px;
+}
+#sticker-tools #save-sticker:select
+{
+  background-position: -192px -43px;
+}
+/*#sticker-tools #print-sticker.inactive{
+  display: block;
+  background-position: -186px -85px;
+}
+#sticker-tools #save-sticker.inactive{
+  display: block;
+  background-position: -177px -43px;
+}*/
+
+#sticker-tools .tool-buttons button#clear-all{
+background-position: left top;	
+width:101px;
+margin:0 0 8px 8px;
+}
+#sticker-tools .tool-buttons button#clear-all:hover{
+background-position: -101px top;  
+}
+
+#sticker-tools .tool-buttons button#background-trigger{
+width: 87px;	
+background-position: left -65px;
+position: relative;
+z-index: 120;
+}
+
+.tool-buttons ul.sticker-assets .ui-selected img { 
+opacity: 1;
+border-color: #314951;
+}
+
+.tool-buttons ul.sticker-assets li{
+/*float: left;
+margin: 0 18px 4px 0;
+width: 74px;*/
+}
+
+.tool-buttons ul.sticker-assets li:nth-child(6n+6){
+margin-right: 0;	
+}
+
+.tool-buttons ul.sticker-assets li img{
+width: 64%;	
+border: 2px solid #5c8baa;
+opacity: .5;
+}
+
+#tabsbkg .tool-buttons ul.sticker-assets li img {width: 96%;}
+#tabsbkg .tool-buttons ul.sticker-assets li {margin:0 12px 0 10px;}
+
+.tool-buttons ul.sticker-assets li:hover img{
+opacity: 1;
+cursor: pointer;	
+}
+
+.sticker-poof{
+display: block;
+position: absolute;
+width: 185px;
+height: 135px;	
+background: url("i/present/poof-graphic.png") 0 0 no-repeat transparent;
+display: none;
+}
+ .sticker-ui-contols .size-btn, .sticker-ui-contols .rotate-btn{
+width: 30px;
+height: 30px;
+border: none;
+background: url("i/present/cc_sidebar_btn.png") left top no-repeat transparent;
+text-indent: -999em;
+/*position: absolute;
+top: 20px;
+left: 20px;*/
+}
+
+ .sticker-ui-contols .size-btn.make-smaller{
+/*left: auto;
+right: 20px;	*/
+background-position: left -30px;
+}
+
+ .sticker-ui-contols .size-btn.make-bigger:hover{
+background-position: -30px top;	
+cursor: pointer;
+}
+
+ .sticker-ui-contols .size-btn.make-smaller:hover{
+background-position: -30px -30px; 
+cursor: pointer;
+}
+
+.sticker-ui-contols .rotate-btn.rotate-right{
+  background-position: left -60px;
+}
+.sticker-ui-contols .rotate-btn.rotate-left{
+  background-position: left -90px;
+}
+
+.sticker-ui-contols .change-rotate-right{
+  padding: 10px 0 0 0;
+}
+.sticker-ui-contols .change-rotate-left{
+  padding: 0 0 10px 0;
+}
+
+.sticker-ui-contols .rotate-btn.rotate-right:hover{
+  cursor: pointer;
+  background-position: -30px -60px;
+}
+.sticker-ui-contols .rotate-btn.rotate-left:hover{
+  cursor: pointer;
+  background-position: -30px -90px;
+}
+ .sticker-ui-contols .change-size{
+/*background: rgba( 94, 54, 28, .05);	
+width: 222px;
+height: 60px;
+margin: 10px;*/
+}
+.sticker-ui-contols .flip-sticker{
+  padding:0 0 10px 0;
+}
+
+#delete-sticker-action,
+#flip-sticker-action{
+background: url("i/present/cc_sidebar_btn.png") 0 bottom no-repeat transparent;
+height: 30px;
+width: 30px;
+/*float: right;*/
+text-indent: -999em;
+border: 0;
+outline: 0;
+padding: 0;
+/*margin: 0 10px 0 0;	*/
+}
+
+#flip-sticker-action{
+background-position: left -120px;
+width: 30px;
+/*float: left;	
+margin: 0 0 0 10px;*/
+}
+
+#delete-sticker-action:hover{
+background-position: -30px bottom;
+cursor: pointer;
+}
+
+#flip-sticker-action:hover{
+background-position: -30px -120px;
+cursor: pointer;
+}
+
+#flip-sticker-action.inactive{
+  background-position: -90px -120px;
+  cursor: default;
+  display: block;
+}
+
+#sticker-canvas .sticker-ui-contols .change-size h3 {
+background: url("i/present/cc_sidebar_btn.png") -7px -5px no-repeat transparent;
+position: absolute;
+width: 110px;
+height: 30px;
+top: 24px;
+left: 66px;
+text-indent: -999em;
+}
+
+.sticker-sheet .category-filter{
+display: none;	
+}
+
+.sticker-sheet .sticker-assets li {
+list-style: none;
+margin-right: 8px;
+width: 75px;
+background: none;
+}
+
+#tabstext .sticker-sheet .sticker-assets li {
+  width:100px;
+  margin:0 8px 0 8px;
+}
+
+/*.sticker-sheet .sticker-assets img {
+width: 55px;
+}*/
+
+.sticker-sheet {
+margin:10px 0;
+padding: 10px;
+/*background: rgba(0, 0, 0, .05);
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px; */
+height: 50px;
+overflow: hidden;
+width:700px;
+/*border:2px solid #333;*/
+/*position: absolute;*/
+}
+
+aside.sheet-actions{
+position: absolute;
+left: 20px;
+height: 250px;
+float: left;
+top: 52px;
+}
+
+aside.sheet-actions.text-ui{
+left: auto;
+right: 120px;
+float: right;
+}
+
+aside.sheet-actions button{
+background: url("i/present/cc_arrow_buttons.png") 0 0 no-repeat transparent;
+width: 37px;
+height: 88px;	
+border: 0;
+outline: 0;
+text-indent: -999em;
+
+}
+
+/*aside.sheet-actions button.active{
+opacity: 1;
+}*/
+
+aside.sheet-actions .scroller{
+display: block;
+width: 20px;
+height: 110px;
+background: rgba(0, 0, 0, 0.05);
+position: absolute;
+left: 15px;
+top: 69px;
+}
+
+aside.sheet-actions  button.sheet-up-action{
+position: absolute;
+top: 10px;
+}
+
+aside.sheet-actions button.sheet-up-action.active:hover{
+background-position: -37px 0;	
+cursor: pointer;
+}
+
+aside.sheet-actions button.sheet-down-action{
+background-position: 0 bottom;
+position: absolute;
+}
+
+aside.sheet-actions button.sheet-down-action.active:hover{
+background-position: -37px bottom;	
+cursor: pointer;
+}
+
+aside.sheet-actions button.sheet-down-action.active{
+  background-position: left bottom;
+}
+
+aside.sheet-actions button.sheet-up-action.active{
+  background-position: left top;
+}
+
+aside.sheet-actions button.sheet-down-action{
+  background-position: right bottom;
+}
+
+aside.sheet-actions button.sheet-up-action{
+  background-position: right top;
+}
+
+.sticker-sheet.wide{
+width: 565px;
+float: left;	
+padding: 10px 0px 10px 100px;
+}
+
+.sticker-sheet.thin{
+float: left;
+width: 300px;
+margin-left: 20px;
+height: 205px;
+}
+
+.sticker-sheet.text-ui .sticker-assets li{
+width: 220px;
+display: block;	
+margin: 10px;
+}
+
+.sticker-sheet.text-ui .sticker-assets img{
+max-width: 220px;
+width: auto;
+}
+
+#sticker-ui-holder{position: absolute; top:150px; left:33px; height:216px; /*border:1px solid #314951;*/ background-color:#314951; border-width: 0px 0px 1px 0px;
+  -moz-border-radius:7px 0 0 7px;
+  -webkit-border-radius: 7px 0 0 7px;
+  border-radius:7px 0 0 7px; padding:3px; display:none;}
+/*.sticker-ui-contols{display: none;}*/
+.sticker-ui-contols {background-color:#314951;} 
+.sticker-ui-contols li {margin:1px 0 0 0}
+.sticker-assets {width:900px; height:80px;}
+aside.sheet-actions{width:673px; height:20px; left:5px; top:0px;}
+aside.sheet-actions button.sheet-down-action{right:5px;}
+aside.sheet-actions button.sheet-up-action {left:-7px;}
+aside.sheet-actions button.sheet-down-action, aside.sheet-actions button.sheet-up-action{top:-6px;}
+.sticker-sheet.wide {padding:2px 10px 0 10px; margin:0 0 0 43px; background-color: #477499; height:75px;}
+
+.tool-buttons ul.sticker-assets {display:block;}
+#sticker-tools {position: absolute; bottom:7px;}
+#sticker-tools .tool-buttons {float:left;}
+
+#tabs1 .tool-buttons ul.sticker-assets li {margin:0 10px;}
+
+#myTabs .sticker-sheet .sticker-assets li {float:left; display: inline;}
+
+#myTabs {width:700px; height:155px; margin:10px 0 10px 65px; position: absolute; padding: 0px;  background: none;  border-width: 0px;}
+
+#sticker-ui { height: 470px;  background-color: #CEEAEC;}
+
+#myTabs .ui-tabs-nav {
+  padding-left: 0px;
+  background: transparent;
+  border-width: 0px 0px 1px 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+#myTabs .ui-tabs-panel {
+  background-color: #ceeaec;
+  border-width: 0px 1px 1px 1px;
+  height:100px;
+}
+
+#myTabs .ui-state-active, .ui-widget-content .ui-state-active {background: url('i/present/cc_top_tabs.png') top left; padding:50px 0 0 0; width:50px; overflow: hidden;}
+#myTabs #tabs-nav {position: absolute; top:-4px; left:50px; z-index: 2;}
+#myTabs li {float:left;}
+#myTabs #tabschar, #myTabs #tabsbkg, #myTabs #tabsprop, #myTabs #tabstext { position: absolute; top: 39px; background-color: #477499; height:80px; border:2px solid #314951; width:670px; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px;}
+
+#myTabs #tabs-nav li button{ width:54px; height:0px; padding:45px 0 0 0; background: url('i/present/cc_top_tabs.png') left top; overflow: hidden; display:block; margin:0 3px 0 0;}
+
+#myTabs #tabs-nav #nav-char button:hover {background-position: -54px 0px;}
+#myTabs #tabs-nav #nav-bkg button:hover {background-position: -54px -45px;}
+#myTabs #tabs-nav #nav-prop button:hover {background-position: -54px -90px;}
+#myTabs #tabs-nav #nav-text button:hover {background-position: -54px -135px;}
+
+#myTabs #tabs-nav #nav-char button.active {background-position: -108px 0px;}
+#myTabs #tabs-nav #nav-bkg button.active {background-position: -108px -45px;}
+#myTabs #tabs-nav #nav-prop button.active {background-position: -108px -90px;}
+#myTabs #tabs-nav #nav-text button.active {background-position: -108px -135px;}
+
+#myTabs #tabs-nav #nav-bkg button{background-position: left -45px;}
+#myTabs #tabs-nav #nav-prop button{background-position: left -90px;}
+#myTabs #tabs-nav #nav-text button{background-position: left -135px;}
+
+#ccGame {background-color: white; border: 1px solid #333; padding: 5px; width:800px; margin:0 auto; position: relative;}
+
+.hideTabContent {visibility: hidden;}
+
+#sticker-tools ul {width:800px;}
+
+#sticker-tools .tool-buttons.right { float:right;}
+
+#tabschar .sticker-assets li, #tabsprop .sticker-assets li { background:url('i/present/cc_circle.png')top left; width:75px; height:75px;}
+
+#screen-overlay { width:800px; height:470px; position: absolute;  z-index: 100; background:url('i/present/cc_bg.png') top left;}
+#clear-all-prompt { background: url('i/present/cc_clear_prompt.png') top left no-repeat; width:350px; height:250px; margin:116px auto; position: relative;}
+button.prompt-btn { position: absolute; top:136px; left:94px; width:59px; height:0; padding:42px 0 0 0; margin:0 10px 0 10px; cursor: pointer; background:url('i/present/yes_no_buttons.png') 0 0  no-repeat; overflow: hidden;}
+button.prompt-btn.btn-yes {left:172px; background-position: 0 -42px;}
+button.prompt-btn.btn-yes:hover {background-position:-59px -42px; }
+button.prompt-btn.btn-no:hover {background-position:-59px 0px; }
+#no-support {color:white; font-size: 20px; width:500px; margin:0 auto; padding:160px 0 0 0;}
+.inactive {display: none;}
+
+#saveCanvas {display:none;} 
+
+.comicbg #flashcontent.comiccreatorHTML5 { width:800px; height:480px; margin:0 auto; border:none; background:none;}
+

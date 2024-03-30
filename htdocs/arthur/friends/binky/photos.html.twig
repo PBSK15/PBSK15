@@ -1,0 +1,185 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Binky\'sPhotos Page | PBS Kids' %}
+{% set desc = 'Check out photographs of Binky and friends. Binky captions his photos with tips on how to be more environmentally friendly by riding bikes.' %}
+{% set keywds = 'green, environment, bike, performance, photographs' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/binky_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/binky_top.swf", "binky", "960", "363", "9", "#ccffcc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "binky");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-binky">Binky'simages</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/binky7.jpg" width="354" height="250" alt="Binky on stage, dressed as a tree." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_binky.gif" width="85" height="83" alt="Binky Avatar" border="0" id="avatar">
+    <h3>A Binky tree.</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="sue-cmt"><a href="/arthur/friends/sue_ellen/index.html">SUE ELLEN</a>
+       <p>What a performance!</p>
+      </div>
+      <div class="sue-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/binky7.jpg" width="354" height="250" alt="Binky on stage, dressed as a tree." border="0" id="mainImg">
+       <h3>A Binky tree.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="sue-cmt"><a href="/arthur/friends/sue_ellen/index.html">SUE ELLEN</a>
+          <p>What a performance!</p>
+         </div>
+         <div class="sue-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/binky8.jpg" width="354" height="250" alt="ME, a butterfly, and Molly." border="0" id="mainImg">
+       <h3>ME, a butterfly, and Molly.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="fern-cmt"><a href="/arthur/friends/fern/index.html">FERN</a>
+          <p>Hmmm... that could make a great story.</p>
+         </div>
+         <div class="fern-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/binky9.jpg" width="354" height="250" alt="Hey! Somebody get open!" border="0" id="mainImg">
+       <h3>Hey! Somebody get open!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li> <!--					<li>						<dl><dt><img src="../../i/friends/photos/binky1.jpg" width="354" height="250" alt="biking is good exercise" border="0" id="mainImg" /><h3>This is Lance Armstrong. He's fast!</h3></dt>							<dd>							<h2></h2>							<div class="cmtWrapper">								<div class="comment">																	</div>							</div>							</dd>						</dl>					</li>					-->
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/binky2.jpg" width="354" height="250" alt="more biking area would be awesome" border="0" id="mainImg">
+       <h3>A lot of cities are made for driving. Safer biking areas would be awesome.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/binky3.jpg" width="354" height="250" alt="bike more and drive less to avoide traffic jam" border="0" id="mainImg">
+       <h3>Look at this traffic jam! Cars are helpful, but ... where did they all come from? People should try trading their cars for bikes!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/binky4.jpg" width="354" height="250" alt="biking is a great way to get around" border="0" id="mainImg">
+       <h3>If you're in a safe area, biking is a great way to get around!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/binky5.jpg" width="354" height="250" alt="Buster, Arthur and Muffy with their bikes." border="0" id="mainImg">
+       <h3>Bike safely, and it will always be fun!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="arthur-cmt"><a href="/arthur/friends/arthur/index.html">ARTHUR</a>
+          <p>Unless your little sister always tags along.</p>
+         </div>
+         <div class="arthur-cmtbtm"></div>
+         <div class="fran-cmt"><a href="/arthur/friends/francine/index.html">FRANCINE</a>
+          <p>D.W. wanted me to tell you she knows what you said.</p>
+         </div>
+         <div class="fran-cmtbtm"></div>
+         <div class="arthur-cmt"><a href="/arthur/friends/arthur/index.html">ARTHUR</a>
+          <p>Uh-oh...</p>
+         </div>
+         <div class="arthur-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/binky6.jpg" width="354" height="250" alt="Arthur reading a newspaper on the bus." border="0" id="mainImg">
+       <h3>Arthur on the bus. Lots of people on one bus is better than lots of people in lots of cars.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="arthur-cmt"><a href="/arthur/friends/arthur/index.html">ARTHUR</a>
+          <p>The bus was fun! I felt very grown up.</p>
+         </div>
+         <div class="arthur-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/games/artgallery/index.html" id="rcGallery">Art Gallery</a></li>
+   <li><a href="/arthur/print/playmaker/index.html" id="rcPlayMaker">Play Maker</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

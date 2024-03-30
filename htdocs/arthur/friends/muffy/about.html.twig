@@ -1,0 +1,72 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Muffy\'s About Me Page | PBS Kids' %}
+{% set desc = 'Get to know a little bit more about the infamous and rich Muffy on her profile page. Check out her favorite books and take a poll.' %}
+{% set keywds = 'profile, books, Muffy, interests, favorites' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/muffy_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/muffy_top.swf", "muffy", "960", "363", "9", "#ffcccc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "muffy");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="/arthur/friends/muffy/photos.html" class="photoWall p-muffy">Muffy's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Getting my friends to plant trees in my yard.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Getting lice. Yech!
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Seeing the sights and all the latest fashions in Crown City.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_fcc">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>If you take your lunch to school, is everything in plastic bags?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/muffy/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="muffy"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/muffy_book1.jpg" width="148" height="117" alt="The King's Equal book cover" border="0"> <h4>The King's Equal</h4> <p>by Katherine Paterson<br> A conceited prince is convinced he can never find his equal. (Well, he's never met me!) The smart and beautiful girl in this story teaches him a lesson or two.</p></li>
+    <li><img src="/arthur/i/friends/books/muffy_book2.jpg" width="148" height="117" alt="Mufaro's Beautiful Daughters book cover" border="0"> <h4>Mufaro's Beautiful Daughters</h4> <p>by John Stephtoe<br> When the king wants to choose a bride, who do you think he finds most "worthy and beautiful": sweet Nyasha or her selfish sister Manyara?</p></li>
+    <li><img src="/arthur/i/friends/books/muffy_book3.jpg" width="148" height="117" alt="One Grain of Rice book cover" border="0"> <h4>One Grain of Rice</h4> <p>by Demi<br> In this story, Rani is a very clever girl who outsmarts a raja to save her village.</p></li>
+    <li><img src="/arthur/i/friends/books/muffy_book4.jpg" width="148" height="117" alt="The Twelve Dancing Princesses book cover" border="0"> <h4>The Twelve Dancing Princesses</h4> <p>by Ruth Sanderson<br> You will love the dresses and shoes in this classic tale. The story's also pretty magical.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/wardrobe/index.html" id="rcWardrobe">Muffy's Wardrobe</a></li>
+   <li><a href="/arthur/games/sugarbowlpoll/index.html" id="rcPoll">Sugar Bowl Poll</a></li> <!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

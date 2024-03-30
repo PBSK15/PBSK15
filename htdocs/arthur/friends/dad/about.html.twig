@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Dad\'s About Me Page | PBS Kids' %}
+{% set desc = '' %}
+{% set keywds = '' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cc9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/dad_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/dad_top.swf", "dad", "960", "363", "9", "#cccc99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "dad");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-dad">Dad's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Creating new food flavors. Asparagus pudding, anyone?
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     When I falsely accused Arthur of breaking my cake plate.
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Camping with my family.
+    </dd>
+   </dl>
+   <div id="pollWrapper">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you like fancy food?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/dad/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="dad"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="../../i/friends/books/dad_book1.jpg" width="148" height="117" alt="Anansi and the Talking Melon book cover" border="0"> <h4>Anansi and the Talking Melon</h4> <p>by Eric Kimmel<br> Anansi the spider loves to eat and he loves to play jokes on his friends. This folktale has great illustrations and is fun to read aloud.</p></li>
+    <li><img src="../../i/friends/books/dad_book2.jpg" width="148" height="117" alt="Bread Bread Bread book cover" border="0"> <h4>Bread Bread Bread</h4> <p>by Ann Morris<br> Tortillas, pitas, bagels, and baguettes. Great photographs show families all over the world baking, selling, and eating bread.</p></li>
+    <li><img src="../../i/friends/books/dad_book3.jpg" width="148" height="117" alt="Cloudy with a Chance of Meatballs book cover" border="0"> <h4>Cloudy with a Chance of Meatballs</h4> <p>by Judy Barrett<br> In the little town of Chewandswallow, food falls like rain from the sky. Pretty delicious, but it can get a bit messy!</p></li>
+    <li><img src="../../i/friends/books/dad_book4.jpg" width="148" height="117" alt="Mama Provi and the Pot of Rice book cover" border="0"> <h4>Mama Provi and the Pot of Rice</h4> <p>by Sylvia Rosa-Casanova<br> Mama Provi cooks up a pot of "arroz con pollo" for her granddaughter, Lucy. On the way up the stairs to Lucy's apartment, she stops to trade some of her food for other tasty foods the neighbors are preparing. What a terrific dinner!</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/friends/baby_kate/index.html" id="rcKate">Baby Kate</a></li>
+   <li><a href="/arthur/games/superactionchallenge/index.html" id="rcSuperAction">Super Action Challenge</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,24 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Buster Baxter: Where\'s Buster | PBS Kids' %}
+{% set desc = 'Do you have what it takes to be a copilot? Play Buster Baxter: Lung Defender to steer through Busters lungs and help him fight his asthma!' %}
+{% set keywds = 'Buster, asthma, health, kids, breathing, inhaler, lings' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="wherebusterbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="wbgame.html" target="_self"><img src="../../i/games/wheresbuster_splash.gif" width="595" height="418" border="0" alt="Play Buster Baxter - Where's Buster"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/connectworld/index.html" id="rcConnect">Connect the World</a></li>
+   <li><a href="/arthur/games/effectivedetective/index.html" id="rcDetective">Effective Detective</a></li>
+   <li><a href="/arthur/games/globalgizmo/index.html" id="rcGlobal">Global Gizmo</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

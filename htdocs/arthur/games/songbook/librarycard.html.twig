@@ -1,0 +1,46 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur\'s Songbook | PBS Kids' %}
+{% set desc = 'Having fun isnt hard, when youve got a library card! So sing about the awesomeness of library cards and all the books you can borrow from the library!' %}
+{% set keywds = 'lyrics, singing, songbook, read, library, books' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="songSHeader">Arthur's Songbook</h4></a>
+  <div id="songbookPlayer">
+   <ul id="printSideNav">
+    <li><a href="theme.html"><span>Theme Song</span></a></li>
+    <li><a href="librarycard.html" class="selected"><span>Library Card</span></a></li>
+    <li><a href="luckypencil.html"><span>Lucky Pencil</span></a></li>
+    <li><a href="ufo.html"><span>The UFO Song</span></a></li>
+    <li><a href="gotosleep.html"><span>Go to Sleep</span></a></li>
+    <li><a href="crazybus.html"><span>Crazy Bus</span></a></li>
+   </ul>
+   <script type="text/javascript">			   var fo = new SWFObject("../../media/games/songbook_player.swf", "songbook", "262", "283", "9","#ffffcc");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   fo.addVariable("title", "librarycard");			  //			   fo.write("songbookPlayer");			</script>
+  </div>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Library Card</h1>
+    </div>
+   </div>
+   <div id="songbookContent"><img src="../../i/games/songbook/notes.gif" width="70" height="324" alt="music notes" border="0" class="float-left music-notes"> <img src="../../i/games/songbook/songbook_library.gif" width="157" height="163" alt="Buster" border="0" class="float-right">
+    <p class="songbook-lyrics">Having fun isn't hard, <br> When you've got a library card.<br> Having fun isn't hard, <br> When you've got a library card.<br> <br> Come on inside, <br> We've got everything you need.<br> There's plenty to do, <br> Or you can just sit and read.<br> <br> This book explains <br> How to make paper planes.<br> This contour map <br> Can show you mountain range terrains<br> <br> Fly to the moon, <br> Explore the ocean floor.<br> Find out which one's the tiller, <br> And which one is the oar.<br> <br> Here's "Charlie and the Chocolate Factory" <br> And "Half Magic."<br> "Hop on Pop," "The Fox in Socks" <br> And books on doing card tricks!<br> <br> Having fun isn't hard, <br> When you've got a library card. <br> (That's right!)<br> Having fun isn't hard, <br> When you've got a library card.<br> <br> Books on baseball, <br> Hockey and soccer<br> And even how to build yourself <br> A cool doorknocker.<br> <br> I could stay in this place<br> For hours and hours.<br> I like books with pictures <br> Of lotsa pretty flowers...<br> Being crushed by a giant pterodactyl.<br> <br> Jules Verne, HG Wells, <br> And Ray Bradbury:<br> You can take 'em home <br> So you don't have to <br> Read 'em in a hurry.<br> <br> Having fun isn't hard, <br> When you've got a library card.<br> Having fun isn't hard, <br> When you've got a library card.<br> <br> Paintings by Leonardo, Rembrandt, <br> And Picasso<br> Confidentially, I'm reading <br> "Go, Dog, Go."<br> <br> There's "The Giving Tree" and "Jumanji" <br> And "Where the Wild Things Are"<br> And a book on why you shouldn't<br> Keep your brother in a jar.<br> <br> All the thoughts and dreams of people<br> Throughout history<br> And all you need's this little card<br> To borrow 'em for free!<br> <br> Having fun isn't hard, <br> When you've got a library card.<br> Having fun isn't hard,<br> When you've got a library card.<br> <br> There's story time <br> And lessons on how to use computers,<br> But there can't be any classes <br> On how to make me cuter.<br> <br> Puppet shows and movies, <br> The cool things never end.<br> And don't forget, <br> The Dewey Decimal System is your friend.<br> Who's Dewey?<br> <br> And don't forget,<br> The Dewey Decimal System is your friend.<br> Who's Dewey?!<br> <br> Having fun isn't hard,<br> When you've got a library card.<br> Who's Dewey?!!<br> <br> Having fun isn't hard,<br> When you've got a library card.<br> Having fun isn't hard, <br> When you've got a library card.<br> Who's Dewey?!!!<br> <br> Having fun isn't hard, <br> When you've got a library card.<br> Having Fun...<br> Who's Dewey?!!!!!<br></p>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/print/grooveit/index.html" id="rcGrooveIt">Groove It!</a></li>
+   <li><a href="/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP" id="rcVideoMashup">Marthur Video</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

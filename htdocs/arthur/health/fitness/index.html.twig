@@ -1,0 +1,101 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'Fitness . Arthur' %}
+{% set videoCss = true %}
+{% set specialInclude = '' %}
+{% set bodyClass = 'blue' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><a href="../asthma/">Asthma</a></li>
+   <li><a href="../allergy/">Peanut Allergy</a></li>
+   <li><a href="../nutrition/">Nutrition</a></li>
+   <li><a href="../resilience/">Resilience</a></li>
+   <li><h2><a href="../fitness/">Fitness</a></h2></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Fitness</a>
+   </div>
+   <ul>
+    <li><a href="../asthma/">Asthma</a></li>
+    <li><a href="../allergy/">Peanut Allergy</a></li>
+    <li><a href="../nutrition/">Nutrition</a></li>
+    <li><a href="../resilience/">Resilience</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="top-idx group"><img class="col7" src="../img/fitness_home_1.png" alt="Francine smiling.">
+  <div class="col5">
+   <p class="mar-t-sm">Like kids everywhere, Arthur and his friends sometimes struggle with watching too much TV and not getting enough exercise. Here are some resources to help you and your family understand the basics of staying fit — and inspire your kids to get and stay healthy too!</p>
+  </div>
+  <ul class="menu-topics">
+   <li class="topic">
+    <div>
+     <div class="caret-menu"></div>The Basics
+    </div>
+    <ul>
+     <li><a href="background-info.html">Background Information</a></li>
+     <li><a href="tips1.html">Tips for Grown-ups</a></li>
+     <li><a href="tips-kids.html">Tips for Kids</a></li>
+     <li><a href="resources.html">Resources</a></li>
+     <li><a href="educators.html">For Educators</a></li>
+    </ul></li>
+   <li class="topic middle long">
+    <div>
+     <div class="caret-menu"></div>Games &amp; <br class="force">Activities
+    </div>
+    <ul>
+     <li><a href="workout-time.html">Workout Time!</a></li>
+     <li><a href="groove-it.html">Groove It!</a></li>
+     <li><a href="dance-club.html">Dance Club</a></li>
+     <li><a href="home-olympics.html">Home Olympics</a></li>
+     <li><a href="be-cat-tree.html">Be a Cat, Be a Tree</a></li>
+     <li><a href="quiz.html">Fitness Quiz</a></li>
+    </ul></li>
+   <li class="topic">
+    <div>
+     <div class="caret-menu"></div>Videos
+    </div>
+    <ul>
+     <li><a href="episode.html">Arthur Weighs In</a></li>
+     <li><a href="kids-action.html">Kids in Action</a></li>
+     <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+    </ul></li>
+  </ul>
+  <h3>Featured Topic Video</h3>
+  <div id="player" class="col7vid single-video">
+   <div class="video-wrapper widescreen">
+    <video id="video-player"></video>
+   </div>
+   <div id="player-controls" class="hidden">
+    <div class="play-pause vid-ctl-btn"><button title="Play/Pause"> <span id="icon-play" class="vid-ctl-icon">play</span> <span id="icon-pause" class="vid-ctl-icon">pause</span> </button>
+    </div>
+    <div class="show-fullscreen vid-ctl-btn removed"><button title="Full-screen"> <span id="icon-fs" class="vid-ctl-icon">full-screen</span> </button>
+    </div>
+    <div class="toggle-captions vid-ctl-btn"><button title="Captions on/off"> <span id="icon-captoff" class="vid-ctl-icon">CC</span> <span id="icon-capton" class="vid-ctl-icon">CC</span> </button>
+    </div>
+    <div class="mute-unmute vid-ctl-btn"><button title="Mute/Unmute"> <span id="icon-mute" class="vid-ctl-icon">mute</span> <span id="icon-unmute" class="vid-ctl-icon">unmute</span> </button>
+    </div>
+    <div class="timer-remaining">
+     ––:––
+    </div>
+    <div class="scrubber">
+     <div class="scrubber-track">
+      <button class="scrubber-thumb"></button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="col5 vid-txt">
+   <script>var videoID="a34bd1f2-45da-48c1-b4d8-3c6934b9a754";</script>
+   <p>When Arthur doesn't fit into his costume for the play, he's shocked to learn that he's become "husky-sized." Now he's serious about getting in shape. Will he turn to an all-protein diet? Eat only herbs and berries? Or will he try something really radical... like exercise?!</p>
+  </div>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="../js/jquery-1.10.2.min.js"></script><script src="../js/main.js"></script><script src="http:pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script><script src="../js/video2.js"></script>' %}

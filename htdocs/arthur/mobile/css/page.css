@@ -1,0 +1,257 @@
+body{
+	font-family:'Nunito', sans-serif; background-color:#99ccff; color:#000; font-size: 12pt;
+}
+
+a {
+	font-size: 1em;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	border: none;
+}
+
+#page{
+	margin: 0px 0px;
+	width: 100%;
+	border: none; 
+}
+
+#expanded{
+	visibility: hidden;
+}
+
+#gamesIcon, #videoIcon{
+	margin-top: 1%;
+	max-width: 100%;
+	height: 5.938em; /*95px;*/
+}
+
+#weezieButton{
+	width : 100%;
+	height : 3.750em; /*60px;*/
+	text-align: center;
+}
+
+#weezieButton img{
+	margin-top: 1.563em; /*25px;*/
+}
+
+#contentButtons{
+	margin-top: 1.875em; /*30px;*/
+	width : 100%;
+	height : 5.938em; /*95px;*/
+	text-align: center;
+}
+
+#mainContent{
+	border-bottom: solid 1px #000;
+	/*height: 19.688em;*/
+	/*height: 60%;
+	width:100%;*/
+	background-color:#33cbcc;
+	padding-top: 1.563em;
+}
+
+#title{
+	display: block;
+	margin: 0px auto 0px auto; 
+}
+
+#titlediv{
+	position: absolute;
+	margin: 1.12em  auto 0px auto; /*25px auto 0px auto;*/
+	width: 100%; 
+	text-align: center;
+	font-size: 1.4em;
+	font-family: "Lilita One";
+	color: #000;
+}
+
+.buttonGame{
+	width: 31.250em; /*500px;*/
+	margin: .625em auto 0px auto; /*10px auto 0px auto;*/
+	text-align: center; 
+	text-decoration: none;
+}
+
+.buttonGame a {
+	text-decoration: none;
+}
+
+
+.buttonLink{
+	position:absolute; 
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "Lilita One";
+	text-align: center;
+	width: 6.875em; /*110px;*/
+}
+
+#comicCreator, #arthurDoodle {
+	width:50%;
+	float:right;
+	/*border: 1px solid;*/
+}
+
+#soFunny, #exerciseTimer{
+	width:auto;
+	/*border: 1px solid;*/
+}
+
+#comicCreator div, #arthurDoodle div, #exerciseTimer div, #soFunny div{
+	margin-top: 10.90em;
+	width: 8em;
+	font-size: .9em;
+	text-align: center;
+	margin-left: 4.8em;
+	margin-right: auto;
+}
+
+#soFunny div{
+	margin-top: 10.30em;
+}
+
+#header{
+	height: 2.438em; /*39px;*/  /* extended - 225px;  closed - */
+	width: 100%;
+	background-color: #6699ff;
+	border-bottom: solid 1px #000;
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 1);
+	box-shadow:         0px 3px 5px rgba(50, 50, 50, 1);
+	
+	margin-bottom: 0.938em; /*15px;*/
+	position: absolute;
+}
+
+#header a{
+	text-decoration: none;
+}
+
+#header #pbsLogo {
+	vertical-align: middle;
+	
+	width: 2.125em; /* 1.813em  29px;*/
+	height: 1.875em; /* 1.625em; 26px;*/
+	position: absolute;
+	margin: 0.313em 0.313em; /*5px 5px;*/
+	z-index: 2;
+}
+
+#header #arthurLogo{
+	display: block;
+	vertical-align: bottom;
+	margin: 0px auto 0px auto; 
+}
+
+#homeLogo{
+	width: 100%;
+	position: absolute; 
+	/*background-color: #FFFFFF;*/
+}
+
+#navButton{
+	position: absolute;
+	right: 0;
+	margin-right: 0.313em; /*5px;*/
+}
+
+.roundBackground{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(3,60,155,1);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(3,60,155,1);
+	box-shadow: 0px 4px 0px 0px rgba(3,60,155,1);
+
+	background-color: #3266cb;
+	padding: .2em .1em .2em .1em;
+}
+
+#gameLink{
+	position: absolute;
+	text-align: center;
+	width: 4em; /*100px;*/
+	/*margin-left: 80%;*/
+	right: 0.313em;
+	margin-top: .25em;
+
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.2em;/*20px;*/
+	font-family: "Lilita One";
+	z-index: 3;
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+	background-color: #99ccff;
+	border-top: solid 1px #000;
+
+}
+
+.footerBox{
+	background-color: #95cfff;
+}
+
+#copyright{
+	/*margin-top: 25px;*/
+	font-size: .6em;
+	line-height: 9pt;
+	width: 59.5%; /* 572px / 960px  - 59.5%*/ 
+	display: block;
+	margin: 0px auto 0px auto; 
+	color: #336bcc;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.copyrightLine{
+	font-weight: bold;
+}
+
+#bottom{
+	width: 100%;
+	/*height: 50%;*/
+	background-color:#99ccff;
+}
+
+
+@media screen and (max-width: 500px ){
+	
+	#copyright{
+		width: 80%;
+	}
+
+	#footerSpacing{
+		height: 3.125em; /*50px;*/
+		width: 90%;
+	}
+
+	.buttonGame{
+		width: 100%;
+	}
+
+	#comicCreator div, #arthurDoodle div, #exerciseTimer div, #soFunny div{
+		margin-left: 2.4em;
+	}
+
+}
+
+
+@media screen and (max-width: 348px ){
+
+	#comicCreator div, #arthurDoodle div, #exerciseTimer div, #soFunny div{
+		margin-left: 1.9em;
+	}
+
+}
+
+
+

@@ -1,0 +1,86 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Cootie Catcher | PBS Kids' %}
+{% set desc = 'To make your own Cootie Catcher, first select the ARTHUR characters that you would like to appear on your Cooti Catcher.' %}
+{% set keywds = 'Cootie Catcher, oragami, fortune, Prunella, print' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = false %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9cc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="cootieHeader">Prunella's Cootie Catcher</h4></a>
+  <ul id="printSideNav">
+   <li><a href="step1.html" class="selected"><span>Make your own</span></a></li>
+   <li><a href="/cgi-registry/arthur/cootiecatcher2.php"><span>Get a random one</span></a></li>
+   <li><a href="directions.html"><span>Directions</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Step 1</h1>
+     <p>Choose one of my friends from each color selection.</p>
+    </div>
+   </div>
+   <div id="ccWrapper"><img src="../../i/print/cootiecatcher/step1_prunella.gif" width="151" height="332" alt="" border="0" id="ccStep1Img">
+    <form action="/cgi-registry/arthur/cootiecatcher2.php" method="post" name="cc" id="ccForm">
+     <ul>
+      <li class="bg-9fc"><img src="../../i/print/cootiecatcher/step1_green.gif" alt="GREEN" width="82" height="39">
+       <fieldset>
+        <input type="radio" name="green_num" value="0"><label><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.green_num[0].checked=true;return false;" class="radio-label">Muffy</a></label>
+       </fieldset>
+       <fieldset>
+        <input type="radio" name="green_num" value="1"><label><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.green_num[1].checked=true;return false;" class="radio-label">Binky</a></label>
+       </fieldset>
+       <fieldset>
+        <input type="radio" name="green_num" value="2"><label><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.green_num[2].checked=true;return false;" class="radio-label">Pal</a></label>
+       </fieldset></li>
+      <li class="bg-cff"><img src="../../i/print/cootiecatcher/step1_blue.gif" alt="BLUE" width="82" height="39">
+       <fieldset>
+        <input type="radio" name="blue_num" value="0"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.blue_num[0].checked=true;return false;" class="radio-label">Arthur</a>
+       </fieldset>
+       <fieldset>
+        <input type="radio" name="blue_num" value="1"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.blue_num[1].checked=true;return false;" class="radio-label">Fern</a>
+       </fieldset>
+       <fieldset>
+        <input type="radio" name="blue_num" value="2"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.blue_num[2].checked=true;return false;" class="radio-label">D.W.</a>
+       </fieldset></li>
+      <li class="bg-fcf"><img src="../../i/print/cootiecatcher/step1_red.gif" alt="RED" width="82" height="39">
+       <fieldset>
+        <input type="radio" name="red_num" value="0"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.red_num[0].checked=true;return false;" class="radio-label"></a>The Brain
+       </fieldset>
+       <fieldset>
+        <input type="radio" name="red_num" value="1"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.red_num[1].checked=true;return false;" class="radio-label">Emily</a>
+       </fieldset>
+       <fieldset>
+        <input type="radio" name="red_num" value="2"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.red_num[2].checked=true;return false;" class="radio-label"></a>The Tibbles
+       </fieldset></li>
+      <li class="bg-ffc"><img src="../../i/print/cootiecatcher/step1_yellow.gif" alt="YELLOW" width="82" height="39">
+       <fieldset>
+        <input type="radio" name="yellow_num" value="0"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.yellow_num[0].checked=true;return false;" class="radio-label">Prunella</a>
+       </fieldset>
+       <fieldset>
+        <input type="radio" name="yellow_num" value="1"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.yellow_num[1].checked=true;return false;" class="radio-label">Buster</a>
+       </fieldset>
+       <fieldset>
+        <input type="radio" name="yellow_num" value="2"><a href="#" onmouseover="window.status='';return true;" onclick="document.cc.yellow_num[2].checked=true;return false;" class="radio-label">Francine</a>
+       </fieldset></li>
+     </ul> <input type="hidden" name="Click to go to Step 2.x" value="20"> <button type="submit" id="step2Btn">Step 2</button>
+    </form>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Ask Prunella</a></li>
+   <li><a href="/arthur/games/yougottobekidding/index.html" id="rcKidding">You've Got To be Kidding</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

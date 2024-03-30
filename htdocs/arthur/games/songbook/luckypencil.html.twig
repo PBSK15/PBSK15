@@ -1,0 +1,46 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur\'s Songbook | PBS Kids' %}
+{% set desc = 'Find the lyrics to sing about Arthurs lucky pencil!' %}
+{% set keywds = 'lyrics, singing, songbook, read, pencil, luck' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="songSHeader">Arthur's Songbook</h4></a>
+  <div id="songbookPlayer">
+   <ul id="printSideNav">
+    <li><a href="theme.html"><span>Theme Song</span></a></li>
+    <li><a href="librarycard.html"><span>Library Card</span></a></li>
+    <li><a href="luckypencil.html" class="selected"><span>Lucky Pencil</span></a></li>
+    <li><a href="ufo.html"><span>The UFO Song</span></a></li>
+    <li><a href="gotosleep.html"><span>Go to Sleep</span></a></li>
+    <li><a href="crazybus.html"><span>Crazy Bus</span></a></li>
+   </ul>
+   <script type="text/javascript">			   var fo = new SWFObject("../../media/games/songbook_player.swf", "songbook", "262", "283", "9","#ffffcc");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   fo.addVariable("title", "luckypencil");			  //			   fo.write("songbookPlayer");			</script>
+  </div>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Lucky Pencil</h1>
+    </div>
+   </div>
+   <div id="grooveHowtoContent"><img src="../../i/games/songbook/notes.gif" width="70" height="324" alt="music notes" border="0" class="float-left music-notes"> <img src="../../i/games/songbook/songbook_pencil.gif" width="137" height="104" alt="Lucky Pencil" border="0" class="float-right songbook-buster">
+    <p class="songbook-lyrics">I found a lucky pencil,<br> And it's been so lucky for me.<br> I used it once, <br> And got and A in math, <br> Then I got an A in history.<br> Who knows how much luck it might fetch?<br> I just completed a prize-winning sketch.<br> <br> I found a lucky pencil, <br> And it's gonna be so lucky for me.<br> Can we use it?<br> No no. No, no no.<br> Can we use it?<br> No. No no.<br> Can we use it?<br> No no. No no, no no.<br> Why? Why, why?<br> The lucky pencil is mine.<br> Oh yeah.<br> <br> I'm so careful, <br> But even if I don't lose it,<br> That pencil gets smaller<br> Every time I use it.<br> <br> Another test <br> I had to take<br> With the lucky pencil, <br> Not one single mistake.<br> <br> I'm afraid because <br> I know this can't go on.<br> My luck will run out <br> When that pencil is gone.<br> <br> Even though it's been <br> Lucky in every way.<br> It's getting smaller <br> And smaller every day.<br> <br> I found a lucky pencil,<br> And it's been so lucky for me.<br> Can we use it?<br> No no. No no, no no.<br> Can we use it?<br> No. No no.<br> Can we use it?<br> No no. No no, no no.<br> Why? Why, why?<br> The lucky pencil is mine.<br> Oh yeah.<br> <br> The pencil is gone now, <br> It's less than a nub.<br> And the eraser is flat, <br> It's had its last rub.<br> I took a test without it, <br> And the very next day,<br> Found out with no lucky pencil, <br> I still got an A.<br> It was me and not the pencil, <br> Without doubt.<br> I feel so lucky <br> To have found this out.<br> <br> I don't need a lucky pencil.<br> I don't need a lucky pencil.<br> I don't need a lucky pencil.<br> I don't need a lucky pencil.<br> I don't need a luck.<br> I can do it myself.<br> I don't need a luck.<br> I can do it myself.<br></p>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

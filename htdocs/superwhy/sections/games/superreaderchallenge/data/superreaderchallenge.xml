@@ -1,0 +1,453 @@
+<game id="superreaderchallenge" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPER READER's CHALLENGE | PBS KIDS]]></title>
+	<swf url="sections/games/superreaderchallenge/superreaderchallenge.swf" />
+	
+	<libraries>
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+	</libraries>
+	
+	<srcAudio id="srcAudio" isGroup="true">
+		<audio id="welcome" type="audio" url="sections/games/superreaderchallenge/audio/src/src_on_load.mp3" />
+		<audio id="selectNameInstruct" type="audio" url="sections/games/superreaderchallenge/audio/src/click_name.mp3" />
+		<audio id="newPlayer" type="audio" url="sections/games/superreaderchallenge/audio/src/someone_new.mp3" />
+		<audio id="existingPlayer" type="audio" url="sections/games/superreaderchallenge/audio/src/welcome_back.mp3" />
+		<audio id="enterNameInstruct" type="audio" url="sections/games/superreaderchallenge/audio/src/type_your_name.mp3" />
+		<audio id="selectColorInstruct" type="audio" url="sections/games/superreaderchallenge/audio/src/choose_computer.mp3" />
+		<audio id="colorSelected" type="audio" url="sections/games/superreaderchallenge/audio/src/nice_one.mp3" />
+	</srcAudio>
+	
+	<hub>
+		<printables id="printables" isGroup="true">
+			<printable id="alphabet" url="sections/games/superreaderchallenge/images/hub/printables/alphapig_printable.swf" />
+			<printable id="words" url="sections/games/superreaderchallenge/images/hub/printables/wonderred_printable.swf" />
+			<printable id="spelling" url="sections/games/superreaderchallenge/images/hub/printables/princesspresto_printable.swf" />
+			<printable id="reading" url="sections/games/superreaderchallenge/images/hub/printables/superwhy_printable.swf" />
+		</printables>
+		
+		<hubAudio id="hubAudio" isGroup="true">
+			<audio id="hubload" type="audio" url="sections/games/superreaderchallenge/audio/hub/hubload.mp3" />
+			<audio id="alphabet" type="audio" url="sections/games/superreaderchallenge/audio/hub/alphabet.mp3" />
+			<audio id="words" type="audio" url="sections/games/superreaderchallenge/audio/hub/words.mp3" />
+			<audio id="spelling" type="audio" url="sections/games/superreaderchallenge/audio/hub/spelling.mp3" />
+			<audio id="reading" type="audio" url="sections/games/superreaderchallenge/audio/hub/reading.mp3" />
+			<audio id="awards" type="audio" url="sections/games/superreaderchallenge/audio/hub/rollover_src_certificate.mp3" />
+			<audio id="blankHubImage" type="audio" url="sections/games/superreaderchallenge/audio/hub/click_blank_collector.mp3" />
+			<audio id="returnAward" type="audio" url="sections/games/superreaderchallenge/audio/hub/5_stars.mp3" />
+			<audio id="earnedLetter" type="audio" url="sections/games/superreaderchallenge/audio/hub/earned_letter.mp3" />
+			<audio id="finishedWord" type="audio" url="sections/games/superreaderchallenge/audio/hub/word_created.mp3" />
+			<audio id="allAwards" type="audio" url="sections/games/superreaderchallenge/audio/hub/on_load_certificate.mp3" />
+			<audio id="keepPlaying" type="audio" url="sections/games/superreaderchallenge/audio/hub/keep_playing.mp3" />
+		</hubAudio>
+		
+		<wordList id="wordList" isGroup="true">
+			<word id="BOOK" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/book.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/book_small.jpg" />
+			</word>
+			<word id="COMPUTER" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/computer.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/computer_small.jpg" />
+			</word>
+			<word id="FLY" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/fly.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/fly_small.jpg" />
+			</word>
+			<word id="GIANT" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/giant.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/giant_small.jpg" />
+			</word>
+			<word id="JILL" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/jill.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/jill_small.jpg" />
+			</word>
+			<word id="PEPPER" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/pepper.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/pepper_small.jpg" />
+			</word>
+			<word id="PRINCESS" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/princess.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/princess_small.jpg" />
+			</word>
+			<word id="RED" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/red.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/red_small.jpg" />
+			</word>
+			<word id="SLIDE" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/slide.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/slide_small.jpg" />
+			</word>
+			<word id="SUPERWHY" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/superwhy.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/superwhy_small.jpg" />
+			</word>
+			<word id="WHYATT" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/whyatt.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/whyatt_small.jpg" />
+			</word>
+			<word id="WAND" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/wand.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/wand_small.jpg" />
+			</word>
+			<word id="WITCH" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/witch.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/witch_small.jpg" />
+			</word>
+			<word id="WOLF" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/wolf.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/wolf_small.jpg" />
+			</word>
+			<word id="ZAP" isGroup="true">
+				<audio id="voiceover" type="audio" url="sections/games/superreaderchallenge/audio/hub/collector/zap.mp3" />
+				<image id="thumbnail" url="sections/games/superreaderchallenge/images/hub/collector/zap_small.jpg" />
+			</word>
+		</wordList>
+		
+		<imageList id="imageList" isGroup="true">
+			<image id="BOOK" url="sections/games/superreaderchallenge/images/hub/collector/book_large.jpg" />
+			<image id="COMPUTER" url="sections/games/superreaderchallenge/images/hub/collector/computer_large.jpg" />
+			<image id="FLY" url="sections/games/superreaderchallenge/images/hub/collector/fly_large.jpg" />
+			<image id="GIANT" url="sections/games/superreaderchallenge/images/hub/collector/giant_large.jpg" />
+			<image id="JILL" url="sections/games/superreaderchallenge/images/hub/collector/jill_large.jpg" />
+			<image id="PEPPER" url="sections/games/superreaderchallenge/images/hub/collector/pepper_large.jpg" />
+			<image id="PIG" url="sections/games/superreaderchallenge/images/hub/collector/pig_large.jpg" />
+			<image id="PRINCESS" url="sections/games/superreaderchallenge/images/hub/collector/princess_large.jpg" />
+			<image id="RED" url="sections/games/superreaderchallenge/images/hub/collector/red_large.jpg" />
+			<image id="SLIDE" url="sections/games/superreaderchallenge/images/hub/collector/slide_large.jpg" />
+			<image id="SUPERWHY" url="sections/games/superreaderchallenge/images/hub/collector/superwhy_large.jpg" />
+			<image id="WHYATT" url="sections/games/superreaderchallenge/images/hub/collector/whyatt_large.jpg" />
+			<image id="WAND" url="sections/games/superreaderchallenge/images/hub/collector/wand_large.jpg" />
+			<image id="WITCH" url="sections/games/superreaderchallenge/images/hub/collector/witch_large.jpg" />
+			<image id="WOLF" url="sections/games/superreaderchallenge/images/hub/collector/wolf_large.jpg" />
+			<image id="ZAP" url="sections/games/superreaderchallenge/images/hub/collector/zap_large.jpg" />
+		</imageList>
+	</hub>
+	
+	<alphabetGame>
+		<words>
+			<word id="queen" /> 
+			<word id="duck" />
+			<word id="box" />
+			<word id="frog" />
+			<word id="jar" />
+			<word id="key" />
+			<word id="mug" />
+			<word id="wolf" />
+			<word id="sun" />
+			<word id="zap" />
+		</words>
+		
+		<preloadAssets>
+			<voiceOvers isGroup="true" id="voiceOvers">
+				<voiceOver type="audio" id="game_instructions" url="sections/games/superreaderchallenge/audio/alphabet/game_instructions.mp3" />
+				<voiceOver type="audio" id="find_letter" url="sections/games/superreaderchallenge/audio/alphabet/find_letter.mp3" />
+				<voiceOver type="audio" id="payoff_pig" url="sections/games/superreaderchallenge/audio/alphabet/payoff_pig.mp3" />
+				<voiceOver type="audio" id="click_help" url="sections/games/superreaderchallenge/audio/alphabet/click_help.mp3" />
+				<voiceOver type="audio" id="oops_keeptrying" url="sections/games/superreaderchallenge/audio/alphabet/oops_keeptrying.mp3" />
+			</voiceOvers>
+			<kudos isGroup="true" id="kudos">
+				<asset type="audio" id="kudos_thatsit" url="sections/games/superreaderchallenge/audio/alphabet/kudos_thatsit.mp3" />
+				<asset type="audio" id="kudos_great" url="sections/games/superreaderchallenge/audio/alphabet/kudos_great.mp3" />
+				<asset type="audio" id="kudos_amazing" url="sections/games/superreaderchallenge/audio/alphabet/kudos_amazing.mp3" />
+				<asset type="audio" id="kudos_yougotit" url="sections/games/superreaderchallenge/audio/alphabet/kudos_yougotit.mp3" />
+			</kudos>
+		</preloadAssets>
+		
+		<wordAudio>
+			<word type="audio" id="key" url="sections/games/superreaderchallenge/audio/alphabet/words/key.mp3">key</word>
+			<word type="audio" id="wolf" url="sections/games/superreaderchallenge/audio/alphabet/words/wolf.mp3">wolf</word>
+			<word type="audio" id="queen" url="sections/games/superreaderchallenge/audio/alphabet/words/queen.mp3">queen</word>
+			<word type="audio" id="sun" url="sections/games/superreaderchallenge/audio/alphabet/words/sun.mp3">sun</word>	
+			<word type="audio" id="jar" url="sections/games/superreaderchallenge/audio/alphabet/words/jar.mp3">jar</word>
+			<word type="audio" id="frog" url="sections/games/superreaderchallenge/audio/alphabet/words/frog.mp3">frog</word>	
+			<word type="audio" id="box" url="sections/games/superreaderchallenge/audio/alphabet/words/box.mp3">box</word>		
+			<word type="audio" id="mug" url="sections/games/superreaderchallenge/audio/alphabet/words/mug.mp3">mug</word>		
+			<word type="audio" id="duck" url="sections/games/superreaderchallenge/audio/alphabet/words/duck.mp3">duck</word>		
+			<word type="audio" id="zap" url="sections/games/superreaderchallenge/audio/alphabet/words/zap.mp3">zap</word>
+		</wordAudio>
+		
+		<letterAudio>
+			<letter type="audio" id="a" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/a.mp3" />
+			<letter type="audio" id="b" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/b.mp3" />
+			<letter type="audio" id="c" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/c.mp3" />
+			<letter type="audio" id="d" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/d.mp3" />
+			<letter type="audio" id="e" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/e.mp3" />
+			<letter type="audio" id="f" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/f.mp3" />
+			<letter type="audio" id="g" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/g.mp3" />
+			<letter type="audio" id="h" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/h.mp3" />
+			<letter type="audio" id="i" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/i.mp3" />
+			<letter type="audio" id="j" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/j.mp3" />
+			<letter type="audio" id="k" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/k.mp3" />
+			<letter type="audio" id="l" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/l.mp3" />
+			<letter type="audio" id="m" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/m.mp3" />
+			<letter type="audio" id="n" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/n.mp3" />
+			<letter type="audio" id="o" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/o.mp3" />
+			<letter type="audio" id="p" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/p.mp3" />
+			<letter type="audio" id="q" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/q.mp3" />
+			<letter type="audio" id="r" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/r.mp3" />
+			<letter type="audio" id="s" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/s.mp3" />
+			<letter type="audio" id="t" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/t.mp3" />
+			<letter type="audio" id="u" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/u.mp3" />
+			<letter type="audio" id="v" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/v.mp3" />
+			<letter type="audio" id="w" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/w.mp3" />
+			<letter type="audio" id="x" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/x.mp3" />
+			<letter type="audio" id="y" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/y.mp3" />
+			<letter type="audio" id="z" url="sections/games/superreaderchallenge/audio/alphabet/alphabet/z.mp3" />
+		</letterAudio>
+	</alphabetGame>
+	
+	<wordsGame>
+		<words>
+			<!-- id values are spoken; soundLikeID values correspond to images -->
+			<word id="bell" imageID="yell" />
+			<word id="bun" imageID="sun" />
+			<word id="car" imageID="jar" />
+			<word id="log" imageID="frog" />
+			<word id="hat" imageID="cat" />
+			<word id="fox" imageID="box" />
+			<word id="rug" imageID="mug" />
+			<word id="truck" imageID="duck" />
+			<word id="nap" imageID="map" />
+		</words>
+		
+		<preloadAssets>
+			<voiceOvers isGroup="true" id="voiceOvers">
+				<voiceOver type="audio" id="rhymes_with" url="sections/games/superreaderchallenge/audio/words/rhymes_with.mp3" />
+				<voiceOver type="audio" id="instructions_red" url="sections/games/superreaderchallenge/audio/words/instructions_red.mp3" />
+				<voiceOver type="audio" id="oops_dont_sound_alike" url="sections/games/superreaderchallenge/audio/words/oops_dont_sound_alike.mp3" />
+			</voiceOvers>
+			<kudos isGroup="true" id="kudos">
+				<asset type="audio" id="kudos_great_rhyming" url="sections/games/superreaderchallenge/audio/words/kudos_great_rhyming.mp3" />
+				<asset type="audio" id="kudos_wonderific" url="sections/games/superreaderchallenge/audio/words/kudos_wonderific.mp3" />
+			</kudos>
+		</preloadAssets>
+		
+		<wordAudio>
+			<word type="audio" id="audio_sun" url="sections/games/superreaderchallenge/audio/words/words/sun.mp3">sun</word>
+			<word type="audio" id="audio_bun" url="sections/games/superreaderchallenge/audio/words/words/bun.mp3">bun</word>
+			<word type="audio" id="audio_car" url="sections/games/superreaderchallenge/audio/words/words/car.mp3">car</word>	
+			<word type="audio" id="audio_jar" url="sections/games/superreaderchallenge/audio/words/words/jar.mp3">jar</word>
+			<word type="audio" id="audio_frog" url="sections/games/superreaderchallenge/audio/words/words/frog.mp3">frog</word>	
+			<word type="audio" id="audio_log" url="sections/games/superreaderchallenge/audio/words/words/log.mp3">log</word>
+			<word type="audio" id="audio_hat" url="sections/games/superreaderchallenge/audio/words/words/hat.mp3">hat</word>
+			<word type="audio" id="audio_cat" url="sections/games/superreaderchallenge/audio/words/words/cat.mp3">cat</word>
+			<word type="audio" id="audio_yell" url="sections/games/superreaderchallenge/audio/words/words/yell.mp3">yell</word>
+			<word type="audio" id="audio_bell" url="sections/games/superreaderchallenge/audio/words/words/bell.mp3">bell</word>
+			<word type="audio" id="audio_box" url="sections/games/superreaderchallenge/audio/words/words/box.mp3">box</word>
+			<word type="audio" id="audio_fox" url="sections/games/superreaderchallenge/audio/words/words/fox.mp3">fox</word>		
+			<word type="audio" id="audio_mug" url="sections/games/superreaderchallenge/audio/words/words/mug.mp3">mug</word>
+			<word type="audio" id="audio_rug" url="sections/games/superreaderchallenge/audio/words/words/rug.mp3">rug</word>		
+			<word type="audio" id="audio_truck" url="sections/games/superreaderchallenge/audio/words/words/truck.mp3">truck</word>
+			<word type="audio" id="audio_duck" url="sections/games/superreaderchallenge/audio/words/words/duck.mp3">duck</word>		
+			<word type="audio" id="audio_map" url="sections/games/superreaderchallenge/audio/words/words/map.mp3">map</word>
+			<word type="audio" id="audio_nap" url="sections/games/superreaderchallenge/audio/words/words/nap.mp3">nap</word>	
+		</wordAudio>
+	</wordsGame>
+
+	<spellingGame>
+		<words>
+			<word id="bell" />
+			<word id="box" />
+			<word id="cat" />
+			<word id="dog" />
+			<word id="fox" />
+			<word id="hat" />
+			<word id="log" />
+			<word id="map" />
+			<word id="rug" />
+			<word id="sun" />
+			<word id="web" />
+			<word id="yell" />
+			<word id="zap" />
+		</words>
+		
+		<preloadAssets>
+			<voiceOvers isGroup="true" id="voiceOvers">
+				<voiceOver type="audio" id="intro" url="sections/games/superreaderchallenge/audio/spelling/intro_pp.mp3" />
+				<voiceOver type="audio" id="intro2" url="sections/games/superreaderchallenge/audio/spelling/intro_pp2.mp3" />
+				<voiceOver type="audio" id="instructions_pp" url="sections/games/superreaderchallenge/audio/spelling/instructions_pp.mp3" />
+				<voiceOver type="audio" id="oops_keep_looking" url="sections/games/superreaderchallenge/audio/spelling/oops_keep_looking.mp3" />
+				<voiceOver type="audio" id="completes_word_1" url="sections/games/superreaderchallenge/audio/spelling/completes_word_1.mp3" />
+				<voiceOver type="audio" id="completes_word_2" url="sections/games/superreaderchallenge/audio/spelling/completes_word_2.mp3" />
+			</voiceOvers>
+			<kudos isGroup="true" id="kudos">
+				<asset type="audio" id="kudos_thats_it" url="sections/games/superreaderchallenge/audio/spelling/kudos_thats_it.mp3" />
+				<asset type="audio" id="kudos_great" url="sections/games/superreaderchallenge/audio/spelling/kudos_great.mp3" />
+				<asset type="audio" id="kudos_lovely" url="sections/games/superreaderchallenge/audio/spelling/kudos_lovely.mp3" />
+				<asset type="audio" id="kudos_excellent" url="sections/games/superreaderchallenge/audio/spelling/kudos_excellent.mp3" />
+			</kudos>
+		</preloadAssets>
+		
+		<wordAudio>
+			<word type="audio" id="bell" url="sections/games/superreaderchallenge/audio/spelling/words/bell.mp3">bell</word>
+			<word type="audio" id="box" url="sections/games/superreaderchallenge/audio/spelling/words/box.mp3">box</word>
+			<word type="audio" id="cat" url="sections/games/superreaderchallenge/audio/spelling/words/cat.mp3">cat</word>
+			<word type="audio" id="dog" url="sections/games/superreaderchallenge/audio/spelling/words/dog.mp3">dog</word>
+			<word type="audio" id="fox" url="sections/games/superreaderchallenge/audio/spelling/words/fox.mp3">fox</word>
+			<word type="audio" id="hat" url="sections/games/superreaderchallenge/audio/spelling/words/hat.mp3">hat</word>
+			<word type="audio" id="log" url="sections/games/superreaderchallenge/audio/spelling/words/log.mp3">log</word>
+			<word type="audio" id="map" url="sections/games/superreaderchallenge/audio/spelling/words/map.mp3">map</word>
+			<word type="audio" id="rug" url="sections/games/superreaderchallenge/audio/spelling/words/rug.mp3">rug</word>
+			<word type="audio" id="sun" url="sections/games/superreaderchallenge/audio/spelling/words/sun.mp3">sun</word>
+			<word type="audio" id="web" url="sections/games/superreaderchallenge/audio/spelling/words/web.mp3">web</word>
+			<word type="audio" id="yell" url="sections/games/superreaderchallenge/audio/spelling/words/yell.mp3">yell</word>
+			<word type="audio" id="zap" url="sections/games/superreaderchallenge/audio/spelling/words/zap.mp3">zap</word>
+		</wordAudio>
+		
+		<letterAudio>
+			<letter type="audio" id="a" url="sections/games/superreaderchallenge/audio/spelling/letters/a_pp.mp3" />
+			<letter type="audio" id="b" url="sections/games/superreaderchallenge/audio/spelling/letters/b_pp.mp3" />
+			<letter type="audio" id="c" url="sections/games/superreaderchallenge/audio/spelling/letters/c_pp.mp3" />
+			<letter type="audio" id="d" url="sections/games/superreaderchallenge/audio/spelling/letters/d_pp.mp3" />
+			<letter type="audio" id="e" url="sections/games/superreaderchallenge/audio/spelling/letters/e_pp.mp3" />
+			<letter type="audio" id="f" url="sections/games/superreaderchallenge/audio/spelling/letters/f_pp.mp3" />
+			<letter type="audio" id="g" url="sections/games/superreaderchallenge/audio/spelling/letters/g_pp.mp3" />
+			<letter type="audio" id="h" url="sections/games/superreaderchallenge/audio/spelling/letters/h_pp.mp3" />
+			<letter type="audio" id="i" url="sections/games/superreaderchallenge/audio/spelling/letters/i_pp.mp3" />
+			<letter type="audio" id="j" url="sections/games/superreaderchallenge/audio/spelling/letters/j_pp.mp3" />
+			<letter type="audio" id="k" url="sections/games/superreaderchallenge/audio/spelling/letters/k_pp.mp3" />
+			<letter type="audio" id="l" url="sections/games/superreaderchallenge/audio/spelling/letters/l_pp.mp3" />
+			<letter type="audio" id="m" url="sections/games/superreaderchallenge/audio/spelling/letters/m_pp.mp3" />
+			<letter type="audio" id="n" url="sections/games/superreaderchallenge/audio/spelling/letters/n_pp.mp3" />
+			<letter type="audio" id="o" url="sections/games/superreaderchallenge/audio/spelling/letters/o_pp.mp3" />
+			<letter type="audio" id="p" url="sections/games/superreaderchallenge/audio/spelling/letters/p_pp.mp3" />
+			<letter type="audio" id="q" url="sections/games/superreaderchallenge/audio/spelling/letters/q_pp.mp3" />
+			<letter type="audio" id="r" url="sections/games/superreaderchallenge/audio/spelling/letters/r_pp.mp3" />
+			<letter type="audio" id="s" url="sections/games/superreaderchallenge/audio/spelling/letters/s_pp.mp3" />
+			<letter type="audio" id="t" url="sections/games/superreaderchallenge/audio/spelling/letters/t_pp.mp3" />
+			<letter type="audio" id="u" url="sections/games/superreaderchallenge/audio/spelling/letters/u_pp.mp3" />
+			<letter type="audio" id="v" url="sections/games/superreaderchallenge/audio/spelling/letters/v_pp.mp3" />
+			<letter type="audio" id="w" url="sections/games/superreaderchallenge/audio/spelling/letters/w_pp.mp3" />
+			<letter type="audio" id="x" url="sections/games/superreaderchallenge/audio/spelling/letters/x_pp.mp3" />
+			<letter type="audio" id="y" url="sections/games/superreaderchallenge/audio/spelling/letters/y_pp.mp3" />
+			<letter type="audio" id="z" url="sections/games/superreaderchallenge/audio/spelling/letters/z_pp.mp3" />
+		</letterAudio>
+		
+		<phoneticAudio>
+			<letter type="audio" id="phonetic_a" url="sections/games/superreaderchallenge/audio/spelling/sounds/aaa.mp3" />
+			<letter type="audio" id="phonetic_b" url="sections/games/superreaderchallenge/audio/spelling/sounds/bbb.mp3" />
+			<letter type="audio" id="phonetic_c" url="sections/games/superreaderchallenge/audio/spelling/sounds/ccc.mp3" />
+			<letter type="audio" id="phonetic_d" url="sections/games/superreaderchallenge/audio/spelling/sounds/ddd.mp3" />
+			<letter type="audio" id="phonetic_e" url="sections/games/superreaderchallenge/audio/spelling/sounds/eee.mp3" />
+			<letter type="audio" id="phonetic_f" url="sections/games/superreaderchallenge/audio/spelling/sounds/fff.mp3" />
+			<letter type="audio" id="phonetic_g" url="sections/games/superreaderchallenge/audio/spelling/sounds/ggg.mp3" />
+			<letter type="audio" id="phonetic_h" url="sections/games/superreaderchallenge/audio/spelling/sounds/hhh.mp3" />
+			<letter type="audio" id="phonetic_i" url="sections/games/superreaderchallenge/audio/spelling/sounds/iii.mp3" />
+			<letter type="audio" id="phonetic_j" url="sections/games/superreaderchallenge/audio/spelling/sounds/jjj.mp3" />
+			<letter type="audio" id="phonetic_k" url="sections/games/superreaderchallenge/audio/spelling/sounds/kkk.mp3" />
+			<letter type="audio" id="phonetic_l" url="sections/games/superreaderchallenge/audio/spelling/sounds/lll.mp3" />
+			<letter type="audio" id="phonetic_m" url="sections/games/superreaderchallenge/audio/spelling/sounds/mmm.mp3" />
+			<letter type="audio" id="phonetic_n" url="sections/games/superreaderchallenge/audio/spelling/sounds/nnn.mp3" />
+			<letter type="audio" id="phonetic_o" url="sections/games/superreaderchallenge/audio/spelling/sounds/ooo.mp3" />
+			<letter type="audio" id="phonetic_p" url="sections/games/superreaderchallenge/audio/spelling/sounds/ppp.mp3" />
+			<letter type="audio" id="phonetic_q" url="sections/games/superreaderchallenge/audio/spelling/sounds/qqq.mp3" />
+			<letter type="audio" id="phonetic_r" url="sections/games/superreaderchallenge/audio/spelling/sounds/rrr.mp3" />
+			<letter type="audio" id="phonetic_s" url="sections/games/superreaderchallenge/audio/spelling/sounds/sss.mp3" />
+			<letter type="audio" id="phonetic_t" url="sections/games/superreaderchallenge/audio/spelling/sounds/ttt.mp3" />
+			<letter type="audio" id="phonetic_u" url="sections/games/superreaderchallenge/audio/spelling/sounds/uuu.mp3" />
+			<letter type="audio" id="phonetic_v" url="sections/games/superreaderchallenge/audio/spelling/sounds/vvv.mp3" />
+			<letter type="audio" id="phonetic_w" url="sections/games/superreaderchallenge/audio/spelling/sounds/www.mp3" />
+			<letter type="audio" id="phonetic_x" url="sections/games/superreaderchallenge/audio/spelling/sounds/xxx.mp3" />
+			<letter type="audio" id="phonetic_y" url="sections/games/superreaderchallenge/audio/spelling/sounds/yyy.mp3" />
+			<letter type="audio" id="phonetic_z" url="sections/games/superreaderchallenge/audio/spelling/sounds/zzz.mp3" />
+		</phoneticAudio>
+	</spellingGame>
+	
+	<readingGame>
+		<sentenceIcons>
+			<sentenceIcon type="image" id="humptydumpty" url="sections/games/superreaderchallenge/images/lineart/humptydumpty.swf" />
+			<sentenceIcon type="image" id="rapunzel" url="sections/games/superreaderchallenge/images/lineart/rapunzel.swf" />
+			<sentenceIcon type="image" id="spider" url="sections/games/superreaderchallenge/images/lineart/spider.swf" />
+			<sentenceIcon type="image" id="goldilocks" url="sections/games/superreaderchallenge/images/lineart/goldilocks.swf" />
+			<sentenceIcon type="image" id="bear" url="sections/games/superreaderchallenge/images/lineart/bear.swf" />
+			<sentenceIcon type="image" id="wolf" url="sections/games/superreaderchallenge/images/lineart/wolf.swf" />
+			<sentenceIcon type="image" id="frog" url="sections/games/superreaderchallenge/images/lineart/frog.swf" />
+		</sentenceIcons>
+		
+		<sentences>
+			<sentence isGroup="true" id="humptydumpty">
+				<asset type="audio" id="audio" url="sections/games/superreaderchallenge/audio/reading/humpty_dumpty.mp3" />
+				<answer isCorrect="true"><![CDATA[HUMPTY DUMPTY SAT ON A WALL.]]></answer>
+				<answer isCorrect="false"><![CDATA[HUMPTY DUMPTY SAT ON A MOON.]]></answer>
+				<answer isCorrect="false"><![CDATA[HUMPTY DUMPTY SAT ON A SUN.]]></answer>				
+			</sentence>
+			<sentence isGroup="true" id="rapunzel">
+				<asset type="audio" id="audio" url="sections/games/superreaderchallenge/audio/reading/rapunzel_bell.mp3" />
+				<answer isCorrect="true"><![CDATA[RAPUNZEL RINGS THE BELL.]]></answer>
+				<answer isCorrect="false"><![CDATA[RAPUNZEL RINGS THE HAT.]]></answer>
+				<answer isCorrect="false"><![CDATA[RAPUNZEL RINGS THE LOG.]]></answer>				
+			</sentence>
+			<sentence isGroup="true" id="spider">
+				<asset type="audio" id="audio" url="sections/games/superreaderchallenge/audio/reading/spider_web.mp3" />
+				<answer isCorrect="true"><![CDATA[THE SPIDER SPINS A WEB.]]></answer>
+				<answer isCorrect="false"><![CDATA[THE SPIDER SPINS A JET.]]></answer>
+				<answer isCorrect="false"><![CDATA[THE SPIDER SPINS A CAKE.]]></answer>				
+			</sentence>
+			<sentence isGroup="true" id="goldilocks">
+				<asset type="audio" id="audio" url="sections/games/superreaderchallenge/audio/reading/goldilocks.mp3" />
+				<answer isCorrect="true"><![CDATA[GOLDILOCKS EATS WITH A SPOON.]]></answer>
+				<answer isCorrect="false"><![CDATA[GOLDILOCKS EATS WITH A LOG.]]></answer>
+				<answer isCorrect="false"><![CDATA[GOLDILOCKS EATS WITH A BAT.]]></answer>				
+			</sentence>
+			<sentence isGroup="true" id="bear">
+				<asset type="audio" id="audio" url="sections/games/superreaderchallenge/audio/reading/baby_bear.mp3" />
+				<answer isCorrect="true"><![CDATA[BABY BEAR BOUNCES A BALL.]]></answer>
+				<answer isCorrect="false"><![CDATA[BABY BEAR BOUNCES A HAT.]]></answer>
+				<answer isCorrect="false"><![CDATA[BABY BEAR BOUNCES A SOCK.]]></answer>
+			</sentence>
+			<sentence isGroup="true" id="wolf">
+				<asset type="audio" id="audio" url="sections/games/superreaderchallenge/audio/reading/wolf_hat.mp3" />
+				<answer isCorrect="true"><![CDATA[WOLF WEARS A HAT.]]></answer>
+				<answer isCorrect="false"><![CDATA[WOLF WEARS A FROG.]]></answer>
+				<answer isCorrect="false"><![CDATA[WOLF WEARS A FAN.]]></answer>				
+			</sentence>
+			<sentence isGroup="true" id="frog">
+				<asset type="audio"  id="audio" url="sections/games/superreaderchallenge/audio/reading/frog_log.mp3" />
+				<answer isCorrect="true"><![CDATA[A FROG HOPS ON A LOG.]]></answer>
+				<answer isCorrect="false"><![CDATA[A FROG HOPS ON A MAN.]]></answer>
+				<answer isCorrect="false"><![CDATA[A FROG HOPS ON A SPOON.]]></answer>
+			</sentence>			
+		</sentences>
+		
+		<preloadAssets>
+			<voiceOvers isGroup="true" id="voiceOvers">
+				<voiceOver type="audio" id="instructions_sw" url="sections/games/superreaderchallenge/audio/reading/instructions_sw.mp3" />
+				<voiceOver type="audio" id="final_kudos" url="sections/games/superreaderchallenge/audio/reading/final_kudos.mp3" />
+			</voiceOvers>
+			<oops isGroup="true" id="oops">
+				<voiceOver type="audio" id="keep_looking" url="sections/games/superreaderchallenge/audio/reading/keep_looking.mp3" />
+				<voiceOver type="audio" id="try_again" url="sections/games/superreaderchallenge/audio/reading/try_again.mp3" />				
+			</oops>
+			<kudos isGroup="true" id="kudos">
+				<asset type="audio" id="awesome" url="sections/games/superreaderchallenge/audio/reading/awesome.mp3" />
+				<asset type="audio" id="cool" url="sections/games/superreaderchallenge/audio/reading/cool.mp3" />
+			</kudos>
+		</preloadAssets>
+	</readingGame>
+	
+	<gameElements>
+		<images>
+			<image type="image" id="duck" url="sections/games/superreaderchallenge/images/lineart/duck.swf" />
+			<image type="image" id="box" url="sections/games/superreaderchallenge/images/lineart/box.swf" />
+			<image type="image" id="fox" url="sections/games/superreaderchallenge/images/lineart/fox.swf" />
+			<image type="image" id="frog" url="sections/games/superreaderchallenge/images/lineart/frog.swf" />
+			<image type="image" id="dog" url="sections/games/superreaderchallenge/images/lineart/dog.swf" />
+			<image type="image" id="log" url="sections/games/superreaderchallenge/images/lineart/frog.swf" />
+			<image type="image" id="jar" url="sections/games/superreaderchallenge/images/lineart/jar.swf" />
+			<image type="image" id="key" url="sections/games/superreaderchallenge/images/lineart/key.swf" />
+			<image type="image" id="mug" url="sections/games/superreaderchallenge/images/lineart/mug.swf" />
+			<image type="image" id="rug" url="sections/games/superreaderchallenge/images/lineart/carpet.swf" />
+			<image type="image" id="wolf" url="sections/games/superreaderchallenge/images/lineart/wolf.swf" />
+			<image type="image" id="sun" url="sections/games/superreaderchallenge/images/lineart/sun.swf" />
+			<image type="image" id="zap" url="sections/games/superreaderchallenge/images/lineart/zap.swf" />
+			<image type="image" id="map" url="sections/games/superreaderchallenge/images/lineart/map.swf" />
+			<image type="image" id="queen" url="sections/games/superreaderchallenge/images/lineart/queen.swf" />
+			<image type="image" id="cat" url="sections/games/superreaderchallenge/images/lineart/cat.swf" />
+			<image type="image" id="hat" url="sections/games/superreaderchallenge/images/lineart/wolf.swf" />
+			<image type="image" id="web" url="sections/games/superreaderchallenge/images/lineart/spider.swf" />
+			<image type="image" id="yell" url="sections/games/superreaderchallenge/images/lineart/yell.swf" />
+			<image type="image" id="bell" url="sections/games/superreaderchallenge/images/lineart/bell.swf" />
+		</images>
+	</gameElements>
+	
+</game>

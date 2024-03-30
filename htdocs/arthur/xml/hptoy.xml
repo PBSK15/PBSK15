@@ -1,0 +1,50 @@
+<?xml  version="1.0" encoding="utf-8" ?>
+<characterhighlight>
+	<!--<highlight>
+		<title>Happy Halloween</title>
+		<imgurl>i/alt/home_bg_halloween.gif</imgurl>
+		<swf>media/toys/toy_halloween.swf</swf>
+	</highlight>
+	<highlight>
+		<title>Arthur's Perfect Christmas</title>
+		<imgurl>i/alt/home_bg_holiday.gif</imgurl>
+		<swf>media/toys/toy_holiday.swf</swf>
+	</highlight>
+	<highlight>
+		<title>Elwood City Winter</title>
+		<imgurl>i/alt/home_bg_holiday.gif</imgurl>
+		<swf>media/toys/toy_winter.swf</swf>
+	</highlight>
+	
+	<highlight>
+		<title>D.W. making a silly face, Buster and Arthur jumping for joy</title>
+		<imgurl>i/alt/home_bg_happy.gif</imgurl>
+		<swf>media/toys/toy_holiday.swf</swf>
+	</highlight>
+	-->
+	<highlight>
+		<title>D.W. making a silly face, Buster and Arthur jumping for joy</title>
+		<imgurl>i/alt/home_bg_happy.gif</imgurl>
+		<swf>media/toys/toy_happy.swf</swf>
+	</highlight>
+	<highlight>
+		<title>D.W. blowing on a noise maker and The Tibble Twins jumping in the air</title>
+		<imgurl>i/alt/home_bg_party.gif</imgurl>
+		<swf>media/toys/toy_party.swf</swf>
+	</highlight>
+	<highlight>
+		<title>Francine and Buster playing music</title>
+		<imgurl>i/alt/home_bg_music.gif</imgurl>
+		<swf>media/toys/toy_music.swf</swf>
+	</highlight>
+	<highlight>
+		<title>Baby Kate swinging and Pal licking Arthur's face</title>
+		<imgurl>i/alt/home_bg_swing.gif</imgurl>
+		<swf>media/toys/toy_swing.swf</swf>
+	</highlight>
+	<highlight>
+		<title>Binky and Prunella's Dance Club</title>
+		<imgurl>i/alt/home_bg_music.gif</imgurl>
+		<swf>media/toys/toy_dance.swf</swf>
+	</highlight>
+</characterhighlight>

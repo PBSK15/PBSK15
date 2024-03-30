@@ -1,0 +1,92 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Elwood City Map | PBS Kids' %}
+{% set desc = 'Get information about Elwood City and the ARTHUR characters who live there! Zoom in and out of the interactive Elwood City map!' %}
+{% set keywds = 'ARTHUR, interactive map, Elwood City' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />	<script type="text/javascript" language="javascript1.2" src="js/elwoodcity.js"></script>
+	<link rel="stylesheet" type="text/css" href="c/elwoodcity.css" media="screen" /> ' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="elwoodbg">
+ <div class="ruler"></div>
+ <div id="mainFeature" class="fo_header">
+  <div id="swf_content">
+   <div id="map-frame">
+    <div id="map">
+     <div id="q1" class="quad">
+      <a href="#"></a>
+     </div>
+     <div id="q2" class="quad">
+      <a href="#"></a>
+     </div>
+     <div id="q3" class="quad">
+      <a href="#"></a>
+     </div>
+     <div id="q4" class="quad">
+      <a href="#"></a>
+     </div>
+    </div>
+    <div id="map-q1" class="zoomed">
+     <ul>
+      <li class="star" id="science_museum"><a href="#"><i>science museum</i></a></li>
+      <li class="star" id="mill_creek_mall"><a href="#"><i>mill creek mall </i></a></li>
+      <li class="star" id="tree_house"><a href="#"><i>tree house </i></a></li>
+      <li class="star" id="library"><a href="#"><i>library </i></a></li>
+      <li class="star" id="grandma_thora_house"><a href="#"><i>grandma's house</i></a></li>
+      <li class="star" id="community_garden"><a href="#"><i>community garden</i></a></li>
+      <li class="icon" id="tibble_house"><a href="#"><i>tibble's house</i></a></li>
+      <li class="icon" id="arthur_house"><a href="#"><i>arthur's house</i></a></li>
+     </ul>
+    </div>
+    <div id="map-q2" class="zoomed">
+     <li class="icon" id="buster_condo"><a href="#"><i>buster_condo</i></a></li>
+     <li class="icon" id="brain_house"><a href="#"><i>brain_house</i></a></li>
+     <li class="icon" id="francine_apartment"><a href="#"><i>francine_apartment</i></a></li>
+     <li class="icon" id="mr_ratburn_house"><a href="#"><i>mr_ratburn_house</i></a></li>
+     <li class="icon" id="fern_house"><a href="#"><i>fern_house</i></a></li>
+     <li class="icon" id="prunella_house"><a href="#"><i>prunella_house</i></a></li>
+     <li class="icon" id="marina_house"><a href="#"><i>marina_house</i></a></li>
+     <li class="star" id="sugar_bowl"><a href="#"><i>sugar_bowl</i></a></li>
+     <li class="star" id="baseball_field"><a href="#"><i>baseball_field</i></a></li>
+     <li class="star" id="playground"><a href="#"><i>playground</i></a></li>
+     <li class="star" id="lakewood_elementary"><a href="#"><i>lakewood_elementary</i></a></li>
+     <li class="star" id="crosswire_motors"><a href="#"><i>crosswire_motors</i></a></li>
+     <li class="star" id="elwood_city_dump"><a href="#"><i>elwood_city_dump</i></a></li>
+    </div>
+    <div id="map-q3" class="zoomed">
+     <li class="star" id="loring_cinema"><a href="#"><i>loring_cinema</i></a></li>
+     <li class="star" id="ice_cream_shop"><a href="#"><i>ice_cream_shop</i></a></li>
+     <li class="icon" id="binky_house"><a href="#"><i>binky_house</i></a></li>
+    </div>
+    <div id="map-q4" class="zoomed">
+     <ul>
+      <li class="star" id="animal_shelter"><a href="#"><i>animal_shelter</i></a></li>
+      <li class="star" id="hospital"><a href="#"><i>hospital</i></a></li>
+      <li class="icon" id="george_house"><a href="#"><i>george_house</i></a></li>
+      <li class="icon" id="sue_ellen_house"><a href="#"><i>sue_ellen_house</i></a></li>
+      <li class="icon" id="muffy_house"><a href="#"><i>muffy_house</i></a></li>
+     </ul>
+    </div>
+    <div id="zoom_out"></div>
+    <div id="info">
+     <i>info</i>
+    </div>
+    <div id="pop-up">
+     <div id="map_content"><a href="#" onclick="document.getElementById('pop-up').style.display = 'none'; return false;"><img src="../../i/games/elwoodcity/btn_close.gif" alt="close window"></a> <br clear="all">
+      <div id="map_content-i"></div>
+      <h3 id="map_content-h"></h3>
+      <p id="map_content-p"></p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+   <li><a href="/arthur/print/crazybus/index.html" id="rcCrazyBus">Crazy Bus</a></li>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

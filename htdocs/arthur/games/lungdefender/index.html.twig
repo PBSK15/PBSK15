@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Buster Baxter: Lung Defender | PBS Kids' %}
+{% set desc = 'Do you have what it takes to be a copilot? Play Buster Baxter: Lung Defender to steer through Busters lungs and help him fight his asthma!' %}
+{% set keywds = 'Buster, asthma, health, kids, breathing, inhaler, lings' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="asthmabg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="asthma.html" target="_self"><img src="../../i/games/lung_splash.gif" width="595" height="418" border="0" alt="Play Buster Baxter - Lung Defender"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/games/alien/index.html" id="rcAlien">Alien: Assembly Required</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,271 @@
+/* original version created by Kit Buckley, modified by Kal Gieber */
+
+/* -------------------- RESETS ------------------------- */
+.drawtool-page ul {
+	margin: 0;
+	padding: 0;
+}
+
+.drawtool-page ul li { list-style: none; }
+
+/* -------------------- GENERAL ------------------------ */
+
+#content h2 { display: block; }
+
+/* -------------------- DRAW TOOL - MAIN --------------- */
+
+.drawtool-page {
+	margin: 10px auto;
+	padding: 1px;
+}
+
+.drawtool {
+	width: 100%;
+	overflow: hidden;
+}
+
+/* -------------------- DRAW TOOL - CANVAS ------------- */
+
+#draw-canvas {
+	background-color: #fff;
+	border: 2px solid #000;
+}
+
+.place-vert.drawtool-canvas-block {
+	float: left;
+}
+
+/* -------------------- TOOL PREVIEW - CANVAS ---------- */
+
+.preview-box {
+	margin-top: 6px;
+	background-color: #fff;
+	width: 96%;
+	border: 2px solid #000;
+}
+
+/* -------------------- DRAW TOOL - TOOLBOX ------------ */
+
+.main-tools .tool-icon {
+	background: url('../img/sprite_drawingtool.png') 0 0 no-repeat;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+	margin: 0 0 0 13%;
+}
+
+.tool-icon.btnbucket { background-position: -50px 0; }
+.tool-icon.btnundo { background-position: -100px 0; }
+.tool-icon.btnclear { background-position: -150px 0; }
+
+.active-button .btnpencil, .main-tools button:hover .btnpencil { background-position: 0px -50px; }
+
+.active-button .btnbucket, .main-tools button:hover .btnbucket { background-position: -50px -50px; }
+
+.active-button .btnundo, .main-tools button:hover .btnundo { background-position: -100px -50px; }
+
+.active-button .btnclear, .main-tools button:hover .btnclear { background-position: -150px -50px; }
+
+.main-tools button span {
+	float: left;
+	width: 50%;/*100px;*/
+	padding: 3px 3px 3px 1px;
+	line-height: 50px;
+	margin: auto 0;
+}
+
+.main-tools button#bucket-bt span { line-height: 1.1em; }
+
+.place-horiz.drawtool-toolbox { width: 100%; }
+
+.place-vert.drawtool-toolbox {
+	float: left;
+	width: 244px;
+}
+
+.place-horiz.drawtool-toolbox ul { overflow: hidden; }
+
+.place-vert.drawtool-toolbox ul { margin-left: 5%; }
+
+.place-horiz .tools-bigcol {
+	width: 101%;
+	display: block;
+	overflow: hidden;
+}
+
+.place-vert .tools-bigcol {
+	float: left;
+	width: 30%;
+}
+
+.tools-smallcol {
+	width: 25%;
+	background-color: #0ff;
+}
+
+.place-horiz .main-tools {
+	padding: 5px 0;
+}
+
+.place-horiz .main-tools li {
+	float: left;
+	display: block;
+	width: 23.6%;
+	margin-right: 1%;
+}
+
+.place-vert .main-tools li {
+	position: relative;
+	display: block;
+}
+
+.main-tools li div{
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.main-tools button:hover, .main-tools button:focus, .main-tools button:active, .active-button {
+	cursor: pointer;
+	color: #fff;
+}
+
+.main-tools button { width: 100%; }
+
+button {
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	background: #f93;
+	font: 1.5625em "lilita one", sans-serif;
+	color: #fff;
+	height: 60px;
+	-webkit-appearance: none;
+	border: 0;
+	color: #f9d85d;
+}
+
+.place-vert.drawtool-toolbox #done-bt { margin-top: 12px; }
+
+.place-horiz #color-palette .last-item, .place-horiz .main-tools .last-item {
+	margin-right: 0;
+	padding-right:0;
+}
+
+#color-palette {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#color-palette  ul {
+	width: 50%;
+	margin-left: 0;
+}
+
+.place-horiz #color-palette ul { width: 100%; }
+
+.place-vert #color-palette  ul { float: left; }
+
+.place-horiz #color-palette ul li {
+	float: left;
+	width: 13.4%;
+	padding: 1% 1% 1% 0;
+}
+
+.place-vert #color-palette ul li {
+	position: relative;
+	display: block;
+}
+
+#color-palette ul li div{
+	position: relative;
+	display: block;
+	width: 100%;
+	padding-bottom: 100%;
+}
+
+#color-palette ul li button {
+	width: 98.5%;
+	cursor: pointer;
+}
+
+.place-horiz #color-palette ul li button {
+	border-radius: 0;
+	-webkit-border-radius:0;
+}
+
+#color-palette ul li button:hover, #color-palette ul li button:focus, #color-palette ul li button:active, .color-active-button {
+	border-color: #ccc !important;
+}
+
+.main-tools .bt-inactive {
+	color: #ccc !important;
+	display: none;
+}
+
+.preview-inactive { display: none; }
+
+
+
+/* banner MORE INFO */
+
+.placeholderImg {
+	width: 40%;
+	height: 200px;
+	float: left;
+	background-color: #ccc;
+	margin: 3% 0 0;
+}
+
+div.banner {
+	clear: none;
+	width: 50%;
+	float: right;
+	margin-top: 15px;
+}
+
+div.banner p { padding: 15px 35px; }
+
+.drawtool-canvas-block div.banner {
+	width:100%;
+	float:none;
+}
+
+@media only screen and (max-width: 788px) {
+	.placeholderImg {
+		float: none;
+		width: 100%;
+	}
+	div.banner {
+		width: 100%;
+		float: none;
+	}
+
+	.banner ul {
+		width: 68%;
+	}
+
+	img.center {
+		margin: 0 auto;
+	}
+
+	.main-tools button span {
+		display: none;
+	}
+
+	.main-tools .tool-icon {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.main-tools button {
+		padding:0;
+	}
+
+	.place-horiz #color-palette ul li button {
+		padding:0;
+		height:50px;
+	}
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Ask Prunella</title>
+			<href>/arthur/games/askprunella/index.html</href>
+			<imgurl>/arthur/i/related/askprunella.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crank It Up</title>
+			<href>/arthur/games/crankitup/index.html</href>
+			<imgurl>/arthur/i/related/crankitup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster Baxter: Lung Defender</title>
+			<href>/arthur/games/lungdefender/index.html</href>
+			<imgurl>/arthur/i/related/lung.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Songbook</title>
+			<href>/arthur/games/songbook/index.html</href>
+			<imgurl>/arthur/i/related/songbook.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sue Ellen's Travel Tales</title>
+			<href>/arthur/games/traveltales/index.html</href>
+			<imgurl>/arthur/i/related/traveltales.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>/arthur/i/related/grooveit.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Play Maker</title>
+			<href>/arthur/print/playmaker/index.html</href>
+			<imgurl>/arthur/i/related/playmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Room To Ride</title>
+			<href>/arthur/video/index.html?pid=CzGhWX80_TK8ceDD4yDXoltE4E4u0Uew</href>
+			<imgurl>/arthur/i/related/roomtoride.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lights, Camera... Opera!</title>
+			<href>/arthur/video/index.html?pid=hlB0I0bTnyKOeR2rle38YbSitnn_dp0t</href>
+			<imgurl>/arthur/i/related/lightscamera.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

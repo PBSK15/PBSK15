@@ -1,0 +1,74 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Bookmarks | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="bookmarkHeader">Bookmarks</h4></a>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Arthur</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printBookmarks">
+    <li id="arthur1">
+     <div class="page">
+      <img src="../../i/print/bookmarks/art1_print.gif" width="167" height="666" alt="Arthur's Bookmark" border="0" class="bk img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="brainprun">
+     <div class="page">
+      <img src="../../i/print/bookmarks/brain_pru_print.gif" width="167" height="666" alt="The Brain and Prunella's Bookmark" border="0" class="bk img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="buster">
+     <div class="page">
+      <img src="../../i/print/bookmarks/buster_print.gif" width="167" height="666" alt="Buster's Bookmark" border="0" class="bk img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="franmuffy">
+     <div class="page">
+      <img src="../../i/print/bookmarks/fran_muf_print.gif" width="167" height="666" alt="Francine and Muffy's Bookmark" border="0" class="bk img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="dwturner">
+     <div class="page">
+      <img src="../../i/print/bookmarks/dw_turner_print.gif" width="167" height="666" alt="D.W. and Ms. Turner's Bookmark" border="0" class="bk img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="reads">
+     <div class="page">
+      <img src="../../i/print/bookmarks/reads_print.gif" width="167" height="666" alt="The Read Family's Bookmark" border="0" class="bk img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="arthur2">
+     <div class="page">
+      <img src="../../i/print/bookmarks/art2_print.gif" width="167" height="666" alt="Arthur's Bookmark" border="0" class="bk img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="binkyfran">
+     <div class="page">
+      <img src="../../i/print/bookmarks/bin_fran_print.gif" width="167" height="666" alt="Binky and Francine's Bookmark" border="0" class="bk img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Songbook</a></li>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

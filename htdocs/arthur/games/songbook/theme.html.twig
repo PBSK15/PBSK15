@@ -1,0 +1,48 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur\'s Songbook | PBS Kids' %}
+{% set desc = 'Read the lyrics and sing the theme song from ARTHUR! Hey!' %}
+{% set keywds = 'lyrics, singing, songbook, read, ARTHUR' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="songSHeader">Arthur's Songbook</h4></a>
+  <div id="songbookPlayer">
+   <ul id="printSideNav">
+    <li><a href="theme.html" class="selected"><span>Theme Song</span></a></li>
+    <li><a href="librarycard.html"><span>Library Card</span></a></li>
+    <li><a href="luckypencil.html"><span>Lucky Pencil</span></a></li>
+    <li><a href="ufo.html"><span>The UFO Song</span></a></li>
+    <li><a href="gotosleep.html"><span>Go to Sleep</span></a></li>
+    <li><a href="crazybus.html"><span>Crazy Bus</span></a></li>
+   </ul>
+   <script type="text/javascript">				   var fo = new SWFObject("../../media/games/songbook_player.swf", "songbook", "262", "283", "9","#ffffcc");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");				   fo.addVariable("title", "theme");				  //				   fo.write("songbookPlayer");				</script>
+  </div>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Theme Song</h1>
+    </div>
+   </div>
+   <div id="grooveHowtoContent"><img src="../../i/games/songbook/notes.gif" width="70" height="324" alt="music notes" border="0" class="float-left music-notes"> <img src="../../i/games/songbook/songbook_buster.gif" width="137" height="251" alt="Buster" border="0" class="float-right songbook-buster">
+    <p class="songbook-lyrics">Every day when you're <br> Walking down the street,<br> Everybody that you meet<br> Has an original point of view.<br> And I say - Hey! (Hey!)<br> What a wonderful kind of day<br> If we could learn to work and play<br> And get along with each other.<br> <br> You gotta listen to your heart,<br> Listen to the beat,<br> Listen to the rhythm,<br> The rhythm of the street.<br> Open up your eyes.<br> Open up your ears.<br> Get together <br> And make things better<br> By working together.<br> <br> It's a simple message, <br> And it comes from the heart.<br> Believe in yourself, <br> For that's the place to start.<br> <br> And I say - Hey! (Hey!)<br> What a wonderful kind of day<br> If we could learn to work and play<br> And get along with each other.<br> <br> Hey! What a wonderful kind of day. Hey!<br> What a wonderful kind of day. Hey!<br></p>
+    <hr class="songbook-rule">
+    <p class="songbook-lyrics">View the Arthur Theme Song <a href="sheet_music.html">sheet music</a>.</p>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

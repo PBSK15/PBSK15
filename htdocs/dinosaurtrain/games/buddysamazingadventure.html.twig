@@ -1,0 +1,22 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Buddy\'s A-maze-ing Adventure' %}
+{% set desc = 'Help Buddy get King to the gig as you learn about different dinosaurs along the way! King Cryolophosaurus is expected to give a big performance at the Theropod Convention, but since crowds freak him out, he\\\'s hiding out somewhere in the city. It\\\'s up to Buddy to navigate the busy, maze-like streets of Laramidia to find the King and bring him to the convention.' %}
+{% set keywds = 'Laramidia, King Chryolophosorous, The Theropod Convention, Mayor Kosmoceratops, Sauropods, Argentinosaurus, Dinosaur Big City' %}
+{% set onLoadEvent = '(typeof onLoad === \"function\")?onLoad():loadGame();' %}
+
+
+{% block loadContent %}function loadContent(){
+var w   = getSize();
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+    loadGame();
+    fixWidths(false, true);
+} else {
+    var obj = new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+    obj.addParam('allowscriptaccess', 'always');
+    obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/BigCityMaze2.swf&host='+getHost());
+
+
+obj.write('main_content');
+    fixWidths(w);
+}    }{% endblock %}
+

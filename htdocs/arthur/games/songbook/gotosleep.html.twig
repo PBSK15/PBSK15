@@ -1,0 +1,46 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur\'s Songbook | PBS Kids' %}
+{% set desc = 'Sing the lullabye that D.W. sings to Kate to get her to GO TO SLEEP!' %}
+{% set keywds = 'lyrics, singing, songbook, read, lullabye' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="songSHeader">Arthur's Songbook</h4></a>
+  <div id="songbookPlayer">
+   <ul id="printSideNav">
+    <li><a href="theme.html"><span>Theme Song</span></a></li>
+    <li><a href="librarycard.html"><span>Library Card</span></a></li>
+    <li><a href="luckypencil.html"><span>Lucky Pencil</span></a></li>
+    <li><a href="ufo.html"><span>The UFO Song</span></a></li>
+    <li><a href="gotosleep.html" class="selected"><span>Go to Sleep</span></a></li>
+    <li><a href="crazybus.html"><span>Crazy Bus</span></a></li>
+   </ul>
+   <script type="text/javascript">				   var fo = new SWFObject("../../media/games/songbook_player.swf", "songbook", "262", "283", "9","#ffffcc");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");				   fo.addVariable("title", "gotosleep");				  //				   fo.write("songbookPlayer");				</script>
+  </div>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Go to Sleep</h1>
+    </div>
+   </div>
+   <div id="grooveHowtoContent"><img src="../../i/games/songbook/notes.gif" width="70" height="324" alt="music notes" border="0" class="float-left music-notes"> <img src="../../i/games/songbook/songbook_sleep.gif" width="137" height="136" alt="Baby Kate Crying" border="0" class="float-right songbook-buster">
+    <p class="songbook-lyrics">All my baby sister does<br> Is cry and cry and cry!<br> I'll never sleep again.<br> I need the world's <br> Most powerful lullabye.<br> <br> Go to sleep!<br> Go to sleep!<br> Count a sheep!<br> Don't make a peep!<br> Go to sleep, little baby.<br> <br> Why do you have to <br> Scream in my ear?<br> Why don't you keep it down, <br> I'm right here.<br> It feels like you've been <br> Crying for a year.<br> Aren't I making myself very clear?<br> Go to sleep already, baby.<br> <br> Go to sleep!<br> Go to sleep!<br> Count a sheep!<br> Don't make a peep!<br> Go to sleep, little baby.<br> <br> You've been up all day.<br> You've had plenty <br> Of time to play.<br> What in the world <br> Are you trying to say?<br> What do you want <br> From me anyway?<br> <br> Go to sleep!<br> Go to sleep!<br> Count a sheep!<br> Sheep! Sheep! Sheep! Sheep!<br> Go to sleep, little baby.<br> Go to sleep, little baby.<br> Go to sleep, little baby.<br> Go to sleep!<br></p>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

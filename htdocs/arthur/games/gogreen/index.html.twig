@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Go Green Challenge | PBS Kids' %}
+{% set desc = 'Go Green and be good to the environment with characters from ARHTUR! Choose a green challenge topic, decorate, the page, then print it out!' %}
+{% set keywds = 'green, environment, water, energy, transportation, tips' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="gogreenbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="gogreen.html" target="_self"><img src="../../i/games/gogreen_splash.gif" width="613" height="432" border="0" alt="Play Go Green Challenge"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/print/fetch/index.html" id="rcFetch">Go Fetch!</a></li>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+   <li><a href="/arthur/games/groovygarden/index.html" id="rcGroovy">Groovy Garden</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

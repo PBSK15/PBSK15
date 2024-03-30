@@ -1,0 +1,37 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . The Brain\'s Games & Printables Page | PBS Kids' %}
+{% set desc = 'Brain has awesome games to play and activities to print out! Help him in the school cafeteria, send him a letter, or test your ARTHUR trivia!' %}
+{% set keywds = 'games, play, letter, print, Brain' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cc9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/brain_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/brain_top.swf", "brain", "960", "363", "9", "#cccc99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "games");			   fo.addVariable("char", "brain");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-brain">The Brain's images</a>
+  <div id="friendsContent">
+   <h1>My Games &amp; Printables</h1>
+   <hr class="friendsRuler">
+   <ul id="myGames">
+    <li id="friendsLunchOMatic" class="icon"><a href="../../games/lunchomatic/index.html"><span>Lunch-o-Matic</span></a></li>
+    <li id="friendsTheBrainGame" class="icon"><a href="../../games/braingame/index.html"><span>The Brain Game</span></a></li>
+    <li id="friendsAskTheBrain" class="icon"><a href="../../games/askbrain/index.html"><span>Ask The Brain</span></a></li>
+    <li id="friendsColoring" class="icon"><a href="../../print/coloringpages/coloring.html#pg-brain1"><span>Coloring Pages</span></a></li>
+    <li id="friendsTrading" class="icon"><a href="../../print/tradingcards/cards.html#pg-brain1"><span>Trading Cards</span></a></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters to...</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

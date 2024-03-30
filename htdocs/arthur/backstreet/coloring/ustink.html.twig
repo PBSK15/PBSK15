@@ -1,0 +1,51 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Backstreet | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9fc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="/arthur/backstreet/index.html"><h4 id="backstreetHeader">Backstreet Boys In Elwood City</h4></a>
+  <ul id="printSideNav">
+   <li><a href="/arthur/backstreet/video/index.html"><span>Video Clips</span></a></li>
+   <li><a href="/arthur/backstreet/lyrics/nothingbutmusic.html"><span>Song Lyrics</span></a></li>
+   <li><a href="/arthur/backstreet/coloring/backstreet.html"><span>BSB Coloring</span></a></li>
+   <li><a href="/arthur/backstreet/coloring/ustink.html" class="selected"><span>U Stink Coloring</span></a></li>
+   <li><a href="/arthur/backstreet/poster/index.html"><span>Printable Poster</span></a></li>
+   <li><a href="/arthur/backstreet/chat/index.html"><span>AOL Chat</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>U Stink Coloring Page</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+   </div>
+   <ul class="print-pages" id="printColoring">
+    <li id="backstreet1">
+     <div class="page">
+      <img src="../../i/backstreet/coloring_ustink.gif" width="569" height="488" title="U Stink Coloring Page" alt="The Backstreet Boys with Arthur" border="0" class="img backstreet"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Song Book</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

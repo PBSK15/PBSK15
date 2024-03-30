@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Comic Creator</title>
+			<href>/arthur/games/comiccreator/index.html</href>
+			<imgurl>/arthur/i/related/comic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>E-Cards</title>
+			<href>/arthur/games/ecards/index.html</href>
+			<imgurl>/arthur/i/related/ecards.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Green Challenge</title>
+			<href>/arthur/games/gogreen/index.html</href>
+			<imgurl>/arthur/i/related/gogreen.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Stickerbook Mashup</title>
+			<href>/arthur/games/marthursticker/index.html</href>
+			<imgurl>/arthur/i/related/stickerbook.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy's Wardrobe</title>
+			<href>/arthur/games/wardrobe/index.html</href>
+			<imgurl>/arthur/i/related/wardrobe.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Marthur Video Mashup</title>
+			<href>/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP</href>
+			<imgurl>/arthur/i/related/videomashup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Lint Rush</title>
+			<href>/arthur/video/index.html?pid=msANwkSPX_1u6ScqaB_ldGGqoLroUFot</href>
+			<imgurl>/arthur/i/related/lintrush.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Prunella and the Haunted Locker</title>
+			<href>/arthur/video/index.html?pid=MZvMaQgzKUCM7XM5dfS7SHGwlzDDfFx_</href>
+			<imgurl>/arthur/i/related/hauntedlocker.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Go! George Go! | PBS Kids' %}
+{% set desc = 'Get ready to program some directions for George to follow so that he can get ice cream to his friends before it melts!' %}
+{% set keywds = 'game, George, bicycling, delivery, logic' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-396">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="gogeorgego.html" target="_self"><img src="../../i/games/ggg_splash.jpg" width="595" height="410" border="0" alt="Play Go George Go!"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/george/index.html" id="rcGeorge">George</a></li>
+   <li><a href="/arthur/games/crankitup/index.html" id="rcCrank">Crank It Up!</a></li>
+   <li><a href="/arthur/games/elwoodcity/index.html" id="rcElwoodCity">Elwood City Map</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

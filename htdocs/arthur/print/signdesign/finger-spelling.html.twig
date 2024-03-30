@@ -1,0 +1,53 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Sign Design | PBS Kids' %}
+{% set desc = 'See pictures to help you sign all of the letters in the alphabet and the numbers 1-10. Get some tips on how to do finger spelling. Print it too!' %}
+{% set keywds = 'sign language, deaf, finger spelling, alphabet, numbers' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9fc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="signHeader">Sign Design</h4></a>
+  <ul id="printSideNav">
+   <li><a href="name.html"><span>Practice Signing</span></a></li>
+   <li><a href="finger-spelling.html" class="selected"><span>Finger Spelling</span></a></li>
+   <li><a href="more-info.html"><span>More Information</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Finger Spelling</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+   </div>
+   <div class="page"><img src="../../i/print/signdesign/chart.gif" width="571" height="607" alt="a chart for signing the alphabet and number 1 to 10" border="0" class="img">
+    <div id="spellingContent">
+     <h4>Finger Spelling Notes:</h4>
+     <ul>
+      <li>Some of the hands above are turned to make the signs easier to learn. The letter H is actually done with your palm facing your body. For all the other letters, your palm faces the listener. For the numbers, 1-5 face toward you; 6-10 face the listener.</li>
+      <li>The letter G can be done as shown, or turned to the side, with your thumb and forefinger on top.</li>
+      <li>Keep your hand steady; don't "bounce" it with each letter.</li>
+      <li>The letters above show the "proper" formation. Feel free to make small variations to keep your hand comfortable.</li>
+     </ul> <img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+   <li><a href="/arthur/games/yougottobekidding/index.html" id="rcKidding">You've Got To Be Kidding</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

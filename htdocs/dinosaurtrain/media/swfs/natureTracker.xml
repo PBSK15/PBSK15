@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<game>
+    <!-- removed music node -->    
+    <buddy>
+        <asset id='buddy_intro' url='100.mp3' />
+        <asset id='buddy_intro2' url='101.mp3' />
+        <asset id='buddy_intro3' url='102.mp3' />
+        <asset id='buddy_intro4' url='103.mp3' />
+        <asset id='buddy_intro5' url='104.mp3' />
+        
+        <asset id='looking_for' url='200.mp3' />
+        <asset id='good_job_finding' url='201.mp3' />
+        <asset id='alamosaurus' url='202.mp3' />
+        <asset id='argentinosaurus' url='203.mp3' />
+        <asset id='diplodocus' url='204.mp3' />
+        <asset id='apotosaurus' url='205.mp3' />
+        <asset id='cimolestes' url='206.mp3' />
+        <asset id='chirostenotes' url='207.mp3' />
+        <asset id='avisaurus' url='208.mp3' />
+        <asset id='archaeopteryx' url='209.mp3' />
+        <asset id='lesothosaurus' url='210.mp3' />
+        <asset id='stegosaurus' url='211.mp3' />
+        
+        <asset id='already_spotted' url='301.mp3' />
+        
+        <asset id='found_alamosaurus' url='400.mp3' />
+        <asset id='found_diplodocus' url='401.mp3' />
+        <asset id='found_apotosaurus' url='402.mp3' />
+        <asset id='found_argentinosaurus' url='403.mp3' />
+        <asset id='found_cimolestes' url='404.mp3' />
+        <asset id='found_chirostenotes' url='405.mp3' />
+        <asset id='found_avisaurus' url='406.mp3' />
+        <asset id='found_archaeopteryx' url='407.mp3' />
+        <asset id='found_lesothosaurus' url='408.mp3' />
+        <asset id='found_stegosaurus' url='409.mp3' />
+        
+        <asset id='end_speech' url='500.mp3' />
+        
+        <asset id='idle1' url='502.mp3' />
+        <asset id='idle2' url='503.mp3' />
+        
+        <asset id='not_looking1' url='504.mp3' />
+        <asset id='not_looking2' url='506.mp3' />
+        
+    </buddy>
+</game>

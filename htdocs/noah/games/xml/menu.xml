@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<GAMEMENU>
+	<GAME name="matchit">
+		<ITEM name="Cowboys & Librarians: Kitchen" isnew="false" url="matchit/kitchen"/>
+		<ITEM name="Cowboys & Librarians: Shapes" isnew="false" url="matchit/shapes"/>
+		<ITEM name="Daring Young Man: Instruments" isnew="false" url="matchit/instruments"/>
+		<ITEM name="Daring Young Man: Numbers" isnew="false" url="matchit/weights"/>
+		<ITEM name="Breaking the Ice: Drinks and Snacks" isnew="false" url="matchit/snacks"/>
+		<ITEM name="Breaking the Ice: Winter Items" isnew="false" url="matchit/winter"/>
+		<ITEM name="I Say Tomato: Purse" isnew="false" url="matchit/purse"/>
+		<ITEM name="I Say Tomato: Vegetables" isnew="false" url="matchit/vegetables"/>
+		<ITEM name="Hop, Look, and Listen: Insects" isnew="false" url="matchit/insects"/>
+		<ITEM name="Hop, Look, and Listen: Toys" isnew="false" url="matchit/toys"/>
+		<ITEM name="Hammer Away!: Tools" isnew="false" url="matchit/tools"/>
+		<ITEM name="Hammer Away!: Construction" isnew="false" url="matchit/construction"/>
+		<ITEM name="A Whale Tale: WhaleBelly" isnew="false" url="matchit/whalebelly"/>
+		<ITEM name="A Whale Tale: Fish Tank" isnew="false" url="matchit/fishtank"/>
+		<ITEM name="Monkey Business: Furniture" isnew="false" url="matchit/furniture"/>
+		<ITEM name="Monkey Business: Jungle Animals" isnew="false" url="matchit/jungleanimals"/>
+		<ITEM name="Down the Drain: Playground" isnew="false" url="matchit/playground"/>
+		<ITEM name="Down the Drain: Numbers" isnew="false" url="matchit/numbers"/> 
+		<ITEM name="Goodbye Kitty: Garden" isnew="false" url="matchit/garden"/>
+		<ITEM name="Goodbye Kitty: Table" isnew="false" url="matchit/table"/>
+		<ITEM name="Not Milk?: Food" isnew="false" url="matchit/food"/>
+		<ITEM name="Not Milk?: Farm Animals" isnew="false" url="matchit/farmanimals"/>
+	 	<ITEM name="Out on a Limb: Clothes" isnew="false" url="matchit/clothes"/>
+	  	<ITEM name="Out on a Limb: Landscape" isnew="false" url="matchit/landscapes"/>
+	 	<ITEM name="The Red Balloon: Colors" isnew="false" url="matchit/colors"/>
+<ITEM name="The Red Balloon: Vehicles" isnew="false" url="matchit/vehicles"/>
+	
+		
+	  
+	</GAME>
+	<GAME name="youcatchit">
+	<ITEM name="Cowboys & Librarians" isnew="false" url="youcatchit/kitchen_shapes"/>
+	<ITEM name="Daring Young Man" isnew="false" url="youcatchit/instruments_weights"/>
+	<ITEM name="Breaking the Ice" isnew="false" url="youcatchit/snacks_winter"/>
+	<ITEM name="I Say Tomato: Purse" isnew="false" url="youcatchit/purse_vegetables"/>
+	<ITEM name="Hop, Look, and Listen" isnew="false" url="youcatchit/insects_toys"/>	
+	<ITEM name="Hammer Away!" isnew="false" url="youcatchit/tools_construction"/>	
+	<ITEM name="A Whale Tale" isnew="false" url="youcatchit/fishtank_whalebelly"/>	
+	<ITEM name="Monkey Business" isnew="false" url="youcatchit/furniture_jungleanimals"/>	
+	<ITEM name="Down the Drain" isnew="false" url="youcatchit/playground_numbers"/>	
+	<ITEM name="Goodbye Kitty" isnew="false" url="youcatchit/garden_table"/>
+	<ITEM name="Not Milk?" isnew="false" url="youcatchit/food_farmanimals"/>
+	<ITEM name="Out on a Limb" isnew="false" url="youcatchit/clothes_landscapes"/>
+	<ITEM name="The Red Balloon" isnew="false" url="youcatchit/colors_vehicles"/>
+	
+	</GAME>
+	
+	<GAME name="wordrace">
+	<ITEM name="Cowboys & Librarians" isnew="false" url="wordrace/kitchen_shapes"/>
+	<ITEM name="Daring Young Man" isnew="false" url="wordrace/instruments_weights"/>
+	<ITEM name="Breaking the Ice" isnew="false" url="wordrace/snacks_winter"/>
+	<ITEM name="I Say Tomato: Purse" isnew="false" url="wordrace/purse_vegetables"/>
+	<ITEM name="Hop, Look, and Listen" isnew="false" url="wordrace/insects_toys"/>		
+	<ITEM name="Hammer Away!" isnew="false" url="wordrace/tools_construction"/>	
+	<ITEM name="A Whale Tale" isnew="false" url="wordrace/fishtank_whalebelly"/>
+	<ITEM name="Monkey Business" isnew="false" url="wordrace/furniture_jungleanimals"/>
+	<ITEM name="Down the Drain" isnew="false" url="wordrace/playground_numbers"/>
+	<ITEM name="Goodbye Kitty" isnew="false" url="wordrace/garden_table"/>
+	<ITEM name="Not Milk?" isnew="false" url="wordrace/food_farmanimals"/>
+	<ITEM name="Out on a Limb" isnew="false" url="wordrace/clothes_landscapes"/>
+	<ITEM name="The Red Balloon" isnew="false" url="wordrace/colors_vehicles"/>
+	
+	</GAME>
+
+</GAMEMENU>

@@ -1,0 +1,54 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Holiday . Sue Ellen\'s Scrapbook | PBS Kids' %}
+{% set desc = 'Check out the limerick written by Sue Ellen and find out what poems called limericks are all about.' %}
+{% set keywds = 'limerick, poems, writing' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr holiday"><a href="/arthur/holiday/index.html"><h4 id="holidayHeader">Elwood City Celebrates</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../dressup/index.html"><span>D.W.'s Dress Up</span></a></li>
+   <li><a href="../scrapbook/index.html" class="selected"><span>Sue Ellen's Scrapbook</span></a></li>
+   <li><a href="../glossary/index.html"><span>Brain's Big Book</span></a></li>
+   <li><a href="../coloring/index.html"><span>Holiday Coloring Pages</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea"><a name="top"></a>
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>Sue Ellen's Scrapbook</h1>
+    </div>
+   </div>
+   <div id="holidayTermsContent"><img src="/arthur/i/holiday/sue_scrapbook.gif" width="137" height="265" alt="Sue Ellen holding a camera" border="0" class="float-right">
+    <div id="holidayScrapbookContent">
+     <p>I have a pen pal who has been asking me about holiday customs in Elwood City. Instead of writing a long letter back, I took some pictures and put together this Holiday Scrapbook. In return, my pen pal sent pictures of a holiday she celebrates. Take a look!</p>
+     <ul id="holidayScrapbookNavIcons">
+      <li class="icon" id="stlucia"><a href="stlucia.html"><span>St. Lucia</span></a></li>
+      <li class="icon" id="volunteering"><a href="volunteering.html"><span>Volunteering</span></a></li>
+      <li class="icon" id="kwanzaa"><a href="kwanzaa.html"><span>Kwanzaa</span></a></li>
+      <li class="icon" id="hanukkah"><a href="hanukkah.html"><span>Hanukkah</span></a></li>
+      <li class="icon" id="christmas"><a href="christmas.html"><span>Christmas</span></a></li>
+      <li class="icon" id="ramadan"><a href="ramadan.html"><span>Ramadan</span></a></li>
+      <li class="icon" id="newyear"><a href="newyear.html"><span>New Year</span></a></li>
+      <li class="icon" id="solstice"><a href="solstice.html"><span>Solstice</span></a></li>
+      <li class="icon" id="baxterday"><a href="baxterday.html"><span>Baxter Day</span></a></li>
+     </ul>
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcBrainBook">Brain's Big Book of Terms</a></li>
+   <li><a href="/arthur/holiday/dressup/index.html" id="rcDressUp">DW Dress Up</a></li> <!--<li><a href="/arthur/holiday/coloring/index.html" id="rcHolidayColoring">Holiday Coloring Page</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

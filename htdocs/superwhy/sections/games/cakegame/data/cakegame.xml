@@ -1,0 +1,363 @@
+<game id="cakegame" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . Cake Builder | PBS KIDS]]></title>
+	<swf url="sections/games/cakegame/cakegame.swf" />
+
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "false"
+		activeStickersPerGame = "5"
+		gameDebug = "false"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+
+		<asset id="princess" location="game/superhero" url="../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../promos/endscreen_promo_rhymeroll.jpg" />
+		
+	</promos>
+		
+	
+	<game>		
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/cakegame/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<asset id="gameUI" type="swf" url="cakegameUI.swf"/>
+
+			<asset id="title" type="audio" url="audio/global/vo_title_onload.mp3" />
+			
+			<!-- VIEWER CHOICES:
+				PAN - scene-specific choices
+				FROSTING - same choices for all scenes
+				TOPPER - scene-specific choices
+				SPRINKLE - same choices for all scenes
+			-->
+			
+			
+			<!-- SCENE CHOICE SCREEN -->
+			<asset id="theme_prompt" type="audio" url="audio/global/vo_theme_onload.mp3" />	
+			<asset id="theme_onselect" type="audio" url="audio/global/vo_theme_onselect.mp3" />	
+			<asset id="theme_beach" type="audio" url="audio/global/vo_theme_ro_beach.mp3" />			
+			<asset id="theme_birthday" type="audio" url="audio/global/vo_theme_ro_birthday.mp3" />	
+			<asset id="theme_halloween" type="audio" url="audio/global/vo_theme_ro_halloween.mp3" />	
+			<asset id="theme_winter" type="audio" url="audio/global/vo_theme_ro_winter.mp3" />
+
+			<!-- pick one - use for selection screen timeouts -->
+			<asset id="pick_one" type="audio" url="audio/global/vo_pick_one.mp3" />	
+			
+			<!-- CAKE PAN STATION -->
+			<!-- 'first thing we need is a baking pan.  pick one.' -->
+			<asset id="cake_general_prompt" type="audio" url="audio/cakepan/vo_cake_onload.mp3" />
+			
+			<!-- ooh.  I love that one.  OK, onto the next step.  To fill in cake batter, we need to spell the word [insert word] -->
+			<!-- old 
+			<asset id="cake_onselect" type="audio" url="audio/cakepan/vo_cake_onselect.mp3" />
+			-->
+			
+			<!--
+				On cake pan select:
+				new file: vo_cake_onselect_short.mp3 
+				'Ooh, I love that one. Ok, onto the next step' (close panel) 
+				this is an edit of vo_cake_onselect.mp3 from beginning through 'next step'.
+			-->
+			<asset id="cake_onselect_short" type="audio" url="audio/cakepan/vo_cake_onselect_short.mp3" />
+			
+			<!--
+				On cake pan letter panel open and on timeout:
+				new file: vo_cake_letter_prompt.mp3 
+				'To fill in the cake batter, we need to spell the word [insert word]'
+				this is an edit of vo_cake_onselect.mp3 from 'to fill in the cake batter' to the end
+			-->
+			<asset id="cake_letter_prompt" type="audio" url="audio/cakepan/vo_cake_letter_prompt.mp3" />
+				
+				
+			
+			<!-- GENERAL SPELLING PROMPTS AND RESPONSES -->
+			<!-- insert onselect kudos before letter sequence, depending on station, for letter panel opening and for timeout -->
+				
+			<!-- singular: click the letter that makes the sound [insert phoneme] -->
+			<asset id="spell_prompt_singular" type="audio" url="audio/spelling/vo_spell_onload_sound.mp3" />
+			<!-- plural: click the letters that make the sound [insert phoneme] -->
+			<asset id="spell_prompt_plural" type="audio" url="audio/spelling/vo_spell_onload_word_0.mp3" />
+			<!-- in the word [insert word] -->
+			<asset id="spell_prompt_in_the_word" type="audio" url="audio/spelling/vo_spell_onload_word_1.mp3" />
+			
+			<!-- rotate these on correct spelling -->
+			<asset id="spell_correct_0" type="audio" url="audio/spelling/vo_spell_correct_0.mp3" />
+			<asset id="spell_correct_1" type="audio" url="audio/spelling/vo_spell_correct_1.mp3" />
+			<asset id="spell_correct_2" type="audio" url="audio/spelling/vo_spell_correct_2.mp3" />
+			<asset id="spell_correct_3" type="audio" url="audio/spelling/vo_spell_correct_3.mp3" />
+			
+			<!-- for singular: doesn't make the sound -->
+			<asset id="spell_incorrect_singular" type="audio" url="audio/spelling/vo_spell_incorrect_letter.mp3" />
+
+			<!-- for plural: and -->
+			<asset id="spell_incorrect_plural_and" type="audio" url="audio/spelling/vo_spell_incorrect_letters_0.mp3" />			
+			
+			<!-- for plural: together don't make the sound -->
+			<asset id="spell_incorrect_plural" type="audio" url="audio/spelling/vo_spell_incorrect_letters_1.mp3" />
+			
+			<!-- in the word -->
+			<asset id="spell_incorrect_in_the_word" type="audio" url="audio/spelling/vo_spell_incorrect_letters_2.mp3" />
+			
+			<!-- rotate these for oops -->
+			<asset id="spell_incorrect_oops_0" type="audio" url="audio/spelling/vo_spell_incorrect_suffix_0.mp3" />
+			<asset id="spell_incorrect_encouragement_0" type="audio" url="audio/spelling/vo_spell_incorrect_suffix_1.mp3" />
+			<asset id="spell_incorrect_encouragement_1" type="audio" url="audio/spelling/vo_spell_incorrect_suffix_2.mp3" />
+			
+			
+			<!-- FROSTING STATION -->
+			<!-- it smells delicious -->
+			<asset id="frosting_general_prompt_0" type="audio" url="audio/frosting/vo_frosting_onload_0.mp3" />
+			
+			<!-- ok, super you... chose a frosting flavor, on station arrival -->
+			<asset id="frosting_general_prompt_1" type="audio" url="audio/frosting/vo_frosting_onload_1.mp3" />
+			
+			<!-- old 
+			<asset id="frosting_onselect" type="audio" url="audio/frosting/vo_frosting_onselect_letter_0.mp3" />
+			-->
+			
+			<!-- initial frosting on selection VO - this is followed by letter selection panel and click the letter VO -->
+			<!-- old
+			<asset id="frosting_onselect_short" type="audio" url="audio/frosting/vo_frosting_onselect_short.mp3" />
+			-->
+			
+			<!-- REVISION: -->
+			<!-- on frosting select: 
+				new file: vo_frosting_onselect_kudos.mp3
+				'magnificent' (close panel)
+				this is an edit from vo_frosting_onselect_short.mp3.  Create by removing everything after 'magnificent'.
+			-->
+			<asset id="frosting_onselect_kudos" type="audio" url="audio/frosting/vo_frosting_onselect_kudos.mp3" />
+			
+			
+			<!-- on frosting letter panel open and on timeout
+				new file: vo_frosting_letter_prompt.mp3 
+				'to put your frosting on'
+				create by removing 'magnificent' from the beginning of vo_frosting_onselect_short.mp3 
+			-->
+			<asset id="frosting_letter_prompt" type="audio" url="audio/frosting/vo_frosting_letter_prompt.mp3" />
+			
+			
+			
+			<!-- TOPPER/DECORATIVE STATION -->
+			<!-- beautiful. now that the cake has been frosted, let's chose a decoration -->
+			<asset id="topper_general_prompt" type="audio" url="audio/topper/vo_topper_onload.mp3" />
+			<!-- what a delightful decoration -->
+			<asset id="topper_onselect" type="audio" url="audio/topper/vo_topper_onselect.mp3" />
+			
+			<!-- use general spelling prompts and responses for topper station -->
+				
+			
+			<!-- SPRINKLE STATION -->
+			<!-- and now for the finishing touch, click to add 3 different toppings -->
+			<asset id="sprinkle_prompt" type="audio" url="audio/sprinkle/vo_toppings_onload.mp3" />
+
+			<asset id="sprinkletype_chocolatechips" type="audio" url="audio/sprinkle/vo_toppings_ro_chocolate_chips.mp3"><![CDATA[Chocolate Chips]]></asset>
+			<asset id="sprinkletype_rainbow" type="audio" url="audio/sprinkle/vo_toppings_ro_rainbow_sprinkles.mp3"><![CDATA[Rainbow Sprinkles]]></asset>
+			<asset id="sprinkletype_nuts" type="audio" url="audio/sprinkle/vo_toppings_ro_crushed_nuts.mp3"><![CDATA[Crushed Nuts]]></asset>
+			<asset id="sprinkletype_coconut" type="audio" url="audio/sprinkle/vo_toppings_ro_coconut_flakes.mp3"><![CDATA[Coconut Flakes]]></asset>
+			<asset id="sprinkletype_peanutbutterchips" type="audio" url="audio/sprinkle/vo_toppings_ro_peanut_butter_chips.mp3"><![CDATA[Peanut Butter Chips]]></asset>
+			<asset id="sprinkletype_hearts" type="audio" url="audio/sprinkle/vo_toppings_ro_candy_hearts.mp3"><![CDATA[Candy Hearts]]></asset>
+			
+				
+			<!-- PAYOFF -->
+			<asset id="payoff_prompt" type="audio" url="audio/global/vo_payoff_on_load.mp3" />
+				
+			
+			<!-- CURRICULUM WORDS for frosting -->
+			<asset id="frostingflavor_banana" color="0xD8B42A" type="audio" url="audio/frosting/vo_frosting_ro_banana.mp3"><![CDATA[Banana]]></asset>
+			<asset id="frostingflavor_chocolate" phonemes="ch,o,c,o,l,a,t,e" color="0x6F332D" type="audio" url="audio/frosting/vo_frosting_ro_chocolate.mp3"><![CDATA[Chocolate]]></asset>
+			<asset id="frostingflavor_grape" phonemes="gr,a,p,e" color="0x6C45A0" type="audio" url="audio/frosting/vo_frosting_ro_grape.mp3"><![CDATA[Grape]]></asset>
+			<asset id="frostingflavor_mint" color="0x6EAD41" type="audio" url="audio/frosting/vo_frosting_ro_mint.mp3"><![CDATA[Mint]]></asset>
+			<asset id="frostingflavor_strawberry" phonemes="str,a,w,b,e,r,r,y" color="0xBF1C24" type="audio" url="audio/frosting/vo_frosting_ro_strawberry.mp3"><![CDATA[Strawberry]]></asset>			
+			<asset id="frostingflavor_vanilla" color="0xE2D7C1" type="audio" url="audio/frosting/vo_frosting_ro_vanilla.mp3"><![CDATA[Vanilla]]></asset>
+
+			
+			<!-- LETTERS -->
+			<asset id="letter_a" type="audio" url="audio/spelling/letters/vo_letter_a.mp3" />
+			<asset id="letter_b" type="audio" url="audio/spelling/letters/vo_letter_b.mp3" />
+			<asset id="letter_c" type="audio" url="audio/spelling/letters/vo_letter_c.mp3" />
+			<asset id="letter_d" type="audio" url="audio/spelling/letters/vo_letter_d.mp3" />				
+			<asset id="letter_e" type="audio" url="audio/spelling/letters/vo_letter_e.mp3" />
+			<asset id="letter_f" type="audio" url="audio/spelling/letters/vo_letter_f.mp3" />			
+			<asset id="letter_g" type="audio" url="audio/spelling/letters/vo_letter_g.mp3" />
+			<asset id="letter_h" type="audio" url="audio/spelling/letters/vo_letter_h.mp3" />
+			<asset id="letter_i" type="audio" url="audio/spelling/letters/vo_letter_i.mp3" />
+			<asset id="letter_j" type="audio" url="audio/spelling/letters/vo_letter_j.mp3" />
+			<asset id="letter_k" type="audio" url="audio/spelling/letters/vo_letter_k.mp3" />
+			<asset id="letter_l" type="audio" url="audio/spelling/letters/vo_letter_l.mp3" />
+			<asset id="letter_m" type="audio" url="audio/spelling/letters/vo_letter_m.mp3" />
+			<asset id="letter_n" type="audio" url="audio/spelling/letters/vo_letter_n.mp3" />
+			<asset id="letter_o" type="audio" url="audio/spelling/letters/vo_letter_o.mp3" />
+			<asset id="letter_p" type="audio" url="audio/spelling/letters/vo_letter_p.mp3" />
+			<asset id="letter_q" type="audio" url="audio/spelling/letters/vo_letter_q.mp3" />
+			<asset id="letter_r" type="audio" url="audio/spelling/letters/vo_letter_r.mp3" />
+			<asset id="letter_s" type="audio" url="audio/spelling/letters/vo_letter_s.mp3" />
+			<asset id="letter_t" type="audio" url="audio/spelling/letters/vo_letter_t.mp3" />
+			<asset id="letter_u" type="audio" url="audio/spelling/letters/vo_letter_u.mp3" />
+			<asset id="letter_w" type="audio" url="audio/spelling/letters/vo_letter_w.mp3" />
+			<asset id="letter_x" type="audio" url="audio/spelling/letters/vo_letter_x.mp3" />
+			<asset id="letter_y" type="audio" url="audio/spelling/letters/vo_letter_y.mp3" />
+			<asset id="letter_z" type="audio" url="audio/spelling/letters/vo_letter_z.mp3" />
+
+			
+			<!-- PHONEMES -->
+			<asset id="phoneme_a" type="audio" url="audio/spelling/phonemes/vo_phoneme_a_apple.mp3" />
+			<asset id="phoneme_b" type="audio" url="audio/spelling/phonemes/vo_phoneme_b_bell.mp3" />
+			<asset id="phoneme_c" type="audio" url="audio/spelling/phonemes/vo_phoneme_c_cat.mp3" />
+			<asset id="phoneme_d" type="audio" url="audio/spelling/phonemes/vo_phoneme_dog.mp3" />				
+			<asset id="phoneme_e" type="audio" url="audio/spelling/phonemes/vo_phoneme_elephant.mp3" />
+			<asset id="phoneme_f" type="audio" url="audio/spelling/phonemes/vo_phoneme_foot.mp3" />			
+			<asset id="phoneme_g" type="audio" url="audio/spelling/phonemes/vo_phoneme_goose.mp3" />
+			<asset id="phoneme_h" type="audio" url="audio/spelling/phonemes/vo_phoneme_hat.mp3" />
+			<asset id="phoneme_i" type="audio" url="audio/spelling/phonemes/vo_phoneme_i_igloo.mp3" />
+			<asset id="phoneme_j" type="audio" url="audio/spelling/phonemes/vo_phoneme_j_jet.mp3" />
+			<asset id="phoneme_k" type="audio" url="audio/spelling/phonemes/vo_phoneme_k_king.mp3" />
+			<asset id="phoneme_l" type="audio" url="audio/spelling/phonemes/vo_phoneme_l_leaf.mp3" />
+			<asset id="phoneme_m" type="audio" url="audio/spelling/phonemes/vo_phoneme_m_money.mp3" />
+			<asset id="phoneme_n" type="audio" url="audio/spelling/phonemes/vo_phoneme_n_nine.mp3" />
+			<asset id="phoneme_o" type="audio" url="audio/spelling/phonemes/vo_phoneme_o_octopus.mp3" />
+			<asset id="phoneme_p" type="audio" url="audio/spelling/phonemes/vo_phoneme_pale.mp3" />
+			<asset id="phoneme_q" type="audio" url="audio/spelling/phonemes/vo_phoneme_queen.mp3" />
+			<asset id="phoneme_r" type="audio" url="audio/spelling/phonemes/vo_phoneme_r_rug.mp3" />
+			<asset id="phoneme_s" type="audio" url="audio/spelling/phonemes/vo_phoneme_sock.mp3" />
+			<asset id="phoneme_t" type="audio" url="audio/spelling/phonemes/vo_phoneme_top.mp3" />
+			<asset id="phoneme_u" type="audio" url="audio/spelling/phonemes/vo_phoneme_umbrella.mp3" />
+			<asset id="phoneme_v" type="audio" url="audio/spelling/phonemes/vo_phoneme_violin.mp3" />
+			<asset id="phoneme_w" type="audio" url="audio/spelling/phonemes/vo_phoneme_wagon.mp3" />
+			<asset id="phoneme_x" type="audio" url="audio/spelling/phonemes/vo_phoneme_xylophone.mp3" />
+			<asset id="phoneme_y" type="audio" url="audio/spelling/phonemes/vo_phoneme_y_yarn.mp3" />
+			<asset id="phoneme_z" type="audio" url="audio/spelling/phonemes/vo_phoneme_zebra.mp3" />
+			
+			<!-- multi-letter phonemes -->
+			<asset id="phoneme_ar" type="audio" url="audio/spelling/phonemes/vo_phoneme_ar.mp3" />
+			<asset id="phoneme_ch" type="audio" url="audio/spelling/phonemes/vo_phoneme_ch.mp3" />
+			<asset id="phoneme_ck" type="audio" url="audio/spelling/phonemes/vo_phoneme_ck.mp3" />
+			<asset id="phoneme_cr" type="audio" url="audio/spelling/phonemes/vo_phoneme_cr.mp3" />
+			<asset id="phoneme_ee" type="audio" url="audio/spelling/phonemes/vo_phoneme_ee.mp3" />
+			<asset id="phoneme_fl" type="audio" url="audio/spelling/phonemes/vo_phoneme_fl.mp3" />
+			<asset id="phoneme_ft" type="audio" url="audio/spelling/phonemes/vo_phoneme_ft.mp3" />
+			<asset id="phoneme_gr" type="audio" url="audio/spelling/phonemes/vo_phoneme_gr.mp3" />
+			<asset id="phoneme_ing" type="audio" url="audio/spelling/phonemes/vo_phoneme_ing.mp3" />
+			<asset id="phoneme_ll" type="audio" url="audio/spelling/phonemes/vo_phoneme_ll.mp3" />
+			<asset id="phoneme_nn" type="audio" url="audio/spelling/phonemes/vo_phoneme_nn.mp3" />
+			<asset id="phoneme_oo" type="audio" url="audio/spelling/phonemes/vo_phoneme_oo.mp3" />
+			<asset id="phoneme_ow" type="audio" url="audio/spelling/phonemes/vo_phoneme_ow.mp3" />
+			<asset id="phoneme_sh" type="audio" url="audio/spelling/phonemes/vo_phoneme_sh.mp3" />
+			<asset id="phoneme_sl" type="audio" url="audio/spelling/phonemes/vo_phoneme_sl.mp3" />
+			<asset id="phoneme_sn" type="audio" url="audio/spelling/phonemes/vo_phoneme_sn.mp3" />
+			<asset id="phoneme_st" type="audio" url="audio/spelling/phonemes/vo_phoneme_st.mp3" />			
+			<asset id="phoneme_str" type="audio" url="audio/spelling/phonemes/vo_phoneme_str.mp3" />	
+			<asset id="phoneme_tr" type="audio" url="audio/spelling/phonemes/vo_phoneme_tr.mp3" />
+			<asset id="phoneme_tt" type="audio" url="audio/spelling/phonemes/vo_phoneme_tt.mp3" />
+			
+			<asset id="spell_finale" type="audio" url="audio/spelling/vo_spell_finale.mp3" />
+	
+		</assets>
+
+		
+		<onDemandResources>
+			
+			<!-- 
+				Use the phonemes attribute only for words that require multi-letter phonemes, which associate 
+				a single audio file with a letter group (like the sound of "ft" or "ch").
+				For assets that don't have a phonemes attribute (the default), the code will scan each single 
+				letter in a word, and automatically associate one audio VO with each letter.
+			-->
+			
+			
+			<group id="halloween">
+				<item id="pan">
+					<asset id="bat" type="audio" url="audio/cakepan/vo_cake_ro_bat.mp3"><![CDATA[Bat]]></asset>
+					<asset id="witch" phonemes="w,i,t,ch" type="audio" url="audio/cakepan/vo_cake_ro_witch.mp3"><![CDATA[Witch]]></asset>
+					<asset id="web" type="audio" url="audio/cakepan/vo_cake_ro_web.mp3"><![CDATA[Web]]></asset>
+				</item>	
+				<item id="topper">
+					<asset id="cat" type="audio" url="audio/topper/vo_topper_ro_cat.mp3"><![CDATA[Cat]]></asset>
+					<asset id="pumpkin" type="audio" url="audio/topper/vo_topper_ro_pumpkin.mp3"><![CDATA[Pumpkin]]></asset>
+					<asset id="mask" type="audio" url="audio/topper/vo_topper_ro_mask.mp3"><![CDATA[Mask]]></asset>
+					<asset id="bug" type="audio" url="audio/topper/vo_topper_ro_bug.mp3"><![CDATA[Bug]]></asset>
+					<asset id="moon" phonemes="m,oo,n" type="audio" url="audio/topper/vo_topper_ro_moon.mp3"><![CDATA[Moon]]></asset>				
+				</item>
+			</group>
+			
+			<group id="birthday">	
+				<item id="pan">
+					<asset id="gift" type="audio" url="audio/cakepan/vo_cake_ro_gift.mp3"><![CDATA[Gift]]></asset>
+					<asset id="hat" type="audio" url="audio/cakepan/vo_cake_ro_hat.mp3"><![CDATA[Hat]]></asset>
+					<asset id="bow" phonemes="b,ow" type="audio" url="audio/cakepan/vo_cake_ro_bow.mp3"><![CDATA[Bow]]></asset>
+				</item>	
+				<item id="topper">
+					<asset id="bag" type="audio" url="audio/topper/vo_topper_ro_bag.mp3"><![CDATA[Bag]]></asset>
+					<asset id="sing" phonemes="s,ing" type="audio" url="audio/topper/vo_topper_ro_sing.mp3"><![CDATA[Sing]]></asset>
+					<asset id="star" phonemes="st,ar" type="audio" url="audio/topper/vo_topper_ro_star.mp3"><![CDATA[Star]]></asset>
+					<asset id="snack" phonemes="sn,a,ck" type="audio" url="audio/topper/vo_topper_ro_snack.mp3"><![CDATA[Snack]]></asset>
+					<asset id="tent" type="audio" url="audio/topper/vo_topper_ro_tent.mp3"><![CDATA[Tent]]></asset>
+				</item>						
+			</group>
+			
+			<group id="winter">
+				<item id="pan">
+					<asset id="snowman" phonemes="sn,ow,m,a,n" type="audio" url="audio/cakepan/vo_cake_ro_snowman.mp3"><![CDATA[Snowman]]></asset>
+					<asset id="tree" phonemes="tr,ee" type="audio" url="audio/cakepan/vo_cake_ro_tree.mp3"><![CDATA[Tree]]></asset>
+					<asset id="sled" phonemes="sl,e,d" type="audio" url="audio/cakepan/vo_cake_ro_sled.mp3"><![CDATA[Sled]]></asset>
+				</item>	
+				<item id="topper">
+					<asset id="bell" phonemes="b,e,ll" type="audio" url="audio/topper/vo_topper_ro_bell.mp3"><![CDATA[Bell]]></asset>
+					<asset id="boots" phonemes="b,oo,t,s" type="audio" url="audio/topper/vo_topper_ro_boots.mp3"><![CDATA[Boots]]></asset>
+					<asset id="elf" type="audio" url="audio/topper/vo_topper_ro_elf.mp3"><![CDATA[Elf]]></asset>
+					<asset id="bulb" type="audio" url="audio/topper/vo_topper_ro_bulb.mp3"><![CDATA[Bulb]]></asset>
+					<asset id="mitten" phonemes="m,i,tt,e,n" type="audio" url="audio/topper/vo_topper_ro_mitten.mp3"><![CDATA[Mitten]]></asset>
+				</item>
+			</group>
+			
+			
+			<group id="beach">
+				<item id="pan">
+					<asset id="sun" type="audio" url="audio/cakepan/vo_cake_ro_sun.mp3"><![CDATA[Sun]]></asset>
+					<asset id="crab" phonemes="cr,a,b" type="audio" url="audio/cakepan/vo_cake_ro_crab.mp3"><![CDATA[Crab]]></asset>
+					<asset id="fish" phonemes="f,i,sh" type="audio" url="audio/cakepan/vo_cake_ro_fish.mp3"><![CDATA[Fish]]></asset>
+				</item>	
+				<item id="topper">
+					<asset id="tennis" phonemes="t,e,nn,i,s" type="audio" url="audio/topper/vo_topper_ro_tennis.mp3"><![CDATA[Tennis]]></asset>
+					<asset id="sand" type="audio" url="audio/topper/vo_topper_ro_sand.mp3"><![CDATA[Sand]]></asset>
+					<asset id="flag" phonemes="fl,a,g" type="audio" url="audio/topper/vo_topper_ro_flag.mp3"><![CDATA[Flag]]></asset>
+					<asset id="shell" phonemes="sh,e,ll" type="audio" url="audio/topper/vo_topper_ro_shell.mp3"><![CDATA[Shell]]></asset>
+					<asset id="pool" phonemes="p,oo,l" type="audio" url="audio/topper/vo_topper_ro_pool.mp3"><![CDATA[Pool]]></asset>												
+				</item>
+			</group>
+			
+		</onDemandResources>
+		
+		
+		
+			
+			
+			
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

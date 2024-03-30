@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Grandma Thora\'s About Me Page | PBS Kids' %}
+{% set desc = 'Grandma Thora even has a profile page! Learn about her favorite things and take a poll about burnt brownies. See her favorite books too!' %}
+{% set keywds = 'Grandma Thora, ARTHUR, profile, interests, favorites' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/thora_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/thora_top.swf", "thora", "960", "363", "9", "#ffcccc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "grandma");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-thora">Grandma Thora's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Grandma Thora Appreciation Day.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     The kids don't seem to like my cookies. (Maybe it's the eggshells...)
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Teaching Arthur to play marbles.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_fcc">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you like your brownies a little bit burned?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/grandma/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="thora"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="../../i/friends/books/thora_book1.jpg" width="148" height="117" alt="What! Cried Granny: An Almost Bedtime Story book cover" border="0"> <h4>What! Cried Granny: An Almost Bedtime Story</h4> <p>by Kate Lum<br> Granny can build, sew, and fix anything. A sleepover at her house is never boring!</p></li>
+    <li><img src="../../i/friends/books/thora_book2.jpg" width="148" height="117" alt="Three Cheers for Catherine the Great book cover" border="0"> <h4>Three Cheers for Catherine the Great!</h4> <p>by Cari Best<br> Grandma Catherine wants NO PRESENTS for her birthday. Mama says the best NO PRESENTS come from deep inside you. Sara knows the perfect NO PRESENT to give her grandma.</p></li>
+    <li><img src="../../i/friends/books/thora_book3.jpg" width="148" height="117" alt="Gugu's House book cover" border="0"> <h4>Gugu's House</h4> <p>by Catherine Stock<br> Gugu's house is painted bright colors and there's a larger-than-life clay zebra outside. One day when Kukama is visiting her grandmother, rain washes all the colors away. Gugu shows Kukama how they can paint everything anew.</p></li>
+    <li><img src="/arthur/i/friends/books/thora_book4.jpg" width="148" height="117" alt="Grandmother's Dreamcatcher book cover" border="0"> <h4>Grandmother's Dreamcatcher</h4> <p>by Becky Ray McCain<br> When Kimmy stays at her grandmother's cabin, she has nightmares. Together they make a Chippewa dreamcatcher to snag the bad dreams and only let the happy dreams drift through.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/friends/baby_kate/index.html" id="rcKate">Baby Kate</a></li>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

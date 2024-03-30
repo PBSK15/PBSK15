@@ -1,0 +1,25 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Comic Creator | PBS Kids' %}
+{% set desc = 'Make a comic! Drag characters, backgrounds, props, and speech bubbles into boxes, then type your own story. Or modify an existing comic with the Story Starter.' %}
+{% set keywds = 'comic book, graphic novel, Sue Ellen, Neil Gaiman, write, compose, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-6cc">
+ <div class="ruler"></div>
+ <div id="mainFeature"><!--<img src="../../i/games/comic_header.gif" width="828" height="75" border="0" alt="Comic Creator" id="fo_header"/>-->
+  <div id="swf_content"><!--<div id="flashcontent" class="comiccreator">						<p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br /><br />Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/comiccreator/index.html">play the game.</a><br /><br /><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.						</p>					</div>					<script type="text/javascript">				   var fo = new SWFObject("comicloader.swf", "comiccreator", "800", "451", "9", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				//  PBS_enable_cdn(fo);				   fo.write("flashcontent");					</script>-->
+   <div id="flashcontent" class="charbuilder">
+    <script>				document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="936" height="628" id="flashpage" align="middle">');			    document.write('<param name="allowScriptAccess" value="always">');			    document.write('<param name="movie" value="https://pbskids.org/arthur/games/characterbuilder/CharacterBuilder.swf">');			    document.write('<param name="quality" value="high">');			    document.write('<param name="bgcolor" value="#66cccc">');				document.write('<param name="flashvars" value="username=(none)&cdnpath=https://pbskids.org" />');			    document.write('<embed src="https://pbskids.org/arthur/games/characterbuilder/CharacterBuilder.swf" quality="high" bgcolor="#66cccc" width="936" height="628" id="flashpage" name="flashpage" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="https://www.macromedia.com/go/getflashplayer" flashvars="username=(none)&cdnpath=https://pbskids.org">');				document.write('</object>');			</script>
+   </div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/moviemaker/index.html" id="rcMovieMaker">Movie Maker</a></li>
+   <li><a href="/arthur/games/letsdrawarthur/index.html" id="rcDrawArthur">Let's Draw Arthur</a></li>
+   <li><a href="/arthur/games/comiccreator/index.html" id="rcComic">Comic Creator</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

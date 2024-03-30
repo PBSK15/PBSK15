@@ -1,0 +1,47 @@
+<section id="HOME" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . HOME | PBS KIDS]]></title>
+	<swf url="sections/home/home.swf" />
+	<libraries />
+	
+	<assets>
+		<promos id="promos" isGroup="true">
+			<!-- THIS IS THE PROMO THAT FLIES ALONG THE TOP OF THE HOME PAGE -->
+			<promo id="djgame" location="game/djgame" url="promos/home_promo_DJ.swf" />	
+			<promo id="deliciousdish" location="game/deliciousdish" url="promos/home_promo_deliciousdish.swf" />
+			<promo id="createasuperdog" location="game/createasuperdog" url="promos/home_promo_createasuperpet.swf" />
+			<!--<promo id="cakemaker" location="game/cakegame" url="promos/home_promo_cake.swf" />
+			<promo id="superyouweek_printable" location="superstuff/printables/superyouweek_printable" url="promos/home_promo_superyouprint.swf" />
+			<promo id="woofstersjourney" location="game/woofstersjourney" url="promos/home_promo_goldenbone.swf" />	
+			<promo id="puppydaycare" location="game/puppydaycare" url="promos/home_promo_puppyDayCare.swf"/>	
+			<promo id="calling_superreaders" location="game/calling_superreaders" url="promos/home_promo_CASR.swf" />
+			<promo id="bookjumble" location="game/bookjumble" url="promos/home_promo_bookJumble.swf" />-->
+			
+			
+			<!--
+			<promo id="superwhyconcentration" location="game/superwhyconcentration" url="promos/home_promo_concentrationSW.swf" />
+			<promo id="jukebox" location="game/jukebox" url="promos/home_promo_jukebox.swf" />
+			<promo id="designcenter" location="game/designcenter" url="promos/home_promo_designCenter.swf" />
+			<promo id="superstuff" location="/superstuff/printables" url="promos/home_promo_printables.swf" />
+			<promo id="freezedance" location="game/freezedance" url="promos/home_promo_wrfd.swf" />
+			<promo id="wonderredconcentration" location="game/concentration/wonderred" url="promos/home_promo_concentrationWR.swf" />
+			<promo id="comicbook" location="game/comicbook" url="promos/home_promo_attackEraser.swf"  />
+			<promo id="princessprestoconcentration" location="game/princessprestoconcentration--" url="promos/home_promo_concentrationPP.swf" />
+			<promo id="superwhybingo" location="/game/superwhybingo" url="promos/home_promo_readingpowerbingo.swf" />
+			<promo id="heroes" location="http://pbskids.org/superwhy/parentsteachers/heroes/index.html" url="promos/home_promo_heroes.swf" />
+			<promo id="superreaderchallenge" location="game/superreaderchallenge" url="promos/home_promo_superreaderchallenge.swf" />			<promo id="watch" location="http|/superwhy/parentsteachers/videos/index.html" url="promos/home_promo_watch.swf" />
+			<promo id="spellingbee" location="game/spellingbee" url="promos/home_promo_spellingbee.swf" />
+			<promo id="storybookcreator" location="game/storybookcreator" url="promos/home_promo_storybook.swf" /> /-->
+
+		</promos>
+		<voiceovers id="voiceovers" isGroup="true">
+			<!--<audio id="go" type="audio" url="audio/superwhy/sw_button_go.mp3" />-->
+			<audio id="alphapig" type="audio" url="audio/sitenav/rollover_pig.mp3" />
+			<audio id="princesspresto" type="audio" url="audio/sitenav/rollover_princess.mp3" />
+			<audio id="wonderred" type="audio" url="audio/sitenav/rollover_red.mp3" />
+			<audio id="superwhy" type="audio" url="audio/sitenav/rollover_superwhy.mp3" />
+			<audio id="woofster" type="audio" url="audio/sitenav/rollover_woofster.mp3" />
+			<audio id="storybrookvillage" type="audio" url="audio/sitenav/rollover_storybrook.mp3" />
+		</voiceovers>
+	</assets>
+</section>
+

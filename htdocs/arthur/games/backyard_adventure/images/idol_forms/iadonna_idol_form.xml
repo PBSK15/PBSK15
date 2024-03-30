@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:11461b89753fed44a3aadb8373dd3fc7:bc419e6f894a221cda0d120e33163011:e8ec91a573633427036f2473544f1c0b$ -->
+<TextureAtlas imagePath="iadonna_idol_form.png">
+    <SubTexture name="ladonna_idol_form_00" x="1" y="1" width="494" height="366" frameX="-31" frameY="-17" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_01" x="496" y="1" width="460" height="352" frameX="-50" frameY="-23" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_02" x="957" y="1" width="430" height="336" frameX="-65" frameY="-31" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_03" x="1388" y="1" width="400" height="322" frameX="-80" frameY="-37" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_04" x="1" y="368" width="372" height="308" frameX="-93" frameY="-43" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_05" x="374" y="368" width="340" height="292" frameX="-109" frameY="-51" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_06" x="715" y="368" width="310" height="278" frameX="-124" frameY="-57" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_07" x="1026" y="368" width="282" height="262" frameX="-137" frameY="-65" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_08" x="1309" y="368" width="252" height="248" frameX="-152" frameY="-71" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_09" x="1562" y="368" width="222" height="234" frameX="-167" frameY="-78" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_10" x="1785" y="368" width="192" height="218" frameX="-182" frameY="-86" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_11" x="1" y="677" width="162" height="204" frameX="-196" frameY="-92" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_12" x="164" y="677" width="132" height="190" frameX="-211" frameY="-98" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_13" x="297" y="677" width="102" height="174" frameX="-226" frameY="-106" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_14" x="400" y="677" width="72" height="160" frameX="-241" frameY="-112" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_15" x="473" y="677" width="84" height="192" frameX="-233" frameY="-98" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_16" x="558" y="677" width="88" height="202" frameX="-232" frameY="-93" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_17" x="647" y="677" width="94" height="212" frameX="-228" frameY="-88" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_18" x="742" y="677" width="98" height="222" frameX="-226" frameY="-83" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_19" x="841" y="677" width="102" height="232" frameX="-224" frameY="-78" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_20" x="944" y="677" width="106" height="242" frameX="-222" frameY="-73" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_21" x="1051" y="677" width="110" height="252" frameX="-220" frameY="-68" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_22" x="1162" y="677" width="114" height="262" frameX="-218" frameY="-63" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_23" x="1277" y="677" width="118" height="274" frameX="-216" frameY="-57" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_24" x="1396" y="677" width="122" height="284" frameX="-214" frameY="-52" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_25" x="1519" y="677" width="126" height="294" frameX="-212" frameY="-47" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_26" x="1646" y="677" width="132" height="304" frameX="-209" frameY="-42" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_27" x="1779" y="677" width="136" height="314" frameX="-207" frameY="-37" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_28" x="1" y="992" width="140" height="324" frameX="-205" frameY="-32" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_29" x="142" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_30" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_31" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_32" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_33" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_34" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_35" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_36" x="432" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_37" x="577" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_38" x="722" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_39" x="867" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_40" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_41" x="1012" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_42" x="1157" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_43" x="1302" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_44" x="1447" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_45" x="1592" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_46" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_47" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_48" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_49" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_50" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_51" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_52" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_53" x="287" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="ladonna_idol_form_54" x="142" y="992" width="144" height="334" frameX="-203" frameY="-27" frameWidth="550" frameHeight="400"/>
+</TextureAtlas>

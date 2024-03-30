@@ -1,0 +1,61 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'More Resources . Arthur' %}
+{% set specialInclude = '<style type="text/css">	h6 { margin: 10px 0 8px; }	li.topic li { font: 0.875em/1.125em montserrat, sans-serif; }	#content .group { margin-bottom: 1em; }	.menu-topics { padding-top: 0; }	.topic p { padding: 0 0 1em; }	.menu-topics li.topic {		width: 47%;	}	p.pad { padding: 1.5em 0.75em 0 2em; }	.menu-topics li.middle { margin: 0 4% 0 1%; }	ul.menu-topics a.print-btn {		font: 1.143em "lilita one", sans-serif;		text-align: left;		margin-bottom: 16px;	}	.print-btn { width: 14.2em; }	@media only screen and (max-width: 788px) {		p.pad { padding: 0 0 14px; }		.menu-topics li.topic { width: 100%; }		.menu-topics li.middle { margin: 0; }	}	@media only screen and (max-width: 400px) {		.print-btn span { display: none; }		.print-btn { width: 10.25em; }	}	</style>' %}
+{% set bodyClass = 'orange' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><a href="asthma/">Asthma</a></li>
+   <li><a href="allergy/">Peanut Allergy</a></li>
+   <li><a href="nutrition/">Nutrition</a></li>
+   <li><a href="resilience/">Resilience</a></li>
+   <li><a href="fitness/">Fitness</a></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Home</a>
+   </div>
+   <ul>
+    <li><a href="asthma/">Asthma</a></li>
+    <li><a href="allergy/">Peanut Allergy</a></li>
+    <li><a href="nutrition/">Nutrition</a></li>
+    <li><a href="resilience/">Resilience</a></li>
+    <li><a href="fitness/">Fitness</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="more-res group">
+  <div class="group"><img class="col5" src="img/shared_video_pal.png" alt="D.W. pulls a red wheelbarrow full of books">
+   <div class="col7">
+    <p class="pad">Here are some resources for other health topics that may affect your family.</p>
+   </div>
+  </div>
+  <ul class="menu-topics">
+   <li class="topic middle">
+    <div>
+     <div class="caret-menu"></div>Cancer
+    </div>
+    <ul>
+     <li><h6>When Someone You Know Has Cancer</h6> <p>This booklet includes resources to help your child when someone he or she cares about has cancer.</p> <a href="pdf/arthur_cancer_english.pdf" class="print-btn">
+       <div class="print-icon"></div>Print <span>Booklet </span>(English)</a> <a href="pdf/arthur_cancer_spanish.pdf" class="print-btn">
+       <div class="print-icon"></div>Print <span>Booklet </span>(Spanish)</a></li>
+    </ul></li>
+   <li class="topic">
+    <div>
+     <div class="caret-menu"></div>Oral Hygiene
+    </div>
+    <ul>
+     <li><h6>Open Wide!</h6> <p>Help children learn to take good care of their teeth and chart your child's brushing habits with Arthur!</p> <a href="pdf/arthur_oral_hygiene_english.pdf" class="print-btn" style="width:14.2em;">
+       <div class="print-icon"></div>Print <span>Booklet </span>(English)</a> <a href="pdf/arthur_oral_hygiene_spanish.pdf" class="print-btn" style="width:14.2em;">
+       <div class="print-icon"></div>Print <span>Booklet </span>(Spanish)</a></li>
+    </ul></li>
+  </ul>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="js/jquery-1.10.2.min.js"></script><script src="js/main.js"></script>' %}

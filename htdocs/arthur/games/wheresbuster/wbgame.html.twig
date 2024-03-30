@@ -1,0 +1,37 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Buster Baxter: Where\'s Buster | PBS Kids' %}
+{% set desc = 'Learn about international foods in this fun arcade-style food game. Jump on the clouds to collect all the ingredients for some delicious international recipes. But watch out for the clock!' %}
+{% set keywds = 'Buster, Arthur, food, international, recipes, ingredients, cooking, arcade, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />    <script>
+function gamepop() {
+    var newWind = window.open(\'/arthur/games/wheresbuster/abbrevs.html\',\'help\',\'scrollbars=yes,statusbar=no,toolbar=no,menubar=no,locationbar=no,width=205,height=505,dependent=yes\');
+    if (newWind) newWind.focus();
+    return true;
+}
+    </script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="wherebusterbg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/wheresbuster_header.gif" width="623" height="75" border="0" alt="Buster Baxter - Where's Buster" id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="wherebuster">
+    <p>You can <a href="http://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="http://pbskids.org/arthur/games/wheresbuster/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <div id="abbrev">
+    <a href="abbrevs.html" target="gamehelp" onclick="gamepop();return false;">List of state<br>abbreviations</a>
+   </div>
+   <script type="text/javascript">                   var fo = new SWFObject("wheresbuster.swf", "buildaflag", "550", "325", "9", "#3399cc");                   fo.addParam("allowScriptAccess", "always");                                     fo.write("flashcontent");                    </script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/connectworld/index.html" id="rcConnect">Connect the World</a></li>
+   <li><a href="/arthur/games/effectivedetective/index.html" id="rcDetective">Effective Detective</a></li>
+   <li><a href="/arthur/games/globalgizmo/index.html" id="rcGlobal">Global Gizmo</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

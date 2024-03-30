@@ -1,0 +1,62 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Art Gallery | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" /><script type="text/javascript" src="/arthur/js/printables.js"></script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9cc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="artgalleryHeader">Art Gallery</h4></a>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>Send Your Artwork</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+   </div>
+   <div id="grooveHowtoContent">
+    <div class="no-print">
+     <p>Want to send me your pictures? It's easy.</p>
+     <p>Get yourself a regular piece of paper. Use one that's 8.5 by 11 inches, like the ones you might put in your printer. Make sure it's this [ ] way around, or it won't fit in the expensive picture frames we brought.</p>
+     <p>When it's done, mail it to me:</p>
+     <p>Binky Barnes<br> Art Expert<br> Children's Programming<br> One Guest Street<br> Boston, MA 02135</p>
+     <p>P.S. When you finish your picture ask your mom or dad to sign this form and put it in the envelope, too.</p>
+    </div>
+    <div id="artPermissionForm">
+     <p class="caps">Print this out or make a copy of it</p>
+     <p>Permission to publish my artwork</p>
+     <p>Print Your Name: __________________________________________</p>
+     <p>Your Age (optional): ___________</p>
+     <p>Title of Your Artwork: ______________________________________</p>
+     <p>WGBH and Marc Brown shall have the right to use the Artwork I am sending to you, with my name (just my first name and last initial), as part of the ARTHUR Website, and in related materials and activities, as WGBH reasonably determines.</p>
+     <p>Signature: ______________________________</p>
+     <p>Date: ___________________________________</p>
+     <p>As a parent or guardian of the minor who has signed above, I agree to the above terms:</p>
+     <p>Printed Name: _____________________________________________</p>
+     <p>Signature: _________________________________________________</p>
+     <p>Address: ___________________________________________________</p>
+     <p>E-mail address: _____________________________________________</p>
+     <p>Date: ______________________________________________________</p>
+     <p>* Addresses provided so that we may contact you, not for use on the WGBH Web site.</p>
+     <p>When you've got the form signed and the picture ready, put them in a big enough envelope so that you don't have to fold them.</p>
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/binky/index.html" id="rcBinky">Binky</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+   <li><a href="/arthur/games/letsdrawarthur/index.html" id="rcDrawArthur">Let's Draw Arthur</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

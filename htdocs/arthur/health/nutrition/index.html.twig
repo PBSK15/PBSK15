@@ -1,0 +1,99 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'Nutrition . Arthur' %}
+{% set videoCss = true %}
+{% set specialInclude = '' %}
+{% set bodyClass = 'pink' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><a href="../asthma/">Asthma</a></li>
+   <li><a href="../allergy/">Peanut Allergy</a></li>
+   <li><h2><a href="../nutrition/">Nutrition</a></h2></li>
+   <li><a href="../resilience/">Resilience</a></li>
+   <li><a href="../fitness/">Fitness</a></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Nutrition</a>
+   </div>
+   <ul>
+    <li><a href="../asthma/">Asthma</a></li>
+    <li><a href="../allergy/">Peanut Allergy</a></li>
+    <li><a href="../resilience/">Resilience</a></li>
+    <li><a href="../fitness/">Fitness</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="top-idx group"><img class="col7" src="../img/nutrition_home_1.png" alt="D.W. smiling">
+  <div class="col5">
+   <p class="mar-t-sm">Like kids everywhere, Arthur, D.W., and their friends sometimes struggle with eating too many sweets or gaining a little too much weight. They also learn how to make better choices and create yummy and healthy snacks. Here are some resources, games, and videos to help make nutritious choices.</p>
+  </div>
+  <ul class="menu-topics">
+   <li class="topic">
+    <div>
+     <div class="caret-menu"></div>The Basics
+    </div>
+    <ul>
+     <li><a href="background-info.html">Background Information</a></li>
+     <li><a href="tips1.html">Tips for Grown-ups</a></li>
+     <li><a href="tips-kids.html">Tips for Kids</a></li>
+     <li><a href="resources.html">Resources</a></li>
+     <li><a href="educators.html">For Educators</a></li>
+    </ul></li>
+   <li class="topic middle long">
+    <div>
+     <div class="caret-menu"></div>Games &amp; <br class="force">Activities
+    </div>
+    <ul>
+     <li><a href="arthurs-cafe.html">Arthur's Café</a></li>
+     <li><a href="lunch-o-matic.html">Lunch-o-matic</a></li>
+     <li><a href="unicorn-adventure.html">D.W.'s Unicorn Adventure App</a></li>
+     <li><a href="quiz.html">Nutrition Quiz</a></li>
+    </ul></li>
+   <li class="topic">
+    <div>
+     <div class="caret-menu"></div>Videos
+    </div>
+    <ul>
+     <li><a href="episode.html">D.W. the Picky Eater</a></li>
+     <li><a href="kids-action.html">Kids in Action</a></li>
+     <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+    </ul></li>
+  </ul>
+  <h3>Featured Topic Video</h3>
+  <div id="player" class="col7vid single-video">
+   <div class="video-wrapper widescreen">
+    <video id="video-player"></video>
+   </div>
+   <div id="player-controls" class="hidden">
+    <div class="play-pause vid-ctl-btn"><button title="Play/Pause"> <span id="icon-play" class="vid-ctl-icon">play</span> <span id="icon-pause" class="vid-ctl-icon">pause</span> </button>
+    </div>
+    <div class="show-fullscreen vid-ctl-btn removed"><button title="Full-screen"> <span id="icon-fs" class="vid-ctl-icon">full-screen</span> </button>
+    </div>
+    <div class="toggle-captions vid-ctl-btn"><button title="Captions on/off"> <span id="icon-captoff" class="vid-ctl-icon">CC</span> <span id="icon-capton" class="vid-ctl-icon">CC</span> </button>
+    </div>
+    <div class="mute-unmute vid-ctl-btn"><button title="Mute/Unmute"> <span id="icon-mute" class="vid-ctl-icon">mute</span> <span id="icon-unmute" class="vid-ctl-icon">unmute</span> </button>
+    </div>
+    <div class="timer-remaining">
+     ––:––
+    </div>
+    <div class="scrubber">
+     <div class="scrubber-track">
+      <button class="scrubber-thumb"></button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="col5 vid-txt">
+   <script>var videoID="97db607a-dd1c-4a78-a851-6b310d95c77a";</script>
+   <p>It's wrong to call D.W. a picky eater. The only things she won't eat are vegetables, fish, fruit, and meat! After her tantrum in a restaurant, Arthur wonders if D.W.'s dining out days are over. (Based on the book by Marc Brown.)</p>
+  </div>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="../js/jquery-1.10.2.min.js"></script><script src="../js/main.js"></script><script src="http:pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script><script src="../js/video2.js"></script>' %}

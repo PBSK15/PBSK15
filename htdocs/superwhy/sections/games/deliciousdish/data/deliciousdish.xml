@@ -1,0 +1,202 @@
+<game id="deliciousdish" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . CREATE A SUPER DOG! | PBS KIDS]]></title>
+	<swf url="sections/games/deliciousdish/deliciousDish_main.swf" />
+
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "false"
+		activeStickersPerGame = "5"
+		gameDebug = "false"
+	/>
+	 
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+
+		<asset id="princess" location="game/superhero" url="../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../promos/endscreen_promo_rhymeroll.jpg" />
+		
+	</promos>
+		
+	
+	<game>		
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/deliciousdish/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<asset id="gameUI" type="swf" url="deliciousdish_ui.swf"/>
+			
+			<asset id="title" type="audio" url="audio/dd_title.mp3"/>
+			<asset id="intro_onload" type="audio" url="audio/dd_intro.mp3"/>
+			<asset id="tutorial" type="audio" url="audio/dd_intro.mp3"/>
+
+			<asset id="meal_select_prompt" type="audio" url="audio/dd_select_prompt.mp3"/>
+			<asset id="meal_select_breakfast" type="audio" url="audio/dd_select_breakfast.mp3"/>
+			<asset id="meal_select_lunch" type="audio" url="audio/dd_select_lunch.mp3"/>
+			<asset id="meal_select_dinner" type="audio" url="audio/dd_select_dinner.mp3"/>
+			<asset id="meal_select_kudos" type="audio" url="audio/dd_onSelect.mp3"/>
+			
+			<asset id="game_onload_part1" type="audio" url="audio/dd_gameplay_setupA_fix.mp3"/>
+			<asset id="game_onload_part2" type="audio" url="audio/dd_gameplay_setupB.mp3"/>
+			
+			<asset id="game_prompt1" type="audio" url="audio/dd_prompt1.mp3"/>
+			<asset id="game_prompt1_var1" type="audio" url="audio/dd_prompt1_alt.mp3"/>
+			
+			<asset id="game_prompt2" type="audio" url="audio/dd_prompt2.mp3"/>
+			<asset id="game_prompt2_var1" type="audio" url="audio/dd_prompt2_alt.mp3"/>
+			
+			<asset id="game_prompt3" type="audio" url="audio/dd_prompt3.mp3"/>
+			<asset id="game_prompt3_var1" type="audio" url="audio/dd_prompt3_alt.mp3"/>
+			
+			<asset id="game_prompt4" type="audio" url="audio/dd_prompt4.mp3"/>
+			<asset id="game_prompt4_var1" type="audio" url="audio/dd_prompt4_alt.mp3"/>
+			
+			<asset id="game_prompt5" type="audio" url="audio/dd_prompt5.mp3"/>
+			<asset id="game_prompt5_var1" type="audio" url="audio/dd_prompt5_alt.mp3"/>
+						
+			<asset id="game_timeout_intro" type="audio" url="audio/dd_timeout1.mp3"/>
+			<asset id="game_timeout_random_0" type="audio" url="audio/dd_timeout_random_1a.mp3"/>
+			<asset id="game_timeout_random_0_var1" type="audio" url="audio/dd_timeout_random_1a_alt.mp3"/>
+			<asset id="game_timeout_random_1" type="audio" url="audio/dd_timeout_random_2a.mp3"/>
+			<asset id="game_timeout_random_1_var1" type="audio" url="audio/dd_timeout_random_2a_alt.mp3"/>
+			
+			<asset id="food_group_protein" type="audio" url="audio/dd_group_protein.mp3"/>
+			<asset id="food_group_fruit" type="audio" url="audio/dd_group_fruit.mp3"/>
+			<asset id="food_group_vegetable" type="audio" url="audio/dd_group_vegetable.mp3"/>
+			<asset id="food_group_grain" type="audio" url="audio/dd_group_grain.mp3"/>
+			<asset id="food_group_dairy" type="audio" url="audio/dd_group_dairy_alt1.mp3"/>
+			
+			<asset id="group_found_protein" type="audio" url="audio/dd_found_protein.mp3"/>
+			<asset id="group_description_protein" type="audio" url="audio/dd_protein_def.mp3"/>
+			
+			<!-- already have... try finding a -->
+			<asset id="group_duplicate_protein" type="audio" url="audio/dd_dup_protein.mp3"/>
+			<!-- already have... try finding -->
+			<asset id="group_duplicate_protein_var1" type="audio" url="audio/dd_dup_protein_alt.mp3"/>
+			
+			<asset id="group_found_vegetable" type="audio" url="audio/dd_found_vegetable.mp3"/>
+			<asset id="group_description_vegetable" type="audio" url="audio/dd_veggie_def.mp3"/>
+			
+			<!-- how about a -->
+			<asset id="group_duplicate_vegetable" type="audio" url="audio/dd_dup_vegetable.mp3"/>
+			<!-- how about -->
+			<asset id="group_duplicate_vegetable_var1" type="audio" url="audio/dd_dup_vegetable_alt.mp3"/>
+			
+			<asset id="group_found_fruit" type="audio" url="audio/dd_found_fruit.mp3"/>
+			<asset id="group_description_fruit" type="audio" url="audio/dd_fruit_def.mp3"/>
+			
+			<!-- can you find a -->
+			<asset id="group_duplicate_fruit" type="audio" url="audio/dd_dup_fruit.mp3"/>
+			<!-- can you find -->
+			<asset id="group_duplicate_fruit_var1" type="audio" url="audio/dd_dup_fruit_alt.mp3"/>
+			
+			<asset id="group_found_grain" type="audio" url="audio/dd_found_grain.mp3"/>
+			<asset id="group_description_grain" type="audio" url="audio/dd_grain_def.mp3"/>
+
+			<!-- grain already... we could use a -->
+			<asset id="group_duplicate_grain" type="audio" url="audio/dd_dup_grain.mp3"/>
+			<!-- grain already... we could use -->
+			<asset id="group_duplicate_grain_var1" type="audio" url="audio/dd_dup_grain_alt.mp3"/>
+			
+			<asset id="group_found_dairy" type="audio" url="audio/dd_found_dairy.mp3"/>
+			<asset id="group_description_dairy" type="audio" url="audio/dd_dairy_def.mp3"/>
+			
+			<!-- already dairy... do you see a -->
+			<asset id="group_duplicate_dairy" type="audio" url="audio/dd_dup_dairy.mp3"/>
+			<!-- already dairy... do you see -->
+			<asset id="group_duplicate_dairy_var1" type="audio" url="audio/dd_dup_dairy_alt.mp3"/>
+
+			<asset id="food_item_beef" type="audio" url="audio/dd_itemP_beef.mp3"/>
+			<asset id="food_item_chicken" type="audio" url="audio/dd_itemP_chicken.mp3"/>
+			<asset id="food_item_eggs" type="audio" url="audio/dd_itemP_eggs.mp3"/>
+			<asset id="food_item_nuts" type="audio" url="audio/dd_itemP_nuts.mp3"/>
+			<asset id="food_item_beans" type="audio" url="audio/dd_itemP_beans.mp3"/>
+			
+			<asset id="food_item_apple" type="audio" url="audio/dd_itemF_apple.mp3"/>
+			<asset id="food_item_banana" type="audio" url="audio/dd_itemF_banana.mp3"/>
+			<asset id="food_item_grapes" type="audio" url="audio/dd_itemF_grape.mp3"/>
+			<asset id="food_item_strawberries" type="audio" url="audio/dd_itemF_strawberry.mp3"/>
+			<asset id="food_item_orange" type="audio" url="audio/dd_itemF_orange.mp3"/>
+			
+			<asset id="food_item_spinach" type="audio" url="audio/dd_itemV_spinach.mp3"/>
+			<asset id="food_item_broccoli" type="audio" url="audio/dd_itemV_broccoli.mp3"/>
+			<asset id="food_item_carrots" type="audio" url="audio/dd_itemV_carrots.mp3"/>
+			<asset id="food_item_celery" type="audio" url="audio/dd_itemV_celery.mp3"/>
+			<asset id="food_item_cucumber" type="audio" url="audio/dd_itemV_cucumber.mp3"/>
+			
+			<asset id="food_item_oatmeal" type="audio" url="audio/dd_itemG_oatmeal.mp3"/>
+			<asset id="food_item_bread" type="audio" url="audio/dd_itemG_bread.mp3"/>
+			<asset id="food_item_rice" type="audio" url="audio/dd_itemG_rice.mp3"/>
+			<asset id="food_item_cereal" type="audio" url="audio/dd_itemG_cereal.mp3"/>
+			<asset id="food_item_noodles" type="audio" url="audio/dd_itemG_noodles.mp3"/>
+			
+			<asset id="food_item_milk" type="audio" url="audio/dd_itemD_milk.mp3"/>
+			<asset id="food_item_cheese" type="audio" url="audio/dd_itemD_cheese.mp3"/>
+			<asset id="food_item_yogurt" type="audio" url="audio/dd_itemD_yogurt.mp3"/>
+			<asset id="food_item_cottagecheese" type="audio" url="audio/dd_itemD_cottage.mp3"/>
+			<asset id="food_item_pudding" type="audio" url="audio/dd_itemD_pudding.mp3"/>
+			
+		</assets>
+<!--
+		<onDemandResources>
+		</onDemandResources>
+-->		
+	
+		
+		<foods>
+			<item id="beef" meals="lunch,dinner" group="protein"><![CDATA[Beef]]></item>
+			<item id="chicken" meals="lunch,dinner" group="protein"><![CDATA[Chicken]]></item>
+			<item id="eggs" meals="breakfast" group="protein"><![CDATA[Eggs]]></item>
+			<item id="nuts" meals="breakfast,lunch,dinner" group="protein"><![CDATA[Nuts]]></item>
+			<item id="beans" meals="breakfast,lunch,dinner" group="protein"><![CDATA[Beans]]></item>
+			
+			<item id="apple" meals="breakfast,lunch,dinner" group="fruit"><![CDATA[Apple]]></item>
+			<item id="banana" meals="breakfast,lunch,dinner" group="fruit"><![CDATA[Banana]]></item>
+			<item id="grapes" meals="breakfast,lunch,dinner" group="fruit"><![CDATA[Grapes]]></item>
+			<item id="strawberries" meals="breakfast,lunch,dinner" group="fruit"><![CDATA[Strawberries]]></item>
+			<item id="orange" meals="breakfast,lunch,dinner" group="fruit"><![CDATA[Orange]]></item>
+			
+			<item id="spinach" meals="lunch,dinner" group="vegetable"><![CDATA[Spinach]]></item>
+			<item id="broccoli" meals="lunch,dinner" group="vegetable"><![CDATA[Broccoli]]></item>
+			<item id="carrots" meals="breakfast,lunch,dinner" group="vegetable"><![CDATA[Carrots]]></item>		
+			<item id="celery" meals="breakfast,lunch,dinner" group="vegetable"><![CDATA[Celery]]></item>	
+			<item id="cucumber" meals="breakfast,lunch,dinner" group="vegetable"><![CDATA[Cucumber]]></item>	
+			
+			<item id="oatmeal" meals="breakfast,lunch,dinner" group="grain"><![CDATA[Oatmeal]]></item>
+			<item id="bread" meals="breakfast,lunch,dinner" group="grain"><![CDATA[Bread]]></item>
+			<item id="rice" meals="breakfast,lunch,dinner" group="grain"><![CDATA[Rice]]></item>
+			<item id="cereal" meals="breakfast" group="grain"><![CDATA[Cereal]]></item>
+			<item id="noodles" meals="lunch,dinner" group="grain"><![CDATA[Noodles]]></item>
+			
+			<item id="milk" meals="breakfast,lunch,dinner" group="dairy"><![CDATA[Milk]]></item>
+			<item id="cheese" meals="breakfast,lunch,dinner" group="dairy"><![CDATA[Cheese]]></item>
+			<item id="yogurt" meals="breakfast,lunch,dinner" group="dairy"><![CDATA[Yogurt]]></item>
+			<item id="cottagecheese" meals="breakfast,lunch,dinner" group="dairy"><![CDATA[Cottage Cheese]]></item>
+			<item id="pudding" meals="breakfast,lunch,dinner" group="dairy"><![CDATA[Pudding]]></item>
+		</foods>
+			
+			
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

@@ -1,0 +1,81 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Play Maker | PBS Kids' %}
+{% set desc = 'If you really want to look like an ARTHUR character, print out these masks and fool everyone!' %}
+{% set keywds = 'masks, costumes, performance, play' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../index.html"><h4 id="playHeader">Play Maker</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../script.html"><span>Script</span></a></li>
+   <li><a href="../props/index.html"><span>Props</span></a></li>
+   <li><a href="../masks/index.html" class="selected"><span>Masks</span></a></li>
+   <li><a href="../costumes.html"><span>Costumes</span></a></li>
+   <li><a href="../tips/index.html"><span>Tips</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Arthur's Mask</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printMasks">
+    <li id="arthur">
+     <div class="page">
+      <img src="../../../i/print/masks/arthur_mask.gif" width="586" height="716" alt="Arthur" title="Arthur" border="0" class="mask img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="buster">
+     <div class="page">
+      <img src="../../../i/print/masks/buster_mask.gif" width="586" height="716" alt="Buster" title="Buster" border="0" class="mask img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="binky">
+     <div class="page">
+      <img src="../../../i/print/masks/binky_mask.gif" width="586" height="716" alt="Binky" title="Binky" border="0" class="mask img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="dw">
+     <div class="page">
+      <img src="../../../i/print/masks/dw_mask.gif" width="586" height="716" alt="D.W." title="D.W." border="0" class="mask img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="francine">
+     <div class="page">
+      <img src="../../../i/print/masks/francine_mask.gif" width="586" height="716" alt="Francine" title="Francine" border="0" class="mask img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="timmy">
+     <div class="page">
+      <img src="../../../i/print/masks/timmy_mask.gif" width="586" height="716" alt="Timmy Tibble" title="Timmy" border="0" class="mask img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="tommy">
+     <div class="page">
+      <img src="../../../i/print/masks/tommy_mask.gif" width="586" height="716" alt="Tommy Tibble" title="Tommy" border="0" class="mask img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="turner">
+     <div class="page">
+      <img src="../../../i/print/masks/turner_mask.gif" width="586" height="716" alt="Paige Turner" title="Mrs. Turner" border="0" class="mask img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+   <li><a href="/arthur/games/alien/index.html" id="rcAlien">Alien: Assembly Required</a></li>
+   <li><a href="/arthur/games/letsdrawarthur/index.html" id="rcDrawArthur">Let's Draw Arthur</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,492 @@
+<game id="djgame" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . DJ CELEBRATION | PBS KIDS]]></title>
+	<swf url="sections/games/djgame/djgame.swf" />
+
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "true"
+		gameDebug = "false"
+		requiredWordsToWin = "6"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+
+		<asset id="princess" location="game/superhero" url="../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../promos/endscreen_promo_rhymeroll.jpg" />
+		
+	</promos>
+		
+	
+	<game>		
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/djgame/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<asset id="gameUI" type="swf" url="djgameUI.swf"/>
+			<!--
+			<asset id="scene_halloween" type="swf" url="djgame_scene_halloween.swf"/>
+			<asset id="scene_winter" type="swf" url="djgame_scene_winter.swf"/>
+			<asset id="scene_beach" type="swf" url="djgame_scene_beach.swf"/>
+			<asset id="scene_birthday" type="swf" url="djgame_scene_birthday.swf"/>
+			-->
+			<asset id="chooseDifficulty" type="audio" url="audio/global/dj_choose_difficulty.mp3" />
+			<asset id="difficulty_easy" type="audio" url="audio/global/dj_difficulty_easy.mp3" />
+			<asset id="difficulty_medium" type="audio" url="audio/global/dj_difficulty_medium.mp3" />
+			<asset id="difficulty_hard" type="audio" url="audio/global/dj_difficulty_hard.mp3" />
+			<asset id="chooseTheme" type="audio" url="audio/global/dj_choose_theme.mp3" />
+			<asset id="birthday" type="audio" url="audio/global/dj_birthday.mp3" />
+			<asset id="beach" type="audio" url="audio/global/dj_beach.mp3" />
+			<asset id="halloween" type="audio" url="audio/global/dj_halloween.mp3" />
+			<asset id="winter" type="audio" url="audio/global/dj_winter.mp3" />
+			<asset id="dj_starts_with_letter" type="audio" url="audio/global/dj_starts_with_letter.mp3" />
+			<asset id="dj_kudos_1" type="audio" url="audio/global/dj_kudos_1.mp3" />
+			<asset id="dj_kudos_2" type="audio" url="audio/global/dj_kudos_2.mp3" />
+			<asset id="dj_kudos_3" type="audio" url="audio/global/dj_kudos_3.mp3" />
+			<asset id="dj_kudos_4" type="audio" url="audio/global/dj_kudos_4.mp3" />
+			<asset id="dj_kudos_5" type="audio" url="audio/global/dj_kudos_5.mp3" />
+			<asset id="dj_kudos_6" type="audio" url="audio/global/dj_kudos_6.mp3" />
+			<asset id="dj_kudos_7" type="audio" url="audio/global/dj_kudos_7.mp3" />
+			<asset id="dj_kudos_8" type="audio" url="audio/global/dj_kudos_8.mp3" />
+			<asset id="dj_kudos_9" type="audio" url="audio/global/dj_kudos_9.mp3" />
+			<asset id="dj_incorrect_prompt" type="audio" url="audio/global/dj_incorrect_prompt.mp3" />
+			<asset id="dj_oops_1" type="audio" url="audio/global/dj_oops_1.mp3" />
+			<asset id="dj_oops_2" type="audio" url="audio/global/dj_oops_2.mp3" />
+			<asset id="dj_oops_3" type="audio" url="audio/global/dj_oops_3.mp3" />
+			<asset id="dj_10th_match" type="audio" url="audio/global/dj_10th_match.mp3" />
+			<asset id="dj_finale" type="audio" url="audio/global/dj_finale.mp3" />
+			<asset id="dj_numberword_prompt" type="audio" url="audio/global/iwb_vo_40.mp3" />			
+			
+
+			<asset id="b" type="audio" url="audio/matching/letters/dj_b.mp3">
+				<text><![CDATA[B]]></text>
+			</asset>
+			<asset id="c" type="audio" url="audio/matching/letters/dj_c.mp3">
+				<text><![CDATA[C]]></text>
+			</asset>
+			<asset id="f" type="audio" url="audio/matching/letters/dj_f.mp3">
+				<text><![CDATA[F]]></text>
+			</asset>
+			<asset id="g" type="audio" url="audio/matching/letters/dj_g.mp3">
+				<text><![CDATA[G]]></text>
+			</asset>
+			<asset id="h" type="audio" url="audio/matching/letters/dj_h.mp3">
+				<text><![CDATA[h]]></text>
+			</asset>
+			<asset id="i" type="audio" url="audio/matching/letters/dj_i.mp3">
+				<text><![CDATA[I]]></text>
+			</asset>
+			<asset id="k" type="audio" url="audio/matching/letters/dj_k.mp3">
+				<text><![CDATA[K]]></text>
+			</asset>
+			<asset id="l" type="audio" url="audio/matching/letters/dj_l.mp3">
+				<text><![CDATA[L]]></text>
+			</asset>
+			<asset id="m" type="audio" url="audio/matching/letters/dj_m.mp3">
+				<text><![CDATA[M]]></text>
+			</asset>
+			<asset id="p" type="audio" url="audio/matching/letters/dj_p.mp3">
+				<text><![CDATA[P]]></text>
+			</asset>
+			<asset id="q" type="audio" url="audio/matching/letters/dj_q.mp3">
+				<text><![CDATA[Q]]></text>
+			</asset>
+			<asset id="s" type="audio" url="audio/matching/letters/dj_s.mp3">
+				<text><![CDATA[S]]></text>
+			</asset>	
+			<asset id="t" type="audio" url="audio/matching/letters/dj_t.mp3">
+				<text><![CDATA[T]]></text>
+			</asset>
+			<asset id="u" type="audio" url="audio/matching/letters/dj_u.mp3">
+				<text><![CDATA[U]]></text>
+			</asset>
+			<asset id="w" type="audio" url="audio/matching/letters/dj_w.mp3">
+				<text><![CDATA[W]]></text>
+			</asset>
+			
+			
+			<asset id="1" type="audio" url="audio/matching/dj_one.mp3">
+				<text><![CDATA[One]]></text>
+			</asset>
+			<asset id="2" type="audio" url="audio/matching/dj_two.mp3">
+				<text><![CDATA[Two]]></text>
+			</asset>
+			<asset id="3" type="audio" url="audio/matching/dj_three.mp3">
+				<text><![CDATA[Three]]></text>
+			</asset>
+			<asset id="4" type="audio" url="audio/matching/dj_four.mp3">
+				<text><![CDATA[Four]]></text>
+			</asset>
+			<asset id="5" type="audio" url="audio/matching/dj_five.mp3">
+				<text><![CDATA[Five]]></text>
+			</asset>
+			<asset id="6" type="audio" url="audio/matching/dj_six.mp3">
+				<text><![CDATA[Six]]></text>
+			</asset>
+			<asset id="7" type="audio" url="audio/matching/dj_seven.mp3">
+				<text><![CDATA[Seven]]></text>
+			</asset>
+			<asset id="8" type="audio" url="audio/matching/dj_eight.mp3">
+				<text><![CDATA[Eight]]></text>
+			</asset>
+			<asset id="9" type="audio" url="audio/matching/dj_nine.mp3">
+				<text><![CDATA[Nine]]></text>
+			</asset>
+			<asset id="10" type="audio" url="audio/matching/dj_ten.mp3">
+				<text><![CDATA[Ten]]></text>
+			</asset>
+			
+			<!-- in-game words -->
+			<asset id="karaoke" type="audio" url="audio/matching/dj_karaoke.mp3">
+				<text><![CDATA[Karaoke]]></text>
+			</asset>
+			<asset id="confetti" type="audio" url="audio/matching/dj_confetti.mp3">
+				<text><![CDATA[Confetti]]></text>
+			</asset>	
+			<asset id="candles" type="audio" url="audio/matching/dj_candles.mp3">
+				<text><![CDATA[Candles]]></text>
+			</asset>
+			<asset id="card" type="audio" url="audio/matching/dj_card.mp3">
+				<text><![CDATA[Card]]></text>
+			</asset>
+			<asset id="cake" type="audio" url="audio/matching/dj_cake.mp3">
+				<text><![CDATA[Cake]]></text>
+			</asset>
+			<asset id="pizza" type="audio" url="audio/matching/dj_pizza.mp3">
+				<text><![CDATA[Pizza]]></text>
+			</asset>
+			<asset id="hat" type="audio" url="audio/matching/dj_hat.mp3">
+				<text><![CDATA[Hat]]></text>
+			</asset>
+			<asset id="goodies" type="audio" url="audio/matching/dj_goodies.mp3">
+				<text><![CDATA[Goodies]]></text>
+			</asset>
+			<asset id="pinata" type="audio" url="audio/matching/dj_pinata.mp3">
+				<text><![CDATA[Piñata]]></text>
+			</asset>
+			<asset id="streamers" type="audio" url="audio/matching/dj_streamers.mp3">
+				<text><![CDATA[Streamers]]></text>
+			</asset>
+			<asset id="balloons" type="audio" url="audio/matching/dj_balloons.mp3">
+				<text><![CDATA[Balloons]]></text>
+			</asset>
+			<asset id="presents" type="audio" url="audio/matching/dj_present.mp3">
+				<text><![CDATA[Present]]></text>
+			</asset>
+			<asset id="presents_plural" type="audio" url="audio/matching/dj_presents.mp3">
+				<text><![CDATA[Presents]]></text>
+			</asset>	
+			
+			
+			<asset id="treats" type="audio" url="audio/matching/dj_treats.mp3">
+				<text><![CDATA[Treats]]></text>
+			</asset>	
+			<asset id="costume" type="audio" url="audio/matching/dj_costume.mp3">
+				<text><![CDATA[Costume]]></text>
+			</asset>	
+			<asset id="web" type="audio" url="audio/matching/dj_web.mp3">
+				<text><![CDATA[Web]]></text>
+			</asset>
+			<asset id="moon" type="audio" url="audio/matching/dj_moon.mp3">
+				<text><![CDATA[Moon]]></text>
+			</asset>
+			<asset id="ghost" type="audio" url="audio/matching/dj_ghost.mp3">
+				<text><![CDATA[Ghost]]></text>
+			</asset>
+			<asset id="witch" type="audio" url="audio/matching/dj_witch.mp3">
+				<text><![CDATA[Witch]]></text>
+			</asset>
+			<asset id="bat" type="audio" url="audio/matching/dj_bat.mp3">
+				<text><![CDATA[Bat]]></text>
+			</asset>
+			<asset id="spider" type="audio" url="audio/matching/dj_spider.mp3">
+				<text><![CDATA[Spider]]></text>
+			</asset>
+			<asset id="cat" type="audio" url="audio/matching/dj_cat.mp3">
+				<text><![CDATA[Cat]]></text>
+			</asset>
+			<asset id="skeleton" type="audio" url="audio/matching/dj_skeleton.mp3">
+				<text><![CDATA[Skeleton]]></text>
+			</asset>
+			<asset id="pumpkin" type="audio" url="audio/matching/dj_pumpkins.mp3">
+				<text><![CDATA[Pumpkin]]></text>
+			</asset>
+			<asset id="pumpkin_plural" type="audio" url="audio/matching/dj_pumpkins.mp3">
+				<text><![CDATA[Pumpkins]]></text>
+			</asset>
+			
+			
+			<asset id="swimsuit" type="audio" url="audio/matching/dj_swimsuit.mp3">
+				<text><![CDATA[Swimsuit]]></text>
+			</asset>
+			<asset id="bubbles" type="audio" url="audio/matching/dj_bubbles.mp3">
+				<text><![CDATA[Bubbles]]></text>
+			</asset>
+			<asset id="bucket" type="audio" url="audio/matching/dj_bucket.mp3">
+				<text><![CDATA[Bucket]]></text>
+			</asset>	
+			<asset id="towel" type="audio" url="audio/matching/dj_towel.mp3">
+				<text><![CDATA[Towel]]></text>
+			</asset>
+
+			<asset id="frisbee" type="audio" url="audio/matching/dj_flag.mp3">
+				<text><![CDATA[Flag]]></text>
+			</asset>
+
+			<asset id="ball" type="audio" url="audio/matching/dj_ball.mp3">
+				<text><![CDATA[Ball]]></text>
+			</asset>
+			<asset id="sand" type="audio" url="audio/matching/dj_sand.mp3">
+				<text><![CDATA[Sand]]></text>
+			</asset>
+			<asset id="barbecue" type="audio" url="audio/matching/dj_barbecue.mp3">
+				<text><![CDATA[Barbecue]]></text>
+			</asset>
+			<asset id="umbrella" type="audio" url="audio/matching/dj_umbrella.mp3">
+				<text><![CDATA[Umbrella]]></text>
+			</asset>
+			<asset id="sun" type="audio" url="audio/matching/dj_sun.mp3">
+				<text><![CDATA[Sun]]></text>
+			</asset>
+			<asset id="popsicles" type="audio" url="audio/matching/dj_popsicle.mp3">
+				<text><![CDATA[Popsicle]]></text>
+			</asset>	
+			<asset id="popsicles_plural" type="audio" url="audio/matching/dj_popsicles.mp3">
+				<text><![CDATA[Popsicles]]></text>
+			</asset>	
+			
+			
+			<asset id="snow" type="audio" url="audio/matching/dj_snow.mp3">
+				<text><![CDATA[Snow]]></text>
+			</asset>
+			<asset id="scarf" type="audio" url="audio/matching/dj_scarf.mp3">
+				<text><![CDATA[Scarf]]></text>
+			</asset>
+			<asset id="toy" type="audio" url="audio/matching/dj_toy.mp3">
+				<text><![CDATA[Toy]]></text>
+			</asset>	
+			<asset id="boots" type="audio" url="audio/matching/dj_boots.mp3">
+				<text><![CDATA[Boots]]></text>
+			</asset>
+			<asset id="bells" type="audio" url="audio/matching/dj_bells.mp3">
+				<text><![CDATA[Bells]]></text>
+			</asset>	
+			<asset id="snowman" type="audio" url="audio/matching/dj_snowman.mp3">
+				<text><![CDATA[Snowman]]></text>
+			</asset>
+			<asset id="tree" type="audio" url="audio/matching/dj_tree.mp3">
+				<text><![CDATA[Tree]]></text>
+			</asset>
+			<asset id="sled" type="audio" url="audio/matching/dj_sled.mp3">
+				<text><![CDATA[Sled]]></text>
+			</asset>
+			<asset id="icicle" type="audio" url="audio/matching/dj_icicle.mp3">
+				<text><![CDATA[Icicle]]></text>
+			</asset>		
+			<asset id="wreath" type="audio" url="audio/matching/dj_wreath.mp3">
+				<text><![CDATA[Wreath]]></text>
+			</asset>
+			<asset id="lights" type="audio" url="audio/matching/dj_light.mp3">
+				<text><![CDATA[Light]]></text>
+			</asset>
+			<asset id="lights_plural" type="audio" url="audio/matching/dj_lights.mp3">
+				<text><![CDATA[Lights]]></text>
+			</asset>
+			
+		</assets>
+		
+		
+		<scenes>
+			
+			<group id="halloween">	
+				<queue>
+					<asset id="scene_halloween" type="swf" url="djgame_scene_halloween.swf"/>
+					<asset id="tutorial_halloween" type="swf" url="tutorial_halloween.swf"/>
+				</queue>
+				
+				<area id="group1">
+					<asset id="treats" />
+					<asset id="costume" />	
+				</area>
+				
+				<area id="group2">	
+					<asset id="web" />
+					<asset id="moon" />
+				</area>
+					
+				<area id="group3">
+					<asset id="ghost" />
+					<asset id="witch" />	
+				</area>
+				
+				<area id="group4">
+					<asset id="bat" />
+					<asset id="spider" />
+				</area>
+				
+				<area id="group5">
+					<asset id="cat" />
+					<asset id="skeleton" />
+				</area>
+				
+				<area id="group6">
+					<asset id="balloons" />				
+				</area>
+
+				<!-- rewards for numbers mode -->
+				<asset id="pumpkin" contentType="number" />
+			</group>
+
+			
+			<group id="birthday">
+				<queue>
+					<asset id="scene_birthday" type="swf" url="djgame_scene_birthday.swf"/>
+					<asset id="tutorial_birthday" type="swf" url="tutorial_birthday.swf"/>
+				</queue>
+				
+				<area id="group1">
+					<asset id="karaoke" />
+					<asset id="confetti" />	
+				</area>
+				
+				<area id="group2">
+					<asset id="candles" />
+					<asset id="card" />
+				</area>
+				
+				<area id="group3">					
+					<asset id="cake" />
+					<asset id="pizza" />
+				</area>
+				
+				<area id="group4">
+					<asset id="hat" />
+					<asset id="goodies" />
+				</area>
+				
+				<area id="group5">
+					<asset id="pinata" />
+					<asset id="streamers" />
+				</area>
+				
+				<area id="group6">
+					<asset id="balloons" />
+				</area>
+				
+				<!-- reward for numbers mode -->
+				<asset id="presents" contentType="number" />	
+			</group>
+			
+			
+			<group id="beach">
+				<queue>
+					<asset id="scene_beach" type="swf" url="djgame_scene_beach.swf"/>
+					<asset id="tutorial_beach" type="swf" url="tutorial_beach.swf"/>
+				</queue>
+				
+				<area id="group1">
+					<asset id="swimsuit" />
+					<asset id="bubbles" />
+				</area>
+				
+				<area id="group2">
+					<asset id="bucket" />	
+					<asset id="towel" />	
+				</area>
+				
+				<area id="group3">
+					<asset id="frisbee" />
+					<asset id="ball" />
+				</area>
+				
+				<area id="group4">
+					<asset id="sand" />
+					<asset id="barbecue" />
+				</area>
+				
+				<area id="group5">
+					<asset id="umbrella" />
+					<asset id="sun" />
+				</area>
+				
+				<area id="group6">
+					<asset id="balloons" />	
+				</area>
+				
+				<!-- reward for numbers mode -->
+				<asset id="popsicles" contentType="number" />
+	
+			</group>
+			
+			
+			<group id="winter">
+				<queue>
+					<asset id="scene_winter" type="swf" url="djgame_scene_winter.swf"/>
+					<asset id="tutorial_winter" type="swf" url="tutorial_winter.swf"/>
+				</queue>
+				
+				<area id="group1">
+					<asset id="snow" />
+					<asset id="scarf" />
+				</area>
+				
+				<area id="group2">
+					<asset id="toy" />	
+					<asset id="boots" />
+				</area>
+				
+				<area id="group3">
+					<asset id="bells" />	
+					<asset id="snowman" />
+				</area>
+				
+				<area id="group4">
+					<asset id="tree" />
+					<asset id="sled" />
+				</area>
+				
+				<area id="group5">
+					<asset id="icicle" />		
+					<asset id="wreath" />
+				</area>
+				
+				<area id="group6">
+					<asset id="balloons" />				
+				</area>
+				
+				<!-- reward for numbers mode -->
+				<asset id="lights" contentType="number" />
+			</group>
+			
+		</scenes>
+		
+		
+		
+			
+			
+			
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

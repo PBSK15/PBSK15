@@ -1,0 +1,57 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letters To Sue Ellen | PBS Kids' %}
+{% set desc = 'Write to Sue Ellen to ask her travel advice and hear stories about her life and her travels! Shell send a letter back to you immediately!' %}
+{% set keywds = 'letter, travel, advice, Sue Ellen, request' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../lettersto/index.html"><h4 id="letterstoSmHeader">Letters To...</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../letterstoarthur/index.html"><span>Arthur</span></a></li>
+   <li><a href="../heyfrancine/index.html"><span>Francine</span></a></li>
+   <li><a href="../traveltales/index.html" class="selected"><span>Sue Ellen</span></a></li>
+   <li><a href="../askbrain/index.html"><span>The Brain</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <table border="0" width="637" cellspacing="0" cellpadding="0">
+   <tbody>
+    <tr>
+     <td colspan="7"><img src="../../i/games/lettersto/sueellen/sue_ellen_header.gif" width="637" height="133" alt="Letters to Sue Ellen" border="0" style="display:block;"></td>
+    </tr>
+    <tr>
+     <td width="88"><img src="/arthur/i/1px.gif" width="88" alt=""></td>
+     <td width="2" bgcolor="#000000"><img src="/arthur/i/1px.gif" width="2" alt=""></td>
+     <td width="10" bgcolor="#9999FF"><img src="/arthur/i/1px.gif" width="10" alt=""></td>
+     <td width="450" bgcolor="#9999FF">
+      <form name="traveltales" action="/cgi-registry/arthur/letter.php" method="POST">
+       Dear Sue Ellen, <br><br> I'm planning a vacation, and I need your advice. I'd like to go somewhere <select name="vaca_spot" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="faraway">far away.</option> <option value="hot">hot.</option> <option value="nearby">nearby.</option> <option value="cold">cold.</option></select> Do you have any suggestions? <br><br> Can you also let me know <select name="let_me_know" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="whatpostcard" selected>what postcard I should send to my friends?</option> <option value="whatIshouldp">what I should pack?</option> <option value="whatsouvenir">what souvenir I should bring back?</option> <option value="whatIshouldd">what I should do there?</option></select> <br><br> And I'd love to know about <select name="know_about" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="funniestthin">something funny you saw</option> <option value="bestfoodyoue">some great food you ate</option> <option value="bestthingtha">something great that happened to you</option> <option value="mostembarras" selected>an embarrassing thing that happened to you</option></select> while traveling. <br><br> Thanks for your help! <br><br><select name="closing" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="Sincerely">Sincerely,</option> <option value="Yourstruly">Yours truly,</option> <option value="Warmly">Warmly,</option> <option value="Yoursintrave" selected>Yours in traveling fun,</option></select> <br><br> <input type="TEXT" name="from" size="15" maxlength="20" style="font-family:Comic Sans MS,serif;font-size:14px;"> <input type="hidden" name="featurepath" value="/arthur/games/traveltales/"> <input type="hidden" name="template_page" value="LETTER.TMPL"> <input type="hidden" name="logic_page" value="sue_ellen.txt">
+       <p></p>
+       <div align="center">
+        <input type="submit" name="Send" value="Send to Sue Ellen" style="font-family:Comic Sans MS,serif;font-size:14px;">
+       </div> <br clear="all"> <img src="/arthur/i/1px.gif" width="450" height="1" alt="">
+      </form></td>
+     <td width="10" bgcolor="#9999FF"><img src="/arthur/i/1px.gif" width="10" alt=""></td>
+     <td width="2" bgcolor="#000000"><img src="/arthur/i/1px.gif" width="2" alt=""></td>
+     <td width="75"><img src="/arthur/i/1px.gif" width="75" alt=""></td>
+    </tr>
+    <tr>
+     <td colspan="7"><img src="../../i/games/lettersto/pencil_bottom.gif" width="637" height="121" alt="" border="0"></td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/sue_ellen/index.html" id="rcSueEllen">Sue Ellen</a></li>
+   <li><a href="/arthur/games/connectworld/index.html" id="rcConnect">Connect The World</a></li>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

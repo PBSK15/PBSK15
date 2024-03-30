@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Backyard Theropods' %}
+{% set desc = 'Learn all about today\\\'s dinosaurs - birds!  Join Dr. Scott and help place interesting birds in their appropriate habitat. Use a bird caller to attract the bird, listen to the clue and then select where you think it lives. You will learn what different birds sound like, look like, what they are called, where they are likely to live, and about the ancestral connection between birds and dinosaurs. Once you learn a little more about birds you can get out in nature and look for birds in your own backyard!' %}
+{% set keywds = 'Birds, Desert, Pine Forest, Freshwater Marsh, Rocky Seacoast, Bird caller, Flash cards, Dr. Scott, Theropods' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'id=6&swf=dinosaurtrain/media/swfs/bird_habitat.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

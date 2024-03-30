@@ -1,0 +1,24 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Tibble\'s Super Action Challenge | PBS Kids' %}
+{% set desc = 'Try to answer ARTHUR trivia questions as quickly as you can! Play either by yourself or against a partner!' %}
+{% set keywds = 'trivia, Tibbles, questions, challenge, ARTHUR' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-636">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="superactionchallenge.html" target="_self"><img src="../../i/games/tibble_splash.gif" width="595" height="410" border="0" alt="Play Tibble's Super Action Challenge"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/tibbles/index.html" id="rcTibbles">The Tibble Twins</a></li>
+   <li><a href="/arthur/print/elwingo/index.html" id="rcElwingo">Elwingo!</a></li>
+   <li><a href="/arthur/games/braingame/index.html" id="rcBrainGame">Brain Game</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

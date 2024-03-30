@@ -1,0 +1,126 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = '' %}
+{% set desc = 'Play with Arthur and his friends! Join clubs, sing karaoke, or watch videos!  Play games and print out activities too!' %}
+{% set keywds = 'ARTHUR, games, friends, print, videos, clubs, fun' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/home.css" media="screen"/>
+	<script type="text/javascript" src="/arthur/js/homepage.js?cache=7"></script>
+
+	<script src="/arthur/mobile/js/querystringUtil.js"></script>
+	<script src="/arthur/mobile/js/detectmobilebrowser.js"></script>
+	<script src="/arthur/js/mobileredirect.js"/>' %}
+{% set selectedNav = 'home' %}
+{% set specialNav = '<img src="/arthur/i/alt/home_bg_happy.gif" width="960" height="258" border="0" alt="homepage highlight" id="main-char-hilight"/>' %}
+{% set noPT = true %}
+
+
+{% block mainContent %}		<div id="content">
+			<div id="character-hilights">
+				<ul>
+					<li id="char-sue"><a href="friends/sue_ellen">Sue Ellen</a></li>
+					<li id="char-muffy"><a href="friends/muffy">Muffy</a></li>
+					<li id="char-buster"><a href="friends/buster">Buster</a></li>
+					<li id="char-fern"><a href="friends/fern">Fern</a></li>			
+					<li id="char-brain"><a href="friends/brain">The Brain</a></li>
+					<li id="char-kate"><a href="friends/baby_kate">Baby Kate</a></li>
+					<li id="char-arthur"><a href="friends/arthur">Arthur</a></li>
+					<li id="char-dw"><a href="friends/dw">D.W.</a></li>
+					<li id="char-pal"><a href="friends/pal">Pal</a></li>
+					<li id="char-francine"><a href="friends/francine">Francine</a></li>
+					<li id="char-binky"><a href="friends/binky">Binky</a></li>
+					<li id="char-ladonna"><a href="friends/ladonna">Ladonna</a></li>
+					<li id="char-george"><a href="friends/george">George</a></li>
+					<li id="char-tibbles"><a href="friends/tibbles">Tibble Twins</a></li>
+				</ul>
+			</div>
+			<div id="minor-hilights">		
+				<div id="callouts-games">
+					<h3 id="tagGames" class="hilight-tag">Play games!</h3>
+					<span class="prev">Previous</span>
+					<div class="callout-images">
+						<ul>
+							<li><a href="games/alien/index.html"><img src="i/related/alien.png" width="174" height="264" alt="Games - Alien Game" border="0" /></a></li>
+							<li><a href="games/gogeorgego/index.html"><img src="i/related/gogeorgego.png" width="174" height="264" alt="Games - go george go Game" border="0" /></a></li>
+							<li><a href="games/unmatching/index.html"><img src="i/related/unmatching.png" width="174" height="264" alt="Games - Unmatching Game" border="0" /></a></li>
+						</ul>
+					</div>
+					<span class="next">Next</span>
+				</div>
+				<div id="callouts-print">
+					<h3 id="tagPrints" class="hilight-tag">Print it out!</h3>
+					<span class="prev">Previous</span>
+					<div class="callout-images">
+						<ul>
+							<li><a href="print/index.html"><img src="i/related/masks.png" width="174" height="264" alt="Print - Masks" border="0" /></a></li>
+							<li><a href="print/index.html"><img src="i/related/coloring.png" width="174" height="264" alt="Print - Masks" border="0" /></a></li>
+							<li><a href="print/index.html"><img src="i/related/partyhats.png" width="174" height="264" alt="Print - Masks" border="0" /></a></li>
+						</ul>
+					</div>
+					<span class="next">Next</span>
+				</div>
+				<div id="callouts-videos">
+					<h3 id="tagVideos" class="hilight-tag">Watch Videos!</h3>
+					<span class="prev">Previous</span>
+					<div class="callout-images">
+						<ul>
+							<li><a href="video/index.html"><img src="i/related/video.png" width="174" height="264" alt="Video - video" border="0" /></a></li>
+							<li><a href="video/index.html"><img src="i/related/cellphone.png" width="174" height="264" alt="Video - Fern's Cell Phone Song" border="0" /></a></li>
+							<li><a href="video/karaoke.html"><img src="i/related/karaoke.png" width="174" height="264" alt="Video - Karaoke" border="0" /></a></li>
+						</ul>
+					</div>
+					<span class="next">Next</span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="parentTeacherContainer" class="ruler">
+			<a href="https://www.pbs.org/parents/arthur/index.html"><img src="i/parents_teachers/parents_banner.gif" /></a></div>
+		<div id="descripHealthHub">Dealing with your child's health can challenging and sometimes scary. Arthur and his friends are <a href="/arthur/health">here</a> to help with games, videos and resources designed to help keep your family safe and strong.</div>	
+		<div id="weezieButton"><a href="/arthur/health"><img src="i/parents_teachers/weezie_button.gif"/></a></div>{% endblock %}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+{% block specialFtr %}			<div id="appPromoUnicornApp"><a href="https://pbskids.org/apps/features/arthur/"><img src="i/app_promo.gif" /></a></div>
+			<div id="stationFunders">
+				<div id="stationWrapper">
+					<div id="stationCallout"><!--<p>Find out when ARTHUR is on in your town.</p>-->
+					<p>
+					<!-- LOCALIZATION STUFF - BEGIN -->				
+						
+						Find out when ARTHUR is on <a href="/tvschedules/localizer.html?dest=/arthur/index.html&nola=ARUR">in your town.</a>
+									
+					<!-- LOCALIZATION STUFF - END -->
+					</p>
+					</div>	
+					<div class="stationBGTop"></div>
+					<div class="stationBGBtm"></div>
+				</div>
+				<div id="fundersWrapper">
+					<div id="fundersCallout"><p><img src="i/footer/funders.gif" width="285" height="116" alt="" border="0" usemap="#fundersmap"/></p>
+					<map name="fundersmap">
+						<area shape="rect" coords="160,24,230,96" href="https://www.cpb.org/" alt="Corporation for Public Broadcasting" title="Corporation for Public Broadcasting" />
+						<area shape="rect" coords="245,24,284,78" href="https://pbs.org/" alt="PBS" title="PBS" />
+						<area shape="rect" coords="0,42,105,110" href="https://www.chuckecheese.com/" alt="Chuck E. Cheese's" title="Chuck E. Cheese's"/>
+					</map></div>
+					<div class="fundersBGTop"></div>
+					<div class="fundersBGBtm"></div>
+				</div>
+			</div>{% endblock %}

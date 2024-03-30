@@ -1,0 +1,66 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Cootie Catcher | PBS Kids' %}
+{% set desc = 'Get directions for how to make and fold your Cootie Catcher after you print it out. Then find out how to find out fortunes for your friends!' %}
+{% set keywds = 'Cootie Catcher, oragami, fortune, Prunella, print, directions' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9cc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="cootieHeader">Prunella's Cootie Catcher</h4></a>
+  <ul id="printSideNav">
+   <li><a href="step1.html"><span>Make your own</span></a></li>
+   <li><a href="/cgi-registry/arthur/cootiecatcher2.pl"><span>Get a random one</span></a></li>
+   <li><a href="directions.html" class="selected"><span>Directions</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Directions</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+   </div>
+   <div class="page cc">
+    <ol id="ccDirectionsOL">
+     <li>Print out a cootie catcher.<br><img src="../../i/print/cootiecatcher/direct1.gif" width="106" height="140" alt="" border="0"></li>
+     <li>Cut out the cootie catcher on the dotted lines.<br> <img src="../../i/print/cootiecatcher/direct2.gif" width="106" height="140" alt="" border="0"></li>
+     <li>Fold two opposite diagonal corners together, then open back up.<br> <img src="../../i/print/cootiecatcher/direct3.gif" width="94" height="104" alt="" border="0"></li>
+     <li>Fold the other two opposite corners together, then open back up.<br> <img src="../../i/print/cootiecatcher/direct4.gif" width="94" height="104" alt="" border="0"></li>
+     <li>You should have folded lines like this. The lines cross at the center of the paper.<br><img src="../../i/print/cootiecatcher/direct5.gif" width="94" height="104" alt="" border="0"></li>
+     <li>Turn paper printed side down. Fold all four corners to the center of the paper.<br> <img src="../../i/print/cootiecatcher/direct6.gif" width="94" height="104" alt="" border="0"></li>
+     <li>When all four corners are folded, your catcher will look like this.<br> <img src="../../i/print/cootiecatcher/direct7.gif" width="94" height="104" alt="" border="0"></li>
+     <li>Flip your paper over so the Arthur characters are face down.<br> <img src="../../i/print/cootiecatcher/direct8.gif" width="94" height="104" alt="" border="0"></li>
+     <li>Again, fold all four corners to the center of the paper.<br><img src="../../i/print/cootiecatcher/direct9.gif" width="94" height="104" alt="" border="0"></li>
+     <li>When all four cornes are folded, your catcher will look like this.<br> <img src="../../i/print/cootiecatcher/direct10.gif" width="65" height="68" alt="" border="0"></li>
+     <li>Fold any two sides together. Make sure the numbers are in the inside, faces on the outside.<br> <img src="../../i/print/cootiecatcher/direct11.gif" width="76" height="47" alt="" border="0"></li>
+     <li>Slide your thumbs and fingers under the four flaps.<br> <img src="../../i/print/cootiecatcher/direct12.gif" width="82" height="93" alt="" border="0"></li>
+     <li id="step13"><p>13. &nbsp;Finally, rotate your hands, bringing your thumbs and index fingers together. The cootie catcher should expand. The numbered triangles will disappear inside, like the middle of a flower when the petals close. Then open and play!</p><img src="../../i/print/cootiecatcher/direct13.gif" width="104" height="97" alt="" border="0"></li>
+    </ol>
+    <div id="ccVersion">
+     <p>You can play your own version of Cootie Catcher, or my version:</p>
+     <p>First, with the Cootie Catcher closed, choose one of my four friends. Then close-and-open the Cootie Catcher once for each letter in my friend's name, leaving it open at the end so that you see four numbers inside.</p>
+     <p>(When you open and close it, open it once with your forefinger and thumb on each hand together. Then open it with your two forefingers together and your two thumbs together.)</p>
+     <p>Second, choose one of the four numbers, and close-and-open the Cootie Catcher that many times, again ending with it open.</p>
+     <p>Last, choose one of the four numbers, and lift up that flap to reveal your fortune or personal message.</p>
+    </div> <img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Ask Prunella</a></li>
+   <li><a href="/arthur/games/yougottobekidding/index.html" id="rcKidding">You've Got To be Kidding</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

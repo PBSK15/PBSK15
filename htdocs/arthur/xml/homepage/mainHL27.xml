@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Songbook</title>
+			<href>/arthur/games/songbook/index.html</href>
+			<imgurl>/arthur/i/related/songbook.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Super Action Challenge</title>
+			<href>/arthur/games/superactionchallenge/index.html</href>
+			<imgurl>/arthur/i/related/superaction.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sue Ellen's Travel Tales</title>
+			<href>/arthur/games/traveltales/index.html</href>
+			<imgurl>/arthur/i/related/traveltales.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Unmatching Game</title>
+			<href>/arthur/games/unmatching/index.html</href>
+			<imgurl>/arthur/i/related/unmatching.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy's Wardrobe</title>
+			<href>/arthur/games/wardrobe/index.html</href>
+			<imgurl>/arthur/i/related/wardrobe.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwingo!</title>
+			<href>/arthur/print/elwingo/index.html</href>
+			<imgurl>/arthur/i/related/elwingo.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Marthur Video Mashup</title>
+			<href>/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP</href>
+			<imgurl>/arthur/i/related/videomashup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Lint Rush</title>
+			<href>/arthur/video/index.html?pid=msANwkSPX_1u6ScqaB_ldGGqoLroUFot</href>
+			<imgurl>/arthur/i/related/lintrush.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Long Dull Winter</title>
+			<href>/arthur/video/index.html?pid=fiuzMEEx1H3QR82mMeyaQTD0e4a2DfIv</href>
+			<imgurl>/arthur/i/related/longdullwinter.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

@@ -1,0 +1,24 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Supermarket Adventure! | PBS Kids' %}
+{% set desc = 'Head to the supermarket with D.W. and help her select the correct groceries. Fill up her shopping cart!' %}
+{% set keywds = 'groceries, food, shopping, healthy, eat' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="marketbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="supermarket.html" target="_self"><img src="../../i/games/supermarket_splash.gif" width="615" height="430" border="0" alt="Play Supermarket Adventure"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+   <li><a href="/arthur/games/groovygarden/index.html" id="rcGroovy">Groovy Garden</a></li>
+   <li><a href="/arthur/games/lunchomatic/index.html" id="rcLunch">Lunch-o-matic</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

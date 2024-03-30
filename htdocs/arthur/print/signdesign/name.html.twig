@@ -1,0 +1,50 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Sign Design | PBS Kids' %}
+{% set desc = 'Type in your name and Arthur will show you how to sign it!' %}
+{% set keywds = 'sign language, deaf, ASL, name' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9fc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="signHeader">Sign Design</h4></a>
+  <ul id="printSideNav">
+   <li><a href="name.html" class="selected"><span>Practice Signing</span></a></li>
+   <li><a href="finger-spelling.html"><span>Finger Spelling</span></a></li>
+   <li><a href="more-info.html"><span>More Information</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Practice Signing</h1>
+    </div>
+   </div>
+   <div id="practiceContent"><img src="/arthur/i/print/signdesign/arthur_practice.gif" width="146" height="338" alt="" border="0" class="float-left">
+    <ul id="practiceNav">
+     <li><a href="name.html" class="current">Sign your name</a> |</li>
+     <li>&nbsp;<a href="question.html">Ask a question</a> |</li>
+     <li>&nbsp;<a href="statement.html">Make a statement</a></li>
+    </ul>
+    <p>I'll help you learn how to sign your name!</p>
+    <p>Type your name into the sentence below, then hit the submit button. You'll be learning some basic signing in no time.</p>
+    <form action="/cgi-registry/arthur/signdesign2.php" method="post" id="signForm" class="bg-6cc"><label>My name is </label><input type="text" size="15" maxlength="15" name="myname" style="background-color: rgb(153, 255, 255); " onfocus="if(this.style){this.style.backgroundColor='#fff';}" onblur="if(this.style){this.style.backgroundColor='#9ff';}">. <label>What's your name?</label><br> <input type="submit" value=" submit " class="bg-ffc submit">
+    </form>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+   <li><a href="/arthur/games/yougottobekidding/index.html" id="rcKidding">You've Got To Be Kidding</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,392 @@
+<storystarter>
+	<comicbook>
+	  <panel num="1" bg="2">
+		<sticker frame="1" type="Char" scaleX="1" scaleY="1" x="60" y="168" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="0.9" scaleY="0.9" x="139" y="216" rotation="0"/>
+		<sticker frame="9" type="Char" scaleX="1.1" scaleY="1.1" x="270" y="169" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="2">
+		<sticker frame="3" type="Props" scaleX="0.9" scaleY="0.9" x="133.95" y="215" rotation="0"/>
+		<sticker frame="9" type="Char" scaleX="1.1" scaleY="1.1" x="268.95" y="170" rotation="0"/>
+		<sticker frame="2" type="Char" scaleX="-1" scaleY="1" x="68.95" y="162" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="2">
+		<sticker frame="3" type="Char" scaleX="1" scaleY="1" x="28.05" y="168" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="2.3000000000000016" scaleY="2.3000000000000016" x="160.05" y="187" rotation="0"/>
+		<sticker frame="10" type="Char" scaleX="1" scaleY="1" x="282.1" y="156" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="4">
+		<sticker frame="4" type="Char" scaleX="1" scaleY="1" x="55" y="172" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="0.4" scaleY="0.4" x="234" y="114" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="4">
+		<sticker frame="4" type="Char" scaleX="1" scaleY="1" x="56.95" y="170" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="-1.4000000000000004" scaleY="1.4000000000000004" x="244.95" y="156" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="4">
+		<sticker frame="5" type="Char" scaleX="1.5000000000000007" scaleY="1.5000000000000007" x="245.1" y="157" rotation="0"/>
+		<sticker frame="4" type="Char" scaleX="1" scaleY="1" x="56.05" y="179" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="0.9" scaleY="0.9" x="196.1" y="202" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="1" scaleY="1" x="262" y="194" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="0.9" scaleY="0.9" x="226.1" y="234" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="0.9" scaleY="0.9" x="311.1" y="155" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="0.9" scaleY="0.9" x="293.1" y="223" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="0.9" scaleY="0.9" x="321.1" y="183" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="1" scaleY="1" x="313.1" y="258" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="1" scaleY="1" x="178.1" y="252" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="13">
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="99.95" y="43" rotation="0" text="I'm lookin' for Brown-eyed Sam. You know him?" bubbleBG="5" bubbleScaleX="-1"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="102.95" y="131" rotation="0" text="Story around town is he's eating all the ice cream..." bubbleBG="5" bubbleScaleX="-1"/>
+		<sticker frame="3" type="Props" scaleX="1" scaleY="1" x="74.95" y="211" rotation="0"/>
+		<sticker frame="1" type="Props" scaleX="2.5000000000000018" scaleY="2.5000000000000018" x="253.95" y="193" rotation="0"/>
+		<sticker frame="8" type="Props" scaleX="-1.4000000000000004" scaleY="1.4000000000000004" x="261.95" y="75" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="8">
+		<sticker frame="1" type="Props" scaleX="1" scaleY="1" x="256.95" y="215" rotation="0"/>
+		<sticker frame="8" type="Props" scaleX="-0.7" scaleY="0.7" x="256.95" y="164" rotation="0"/>
+		<sticker frame="32" type="Char" scaleX="1" scaleY="1" x="180.95" y="180" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="0.6" scaleY="0.6" x="169.95" y="227" rotation="0"/>
+		<sticker frame="1" type="Speech2" scaleX="1" scaleY="1" x="84.95" y="63" rotation="0" text="Mmm... ice cream..." bubbleBG="1" bubbleScaleX="-1"/>
+	  </panel>
+	  <panel num="3" bg="5">
+		<sticker frame="33" type="Char" scaleX="-1.7000000000000008" scaleY="1.7000000000000008" x="279.1" y="206" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="176.1" y="75" rotation="0" text="" bubbleBG="1" bubbleScaleX="-1"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="5">
+		<sticker frame="8" type="Char" scaleX="0.9" scaleY="0.9" x="76" y="148" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1.3000000000000005" scaleY="1.3000000000000005" x="214" y="64" rotation="0" text="Hey, Charlie..." bubbleBG="1" bubbleScaleX="1"/>
+	  </panel>
+	  <panel num="2" bg="5">
+		<sticker frame="8" type="Char" scaleX="0.9" scaleY="0.9" x="73.95" y="151" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1.3000000000000005" scaleY="1.3000000000000005" x="216.95" y="60" rotation="0" text="...now that my shrink ray is working..." bubbleBG="3" bubbleScaleX="1"/>
+	  </panel>
+	  <panel num="3" bg="5">
+		<sticker frame="10" type="Char" scaleX="0.8" scaleY="0.8" x="109.05" y="149" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1.2000000000000002" scaleY="1.2000000000000002" x="227.1" y="51" rotation="0" text="...this tiny sundae is a GIANT feast! Whoo-hoo!" bubbleBG="5" bubbleScaleX="1"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="1">
+		<sticker frame="5" type="MenuSpeech" scaleX="1.4000000000000004" scaleY="1.4000000000000004" x="160" y="23" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="181" y="168" rotation="0" text="I don't know, but does it matter? It's raining sandwiches!" bubbleBG="5" bubbleScaleX="1"/>
+		<sticker frame="15" type="Char" scaleX="1.2000000000000002" scaleY="1.2000000000000002" x="302" y="195" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="210" y="74" rotation="0" text="Where did all of these delicious sandwiches come from?" bubbleBG="5" bubbleScaleX="-1"/>
+		<sticker frame="7" type="Char" scaleX="1.3000000000000003" scaleY="1.3000000000000003" x="53.95" y="223" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="0.8" scaleY="0.8" x="331.95" y="64" rotation="-30"/>
+		<sticker frame="24" type="Props" scaleX="0.8" scaleY="0.8" x="83" y="96" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.8" scaleY="0.8" x="245" y="245" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.5" scaleY="0.5" x="317.95" y="229" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.5" scaleY="0.5" x="270" y="21" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.5" scaleY="0.5" x="328.95" y="84" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.6" scaleY="0.6" x="181" y="230" rotation="40"/>
+		<sticker frame="24" type="Props" scaleX="0.6" scaleY="0.6" x="1" y="159" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.5" scaleY="0.5" x="78" y="236" rotation="0"/>
+		<sticker frame="2" type="Char" scaleX="0.8" scaleY="0.8" x="42.95" y="85" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.7" scaleY="0.7" x="-9" y="63" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.4" scaleY="0.4" x="19" y="12" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="1">
+		<sticker frame="8" type="MenuSpeech" scaleX="1" scaleY="1" x="76" y="23" rotation="0"/>
+		<sticker frame="10" type="Char" scaleX="1.4000000000000004" scaleY="1.4000000000000004" x="153" y="151" rotation="-30"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="242" y="40" rotation="0" text="WIPPEEEEE! &#xD;MY PLAN WORKED!" bubbleBG="3" bubbleScaleX="1"/>
+		<sticker frame="24" type="Props" scaleX="1" scaleY="1" x="276" y="139" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="1" scaleY="1" x="320" y="229" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="1" scaleY="1" x="231.95" y="238" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.8" scaleY="0.8" x="17.95" y="80" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.8" scaleY="0.8" x="22.95" y="206" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="0.8" scaleY="0.8" x="68.95" y="164" rotation="0"/>
+		<sticker frame="24" type="Props" scaleX="1" scaleY="1" x="109.95" y="239" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="1">
+		<sticker frame="24" type="Props" scaleX="2.7000000000000015" scaleY="2.7000000000000015" x="184.1" y="142" rotation="0"/>
+		<sticker frame="14" type="MenuSpeech" scaleX="1.6000000000000008" scaleY="1.6000000000000008" x="71.05" y="43" rotation="-20"/>
+		<sticker frame="9" type="MenuSpeech" scaleX="1" scaleY="1" x="208.1" y="165" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="3">
+		<sticker frame="3" type="Char" scaleX="1" scaleY="1" x="46" y="165" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="132" y="39" rotation="0" text="Hey, where's that music coming from?" bubbleBG="3" bubbleScaleX="1"/>
+		<sticker frame="15" type="Char" scaleX="1" scaleY="1" x="284.95" y="181" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="0.8" scaleY="0.8" x="206" y="95" rotation="0" text="Beats me!" bubbleBG="1" bubbleScaleX="-1"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="154.95" y="162" rotation="0" text="Yeah, it is a really cool beat! But who's making it?" bubbleBG="5" bubbleScaleX="1"/>
+	  </panel>
+	  <panel num="2" bg="3">
+		<sticker frame="15" type="Char" scaleX="-0.6" scaleY="0.6" x="32" y="162" rotation="0"/>
+		<sticker frame="3" type="Char" scaleX="1.1" scaleY="1.1" x="312" y="137" rotation="-90"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="233" y="46" rotation="0" text="Nobody in here!" bubbleBG="1" bubbleScaleX="-1"/>
+		<sticker frame="1" type="Speech1" scaleX="0.9" scaleY="0.9" x="135" y="106" rotation="0" text="And no music makers over here!" bubbleBG="3" bubbleScaleX="1"/>
+	  </panel>
+	  <panel num="3" bg="19">
+		<sticker frame="1" type="Props" scaleX="1" scaleY="1" x="281.1" y="158" rotation="0"/>
+		<sticker frame="4" type="Props" scaleX="1.1" scaleY="1.1" x="268.1" y="198" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="-1" scaleY="1" x="285.1" y="55" rotation="20"/>
+		<sticker frame="7" type="Props" scaleX="0.8" scaleY="0.8" x="226.05" y="99" rotation="-20"/>
+		<sticker frame="5" type="Props" scaleX="0.8" scaleY="0.8" x="158.05" y="111" rotation="-20"/>
+		<sticker frame="19" type="Props" scaleX="-1" scaleY="1" x="163.1" y="102" rotation="0"/>
+		<sticker frame="3" type="Char" scaleX="1.1" scaleY="1.1" x="23.05" y="163" rotation="0"/>
+		<sticker frame="15" type="Char" scaleX="-1" scaleY="1" x="78.05" y="204" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="4">
+		<sticker frame="3" type="Props" scaleX="1" scaleY="1" x="49" y="179" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="0.7" scaleY="0.7" x="156" y="141" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="-1.9000000000000012" scaleY="1.9000000000000012" x="344.95" y="188" rotation="0"/>
+		<sticker frame="9" type="Char" scaleX="-2.2000000000000015" scaleY="2.2000000000000015" x="208" y="233" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="103" y="46" rotation="0" text="" bubbleBG="1" bubbleScaleX="-1"/>
+	  </panel>
+	  <panel num="2" bg="8">
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="109.95" y="73" rotation="0" text="" bubbleBG="1" bubbleScaleX="-1"/>
+		<sticker frame="16" type="Char" scaleX="1.5000000000000009" scaleY="1.5000000000000009" x="254.95" y="201" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="0.8" scaleY="0.8" x="115.95" y="150" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="-0.5" scaleY="0.5" x="182.95" y="227" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="2">
+		<sticker frame="21" type="Char" scaleX="-1.5000000000000009" scaleY="1.5000000000000009" x="99.05" y="207" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="236.1" y="82" rotation="0" text="" bubbleBG="1" bubbleScaleX="1"/>
+		<sticker frame="3" type="Props" scaleX="-0.7" scaleY="0.7" x="218.1" y="199" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="2">
+		<sticker frame="3" type="Char" scaleX="-1" scaleY="1" x="295" y="172" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="-1" scaleY="1" x="108.95" y="171" rotation="0"/>
+		<sticker frame="4" type="Props" scaleX="0.4" scaleY="0.4" x="223" y="208" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="14">
+		<sticker frame="4" type="Char" scaleX="2.0000000000000013" scaleY="2.0000000000000013" x="58.95" y="163" rotation="0"/>
+		<sticker frame="3" type="Char" scaleX="-2.5000000000000018" scaleY="2.5000000000000018" x="293" y="200" rotation="0"/>
+		<sticker frame="4" type="Props" scaleX="1.1" scaleY="1.1" x="181.95" y="208" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="14">
+		<sticker frame="4" type="Props" scaleX="1.3000000000000005" scaleY="1.3000000000000005" x="54.05" y="84" rotation="30"/>
+		<sticker frame="1" type="Props" scaleX="1" scaleY="1" x="177.05" y="60" rotation="0"/>
+		<sticker frame="4" type="Props" scaleX="1.5000000000000009" scaleY="1.5000000000000009" x="282.1" y="126" rotation="-30"/>
+		<sticker frame="4" type="Props" scaleX="2.2000000000000015" scaleY="2.2000000000000015" x="180.05" y="161" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="11">
+		<sticker frame="13" type="Char" scaleX="4.5" scaleY="4.5" x="123.95" y="-61" rotation="180"/>
+	  </panel>
+	  <panel num="2" bg="12">
+		<sticker frame="13" type="Char" scaleX="-4.100000000000001" scaleY="4.100000000000001" x="181.95" y="-48" rotation="180"/>
+	  </panel>
+	  <panel num="3" bg="15">
+		<sticker frame="13" type="Char" scaleX="3.8000000000000016" scaleY="3.8000000000000016" x="168.05" y="-33" rotation="-170"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="11">
+		<sticker frame="19" type="Char" scaleX="1" scaleY="1" x="8.95" y="214.55" rotation="0"/>
+		<sticker frame="19" type="Char" scaleX="1" scaleY="1" x="6.7" y="39.55" rotation="0"/>
+		<sticker frame="20" type="Char" scaleX="1" scaleY="1" x="209.2" y="161.7" rotation="30"/>
+		<sticker frame="20" type="Char" scaleX="1" scaleY="1" x="278.5" y="94.6" rotation="30"/>
+		<sticker frame="1" type="Speech1" scaleX="0.6" scaleY="0.6" x="103.55" y="171.45" rotation="0" text="The winner is.. Pal" bubbleBG="3" bubbleScaleX="1"/>
+		<sticker frame="20" type="Char" scaleX="1" scaleY="1" x="114.6" y="86.9" rotation="30"/>
+	  </panel>
+	  <panel num="2" bg="11">
+		<sticker frame="19" type="Char" scaleX="1" scaleY="1" x="21.2" y="199.15" rotation="0"/>
+		<sticker frame="1" type="Props" scaleX="-1" scaleY="1" x="113.65" y="202.4" rotation="0"/>
+		<sticker frame="19" type="Char" scaleX="-1" scaleY="1" x="239.1" y="193.65" rotation="0"/>
+		<sticker frame="8" type="Props" scaleX="0.6" scaleY="0.6" x="218.1" y="150.7" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="118.05" y="106.7" rotation="0" text="Here, you won...A HAT AND A TEDDY BEAR" bubbleBG="3" bubbleScaleX="1"/>
+		<sticker frame="1" type="Speech2" scaleX="0.8" scaleY="0.8" x="277.6" y="104.4" rotation="0" text="COOOOOOLLLL" bubbleBG="1" bubbleScaleX="1"/>
+	  </panel>
+	  <panel num="3" bg="11">
+		<sticker frame="9" type="Char" scaleX="1.9000000000000012" scaleY="1.9000000000000012" x="290.95" y="128.6" rotation="0"/>
+		<sticker frame="18" type="Char" scaleX="-1.2000000000000002" scaleY="1.2000000000000002" x="88.45" y="197.95" rotation="0"/>
+		<sticker frame="8" type="Props" scaleX="-0.6" scaleY="0.6" x="111.5" y="177" rotation="0"/>
+		<sticker frame="1" type="Props" scaleX="-0.8" scaleY="0.8" x="44.45" y="206.75" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="-1" scaleY="1" x="286.55" y="223.25" rotation="0"/>
+		<sticker frame="1" type="Speech2" scaleX="0.8" scaleY="0.8" x="165.05" y="109" rotation="0" text="" bubbleBG="1" bubbleScaleX="1"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="4">
+		<sticker frame="10" type="Char" scaleX="1.1" scaleY="1.1" x="83" y="166" rotation="0"/>
+		<sticker frame="20" type="Char" scaleX="0.9" scaleY="0.9" x="234" y="147" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="4">
+		<sticker frame="8" type="Char" scaleX="1.2000000000000002" scaleY="1.2000000000000002" x="80.95" y="177" rotation="0"/>
+		<sticker frame="3" type="Char" scaleX="-0.8" scaleY="0.8" x="203.95" y="133" rotation="0"/>
+		<sticker frame="19" type="Char" scaleX="-0.7" scaleY="0.7" x="262.95" y="200" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="4">
+		<sticker frame="10" type="Char" scaleX="1" scaleY="1" x="59.1" y="128" rotation="0"/>
+		<sticker frame="20" type="Char" scaleX="0.9" scaleY="0.9" x="271.1" y="180" rotation="80"/>
+		<sticker frame="2" type="Char" scaleX="1" scaleY="1" x="205.1" y="105" rotation="20"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="10">
+		<sticker frame="3" type="Char" scaleX="1.3000000000000005" scaleY="1.3000000000000005" x="44" y="188" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="146" y="57" rotation="0" text="" bubbleBG="1" bubbleScaleX="1"/>
+		<sticker frame="23" type="Char" scaleX="1" scaleY="1" x="267" y="154" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="0.8" scaleY="0.8" x="164" y="144" rotation="0" text="" bubbleBG="1" bubbleScaleX="-1"/>
+		<sticker frame="1" type="Speech1" scaleX="0.8" scaleY="0.8" x="148" y="208" rotation="0" text="" bubbleBG="1" bubbleScaleX="1"/>
+	  </panel>
+	  <panel num="2" bg="10">
+		<sticker frame="23" type="Char" scaleX="1" scaleY="1" x="195.95" y="164" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="90.95" y="39" rotation="0" text="" bubbleBG="1" bubbleScaleX="1"/>
+		<sticker frame="1" type="Speech1" scaleX="0.7" scaleY="0.7" x="142.95" y="81" rotation="0" text="." bubbleBG="1" bubbleScaleX="1"/>
+		<sticker frame="1" type="Speech1" scaleX="0.9" scaleY="0.9" x="240.95" y="54" rotation="0" text="" bubbleBG="1" bubbleScaleX="1"/>
+		<sticker frame="2" type="Char" scaleX="-1.3000000000000005" scaleY="1.3000000000000005" x="55" y="204" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="12">
+		<sticker frame="24" type="Char" scaleX="1.9000000000000012" scaleY="1.9000000000000012" x="82.05" y="220" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="4">
+		<sticker frame="19" type="Char" scaleX="-1" scaleY="1" x="281" y="191" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="173" y="56" rotation="0" text="Hey! Let's play hide and seek! You're it!" bubbleBG="3" bubbleScaleX="1"/>
+		<sticker frame="8" type="Char" scaleX="1" scaleY="1" x="68" y="147" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="4">
+		<sticker frame="18" type="Char" scaleX="-1" scaleY="1" x="256.95" y="194" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="193.95" y="114" rotation="0" text="1...2...3...4...5...6...7..8...9...10!" bubbleBG="3" bubbleScaleX="-1"/>
+	  </panel>
+	  <panel num="3" bg="3">
+		<sticker frame="20" type="Char" scaleX="1" scaleY="1" x="194.05" y="195" rotation="40"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="13">
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="133" y="65" rotation="0" text="Say, do you&#xD;want to go&#xD;riding?" bubbleBG="5" bubbleScaleX="1"/>
+		<sticker frame="14" type="Char" scaleX="-1" scaleY="1" x="256.95" y="179" rotation="0"/>
+		<sticker frame="16" type="Char" scaleX="1" scaleY="1" x="308.95" y="181" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="244" y="72" rotation="0" text="           Sure!" bubbleBG="1" bubbleScaleX="-1"/>
+		<sticker frame="11" type="Char" scaleX="0.9" scaleY="0.9" x="45.95" y="173" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="11">
+		<sticker frame="2" type="Props" scaleX="0.7" scaleY="0.7" x="62.95" y="197" rotation="0"/>
+		<sticker frame="17" type="Char" scaleX="-1" scaleY="1" x="302" y="166" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="94.95" y="97" rotation="0" text="OK Muffy, you can borrow my bike." bubbleBG="3" bubbleScaleX="-1"/>
+		<sticker frame="11" type="Char" scaleX="-0.9" scaleY="0.9" x="198.95" y="180" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="230.95" y="59" rotation="20" text="Hm! Seems kinda small!" bubbleBG="1" bubbleScaleX="-1"/>
+	  </panel>
+	  <panel num="3" bg="11">
+		<sticker frame="12" type="Props" scaleX="1" scaleY="1" x="375.15" y="-43" rotation="0"/>
+		<sticker frame="14" type="Char" scaleX="-1" scaleY="1" x="135.05" y="178" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="33.05" y="47" rotation="0" text="         You're too big!       &#xD;             Ha ha!" bubbleBG="3" bubbleScaleX="-1"/>
+		<sticker frame="17" type="Char" scaleX="-0.6" scaleY="0.6" x="69.05" y="176" rotation="0"/>
+		<sticker frame="2" type="Props" scaleX="0.4" scaleY="0.4" x="44.05" y="206" rotation="0"/>
+		<sticker frame="1" type="Speech2" scaleX="0.30000000000000004" scaleY="0.30000000000000004" x="40.05" y="119" rotation="0" text="            ?????" bubbleBG="1" bubbleScaleX="-1"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="211.1" y="45" rotation="0" text="And here's your ride, Francine..." bubbleBG="3" bubbleScaleX="-1"/>
+		<sticker frame="11" type="Char" scaleX="0.9" scaleY="0.9" x="246.05" y="164" rotation="0"/>
+		<sticker frame="3" type="Props" scaleX="-1.2000000000000002" scaleY="1.2000000000000002" x="332.1" y="188" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="14">
+		<sticker frame="1" type="Props" scaleX="3.9000000000000017" scaleY="3.9000000000000017" x="376.95" y="202" rotation="0"/>
+		<sticker frame="1" type="Char" scaleX="0.7" scaleY="0.7" x="48" y="240" rotation="0"/>
+		<sticker frame="13" type="Char" scaleX="0.7" scaleY="0.7" x="111" y="256" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="14">
+		<sticker frame="1" type="Props" scaleX="4.100000000000001" scaleY="4.100000000000001" x="237.95" y="216" rotation="0"/>
+		<sticker frame="3" type="Char" scaleX="0.9" scaleY="0.9" x="50.95" y="261" rotation="0"/>
+		<sticker frame="11" type="Char" scaleX="0.8" scaleY="0.8" x="111.95" y="263" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="14">
+		<sticker frame="1" type="Props" scaleX="4.200000000000001" scaleY="4.200000000000001" x="162.05" y="222" rotation="0"/>
+		<sticker frame="1" type="Char" scaleX="0.8" scaleY="0.8" x="43.05" y="254" rotation="0"/>
+		<sticker frame="13" type="Char" scaleX="0.7" scaleY="0.7" x="99.05" y="256" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="9">
+		<sticker frame="1" type="Speech1" scaleX="1.4000000000000004" scaleY="1.4000000000000004" x="146" y="68" rotation="0" text="" bubbleBG="1" bubbleScaleX="-1"/>
+		<sticker frame="18" type="Char" scaleX="1" scaleY="1" x="38" y="229" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="9">
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="229.95" y="59" rotation="0" text="" bubbleBG="1" bubbleScaleX="1"/>
+		<sticker frame="19" type="Char" scaleX="-1" scaleY="1" x="47.95" y="209" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="9">
+		<sticker frame="1" type="Speech1" scaleX="1.2000000000000002" scaleY="1.2000000000000002" x="221.1" y="53" rotation="0" text="" bubbleBG="1" bubbleScaleX="1"/>
+		<sticker frame="19" type="Char" scaleX="1" scaleY="1" x="24" y="212" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="1">
+		<sticker frame="1" type="Speech1" scaleX="0.8" scaleY="0.8" x="118.95" y="28" rotation="0" text="The twin maker!" bubbleBG="1" bubbleScaleX="1"/>
+		<sticker frame="10" type="MenuSpeech" scaleX="1" scaleY="1" x="245.95" y="28" rotation="0"/>
+		<sticker frame="31" type="Char" scaleX="-1.5000000000000009" scaleY="1.5000000000000009" x="72" y="159" rotation="0"/>
+		<sticker frame="31" type="Char" scaleX="1.5000000000000009" scaleY="1.5000000000000009" x="252.95" y="160" rotation="0"/>
+		<sticker frame="10" type="MenuSpeech" scaleX="1" scaleY="1" x="151" y="197" rotation="0"/>
+		<sticker frame="25" type="Props" scaleX="1" scaleY="1" x="161" y="91" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="1">
+		<sticker frame="31" type="Char" scaleX="4.899999999999999" scaleY="4.899999999999999" x="288.95" y="315" rotation="0"/>
+		<sticker frame="7" type="MenuSpeech" scaleX="1" scaleY="1" x="209.95" y="73" rotation="0"/>
+		<sticker frame="6" type="MenuSpeech" scaleX="1" scaleY="1" x="203" y="137" rotation="0"/>
+		<sticker frame="25" type="Props" scaleX="1.800000000000001" scaleY="1.800000000000001" x="73.95" y="122" rotation="0"/>
+		<sticker frame="32" type="Char" scaleX="0.9" scaleY="0.9" x="73.95" y="94" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="1">
+		<sticker frame="31" type="Char" scaleX="5.099999999999998" scaleY="5.099999999999998" x="284.1" y="317" rotation="0"/>
+		<sticker frame="10" type="MenuSpeech" scaleX="1.3000000000000005" scaleY="1.3000000000000005" x="201.1" y="78" rotation="0"/>
+		<sticker frame="25" type="Props" scaleX="1.800000000000001" scaleY="1.800000000000001" x="62.05" y="121" rotation="0"/>
+		<sticker frame="35" type="Char" scaleX="0.8" scaleY="0.8" x="89.1" y="97" rotation="0"/>
+		<sticker frame="33" type="Char" scaleX="0.8" scaleY="0.8" x="35.05" y="92" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="10">
+		<sticker frame="7" type="Char" scaleX="1.800000000000001" scaleY="1.800000000000001" x="77" y="217" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="10">
+		<sticker frame="5" type="Char" scaleX="1.4000000000000004" scaleY="1.4000000000000004" x="246.95" y="197" rotation="0"/>
+		<sticker frame="6" type="Char" scaleX="1.5000000000000009" scaleY="1.5000000000000009" x="81.95" y="208" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="10">
+		<sticker frame="4" type="Char" scaleX="-1.3000000000000005" scaleY="1.3000000000000005" x="297.1" y="203" rotation="0"/>
+		<sticker frame="6" type="Char" scaleX="1.3000000000000005" scaleY="1.3000000000000005" x="70.05" y="199" rotation="0"/>
+		<sticker frame="2" type="Char" scaleX="1.6000000000000008" scaleY="1.6000000000000008" x="197.1" y="219" rotation="0"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="3">
+		<sticker frame="16" type="Char" scaleX="1.1" scaleY="1.1" x="168" y="161" rotation="0"/>
+		<sticker frame="2" type="Props" scaleX="1" scaleY="1" x="244" y="197" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="83" y="54" rotation="0" text="" bubbleBG="1" bubbleScaleX="-1"/>
+	  </panel>
+	  <panel num="2" bg="3">
+		<sticker frame="14" type="Char" scaleX="1" scaleY="1" x="75.95" y="192" rotation="0"/>
+		<sticker frame="7" type="Char" scaleX="1" scaleY="1" x="125.95" y="208" rotation="0"/>
+		<sticker frame="5" type="Char" scaleX="-1" scaleY="1" x="8.95" y="155" rotation="0"/>
+		<sticker frame="8" type="Char" scaleX="1" scaleY="1" x="24.95" y="203" rotation="0"/>
+		<sticker frame="3" type="Char" scaleX="1" scaleY="1" x="55.95" y="245" rotation="0"/>
+		<sticker frame="16" type="Char" scaleX="1" scaleY="1" x="216.95" y="121" rotation="0"/>
+		<sticker frame="2" type="Props" scaleX="1" scaleY="1" x="243.95" y="209" rotation="0"/>
+		<sticker frame="1" type="Speech1" scaleX="1" scaleY="1" x="98.95" y="60" rotation="0" text="" bubbleBG="1" bubbleScaleX="-1"/>
+		<sticker frame="13" type="Props" scaleX="0.4" scaleY="0.4" x="188.95" y="66" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="11">
+		<sticker frame="2" type="Props" scaleX="1" scaleY="1" x="256.1" y="238" rotation="0"/>
+		<sticker frame="16" type="Char" scaleX="1.4000000000000006" scaleY="1.4000000000000006" x="219.05" y="114" rotation="0"/>
+		<sticker frame="13" type="Props" scaleX="0.4" scaleY="0.4" x="225.1" y="41" rotation="30"/>
+	  </panel>
+	</comicbook>
+	<comicbook>
+	  <panel num="1" bg="3">
+		<sticker frame="1" type="Char" scaleX="6.099999999999994" scaleY="6.099999999999994" x="144" y="508" rotation="0"/>
+	  </panel>
+	  <panel num="2" bg="2">
+		<sticker frame="1" type="Char" scaleX="-6.199999999999994" scaleY="6.199999999999994" x="247.95" y="505" rotation="0"/>
+	  </panel>
+	  <panel num="3" bg="10">
+		<sticker frame="1" type="Char" scaleX="6.099999999999994" scaleY="6.099999999999994" x="187.05" y="500" rotation="0"/>
+	  </panel>
+	</comicbook>
+</storystarter>

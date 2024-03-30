@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Alien: Assembly Required</title>
+			<href>/arthur/games/alien/index.html</href>
+			<imgurl>/arthur/i/related/alien.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Global Gizmo</title>
+			<href>/arthur/games/globalgizmo/index.html</href>
+			<imgurl>/arthur/i/related/globalgizmo.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got To Be Kidding</title>
+			<href>/arthur/games/yougottobekidding/index.html</href>
+			<imgurl>/arthur/i/related/kidding.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Super Action Challenge</title>
+			<href>/arthur/games/superactionchallenge/index.html</href>
+			<imgurl>/arthur/i/related/superaction.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Supermarket Adventure</title>
+			<href>/arthur/games/supermarket/index.html</href>
+			<imgurl>/arthur/i/related/supermarket.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>/arthur/i/related/grooveit.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Video</title>
+			<href>/arthur/video/index.html</href>
+			<imgurl>/arthur/i/related/video.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tales of Grotesquely Grim</title>
+			<href>/arthur/video/index.html?pid=67ptokFuv546f8Ul4PxEs9I9kZM887RQ</href>
+			<imgurl>/arthur/i/related/grotesquelygrim.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Happy Anniversary Part 1</title>
+			<href>/arthur/video/index.html?pid=tZ6EF51RRPpyic1Gjw4AamEZNykocM07</href>
+			<imgurl>/arthur/i/related/anniversary1.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Election</title>
+			<href>/arthur/video/index.html?pid=_CWks8YP3AYHfcjlUjgnO6uHGPLeFiSd</href>
+			<imgurl>/arthur/i/related/election.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Room To Ride</title>
+			<href>/arthur/video/index.html?pid=CzGhWX80_TK8ceDD4yDXoltE4E4u0Uew</href>
+			<imgurl>/arthur/i/related/roomtoride.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

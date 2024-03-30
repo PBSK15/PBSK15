@@ -1,0 +1,39 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Sue Ellen\'s Games & Printables Page | PBS Kids' %}
+{% set desc = 'Sue Ellen hosts some terrific games and printable activities. Try them out and have fun playing! Send her your own travel tale too!' %}
+{% set keywds = 'Sue Ellen, ARTHUR, games, print, activities, play' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cf9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/sueellen_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/sueellen_top.swf", "sueellen", "960", "363", "9", "#ccff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "games");			   fo.addVariable("char", "sue_ellen");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-sueellen">Sue Ellen's images</a>
+  <div id="friendsContent">
+   <h1>My Games &amp; Printables</h1>
+   <hr class="friendsRuler">
+   <ul id="myGames">
+    <li id="friendsComic" class="icon"><a href="../../games/comiccreator/index.html"><span>Comic Creator</span></a></li>
+    <li id="friendsGlobal" class="icon"><a href="../../games/globalgizmo/index.html"><span>Global Gizmo</span></a></li>
+    <li id="friendsTravel" class="icon"><a href="../../games/traveltales/index.html"><span>Sue Ellen's Travel Tales</span></a></li>
+    <li id="friendsVirtualGoose" class="icon"><a href="../../games/virtualgoose/index.html"><span>Virtual Goose</span></a></li>
+    <li id="friendsBookmarks" class="icon"><a href="../../print/bookmarks/index.html"><span>Bookmarks</span></a></li>
+    <li id="friendsFire" class="icon"><a href="../../firesafety/index.html"><span>Fire Safety Tips</span></a></li>
+    <li id="friendsColoring" class="icon"><a href="../../print/coloringpages/coloring.html#pg-sueellen1"><span>Coloring Pages</span></a></li>
+    <li id="friendsTrading" class="icon"><a href="../../print/tradingcards/cards.html#pg-sueellen1"><span>Trading Cards</span></a></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li> <!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

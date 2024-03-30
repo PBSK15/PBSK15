@@ -1,0 +1,35 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Backstreet | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9fc">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="backstreetHeader">Backstreet Boys In Elwood City</h4>
+  </div>
+  <div id="printablesNavIcons">
+   <ul id="halloweenNavIcons">
+    <li id="bVideo" class="icon"><a href="/arthur/backstreet/video/index.html"><span>Video Clips</span></a></li>
+    <li id="bLyrics" class="icon"><a href="/arthur/backstreet/lyrics/nothingbutmusic.html"><span>Song Lyrics</span></a></li>
+    <li id="bColoring" class="icon"><a href="/arthur/backstreet/coloring/backstreet.html"><span>Backstreet Boys Coloring Page</span></a></li>
+    <li id="bUColoring" class="icon"><a href="/arthur/backstreet/coloring/ustink.html"><span>U Stink Coloring Page</span></a></li>
+    <li id="bPoster" class="icon"><a href="/arthur/backstreet/poster/index.html"><span>Printable Poster</span></a></li>
+    <li id="bAOL" class="icon"><a href="/arthur/backstreet/chat/index.html"><span>AOL Chat Transcript</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Song Book</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,200 @@
+{
+   "wheel":{
+      "wedge_colors":[
+         "#ADEB00",
+         "#98D800"
+      ],
+      "wheel_border_color":"#75C700"
+   },
+   "arrow_buttons":{
+      "arrow_inner_fill":"#FFE000",
+      "arrow_inner_stroke":"#FFFfff",
+      "arrow_outer_border":"#75C700",
+      "arrow_shape_color":"#F79200"
+   },
+   "text_hub":{
+      "text_hub_fill":"#FFE000",
+      "text_hub_stroke":"#ffffff",
+      "pointer_fill":"#ffffff",
+      "text_hub_font":"#F79200"
+   },
+   "shows":[
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/sesame-street_elmo.png",
+         "href":"http://pbskids.org/sesame/",
+         "tier":"A",
+         "title":"Sesame Street",
+         "id": "sesame-street"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/super-why_superwhy.png",
+         "href":"http://pbskids.org/superwhy/",
+         "tier":"B",
+         "title":"Super Why!",
+         "id": "super-why"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/peg-cat.png",
+         "href":"http://pbskids.org/peg",
+         "tier":"A",
+         "title":"Peg + Cat",
+         "id": "peg-cat"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/wordgirl.png",
+         "href":"http://pbskids.org/wordgirl/",
+         "tier":"B",
+         "title":"WordGirl",
+         "id": "wordgirl"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/wild-kratts.png",
+         "href":"http://pbskids.org/wildkratts",
+         "tier":"A",
+         "title":"Wild Kratts",
+         "id": "wild-kratts"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/thomas-friends.png",
+         "href":"http://www.pbskids.org/thomasandfriends/",
+         "tier":"B",
+         "title":"Thomas &amp; Friends ",
+         "id": "thomas-friends"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/the-electric-company_live-action.png",
+         "href":"http://pbskids.org/electriccompany/",
+         "tier":"B",
+         "title":"The Electric Company",
+         "id": "the-electric-company"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/the-cat-in-the-hat.png",
+         "href":"http://pbskids.org/catinthehat",
+         "tier":"B",
+         "title":"The Cat in the Hat",
+         "id": "the-cat-in-the-hat"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/sid-the-science-kid.png",
+         "href":"http://pbskids.org/sid/",
+         "tier":"C",
+         "title":"Sid the Science Kid",
+         "id": "sid-the-science-kid"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/scigirls.png",
+         "href":"http://pbskids.org/scigirls/",
+         "tier":"C",
+         "title":"SciGirls",
+         "id": "scigirls"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/oh-noah.png",
+         "href":"http://pbskids.org/noah",
+         "tier":"C",
+         "title":"Oh Noah! ",
+         "id": "oh-noah"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/martha-speaks.png",
+         "href":"http://pbskids.org/martha/",
+         "tier":"B",
+         "title":"Martha Speaks",
+         "id": "martha-speaks"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/fizzys-lunch-lab.png",
+         "href":"http://pbskids.org/lunchlab/",
+         "tier":"B",
+         "title":"Fizzy&#39;s Lunch Lab",
+         "id": "fizzys-lunch-lab"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/dinosaur-train.png",
+         "href":"http://pbskids.org/dinosaurtrain/",
+         "tier":"A",
+         "title":"Dinosaur Train",
+         "id": "dinosaur-train"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/design-squad.png",
+         "href":"http://pbskids.org/designsquad/",
+         "tier":"C",
+         "title":"Design Squad",
+         "id": "design-squad"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/daniel-tigers-neighborhood.png",
+         "href":"http://pbskids.org/daniel/",
+         "tier":"A",
+         "title":"Daniel Tiger&#39;s Neighborhood ",
+         "id": "daniel-tigers-neighborhood"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/cyberchase.png",
+         "href":"http://pbskids.org/cyberchase",
+         "tier":"C",
+         "title":"Cyberchase",
+         "id": "cyberchase"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/curious-george.png",
+         "href":"http://pbskids.org/curiousgeorge",
+         "tier":"A",
+         "title":"Curious George",
+         "id": "curious-george"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/caillou.png",
+         "href":"http://pbskids.org/caillou",
+         "tier":"B",
+         "title":"Caillou",
+         "id": "caillou"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/arthur.png",
+         "href":"http://pbskids.org/arthur/",
+         "tier":"B",
+         "title":"Arthur",
+         "id": "arthur"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/odd-squad.png",
+         "href":"http://pbskids.org/oddsquad/",
+         "tier":"A",
+         "title":"Odd Squad",
+         "id": "odd-squad"
+      }, 
+   
+      {
+         "image":"/shell/images/content/show-bubbles/circle/plum-landing.png",
+         "href":"http://pbskids.org/plumlanding/",
+         "tier":"C",
+         "title":"Plum Landing",
+         "id": "plum-landing"
+      } 
+       
+   ]
+}

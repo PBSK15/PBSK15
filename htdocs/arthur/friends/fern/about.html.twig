@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Fern\'s About Me Page | PBS Kids' %}
+{% set desc = 'Poems and reading are two of Ferns favorite things, but learn more about Fern on her profile page. Take a poll about scary stories too!' %}
+{% set keywds = 'Fern, poetry, reading, profile, interests, ARTHUR' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/fern_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/fern_top.swf", "fern", "960", "363", "9", "#ccccff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "fern");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-fern">Fern's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Reading my poem for Jack Prelutsky.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Fighting with Francine, but we're good friends again.
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Climbing Moose Mountain to the top!
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_ccf">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you like scary stories?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/fern/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="fern"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="../../i/friends/books/fern_book1.jpg" width="148" height="117" alt="From the Bellybutton of the Moon / Del ombligo de la luna book cover" border="0"> <h4>From the Bellybutton of the Moon / Del ombligo de la luna</h4> <p>by Francisco X. Alarcon<br> The Axtec word, Mexico means 'from the bellybutton of the moon'. These summer poems are written in both English and Spanish.</p></li>
+    <li><img src="../../i/friends/books/fern_book2.jpg" width="148" height="117" alt="If I Were in Charge of the World book cover" border="0"> <h4>If I Were in Charge of the World</h4> <p>by Judith Viorst<br> If I were in charge of the world, I'd give this poetry book to everyone.</p></li>
+    <li><img src="../../i/friends/books/fern_book3.jpg" width="148" height="117" alt="Pass It On: African American Poetry for Children book cover" border="0"> <h4>Pass It On: African American Poetry for Children</h4> <p>by Wade Hudson<br> Funny poems, sad poems, poems about people, places, and dreams.</p></li>
+    <li><img src="../../i/friends/books/fern_book4.jpg" width="148" height="117" alt="Somebody Catch My Homework book cover" border="0"> <h4>Somebody Catch My Homework</h4> <p>by David L. Harrison<br> You'll laugh at these school poems about show and tell, cursive writing, cafeteria food, and more.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/games/poetry/index.html" id="rcPoetry">Poetry Nook</a></li>
+   <li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

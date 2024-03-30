@@ -1,0 +1,58 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Backyard Adventure | PBS Kids' %}
+{% set desc = 'Join D.W. and Bud as they embark on an epic backyard adventure, using their powers of imagination, collaboration, and problem solving.' %}
+{% set keywds = 'imagination, problem solving, adventure, jungle, ruins, trap doors, snakes, bats, interactive game, html5, D.W., Bud' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+  <!-- phaser.io library --> 
+	<!--<script type="text/javascript" src="js/libs/phaser_io/phaser.min.js"></script>-->
+	<script type="text/javascript" src="js/libs/phaser_io/phaser.js"></script>
+
+  <!-- uncompressed library -->
+  <script type="text/javascript" src="js/libs/utils.js"></script>
+  <script type="text/javascript" src="js/libs/Class.js"></script>
+  <script type="text/javascript" src="js/libs/Player.js"></script>
+  <script type="text/javascript" src="js/libs/BackgroundSystem.js"></script>
+  <script type="text/javascript" src="js/libs/HUDDisplay.js"></script>
+
+  <script type="text/javascript" src="js/libs/levels/BaseScreen.js"></script>
+  <script type="text/javascript" src="js/libs/levels/BackyardScreen.js"></script>
+  <script type="text/javascript" src="js/libs/levels/GoalScreen.js"></script>
+  
+  <script type="text/javascript" src="js/libs/levels/JungleScreen1.js"></script>
+  <script type="text/javascript" src="js/libs/levels/JungleScreen2.js"></script>
+  <script type="text/javascript" src="js/libs/levels/JungleScreen3.js"></script>
+  <script type="text/javascript" src="js/libs/levels/JungleScreen4.js"></script>
+  <script type="text/javascript" src="js/libs/levels/JungleScreen5.js"></script>
+  <script type="text/javascript" src="js/libs/levels/JungleScreen6.js"></script>
+  <script type="text/javascript" src="js/libs/levels/JungleScreen7.js"></script>
+  <script type="text/javascript" src="js/libs/levels/JungleScreen8.js"></script>
+
+  <script type="text/javascript" src="js/libs/levels/TempleScreen1.js"></script>
+  <script type="text/javascript" src="js/libs/levels/TempleScreen2.js"></script>
+  <script type="text/javascript" src="js/libs/levels/TempleScreen3.js"></script>
+  <script type="text/javascript" src="js/libs/levels/TempleScreen4.js"></script>
+  <script type="text/javascript" src="js/libs/levels/TempleScreen5.js"></script>
+  <script type="text/javascript" src="js/libs/levels/TempleScreen6.js"></script>
+  <script type="text/javascript" src="js/libs/levels/TempleScreen7.js"></script>
+  <script type="text/javascript" src="js/libs/levels/TempleScreen8.js"></script>
+
+  <script type="text/javascript" src="js/libs/game/GameVO.js"></script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="backyardAdv">
+ <div class="ruler"></div>
+ <div id="gameContainer"><!-- "stageCanvas" and "loadingDiv" built here -->
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li> <!--<li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>-->
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+
+{% set specialBody = '<script type="text/javascript" src="js/main.js?ver=2"></script>' %}

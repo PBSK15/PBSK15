@@ -1,0 +1,278 @@
+<game id="flyer" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPERWHY FLYER | PBS KIDS]]></title>
+	<swf url="sections/games/flyer/flyer.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "false"
+		helpIsActive = "false"
+		hasPrintable = "true"
+	/>
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="superwhy_endscreen" url="libraries/superwhy_endscreen.swf" />
+	</libraries> 
+	
+	<messages>
+		<message id="1">
+			<word><![CDATA[SUPER]]></word>
+			<word><![CDATA[READERS]]></word>
+			<word><![CDATA[TO THE]]></word>
+			<word><![CDATA[RESCUE!]]></word>
+		</message>
+		<message id="2">
+			<word><![CDATA[CALLING]]></word>
+			<word><![CDATA[ALL]]></word>
+			<word><![CDATA[SUPER]]></word>
+			<word><![CDATA[READERS]]></word>
+		</message>
+		<message id="3">
+			<word><![CDATA[THE]]></word>
+			<word><![CDATA[POWER]]></word>
+			<word><![CDATA[TO]]></word>
+			<word><![CDATA[READ]]></word>
+		</message>
+		<!-- "TRANSFORM" is too long of a word!
+		<message id="4">
+			<word><![CDATA[ITS]]></word>
+			<word><![CDATA[TIME]]></word>
+			<word><![CDATA[TO]]></word>
+			<word><![CDATA[TRANSFORM]]></word>
+		</message-->
+		<message id="5">
+			<word><![CDATA[TO THE]]></word>
+			<word><![CDATA[BOOK]]></word>
+			<word><![CDATA[CLUB]]></word>
+		</message>
+		<message id="6">
+			<word><![CDATA[HIP]]></word>
+			<word><![CDATA[HIP]]></word>
+			<word><![CDATA[HURRAY]]></word>
+		</message>
+		<message id="7">
+			<word><![CDATA[SUPER]]></word>
+			<word><![CDATA[WHY]]></word>
+			<word><![CDATA[TO THE]]></word>
+			<word><![CDATA[RESCUE]]></word>
+		</message>
+		<message id="8">
+			<word><![CDATA[SUPER]]></word>
+			<word><![CDATA[JOB,]]></word>
+			<word><![CDATA[SUPER]]></word>
+			<word><![CDATA[YOU]]></word>
+		</message>
+		<message id="9">
+			<word><![CDATA[WE]]></word>
+			<word><![CDATA[LOOK]]></word>
+			<word><![CDATA[IN A]]></word>
+			<word><![CDATA[BOOK]]></word>
+		</message>
+		<!--message id="10">
+			<word><![CDATA[LET'S]]></word>
+			<word><![CDATA[FLY]]></word>
+			<word><![CDATA[INTO]]></word>
+			<word><![CDATA[THIS]]></word>
+			<word><![CDATA[BOOK]]></word>
+		</message>
+		<message too long - would require 4th line on banner
+			message id="11">
+			<word><![CDATA[SUPER]]></word>
+			<word><![CDATA[READERS]]></word>
+			<word><![CDATA[SAVED]]></word>
+			<word><![CDATA[THE]]></word>
+			<word><![CDATA[DAY]]></word>
+		</message-->
+		<!--message>
+			<word><![CDATA[]]></word>
+			<word><![CDATA[]]></word>
+			<word><![CDATA[]]></word>
+			<word><![CDATA[]]></word>
+			<word><![CDATA[]]></word>
+		</message-->
+	</messages>
+	<assets>
+		<messages id ="messages" isGroup="true">
+			<message id="msg1" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/077 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/078 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/079 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/080 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/081 SuperWhy Tk01.mp3"/>
+				<word id="word5" type="audio" url="sections/games/flyer/audio/vo/082 SuperWhy Tk01.mp3"/>
+			</message>
+			<message id="msg2" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/083 SuperWhy Tk01 2.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/084 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/085 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/078 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/079 SuperWhy Tk01.mp3"/>
+			</message>
+			<message id="msg3" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/086 SuperWhy Tk01 1.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/081 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/088 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/089 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/090 SuperWhy Tk01.mp3"/>
+			</message>
+			<!--message id="msg4" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/092 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/093 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/094 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/095 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/096 SuperWhy Tk01.mp3"/>
+			</message-->
+			<message id="msg5" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/097 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/089 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/081 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/098 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/099 SuperWhy Tk01 1.mp3"/>
+			</message>
+			<message id="msg6" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/100 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/101 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/101 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/102 SuperWhy Tk01.mp3"/>
+			</message>
+			<message id="msg7" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/103 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/078 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/105 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/089 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/081 SuperWhy Tk01.mp3"/>
+				<word id="word5" type="audio" url="sections/games/flyer/audio/vo/082 SuperWhy Tk01.mp3"/>
+			</message>
+			<message id="msg8" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/106 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/078 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/107 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/078 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/108 SuperWhy Tk01.mp3"/>
+			</message>
+			<message id="msg9" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/109 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/110 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/111 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/112 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="INTENTIONALLY BLANK"/>
+				<word id="word5" type="audio" url="sections/games/flyer/audio/vo/113 SuperWhy Tk01.mp3"/>
+			</message>
+			<!--message id="msg10" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/114 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/115 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/116 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/078 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/117 SuperWhy Tk01.mp3"/>
+				<word id="word5" type="audio" url="sections/games/flyer/audio/vo/118 SuperWhy Tk01.mp3"/>
+			</message-->
+			<!--message id="msg11" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/119 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/120 SuperWhy Tk01.mp3"/>
+				<word id="word2" type="audio" url="sections/games/flyer/audio/vo/121 SuperWhy Tk01.mp3"/>
+				<word id="word3" type="audio" url="sections/games/flyer/audio/vo/122 SuperWhy Tk01.mp3"/>
+				<word id="word4" type="audio" url="sections/games/flyer/audio/vo/115 SuperWhy Tk01.mp3"/>
+				<word id="word5" type="audio" url="sections/games/flyer/audio/vo/113 SuperWhy Tk01.mp3"/>
+			</message-->
+			<!--message id="msg12" isGroup="true">
+				<word id="phrase" type="audio" url="sections/games/flyer/audio/vo/103 SuperWhy Tk01.mp3"/>
+				<word id="word1" type="audio" url="sections/games/flyer/audio/vo/104 SuperWhy Tk01.mp3"/>
+			</message-->
+		</messages>
+		<letters id="letters" isGroup="true">
+			<letter id="a" type="audio" url="sections/games/flyer/audio/vo/049 SuperWhy Tk01.mp3"/>
+			<letter id="b" type="audio" url="sections/games/flyer/audio/vo/050 SuperWhy Tk01.mp3"/>
+			<letter id="c" type="audio" url="sections/games/flyer/audio/vo/051 SuperWhy Tk01.mp3"/>
+			<letter id="d" type="audio" url="sections/games/flyer/audio/vo/052 SuperWhy Tk01.mp3"/>
+			<letter id="e" type="audio" url="sections/games/flyer/audio/vo/053 SuperWhy Tk01.mp3"/>
+			<letter id="f" type="audio" url="sections/games/flyer/audio/vo/054 SuperWhy Tk01.mp3"/>
+			<letter id="g" type="audio" url="sections/games/flyer/audio/vo/055 SuperWhy Tk01.mp3"/>
+			<letter id="h" type="audio" url="sections/games/flyer/audio/vo/056 SuperWhy Tk01.mp3"/>
+			<letter id="i" type="audio" url="sections/games/flyer/audio/vo/057 SuperWhy Tk01.mp3"/>
+			<letter id="j" type="audio" url="sections/games/flyer/audio/vo/058 SuperWhy Tk01.mp3"/>
+			<letter id="k" type="audio" url="sections/games/flyer/audio/vo/059 SuperWhy Tk01.mp3"/>
+			<letter id="l" type="audio" url="sections/games/flyer/audio/vo/060 SuperWhy Tk01.mp3"/>
+			<letter id="m" type="audio" url="sections/games/flyer/audio/vo/061 SuperWhy Tk01.mp3"/>
+			<letter id="n" type="audio" url="sections/games/flyer/audio/vo/062 SuperWhy Tk01.mp3"/>
+			<letter id="o" type="audio" url="sections/games/flyer/audio/vo/063 SuperWhy Tk01.mp3"/>
+			<letter id="p" type="audio" url="sections/games/flyer/audio/vo/064 SuperWhy Tk01.mp3"/>
+			<letter id="q" type="audio" url="sections/games/flyer/audio/vo/065 SuperWhy Tk01.mp3"/>
+			<letter id="r" type="audio" url="sections/games/flyer/audio/vo/066 SuperWhy Tk01.mp3"/>
+			<letter id="s" type="audio" url="sections/games/flyer/audio/vo/067 SuperWhy Tk01.mp3"/>
+			<letter id="t" type="audio" url="sections/games/flyer/audio/vo/068 SuperWhy Tk01.mp3"/>
+			<letter id="u" type="audio" url="sections/games/flyer/audio/vo/069 SuperWhy Tk01.mp3"/>
+			<letter id="v" type="audio" url="sections/games/flyer/audio/vo/070 SuperWhy Tk01.mp3"/>
+			<letter id="w" type="audio" url="sections/games/flyer/audio/vo/071 SuperWhy Tk01.mp3"/>
+			<letter id="x" type="audio" url="sections/games/flyer/audio/vo/072 SuperWhy Tk01.mp3"/>
+			<letter id="y" type="audio" url="sections/games/flyer/audio/vo/073 SuperWhy Tk01.mp3"/>
+			<letter id="z" type="audio" url="sections/games/flyer/audio/vo/074 SuperWhy Tk01.mp3"/>
+		</letters>
+		
+		<oops id="oops" isGroup="true">
+			<!--oops id="keep_looking" type="audio" url="sections/games/flyer/audio/oops/keep_looking.mp3" />
+			<oops id="keep_rolling" type="audio" url="sections/games/flyer/audio/oops/keep_rolling.mp3" /-->
+		</oops>
+		
+		<kudos id="kudos" isGroup="true">
+			<kudos id="greatjob" type="audio" url="sections/games/flyer/audio/vo/016 SuperWhy Tk01.mp3" />
+			<kudos id="foundone" type="audio" url="sections/games/flyer/audio/vo/017 SuperWhy Tk01.mp3" />
+			<kudos id="waytogo" type="audio" url="sections/games/flyer/audio/vo/018 SuperWhy Tk01.mp3" />
+			<kudos id="niceone" type="audio" url="sections/games/flyer/audio/vo/019 SuperWhy Tk01.mp3" />
+		</kudos>
+		
+		<soundfx id="soundfx" isGroup="true">
+			<!-- MOST OF THESE MP3'S HAD TOO MUCH OF A DELAY, HAD TO BE MADE INTERNAL 
+			<sfx id="btnSkip" type="audio" url="sections/games/flyer/audio/sfx/sfx_btn_skip.mp3" />
+			<sfx id="btnArrow" type="audio" url="sections/games/flyer/audio/sfx/sfx_arrow_btn.mp3" />
+			<sfx id="btnGo" type="audio" url="sections/games/flyer/audio/sfx/sfx_btn_go.mp3" />
+			<sfx id="transitionIn" type="audio" url="sections/games/flyer/audio/sfx/sfx_transition_in.mp3" />
+			<sfx id="transitionOut" type="audio" url="sections/games/flyer/audio/sfx/sfx_transition_out.mp3" />
+			<sfx id="readyGo" type="audio" url="sections/games/flyer/audio/sfx/sfx_level_start.mp3" />
+			<sfx id="pickupSuperletter" type="audio" url="sections/games/flyer/audio/sfx/sfx_col_superletter.mp3" />
+			<sfx id="pickupLightning" type="audio" url="sections/games/flyer/audio/sfx/sfx_col_lightningbolt.mp3" />
+			<sfx id="pickupWhyWriter" type="audio" url="sections/games/flyer/audio/sfx/sfx_col_whywriter.mp3" />
+			<sfx id="pickupPoints" type="audio" url="sections/games/flyer/audio/sfx/" />
+			<sfx id="pickupSuperBook" type="audio" url="sections/games/flyer/audio/sfx/sfx_col_superbook.mp3" />
+			<sfx id="pickupLastLetter" type="audio" url="sections/games/flyer/audio/sfx/sfx_col_lastsuperletter.mp3" />
+			<sfx id="PDAletter" type="audio" url="sections/games/flyer/audio/sfx/sfx_superletter_pda.mp3" />
+			<sfx id="fireworks" type="audio" url="sections/games/flyer/audio/sfx/sfx_fireworks.mp3" />
+			<sfx id="obstacleHit" type="audio" url="sections/games/flyer/audio/sfx/sfx_obstacle.mp3" />
+			-->
+			<sfx id="loopdeeloop" type="audio" url="sections/games/flyer/audio/vo/031 SuperWhy Tk01.mp3" />
+			<sfx id="loopdeeloop" type="audio" url="sections/games/flyer/audio/vo/031 SuperWhy Tk01.mp3" />
+		</soundfx>
+		<vo id="vo" isGroup="true">
+			<vo id="title" type="audio" url="sections/games/flyer/audio/vo/001 SuperWhy Tk02.mp3"/>
+			<!--vo id="choose" type="audio" url="sections/games/flyer/audio/vo/008 SuperWhy Tk02.mp3"/-->
+			<vo id="nice" type="audio" url="sections/games/flyer/audio/vo/009 SuperWhy Tk01.mp3"/>
+			<vo id="go" type="audio" url="sections/games/flyer/audio/vo/002 SuperWhy Tk01.mp3"/>
+			<vo id="timeout" type="audio" url="sections/games/flyer/audio/vo/011 SuperWhy Tk07.mp3"/>
+			<vo id="superbook" type="audio" url="sections/games/flyer/audio/vo/027 SuperWhy Tk06.mp3"/>
+			<vo id="bonus" type="audio" url="sections/games/flyer/audio/vo/sfx_level_start.mp3"/>
+			<vo id="whywriter" type="audio" url="sections/games/flyer/audio/vo/029 SuperWhy Tk01.mp3"/>
+			<vo id="lastletter" type="audio" url="sections/games/flyer/audio/vo/038 SuperWhy Tk02.mp3"/>
+			<vo id="lastword" type="audio" url="sections/games/flyer/audio/vo/045 SuperWhy Tk03.mp3"/>
+			<vo id="readwithme" type="audio" url="sections/games/flyer/audio/vo/042 SuperWhy Tk01.mp3"/>
+			<vo id="backtovillage" type="audio" url="sections/games/flyer/audio/vo/043 SuperWhy Tk01.mp3"/>
+			<vo id="readbanner" type="audio" url="sections/games/flyer/audio/vo/046 SuperWhy Tk05.mp3"/>
+			<vo id="messageis" type="audio" url="sections/games/flyer/audio/vo/047 SuperWhy Tk02.mp3"/>
+			<vo id="payoff" type="audio" url="sections/games/flyer/audio/vo/048 SuperWhy Tk04.mp3"/>
+			<vo id="" type="audio" url="sections/games/flyer/audio/vo/"/>
+		</vo>
+		<!--
+		<prompts id="prompts" isGroup="true">
+			<prompt id="find_letter" type="audio" url="sections/games/flyer/audio/prompts/find_letter.mp3" />
+			<prompt id="find_letter2" type="audio" url="sections/games/flyer/audio/prompts/find_letter.mp3" />
+		</prompts>
+		-->
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		</promos>
+		
+	</assets>
+	
+
+</game>

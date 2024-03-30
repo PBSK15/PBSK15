@@ -1,0 +1,32 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' Classic in the Jurassic Jr.' %}
+{% set desc = 'It\\\'s time for the Classic in the Jurassic, Jr!  Explore different sports events in Troodon Town while learning math skills!' %}
+{% set keywds = 'Dinosaur Train, Buddy and Tiny, science education, preschool math, kid dinosaur show, sports, olympics, math' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}
+
+ function getParameterByName(name)	{  
+name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");  
+var regexS = "[\\?&]" + name + "=([^&#]*)";  
+var regex = new RegExp(regexS);  
+var results = regex.exec(window.location.href);  
+if(results == null)    
+return "";  
+else    
+return decodeURIComponent(results[1].replace(/\+/g, " "));	}
+
+function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell_RTL.swf', 'swfContent', w, '100%', '10.1', '#9f4504');
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/game_index_RTL.swf?guid='+getParameterByName("guid")+'&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

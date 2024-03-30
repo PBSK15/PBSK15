@@ -1,0 +1,48 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Backstreet . Printable Poster | PBS Kids' %}
+{% set desc = 'Play songs from ARTHUR and create your own dances for them by using Prunellas dance cards.' %}
+{% set keywds = 'music, dance, perform, movement' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9fc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="/arthur/backstreet/index.html"><h4 id="backstreetHeader">Backstreet Boys In Elwood City</h4></a>
+  <ul id="printSideNav">
+   <li><a href="/arthur/backstreet/video/index.html"><span>Video Clips</span></a></li>
+   <li><a href="/arthur/backstreet/lyrics/nothingbutmusic.html"><span>Song Lyrics</span></a></li>
+   <li><a href="/arthur/backstreet/coloring/backstreet.html"><span>BSB Coloring</span></a></li>
+   <li><a href="/arthur/backstreet/coloring/ustink.html"><span>U Stink Coloring</span></a></li>
+   <li><a href="/arthur/backstreet/poster/index.html" class="selected"><span>Printable Poster</span></a></li>
+   <li><a href="/arthur/backstreet/chat/index.html"><span>AOL Chat</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content backstreet">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Printable Poster</h1>
+    </div>
+   </div>
+   <div id="backstreetContent"><img src="/arthur/i/backstreet/poster.gif" width="253" height="308" alt="Official It's Only Rock n Roll poster" border="0" class="float-left">
+    <div class="backstreet-poster">
+     <p>Here's the official ARTHUR <b>It's Only Rock 'n' Roll</b> poster featuring the Backstreet Boys alongside the gang from Elwood City.</p> <a href="/arthur/pdf/backstreet/backstreet_poster.pdf" id="BSPosterBtn">Poster PDF</a>
+     <p>Open the poster, print it out, and hang it up!</p>
+     <p>This file is in PDF format. To access it, you'll need <a href="/arthur/parentsteachers/help/answers/tech_pdf.html?cat=techsupport">Adobe Acrobat Reader</a>.</p>
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/muffy/index.html" id="rcMuffy">Muffy</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Song Book</a></li>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

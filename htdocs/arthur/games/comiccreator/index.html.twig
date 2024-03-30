@@ -1,0 +1,22 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Comic Creator | PBS Kids' %}
+{% set desc = 'Make your very own comic! Let your creative juices flow as you create the scenes and compose the dialogue and story of the characters in the Comic Creator.' %}
+{% set keywds = 'comic book, graphic novel, Sue Ellen, Neil Gaiman, write, compose, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="comicbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="comiccreator.php" target="_self"><img src="../../i/games/comic_splash.gif" width="960" height="547" border="0" alt="Comic Creator - Play"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/sue_ellen/index.html" id="rcSueEllen">Sue Ellen</a></li>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/games/moviemaker/index.html" id="rcMovieMaker">Movie Maker</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

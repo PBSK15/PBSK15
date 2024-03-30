@@ -1,0 +1,20 @@
+<track>
+<obstacle>
+    <type>rock</type>
+    <art>Rock1</art>
+    <lane>1</lane>
+    <x>296.45</x>
+</obstacle>
+<obstacle>
+    <type>rock</type><art>Rock1</art><lane>2</lane><x>296.45</x>
+</obstacle>
+<obstacle>
+    <type>power</type><art>Power1</art><lane>2</lane><x>493.3</x>
+</obstacle>
+<obstacle>
+    <type>fern</type><art>Fern1</art><lane>3</lane><x>659.45</x>
+</obstacle>
+<obstacle>
+    <type>fern</type><art>Fern1</art><lane>3</lane><x>770.45</x>
+</obstacle>
+</track>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Hey, Francine</title>
+			<href>/arthur/games/heyfrancine/index.html</href>
+			<imgurl>/arthur/i/related/heyfrancine.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Letters To Arthur</title>
+			<href>/arthur/games/letterstoarthur/index.html</href>
+			<imgurl>/arthur/i/related/letters.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Poetry Nook</title>
+			<href>/arthur/games/poetry/index.html</href>
+			<imgurl>/arthur/i/related/poetry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Baby Kate's Stickers</title>
+			<href>/arthur/games/stickers/index.html</href>
+			<imgurl>/arthur/i/related/stickers.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Unmatching Game</title>
+			<href>/arthur/games/unmatching/index.html</href>
+			<imgurl>/arthur/i/related/unmatching.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Marthur Video Mashup</title>
+			<href>/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP</href>
+			<imgurl>/arthur/i/related/videomashup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Lint Rush</title>
+			<href>/arthur/video/index.html?pid=msANwkSPX_1u6ScqaB_ldGGqoLroUFot</href>
+			<imgurl>/arthur/i/related/lintrush.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Room To Ride</title>
+			<href>/arthur/video/index.html?pid=CzGhWX80_TK8ceDD4yDXoltE4E4u0Uew</href>
+			<imgurl>/arthur/i/related/roomtoride.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

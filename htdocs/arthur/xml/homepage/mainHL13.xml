@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>About Face</title>
+			<href>/arthur/games/aboutface/index.html</href>
+			<imgurl>/arthur/i/related/aboutface.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Brain Game</title>
+			<href>/arthur/games/braingame/index.html</href>
+			<imgurl>/arthur/i/related/braingame.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Effective Detective</title>
+			<href>/arthur/games/effectivedetective/index.html</href>
+			<imgurl>/arthur/i/related/detective.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwood City Map</title>
+			<href>/arthur/games/elwoodcity/index.html</href>
+			<imgurl>/arthur/i/related/elwoodcity.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go! George Go!</title>
+			<href>/arthur/games/gogeorgego/index.html</href>
+			<imgurl>/arthur/i/related/gogeorgego.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwingo!</title>
+			<href>/arthur/print/elwingo/index.html</href>
+			<imgurl>/arthur/i/related/elwingo.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Falafelosophy</title>
+			<href>/arthur/video/index.html?pid=_n415FcdTUEm4MW2soUeNaembcKZghPf</href>
+			<imgurl>/arthur/i/related/falafelosophy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

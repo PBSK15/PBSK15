@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://awesomescreenshot.com/promotion/b/promotion.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			padding: 0px;
+			margin: 0px;
+			font-family: arial sans-serif;
+		}
+		.banner { position:relative;overflow: auto; height: 100px !important;}
+		.banner ul{
+	        padding: 0px;
+	        margin: 0px;
+	        height: 100px !important;
+	     }
+    	.banner li { list-style: none; }
+        .banner ul li { float: left; padding: 0px;}
+
+        .banner ul li a{
+        	display: block;
+        	height: 80px;
+        	font: normal 12px/14px arial, Helvetica;
+        	padding: 10px;
+        	color: white;
+        	text-decoration: none;
+        }
+        	
+        #container{
+        	height: 100px;
+        	width: 250px;
+        	position: relative;
+        	overflow: hidden;
+        }
+
+        ol{
+        	position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 20px;
+        }
+
+        .unslider-arrow {
+        	position: absolute;
+        	top:38px;
+        	height: 25px;
+        	width: 15px;
+        	background-image: url('images/arrow.png');
+        	opacity: 0.2;
+        }
+
+        .unslider-arrow:hover{
+        	opacity: 0.5;
+        }
+
+        .unslider-arrow:active{
+        	opacity: 0.7;
+        }
+
+        .unslider-arrow.prev{
+			left: 10px;
+			-webkit-transform: rotate(180deg);
+        }
+
+        .unslider-arrow.next{
+        	right: 10px;
+        }
+	</style>
+
+</head>
+<body>
+	<div id="container">
+		<div class="banner">
+		<ul>
+			<!-- <li class="forMac"><a href="http://bit.ly/macbooster" target="_blank"><img src="images/SystemCare-mac.png" alt=""></a></li>
+		</ul>
+	</div>
+	<a href="#" class="unslider-arrow prev"></a>
+	<a href="#" class="unslider-arrow next"></a>
+	</div>
+	
+
+	<script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="unslider.min.js"></script>
+	<script type="text/javascript">
+		var os = check_os();
+
+		if (os == "MS Windows") {
+			$('ul').find('.forMac').remove();
+		} else if (os == "Apple mac") {
+			$('ul').find('.forWin').remove();
+		} else {
+			$('ul').find('.forWin').remove();
+			$('ul').find('.forMac').remove();
+		}
+
+		if ($('.banner').find('li').length == 0) {
+			window.parent.postMessage({action:"removeBanner"},'*');
+		} else if ($('.banner').find('li').length == 1) {
+			$('.unslider-arrow').hide();
+		}
+
+		
+
+		 var unslider = $('.banner').unslider({
+		 		delay: 5000,            
+				complete: function() {},
+				keys: true,               
+				dots: false,
+				fluid: true                
+		});
+
+		$('.unslider-arrow').on('click', function(e) {
+			e.preventDefault();
+        	var fn = this.className.split(' ')[1];
+        	unslider.data('unslider')[fn]();
+    	});
+
+    	function check_os() {
+    		var os_type;
+			var windows = (navigator.userAgent.indexOf("Windows",0) != -1)?1:0,
+				mac = (navigator.userAgent.indexOf("Mac",0) != -1)?1:0,
+				linux = (navigator.userAgent.indexOf("Linux",0) != -1)?1:0,
+				unix = (navigator.userAgent.indexOf("X11",0) != -1)?1:0;
+		 
+			if (windows) {
+				os_type = "MS Windows";
+			} else if (mac) {
+				os_type = "Apple mac";
+			} else if (linux) {
+				os_type = "Linux";
+			} else if (unix) {
+				os_type = "Unix";
+			}
+		 
+			return os_type;
+		}
+
+	</script>
+</body>
+</html>
+--></ul></div></div></body></html>

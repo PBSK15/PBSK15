@@ -1,0 +1,72 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Ladonna\'s About Me Page | PBS Kids' %}
+{% set desc = 'Get to know a little bit more about the newest inhabitant of Elwood City Ladonna on her profile page. Check out her favorite books and take a poll.' %}
+{% set keywds = 'profile, books, Ladonna, interests, favorites' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ff9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/ladonna_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/ladonna_top.swf", "ladonna", "960", "363", "9", "#ffff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "ladonna");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="/arthur/friends/ladonna/photos.html" class="photoWall p-ladonna">Ladonna's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     King cake for breakfast! It's a Louisiana speciality!
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Mom and Dad won't let me have king cake for breakfast...
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     It's SO hard to choose! Oh! Did I ever tell you about the time we gave our TV away to the alligator sanctuary? My brother Gussie was working there one summer and there was this one gator named Penny, and she was kind of grumpy and no one could figure out why, but TV really calmed her down, so my Daddy...
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_fcc">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you like to listen to stories?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/ladonna/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="ladonna"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/ladonna_book3.jpg" width="148" height="117" alt="Liza Lou And The Yeller Belly Swamp book cover" border="0"> <h4>Liza Lou And The Yeller Belly Swamp</h4> <p>by Mercer Mayer<br> Now here's a girl with gumption! Read this book, and watch Liza Lou take care of a swampful of nasty creatures.</p></li>
+    <li><img src="/arthur/i/friends/books/ladonna_book4.jpg" width="148" height="117" alt="Miss Sally Ann and the Panther book cover" border="0"> <h4>Miss Sally Ann and the Panther</h4> <p>by Bobbi Miller<br> Any woman who can rope a hurricane is okay by me! Learn what happens when Miss Sally Ann Thunder Ann Whirlwind wrestles a mean-as-anything panther.</p></li>
+    <li><img src="/arthur/i/friends/books/ladonna_book2.jpg" width="148" height="117" alt="The Golly Sisters Go West book cover" border="0"> <h4>The Golly Sisters Go West</h4> <p>by Betsy Byars<br> May-May and Rose are sisters AND actresses, and they get themselves into the funniest situations! These sisters are just TOO much!</p></li>
+    <li><img src="/arthur/i/friends/books/ladonna_book1.jpg" width="148" height="117" alt="Goldilocks and the Three Bears book cover" border="0"> <h4>Goldilocks and the Three Bears</h4> <p>by James Marshall<br> Sure you already know the story of Goldilocks -- but did you know it could be this funny? Her porridge may be too hot or too cold, but this book is just right!</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/wardrobe/index.html" id="rcWardrobe">Muffy's Wardrobe</a></li>
+   <li><a href="/arthur/games/sugarbowlpoll/index.html" id="rcPoll">Sugar Bowl Poll</a></li> <!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

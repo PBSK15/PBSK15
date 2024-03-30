@@ -1,0 +1,98 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Pal\'s Photos Page | PBS Kids' %}
+{% set desc = 'See pictures of Pal! Pal tries to get his leash off, he goes after food he finds on the street, and he visits another dog friend!' %}
+{% set keywds = 'Pal, pictures, photos, food, friends, leash' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cf9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/pal_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/pal_top.swf", "pal", "960", "363", "9", "#ccff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "pal");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-pal">Pal's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/pal1.jpg" width="354" height="250" alt="Pal tugging at his leash." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_pal.gif" width="85" height="83" alt="Pal Avatar" border="0" id="avatar">
+    <h3>Woof woof! (Get... this... off!)</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="arthur-cmt"><a href="/arthur/friends/arthur/index.html">ARTHUR</a>
+       <p>Oh, it's not that bad...</p>
+      </div>
+      <div class="arthur-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/pal1.jpg" width="354" height="250" alt="Pal tugging at his leash." border="0" id="mainImg">
+       <h3>Woof woof! (Get... this... off!)</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="arthur-cmt"><a href="/arthur/friends/arthur/index.html">ARTHUR</a>
+          <p>Oh, it's not that bad...</p>
+         </div>
+         <div class="arthur-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/pal2.jpg" width="354" height="250" alt="Pal eying a doughnut at the edge of the street." border="0" id="mainImg">
+       <h3>Arf! (Street food!)</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="kate-cmt"><a href="/arthur/friends/baby_kate/index.html">BABY KATE</a>
+          <p>Bababa mmm. (Did you get it?)</p>
+         </div>
+         <div class="kate-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/pal3.jpg" width="354" height="250" alt="Pal with his friend Amigo." border="0" id="mainImg">
+       <h3>Ruff, wrowf! (My pal, Amigo!)!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/marthursticker/index.html" id="rcStickerBook">Marthur Stickerbook Mashup</a></li>
+   <li><a href="/arthur/print/fetch/index.html" id="rcFetch">Go Fetch!</a></li> <!--<li><a href="/arthur/video/games.html?pid=GEdWvpk_jyj2meMLgobbVVf8pP6z_NBg" id="rcSceneSwitcher">Video Scene Switcher</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

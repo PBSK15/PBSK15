@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Buster\'s About Me Page | PBS Kids' %}
+{% set desc = 'Learn all about Buster! He has asthma and e travels with his dad. Take a poll about keeping water in your refrigerator.' %}
+{% set keywds = 'Buster, interests, favorite, travel, asthma' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-6ff">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/buster_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/buster_top.swf", "buster", "960", "363", "9", "#66ffff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "buster");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-buster">Buster's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     My food collection.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Asthma. But when I take my medicine, I can do everything other kids can!
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Traveling around the world with my dad.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_6ff">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you keep a big bottle of water in the refrigerator?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/buster/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="buster"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/buster_book1.jpg" width="148" height="117" alt="TCompany's Coming book cover" border="0"> <h4>Company's Coming</h4> <p>by Arthur Yorinks<br> Moe and Shirley invite some travelers from outer space to dinner. It seems like the neighborly thing to do.</p></li>
+    <li><img src="/arthur/i/friends/books/buster_book2.jpg" width="148" height="117" alt="UFO Diary  book cover" border="0"> <h4>UFO Diary</h4> <p>by Satoshi Kitamura<br> A UFO visitor and a young boy explore Earth and space together.</p></li>
+    <li><img src="/arthur/i/friends/books/buster_book3.jpg" width="148" height="117" alt="Min-Yo and the Moon Dragon book cover" border="0"> <h4>Min-Yo and the Moon Dragon</h4> <p>by Elizabeth Hillman<br> The moon is slowly falling from the sky. Min-Yo asks the Moon Dragon for help.</p></li>
+    <li><img src="/arthur/i/friends/books/buster_book4.jpg" width="148" height="117" alt="June 29, 1999 book cover" border="0"> <h4>June 29, 1999</h4> <p>by David Wiesner<br> As part of her science experiment, Holly Evans uses weather balloons to float vegetable plants into the sky. She gets some strange results in this fantastic tale!</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/moviemaker/index.html" id="rcMovieMaker">Movie Maker</a></li>
+   <li><a href="/arthur/games/alien/index.html" id="rcAlien">Alien: Assembly Required</a></li>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

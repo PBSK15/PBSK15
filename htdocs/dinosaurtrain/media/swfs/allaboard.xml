@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<game>
+	<config>
+		<intro display='true' />
+	</config>
+	<media>
+		<asset id='intro' url='train_conductor_intro.mp3' />
+		<asset id='task1' url='train_conductor_task1.mp3' />
+		<asset id='task1_prompt' url='train_conductor_task1_prompt.mp3' />
+		<asset id='task2' url='train_conductor_task2.mp3' />
+		<asset id='task2_prompt' url='train_conductor_task2_prompt.mp3' />
+		<asset id='triassic00' url='train_conductor_triassic00.mp3' />
+		<asset id='triassic02' url='train_conductor_triassic02.mp3' />
+		<asset id='jurassic00' url='train_conductor_jurassic00.mp3' />
+		<asset id='jurassic02' url='train_conductor_jurassic02.mp3' />
+		<asset id='cretaceous00' url='train_conductor_cretaceous00.mp3' />
+		<asset id='cretaceous02' url='train_conductor_cretaceous02.mp3' />
+		<asset id='task3' url='train_conductor_task3.mp3' />
+		<asset id='task3_prompt' url='train_conductor_task3_prompt.mp3' />
+		<asset id='nothungry' url='train_conductor_nothungry.mp3' />
+		<asset id='corythosaurus_diet' url='train_conductor_corythosaurus_diet.mp3' />
+		<asset id='ornithomimus_diet' url='train_conductor_ornithomimus_diet.mp3' />
+		<asset id='deinonychus_diet' url='train_conductor_deinonychus_diet.mp3' />
+		<asset id='oryctodromeus_diet' url='train_conductor_oryctodromeus_diet.mp3' />
+		<asset id='parasauralophus_diet' url='train_conductor_parasauralophus_diet.mp3' />
+		<asset id='stygimoloch_diet' url='train_conductor_stygimoloch_diet.mp3' />
+		<asset id='microraptor_diet' url='train_conductor_microraptor_diet.mp3' />
+		<asset id='velociraptor_diet' url='train_conductor_velociraptor_diet.mp3' />
+		<asset id='peteinosaurus_diet' url='train_conductor_peteinosaurus_diet.mp3' />
+		<asset id='anklylosaurus_diet' url='train_conductor_anklylosaurus_diet.mp3' />
+		<asset id='corythosaurus' url='train_conductor_corythosaurus.mp3' />
+		<asset id='corythosaurus02' url='train_conductor_corythosaurus02.mp3' />
+		<asset id='ornithomimus' url='train_conductor_ornithomimus.mp3' />
+		<asset id='ornithomimus02' url='train_conductor_ornithomimus02.mp3' />
+		<asset id='deinonychus' url='train_conductor_deinonychus.mp3' />
+		<asset id='deinonychus02' url='train_conductor_deinonychus02.mp3' />
+		<asset id='oryctodromeus' url='train_conductor_oryctodromeus.mp3' />
+		<asset id='oryctodromeus02' url='train_conductor_oryctodromeus02.mp3' />
+		<asset id='parasauralophus' url='train_conductor_parasauralophus.mp3' />
+		<asset id='parasauralophus02' url='train_conductor_parasauralophus02.mp3' />
+		<asset id='stygimoloch' url='train_conductor_stygimoloch.mp3' />
+		<asset id='stygimoloch02' url='train_conductor_stygimoloch02.mp3' />
+		<asset id='microraptor' url='train_conductor_microraptor.mp3' />
+		<asset id='microraptor02' url='train_conductor_microraptor02.mp3' />
+		<asset id='velociraptor' url='train_conductor_velociraptor.mp3' />
+		<asset id='velociraptor02' url='train_conductor_velociraptor02.mp3' />
+		<asset id='peteinosaurus' url='train_conductor_peteinosaurus.mp3' />
+		<asset id='peteinosaurus02' url='train_conductor_peteinosaurus02.mp3' />
+		<asset id='anklylosaurus' url='train_conductor_anklylosaurus.mp3' />
+		<asset id='anklylosaurus02' url='train_conductor_anklylosaurus02.mp3' />
+		<asset id='carnivore' url='train_conductor_carnivore.mp3' />
+		<asset id='herbivore' url='train_conductor_herbivore.mp3' />
+		<asset id='omnivore' url='train_conductor_omnivore.mp3' />
+		<asset id='plant' url='train_conductor_plant.mp3' />
+		<asset id='meat' url='train_conductor_meat.mp3' />
+		<asset id='carnivore02' url='train_conductor_carnivore02.mp3' />
+		<asset id='herbivore02' url='train_conductor_herbivore02.mp3' />
+		<asset id='omnivore02' url='train_conductor_omnivore02.mp3' />
+		<asset id='task4' url='train_conductor_task4.mp3' />
+		<asset id='task4_prompt' url='train_conductor_task4_prompt.mp3' />
+		<asset id='timetunnel' url='train_conductor_timetunnel.mp3' />
+		<asset id='triassic01' url='train_conductor_triassic01.mp3' />
+		<asset id='jurassic01' url='train_conductor_jurassic01.mp3' />
+		<asset id='cretaceous01' url='train_conductor_cretaceous01.mp3' />
+		<asset id='status1' url='train_conductor_status1.mp3' />
+		<asset id='status2' url='train_conductor_status2.mp3' />
+		<asset id='whistle' url='train_conductor_whistle.mp3' />
+		<asset id='win' url='train_conductor_win.mp3' />
+		<asset id='lose' url='train_conductor_lose.mp3' />
+		<asset id='print' url='train_conductor_print.mp3' />
+		<asset id='done' url='train_conductor_done.mp3' />
+		<asset id='task5' url='train_conductor_task5.mp3' />
+		<asset id='task5_prompt' url='train_conductor_task5_prompt.mp3' />
+		<asset id='thump' url='thump.mp3' />
+		<asset id='sit' url='sit.mp3' />
+		<asset id='punch' url='punch.mp3' />
+		<asset id='gulp' url='gulp.mp3' />
+		<asset id='doink' url='doink.mp3' />
+		<asset id='task5wrongchoice' url='conductor_wrongPassenger_2.mp3' />
+	</media>
+</game>

@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Brachio Balance' %}
+{% set desc = 'Help the dinosaur eat the leaf! It\\\'s the Claw Stars vs. the Prehiostoric Predators in this balancing game. Players must choose the correct dinosaurs by adding or subtracing them from the rope until the weights of the two sides are equal.' %}
+{% set keywds = 'Balancing game, math games, Dinosaur Train, Kids math games, preschool math game, sports game, weight game' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell_RTL.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/Balance.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

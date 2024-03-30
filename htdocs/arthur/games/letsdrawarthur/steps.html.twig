@@ -1,0 +1,70 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Let\'s Draw Arthur | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" /><script type="text/javascript" src="/arthur/js/printables.js"></script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="letsdrawHeader">Let's Draw Arthur</h4></a>
+  <ul id="printSideNav">
+   <li><a href="steps.html" class="selected"><span>Step by Step</span></a></li>
+   <li><a href="printable.html"><span>Printable Version</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Step by step</h1>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 7 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printLetsdraw">
+    <li id="card1">
+     <div class="step">
+      <p>Start with Arthur's glasses.</p><img src="../../i/games/letsdrawarthur/dw1.gif" width="225" height="266" alt="" border="0">
+     </div><img src="../../i/games/letsdrawarthur/step1.gif" width="324" height="283" alt="" border="0"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="card2">
+     <div class="step">
+      <p>Next comes Arthur's round face.</p><img src="../../i/games/letsdrawarthur/dw2.gif" width="225" height="266" alt="" border="0">
+     </div><img src="../../i/games/letsdrawarthur/step2.gif" width="324" height="283" alt="" border="0"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="card3">
+     <div class="step">
+      <p>Then draw the top of Arthur's head. Yes... that looks about right.</p><img src="../../i/games/letsdrawarthur/dw3.gif" width="225" height="266" alt="" border="0">
+     </div><img src="../../i/games/letsdrawarthur/step3.gif" width="324" height="283" alt="" border="0"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="card4">
+     <div class="step">
+      <p>Now give Arthur two dots for a nose and a great big smile.</p><img src="../../i/games/letsdrawarthur/dw1.gif" width="225" height="266" alt="" border="0">
+     </div><img src="../../i/games/letsdrawarthur/step4.gif" width="324" height="283" alt="" border="0"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="card5">
+     <div class="step">
+      <p>Add his eyes and eyebrows. I think it's starting to look like Arthur.</p><img src="../../i/games/letsdrawarthur/dw3.gif" width="225" height="266" alt="" border="0">
+     </div><img src="../../i/games/letsdrawarthur/step5.gif" width="324" height="283" alt="" border="0"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="card6">
+     <div class="step">
+      <p>Arthur's ears come next!</p><img src="../../i/games/letsdrawarthur/dw2.gif" width="225" height="266" alt="" border="0">
+     </div><img src="../../i/games/letsdrawarthur/step6.gif" width="324" height="283" alt="" border="0"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="card7">
+     <div class="step">
+      <p>Don't forget Arthur's bow tie! Now he's all done!</p><img src="../../i/games/letsdrawarthur/dw4.gif" width="225" height="266" alt="" border="0">
+     </div><img src="../../i/games/letsdrawarthur/step7.gif" width="324" height="283" alt="" border="0"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/games/artgallery/index.html" id="rcGallery">Art Gallery</a></li>
+   <li><a href="/arthur/games/moviemaker/index.html" id="rcMovieMaker">Movie Maker</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

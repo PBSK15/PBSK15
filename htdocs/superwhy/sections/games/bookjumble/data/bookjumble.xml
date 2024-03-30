@@ -1,0 +1,426 @@
+<game id="bookjumble" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . BOOK JUMBLE | PBS KIDS]]></title>
+	<swf url="sections/games/bookjumble/bookjumble.swf" />
+
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "false"
+		activeStickersPerGame = "4"
+		gameDebug = "false"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+
+		<asset id="princess" location="game/superhero" url="../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../promos/endscreen_promo_sw_rescue.jpg" />
+
+		<asset id="wonderred" location="game/rhymenroll" url="../../../promos/endscreen_promo_rhymeroll.jpg" />
+
+		
+	</promos>
+		
+	
+	<game>		
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/bookjumble/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<asset id="gameUI" type="swf" url="bookjumbleUI.swf"/>
+
+			<asset id="chooseDifficulty" type="audio" url="audio/global/bj_difficulty.mp3" />
+			<asset id="difficulty_easy" type="audio" url="audio/global/bj_easy.mp3" />
+			<asset id="difficulty_hard" type="audio" url="audio/global/bj_hard.mp3" />
+			
+
+
+			<asset id="wildwest" type="audio" url="audio/global/bj_west.mp3" />
+			<asset id="egypt" type="audio" url="audio/global/bj_egypt.mp3" />
+			<asset id="dinosaurs" type="audio" url="audio/global/bj_dino.mp3" />
+			<asset id="space" type="audio" url="audio/global/bj_space.mp3" />
+			
+			<!-- end popup VO -->
+			<asset id="done" type="audio" url="audio/global/bj_done.mp3" />
+			<asset id="playagain" type="audio" url="audio/global/bj_again.mp3" />
+			<asset id="freeplay" type="audio" url="audio/global/bj_free.mp3" />
+			
+			<asset id="done_confirm" type="audio" url="audio/global/bj_confirm.mp3" />
+			<asset id="yes" type="audio" url="audio/global/bj_yes.mp3" />
+			<asset id="no" type="audio" url="audio/global/bj_no.mp3" />
+			
+			<asset id="game_questionmark_timeout" type="audio" url="audio/global/bj_game_questionmark_instruction.mp3" />
+			<asset id="game_timeout" type="audio" url="audio/global/bj_game_stdTO.mp3" />
+			<asset id="title_timeout" type="audio" url="audio/global/bj_title_TO.mp3" />
+
+			<asset id="freeplay_prompt" type="audio" url="audio/global/bj_freegame.mp3" />		
+			<asset id="game_intro" type="audio" url="audio/global/bj_game.mp3" />
+			<asset id="game_payoff_intro" type="audio" url="audio/global/bj_payoff.mp3" />
+			<!--
+			<asset id="ingame_timeout_1" type="audio" url="audio/global/bj_to1.mp3" />
+			<asset id="ingame_timeout_2" type="audio" url="audio/global/bj_to2.mp3" />
+			<asset id="ingame_timeout_3" type="audio" url="audio/global/bj_to3.mp3" />
+			-->
+			
+			<!-- oops, when red herring is placed -->
+			<asset id="redherring_oops" type="audio" url="audio/global/bj_rhfail.mp3" />
+			
+			<!-- oops, when it's the right scene, wrong object -->
+			<asset id="place_oops_1" type="audio" url="audio/global/bj_fail1.mp3" />
+			<asset id="place_oops_2" type="audio" url="audio/global/bj_fail2.mp3" />
+			<asset id="place_oops_3" type="audio" url="audio/global/bj_fail3.mp3" />
+			
+			<!-- load all basic sitcker VO up-front for red herrings -->
+			<asset id="saddle_sticker" type="audio" url="audio/matching/saddle.mp3"/>
+			<asset id="lasso_sticker" type="audio" url="audio/matching/lasso.mp3"/>			
+			<asset id="hat_sticker" type="audio" url="audio/matching/hat.mp3"/>
+			<asset id="cowboy_sticker" type="audio" url="audio/matching/cowboy.mp3"/>
+			<asset id="boots_sticker" type="audio" url="audio/matching/boots.mp3"/>
+			<asset id="wheel_sticker" type="audio" url="audio/matching/wheel.mp3"/>
+			<asset id="barrel_sticker" type="audio" url="audio/matching/barrel.mp3"/>
+			<asset id="cactus_sticker" type="audio" url="audio/matching/cactus.mp3"/>
+			<asset id="banjo_sticker" type="audio" url="audio/matching/banjo.mp3"/>
+			<asset id="harmonica_sticker" type="audio" url="audio/matching/harmonica.mp3"/>
+			
+			<asset id="camel_sticker" type="audio" url="audio/matching/camel.mp3"/>
+			<asset id="snake_sticker" type="audio" url="audio/matching/cobra.mp3"/>
+			<asset id="fish_sticker" type="audio" url="audio/matching/fish.mp3"/>	
+			<asset id="map_sticker" type="audio" url="audio/matching/map.mp3"/>
+			<asset id="pharaoh_sticker" type="audio" url="audio/matching/pharaoh.mp3"/>
+			<asset id="princess_sticker" type="audio" url="audio/matching/princess.mp3"/>
+			<asset id="pyramid_sticker" type="audio" url="audio/matching/pyramid.mp3"/>
+			<asset id="sphinx_sticker" type="audio" url="audio/matching/sphinx.mp3"/>
+			<asset id="statue_sticker" type="audio" url="audio/matching/statue.mp3"/>
+			<asset id="treasure_sticker" type="audio" url="audio/matching/treasure.mp3"/>
+			
+			<asset id="asteroid_sticker" type="audio" url="audio/matching/asteroid.mp3"/>
+			<asset id="comet_sticker" type="audio" url="audio/matching/comet.mp3"/>
+			<asset id="constellation_sticker" type="audio" url="audio/matching/constellation.mp3"/>
+			<asset id="crater_sticker" type="audio" url="audio/matching/crater.mp3"/>
+			<asset id="helmet_sticker" type="audio" url="audio/matching/helmet.mp3"/>
+			<asset id="moon_sticker" type="audio" url="audio/matching/moon.mp3"/>
+			<asset id="planet_sticker" type="audio" url="audio/matching/planet.mp3"/>
+			<asset id="rocket_sticker" type="audio" url="audio/matching/rocket.mp3"/>
+			<asset id="star_sticker" type="audio" url="audio/matching/star.mp3"/>
+			<asset id="sun_sticker" type="audio" url="audio/matching/sun.mp3"/>
+					
+			<asset id="boulder_sticker" type="audio" url="audio/matching/boulder.mp3"/>	
+			<asset id="cave_sticker" type="audio" url="audio/matching/cave.mp3"/>		
+			<asset id="dinosaur_sticker" type="audio" url="audio/matching/dinosaur.mp3"/>
+			<asset id="egg_sticker" type="audio" url="audio/matching/egg.mp3"/>
+			<asset id="insect_sticker" type="audio" url="audio/matching/insect.mp3"/>
+			<asset id="nest_sticker" type="audio" url="audio/matching/nest.mp3"/>
+			<asset id="tail_sticker" type="audio" url="audio/matching/tail.mp3"/>				
+			<asset id="volcano_sticker" type="audio" url="audio/matching/volcano.mp3"/>
+			<asset id="waterfall_sticker" type="audio" url="audio/matching/waterfall.mp3"/>			
+			<asset id="wing_sticker" type="audio" url="audio/matching/wing.mp3"/>						
+					
+		</assets>
+
+		
+		<onDemandResources>
+			
+			<group id="wildwest">	
+				<queue>
+					<asset id="scene_wildwest" type="swf" url="bookjumble_wildwest.swf"/>
+				</queue>
+				
+				<item id="saddle">
+					<label><![CDATA[Saddle]]></label>
+					<asset id="saddle_hint" type="audio" url="audio/matching/saddle_hint.mp3"/>
+					<asset id="saddle_kudos" type="audio" url="audio/matching/saddle_kudos.mp3"/>
+				</item>	
+					
+				<item id="lasso">
+					<label><![CDATA[Lasso]]></label>
+					<asset id="lasso_hint" type="audio" url="audio/matching/lasso_hint.mp3"/>
+					<asset id="lasso_kudos" type="audio" url="audio/matching/lasso_kudos.mp3"/>
+				</item>	
+
+				<item id="hat">
+					<label><![CDATA[Hat]]></label>
+					<asset id="hat_hint" type="audio" url="audio/matching/hat_hint.mp3"/>
+					<asset id="hat_kudos" type="audio" url="audio/matching/hat_kudos.mp3"/>
+
+				</item>
+				
+				<item id="cowboy">
+					<label><![CDATA[Cowboy]]></label>
+					<asset id="cowboy_hint" type="audio" url="audio/matching/cowboy_hint.mp3"/>
+					<asset id="cowboy_kudos" type="audio" url="audio/matching/cowboy_kudos.mp3"/>
+				</item>
+
+				<item id="boots">
+					<label><![CDATA[Boots]]></label>
+					<asset id="boots_hint" type="audio" url="audio/matching/boots_hint.mp3"/>
+					<asset id="boots_kudos" type="audio" url="audio/matching/boots_kudos.mp3"/>
+				</item>
+					
+				<item id="wheel">
+					<label><![CDATA[Wheel]]></label>
+					<asset id="wheel_hint" type="audio" url="audio/matching/wheel_hint.mp3"/>
+					<asset id="wheel_kudos" type="audio" url="audio/matching/wheel_kudos.mp3"/>
+				</item>	
+
+				<item id="barrel">
+					<label><![CDATA[Barrel]]></label>
+					<asset id="barrel_hint" type="audio" url="audio/matching/barrel_hint.mp3"/>
+					<asset id="barrel_kudos" type="audio" url="audio/matching/barrel_kudos.mp3"/>
+				</item>				
+
+				<item id="cactus">
+					<label><![CDATA[Cactus]]></label>
+					<asset id="cactus_hint" type="audio" url="audio/matching/cactus_hint.mp3"/>
+					<asset id="cactus_kudos" type="audio" url="audio/matching/cactus_kudos.mp3"/>
+				</item>
+
+				<item id="banjo">
+					<label><![CDATA[Banjo]]></label>
+					<asset id="banjo_hint" type="audio" url="audio/matching/banjo_hint.mp3"/>
+					<asset id="banjo_kudos" type="audio" url="audio/matching/banjo_kudos.mp3"/>
+				</item>				
+
+				<item id="harmonica">
+					<label><![CDATA[Harmonica]]></label>
+					<asset id="harmonica_hint" type="audio" url="audio/matching/harmonica_hint.mp3"/>
+					<asset id="harmonica_kudos" type="audio" url="audio/matching/harmonica_kudos.mp3"/>
+				</item>				
+			</group>
+
+			
+			<group id="egypt">
+				<queue>
+					<asset id="scene_egypt" type="swf" url="bookjumble_egypt.swf"/>
+				</queue>
+				
+				<item id="camel">
+					<label><![CDATA[Camel]]></label>
+					<asset id="camel_hint" type="audio" url="audio/matching/camel_hint.mp3"/>
+					<asset id="camel_kudos" type="audio" url="audio/matching/camel_kudos.mp3"/>
+				</item>
+				
+				<item id="snake">
+					<label><![CDATA[Cobra]]></label>
+					<asset id="snake_hint" type="audio" url="audio/matching/cobra_hint.mp3"/>
+					<asset id="snake_kudos" type="audio" url="audio/matching/cobra_kudos.mp3"/>
+				</item>	
+
+				<item id="fish">
+					<label><![CDATA[Fish]]></label>
+					<asset id="fish_hint" type="audio" url="audio/matching/fish_hint.mp3"/>
+					<asset id="fish_kudos" type="audio" url="audio/matching/fish_kudos.mp3"/>
+				</item>
+				
+				<item id="map">
+					<label><![CDATA[Map]]></label>
+					<asset id="map_hint" type="audio" url="audio/matching/map_hint.mp3"/>
+					<asset id="map_kudos" type="audio" url="audio/matching/map_kudos.mp3"/>
+				</item>
+				
+				<item id="pharaoh">
+					<label><![CDATA[Pharaoh]]></label>
+					<asset id="pharaoh_hint" type="audio" url="audio/matching/pharaoh_hint.mp3"/>
+					<asset id="pharaoh_kudos" type="audio" url="audio/matching/pharaoh_kudos.mp3"/>
+				</item>
+				
+				<item id="princess">
+					<label><![CDATA[Princess]]></label>
+					<asset id="princess_hint" type="audio" url="audio/matching/princess_hint.mp3"/>
+					<asset id="princess_kudos" type="audio" url="audio/matching/princess_kudos.mp3"/>
+				</item>
+
+				<item id="pyramid">
+					<label><![CDATA[Pyramid]]></label>
+					<asset id="pyramid_hint" type="audio" url="audio/matching/pyramid_hint.mp3"/>
+					<asset id="pyramid_kudos" type="audio" url="audio/matching/pyramid_kudos.mp3"/>
+				</item>
+				
+				<item id="sphinx">
+					<label><![CDATA[Sphinx]]></label>
+					<asset id="sphinx_hint" type="audio" url="audio/matching/sphinx_hint.mp3"/>
+					<asset id="sphinx_kudos" type="audio" url="audio/matching/sphinx_kudos.mp3"/>
+				</item>
+			
+				<item id="statue">
+					<label><![CDATA[Statue]]></label>
+					<asset id="statue_hint" type="audio" url="audio/matching/statue_hint.mp3"/>
+					<asset id="statue_kudos" type="audio" url="audio/matching/statue_kudos.mp3"/>
+				</item>
+				
+				<item id="treasure">
+					<label><![CDATA[Treasure]]></label>
+					<asset id="treasure_hint" type="audio" url="audio/matching/treasure_hint.mp3"/>
+					<asset id="treasure_kudos" type="audio" url="audio/matching/treasure_kudos.mp3"/>
+				</item>
+	
+			</group>
+			
+			
+			<group id="space">
+				<queue>
+					<asset id="scene_space" type="swf" url="bookjumble_space.swf"/>
+				</queue>
+				
+				<item id="asteroid">
+					<label><![CDATA[Asteroid]]></label>
+					<asset id="asteroid_hint" type="audio" url="audio/matching/asteroid_hint.mp3"/>
+					<asset id="asteroid_kudos" type="audio" url="audio/matching/asteroid_kudos.mp3"/>
+				</item>
+					
+				<item id="comet">
+					<label><![CDATA[Comet]]></label>
+					<asset id="comet_hint" type="audio" url="audio/matching/comet_hint.mp3"/>
+					<asset id="comet_kudos" type="audio" url="audio/matching/comet_kudos.mp3"/>
+				</item>
+
+				<item id="constellation">
+					<label><![CDATA[Constellation]]></label>
+					<asset id="constellation_hint" type="audio" url="audio/matching/constellation_hint.mp3"/>
+					<asset id="constellation_kudos" type="audio" url="audio/matching/constellation_kudos.mp3"/>
+				</item>	
+					
+				<item id="crater">
+					<label><![CDATA[Crater]]></label>
+					<asset id="crater_hint" type="audio" url="audio/matching/crater_hint.mp3"/>
+					<asset id="crater_kudos" type="audio" url="audio/matching/crater_kudos.mp3"/>
+				</item>	
+
+				<item id="helmet">
+					<label><![CDATA[Helmet]]></label>
+					<asset id="helmet_hint" type="audio" url="audio/matching/helmet_hint.mp3"/>
+					<asset id="helmet_kudos" type="audio" url="audio/matching/helmet_kudos.mp3"/>
+				</item>
+					
+				<item id="moon">
+					<label><![CDATA[Moon]]></label>
+					<asset id="moon_hint" type="audio" url="audio/matching/moon_hint.mp3"/>
+					<asset id="moon_kudos" type="audio" url="audio/matching/moon_kudos.mp3"/>
+				</item>
+
+				<item id="planet">
+					<label><![CDATA[Planet]]></label>
+					<asset id="planet_hint" type="audio" url="audio/matching/planet_hint.mp3"/>
+					<asset id="planet_kudos" type="audio" url="audio/matching/planet_kudos.mp3"/>
+				</item>
+					
+				<item id="rocket">
+					<label><![CDATA[Rocket]]></label>
+					<asset id="rocket_hint" type="audio" url="audio/matching/rocket_hint.mp3"/>
+					<asset id="rocket_kudos" type="audio" url="audio/matching/rocket_kudos.mp3"/>
+				</item>
+
+				<item id="star">
+					<label><![CDATA[Star]]></label>
+					<asset id="star_hint" type="audio" url="audio/matching/star_hint.mp3"/>
+					<asset id="star_kudos" type="audio" url="audio/matching/star_kudos.mp3"/>
+				</item>
+					
+				<item id="sun">
+					<label><![CDATA[Sun]]></label>
+					<asset id="sun_hint" type="audio" url="audio/matching/sun_hint.mp3"/>
+					<asset id="sun_kudos" type="audio" url="audio/matching/sun_kudos.mp3"/>
+				</item>
+	
+			</group>
+			
+			
+			<group id="dinosaurs">
+				<queue>
+					<asset id="scene_dinosaurs" type="swf" url="bookjumble_dinosaurs.swf"/>
+				</queue>
+				
+				<item id="tail">
+					<label><![CDATA[Tail]]></label>
+					<asset id="tail_hint" type="audio" url="audio/matching/tail_hint.mp3"/>
+					<asset id="tail_kudos" type="audio" url="audio/matching/tail_kudos.mp3"/>
+				</item>
+				
+				<item id="boulder">
+					<label><![CDATA[Boulder]]></label>
+					<asset id="boulder_hint" type="audio" url="audio/matching/boulder_hint.mp3"/>
+					<asset id="boulder_kudos" type="audio" url="audio/matching/boulder_kudos.mp3"/>
+				</item>
+					
+				<item id="cave">
+					<label><![CDATA[Cave]]></label>
+					<asset id="cave_hint" type="audio" url="audio/matching/cave_hint.mp3"/>
+					<asset id="cave_kudos" type="audio" url="audio/matching/cave_kudos.mp3"/>
+				</item>
+
+				<item id="dinosaur">
+					<label><![CDATA[Dinosaur]]></label>
+					<asset id="dinosaur_hint" type="audio" url="audio/matching/dinosaur_hint.mp3"/>
+					<asset id="dinosaur_kudos" type="audio" url="audio/matching/dinosaur_kudos.mp3"/>
+				</item>
+				
+				<item id="egg">
+					<label><![CDATA[Egg]]></label>
+					<asset id="egg_hint" type="audio" url="audio/matching/egg_hint.mp3"/>
+					<asset id="egg_kudos" type="audio" url="audio/matching/egg_kudos.mp3"/>
+				</item>	
+
+				<item id="insect">
+					<label><![CDATA[Insect]]></label>
+					<asset id="insect_hint" type="audio" url="audio/matching/insect_hint.mp3"/>
+					<asset id="insect_kudos" type="audio" url="audio/matching/insect_kudos.mp3"/>
+				</item>	
+				
+				<item id="nest">
+					<label><![CDATA[Nest]]></label>
+					<asset id="nest_hint" type="audio" url="audio/matching/nest_hint.mp3"/>
+					<asset id="nest_kudos" type="audio" url="audio/matching/nest_kudos.mp3"/>
+				</item>
+				
+
+				
+				<item id="volcano">
+					<label><![CDATA[Volcano]]></label>
+					<asset id="volcano_hint" type="audio" url="audio/matching/volcano_hint.mp3"/>
+					<asset id="volcano_kudos" type="audio" url="audio/matching/volcano_kudos.mp3"/>
+				</item>
+
+				<item id="waterfall">
+					<label><![CDATA[Waterfall]]></label>
+					<asset id="waterfall_hint" type="audio" url="audio/matching/waterfall_hint.mp3"/>
+					<asset id="waterfall_kudos" type="audio" url="audio/matching/waterfall_kudos.mp3"/>
+				</item>	
+				
+			
+				<item id="wing">
+					<label><![CDATA[Wing]]></label>
+					<asset id="wing_hint" type="audio" url="audio/matching/wing_hint.mp3"/>
+					<asset id="wing_kudos" type="audio" url="audio/matching/wing_kudos.mp3"/>
+				</item>
+
+			</group>
+			
+		</onDemandResources>
+		
+		
+		
+			
+			
+			
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

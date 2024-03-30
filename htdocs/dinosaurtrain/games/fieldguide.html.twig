@@ -1,0 +1,43 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Field Guide' %}
+{% set desc = 'Learn dinosaur names, what they might have looked like, their size, the foods they ate and what time period they existed in this book full of fun facts! You can even print a trading card to share fun facts with your friends.' %}
+{% set keywds = 'Book about dinosaurs, Dinosaur bones, Dr. Scott Sampson Video, Dinosaur Food, Dinosaur size, fun facts about dinosaurs, dinosaur education game, dinosaur trading cards' %}
+
+
+{% block specialInclude %}<link rel="stylesheet" href="fieldguide/s/compressed140658918.css" type="text/css">{% endblock %}
+
+
+{% set onLoadEvent = '(typeof onLoad === \"function\")?onLoad():false;' %}
+
+
+{% block loadContent %}
+
+ function getParameterByName(name)	{  
+name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");  
+var regexS = "[\\?&]" + name + "=([^&#]*)";  
+var regex = new RegExp(regexS);  
+var results = regex.exec(window.location.href);  
+if(results == null)    
+return "";  
+else    
+return decodeURIComponent(results[1].replace(/\+/g, " "));	}
+
+function loadContent(){
+isFlashEnabled(function(){
+    fixWidths(getSize());
+}, function(){
+    fixWidths(false, true, 'field-guide-page');
+});    }{% endblock %}
+
+
+
+
+{% block specialBodyInclude %}
+
+
+{% block specialBody %}<script>document.write('<s'+'cript language="JavaScript" src="http://view.atdmt.com/jaction/k01pkt_DinoTracks_1"></s'+'cript>')</script><noscript>
+ <iframe src="http://view.atdmt.com/iaction/k01pkt_DinoTracks_1" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe>
+</noscript><script type="text/javascript" src="fieldguide/j/compressed140658918.js"></script>{% endblock %}
+
+{% endblock %}
+

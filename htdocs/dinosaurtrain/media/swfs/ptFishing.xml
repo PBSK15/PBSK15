@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<game>
+	<music>
+		<asset id='bkgAudio' url='DT_TinyFishing.mp3' />
+	</music>
+	<fishing>
+		<buddy>
+			<asset id='fishing_buddy_spot00' url='fishing_buddy_spot00.mp3' />
+			<asset id='fishing_buddy_spot01' url='fishing_buddy_spot01.mp3' />
+			<asset id='fishing_buddy_spot02' url='fishing_buddy_spot02.mp3' />
+			<asset id='fishing_buddy_spot03' url='fishing_buddy_spot03.mp3' />
+			<asset id='fishing_buddy_spot04' url='fishing_buddy_spot04.mp3' />
+			<asset id='fishing_buddy_cheer01' url='fishing_buddy_cheer01.mp3' />
+			<asset id='fishing_buddy_cheer02' url='fishing_buddy_cheer02.mp3' />
+		</buddy>
+		<tiny>
+			<asset id='fishing_tiny_spot01' url='fishing_tiny_spot01.mp3' />
+			<asset id='fishing_tiny_prompt01' url='fishing_tiny_prompt01.mp3' />
+			<asset id='fishing_tiny_prompt02' url='fishing_tiny_prompt02.mp3' />
+		</tiny>
+		<dad>
+			<asset id='fishing_dad_prompt01' url='fishing_dad_prompt01.mp3' />
+			<asset id='fishing_dad_prompt02' url='fishing_dad_prompt02.mp3' />
+			<asset id='fishing_dad_timeup' url='fishing_dad_timeup.mp3' />
+		</dad>
+	</fishing>
+	<counting>
+		<asset id='fishing_tiny_nofish' url='fishing_tiny_nofish.mp3' />
+		<asset id='fishing_tiny_1' url='fishing_tiny_1.mp3' />
+		<asset id='fishing_tiny_2' url='fishing_tiny_2.mp3' />
+		<asset id='fishing_tiny_3' url='fishing_tiny_3.mp3' />
+		<asset id='fishing_tiny_4' url='fishing_tiny_4.mp3' />
+		<asset id='fishing_tiny_5' url='fishing_tiny_5.mp3' />
+		<asset id='fishing_tiny_6' url='fishing_tiny_6.mp3' />
+		<asset id='fishing_tiny_7' url='fishing_tiny_7.mp3' />
+		<asset id='fishing_tiny_8' url='fishing_tiny_8.mp3' />
+		<asset id='fishing_tiny_9' url='fishing_tiny_9.mp3' />
+		<asset id='fishing_tiny_10' url='fishing_tiny_10.mp3' />
+		<asset id='fishing_tiny_11' url='fishing_tiny_11.mp3' />
+		<asset id='fishing_tiny_12' url='fishing_tiny_12.mp3' />
+		<asset id='fishing_tiny_13' url='fishing_tiny_13.mp3' />
+		<asset id='fishing_tiny_14' url='fishing_tiny_14.mp3' />
+		<asset id='fishing_tiny_15' url='fishing_tiny_15.mp3' />
+		<asset id='fishing_tiny_16' url='fishing_tiny_16.mp3' />
+		<asset id='fishing_tiny_17' url='fishing_tiny_17.mp3' />
+		<asset id='fishing_tiny_18' url='fishing_tiny_18.mp3' />
+		<asset id='fishing_tiny_19' url='fishing_tiny_19.mp3' />
+		<asset id='fishing_tiny_20' url='fishing_tiny_20.mp3' />
+		<asset id='fishing_tiny_21' url='fishing_tiny_21.mp3' />
+		<asset id='fishing_tiny_22' url='fishing_tiny_22.mp3' />
+		<asset id='fishing_tiny_23' url='fishing_tiny_23.mp3' />
+		<asset id='fishing_tiny_24' url='fishing_tiny_24.mp3' />
+		<asset id='fishing_tiny_25' url='fishing_tiny_25.mp3' />
+		<asset id='fishing_tiny_26' url='fishing_tiny_26.mp3' />
+		<asset id='fishing_tiny_27' url='fishing_tiny_27.mp3' />
+		<asset id='fishing_tiny_28' url='fishing_tiny_28.mp3' />
+		<asset id='fishing_tiny_29' url='fishing_tiny_29.mp3' />
+		<asset id='fishing_tiny_30' url='fishing_tiny_30.mp3' />
+		<asset id='fishing_tiny_bigfish' url='fishing_tiny_bigfish.mp3' />
+		<asset id='fishing_tiny_smallfish' url='fishing_tiny_smallfish.mp3' />
+		<asset id='fishing_tiny_total' url='fishing_tiny_total.mp3' />
+		<asset id='fishing_buddy_count_small' url='fishing_buddy_count_small.mp3' />
+		<asset id='fishing_buddy_count_big' url='fishing_buddy_count_big.mp3' />
+		<asset id='fishing_dad_1' url='fishing_dad_1.mp3' />
+		<asset id='fishing_dad_2' url='fishing_dad_2.mp3' />
+		<asset id='fishing_dad_3' url='fishing_dad_3.mp3' />
+		<asset id='fishing_dad_4' url='fishing_dad_4.mp3' />
+		<asset id='fishing_dad_5' url='fishing_dad_5.mp3' />
+		<asset id='fishing_dad_6' url='fishing_dad_6.mp3' />
+		<asset id='fishing_dad_7' url='fishing_dad_7.mp3' />
+		<asset id='fishing_dad_8' url='fishing_dad_8.mp3' />
+		<asset id='fishing_dad_9' url='fishing_dad_9.mp3' />
+		<asset id='fishing_dad_10' url='fishing_dad_10.mp3' />
+		<asset id='fishing_dad_11' url='fishing_dad_11.mp3' />
+		<asset id='fishing_dad_12' url='fishing_dad_12.mp3' />
+		<asset id='fishing_dad_13' url='fishing_dad_13.mp3' />
+		<asset id='fishing_dad_14' url='fishing_dad_14.mp3' />
+		<asset id='fishing_dad_15' url='fishing_dad_15.mp3' />
+		<asset id='fishing_dad_16' url='fishing_dad_16.mp3' />
+		<asset id='fishing_dad_17' url='fishing_dad_17.mp3' />
+		<asset id='fishing_dad_18' url='fishing_dad_18.mp3' />
+		<asset id='fishing_dad_19' url='fishing_dad_19.mp3' />
+		<asset id='fishing_dad_20' url='fishing_dad_20.mp3' />
+		<asset id='fishing_dad_21' url='fishing_dad_21.mp3' />
+		<asset id='fishing_dad_22' url='fishing_dad_22.mp3' />
+		<asset id='fishing_dad_23' url='fishing_dad_23.mp3' />
+		<asset id='fishing_dad_24' url='fishing_dad_24.mp3' />
+		<asset id='fishing_dad_25' url='fishing_dad_25.mp3' />
+		<asset id='fishing_dad_26' url='fishing_dad_26.mp3' />
+		<asset id='fishing_dad_27' url='fishing_dad_27.mp3' />
+		<asset id='fishing_dad_28' url='fishing_dad_28.mp3' />
+		<asset id='fishing_dad_29' url='fishing_dad_29.mp3' />
+		<asset id='fishing_dad_30' url='fishing_dad_30.mp3' />
+		<asset id='fishing_dad_total' url='fishing_dad_total.mp3' />
+		<asset id='fishing_dad_outro01' url='fishing_dad_outro01.mp3' />
+		<asset id='fishing_dad_outro02' url='fishing_dad_outro02.mp3' />
+		<asset id='fishing_dad_outro03' url='fishing_dad_outro03.mp3' />
+	</counting>
+</game>

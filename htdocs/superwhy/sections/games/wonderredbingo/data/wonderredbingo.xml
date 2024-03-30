@@ -1,0 +1,508 @@
+<game id="wonderredbingo" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . ALHPA PIG BINGO | PBS KIDS]]></title>
+	<swf url="sections/games/wonderredbingo/wonderredbingo.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "false"
+		helpIsActive = "true"
+		hasPrintable = "true"
+		totalGridCels = "9"
+		musicLoopID = "RedBingoMusicLoop"
+		musicLoopVolume = ".1"
+		endScreenLibraryID = "wonderred_endscreen"
+		endScreenClassName = "WonderRedEndScreen"
+		characterSectionColor = "wonderred"
+		printImagesToLoad = "3"
+	/>
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="wonderred_endscreen" url="libraries/wonderred_endscreen.swf" />
+	</libraries> 
+
+	<assets>
+		
+		<voiceovers id="vo" isGroup="true">
+			<voiceover id="title_licketyletterbingo" type="audio" url="sections/games/wonderredbingo/audio/vo/Title.mp3"/>
+		</voiceovers>
+		
+		<answerSounds id="answerSounds" isGroup="true">
+				<answer id="back" type="audio" url="sections/games/wonderredbingo/audio/words/BACK.mp3"><![CDATA[back]]></answer>
+				<answer id="sack" type="audio" url="sections/games/wonderredbingo/audio/words/SACK.mp3"><![CDATA[sack]]></answer>
+				<answer id="lack" type="audio" url="sections/games/wonderredbingo/audio/words/LACK.mp3"><![CDATA[lack]]></answer>
+				<answer id="black" type="audio" url="sections/games/wonderredbingo/audio/words/BLACK.mp3"><![CDATA[black]]></answer>
+				<answer id="pack" type="audio" url="sections/games/wonderredbingo/audio/words/PACK.mp3"><![CDATA[pack]]></answer>
+				<answer id="crack" type="audio" url="sections/games/wonderredbingo/audio/words/CRACK.mp3"><![CDATA[crack]]></answer>
+				<answer id="rack" type="audio" url="sections/games/wonderredbingo/audio/words/RACK.mp3"><![CDATA[rack]]></answer>
+				<answer id="tack" type="audio" url="sections/games/wonderredbingo/audio/words/TACK.mp3"><![CDATA[tack]]></answer>
+				<answer id="snack" type="audio" url="sections/games/wonderredbingo/audio/words/SNACK.mp3"><![CDATA[snack]]></answer>
+				<answer id="quack" type="audio" url="sections/games/wonderredbingo/audio/words/QUACK.mp3"><![CDATA[quack]]></answer>
+				<answer id="bag" type="audio" url="sections/games/wonderredbingo/audio/words/BAG.mp3"><![CDATA[bag]]></answer>
+				<answer id="rag" type="audio" url="sections/games/wonderredbingo/audio/words/RAG.mp3"><![CDATA[rag]]></answer>
+				<answer id="tag" type="audio" url="sections/games/wonderredbingo/audio/words/TAG.mp3"><![CDATA[tag]]></answer>
+				<answer id="brag" type="audio" url="sections/games/wonderredbingo/audio/words/BRAG.mp3"><![CDATA[brag]]></answer>
+				<answer id="flag" type="audio" url="sections/games/wonderredbingo/audio/words/FLAG.mp3"><![CDATA[flag]]></answer>
+				<answer id="sag" type="audio" url="sections/games/wonderredbingo/audio/words/SAG.mp3"><![CDATA[sag]]></answer>
+				<answer id="fill" type="audio" url="sections/games/wonderredbingo/audio/words/FILL.mp3"><![CDATA[fill]]></answer>
+				<answer id="hill" type="audio" url="sections/games/wonderredbingo/audio/words/HILL.mp3"><![CDATA[hill]]></answer>
+				<answer id="pill" type="audio" url="sections/games/wonderredbingo/audio/words/PILL.mp3"><![CDATA[pill]]></answer>
+				<answer id="will" type="audio" url="sections/games/wonderredbingo/audio/words/WILL.mp3"><![CDATA[will]]></answer>
+				<answer id="chill" type="audio" url="sections/games/wonderredbingo/audio/words/CHILL.mp3"><![CDATA[chill]]></answer>
+				<answer id="drill" type="audio" url="sections/games/wonderredbingo/audio/words/DRILL.mp3"><![CDATA[drill]]></answer>
+				<answer id="grill" type="audio" url="sections/games/wonderredbingo/audio/words/GRILL.mp3"><![CDATA[grill]]></answer>
+				<answer id="bin" type="audio" url="sections/games/wonderredbingo/audio/words/BIN.mp3"><![CDATA[bin]]></answer>
+				<answer id="fin" type="audio" url="sections/games/wonderredbingo/audio/words/FIN.mp3"><![CDATA[fin]]></answer>
+				<answer id="pin" type="audio" url="sections/games/wonderredbingo/audio/words/PIN.mp3"><![CDATA[pin]]></answer>
+				<!-- missing audio answer id="win" type="audio" url="sections/games/wonderredbingo/audio/words/WIN.mp3"><![CDATA[win]]></answer-->
+				<answer id="spin" type="audio" url="sections/games/wonderredbingo/audio/words/SPIN.mp3"><![CDATA[spin]]></answer>
+				<answer id="skin" type="audio" url="sections/games/wonderredbingo/audio/words/SKIN.mp3"><![CDATA[skin]]></answer>
+				<answer id="chin" type="audio" url="sections/games/wonderredbingo/audio/words/CHIN.mp3"><![CDATA[chin]]></answer>
+				<answer id="thin" type="audio" url="sections/games/wonderredbingo/audio/words/THIN.mp3"><![CDATA[thin]]></answer>
+				<answer id="twin" type="audio" url="sections/games/wonderredbingo/audio/words/TWIN.mp3"><![CDATA[twin]]></answer>
+				<answer id="hip" type="audio" url="sections/games/wonderredbingo/audio/words/HIP.mp3"><![CDATA[hip]]></answer>
+				<answer id="dip" type="audio" url="sections/games/wonderredbingo/audio/words/DIP.mp3"><![CDATA[dip]]></answer>
+				<answer id="lip" type="audio" url="sections/games/wonderredbingo/audio/words/LIP.mp3"><![CDATA[lip]]></answer>
+				<answer id="sip" type="audio" url="sections/games/wonderredbingo/audio/words/SIP.mp3"><![CDATA[sip]]></answer>
+				<answer id="tip" type="audio" url="sections/games/wonderredbingo/audio/words/TIP.mp3"><![CDATA[tip]]></answer>
+				<answer id="chip" type="audio" url="sections/games/wonderredbingo/audio/words/CHIP.mp3"><![CDATA[chip]]></answer>
+				<answer id="flip" type="audio" url="sections/games/wonderredbingo/audio/words/FLIP.mp3"><![CDATA[flip]]></answer>
+				<answer id="ship" type="audio" url="sections/games/wonderredbingo/audio/words/SHIP.mp3"><![CDATA[ship]]></answer>
+				<answer id="skip" type="audio" url="sections/games/wonderredbingo/audio/words/SKIP.mp3"><![CDATA[skip]]></answer>
+				<answer id="trip" type="audio" url="sections/games/wonderredbingo/audio/words/TRIP.mp3"><![CDATA[trip]]></answer>
+				<answer id="cop" type="audio" url="sections/games/wonderredbingo/audio/words/COP.mp3"><![CDATA[cop]]></answer>
+				<answer id="hop" type="audio" url="sections/games/wonderredbingo/audio/words/HOP.mp3"><![CDATA[hop]]></answer>
+				<answer id="mop" type="audio" url="sections/games/wonderredbingo/audio/words/MOP.mp3"><![CDATA[mop]]></answer>
+				<answer id="pop" type="audio" url="sections/games/wonderredbingo/audio/words/POP.mp3"><![CDATA[pop]]></answer>
+				<answer id="top" type="audio" url="sections/games/wonderredbingo/audio/words/TOP.mp3"><![CDATA[top]]></answer>
+				<answer id="chop" type="audio" url="sections/games/wonderredbingo/audio/words/CHOP.mp3"><![CDATA[chop]]></answer>
+				<answer id="shop" type="audio" url="sections/games/wonderredbingo/audio/words/SHOP.mp3"><![CDATA[shop]]></answer>
+				<answer id="stop" type="audio" url="sections/games/wonderredbingo/audio/words/STOP.mp3"><![CDATA[stop]]></answer>
+				<answer id="chairs" type="audio" url="sections/games/wonderredbingo/audio/words/CHAIRS.mp3"><![CDATA[chairs]]></answer>
+				<answer id="fairs" type="audio" url="sections/games/wonderredbingo/audio/words/FAIRS.mp3"><![CDATA[fairs]]></answer>
+				<answer id="hairs" type="audio" url="sections/games/wonderredbingo/audio/words/HAIRS.mp3"><![CDATA[hairs]]></answer>
+				<answer id="lairs" type="audio" url="sections/games/wonderredbingo/audio/words/LAIRS.mp3"><![CDATA[lairs]]></answer>
+				<answer id="pairs" type="audio" url="sections/games/wonderredbingo/audio/words/PAIRS.mp3"><![CDATA[pairs]]></answer>
+				<answer id="stairs" type="audio" url="sections/games/wonderredbingo/audio/words/STAIRS.mp3"><![CDATA[stairs]]></answer>
+				<answer id="box" type="audio" url="sections/games/wonderredbingo/audio/words/box.mp3"><![CDATA[box]]></answer>
+				<answer id="fox" type="audio" url="sections/games/wonderredbingo/audio/words/fox.mp3"><![CDATA[fox]]></answer>
+				<answer id="lox" type="audio" url="sections/games/wonderredbingo/audio/words/lox.mp3"><![CDATA[lox]]></answer>
+				<answer id="ox" type="audio" url="sections/games/wonderredbingo/audio/words/ox.mp3"><![CDATA[ox]]></answer>
+				<answer id="pox" type="audio" url="sections/games/wonderredbingo/audio/words/pox.mp3"><![CDATA[pox]]></answer>
+				<!--answer id="sox" type="audio" url="sections/games/wonderredbingo/audio/words/sox.mp3"><![CDATA[sox]]></answer-->
+				<answer id="bug" type="audio" url="sections/games/wonderredbingo/audio/words/bug.mp3"><![CDATA[bug]]></answer>
+				<answer id="dug" type="audio" url="sections/games/wonderredbingo/audio/words/dug.mp3"><![CDATA[dug]]></answer>
+				<answer id="hug" type="audio" url="sections/games/wonderredbingo/audio/words/hug.mp3"><![CDATA[hug]]></answer>
+				<answer id="lug" type="audio" url="sections/games/wonderredbingo/audio/words/lug.mp3"><![CDATA[lug]]></answer>
+				<answer id="mug" type="audio" url="sections/games/wonderredbingo/audio/words/mug.mp3"><![CDATA[mug]]></answer>
+				<answer id="rug" type="audio" url="sections/games/wonderredbingo/audio/words/rug.mp3"><![CDATA[rug]]></answer>
+				<answer id="tug" type="audio" url="sections/games/wonderredbingo/audio/words/tug.mp3"><![CDATA[tug]]></answer>
+				<answer id="bake" type="audio" url="sections/games/wonderredbingo/audio/words/bake.mp3"><![CDATA[bake]]></answer>
+				<answer id="cake" type="audio" url="sections/games/wonderredbingo/audio/words/cake.mp3"><![CDATA[cake]]></answer>
+				<answer id="fake" type="audio" url="sections/games/wonderredbingo/audio/words/fake.mp3"><![CDATA[fake]]></answer>
+				<answer id="lake" type="audio" url="sections/games/wonderredbingo/audio/words/lake.mp3"><![CDATA[lake]]></answer>
+				<answer id="make" type="audio" url="sections/games/wonderredbingo/audio/words/make.mp3"><![CDATA[make]]></answer>
+				<answer id="rake" type="audio" url="sections/games/wonderredbingo/audio/words/rake.mp3"><![CDATA[rake]]></answer>
+				<answer id="snake" type="audio" url="sections/games/wonderredbingo/audio/words/snake.mp3"><![CDATA[snake]]></answer>
+				<answer id="take" type="audio" url="sections/games/wonderredbingo/audio/words/Take.mp3"><![CDATA[take]]></answer>
+				<answer id="wake" type="audio" url="sections/games/wonderredbingo/audio/words/wake.mp3"><![CDATA[wake]]></answer>
+				<answer id="ball" type="audio" url="sections/games/wonderredbingo/audio/words/ball.mp3"><![CDATA[ball]]></answer>
+				<answer id="call" type="audio" url="sections/games/wonderredbingo/audio/words/call.mp3"><![CDATA[call]]></answer>
+				<answer id="fall" type="audio" url="sections/games/wonderredbingo/audio/words/fall.mp3"><![CDATA[fall]]></answer>
+				<answer id="hall" type="audio" url="sections/games/wonderredbingo/audio/words/hall.mp3"><![CDATA[hall]]></answer>
+				<answer id="mall" type="audio" url="sections/games/wonderredbingo/audio/words/mall.mp3"><![CDATA[mall]]></answer>
+				<answer id="tall" type="audio" url="sections/games/wonderredbingo/audio/words/tall.mp3"><![CDATA[tall]]></answer>
+				<answer id="wall" type="audio" url="sections/games/wonderredbingo/audio/words/Wall.mp3"><![CDATA[wall]]></answer>
+				<answer id="ban" type="audio" url="sections/games/wonderredbingo/audio/words/ban.mp3"><![CDATA[ban]]></answer>
+				<answer id="can" type="audio" url="sections/games/wonderredbingo/audio/words/can.mp3"><![CDATA[can]]></answer>
+				<answer id="fan" type="audio" url="sections/games/wonderredbingo/audio/words/fan.mp3"><![CDATA[fan]]></answer>
+				<answer id="man" type="audio" url="sections/games/wonderredbingo/audio/words/man.mp3"><![CDATA[man]]></answer>
+				<answer id="pan" type="audio" url="sections/games/wonderredbingo/audio/words/pan.mp3"><![CDATA[pan]]></answer>
+				<answer id="ran" type="audio" url="sections/games/wonderredbingo/audio/words/ran.mp3"><![CDATA[ran]]></answer>
+				<answer id="tan" type="audio" url="sections/games/wonderredbingo/audio/words/tan.mp3"><![CDATA[tan]]></answer>
+				<answer id="van" type="audio" url="sections/games/wonderredbingo/audio/words/van.mp3"><![CDATA[van]]></answer>
+				<answer id="cap" type="audio" url="sections/games/wonderredbingo/audio/words/cap.mp3"><![CDATA[cap]]></answer>
+				<answer id="lap" type="audio" url="sections/games/wonderredbingo/audio/words/lap.mp3"><![CDATA[lap]]></answer>
+				<answer id="map" type="audio" url="sections/games/wonderredbingo/audio/words/map.mp3"><![CDATA[map]]></answer>
+				<answer id="nap" type="audio" url="sections/games/wonderredbingo/audio/words/nap.mp3"><![CDATA[nap]]></answer>
+				<answer id="rap" type="audio" url="sections/games/wonderredbingo/audio/words/rap.mp3"><![CDATA[rap]]></answer>
+				<answer id="tap" type="audio" url="sections/games/wonderredbingo/audio/words/tap.mp3"><![CDATA[tap]]></answer>
+				<answer id="trap" type="audio" url="sections/games/wonderredbingo/audio/words/trap.mp3"><![CDATA[trap]]></answer>
+				<answer id="bar" type="audio" url="sections/games/wonderredbingo/audio/words/bar.mp3"><![CDATA[bar]]></answer>
+				<answer id="car" type="audio" url="sections/games/wonderredbingo/audio/words/car.mp3"><![CDATA[car]]></answer>
+				<answer id="far" type="audio" url="sections/games/wonderredbingo/audio/words/far.mp3"><![CDATA[far]]></answer>
+				<answer id="jar" type="audio" url="sections/games/wonderredbingo/audio/words/jar.mp3"><![CDATA[jar]]></answer>
+				<answer id="tar" type="audio" url="sections/games/wonderredbingo/audio/words/tar.mp3"><![CDATA[tar]]></answer>
+				<answer id="bat" type="audio" url="sections/games/wonderredbingo/audio/words/bat.mp3"><![CDATA[bat]]></answer>
+				<answer id="cat" type="audio" url="sections/games/wonderredbingo/audio/words/cat.mp3"><![CDATA[cat]]></answer>
+				<answer id="fat" type="audio" url="sections/games/wonderredbingo/audio/words/fat.mp3"><![CDATA[fat]]></answer>
+				<answer id="flat" type="audio" url="sections/games/wonderredbingo/audio/words/Flat.mp3"><![CDATA[flat]]></answer>
+				<answer id="hat" type="audio" url="sections/games/wonderredbingo/audio/words/hat.mp3"><![CDATA[hat]]></answer>
+				<answer id="mat" type="audio" url="sections/games/wonderredbingo/audio/words/mat.mp3"><![CDATA[mat]]></answer>
+				<answer id="rat" type="audio" url="sections/games/wonderredbingo/audio/words/rat.mp3"><![CDATA[rat]]></answer>
+				<answer id="sat" type="audio" url="sections/games/wonderredbingo/audio/words/Sat.mp3"><![CDATA[sat]]></answer>
+				<answer id="clay" type="audio" url="sections/games/wonderredbingo/audio/words/clay.mp3"><![CDATA[clay]]></answer>
+				<answer id="day" type="audio" url="sections/games/wonderredbingo/audio/words/day.mp3"><![CDATA[day]]></answer>
+				<answer id="may" type="audio" url="sections/games/wonderredbingo/audio/words/may.mp3"><![CDATA[may]]></answer>
+				<answer id="pay" type="audio" url="sections/games/wonderredbingo/audio/words/pay.mp3"><![CDATA[pay]]></answer>
+				<answer id="play" type="audio" url="sections/games/wonderredbingo/audio/words/play.mp3"><![CDATA[play]]></answer>
+				<answer id="say" type="audio" url="sections/games/wonderredbingo/audio/words/say.mp3"><![CDATA[say]]></answer>
+				<answer id="stay" type="audio" url="sections/games/wonderredbingo/audio/words/stay.mp3"><![CDATA[stay]]></answer>		
+				<answer id="bell" type="audio" url="sections/games/wonderredbingo/audio/words/bell.mp3"><![CDATA[bell]]></answer>
+				<answer id="fell" type="audio" url="sections/games/wonderredbingo/audio/words/fell.mp3"><![CDATA[fell]]></answer>
+				<answer id="sell" type="audio" url="sections/games/wonderredbingo/audio/words/sell.mp3"><![CDATA[sell]]></answer>
+				<answer id="shell" type="audio" url="sections/games/wonderredbingo/audio/words/Shell.mp3"><![CDATA[shell]]></answer>
+				
+				<answer id="smell" type="audio" url="sections/games/wonderredbingo/audio/words/Smell.mp3"><![CDATA[smell]]></answer>
+				
+				<answer id="spell" type="audio" url="sections/games/wonderredbingo/audio/words/spell.mp3"><![CDATA[spell]]></answer>
+				
+				<answer id="tell" type="audio" url="sections/games/wonderredbingo/audio/words/tell.mp3"><![CDATA[tell]]></answer>
+				
+				<answer id="well" type="audio" url="sections/games/wonderredbingo/audio/words/well.mp3"><![CDATA[well]]></answer>
+				<answer id="blink" type="audio" url="sections/games/wonderredbingo/audio/words/blink.mp3"><![CDATA[blink]]></answer>
+				
+				<answer id="drink" type="audio" url="sections/games/wonderredbingo/audio/words/drink.mp3"><![CDATA[drink]]></answer>
+				
+				<answer id="link" type="audio" url="sections/games/wonderredbingo/audio/words/link.mp3"><![CDATA[link]]></answer>
+				<answer id="pink" type="audio" url="sections/games/wonderredbingo/audio/words/pink.mp3"><![CDATA[pink]]></answer>
+				<answer id="sink" type="audio" url="sections/games/wonderredbingo/audio/words/sink.mp3"><![CDATA[sink]]></answer>
+				<answer id="think" type="audio" url="sections/games/wonderredbingo/audio/words/think.mp3"><![CDATA[think]]></answer>
+				
+				<answer id="wink" type="audio" url="sections/games/wonderredbingo/audio/words/wink.mp3"><![CDATA[wink]]></answer>
+				<answer id="bit" type="audio" url="sections/games/wonderredbingo/audio/words/bit.mp3"><![CDATA[bit]]></answer>
+				
+				<answer id="fit" type="audio" url="sections/games/wonderredbingo/audio/words/fit.mp3"><![CDATA[fit]]></answer>
+				<answer id="hit" type="audio" url="sections/games/wonderredbingo/audio/words/hit.mp3"><![CDATA[hit]]></answer>
+				<answer id="kit" type="audio" url="sections/games/wonderredbingo/audio/words/kit.mp3"><![CDATA[kit]]></answer>
+				<answer id="pit" type="audio" url="sections/games/wonderredbingo/audio/words/pit.mp3"><![CDATA[pit]]></answer>
+				<answer id="sit" type="audio" url="sections/games/wonderredbingo/audio/words/sit.mp3"><![CDATA[sit]]></answer>
+				<answer id="wit" type="audio" url="sections/games/wonderredbingo/audio/words/wit.mp3"><![CDATA[wit]]></answer>
+				<answer id="block" type="audio" url="sections/games/wonderredbingo/audio/words/block.mp3"><![CDATA[block]]></answer>
+				<answer id="clock" type="audio" url="sections/games/wonderredbingo/audio/words/clock.mp3"><![CDATA[clock]]></answer>
+				<answer id="dock" type="audio" url="sections/games/wonderredbingo/audio/words/dock.mp3"><![CDATA[dock]]></answer>
+				<answer id="lock" type="audio" url="sections/games/wonderredbingo/audio/words/lock.mp3"><![CDATA[lock]]></answer>
+				<answer id="sock" type="audio" url="sections/games/wonderredbingo/audio/words/sock.mp3"><![CDATA[sock]]></answer>
+				<answer id="bog" type="audio" url="sections/games/wonderredbingo/audio/words/bog.mp3"><![CDATA[bog]]></answer>
+				<answer id="cog" type="audio" url="sections/games/wonderredbingo/audio/words/cog.mp3"><![CDATA[cog]]></answer>
+				<answer id="dog" type="audio" url="sections/games/wonderredbingo/audio/words/dog.mp3"><![CDATA[dog]]></answer>
+				<answer id="fog" type="audio" url="sections/games/wonderredbingo/audio/words/fog.mp3"><![CDATA[fog]]></answer>
+				<answer id="hog" type="audio" url="sections/games/wonderredbingo/audio/words/hog.mp3"><![CDATA[hog]]></answer>
+				<answer id="jog" type="audio" url="sections/games/wonderredbingo/audio/words/jog.mp3"><![CDATA[jog]]></answer>
+				<answer id="log" type="audio" url="sections/games/wonderredbingo/audio/words/log.mp3"><![CDATA[log]]></answer>
+				<answer id="bump" type="audio" url="sections/games/wonderredbingo/audio/words/bump.mp3"><![CDATA[bump]]></answer>
+				<answer id="dump" type="audio" url="sections/games/wonderredbingo/audio/words/Dump.mp3"><![CDATA[dump]]></answer>
+				<answer id="hump" type="audio" url="sections/games/wonderredbingo/audio/words/hump.mp3"><![CDATA[hump]]></answer>
+				<answer id="jump" type="audio" url="sections/games/wonderredbingo/audio/words/jump.mp3"><![CDATA[jump]]></answer>
+				<answer id="lump" type="audio" url="sections/games/wonderredbingo/audio/words/lump.mp3"><![CDATA[lump]]></answer>
+				<answer id="pump" type="audio" url="sections/games/wonderredbingo/audio/words/pump.mp3"><![CDATA[pump]]></answer> 
+				<answer id="stump" type="audio" url="sections/games/wonderredbingo/audio/words/stump.mp3"><![CDATA[stump]]></answer>
+				<answer id="bun" type="audio" url="sections/games/wonderredbingo/audio/words/bun.mp3"><![CDATA[bun]]></answer>
+				<answer id="fun" type="audio" url="sections/games/wonderredbingo/audio/words/fun.mp3"><![CDATA[fun]]></answer>
+				<answer id="nun" type="audio" url="sections/games/wonderredbingo/audio/words/nun.mp3"><![CDATA[nun]]></answer>
+				<answer id="pun" type="audio" url="sections/games/wonderredbingo/audio/words/pun.mp3"><![CDATA[pun]]></answer>
+				<answer id="run" type="audio" url="sections/games/wonderredbingo/audio/words/run.mp3"><![CDATA[run]]></answer>
+				<answer id="spun" type="audio" url="sections/games/wonderredbingo/audio/words/Spun.mp3"><![CDATA[spun]]></answer> 
+				<answer id="stun" type="audio" url="sections/games/wonderredbingo/audio/words/Stun.mp3"><![CDATA[stun]]></answer>
+				<answer id="sun" type="audio" url="sections/games/wonderredbingo/audio/words/sun.mp3"><![CDATA[sun]]></answer>
+		</answerSounds>
+
+		<oops id="oops" isGroup="true">
+			<oops id="oops_1" type="audio" url="sections/games/wonderredbingo/audio/oops/Oops1a.mp3" />
+			<oops id="oops_1b" type="audio" url="sections/games/wonderredbingo/audio/oops/Oops1b.mp3" />
+			<oops id="oops_2" type="audio" url="sections/games/wonderredbingo/audio/oops/Oops2a.mp3" />
+			<oops id="oops_2b" type="audio" url="sections/games/wonderredbingo/audio/oops/Oops2b.mp3" />
+			<oops id="oops_3" type="audio" url="sections/games/wonderredbingo/audio/oops/Oops3a.mp3" />
+			<oops id="oops_3b" type="audio" url="sections/games/wonderredbingo/audio/oops/Oops3b.mp3" />
+		</oops>
+		
+		<kudos id="kudos" isGroup="true">
+			<kudos id="kudos_1" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos1a.mp3" />
+			<kudos id="kudos_1b" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos1b.mp3" />
+			<kudos id="kudos_2" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos2a.mp3" />
+			<kudos id="kudos_2b" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos2b.mp3" />
+			<kudos id="kudos_3" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos3a.mp3" />
+			<kudos id="kudos_3b" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos3b.mp3" />
+			<kudos id="kudos_4" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos4a.mp3" />
+			<kudos id="kudos_4b" type="audio" url="sections/games/wonderredbingo/audio/kudos/Kudos4b.mp3" />
+			<!--kudos id="great" type="audio" url="sections/games/alphapigbingo/audio/kudos/great.mp3" />
+			<kudos id="there_it_is" type="audio" url="sections/games/alphapigbingo/audio/kudos/there_it_is.mp3" />
+			<kudos id="you_found_it" type="audio" url="sections/games/alphapigbingo/audio/kudos/you_found_it.mp3" /-->
+		</kudos>
+		
+		<finaleKudos id="finaleKudos" isGroup="true">
+			<finaleKudos id="finaleKudos" type="audio" url="sections/games/wonderredbingo/audio/kudos/finale.mp3" />
+		</finaleKudos>
+		
+		<soundfx id="soundfx" isGroup="true">
+			<soundfx id="ui_press" type="audio" url="sections/games/wonderredbingo/audio/sfx/sfx_ui_press.mp3" />
+			<soundfx id="ui_over" type="audio" url="sections/games/wonderredbingo/audio/sfx/sfx_ui_over.mp3" />
+			<soundfx id="grid_over" type="audio" url="sections/games/wonderredbingo/audio/sfx/sfx_grid_over.mp3" />
+			<soundfx id="grid_press" type="audio" url="sections/games/wonderredbingo/audio/sfx/sfx_grid_press.mp3" />
+			<soundfx id="wrongtile" type="audio" url="sections/games/wonderredbingo/audio/sfx/wrongtile.mp3" />
+			<soundfx id="frameflair" type="audio" url="sections/games/wonderredbingo/audio/sfx/frameflair.mp3" />
+			<soundfx id="intro" type="audio" url="sections/games/wonderredbingo/audio/sfx/intro_transition.mp3" />
+			<soundfx id="tiletransition" type="audio" url="sections/games/wonderredbingo/audio/sfx/tiletransition.mp3" />
+			<soundfx id="spin" type="audio" url="sections/games/wonderredbingo/audio/sfx/spin.mp3" />
+			<soundfx id="buttontransition" type="audio" url="sections/games/wonderredbingo/audio/sfx/buttontransition.mp3" />
+		</soundfx>
+		
+		<prompts id="prompts" isGroup="true">
+			<prompt id="find_word" type="audio" url="sections/games/wonderredbingo/audio/prompts/Objective1.mp3" />
+			<prompt id="which_word_rhymes" type="audio" url="sections/games/wonderredbingo/audio/prompts/Objective2.mp3" />
+		</prompts>
+
+		<buttons id="buttons" isGroup="true">
+			<rollover id="click_speaker" type="audio" url="sections/games/wonderredbingo/audio/buttons/Help.mp3" />
+			<rollover id="button_print" type="audio" url="sections/games/wonderredbingo/audio/buttons/print.mp3" />
+			<!--rollover id="easy" type="audio" url="sections/games/wonderredbingo/audio/buttons/easy.mp3" />
+			<rollover id="medium" type="audio" url="sections/games/wonderredbingo/audio/buttons/medium.mp3" />
+			<rollover id="hard" type="audio" url="sections/games/wonderredbingo/audio/buttons/hard.mp3" /-->
+		</buttons>
+		
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		</promos>
+
+
+	</assets>
+	
+	<printImages>
+		<!--image id="" url="sections/games/wonderredbingo/images/.jpg" /-->
+		<printimage id="a" url="sections/games/wonderredbingo/images/WonderRed01.jpg" />
+		<printimage id="b" url="sections/games/wonderredbingo/images/WonderRed02.jpg" />
+		<printimage id="c" url="sections/games/wonderredbingo/images/WonderRed03.jpg" />
+		<printimage id="d" url="sections/games/wonderredbingo/images/WonderRed04.jpg" />
+		<printimage id="e" url="sections/games/wonderredbingo/images/WonderRed05.jpg" />
+		<printimage id="f" url="sections/games/wonderredbingo/images/WonderRed06.jpg" />
+		<printimage id="g" url="sections/games/wonderredbingo/images/WonderRed07.jpg" />
+		<printimage id="h" url="sections/games/wonderredbingo/images/WonderRed08.jpg" />
+		<printimage id="i" url="sections/games/wonderredbingo/images/WonderRed09.jpg" />
+		<printimage id="j" url="sections/games/wonderredbingo/images/WonderRed10.jpg" />
+	</printImages>
+	
+	<answerLibrary type="rhyme">
+		<answers id="answers" isGroup="true">
+			<answerset id="ack" isGroup="true">
+				<answer id="back" type="audio" url="sections/games/wonderredbingo/audio/words/BACK.mp3"><![CDATA[back]]></answer>
+				<answer id="sack" type="audio" url="sections/games/wonderredbingo/audio/words/SACK.mp3"><![CDATA[sack]]></answer>
+				<answer id="lack" type="audio" url="sections/games/wonderredbingo/audio/words/LACK.mp3"><![CDATA[lack]]></answer>
+				<answer id="black" type="audio" url="sections/games/wonderredbingo/audio/words/BLACK.mp3"><![CDATA[black]]></answer>
+				<answer id="pack" type="audio" url="sections/games/wonderredbingo/audio/words/PACK.mp3"><![CDATA[pack]]></answer>
+				<answer id="crack" type="audio" url="sections/games/wonderredbingo/audio/words/CRACK.mp3"><![CDATA[crack]]></answer>
+				<answer id="rack" type="audio" url="sections/games/wonderredbingo/audio/words/RACK.mp3"><![CDATA[rack]]></answer>
+				<answer id="tack" type="audio" url="sections/games/wonderredbingo/audio/words/TACK.mp3"><![CDATA[tack]]></answer>
+				<answer id="snack" type="audio" url="sections/games/wonderredbingo/audio/words/SNACK.mp3"><![CDATA[snack]]></answer>
+				<answer id="quack" type="audio" url="sections/games/wonderredbingo/audio/words/QUACK.mp3"><![CDATA[quack]]></answer>
+			</answerset>
+			<answerset id="ag" isGroup="true">
+				<answer id="bag" type="audio" url="sections/games/wonderredbingo/audio/words/BAG.mp3"><![CDATA[bag]]></answer>
+				<answer id="rag" type="audio" url="sections/games/wonderredbingo/audio/words/RAG.mp3"><![CDATA[rag]]></answer>
+				<answer id="tag" type="audio" url="sections/games/wonderredbingo/audio/words/TAG.mp3"><![CDATA[tag]]></answer>
+				<answer id="brag" type="audio" url="sections/games/wonderredbingo/audio/words/BRAG.mp3"><![CDATA[brag]]></answer>
+				<answer id="flag" type="audio" url="sections/games/wonderredbingo/audio/words/FLAG.mp3"><![CDATA[flag]]></answer>
+				<answer id="sag" type="audio" url="sections/games/wonderredbingo/audio/words/SAG.mp3"><![CDATA[sag]]></answer>
+			</answerset>
+			<answerset id="ill" isGroup="true">
+				<answer id="fill" type="audio" url="sections/games/wonderredbingo/audio/words/FILL.mp3"><![CDATA[fill]]></answer>
+				<answer id="hill" type="audio" url="sections/games/wonderredbingo/audio/words/HILL.mp3"><![CDATA[hill]]></answer>
+				<answer id="pill" type="audio" url="sections/games/wonderredbingo/audio/words/PILL.mp3"><![CDATA[pill]]></answer>
+				<answer id="will" type="audio" url="sections/games/wonderredbingo/audio/words/WILL.mp3"><![CDATA[will]]></answer>
+				<answer id="chill" type="audio" url="sections/games/wonderredbingo/audio/words/CHILL.mp3"><![CDATA[chill]]></answer>
+				<answer id="drill" type="audio" url="sections/games/wonderredbingo/audio/words/DRILL.mp3"><![CDATA[drill]]></answer>
+				<answer id="grill" type="audio" url="sections/games/wonderredbingo/audio/words/GRILL.mp3"><![CDATA[grill]]></answer>
+			</answerset>
+			<answerset id="in" isGroup="true">
+				<answer id="bin" type="audio" url="sections/games/wonderredbingo/audio/words/BIN.mp3"><![CDATA[bin]]></answer>
+				<answer id="fin" type="audio" url="sections/games/wonderredbingo/audio/words/FIN.mp3"><![CDATA[fin]]></answer>
+				<answer id="pin" type="audio" url="sections/games/wonderredbingo/audio/words/PIN.mp3"><![CDATA[pin]]></answer>
+				<!-- missing audio answer id="win" type="audio" url="sections/games/wonderredbingo/audio/words/WIN.mp3"><![CDATA[win]]></answer-->
+				<answer id="spin" type="audio" url="sections/games/wonderredbingo/audio/words/SPIN.mp3"><![CDATA[spin]]></answer>
+				<answer id="skin" type="audio" url="sections/games/wonderredbingo/audio/words/SKIN.mp3"><![CDATA[skin]]></answer>
+				<answer id="chin" type="audio" url="sections/games/wonderredbingo/audio/words/CHIN.mp3"><![CDATA[chin]]></answer>
+				<answer id="thin" type="audio" url="sections/games/wonderredbingo/audio/words/THIN.mp3"><![CDATA[thin]]></answer>
+				<answer id="twin" type="audio" url="sections/games/wonderredbingo/audio/words/TWIN.mp3"><![CDATA[twin]]></answer>
+			</answerset>
+			<answerset id="ip" isGroup="true">
+				<answer id="hip" type="audio" url="sections/games/wonderredbingo/audio/words/HIP.mp3"><![CDATA[hip]]></answer>
+				<answer id="dip" type="audio" url="sections/games/wonderredbingo/audio/words/DIP.mp3"><![CDATA[dip]]></answer>
+				<answer id="lip" type="audio" url="sections/games/wonderredbingo/audio/words/LIP.mp3"><![CDATA[lip]]></answer>
+				<answer id="sip" type="audio" url="sections/games/wonderredbingo/audio/words/SIP.mp3"><![CDATA[sip]]></answer>
+				<answer id="tip" type="audio" url="sections/games/wonderredbingo/audio/words/TIP.mp3"><![CDATA[tip]]></answer>
+				<answer id="chip" type="audio" url="sections/games/wonderredbingo/audio/words/CHIP.mp3"><![CDATA[chip]]></answer>
+				<answer id="flip" type="audio" url="sections/games/wonderredbingo/audio/words/FLIP.mp3"><![CDATA[flip]]></answer>
+				<answer id="ship" type="audio" url="sections/games/wonderredbingo/audio/words/SHIP.mp3"><![CDATA[ship]]></answer>
+				<answer id="skip" type="audio" url="sections/games/wonderredbingo/audio/words/SKIP.mp3"><![CDATA[skip]]></answer>
+				<answer id="trip" type="audio" url="sections/games/wonderredbingo/audio/words/TRIP.mp3"><![CDATA[trip]]></answer>
+			</answerset>
+			<answerset id="op" isGroup="true">
+				<answer id="cop" type="audio" url="sections/games/wonderredbingo/audio/words/COP.mp3"><![CDATA[cop]]></answer>
+				<answer id="hop" type="audio" url="sections/games/wonderredbingo/audio/words/HOP.mp3"><![CDATA[hop]]></answer>
+				<answer id="mop" type="audio" url="sections/games/wonderredbingo/audio/words/MOP.mp3"><![CDATA[mop]]></answer>
+				<answer id="pop" type="audio" url="sections/games/wonderredbingo/audio/words/POP.mp3"><![CDATA[pop]]></answer>
+				<answer id="top" type="audio" url="sections/games/wonderredbingo/audio/words/TOP.mp3"><![CDATA[top]]></answer>
+				<answer id="chop" type="audio" url="sections/games/wonderredbingo/audio/words/CHOP.mp3"><![CDATA[chop]]></answer>
+				<answer id="shop" type="audio" url="sections/games/wonderredbingo/audio/words/SHOP.mp3"><![CDATA[shop]]></answer>
+				<answer id="stop" type="audio" url="sections/games/wonderredbingo/audio/words/STOP.mp3"><![CDATA[stop]]></answer>
+			</answerset>
+			<answerset id="airs" isGroup="true">
+				<answer id="chairs" type="audio" url="sections/games/wonderredbingo/audio/words/CHAIRS.mp3"><![CDATA[chairs]]></answer>
+				<answer id="fairs" type="audio" url="sections/games/wonderredbingo/audio/words/FAIRS.mp3"><![CDATA[fairs]]></answer>
+				<answer id="hairs" type="audio" url="sections/games/wonderredbingo/audio/words/HAIRS.mp3"><![CDATA[hairs]]></answer>
+				<answer id="lairs" type="audio" url="sections/games/wonderredbingo/audio/words/LAIRS.mp3"><![CDATA[lairs]]></answer>
+				<answer id="pairs" type="audio" url="sections/games/wonderredbingo/audio/words/PAIRS.mp3"><![CDATA[pairs]]></answer>
+				<answer id="stairs" type="audio" url="sections/games/wonderredbingo/audio/words/STAIRS.mp3"><![CDATA[stairs]]></answer>
+			</answerset>
+			<answerset id="ox" isGroup="true">
+				<answer id="box" type="audio" url="sections/games/wonderredbingo/audio/words/box.mp3"><![CDATA[box]]></answer>
+				<answer id="fox" type="audio" url="sections/games/wonderredbingo/audio/words/fox.mp3"><![CDATA[fox]]></answer>
+				<answer id="lox" type="audio" url="sections/games/wonderredbingo/audio/words/lox.mp3"><![CDATA[lox]]></answer>
+				<answer id="ox" type="audio" url="sections/games/wonderredbingo/audio/words/ox.mp3"><![CDATA[ox]]></answer>
+				<answer id="pox" type="audio" url="sections/games/wonderredbingo/audio/words/pox.mp3"><![CDATA[pox]]></answer>
+				<!--answer id="sox" type="audio" url="sections/games/wonderredbingo/audio/words/sox.mp3"><![CDATA[sox]]></answer-->
+			</answerset>
+			<answerset id="ug" isGroup="true">
+				<answer id="bug" type="audio" url="sections/games/wonderredbingo/audio/words/bug.mp3"><![CDATA[bug]]></answer>
+				<answer id="dug" type="audio" url="sections/games/wonderredbingo/audio/words/dug.mp3"><![CDATA[dug]]></answer>
+				<answer id="hug" type="audio" url="sections/games/wonderredbingo/audio/words/hug.mp3"><![CDATA[hug]]></answer>
+				<answer id="lug" type="audio" url="sections/games/wonderredbingo/audio/words/lug.mp3"><![CDATA[lug]]></answer>
+				<answer id="mug" type="audio" url="sections/games/wonderredbingo/audio/words/mug.mp3"><![CDATA[mug]]></answer>
+				<answer id="rug" type="audio" url="sections/games/wonderredbingo/audio/words/rug.mp3"><![CDATA[rug]]></answer>
+				<answer id="tug" type="audio" url="sections/games/wonderredbingo/audio/words/tug.mp3"><![CDATA[tug]]></answer>
+			</answerset>
+			<answerset id="ake" isGroup="true">
+				<answer id="bake" type="audio" url="sections/games/wonderredbingo/audio/words/bake.mp3"><![CDATA[bake]]></answer>
+				<answer id="cake" type="audio" url="sections/games/wonderredbingo/audio/words/cake.mp3"><![CDATA[cake]]></answer>
+				<answer id="fake" type="audio" url="sections/games/wonderredbingo/audio/words/fake.mp3"><![CDATA[fake]]></answer>
+				<answer id="lake" type="audio" url="sections/games/wonderredbingo/audio/words/lake.mp3"><![CDATA[lake]]></answer>
+				<answer id="make" type="audio" url="sections/games/wonderredbingo/audio/words/make.mp3"><![CDATA[make]]></answer>
+				<answer id="rake" type="audio" url="sections/games/wonderredbingo/audio/words/rake.mp3"><![CDATA[rake]]></answer>
+				<answer id="snake" type="audio" url="sections/games/wonderredbingo/audio/words/snake.mp3"><![CDATA[snake]]></answer>
+				<answer id="take" type="audio" url="sections/games/wonderredbingo/audio/words/Take.mp3"><![CDATA[take]]></answer>
+				<answer id="wake" type="audio" url="sections/games/wonderredbingo/audio/words/wake.mp3"><![CDATA[wake]]></answer>
+			</answerset>
+			<answerset id="all" isGroup="true">
+				<answer id="ball" type="audio" url="sections/games/wonderredbingo/audio/words/ball.mp3"><![CDATA[ball]]></answer>
+				<answer id="call" type="audio" url="sections/games/wonderredbingo/audio/words/call.mp3"><![CDATA[call]]></answer>
+				<answer id="fall" type="audio" url="sections/games/wonderredbingo/audio/words/fall.mp3"><![CDATA[fall]]></answer>
+				<answer id="hall" type="audio" url="sections/games/wonderredbingo/audio/words/hall.mp3"><![CDATA[hall]]></answer>
+				<answer id="mall" type="audio" url="sections/games/wonderredbingo/audio/words/mall.mp3"><![CDATA[mall]]></answer>
+				<answer id="tall" type="audio" url="sections/games/wonderredbingo/audio/words/tall.mp3"><![CDATA[tall]]></answer>
+				<answer id="wall" type="audio" url="sections/games/wonderredbingo/audio/words/Wall.mp3"><![CDATA[wall]]></answer>
+			</answerset>
+			<answerset id="an" isGroup="true">
+				<answer id="ban" type="audio" url="sections/games/wonderredbingo/audio/words/ban.mp3"><![CDATA[ban]]></answer>
+				<answer id="can" type="audio" url="sections/games/wonderredbingo/audio/words/can.mp3"><![CDATA[can]]></answer>
+				<answer id="fan" type="audio" url="sections/games/wonderredbingo/audio/words/fan.mp3"><![CDATA[fan]]></answer>
+				<answer id="man" type="audio" url="sections/games/wonderredbingo/audio/words/man.mp3"><![CDATA[man]]></answer>
+				<answer id="pan" type="audio" url="sections/games/wonderredbingo/audio/words/pan.mp3"><![CDATA[pan]]></answer>
+				<answer id="ran" type="audio" url="sections/games/wonderredbingo/audio/words/ran.mp3"><![CDATA[ran]]></answer>
+				<answer id="tan" type="audio" url="sections/games/wonderredbingo/audio/words/tan.mp3"><![CDATA[tan]]></answer>
+				<answer id="van" type="audio" url="sections/games/wonderredbingo/audio/words/van.mp3"><![CDATA[van]]></answer>
+			</answerset>
+			<answerset id="ap" isGroup="true">
+				<answer id="cap" type="audio" url="sections/games/wonderredbingo/audio/words/cap.mp3"><![CDATA[cap]]></answer>
+				<answer id="lap" type="audio" url="sections/games/wonderredbingo/audio/words/lap.mp3"><![CDATA[lap]]></answer>
+				<answer id="map" type="audio" url="sections/games/wonderredbingo/audio/words/map.mp3"><![CDATA[map]]></answer>
+				<answer id="nap" type="audio" url="sections/games/wonderredbingo/audio/words/nap.mp3"><![CDATA[nap]]></answer>
+				<answer id="rap" type="audio" url="sections/games/wonderredbingo/audio/words/rap.mp3"><![CDATA[rap]]></answer>
+				<answer id="tap" type="audio" url="sections/games/wonderredbingo/audio/words/tap.mp3"><![CDATA[tap]]></answer>
+				<answer id="trap" type="audio" url="sections/games/wonderredbingo/audio/words/trap.mp3"><![CDATA[trap]]></answer>
+			</answerset>
+			<answerset id="ar" isGroup="true">
+				<answer id="bar" type="audio" url="sections/games/wonderredbingo/audio/words/bar.mp3"><![CDATA[bar]]></answer>
+				<answer id="car" type="audio" url="sections/games/wonderredbingo/audio/words/car.mp3"><![CDATA[car]]></answer>
+				<answer id="far" type="audio" url="sections/games/wonderredbingo/audio/words/far.mp3"><![CDATA[far]]></answer>
+				<answer id="jar" type="audio" url="sections/games/wonderredbingo/audio/words/jar.mp3"><![CDATA[jar]]></answer>
+				<answer id="tar" type="audio" url="sections/games/wonderredbingo/audio/words/tar.mp3"><![CDATA[tar]]></answer>
+			</answerset>
+			<answerset id="at" isGroup="true">
+				<answer id="bat" type="audio" url="sections/games/wonderredbingo/audio/words/bat.mp3"><![CDATA[bat]]></answer>
+				<answer id="cat" type="audio" url="sections/games/wonderredbingo/audio/words/cat.mp3"><![CDATA[cat]]></answer>
+				<answer id="fat" type="audio" url="sections/games/wonderredbingo/audio/words/fat.mp3"><![CDATA[fat]]></answer>
+				<answer id="flat" type="audio" url="sections/games/wonderredbingo/audio/words/Flat.mp3"><![CDATA[flat]]></answer>
+				<answer id="hat" type="audio" url="sections/games/wonderredbingo/audio/words/hat.mp3"><![CDATA[hat]]></answer>
+				<answer id="mat" type="audio" url="sections/games/wonderredbingo/audio/words/mat.mp3"><![CDATA[mat]]></answer>
+				<answer id="rat" type="audio" url="sections/games/wonderredbingo/audio/words/rat.mp3"><![CDATA[rat]]></answer>
+				<answer id="sat" type="audio" url="sections/games/wonderredbingo/audio/words/Sat.mp3"><![CDATA[sat]]></answer>
+			</answerset>
+			<answerset id="ay" isGroup="true">
+				<answer id="clay" type="audio" url="sections/games/wonderredbingo/audio/words/clay.mp3"><![CDATA[clay]]></answer>
+				<answer id="day" type="audio" url="sections/games/wonderredbingo/audio/words/day.mp3"><![CDATA[day]]></answer>
+				<answer id="may" type="audio" url="sections/games/wonderredbingo/audio/words/may.mp3"><![CDATA[may]]></answer>
+				<answer id="pay" type="audio" url="sections/games/wonderredbingo/audio/words/pay.mp3"><![CDATA[pay]]></answer>
+				<answer id="play" type="audio" url="sections/games/wonderredbingo/audio/words/play.mp3"><![CDATA[play]]></answer>
+				<answer id="say" type="audio" url="sections/games/wonderredbingo/audio/words/say.mp3"><![CDATA[say]]></answer>
+				<answer id="stay" type="audio" url="sections/games/wonderredbingo/audio/words/stay.mp3"><![CDATA[stay]]></answer>
+			</answerset>
+			<answerset id="ell" isGroup="true">
+				<answer id="bell" type="audio" url="sections/games/wonderredbingo/audio/words/bell.mp3"><![CDATA[bell]]></answer>
+				<answer id="fell" type="audio" url="sections/games/wonderredbingo/audio/words/fell.mp3"><![CDATA[fell]]></answer>
+				<answer id="sell" type="audio" url="sections/games/wonderredbingo/audio/words/sell.mp3"><![CDATA[sell]]></answer>
+				<answer id="shell" type="audio" url="sections/games/wonderredbingo/audio/words/Shell.mp3"><![CDATA[shell]]></answer>
+				<answer id="smell" type="audio" url="sections/games/wonderredbingo/audio/words/Smell.mp3"><![CDATA[smell]]></answer>
+				<answer id="spell" type="audio" url="sections/games/wonderredbingo/audio/words/spell.mp3"><![CDATA[spell]]></answer>
+				<answer id="tell" type="audio" url="sections/games/wonderredbingo/audio/words/tell.mp3"><![CDATA[tell]]></answer>
+				<answer id="well" type="audio" url="sections/games/wonderredbingo/audio/words/well.mp3"><![CDATA[well]]></answer>
+			</answerset>
+			<answerset id="ink" isGroup="true">
+				<answer id="blink" type="audio" url="sections/games/wonderredbingo/audio/words/blink.mp3"><![CDATA[blink]]></answer>
+				<answer id="drink" type="audio" url="sections/games/wonderredbingo/audio/words/drink.mp3"><![CDATA[drink]]></answer>
+				<answer id="link" type="audio" url="sections/games/wonderredbingo/audio/words/link.mp3"><![CDATA[link]]></answer>
+				<answer id="pink" type="audio" url="sections/games/wonderredbingo/audio/words/pink.mp3"><![CDATA[pink]]></answer>
+				<answer id="sink" type="audio" url="sections/games/wonderredbingo/audio/words/sink.mp3"><![CDATA[sink]]></answer>
+				<answer id="think" type="audio" url="sections/games/wonderredbingo/audio/words/think.mp3"><![CDATA[think]]></answer>
+				<answer id="wink" type="audio" url="sections/games/wonderredbingo/audio/words/wink.mp3"><![CDATA[wink]]></answer>
+			</answerset>
+			<answerset id="it" isGroup="true">
+				<answer id="bit" type="audio" url="sections/games/wonderredbingo/audio/words/bit.mp3"><![CDATA[bit]]></answer>
+				<answer id="fit" type="audio" url="sections/games/wonderredbingo/audio/words/fit.mp3"><![CDATA[fit]]></answer>
+				<answer id="hit" type="audio" url="sections/games/wonderredbingo/audio/words/hit.mp3"><![CDATA[hit]]></answer>
+				<answer id="kit" type="audio" url="sections/games/wonderredbingo/audio/words/kit.mp3"><![CDATA[kit]]></answer>
+				<answer id="pit" type="audio" url="sections/games/wonderredbingo/audio/words/pit.mp3"><![CDATA[pit]]></answer>
+				<answer id="sit" type="audio" url="sections/games/wonderredbingo/audio/words/sit.mp3"><![CDATA[sit]]></answer>
+				<answer id="wit" type="audio" url="sections/games/wonderredbingo/audio/words/wit.mp3"><![CDATA[wit]]></answer>
+			</answerset>
+			<answerset id="ock" isGroup="true">
+				<answer id="block" type="audio" url="sections/games/wonderredbingo/audio/words/block.mp3"><![CDATA[block]]></answer>
+				<answer id="clock" type="audio" url="sections/games/wonderredbingo/audio/words/clock.mp3"><![CDATA[clock]]></answer>
+				<answer id="dock" type="audio" url="sections/games/wonderredbingo/audio/words/dock.mp3"><![CDATA[dock]]></answer>
+				<answer id="lock" type="audio" url="sections/games/wonderredbingo/audio/words/lock.mp3"><![CDATA[lock]]></answer>
+				<answer id="sock" type="audio" url="sections/games/wonderredbingo/audio/words/sock.mp3"><![CDATA[sock]]></answer>
+			</answerset>
+			<answerset id="og" isGroup="true">
+				<answer id="bog" type="audio" url="sections/games/wonderredbingo/audio/words/bog.mp3"><![CDATA[bog]]></answer>
+				<answer id="cog" type="audio" url="sections/games/wonderredbingo/audio/words/cog.mp3"><![CDATA[cog]]></answer>
+				<answer id="dog" type="audio" url="sections/games/wonderredbingo/audio/words/dog.mp3"><![CDATA[dog]]></answer>
+				<answer id="fog" type="audio" url="sections/games/wonderredbingo/audio/words/fog.mp3"><![CDATA[fog]]></answer>
+				<answer id="hog" type="audio" url="sections/games/wonderredbingo/audio/words/hog.mp3"><![CDATA[hog]]></answer>
+				<answer id="jog" type="audio" url="sections/games/wonderredbingo/audio/words/jog.mp3"><![CDATA[jog]]></answer>
+				<answer id="log" type="audio" url="sections/games/wonderredbingo/audio/words/log.mp3"><![CDATA[log]]></answer>
+			</answerset>
+			<answerset id="ump" isGroup="true">
+				<answer id="bump" type="audio" url="sections/games/wonderredbingo/audio/words/bump.mp3"><![CDATA[bump]]></answer>
+				<answer id="dump" type="audio" url="sections/games/wonderredbingo/audio/words/Dump.mp3"><![CDATA[dump]]></answer>
+				<answer id="hump" type="audio" url="sections/games/wonderredbingo/audio/words/hump.mp3"><![CDATA[hump]]></answer>
+				<answer id="jump" type="audio" url="sections/games/wonderredbingo/audio/words/jump.mp3"><![CDATA[jump]]></answer>
+				<answer id="lump" type="audio" url="sections/games/wonderredbingo/audio/words/lump.mp3"><![CDATA[lump]]></answer>
+				<answer id="pump" type="audio" url="sections/games/wonderredbingo/audio/words/pump.mp3"><![CDATA[pump]]></answer>
+				<answer id="stump" type="audio" url="sections/games/wonderredbingo/audio/words/stump.mp3"><![CDATA[stump]]></answer>
+			</answerset>
+			<answerset id="un" isGroup="true">
+				<answer id="bun" type="audio" url="sections/games/wonderredbingo/audio/words/bun.mp3"><![CDATA[bun]]></answer>
+				<answer id="fun" type="audio" url="sections/games/wonderredbingo/audio/words/fun.mp3"><![CDATA[fun]]></answer>
+				<answer id="nun" type="audio" url="sections/games/wonderredbingo/audio/words/nun.mp3"><![CDATA[nun]]></answer>
+				<answer id="pun" type="audio" url="sections/games/wonderredbingo/audio/words/pun.mp3"><![CDATA[pun]]></answer>
+				<answer id="run" type="audio" url="sections/games/wonderredbingo/audio/words/run.mp3"><![CDATA[run]]></answer>
+				<answer id="spun" type="audio" url="sections/games/wonderredbingo/audio/words/Spun.mp3"><![CDATA[spun]]></answer>
+				<answer id="stun" type="audio" url="sections/games/wonderredbingo/audio/words/Stun.mp3"><![CDATA[stun]]></answer>
+				<answer id="sun" type="audio" url="sections/games/wonderredbingo/audio/words/sun.mp3"><![CDATA[sun]]></answer>
+			</answerset>
+		</answers>
+	</answerLibrary>
+	
+
+</game>

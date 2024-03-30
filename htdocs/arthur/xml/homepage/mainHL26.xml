@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Go! George Go!</title>
+			<href>/arthur/games/gogeorgego/index.html</href>
+			<imgurl>/arthur/i/related/gogeorgego.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groovy Garden</title>
+			<href>/arthur/games/groovygarden/index.html</href>
+			<imgurl>/arthur/i/related/groovygarden.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got To Be Kidding</title>
+			<href>/arthur/games/yougottobekidding/index.html</href>
+			<imgurl>/arthur/i/related/kidding.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lunch-o-matic</title>
+			<href>/arthur/games/lunchomatic/index.html</href>
+			<imgurl>/arthur/i/related/lunchomatic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Stickerbook Mashup</title>
+			<href>/arthur/games/marthursticker/index.html</href>
+			<imgurl>/arthur/i/related/stickerbook.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Video</title>
+			<href>/arthur/video/index.html</href>
+			<imgurl>/arthur/i/related/video.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Fernkenstein's Monster</title>
+			<href>/arthur/video/index.html?pid=KcqIq1eAQQm3RP1c_AHTxNnPh2QaxwTX</href>
+			<imgurl>/arthur/i/related/fernkenstein.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Castles in the Sky</title>
+			<href>/arthur/video/index.html?pid=jrQFQic9P_YJ_yf32ZVzZp2LrkThcWdo</href>
+			<imgurl>/arthur/i/related/castlesinsky.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

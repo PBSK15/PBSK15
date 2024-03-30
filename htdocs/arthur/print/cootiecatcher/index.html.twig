@@ -1,0 +1,34 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Cootie Catcher | PBS Kids' %}
+{% set desc = 'Make a Cootie Catcher with Prunella! Select to make your own or to have a random one made for you. Then get directions for how to fold it and play!' %}
+{% set keywds = 'Cootie Catcher, oragami, fortune, Prunella, print, message' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9cc">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="cootieHeader">Prunella's Cootie Catcher</h4>
+   <p>Behold the mysterious Cootie Catcher, teller of fortunes and giver of advice. Well actually, it's only made of paper, so I'm not sure how accurate it is. But it certainly is mysterious! Ooh...</p>
+  </div> <img src="../../i/print/cootiecatcher/intro_prunella.gif" width="144" height="326" alt="Prunella holding a Cootie Catcher" border="0" id="ccMainImg">
+  <div id="printablesNavIcons">
+   <ul id="ccNavIcons">
+    <li id="ccNavMake" class="icon"><a href="step1.html"><span>Make your own Cootie Catcher</span></a></li>
+    <li id="ccNavRandom" class="icon"><a href="/cgi-registry/arthur/cootiecatcher2.php"><span>Get a random Cootie Catcher</span></a></li>
+    <li id="ccNavDirections" class="icon"><a href="directions.html"><span>Cootie Catcher directions</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Ask Prunella</a></li>
+   <li><a href="/arthur/games/yougottobekidding/index.html" id="rcKidding">You've Got To be Kidding</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

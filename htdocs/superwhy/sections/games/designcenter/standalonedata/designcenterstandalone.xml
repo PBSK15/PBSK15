@@ -1,0 +1,49 @@
+<game id="designcenter" hasSponsorBar="false">
+	<title><![CDATA[SUPER WHY! . GAMES . DESIGN CENTER | PBS KIDS]]></title>
+	<swf url="../sections/games/designcenter/designcenter.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "false"
+		helpIsActive = "false"
+		hasPrintable = "true"
+	/>
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="../libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="../libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="../libraries/alphapig_endscreen.swf" />
+	</libraries> 
+
+	<assets>
+		
+		<letters id="letters" isGroup="true">
+			<letter id="a" type="audio" url="../sections/games/designcenter/audio/letters/a_pp.mp3"/>
+			<letter id="b" type="audio" url="../sections/games/designcenter/audio/letters/b_pp.mp3"/>
+		</letters>
+		
+		<oops id="oops" isGroup="true">
+			<oops id="keep_looking" type="audio" url="../sections/games/designcenter/audio/oops/keep_looking.mp3" />
+			<oops id="keep_rolling" type="audio" url="../sections/games/designcenter/audio/oops/keep_rolling.mp3" />
+		</oops>
+		
+		<kudos id="kudos" isGroup="true">
+			<kudos id="wonderiffic" type="audio" url="../sections/games/designcenter/audio/kudos/wonderiffic.mp3" />
+			<kudos id="you_got_it.mp3" type="audio" url="../sections/games/designcenter/audio/kudos/you_got_it.mp3" />
+		</kudos>
+		
+		<soundfx id="soundfx" isGroup="true">
+			<soundfx id="zap" type="audio" url="../sections/games/designcenter/audio/sfx/sfx_UI_over.mp3" />
+			<soundfx id="zap2" type="audio" url="../sections/games/designcenter/audio/sfx/sfx_UI_press.mp3" />
+		</soundfx>
+		
+		<prompts id="prompts" isGroup="true">
+			<prompt id="find_letter" type="audio" url="../sections/games/designcenter/audio/prompts/find_letter.mp3" />
+			<prompt id="find_letter2" type="audio" url="../sections/games/designcenterdesigncenter/audio/prompts/find_letter.mp3" />
+		</prompts>
+		
+
+	</assets>
+	
+
+</game>

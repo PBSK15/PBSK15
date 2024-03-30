@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurMobilePage.html.twig' %}
+{% set additionalTitle = 'Games | Comic So Funny I Forgot to Laugh' %}
+{% set altTitle = false %}
+{% set noPageCss = false %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="css/so_funny.css"><script src="js/createjs/easeljs-0.6.0.min.js"></script><script src="js/createjs/tweenjs-0.4.0.min.js"></script><script src="js/createjs/movieclip-0.6.0.min.js"></script><script src="js/createjs/preloadjs-0.3.0.min.js"></script><script src="js/createjs/soundjs-0.4.0.min.js"></script><script src="js/jquery/jquery-1.10.2.min.js"></script><script type="text/javascript" src="../../js/utility.js"> </script>' %}
+
+
+{% block mainPage %}<div id="header"><a href="http:www.pbskids.org"><img id="pbsLogo" src="../../assets/images/pbs_logo.gif"></a> <a href="../index.html">
+  <div class="roundBackground" id="gameLink">
+   GAMES
+  </div></a>
+ <div id="homeLogo">
+  <a href="../../index.html"><img id="arthurLogo" src="../../assets/images/arthur_logo_sml.png"></a>
+ </div>
+</div>
+<div id="mainContent"><!-- 960 x 540 --> <!-- 1920 x 1080--> <!--<IMG SRC="assets/images/misc/arthur_cover_landscape.png">-->
+ <canvas id="canvas" width="960" height="540"></canvas>
+</div>
+<div id="bottom">
+ <div id="copyright"><br> All characters and underlying materials (including artwork) © Marc Brown. "Arthur" and "D.W." and all of the ARTHUR characters are trademarks of Marc Brown.<br><span class="copyrightLine">© 2014 WGBH</span>
+ </div>
+</div>{% endblock %}
+

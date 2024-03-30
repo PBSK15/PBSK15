@@ -1,0 +1,34 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur\'s Songbook | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="songHeader">Arthur's Songbook</h4>
+  </div>
+  <div id="printablesNavIcons">
+   <ul id="songNavIcons">
+    <li id="sTheme" class="icon"><a href="theme.html"><span>Theme Song</span></a></li>
+    <li id="sLibrary" class="icon"><a href="librarycard.html"><span>Library Card</span></a></li>
+    <li id="sPencil" class="icon"><a href="luckypencil.html"><span>Lucky Pencil</span></a></li>
+    <li id="sUFO" class="icon"><a href="ufo.html"><span>The UFO Song</span></a></li>
+    <li id="sSleep" class="icon"><a href="gotosleep.html"><span>Go to Sleep</span></a></li>
+    <li id="sBus" class="icon"><a href="crazybus.html"><span>Crazy Bus</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/globalgizmo/index.html" id="rcGlobal">Global Gizmo</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

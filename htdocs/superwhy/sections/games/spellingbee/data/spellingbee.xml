@@ -1,0 +1,335 @@
+<game id="spellingbee" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . PRINCESS PRESTO GOLD CROWN SPELLING BEE | PBS KIDS]]></title>
+	<swf url="sections/games/spellingbee/spellingbee.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "true"
+		totalGridCels = "9"
+		musicLoopID = "princess_spellingbee_loop"
+		endScreenLibraryID = "princesspresto_endscreen"
+		endScreenClassName = "PrincessPrestoEndScreen"
+		characterSectionColor = "princesspresto"
+		printImagesToLoad = "0"
+	/>
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="princesspresto_endscreen" url="libraries/princesspresto_endscreen.swf" />
+	</libraries> 
+
+	<assets>
+		
+		<voiceovers id="voiceovers" isGroup="true">
+			<voiceovers id="title" type="audio" url="sections/games/spellingbee/audio/vo/Title.mp3"/>
+			<voiceovers id="final" type="audio" url="sections/games/spellingbee/audio/vo/FinalPayoff.mp3"/>
+			<voiceovers id="crown" type="audio" url="sections/games/spellingbee/audio/vo/ChooseCrown.mp3" />
+			<voiceovers id="magnificent" type="audio" url="sections/games/spellingbee/audio/vo/magnificent.mp3"/>			
+			<voiceovers id="instructions" type="audio" url="sections/games/spellingbee/audio/vo/instructions_pp.mp3"/>
+			<voiceovers id="spell" type="audio" url="sections/games/spellingbee/audio/vo/wandparta.mp3"/>
+			<voiceovers id="complete" type="audio" url="sections/games/spellingbee/audio/vo/wandpartb.mp3"/>		
+			<voiceovers id="yourname" type="audio" url="sections/games/spellingbee/audio/vo/TypeName.mp3"/>
+			<voiceovers id="begin" type="audio" url="sections/games/spellingbee/audio/vo/spellingBeeIntro.mp3"/>
+			<voiceovers id="gema" type="audio" url="sections/games/spellingbee/audio/vo/GemPayoffA.mp3"/>
+			<voiceovers id="gemb" type="audio" url="sections/games/spellingbee/audio/vo/GemPayoffB.mp3"/>
+			<voiceovers id="oops" type="audio" url="sections/games/spellingbee/audio/vo/oops/Oops1a.mp3" />	
+			<voiceovers id="intro" type="audio" url="sections/games/spellingbee/audio/vo/Instructions.mp3" />	
+			<voiceovers id="ready" type="audio" url="sections/games/spellingbee/audio/vo/ReadytoPrint.mp3" />				
+			<voiceovers id="blend1a" type="audio" url="sections/games/spellingbee/audio/vo/ObjectiveDigraphBlend1a.mp3" />	
+			<voiceovers id="blend1b" type="audio" url="sections/games/spellingbee/audio/vo/ObjectiveDigraphBlend1b.mp3" />	
+			<voiceovers id="blend2a" type="audio" url="sections/games/spellingbee/audio/vo/ObjectiveDigraphBlend2a.mp3" />		
+			<voiceovers id="find1" type="audio" url="sections/games/spellingbee/audio/vo/ObjectiveSingle1.mp3" />	
+			<voiceovers id="find2" type="audio" url="sections/games/spellingbee/audio/vo/ObjectiveSingle2.mp3" />	
+			<voiceovers id="find3" type="audio" url="sections/games/spellingbee/audio/vo/ObjectiveSingle4.mp3" />	
+			<voiceovers id="presto" type="audio" url="sections/games/spellingbee/audio/vo/Presto.mp3" />	
+			<voiceovers id="timeout" type="audio" url="sections/games/spellingbee/audio/vo/cueSparkles.mp3" />	
+			<voiceovers id="choose" type="audio" url="sections/games/spellingbee/audio/vo/choose.mp3" />	
+			<voiceovers id="medium" type="audio" url="sections/games/spellingbee/audio/vo/SpellwithLowercase.mp3" />	
+			<voiceovers id="easy" type="audio" url="sections/games/spellingbee/audio/vo/SpellwithUppercase.mp3" />
+			<voiceovers id="printCrown" type="audio" url="sections/games/spellingbee/audio/vo/PrintYourCrown.mp3" />					
+			<voiceovers id="click_speaker" type="audio" url="sections/games/spellingbee/audio/vo/buttons/Speaker.mp3" />
+			<voiceovers id="print" type="audio" url="sections/games/spellingbee/audio/vo/buttons/Print.mp3" />
+			<voiceovers id="back" type="audio" url="sections/games/spellingbee/audio/vo/buttons/Back.mp3" />
+			<voiceovers id="next" type="audio" url="sections/games/spellingbee/audio/vo/buttons/Next.mp3" />
+			<voiceovers id="done" type="audio" url="sections/games/spellingbee/audio/vo/buttons/done.mp3" />
+			<voiceovers id="oops2" type="audio" url="sections/games/spellingbee/audio/vo/oops/Oops7a.mp3"/>
+
+
+			<voiceovers id="ant" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/ant.mp3"/>		
+			<voiceovers id="bag" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/bag.mp3"/>		
+			<voiceovers id="bat" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/bat.mp3"/>		
+			<voiceovers id="box" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/box.mp3"/>		
+			<voiceovers id="bug" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/bug.mp3"/>		
+			<voiceovers id="bus" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/bus.mp3"/>		
+			<voiceovers id="can" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/can.mp3"/>		
+			<voiceovers id="cap" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/cap.mp3"/>		
+			<voiceovers id="cat" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/cat.mp3"/>		
+			<voiceovers id="cup" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/cup.mp3"/>		
+			<voiceovers id="dog" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/dog.mp3"/>		
+			<voiceovers id="elf" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/elf.mp3"/>		
+			<voiceovers id="fox" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/fox.mp3"/>		
+			<voiceovers id="hat" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/hat.mp3"/>		
+			<voiceovers id="hen" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/hen.mp3"/>		
+			<voiceovers id="log" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/log.mp3"/>		
+			<voiceovers id="map" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/map.mp3"/>		
+			<voiceovers id="mop" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/mop.mp3"/>		
+			<voiceovers id="nut" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/nut.mp3"/>		
+			<voiceovers id="pan" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/pan.mp3"/>		
+			<voiceovers id="pet" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/pet.mp3"/>		
+			<voiceovers id="pig" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/pig.mp3"/>		
+			<voiceovers id="pot" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/pot.mp3"/>		
+			<voiceovers id="rug" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/rug.mp3"/>		
+			<voiceovers id="sun" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/sun.mp3"/>		
+			<voiceovers id="van" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/van.mp3"/>		
+			<voiceovers id="web" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/web.mp3"/>		
+			<voiceovers id="zap" type="audio" url="sections/games/spellingbee/audio/vo/words/level1/zap.mp3"/>	
+				
+			<voiceovers id="bell" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/bell.mp3"/>		
+			<voiceovers id="brush" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/brush.mp3"/>		
+			<voiceovers id="cabin" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/cabin.mp3"/>		
+			<voiceovers id="chick" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/chick.mp3"/>		
+			<voiceovers id="crab" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/crab.mp3"/>		
+			<voiceovers id="doll" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/doll.mp3"/>		
+			<voiceovers id="dress" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/dress.mp3"/>		
+			<voiceovers id="drum" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/drum.mp3"/>		
+			<voiceovers id="duck" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/duck.mp3"/>
+			<voiceovers id="fish" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/fish.mp3"/>		
+			<voiceovers id="flag" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/flag.mp3"/>		
+			<voiceovers id="frog" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/frog.mp3"/>
+			<voiceovers id="lamp" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/lamp.mp3"/>							
+			<voiceovers id="mask" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/mask.mp3"/>							
+			<voiceovers id="milk" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/milk.mp3"/>							
+			<voiceovers id="pants" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/pants.mp3"/>		
+			<voiceovers id="plant" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/plant.mp3"/>		
+			<voiceovers id="sled" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/sled.mp3"/>	
+			<voiceovers id="snack" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/snack.mp3"/>	
+			<voiceovers id="sock" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/sock.mp3"/>	
+			<voiceovers id="stick" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/stick.mp3"/>	
+			<voiceovers id="tent" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/tent.mp3"/>	
+			<voiceovers id="truck" type="audio" url="sections/games/spellingbee/audio/vo/words/level2/truck.mp3"/>	
+				
+			<voiceovers id="basket" type="audio" url="sections/games/spellingbee/audio/vo/words/level3/basket.mp3"/>		
+			<voiceovers id="insect" type="audio" url="sections/games/spellingbee/audio/vo/words/level3/insect.mp3"/>		
+			<voiceovers id="napkin" type="audio" url="sections/games/spellingbee/audio/vo/words/level3/napkin.mp3"/>		
+			<voiceovers id="pumpkin" type="audio" url="sections/games/spellingbee/audio/vo/words/level3/pumpkin.mp3"/>		
+				<voiceovers id="rabbit" type="audio" url="sections/games/spellingbee/audio/vo/words/level3/rabbit.mp3"/>		
+			<voiceovers id="tennis" type="audio" url="sections/games/spellingbee/audio/vo/words/level3/tennis.mp3"/>		
+				
+		</voiceovers>
+
+		
+	<letters id="letters" isGroup="true">
+		<letter id="a" type="audio" url="sections/games/spellingbee/audio/vo/letters/a_pp.mp3"/>
+		<letter id="b" type="audio" url="sections/games/spellingbee/audio/vo/letters/b_pp.mp3"/>
+		<letter id="c" type="audio" url="sections/games/spellingbee/audio/vo/letters/c_pp.mp3"/>
+		<letter id="d" type="audio" url="sections/games/spellingbee/audio/vo/letters/d_pp.mp3"/>
+		<letter id="e" type="audio" url="sections/games/spellingbee/audio/vo/letters/e_pp.mp3"/>
+		<letter id="f" type="audio" url="sections/games/spellingbee/audio/vo/letters/f_pp.mp3"/>
+		<letter id="g" type="audio" url="sections/games/spellingbee/audio/vo/letters/g_pp.mp3"/>
+		<letter id="h" type="audio" url="sections/games/spellingbee/audio/vo/letters/h_pp.mp3"/>
+		<letter id="i" type="audio" url="sections/games/spellingbee/audio/vo/letters/i_pp.mp3"/>
+		<letter id="j" type="audio" url="sections/games/spellingbee/audio/vo/letters/j_pp.mp3"/>
+		<letter id="k" type="audio" url="sections/games/spellingbee/audio/vo/letters/k_pp.mp3"/>
+		<letter id="l" type="audio" url="sections/games/spellingbee/audio/vo/letters/l_pp.mp3"/>
+		<letter id="m" type="audio" url="sections/games/spellingbee/audio/vo/letters/m_pp.mp3"/>
+		<letter id="n" type="audio" url="sections/games/spellingbee/audio/vo/letters/n_pp.mp3"/>
+		<letter id="o" type="audio" url="sections/games/spellingbee/audio/vo/letters/o_pp.mp3"/>
+		<letter id="p" type="audio" url="sections/games/spellingbee/audio/vo/letters/p_pp.mp3"/>
+		<letter id="q" type="audio" url="sections/games/spellingbee/audio/vo/letters/q_pp.mp3"/>
+		<letter id="r" type="audio" url="sections/games/spellingbee/audio/vo/letters/r_pp.mp3"/>
+		<letter id="s" type="audio" url="sections/games/spellingbee/audio/vo/letters/s_pp.mp3"/>
+		<letter id="t" type="audio" url="sections/games/spellingbee/audio/vo/letters/t_pp.mp3"/>
+		<letter id="u" type="audio" url="sections/games/spellingbee/audio/vo/letters/u_pp.mp3"/>
+		<letter id="v" type="audio" url="sections/games/spellingbee/audio/vo/letters/v_pp.mp3"/>
+		<letter id="w" type="audio" url="sections/games/spellingbee/audio/vo/letters/w_pp.mp3"/>
+		<letter id="x" type="audio" url="sections/games/spellingbee/audio/vo/letters/x_pp.mp3"/>
+		<letter id="y" type="audio" url="sections/games/spellingbee/audio/vo/letters/y_pp.mp3"/>
+		<letter id="z" type="audio" url="sections/games/spellingbee/audio/vo/letters/z_pp.mp3"/>
+		<letter id="bb" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/b_and_b.mp3"/>
+		<letter id="br" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/b_and_r.mp3"/>
+		<letter id="ch" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/c_and_h.mp3"/>
+		<letter id="ck" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/c_and_k.mp3"/>
+		<letter id="cr" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/c_and_r.mp3"/>
+		<letter id="ct" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/c_and_t.mp3"/>
+		<letter id="dr" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/d_and_r.mp3"/>
+		<letter id="fl" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/f_and_l.mp3"/>
+		<letter id="fr" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/f_and_r.mp3"/>
+		<letter id="lf" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/l_and_f.mp3"/>
+		<letter id="lk" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/l_and_k.mp3"/>
+		<letter id="ll" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/l_and_l.mp3"/>
+		<letter id="mp" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/m_and_p.mp3"/>
+		<letter id="nt" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/n_and_t.mp3"/>
+		<letter id="sh" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/s_and_h.mp3"/>
+		<letter id="sk" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/s_and_k.mp3"/>
+		<letter id="sl" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/s_and_l.mp3"/>
+		<letter id="sn" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/s_and_n.mp3"/>
+		<letter id="st" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/s_and_t.mp3"/>
+		<letter id="tr" type="audio" url="sections/games/spellingbee/audio/vo/letters/blends/t_and_r.mp3"/>		
+		
+	</letters>
+	<sounds id="sounds" isGroup="true">
+		<sound id="a" type="audio" url="sections/games/spellingbee/audio/vo/sounds/aaa.mp3"/>
+		<sound id="b" type="audio" url="sections/games/spellingbee/audio/vo/sounds/bbb.mp3"/>
+		<sound id="c" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ccc.mp3"/>
+		<sound id="d" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ddd.mp3"/>
+		<sound id="e" type="audio" url="sections/games/spellingbee/audio/vo/sounds/eee.mp3"/>
+		<sound id="f" type="audio" url="sections/games/spellingbee/audio/vo/sounds/fff.mp3"/>
+		<sound id="g" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ggg.mp3"/>
+		<sound id="h" type="audio" url="sections/games/spellingbee/audio/vo/sounds/hhh.mp3"/>
+		<sound id="i" type="audio" url="sections/games/spellingbee/audio/vo/sounds/iii.mp3"/>
+		<sound id="j" type="audio" url="sections/games/spellingbee/audio/vo/sounds/jjj.mp3"/>
+		<sound id="k" type="audio" url="sections/games/spellingbee/audio/vo/sounds/kkk.mp3"/>
+		<sound id="l" type="audio" url="sections/games/spellingbee/audio/vo/sounds/lll.mp3"/>
+		<sound id="m" type="audio" url="sections/games/spellingbee/audio/vo/sounds/mmm.mp3"/>
+		<sound id="n" type="audio" url="sections/games/spellingbee/audio/vo/sounds/nnn.mp3"/>
+		<sound id="o" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ooo.mp3"/>
+		<sound id="p" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ppp.mp3"/>
+		<sound id="q" type="audio" url="sections/games/spellingbee/audio/vo/sounds/qqq.mp3"/>
+		<sound id="r" type="audio" url="sections/games/spellingbee/audio/vo/sounds/rrr.mp3"/>
+		<sound id="s" type="audio" url="sections/games/spellingbee/audio/vo/sounds/sss.mp3"/>
+		<sound id="t" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ttt.mp3"/>
+		<sound id="u" type="audio" url="sections/games/spellingbee/audio/vo/sounds/uuu.mp3"/>
+		<sound id="v" type="audio" url="sections/games/spellingbee/audio/vo/sounds/vvv.mp3"/>
+		<sound id="w" type="audio" url="sections/games/spellingbee/audio/vo/sounds/www.mp3"/>
+		<sound id="x" type="audio" url="sections/games/spellingbee/audio/vo/sounds/xxx.mp3"/>
+		<sound id="y" type="audio" url="sections/games/spellingbee/audio/vo/sounds/yyy.mp3"/>
+		<sound id="z" type="audio" url="sections/games/spellingbee/audio/vo/sounds/zzz.mp3"/>
+		<sound id="bb" type="audio" url="sections/games/spellingbee/audio/vo/sounds/bb_blend.mp3"/>
+		<sound id="br" type="audio" url="sections/games/spellingbee/audio/vo/sounds/br.mp3"/>
+		<sound id="ch" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ch.mp3"/>
+		<sound id="ck" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ck.mp3"/>
+		<sound id="cr" type="audio" url="sections/games/spellingbee/audio/vo/sounds/cr.mp3"/>
+		<sound id="ct" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ct.mp3"/>
+		<sound id="dr" type="audio" url="sections/games/spellingbee/audio/vo/sounds/dr.mp3"/>
+		<sound id="fl" type="audio" url="sections/games/spellingbee/audio/vo/sounds/fl.mp3"/>
+		<sound id="fr" type="audio" url="sections/games/spellingbee/audio/vo/sounds/fr.mp3"/>
+		<sound id="lf" type="audio" url="sections/games/spellingbee/audio/vo/sounds/lf.mp3"/>
+		<sound id="lk" type="audio" url="sections/games/spellingbee/audio/vo/sounds/lk.mp3"/>
+		<sound id="ll" type="audio" url="sections/games/spellingbee/audio/vo/sounds/ll_blend.mp3"/>
+		<sound id="mp" type="audio" url="sections/games/spellingbee/audio/vo/sounds/mp.mp3"/>
+		<sound id="nt" type="audio" url="sections/games/spellingbee/audio/vo/sounds/nt.mp3"/>
+		<sound id="sh" type="audio" url="sections/games/spellingbee/audio/vo/sounds/sh.mp3"/>
+		<sound id="sk" type="audio" url="sections/games/spellingbee/audio/vo/sounds/sk.mp3"/>
+		<sound id="sl" type="audio" url="sections/games/spellingbee/audio/vo/sounds/sl.mp3"/>
+		<sound id="sn" type="audio" url="sections/games/spellingbee/audio/vo/sounds/sn.mp3"/>
+		<sound id="st" type="audio" url="sections/games/spellingbee/audio/vo/sounds/st.mp3"/>
+		<sound id="tr" type="audio" url="sections/games/spellingbee/audio/vo/sounds/tr.mp3"/>
+		
+	</sounds>
+		
+		<oopspre id="oopspre" isGroup="true">
+			<oopspre id="oops3a" type="audio" url="sections/games/spellingbee/audio/vo/oops/Oops3a.mp3" />
+			<oopspre id="oops4a" type="audio" url="sections/games/spellingbee/audio/vo/oops/Oops4a.mp3" />
+			<oopspre id="oops5a" type="audio" url="sections/games/spellingbee/audio/vo/oops/Oops5a.mp3" />
+		</oopspre>
+
+		<oopspost id="oopspost" isGroup="true">
+			<oopspost id="oops1b" type="audio" url="sections/games/spellingbee/audio/vo/oops/Oops1b.mp3" />
+			<oopspost id="oops2b" type="audio" url="sections/games/spellingbee/audio/vo/oops/Oops2b.mp3" />
+			<oopspost id="oops6b" type="audio" url="sections/games/spellingbee/audio/vo/oops/Oops6b.mp3" />
+		</oopspost>		
+		
+		<kudos id="kudos" isGroup="true">
+			<kudos id="excellent" type="audio" url="sections/games/spellingbee/audio/vo/kudos/Kudos1.mp3" />
+			<kudos id="great" type="audio" url="sections/games/spellingbee/audio/vo/kudos/Kudos2.mp3" />
+			<kudos id="lovely" type="audio" url="sections/games/spellingbee/audio/vo/kudos/Kudos4.mp3" />
+			<kudos id="magnificent" type="audio" url="sections/games/spellingbee/audio/vo/kudos/Kudos5.mp3" />
+			<kudos id="spectacular" type="audio" url="sections/games/spellingbee/audio/vo/kudos/Kudos6.mp3" />
+			<kudos id="thats_it" type="audio" url="sections/games/spellingbee/audio/vo/kudos/Kudos7.mp3" />
+		</kudos>
+		
+		<soundfx id="soundfx" isGroup="true">
+			<soundfx id="chimesUp" type="audio" url="sections/games/spellingbee/audio/sfx/sfx_chimes_up.mp3" />
+			<soundfx id="incorrect" type="audio" url="sections/games/spellingbee/audio/sfx/sfx_incorrect_letter.mp3" />
+			<soundfx id="correct" type="audio" url="sections/games/spellingbee/audio/sfx/sfx_correct_letter.mp3" />
+			<soundfx id="appears" type="audio" url="sections/games/spellingbee/audio/sfx/sfx_letter_appears.mp3" />
+			<soundfx id="crown" type="audio" url="sections/games/spellingbee/audio/sfx/sfx_crown_click.mp3" />
+			<soundfx id="rollover" type="audio" url="sections/games/spellingbee/audio/sfx/sfx_button_rollover.mp3" />
+		</soundfx>
+		
+		<prompts id="prompts" isGroup="true">
+			<prompts id="findLetter" type="audio" url="sections/games/spellingbee/audio/vo/instructions_pp.mp3" />
+				<prompts id="loveThatOne" type="audio" url="sections/games/spellingbee/audio/vo/CrownILoveThatOne.mp3" />	
+			<prompts id="spellWord" type="audio" url="sections/games/spellingbee/audio/vo/wandparta.mp3" />					
+		</prompts>
+
+		<buttons id="buttons" isGroup="true">
+			<rollover id="click_speaker" type="audio" url="sections/games/spellingbee/audio/vo/buttons/Speaker.mp3" />
+			<rollover id="print" type="audio" url="sections/games/spellingbee/audio/vo/buttons/Print.mp3" />
+			<rollover id="back" type="audio" url="sections/games/spellingbee/audio/vo/buttons/Back.mp3" />
+			<rollover id="next" type="audio" url="sections/games/spellingbee/audio/vo/buttons/Next.mp3" />
+			
+		</buttons>
+		
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/spellingbee" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		</promos>
+	</assets>
+	
+	<gameLevels colors="pink,blue,red,orange,green" >
+		<level distracters="a,b,d,e,f,g,h,i,j,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z" >
+			<item soundID="ant" correct="a,nt" >ant</item>
+			<item soundID="bag" correct="b,a,g" >bag</item>
+			<item soundID="bat" correct="b,a,t" >bat</item>
+			<item soundID="box" correct="b,o,x" >box</item>
+			<item soundID="bug" correct="b,u,g" >bug</item>
+			<item soundID="bus" correct="b,u,s" >bus</item>
+			<item soundID="can" correct="c,a,n" >can</item>
+			<item soundID="cap" correct="c,a,p" >cap</item>
+			<item soundID="cat" correct="c,a,t" >cat</item>
+			<item soundID="cup" correct="c,u,p" >cup</item>
+			<item soundID="dog" correct="d,o,g" >dog</item>
+			<item soundID="elf" correct="e,lf" >elf</item>
+			<item soundID="fox" correct="f,o,x" >fox</item>
+			<item soundID="hat" correct="h,a,t" >hat</item>
+			<item soundID="hen" correct="h,e,n" >hen</item>
+			<item soundID="log" correct="l,o,g" >log</item>
+			<item soundID="map" correct="m,a,p" >map</item>
+			<item soundID="mop" correct="m,o,p" >mop</item>
+			<item soundID="pet" correct="p,e,t" >pet</item>
+			<item soundID="pig" correct="p,i,g" >pig</item>
+			<item soundID="pot" correct="p,o,t" >pot</item>
+			<item soundID="rug" correct="r,u,g" >rug</item>
+			<item soundID="sun" correct="s,u,n" >sun</item>
+			<item soundID="van" correct="v,a,n" >van</item>
+			<item soundID="web" correct="w,e,b" >web</item> 
+			<item soundID="zap" correct="z,a,p" >zap</item>
+		</level>
+		<level distracters="a,b,d,e,f,g,h,i,j,m,n,o,p,q,r,s,t,u,v,w,x,y,z,br,ch,ck,cr,ct,dr,fl,fr,lf,lk,mp,nt,sh,sk,sl,sn,st,tr" >
+			<item soundID="bell" correct="b,e,ll" >bell</item>
+			<item soundID="doll" correct="d,o,ll" >doll</item>
+			<item soundID="brush" correct="br,u,sh" >brush</item>
+			<item soundID="cabin" correct="c,a,b,i,n" >cabin</item>
+			<item soundID="chick" correct="ch,i,ck" >chick</item>
+			<item soundID="crab" correct="cr,a,b" >crab</item>
+			<item soundID="dress" correct="dr,e,s,s" >dress</item>
+			<item soundID="duck" correct="d,u,ck" >duck</item>
+			<item soundID="fish" correct="f,i,sh" >fish</item>
+			<item soundID="flag" correct="fl,a,g" >flag</item>
+			<item soundID="frog" correct="fr,o,g" >frog</item>
+			<item soundID="lamp" correct="l,a,mp" >lamp</item>
+			<item soundID="mask" correct="m,a,sk" >mask</item>
+			<item soundID="milk" correct="m,i,lk" >milk</item>
+			<item soundID="pants" correct="p,a,nt,s" >pants</item>
+			<item soundID="plant" correct="p,l,a,nt" >plant</item>
+			<item soundID="sled" correct="sl,e,d" >sled</item>
+			<item soundID="snack" correct="sn,a,ck" >snack</item>
+			<item soundID="sock" correct="s,o,ck" >sock</item>
+			<item soundID="milk" correct="m,i,lk" >milk</item>
+		</level>
+		<level distracters="a,d,e,f,g,h,i,j,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,br,ch,ck,cr,ct,dr,fl,fr,lf,lk,mp,nt,sh,sk,sl,sn,st,tr" >
+			<item soundID="basket" correct="b,a,sk,e,t" >basket</item>
+			<item soundID="insect" correct="i,n,s,e,ct" >insect</item>
+			<item soundID="napkin" correct="n,a,p,k,i,n" >napkin</item>
+			<item soundID="pumpkin" correct="p,u,mp,k,i,n" >pumpkin</item>
+			<item soundID="rabbit" correct="r,a,bb,i,t" >rabbit</item>
+		</level>	
+	</gameLevels>
+	
+
+</game>

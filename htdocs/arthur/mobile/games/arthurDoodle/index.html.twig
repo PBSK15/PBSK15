@@ -1,0 +1,67 @@
+{% extends 'arthur/includes/templates/arthurMobilePage.html.twig' %}
+{% set additionalTitle = 'Games | Comic So Funny I Forgot to Laugh' %}
+{% set altTitle = false %}
+{% set noPageCss = false %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="css/main.css"><link rel="stylesheet" type="text/css" href="css/drawing.css"><script type="text/javascript" src="../../js/utility.js"> </script><script src="js/jquery-1.10.2.min.js"></script><script src="js/easeljs-0.7.0.min.js"></script><script src="js/drawcanvas.js"></script>' %}
+
+
+{% block mainPage %}<div id="header"><a href="http:www.pbskids.org"><img id="pbsLogo" src="../../assets/images/pbs_logo.gif"></a> <a href="../index.html">
+  <div class="roundBackground" id="gameLink">
+   GAMES
+  </div></a>
+ <div id="homeLogo">
+  <a href="../../index.html"><img id="arthurLogo" src="../../assets/images/arthur_logo_sml.png"></a>
+ </div>
+</div>
+<div id="doodlesMainContent">
+ <div id="content" class="group">
+  <h4>Arthur Doodles</h4>
+  <hr>
+  <div class="drawtool-page">
+   <section class="drawtool">
+    <div class="drawtool-toolbox place-horiz">
+     <ul class="main-tools tools-bigcol">
+      <li><button id="marker-bt" class="draw-tool">
+        <div class="tool-icon btnpencil"></div><span>brush</span></button></li>
+      <li><button id="faces-bt" class="draw-tool">
+        <div class="tool-icon btnfaces"></div><span>faces</span></button></li>
+      <li><button id="undo-bt">
+        <div class="tool-icon btnundo"></div><span>undo</span></button></li>
+      <li><button id="clear-bt">
+        <div class="tool-icon btnclear"></div><span>clear</span></button></li>
+     </ul>
+     <ul class="tools-bigcol">
+      <li>
+       <div id="color-palette">
+        <ul class="color-list">
+         <li>ff391f</li>
+         <li>fddc00</li>
+         <li>00d81d</li>
+         <li>003dda</li>
+         <li>6f00f2</li>
+         <li>000000</li>
+         <li>7e5200</li>
+        </ul>
+       </div></li>
+      <li class="preview-inactive">
+       <div class="preview-box">
+        <canvas id="preview-canvas"></canvas>
+       </div></li>
+     </ul>
+    </div>
+    <div class="drawtool-canvas-block place-horiz">
+     <canvas id="draw-canvas" width="950" height="475">
+      <div class="banner">
+       <p>NOTE: The version of this broswer does not support this feature.</p>
+      </div>
+     </canvas>
+    </div>
+   </section>
+  </div>
+ </div><!-- id="content" class="group" -->
+</div><!-- mainContent -->
+<div id="bottom">
+ <div id="copyright"><br> All characters and underlying materials (including artwork) © Marc Brown. "Arthur" and "D.W." and all of the ARTHUR characters are trademarks of Marc Brown.<br><span class="copyrightLine">© 2014 WGBH</span>
+ </div>
+</div>{% endblock %}
+

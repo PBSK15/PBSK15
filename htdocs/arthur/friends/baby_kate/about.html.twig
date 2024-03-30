@@ -1,0 +1,72 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Baby Kate\'s About Me Page | PBS Kids' %}
+{% set desc = '' %}
+{% set keywds = '' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ff9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/kate_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/kate_top.swf", "kate", "960", "363", "9", "#ffff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "baby_kate");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="/arthur/friends/baby_kate/photos.html" class="photoWall p-kate">Baby Kate's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Paba! Weeeedub! Beeesh! (Playing! Eating! Sleeping!)
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Boodeebee pbffffft. (The big people don't understand me.)
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Badababa bawoo paga! (Rescuing the wedding-cake statue with Pal.)
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_ffc">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Wabba wabba booh? (Do people understand you?)</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/baby_kate/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="kate"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/kate_book1.jpg" width="148" height="117" alt="Blue Buggy  book cover" border="0"> <h4>Blue Buggy</h4> <p>by Janet and Alan Ahlberg<br> Familiar, everyday objects that babies love are pictured in colorful style.</p></li>
+    <li><img src="/arthur/i/friends/books/kate_book2.jpg" width="148" height="117" alt="Clap Hands  book cover" border="0"> <h4>Clap Hands</h4> <p>by Helen Oxenbury<br> An engaging group of toddlers play to the familiar rhyme.</p></li>
+    <li><img src="/arthur/i/friends/books/kate_book3.jpg" width="148" height="117" alt="I See  book cover" border="0"> <h4>I See</h4> <p>by Rachel Isadora<br> A baby responds to the things she sees.</p></li>
+    <li><img src="/arthur/i/friends/books/kate_book4.jpg" width="148" height="117" alt="Max's Ride book cover" border="0"> <h4>Max's Ride</h4> <p>by Rosemary Wells<br> Max the bunny takes a thrilling ride in his carriage.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/stickers/index.html" id="rcStickers">Baby Kate's Stickers</a></li>
+   <li><a href="/arthur/games/dontwakekate/index.html" id="rcDWK">Don't Wake Kate</a></li> <!--<li><a href="/arthur/video/games.html?pid=Y_T3v8L7o5oDcgUJ1WolP_eugXVWwq1i" id="rcVideoDetective">Video Detective</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

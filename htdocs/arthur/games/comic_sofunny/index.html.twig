@@ -1,0 +1,44 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur Comics . So Funny I Forgot to Laugh | PBS Kids' %}
+{% set desc = 'So Funny I Forgot to Laugh is an interactive comic book designed to help kids work through all the aspects of the issue of bullying.' %}
+{% set keywds = 'bullying, anti-bullying, bystanders, comic book, graphic novel, interactive, choose your ending, html5' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" /><link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet" type="text/css">
+
+<script src="js/createjs/easeljs-0.6.0.min.js"></script>
+<script src="js/createjs/tweenjs-0.4.0.min.js"></script>
+<script src="js/createjs/movieclip-0.6.0.min.js"></script>
+<script src="js/createjs/preloadjs-0.3.0.min.js"></script>
+<script src="js/createjs/soundjs-0.4.0.min.js"></script>
+<script src="js/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+
+</script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="comicbg">
+ <div class="ruler"></div>
+ <div><!-- 960 x 540 --> <!-- 1920 x 1080--> <!--<IMG SRC="assets/images/misc/arthur_cover_landscape.png" id="coverPage">-->
+  <canvas id="canvas" width="960" height="540"></canvas>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/sue_ellen/index.html" id="rcSueEllen">Sue Ellen</a></li>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/games/moviemaker/index.html" id="rcMovieMaker">Movie Maker</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+
+{% set specialBody = '<script src="js/lib/lowLag.js"></script>
+  <script src="js/sm2/js/soundmanager2.js"></script>
+  <script src="js/lib/EaselJSUtl.js"></script>
+  <script src="js/lib/displaylib.js"></script>
+  <script src="js/lib/storylib.js"></script>
+  
+  <script src="js/settings.js"></script>
+  <script src="js/main.js"></script>' %}

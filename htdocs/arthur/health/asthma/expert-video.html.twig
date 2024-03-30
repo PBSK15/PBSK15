@@ -1,0 +1,157 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'Expert Q&A . Arthur' %}
+{% set videoCss = true %}
+{% set specialInclude = '' %}
+{% set bodyClass = 'green' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><h2><a href="../asthma/">Asthma</a></h2></li>
+   <li><a href="../allergy/">Peanut Allergy</a></li>
+   <li><a href="../nutrition/">Nutrition</a></li>
+   <li><a href="../resilience/">Resilience</a></li>
+   <li><a href="../fitness/">Fitness</a></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Asthma</a>
+   </div>
+   <ul>
+    <li><a href="../allergy/">Peanut Allergy</a></li>
+    <li><a href="../nutrition/">Nutrition</a></li>
+    <li><a href="../resilience/">Resilience</a></li>
+    <li><a href="../fitness/">Fitness</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="vid-pg group">
+  <div id="wrap-n-a-t">
+   <ul id="nav-area-top">
+    <li>
+     <div>
+      <div class="caret-area"></div>More<span> Sections</span>
+     </div>
+     <ul class="nav-area">
+      <li>
+       <div>
+        The Basics
+       </div>
+       <ul>
+        <li><a href="background-info.html">Background Information</a></li>
+        <li><a href="tips1.html">Tips for Grown-ups</a></li>
+        <li><a href="tips-kids.html">Tips for Kids</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="educators.html">For Educators</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Games &amp; Activities
+       </div>
+       <ul>
+        <li><a href="triggers1.html">Asthma Triggers</a></li>
+        <li><a href="story1.html">Buster's Breathless Story</a></li>
+        <li><a href="lung-defender.html">Buster Baxter: Lung Defender</a></li>
+        <li><a href="stay-active.html">Stay Active with Asthma</a></li>
+        <li><a href="quiz.html">Asthma Quiz</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Videos
+       </div>
+       <ul>
+        <li><a href="episode.html">Buster's Breathless</a></li>
+        <li><a href="asthma-rap.html">Asthma Rap</a></li>
+        <li><a href="kids-action.html">Kids in Action</a></li>
+        <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+       </ul></li>
+     </ul></li>
+   </ul>
+  </div>
+  <h3>Videos</h3>
+  <h4>Expert Q&amp;A</h4>
+  <hr>
+  <div class="group">
+   <div id="player" class="col7vid single-video">
+    <div class="video-wrapper widescreen">
+     <video id="video-player"></video>
+    </div>
+    <div id="player-controls" class="hidden">
+     <div class="play-pause vid-ctl-btn"><button title="Play/Pause"> <span id="icon-play" class="vid-ctl-icon">play</span> <span id="icon-pause" class="vid-ctl-icon">pause</span> </button>
+     </div>
+     <div class="show-fullscreen vid-ctl-btn removed"><button title="Full-screen"> <span id="icon-fs" class="vid-ctl-icon">full-screen</span> </button>
+     </div>
+     <div class="toggle-captions vid-ctl-btn"><button title="Captions on/off"> <span id="icon-captoff" class="vid-ctl-icon">CC</span> <span id="icon-capton" class="vid-ctl-icon">CC</span> </button>
+     </div>
+     <div class="mute-unmute vid-ctl-btn"><button title="Mute/Unmute"> <span id="icon-mute" class="vid-ctl-icon">mute</span> <span id="icon-unmute" class="vid-ctl-icon">unmute</span> </button>
+     </div>
+     <div class="timer-remaining">
+      ––:––
+     </div>
+     <div class="scrubber">
+      <div class="scrubber-track">
+       <button class="scrubber-thumb"></button>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="col5">
+    <p>Linda Haynes, an asthma nurse practitioner with the Asthma Action Team at Boston Children's Hospital Primary Care Center, answers important questions about asthma and how to manage it so that children with asthma feel safe and empowered.</p> <a href="../pdf/arthur_asthma_expert_qa.pdf" class="print-btn" style="width:11em;">
+     <div class="print-icon"></div>Print Transcript</a>
+   </div>
+  </div> <img class="col5" src="../img/shared_video_mom.png" alt="Mrs. Read gesturing.">
+  <div class="col7">
+   <div class="banner">
+    <p>TIP: Talk with your child about what daily routines can be established to manage asthma, and identify specific people to talk to if asthma symptoms occur.</p>
+   </div>
+  </div>
+  <div id="wrap-n-a-b">
+   <ul id="nav-area-bot">
+    <li>
+     <div>
+      <div class="caret-area"></div>More Sections
+     </div>
+     <ul class="nav-area">
+      <li>
+       <div>
+        The Basics
+       </div>
+       <ul>
+        <li><a href="background-info.html">Background Information</a></li>
+        <li><a href="tips1.html">Tips for Grown-ups</a></li>
+        <li><a href="tips-kids.html">Tips for Kids</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="educators.html">For Educators</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Games &amp; Activities
+       </div>
+       <ul>
+        <li><a href="triggers1.html">Asthma Triggers</a></li>
+        <li><a href="story1.html">Buster's Breathless Story</a></li>
+        <li><a href="lung-defender.html">Buster Baxter: Lung Defender</a></li>
+        <li><a href="stay-active.html">Stay Active with Asthma</a></li>
+        <li><a href="quiz.html">Asthma Quiz</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Videos
+       </div>
+       <ul>
+        <li><a href="episode.html">Buster's Breathless</a></li>
+        <li><a href="asthma-rap.html">Asthma Rap</a></li>
+        <li><a href="kids-action.html">Kids in Action</a></li>
+        <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+       </ul></li>
+     </ul></li>
+   </ul>
+  </div>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="../js/jquery-1.10.2.min.js"></script><script src="../js/main.js"></script><script src="http:pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script><script>var videoID="88464d6a-550f-4cc9-8005-e2e612382c7c";</script><script src="../js/video2.js"></script>' %}

@@ -1,0 +1,35 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . You\'ve Got Braille | PBS Kids' %}
+{% set desc = 'Find out about Prunella blind friend and how braille can help blind people read! Enter a message into the braille translator.' %}
+{% set keywds = 'braille, blind, reading, message, translation' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="brailleHeader">You've Got Braille</h4>
+   <p>My friend Marina, who's blind, has been telling me about braille. She lets me use her cool braille typewriter to send her notes she can read. You can type your own note right here and have it translated into braille. Use the <a href="braille_key.html">key</a> to learn what the dots mean. You can also read <a href="braille_guide.html">Marina's Guide to Braille and More</a>.</p>
+  </div> <img src="../../i/print/braille/braille_prunella.gif" width="294" height="318" alt="Prunella typing on a typewriter" border="0" id="brailleIndxImg">
+  <div id="printablesNavIcons">
+   <form action="/cgi-registry/arthur/braille.php" method="post" onsubmit="return confirmValues(this);" id="brailleForm"><label>Enter your message into <br>the Braille Translator</label> <textarea name="message" rows="5" cols="20" wrap id="brailleTxt"></textarea> <input type="submit" name="done" value="Translate!"> <input type="hidden" name="featurepath" value="/arthur/print/braille/"> <input type="hidden" name="template_page" value="braille.tmpl"> <input type="hidden" name="filled_dot_path" value="/arthur/i/print/braille/filled_dot.gif"> <input type="hidden" name="unfilled_dot_path" value="/arthur/i/print/braille/unfilled_dot.gif"> <input type="hidden" name="spacer_path" value="/arthur/i/1px.gif"> <input type="hidden" name="dot_width" value="16"> <input type="hidden" name="dot_height" value="16"> <input type="hidden" name="letters_per_row" value="12"> <input type="hidden" name="lines_per_page" value="8">
+   </form>
+   <ul id="brailleNavIcons">
+    <li id="brailleGuide" class="icon"><a href="braille_guide.html"><span>Marina's Guild to Braille and More</span></a></li>
+    <li id="brailleKey" class="icon"><a href="braille_key.html"><span>Braille Key</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/print/signdesign/index.html" id="rcSignDesign">Sign Design</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

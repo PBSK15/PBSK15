@@ -1,0 +1,22 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Don\'t Wake Kate | PBS Kids' %}
+{% set desc = 'D.W. needs your help to get from her bed to the sink so that she can get some water. Dont bump into toys and wake up Baby Kate on the way!  ' %}
+{% set keywds = 'D.W., Baby Kate, game, sleep, waking up, bedtime, sisters' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c6">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><img src="../../i/games/dwk_splashpage.gif" width="619" height="419" border="0" alt="Don't Wake Kate" usemap="#fo_splash">
+  </div> <map name="fo_splash"> <area shape="rect" alt="play the game with audio description. You may need to click on the game with your mouse in order for the keyboard commands to work." coords="416,260,563,354" href="dontwakekate_acc.html" tabindex="1"> <area shape="rect" alt="play the game without audio description" coords="417,137,563,233" href="dontwakekate.html" tabindex="2"> </map>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/baby_kate/index.html" id="rcKate">Baby Kate</a></li>
+   <li><a href="/arthur/games/elwoodcity/index.html" id="rcElwoodCity">Elwood City Map</a></li>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

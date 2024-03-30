@@ -1,0 +1,50 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Sign Design | PBS Kids' %}
+{% set desc = 'Choose a question you would like to learn how to ask in sign language.' %}
+{% set keywds = 'sign language, deaf, ASL, question' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9fc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="signHeader">Sign Design</h4></a>
+  <ul id="printSideNav">
+   <li><a href="name.html" class="selected"><span>Practice Signing</span></a></li>
+   <li><a href="finger-spelling.html"><span>Finger Spelling</span></a></li>
+   <li><a href="more-info.html"><span>More Information</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Practice Signing</h1>
+    </div>
+   </div>
+   <div id="practiceContent"><img src="/arthur/i/print/signdesign/arthur_practice.gif" width="146" height="338" alt="" border="0" class="float-left">
+    <ul id="practiceNav">
+     <li><a href="name.html">Sign your name</a> |</li>
+     <li>&nbsp;<a href="question.html" class="current">Ask a question</a> |</li>
+     <li>&nbsp;<a href="statement.html">Make a statement</a></li>
+    </ul>
+    <p>I'll help you learn how to ask a question!</p>
+    <p>Use the pull-down menus below to make a sentence you want to say. Then hit the submit button to see the signed version of your sentence.</p>
+    <form action="/cgi-registry/arthur/signdesign2.php" method="post" id="signForm" class="bg-6cc"><label>What </label><select name="noun" class="bg-ffc"> <option selected>sports</option> <option>TV shows</option> <option>movies</option> <option>food</option> <option>drink</option> <option>animals</option> <option>games</option> </select><label> do you </label><select name="verb" class="bg-ffc"> <option selected>like</option> <option>want</option> <option>have</option> <option>play</option> </select> <label>?</label> <br> <input type="submit" name="question" value=" submit " class="bg-ffc submit">
+    </form>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+   <li><a href="/arthur/games/yougottobekidding/index.html" id="rcKidding">You've Got To Be Kidding</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,63 @@
+{
+"images": ["crossroads.png"],
+"frames": [
+
+    [2, 440, 313, 307], 
+    [2, 2, 249, 436], 
+    [253, 126, 109, 125], 
+    [411, 886, 109, 125], 
+    [2, 749, 285, 171], 
+    [190, 922, 92, 92], 
+    [96, 922, 92, 93], 
+    [2, 922, 92, 93], 
+    [289, 749, 126, 135], 
+    [284, 922, 66, 59], 
+    [343, 983, 66, 30], 
+    [345, 886, 20, 20], 
+    [869, 242, 51, 114], 
+    [816, 242, 51, 114], 
+    [922, 126, 51, 114], 
+    [869, 126, 51, 114], 
+    [816, 126, 51, 114], 
+    [289, 886, 54, 27], 
+    [253, 253, 225, 122], 
+    [749, 2, 225, 122], 
+    [253, 2, 225, 122], 
+    [522, 2, 225, 122], 
+    [590, 126, 224, 122], 
+    [364, 126, 224, 122], 
+    [284, 983, 57, 33]
+],
+"animations": {
+    
+        "BigCoco":[0], 
+        "BigNoah":[1], 
+        "Coco":[2], 
+        "Noah":[3], 
+        "OutOfMoves":[4], 
+        "Tutorial1":[5], 
+        "Tutorial2":[6], 
+        "Tutorial3":[7], 
+        "Tutorial4":[8], 
+        "arrow":[9], 
+        "car":[10], 
+        "dot":[11], 
+        "n1":[12], 
+        "n2":[13], 
+        "n3":[14], 
+        "n4":[15], 
+        "n5":[16], 
+        "onfoot":[17], 
+        "option-car-selected":[18], 
+        "option-car":[19], 
+        "option-onfoot-selected":[20], 
+        "option-onfoot":[21], 
+        "option-scooter-selected":[22], 
+        "option-scooter":[23], 
+        "scooter":[24]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:120ed74f1b344f10b03ef71e7e035b07:36b1b56f742a11e171a759f4fdeb348c:d4e45ae8b372f6f104b14c8426c7a7a7$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

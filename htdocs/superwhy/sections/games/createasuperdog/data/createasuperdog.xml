@@ -1,0 +1,214 @@
+<game id="createasuperdog" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . CREATE A SUPER DOG! | PBS KIDS]]></title>
+	<swf url="sections/games/createasuperdog/createasuperdog_main.swf" />
+
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "false"
+		activeStickersPerGame = "5"
+		gameDebug = "false"
+	/>
+	 
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+
+		<asset id="princess" location="game/superhero" url="../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../promos/endscreen_promo_rhymeroll.jpg" />
+		
+	</promos>
+		
+	
+	<game>		
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/createasuperdog/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<asset id="gameUI" type="swf" url="createasuperdog_ui.swf"/>
+			
+			<asset id="canfood_definition" type="audio" url="audio/curriculum/csd_can_def.mp3"/>
+			<asset id="canfood_word_over" type="audio" url="audio/curriculum/csd_can.mp3"/>
+			<asset id="canfood_word" type="audio" url="audio/curriculum/csd_can2.mp3"/>
+			
+			<asset id="bowl_definition" type="audio" url="audio/curriculum/csd_bowl_def.mp3"/>
+			<asset id="bowl_word_over" type="audio" url="audio/curriculum/csd_bowl.mp3"/>
+			<asset id="bowl_word" type="audio" url="audio/curriculum/csd_bowl2.mp3"/>
+			
+			<asset id="water_definition" type="audio" url="audio/curriculum/csd_water_def.mp3"/>
+			<asset id="water_word" type="audio" url="audio/curriculum/csd_water.mp3"/>
+			
+			<asset id="bone_definition" type="audio" url="audio/curriculum/csd_bone_def_new.mp3"/>
+			<asset id="bone_word_over" type="audio" url="audio/curriculum/csd_bone.mp3"/>
+			<asset id="bone_word" type="audio" url="audio/curriculum/csd_bone2.mp3"/>
+			
+			<asset id="treat_definition" type="audio" url="audio/curriculum/csd_treat_def.mp3"/>
+			<asset id="treat_word_over" type="audio" url="audio/curriculum/csd_treat.mp3"/>			
+			<asset id="treat_word" type="audio" url="audio/curriculum/csd_treat2.mp3"/>	
+			
+			<asset id="vitamins_definition" type="audio" url="audio/curriculum/csd_vitamins_def.mp3"/>
+			<asset id="vitamins_word" type="audio" url="audio/curriculum/csd_vitamins.mp3"/>
+			
+			<asset id="tub_definition" type="audio" url="audio/curriculum/csd_tub_def.mp3"/>
+			<asset id="tub_word_over" type="audio" url="audio/curriculum/csd_tub.mp3"/>
+			<asset id="tub_word" type="audio" url="audio/curriculum/csd_tub2.mp3"/>
+			
+			<asset id="toothbrush_definition" type="audio" url="audio/curriculum/csd_toothbrush_def.mp3"/>
+			<asset id="toothbrush_word" type="audio" url="audio/curriculum/csd_toothbrush.mp3"/>			
+			
+			<asset id="comb_definition" type="audio" url="audio/curriculum/csd_comb_def.mp3"/>
+			<asset id="comb_word_over" type="audio" url="audio/curriculum/csd_comb.mp3"/>			
+			<asset id="comb_word" type="audio" url="audio/curriculum/csd_comb2.mp3"/>
+			
+			<asset id="shampoo_definition" type="audio" url="audio/curriculum/csd_shampoo_def.mp3"/>
+			<asset id="shampoo_word" type="audio" url="audio/curriculum/csd_shampoo.mp3"/>			
+			
+			<asset id="crate_definition" type="audio" url="audio/curriculum/csd_crate_def.mp3"/>
+			<asset id="crate_word_over" type="audio" url="audio/curriculum/csd_crate.mp3"/>
+			<asset id="crate_word" type="audio" url="audio/curriculum/csd_crate2.mp3"/>
+			
+			<asset id="cushion_definition" type="audio" url="audio/curriculum/csd_cushion_def.mp3"/>
+			<asset id="cushion_word_over" type="audio" url="audio/curriculum/csd_cushion.mp3"/>
+			<asset id="cushion_word" type="audio" url="audio/curriculum/csd_cushion2.mp3"/>
+			
+			<asset id="collar_definition" type="audio" url="audio/curriculum/csd_collar_def.mp3"/>
+			<asset id="collar_word_over" type="audio" url="audio/curriculum/csd_collar.mp3"/>
+			<asset id="collar_word" type="audio" url="audio/curriculum/csd_collar2.mp3"/>
+			
+			<asset id="tag_definition" type="audio" url="audio/curriculum/csd_tag_def.mp3"/>
+			<asset id="tag_word_over" type="audio" url="audio/curriculum/csd_tag.mp3"/>
+			<asset id="tag_word" type="audio" url="audio/curriculum/csd_tag2.mp3"/>
+			
+			<asset id="leash_definition" type="audio" url="audio/curriculum/csd_leash_def.mp3"/>
+			<asset id="leash_word_over" type="audio" url="audio/curriculum/csd_leash.mp3"/>
+			<asset id="leash_word" type="audio" url="audio/curriculum/csd_leash2.mp3"/>
+			
+			<asset id="ball_definition" type="audio" url="audio/curriculum/csd_ball_def.mp3"/>
+			<asset id="ball_word_over" type="audio" url="audio/curriculum/csd_ball.mp3"/>
+			<asset id="ball_word" type="audio" url="audio/curriculum/csd_ball2.mp3"/>
+			
+			<asset id="stick_definition" type="audio" url="audio/curriculum/csd_stick_def.mp3"/>
+			<asset id="stick_word_over" type="audio" url="audio/curriculum/csd_stick.mp3"/>
+			<asset id="stick_word" type="audio" url="audio/curriculum/csd_stick2.mp3"/>
+			
+			<asset id="coat_definition" type="audio" url="audio/curriculum/csd_coat_def.mp3"/>
+			<asset id="coat_word_over" type="audio" url="audio/curriculum/csd_coat.mp3"/>
+			<asset id="coat_word" type="audio" url="audio/curriculum/csd_coat2.mp3"/>
+			
+			<asset id="definition_prefix" type="audio" url="audio/csd_prompt_1a.mp3"/>
+			
+			<!-- correct word click elements -->
+			<asset id="positive_1" type="audio" url="audio/csd_correct_1a.mp3"/>	
+			
+			<!-- is/are -->
+			<asset id="correct_is" type="audio" url="audio/csd_correct_1b.mp3"/>
+			<asset id="correct_are" type="audio" url="audio/csd_correct_1bp.mp3"/>
+			
+			<!-- random correct kudos -->
+			<asset id="correct_random_kudos_1" type="audio" url="audio/csd_correct_randomkudos_1.mp3"/>	
+			<asset id="correct_random_kudos_2" type="audio" url="audio/csd_correct_randomkudos_2.mp3"/>	
+			<asset id="correct_random_kudos_3" type="audio" url="audio/csd_correct_randomkudos_3.mp3"/>
+			
+			<!-- incorrect click elements -->
+			<asset id="incorrect_is_not" type="audio" url="audio/csd_incorrect_1a.mp3"/>
+			<asset id="incorrect_are_not" type="audio" url="audio/csd_incorrect_1ap.mp3"/>
+			
+			<!-- random incorrect -->
+			<asset id="incorrect_random_oops_1" type="audio" url="audio/csd_incorrect_randomoops_1.mp3"/>	
+			<asset id="incorrect_random_oops_2" type="audio" url="audio/csd_incorrect_randomoops_2.mp3"/>
+			<asset id="incorrect_random_oops_3" type="audio" url="audio/csd_incorrect_randomoops_2alt.mp3"/>
+			
+			<!-- we're looking for -->
+			<asset id="incorrect_looking_for" type="audio" url="audio/csd_incorrect_2a.mp3"/>
+			
+			<!-- that's a -->
+			<asset id="incorrect_that_singular" type="audio" url="audio/csd_incorrect_3.mp3"/>
+			<!-- that's (plural) -->
+			<asset id="incorrect_that_plural" type="audio" url="audio/csd_incorrect_3p.mp3"/>
+			
+			
+			<asset id="aisle_onload_prefix" type="audio" url="audio/csd_levels_load.mp3"/>
+			
+			<asset id="aisle_name_aisleA" type="audio" url="audio/csd_aisle_meal.mp3"/>
+			<asset id="aisle_name_aisleB" type="audio" url="audio/csd_aisle_bb.mp3"/>
+			<asset id="aisle_name_aisleC" type="audio" url="audio/csd_aisle_play.mp3"/>
+			
+			<asset id="aisle_complete" type="audio" url="audio/csd_final_correct.mp3"/>
+			
+			<asset id="payoff_namepet" type="audio" url="audio/csd_payoff.mp3"/>
+			
+			<!-- woof, now we have everything-->
+			<asset id="payoff_prompt" type="audio" url="audio/csd_payoff_1.mp3"/>
+			<asset id="payoff_timeout" type="audio" url="audio/csd_payoff_timeout.mp3"/>
+			
+			<asset id="choose_dog" type="audio" url="audio/csd_choose.mp3"/>
+			
+			<asset id="select_prompt_cape" type="audio" url="audio/csd_choose_cape.mp3"/>
+			<asset id="select_prompt_mask" type="audio" url="audio/csd_choose_mask.mp3"/>
+			<asset id="select_prompt_tag" type="audio" url="audio/csd_choose_tag.mp3"/>
+			
+			<asset id="select_kudos_1" type="audio" url="audio/csd_kudos_1.mp3"/>
+			<asset id="select_kudos_2" type="audio" url="audio/csd_kudos_2.mp3"/>
+			<asset id="select_kudos_3" type="audio" url="audio/csd_kudos_3.mp3"/>
+			
+		</assets>
+<!--
+		<onDemandResources>
+		</onDemandResources>
+-->		
+		<objects>
+			<!-- meal time -->
+			<group id="aisleA">
+				<item id="canfood"><![CDATA[can]]></item>
+				<item id="bowl"><![CDATA[bowl]]></item>
+				<item id="water"><![CDATA[water]]></item>
+				<item id="bone"><![CDATA[bone]]></item>
+				<item id="treat"><![CDATA[treat]]></item>
+				<item id="vitamins" isPlural="true"><![CDATA[vitamins]]></item> 
+			</group>
+			
+			<!-- bed bath -->
+			<group id="aisleB">
+				<item id="tub"><![CDATA[tub]]></item>
+				<item id="toothbrush"><![CDATA[toothbrush]]></item>
+				<item id="comb"><![CDATA[comb]]></item>
+				<item id="shampoo"><![CDATA[shampoo]]></item>
+				<item id="crate"><![CDATA[crate]]></item>
+				<item id="cushion"><![CDATA[cushion]]></item>
+			</group>
+			
+			<!-- play time -->
+			<group id="aisleC">
+				<item id="collar"><![CDATA[collar]]></item>
+				<item id="tag"><![CDATA[tag]]></item>
+				<item id="leash"><![CDATA[leash]]></item>
+				<item id="ball"><![CDATA[ball]]></item>
+				<item id="stick"><![CDATA[stick]]></item>
+				<item id="coat"><![CDATA[coat]]></item>
+			</group>
+		</objects>
+			
+			
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

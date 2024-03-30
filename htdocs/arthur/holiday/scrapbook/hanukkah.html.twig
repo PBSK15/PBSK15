@@ -1,0 +1,111 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Holiday . Sue Ellen\'s Scrapbook | PBS Kids' %}
+{% set desc = 'Check out the limerick written by Sue Ellen and find out what poems called limericks are all about.' %}
+{% set keywds = 'limerick, poems, writing' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr holiday"><a href="/arthur/holiday/index.html"><h4 id="holidayHeader">Elwood City Celebrates</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../dressup/index.html"><span>D.W.'s Dress Up</span></a></li>
+   <li><a href="../scrapbook/index.html" class="selected"><span>Sue Ellen's Scrapbook</span></a></li>
+   <li><a href="../glossary/index.html"><span>Brain's Big Book</span></a></li>
+   <li><a href="../coloring/index.html"><span>Holiday Coloring Pages</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea"><a name="top"></a>
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>Sue Ellen's Scrapbook</h1>
+    </div>
+   </div>
+   <div id="holidayTermsContent">
+    <div id="holidayTermsNav">
+     <ul id="innerNav">
+      <li><a href="baxterday.html">Baxter Day</a> &nbsp;| &nbsp;</li>
+      <li><a href="christmas.html">Christmas</a> | &nbsp;</li>
+      <li><a href="hanukkah.html" class="selected">Hanukkah</a> | &nbsp;</li>
+      <li><a href="kwanzaa.html">Kwanzaa</a> | &nbsp;</li>
+      <li><a href="newyear.html">New Year</a></li><br>
+      <li><a href="ramadan.html">Ramadan and Eid ul-Fitr</a> | &nbsp;</li>
+      <li><a href="stlucia.html">St. Lucia</a> | &nbsp;</li>
+      <li><a href="volunteering.html">Volunteering</a> | &nbsp;</li>
+      <li><a href="solstice.html">Winter Solstice</a></li>
+     </ul>
+    </div>
+    <div class="printable-nav no-rule">
+     <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+      <p>1 of 8 pages</p>
+     </div>
+    </div>
+    <ul class="print-pages" id="holidayScrapbookPix">
+     <li id="hanukkah1">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/hanukkah1.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Hanukkah</h2>
+        <p>Hanukkah is a Jewish celebration in honor of a victorious battle for religious freedom. The holiday lasts for eight days. During Hanukkah, Francine likes to play dreidel, a game where kids spin a four-sided top. They get chocolate coins if they win.</p>
+       </dd>
+      </dl></li>
+     <li id="hanukkah2">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/hanukkah2.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Hanukkah</h2>
+        <p>On the last night of Hanukkah, Francine's relatives come over for a party. They bring all kinds of great food like kugel, and potato pancakes called "latkes." Latkes are delicious with applesauce!</p>
+       </dd>
+      </dl></li>
+     <li id="hanukkah3">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/hanukkah3.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Hanukkah</h2>
+        <p>After a battle 2,000 years ago, the Jews had enough oil to light their holy light for only one night. But somehow, the oil burned for eight days. That's why at Hanukkah the Frenskys light a special candleholder called a "hanukkiya" (or "menorah") that holds eight candles (plus one for lighting the rest).</p>
+       </dd>
+      </dl></li>
+     <li id="hanukkah4">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/hanukkah4.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Hanukkah</h2>
+        <p>After lighting the candles, Francine and her family sing Hanukkah songs and open their presents. Francine gets eight presents -- one for each night of the holiday.</p>
+       </dd>
+      </dl></li>
+     <li id="hanukkah5">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/hanukkah5.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Hanukkah</h2>
+        <p>Hanukkah is also called the Festival of Lights. The Frenskys like to display the Hanukkah candles in the front window so that other people can see them. Francine says that it's nice to feel like she is a part of something big.</p>
+       </dd>
+      </dl></li>
+    </ul>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcBrainBook">Brain's Big Book of Terms</a></li>
+   <li><a href="/arthur/holiday/dressup/index.html" id="rcDressUp">DW Dress Up</a></li> <!--<li><a href="/arthur/holiday/coloring/index.html" id="rcHolidayColoring">Holiday Coloring Page</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

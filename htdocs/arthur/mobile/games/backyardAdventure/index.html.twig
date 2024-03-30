@@ -1,0 +1,24 @@
+{% extends 'arthur/includes/templates/arthurMobilePage.html.twig' %}
+{% set additionalTitle = 'Games | Backyard Adventure' %}
+{% set altTitle = false %}
+{% set noPageCss = false %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="css/main.css"><script type="text/javascript" src="js/libs/utils.js"></script><script type="text/javascript" src="js/libs/phaser_io/phaser.js"></script><script type="text/javascript" src="js/libs/Class.js"></script><script type="text/javascript" src="js/libs/Player.js"></script><script type="text/javascript" src="js/libs/BackgroundSystem.js"></script><script type="text/javascript" src="js/libs/HUDDisplay.js"></script><script type="text/javascript" src="js/libs/levels/BaseScreen.js"></script><script type="text/javascript" src="js/libs/levels/BackyardScreen.js"></script><script type="text/javascript" src="js/libs/levels/GoalScreen.js"></script><script type="text/javascript" src="js/libs/levels/JungleScreen1.js"></script><script type="text/javascript" src="js/libs/levels/JungleScreen2.js"></script><script type="text/javascript" src="js/libs/levels/JungleScreen3.js"></script><script type="text/javascript" src="js/libs/levels/JungleScreen4.js"></script><script type="text/javascript" src="js/libs/levels/JungleScreen5.js"></script><script type="text/javascript" src="js/libs/levels/JungleScreen6.js"></script><script type="text/javascript" src="js/libs/levels/JungleScreen7.js"></script><script type="text/javascript" src="js/libs/levels/JungleScreen8.js"></script><script type="text/javascript" src="js/libs/levels/TempleScreen1.js"></script><script type="text/javascript" src="js/libs/levels/TempleScreen2.js"></script><script type="text/javascript" src="js/libs/levels/TempleScreen3.js"></script><script type="text/javascript" src="js/libs/levels/TempleScreen4.js"></script><script type="text/javascript" src="js/libs/levels/TempleScreen5.js"></script><script type="text/javascript" src="js/libs/levels/TempleScreen6.js"></script><script type="text/javascript" src="js/libs/levels/TempleScreen7.js"></script><script type="text/javascript" src="js/libs/levels/TempleScreen8.js"></script><script type="text/javascript" src="js/libs/game/GameVO.js"></script><script type="text/javascript" src="../../js/utility.js"> </script>' %}
+
+
+{% block mainPage %}<div id="header"><a href="http:www.pbskids.org"><img id="pbsLogo" src="../../assets/images/pbs_logo.gif"></a> <a href="../index.html">
+  <div class="roundBackground" id="gameLink">
+   GAMES
+  </div></a>
+ <div id="homeLogo">
+  <a href="../../index.html"><img id="arthurLogo" src="../../assets/images/arthur_logo_sml.png"></a>
+ </div>
+</div>
+<div id="mainContent">
+ <div id="gameContainer"><!-- "stageCanvas" and "loadingDiv" built here -->
+ </div>
+</div>
+<div id="bottom">
+ <div id="copyright"><br> All characters and underlying materials (including artwork) © Marc Brown. "Arthur" and "D.W." and all of the ARTHUR characters are trademarks of Marc Brown.<br><span class="copyrightLine">© 2014 WGBH</span>
+ </div>
+</div>{% endblock %}
+

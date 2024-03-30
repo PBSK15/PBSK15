@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>About Face</title>
+			<href>/arthur/games/aboutface/index.html</href>
+			<imgurl>/arthur/i/related/aboutface.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Brain Game</title>
+			<href>/arthur/games/braingame/index.html</href>
+			<imgurl>/arthur/i/related/braingame.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Letters To...</title>
+			<href>/arthur/games/lettersto/index.html</href>
+			<imgurl>/arthur/i/related/letters_to.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Movie Maker</title>
+			<href>/arthur/games/moviemaker/index.html</href>
+			<imgurl>/arthur/i/related/moviemaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sue Ellen's Travel Tales</title>
+			<href>/arthur/games/traveltales/index.html</href>
+			<imgurl>/arthur/i/related/traveltales.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Prunella and the Haunted Locker</title>
+			<href>/arthur/video/index.html?pid=MZvMaQgzKUCM7XM5dfS7SHGwlzDDfFx_</href>
+			<imgurl>/arthur/i/related/hauntedlocker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. on Ice</title>
+			<href>/arthur/video/index.html?pid=V9c3NpLzFY_5A4nF4KWmgwV6T5SDBpzA</href>
+			<imgurl>/arthur/i/related/dwonice.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

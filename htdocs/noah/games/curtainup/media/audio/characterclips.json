@@ -1,0 +1,228 @@
+{
+  "urls": [
+    "characterclips.ogg",
+    "characterclips.mp3"
+  ],
+  "audioSprite": [
+    {
+      "id": "Sound_bark",
+      "startTime": 0,
+      "duration": 1123.265306122449
+    },
+    {
+      "id": "Sound_bird2",
+      "startTime": 3000,
+      "duration": 1802.448979591837
+    },
+    {
+      "id": "Sound_birdfly",
+      "startTime": 6000,
+      "duration": 1671.836734693878
+    },
+    {
+      "id": "Sound_bullsnort",
+      "startTime": 9000,
+      "duration": 1410.6122448979584
+    },
+    {
+      "id": "Sound_burp",
+      "startTime": 12000,
+      "duration": 417.95918367346906
+    },
+    {
+      "id": "Sound_cocoBall",
+      "startTime": 14000,
+      "duration": 235.1020408163258
+    },
+    {
+      "id": "Sound_cocoNono",
+      "startTime": 16000,
+      "duration": 1828.5714285714291
+    },
+    {
+      "id": "Sound_cocoballoon",
+      "startTime": 19000,
+      "duration": 2899.591836734693
+    },
+    {
+      "id": "Sound_croc",
+      "startTime": 23000,
+      "duration": 835.9183673469381
+    },
+    {
+      "id": "Sound_crocball1",
+      "startTime": 25000,
+      "duration": 522.448979591836
+    },
+    {
+      "id": "Sound_crocball2",
+      "startTime": 27000,
+      "duration": 575.7596371882095
+    },
+    {
+      "id": "Sound_crocball3",
+      "startTime": 29000,
+      "duration": 4911.020408163267
+    },
+    {
+      "id": "Sound_dontunderstand",
+      "startTime": 35000,
+      "duration": 1253.877551020409
+    },
+    {
+      "id": "Sound_duck",
+      "startTime": 38000,
+      "duration": 996.9160997732445
+    },
+    {
+      "id": "Sound_elephant",
+      "startTime": 40000,
+      "duration": 2742.8571428571404
+    },
+    {
+      "id": "Sound_farmerbanana",
+      "startTime": 44000,
+      "duration": 3004.0816326530617
+    },
+    {
+      "id": "Sound_grandma_buenosdias",
+      "startTime": 49000,
+      "duration": 1568.4126984127006
+    },
+    {
+      "id": "Sound_grandma_leche",
+      "startTime": 52000,
+      "duration": 5224.489795918366
+    },
+    {
+      "id": "Sound_hippo",
+      "startTime": 59000,
+      "duration": 1097.142857142856
+    },
+    {
+      "id": "Sound_lionChew",
+      "startTime": 62000,
+      "duration": 4075.1020408163326
+    },
+    {
+      "id": "Sound_lion_roar",
+      "startTime": 68000,
+      "duration": 1568.4126984127006
+    },
+    {
+      "id": "Sound_lionclap",
+      "startTime": 71000,
+      "duration": 4075.1020408163326
+    },
+    {
+      "id": "Sound_monkey2",
+      "startTime": 77000,
+      "duration": 1541.2244897959226
+    },
+    {
+      "id": "Sound_monkey3",
+      "startTime": 80000,
+      "duration": 2037.5510204081593
+    },
+    {
+      "id": "Sound_monkeyswing1",
+      "startTime": 84000,
+      "duration": 1697.9591836734755
+    },
+    {
+      "id": "Sound_monkeyswing2",
+      "startTime": 87000,
+      "duration": 1227.7551020408168
+    },
+    {
+      "id": "Sound_monkeyswing3",
+      "startTime": 90000,
+      "duration": 470.2040816326587
+    },
+    {
+      "id": "Sound_moo",
+      "startTime": 92000,
+      "duration": 1697.9591836734755
+    },
+    {
+      "id": "Sound_mrsMartinez",
+      "startTime": 95000,
+      "duration": 2899.5918367347003
+    },
+    {
+      "id": "Sound_noahHuh",
+      "startTime": 99000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "Sound_noah_bananas",
+      "startTime": 101000,
+      "duration": 5564.081632653057
+    },
+    {
+      "id": "Sound_noahfly",
+      "startTime": 108000,
+      "duration": 2246.5306122448965
+    },
+    {
+      "id": "Sound_noahlaughing",
+      "startTime": 112000,
+      "duration": 1750.2040816326598
+    },
+    {
+      "id": "Sound_noahsorry",
+      "startTime": 115000,
+      "duration": 1358.3673469387777
+    },
+    {
+      "id": "Sound_oldmanrow",
+      "startTime": 118000,
+      "duration": 1044.897959183672
+    },
+    {
+      "id": "Sound_oldmanrow2",
+      "startTime": 121000,
+      "duration": 2873.469387755108
+    },
+    {
+      "id": "Sound_peqEat",
+      "startTime": 125000,
+      "duration": 548.5714285714351
+    },
+    {
+      "id": "Sound_peq_reverse",
+      "startTime": 127000,
+      "duration": 522.448979591843
+    },
+    {
+      "id": "Sound_peqhop1",
+      "startTime": 129000,
+      "duration": 1411.6780045351334
+    },
+    {
+      "id": "Sound_peqhop2",
+      "startTime": 132000,
+      "duration": 417.9591836734744
+    },
+    {
+      "id": "Sound_sheep",
+      "startTime": 134000,
+      "duration": 1280.0000000000011
+    },
+    {
+      "id": "Sound_slideup",
+      "startTime": 137000,
+      "duration": 548.5714285714209
+    },
+    {
+      "id": "Soung_cocoballoon",
+      "startTime": 139000,
+      "duration": 3526.5306122448974
+    },
+    {
+      "id": "sound_catpounce",
+      "startTime": 144000,
+      "duration": 548.5714285714209
+    }
+  ]
+}

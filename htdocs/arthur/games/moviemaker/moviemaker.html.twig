@@ -1,0 +1,26 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Buster\'s Movie Maker | PBS Kids' %}
+{% set desc = 'Help Buster make the best movie ever! Ddecide what Arthur sees and what music plays to create the right mood and tone for the movies genre. ' %}
+{% set keywds = 'movie, cinema, kids, genre, soundtrack, play' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="moviebg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/movie_header.gif" width="619" height="72" border="0" alt="Movie Maker - Buster's making a movie. Can you help him fix it the way he wants?" id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="moviemaker">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/moviemaker/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("mm_b7.swf", "movie", "595", "350", "6", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				  fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/print/playmaker/index.html" id="rcPlayMaker">Play Maker</a></li> <!--<li><a href="/arthur/video/games.html?pid=GEdWvpk_jyj2meMLgobbVVf8pP6z_NBg" id="rcSceneSwitcher">Scene Switcher</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

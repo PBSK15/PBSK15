@@ -1,0 +1,62 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letters To Arthur | PBS Kids' %}
+{% set desc = 'Send Arthur a note to tell him what you think about the show and what character you are most like. Then ask him a question. Arthur will write you back immediately!' %}
+{% set keywds = 'letter, Arthur, composition, question, thoughts, note' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../lettersto/index.html"><h4 id="letterstoSmHeader">Letters To...</h4></a>
+  <ul id="printSideNav">
+   <li><a href="index.html" class="selected"><span>Arthur</span></a></li>
+   <li><a href="../heyfrancine/index.html"><span>Francine</span></a></li>
+   <li><a href="../traveltales/index.html"><span>Sue Ellen</span></a></li>
+   <li><a href="../askbrain/index.html"><span>The Brain</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <table border="0" width="637" cellspacing="0" cellpadding="0">
+   <tbody>
+    <tr>
+     <td colspan="7"><img src="../../i/games/lettersto/arthur/arthur_header.gif" width="637" height="133" alt="Letters to Arthur" border="0" style="display:block;"></td>
+    </tr>
+    <tr>
+     <td width="88"><img src="/arthur/i/1px.gif" width="88" alt=""></td>
+     <td width="2" bgcolor="#000000"><img src="/arthur/i/1px.gif" width="2" alt=""></td>
+     <td width="10" bgcolor="#9999FF"><img src="/arthur/i/1px.gif" width="10" alt=""></td>
+     <td width="450" bgcolor="#9999FF">
+      <form name="letterstoarthur" action="/cgi-registry/arthur/letter.php" method="POST">
+       <p>&nbsp;</p> <select name="greeting" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="Hey">Hey</option> <option value="Whatsup">What's up</option> <option value="Dear">Dear</option> <option value="Earthto">Earth to</option> <option value="Yo">Yo</option> </select> Arthur, 
+       <p>Your show is so <select name="showisso" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="funny">funny</option> <option value="strange">strange</option> <option value="boring">boring</option> </select> that it makes me want to <select name="wantto" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="docartwheels">do cartwheels</option> <option value="dohomework">do homework</option> <option value="cleanthetoilet">clean the toilet</option> <option value="watchitallday">watch it all day</option> </select> .</p>
+       <p>One of <select name="oneof" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="thefunniest">the funniest</option> <option value="thestrangest">the strangest</option> <option value="myfavorite">my favorite</option> <option value="myleastfavorite">my least favorite</option> </select> shows was when <select name="showswaswhen" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="yougotPal">you got Pal</option> <option value="youandBustermademusicvideos">you and Buster made music videos</option> <option value="youhadtogetglasses">you had to get glasses</option> <option value="everyonegotlice">everyone got lice</option> </select> .</p>
+       <p>Most people would say that I'm most like <select name="immostlike" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="you">you</option> <option value="Buster">Buster</option> <option value="DW">D.W.</option> <option value="TheThe Brain">The The Brain</option> </select> . I think that's because <select name="because" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="Iwearglasses">I wear glasses</option> <option value="Ibelieveinaliens">I believe in aliens</option> <option value="Iamapickyeater">I am a picky eater</option> <option value="Iamsmarterthaneveryone">I am smarter than everyone</option> </select> .</p>
+       <p>By the way, <select name="btw" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="whensyourbirthday">when's your birthday</option> <option value="whatkindofanimalareyouanyway">what kind of animal are you, anyway</option> <option value="whatsyourfavoritebook">what's your favorite book</option> </select> ?</p>
+       <p><select name="closing" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="Love">Love</option> <option value="Overandout">Over and out</option> <option value="Yourfriend">Your friend</option> </select></p>
+       <p><input type="text" name="from" size="15" maxlength="20" style="font-family:Comic Sans MS,serif;font-size:14px;"></p>
+       <p>P.S. <select name="ps" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="WhosDewey">Who's Dewey?</option> <option value="Whatsahawksfavoritedessert">What's a hawk's favorite dessert?</option> <option value="Whathappenstofrogswhoareillegallyparked">What happens to frogs who are illegally parked?</option> <option value="Whatdoyougetwhenyoucrossahitchhikerwithpoisonivy">What do you get when you cross a hitch-hiker with poison ivy?</option> </select> <input type="hidden" name="featurepath" value="/arthur/games/letterstoarthur/"> <input type="hidden" name="template_page" value="LETTER.TMPL"> <input type="hidden" name="logic_page" value="arthur.txt"></p>
+       <p></p>
+       <div align="center">
+        <input type="submit" name="Send" value="Send to Arthur" style="font-family:Comic Sans MS,serif;font-size:14px;">
+       </div> <br clear="all"> <img src="/arthur/i/1px.gif" width="450" height="1" alt="">
+      </form></td>
+     <td width="10" bgcolor="#9999FF"><img src="/arthur/i/1px.gif" width="10" alt=""></td>
+     <td width="2" bgcolor="#000000"><img src="/arthur/i/1px.gif" width="2" alt=""></td>
+     <td width="75"><img src="/arthur/i/1px.gif" width="75" alt=""></td>
+    </tr>
+    <tr>
+     <td colspan="7"><img src="../../i/games/lettersto/pencil_bottom.gif" width="637" height="121" alt="" border="0"></td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

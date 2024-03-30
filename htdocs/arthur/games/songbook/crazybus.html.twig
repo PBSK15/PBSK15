@@ -1,0 +1,46 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur\'s Songbook | PBS Kids' %}
+{% set desc = 'Sing the greatest song ever! The greatest, that is, if youre D.W. If youre Arthur, its the most annoying song ever! Either way, its a crazy!' %}
+{% set keywds = 'lyrics, singing, songbook, read, crazy' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="songSHeader">Arthur's Songbook</h4></a>
+  <div id="songbookPlayer">
+   <ul id="printSideNav">
+    <li><a href="theme.html"><span>Theme Song</span></a></li>
+    <li><a href="librarycard.html"><span>Library Card</span></a></li>
+    <li><a href="luckypencil.html"><span>Lucky Pencil</span></a></li>
+    <li><a href="ufo.html"><span>The UFO Song</span></a></li>
+    <li><a href="gotosleep.html"><span>Go to Sleep</span></a></li>
+    <li><a href="crazybus.html" class="selected"><span>Crazy Bus</span></a></li>
+   </ul>
+   <script type="text/javascript">			   var fo = new SWFObject("../../media/games/songbook_player.swf", "songbook", "262", "283", "9","#ffffcc");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   fo.addVariable("title", "crazybus");			  //			   fo.write("songbookPlayer");			</script>
+  </div>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Crazy Bus</h1>
+    </div>
+   </div>
+   <div id="grooveHowtoContent"><img src="../../i/games/songbook/notes.gif" width="70" height="324" alt="music notes" border="0" class="float-left music-notes"> <img src="../../i/games/songbook/songbook_crazybus.gif" width="157" height="97" alt="Crazy Bus" border="0" class="float-right songbook-buster">
+    <p class="songbook-lyrics">Crazy bus, crazy bus<br> Riding on the crazy bus<br> Riding up, riding down,<br> Driven by a funny clown.<br> <br> Wacky, goony, goofy, spoony,<br> High as a plane or a balloon-y.<br> Crazy bus, come ride with us<br> As we ride, ride, ride, ride, ride, ride.<br> It's a crazy bus, but not a schmazy bus.<br> Don't make a fuss, just come with us.<br> <br> Slappy, sloopy, gloppy, gloopy<br> Happy-happy, hoopy-hoopy<br> Dopey, doffy, screwy, blue-y<br> Gooey, chewy, fooey, dewey<br> Absolutely bus-a-looey<br> Crazy, lazy, crazy, crazy bus.<br> <br> A flat tire is no problem<br> Because it's only flat on the bottom.<br> A flat tire is no problem<br> Because it's only flat on the bottom.<br> So let's go!<br> Let's go!<br> Let's GOOOOOO!<br> <br> Wacky, goony, goofy, spoony,<br> High as a plane or a balloon-y.<br> Crazy bus, come ride with us<br> As we ride, ride, ride, ride, ride, ride.<br> It's a crazy bus, but not a schmazy bus.<br> Don't make a fuss, just come with us.<br> <br> Slappy, sloopy, gloppy, gloopy<br> Happy-happy, hoopy-hoopy<br> Dopey, doffy, screwy, blue-y<br> Gooey, chewy, fooey, dewey<br> Absolutely bus-a-looey<br> Crazy, lazy, crazy, crazy bus<br> Crazy<br> Bus<br> Crazy!<br></p>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/print/grooveit/index.html" id="rcGrooveIt">Groove It!</a></li>
+   <li><a href="/arthur/print/crazybus/index.html" id="rcCrazyBus">Crazy Bus</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,60 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Elwingo | PBS Kids' %}
+{% set desc = 'Get directions for how to play Elwingo! Print the Elwingo cards and get an ARTHUR episode ready!' %}
+{% set keywds = 'Elwingo, game, Bingo, ARTHUR' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = false %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fc9">
+ <div class="ruler"></div>
+ <div class="print-instr">
+  <h4 id="elwingoHeader">Elwingo</h4>
+  <p>This active-viewing game for a roomful of kids can be played while watching any episode. Elwingo (Elwood City Bingo) features various printable cards each with 9 characters.</p>
+  <p>Each view has a different card, and by the end of an episode on TV, the kid who has seen the most characters from their card wins.</p>
+  <p>If a kid gets all nine before the show is over, he/she shouts "Elwingo!"</p>
+  <p><strong>Variation:</strong><br>Play the same game, but try to get three in a row on your card: up, down, or on a diagonal. Remember to shout "Elwingo!" if you do.</p>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Elwingo! Card</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-all"><a href="">Print All Pages</a></span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 4 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printElwingo">
+    <li id="elwingo1">
+     <div class="page">
+      <img src="../../i/print/elwingo/elwingo.gif" width="486" height="83" alt="Elwingo!" border="0" class="elwingo-top img"><img src="../../i/print/elwingo/elwingo_card1.gif" width="486" height="449" alt="Elwingo! Card" border="0" class="elwingo img"><img src="../../i/print/elwingo/elwingo_bottom.gif" width="478" height="3" alt="Elwingo!" border="0" class="elwingo-bot img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="elwingo2">
+     <div class="page">
+      <img src="../../i/print/elwingo/elwingo.gif" width="486" height="83" alt="Elwingo!" border="0" class="elwingo-top img"><img src="../../i/print/elwingo/elwingo_card2.gif" width="486" height="449" alt="Elwingo! Card" border="0" class="elwingo img"><img src="../../i/print/elwingo/elwingo_bottom.gif" width="478" height="3" alt="Elwingo!" border="0" class="elwingo-bot img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="elwingo3">
+     <div class="page">
+      <img src="../../i/print/elwingo/elwingo.gif" width="486" height="83" alt="Elwingo!" border="0" class="elwingo-top img"><img src="../../i/print/elwingo/elwingo_card3.gif" width="486" height="449" alt="Elwingo! Card" border="0" class="elwingo img"><img src="../../i/print/elwingo/elwingo_bottom.gif" width="478" height="3" alt="Elwingo!" border="0" class="elwingo-bot img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="elwingo4"><img src="../../i/print/elwingo/elwingo.gif" width="486" height="83" alt="Elwingo!" border="0" class="elwingo-top img"><img src="../../i/print/elwingo/elwingo_card4.gif" width="486" height="449" alt="Elwingo! Card" border="0" class="elwingo img"><img src="../../i/print/elwingo/elwingo_bottom.gif" width="478" height="3" alt="Elwingo!" border="0" class="elwingo-bot img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright"></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/braingame/index.html" id="rcBrainGame">Brain Game</a></li>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/games/marthursticker/index.html" id="rcStickerBook">Marthur Stickerbook Mashup</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

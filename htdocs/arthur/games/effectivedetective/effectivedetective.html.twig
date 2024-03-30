@@ -1,0 +1,25 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Effective Detective | PBS Kids' %}
+{% set desc = 'Be a first-class detective like Fern! Choose a friend and pick the best three descriptions to identify the friend. Fern will try to figure out who you picked!' %}
+{% set keywds = 'Fern, detective, description, observation, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="effectivebg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/detective_top.gif" width="619" height="72" border="0" alt="Effective Detective - Let's practice our detective skills. I'll try to figure out who you're describing. Then it's your turn." id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="effectivedetective">
+    <p>You can <a href="http://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="http://pbskids.org/arthur/games/crankitup/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("effectivedetective.swf", "detective", "595", "335", "4", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				  fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/fern/index.html" id="rcFern">Fern</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li> <!--<li><a href="/arthur/video/games.html?pid=Y_T3v8L7o5oDcgUJ1WolP_eugXVWwq1i" id="rcVideoDetective">Video Detective</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}

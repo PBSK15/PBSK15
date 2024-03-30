@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Air Show' %}
+{% set desc = 'Flying and gliding dinos are the stars of this high-flying event! In this game kids will learn about speed and distance as they determine the best place to launch their dinosaur into the air.' %}
+{% set keywds = 'math games, preschool math games, flying game, Dinosaur Train, sports games, distance games, speed game' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell_RTL.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/Airshow.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

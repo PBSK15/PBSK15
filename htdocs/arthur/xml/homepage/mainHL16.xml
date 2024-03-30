@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Ask Brain</title>
+			<href>/arthur/games/askbrain/index.html</href>
+			<imgurl>/arthur/i/related/askbrain.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lunch-o-matic</title>
+			<href>/arthur/games/lunchomatic/index.html</href>
+			<imgurl>/arthur/i/related/lunchomatic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sugar Bowl Poll</title>
+			<href>/arthur/games/sugarbowlpoll/index.html</href>
+			<imgurl>/arthur/i/related/poll.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Super Action Challenge</title>
+			<href>/arthur/games/superactionchallenge/index.html</href>
+			<imgurl>/arthur/i/related/superaction.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy's Wardrobe</title>
+			<href>/arthur/games/wardrobe/index.html</href>
+			<imgurl>/arthur/i/related/wardrobe.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Play Maker</title>
+			<href>/arthur/print/playmaker/index.html</href>
+			<imgurl>/arthur/i/related/playmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Castles in the Sky</title>
+			<href>/arthur/video/index.html?pid=jrQFQic9P_YJ_yf32ZVzZp2LrkThcWdo</href>
+			<imgurl>/arthur/i/related/castlesinsky.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Video Mashup</title>
+			<href>/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP</href>
+			<imgurl>/arthur/i/related/videomashup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

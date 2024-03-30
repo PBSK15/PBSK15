@@ -1,0 +1,26 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Buster Baxter: Dream On | PBS Kids' %}
+{% set desc = 'Learn about international foods in this fun arcade-style food game. Jump on the clouds to collect all the ingredients for some delicious international recipes. But watch out for the clock!' %}
+{% set keywds = 'Buster, Arthur, food, international, recipes, ingredients, cooking, arcade, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="dreamonbg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/dream_on_header.gif" width="623" height="75" border="0" alt="Buster Baxter - Dream On" id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="dreamon">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/dreamon/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("dreamon.swf", "dreamon", "675", "360", "9", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				   fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/games/alien/index.html" id="rcAlien">Alien: Assembly Required</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

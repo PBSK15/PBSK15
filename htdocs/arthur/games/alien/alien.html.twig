@@ -1,0 +1,26 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Alien: Assembly Required | PBS Kids' %}
+{% set desc = 'Aliens visit Buster, but what do they look like? You decide! Select different alien body parts to build your very own alien! Then print it out! Awesome!' %}
+{% set keywds = 'alien, body parts, combinations, extra terrestrials, planets, print, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="alienbg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/alien_top.gif" width="619" height="82" border="0" alt="Alien: Assembly Required - What do aliens look like? You decide. Use the parts to build your very own alien." id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="alien">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/alien/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("alien.swf", "aboutface", "595", "325", "4", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				  fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+   <li><a href="/arthur/print/cosmiccombos/index.html" id="rcCosmic">Cosmic Combos</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

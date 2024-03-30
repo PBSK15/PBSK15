@@ -1,0 +1,43 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Fern\'s Poetry Club | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="poetryHeader">Fern's Poetry Club</h4></a>
+  <ul id="printSideNav">
+   <li><a href="what.html"><span>What's a poem?</span></a></li>
+   <li><a href="write.html"><span>Write a poem</span></a></li>
+   <li><a href="read.html" class="selected"><span>Read more poems</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Read More Poems</h1>
+    </div>
+   </div>
+   <div id="poetryReadContent"><img src="../../i/games/poetry/fern_poetry_read.gif" width="257" height="336" alt="Fern holding a stack of paper." border="0" class="float-right">
+    <p>We've got quite a collection of poems so far! You can <a href="next.html">read a selection of poems</a> right here.</p>
+    <p>If you want to see if one of your poems (or a friend's) got published, type the first name here:</p>
+    <form method="post" action="/cgi-registry/arthur/poetry.cgi"><input type="hidden" name="action" value="search"> <input type="text" name="search_string" size="40" maxlength="255"> <input type="submit" name="Go!" value="Go!">
+    </form>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/friends/fern/index.html" id="rcFern">Fern</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li> <!--<li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

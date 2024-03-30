@@ -1,0 +1,36 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Binky\'sGames & Printables Page | PBS Kids' %}
+{% set desc = 'Binky has some great games that you can check out here!' %}
+{% set keywds = 'games, art, play, Binky, print' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/binky_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/binky_top.swf", "binky", "960", "363", "9", "#ccffcc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "games");			   fo.addVariable("char", "binky");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-binky">Binky'simages</a>
+  <div id="friendsContent">
+   <h1>My Games &amp; Printables</h1>
+   <hr class="friendsRuler">
+   <ul id="myGames">
+    <li id="friendsFacts" class="icon"><a href="../../games/factsopinions/index.html"><span>Facts and Opinions</span></a></li>
+    <li id="friendsArtGallery" class="icon"><a href="../../games/artgallery/index.html"><span>Art Gallery</span></a></li>
+    <li id="friendsColoring" class="icon"><a href="../../print/coloringpages/coloring.html#pg-binky1"><span>Coloring Pages</span></a></li>
+    <li id="friendsTrading" class="icon"><a href="../../print/tradingcards/cards.html#pg-binky1"><span>Trading Cards</span></a></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

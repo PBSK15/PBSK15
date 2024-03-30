@@ -1,0 +1,84 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Holiday . Holiday Coloring Pages | PBS Kids' %}
+{% set desc = 'Arthur is riding on his bike. Print out and color this picture!' %}
+{% set keywds = 'Arthur, bike, riding, coloring, printable' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr holiday"><a href="/arthur/holiday/index.html"><h4 id="holidayHeader">Elwood City Celebrates</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../dressup/index.html"><span>D.W.'s Dress Up</span></a></li>
+   <li><a href="../scrapbook/index.html"><span>Sue Ellen's Scrapbook</span></a></li>
+   <li><a href="../glossary/index.html"><span>Brain's Big Book</span></a></li>
+   <li><a href="../coloring/index.html" class="selected"><span>Holiday Coloring Pages</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Arthur</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printColoring">
+    <li id="hanukkah">
+     <div class="page">
+      <img src="../../i/holiday/coloring_hanu.gif" width="541" height="541" alt="Hanukkah" title="Hanukkah" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="baxterday">
+     <div class="page">
+      <img src="../../i/holiday/coloring_baxt.gif" width="541" height="541" alt="Baxter Day" title="Baxter Day" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="solstice">
+     <div class="page">
+      <img src="../../i/holiday/coloring_sols.gif" width="541" height="541" alt="Winter Solstice" title="Winter Solstice" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="volunteering">
+     <div class="page">
+      <img src="../../i/holiday/coloring_volu.gif" width="541" height="541" alt="Volunteering" title="Volunteering" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="stlucia">
+     <div class="page">
+      <img src="../../i/holiday/coloring_luci.gif" width="541" height="541" alt="Feast of St. Lucia" title="Feast of St. Lucia" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="christmas">
+     <div class="page">
+      <img src="../../i/holiday/coloring_xmas.gif" width="541" height="541" alt="Christmas" title="Christmas" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="newyear">
+     <div class="page">
+      <img src="../../i/holiday/coloring_newy.gif" width="541" height="541" alt="New Year's Eve" title="New Year's Eve" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="kwanzaa">
+     <div class="page">
+      <img src="../../i/holiday/coloring_kwaa.gif" width="541" height="541" alt="Kwanzaa" title="Kwanzaa" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="ramadan">
+     <div class="page">
+      <img src="../../i/holiday/coloring_eulf.gif" width="541" height="541" alt="Ramadan and Eid ul-Fitr" title="Ramadan and Eid ul-Fitr" border="0" class="holiday img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/dressup/index.html" id="rcDressUp">DW Dress Up</a></li>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcScrapbook">Sue Ellen's Scrapbook</a></li>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcBrainBook">Brain's Big Book of Terms</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

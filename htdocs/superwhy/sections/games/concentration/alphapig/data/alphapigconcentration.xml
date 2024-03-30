@@ -1,0 +1,308 @@
+<game id="alphapigconcentration" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . ALPHA PIG CONCENTRATION | PBS KIDS]]></title>
+	<swf url="sections/games/concentration/alphapig/alphapigConcentration.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "true"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+		<asset id="princess" location="game/superhero" url="../../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../../promos/endscreen_promo_rhymeroll.jpg" />
+	</promos>
+		
+	
+	<game>
+				
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/concentration/alphapig/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<!-- <asset id="apHelp" type="audio" url="audio/ap_help.mp3"/> -->
+			<asset id="kudosSound" type="audio" url="audio/kudosSound.mp3"/>
+
+			<asset id="apChose" type="audio" url="audio/MU_AP_DifficultyPopup.mp3"/>
+			<asset id="apEasy" type="audio" url="audio/MU_AP_Easy.mp3"/>
+			<asset id="apMedium" type="audio" url="audio/MU_AP_Medium.mp3"/>
+			<asset id="apHard" type="audio" url="audio/MU_AP_Hard.mp3"/>
+			
+			<!--asset id="apDirections" type="audio" url="audio/ap_directions.mp3"/-->
+			<asset id="apObjective" type="audio" url="audio/MU_AP_Prompt_Timeout.mp3"/>
+			<asset id="apBeginsWithLetter" type="audio" url="audio/MU_AP_Kudos1.mp3"/>
+			
+			<asset id="apSuperDuper" type="audio" url="audio/MU_AP_Kudos5.mp3"/>
+			<!--<asset id="apRightOn" type="audio" url="audio/MU_AP_Kudos6.mp3"/>-->
+			<asset id="apAwesome" type="audio" url="audio/MU_AP_Kudos4.mp3"/>
+			
+			<asset id="apDoesntBeginWith" type="audio" url="audio/MU_AP_Oops1_Alt2.mp3"/>
+			<asset id="apKeepLooking" type="audio" url="audio/MU_AP_Oops3.mp3"/>
+			<asset id="apTryAnother" type="audio" url="audio/MU_AP_Oops4.mp3"/>
+			<asset id="apTryAgain" type="audio" url="audio/MU_AP_Oops6.mp3"/>
+			<asset id="apLastMatch" type="audio" url="audio/MU_AP_LastMatch.mp3"/>
+			
+		</assets>
+	
+		<cards>
+			<card id="a">
+				<asset id="ant" hasImage="true" type="audio" url="audio/words/MU_AP_Ant.mp3">
+					<text><![CDATA[Ant]]></text>
+				</asset>
+				<asset id="a" type="audio" url="audio/letters/a.mp3">
+					<text><![CDATA[A]]></text>
+				</asset>
+			</card>
+
+			<card id="b">
+				<asset id="balloon" hasImage="true" type="audio" url="audio/words/MU_AP_Balloon.mp3">
+					<text><![CDATA[Balloon]]></text>
+				</asset>
+				<asset id="b" type="audio" url="audio/letters/b.mp3">
+					<text><![CDATA[B]]></text>
+				</asset>
+			</card>
+
+			<card id="c">
+				<asset id="cow" hasImage="true" type="audio" url="audio/words/MU_AP_Cow.mp3">
+					<text><![CDATA[Cow]]></text>
+				</asset>
+				<asset id="c" type="audio" url="audio/letters/c.mp3">
+					<text><![CDATA[C]]></text>
+				</asset>
+			</card>
+
+			<card id="d">
+				<asset id="duck" hasImage="true" type="audio" url="audio/words/MU_AP_Duck.mp3">
+					<text><![CDATA[Duck]]></text>
+				</asset>
+				<asset id="d" type="audio" url="audio/letters/d.mp3">
+					<text><![CDATA[D]]></text>
+				</asset>
+			</card>
+
+			<card id="e">
+				<asset id="Elf" hasImage="true" type="audio" url="audio/words/MU_AP_Elf.mp3">
+					<text><![CDATA[Elf]]></text>
+				</asset>
+				<asset id="e" type="audio" url="audio/letters/e.mp3">
+					<text><![CDATA[E]]></text>
+				</asset>
+			</card>
+
+			<card id="f">
+				<asset id="frog" hasImage="true" type="audio" url="audio/words/MU_AP_Frog.mp3">
+					<text><![CDATA[Frog]]></text>
+				</asset>
+				<asset id="f" type="audio" url="audio/letters/f.mp3">
+					<text><![CDATA[F]]></text>
+				</asset>
+			</card>
+
+			<card id="g">
+				<asset id="giant" hasImage="true" type="audio" url="audio/words/MU_AP_Giant.mp3">
+					<text><![CDATA[Giant]]></text>
+				</asset>
+				<asset id="g" type="audio" url="audio/letters/g.mp3">
+					<text><![CDATA[G]]></text>
+				</asset>
+			</card>
+			
+			<card id="h">
+				<asset id="house" hasImage="true" type="audio" url="audio/words/MU_AP_House.mp3">
+					<text><![CDATA[House]]></text>
+				</asset>
+				<asset id="h" type="audio" url="audio/letters/h.mp3">
+					<text><![CDATA[H]]></text>
+				</asset>
+			</card>
+
+			<card id="i">
+				<asset id="insect" hasImage="true" type="audio" url="audio/words/MU_AP_Insect.mp3">
+					<text><![CDATA[Insect]]></text>
+				</asset>
+				<asset id="i" type="audio" url="audio/letters/i.mp3">
+					<text><![CDATA[I]]></text>
+				</asset>
+			</card>
+			
+			<card id="j">
+				<asset id="juice" hasImage="true" type="audio" url="audio/words/MU_AP_Juice.mp3">
+					<text><![CDATA[Juice]]></text>
+				</asset>
+				<asset id="j" type="audio" url="audio/letters/j.mp3">
+					<text><![CDATA[J]]></text>
+				</asset>
+			</card>
+
+			<card id="k">
+				<asset id="key" hasImage="true" type="audio" url="audio/words/MU_AP_Key.mp3">
+					<text><![CDATA[Key]]></text>
+				</asset>
+				<asset id="k" type="audio" url="audio/letters/k.mp3">
+					<text><![CDATA[K]]></text>
+				</asset>
+			</card>
+
+			<card id="l">
+				<asset id="lizard" hasImage="true" type="audio" url="audio/words/MU_AP_Lizard.mp3">
+					<text><![CDATA[Lizard]]></text>
+				</asset>
+				<asset id="l" type="audio" url="audio/letters/l.mp3">
+					<text><![CDATA[L]]></text>
+				</asset>
+			</card>
+
+			<card id="m">
+				<asset id="monkey" hasImage="true" type="audio" url="audio/words/MU_AP_Monkey.mp3">
+					<text><![CDATA[Monkey]]></text>
+				</asset>
+				<asset id="m" type="audio" url="audio/letters/m.mp3">
+					<text><![CDATA[M]]></text>
+				</asset>
+			</card>
+						
+			<card id="n">
+				<asset id="net" hasImage="true" type="audio" url="audio/words/MU_AP_Net.mp3">
+					<text><![CDATA[Net]]></text>
+				</asset>
+				<asset id="n" type="audio" url="audio/letters/n.mp3">
+					<text><![CDATA[N]]></text>
+				</asset>
+			</card>
+
+			<card id="o">
+				<asset id="owl" hasImage="true" type="audio" url="audio/words/MU_AP_Owl.mp3">
+					<text><![CDATA[Owl]]></text>
+				</asset>
+				<asset id="o" type="audio" url="audio/letters/o.mp3">
+					<text><![CDATA[O]]></text>
+				</asset>
+			</card>
+
+			<card id="p">
+				<asset id="pig" hasImage="true" type="audio" url="audio/words/MU_AP_Pig.mp3">
+					<text><![CDATA[Pig]]></text>
+				</asset>
+				<asset id="p" type="audio" url="audio/letters/p.mp3">
+					<text><![CDATA[P]]></text>
+				</asset>
+			</card>
+
+			<card id="q">
+				<asset id="queen" hasImage="true" type="audio" url="audio/words/MU_AP_Queen.mp3">
+					<text><![CDATA[Queen]]></text>
+				</asset>
+				<asset id="q" type="audio" url="audio/letters/q.mp3">
+					<text><![CDATA[Q]]></text>
+				</asset>
+			</card>
+
+			<card id="r">
+				<asset id="rocket" hasImage="true" type="audio" url="audio/words/MU_AP_Rocket.mp3">
+					<text><![CDATA[Rocket]]></text>
+				</asset>
+				<asset id="r" type="audio" url="audio/letters/r.mp3">
+					<text><![CDATA[R]]></text>
+				</asset>
+			</card>
+
+			<card id="s">
+				<asset id="spider" hasImage="true" type="audio" url="audio/words/MU_AP_Spider.mp3">
+					<text><![CDATA[Spider]]></text>
+				</asset>
+				<asset id="s" type="audio" url="audio/letters/s.mp3">
+					<text><![CDATA[S]]></text>
+				</asset>
+			</card>
+			<!--
+			<card id="t">
+				<asset id="train" hasImage="true" type="audio" url="audio/words/ap_train.mp3">
+					<text><![CDATA[Train]]></text>
+				</asset>
+				<asset id="t" type="audio" url="audio/letters/t.mp3">
+					<text><![CDATA[t]]></text>
+				</asset>
+			</card>
+			-->
+
+			<card id="u">
+				<asset id="umbrella" hasImage="true" type="audio" url="audio/words/MU_AP_Umbrella.mp3">
+					<text><![CDATA[Umbrella]]></text>
+				</asset>
+				<asset id="u" type="audio" url="audio/letters/u.mp3">
+					<text><![CDATA[U]]></text>
+				</asset>
+			</card>
+
+			<card id="v">
+				<asset id="van" hasImage="true" type="audio" url="audio/words/MU_AP_Van.mp3">
+					<text><![CDATA[Van]]></text>
+				</asset>
+				<asset id="v" type="audio" url="audio/letters/v.mp3">
+					<text><![CDATA[V]]></text>
+				</asset>
+			</card>
+			
+			<card id="w">
+				<asset id="wolf" hasImage="true" type="audio" url="audio/words/MU_AP_Wolf.mp3">
+					<text><![CDATA[Wolf]]></text>
+				</asset>
+				<asset id="w" type="audio" url="audio/letters/w.mp3">
+					<text><![CDATA[W]]></text>
+				</asset>
+			</card>
+			
+			<card id="x">
+				<asset id="xray" hasImage="true" type="audio" url="audio/words/MU_AP_Xray.mp3">
+					<text><![CDATA[X-Ray]]></text>
+				</asset>
+				<asset id="x" type="audio" url="audio/letters/x.mp3">
+					<text><![CDATA[X]]></text>
+				</asset>
+			</card>
+
+			<card id="y">
+				<asset id="yoyo" hasImage="true" type="audio" url="audio/words/MU_AP_Yoyo.mp3">
+					<text><![CDATA[Yo Yo]]></text>
+				</asset>
+				<asset id="y" type="audio" url="audio/letters/y.mp3">
+					<text><![CDATA[Y]]></text>
+				</asset>
+			</card>
+			
+			<card id="z">
+				<asset id="zoo" hasImage="true" type="audio" url="audio/words/MU_AP_Zoo.mp3">
+					<text><![CDATA[Zoo]]></text>
+				</asset>
+				<asset id="z" type="audio" url="audio/letters/z.mp3">
+					<text><![CDATA[Z]]></text>
+				</asset>
+			</card>
+			
+		</cards>
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

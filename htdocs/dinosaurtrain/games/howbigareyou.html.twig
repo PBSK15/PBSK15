@@ -1,0 +1,21 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . How Big Are You' %}
+{% set desc = 'Use animals like killer whales and porcupines to measure how long dinosaurs were! Print a comparison chart showing the size of the dinosaurs you measured.' %}
+{% set keywds = 'measuring dinosaurs, how big are dinosaurs, dinosaur games for kids, science games for kids, estimating game, comparing animals and dinosaurs, conductor, counting game' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	// keep this game with a white background because any other color will screw up printing.
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#ffffff')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/howBig.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

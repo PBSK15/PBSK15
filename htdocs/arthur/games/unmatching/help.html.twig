@@ -1,0 +1,22 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Un-Matching Game | PBS Kids' %}
+{% set desc = 'Francine displays four words. Pick the one that doesnt belong with the others. Get a hint if needed!' %}
+{% set keywds = 'matching, belong, words, read, critical thinking' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fff">
+ <div class="ruler"></div>
+ <div id="mainFeature" class="fo_header"><a href="/cgi-registry/arthur/unmatchingquiz2.php?featurepath=/arthur/games/unmatching/&amp;phase=start&amp;lastquestionindex=44"><img src="../../i/games/unmatching/help-new2.gif" alt="the un-Matching Game" width="600" height="413" border="0"></a>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/francine/index.html" id="rcFrancine">Francine</a></li>
+   <li><a href="/arthur/print/cosmiccombos/index.html" id="rcCosmic">Cosmic Combos</a></li>
+   <li><a href="/arthur/games/effectivedetective/index.html" id="rcDetective">Effective Detective</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

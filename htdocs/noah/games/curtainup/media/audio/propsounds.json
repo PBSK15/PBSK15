@@ -1,0 +1,423 @@
+{
+  "urls": [
+    "propsounds.ogg",
+    "propsounds.mp3"
+  ],
+  "audioSprite": [
+    {
+      "id": "elapio",
+      "startTime": 0,
+      "duration": 783.6734693877551
+    },
+    {
+      "id": "elarbol",
+      "startTime": 2000,
+      "duration": 888.1632653061224
+    },
+    {
+      "id": "elarbolenmaceta",
+      "startTime": 4000,
+      "duration": 2220.408163265306
+    },
+    {
+      "id": "elarbusto",
+      "startTime": 8000,
+      "duration": 1828.5714285714291
+    },
+    {
+      "id": "elauto",
+      "startTime": 11000,
+      "duration": 835.9183673469381
+    },
+    {
+      "id": "elautobus",
+      "startTime": 13000,
+      "duration": 1149.3877551020405
+    },
+    {
+      "id": "elavion",
+      "startTime": 16000,
+      "duration": 835.9183673469381
+    },
+    {
+      "id": "elbalde",
+      "startTime": 18000,
+      "duration": 783.6734693877538
+    },
+    {
+      "id": "elbarco",
+      "startTime": 20000,
+      "duration": 731.4285714285732
+    },
+    {
+      "id": "elbaul",
+      "startTime": 22000,
+      "duration": 862.0408163265303
+    },
+    {
+      "id": "elbistec",
+      "startTime": 24000,
+      "duration": 1750.2040816326528
+    },
+    {
+      "id": "elbuzon",
+      "startTime": 27000,
+      "duration": 2089.795918367347
+    },
+    {
+      "id": "elcamion",
+      "startTime": 31000,
+      "duration": 914.2857142857146
+    },
+    {
+      "id": "elcamiondebomberos",
+      "startTime": 33000,
+      "duration": 1802.448979591837
+    },
+    {
+      "id": "elcano",
+      "startTime": 36000,
+      "duration": 835.9183673469417
+    },
+    {
+      "id": "elcolumpio",
+      "startTime": 38000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "elcuchillo",
+      "startTime": 41000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "elespagueti",
+      "startTime": 43000,
+      "duration": 1776.3265306122448
+    },
+    {
+      "id": "elespejo",
+      "startTime": 46000,
+      "duration": 1697.9591836734685
+    },
+    {
+      "id": "elguineo",
+      "startTime": 49000,
+      "duration": 1724.0816326530605
+    },
+    {
+      "id": "elhelado",
+      "startTime": 52000,
+      "duration": 1306.1224489795932
+    },
+    {
+      "id": "elhelicoptero",
+      "startTime": 55000,
+      "duration": 2011.4285714285743
+    },
+    {
+      "id": "elhidrante",
+      "startTime": 59000,
+      "duration": 1410.6122448979618
+    },
+    {
+      "id": "elladrillo",
+      "startTime": 62000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "elmanzano",
+      "startTime": 65000,
+      "duration": 1462.8571428571463
+    },
+    {
+      "id": "elmartillo",
+      "startTime": 68000,
+      "duration": 1280.0000000000011
+    },
+    {
+      "id": "elosodepeluche",
+      "startTime": 71000,
+      "duration": 2063.6734693877515
+    },
+    {
+      "id": "elparaguas",
+      "startTime": 75000,
+      "duration": 1828.571428571422
+    },
+    {
+      "id": "elpiano",
+      "startTime": 78000,
+      "duration": 1044.897959183672
+    },
+    {
+      "id": "elplato",
+      "startTime": 81000,
+      "duration": 888.1632653061189
+    },
+    {
+      "id": "elpuestodefrutas",
+      "startTime": 83000,
+      "duration": 2142.040816326528
+    },
+    {
+      "id": "elqueso",
+      "startTime": 87000,
+      "duration": 862.0408163265267
+    },
+    {
+      "id": "elrefrigerador",
+      "startTime": 89000,
+      "duration": 3186.9387755102
+    },
+    {
+      "id": "elsofa",
+      "startTime": 94000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "elsubibaja",
+      "startTime": 96000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "elsubmarino",
+      "startTime": 99000,
+      "duration": 1697.9591836734755
+    },
+    {
+      "id": "eltenedor",
+      "startTime": 102000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "eltobogan",
+      "startTime": 104000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "eltocon",
+      "startTime": 107000,
+      "duration": 1697.9591836734755
+    },
+    {
+      "id": "elvaso",
+      "startTime": 110000,
+      "duration": 809.7959183673424
+    },
+    {
+      "id": "labicicleta",
+      "startTime": 112000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "lacanadepescar",
+      "startTime": 115000,
+      "duration": 1541.2244897959226
+    },
+    {
+      "id": "lacanoa",
+      "startTime": 118000,
+      "duration": 1697.9591836734755
+    },
+    {
+      "id": "lacarreta",
+      "startTime": 121000,
+      "duration": 1671.8367346938835
+    },
+    {
+      "id": "lacarretilla",
+      "startTime": 124000,
+      "duration": 1410.6122448979618
+    },
+    {
+      "id": "lacerca",
+      "startTime": 127000,
+      "duration": 1462.857142857132
+    },
+    {
+      "id": "lacuchara",
+      "startTime": 130000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "laescalera",
+      "startTime": 133000,
+      "duration": 1541.2244897959226
+    },
+    {
+      "id": "laescoba",
+      "startTime": 136000,
+      "duration": 914.285714285711
+    },
+    {
+      "id": "lahierba",
+      "startTime": 138000,
+      "duration": 1436.734693877554
+    },
+    {
+      "id": "lalampara",
+      "startTime": 141000,
+      "duration": 1227.7551020408168
+    },
+    {
+      "id": "laleche",
+      "startTime": 144000,
+      "duration": 992.6530612245017
+    },
+    {
+      "id": "lamantequilla",
+      "startTime": 146000,
+      "duration": 1097.1428571428703
+    },
+    {
+      "id": "lamanzana",
+      "startTime": 149000,
+      "duration": 1123.2653061224482
+    },
+    {
+      "id": "lamesa",
+      "startTime": 152000,
+      "duration": 966.5306122448953
+    },
+    {
+      "id": "lapala",
+      "startTime": 154000,
+      "duration": 757.5510204081581
+    },
+    {
+      "id": "lapalmera",
+      "startTime": 156000,
+      "duration": 1750.2040816326598
+    },
+    {
+      "id": "lapecera",
+      "startTime": 159000,
+      "duration": 1645.7142857142912
+    },
+    {
+      "id": "lapelotadefutbol",
+      "startTime": 162000,
+      "duration": 2429.3877551020273
+    },
+    {
+      "id": "laplataforma",
+      "startTime": 166000,
+      "duration": 1802.4489795918441
+    },
+    {
+      "id": "laregadera",
+      "startTime": 169000,
+      "duration": 1253.8775510203948
+    },
+    {
+      "id": "laropainterior",
+      "startTime": 172000,
+      "duration": 1541.2244897959226
+    },
+    {
+      "id": "larosa",
+      "startTime": 175000,
+      "duration": 1488.9795918367383
+    },
+    {
+      "id": "lasbotas",
+      "startTime": 178000,
+      "duration": 1175.5102040816325
+    },
+    {
+      "id": "lasflores",
+      "startTime": 181000,
+      "duration": 2298.775510204081
+    },
+    {
+      "id": "lashojas",
+      "startTime": 185000,
+      "duration": 1906.9387755102127
+    },
+    {
+      "id": "lasierra",
+      "startTime": 188000,
+      "duration": 1515.1020408163163
+    },
+    {
+      "id": "lasilla",
+      "startTime": 191000,
+      "duration": 940.4081632653174
+    },
+    {
+      "id": "lasmedias",
+      "startTime": 193000,
+      "duration": 1097.1428571428703
+    },
+    {
+      "id": "lasoga",
+      "startTime": 196000,
+      "duration": 757.5510204081581
+    },
+    {
+      "id": "lasparras",
+      "startTime": 198000,
+      "duration": 1828.571428571422
+    },
+    {
+      "id": "lasrocas",
+      "startTime": 201000,
+      "duration": 2011.4285714285813
+    },
+    {
+      "id": "lassemillas",
+      "startTime": 205000,
+      "duration": 1280.0000000000011
+    },
+    {
+      "id": "laszanahorias",
+      "startTime": 208000,
+      "duration": 1462.857142857132
+    },
+    {
+      "id": "latabladesurf",
+      "startTime": 211000,
+      "duration": 1410.6122448979477
+    },
+    {
+      "id": "latelevision",
+      "startTime": 214000,
+      "duration": 2142.040816326528
+    },
+    {
+      "id": "losbinoculares",
+      "startTime": 218000,
+      "duration": 2298.775510204081
+    },
+    {
+      "id": "losglobos",
+      "startTime": 222000,
+      "duration": 1697.9591836734755
+    },
+    {
+      "id": "losguineos",
+      "startTime": 225000,
+      "duration": 2272.653061224503
+    },
+    {
+      "id": "loshuevos",
+      "startTime": 229000,
+      "duration": 1018.7755102040796
+    },
+    {
+      "id": "lospantalones",
+      "startTime": 232000,
+      "duration": 1410.6122448979477
+    },
+    {
+      "id": "lospantelonescortos",
+      "startTime": 235000,
+      "duration": 2011.4285714285813
+    },
+    {
+      "id": "ungloborojo",
+      "startTime": 239000,
+      "duration": 2560.0000000000023
+    }
+  ]
+}

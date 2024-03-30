@@ -1,0 +1,35 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . The Brain\'s Brain Game | PBS Kids' %}
+{% set desc = 'Need help on how to play The Brains Brain Game? Dont fret -- find instructions here!' %}
+{% set keywds = 'Brain, game, trivia, arthur, questions' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fff">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a name="hint"></a>
+   <div id="brainHint" class="hidden">
+    <p>Your hint is:<br>$HINT</p>
+   </div>
+   <div id="brainGameWrapper"><img src="../../i/games/braingame/braingame100_header.gif" width="405" height="102" alt="The Brain's Brain Game" border="0" class="float-left"><img src="../../i/games/braingame/brainwohelp.gif" width="195" height="102" alt="" border="0"> <img src="../../i/games/braingame/brain.gif" width="196" height="275" alt="The Brain holding a piece of papaer" border="0" class="brain-right-image">
+    <div id="brainGameContent">
+     <p>Celebrate ARTHUR's 100th Episode by challenging your noggin with my 100 new questions!</p>
+     <p>Each question has three possible answers. Just click the one you think is right.</p>
+     <p>If it's too tricky, don't forget that there are hints at the bottom of each page.</p>
+     <p>When you answer, I'll tell you if you got it right, and offer you another question. There's a whole bunch more, so keep your brain in shape with <a href="index.html">The Brain's Brain Game!</a></p>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/brain/index.html" id="rcBrain">The Brain</a></li>
+   <li><a href="/arthur/games/sugarbowlpoll/index.html" id="rcPoll">Sugar Bowl Poll</a></li>
+   <li><a href="/arthur/print/elwingo/index.html" id="rcElwingo">Elwingo!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

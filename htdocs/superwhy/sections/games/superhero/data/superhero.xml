@@ -1,0 +1,145 @@
+<game id="superhero" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPER HERO | PBS KIDS]]></title>
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="princesspresto_endscreen" url="libraries/princesspresto_endscreen.swf" />
+	</libraries> 
+	<swf url="sections/games/superhero/superhero.swf" />
+	<email 	sendURL="http://pbskids.org/cgi-registry/tell_a_friend.cgi"
+			urlToSend="http://pbskids.org/superwhy/index.html#game/superhero" 
+			thanksURL="/superwhy/sections/games/superhero/email/success.html" 
+			errorURL="/superwhy/sections/games/superhero/email/error.html">
+		<content><![CDATA[Check out the Superhero I created on the SUPER WHY website!]]></content>		
+	</email>
+	<miscVO>
+		<VO id="instructions" type="audio" url="sections/games/superhero/audio/vo/instructions_pp.mp3"/>
+		<VO id="spell_word" type="audio" url="sections/games/superhero/audio/vo/spell_word_pp.mp3"/>
+		<VO id="word_complete" type="audio" url="sections/games/superhero/audio/vo/word_complete.mp3"/>
+		<VO id="name_your_hero" type="audio" url="sections/games/superhero/audio/vo/name_superhero.mp3" />
+		<VO id="print_email" type="audio" url="sections/games/superhero/audio/vo/print_email.mp3" />
+		<VO id="choose_hero" type="audio" url="sections/games/superhero/audio/vo/choose_superhero.mp3" />
+		<VO id="choose_item" type="audio" url="sections/games/superhero/audio/vo/choose_accessory.mp3" />
+		<VO id="help" type="audio" url="sections/games/superhero/audio/vo/click_help_pp.mp3" />
+		<VO id="print" type="audio" url="sections/games/superhero/audio/vo/pp_button_print.mp3" />
+		<VO id="send" type="audio" url="sections/games/superhero/audio/vo/pp_button_send.mp3" />
+		<VO id="create" type="audio" url="sections/games/superhero/audio/vo/button_pp_create_hero.mp3" />
+		<VO id="close" type="audio" url="sections/games/superhero/audio/vo/pp_button_close.mp3" />
+		<VO id="presto" type="audio" url="sections/games/superhero/audio/vo/presto.mp3" />
+	</miscVO>
+	<kudos>
+		<kudo id="great" type="audio" url="sections/games/superhero/audio/vo/kudos/kudos_great.mp3"/>
+		<kudo id="thats_it" type="audio" url="sections/games/superhero/audio/vo/kudos/kudos_thats_it.mp3"/>
+		<kudo id="lovely" type="audio" url="sections/games/superhero/audio/vo/kudos/kudos_lovely.mp3"/>
+		<kudo id="excellent" type="audio" url="sections/games/superhero/audio/vo/kudos/kudos_excellent.mp3"/>
+		<kudo id="magnificent" type="audio" url="sections/games/superhero/audio/vo/kudos/kudos_magnificent.mp3"/>
+		<kudo id="spectacular" type="audio" url="sections/games/superhero/audio/vo/kudos/kudos_spectacular.mp3"/>
+	</kudos>
+	<oops>
+		<oop id="oops_oops" type="audio" url="sections/games/superhero/audio/vo/oops/oops_oops.mp3"/>
+		<oop id="keep_looking" type="audio" url="sections/games/superhero/audio/vo/oops/oops_keep_looking.mp3"/>
+		<oop id="split_pea" type="audio" url="sections/games/superhero/audio/vo/oops/oops_split_pea.mp3"/>
+	</oops>
+	<letters>
+		<letter id="a" type="audio" url="sections/games/superhero/audio/vo/letters/a_pp.mp3"/>
+		<letter id="b" type="audio" url="sections/games/superhero/audio/vo/letters/b_pp.mp3"/>
+		<letter id="c" type="audio" url="sections/games/superhero/audio/vo/letters/c_pp.mp3"/>
+		<letter id="d" type="audio" url="sections/games/superhero/audio/vo/letters/d_pp.mp3"/>
+		<letter id="e" type="audio" url="sections/games/superhero/audio/vo/letters/e_pp.mp3"/>
+		<letter id="f" type="audio" url="sections/games/superhero/audio/vo/letters/f_pp.mp3"/>
+		<letter id="g" type="audio" url="sections/games/superhero/audio/vo/letters/g_pp.mp3"/>
+		<letter id="h" type="audio" url="sections/games/superhero/audio/vo/letters/h_pp.mp3"/>
+		<letter id="i" type="audio" url="sections/games/superhero/audio/vo/letters/i_pp.mp3"/>
+		<letter id="j" type="audio" url="sections/games/superhero/audio/vo/letters/j_pp.mp3"/>
+		<letter id="k" type="audio" url="sections/games/superhero/audio/vo/letters/k_pp.mp3"/>
+		<letter id="l" type="audio" url="sections/games/superhero/audio/vo/letters/l_pp.mp3"/>
+		<letter id="m" type="audio" url="sections/games/superhero/audio/vo/letters/m_pp.mp3"/>
+		<letter id="n" type="audio" url="sections/games/superhero/audio/vo/letters/n_pp.mp3"/>
+		<letter id="o" type="audio" url="sections/games/superhero/audio/vo/letters/o_pp.mp3"/>
+		<letter id="p" type="audio" url="sections/games/superhero/audio/vo/letters/p_pp.mp3"/>
+		<letter id="q" type="audio" url="sections/games/superhero/audio/vo/letters/q_pp.mp3"/>
+		<letter id="r" type="audio" url="sections/games/superhero/audio/vo/letters/r_pp.mp3"/>
+		<letter id="s" type="audio" url="sections/games/superhero/audio/vo/letters/s_pp.mp3"/>
+		<letter id="t" type="audio" url="sections/games/superhero/audio/vo/letters/t_pp.mp3"/>
+		<letter id="u" type="audio" url="sections/games/superhero/audio/vo/letters/u_pp.mp3"/>
+		<letter id="v" type="audio" url="sections/games/superhero/audio/vo/letters/v_pp.mp3"/>
+		<letter id="w" type="audio" url="sections/games/superhero/audio/vo/letters/w_pp.mp3"/>
+		<letter id="x" type="audio" url="sections/games/superhero/audio/vo/letters/x_pp.mp3"/>
+		<letter id="y" type="audio" url="sections/games/superhero/audio/vo/letters/y_pp.mp3"/>
+		<letter id="z" type="audio" url="sections/games/superhero/audio/vo/letters/z_pp.mp3"/>
+	</letters>
+	<sounds>
+		<sound id="aaa" type="audio" url="sections/games/superhero/audio/vo/sounds/aaa.mp3"/>
+		<sound id="bbb" type="audio" url="sections/games/superhero/audio/vo/sounds/bbb.mp3"/>
+		<sound id="ccc" type="audio" url="sections/games/superhero/audio/vo/sounds/ccc.mp3"/>
+		<sound id="ddd" type="audio" url="sections/games/superhero/audio/vo/sounds/ddd.mp3"/>
+		<sound id="eee" type="audio" url="sections/games/superhero/audio/vo/sounds/eee.mp3"/>
+		<sound id="fff" type="audio" url="sections/games/superhero/audio/vo/sounds/fff.mp3"/>
+		<sound id="ggg" type="audio" url="sections/games/superhero/audio/vo/sounds/ggg.mp3"/>
+		<sound id="hhh" type="audio" url="sections/games/superhero/audio/vo/sounds/hhh.mp3"/>
+		<sound id="iii" type="audio" url="sections/games/superhero/audio/vo/sounds/iii.mp3"/>
+		<sound id="jjj" type="audio" url="sections/games/superhero/audio/vo/sounds/jjj.mp3"/>
+		<sound id="kkk" type="audio" url="sections/games/superhero/audio/vo/sounds/kkk.mp3"/>
+		<sound id="lll" type="audio" url="sections/games/superhero/audio/vo/sounds/lll.mp3"/>
+		<sound id="mmm" type="audio" url="sections/games/superhero/audio/vo/sounds/mmm.mp3"/>
+		<sound id="nnn" type="audio" url="sections/games/superhero/audio/vo/sounds/nnn.mp3"/>
+		<sound id="ooo" type="audio" url="sections/games/superhero/audio/vo/sounds/ooo.mp3"/>
+		<sound id="ppp" type="audio" url="sections/games/superhero/audio/vo/sounds/ppp.mp3"/>
+		<sound id="qqq" type="audio" url="sections/games/superhero/audio/vo/sounds/qqq.mp3"/>
+		<sound id="rrr" type="audio" url="sections/games/superhero/audio/vo/sounds/rrr.mp3"/>
+		<sound id="sss" type="audio" url="sections/games/superhero/audio/vo/sounds/sss.mp3"/>
+		<sound id="ttt" type="audio" url="sections/games/superhero/audio/vo/sounds/ttt.mp3"/>
+		<sound id="uuu" type="audio" url="sections/games/superhero/audio/vo/sounds/uuu.mp3"/>
+		<sound id="vvv" type="audio" url="sections/games/superhero/audio/vo/sounds/vvv.mp3"/>
+		<sound id="www" type="audio" url="sections/games/superhero/audio/vo/sounds/www.mp3"/>
+		<sound id="xxx" type="audio" url="sections/games/superhero/audio/vo/sounds/xxx.mp3"/>
+		<sound id="yyy" type="audio" url="sections/games/superhero/audio/vo/sounds/yyy.mp3"/>
+		<sound id="zzz" type="audio" url="sections/games/superhero/audio/vo/sounds/zzz.mp3"/>
+	</sounds>
+	<words level="1">
+		<word id="box" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/box.mp3"/>
+		<word id="dig" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/dig.mp3"/>
+		<word id="dot" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/dot.mp3"/>
+		<word id="fix" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/fix.mp3"/>
+		<word id="fox" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/fox.mp3"/>
+		<word id="hop" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/hop.mp3"/>
+		<word id="log" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/log.mp3"/>
+		<word id="map" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/map.mp3"/>
+		<word id="pig" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/pig.mp3"/>
+		<word id="pop" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/pop.mp3"/>
+		<word id="sun" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/sun.mp3"/>
+		<word id="web" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/web.mp3"/>
+		<word id="zap" type="audio" url="sections/games/superhero/audio/vo/words/3_letter/zap.mp3"/>	
+	</words>
+	<words level="2">
+		<word id="fast" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/fast.mp3"/>
+		<word id="frog" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/frog.mp3"/>
+		<word id="jump" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/jump.mp3"/>
+		<word id="raft" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/raft.mp3"/>
+		<word id="sled" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/sled.mp3"/>
+		<word id="spin" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/spin.mp3"/>
+		<word id="stop" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/stop.mp3"/>
+		<word id="wand" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/wand.mp3"/>
+		<word id="yell" type="audio" url="sections/games/superhero/audio/vo/words/4_letter/yell.mp3"/>
+	</words>
+	<words level="3">
+		<word id="bells" type="audio" url="sections/games/superhero/audio/vo/words/5_letter/bells.mp3"/>
+		<word id="comic" type="audio" url="sections/games/superhero/audio/vo/words/5_letter/comic.mp3"/>
+		<word id="pants" type="audio" url="sections/games/superhero/audio/vo/words/5_letter/pants.mp3"/>
+		<word id="spots" type="audio" url="sections/games/superhero/audio/vo/words/5_letter/spots.mp3"/>
+		<word id="steps" type="audio" url="sections/games/superhero/audio/vo/words/5_letter/steps.mp3"/>
+		<word id="twirl" type="audio" url="sections/games/superhero/audio/vo/words/5_letter/twirl.mp3"/>
+	</words>
+	<words level="4">
+		<word id="hiccup" type="audio" url="sections/games/superhero/audio/vo/words/6_letter/hiccup.mp3"/>
+		<word id="insect" type="audio" url="sections/games/superhero/audio/vo/words/6_letter/insect.mp3"/>
+		<word id="napkin" type="audio" url="sections/games/superhero/audio/vo/words/6_letter/napkin.mp3"/>
+		<word id="picnic" type="audio" url="sections/games/superhero/audio/vo/words/6_letter/picnic.mp3"/>
+		<word id="snacks" type="audio" url="sections/games/superhero/audio/vo/words/6_letter/snacks.mp3"/>
+	</words>
+	<promos>
+		<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+		<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		<promo id="alphapig" location="game/alphabricks" url="promos/endscreen_promo_ap_bricks.jpg" />
+	</promos>
+</game>

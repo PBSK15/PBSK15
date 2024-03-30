@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Don't Wake Kate</title>
+			<href>/arthur/games/dontwakekate/index.html</href>
+			<imgurl>/arthur/i/related/dwk.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Facts and Opinions</title>
+			<href>/arthur/games/factsopinions/index.html</href>
+			<imgurl>/arthur/i/related/factsopinions.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go! George Go!</title>
+			<href>/arthur/games/gogeorgego/index.html</href>
+			<imgurl>/arthur/i/related/gogeorgego.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groovy Garden</title>
+			<href>/arthur/games/groovygarden/index.html</href>
+			<imgurl>/arthur/i/related/groovygarden.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got To Be Kidding</title>
+			<href>/arthur/games/yougottobekidding/index.html</href>
+			<imgurl>/arthur/i/related/kidding.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Falafelosophy</title>
+			<href>/arthur/video/index.html?pid=_n415FcdTUEm4MW2soUeNaembcKZghPf</href>
+			<imgurl>/arthur/i/related/falafelosophy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Vomitrocious</title>
+			<href>/arthur/video/index.html?pid=0pfsNjVreZEtsBlA_VmtjpeY2hcZrQ_c</href>
+			<imgurl>/arthur/i/related/vomitrocious.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>What Scared Sue Ellen?</title>
+			<href>/arthur/video/index.html?pid=1rGV7eojmwkdv6fr72JZb47CxvbR49NT</href>
+			<imgurl>/arthur/i/related/scaredsueellen.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Happy Anniversary Part 1</title>
+			<href>/arthur/video/index.html?pid=tZ6EF51RRPpyic1Gjw4AamEZNykocM07</href>
+			<imgurl>/arthur/i/related/anniversary1.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Room To Ride</title>
+			<href>/arthur/video/index.html?pid=CzGhWX80_TK8ceDD4yDXoltE4E4u0Uew</href>
+			<imgurl>/arthur/i/related/roomtoride.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

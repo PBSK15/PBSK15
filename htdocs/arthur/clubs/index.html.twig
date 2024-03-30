@@ -1,0 +1,51 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Clubs | PBS Kids' %}
+{% set desc = 'Get active in the ARTHUR community by joining clubs! Contribute to the clubs galleries or just join in the fun!' %}
+{% set keywds = 'clubs, interests, community, friends, art' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'clubs' %}
+{% set noSitewide = true %}
+{% set clubsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-99f clubs">
+ <div id="mainFeature">
+  <div id="clubsTopBar">
+   <h4>Clubs</h4>
+   <ul>
+    <li id="clubBinky">Binky</li>
+    <li id="clubFrancine">Francine</li>
+    <li id="clubBuster">Buster</li>
+    <li id="clubPal">Pal</li>
+    <li id="clubArthur">Arthur</li>
+    <li id="clubDW">D.W.</li>
+    <li id="clubKate">Baby Kate</li>
+    <li id="clubBrain">The Brain</li>
+    <li id="clubMuffy">Muffy</li>
+   </ul>
+  </div>
+  <div id="clubsList">
+   <ul>
+    <li><a href="/arthur/clubs/dance/index.html" id="clubDance">Dance Club</a></li>
+    <li><a href="/arthur/clubs/poetry/index.html" id="clubPoetry">Poetr Club</a></li>
+    <li><a href="/arthur/clubs/fashion/index.html" id="clubFashion">Fashion Club</a></li>
+   </ul>
+  </div>
+  <div id="clubsBtmBar">
+   <ul>
+    <li id="clubFern">Fern</li>
+    <li id="clubGeorge">George</li>
+    <li id="clubSueellen">Sue Ellen</li>
+    <li id="clubTibbles">The Tibble Twins</li>
+    <li id="clubPrunella">Prunella</li>
+    <li id="clubEmily">Emily</li><!--<li id="clubMacgrady">Mrs. MacGrady</li>-->
+    <li id="clubLadonna">Ladonna</li>
+    <li id="clubMom">Mrs. Read</li>
+    <li id="clubDad">Mr. Read</li>
+    <li id="clubRatburn">Mr. Ratburn</li>
+    <li id="clubThora">Grandma Thora</li>
+   </ul>
+  </div>
+ </div>
+</div>{% endblock %}
+

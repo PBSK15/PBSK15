@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Global Gizmo! | PBS Kids' %}
+{% set desc = 'Join Sue Ellen and learn about world instruments and music by playing a classic matching game! ' %}
+{% set keywds = 'Sue Ellen, matching game, world instruments, world music, culture' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="globalbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="globalgizmo.html" target="_self"><img src="../../i/games/gg_splash.gif" width="619" height="434" border="0" alt="Play Global Gizmo"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/connectworld/index.html" id="rcConnect">Connect the World</a></li>
+   <li><a href="/arthur/friends/sue_ellen/index.html" id="rcSueEllen">Sue Ellen</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

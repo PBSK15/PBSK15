@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Facts and Opinions</title>
+			<href>/arthur/games/factsopinions/index.html</href>
+			<imgurl>/arthur/i/related/factsopinions.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Art Gallery</title>
+			<href>/arthur/games/artgallery/index.html</href>
+			<imgurl>/arthur/i/related/gallery.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Green Challenge</title>
+			<href>/arthur/games/gogreen/index.html</href>
+			<imgurl>/arthur/i/related/gogreen.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Super Action Challenge</title>
+			<href>/arthur/games/superactionchallenge/index.html</href>
+			<imgurl>/arthur/i/related/superaction.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Unmatching Game</title>
+			<href>/arthur/games/unmatching/index.html</href>
+			<imgurl>/arthur/i/related/unmatching.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Play Maker</title>
+			<href>/arthur/print/playmaker/index.html</href>
+			<imgurl>/arthur/i/related/playmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Castles in the Sky</title>
+			<href>/arthur/video/index.html?pid=jrQFQic9P_YJ_yf32ZVzZp2LrkThcWdo</href>
+			<imgurl>/arthur/i/related/castlesinsky.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Falafelosophy</title>
+			<href>/arthur/video/index.html?pid=_n415FcdTUEm4MW2soUeNaembcKZghPf</href>
+			<imgurl>/arthur/i/related/falafelosophy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Election</title>
+			<href>/arthur/video/index.html?pid=_CWks8YP3AYHfcjlUjgnO6uHGPLeFiSd</href>
+			<imgurl>/arthur/i/related/election.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

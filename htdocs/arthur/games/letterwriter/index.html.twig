@@ -1,0 +1,33 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letter Writer Helper | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="letterwriterHeader">Letter Writer Helper</h4>
+   <p>Do you need to write someone, but you're not sure where to begin? Well, you're come to the right place! Click the letter, postcard, greeting card, or e-mail to learn more. And the best thing is, when you write to someone, they will write you back!</p>
+  </div>
+  <div id="printablesNavIcons">
+   <ul id="lwNavIcons">
+    <li id="lwLetter" class="icon"><a href="letter.html"><span>Letter</span><p>A good old-fashioned way to keep in touch.</p></a></li>
+    <li id="lwEmail" class="icon"><a href="email.html"><span>E-mail</span><p>The fastest way to say hello.</p></a></li>
+    <li id="lwGreeting" class="icon"><a href="greeting_card.html"><span>Greeting Card</span><p>Always fun to give and receive.</p></a></li>
+    <li id="lwPostcard" class="icon"><a href="postcard.html"><span>Postcard (and e-postcard)</span><p>Send one on your next vacation.</p></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/print/braille/index.html" id="rcBraille">You've Got Braille</a></li>
+   <li><a href="/arthur/print/signdesign/index.html" id="rcSignDesign">Sign Design</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

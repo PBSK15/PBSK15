@@ -1,0 +1,43 @@
+{
+"images": ["btns.png"],
+"frames": [
+
+    [381, 302, 93, 94], 
+    [1, 722, 255, 102], 
+    [1, 619, 255, 102], 
+    [1, 516, 255, 102], 
+    [1, 207, 285, 102], 
+    [287, 207, 96, 94], 
+    [1, 104, 285, 102], 
+    [287, 104, 194, 102], 
+    [287, 302, 93, 94], 
+    [1, 413, 255, 102], 
+    [384, 207, 93, 94], 
+    [1, 1, 285, 102], 
+    [287, 1, 194, 102], 
+    [1, 310, 255, 102], 
+    [257, 397, 82, 83]
+],
+"animations": {
+    
+        "BackBtn":[0], 
+        "ClearBtn":[1], 
+        "ContinueBtn":[2], 
+        "DoneBtn":[3], 
+        "HelpBtn":[4], 
+        "MapBtn":[5], 
+        "NewGameBtn":[6], 
+        "NextBtn":[7], 
+        "PauseBtn":[8], 
+        "ReplayBtn":[9], 
+        "RestartBtn":[10], 
+        "ResumeBtn":[11], 
+        "SkipBtn":[12], 
+        "TryAgainBtn":[13], 
+        "xBtn":[14]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:ade99f2cd6e7802badd7ccf8243176db:36eabf77c14d9f3ea54bbeaaf12785a1:de2a4fe67d2451b637ba1527a5f89bc3$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

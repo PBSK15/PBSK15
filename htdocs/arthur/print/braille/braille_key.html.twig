@@ -1,0 +1,49 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . You\'ve Got Braille | PBS Kids' %}
+{% set desc = 'This braille key displays the alphabet, the numbers, and punctuation so that you can create your own messages and decipher braille messages.' %}
+{% set keywds = 'braille, blind, reading, translation' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="brailleHeader">You've Got Braille</h4></a>
+  <ul id="printSideNav">
+   <li><a href="index.html"><span>Braille Translator</span></a></li>
+   <li><a href="braille_key.html" class="selected"><span>Braille Key</span></a></li>
+   <li><a href="braille_guide.html"><span>Guide To Braille</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Braille Key</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+   </div>
+   <div>
+    <div class="page">
+     <img src="../../i/print/braille/braille_key_1.gif" width="603" height="987" alt="Braille Alphabet" border="0" class="braille-alphabet img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+    </div>
+    <div class="page"><img src="../../i/print/braille/braille_key_2.gif" width="603" height="337" alt="Braille Numbers and Punctuations" border="0" class="braille-key img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

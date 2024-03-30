@@ -1,0 +1,45 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Free by Alys | PBS Kids' %}
+{% set desc = 'Read through a bunch of really great poems from kids like you!' %}
+{% set keywds = 'poems, search, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="/arthur/games/poetry/index.html"><h4 id="poetryHeader">Fern's Poetry Club</h4></a>
+  <ul id="printSideNav">
+   <li><a href="/arthur/games/poetry/what.html"><span>What's a poem?</span></a></li>
+   <li><a href="/arthur/games/poetry/write.html"><span>Write a poem</span></a></li>
+   <li><a href="/arthur/games/poetry/read.html"><span>Read more poems</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div id="poetryContent" class="poetry"><img src="/arthur/i/games/poetry/fern_1.gif" width="159" height="295" alt="Fern holding a book." border="0" class="float-left">
+    <div id="todayPoem">
+     <div class="poem">
+      <h4 class="poem-title">Free<br>by Alys</h4>
+      <p></p>
+      <pre>The wet grass beneath my feet,running wild like thrashing wind,slepping beneath the stars,nothing can stop me I'm FREE!</pre>
+      <p></p>
+     </div>
+    </div> <a href="/arthur/games/poetry/poems/306762.html">
+     <div id="nextPoem">
+      Next Poem
+     </div></a>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/fern/index.html" id="rcFern">Fern</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+   <li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

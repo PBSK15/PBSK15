@@ -1,0 +1,55 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Play Maker | PBS Kids' %}
+{% set desc = 'Get some tips from Francine about how to put on a play and make a great show!' %}
+{% set keywds = 'director, tips, performance, play' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../index.html"><h4 id="playHeader">Play Maker</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../script.html"><span>Script</span></a></li>
+   <li><a href="../props/index.html"><span>Props</span></a></li>
+   <li><a href="../masks/index.html"><span>Masks</span></a></li>
+   <li><a href="../costumes.html"><span>Costumes</span></a></li>
+   <li><a href="../tips/index.html" class="selected"><span>Tips</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Tips</h1>
+    </div>
+   </div>
+   <div id="tipsContent"><img src="../../../i/print/playmaker/playmaker_tips.gif" width="294" height="285" alt="picture of a clipboard, Hopalong the frog book, printable ticket and printable poster" border="0" class="float-right">
+    <p>Putting on a play is a blast! You can do a play all by yourself, or with a bunch of friends. Whatever you decide, my tips will help you put on a great show.</p>
+    <ul id="pmTipsIcons">
+     <li><a href="tips.html#pg-tip1">Tip 1: Choose a Story</a></li>
+     <li><a href="tips.html#pg-tip2">Tip 2: Decide Who's Who</a></li>
+     <li><a href="tips.html#pg-tip3">Tip 3: Plan It</a></li>
+     <li><a href="tips.html#pg-tip4">Tip 4: Practice Practice!</a></li>
+     <li><a href="tips.html#pg-tip5">Tip 5: Find Costumes</a></li>
+     <li><a href="tips.html#pg-tip6">Tip 6: Find Props</a></li>
+     <li><a href="tips.html#pg-tip7">Tip 7: Get Ready</a></li>
+     <li><a href="tips.html#pg-tip8">Tip 8: Enjoy the Big Night</a></li>
+     <li><a href="tips.html#pg-tip9">Tip 9: Take a bow</a></li>
+    </ul>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/games/wardrobe/index.html" id="rcWardrobe">Muffy's Wardrobe</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

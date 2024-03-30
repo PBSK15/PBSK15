@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+	<question>
+		<screen src="mp3/1f.mp3">images/106A-airplane.jpg</screen>
+		<qtext src="mp3/1q.mp3">What's the greener thing to do with old paper?</qtext>
+		<choice1 correct="y" src="mp3/1r.mp3">Use it for something else</choice1>
+		<choice2 correct="n" src="mp3/1w.mp3">Recycle it</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/2f.mp3">images/107A-frog.jpg</screen>
+		<qtext src="mp3/2q.mp3">What's the greener thing to do if you find a frog?</qtext>
+		<choice1 correct="n" src="mp3/2w.mp3">Feed her candy</choice1>
+		<choice2 correct="y" src="mp3/2r.mp3">Watch her to see what you can learn</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/3f.mp3">images/107A-furcoat.jpg</screen>
+		<qtext src="mp3/3q.mp3">What's the greener way to keep warm in winter?</qtext>
+		<choice1 correct="n" src="mp3/3w.mp3">Cranking up the heating</choice1>
+		<choice2 correct="y" src="mp3/3r.mp3">An old cozy, wool coat</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/5f.mp3">images/106A-books.jpg</screen>
+		<qtext src="mp3/5q.mp3">What's the greener way to read books?</qtext>
+		<choice1 correct="y" src="mp3/5r.mp3">Get them from the library</choice1>
+		<choice2 correct="n" src="mp3/5w.mp3">Get them from the bookstore</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/6f.mp3">images/1004A-arthurmeter.jpg</screen>
+		<qtext src="mp3/6q.mp3">What's the greener way to use your basement?</qtext>
+		<choice1 correct="y" src="mp3/6r.mp3">Keep stuff there to use later</choice1>
+		<choice2 correct="n" src="mp3/6w.mp3">Keep alligators down there</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/8f.mp3">images/107A-bus.jpg</screen>
+		<qtext src="mp3/8q.mp3">Whick is the greener way to travel to camp?</qtext>
+		<choice1 correct="y" src="mp3/8r.mp3">By bus</choice1>
+		<choice2 correct="n" src="mp3/8w.mp3">By car</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/10f.mp3">images/107A-canoe.jpg</screen>
+		<qtext src="mp3/10q.mp3">Which kind of boating is greener?</qtext>
+		<choice1 correct="y" src="mp3/10r.mp3">Canoeing</choice1>
+		<choice2 correct="n" src="mp3/10w.mp3">Motor-boating</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/11f.mp3">images/107A-woods.jpg</screen>
+		<qtext src="mp3/11q.mp3">Which is a greener activity?</qtext>
+		<choice1 correct="y" src="mp3/11r.mp3">Playing outside</choice1>
+		<choice2 correct="n" src="mp3/11w.mp3">Playing on the ARTHUR Web site</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/12f.mp3">images/108B-closet.jpg</screen>
+		<qtext src="mp3/12q.mp3">What's the greener way to deal with old toys?</qtext>
+		<choice1 correct="n" src="mp3/12w.mp3">Throw them in a dumpster</choice1>
+		<choice2 correct="y" src="mp3/12r.mp3">Donate them to charity</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/14f.mp3">images/107A-grossfood.jpg</screen>
+		<qtext src="mp3/14q.mp3">What's the greener thing to do with an old salad?</qtext>
+		<choice1 correct="y" src="mp3/14r.mp3">Put it in the compost</choice1>
+		<choice2 correct="n" src="mp3/14w.mp3">Get Buster to eat it</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/16f.mp3">images/108B-boots.jpg</screen>
+		<qtext src="mp3/16q.mp3">What's the greener way to get the latest toys?</qtext>
+		<choice1 correct="y" src="mp3/16r.mp3">Only get toys you think you'll really play with</choice1>
+		<choice2 correct="n" src="mp3/16w.mp3">Get the latest toy so you can stay popular</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/17f.mp3">images/108B-fridge.jpg</screen>
+		<qtext src="mp3/17q.mp3">What's the greener way to clean up a gravy spill?</qtext>
+		<choice1 correct="y" src="mp3/17r.mp3">Get Pal to lick it up</choice1>
+		<choice2 correct="n" src="mp3/17w.mp3">Grab a big bottle of bleach</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/19f.mp3">images/108B-solitaire.jpg</screen>
+		<qtext src="mp3/19q.mp3">What's a greener game to play?</qtext>
+		<choice1 correct="n" src="mp3/19w.mp3">Virtual Goose on the ARTHUR Web site</choice1>
+		<choice2 correct="y" src="mp3/19r.mp3">Cards</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/21f.mp3">images/115A-food.jpg</screen>
+		<qtext src="mp3/21q.mp3">What's the greener way to deal with leftovers?</qtext>
+		<choice1 correct="y" src="mp3/21r.mp3">Get a doggy-bag to eat them later</choice1>
+		<choice2 correct="n" src="mp3/21w.mp3">Hide them under your fork</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/22f.mp3">images/115A-highways.jpg</screen>
+		<qtext src="mp3/22q.mp3">What's the greener way to travel around a city?</qtext>
+		<choice1 correct="y" src="mp3/22r.mp3">Using public transport - like buses and trains</choice1>
+		<choice2 correct="n" src="mp3/22w.mp3">Driving by car</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/23f.mp3">images/115A-suitcase.jpg</screen>
+		<qtext src="mp3/23q.mp3">What's the greener way to do laundry?</qtext>
+		<choice1 correct="n" src="mp3/23w.mp3">Drive it to Arthur's house for his mom to wash</choice1>
+		<choice2 correct="y" src="mp3/23r.mp3">Save it up and do a big load all at once</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/24f.mp3">images/115A-traffic.jpg</screen>
+		<qtext src="mp3/24q.mp3">Stuck in a traffic jam? What's the greener thing to do?</qtext>
+		<choice1 correct="y" src="mp3/24r.mp3">Turn off the engine until you can move again</choice1>
+		<choice2 correct="n" src="mp3/24w.mp3">Honk to make the car in front get moving sooner</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/25f.mp3">images/115B-cow.jpg</screen>
+		<qtext src="mp3/25q.mp3">What's the greener way to buy milk?</qtext>
+		<choice1 correct="y" src="mp3/25r.mp3">Buy it in a large carton</choice1>
+		<choice2 correct="n" src="mp3/25w.mp3">Buy in small cartons</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/26f.mp3">images/107A-underwear.jpg</screen>
+		<qtext src="mp3/26q.mp3">Which is the greener way to dry laundry?</qtext>
+		<choice1 correct="y" src="mp3/26r.mp3">On a clothes line</choice1>
+		<choice2 correct="n" src="mp3/26w.mp3">With an electric dryer</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/27f.mp3">images/115B-hammer.jpg</screen>
+		<qtext src="mp3/27q.mp3">What's the greener thing to do if something breaks?</qtext>
+		<choice1 correct="y" src="mp3/27r.mp3">Fix it</choice1>
+		<choice2 correct="n" src="mp3/27w.mp3">Buy a new one</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/28f.mp3">images/117A-dump.jpg</screen>
+		<qtext src="mp3/28q.mp3">What's the greener way to deal with old things?</qtext>
+		<choice1 correct="y" src="mp3/28r.mp3">Reuse them</choice1>
+		<choice2 correct="n" src="mp3/28w.mp3">Throw them away</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/29f.mp3">images/120A-rain.jpg</screen>
+		<qtext src="mp3/29q.mp3">Which is a greener way to spend time?</qtext>
+		<choice1 correct="y" src="mp3/29r.mp3">Go outside on a rainy day</choice1>
+		<choice2 correct="n" src="mp3/29w.mp3">Stay inside on a rainy day</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/30f.mp3">images/125B-brigade.jpg</screen>
+		<qtext src="mp3/30q.mp3">Which is greener?</qtext>
+		<choice1 correct="y" src="mp3/30r.mp3">Picking up other people's litter</choice1>
+		<choice2 correct="n" src="mp3/30w.mp3">Leaving litter where it is</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/31f.mp3">images/125B-litter.jpg</screen>
+		<qtext src="mp3/31q.mp3">What's the greener way to pick up trash?</qtext>
+		<choice1 correct="y" src="mp3/31r.mp3">With friends</choice1>
+		<choice2 correct="n" src="mp3/31w.mp3">By yourself</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/35f.mp3">images/126A-dump.jpg</screen>
+		<qtext src="mp3/35q.mp3">Which is the greener way to deal with garbage?</qtext>
+		<choice1 correct="y" src="mp3/35r.mp3">Sort the recycles from the trash</choice1>
+		<choice2 correct="n" src="mp3/35w.mp3">Throw it all in a garbage bag</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/36f.mp3">images/126A-icecream.jpg</screen>
+		<qtext src="mp3/36q.mp3">Which is greener to eat?</qtext>
+		<choice1 correct="y" src="mp3/36r.mp3">Natural ice cream with fewer ingredients</choice1>
+		<choice2 correct="n" src="mp3/36w.mp3">Artificial ice cream with lots of ingredients</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/37f.mp3">images/126A-playground.jpg</screen>
+		<qtext src="mp3/37q.mp3">Which is the greener way to play?</qtext>
+		<choice1 correct="y" src="mp3/37r.mp3">On a playground</choice1>
+		<choice2 correct="n" src="mp3/37w.mp3">In your home</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/41f.mp3">images/126B-walking.jpg</screen>
+		<qtext src="mp3/41q.mp3">What's the greener way to travel?</qtext>
+		<choice1 correct="y" src="mp3/41r.mp3">By foot</choice1>
+		<choice2 correct="n" src="mp3/41w.mp3">By car</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/42f.mp3">images/126B-wires.jpg</screen>
+		<qtext src="mp3/42q.mp3">What's the greener thing to do with electric gadgets?</qtext>
+		<choice1 correct="y" src="mp3/42r.mp3">Turn them off when they're not in use</choice1>
+		<choice2 correct="n" src="mp3/42w.mp3">Leave them on all the time</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/43f.mp3">images/129B-helmets.jpg</screen>
+		<qtext src="mp3/43q.mp3">What's a greener way to travel?</qtext>
+		<choice1 correct="y" src="mp3/43r.mp3">By bike</choice1>
+		<choice2 correct="n" src="mp3/43w.mp3">By motorcycle</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/44f.mp3">images/130A-camping.jpg</screen>
+		<qtext src="mp3/44q.mp3">Where is a greener place to sleep?</qtext>
+		<choice1 correct="y" src="mp3/44r.mp3">Outside</choice1>
+		<choice2 correct="n" src="mp3/44w.mp3">Inside</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/45f.mp3">images/130A-tree.jpg</screen>
+		<qtext src="mp3/45q.mp3">Which is greener to put in a yard?</qtext>
+		<choice1 correct="y" src="mp3/45r.mp3">A tree</choice1>
+		<choice2 correct="n" src="mp3/45w.mp3">A lawn</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/47f.mp3">images/203A-dragon.jpg</screen>
+		<qtext src="mp3/47q.mp3">Which is the greener kind of dragon?</qtext>
+		<choice1 correct="y" src="mp3/47r.mp3">A dragon with a carbon particle filter</choice1>
+		<choice2 correct="n" src="mp3/47w.mp3">A dragon with an open flame</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/48f.mp3">images/203A-groceries.jpg</screen>
+		<qtext src="mp3/48q.mp3">What's the greener way to get groceries?</qtext>
+		<choice1 correct="y" src="mp3/48r.mp3">Go as seldom as possible</choice1>
+		<choice2 correct="n" src="mp3/48w.mp3">Go as often as possible</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/50f.mp3">images/203A-spinach.jpg</screen>
+		<qtext src="mp3/50q.mp3">Which is a greener diet?</qtext>
+		<choice1 correct="y" src="mp3/50r.mp3">Lots of vegetables</choice1>
+		<choice2 correct="n" src="mp3/50w.mp3">Lots of meat</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/51f.mp3">images/203B-skateboard.jpg</screen>
+		<qtext src="mp3/51q.mp3">Which is the greener activity?</qtext>
+		<choice1 correct="y" src="mp3/51r.mp3">Inline roller skating</choice1>
+		<choice2 correct="n" src="mp3/51w.mp3">Playing an inline roller skating video game</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/52f.mp3">images/205A-binkybike.jpg</screen>
+		<qtext src="mp3/52q.mp3">Which is the greener activity?</qtext>
+		<choice1 correct="y" src="mp3/52r.mp3">Biking</choice1>
+		<choice2 correct="n" src="mp3/52w.mp3">Playing a biking video game</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/53f.mp3">images/205A-costumes.jpg</screen>
+		<qtext src="mp3/53q.mp3">Which are greener foods?</qtext>
+		<choice1 correct="y" src="mp3/53r.mp3">Unprocessed foods</choice1>
+		<choice2 correct="n" src="mp3/53w.mp3">Processed foods</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/54f.mp3">images/205A-icecream.jpg</screen>
+		<qtext src="mp3/54q.mp3">Where's the greener place to get ice cream?</qtext>
+		<choice1 correct="y" src="mp3/54r.mp3">The local ice cream parlor</choice1>
+		<choice2 correct="n" src="mp3/54w.mp3">The supermarket</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/55f.mp3">images/205A-music.jpg</screen>
+		<qtext src="mp3/55q.mp3">What's the greener way to listen to music?</qtext>
+		<choice1 correct="y" src="mp3/55r.mp3">Play an instrument.</choice1>
+		<choice2 correct="n" src="mp3/55w.mp3">Play it with your CD or MP3 player.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/56f.mp3">images/205A-undies.jpg</screen>
+		<qtext src="mp3/56q.mp3">What's the greener thing to do if you rip your pants?</qtext>
+		<choice1 correct="y" src="mp3/56r.mp3">Patch them and keep wearing them.</choice1>
+		<choice2 correct="n" src="mp3/56w.mp3">Throw them out and get a new pair.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/57f.mp3">images/205B-horse.jpg</screen>
+		<qtext src="mp3/57q.mp3">What's the greener way to get to school?</qtext>
+		<choice1 correct="y" src="mp3/57r.mp3">Ride a horse.</choice1>
+		<choice2 correct="n" src="mp3/57w.mp3">Ride a car.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/59f.mp3">images/207A-island.jpg</screen>
+		<qtext src="mp3/59q.mp3">What's the greener way to go on a beach vacation?</qtext>
+		<choice1 correct="y" src="mp3/59r.mp3">Enjoy the beach in its natural state.</choice1>
+		<choice2 correct="n" src="mp3/59w.mp3">Stay in a fancy resort by the beach.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/61f.mp3">images/207A-telescope.jpg</screen>
+		<qtext src="mp3/61q.mp3">What's the greener way to see the stars?</qtext>
+		<choice1 correct="y" src="mp3/61r.mp3">Lay down outside and do some stargazing.</choice1>
+		<choice2 correct="n" src="mp3/61w.mp3">Look up stars online.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/62f.mp3">images/207A-toothbrush2.jpg</screen>
+		<qtext src="mp3/62q.mp3">What's the greener way to brush your teeth?</qtext>
+		<choice1 correct="y" src="mp3/62r.mp3">Turn off the water while you're brushing.</choice1>
+		<choice2 correct="n" src="mp3/62w.mp3">Keep the water on so it can clean the sink.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/63f.mp3">images/207B-burgers.jpg</screen>
+		<qtext src="mp3/63q.mp3">What's the greenest way to get a burger?</qtext>
+		<choice1 correct="y" src="mp3/63r.mp3">Help your parents cook one at home.</choice1>
+		<choice2 correct="n" src="mp3/63w.mp3">Go to a fast-food place and order one.	</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/64f.mp3">images/207B-light.jpg</screen>
+		<qtext src="mp3/64q.mp3">What's the greener way to use your lights?</qtext>
+		<choice1 correct="y" src="mp3/64r.mp3">Turn them off whenever you leave a room.</choice1>
+		<choice2 correct="n" src="mp3/64w.mp3">Turn them off at night.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/65f.mp3">images/207B-rubble.jpg</screen>
+		<qtext src="mp3/65q.mp3">What's the greener thing to do with an old building?</qtext>
+		<choice1 correct="y" src="mp3/65r.mp3">Fix it up and find a new way to use the building.</choice1>
+		<choice2 correct="n" src="mp3/65w.mp3">Demolish it and build a brand new one.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/66f.mp3">images/220A-cooking.jpg</screen>
+		<qtext src="mp3/66q.mp3">What's the greener way to use up older veggies?	</qtext>
+		<choice1 correct="y" src="mp3/66r.mp3">Cook something with them.</choice1>
+		<choice2 correct="n" src="mp3/66w.mp3">Compost them.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/67f.mp3">images/301A-food.jpg</screen>
+		<qtext src="mp3/67q.mp3">What kind of food is greener to buy?</qtext>
+		<choice1 correct="y" src="mp3/67r.mp3">Organic and local food.</choice1>
+		<choice2 correct="n" src="mp3/67w.mp3">Anything - food is food.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/69f.mp3">images/304A-reading.jpg</screen>
+		<qtext src="mp3/69q.mp3">What's the greener way to play in your room?</qtext>
+		<choice1 correct="y" src="mp3/69r.mp3">Read books</choice1>
+		<choice2 correct="n" src="mp3/69w.mp3">Have the TV, radio and all the lights on.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/70f.mp3">images/306B-sled.jpg</screen>
+		<qtext src="mp3/70q.mp3">Which is the greener way to go down a mountain?</qtext>
+		<choice1 correct="y" src="mp3/70r.mp3">On a sled - with friends!</choice1>
+		<choice2 correct="n" src="mp3/70w.mp3">In a heated gondola</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/72f.mp3">images/405A-blankets.jpg</screen>
+		<qtext src="mp3/72q.mp3">Which is the greener way to stay warm?</qtext>
+		<choice1 correct="y" src="mp3/72r.mp3">Snuggle in a blanket</choice1>
+		<choice2 correct="n" src="mp3/72w.mp3">Crank up the heat</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/74f.mp3">images/405A-pal.jpg</screen>
+		<qtext src="mp3/74q.mp3">Which is the greener way to get around in the snow?</qtext>
+		<choice1 correct="y" src="mp3/74r.mp3">A Pal-powered sled</choice1>
+		<choice2 correct="n" src="mp3/74w.mp3">A snowmobile</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/76f.mp3">images/407A-butterflies.jpg</screen>
+		<qtext src="mp3/76q.mp3">Which is the greener way to study a butterfly?</qtext>
+		<choice1 correct="y" src="mp3/76r.mp3">By following a real one</choice1>
+		<choice2 correct="n" src="mp3/76w.mp3">In a book</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/77f.mp3">images/407A-outfit.jpg</screen>
+		<qtext src="mp3/77q.mp3">Which is the greener Halloween costume?</qtext>
+		<choice1 correct="y" src="mp3/77r.mp3">A forest creature made from branches and twigs</choice1>
+		<choice2 correct="n" src="mp3/77w.mp3">A plastic super-hero outfit bought at the store</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/78f.mp3">images/510B-clothes.jpg</screen>
+		<qtext src="mp3/78q.mp3">Which is the greener way to get new clothes?</qtext>
+		<choice1 correct="y" src="mp3/78r.mp3">A thrift store</choice1>
+		<choice2 correct="n" src="mp3/78w.mp3">A department store</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/79f.mp3">images/510B-lunch.jpg</screen>
+		<qtext src="mp3/79q.mp3">Which is the greener way to bring lunch to school?</qtext>
+		<choice1 correct="y" src="mp3/79r.mp3">In a re-usable lunch box</choice1>
+		<choice2 correct="n" src="mp3/79w.mp3">In disposable plastic bags</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/80f.mp3">images/601A-sueellen.jpg</screen>
+		<qtext src="mp3/80q.mp3">Which is the greener way to turn off your computer?</qtext>
+		<choice1 correct="y" src="mp3/80r.mp3">Turn it off completely.</choice1>
+		<choice2 correct="n" src="mp3/80w.mp3">Put it in Sleep mode.</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/81f.mp3">images/701B-lint.jpg</screen>
+		<qtext src="mp3/81q.mp3">What's the greener way to do laundry?</qtext>
+		<choice1 correct="y" src="mp3/81r.mp3">Wash in cold water</choice1>
+		<choice2 correct="n" src="mp3/81w.mp3">Wash in hot water</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/82f.mp3">images/701B-sockpuppet.jpg</screen>
+		<qtext src="mp3/82q.mp3">What's the greener way to play?</qtext>
+		<choice1 correct="y" src="mp3/82r.mp3">Make your own toys like sock puppets and crafts.</choice1>
+		<choice2 correct="n" src="mp3/82w.mp3">Buy new toys from the store.</choice2>
+	</question>
+	<question>
+		<screen src="mp3/83f.mp3">images/702B-fish.jpg</screen>
+		<qtext src="mp3/83q.mp3">What's the greener way to shop?	</qtext>
+		<choice1 correct="y" src="mp3/83r.mp3">At a local business</choice1>
+		<choice2 correct="n" src="mp3/83w.mp3">At a chain store</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/84f.mp3">images/702B-market.jpg</screen>
+		<qtext src="mp3/84q.mp3">Which kind of fruits and veggies are greener?</qtext>
+		<choice1 correct="y" src="mp3/84r.mp3">Fruits and veggies grown on a local farm</choice1>
+		<choice2 correct="n" src="mp3/84w.mp3">Fruits and veggies grown far away </choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/85f.mp3">images/904A-compost.jpg</screen>
+		<qtext src="mp3/85q.mp3">Which is the greener way to get rid of old veggies?</qtext>
+		<choice1 correct="y" src="mp3/85r.mp3">Compost them</choice1>
+		<choice2 correct="n" src="mp3/85w.mp3">Throw them in the trash</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/86f.mp3">images/108B-garage.jpg</screen>
+		<qtext src="mp3/86q.mp3">What's the greener way to get rid of your old stuff?</qtext>
+		<choice1 correct="y" src="mp3/86r.mp3">Have a yard sale</choice1>
+		<choice2 correct="n" src="mp3/86w.mp3">Dump it</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/87f.mp3">images/130A-fire.jpg</screen>
+		<qtext src="mp3/87q.mp3">Which is the greener way to vacation?</qtext>
+		<choice1 correct="y" src="mp3/87r.mp3">Camp outside</choice1>
+		<choice2 correct="n" src="mp3/87w.mp3">Fly around the world</choice2>
+	</question>
+	
+	<question>
+		<screen src="mp3/88f.mp3">images/904A-tomato.jpg</screen>
+		<qtext src="mp3/88q.mp3">Which is the greener way to get veggies?</qtext>
+		<choice1 correct="y" src="mp3/88r.mp3">Grow them yourself - in a garden or a window box</choice1>
+		<choice2 correct="n" src="mp3/88w.mp3">Buy them at the supermarket</choice2>
+	</question>
+	
+</questions>

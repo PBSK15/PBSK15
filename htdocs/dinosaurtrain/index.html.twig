@@ -1,0 +1,127 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set desc = 'Learn all kinds of dinosaur facts, play games and watch video from Dinosaur Train! All Aboooooard!' %}
+{% set keywds = 'Dinosaur Train, Buddy and Tiny, science education, preschool science, kid dinosaur show, natural science, teaching scientific thinking, dinosaur facts' %}
+
+{% set onLoadEvent = 'onLoad();' %}
+
+{% block loadContent %}	function loadContent(){
+        var addSibs = function(){
+        	var sibs = ['tiny', 'don', 'buddy', 'shiny'],
+        	sib1     = document.createElement('div'),
+        	sib2     = document.createElement('div'),
+            name1    = Math.floor(Math.random() * 4),
+            name2    = Math.floor(Math.random() * 3);
+        	
+        	sib1.className = 'sibling-left ' + sibs[name1];
+        	sibs.splice(name1, 1);
+            sib2.className = 'sibling-right ' + sibs[name2];
+            
+            content.appendChild(sib1);
+            content.appendChild(sib2);
+        },
+        getDinosAndVideos = function(onFinished){
+            var xhrVideo = new XMLHttpRequest(),
+            xhrDino      = new XMLHttpRequest()
+            videos       = null,
+            dinos        = null,
+            complete     = 0;
+            
+//            xhrVideo.open("GET", 'https://pbskids.org/pbsk/video/api/getVideos/?startindex=1&endindex=1&program=Dinosaur+Train&status=available', true);
+            xhrVideo.open("GET", 'getvideo.php', true); //hopefully temporary - gets video info for ernie build
+            xhrVideo.onload = function(){
+            	if (this.status === 200) {
+                    videos = JSON.parse(this.responseText);
+                }
+            	complete += 1;
+            	if(complete === 2) {
+            		onFinished(videos, dinos);
+            	}
+            };
+            xhrVideo.send();
+
+            xhrDino.open("GET", 'games/dinosaurs/field-guide.json', true);
+            xhrDino.onload = function(){
+                if (this.status === 200) {
+                    dinos = JSON.parse(this.responseText);
+                }
+                complete += 1;
+                if(complete === 2) {
+                    onFinished(videos, dinos);
+                }
+            };
+            xhrDino.send();
+        },
+        pullDown    = function(){
+            pullDowns[pulledDown].className = 'hiding'; 
+            setTimeout(function(){
+                pulledDown = 1 - pulledDown;
+                pullDowns[pulledDown].className = '';
+                setTimeout(pullDown, 20000);
+            }, 2000)
+        },
+        chooseGame  = function(){
+        	var index = Math.floor(Math.random() * games.length),
+        	name      = games[index];
+        	
+        	games.splice(index, 1);
+        	
+        	return '<li><a class="game-button game-' + name + '" href="games/' + name + '.html"><span class="play-tab">Play!</span><span class="game-cover">&nbsp;</span></a></li>';
+        },
+        games       = ['stationrace', 'buddysamazingadventure', 'riverrun'],
+        pullDowns   = [null,null],
+        pulledDown  = 0,
+        content     = document.getElementById('main_content'),
+        train       = null,
+        innerHTML   = '';
+        
+        if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	        fixWidths(false, true, 'home-page');
+	        
+            // small mobile menu
+            innerHTML += '<ul id="game-list" class="button-menu hide-items"><li><a class="menu-button games" href="games/">Games</a></li><li><a class="menu-button field-guide" href="games/fieldguide.html">Field Guide</a></li><li><a class="menu-button videos" href="videos/">Video</a></li></ul>';
+            
+            // tablet+ main page
+            innerHTML += '<div class="tablet-panel">';
+            innerHTML +=   '<ul class="button-menu">';
+            innerHTML +=     chooseGame();
+            innerHTML +=     chooseGame();
+            innerHTML +=   '</ul>';
+            innerHTML +=   '<a id="video-button" href="videos/" class="hiding">Video</a><a id="guide-button" href="games/fieldguide.html" class="hiding">Field Guide</a>';
+            innerHTML += '</div>';
+
+            content.innerHTML = innerHTML;
+            pullDowns[0] = document.getElementById('guide-button');
+            pullDowns[1] = document.getElementById('video-button');
+            document.getElementById('game-list').className = 'button-menu';
+            
+            addSibs();
+            getDinosAndVideos(function(videos, dinos){
+            	var dinoPanel = pullDowns[0],
+            	videoPanel    = pullDowns[1],
+            	video = null,
+            	dino = null;
+            	
+            	dino = dinos[Math.floor(Math.random() * dinos.length)];
+            	dinoPanel.innerHTML = '<div class="panel-title">Featured Dinosaur</div><img src="games/dinosaurs/' + dino.name.toLowerCase() + '/profile.png"/><div class="panel-subtitle">' + dino.name + '</div>';
+            	dinoPanel.href += '?' + dino.name.toLowerCase();
+                
+            	video = videos.items[Math.floor(Math.random() * videos.items.length)];
+            	try {
+                    if(new Date() < new Date("1/21/2014")){
+                        video = videos.items[0];
+                    }
+            	} catch(e) {}
+            	videoPanel.innerHTML = '<div class="panel-title">Featured Video</div><div class="screenshot"><img src="' + video.images["originalres_16x9"].url + '"/><img class="play-overlay" src="media/images/button_overlay_play.png" /></div><div class="panel-subtitle">' + video.title + '</div>';
+            	videoPanel.href += '?' + video.guid;
+            	
+            	pullDown();
+            });
+		} else {
+			var w	= getSize();
+			var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#9f4504');
+			obj.addParam('allowscriptaccess', 'always');
+			obj.addParam('FlashVars', "swf=dinosaurtrain/media/swfs/home_season2.swf&isHomepage=true&host="+getHost());
+			obj.write('main_content');
+			fixWidths(w);
+		}
+}{% endblock %}

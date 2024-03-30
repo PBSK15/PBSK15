@@ -1,0 +1,22 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Connect The World | PBS Kids' %}
+{% set desc = 'Learn about sports, flags, food, and instruments from around the world as you play a card game with Buster!' %}
+{% set keywds = 'Buster, game, world, culture, cards' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="connectbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="connectworld.html" target="_self"><img src="../../i/games/connect_splash.gif" width="550" height="395" border="0" alt="Play Connect the World"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/traveltales/index.html" id="rcTravelTales">Sue Ellen's Travel Tales</a></li>
+   <li><a href="/arthur/games/factsopinions/index.html" id="rcFactOpinion">Facts and Opinions</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

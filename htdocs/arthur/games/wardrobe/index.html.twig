@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Muffy\'s Wardrobe | PBS Kids' %}
+{% set desc = 'Dress Muffy in an appropriate outfit for the activivity of your choice. Make sure to give her a top, bottom, shoes, and an extra accessory for her head!' %}
+{% set keywds = 'fashion, style, dressing, wardrobe, Muffy, play' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-933">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="wardrobe.html" target="_self"><img src="../../i/games/wardrobe_splash.gif" width="619" height="397" border="0" alt="Play Muffy's Wardrobe"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/index.html" id="rcHoliday">Holiday</a></li>
+   <li><a href="/arthur/games/effectivedetective/index.html" id="rcDetective">Effective Detective</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,35 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Play Maker | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="playHeader">Play Maker</h4>
+   <p>I've been in a bunch of plays at my school, and I've got some expert advice on how you can put on a play of your own at home. Check this stuff out!</p>
+  </div>
+  <div id="printablesNavIcons">
+   <ul id="playNavIcons">
+    <li id="pmScript" class="icon"><a href="script.html"><span>Script</span></a></li>
+    <li id="pmProps" class="icon"><a href="props/index.html"><span>Props</span></a></li>
+    <li id="pmMasks" class="icon"><a href="masks/index.html"><span>Masks</span></a></li>
+    <li id="pmCostumes" class="icon"><a href="costumes.html"><span>Costumes</span></a></li>
+    <li id="pmTips" class="icon"><a href="tips/index.html"><span>Tips</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/comiccreator/index.html" id="rcComic">Comic Creator</a></li>
+   <li><a href="/arthur/games/poetry/index.html" id="rcPoetry">Poetry Nook</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

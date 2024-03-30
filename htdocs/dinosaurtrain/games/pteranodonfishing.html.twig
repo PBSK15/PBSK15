@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Pteranodon Fishing' %}
+{% set desc = 'Help Buddy and Tiny catch fish!  Learn how a Pteranodon dives down then scoops up fish to eat.  Then count along with Tiny to see how many fish you caught as a team!' %}
+{% set keywds = 'Fishing Games, science game for kids, flying dinosaur game, counting game, dinosaur game, pteranodon game, teamwork game, flying game, Buddy and Tiny game' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#9f4504')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/ptFishing.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

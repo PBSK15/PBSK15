@@ -1,0 +1,130 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Muffy\'s Photos Page | PBS Kids' %}
+{% set desc = 'View pictures of Muffy being fashionable, as always, and doing great things for the environment. She loves to recycle and garden!' %}
+{% set keywds = 'Muffy, pictures, photographs, fashionista, environmentally-friendly' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/muffy_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/muffy_top.swf", "muffy", "960", "363", "9", "#ffcccc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "muffy");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-muffy">Muffy's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/muffy4.jpg" width="354" height="250" alt="Muffy showing Fern her cell phone." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_muffy.gif" width="85" height="83" alt="The Brain avatar" border="0" id="avatar">
+    <h3>New gadgets are so fun!</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2></h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/muffy4.jpg" width="354" height="250" alt="Muffy showing Fern her cell phone." border="0" id="mainImg">
+       <h3>New gadgets are so fun!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/muffy5.jpg" width="354" height="250" alt="Muffy gardening." border="0" id="mainImg">
+       <h3>Gardening in style.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="thora-cmt"><a href="/arthur/friends/grandma/index.html">GRANDMA THORA</a>
+          <p>Why, I used to LOVE to garden...</p>
+         </div>
+         <div class="thora-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/muffy6.jpg" width="354" height="250" alt="Muffy wearing her hair over her eyes in the same way as Molly." border="0" id="mainImg">
+       <h3>That's ME under there! Muffy!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="fran-cmt"><a href="/arthur/friends/francine/index.html">FRANCINE</a>
+          <p>NO WAY!</p>
+         </div>
+         <div class="fran-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/muffy1.jpg" width="354" height="250" alt="Francine at the dump" border="0" id="mainImg">
+       <h3>Francine at the dump, where her dad works. That's a lot of trash! The more you recycle, the less trash there is.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/muffy2.jpg" width="354" height="250" alt="Binky collecting garbage at a park" border="0" id="mainImg">
+       <h3>Try not to create garbage. But if you do, please don't litter.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/muffy3.jpg" width="354" height="250" alt="Leftover carrots are added to the composter." border="0" id="mainImg">
+       <h3>We were throwing away too much food. So now I make Chef put vegetable peelings, egg shells - whatever he can - into our composter.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/wardrobe/index.html" id="rcWardrobe">Muffy's Wardrobe</a></li>
+   <li><a href="/arthur/print/cootiecatcher/index.html" id="rcCootie">Cootie Catcher</a></li> <!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

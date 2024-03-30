@@ -1,0 +1,124 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Site Credits' %}
+{% set desc = 'Website content, design, and production credits for The Jim Henson Company\\\'s Dinosaur Train.' %}
+{% set keywds = '\\\"dinosaur train website credits\\\"' %}
+
+
+{% block specialInclude %}{% endblock %}
+
+
+{% set onLoadEvent = 'onLoad();' %}
+{% set bodyClass = 'htmlPageBody' %}
+
+
+{% block loadContent %}
+
+ function getParameterByName(name)	{  
+name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");  
+var regexS = "[\\?&]" + name + "=([^&#]*)";  
+var regex = new RegExp(regexS);  
+var results = regex.exec(window.location.href);  
+if(results == null)
+
+return "";  
+else
+
+return decodeURIComponent(results[1].replace(/\+/g, " "));	}
+
+function loadContent(){
+
+isFlashEnabled(function(){
+
+
+fixWidths(getSize());
+
+}, function(){
+
+
+fixWidths(false, true);
+
+});	}{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="main_content" style="height: auto;">
+ <center>
+  <div class="htmlContentWrapper">
+   <center>
+    <span class="style1">Dinosaur Train Website Credits</span>
+   </center><br><br>
+   <div class="meetTheChars_box">
+    <h1 align="center"><strong>The Jim Henson Company</strong></h1>
+    <p align="center"><strong>Producer</strong></p>
+    <p align="center">Anna Jordan-Douglass</p>
+    <p align="center"><strong>Educational Advisor</strong></p>
+    <p align="center">Jordan D. Brown</p>
+    <p align="center"><strong>Special Thanks</strong></p>
+    <p align="center">Dr. Scott Sampson</p>
+    <p align="center">Ian James Corlett</p>
+    <p align="center">Philip Corlett</p>
+    <p align="center">Claire Corlett</p>
+    <p align="center">Alexander Marr</p>
+    <p align="center">Colin Murdock</p>
+    <p align="center">Kathleen Barr</p>
+    <p align="center">Grant Baciocco</p>
+    <p align="center"><br></p>
+    <h1 align="center"><strong>FableVision</strong></h1>
+    <p align="center"><strong>Executive Creative Director</strong></p>
+    <p align="center">Gary Goldberger</p>
+    <p align="center"><strong>Creative Director</strong></p>
+    <p align="center">Sharon Emerson</p>
+    <p align="center"><strong>Technical Director</strong></p>
+    <p align="center">Brian Grossman</p>
+    <p align="center"><strong>Art Director</strong></p>
+    <p align="center">Samantha Oliver</p>
+    <p align="center"><strong>Instructional Designers</strong></p>
+    <p align="center">Sharon Emerson</p>
+    <p align="center">Michael Rubin</p>
+    <p align="center"><strong>Lead Designer</strong></p>
+    <p align="center">Bob Flynn</p>
+    <p align="center"><strong>Artists</strong></p>
+    <p align="center">Allie Biondi</p>
+    <p align="center">Didi Mitova</p>
+    <p align="center">Hannah O’Neill</p>
+    <p align="center">Tami Wicinas</p>
+    <p align="center">Keith Zulawnik</p>
+    <p align="center"><strong>Developers</strong></p>
+    <p align="center">Jay LaCouture</p>
+    <p align="center">Ryan McNulty</p>
+    <p align="center">Neil Robbins</p>
+    <p align="center"><strong>Producer</strong></p>
+    <p align="center">Shannon Frederick Meneses</p>
+    <p align="center"><br></p>
+    <h1 align="center"><strong>Gopherwood Studios</strong></h1>
+    <p align="center"><strong>Creative Director</strong></p>
+    <p align="center">Todd Lewis</p>
+    <p align="center"><strong>Technical Director</strong></p>
+    <p align="center">Derek Detweiler</p>
+    <p align="center"><strong>Artist</strong></p>
+    <p align="center">Kayoko Nagashima</p>
+    <p align="center"><br></p>
+    <h1 align="center"><strong>PBS</strong></h1>
+    <p align="center"><strong>Associate Director, PBS KIDS Interactive</strong></p>
+    <p align="center">Nina Walia</p>
+    <p align="center"><strong>Senior Designer, PBS KIDS &amp; Parents</strong></p>
+    <p align="center">Malcolm Jones</p> <br>
+    <center>
+     <img src="/dinosaurtrain/media/images/parents_bottom.jpg">
+    </center>
+   </div>
+  </div>
+ </center>
+</div>{% endblock %}
+
+
+
+
+{% block specialBodyInclude %}
+
+
+{% block specialBody %}{% endblock %}
+
+{% endblock %}
+

@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Prunella\'s About Me Page | PBS Kids' %}
+{% set desc = 'Find out about Prunellas interests and favorite books on her profile page. Take a poll about the seeing in the future!' %}
+{% set keywds = 'Prunella, profile, interests, fortune teller' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/prunella_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/prunella_top.swf", "prunella", "960", "363", "9", "#ccffcc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "prunella");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="/arthur/friends/prunella/photos.html" class="photoWall p-prunella">Prunella's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Being best friends with Marina.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     When I hurt Francine's feelings at my birthday party.
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     When Marina read her Braille copy of Henry Skreever to me.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_cfc">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Would you like to see into the future?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/prunella/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="prunella"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/prunella_book1.jpg" width="148" height="117" alt="King Midas: A Golden Tale  book cover" border="0"> <h4>King Midas: A Golden Tale</h4> <p>by Omar Rayyan<br> A greedy king wishes that everything he touches would turn to gold. Find out what happens when his wish comes true.</p></li>
+    <li><img src="/arthur/i/friends/books/prunella_book2.jpg" width="148" height="117" alt="Pegasus  book cover" border="0"> <h4>Pegasus</h4> <p>by Marianna Mayer<br> Pegasus, the winged horse, is my favorite mythological beast. You'll love the pictures and the story.</p></li>
+    <li><img src="/arthur/i/1px.gif" width="148" height="117" alt="" border="0"> <h4>The Race of the Golden Apples</h4> <p>by Claire Martin<br> The princess Atalanta is the swiftest runner in the kingdom. She will only agree to marry a man who can outrun her.</p></li>
+    <li><img src="/arthur/i/1px.gif" width="148" height="117" alt="" border="0"> <h4>Wings</h4> <p>by Jane Yolen<br> This is the story of Daedalus and his son Icarus who build wings of wax and feathers and learn to fly.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Ask Prunella</a></li>
+   <li><a href="/arthur/print/cootiecatcher/index.html" id="rcCootie">Cootie Catcher</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

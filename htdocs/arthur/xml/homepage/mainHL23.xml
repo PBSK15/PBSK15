@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Lunch-o-matic</title>
+			<href>/arthur/games/lunchomatic/index.html</href>
+			<imgurl>/arthur/i/related/lunchomatic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Poetry Nook</title>
+			<href>/arthur/games/poetry/index.html</href>
+			<imgurl>/arthur/i/related/poetry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Stickerbook Mashup</title>
+			<href>/arthur/games/marthursticker/index.html</href>
+			<imgurl>/arthur/i/related/stickerbook.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sue Ellen's Travel Tales</title>
+			<href>/arthur/games/traveltales/index.html</href>
+			<imgurl>/arthur/i/related/traveltales.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy's Wardrobe</title>
+			<href>/arthur/games/wardrobe/index.html</href>
+			<imgurl>/arthur/i/related/wardrobe.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Play Maker</title>
+			<href>/arthur/print/playmaker/index.html</href>
+			<imgurl>/arthur/i/related/playmaker.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Lint Rush</title>
+			<href>/arthur/video/index.html?pid=msANwkSPX_1u6ScqaB_ldGGqoLroUFot</href>
+			<imgurl>/arthur/i/related/lintrush.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tales of Grotesquely Grim</title>
+			<href>/arthur/video/index.html?pid=67ptokFuv546f8Ul4PxEs9I9kZM887RQ</href>
+			<imgurl>/arthur/i/related/grotesquelygrim.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

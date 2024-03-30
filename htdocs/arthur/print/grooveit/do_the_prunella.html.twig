@@ -1,0 +1,47 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Groove It | PBS Kids' %}
+{% set desc = 'Do the Prunella! Dance the dance that Prunella created by following these movements in sequence. Print it out for easy following.' %}
+{% set keywds = 'dance, perform, cards, movement' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="grooveHeader">Groove It</h4></a>
+  <ul id="printSideNav">
+   <li><a href="howto.html"><span>How to Play</span></a></li>
+   <li><a href="cards.html"><span>Dance Cards</span></a></li>
+   <li><a href="music_player.html"><span>Music Player</span></a></li>
+   <li><a href="do_the_prunella.html" class="selected"><span>Do the "Prunella"</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left" id="grooveTitle">
+     <h1>Do the "Prunella"!</h1>
+     <p>Here's a dance Prunella made up. Try it yourself! Arrange your cards in the order shown here. (You'll need more than one copy of a few moves.) Try out the steps first, then perform this dance to the song I Don't Want to Wake Up on the <a href="music_player.html">Groove It Music Player</a>.</p>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+   </div>
+   <div class="page">
+    <img src="../../i/print/grooveit/do_the_prunella.gif" width="567" height="844" alt="prunella's dance steps; see d-link" longdesc="do_the_prunella_desc.html" border="0" class="groove-desc img"> <img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Songbook</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

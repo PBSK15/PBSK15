@@ -1,0 +1,50 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur\'s Songbook | PBS Kids' %}
+{% set desc = 'Read the lyrics and sing the theme song from ARTHUR! Hey!' %}
+{% set keywds = 'sheet music, singing, songbook, read, ARTHUR' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="songSHeader">Arthur's Songbook</h4></a>
+  <div id="songbookPlayer">
+   <ul id="printSideNav" class="songbookNav">
+    <li><a href="theme.html"><span>Theme Song</span></a></li>
+    <li><a href="librarycard.html"><span>Library Card</span></a></li>
+    <li><a href="luckypencil.html"><span>Lucky Pencil</span></a></li>
+    <li><a href="ufo.html" class="selected"><span>The UFO Song</span></a></li>
+    <li><a href="gotosleep.html"><span>Go to Sleep</span></a></li>
+    <li><a href="crazybus.html"><span>Crazy Bus</span></a></li>
+   </ul>
+   <script type="text/javascript">			   var fo = new SWFObject("../../media/games/songbook_player.swf", "songbook", "262", "283", "9","#ffffcc");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   fo.addVariable("title", "theme");			  			   fo.write("songbookPlayer");			</script>
+  </div>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>ARTHUR Theme Song</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+   </div>
+   <div id="songbookContent">
+    <div class="page"><img src="../../i/games/songbook/themesong.gif" width="537" height="738" alt="Arthur Theme song sheet music" border="0" class="img songbook"> <img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/print/grooveit/index.html" id="rcGrooveIt">Groove It!</a></li>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

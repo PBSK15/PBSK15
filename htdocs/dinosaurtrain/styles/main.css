@@ -1,0 +1,1024 @@
+@font-face {
+  font-family: 'dino-font';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/dino-font.ttf');
+}
+@font-face {
+  font-family: 'dino-font';
+  font-style: normal;
+  font-weight: normal;
+  src: url(https://:/) format("No-IE-404"), url('../fonts/dino-font.ttf') format('truetype');
+}
+
+body {
+	font-family: arial;
+	color: #646464;
+	background-color: #d97825;
+	margin: 0px;
+	padding: 0px;
+	font-size: 19pt;
+	text-align:center;
+}
+
+body.mobile > center, body.tablet-960 > center, body.tablet-1100 > center {
+    background: url(../media/images/bg.jpg) 50% 50%;
+    background-size: cover;
+}
+
+body.tablet-960 > center {
+width: 960px;
+margin: auto;
+}
+body.tablet-1100 > center {
+width: 1100px;
+margin: auto;
+}
+
+/* HTML5 block-level reset for enhanced structural tag support in older browsers */
+header, footer, section, aside, nav, article, figure {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.htmlPageBody {
+	font-family: arial;
+	color: #646464;
+	background-color: #d97825;
+	/*background-image: url("/dinosaurtrain/media/images/bkgPtn.gif");*/
+	margin: 0px;
+	padding: 0px;
+}
+table {
+	font-family: arial;
+	text-align: left;
+	border-spacing: 0;
+}
+td {
+padding: 0;
+}
+.main_footer {
+	font-size: 10pt;
+	margin-top: 20px;
+	text-align: center;
+}
+.main_footer a, a:active, a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+.main_footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+a img { border: none; }
+.meetTheChars_box {
+	width: 100%;
+	text-align: left;
+	font-size: 11pt;
+	margin: 5px;
+}
+h1 {
+	font-size: 13pt;
+	color: #f37901;
+}
+.meetTheChars_box .left {
+	float: left;
+	padding: 25px;
+}
+.meetTheChars_box .right {
+	float: right;
+	padding: 25px;
+}
+.htmlContentTable {
+	background-color: #9f4504;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.htmlContentWrapper {
+	background-color: white;
+	width: 620px;
+	padding: 40px;
+	padding-bottom: 0px;
+	text-align: left;
+	margin:0px;
+}
+
+.flex .htmlContentWrapper {
+width: 90%;
+padding: 10% 5% 0 5%;
+}
+
+.flex .htmlContentWrapper img {
+width: 50%;
+}
+
+.htmlPage_title {
+	text-align: center;
+	color: #2d6394;
+}
+.leafList {
+	list-style-image: url("/dinosaurtrain/media/images/leafList.gif");
+}
+
+/* This is the main flash window */
+div#main_content {
+	background-color: #9f4504;
+	height: 440px;
+	text-align: center;
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+.mobile div#main_content {
+	background-color: transparent;
+}
+
+.tuneIn {
+	font-size: 10pt;
+	color: white;
+	text-align: center;
+	float: left;
+	padding-top: 30px;
+	margin-left: 10px;
+}
+.tuneIn a {
+	color: #06424a;
+}
+
+.fund-block {
+float: left;
+margin-left: 30px;
+height: 100px;
+vertical-align: bottom;
+}
+
+.nonFlashBox {
+	background-image: url("/dinosaurtrain/media/images/nonFlashBKG.jpg");
+	background-repeat: no-repeat;
+	width: 620px;
+	height: 289px;
+	padding: 35px;
+	font-size: 12pt;
+	text-align: center;
+}
+.nonFlashBox h2 {
+	font-size: 15pt;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+	text-align: center;
+}
+.nonFlashBox a {
+	color: #9F4504;
+}
+
+div#bottom-back {
+	/*background-image: url("/dinosaurtrain/media/images/bottom_nav_background.png");*/
+	/*background-repeat: no-repeat; */
+	height: 88px; /* 188px; */
+	/* width:1100px; */
+    /*center for NT footer*/
+    text-align: center;
+}
+div#bottom-back2 {
+	/*background-color: #c15f18;*/
+	height: 210px;
+}
+.mobilify div#bottom-back2 {
+    height: initial;
+}
+.mobilify div#bottom-center-bottom2 {
+width: 100%;
+text-align:center;
+height:initial;
+}
+.mobilify div#bottom-center-bottom2 > div {
+float: none;
+display: inline-block;
+margin-top: 15px;
+}
+div#bottom-center-bottom {
+	text-align: center;
+	padding-top: 10px;
+}
+div#bottom-center-bottom2 {
+	color: white;
+	font-size: 9pt;
+	width: 790px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+p#copy-text {
+	color: white;
+	font-size: 9pt;
+}
+/*
+div#bottom-right {
+	background-repeat: no-repeat;
+	background-position: top left;
+	text-align: center;	 
+	width: 205px;
+	position: relative;
+	display: block;
+	float: left;
+	padding-top: 1px;
+	font-size: 0.5em;
+	color: white;
+}
+*/
+div#bottom-right-inner2 {
+	margin-top:10px;
+}
+div#bottom-left {
+	/* background-image: url("/dinosaurtrain/media/images/bottomNav_22.jpg"); */
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 187px;
+	width:460px; /*260px; */
+    /*center for NT footer*/
+    text-align: center;
+	position:relative;
+	float:left;
+	padding-top:10px;
+}
+/*
+div#bottom-center {
+	width:600px;
+	margin-left: 10px;
+	position:relative;
+	float:left;
+	margin-right:10px;
+}
+*/
+div#bottom-center {
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	display: block;
+}
+#ios-img {
+	width: 600px;
+	margin-bottom: 0px;
+}
+div#top-left {
+	background-image: url("/dinosaurtrain/media/images/topNav_01.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	height: 123px;
+}
+div#top-right {
+	background-image: url("/dinosaurtrain/media/images/topNav_12.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 123px;
+}
+
+/* SPONSOR footer */
+.sponsor_footer_text {
+		margin-top: 40px;
+        font-size: 11pt;
+        padding: 5px 30px 5px 30px;
+        color: white;
+        background-color: #D97825;
+        text-align: center;
+        width: 960;
+}
+.sponsor_footer_logos {
+        padding: 15px 0px 5px 0px;
+        text-align: center;
+        background-color: #D97825;
+}
+
+header {
+	height: 4.8em;
+	background-image:url(../media/images/header-bg.jpg);
+	text-align: left;
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	margin: auto;
+	position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+header.no-print.home-page {
+box-shadow: 0 1.3em 1em -1em rgba(51,0,0,0.5);
+}
+
+.desktop-960 header, .tablet-960 header {
+	width: 960px;
+}
+
+.desktop-1100 header, .tablet-1100 header {
+	width: 1100px;
+	background-size: 100% 100%;
+}
+
+.desktop-960 #bottom-right {width: 170px;}
+.desktop-960 #bottom-left  {width: 170px;}
+.desktop-960 #bottom-back  {width: 960px;/* background: url('/dinosaurtrain/media/images/bottom_nav_background_960.png') no-repeat;*/}
+
+.desktop-1100 #bottom-right {width: 510px; /*205px;*/}
+.desktop-1100 #bottom-left  {width: 260px;}
+.desktop-1100 #bottom-back  {width: 1100px;/* background: url('/dinosaurtrain/media/images/bottom_nav_background.png') no-repeat;*/}
+
+header.mobilify {
+    font-size: 0.5em;
+}
+
+header.mobilify.home-page {
+	font-size: 1em;
+	overflow: visible;
+}
+
+div#main_content.mobilify {
+    font-size: 0.8em;
+}
+
+footer.mobilify {
+	font-size: 0.7em;
+}
+
+#main_content.flex.game-page, .tablet-960 #main_content.game-page, .tablet-1100 #main_content.game-page {
+background: url(../media/images/bg-games.jpg) 50% 100% repeat-y;
+box-shadow: 0 1em 3em rgba(0, 0, 0, 0.5), inset 0 -1em 3em rgba(0, 0, 0, 0.5);
+}
+
+
+header ul {
+list-style: none;
+display: inline-block;
+float: right;
+width: auto;
+margin: 0 3em 0 0;
+padding: 0;
+font-size: 0.7em;
+text-shadow: 0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227,0 0 0.3em #1B8227;
+font-family: dino-font, trebuchet ms, arial;
+text-align: center;
+}
+
+header.flex ul {
+margin: 0 1.2em 0 0;
+}
+
+header.mobilify ul {
+    font-size: 0.7em;
+}
+
+header.mobilify.home-page ul {
+    display: none;
+}
+
+header li {
+display: inline-block;
+height: 5.4em;
+width: 10.6em;
+vertical-align: bottom;
+background-image: url('../media/images/leaves.png');
+background-position: 0 3%;
+background-size:100%;
+margin: 0 -3.3em 1.8em 0;
+background-repeat: no-repeat;
+}
+
+header.flex li {
+margin: 0 -4.5em 1.8em 0;
+}
+
+header li:nth-child(even), header.field-guide-page li:nth-child(odd), header.print-page li:nth-child(odd){
+background-position: 0 46%;
+}
+header li:nth-child(odd), header.field-guide-page li:nth-child(even), header.print-page li:nth-child(even){
+background-position: 0 3%;
+}
+
+header.flex ul li.current-page {
+margin: 0 -4em 0.6em -0.6em;
+}
+header ul li.current-page, header.field-guide-page li.current-page, header.print-page li.current-page {
+font-size: 1.2em;
+margin: 0 -3em 0.6em -1em;
+background-position: 0.3em 97%;
+text-shadow: 0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff,0 0 0.3em #fff;
+}
+header ul li.current-page a {
+color: #1B8227;
+}
+
+header li a {
+	margin: -0.8em 2.3em 0 0;
+	display:  block;
+}
+
+header.flex li a {
+    margin: -0.8em 2.3em 0 0;
+}
+
+.home-page.mobilify #dinosaur-train-logo {
+margin-left: -3em;
+left: 50%;
+position: absolute;
+}
+
+#pbs-kids-logo img {
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0 1em 1.9em 1.3em;
+}
+
+.flex #pbs-kids-logo img {
+    margin: 0 0.3em 1.9em 0.5em;
+}
+
+#dinosaur-train-logo img {
+	width: 5.1em;
+}
+
+.home-page.mobilify #dinosaur-train-logo img {
+width: 6em;
+}
+
+header .icon {
+	width: 5.9em;
+	height: 3.85em;
+	background-image: url(../media/images/icons.png);
+	background-size: 400% 200%;
+	margin: 1.6em auto -0.3em auto;
+	display: block;
+}
+
+.no-print .printer-capable {
+	display: none;
+}
+
+#games-link .icon {
+	background-position: 0 0;
+}
+#games-link:hover .icon, #games-link:active .icon, .game-page #games-link .icon {
+    background-position: 0 100%;
+}
+#guide-link .icon {
+	background-position: 33.333% 0;
+}
+#guide-link:hover .icon, #guide-link:active .icon, .field-guide-page #guide-link .icon {
+	background-position: 33.333% 100%;
+}
+#print-link .icon {
+    background-position: 66.667% 0;
+}
+#print-link:hover .icon, #print-link:active .icon, .print-page #print-link .icon {
+    background-position: 66.667% 100%;
+}
+#video-link .icon {
+    background-position: 100% 0;
+}
+#video-link:hover .icon, #video-link:active .icon, .video-page #video-link .icon {
+    background-position: 100% 100%;
+}
+
+footer {
+margin: auto;
+background: #d97825 url(../media/images/footer-bg.jpg);
+visibility: hidden;
+}
+
+#footer-tab {
+	display: none;
+}
+
+center {
+overflow: hidden;	
+}
+
+footer.flex {
+position: relative;
+margin-top: -13em;
+box-shadow: 0 0 0.4em #000;
+z-index: 1;
+-webkit-transform: translateY(100%);
+-moz-transform: translateY(100%);
+-ms-transform: translateY(100%);
+-o-transform: translateY(100%);
+transform: translateY(100%);
+-webkit-transition: -webkit-transform 0.5s ease-in-out;
+-moz-transition: -moz-transform 0.5s ease-in-out;
+-ms-transition: -ms-transform 0.5s ease-in-out;
+-o-transition: -o-transform 0.5s ease-in-out;
+transition: transform 0.5s ease-in-out;
+}
+footer.flex.showing {
+-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+-ms-transform: translateZ(0);
+-o-transform: translateZ(0);
+transform: translateZ(0);
+}
+
+.flex #footer-tab {
+display: block;
+position: absolute;
+top: -1.6em;
+background: #FFF6DD;
+height: 1.5em;
+width: 7em;
+right: 1.5em;
+border-radius: 0.5em 0.5em 0 0;
+border-right: 0.15em solid #C26018;
+border-left: 0.15em solid #C26018;
+border-top: 0.15em solid #C26018;
+color: #C26018;
+font-family: dino-font, trebuchet ms, arial, sans-serif;
+box-shadow: 0.1em 0.1em 0.4em #000;
+cursor: pointer;
+}
+
+.flex.showing #footer-tab {
+box-shadow: 0 -0.2em 0.4em 0em rgba(0,0,0,0.5);
+}
+
+#footer-tab span {
+margin: 0.2em 0 0 0;
+display: inline-block;
+font-size: 0.9em;
+}
+
+.flex #ios-link img {
+width: 94%;
+max-width: 600px;
+margin-bottom: 0;
+}
+
+.flex div#bottom-back {
+background: none;
+height: initial !important;
+position: relative;
+}
+
+.flex div#bottom-left {
+position: static;
+height: auto;
+width: 100%;
+}
+
+.flex #bottom-left div {
+position: absolute;
+width: 33%;
+display: block;
+right: 1%;
+bottom: 0;
+}
+.flex #bottom-left div.tuneIn {
+right: auto;
+left: 1%;
+height: 79px;
+}
+.flex.mobilify #bottom-left div {
+	display: none;
+}
+
+.flex div#bottom-center {
+width: 100%;
+margin: 0;
+}
+
+.flex #bottom-center-top img {
+width: 25%;
+height: auto;
+}
+
+#topNavSFX {display: none;}
+
+.flex div#bottom-right {
+padding: 0;
+float: none;
+position: static;
+margin: auto;
+}
+
+
+/* MENU STYLE */
+div#main_content.flex {
+height: initial;
+}
+
+ul.button-menu {
+margin: auto;
+list-style: none;
+align-items: center;
+justify-content: center;
+padding: 0;
+}
+
+.home-page ul.button-menu {
+    display: none;
+    padding-top: 1em;
+}
+.home-page.mobilify ul.button-menu {
+    display: block;
+}
+
+.home-page .tablet-panel {
+    display: block;
+}
+.home-page.mobilify .tablet-panel {
+    display: none;
+}
+
+.game-page ul.button-menu {
+margin: 0;
+padding: 1.5em 0em;
+background: url(../media/images/bg-games.jpg) 50% 100% repeat-y;
+box-shadow: 0 1em 3em rgba(0, 0, 0, 0.5), inset 0 -1em 3em rgba(0, 0, 0, 0.5);
+}
+
+ul.button-menu li {
+display: block;
+min-width: 7em;
+position: relative;
+margin: 0.4em;
+}
+.game-page ul.button-menu li {
+display: inline-block;
+margin: 0 2em;
+}
+.button-menu a.menu-button {
+display: block;
+height: 2.7em;
+width: 4.8em;
+border-radius: 0.5em;
+border: 0.1em solid #08396A;
+color: #FFF6DD;
+text-shadow: 0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A,0 0 0.1em #08396A;
+font-family: dino-font, trebuchet ms, arial, sans-serif;
+box-shadow: 0.1em 0.1em 0.4em #000;
+cursor: pointer;
+font-size: 1.5em;
+line-height: 1em;
+text-align: left;
+padding: 0.4em 2.8em 0 0.4em;
+margin: auto;
+
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    -moz-transition: -moz-transform 0.1s ease-in-out;
+    -ms-transition: -ms-transform 0.1s ease-in-out;
+    -o-transition: -o-transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+
+}
+
+/*
+@keyframes bobble
+{
+from {transform: scale(1,1);}
+10% {transform: scale(1.05, 1);}
+40% {transform: scale(0.95, 1);}
+50% {transform: scale(1, 1);}
+60% {transform: scale(1, 1.05);}
+90% {transform: scale(1, 0.95);}
+to {transform: scale(1,1);}
+}
+
+@-webkit-keyframes bobble
+{
+from {-webkit-transform: scale(1,1);}
+10% {-webkit-transform: scale(1.05, 1);}
+40% {-webkit-transform: scale(0.95, 1);}
+50% {-webkit-transform: scale(1, 1);}
+60% {-webkit-transform: scale(1, 1.05);}
+90% {-webkit-transform: scale(1, 0.95);}
+to {-webkit-transform: scale(1,1);}
+}
+*/
+@keyframes bobble
+{
+from {transform: scale(1,1);}
+90% {transform: scale(1, 1);}
+92% {transform: scale(1.05, 1.05);}
+94% {transform: scale(0.95, 0.95);}
+96% {transform: scale(1.03, 1.03);}
+98% {transform: scale(0.97, 0.97);}
+to {transform: scale(1,1);}
+}
+
+@-webkit-keyframes bobble
+{
+from {-webkit-transform: scale(1,1);}
+90% {-webkit-transform: scale(1, 1);}
+92% {-webkit-transform: scale(1.05, 1.05);}
+94% {-webkit-transform: scale(0.95, 0.95);}
+96% {-webkit-transform: scale(1.03, 1.03);}
+98% {-webkit-transform: scale(0.97, 0.97);}
+to {-webkit-transform: scale(1,1);}
+}
+
+a.game-button {
+	display: block;
+    position: relative;
+
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    -moz-transition: -moz-transform 0.1s ease-in-out;
+    -ms-transition: -ms-transform 0.1s ease-in-out;
+    -o-transition: -o-transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+    
+    -webkit-animation: bobble 18s infinite;
+    animation: bobble 18s infinite;
+}
+
+.game-cover {
+display: block;
+height: 4.4em;
+width: 8em;
+border-radius: 0.5em;
+border: 0.1em solid #08396A;
+box-shadow: 0.1em 0.1em 0.4em #000;
+cursor: pointer;
+font-size: 1.5em;
+margin: 0.7em auto 2.2em auto;
+position: relative;
+background-size: cover;
+}
+
+.play-tab {
+display: block;
+bottom: -1.5em;
+width: 5em;
+margin: 0 0 0 -1.2em;
+height: 1.7em;
+left: 50%;
+color: #FFF6DD;
+background: #75C000;
+border: 0.1em solid #08396A;
+text-shadow: 0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD,0 0 0.1em #FFF6DD;
+font-family: dino-font, trebuchet ms, arial, sans-serif;
+box-shadow: 0.05em 0.05em 0.4em #000;
+cursor: pointer;
+font-size: 1.5em;
+line-height: 2.1em;
+border-radius: 0 0 1.3em 1.3em;
+position: absolute;
+-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+-ms-transform: translateZ(0);
+-o-transform: translateZ(0);
+transform: translateZ(0);
+-webkit-transition: -webkit-transform 0.5s ease-in-out;
+-moz-transition: -moz-transform 0.5s ease-in-out;
+-ms-transition: -ms-transform 0.5s ease-in-out;
+-o-transition: -o-transform 0.5s ease-in-out;
+transition: transform 0.5s ease-in-out;
+}
+
+a.game-button:hover .play-tab, a.game-button:active .play-tab {
+    -webkit-transform: translateX(-1.3em);
+    -moz-transform: translateX(-1.3em);
+    -ms-transform: translateX(-1.3em);
+    -o-transform: translateX(-1.3em);
+    transform: translateX(-1.3em);
+}
+
+.button-menu a.menu-button:hover, .button-menu a.menu-button:active, a.game-button:hover, a.game-button:active {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+
+-webkit-animation: none;
+animation: none;
+}
+
+a.games {
+background: url(../media/images/main-menu.jpg) 50% 0;
+background-size: 100%;
+}
+
+a.field-guide {
+background: url(../media/images/main-menu.jpg) 50% 50%;
+background-size: 100%;
+}
+
+a.videos {
+background: url(../media/images/main-menu.jpg) 50% 100%;
+background-size: 100%;
+}
+
+/* GAME BUTTONS */
+
+a.game-buddysamazingadventure {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+a.game-buddysamazingadventure .play-tab {
+border: 0.1em solid rgb(254, 153, 0);
+color: rgb(254, 153, 0);
+background: rgba(254, 153, 0, 0.6);
+}
+a.game-buddysamazingadventure .game-cover {
+background-image: url(../media/images/promo-buddysamazingadventure-620.jpg);
+border: 0.1em solid #FE9900;
+}
+
+a.game-riverrun {
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+a.game-riverrun .play-tab {
+border: 0.1em solid rgb(117, 192, 0);
+color: rgb(117, 192, 0);
+background: rgba(117, 192, 0, 0.6);
+}
+a.game-riverrun .game-cover {
+background-image: url(../media/images/promo-riverrun-620.jpg);
+border: 0.1em solid #75C000;
+}
+
+
+a.game-stationrace {
+    animation-delay: 9s;
+    -webkit-animation-delay: 9s;
+}
+a.game-stationrace .play-tab {
+border: 0.1em solid rgb(134, 20, 15);
+color: rgb(134, 20, 15);
+background: rgba(134, 20, 15, 0.6);
+}
+a.game-stationrace .game-cover {
+background-image: url(../media/images/promo-stationrace-620.jpg);
+border: 0.1em solid rgb(134, 20, 15);
+}
+
+
+/* HOME PAGE TABLET VERSION */
+.tablet-panel {
+background: url(../media/images/bg-games.jpg) 50% 100% repeat-y;
+box-shadow: 0 1em 3em rgba(0, 0, 0, 0.5), inset 0 -1em 3em rgba(0, 0, 0, 0.5);
+}
+.home-page .tablet-panel .button-menu {
+display: block;
+font-size: 0.75em;
+margin: 0;
+width: 50%;
+padding: 1em 0;
+}
+
+#guide-button, #video-button {
+display: block;
+position: absolute;
+top: 0;
+right: 6%;
+width: 50%;
+background: url(../media/images/pull-down.png) 50% 100% no-repeat;
+background-size: 100%;
+padding: 0 0 4.5em 0;
+-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+-ms-transform: translateZ(0);
+-o-transform: translateZ(0);
+transform: translateZ(0);
+-webkit-transition: -webkit-transform 1s ease-in-out;
+-moz-transition: -moz-transform 1s ease-in-out;
+-ms-transition: -ms-transform 1s ease-in-out;
+-o-transition: -o-transform 1s ease-in-out;
+transition: transform 1s ease-in-out;
+}
+
+.flex #guide-button, .flex #video-button {
+font-size: 0.7em;
+right: 2%;
+}
+
+#video-button.hiding, #guide-button.hiding {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+#guide-button .panel-title {
+margin-top: 1.5em;
+}
+.panel-title {
+font-family: dino-font, trebuchet ms, sans-serif;
+color: #9F4504;
+margin: 0.4em;
+}
+.panel-subtitle {
+font-family: dino-font,trebuchet ms,sans-serif;
+font-size: 1.6em;
+color: #FF6600;
+text-shadow: 0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff,0 0 0.1em #fff;
+padding: 0 0.6em;
+line-height: 1em;
+}
+#video-button .panel-subtitle {
+font-size: 1.4em;
+}
+#guide-button img {
+-webkit-transform: scale(-1,1);
+-moz-transform: scale(-1,1);
+-ms-transform: scale(-1,1);
+-o-transform: scale(-1,1);
+transform: scale(-1,1);
+background: url(../media/images/dino-decor.png) 50% 50% no-repeat;
+background-size: contain;
+}
+#guide-button img, #video-button img {
+width: 80%;
+}
+#video-button img {
+border: 0.2em solid #fff;
+border-radius: 1em;
+width: 70%;
+}
+
+
+
+/* HOME PAGE ANIMATIONS */
+
+/* SIBLINGS */
+.sibling-right, .sibling-left {
+position: absolute;
+width: 7.5em;
+height: 10.1em;
+bottom: -1.5em;
+pointer-events: none;
+}
+
+.too-small .sibling-right, .too-small .sibling-left {
+	display: none;
+}
+
+.sibling-left {
+left: -1em;
+}
+
+.sibling-right {
+right: 0;
+-webkit-transform: scale(-1,1);
+-moz-transform: scale(-1,1);
+-ms-transform: scale(-1,1);
+-o-transform: scale(-1,1);
+transform: scale(-1,1);
+}
+
+.tablet-960 .sibling-right, .tablet-1100 .sibling-right {
+right: -2em;
+}
+
+.shiny {
+    background: url(../media/images/siblings.png) 0 0 no-repeat;
+    background-size: 400%;
+}
+.buddy {
+    background: url(../media/images/siblings.png) 33.333% 0 no-repeat;
+    background-size: 400%;
+}
+.don {
+    background: url(../media/images/siblings.png) 66.667% 0 no-repeat;
+    background-size: 400%;
+}
+.tiny {
+    background: url(../media/images/siblings.png) 100% 0 no-repeat;
+    background-size: 400%;
+}
+
+#video-button > div.screenshot {
+position: relative;
+}
+#video-button > div.screenshot > img.play-overlay {
+position: absolute;
+display: block;
+top: 50%;
+left: 50%;
+width: 4em;
+height: 4em;
+margin: -2em 0 0 -2em;
+border: 0;
+}
+
+.hide-items {
+	visibility: hidden;
+}
+
+.footer-links {
+	font-size: 0.5em; color: white; text-align: center; background-color: #D97825; margin-top: 1em; clear: both;
+}

@@ -1,0 +1,22 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Buster\'s Movie Maker | PBS Kids' %}
+{% set desc = 'Buste tells you what kind of movie he wants, then you help make it better! Choose different things to happen in Busters movie to fix it!' %}
+{% set keywds = 'movie, cinema, kids, genre, soundtrack, play' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="moviebg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="moviemaker.html" target="_self"><img src="../../i/games/movie_splash.gif" width="613" height="432" border="0" alt="Play Buster's Movie Maker"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/print/playmaker/index.html" id="rcPlayMaker">Play Maker</a></li> <!--<li><a href="/arthur/video/games.html?pid=GEdWvpk_jyj2meMLgobbVVf8pP6z_NBg" id="rcSceneSwitcher">Scene Switcher</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

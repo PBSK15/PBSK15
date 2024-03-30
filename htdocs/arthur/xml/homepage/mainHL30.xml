@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Ask Prunella</title>
+			<href>/arthur/games/askprunella/index.html</href>
+			<imgurl>/arthur/i/related/askprunella.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Connect the World</title>
+			<href>/arthur/games/connectworld/index.html</href>
+			<imgurl>/arthur/i/related/connect.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Art Gallery</title>
+			<href>/arthur/games/artgallery/index.html</href>
+			<imgurl>/arthur/i/related/gallery.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Green Challenge</title>
+			<href>/arthur/games/gogreen/index.html</href>
+			<imgurl>/arthur/i/related/gogreen.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Hey, Francine</title>
+			<href>/arthur/games/heyfrancine/index.html</href>
+			<imgurl>/arthur/i/related/heyfrancine.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Prunella and the Haunted Locker</title>
+			<href>/arthur/video/index.html?pid=MZvMaQgzKUCM7XM5dfS7SHGwlzDDfFx_</href>
+			<imgurl>/arthur/i/related/hauntedlocker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Matchmaker Matchbreaker</title>
+			<href>/arthur/video/index.html?pid=VmnHqSmhilnv6s5VrEhvyFktuvX5sQDL</href>
+			<imgurl>/arthur/i/related/matchmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Room To Ride</title>
+			<href>/arthur/video/index.html?pid=CzGhWX80_TK8ceDD4yDXoltE4E4u0Uew</href>
+			<imgurl>/arthur/i/related/roomtoride.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<game>
+	
+	<!-- Any files that need to be preloaded, add them here -->
+	<assetList>
+		<!-- crystalCaveAssets is built from CrystalCavesSecondaryAssets.fla and is loaded in the background while level 1 is played -->
+		<sorting id="sortingAudio" url="crystalCavesAssets.swf" domain="same"/>
+	</assetList>
+	
+	<tracking enabled="true">
+		<track id="iphone_screen" 			category="GEMHUNT" action="screen_change" 	label="iphone_screen" value="" /> 
+		<track id="ipad_screen" 			category="GEMHUNT" action="screen_change" 	label="ipad_screen" value="" /> 
+		<track id="iphone_parent_link" 		category="GEMHUNT" action="external_link" 	label="iphone_parent_link" value="" /> 
+		<track id="ipad_parent_link" 		category="GEMHUNT" action="external_link" 	label="ipad_parent_link" value="" /> 
+		<track id="video_link" 				category="GEMHUNT" action="external_link" 	label="video_link" value="" /> 		
+		
+		<track id="play" 					category="GEMHUNT" action="play" 			label="play" value="" /> 
+		<track id="print" 					category="GEMHUNT" action="print_success" 	label="print_success" value="" /> 
+		<track id="play_again" 				category="GEMHUNT" action="play" 			label="play_again" value="" /> 
+		<track id="next_level" 				category="GEMHUNT" action="continue" 		label="next_level" value="" /> 
+		<track id="print_ipad" 				category="GEMHUNT" action="print" 			label="print_ipad" value="" /> 
+		<track id="print_iphone" 			category="GEMHUNT" action="print" 			label="print_iphone" value="" /> 
+		<track id="print_level_1" 			category="GEMHUNT" action="print" 			label="print_level_1" value="" /> 
+		<track id="print_level_2" 			category="GEMHUNT" action="print" 			label="print_level_2" value="" /> 
+		<track id="print_level_3" 			category="GEMHUNT" action="print" 			label="print_level_3" value="" /> 
+		
+		<track id="valid_code_submitted" 	category="GEMHUNT" action="submit" 			label="valid_code_submitted" value="" /> 
+		<track id="invalid_code_submitted" 	category="GEMHUNT" action="submit" 			label="invalid_code_submitted" value="" /> 
+		
+		<track id="buddy_help" 				category="GEMHUNT" action="help" 			label="buddy_help" value="" /> 
+		
+		<track id="hunt_miss_total" 		category="GEMHUNT" action="hunt" label="hunt_miss_total" value="" /> 
+		<track id="hunt_miss_size" 			category="GEMHUNT" action="hunt" label="hunt_miss_size" value="" /> 
+		<track id="hunt_miss_color" 		category="GEMHUNT" action="hunt" label="hunt_miss_color" value="" /> 
+		<track id="hunt_miss_triangle" 		category="GEMHUNT" action="hunt" label="hunt_triangle_miss" value="" /> 
+		<track id="hunt_miss_circle" 		category="GEMHUNT" action="hunt" label="hunt_miss_circle" value="" /> 
+		<track id="hunt_miss_pentagon" 		category="GEMHUNT" action="hunt" label="hunt_miss_pentagon" value="" /> 
+		<track id="hunt_miss_square" 		category="GEMHUNT" action="hunt" label="hunt_miss_square" value="" /> 
+		
+		<track id="hunt_attempt_total" 		category="GEMHUNT" action="hunt" label="hunt_attempt_total" value="" /> 
+		<track id="hunt_attempt_triangle" 	category="GEMHUNT" action="hunt" label="hunt_attempt_triangle" value="" /> 
+		<track id="hunt_attempt_circle" 	category="GEMHUNT" action="hunt" label="hunt_attempt_circle" value="" /> 
+		<track id="hunt_attempt_pentagon" 	category="GEMHUNT" action="hunt" label="hunt_attempt_pentagon" value="" /> 
+		<track id="hunt_attempt_square" 	category="GEMHUNT" action="hunt" label="hunt_attempt_square" value="" /> 
+		
+		<track id="sort_miss_total" 		category="GEMHUNT" action="sort" label="sort_miss_total" value="" /> 
+		<track id="sort_miss_size_small" 	category="GEMHUNT" action="sort" label="sort_miss_size_small" value="" /> 
+		<track id="sort_miss_size_large" 	category="GEMHUNT" action="sort" label="sort_miss_size_large" value="" /> 
+		<track id="sort_miss_color" 		category="GEMHUNT" action="sort" label="sort_miss_color" value="" /> 
+		<track id="sort_miss_triangle" 		category="GEMHUNT" action="sort" label="sort_triangle_miss" value="" /> 
+		<track id="sort_miss_circle" 		category="GEMHUNT" action="sort" label="sort_miss_circle" value="" /> 
+		<track id="sort_miss_pentagon" 		category="GEMHUNT" action="sort" label="sort_miss_pentagon" value="" /> 
+		<track id="sort_miss_square" 		category="GEMHUNT" action="sort" label="sort_miss_square" value="" /> 
+		
+		<track id="sort_attempt_total" 		category="GEMHUNT" action="sort" label="sort_attempt_total" value="" /> 
+		<track id="sort_attempt_triangle" 	category="GEMHUNT" action="sort" label="sort_attempt_triangle" value="" /> 
+		<track id="sort_attempt_circle" 	category="GEMHUNT" action="sort" label="sort_attempt_circle" value="" /> 
+		<track id="sort_attempt_pentagon" 	category="GEMHUNT" action="sort" label="sort_attempt_pentagon" value="" /> 
+		<track id="sort_attempt_square" 	category="GEMHUNT" action="sort" label="sort_attempt_square" value="" /> 
+	</tracking>
+	
+	<gameSettings>
+		<ipadParentLinkURL>http://pbskids.org/mobile/all-aboard-the-dinosaur-train.html</ipadParentLinkURL>
+		<iphoneParentLinkURL>http://pbskids.org/mobile/dinosaur-train-camera-catch.html</iphoneParentLinkURL>
+		<videoLinkURL>http://pbskids.org/dinosaurtrain/videos/index.html?category=RTL-DINO</videoLinkURL>
+		
+		<scrollSpeed>50</scrollSpeed>
+		<parallaxSpeed>35</parallaxSpeed>
+		<crystalCount>6</crystalCount> <!-- only change for debugging. This should be 6 -->
+			
+		<codes>
+			<code printableID="ipad1" value="TRAIN456" />
+			<code printableID="iphone1" value="BUDDY123" />
+		</codes>
+	
+		<logTypes>
+			<log type="vo" display="false" color="#CC00FF"/>
+			<log type="vo2" color="#00AAFF"/>
+			<log type="phase" color="#0000AA"/>
+			<log type="buddyTalk" color="#0000AA"/>
+			<log type="gemClick" color="#0000AA"/>			
+		</logTypes>
+		
+		<!-- Each level is divided into phases. The phases are each unlocked by performance.
+			 If a child struggles to find the correct answer, the phase will decrease.
+			 phases determine what is allowed to be spawned. Each phase also has goal parameters
+			 indicating what the child is meant to find. Phases should be listed in order from easiest
+			 to hardest. The simplest phase is hard coded: where all crystals are the goal
+			 
+			 Additional level fields will be added later to direct the VO script.
+			 It might be good to code a string parser by comma delineation for multiple kudos
+			 <intro></intro>
+			 <kudos></kudos>
+			 <oops></oops>
+			 <correct></correct>
+			 <timeout></timeout>
+			 <win></win>
+			 
+			 Do we want ramping oops hints? or is it random? If ramping, we can use the order they are entered.
+			 
+			 Key:
+			 random - randomly selects from the nongoals, excluding the current goal parameter
+			 same - uses the current goal
+			 similar - uses the current goal some of the time, otherwise random
+			 any - uses any nongoal value
+		-->
+		<levels>
+			<level id="0"> </level>
+			<level id="1">
+				<squareIntro></squareIntro>
+				<circleIntro></circleIntro>
+				<goal>
+					<colorChangeRate>6</colorChangeRate>
+					<firstShape>Circle </firstShape>
+					<shape>Circle</shape>
+					<shape>Triangle</shape>
+					<shapeOrder>Circle</shapeOrder>
+					<shapeOrder>Circle</shapeOrder>
+					<shapeOrder>Circle</shapeOrder>
+					<shapeOrder>Triangle</shapeOrder>
+					<shapeOrder>Triangle</shapeOrder>
+					<shapeOrder>Triangle</shapeOrder>
+					<size>default</size>
+					<color>blue</color>
+				</goal>
+				<nongoals>							
+					<size>med</size>
+					<color>blue</color>
+					<shape>Triangle</shape>
+					<shape>Circle</shape>
+				</nongoals>
+				<phase>					
+					<shape>random</shape>
+					<size>any</size>
+					<color>same</color>
+				</phase>
+				<phase>	
+					<shape>random</shape>
+					<size>any</size>
+					<color>same</color>
+				</phase>				
+		<!--		 These phases are obsolete until level 3, since size is consistent
+				<phase>
+					<shape>same</shape>
+					<size>any</size>
+					<color>random</color>
+				</phase>				
+			
+				<phase>
+					<shape>same</shape>
+					<size>same</size>
+					<color>random</color>
+				</phase>			
+				<phase>
+					<shape>same</shape>
+					<size>random</size>
+					<color>same</color>
+				</phase> -->
+			</level>	
+			<level id="2">
+				<goal>
+					<colorChangeRate>3</colorChangeRate>
+					<firstShape>Square</firstShape>
+					<shapeOrder>Square</shapeOrder>
+					<shapeOrder>Square</shapeOrder>
+					<shapeOrder>Square</shapeOrder>
+					<shapeOrder>Pentagon</shapeOrder>
+					<shapeOrder>Pentagon</shapeOrder>
+					<shapeOrder>Pentagon</shapeOrder>
+					<size>default</size>
+					<color>random</color>
+				</goal>
+				<nongoals>							
+					<size>med</size>
+					<color>blue</color>
+					<color>green</color>
+					<color>orange</color>
+					<shape>Square</shape>
+					<shape>Circle</shape>
+					<shape>Triangle</shape>
+					<shape>Pentagon</shape>
+				</nongoals>
+				<phase>					
+					<shape>random</shape>
+					<size>any</size>
+					<color>random</color>
+				</phase>
+				<phase>	
+					<shape>random</shape>
+					<size>any</size>
+					<color>random</color>
+				</phase>				
+				<phase>
+					<shape>same</shape>
+					<size>any</size>
+					<color>random</color>
+				</phase>	
+				<!--
+				<phase>
+					<shape>same</shape>
+					<size>same</size>
+					<color>random</color>
+				</phase>			
+				<phase>
+					<shape>same</shape>
+					<size>random</size>
+					<color>same</color>
+				</phase>
+				-->
+			</level>	
+			<level id="3">
+				<goal>
+					<colorChangeRate>2</colorChangeRate>
+					<firstShape>Pentagon</firstShape>
+					<shapeOrder>Pentagon</shapeOrder>
+					<shapeOrder>Pentagon</shapeOrder>
+					<shapeOrder>Square</shapeOrder>
+					<shapeOrder>Square</shapeOrder>
+					<shapeOrder>Triangle</shapeOrder>
+					<shapeOrder>Triangle</shapeOrder>
+					<size>default</size>
+					<color>random</color>
+				</goal>
+				<nongoals>					
+					<size>lg</size>
+					<size>sm</size>
+					<color>blue</color>
+					<color>green</color>
+					<color>orange</color>
+					<shape>Square</shape>
+					<shape>Circle</shape>
+					<shape>Triangle</shape>
+					<shape>Pentagon</shape>
+				</nongoals>
+				<phase>					
+					<shape>random</shape>
+					<size>random</size>
+					<color>random</color>
+				</phase>
+				<phase>	
+					<shape>random</shape>
+					<size>any</size>
+					<color>random</color>
+				</phase>				
+				<phase>
+					<shape>same</shape>
+					<size>random</size>
+					<color>random</color>
+				</phase>				
+			<!--	<phase>
+					<shape>same</shape>
+					<size>same</size>
+					<color>random</color>
+				</phase>		-->	
+				<phase>
+					<shape>same</shape>
+					<size>random</size>
+					<color>same</color>
+				</phase>
+			</level>			
+		</levels>
+	</gameSettings>
+</game>

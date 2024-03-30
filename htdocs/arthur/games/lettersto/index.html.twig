@@ -1,0 +1,33 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letters To... | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr games">
+   <h4 id="letterstoHeader">Letters To...</h4>
+   <p>Want to write to Arthur or one of his friends? Well, you've come to the right place! Choose a friend to write to by clicking one of the buttons below. (For hints on how to write a letter, check out our <a href="../letterwriter/index.html">Letter Writer Helper</a>.</p>
+  </div>
+  <div id="gamesNavIcons">
+   <ul id="letterstoNavIcons">
+    <li id="letterArthur" class="icon"><a href="../letterstoarthur/index.html"><span>Letters To Arthur</span></a></li>
+    <li id="letterFran" class="icon"><a href="../heyfrancine/index.html"><span>Hey, Francine!</span></a></li>
+    <li id="letterSue" class="icon"><a href="../traveltales/index.html"><span>Sue Ellen's Travel Tales</span></a></li>
+    <li id="letterBrain" class="icon"><a href="../askbrain/index.html"><span>Ask the Brain</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/poetry/index.html" id="rcPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/print/braille/index.html" id="rcBraille">You've Got Braille</a></li>
+   <li><a href="/arthur/print/signdesign/index.html" id="rcSignDesign">Sign Design</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

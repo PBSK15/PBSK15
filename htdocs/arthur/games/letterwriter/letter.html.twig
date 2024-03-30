@@ -1,0 +1,125 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letter Writer Helper | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="letterwriterHeader">Letter Writer Helper</h4></a>
+  <ul id="printSideNav">
+   <li><a href="letter.html" class="selected"><span>Letter</span></a></li>
+   <li><a href="email.html"><span>E-mail</span></a></li>
+   <li><a href="greeting_card.html"><span>Greeting Card</span></a></li>
+   <li><a href="postcard.html"><span>Postcard</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Letter</h1>
+    </div>
+   </div>
+   <div id="grooveHowtoContent">
+    <p>If you want to write a long note, a letter is the best way to go. It's fun to write, and fun to receive. Take a look at the parts of a letter, then write your own.</p>
+    <p class="hint">Roll over the text below for more information.</p>
+    <div id="letter">
+     <dl class="below">
+      <dt>
+       August 3, 2011
+      </dt>
+      <dd>
+       <b>Date:</b> Shows when you wrote the letter.
+      </dd>
+      <dt>
+       Dear Buster,
+      </dt>
+      <dd>
+       <b>Greeting:</b> Says hello, and shows who you're writing to.
+      </dd>
+      <dt style="cursor: default; ">
+       Hey! I just saw your picture in the Elwood City Times. Totally cool! Of course, I guess that's what happens when you win the Annual Elwood City Pie-Eating Contest!
+      </dt>
+      <dd>
+       <b>Body:</b> Here's what you're telling the other person.
+      </dd>
+      <dt style="cursor: default; ">
+       So, how does it feel to be a celebrity? Do you have to wear dark glasses everywhere you go? If you do, be careful! Remember that thorn bush you crashed into last time? Ouch!
+      </dt>
+      <dd>
+       <b>Body:</b> For each new thing you talk about, start a new paragraph.
+      </dd>
+      <dt style="cursor: default; ">
+       Anyway, congratulations! I knew you could do it!
+      </dt>
+      <dd>
+       <b>Body:</b> Wrap up your note.
+      </dd>
+      <dt style="cursor: default; ">
+       Your proud friend, <br>Arthur
+      </dt>
+      <dd>
+       <b>Closing and Signature:</b> Says good-bye, and says who you are.
+      </dd>
+      <dt>
+       P.S. I think that next year you shouldn't eat a huge pancake breakfast just before the contest. You had me worried!
+      </dt>
+      <dd>
+       <b>Post Script:</b> Forget something? Add it to the end!
+      </dd>
+     </dl>
+    </div>
+    <div class="printable-nav">
+     <div class="print-title-left">
+      <h1>Envelope</h1>
+     </div>
+    </div>
+    <div id="envelope">
+     <div class="env" id="return">
+      <dl class="below">
+       <dt style="cursor: default; ">
+        Arthur Read<br>562 Main Street<br>Elwood City, USA
+       </dt>
+       <dd>
+        <b>Your Address:</b><br>Your full address goes in the top left corner.
+       </dd>
+      </dl>
+     </div>
+     <div class="env" id="address">
+      <dl class="below">
+       <dt style="cursor: default; ">
+        Buster Baxter <br>135 Elm Street <br>Elwood City, USA
+       </dt>
+       <dd>
+        <b>Your Friend's Address: </b><br>Your friend's full address goes in the middle.
+       </dd>
+      </dl>
+     </div>
+     <div class="env" id="stamp">
+      <dl>
+       <dt style="cursor: default; ">
+        <i>Stamp <br>goes <br>here</i>
+       </dt>
+       <dd>
+        <b>Stamp:</b> The stamp goes in the top right corner. This pays to have your letter sent.
+       </dd>
+      </dl>
+     </div>
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/print/braille/index.html" id="rcBraille">You've Got Braille</a></li>
+   <li><a href="/arthur/print/signdesign/index.html" id="rcSignDesign">Sign Design</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

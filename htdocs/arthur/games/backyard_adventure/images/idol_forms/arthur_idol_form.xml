@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c98b8e00a24c4c57412b818edb637565:b4cf58f117a8a0df5a7bb87685ca572a:bf83a368d2db3301555327e3e5355984$ -->
+<TextureAtlas imagePath="arthur_idol_form.png">
+    <SubTexture name="arthur_idol_form_00" x="1" y="1" width="504" height="340" frameX="-24" frameY="-43" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_01" x="506" y="1" width="474" height="328" frameX="-39" frameY="-47" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_02" x="981" y="1" width="444" height="314" frameX="-54" frameY="-53" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_03" x="1426" y="1" width="414" height="302" frameX="-69" frameY="-57" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_04" x="1" y="342" width="384" height="290" frameX="-84" frameY="-61" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_05" x="386" y="342" width="352" height="276" frameX="-101" frameY="-67" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_06" x="739" y="342" width="322" height="264" frameX="-116" frameY="-71" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_07" x="1062" y="342" width="292" height="252" frameX="-131" frameY="-75" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_08" x="1355" y="342" width="262" height="240" frameX="-146" frameY="-79" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_09" x="1618" y="342" width="232" height="228" frameX="-161" frameY="-84" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_10" x="1" y="633" width="202" height="216" frameX="-175" frameY="-88" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_11" x="204" y="633" width="170" height="202" frameX="-192" frameY="-94" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_12" x="375" y="633" width="140" height="190" frameX="-207" frameY="-98" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_13" x="516" y="633" width="110" height="178" frameX="-222" frameY="-102" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_14" x="627" y="633" width="80" height="164" frameX="-237" frameY="-108" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_15" x="708" y="633" width="78" height="160" frameX="-238" frameY="-112" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_16" x="787" y="633" width="82" height="168" frameX="-236" frameY="-108" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_17" x="870" y="633" width="86" height="176" frameX="-234" frameY="-104" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_18" x="957" y="633" width="92" height="184" frameX="-230" frameY="-100" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_19" x="1050" y="633" width="96" height="192" frameX="-228" frameY="-96" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_20" x="1147" y="633" width="100" height="200" frameX="-226" frameY="-92" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_21" x="1248" y="633" width="104" height="210" frameX="-224" frameY="-87" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_22" x="1353" y="633" width="108" height="218" frameX="-222" frameY="-83" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_23" x="1462" y="633" width="112" height="226" frameX="-220" frameY="-79" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_24" x="1575" y="633" width="116" height="234" frameX="-218" frameY="-75" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_25" x="1692" y="633" width="120" height="242" frameX="-216" frameY="-71" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_26" x="1813" y="633" width="124" height="252" frameX="-214" frameY="-66" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_27" x="1" y="886" width="128" height="260" frameX="-212" frameY="-62" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_28" x="130" y="886" width="132" height="268" frameX="-210" frameY="-58" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_29" x="263" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_30" x="400" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_31" x="537" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_32" x="674" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_33" x="811" y="886" width="136" height="278" frameX="-209" frameY="-55" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_34" x="948" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_35" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_36" x="1222" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_37" x="1359" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_38" x="1496" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_39" x="1633" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_40" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_41" x="1770" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_42" x="1907" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_43" x="1" y="1165" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_44" x="138" y="1165" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_45" x="275" y="1165" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_46" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_47" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_48" x="412" y="1165" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_49" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_50" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_51" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_52" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_53" x="1085" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="arthur_idol_form_54" x="263" y="886" width="136" height="276" frameX="-209" frameY="-54" frameWidth="550" frameHeight="400"/>
+</TextureAtlas>

@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Go Fetch | PBS Kids' %}
+{% set desc = 'Print out ARTHUR cards to play Go Fetch! (a version of Go Fish). ' %}
+{% set keywds = 'cards, game, play, go fish' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9fc">
+ <div class="ruler"></div>
+ <div class="print-instr">
+  <h4 id="fetchHeader">Go Fetch</h4>
+  <p>This is a game for 2 or more players.</p>
+  <p>Print two sets of cards and give each player 5 cards. The object is for you to collect pairs by asking another player for one to match yours. Don't let the other players see your cards!</p>
+  <p>If you have one Binky card, you need to find its match. So choose one other player and say, "Do you have Binky?"</p>
+  <p>If they do, they must give you their Binky card and you have a pair, which you set aside.</p>
+  <p>If they don't, they say "Go Fetch!" and you pick another card from the top of the stack. If you use up your hand by setting aside pairs, take another card from the top of the stack.</p>
+  <p>The winner has the most pairs at the end, when the stack is gone.</p>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Go Fetch</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-all">Print All Pages</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printGoFetch">
+    <li id="fetch1">
+     <div class="page">
+      <img src="../../i/print/fetch/fetchcard1.gif" width="486" height="582" alt="Fetch Card 1" border="0" class="fetch img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="fetch2">
+     <div class="page">
+      <img src="../../i/print/fetch/fetchcard2.gif" width="486" height="582" alt="Fetch Card 2" border="0" class="fetch img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="fetch3">
+     <div class="page">
+      <img src="../../i/print/fetch/fetchcard3.gif" width="486" height="582" alt="Fetch Card 3" border="0" class="fetch img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="fetch4">
+     <div class="page">
+      <img src="../../i/print/fetch/fetchcard4.gif" width="486" height="582" alt="Fetch Card 4" border="0" class="fetch img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="fetch5">
+     <div class="page">
+      <img src="../../i/print/fetch/fetchcard5.gif" width="486" height="582" alt="Fetch Card 5" border="0" class="fetch img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="fetch6">
+     <div class="page last">
+      <img src="../../i/print/fetch/fetchcard6.gif" width="486" height="582" alt="Fetch Card 6" border="0" class="fetch img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/pal/index.html" id="rcPal">Pal</a></li>
+   <li><a href="/arthur/print/crazybus/index.html" id="rcCrazyBus">Crazy Bus</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

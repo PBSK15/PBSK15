@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Connect the World</title>
+			<href>/arthur/games/connectworld/index.html</href>
+			<imgurl>/arthur/i/related/connect.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Don't Wake Kate</title>
+			<href>/arthur/games/dontwakekate/index.html</href>
+			<imgurl>/arthur/i/related/dwk.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Art Gallery</title>
+			<href>/arthur/games/artgallery/index.html</href>
+			<imgurl>/arthur/i/related/gallery.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Virtual Goose</title>
+			<href>/arthur/games/virtualgoose/index.html</href>
+			<imgurl>/arthur/i/related/goose.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got To Be Kidding</title>
+			<href>/arthur/games/yougottobekidding/index.html</href>
+			<imgurl>/arthur/i/related/kidding.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Falafelosophy</title>
+			<href>/arthur/video/index.html?pid=_n415FcdTUEm4MW2soUeNaembcKZghPf</href>
+			<imgurl>/arthur/i/related/falafelosophy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Lint Rush</title>
+			<href>/arthur/video/index.html?pid=msANwkSPX_1u6ScqaB_ldGGqoLroUFot</href>
+			<imgurl>/arthur/i/related/lintrush.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Vomitrocious</title>
+			<href>/arthur/video/index.html?pid=0pfsNjVreZEtsBlA_VmtjpeY2hcZrQ_c</href>
+			<imgurl>/arthur/i/related/vomitrocious.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

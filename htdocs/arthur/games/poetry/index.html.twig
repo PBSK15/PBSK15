@@ -1,0 +1,61 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Fern\'s Poetry Club | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}		<div id="content" class="bg-ccf">
+		<div class="ruler"></div>
+			<div class="print-instr">
+			<a href="/arthur/games/poetry/index.html"><h4 id="poetryHeader">Fern's Poetry Club</h4></a>
+			<ul id="printSideNav">
+			<li><a href="/arthur/games/poetry/what.html"><span>What's a poem?</span></a></li>
+			<li><a href="/arthur/games/poetry/write.html" ><span>Write a poem</span></a></li>
+			<li><a href="/arthur/games/poetry/read.html"><span>Read more poems</span></a></li>
+			</ul></div>
+			<div id="printableArea">			
+					<div class="printable-content">					
+						<div id="poetryContent">
+							<p class="poetry-intro">Welcome to my Poetry Club! Every day I pick a poem and publish it right here. After you read today's poem, click on the notebooks. You can <a href="/arthur/games/poetry/write.html">Write a poem</a> of your own; look for your own poem, or other kids' poems in <a href="/arthur/games/poetry/read.html">Read more poems</a>; or find out about some of my favorite poem styles in <a href="/arthur/games/poetry/what.html">What's a poem.</a></p>
+							
+							<img src="/arthur/i/games/poetry/fern_1.gif" width="159" height="295" alt="Fern holding a book." border="0" class="float-left" />
+							
+							<div id="todayPoem">
+								<h4 class="header" id="today">Today's Poem</h4>
+								<div class="poem">
+								<h4 class="poem-title">Eliza<br />by Ashley</h4>
+								<p><pre>She came to me on a cold winter day. 
+
+I fed her warm milk to keep the cold away.
+
+By spring she was my best friend.
+
+ My love for her has no end.
+
+I love my lamb Eliza and she loves me.
+
+As I watch her graze in the meadow
+
+we are totally free.</pre></p>
+								</div>
+							</div>
+							<a href="/arthur/games/poetry/next.html" id="nextPoem">Next Poem</a>
+						</div>
+						<div class="print-bg-top"></div>
+						<div class="print-bg-btm"></div>
+					</div>
+					
+				
+			</div>
+			<div id="relatedContent">
+				<ul>
+				<li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+				<li><a href="/arthur/friends/fern/index.html" id="rcFern">Fern</a></li>
+				<li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+				<!--<li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>-->
+				</ul>
+			</div>
+		</div>{% endblock %}
+

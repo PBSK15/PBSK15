@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Configuration file for the DW supermarket game  -->
+
+
+<group param="a fruit" filename="fruit">
+	<item val="apple" />
+	<item val="banana" />
+	<item val="orange" />
+	<item val="pear" />
+	<item val="grapes" />
+	<item val="strawberries" />
+	<item val="pineapple" />
+	<item val="orangejuice" cl="1" />
+	<item val="juicebox" cl="1" />
+</group>
+
+
+<group param="a vegetable" filename="vegetable">
+	<item val="broccoli" />
+	<item val="carrots" />
+	<item val="potatoes" />
+	<item val="corncob" />
+	<item val="peas" />
+	<item val="redpepper" />
+	<item val="fries" cl="1" />
+	<item val="chips" cl="1" />
+</group>
+
+
+
+<group param="made from milk" filename="milk">
+	<item val="cheese" />
+	<item val="milk" />
+	<item val="icecream" />
+	<item val="butter" />
+	<item val="yogurt" />
+	<item val="enchilada" cl="1" />
+	<item val="pizza" cl="1" />
+	<item val="cheeseburger" cl="1" />
+</group>
+
+
+<group param="containing meat" filename="meat">
+	<item val="spaghetti" />
+	<item val="cheeseburger" />
+	<item val="hotdog" />
+	<item val="tuna" />
+	<item val="steak" />
+	<item val="pizza" />
+	<item val="turkeyham" />
+	<item val="chicken" />
+	<item val="chickenfingers" />
+	<item val="bacon" />
+</group>
+
+
+<group param="usually cooked" filename="cooked">
+	<item val="enchilada" />
+	<item val="corncob" />
+	<item val="eggs" />
+	<item val="flour" />
+	<item val="pizza" />
+	<item val="potatoes" />
+	<item val="steak" />
+	<item val="fries" />	
+	<item val="spaghetti" />
+	<item val="cheeseburger" />
+	<item val="hotdog" />
+	<item val="peas" />
+	<item val="chicken" />
+	<item val="chickenfingers" />
+	<item val="bacon" />
+</group>
+
+
+
+<group param="a healthy snack" filename="sugar">
+	<item val="candy" />
+	<item val="icecream" />
+	<item val="soda" />
+	<item val="cereal" />
+	<item val="grapes"  cl="1" />
+	<item val="strawberries" cl="1" />
+	<item val="pineapple" cl="1" />
+	<item val="apple" cl="1" />
+	<item val="pear" cl="1" />
+	<item val="banana" cl="1" />
+</group>
+
+
+<group param="usually stored in a cupboard" filename="cupboard">
+	<item val="candy" />
+	<item val="chips" />
+	<item val="flour" />
+	<item val="juicebox" />
+	<item val="peanuts" />
+	<item val="bread" />
+	<item val="salt" />
+	<item val="cereal" />
+	<item val="tuna" />
+</group>
+
+
+<group param="good for growing bones" filename="bones">
+	<item val="cheese" />
+	<item val="broccoli" />
+	<item val="butter" />
+	<item val="enchilada" />
+	<item val="icecream" />
+	<item val="yogurt" />
+	<item val="pizza" />
+	<item val="peanuts" />
+	<item val="milk" />
+</group>
+
+
+
+<group param="good source of vitamin C" filename="vitaminc">
+	<item val="broccoli" />
+	<item val="potatoes" />
+	<item val="orange" />
+	<item val="orangejuice" />
+	<item val="juicebox" />
+	<item val="redpepper" />
+	<item val="pineapple" />
+	<item val="strawberries" />
+	<item val="grapes" />
+</group>
+
+
+
+
+<group param="have peel, shell, or husk" filename="peel">
+	<item val="apple" />
+	<item val="pear" />
+	<item val="banana" />
+	<item val="carrots" />
+	<item val="eggs" />
+	<item val="corncob" />
+	<item val="peanuts" />
+	<item val="orange" />
+	<item val="potatoes" />
+	<item val="peas" />
+	<item val="grapes" />
+	<item val="pineapple" />
+</group>
+
+
+<!--group param="grown underground" filename="underground">
+	<item val="potatoes" />
+	<item val="peanuts" />
+	<item val="carrots" />
+	<item val="apple" cl="1" />
+	<item val="pear" cl="1" />
+	<item val="banana" cl="1" />
+	<item val="broccoli" cl="1" />
+	<item val="corncob" cl="1" />
+	<item val="orange" cl="1" />
+	<item val="peas" cl="1" />
+	<item val="redpepper" cl="1" />
+	<item val="grapes" cl="1" />
+	<item val="strawberries" cl="1" />
+	<item val="pineapple" cl="1" />
+
+</group-->

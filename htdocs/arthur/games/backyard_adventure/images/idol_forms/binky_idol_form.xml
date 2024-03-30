@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:78a03d4698ace86d7768b1d6bf9b10c9:35b25efbb36b7939711a6d9737aedce8:b44ee9e5f902ec72540b79d1d9ca6736$ -->
+<TextureAtlas imagePath="binky_idol_form.png">
+    <SubTexture name="binky_idol_form_00" x="1" y="1" width="488" height="318" frameX="-32" frameY="-65" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_01" x="490" y="1" width="458" height="306" frameX="-47" frameY="-69" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_02" x="949" y="1" width="430" height="294" frameX="-61" frameY="-73" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_03" x="1380" y="1" width="400" height="282" frameX="-76" frameY="-77" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_04" x="1" y="320" width="370" height="270" frameX="-91" frameY="-81" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_05" x="372" y="320" width="340" height="258" frameX="-106" frameY="-85" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_06" x="713" y="320" width="310" height="246" frameX="-121" frameY="-89" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_07" x="1024" y="320" width="280" height="234" frameX="-136" frameY="-93" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_08" x="1305" y="320" width="250" height="222" frameX="-151" frameY="-97" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_09" x="1556" y="320" width="220" height="210" frameX="-166" frameY="-102" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_10" x="1777" y="320" width="190" height="198" frameX="-181" frameY="-106" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_11" x="1" y="591" width="160" height="186" frameX="-196" frameY="-110" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_12" x="162" y="591" width="130" height="174" frameX="-211" frameY="-114" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_13" x="293" y="591" width="100" height="162" frameX="-226" frameY="-118" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_14" x="394" y="591" width="82" height="164" frameX="-235" frameY="-108" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_15" x="477" y="591" width="82" height="166" frameX="-235" frameY="-109" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_16" x="560" y="591" width="86" height="174" frameX="-234" frameY="-105" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_17" x="647" y="591" width="90" height="182" frameX="-232" frameY="-101" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_18" x="738" y="591" width="94" height="192" frameX="-230" frameY="-96" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_19" x="833" y="591" width="98" height="200" frameX="-228" frameY="-92" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_20" x="932" y="591" width="102" height="208" frameX="-226" frameY="-88" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_21" x="1035" y="591" width="108" height="216" frameX="-222" frameY="-84" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_22" x="1144" y="591" width="112" height="226" frameX="-220" frameY="-79" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_23" x="1257" y="591" width="116" height="234" frameX="-218" frameY="-75" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_24" x="1374" y="591" width="120" height="244" frameX="-216" frameY="-70" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_25" x="1495" y="591" width="124" height="254" frameX="-214" frameY="-65" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_26" x="1620" y="591" width="128" height="264" frameX="-213" frameY="-60" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_27" x="1749" y="591" width="132" height="276" frameX="-211" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_28" x="1882" y="591" width="136" height="286" frameX="-209" frameY="-49" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_29" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_30" x="142" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_31" x="283" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_32" x="424" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_33" x="565" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_34" x="706" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_35" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_36" x="847" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_37" x="988" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_38" x="1129" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_39" x="1270" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_40" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_41" x="1411" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_42" x="1552" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_43" x="1693" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_44" x="1834" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_45" x="1" y="1175" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_46" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_47" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_48" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_49" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_50" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_51" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_52" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_53" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="binky_idol_form_54" x="1" y="878" width="140" height="296" frameX="-207" frameY="-44" frameWidth="550" frameHeight="400"/>
+</TextureAtlas>

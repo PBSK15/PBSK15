@@ -1,0 +1,27 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Go! George Go! | PBS Kids' %}
+{% set desc = 'Help George deliver ice cream to his friends. Find the shortest route from ice cream to friend by giving George directions with arrows to follow on the map!' %}
+{% set keywds = 'George, logic, optimization, programming, map, ice cream' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-396">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/ggg_header.gif" width="619" height="72" border="0" alt="Go George Go! - Help George deliver ice cream to his friends." id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="gogeorgego">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/gogeorgego/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("go_george_go.swf", "george", "595", "350", "4", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				  fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/george/index.html" id="rcGeorge">George</a></li>
+   <li><a href="/arthur/games/crankitup/index.html" id="rcCrank">Crank It Up!</a></li>
+   <li><a href="/arthur/games/elwoodcity/index.html" id="rcElwoodCity">Elwood City Map</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

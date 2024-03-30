@@ -1,0 +1,34 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Party Hats | PBS Kids' %}
+{% set desc = 'Celebrate any occasion with Arthur and D.W. party hats and crowns! Decorate them any way you want and wear them proudly!' %}
+{% set keywds = 'hat, crown, tiara, party, celebration' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = false %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="hatsHeader">Party Hats</h4>
+   <p>Click on the hat that you want to print out. Follow the directions to put it together.</p>
+  </div>
+  <div id="printablesNavIcons">
+   <ul id="partyNavIcons">
+    <li id="pArthurCrown" class="icon"><a href="hats.html#pg-arthurcrown"><span>Arthur's Crown</span></a></li>
+    <li id="pArthurHat" class="icon"><a href="hats.html#pg-arthurhat"><span>Arthur's Party Hat</span></a></li>
+    <li id="pDWTiara" class="icon"><a href="hats.html#pg-dwtiara"><span>D.W.'s Tiara</span></a></li>
+    <li id="pDWHat" class="icon"><a href="hats.html#pg-dwhat"><span>D.W.'s Party Hat</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

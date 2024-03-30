@@ -1,0 +1,34 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Emily\'s Games & Printables Page | PBS Kids' %}
+{% set desc = 'Its fun playing with Emily, so check out her games and print activities!' %}
+{% set keywds = 'Emily, ARTHUR, games, print, play, activities' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcf">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/emily_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/emily_top.swf", "emily", "960", "363", "9", "#ffccff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "games");			   fo.addVariable("char", "emily");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-emily">Emily's images</a>
+  <div id="friendsContent">
+   <h1>My Games &amp; Printables</h1>
+   <hr class="friendsRuler">
+   <ul id="myGames">
+    <li id="friendsCow" class="icon"><a href="../../print/towerofcow/index.html"><span>Tower of Cows</span></a></li>
+    <li id="friendsColoring" class="icon"><a href="../../print/coloringpages/coloring.html#pg-emily1"><span>Coloring Pages</span></a></li>
+    <li id="friendsTrading" class="icon"><a href="../../print/tradingcards/cards.html#pg-emily1"><span>Trading Cards</span></a></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/connectworld/index.html" id="rcConnect">Connect The World</a></li>
+   <li><a href="/arthur/print/crazybus/index.html" id="rcCrazyBus">Crazy Bus</a></li> <!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

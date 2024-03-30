@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<superwhysite>
+	<libraries>
+		<library id="globalui" url="libraries/globalui.swf" />
+		<library id="transitions" url="libraries/transitions.swf" />
+	</libraries>
+	
+	<sections>
+		<section id="home" url="data/home.xml" />
+		<section id="games" url="data/games.xml" />
+		<section id="storybrookvillage" url="data/storybrookvillage.xml" />
+		<section id="superstuff" url="data/superstuff.xml" />
+		<section id="alphapig" url="data/alphapig.xml" />
+		<section id="princesspresto" url="data/princesspresto.xml" />
+		<section id="superwhy" url="data/superwhy.xml" />
+		<section id="wonderred" url="data/wonderred.xml" />
+		<section id="woofster" url="data/woofster.xml" />
+		<section id="collectables" url="data/collectables.xml" />
+		<section id="prizes" url="data/prizes.xml" />
+	</sections>
+	
+	<games>
+		<game id="puppydaycare" url="sections/games/puppydaycare/data/puppydaycare.xml" />
+		<game id="calling_superreaders" url="sections/games/calling_superreaders/data/mathfrogger.xml" />
+		<game id="comicbook" url="sections/games/comicbook/data/comicbook.xml" />
+		<game id="superwhyconcentration" url="sections/games/concentration/superwhy/data/superwhyconcentration.xml" />
+		<game id="princessprestoconcentration" url="sections/games/concentration/princesspresto/data/princessprestoconcentration.xml" />
+		<game id="wonderredconcentration" url="sections/games/concentration/wonderred/data/wonderredconcentration.xml" />
+		<game id="alphapigconcentration" url="sections/games/concentration/alphapig/data/alphapigconcentration.xml" />
+		<game id="designcenter" url="sections/games/designcenter/data/designcenter.xml" />
+		<game id="freezedance" url="sections/games/freezedance/data/freezedance.xml" />
+		<game id="gametemplate" url="sections/games/gametemplate/data/gametemplate.xml" />
+		<game id="princessprestobingo" url="sections/games/princessprestobingo/data/princessprestobingo.xml" />
+		<game id="wonderredbingo" url="sections/games/wonderredbingo/data/wonderredbingo.xml" />
+		<game id="superwhybingo" url="sections/games/superwhybingo/data/superwhybingo.xml" />
+		<game id="alphapigbingo" url="sections/games/alphapigbingo/data/alphapigbingo.xml" />
+		<game id="paintbyletter" url="sections/games/paintbyletter/data/paintbyletter.xml" />
+		<game id="alphabricks" url="sections/games/alphabricks/data/alphabricks.xml" />
+		<game id="superhero" url="sections/games/superhero/data/superhero.xml" />
+		<game id="rhymenroll" url="sections/games/rhymenroll/data/rhymenroll.xml" />
+		<game id="spellingbee" url="sections/games/spellingbee/data/spellingbee.xml" />
+		<game id="rescue" url="sections/games/rescue/data/rescue.xml" />
+		<game id="superreaderchallenge" url="sections/games/superreaderchallenge/data/superreaderchallenge.xml" />
+		<game id="storybookcreator" url="sections/games/storybookcreator/data/storybookcreator.xml" />
+		<game id="jukebox" url="sections/games/jukebox/data/jukebox.xml" />
+		<game id="flyer" url="sections/games/flyer/data/flyer.xml" />
+		<game id="djgame" url="sections/games/djgame/data/djgame.xml" />
+		<game id="bookjumble" url="sections/games/bookjumble/data/bookjumble.xml" />
+		<game id="cakegame" url="sections/games/cakegame/data/cakegame.xml" />
+		<game id="woofstersjourney" url="sections/games/woofstersjourney/data/woofster_journey.xml" />
+		<game id="createasuperdog" url="sections/games/createasuperdog/data/createasuperdog.xml" />
+		<game id="deliciousdish" url="sections/games/deliciousdish/data/deliciousdish.xml" />
+	</games>
+	
+	<transitions>
+		<transition origin="home" destination="storybrookvillage" out="EmptyTransitionOut" in="StoryBrookVillageTransitionIn" />
+		<transition origin="home" destination="alphapig" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="princesspresto" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="superwhy" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="wonderred" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="woofster" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="games" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+	</transitions>
+	
+	<globalAssets>
+		<sitenav id="sitenav" isGroup="true">
+			<audio id="home" type="audio" url="audio/sitenav/button_home.mp3" />
+			<audio id="games" type="audio" url="audio/sitenav/button_games.mp3" />
+			<audio id="superstuff" type="audio" url="audio/sitenav/button_superstuff.mp3" />
+			<audio id="alphapig" type="audio" url="audio/sitenav/rollover_pig.mp3" />
+			<audio id="princesspresto" type="audio" url="audio/sitenav/rollover_princess.mp3" />
+			<audio id="wonderred" type="audio" url="audio/sitenav/rollover_red.mp3" />
+			<audio id="superwhy" type="audio" url="audio/sitenav/rollover_superwhy.mp3" />
+			<audio id="woofster" type="audio" url="audio/sitenav/rollover_woofster.mp3" />
+			<audio id="collectables" type="audio" url="audio/sitenav/button_collectables.mp3" />
+			<audio id="go" type="audio" url="audio/superwhy/sw_button_go.mp3" />
+		</sitenav>
+	</globalAssets>
+	
+	<collectables>
+		<!-- The code id must match a game id in the games group or a product keyword. The 'id' value should be unique. -->
+		<cards isGroup="true" id="cards">
+			<card id="generic" game="" code="" url="sections/collectables/images/card_generic.jpg" video=""/>
+			<card id="default" game="" code="" url="sections/collectables/images/card_default.jpg" video="sections/videos/superstuff_hip_hip_hurray_sequence.flv"/>
+			<card id="1" game="" code="drive" url="sections/collectables/images/card_drive.jpg" video="sections/videos/DRIVE.flv"/>
+			<card id="2" game="" code="power" url="sections/collectables/images/card_power.jpg" video="sections/videos/POWER.flv" />
+			<card id="3" game="superhero" code="flyer" url="sections/collectables/images/card_flyer.jpg" video="sections/videos/FLYER.flv"/>
+			<card id="4" game="" code="hurray" url="sections/collectables/images/card_hurray.jpg" video="sections/videos/HURRAY.flv"/>
+			<card id="5" game="rescue" code="doodle" url="sections/collectables/images/card_doodle.jpg" video="sections/videos/DOODLE.flv"/>
+			<card id="6" game="" code="hero" url="sections/collectables/images/card_hero.jpg" video="sections/videos/HERO.flv"/>
+			<card id="7" game="alphabricks" code="builder" url="sections/collectables/images/card_builder.jpg" video="sections/videos/BUILDER.flv"/>
+			<card id="8" game="" code="action" url="sections/collectables/images/card_action.jpg" video="sections/videos/ACTION.flv" />
+			<card id="9" game="" code="twirl" url="sections/collectables/images/card_twirl.jpg" video="sections/videos/TWIRL.flv"/>
+			<card id="10" game="designcenter" code="magic" url="sections/collectables/images/card_superjob.jpg" video="sections/videos/MAGIC.flv"/>
+			<card id="11" game="" code="awesome" url="sections/collectables/images/card_awesome.jpg" video="sections/videos/AWESOME.flv"/>
+			<card id="12" game="storybookcreator" code="imagine" url="sections/collectables/images/card_imagine.jpg" video="sections/videos/IMAGINE.flv"/>
+			<card id="13" game="paintbyletter" code="create" url="sections/collectables/images/card_create.jpg" video="sections/videos/CREATE.flv"/>
+			<card id="14" game="" code="adventure" url="sections/collectables/images/card_adventure.jpg" video="sections/videos/ADVENTURE.flv"/>
+			<card id="15" game="alphapigbingo,princessprestobingo,superwhybingo,wonderredbingo" code="friend" url="sections/collectables/images/card_friend.jpg" video="sections/videos/FRIEND.flv"/>
+			<card id="16" game="spellingbee" code="royal" url="sections/collectables/images/card_royal.jpg" video="sections/videos/ROYAL.flv"/>
+			<card id="17" game="rhymenroll" code="race" url="sections/collectables/images/card_race.jpg" video="sections/videos/RACE.flv"/>
+			<card id="18" game="freezedance" code="rhyme" url="sections/collectables/images/card_rhyme.jpg" video="sections/videos/RHYME.flv"/>
+			<card id="19" game="" code="thumbsup" url="sections/collectables/images/card_thumbsup.jpg" video="sections/videos/THUMBSUP.flv"/>
+			<card id="20" game="" code="presto" url="sections/collectables/images/card_presto.jpg" video="sections/videos/PRESTO.flv"/>
+			<card id="21" game="" code="letsroll" url="sections/collectables/images/card_letsroll.jpg" video="sections/videos/LETSROLL.flv"/>
+			<card id="22" game="flyer" code="rescue" url="sections/collectables/images/card_rescue.jpg" video="sections/videos/RESCUE.flv"/>
+			<card id="23" game="comicbook" code="erase" url="sections/collectables/images/card_eraser.jpg" video="sections/videos/ERASER.flv"/>
+			<card id="24" game="superwhyconcentration" code="sw_matchup" url="sections/collectables/images/card_sw_matchup.jpg" video="sections/videos/MatchUp_SW.flv"/>
+			<card id="26" game="princessprestoconcentration" code="pp_matchup" url="sections/collectables/images/card_pp_matchup.jpg" video="sections/videos/MatchUp_PP.flv"/>
+			<card id="25" game="wonderredconcentration" code="wr_matchup" url="sections/collectables/images/card_wr_matchup.jpg" video="sections/videos/MatchUp_WR.flv"/>
+			<card id="27" game="alphapigconcentration" code="ap_matchup" url="sections/collectables/images/card_ap_matchup.jpg" video="sections/videos/MatchUp_AP.flv"/>
+			<card id="28" game="bookjumble" code="ap_matchup" url="sections/collectables/images/card_bookJumble.jpg" video="sections/videos/bookjumbleprize.flv"/>
+			<card id="29" game="cakegame" code="cakemaker" url="sections/collectables/images/card_cakemaker.jpg" video="sections/videos/CakeMaker.flv"/>
+			<card id="30" game="djgame" code="superduperdj" url="sections/collectables/images/card_superduperdj.jpg" video="sections/videos/SuperDuperDJ.flv"/>
+			<card id="31" game="calling_superreaders" code="superreader" url="sections/collectables/images/card_superreader.jpg" video="sections/videos/superreader.f4v"/>
+			<card id="32" game="woofstersjourney" code="woofstersjourney" url="sections/collectables/images/card_goldenbone.jpg" video="sections/videos/Golden_Bone_Prize.flv"/>
+			<card id="33" game="createasuperdog" code="createasuperdog" url="sections/collectables/images/card_createasuperpet.jpg" video="sections/videos/woofster_Woofster Super Dog.f4v"/>
+			<card id="34" game="puppydaycare" code="puppydaycare" url="sections/collectables/images/card_puppyDaycare.jpg" video="sections/videos/daycare_prize.flv"/>
+			<card id="35" game="deliciousdish" code="deliciousdish" url="sections/collectables/images/card_deliciousDish.jpg" video="sections/videos/Delicious_Dish_Prize.flv"/>
+
+		</cards>
+		
+		<!-- the printable id must match a unique ID in the cards list - it links the printable to the collectable card. -->
+		<printables isGroup="true" id="printables">
+			<printable id="default" url="sections/printables/printable_default.swf" />
+			<printable id="1" url="sections/printables/printable_drive.swf" />
+			<printable id="2" url="sections/printables/printable_power.swf" />
+			<printable id="3" url="sections/printables/printable_flyer.swf" />
+			<printable id="4" url="sections/printables/printable_hurray.swf" />
+			<printable id="5" url="sections/printables/printable_doodle.swf" />
+			<printable id="6" url="sections/printables/printable_hero.swf" />
+			<printable id="7" url="sections/printables/printable_builder.swf" />
+			<printable id="8" url="sections/printables/printable_action.swf" />
+			<printable id="9" url="sections/printables/printable_twirl.swf" />
+			<printable id="10" url="sections/printables/printable_magic.swf" />
+			<printable id="11" url="sections/printables/printable_awesome.swf" />
+			<printable id="12" url="sections/printables/printable_imagine.swf" />
+			<printable id="13" url="sections/printables/printable_create.swf" />
+			<printable id="14" url="sections/printables/printable_adventure.swf" />
+			<printable id="15" url="sections/printables/printable_friend.swf" />
+			<printable id="16" url="sections/printables/printable_royal.swf" />
+			<printable id="17" url="sections/printables/printable_race.swf" />
+			<printable id="18" url="sections/printables/printable_rhyme.swf" />
+			<printable id="19" url="sections/printables/printable_thumbsup.swf" />
+			<printable id="20" url="sections/printables/printable_presto.swf" />
+			<printable id="21" url="sections/printables/printable_letsroll.swf" />
+			<printable id="22" url="sections/printables/printable_rescue.swf" />
+			<printable id="23" url="sections/printables/printable_eraser.swf" />
+			<printable id="24" url="sections/printables/printable_sw_matchup.swf" />
+			<printable id="26" url="sections/printables/printable_pp_matchup.swf" />
+			<printable id="25" url="sections/printables/printable_wr_matchup.swf" />
+			<printable id="27" url="sections/printables/printable_ap_matchup.swf" />
+			<printable id="28" url="sections/printables/printable_bookjumble.swf" /> 
+			<printable id="29" url="sections/printables/printable_cakemaker.swf" />
+			<printable id="30" url="sections/printables/printable_superduperdj.swf" />
+			<printable id="31" url="sections/printables/printable_superreader.swf" />
+			<printable id="32" url="sections/printables/printable_goldenbone.swf" />
+			<printable id="33" url="sections/printables/printable_createasuperpet.swf" />
+			
+		</printables>
+
+		<audio id="audio" isGroup="true">
+			<audio id="earnedprize" type="audio" url="sections/collectables/audio/Line10.mp3" />
+			<audio id="okay" type="audio" url="sections/collectables/audio/Line06.mp3" />
+			<audio id="timeout" type="audio" url="sections/collectables/audio/Line12.mp3" />
+			<audio id="getnow" type="audio" url="sections/collectables/audio/Line13.mp3" />
+			<audio id="clickname" type="audio" url="sections/collectables/audio/Line22.mp3" />
+			<audio id="new" type="audio" url="sections/collectables/audio/sw_new.mp3" />
+			<audio id="typename" type="audio" url="sections/collectables/audio/Line17.mp3" />
+			<audio id="deleteverify" type="audio" url="sections/collectables/audio/Line23.mp3" />
+			<audio id="printverify" type="audio" url="sections/collectables/audio/Line32.mp3" />
+			<audio id="yes" type="audio" url="sections/collectables/audio/Line33.mp3" />
+			<audio id="no" type="audio" url="sections/collectables/audio/Line34.mp3" />
+			<audio id="tryagain" type="audio" url="sections/collectables/audio/Line08.mp3" />
+			<audio id="enter" type="audio" url="sections/collectables/audio/Line07.mp3" />
+			<audio id="back" type="audio" url="sections/collectables/audio/Line30.mp3" />
+			<audio id="usearrows" type="audio" url="sections/collectables/audio/Line24.mp3" />
+			<audio id="usearrows2" type="audio" url="sections/collectables/audio/Line25.mp3" />
+			<audio id="play" type="audio" url="sections/collectables/audio/Line26.mp3" />
+			<audio id="playgames" type="audio" url="sections/collectables/audio/Line09.mp3" />
+			<audio id="next" type="audio" url="sections/collectables/audio/Line29.mp3" />
+			<audio id="stop" type="audio" url="sections/collectables/audio/Line27.mp3" />
+			<audio id="print" type="audio" url="sections/collectables/audio/Line31.mp3" />
+			<audio id="nothanks" type="audio" url="sections/collectables/audio/Line14.mp3" />
+			<audio id="kudo1" type="audio" url="sections/collectables/audio/Line35.mp3" />
+			<audio id="kudo2" type="audio" url="sections/collectables/audio/Line36.mp3" />
+			<audio id="kudo3" type="audio" url="sections/collectables/audio/Line37.mp3" />
+			<audio id="kudo4" type="audio" url="sections/collectables/audio/Line38.mp3" />
+			<audio id="kudo5" type="audio" url="sections/collectables/audio/Line39.mp3" />
+			<audio id="kudo6" type="audio" url="sections/collectables/audio/Line40.mp3" />
+			<audio id="kudo7" type="audio" url="sections/collectables/audio/Line41.mp3" />
+		
+			<audio id="zap" type="audio" url="sections/collectables/audio/sfx_electric_zap.mp3" />
+			<audio id="ambient" type="audio" url="sections/collectables/audio/sfx_ambientBG_loop.mp3" />
+			<!--<audio id="rotation" type="audio" url="sections/collectables/audio/VideoStart.mp3" />-->
+			<audio id="cardzap" type="audio" url="sections/collectables/audio/superwhy_zap.mp3" />
+		</audio>
+	
+	</collectables>
+	
+	<shelfPromos>
+		<promo id="deliciousdish" location="game/deliciousdish" url="promos/cubbyPromo_deliciousdish.swf" slot="" />
+		<promo id="puppydaycare" location="game/puppydaycare" url="promos/cubbyPromo_puppyDaycare.swf" slot="" />
+		<promo id="bookjumble" location="game/bookjumble" url="promos/cubbyPromo_bookJumble.swf" slot="" />
+		<!--	<promo id="calling_superreaders" location="game/calling_superreaders" url="promos/cubbyPromo_CASR.swf" slot="" />
+		
+		<promo id="createasuperdog" location="game/createasuperdog" url="promos/cubbyPromo_createasuperpet.swf" slot="" /> 
+		<promo id="woofstersjourney" location="game/woofstersjourney" url="promos/cubbyPromo_goldenBone.swf" slot="" />
+		<promo id="designcenter" location="game/designcenter" url="promos/cubbyPromo_designCenter.swf" slot="" />
+		<promo id="jukebox" location="/game/jukebox" url="promos/cubbyPromo_jukebox.swf" slot="" />
+		-->
+	</shelfPromos>
+	
+	<dirtyWordFilter>
+		<![CDATA[PGRpcnR5V29yZExpc3Q+DQoJPGV4YWN0TWF0Y2hMaXN0Pg0KCQk8IVtDREFUQVthLWhvbGUsYV9ob2xlLGFzcyxhc3Nob2xlLGFzcy13aGlwZSxhc3Mtd2lwZSxiZS15b3RjaCxiZWUteW90Y2gsYmxvd2pvYixjaGlja2VuaGVhZCxkaWNraGVhZCxmX3lvdSxmLWluZyxmdWMsZi15b3UsZ2l2ZSBoZWFkLGdpdmVzIGhlYWQsaGVsbCx0aXQsdGl0cyxndW4sZ3Vucyxnb2QsYnV0dF1dPg0KCTwvZXhhY3RNYXRjaExpc3Q+DQoJPGNvbnRhaW5zTGlzdD4NCgkJPCFbQ0RBVEFbNjksNjY2LGFob2xlLGFsY29ob2wsYWxjb2hvbGljLGFuYWwsYW51bCxhbnVzLGFyc2UsYXJzb24sYXJzb25pc3QsYXNzYXNzaW5hdGUsYXNzYXNzaW5hdGlvbixhc3Nob2xlLGFzc3doaXBlLGFzc3dpcGUsYmFuZyxiYXN0YXJkLGJleW90Y2gsYmVleW90Y2gsYmlhdGNoLGJpc2V4dWFsLGJpdGNoLGJsb29kLGJsb3dqb2IsYmx1bnQsYm9sbG9ja3MsYm9sbG94LGJvbGx1eCxib29iLGJvb3plLGJyYXR6LGJyZWFzdCxidXJuLGJ1dHRzLGNhY2EsY2FuY2VyLGNoaWNrZW5oZWFkLGNocmlzdCxjaWdhcixjbGl0LGNvY2FpbmUsY29jayxjb2tlLGNvbmRlbW4sY3JhY2toZWFkLGN1bnQsZGFtbixkYW1taXQsZGFtbml0LGRlY2FwaXRhdGUsZGVhZCxkZXN0cm95LGRpY2toZWFkLGRpa2UsZGlwc2hpdCxkb29keSxkcmlua2VyLGRydWdnaWUsZHJ1bmssZHlrZSxlcmFkaWNhdGUsZXJhZGljYXRvcixldmlsLGV4ZWN1dGUsZXhlY3V0aW9uLGV4dGVybWluYXRlLGV4dGVybWluYXRvcixmYWcsZnVjayxmdWN0LGZ1ayxmdWt0LGZ1bmVyYWwsZnV4LGZ5b3UsZ2FuZyxnYW5nYmFuZyxnYW5nc3RhLGdpdmVoZWFkLGdpdmVzaGVhZCxnb29rLGdyYXZlLGhhbmdvdmVyLGhlcm9pbixob21vLGhvcnJvcixqZXJrLGtpa2Usa2lsbCxrbmlmZSxsZXNiaWFuLGxldGhhbCxtYW5pYWMsbW90aGVyZnVja2VyLG11cmRlcixuaWdnYSxuaWdnZXIsbnltcGhvLHBlbmlzLHBpc3MscGxheWJveSxwb2lzb24scG9vcCxwcm9zdGl0dXRlLHB1YmljLHB1c3NpLHB1c3N5LHF1ZWVyLHJhcGUscmVjdHVtLHNleCxzaGFnLHNoZWVwc2hhZ2dlcixzaGl0LHNoaXRlLHNob2l0LHNob290LHNsYXVnaHRlcixzbHV0LHNwZWVkYmFsbCxzcGljLHNwaWssc3RhYixzdG9vcGVkLHN0dXBpZCxzdWNrLHN1Y3Msc3VmZm9jYXRlLHN1ZmZvY2F0aW9uLHN1aWNpZGUsc3VpY2lkYWwsc3VrcyxzdXgsdGVycm9yLHRvc3Nlcix0cmFuc2V4dWFsLHRyYW5zdmVzdGl0ZSx0d2F0LHVyaW5lLHZhZ2luYSx2aXhlbix3YW5rZXIsd2FybG9jayx3ZWFwb24sd2hvcmUsd2l0Y2gsd29wLHllcmluXV0+DQoJPC9jb250YWluc0xpc3Q+DQo8L2RpcnR5V29yZExpc3Q+]]>
+	</dirtyWordFilter>
+	
+	<tracking>
+		<account>UA-3994472-2</account>
+		<mode>AS3</mode>
+		<debug>false</debug>
+		
+		<trackerList>
+
+			<tracker id="global_nav_home" category="Super Why - Main Nav" action="Navigation Click" label="logo" />
+			<tracker id="global_nav_games" category="Super Why - Main Nav" action="Navigation Click" label="games" />
+			<tracker id="global_nav_superstuff" category="Super Why - Main Nav" action="Navigation Click" label="super-stuff" />
+			<tracker id="global_nav_superwhy" category="Super Why - Main Nav" action="Navigation Click" label="super-why" />
+			<tracker id="global_nav_princesspresto" category="Super Why - Main Nav" action="Navigation Click" label="princess-presto" />
+			<tracker id="global_nav_woofster" category="Super Why - Main Nav" action="Navigation Click" label="woofster" />
+			<tracker id="global_nav_wonderred" category="Super Why - Main Nav" action="Navigation Click" label="wonder-red" />
+			<tracker id="global_nav_alphapig" category="Super Why - Main Nav" action="Navigation Click" label="alpha-pig" />
+			<tracker id="global_nav_prizes" category="Super Why - Main Nav" action="Navigation Click" label="prizes" />
+	
+			<tracker id="characters_module_nav" category="Super Why Character - Game" action="Button Click" label="[character]--[type]" />
+			<tracker id="characters_module_go" category="Super Why Character Page Common Items" action="Button Click" label="[character]--feature--[id]" />
+
+			<tracker id="cubby_promo_click" category="Super Why - Cubby Promo" action="Promo Click" label="[id]--[position]" />
+						
+			<tracker id="home_character_button" category="Super Why - Homepage Character" action="Character Click" label="[character]" />
+			<tracker id="home_storybrookvillage_button" category="Super Why - Homepage Village" action="Button Click" label="Storybrook Village" />
+			<tracker id="home_promo_banner_button" category="Super Why - Homepage Promo" action="Promotion Click" label="[id]" />
+			
+			<tracker id="storybrookvillage_detail_button" category="Storybook Village - Location" action="Button Click" label="[name]" />
+			<tracker id="storybrookvillage_scroll_button" category="Storybook Village - Scroll" action="Button Click"/>
+			
+			<tracker id="superstuff_button_click" category="SuperWhy - Stuff" action="Content Click" label="[module]" />
+			<tracker id="superstuff_features_click" category="SuperWhy - Stuff" action="Content Click" label="[featureType]--[promoID]--[location]" />
+			<tracker id="superstuff_printable_print_click" category="SuperWhy - Stuff" action="Content Click" label="printable--[id]" />
+
+			<tracker id="games_menu_thumb_click" category="Super Why - Games" action="Content Click" label="[id]" />
+
+			<tracker id="games_endscreen_again" category="Universal End Screen" action="Button Click" label="UES_again" />
+			<tracker id="games_endscreen_more" category="Universal End Screen" action="Button Click" label="UES_more" />		
+			<tracker id="games_endscreen_promo" category="Universal End Screen" action="Button Click" label="UES_[location]" />		
+			
+			<tracker id="games_prize_screen_get_it" category="Prize Screen" action="Button Click" label="prize_get_it" />		
+			<tracker id="games_prize_screen_no_thanks" category="Prize Screen" action="Button Click" label="prize_no_thanks" />		
+			
+			<tracker id="printables_thumbnail_click" category="Super Why - Printables" action="Content Click" label="[id]" />		
+			<tracker id="videos_thumbnail_click" category="Super Why - Videos" action="Content Click" label="[id]" />		
+									
+			<tracker id="woofster_wordmodule_letter" category="Super Why Character - Game" action="Button Click" label="letter--[letter]" />		
+			<tracker id="woofster_wordmodule_arrow" category="Super Why Character - Game" action="Button Click" label="arrow--[direction]" />		
+			
+			<tracker id="invalid_section_request" category="404" action="Button Click" label="[location]" />		
+				
+			
+			
+		</trackerList>
+	</tracking>
+</superwhysite>

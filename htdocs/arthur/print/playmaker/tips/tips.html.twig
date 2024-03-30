@@ -1,0 +1,57 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Play Maker | PBS Kids' %}
+{% set desc = 'See Francines first tip on choosing a story to act out.' %}
+{% set keywds = 'story, script, , tips, performance, play' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../index.html"><h4 id="playHeader">Play Maker</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../script.html"><span>Script</span></a></li>
+   <li><a href="../props/index.html"><span>Props</span></a></li>
+   <li><a href="../masks/index.html"><span>Masks</span></a></li>
+   <li><a href="../costumes.html"><span>Costumes</span></a></li>
+   <li><a href="../tips/index.html" class="selected"><span>Tips</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Tips</h1>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <div id="tipsContent"><img src="../../../i/print/playmaker/playmaker_tips.gif" width="294" height="285" alt="picture of a clipboard, Hopalong the frog book, printable ticket and printable poster" border="0" class="float-right">
+    <ul class="print-pages" id="printTips">
+     <li id="tip1"><h4>Tip 1: Choose a Story</h4> <p>Choose a story that you'd like to act out. You can print out the script for D.W. Gets Her Library Card, use a story you already know (like from a fairy tale), or make up a play of your own.</p> <p>If you make up a play, try to give it a beginning, a middle and an end. Make up what everyone will say, and what everyone will do when they're on stage.</p></li>
+     <li id="tip2"><h4>Tip 2: Decide Who's Who</h4> <p>Talk with your friends to decide who is going to play each character. Remember that every role is an important one. (It sounds corny, but it's true.)</p> <p>Don't forget that you can play more than one person as long as you find a way to let the audience know which character you are. Masks are a great way to do this. You can switch masks to switch characters.</p></li>
+     <li id="tip3"><h4>Tip 3: Plan It</h4> <p>Decide if the actors will be on stage for the whole play, or if they will come and go. Decide where people should enter and exit.</p> <p>If there are lots of people on stage at once, try to scatter them throughout the space instead of bunching them into one spot. People can come into the main stage area when they're talking.</p> <p>Remember: Never turn your back to the audience!</p></li>
+     <li id="tip4"><h4>Tip 4: Practice! Practice!</h4> <p>Practice the play a few times before anyone sees it. That's called "rehearsing." The more you practice, the better it will be.</p> <p>You can try to memorize your lines, or you can carry the script with you when you do the play. If you read your lines from the script, remember to look up from the page when you speak.</p></li>
+     <li id="tip5"><h4>Tip 5: Find Costumes</h4> <p>Decide how to make the actors look like the characters they are playing. Look for clothing you think the characters would wear, or make masks to wear with your everyday clothes.</p></li>
+     <li id="tip6"><h4>Tip 6: Find Props</h4> <p>Props are the objects you use in a play to make it seem more real. You can use real objects (like a book or a pencil), or you can create an object using just movement!</p> <p>Sometimes you can use one thing and pretend it is something else. For example, a broom held upside down between your knees makes a great horse.</p> <p>Be sure to ask an adult before borrowing things from around the house!</p></li>
+     <li id="tip7"><h4>Tip 7: Get Ready</h4> <p>Create your own theater at home. Set up chairs for everyone who is coming. Check out the <a href="../props/index.html">Props</a> area for some cool things to print, like tickets and a poster you can use to tell people about your play.</p></li>
+     <li id="tip8"><h4>Tip 8: Enjoy the Big Night</h4> <p>Are you a little bit nervous? Yes? That's great, trust me! Now...are you ready to have some fun?!</p> <p>Actors NEVER say, "Good luck!" before they go on stage. Instead, they say, "Break a leg!" Don't ask me why. Actors are weird.</p> <p>And now it's SHOWTIME!</p></li>
+     <li id="tip9"><h4>Tip 9: Take a Bow</h4> <p>Don't forget to take a bow when your play is over! Line up, hold hands, and bow together. It'll be funny if you run off stage together while your audience is clapping, and then run back on to take another bow. That's what grown-ups do in the theater. Go figure.</p></li>
+    </ul>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/games/wardrobe/index.html" id="rcWardrobe">Muffy's Wardrobe</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

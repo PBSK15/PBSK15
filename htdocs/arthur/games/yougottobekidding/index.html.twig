@@ -1,0 +1,43 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . You\'ve Got to be Kidding! | PBS Kids' %}
+{% set desc = 'Play this game for kids and grown-ups! Solve real-life problems by choosing the best advice. See how far ou can climb the tree!' %}
+{% set keywds = 'problems, advice, request, solutions, friendship, prosocial, kindness' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-6cc">
+ <div class="ruler"></div>
+ <div id="mainFeature" class="fo_header">
+  <div id="kiddingWrapper" class="kidding-home">
+   <table width="622" cellpadding="0" cellspacing="0" border="0" id="kidding_table" bgcolor="#ffffff">
+    <tbody>
+     <tr>
+      <td colspan="4"><img src="/arthur/i/games/youkidding/title03.gif" width="622" height="109" hspace="0" vspace="0" border="0" alt="You've Got To Be Kidding"></td>
+     </tr>
+     <tr>
+      <td colspan="2"><img src="/arthur/i/games/youkidding/treetop.gif" width="283" height="49" hspace="0" border="0" alt=""></td>
+      <td rowspan="2"><img src="/arthur/i/games/youkidding/treeright.gif" width="121" height="245" hspace="0" vspace="0" border="0" alt=""></td>
+      <td rowspan="2"><img src="/arthur/i/games/youkidding/introtext.gif" width="218" height="245" hspace="0" vspace="0" border="0" alt="Climb the Tree! Solve real problems by choosing the best advice."></td>
+     </tr>
+     <tr>
+      <td><img src="/arthur/i/games/youkidding/kids.gif" width="206" height="196" hspace="0" vspace="0" border="0" alt=""></td>
+      <td><img src="/arthur/i/games/youkidding/treemiddle.gif" width="77" height="196" hspace="0" vspace="0" border="0" alt=""></td>
+     </tr>
+     <tr>
+      <td colspan="4"><img src="/arthur/i/games/youkidding/treebottom.gif" width="479" height="126" hspace="0" vspace="0" border="0" alt=""><a href="/cgi-registry/arthur/kiddingquiz2.php?phase=start"><img src="/arthur/i/games/youkidding/start.gif" name="start" border="0" alt=""></a></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/games/factsopinions/index.html" id="rcFactOpinion">Facts and Opinions</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

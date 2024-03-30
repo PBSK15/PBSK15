@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<colorsets>
+		<colorset name="morgan" colors="0xFFFF99,0xFFCC66,0xFFCC00,0xFF9933,0xFF0000,0xCC9966,0xFF66CC,0x996699,0x66CC66,0x3399FF,0x333399,0x000000"/>
+		<colorset name="arthur" colors="0xFFFF99,0xFFCC66,0xFFCC00,0xFF9933,0xFF0000,0xCC9966,0xFF66CC,0x996699,0x66CC66,0x3399FF,0x333399,0x000000"/>
+		<colorset name="arthurgirl" colors="0xFFFF99,0xFFCC66,0xFFCC00,0xFF9933,0xFF0000,0xCC9966,0xFF66CC,0x996699,0x66CC66,0x3399FF,0x333399,0x000000"/>
+		<colorset name="arthurboy" colors="0xFFFF99,0xFFCC66,0xFFCC00,0xFF9933,0xFF0000,0xCC9966,0xFF66CC,0x996699,0x66CC66,0x3399FF,0x333399,0x000000"/>
+		<colorset name="wordgirl" colors="0xF9DCCE,0xD19450,0x71371E,0x372206,0x0F0903,0x763674,0x1F5978,0x65B534,0xEADA34,0xE57A09,0xCA2119,0xF2A5CD"/>
+		<colorset name="huggy" colors="0xF9DCCE,0xD19450,0x71371E,0x372206,0x0F0903,0x763674,0x1F5978,0x65B534,0xEADA34,0xE57A09,0xCA2119,0xF2A5CD"/>
+	</colorsets>
+	<skins>
+		<skin name="arthurgirl" primarycolor="0x347ed9" secondarycolor="0xffcd32" hilitecolor="0xf26b3e" logo="arthurlogo.png"/>
+		<skin name="arthurboy" primarycolor="0x347ed9" secondarycolor="0xffcd32" hilitecolor="0xf26b3e" logo="arthurlogo.png"/>
+		<skin name="wordgirl" primarycolor="0x1075c7" secondarycolor="0x36aad9" hilitecolor="0xef4136" logo="wordgirllogo.png"/>
+		<skin name="huggy" primarycolor="0x1075c7" secondarycolor="0x36aad9" hilitecolor="0xef4136" logo="wordgirllogo.png"/>
+	</skins>
+	
+	<sections name="speechbubble">
+		<section name="bubble" partner="">
+			<item itemname="bubble" rotmax="-90" rotmin="-90"/>
+		</section>
+		<section name="arrow" partner="">
+			<item itemname="arrow" rotmax="180" rotmin="-180"/>
+		</section>
+	</sections>
+	
+	
+	<sections name="default">
+		<section name="man" partner="">
+		</section>
+		<section name="top" partner="bottom">
+			<item itemname="man" rotmax="-60" rotmin="-120"/>
+			<item itemname="torso" rotmax="-160" rotmin="-200"/>
+			<item itemname="lowertorso" rotmax="10" rotmin="-10"/>
+			<item itemname="belly" rotmax="20" rotmin="-20"/>
+			<item itemname="leftarm" rotmax="180" rotmin="-180"/>
+			<item itemname="rightarm" rotmax="180" rotmin="-180"/>
+			<item itemname="lowerarm" rotmax="180" rotmin="-180"/>
+			<item itemname="hand" rotmax="50" rotmin="-10"/>
+		</section>
+		<section name="bottom" partner="top">
+			<item itemname="hips" rotmax="20" rotmin="-20"/>
+			<item itemname="leftleg" rotmax="300" rotmin="90"/>
+			<item itemname="rightleg" rotmax="300" rotmin="90"/>
+			<item itemname="shin" rotmax="0" rotmin="-130"/>
+		</section>
+		<section name="hairfront" partner="hairback">
+			<item itemname="hairfront" rotmax="0" rotmin="0"/>
+		</section>
+		<section name="hairback" partner="hairfront">
+			<item itemname="hairback" rotmax="0" rotmin="0"/>
+		</section>
+		<section name="hair" partner="headshape">
+			<item itemname="hair" rotmax="0" rotmin="0"/>
+		</section>
+		<section name="nose" partner="">
+			<item itemname="nose" rotmax="0" rotmin="0"/>
+		</section>
+		<section name="headshape" partner="hair">
+			<item itemname="headshape" rotmax="0" rotmin="0"/>
+		</section>
+		<section name="head" partner="">
+			<item itemname="head" rotmax="30" rotmin="-30"/>
+		</section>
+		<section name="neck" partner="">
+			<item itemname="neck" rotmax="10" rotmin="-10"/>
+		</section>
+		<section name="headneck" partner="">
+			<item itemname="headneck" rotmax="30" rotmin="-30"/>
+		</section>
+		<section name="foot" partner="">
+			<item itemname="foot" rotmax="80" rotmin="10"/>
+		</section>
+		<section name="eyes" partner="">
+			<item itemname="eyes" rotmax="0" rotmin="0"/>
+		</section>
+		<section name="mouth" partner="">
+			<item itemname="mouth" rotmax="0" rotmin="0"/>
+		</section>
+	</sections>
+	<chars>
+		<char id="1" name="arthurgirl" src="arthurgirl.swf" tagline="Girl" thumbnail="arthurgirl.jpg" colorable="headneck,hairfront,top,bottom,foot" notcolorable="eyes,nose,mouth" scale="1"/>
+		<char id="2" name="arthurboy" src="arthurboy.swf" tagline="Boy" thumbnail="arthurboy.jpg" colorable="headneck,top,bottom,foot" notcolorable="eyes,hairfront,nose,mouth" scale="1"/>
+		<!--<char id="3" name="wordgirl" src="wordgirl.swf" tagline="WordGirl" thumbnail="wordgirl.jpg" colorable="headneck,hairfront,top,bottom,foot" notcolorable="eyes,nose,mouth" scale="1"/>-->
+		<!--<char id="3" name="huggy" src="huggy.swf" tagline="Word Girl" thumbnail="huggy.jpg" colorable="" notcolorable="headneck,hairfront,top,bottom,foot,eyes,nose,mouth" scale="1"/>-->
+	</chars>
+</root>

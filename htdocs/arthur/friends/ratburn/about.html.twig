@@ -1,0 +1,72 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Mr. Ratburn\'s About Me Page | PBS Kids' %}
+{% set desc = 'Seeing Mr. Ratburns profile page just reinforces the fact that homework and quizzes are his favorite things.' %}
+{% set keywds = 'Mr. Ratburn, teacher, school, interests, profile' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cc9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/ratburn_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/ratburn_top.swf", "ratburn", "960", "363", "9", "#cccc99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "ratburn");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-ratburn">Mr. Ratburn's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Quizzes.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     When my roof fell in because of the snow.
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Putting on a play with the kids to celebrate Elwood City's 100th.
+    </dd>
+   </dl>
+   <div id="pollWrapper">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Are you ready for the pop quiz?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/ratburn/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="ratburn"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="../../i/friends/books/ratburn_book1.jpg" width="148" height="117" alt="Albert's Play book cover" border="0"> <h4>Albert's Play</h4> <p>by Leslie Tryon <br> Albert the goose organizes and directs a spectacular school play.</p></li>
+    <li><img src="../../i/friends/books/ratburn_book2.jpg" width="148" height="117" alt="Ben and Me book cover" border="0"> <h4>Ben and Me</h4> <p>by Robert Lawson<br> The astonishing life of Benjamin Franklin as told by Amos the mouse, Ben's closest friend and trusted advisor.</p></li>
+    <li><img src="../../i/friends/books/ratburn_book3.jpg" width="148" height="117" alt="Big Cheese for the White House: The True Tale of a Tremendous Cheddar book cover" border="0"> <h4>Big Cheese for the White House: The True Tale of a Tremendous Cheddar</h4> <p>by Candace Fleming<br> In 1801, The people of Cheshire, Massachusetts present Thomas Jefferson with an excellent gift: a four-foot-high, 1,235 pound cheese. Based on a true event.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/macgrady/index.html" id="rcMacGrady">Mrs. MacGrady</a></li>
+   <li><a href="/arthur/games/poetry/index.html" id="rcPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

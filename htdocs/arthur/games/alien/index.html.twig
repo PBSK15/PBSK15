@@ -1,0 +1,22 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Alien: Assembly Required | PBS Kids' %}
+{% set desc = 'Buster may look scared, but he really hopes that aliens DO visit! Create your own aliens in this game. Maybe you can even trick Buster?!' %}
+{% set keywds = 'aliens, games, Buster, scared, abduction' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="alienbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="alien.html" target="_self"><img src="../../i/games/alien_splashpage.gif" width="619" height="419" border="0" alt="Play Alien: Assembly Required"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+   <li><a href="/arthur/print/cosmiccombos/index.html" id="rcCosmic">Cosmic Combos</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

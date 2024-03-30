@@ -1,0 +1,14 @@
+#canvas{
+	display: block;
+	margin: 5% auto;
+
+	background-color:#629d9d;
+	/*width:960px; 
+	height:540px;*/
+	width:90%;
+
+	border: 0px 0px 1px 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #003366; 
+
+}

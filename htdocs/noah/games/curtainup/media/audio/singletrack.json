@@ -1,0 +1,183 @@
+{
+  "urls": [
+    "singletrack.mp3",
+    "singletrack.ogg"
+  ],
+  "audioSprite": [
+    {
+      "id": "Sound_curtainup",
+      "startTime": 0,
+      "duration": 1410.6122448979593
+    },
+    {
+      "id": "Sound_levanteeltelon2",
+      "startTime": 3000,
+      "duration": 3108.5714285714284
+    },
+    {
+      "id": "Sound_hicoco",
+      "startTime": 8000,
+      "duration": 2690.6122448979595
+    },
+    {
+      "id": "Sound_siteatro",
+      "startTime": 12000,
+      "duration": 1098.2086167800453
+    },
+    {
+      "id": "Sound_noah_ok2",
+      "startTime": 15000,
+      "duration": 1384.489795918366
+    },
+    {
+      "id": "Sound_letsgetstarted",
+      "startTime": 18000,
+      "duration": 4048.9795918367336
+    },
+    {
+      "id": "vo_youneedtopickabackgroundfirst",
+      "startTime": 24000,
+      "duration": 2664.4897959183672
+    },
+    {
+      "id": "Sound_cocogracias",
+      "startTime": 28000,
+      "duration": 2352.0861678004544
+    },
+    {
+      "id": "Sound_pickprop",
+      "startTime": 32000,
+      "duration": 5328.9795918367345
+    },
+    {
+      "id": "vo_youneedtopicksomepropsfirst",
+      "startTime": 39000,
+      "duration": 2115.9183673469356
+    },
+    {
+      "id": "Sound_coco_excellent",
+      "startTime": 43000,
+      "duration": 1828.5714285714291
+    },
+    {
+      "id": "Sound_noah_liondrag",
+      "startTime": 46000,
+      "duration": 8437.551020408166
+    },
+    {
+      "id": "vo_youneedtopicksomecharactersfirst",
+      "startTime": 56000,
+      "duration": 2194.285714285712
+    },
+    {
+      "id": "Sound_gracias",
+      "startTime": 60000,
+      "duration": 732.4943310657588
+    },
+    {
+      "id": "music_bounce",
+      "startTime": 62000,
+      "duration": 7601.6326530612305
+    },
+    {
+      "id": "music_chachacha",
+      "startTime": 71000,
+      "duration": 10396.734693877548
+    },
+    {
+      "id": "music_coolcat",
+      "startTime": 83000,
+      "duration": 6504.4897959183745
+    },
+    {
+      "id": "music_dangerahead",
+      "startTime": 91000,
+      "duration": 7288.163265306124
+    },
+    {
+      "id": "music_easypeasy",
+      "startTime": 100000,
+      "duration": 12277.55102040817
+    },
+    {
+      "id": "music_fiestafun",
+      "startTime": 114000,
+      "duration": 6504.4897959183745
+    },
+    {
+      "id": "music_spookysounds",
+      "startTime": 122000,
+      "duration": 6844.0816326530585
+    },
+    {
+      "id": "music_trickymouse",
+      "startTime": 130000,
+      "duration": 8280.816326530612
+    },
+    {
+      "id": "title_bellylaughs",
+      "startTime": 140000,
+      "duration": 1410.6122448979477
+    },
+    {
+      "id": "title_circussillies",
+      "startTime": 143000,
+      "duration": 1593.469387755107
+    },
+    {
+      "id": "title_funnyfarm",
+      "startTime": 146000,
+      "duration": 1488.9795918367383
+    },
+    {
+      "id": "title_junglejumble",
+      "startTime": 149000,
+      "duration": 1750.2040816326598
+    },
+    {
+      "id": "title_lookoutbelow",
+      "startTime": 152000,
+      "duration": 1906.9387755102127
+    },
+    {
+      "id": "title_outtolunch",
+      "startTime": 155000,
+      "duration": 1201.6326530612105
+    },
+    {
+      "id": "title_sailaway",
+      "startTime": 158000,
+      "duration": 1828.571428571422
+    },
+    {
+      "id": "title_theskysthelimit",
+      "startTime": 161000,
+      "duration": 1515.1020408163163
+    },
+    {
+      "id": "vo_newplay",
+      "startTime": 164000,
+      "duration": 1071.020408163264
+    },
+    {
+      "id": "vo_nowchooseatitle",
+      "startTime": 167000,
+      "duration": 2063.6734693877656
+    },
+    {
+      "id": "vo_nowchoosethemusic",
+      "startTime": 171000,
+      "duration": 2037.5510204081593
+    },
+    {
+      "id": "vo_printyourplay",
+      "startTime": 175000,
+      "duration": 1253.8775510203948
+    },
+    {
+      "id": "vo_watchagain",
+      "startTime": 178000,
+      "duration": 914.285714285711
+    }
+  ]
+}

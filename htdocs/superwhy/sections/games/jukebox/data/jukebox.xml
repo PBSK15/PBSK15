@@ -1,0 +1,132 @@
+<game id="jukebox" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPER WHY'S ROCK 'N READ JUKEBOX | PBS KIDS]]></title>
+	<swf url="sections/games/jukebox/jukebox.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "false"
+		helpIsActive = "false"
+		hasPrintable = "false"
+	/>
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />				
+	</libraries> 
+
+	<assets>
+		
+		<kudos id="kudos" isGroup="true">
+			<kudos id="kudo1" type="audio" url="sections/games/jukebox/audio/vo/036SuperWhyTk01.mp3" />
+			<kudos id="kudo2" type="audio" url="sections/games/jukebox/audio/vo/037SuperWhyTk01.mp3" />
+			<kudos id="kudo3" type="audio" url="sections/games/jukebox/audio/vo/038SuperWhyTk01.mp3" />
+			<kudos id="kudo4" type="audio" url="sections/games/jukebox/audio/vo/039SuperWhyTk01.mp3" />
+			<kudos id="kudo5" type="audio" url="sections/games/jukebox/audio/vo/040SuperWhyTk01.mp3" />
+			<kudos id="kudo6" type="audio" url="sections/games/jukebox/audio/vo/041SuperWhyTk01.mp3" />
+			<kudos id="kudo7" type="audio" url="sections/games/jukebox/audio/vo/045SuperWhyTk01.mp3" />
+			<kudos id="kudo8" type="audio" url="sections/games/jukebox/audio/vo/047SuperWhyTk01.mp3" />			
+		</kudos>
+		
+		
+		<voiceover id="voiceover" isGroup="true">
+			<voiceover id="title" type="audio" url="sections/games/jukebox/audio/vo/001SuperWhyTk02.mp3" />	
+			<voiceover id="timeout1" type="audio" url="sections/games/jukebox/audio/vo/005SuperWhyTk01.mp3" />
+			<voiceover id="timeout2" type="audio" url="sections/games/jukebox/audio/vo/006SuperWhyTk02.mp3" />
+			<voiceover id="intro1" type="audio" url="sections/games/jukebox/audio/vo/003SuperWhyTk08.mp3" />
+
+			<voiceover id="load1" type="audio" url="sections/games/jukebox/audio/vo/048SuperWhyTk03.mp3" />
+			<voiceover id="load2" type="audio" url="sections/games/jukebox/audio/vo/letsRocknRead.mp3" />
+ 
+ 			<voiceover id="princessPresto" type="audio" url="sections/games/jukebox/audio/vo/033SuperWhyTk01.mp3" />
+			<voiceover id="alphaPig" type="audio" url="sections/games/jukebox/audio/vo/03SuperWhyTk01.mp3" />
+			<voiceover id="superWhy" type="audio" url="sections/games/jukebox/audio/vo/032SuperWhyTk01.mp3" />
+			<voiceover id="wonderRed" type="audio" url="sections/games/jukebox/audio/vo/030SuperWhyTk01.mp3" />
+
+			<voiceover id="ready1" type="audio" url="sections/games/jukebox/audio/vo/048SuperWhyTk03.mp3" />
+			<voiceover id="ready2" type="audio" url="sections/games/jukebox/audio/vo/letsRocknRead.mp3" />
+
+			<voiceover id="end1" type="audio" url="sections/games/jukebox/audio/vo/050SuperWhyTk01.mp3" />
+			<voiceover id="end2" type="audio" url="sections/games/jukebox/audio/vo/051SuperWhyTk02.mp3" />
+			<voiceover id="end3" type="audio" url="sections/games/jukebox/audio/vo/052SuperWhyTk01.mp3" />
+			<voiceover id="end4" type="audio" url="sections/games/jukebox/audio/vo/042SuperWhyTk01.mp3" />
+			<voiceover id="end5" type="audio" url="sections/games/jukebox/audio/vo/043SuperWhyTk01.mp3" />
+			<voiceover id="end6" type="audio" url="sections/games/jukebox/audio/vo/044SuperWhyTk01.mp3" />
+
+			<voiceover id="new" type="audio" url="sections/games/jukebox/audio/vo/newsong.mp3" />
+			<voiceover id="play" type="audio" url="sections/games/jukebox/audio/vo/Line26.mp3" />
+			<voiceover id="stop" type="audio" url="sections/games/jukebox/audio/vo/Line27.mp3" />
+			<voiceover id="next" type="audio" url="sections/games/jukebox/audio/vo/Line29.mp3" />
+			<voiceover id="back" type="audio" url="sections/games/jukebox/audio/vo/Line30.mp3" />
+		
+			<voiceover id="song1" type="audio" url="sections/games/jukebox/audio/vo/013SuperWhyTk03.mp3" />
+			<voiceover id="song2" type="audio" url="sections/games/jukebox/audio/vo/011SuperWhyTk03.mp3" />
+			<voiceover id="song3" type="audio" url="sections/games/jukebox/audio/vo/012SuperWhyTk04.mp3" />			
+			<voiceover id="song4" type="audio" url="sections/games/jukebox/audio/vo/014SuperWhyTk02.mp3" />			
+			<voiceover id="song5" type="audio" url="sections/games/jukebox/audio/vo/007SuperWhyTk06.mp3" />			
+			<voiceover id="song6" type="audio" url="sections/games/jukebox/audio/vo/008SuperWhyTk02.mp3" />			
+			<voiceover id="song7" type="audio" url="sections/games/jukebox/audio/vo/015SuperWhyTk02.mp3" />			
+			<voiceover id="song8" type="audio" url="sections/games/jukebox/audio/vo/017SuperWhyTk01.mp3" />			
+			<voiceover id="song9" type="audio" url="sections/games/jukebox/audio/vo/021SuperWhyTk01.mp3" />			
+			<voiceover id="song10" type="audio" url="sections/games/jukebox/audio/vo/022SuperWhyTk01.mp3" />			
+			<voiceover id="song11" type="audio" url="sections/games/jukebox/audio/vo/023SuperWhyTk02.mp3" />			
+			<voiceover id="song12" type="audio" url="sections/games/jukebox/audio/vo/016SuperWhyTk01.mp3" />			
+			<voiceover id="song13" type="audio" url="sections/games/jukebox/audio/vo/010SuperWhyTk01.mp3" />			
+			<voiceover id="song14" type="audio" url="sections/games/jukebox/audio/vo/024SuperWhyTk02.mp3" />			
+			<voiceover id="song15" type="audio" url="sections/games/jukebox/audio/vo/025SuperWhyTk01.mp3" />			
+			<voiceover id="song16" type="audio" url="sections/games/jukebox/audio/vo/026SuperWhyTk02.mp3" />			
+			<voiceover id="song17" type="audio" url="sections/games/jukebox/audio/vo/027SuperWhyTk02.mp3" />			
+			<voiceover id="song18" type="audio" url="sections/games/jukebox/audio/vo/028SuperWhyTk04.mp3" />			
+			<voiceover id="song19" type="audio" url="sections/games/jukebox/audio/vo/029SuperWhyTk01.mp3" />			
+			<voiceover id="song20" type="audio" url="sections/games/jukebox/audio/vo/009SuperWhyTk01.mp3" />			
+			<voiceover id="song21" type="audio" url="sections/games/jukebox/audio/vo/018SuperWhyTk02.mp3" />			
+			<voiceover id="song22" type="audio" url="sections/games/jukebox/audio/vo/019SuperWhyTk02.mp3" />			
+			<voiceover id="song23" type="audio" url="sections/games/jukebox/audio/vo/020SuperWhyTk01.mp3" />
+						
+		</voiceover>
+		
+		<!-- 
+			Note: Adding additional videos
+				1. Assign a unique name to the image tag id.  It does not have to follow the 'song#' pattern.
+				2. Assign one of five character values (case sensitive): all, alphaPig, princessPresto, wonderRed, superWhy
+				3. Make sure that a voice over tag with the same id appears in the voiceover audio group list.
+				4. Make sure expected attribute fields are filled - suggest copying an existing tag and overwriting values.
+		  -->
+
+		<images id="images" isGroup = "true">
+			<image id="song5" title="ABC, Sing With Me (Lowercase Letters)" video="sections/games/jukebox/video/ABCSingWithMeLowerCase.flv" url="sections/games/jukebox/images/ABCSingWithMeLowerCase.jpg" character="alphaPig" />
+			<image id="song6" title="ABC Sing With Me (Upper Case Letters)" video="sections/games/jukebox/video/ABCSingWithMeUpperCase.flv" url="sections/games/jukebox/images/ABCSingWithMeUpperCase.jpg" character="alphaPig" />
+			<image id="song20" title="Fairytale Friends" video="sections/games/jukebox/video/FairytailFriends.flv" url="sections/games/jukebox/images/FairytailFriends.jpg"  character="all"/>					
+			<image id="song13" title="Hip Hip Hurray!" video="sections/games/jukebox/video/HipHipHurray.flv" url="sections/games/jukebox/images/HipHipHurray.jpg" character="all" />			
+			<image id="song2" title="I Love to Spell “BELL”" video="sections/games/jukebox/video/iLoveToSpellBELL.flv" url="sections/games/jukebox/images/ILoveToSpellBell.jpg" character="princessPresto" />
+			<image id="song3" title="I Love to Spell “HICCUP”" video="sections/games/jukebox/video/iLoveToSpellHICCUP.flv" url="sections/games/jukebox/images/ILoveToSpellHiccup.jpg" character="princessPresto" />
+			<image id="song1" title="I Love to Spell “SING” " video="sections/games/jukebox/video/iLoveToSpellSING.flv" url="sections/games/jukebox/images/ILoveToSpellSing.jpg" character="princessPresto" />
+
+			
+			<image id="song4" title="I Love to Spell “SPIN”" video="sections/games/jukebox/video/iLoveToSpellSPIN.flv" url="sections/games/jukebox/images/ILoveToSpellSpin.jpg" character="princessPresto" />
+			<image id="song7" title="Lickety Letters Version 1" video="sections/games/jukebox/video/LicketyLettersV1.flv" url="sections/games/jukebox/images/LicketyLetters_v1.jpg" character="alphaPig" />
+			<image id="song12" title="Lickety Letters Version 2" video="sections/games/jukebox/video/LicketyLettersV2.flv" url="sections/games/jukebox/images/LicketyLetters_v2.jpg" character="alphaPig" />					
+			<image id="song11" title="The Power to Read!" video="sections/games/jukebox/video/ThePowerToRead.flv" url="sections/games/jukebox/images/ThePowerToRead.jpg"  character="superWhy" />
+			<image id="song8" title="Presto! Song" video="sections/games/jukebox/video/Presto.flv" url="sections/games/jukebox/images/presto.jpg"  character="princessPresto" />
+			<image id="song21" title="Rhyming Time “AT / OG”" video="sections/games/jukebox/video/RhymingTimeATOG.flv" url="sections/games/jukebox/images/RhymingTime_AT_GO.jpg"  character="wonderRed" />
+			
+			<image id="song22" title="Rhyming Time “UMP / AIRS”" video="sections/games/jukebox/video/RhymingTimeUMPAIR.flv" url="sections/games/jukebox/images/RhymingTime_UMP_AIRS.jpg"  character="wonderRed" />
+			<image id="song23" title="Rhyming Time “UN / ALL”" video="sections/games/jukebox/video/RhymingTimeUNALL.flv" url="sections/games/jukebox/images/RhymingTime_UN_ALL.jpg" character="wonderRed" />	
+			
+			<image id="song9" title="Super Readers ...to the Rescue!" video="sections/games/jukebox/video/SuperReadersToTheRescue.flv" url="sections/games/jukebox/images/SuperReadersToTheRescue.jpg" character="all" />
+			<image id="song10" title="SUPER WHY! Theme Song " video="sections/games/jukebox/video/SuperWhyThemeSong.flv" url="sections/games/jukebox/images/SuperWhyThemeSong.jpg"  character="all" />
+			
+			<image id="song14" title="Vocabulary, Vocabulary, “BRAVE”" video="sections/games/jukebox/video/VocabularyVocabularyBrave.flv" url="sections/games/jukebox/images/VocabularyVocabularyBrave.jpg" character="superWhy"  />	
+			
+			<image id="song15" title="Vocabulary, Vocabulary, “CLEVER”" video="sections/games/jukebox/video/VocabularyVocabularyClever.flv" url="sections/games/jukebox/images/VocabularyVocabularyClever.jpg"  character="superWhy" />							
+			<image id="song16" title="Vocabulary, Vocabulary, “FRIEND”" video="sections/games/jukebox/video/VocabularyVocabularyFriend.flv" url="sections/games/jukebox/images/VocabularyVocabularyFriend.jpg"  character="superWhy" />						
+			<image id="song17" title="Vocabulary, Vocabulary, “PROUD”" video="sections/games/jukebox/video/VocabularyVocabularyProud.flv" url="sections/games/jukebox/images/VocabularyVocabularyProud.jpg"  character="superWhy" />						
+			<image id="song18" title="W-H-Y Spells “Why”" video="sections/games/jukebox/video/WhyspellsWhy.flv" url="sections/games/jukebox/images/WhySpellsWhy.jpg" character="superWhy" />						
+			<image id="song19" title="Word Power" video="sections/games/jukebox/video/WordPower.flv" url="sections/games/jukebox/images/WordPower.jpg"  character="wonderRed" />						
+				
+		</images>
+	</assets>
+	
+
+</game>

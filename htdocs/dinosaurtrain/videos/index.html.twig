@@ -1,0 +1,253 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Videos' %}
+{% set desc = 'Watch free Dinosaur Train video online! Learn all about dinosaurs and science with Buddy, Tiny, Shiny and Don, and paleontologist Dr. Scott!' %}
+{% set keywds = 'Dinosaur Train video, kids science video, dinosaur video for kids, dinosaur cartoon, dinosaur video, watch dinosaurs, dinosaur songs, Dr. Scott video' %}
+
+
+{% block specialInclude %}{% endblock %}
+
+
+{% set onLoadEvent = '' %}
+
+
+{% block loadContent %}
+
+ function loadContent(){
+    if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+        fixWidths(false, true, 'video-page');
+    } else {
+        fixWidths(getSize());
+    }
+}
+
+$(function(){
+  var player, 
+      playlist;
+ 
+  function init(){
+	  onLoad();
+	  
+    player = new org.pbskids.video.Player( "video-player", {
+       onPlayerComplete      : onPlayerComplete,
+       onVideoClick          : "toggle-fullscreen",
+       pauseToggleControl    : "#controlrack .play-pause",
+       captionsToggleControl : "#captions-button",
+       timerRemaining        : "#player .timer-remaining",
+       scrubber              : "#player .scrubber",
+       debugMode             : true,
+       onHoverOverlay        : {
+         url:"http://pbskids.org/video/img/button_big.png",
+         width:"58px", height:"30px",
+         fs_url:"http://pbskids.org/video/img/button_small.png",
+         fs_width:"78px"
+       },
+       loadingOverlay        : {
+         url:"http://pbskids.org/video/img/arrowspin.gif",
+         swf:"http://pbskids.org/video/img/arrowspin.swf",
+         width:"50px", height:"50px"
+       }
+     });
+  }//init()
+ 
+  function onPlayerComplete(e){
+    console.log("onPlayerComplete()");
+    if( e.success ){
+      console.log("Player was successfully built");
+      finalize(e.player);
+    }
+    else {
+      alert("Whoops! Something went wrong building the player: " + e.message);
+    }
+  }//onPlayerComplete()
+ 
+ 
+   function finalize(playerInstance){
+    playlist = new org.pbskids.video.PlayList(
+        "now-playing-list",
+        "playlistItem",
+         playerInstance,
+        {
+          debugMode: true,
+          loadingIndicator      : "http://pbskids.org/video/img/arrowspin.gif",
+          loadMoreVideosMessage : "Show More Videos",
+          loadMoreButtonClass   : "showmore-videos",
+          previousVideoControl  : "#controlrack .previous",
+          nextVideoControl      : "#controlrack .next",
+          iScrollOpts           : {onScrollEnd: function(){
+              scrollUp.style.display   = 'block';
+              scrollDown.style.display = 'block';
+              if(playlist.iScroll.y >= 0){
+                  scrollUp.style.display = 'none';
+              }
+              if(playlist.iScroll.y <= playlist.iScroll.maxScrollY){
+                  scrollDown.style.display = 'none';
+              }
+          }}
+        }
+    );
+    
+    var groups = document.getElementById('group-wrapper'),
+    clips = document.getElementById('clips'),
+    discoveries = document.getElementById('discoveries'),
+    music = document.getElementById('music'),
+    episodes = document.getElementById('episodes'),
+    all = document.getElementById('all'),
+    scrollUp = document.getElementById('scroll-up'),
+    scrollDown = document.getElementById('scroll-down');
+    
+    clips.addEventListener('click', function(){
+    	scrollUp.style.display = 'none';
+    	scrollDown.style.display = 'block';
+      playlist.refresh({
+        program: "Dinosaur Train",
+        type: "Clip"
+      });
+    }, false);
+    discoveries.addEventListener('click', function(){
+        scrollUp.style.display = 'none';
+        scrollDown.style.display = 'block';
+      playlist.refresh({
+        program: "Dinosaur Train",
+        keywords: "DINS_Discoveries"
+      });
+    }, false);
+    music.addEventListener('click', function(){
+        scrollUp.style.display = 'none';
+        scrollDown.style.display = 'block';
+      playlist.refresh({
+        program: "Dinosaur Train",
+        keywords: "DINS_Music"
+      });
+    }, false);
+    episodes.addEventListener('click', function(){
+        scrollUp.style.display = 'none';
+        scrollDown.style.display = 'block';
+      playlist.refresh({
+        program: "Dinosaur Train",
+        type: "Episode"
+      });
+    }, false);
+    all.addEventListener('click', function(){
+        scrollUp.style.display = 'none';
+        scrollDown.style.display = 'block';
+      playlist.refresh({
+        program: "Dinosaur Train"
+      });
+    }, false);
+    
+    scrollUp.addEventListener('click', function(){
+        if((playlist.iScroll.y + 131) >= 0){
+            playlist.iScroll.scrollTo(0, 0, 150, false);
+            scrollUp.style.display = 'none';
+        } else {
+            playlist.iScroll.scrollTo(0, -131, 150, true);
+        }
+    });
+    scrollDown.addEventListener('click', function(){
+    	if((playlist.iScroll.y - 131) <= playlist.iScroll.maxScrollY){
+    		playlist.iScroll.scrollTo(0, playlist.iScroll.maxScrollY, 150, false);
+            scrollDown.style.display = 'none';
+    	} else {
+            playlist.iScroll.scrollTo(0, 131, 150, true);
+    	}
+    });
+    
+    /* This doesn't seem to help the playlist scrolling weird on append:
+    var newContent = 0;
+    playlist.addEventListener(org.pbskids.video.PlaylistEvent.APPEND_START, function(){
+        newContent = playlist.iScroll.maxScrollY;
+        console.log('Append Start: Saving this position: ' + playlist.iScroll.maxScrollY);
+    });
+    
+    playlist.addEventListener(org.pbskids.video.PlaylistEvent.APPEND_COMPLETE, function(){
+    	playlist.iScroll.scrollTo(0, newContent, 150, false);
+        console.log('Append Complete: Moving this current position of ' + playlist.iScroll.y + ' to the saved position of ' + newContent);
+    });
+    */
+    
+    // load all!
+    var playlistDefinition = {
+        program: "Dinosaur Train",
+        selectedID: ""
+    }
+    
+    if(window.location.search.length === 37){ //GUID set
+    	playlistDefinition.selectedID = window.location.search.replace('?','');
+    }
+    	
+    scrollUp.style.display = 'none';
+    scrollDown.style.display = 'block';
+    playlist.refresh(playlistDefinition);
+    
+  }//finalize
+  
+   
+  $(document).ready(init);
+});
+   
+   
+   {% endblock %}
+
+
+
+
+{% block mainContent %}<div id="main_content">
+ <section id="app">
+  <div id="player">
+   <div class="frame">
+    <video id="video-player"></video> <span class="timer-remaining">00:00</span>
+    <div class="scrubber">
+     <div class="scrubber-track"><button class="scrubber-thumb"></button>
+     </div><!--/ .scrubber-track -->
+    </div><!--/ .scrubber -->
+   </div><!--/ .frame -->
+   <div id="controlrack"><span class="previous"> <button title="Previous" class="symbol"> ➨ </button> </span> <span class="play-pause"> <button title="Play/Pause">
+      <div id="icon-play">
+       PLAY<i class="symbol">►</i>
+      </div>
+      <div id="icon-pause">
+       PAUSE<b class="symbol">II</b>
+      </div> </button> </span> <span class="next"> <button title="Next" class="symbol"> ➨ </button> </span> <button id="captions-button" title="Closed Captions">CC</button>
+   </div><!--/ #controlrack -->
+  </div><!--/ #player -->
+  <div id="playlist-wrapper">
+   <div id="scroll-up">
+    <div>
+     ➨
+    </div>
+   </div>
+   <ul id="now-playing-list">
+    <li class="playlistItem">
+     <div class="thumb-container"><img class="new-label" src="../media/images/new_sticker.png" alt="New"> <img class="thumbnailkidsgodefault" src=""> <span class="fullep-label"><span class="full-label">Full </span>Episode</span>
+     </div>
+     <div class="video-info"><span class="video-title"></span> (<span class="video-duration"></span>) <span class="video-expiration"></span>
+     </div></li>
+   </ul><!--/ #now-playing-list -->
+   <div id="scroll-down">
+    <div>
+     ➨
+    </div>
+   </div>
+  </div>
+  <div id="group-wrapper">
+   <ul id="group-list">
+    <li id="clips">Clips</li>
+    <li id="discoveries">Dinosaur Discoveries</li>
+    <li id="music">Music</li>
+    <li id="episodes">Full Episodes</li>
+    <li id="all">All</li>
+   </ul>
+  </div>
+ </section><!--/ #app -->
+</div>{% endblock %}
+
+
+
+
+{% block specialBodyInclude %}
+
+
+{% block specialBody %}{% endblock %}
+
+{% endblock %}
+

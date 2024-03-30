@@ -1,0 +1,32 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Crank It Up | PBS Kids' %}
+{% set desc = 'Halloween music! Drag items to D.W.s contraption. Shell start biking and the objects will make percussive music. Record, playback, and send to friends!' %}
+{% set keywds = 'music, D.W., instrument, percussion, diy, contraption, Halloween' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" /><script type="text/javascript">
+		//get query string
+		var queryStr = document.location.search;
+		var arr=queryStr.split("?");
+	</script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-666">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/crank_header.gif" width="619" height="72" border="0" alt="Crank It Up - Make music! Drag items to the pie plates, then click the green button. Add more sounds with your keyboard." id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="crankitup">
+    <p>You can <a href="http://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="http://pbskids.org/arthur/games/crankitup/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("gb_17_halloween.swf", "crank", "595", "350", "6", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				   fo.addParam("flashvars", arr[1]);				  				   fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+   <li><a href="/arthur/games/globalgizmo/index.html" id="rcGlobal">Global Gizmo</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

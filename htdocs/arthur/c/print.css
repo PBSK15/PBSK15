@@ -1,0 +1,105 @@
+body {	background: #fff !important; font-size:12pt; }
+img{ max-width:100% !important; }
+
+#master-content { clear:both; }
+#coastline { overflow: visible !important; margin:0; background:#fff; padding:0; }
+#topNav, .printable-nav, .print-instr, .ruler, .print-bg-top, .print-bg-btm, #relatedContent, #footer, #topNav, .hide, .print-bg-top, .print-bg-btm, .print-title-left, #pbsLogo, #arthurLogo, .no-print { display:none; float:none !important; }
+
+#content { padding:0; margin:0; background-color:#fff;}
+.copyright { display:block; padding:20px 0 0 0; vertical-align:bottom; margin:0 auto; width:7.361in; height:auto; }
+.page {width:900px; overflow:auto;}
+.print-title { display:block; }
+.float-right { float:right; }
+.printable-content { text-align:left; padding:0 0 27px 0; width:100%; }
+
+#printableArea { margin:0 auto; width:900px; padding:0;}
+
+#headband-container{display:none;}
+
+/*========= PRINT ALL PAGES =============*/
+.printall .page { page-break-after:always; }
+.printall .page.last { page-break-after:avoid; }
+.printall .print-pages li, .printall .hide { display:block; }
+.printall #printableArea, body #printableArea { float:none; }
+/* 		COOITE CATCHER	*/
+.page.cc .copyright { margin: 0 0 0 0px; }
+.page.cc { padding: 0 0 0 140px; }
+
+
+/*=====		UPSCALE IMAGE SIZE		=====*/
+.img { display:block; margin:0 auto; }
+
+/*		GROOVE IT		*/
+.groove { width:7.542in; height:10.014in; } 
+.groove-desc { width:7.875in; height:11.722in; }
+/*		ELWINGO!		*/
+.elwingo { width:6.75in; height:6.236in; }
+.elwingo-top { width:6.75in; height:1.153in; }
+.elwingo-bot { width:6.639in; height:0.042in; }
+/*		HATS		*/
+.hats { width:7.611in; height:9.944in; }
+/*		GO FETCH	*/
+.fetch { width:6.75in; height:8.083in; }
+/*		COOTIE CATCHER		*/
+#customCatcher { width:7.931in; height:8.778in; }
+.cc-side { width:0.028in; height:7.861in; }
+.cc-top { width:7.931in; height:0.028in; }
+.cc-num { width:0.986in; height:0.986in; }
+.cc-char { width:1.986in; height:1.986in; }
+.cc-side-spacer { width:0.986in; height:1.861in; }
+.cc-mid-spacer { width:1.931in; height:0.986in; }
+.cc-center-spacer { width:1.931in; height:1.861in; }
+/*		BOOKMARKS		*/
+.bk { width:2.319in; height:9.25in;}
+/*		MASKS		*/
+.mask { width:8.139in; height:9.944in; }
+/*		COLORING PAGES		*/
+.coloring { width:7.903in; height:6.778in; }
+/*		CRAZY BUS		*/
+.bus-card { width:7.1in; height:7.3in;}
+.bus-tab {  width:7.1in; height:2.9in; }
+.bus { width:7.1in; height:9.6in; }
+/*		SIGN DESIGN		*/
+#spellingContent #infoContent { width:600px; }
+/*		TRADING CARDS		*/
+.trading { width:8.403in; height:4.792in; }
+/*		HOLIDAY		*/
+.holiday { width:7.514in; height:7.514in; }
+/*		BACKSTREET BOYS		*/
+.backstreet{ width:7.903in; height:6.778in; }
+/*		SONGBOOK		*/
+.songbook { width:7.458in; height:10.25in; }
+
+/*========   BRAILLE     ======*/
+#brailleMsg, .printable-content #script { width:100%; }
+.braille-alaphebet { width:5.806in; height:9.5in; }
+.braille-num { width:5.806in; height:3.246in; }
+
+/*==== HIGH FIVE ======*/
+#msg h5 { font-size:36px; line-height:38px; width:4.5in; }
+#msg p { font-size:25px; line-height:30px; width:4.5in; }
+#hfCert { width:7.3in; height:9.5in; margin:0 auto;}
+#msg { height:2.47in; }
+#highFiveLeft, #highFiveRight { width:1.347in; height:9.375in; }
+#highFiveTop { width:4.417in; height:1.907in; }
+#highFiveBtm { width:4.417in; height:4.458in; }
+#highFiveMiddle { width:4.417in; }
+
+
+/*====== TOWER OF COWS ======*/
+.cow { width:7.958in; height:9.736in; }
+.printable-content #howto { margin:0; }
+.printall #howto .page { page-break-after:avoid; }
+.printall #howto p, .printall #howto ol { text-align:left; }
+.printable-content #howto ol dt { list-style:decimal outside none; display:list-item; }
+.printable-content #howto dd li { list-style:disc outside none; display:list-item; }
+
+/*======= PLAY MAKER - SCRIPT  =======*/
+#script { margin:0; }
+.pm { width:7.903in; height:6.778in; }
+
+
+
+/*======= LET'S DRAW ARTHUR =======*/
+.letsdraw_print_img { width:8.107in; height:10.5in; }
+

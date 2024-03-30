@@ -1,0 +1,69 @@
+#sticker-canvas{
+background-color: #f8f8f8;
+width: 680px;
+height: 249px;
+/*position: relative;
+top: 0;
+left: 0;*/
+background: url("../../i/present/cc_new_instructions.gif") 0 0;
+/*background-color: white;*/
+}
+
+#sticker-ui ul,
+#sticker-ui li{
+list-style: none;	
+}
+
+.tool-buttons ul.sticker-assets{
+display: none;
+}
+
+#sticker-canvas.ui-state-highlight{
+	border: none;
+/*background-color: #eaf4bb;	*/
+}
+
+
+#sticker-tools .tool-buttons .sticker-sheet {
+background: transparent;
+width: auto;
+height: auto;
+}
+
+#sticker-canvas .kineticjs-content{
+top:0;	
+/*position: absolute !important;*/
+}
+#sticker-canvas #sticker-stage{
+	position: relative !important;
+}
+
+.sticker-assets li{
+list-style: none;
+display: inline;	
+margin-right: 20px;
+}
+
+.sticker-assets img{
+	z-index:3;
+/*width: 55px;*/
+}
+
+.sticker-assets img.done{
+opacity: .25;	
+}
+
+#canvas-mask {
+	width:680px;
+	overflow: hidden;
+	border: 3px solid #314951;
+	position: absolute;
+	top: 150px;
+	left:66px;
+}
+
+
+
+/*#move-stage-left, #move-stage-right {position:absolute; top:370px;}
+#move-stage-right{left:20px;}
+#move-stage-left {right:20px;}*/

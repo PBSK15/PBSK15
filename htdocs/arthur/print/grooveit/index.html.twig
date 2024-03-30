@@ -1,0 +1,34 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Groove It | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="grooveHeader">Groove It</h4>
+  </div>
+  <div id="printablesNavIcons">
+   <ul id="grooveNavIcons">
+    <li id="gHowto" class="icon"><a href="howto.html"><span>How to Play</span></a></li>
+    <li id="gDance" class="icon"><a href="cards.html"><span>Dance Cards</span></a></li>
+    <li id="gMusic" class="icon"><a href="music_player.html"><span>Music Player</span></a></li>
+    <li id="gDo" class="icon"><a href="do_the_prunella.html"><span>Do the "Prunella"</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Songbook</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

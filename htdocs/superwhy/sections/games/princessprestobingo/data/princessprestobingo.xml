@@ -1,0 +1,509 @@
+<game id="princessbingo" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . PRINCESS PRESTO BINGO | PBS KIDS]]></title>
+	<swf url="sections/games/princessprestobingo/princessprestobingo.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "true"
+		totalGridCels = "9"
+		musicLoopID = "PrestoBingoMusicLoop"
+		musicLoopVolume = ".1"
+		endScreenLibraryID = "princesspresto_endscreen"
+		endScreenClassName = "PrincessPrestoEndScreen"
+		characterSectionColor = "princesspresto"
+		printImagesToLoad = "3"
+	/>
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="princesspresto_endscreen" url="libraries/princesspresto_endscreen.swf" />
+	</libraries> 
+
+	<assets>
+		
+		<voiceovers id="vo" isGroup="true">
+			<voiceover id="title_licketyletterbingo" type="audio" url="sections/games/princessprestobingo/audio/vo/Title.mp3"/>
+			<voiceover id="choose_level" type="audio" url="sections/games/princessprestobingo/audio/prompts/Choose_How_to_Play.mp3"/>
+		</voiceovers>
+		
+		<answerSounds id="answerSounds" isGroup="true">
+			<answer id="a" type="audio" url="sections/games/princessprestobingo/audio/sounds/aaa.mp3"/>
+			<answer id="b" type="audio" url="sections/games/princessprestobingo/audio/sounds/bbb.mp3"/>
+			<answer id="c" type="audio" url="sections/games/princessprestobingo/audio/sounds/ccc.mp3"/>
+			<answer id="d" type="audio" url="sections/games/princessprestobingo/audio/sounds/ddd.mp3"/>
+			<answer id="e" type="audio" url="sections/games/princessprestobingo/audio/sounds/eee.mp3"/>	
+			<answer id="f" type="audio" url="sections/games/princessprestobingo/audio/sounds/fff.mp3"/>
+			<answer id="g" type="audio" url="sections/games/princessprestobingo/audio/sounds/ggg.mp3"/>
+			<answer id="h" type="audio" url="sections/games/princessprestobingo/audio/sounds/hhh.mp3"/>
+			<answer id="i" type="audio" url="sections/games/princessprestobingo/audio/sounds/iii.mp3"/>
+			<answer id="j" type="audio" url="sections/games/princessprestobingo/audio/sounds/jjj.mp3"/>
+			<answer id="k" type="audio" url="sections/games/princessprestobingo/audio/sounds/kkk.mp3"/>
+			<answer id="l" type="audio" url="sections/games/princessprestobingo/audio/sounds/lll.mp3"/>
+			<answer id="m" type="audio" url="sections/games/princessprestobingo/audio/sounds/mmm.mp3"/>
+			<answer id="n" type="audio" url="sections/games/princessprestobingo/audio/sounds/nnn.mp3"/>
+			<answer id="o" type="audio" url="sections/games/princessprestobingo/audio/sounds/ooo.mp3"/>
+			<answer id="p" type="audio" url="sections/games/princessprestobingo/audio/sounds/ppp.mp3"/>
+			<answer id="q" type="audio" url="sections/games/princessprestobingo/audio/sounds/qqq.mp3"/>
+			<answer id="r" type="audio" url="sections/games/princessprestobingo/audio/sounds/rrr.mp3"/>
+			<answer id="s" type="audio" url="sections/games/princessprestobingo/audio/sounds/sss.mp3"/>
+			<answer id="t" type="audio" url="sections/games/princessprestobingo/audio/sounds/ttt.mp3"/>
+			<answer id="u" type="audio" url="sections/games/princessprestobingo/audio/sounds/uuu.mp3"/>
+			<answer id="v" type="audio" url="sections/games/princessprestobingo/audio/sounds/vvv.mp3"/>
+			<answer id="w" type="audio" url="sections/games/princessprestobingo/audio/sounds/www.mp3"/>
+			<answer id="x" type="audio" url="sections/games/princessprestobingo/audio/sounds/xxx.mp3"/>
+			<answer id="y" type="audio" url="sections/games/princessprestobingo/audio/sounds/yyy.mp3"/>
+			<answer id="z" type="audio" url="sections/games/princessprestobingo/audio/sounds/zzz.mp3"/>
+		</answerSounds>
+		
+		<letterSounds id="letterSounds" isGroup="true">
+			<letter id="a" type="audio" url="sections/games/princessprestobingo/audio/letters/a_pp.mp3"/>
+			<letter id="b" type="audio" url="sections/games/princessprestobingo/audio/letters/b_pp.mp3"/>
+			<letter id="c" type="audio" url="sections/games/princessprestobingo/audio/letters/c_pp.mp3"/>
+			<letter id="d" type="audio" url="sections/games/princessprestobingo/audio/letters/d_pp.mp3"/>
+			<letter id="e" type="audio" url="sections/games/princessprestobingo/audio/letters/e_pp.mp3"/>	
+			<letter id="f" type="audio" url="sections/games/princessprestobingo/audio/letters/f_pp.mp3"/>
+			<letter id="g" type="audio" url="sections/games/princessprestobingo/audio/letters/g_pp.mp3"/>
+			<letter id="h" type="audio" url="sections/games/princessprestobingo/audio/letters/h_pp.mp3"/>
+			<letter id="i" type="audio" url="sections/games/princessprestobingo/audio/letters/i_pp.mp3"/>
+			<letter id="j" type="audio" url="sections/games/princessprestobingo/audio/letters/j_pp.mp3"/>
+			<letter id="k" type="audio" url="sections/games/princessprestobingo/audio/letters/k_pp.mp3"/>
+			<letter id="l" type="audio" url="sections/games/princessprestobingo/audio/letters/l_pp.mp3"/>
+			<letter id="m" type="audio" url="sections/games/princessprestobingo/audio/letters/m_pp.mp3"/>
+			<letter id="n" type="audio" url="sections/games/princessprestobingo/audio/letters/n_pp.mp3"/>
+			<letter id="o" type="audio" url="sections/games/princessprestobingo/audio/letters/o_pp.mp3"/>
+			<letter id="p" type="audio" url="sections/games/princessprestobingo/audio/letters/p_pp.mp3"/>
+			<letter id="q" type="audio" url="sections/games/princessprestobingo/audio/letters/q_pp.mp3"/>
+			<letter id="r" type="audio" url="sections/games/princessprestobingo/audio/letters/r_pp.mp3"/>
+			<letter id="s" type="audio" url="sections/games/princessprestobingo/audio/letters/s_pp.mp3"/>
+			<letter id="t" type="audio" url="sections/games/princessprestobingo/audio/letters/t_pp.mp3"/>
+			<letter id="u" type="audio" url="sections/games/princessprestobingo/audio/letters/u_pp.mp3"/>
+			<letter id="v" type="audio" url="sections/games/princessprestobingo/audio/letters/v_pp.mp3"/>
+			<letter id="w" type="audio" url="sections/games/princessprestobingo/audio/letters/w_pp.mp3"/>
+			<letter id="x" type="audio" url="sections/games/princessprestobingo/audio/letters/x_pp.mp3"/>
+			<letter id="y" type="audio" url="sections/games/princessprestobingo/audio/letters/y_pp.mp3"/>
+			<letter id="z" type="audio" url="sections/games/princessprestobingo/audio/letters/z_pp.mp3"/>
+		</letterSounds>
+		
+		<oops id="oops" isGroup="true">
+			<oops id="oops1a" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops1a.mp3" />
+			<oops id="oops1b" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops1b.mp3" />
+			<oops id="oops2a" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops2a.mp3" />
+			<oops id="oops2b" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops2b.mp3" />
+			<!-- the following two opps vo's have their order reversed from filenames -->
+			<oops id="oops3b" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops3b.mp3" />
+			<oops id="oops3a" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops3a.mp3" />
+			<oops id="oops4b" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops4b.mp3" />
+			<oops id="oops4a" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops4a.mp3" />
+			<oops id="oops5b" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops5b.mp3" />
+			<oops id="oops5a" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops5a.mp3" />
+			<!-- end reversed files -->
+			<oops id="oops6a" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops6a.mp3" />
+			<oops id="oops6b" type="audio" url="sections/games/princessprestobingo/audio/oops/Oops6b.mp3" />
+		</oops>
+		
+		<kudos id="kudos" isGroup="true">
+			<kudos id="excellent" type="audio" url="sections/games/princessprestobingo/audio/kudos/kudos_excellent.mp3" />
+			<kudos id="great" type="audio" url="sections/games/princessprestobingo/audio/kudos/kudos_great.mp3" />
+			<kudos id="lovely" type="audio" url="sections/games/princessprestobingo/audio/kudos/kudos_lovely.mp3" />
+			<kudos id="magnificent" type="audio" url="sections/games/princessprestobingo/audio/kudos/kudos_magnificent.mp3" />
+			<kudos id="spectacular" type="audio" url="sections/games/princessprestobingo/audio/kudos/kudos_spectacular.mp3" />
+			<kudos id="thats_it" type="audio" url="sections/games/princessprestobingo/audio/kudos/kudos_thats_it.mp3" />
+		</kudos>
+		
+		<finaleKudos id="finaleKudos" isGroup="true">
+			<finaleKudos id="finaleKudos" type="audio" url="sections/games/princessprestobingo/audio/vo/Payoff.mp3" />
+		</finaleKudos>
+		
+		<soundfx id="soundfx" isGroup="true">
+			<soundfx id="ui_press" type="audio" url="sections/games/alphapigbingo/audio/sfx/sfx_ui_press.mp3" />
+			<soundfx id="ui_over" type="audio" url="sections/games/alphapigbingo/audio/sfx/sfx_ui_over.mp3" />
+			<soundfx id="grid_over" type="audio" url="sections/games/alphapigbingo/audio/sfx/sfx_grid_over.mp3" />
+			<soundfx id="grid_press" type="audio" url="sections/games/alphapigbingo/audio/sfx/sfx_grid_press.mp3" />
+			<soundfx id="wrongtile" type="audio" url="sections/games/alphapigbingo/audio/sfx/wrongtile.mp3" />
+			<soundfx id="frameflair" type="audio" url="sections/games/alphapigbingo/audio/sfx/frameflair.mp3" />
+			<soundfx id="intro" type="audio" url="sections/games/alphapigbingo/audio/sfx/intro_transition.mp3" />
+			<soundfx id="tiletransition" type="audio" url="sections/games/alphapigbingo/audio/sfx/tiletransition.mp3" />
+			<soundfx id="spin" type="audio" url="sections/games/alphapigbingo/audio/sfx/spin.mp3" />
+			<soundfx id="buttontransition" type="audio" url="sections/games/alphapigbingo/audio/sfx/buttontransition.mp3" />
+		</soundfx>
+		
+		<prompts id="prompts" isGroup="true">
+			<prompt id="objective1" type="audio" url="sections/games/princessprestobingo/audio/prompts/Objective1.mp3" />
+			<prompt id="objective2" type="audio" url="sections/games/princessprestobingo/audio/prompts/Objective2.mp3" />
+		</prompts>
+
+		<buttons id="buttons" isGroup="true">
+			<rollover id="click_speaker" type="audio" url="sections/games/princessprestobingo/audio/buttons/Speaker.mp3" />
+			<rollover id="button_print" type="audio" url="sections/games/princessprestobingo/audio/buttons/pp_button_print.mp3" />
+			<rollover id="easy" type="audio" url="sections/games/princessprestobingo/audio/buttons/UppercaseLetters.mp3" />
+			<rollover id="medium" type="audio" url="sections/games/princessprestobingo/audio/buttons/LowercaseLetters.mp3" />
+			<rollover id="hard" type="audio" url="sections/games/princessprestobingo/audio/buttons/UppercaseANDLowercaseLetters.mp3" />
+		</buttons>
+		
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		</promos>
+	</assets>
+	
+	<printImages>
+		<!--image id="" url="sections/games/princessprestobingo/images/.jpg" /-->
+		<printimage id="a" url="sections/games/princessprestobingo/images/Princess01.jpg" />
+		<printimage id="b" url="sections/games/princessprestobingo/images/Princess02.jpg" />
+		<printimage id="c" url="sections/games/princessprestobingo/images/Princess03.jpg" />
+		<printimage id="d" url="sections/games/princessprestobingo/images/Princess04.jpg" />
+		<printimage id="e" url="sections/games/princessprestobingo/images/Princess05.jpg" />
+		<printimage id="f" url="sections/games/princessprestobingo/images/Princess06.jpg" />
+		<printimage id="g" url="sections/games/princessprestobingo/images/Princess07.jpg" />
+		<printimage id="h" url="sections/games/princessprestobingo/images/Princess08.jpg" />
+		<printimage id="i" url="sections/games/princessprestobingo/images/Princess09.jpg" />
+		<printimage id="j" url="sections/games/princessprestobingo/images/Princess10.jpg" />
+		<printimage id="k" url="sections/games/princessprestobingo/images/Princess11.jpg" />
+	</printImages>
+	
+	<!-- 
+		Letters are listed repeatedly for each difficulty level, 
+		because this allows maximum adjustment outside of the Flash movie.
+		
+		For instance, you could adjust the game to test letter subsets 
+		(like lower case vowels) by removing some <answer> XML nodes
+		
+		The separate prompt and answer nodes also provide flexibility with 
+		common question types.  For instance, one game might simply say 'find the letter Z',
+		while another game might say 'find the letter that sounds like ZZZZZZ'.
+		
+		This prompt/answer structure is consistent with XML data structure for word testing games,
+		so common code can be used for similar bingo games.
+	-->
+	<answerLibrary type="letter">
+
+		<difficultyLevel case="upper">		
+			<answer>
+				<prompt soundID="a"><![CDATA[a]]></prompt>
+				<match soundID="a"><![CDATA[a]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="b"><![CDATA[b]]></prompt>
+				<match soundID="b"><![CDATA[b]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="c"><![CDATA[c]]></prompt>
+				<match soundID="c"><![CDATA[c]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="d"><![CDATA[d]]></prompt>
+				<match soundID="d"><![CDATA[d]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="e"><![CDATA[e]]></prompt>
+				<match soundID="e"><![CDATA[e]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="f"><![CDATA[f]]></prompt>
+				<match soundID="f"><![CDATA[f]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="g"><![CDATA[g]]></prompt>
+				<match soundID="g"><![CDATA[g]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="h"><![CDATA[h]]></prompt>
+				<match soundID="h"><![CDATA[h]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="i"><![CDATA[i]]></prompt>
+				<match soundID="i"><![CDATA[i]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="j"><![CDATA[j]]></prompt>
+				<match soundID="j"><![CDATA[j]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="k"><![CDATA[k]]></prompt>
+				<match soundID="k"><![CDATA[k]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="l"><![CDATA[l]]></prompt>
+				<match soundID="l"><![CDATA[l]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="m"><![CDATA[m]]></prompt>
+				<match soundID="m"><![CDATA[m]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="n"><![CDATA[n]]></prompt>
+				<match soundID="n"><![CDATA[n]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="o"><![CDATA[o]]></prompt>
+				<match soundID="o"><![CDATA[o]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="p"><![CDATA[p]]></prompt>
+				<match soundID="p"><![CDATA[p]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="q"><![CDATA[q]]></prompt>
+				<match soundID="q"><![CDATA[q]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="r"><![CDATA[r]]></prompt>
+				<match soundID="r"><![CDATA[r]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="s"><![CDATA[s]]></prompt>
+				<match soundID="s"><![CDATA[s]]></match>
+			</answer>
+			<answer>
+				<prompt soundID="t"><![CDATA[t]]></prompt>
+				<match soundID="t"><![CDATA[t]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="u"><![CDATA[u]]></prompt>
+				<match soundID="u"><![CDATA[u]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="v"><![CDATA[v]]></prompt>
+				<match soundID="v"><![CDATA[v]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="w"><![CDATA[w]]></prompt>
+				<match soundID="w"><![CDATA[w]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="x"><![CDATA[x]]></prompt>
+				<match soundID="x"><![CDATA[x]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="y"><![CDATA[y]]></prompt>
+				<match soundID="y"><![CDATA[y]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="z"><![CDATA[z]]></prompt>
+				<match soundID="z"><![CDATA[z]]></match>
+			</answer>	
+		</difficultyLevel>
+		
+		<difficultyLevel case="lower">
+			<answer>
+				<prompt soundID="a"><![CDATA[a]]></prompt>
+				<match soundID="a"><![CDATA[a]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="b"><![CDATA[b]]></prompt>
+				<match soundID="b"><![CDATA[b]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="c"><![CDATA[c]]></prompt>
+				<match soundID="c"><![CDATA[c]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="d"><![CDATA[d]]></prompt>
+				<match soundID="d"><![CDATA[d]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="e"><![CDATA[e]]></prompt>
+				<match soundID="e"><![CDATA[e]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="f"><![CDATA[f]]></prompt>
+				<match soundID="f"><![CDATA[f]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="g"><![CDATA[g]]></prompt>
+				<match soundID="g"><![CDATA[g]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="h"><![CDATA[h]]></prompt>
+				<match soundID="h"><![CDATA[h]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="i"><![CDATA[i]]></prompt>
+				<match soundID="i"><![CDATA[i]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="j"><![CDATA[j]]></prompt>
+				<match soundID="j"><![CDATA[j]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="k"><![CDATA[k]]></prompt>
+				<match soundID="k"><![CDATA[k]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="l"><![CDATA[l]]></prompt>
+				<match soundID="l"><![CDATA[l]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="m"><![CDATA[m]]></prompt>
+				<match soundID="m"><![CDATA[m]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="n"><![CDATA[n]]></prompt>
+				<match soundID="n"><![CDATA[n]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="o"><![CDATA[o]]></prompt>
+				<match soundID="o"><![CDATA[o]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="p"><![CDATA[p]]></prompt>
+				<match soundID="p"><![CDATA[p]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="q"><![CDATA[q]]></prompt>
+				<match soundID="q"><![CDATA[q]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="r"><![CDATA[r]]></prompt>
+				<match soundID="r"><![CDATA[r]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="s"><![CDATA[s]]></prompt>
+				<match soundID="s"><![CDATA[s]]></match>
+			</answer>
+			<answer>
+				<prompt soundID="t"><![CDATA[t]]></prompt>
+				<match soundID="t"><![CDATA[t]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="u"><![CDATA[u]]></prompt>
+				<match soundID="u"><![CDATA[u]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="v"><![CDATA[v]]></prompt>
+				<match soundID="v"><![CDATA[v]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="w"><![CDATA[w]]></prompt>
+				<match soundID="w"><![CDATA[w]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="x"><![CDATA[x]]></prompt>
+				<match soundID="x"><![CDATA[x]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="y"><![CDATA[y]]></prompt>
+				<match soundID="y"><![CDATA[y]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="z"><![CDATA[z]]></prompt>
+				<match soundID="z"><![CDATA[z]]></match>
+			</answer>	
+		</difficultyLevel>
+
+		<difficultyLevel case="mixed">
+			<answer>
+				<prompt soundID="a"><![CDATA[a]]></prompt>
+				<match soundID="a"><![CDATA[a]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="b"><![CDATA[b]]></prompt>
+				<match soundID="b"><![CDATA[b]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="c"><![CDATA[c]]></prompt>
+				<match soundID="c"><![CDATA[c]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="d"><![CDATA[d]]></prompt>
+				<match soundID="d"><![CDATA[d]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="e"><![CDATA[e]]></prompt>
+				<match soundID="e"><![CDATA[e]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="f"><![CDATA[f]]></prompt>
+				<match soundID="f"><![CDATA[f]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="g"><![CDATA[g]]></prompt>
+				<match soundID="g"><![CDATA[g]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="h"><![CDATA[h]]></prompt>
+				<match soundID="h"><![CDATA[h]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="i"><![CDATA[i]]></prompt>
+				<match soundID="i"><![CDATA[i]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="j"><![CDATA[j]]></prompt>
+				<match soundID="j"><![CDATA[j]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="k"><![CDATA[k]]></prompt>
+				<match soundID="k"><![CDATA[k]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="l"><![CDATA[l]]></prompt>
+				<match soundID="l"><![CDATA[l]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="m"><![CDATA[m]]></prompt>
+				<match soundID="m"><![CDATA[m]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="n"><![CDATA[n]]></prompt>
+				<match soundID="n"><![CDATA[n]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="o"><![CDATA[o]]></prompt>
+				<match soundID="o"><![CDATA[o]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="p"><![CDATA[p]]></prompt>
+				<match soundID="p"><![CDATA[p]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="q"><![CDATA[q]]></prompt>
+				<match soundID="q"><![CDATA[q]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="r"><![CDATA[r]]></prompt>
+				<match soundID="r"><![CDATA[r]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="s"><![CDATA[s]]></prompt>
+				<match soundID="s"><![CDATA[s]]></match>
+			</answer>
+			<answer>
+				<prompt soundID="t"><![CDATA[t]]></prompt>
+				<match soundID="t"><![CDATA[t]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="u"><![CDATA[u]]></prompt>
+				<match soundID="u"><![CDATA[u]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="v"><![CDATA[v]]></prompt>
+				<match soundID="v"><![CDATA[v]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="w"><![CDATA[w]]></prompt>
+				<match soundID="w"><![CDATA[w]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="x"><![CDATA[x]]></prompt>
+				<match soundID="x"><![CDATA[x]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="y"><![CDATA[y]]></prompt>
+				<match soundID="y"><![CDATA[y]]></match>
+			</answer>	
+			<answer>
+				<prompt soundID="z"><![CDATA[z]]></prompt>
+				<match soundID="z"><![CDATA[z]]></match>
+			</answer>	
+		</difficultyLevel>
+
+		
+	</answerLibrary>
+	
+
+</game>

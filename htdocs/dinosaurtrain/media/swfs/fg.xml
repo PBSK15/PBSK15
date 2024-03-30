@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	
+<!-- 
+====================================================================================================
+FIELDGUIDE CONFIGURE FILE
+This file will set configuration settings of the FieldGuide game. All these values can also
+be set through FlashVars in the embed/object tag. Values set via FlashVars will take priority 
+over values set in this file
+====================================================================================================
+-->
+	
+<configure>
+
+	<!-- 
+	====================================================================================================
+	SETTINGS
+	a setting is name/value pairs that effect the operation the game
+	====================================================================================================
+	-->
+	<setting name="version" value="1.0" note=""></setting>
+	<setting name="language" value="en" note="language of game { en:English, es:Spanish }"></setting>
+	<setting name="video-skin" value="SkinUnderPlaySeekMute.swf" note="skin to play video"></setting>
+	
+	<!-- 
+	====================================================================================================
+	LOCAL SETTINGS
+	a language dependent setting is a name/value pairs that effect the operation the game
+	====================================================================================================
+	-->
+	
+	<!-- ENGLISH -->
+	<localSetting language="en" name="audio" value="fg_en_audio.swf"></localSetting>
+	<localSetting language="en" name="skin" value="fg_en_skin.swf"></localSetting>
+    <localSetting language="en" name="thumbs" value="fg_en_thumbs.swf"></localSetting>
+	<localSetting language="en" name="activity" value="fg_en_activity.xml" ></localSetting>
+	<localSetting language="en" name="intro-video" value="fg_en_intro.flv" ></localSetting>
+	
+	<!-- SPANISH -->
+	<localSetting language="es" name="audio" value="fg_es_audio.swf"></localSetting>
+	<localSetting language="es" name="skin" value="fg_es_skin.swf"></localSetting>
+    <localSetting language="en" name="thumbs" value="fg_en_thumbs.swf"></localSetting>
+	<localSetting language="es" name="activity" value="fg_es_activity.xml" ></localSetting>
+	
+	
+</configure>

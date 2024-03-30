@@ -1,0 +1,93 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Contact Us' %}
+{% set desc = 'Contact The Jim Henson Company\\\'s Dinosaur Train.' %}
+{% set keywds = '\\\"dinosaur train contact\\\"' %}
+
+
+{% block specialInclude %}{% endblock %}
+
+
+{% set onLoadEvent = 'onLoad();' %}
+{% set bodyClass = 'htmlPageBody' %}
+
+
+{% block loadContent %}
+
+ function getParameterByName(name)	{  
+name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");  
+var regexS = "[\\?&]" + name + "=([^&#]*)";  
+var regex = new RegExp(regexS);  
+var results = regex.exec(window.location.href);  
+if(results == null)
+
+return "";  
+else
+
+return decodeURIComponent(results[1].replace(/\+/g, " "));	}
+
+function loadContent(){
+isFlashEnabled(function(){	
+
+fixWidths(getSize());
+}, function(){
+	fixWidths(false, true);
+});	}{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="main_content" style="height: auto;">
+ <center>
+  <div class="htmlContentWrapper">
+   <center>
+    <span class="style1">Contact Us</span><br>
+   </center>
+   <div class="meetTheChars_box">
+    <form action="/cgi-registry/postmaster.pl" method="post">
+     <input type="hidden" name="location" value="/dinosaurtrain/contact_thankyou.html"><input type="hidden" name="to" value="55318c806998be95dae411f97d4f757b"><input type="hidden" name="from" value="dinosaurtrain@pbskids.org"><input type="hidden" name="subject" value="Dinosaur Train Feedback from pbskids.org">
+     <div style="padding: 10px 0 10px 0">
+      We'd love to hear from you!<br>
+     </div>
+     <table width="100%">
+      <tbody>
+       <tr>
+        <td>Your Message:<br> <textarea cols="50" rows="7" name="content"></textarea>
+         <table>
+          <tbody>
+           <tr>
+            <td>My message is about:</td>
+            <td><select name="subject2"> <option value="The TV Show" selected>The TV Show</option> <option value="The Web Site">The Web Site</option> </select></td>
+           </tr>
+           <tr>
+            <td><b>First Name</b> (optional):</td>
+            <td><input type="text" size="32" name="name"></td>
+           </tr>
+           <tr>
+            <td><b>E-Mail</b> (optional):*</td>
+            <td><input type="text" size="32" name="email"></td>
+           </tr>
+          </tbody>
+         </table> I'm a: <select name="age"> <option value="Kid" selected>Kid</option> <option value="Grown-Up">Grown-Up</option> </select> <br> <br> <input type="submit" style="margin-left:360px" value="send"></td>
+        <td valign="top"><span style="padding: 10px 0 10px 0"><img src="http://pbskids.org/dinosaurtrain/images/dino_family.jpg" alt="Buddy's Family"></span></td>
+       </tr>
+      </tbody>
+     </table>
+    </form>
+    <div>
+     <span class="style3">* If you would like a reply to your email, type in your email address. Your email address is discarded after we send you a response.</span> <br><br><br>
+    </div>
+   </div><!--meetTheChars_box-->
+  </div>
+ </center>
+</div>{% endblock %}
+
+
+
+
+{% block specialBodyInclude %}
+
+
+{% block specialBody %}{% endblock %}
+
+{% endblock %}
+

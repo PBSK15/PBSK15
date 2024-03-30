@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    {% if homeTitle == true %}
+        <title>Arthur Family Health | PBS Kids</title>
+    {% else %}
+	    <title>{{pageTitle|raw}} | PBS KIDS</title>
+    {% endif %}
+
+	<meta charset=utf-8>
+	<meta name="viewport" content="initial-scale=1.0,width=device-width">
+
+	<link rel="stylesheet" type="text/css" href="/arthur/health/css/main.css">
+    {% if videoCss == true %}
+	    <link rel="stylesheet" type="text/css" href="/arthur/health/css/video.css">
+    {% endif %}
+
+    {{specialInclude|raw}}
+
+	{% include 'template_includes/bridge_js_include.html' %}
+</head>
+
+<body class="{{bodyClass}}">
+
+
+
+{% include 'template_includes/modern_headband_include.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+  
+  <script type="text/javascript">
+    console.log('has_headband_login: ');
+  </script>
+
+  
+
+
+
+
+	<div id="nameplate">
+		<div class="group">
+			<a href="/arthur/" class="flt-r">Arthur home</a>
+			<a href="/" class="flt-l"><img src="/arthur/health/img/pbskids_logo.png" alt="PBS Kids" width="47" height="47"></a>
+			<h1><a href="./" style="cursor:default;" onclick="return false;">Arthur Family Health</a></h1>
+		</div>
+	</div>
+
+	{% block mainContent %}{% endblock %}
+
+	<div id="footer" class="group">
+	<ul>
+		<li><a href="/arthur/">Arthur Home</a></li>
+		<li><a href="/arthur/health/credits.html">Credits</a></li>
+		<li><a href="/arthur/health/sitemap.html">Site Map</a></li>
+		<li><a href="/arthur/health/disclaimer.html">Disclaimer</a></li>
+		<li><a href="/arthur/health/more-resources.html">More Resources</a></li>
+		<li><a href="/arthur/health/">Family Health Home</a></li>
+		<li><a href="/arthur/health/asthma/">Asthma</a></li>
+		<li><a href="/arthur/health/allergy/">Peanut Allergy</a></li>
+		<li><a href="/arthur/health/nutrition/">Nutrition</a></li>
+		<li><a href="/arthur/health/resilience/">Resilience</a></li>
+		<li><a href="/arthur/health/fitness/">Fitness</a></li>
+	</ul>
+
+	<div class="group">
+		<p>&copy;2015 WGBH Educational Foundation. All rights reserved. All characters and underlying materials (including artwork) copyright by Marc Brown. Arthur, D.W., and the other Marc Brown characters are trademarks of Marc Brown. All third-party trademarks are the property of their respective owners. Used with permission. Arthur is produced by WGBH Boston and 9 Story Entertainment, Inc.</p>
+		<a href="https://www.wgbh.org/"><img src="/arthur/health/img/logo_wgbh.png" alt="WGBH" width="102" height="43"></a>
+		<a href="https://www.9story.com/"><img src="/arthur/health/img/logo_9story.png" alt="9 Story" width="126" height="43"></a>
+		<a href="https://www.cpb.org/"><img src="/arthur/health/img/logo_cpb.png" alt="CPB" width="197" height="37"></a>
+
+		<p class="legal">The Arthur Family Health Website is intended for informational purposes only and is not a substitute for medical advice, diagnosis or treatment, which only your healthcare provider can do.</p>
+
+		<p>Funding for the Arthur Family Health Website is provided by the WGBH Children's Educational Media Fund, whose donors include The Weezie Foundation.</p>
+		<img src="/arthur/health/img/logo_weeziefound4.png" alt="WGBH &amp; Weezie">
+
+		<p>Funding for Arthur is provided by public television viewers. Corporate funding is provided by Chuck E. Cheese's&reg;</p>
+		<a href="https://www.pbs.org/"><img src="/arthur/health/img/logo_pbs.png" alt="PBS" width="123" height="56"></a>
+		<a href="https://www.chuckecheese.com"><img src="/arthur/health/img/logo_chuckecheese.png" alt="Chuck E. Cheese's" width="108" height="56"></a>
+	</div>
+</div>
+
+{{specialBody|raw}}
+</body>
+</html>

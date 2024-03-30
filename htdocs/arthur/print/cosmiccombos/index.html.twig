@@ -1,0 +1,64 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Cosmic Combos | PBS Kids' %}
+{% set desc = 'Design and create your very own alien! Print out the aliens, cut them up into different parts, and then mix and match their pieces. Then mix and match parts with other aliens!' %}
+{% set keywds = 'alien, print, color, activity, body' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr">
+  <h4 id="cosmicHeader">Cosmic Combos</h4>
+  <p>Create an alien invasion! Each of these aliens is divided into three parts: top, middle, and bottom. Print and color the aliens, then cut them into separate pieces. Mix and match the parts to make new creatures! Also, check out our interactive alien construction game, <a href="/arthur/games/alien/index.html">Alien: Assembly Required</a>!</p>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Alien 1</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printCosmic">
+    <li id="alien1">
+     <div class="page">
+      <img src="../../i/print/cosmic/alien_1_robot.gif" width="569" height="488" alt="Alien 1 - robot" border="0" class="cc img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="alien2">
+     <div class="page">
+      <img src="../../i/print/cosmic/alien_2_furry.gif" width="569" height="488" alt="Alien 2 - furry" border="0" class="cc img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="alien3">
+     <div class="page">
+      <img src="../../i/print/cosmic/alien_3_crabby.gif" width="569" height="488" alt="Alien 3 - crabby" border="0" class="cc img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="alien4">
+     <div class="page">
+      <img src="../../i/print/cosmic/alien_4_cube.gif" width="569" height="488" alt="Alien 4 - cube" border="0" class="cc img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="alien5">
+     <div class="page">
+      <img src="../../i/print/cosmic/alien_5_turtle.gif" width="569" height="488" alt="Alien 5 - turtle" border="0" class="cc img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>
+   <li><a href="/arthur/print/coloringpages/index.html" id="rcColoring">Coloring Pages</a></li>
+   <li><a href="/arthur/games/alien/index.html" id="rcAlien">Alien: Assembly Required</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

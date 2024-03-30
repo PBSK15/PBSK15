@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Ask Brain</title>
+			<href>/arthur/games/askbrain/index.html</href>
+			<imgurl>/arthur/i/related/askbrain.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Ask Prunella</title>
+			<href>/arthur/games/askprunella/index.html</href>
+			<imgurl>/arthur/i/related/askprunella.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Facts and Opinions</title>
+			<href>/arthur/games/factsopinions/index.html</href>
+			<imgurl>/arthur/i/related/factsopinions.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Virtual Goose</title>
+			<href>/arthur/games/virtualgoose/index.html</href>
+			<imgurl>/arthur/i/related/goose.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Marthur Stickerbook Mashup</title>
+			<href>/arthur/games/marthursticker/index.html</href>
+			<imgurl>/arthur/i/related/stickerbook.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwingo!</title>
+			<href>/arthur/print/elwingo/index.html</href>
+			<imgurl>/arthur/i/related/elwingo.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Falafelosophy</title>
+			<href>/arthur/video/index.html?pid=_n415FcdTUEm4MW2soUeNaembcKZghPf</href>
+			<imgurl>/arthur/i/related/falafelosophy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Matchmaker Matchbreaker</title>
+			<href>/arthur/video/index.html?pid=VmnHqSmhilnv6s5VrEhvyFktuvX5sQDL</href>
+			<imgurl>/arthur/i/related/matchmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Lights, Camera... Opera!</title>
+			<href>/arthur/video/index.html?pid=hlB0I0bTnyKOeR2rle38YbSitnn_dp0t</href>
+			<imgurl>/arthur/i/related/lightscamera.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

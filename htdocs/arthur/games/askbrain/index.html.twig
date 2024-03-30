@@ -1,0 +1,61 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letters To The Brain | PBS Kids' %}
+{% set desc = 'Compose a letter to Brain and ask him a question. Then send your letter. Youll get a response back !' %}
+{% set keywds = 'advice, letter composition, Brain, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" /><script type="text/javascript" src="/arthur/js/printables.js"></script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../lettersto/index.html"><h4 id="letterstoSmHeader">Letters To...</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../letterstoarthur/index.html"><span>Arthur</span></a></li>
+   <li><a href="../heyfrancine/index.html"><span>Francine</span></a></li>
+   <li><a href="../traveltales/index.html"><span>Sue Ellen</span></a></li>
+   <li><a href="../askbrain/index.html" class="selected"><span>The Brain</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <table border="0" width="637" cellspacing="0" cellpadding="0">
+   <tbody>
+    <tr>
+     <td colspan="7"><img src="../../i/games/lettersto/brain/brain_header.gif" width="637" height="133" alt="Letters to The Brain" border="0" style="display:block;"></td>
+    </tr>
+    <tr>
+     <td width="88"><img src="/arthur/i/1px.gif" width="88" alt=""></td>
+     <td width="2" bgcolor="#000000"><img src="/arthur/i/1px.gif" width="2" alt=""></td>
+     <td width="10" bgcolor="#9999FF"><img src="/arthur/i/1px.gif" width="10" alt=""></td>
+     <td width="450" bgcolor="#9999FF">
+      <form name="askbrain" action="/cgi-registry/arthur/letter.php" method="POST">
+       <p>&nbsp;</p> Dear The Brain, 
+       <p>I'm <select name="i_am" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="working_project">working on a science project</option> <option value="surprise_friend">planning to surprise my best friend</option> <option value="learn_clouds">trying to learn all about clouds</option> <option value="build_boat">building my own three-masted boat</option> </select>&nbsp;, and I need <select name="i_need" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="expert_advice">your expert advice</option> <option value="sneeze">to sneeze</option> <option value="lemonade">a lemonade to quench my thirst</option> <option value="dollars">five million dollars</option> </select>&nbsp;.</p>
+       <p>My question is, <select name="my_question" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="volcano">how big should my model volcano be</option> <option value="monkeys">where can I get five monkeys and a year's supply of bananas</option> <option value="cumulonimbus">is it rude to say "cumulonimbus"</option> <option value="wood_or_cheese">should I use wood or cheese</option> </select>&nbsp;?</p>
+       <p>I must say, <select name="must_say" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="first_person">you're the first person I thought to ask </option><option value="secret">please keep this a secret, for obvious reasons </option><option value="last_hope">you're my last and only hope </option><option value="sweater">that sweater looks really good on you </option></select>&nbsp;.</p>
+       <p>If you can't help me, I might as well <select name="might_as_well" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="hiding_card">find a good hiding spot for my report card </option><option value="juggle">learn to juggle and join the circus </option><option value="make_up">just make something up </option><option value="fingernails">see how long I can grow my fingernails </option></select>&nbsp;.</p>
+       <p><select name="end" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="sugar_bowl">See you at the Sugar Bowl</option> <option value="CUL8R">CUL8R</option> <option value="TTFN">TTFN</option> <option value="science_fair">Until the Science Fair</option> </select>&nbsp;!</p>
+       <p>From,<br> <input type="text" type="from" name="from" size="15" maxlength="20" style="font-family:Comic Sans MS,serif;font-size:14px;"></p>
+       <p><input type="hidden" name="featurepath" value="/arthur/games/askbrain/"> <input type="hidden" name="template_page" value="LETTER.TMPL"> <input type="hidden" name="logic_page" value="brain.txt"></p>
+       <div align="center">
+        <input type="submit" name="Send" value="Send to The Brain" style="font-family:Comic Sans MS,serif;font-size:14px;">
+       </div> <br clear="all"> <img src="/arthur/i/1px.gif" width="450" height="1" alt="">
+      </form></td>
+     <td width="10" bgcolor="#9999FF"><img src="/arthur/i/1px.gif" width="10" alt=""></td>
+     <td width="2" bgcolor="#000000"><img src="/arthur/i/1px.gif" width="2" alt=""></td>
+     <td width="75"><img src="/arthur/i/1px.gif" width="75" alt=""></td>
+    </tr>
+    <tr>
+     <td colspan="7"><img src="../../i/games/lettersto/pencil_bottom.gif" width="637" height="121" alt="" border="0"></td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/brain/index.html" id="rcBrain">The Brain</a></li>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Ask Prunella</a></li>
+   <li><a href="/arthur/games/traveltales/index.html" id="rcTravelTales">Sue Ellen's Travel Tales</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Station Race' %}
+{% set desc = 'Help Mr. Conductor stay on schedule by building track from station to station for the Dinosaur Train and the Rocket Train! Pick up passengers along the way and learn about all kinds of dinosaurs, including pteranodon, argentinosaurus, quetzalcoatlus, sauroposeidon, spinosaurus, triceratops, kosmoceratops, and deinonychus!' %}
+{% set keywds = 'pteranodon, argentinosaurus, quetzalcoatlus, sauroposeidon, spinosaurus, triceratops, kosmoceratops, deinonychus, rocket train, dinosaur train, mr. conductor' %}
+
+
+{% block specialInclude %}<link rel="stylesheet" href="stationrace/s/compressed140658743.css" type="text/css">{% endblock %}
+
+
+{% set onLoadEvent = '(typeof onLoad === \"function\")?onLoad():null;' %}
+{% set bodyClass = '' %}
+
+
+{% block loadContent %}
+
+ function getParameterByName(name)	{  
+name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");  
+var regexS = "[\\?&]" + name + "=([^&#]*)";  
+var regex = new RegExp(regexS);  
+var results = regex.exec(window.location.href);  
+if(results == null)
+
+return "";  
+else
+
+return decodeURIComponent(results[1].replace(/\+/g, " "));	}
+
+function loadContent(){
+
+var w
+= getSize();
+
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+
+
+fixWidths(false, true);
+
+} else {
+
+
+fixWidths(w);
+
+}
+}{% endblock %}
+
+
+
+
+{% block mainContent %}<div id="main_content"></div>{% endblock %}
+
+
+
+
+{% block specialBodyInclude %}
+
+
+{% block specialBody %}<script type="text/javascript" src="http://code.createjs.com/createjs-2013.12.12.min.js"></script><script>document.write('<s'+'cript language="JavaScript" src="http://view.atdmt.com/jaction/k01pkt_DinoTracks_1"></s'+'cript>')</script><noscript>
+ <iframe src="http://view.atdmt.com/iaction/k01pkt_DinoTracks_1" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe>
+</noscript><script type="text/javascript" src="stationrace/j/compressed140658743.js"></script>{% endblock %}
+
+{% endblock %}
+

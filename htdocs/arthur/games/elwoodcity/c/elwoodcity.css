@@ -1,0 +1,406 @@
+#map-frame
+{
+	width: 619px;
+	height: 491px;
+	background-image: url(../../../i/games/elwoodcity/map_frame.gif);
+	margin:0 auto;
+	position:relative;
+}
+
+#map
+{
+	position: absolute;
+	width: 610px;
+	height: 358px;
+	top: 72px;
+	left: 12px;
+	background-image: url(../../../i/games/elwoodcity/map.gif);
+	background-repeat: no-repeat;
+}
+
+#map .quad
+{
+	width: 280px;
+	height: 160px;
+	float: left;
+	position: absolute;
+}
+
+#map .quad a
+{
+	display: block;
+	width: 280px;
+	height: 160px;
+}
+#q1 { left: 0px; top: 0px; }
+
+#q2 { left: 305px; }
+#q3 { left: 0px; top: 180px; }
+
+#q4
+{
+	top: 180px;
+	left: 305px;
+}
+
+.zoomed
+{
+	position: relative;
+	top: 72px;
+	left: 12px;
+	width: 610px;
+	height: 358px;
+	display: none;
+}
+
+#map-q1
+{
+	background-image: url(../../../i/games/elwoodcity/map_q1.gif);
+	background-repeat: no-repeat;
+}
+
+#map-q2
+{
+	background-image: url(../../../i/games/elwoodcity/map_q2.gif);
+	background-repeat: no-repeat;
+}
+
+#map-q3
+{
+	background-image: url(../../../i/games/elwoodcity/map_q3.gif);
+	background-repeat: no-repeat;
+}
+
+#map-q4
+{
+	background-image: url(../../../i/games/elwoodcity/map_q4.gif);
+	background-repeat: no-repeat;
+}
+
+#zoom_out
+{
+	width: 124px;
+	height: 60px;
+	position: absolute;
+	left: 485px;
+	bottom:0;
+	background-image: url(../../../i/games/elwoodcity/btn_zoom_out_off.gif);
+}
+
+#zoom_out a
+{
+	display: block;
+	width: 124px;
+	height: 60px;
+}
+
+#zoom_out i { display: none; }
+
+#info
+{
+	position: absolute;
+	left: 24px;
+	bottom: 0;
+	height: 45px;
+	width: 450px;
+	font-size: 20px;
+	color: #8C7335;
+}
+
+#info i { display: none; }
+
+li.icon, li.star
+{
+	margin: 0;
+	padding: 0;
+	width: 53px;
+	height: 52px;
+	list-style: none;
+	float: left;
+	position: absolute;
+}
+
+li.icon a
+{
+	display: block;
+	width: 53px;
+	height: 52px;
+	margin:0; padding:0;
+}
+
+li.star a
+{
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin:0; padding:0;
+}
+
+li.icon i, li.star i { display: none; }
+
+li.star
+{
+	width: 26px;
+	height: 24px;
+	background-image: url(../../../i/games/elwoodcity/star.gif);
+	background-repeat: no-repeat;
+}
+
+/* QUAD 1 */
+
+li#science_museum
+{
+	left: 150px;
+	top: 80px;
+}
+
+li#mill_creek_mall
+{
+	left: 306px;
+	top: 78px;
+}
+
+li#tree_house
+{
+	left: 530px;
+	top: 230px;
+}
+
+li#library
+{
+	left: 504px;
+	top: 284px;
+}
+
+li#grandma_thora_house
+{
+	left: 461px;
+	top: 305px;
+}
+
+li#community_garden
+{
+	left: 541px;
+	top: 289px;
+}
+
+li#tibble_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_tibble_house.gif);
+	background-repeat: no-repeat;
+	left: 528px;
+	top: 106px;
+	width: 63px;
+}
+
+li#arthur_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_arthur_house.gif);
+	background-repeat: no-repeat;
+	left: 538px;
+	top: 179px;
+}
+	
+/* QUAD 2 */
+
+	li#buster_condo
+{
+	background-image: url(../../../i/games/elwoodcity/icon_buster_condo.gif);
+	background-repeat: no-repeat;
+	left: 23px;
+	top: 238px;
+	height: 62px;
+}
+
+	li#brain_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_brain_house.gif);
+	background-repeat: no-repeat;
+	left: 112px;
+	top: 272px;
+}
+
+	li#francine_apartment
+{
+	background-image: url(../../../i/games/elwoodcity/icon_francine_apartment.gif);
+	background-repeat: no-repeat;
+	left: 216px;
+	top: 279px;
+}
+
+	li#mr_ratburn_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_mr_ratburn_house.gif);
+	background-repeat: no-repeat;
+	left: 349px;
+	top: 140px;
+	width: 60px;
+}
+
+	li#fern_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_fern_house.gif);
+	background-repeat: no-repeat;
+	left: 369px;
+	top: 221px;
+}
+
+	li#prunella_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_prunella_house.gif);
+	background-repeat: no-repeat;
+	left: 404px;
+	top: 297px;
+}
+
+li#sugar_bowl
+{
+	left: 108px;
+	top: 238px;
+}
+
+li#baseball_field
+{
+	left: 170px;
+	top: 180px;
+}
+
+li#playground
+{
+	left: 215px;
+	top: 166px;
+}
+
+li#lakewood_elementary
+{
+	left: 215px;
+	top: 211px;
+}
+
+li#crosswire_motors
+{
+	left: 435px;
+	top: 8px;
+}
+
+li#marina_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_marina_house.gif);
+	background-repeat: no-repeat;
+	left: 424px;
+	top: 193px;
+	height: 60px;
+}
+
+li#elwood_city_dump
+{
+	left: 512px;
+	top: 198px;
+}
+
+/* QUAD 3 */
+
+li#loring_cinema
+{
+	left: 502px;
+	top: 128px;
+}
+
+li#ice_cream_shop
+{
+	left: 516px;
+	top: 165px;
+}
+
+	li#binky_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_binky_house.gif);
+	background-repeat: no-repeat;
+	left: 477px;
+	top: 286px;
+}
+
+
+/* QUAD 4 */
+
+li#animal_shelter
+{
+	left: 226px;
+	top: 98px;
+}
+
+li#hospital
+{
+	left: 310px;
+	top: 24px;
+}
+li#george_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_george_house.gif);
+	background-repeat: no-repeat;
+	left: 115px;
+	top: 278px;
+}
+
+li#sue_ellen_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_sue_ellen_house.gif);
+	background-repeat: no-repeat;
+	left: 332px;
+	top: 120px;
+	width: 60px;
+}
+
+li#muffy_house
+{
+	background-image: url(../../../i/games/elwoodcity/icon_muffy_house.gif);
+	background-repeat: no-repeat;
+	left: 435px;
+	top: 116px;
+	height: 83px;
+}
+		
+	
+
+#pop-up
+{
+	position: absolute;
+	width: 430px;
+	height: 300px;
+	border: 2px solid #D23913;
+	background-color: #FF672B;
+	top: 96px;
+	left: 94px;
+	display: none;
+}
+
+#map_content
+{
+	width: 410px;
+	height: 280px;
+	border: 2px solid #D23913;
+	background-color: #FFF;
+	margin: 8px;
+	text-align: left;
+	color: #836200;
+}
+
+#map_content a
+{
+	float: right;
+	padding: 4px;
+}
+
+#map_content h3, #map_content p { margin: 0 10px 0 10px; }
+
+#map_content-i
+{
+	margin: 5px 10px 0 10px;
+	float: left;
+}
+
+#map_content-i img
+{
+	width: 249px;
+	height: 167px;
+}

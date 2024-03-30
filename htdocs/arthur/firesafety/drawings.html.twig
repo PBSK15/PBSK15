@@ -1,0 +1,50 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Firesafety . Kid Drawings | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="fireHeader">Fire Safety Tips</h4></a>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Kid Drawings</h1>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 11 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printFire">
+    <li id="fsjohn"><img src="../i/firesafety/john.gif" width="471" height="330" alt="John's Drawing" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fsemily"><img src="../i/firesafety/emily.gif" width="471" height="330" alt="The Brain and Prunella's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fscora"><img src="../i/firesafety/cora.gif" width="471" height="330" alt="Buster's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fsandy"><img src="../i/firesafety/andy.gif" width="471" height="330" alt="Francine and Muffy's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fsjames"><img src="../i/firesafety/james.gif" width="471" height="330" alt="D.W. and Ms. Turner's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fsmatthew"><img src="../i/firesafety/matthew.gif" width="471" height="330" alt="The Read Family's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fskelsey"><img src="../i/firesafety/kelsey.gif" width="471" height="330" alt="Arthur's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fslauren"><img src="../i/firesafety/lauren.gif" width="471" height="330" alt="Binky and Francine's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fslouis"><img src="../i/firesafety/louis.gif" width="471" height="330" alt="Binky and Francine's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fsnick"><img src="../i/firesafety/nick.gif" width="471" height="330" alt="Binky and Francine's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+    <li id="fsjay"><img src="../i/firesafety/jay.gif" width="471" height="330" alt="Binky and Francine's Bookmark" border="0"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright"></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/sue_ellen/index.html" id="rcSueEllen">Sue Ellen</a></li>
+   <li><a href="/arthur/print/highfive/index.html" id="rcHighFive">High Five</a></li>
+   <li><a href="/arthur/games/superactionchallenge/index.html" id="rcSuperAction">Super Action Challenge</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

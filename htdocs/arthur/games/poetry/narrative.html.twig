@@ -1,0 +1,52 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Fern\'s Poetry Club | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="poetryHeader">Fern's Poetry Club</h4></a>
+  <ul id="printSideNav">
+   <li><a href="what.html" class="selected"><span>What's a poem?</span></a></li>
+   <li><a href="write.html"><span>Write a poem</span></a></li>
+   <li><a href="read.html"><span>Read more poems</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div id="poetryContent">
+    <div id="poemTypesNav">
+     <ul id="innerNav">
+      <li><a href="narrative.html" class="selected">Narrative</a> | &nbsp;</li>
+      <li><a href="limerick.html">Limerick</a> | &nbsp;</li>
+      <li><a href="haiku.html">Haiku</a> | &nbsp;</li>
+      <li><a href="free_verse.html">Free Verse</a> | &nbsp;</li>
+      <li><a href="cinquain.html">Cinquain</a> | &nbsp;</li>
+      <li><a href="lyric.html">Lyric</a></li>
+     </ul>
+    </div>
+    <p class="poetry-intro"><span class="strong">A NARRATIVE POEM</span> tells a story and can be about anything. Sometimes the poem's lines have a rhyming pattern. Sometimes they don't rhyme at all. Here's a narrative poem written by Arthur:</p> <img src="../../i/games/poetry/fern_1.gif" width="159" height="295" alt="Fern holding a book." border="0" class="float-left">
+    <div id="todayPoem">
+     <h4 class="header" id="narrative">Narrative Poem</h4>
+     <div class="poem">
+      <h4 class="poem-title">Jimmy Goes to the City<br>by Arthur Read</h4>
+      <p>Jimmy was a happy ape<br> Until some hunters caught him<br> He liked the jungle better than<br> The city where they brought him<br> The city was louder<br> The city was meaner<br> Even the dirt in the jungle was cleaner<br> So Jimmy made a daring escape!<br> The hunters were suddenly minus one ape!<br> He climbed the tallest building<br> Because from there he'd see<br> How far away the jungle was<br> From the middle of the city.<br> Jimmy jumped into a passing plane<br> But the pilot didn't wait for him to explain<br> Jimmy flew back to the jungle<br> And told his ape friends in their lair<br> "The city's okay for a visit<br> But you couldn't make me live there."<br></p>
+     </div>
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/friends/fern/index.html" id="rcFern">Fern</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li> <!--<li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

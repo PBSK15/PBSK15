@@ -1,0 +1,41 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Holiday . D.W.\'s Dress Up | PBS Kids' %}
+{% set desc = 'Check out the limerick written by Sue Ellen and find out what poems called limericks are all about.' %}
+{% set keywds = 'limerick, poems, writing' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr holiday"><a href="/arthur/holiday/index.html"><h4 id="holidayHeader">Elwood City Celebrates</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../dressup/index.html" class="selected"><span>D.W.'s Dress Up</span></a></li>
+   <li><a href="../scrapbook/index.html"><span>Sue Ellen's Scrapbook</span></a></li>
+   <li><a href="../glossary/index.html"><span>Brain's Big Book</span></a></li>
+   <li><a href="../coloring/index.html"><span>Holiday Coloring Pages</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea"><a name="top"></a>
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>D.W.'s Dress Up</h1>
+    </div>
+   </div>
+   <div id="dressupContent"><img src="../../i/holiday/dressup1.gif" width="284" height="220" border="0" alt="D.W.'s closet" class="float-left">
+    <p>Sue Ellen collected lots of cool holiday stuff during her travels. She let me go through her trunk and play dress up. You can play, too. If you want to learn more about something you see in the trunk, take a peek at <a href="../glossary/index.html">Brain's Big Book of Holiday Terms</a>.</p> <a href="dressup.html" id="dressupBtn">Play</a> <img src="../../i/holiday/dressup2.gif" width="310" height="150" border="0" alt="D.W. putting on boots" class="float-right">
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul><!--<li><a href="/arthur/holiday/coloring/index.html" id="rcHolidayColoring">Holiday Coloring Page</a></li>-->
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcScrapbook">Sue Ellen's Scrapbook</a></li>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcBrainBook">Brain's Big Book of Terms</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

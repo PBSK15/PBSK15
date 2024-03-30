@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Mrs. Read\'s About Me Page | PBS Kids' %}
+{% set desc = 'Mrs. Reads profile pageg tells a little bit about her things that she likes, including her favorite books. Shes such a cool mom!' %}
+{% set keywds = 'mom, Mrs. Read, ARTHUR, interests, profile, favorites' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/mom_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/mom_top.swf", "mom", "960", "363", "9", "#ccccff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "mom");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="/arthur/friends/mom/photos.html" class="photoWall p-mom">Mrs. Read's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Beach days with the whole family.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Having a cold at the same time as my husband. (The kids were a big help, though!)
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Getting a new job.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_ccf">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Would you like a vacation?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/mom/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="mom"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="../../i/friends/books/mom_book1.jpg" width="148" height="117" alt="The Lion, the Witch, and the Wardrobe book cover" border="0"> <h4>The Lion, the Witch, and the Wardrobe</h4> <p>by C.S. Lewis<br> Four children walk through a wardrobe into Narnia, an enchanted world of fauns, dryads, and animals that talk. Can the children free Narnia from the spell of an evil witch? This is a wonderful family read-aloud.</p></li>
+    <li><img src="../../i/friends/books/mom_book2.jpg" width="148" height="117" alt="Ramona Quimby, Age 8 Book book cover" border="0"> <h4>Ramona Quimby, Age 8</h4> <p>by Beverly Cleary<br> Ramona is in third grade and life is never dull. If you like Ramona, her family, and friends, you'll enjoy the rest of the Ramona series as well.</p></li>
+    <li><img src="../../i/friends/books/mom_book3.jpg" width="148" height="117" alt="Tales of a Fourth Grade Nothing book cover" border="0"> <h4>Tales of a Fourth Grade Nothing</h4> <p>by Judy Blume<br> Living with his two-year-old brother Fudge makes Peter feel like a fourth grade nothing. What can he do to make his parents pay attention to him?</p></li>
+    <li><img src="/arthur/i/1px.gif" width="148" height="117" alt="" border="0"> <h4>Stone Fox</h4> <p>by John Reynolds Gardiner<br></p><p>Willy needs to win the big dogsled race so he can pay the taxes on Grandfather's farm. But can he beat Stone Fox, the Native American mountain man who has never lost a race? This is an exciting story to read aloud.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+   <li><a href="/arthur/friends/baby_kate/index.html" id="rcKate">Baby Kate</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

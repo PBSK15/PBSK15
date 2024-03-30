@@ -1,0 +1,111 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Holiday . Sue Ellen\'s Scrapbook | PBS Kids' %}
+{% set desc = 'Check out the limerick written by Sue Ellen and find out what poems called limericks are all about.' %}
+{% set keywds = 'limerick, poems, writing' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr holiday"><a href="/arthur/holiday/index.html"><h4 id="holidayHeader">Elwood City Celebrates</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../dressup/index.html"><span>D.W.'s Dress Up</span></a></li>
+   <li><a href="../scrapbook/index.html" class="selected"><span>Sue Ellen's Scrapbook</span></a></li>
+   <li><a href="../glossary/index.html"><span>Brain's Big Book</span></a></li>
+   <li><a href="../coloring/index.html"><span>Holiday Coloring Pages</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea"><a name="top"></a>
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>Sue Ellen's Scrapbook</h1>
+    </div>
+   </div>
+   <div id="holidayTermsContent">
+    <div id="holidayTermsNav">
+     <ul id="innerNav">
+      <li><a href="baxterday.html">Baxter Day</a> &nbsp;| &nbsp;</li>
+      <li><a href="christmas.html">Christmas</a> | &nbsp;</li>
+      <li><a href="hanukkah.html">Hanukkah</a> | &nbsp;</li>
+      <li><a href="kwanzaa.html">Kwanzaa</a> | &nbsp;</li>
+      <li><a href="newyear.html" class="selected">New Year</a></li><br>
+      <li><a href="ramadan.html">Ramadan and Eid ul-Fitr</a> | &nbsp;</li>
+      <li><a href="stlucia.html">St. Lucia</a> | &nbsp;</li>
+      <li><a href="volunteering.html">Volunteering</a> | &nbsp;</li>
+      <li><a href="solstice.html">Winter Solstice</a></li>
+     </ul>
+    </div>
+    <div class="printable-nav no-rule">
+     <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+      <p>1 of 8 pages</p>
+     </div>
+    </div>
+    <ul class="print-pages" id="holidayScrapbookPix">
+     <li id="newyear1">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/newyear1.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>New Year</h2>
+        <p>Celebrating the new year began in ancient times to mark the end of winter. Nowadays, people like to stay up on the last night of the old year to see the new year begin. On New Year's Eve, D.W. set her alarm clock to wake her up at midnight so she wouldn't miss it!</p>
+       </dd>
+      </dl></li>
+     <li id="newyear2">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/newyear2.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>New Year</h2>
+        <p>Binky says that on New Year's Eve, there is a big wrestling match between Old Man Last Year and Baby New Year. I don't think it has ever happened, but Buster says that if the old man wins the match, the new year can't start for six more weeks.</p>
+       </dd>
+      </dl></li>
+     <li id="newyear3">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/newyear3.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>New Year</h2>
+        <p>Prunella claims that a big green flash lights up the sky at midnight. Some people welcome the new year by watching a huge sparkling ball lower in Times Square in New York City. I saw it on TV.</p>
+       </dd>
+      </dl></li>
+     <li id="newyear4">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/newyear4.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>New Year</h2>
+        <p>Arthur and Grandma Thora made some New Year's resolutions. Resolutions are like decisions. This year, Arthur's resolution is to try to be nice to D.W. at least once a day. We'll see how that goes.</p>
+       </dd>
+      </dl></li>
+     <li id="newyear5">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/newyear5.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>New Year</h2>
+        <p>Arthur tried to stay up until midnight to ring in the new year. But he fell asleep at 11:30! He was sleeping so soundly that no one wanted to wake him up, so he missed the party!</p>
+       </dd>
+      </dl></li>
+    </ul>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcBrainBook">Brain's Big Book of Terms</a></li>
+   <li><a href="/arthur/holiday/dressup/index.html" id="rcDressUp">DW Dress Up</a></li> <!--<li><a href="/arthur/holiday/coloring/index.html" id="rcHolidayColoring">Holiday Coloring Page</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

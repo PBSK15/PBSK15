@@ -1,0 +1,55 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print | PBS Kids' %}
+{% set desc = 'Find all of the fantastic ARTHUR printable activities here!' %}
+{% set keywds = 'print, activities, ARTHUR' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = false %}
+
+
+{% block mainContent %}<div id="content" class="bg-f99 index-page">
+ <div id="titleBanner">
+  <h4 id="printHeader">Print</h4>
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("/arthur/media/print_header.swf", "print", "687", "250", "9", "#ffff66");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			  			   fo.write("titleBanner");			</script>
+ <div class="callout-wrapper" id="calloutPrints">
+  <div id="callout">
+   <div class="callout-images"><a href="bookmarks/index.html"><img src="../i/related/bookmarks.png" width="174" height="264" alt="Print - bookmarks" border="0"></a>
+   </div>
+  </div>
+ </div>
+ <div id="circleNav" class="circleNav-print">
+ </div>
+ <div id="mainFeature">
+  <div id="sliderWrapper" class="slider-print"><span class="prev">Previous</span>
+   <div class="slider">
+    <ul id="sliderIcons">
+     <li>
+      <ul>
+       <li id="printCow" class="icon"><a href="../print/towerofcow/index.html"><span>Tower of Cows</span></a></li>
+       <li id="printGroove" class="icon"><a href="../print/grooveit/index.html"><span>Groove It!</span></a></li>
+       <li id="printCootie" class="icon"><a href="../print/cootiecatcher/index.html"><span>Cootie Catcher</span></a></li>
+       <li id="printElwingo" class="icon"><a href="../print/elwingo/index.html"><span>Elwingo!</span></a></li>
+       <li id="printParty" class="icon"><a href="../print/hats/index.html"><span>Party Hats</span></a></li>
+       <li id="printFetch" class="icon"><a href="../print/fetch/index.html"><span>Go Fetch!</span></a></li>
+       <li id="printFive" class="icon"><a href="../print/highfive/index.html"><span>High Five</span></a></li>
+       <li id="printCosmic" class="icon"><a href="../print/cosmiccombos/index.html"><span>Cosmic Combos</span></a></li>
+       <li id="printBookmarks" class="icon"><a href="../print/bookmarks/index.html"><span>Bookmarks</span></a></li>
+       <li id="printBraille" class="icon"><a href="../print/braille/index.html"><span>You've Got Braille</span></a></li>
+      </ul></li>
+     <li>
+      <ul>
+       <li id="printPlay" class="icon"><a href="../print/playmaker/index.html"><span>Play-Maker</span></a></li>
+       <li id="printMasks" class="icon"><a href="../print/masks/index.html"><span>Masks</span></a></li>
+       <li id="printColoring" class="icon"><a href="../print/coloringpages/index.html"><span>Coloring Pages</span></a></li>
+       <li id="printBus" class="icon"><a href="../print/crazybus/index.html"><span>Crazy Bus</span></a></li>
+       <li id="printSign" class="icon"><a href="../print/signdesign/index.html"><span>Sign Design</span></a></li>
+       <li id="printDraw" class="icon"><a href="../games/letsdrawarthur/index.html"><span>Let's Draw Arthur</span></a></li>
+       <li id="printTrading" class="icon"><a href="../print/tradingcards/index.html"><span>Trading Cards</span></a></li> <!--<li id="print-groove" class="icon"><a href="../print/index.html"><span>Groove It!</span></a></li>									<li id="print-cootie" class="icon"><a href="../print/index.html"><span>Cootie Catcher</span></a></li>									<li id="print-cootie" class="icon"><a href="../print/index.html"><span>Cootie Catcher</span></a></li>-->
+      </ul></li>
+    </ul>
+   </div> <span class="next">Next</span>
+  </div>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,49 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Holiday . Holiday Coloring Pages | PBS Kids' %}
+{% set desc = 'Get directions for how to make and fold your Cootie Catcher after you print it out. Then find out how to find out fortunes for your friends!' %}
+{% set keywds = 'Cootie Catcher, oragami, fortune, Prunella, print, directions' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr holiday"><a href="/arthur/holiday/index.html"><h4 id="holidayHeader">Elwood City Celebrates</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../dressup/index.html"><span>D.W.'s Dress Up</span></a></li>
+   <li><a href="../scrapbook/index.html"><span>Sue Ellen's Scrapbook</span></a></li>
+   <li><a href="../glossary/index.html"><span>Brain's Big Book</span></a></li>
+   <li><a href="../coloring/index.html" class="selected"><span>Holiday Coloring Pages</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>Holiday Coloring Pages</h1>
+    </div>
+   </div>
+   <ul id="holidayColoringNavIcons">
+    <li class="icon" id="hcHanukkah"><a href="coloring.html#pg-hanukkah"><span>Hanukkah</span></a></li>
+    <li class="icon" id="hcBaxter"><a href="coloring.html#pg-baxterday"><span>Baxter Day</span></a></li>
+    <li class="icon" id="hcSolstice"><a href="coloring.html#pg-solstice"><span>Solstice</span></a></li>
+    <li class="icon" id="hcVolunteer"><a href="coloring.html#pg-volunteering"><span>Volunteering</span></a></li>
+    <li class="icon" id="hcLucia"><a href="coloring.html#pg-stlucia"><span>St. Lucia</span></a></li>
+    <li class="icon" id="hcXmas"><a href="coloring.html#pg-christmas"><span>Christmas</span></a></li>
+    <li class="icon" id="hcNewYear"><a href="coloring.html#pg-newyear"><span>New Year</span></a></li>
+    <li class="icon" id="hcKwanzaa"><a href="coloring.html#pg-kwanzaa"><span>Kwanzaa</span></a></li>
+    <li class="icon" id="hcRamadan"><a href="coloring.html#pg-ramadan"><span>Ramadan</span></a></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcBrainBook">Brain's Big Book of Terms</a></li>
+   <li><a href="/arthur/holiday/dressup/index.html" id="rcDressUp">DW Dress Up</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

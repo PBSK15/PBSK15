@@ -1,0 +1,27 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . About Face | PBS Kids' %}
+{% set desc = 'Choose one of Arthurs friends and listen to the story. Then select the picture that portrays that friends feelings. If youre right, Pal gets a treat!' %}
+{% set keywds = 'game, feelings, emotions, facial expression, training, Pal' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="aboutbg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/af_top.gif" width="574" height="82" border="0" alt="About Face" id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="aboutface">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/aboutface/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("aboutface.swf", "aboutface", "550", "325", "5", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				  //PBS_enable_cdn(fo);				   
+   fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/baby_kate/index.html" id="rcKate">Baby Kate</a></li>
+   <li><a href="/arthur/friends/pal/index.html" id="rcPal">Pal</a></li>
+   <li><a href="/arthur/print/fetch/index.html" id="rcFetch">Go Fetch!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

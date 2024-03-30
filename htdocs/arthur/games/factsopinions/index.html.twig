@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Binky\'s Facts and Opinions | PBS Kids' %}
+{% set desc = 'What is a fact, and what is an opinion? Learn the difference with Binky. Then practice by determining if what Francine and Buster say are facts or opinions!' %}
+{% set keywds = 'fact, opinion, Binky, game, true, prove' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="factbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="factsopinions.html" target="_self"><img src="../../i/games/fo_splash.gif" width="607" height="426" border="0" alt="Play Binky's Facts and Opinions"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/binky/index.html" id="rcBinky">Binky</a></li>
+   <li><a href="/arthur/games/virtualgoose/index.html" id="rcGoose">Virtual Goose</a></li>
+   <li><a href="/arthur/print/cootiecatcher/index.html" id="rcCootie">Cootie Catcher</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

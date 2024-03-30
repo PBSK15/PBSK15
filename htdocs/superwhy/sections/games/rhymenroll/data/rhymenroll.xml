@@ -1,0 +1,253 @@
+<game id="rhymenroll" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . RHYME N ROLL | PBS KIDS]]></title>
+	<libraries>
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="wonderred_endscreen" url="libraries/wonderred_endscreen.swf" />
+	</libraries> 
+	<swf url="sections/games/rhymenroll/rhymenroll.swf" /> 
+	<!-- how quickly the background and the objects on the screen scroll across -->
+	<scrollSpeed>-.08</scrollSpeed>
+	<!-- speed at which the player moves towards the mouse -->
+	<playerSpeed>.1</playerSpeed>
+	<!-- the X location of the player on the screen -->
+	<playerXPosition>396</playerXPosition>
+	<!-- how far appart items are spaced -->
+	<itemDistance>400</itemDistance>
+	<!-- how often to release a special piece(ramp) - will have a 1 out of [x] chance of appearing -->
+	<releaseSpecial>6</releaseSpecial>
+	<!-- available vertical screen positions for objects -->
+	<objectPositions>
+		<position>75</position>
+		<position>170</position>
+		<position>265</position>
+	</objectPositions>
+	<!-- number of levels -->
+	<numLevels>3</numLevels>
+	<!-- wordsets -->
+	<!-- Level 1 -->
+	<words level="1" mustcomplete="5">
+		<rhymeset>
+			<target set="un" />
+		</rhymeset>
+		<rhymeset>
+			<target set="at" />	
+		</rhymeset>
+		<!--rhymeset>
+			<target set="an" />	
+		</rhymeset>
+		<rhymeset>
+			<target set="it" />	
+		</rhymeset>
+		<rhymeset>
+			<target set="ar" />		
+		</rhymeset-->
+	</words>
+	<!-- Level 2 -->
+	<words level="2" mustcomplete="5">
+		<rhymeset>
+			<target set="ap" />
+		</rhymeset>
+		<rhymeset>
+			<target set="og" />
+		</rhymeset>
+		<!--rhymeset>
+			<target set="ox" />		
+		</rhymeset>
+		<rhymeset>
+			<target set="ake" />	
+		</rhymeset>
+		<rhymeset>
+			<target set="all" />
+		</rhymeset-->
+	</words>
+	<!-- Level 3 -->
+	<words level="3" mustcomplete="5">
+		<rhymeset>
+			<target set="ell" />	
+		</rhymeset>
+		<rhymeset>
+			<target set="ump" />	
+		</rhymeset>
+		<!--rhymeset>
+			<target set="ink" />	
+		</rhymeset>
+		<rhymeset>
+			<target set="ug" />	
+		</rhymeset>
+		<rhymeset>
+			<target set="ay" />			
+		</rhymeset-->
+	</words>
+	<rhymes>
+		<!--set id="ake" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ake.mp3">
+			<word id="bake" type="audio" url="sections/games/rhymenroll/audio/words/ake/bake.mp3"><![CDATA[BAKE]]></word>
+			<word id="cake" type="audio" url="sections/games/rhymenroll/audio/words/ake/cake.mp3"><![CDATA[CAKE]]></word>
+			<word id="fake" type="audio" url="sections/games/rhymenroll/audio/words/ake/fake.mp3"><![CDATA[FAKE]]></word>
+			<word id="lake" type="audio" url="sections/games/rhymenroll/audio/words/ake/lake.mp3"><![CDATA[LAKE]]></word>
+			<word id="make" type="audio" url="sections/games/rhymenroll/audio/words/ake/make.mp3"><![CDATA[MAKE]]></word>
+			<word id="rake" type="audio" url="sections/games/rhymenroll/audio/words/ake/rake.mp3"><![CDATA[RAKE]]></word>
+			<word id="take" type="audio" url="sections/games/rhymenroll/audio/words/ake/take.mp3"><![CDATA[TAKE]]></word>
+			<word id="wake" type="audio" url="sections/games/rhymenroll/audio/words/ake/wake.mp3"><![CDATA[WAKE]]></word>
+		</set>
+		<set id="all" type="audio" url="sections/games/rhymenroll/audio/words/families/family_all.mp3">
+			<word id="ball" type="audio" url="sections/games/rhymenroll/audio/words/all/ball.mp3"><![CDATA[BALL]]></word>
+			<word id="call" type="audio" url="sections/games/rhymenroll/audio/words/all/call.mp3"><![CDATA[CALL]]></word>
+			<word id="fall" type="audio" url="sections/games/rhymenroll/audio/words/all/fall.mp3"><![CDATA[FALL]]></word>
+			<word id="hall" type="audio" url="sections/games/rhymenroll/audio/words/all/hall.mp3"><![CDATA[HALL]]></word>
+			<word id="mall" type="audio" url="sections/games/rhymenroll/audio/words/all/mall.mp3"><![CDATA[MALL]]></word>
+			<word id="small" type="audio" url="sections/games/rhymenroll/audio/words/all/small.mp3"><![CDATA[SMALL]]></word>
+			<word id="tall" type="audio" url="sections/games/rhymenroll/audio/words/all/tall.mp3"><![CDATA[TALL]]></word>
+		</set>
+		<set id="an" type="audio" url="sections/games/rhymenroll/audio/words/families/family_an.mp3">
+			<word id="ban" type="audio" url="sections/games/rhymenroll/audio/words/an/ban.mp3"><![CDATA[BAN]]></word>
+			<word id="can" type="audio" url="sections/games/rhymenroll/audio/words/an/can.mp3"><![CDATA[CAN]]></word>
+			<word id="fan" type="audio" url="sections/games/rhymenroll/audio/words/an/fan.mp3"><![CDATA[FAN]]></word>
+			<word id="man" type="audio" url="sections/games/rhymenroll/audio/words/an/man.mp3"><![CDATA[MAN]]></word>
+			<word id="pan" type="audio" url="sections/games/rhymenroll/audio/words/an/pan.mp3"><![CDATA[PAN]]></word>
+			<word id="ran" type="audio" url="sections/games/rhymenroll/audio/words/an/ran.mp3"><![CDATA[RAN]]></word>
+			<word id="tan" type="audio" url="sections/games/rhymenroll/audio/words/an/tan.mp3"><![CDATA[TAN]]></word>
+			<word id="van" type="audio" url="sections/games/rhymenroll/audio/words/an/van.mp3"><![CDATA[VAN]]></word>
+		</set-->
+		<set id="ap" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ap.mp3">
+			<word id="cap" type="audio" url="sections/games/rhymenroll/audio/words/ap/cap.mp3"><![CDATA[CAP]]></word>
+			<word id="lap" type="audio" url="sections/games/rhymenroll/audio/words/ap/lap.mp3"><![CDATA[LAP]]></word>
+			<word id="map" type="audio" url="sections/games/rhymenroll/audio/words/ap/map.mp3"><![CDATA[MAP]]></word>
+			<word id="nap" type="audio" url="sections/games/rhymenroll/audio/words/ap/nap.mp3"><![CDATA[NAP]]></word>
+			<word id="rap" type="audio" url="sections/games/rhymenroll/audio/words/ap/rap.mp3"><![CDATA[RAP]]></word>
+			<word id="tap" type="audio" url="sections/games/rhymenroll/audio/words/ap/tap.mp3"><![CDATA[TAP]]></word>
+			<word id="trap" type="audio" url="sections/games/rhymenroll/audio/words/ap/trap.mp3"><![CDATA[TRAP]]></word>
+		</set>
+		<!--set id="ar" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ar.mp3">
+			<word id="bar" type="audio" url="sections/games/rhymenroll/audio/words/ar/bar.mp3"><![CDATA[BAR]]></word>
+			<word id="car" type="audio" url="sections/games/rhymenroll/audio/words/ar/car.mp3"><![CDATA[CAR]]></word>
+			<word id="far" type="audio" url="sections/games/rhymenroll/audio/words/ar/far.mp3"><![CDATA[FAR]]></word>
+			<word id="jar" type="audio" url="sections/games/rhymenroll/audio/words/ar/jar.mp3"><![CDATA[JAR]]></word>
+			<word id="star" type="audio" url="sections/games/rhymenroll/audio/words/ar/star.mp3"><![CDATA[STAR]]></word>
+			<word id="tar" type="audio" url="sections/games/rhymenroll/audio/words/ar/tar.mp3"><![CDATA[TAR]]></word>
+		</set-->
+		<set id="at" type="audio" url="sections/games/rhymenroll/audio/words/families/family_at.mp3">
+			<word id="bat" type="audio" url="sections/games/rhymenroll/audio/words/at/bat.mp3"><![CDATA[BAT]]></word>
+			<word id="cat" type="audio" url="sections/games/rhymenroll/audio/words/at/cat.mp3"><![CDATA[CAT]]></word>
+			<word id="fat" type="audio" url="sections/games/rhymenroll/audio/words/at/fat.mp3"><![CDATA[FAT]]></word>
+			<word id="hat" type="audio" url="sections/games/rhymenroll/audio/words/at/hat.mp3"><![CDATA[HAT]]></word>
+			<word id="mat" type="audio" url="sections/games/rhymenroll/audio/words/at/mat.mp3"><![CDATA[MAT]]></word>
+			<word id="rat" type="audio" url="sections/games/rhymenroll/audio/words/at/rat.mp3"><![CDATA[RAT]]></word>
+			<word id="sat" type="audio" url="sections/games/rhymenroll/audio/words/at/sat.mp3"><![CDATA[SAT]]></word>
+		</set>
+		<!--set id="ay" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ay.mp3">
+			<word id="clay" type="audio" url="sections/games/rhymenroll/audio/words/ay/clay.mp3"><![CDATA[CLAY]]></word>
+			<word id="day" type="audio" url="sections/games/rhymenroll/audio/words/ay/day.mp3"><![CDATA[DAY]]></word>
+			<word id="may" type="audio" url="sections/games/rhymenroll/audio/words/ay/may.mp3"><![CDATA[MAY]]></word>
+			<word id="pay" type="audio" url="sections/games/rhymenroll/audio/words/ay/pay.mp3"><![CDATA[PAY]]></word>
+			<word id="play" type="audio" url="sections/games/rhymenroll/audio/words/ay/play.mp3"><![CDATA[PLAY]]></word>
+			<word id="say" type="audio" url="sections/games/rhymenroll/audio/words/ay/say.mp3"><![CDATA[SAY]]></word>
+			<word id="stay" type="audio" url="sections/games/rhymenroll/audio/words/ay/stay.mp3"><![CDATA[STAY]]></word>
+		</set-->
+		<set id="ell" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ell.mp3">
+			<word id="bell" type="audio" url="sections/games/rhymenroll/audio/words/ell/bell.mp3"><![CDATA[BELL]]></word>
+			<word id="fell" type="audio" url="sections/games/rhymenroll/audio/words/ell/fell.mp3"><![CDATA[FELL]]></word>
+			<word id="sell" type="audio" url="sections/games/rhymenroll/audio/words/ell/sell.mp3"><![CDATA[SELL]]></word>
+			<word id="spell" type="audio" url="sections/games/rhymenroll/audio/words/ell/spell.mp3"><![CDATA[SPELL]]></word>
+			<word id="tell" type="audio" url="sections/games/rhymenroll/audio/words/ell/tell.mp3"><![CDATA[TELL]]></word>
+			<word id="well" type="audio" url="sections/games/rhymenroll/audio/words/ell/well.mp3"><![CDATA[WELL]]></word>
+			<word id="yell" type="audio" url="sections/games/rhymenroll/audio/words/ell/yell.mp3"><![CDATA[YELL]]></word>
+		</set>
+		<!--set id="ink" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ink.mp3">
+			<word id="blink" type="audio" url="sections/games/rhymenroll/audio/words/ink/blink.mp3"><![CDATA[BLINK]]></word>
+			<word id="drink" type="audio" url="sections/games/rhymenroll/audio/words/ink/drink.mp3"><![CDATA[DRINK]]></word>
+			<word id="link" type="audio" url="sections/games/rhymenroll/audio/words/ink/link.mp3"><![CDATA[LINK]]></word>
+			<word id="pink" type="audio" url="sections/games/rhymenroll/audio/words/ink/pink.mp3"><![CDATA[PINK]]></word>
+			<word id="sink" type="audio" url="sections/games/rhymenroll/audio/words/ink/sink.mp3"><![CDATA[SINK]]></word>
+			<word id="think" type="audio" url="sections/games/rhymenroll/audio/words/ink/think.mp3"><![CDATA[THINK]]></word>
+			<word id="wink" type="audio" url="sections/games/rhymenroll/audio/words/ink/wink.mp3"><![CDATA[WINK]]></word>
+		</set>
+		<set id="it" type="audio" url="sections/games/rhymenroll/audio/words/families/family_it.mp3">
+			<word id="bit" type="audio" url="sections/games/rhymenroll/audio/words/it/bit.mp3"><![CDATA[BIT]]></word>
+			<word id="fit" type="audio" url="sections/games/rhymenroll/audio/words/it/fit.mp3"><![CDATA[FIT]]></word>
+			<word id="hit" type="audio" url="sections/games/rhymenroll/audio/words/it/hit.mp3"><![CDATA[HIT]]></word>
+			<word id="kit" type="audio" url="sections/games/rhymenroll/audio/words/it/kit.mp3"><![CDATA[KIT]]></word>
+			<word id="pit" type="audio" url="sections/games/rhymenroll/audio/words/it/pit.mp3"><![CDATA[PIT]]></word>
+			<word id="sit" type="audio" url="sections/games/rhymenroll/audio/words/it/sit.mp3"><![CDATA[SIT]]></word>
+			<word id="wit" type="audio" url="sections/games/rhymenroll/audio/words/it/wit.mp3"><![CDATA[WIT]]></word>
+		</set>
+		<set id="ock" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ock.mp3">
+			<word id="block" type="audio" url="sections/games/rhymenroll/audio/words/ock/block.mp3"><![CDATA[BLOCK]]></word>
+			<word id="clock" type="audio" url="sections/games/rhymenroll/audio/words/ock/clock.mp3"><![CDATA[CLOCK]]></word>
+			<word id="dock" type="audio" url="sections/games/rhymenroll/audio/words/ock/dock.mp3"><![CDATA[DOCK]]></word>
+			<word id="knock" type="audio" url="sections/games/rhymenroll/audio/words/ock/knock.mp3"><![CDATA[KNOCK]]></word>
+			<word id="lock" type="audio" url="sections/games/rhymenroll/audio/words/ock/lock.mp3"><![CDATA[LOCK]]></word>
+			<word id="rock" type="audio" url="sections/games/rhymenroll/audio/words/ock/rock.mp3"><![CDATA[ROCK]]></word>
+			<word id="sock" type="audio" url="sections/games/rhymenroll/audio/words/ock/sock.mp3"><![CDATA[SOCK]]></word>
+		</set-->
+		<set id="og" type="audio" url="sections/games/rhymenroll/audio/words/families/family_og.mp3">
+			<word id="bog" type="audio" url="sections/games/rhymenroll/audio/words/og/bog.mp3"><![CDATA[BOG]]></word>
+			<word id="cog" type="audio" url="sections/games/rhymenroll/audio/words/og/cog.mp3"><![CDATA[COG]]></word>
+			<word id="dog" type="audio" url="sections/games/rhymenroll/audio/words/og/dog.mp3"><![CDATA[DOG]]></word>
+			<word id="fog" type="audio" url="sections/games/rhymenroll/audio/words/og/fog.mp3"><![CDATA[FOG]]></word>
+			<word id="frog" type="audio" url="sections/games/rhymenroll/audio/words/og/frog.mp3"><![CDATA[FROG]]></word>
+			<word id="hog" type="audio" url="sections/games/rhymenroll/audio/words/og/hog.mp3"><![CDATA[HOG]]></word>
+			<word id="jog" type="audio" url="sections/games/rhymenroll/audio/words/og/jog.mp3"><![CDATA[JOG]]></word>
+			<word id="log" type="audio" url="sections/games/rhymenroll/audio/words/og/log.mp3"><![CDATA[LOG]]></word>
+		</set>
+		<!--set id="ox" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ox.mp3">
+			<word id="box" type="audio" url="sections/games/rhymenroll/audio/words/ox/box.mp3"><![CDATA[BOX]]></word>
+			<word id="fox" type="audio" url="sections/games/rhymenroll/audio/words/ox/fox.mp3"><![CDATA[FOX]]></word>
+			<word id="lox" type="audio" url="sections/games/rhymenroll/audio/words/ox/lox.mp3"><![CDATA[LOX]]></word>
+			<word id="ox" type="audio" url="sections/games/rhymenroll/audio/words/ox/ox.mp3"><![CDATA[OX]]></word>
+			<word id="pox" type="audio" url="sections/games/rhymenroll/audio/words/ox/pox.mp3"><![CDATA[POX]]></word>
+			<word id="sox" type="audio" url="sections/games/rhymenroll/audio/words/ox/sox.mp3"><![CDATA[SOX]]></word>
+		</set>
+		<set id="ug" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ug.mp3">
+			<word id="bug" type="audio" url="sections/games/rhymenroll/audio/words/ug/bug.mp3"><![CDATA[BUG]]></word>
+			<word id="dug" type="audio" url="sections/games/rhymenroll/audio/words/ug/dug.mp3"><![CDATA[DUG]]></word>
+			<word id="hug" type="audio" url="sections/games/rhymenroll/audio/words/ug/hug.mp3"><![CDATA[HUG]]></word>
+			<word id="lug" type="audio" url="sections/games/rhymenroll/audio/words/ug/lug.mp3"><![CDATA[LUG]]></word>
+			<word id="mug" type="audio" url="sections/games/rhymenroll/audio/words/ug/mug.mp3"><![CDATA[MUG]]></word>
+			<word id="rug" type="audio" url="sections/games/rhymenroll/audio/words/ug/rug.mp3"><![CDATA[RUG]]></word>
+			<word id="tug" type="audio" url="sections/games/rhymenroll/audio/words/ug/tug.mp3"><![CDATA[TUG]]></word>
+		</set-->
+		<set id="ump" type="audio" url="sections/games/rhymenroll/audio/words/families/family_ump.mp3">
+			<word id="bump" type="audio" url="sections/games/rhymenroll/audio/words/ump/bump.mp3"><![CDATA[BUMP]]></word>
+			<word id="hump" type="audio" url="sections/games/rhymenroll/audio/words/ump/hump.mp3"><![CDATA[HUMP]]></word>
+			<word id="jump" type="audio" url="sections/games/rhymenroll/audio/words/ump/jump.mp3"><![CDATA[JUMP]]></word>
+			<word id="lump" type="audio" url="sections/games/rhymenroll/audio/words/ump/lump.mp3"><![CDATA[LUMP]]></word>
+			<word id="pump" type="audio" url="sections/games/rhymenroll/audio/words/ump/pump.mp3"><![CDATA[PUMP]]></word>
+			<word id="stump" type="audio" url="sections/games/rhymenroll/audio/words/ump/stump.mp3"><![CDATA[STUMP]]></word>
+		</set>
+		<set id="un" type="audio" url="sections/games/rhymenroll/audio/words/families/family_un.mp3">
+			<word id="bun" type="audio" url="sections/games/rhymenroll/audio/words/un/bun.mp3"><![CDATA[BUN]]></word>
+			<word id="fun" type="audio" url="sections/games/rhymenroll/audio/words/un/fun.mp3"><![CDATA[FUN]]></word>
+			<word id="nun" type="audio" url="sections/games/rhymenroll/audio/words/un/nun.mp3"><![CDATA[NUN]]></word>
+			<word id="pun" type="audio" url="sections/games/rhymenroll/audio/words/un/pun.mp3"><![CDATA[PUN]]></word>
+			<word id="run" type="audio" url="sections/games/rhymenroll/audio/words/un/run.mp3"><![CDATA[RUN]]></word>
+			<word id="sun" type="audio" url="sections/games/rhymenroll/audio/words/un/sun.mp3"><![CDATA[SUN]]></word>
+		</set>
+	</rhymes>
+	<audio>
+		<!-- audio_file id="intro2" type="audio" url="sections/games/rhymenroll/audio/vo/intro2.mp3" /-->
+		<audio_file id="instruct1" type="audio" url="sections/games/rhymenroll/audio/vo/target_1.mp3" />
+		<audio_file id="instruct2" type="audio" url="sections/games/rhymenroll/audio/vo/target_2.mp3" />
+		<audio_file id="instruct3" type="audio" url="sections/games/rhymenroll/audio/vo/target_3.mp3" />
+		<audio_file id="earned_fruit" type="audio" url="sections/games/rhymenroll/audio/vo/earned_fruit.mp3" />
+		<audio_file id="found_them_all" type="audio" url="sections/games/rhymenroll/audio/vo/found_them_all.mp3" />
+		<!--  audio_file id="finale_payoff" type="audio" url="sections/games/rhymenroll/audio/vo/finale_payoff.mp3" /-->
+		<!-- audio_file id="what_rhymes" type="audio" url="sections/games/rhymenroll/audio/vo/what_rhymes_with.mp3" /-->
+		<audio_file id="rhymes_with" type="audio" url="sections/games/rhymenroll/audio/vo/rhymes_with.mp3" />
+		<audio_file id="help" type="audio" url="sections/games/rhymenroll/audio/vo/click_help.mp3" />
+		<!-- Kudos -->
+		<kudo id="great_job" type="audio" url="sections/games/rhymenroll/audio/kudos/great_job.mp3" />
+		<kudo id="terrific" type="audio" url="sections/games/rhymenroll/audio/kudos/terrific.mp3" />
+		<kudo id="wonderiffic" type="audio" url="sections/games/rhymenroll/audio/kudos/wonderiffic.mp3" />
+		<kudo id="you_got_it" type="audio" url="sections/games/rhymenroll/audio/kudos/you_got_it.mp3" />
+		<!-- Oops -->
+		<oops id="keep_looking" type="audio" url="sections/games/rhymenroll/audio/oops/keep_looking.mp3" />
+		<oops id="keep_rolling" type="audio" url="sections/games/rhymenroll/audio/oops/keep_rolling.mp3" />
+		<!-- music -->
+		<!--music id="music" type="audio" url="sections/games/rhymenroll/audio/music/red_rhymenroll_loop.wav" /-->
+	</audio>
+	<promos>
+		<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+		<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+		<promo id="alphapig" location="game/alphabricks" url="promos/endscreen_promo_ap_bricks.jpg" />
+	</promos>
+</game>

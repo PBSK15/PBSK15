@@ -1,0 +1,76 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Groove It | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="grooveHeader">Groove It</h4></a>
+  <ul id="printSideNav">
+   <li><a href="howto.html"><span>How to Play</span></a></li>
+   <li><a href="cards.html" class="selected"><span>Dance Cards</span></a></li>
+   <li><a href="music_player.html"><span>Music Player</span></a></li>
+   <li><a href="do_the_prunella.html"><span>Do the "Prunella"</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Dance Cards</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one-sm">Print This Page</span> <span class="print-btn-all-sm">Print All Pages</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printGroove">
+    <li id="card1">
+     <div class="page">
+      <img src="../../i/print/grooveit/card_01.gif" width="543" height="721" alt="" border="0" class="groove img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="card2">
+     <div class="page">
+      <img src="../../i/print/grooveit/card_02.gif" width="543" height="721" alt="" border="0" class="groove img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="card3">
+     <div class="page">
+      <img src="../../i/print/grooveit/card_03.gif" width="543" height="721" alt="" border="0" class="groove img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="card4">
+     <div class="page">
+      <img src="../../i/print/grooveit/card_04.gif" width="543" height="721" alt="" border="0" class="groove img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="card5">
+     <div class="page">
+      <img src="../../i/print/grooveit/card_05.gif" width="543" height="721" alt="" border="0" class="groove img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="card6">
+     <div class="page">
+      <img src="../../i/print/grooveit/card_06.gif" width="543" height="721" alt="" border="0" class="groove img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="card7">
+     <div class="page last">
+      <img src="../../i/print/grooveit/card_07.gif" width="543" height="721" alt="" border="0" class="groove img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Songbook</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

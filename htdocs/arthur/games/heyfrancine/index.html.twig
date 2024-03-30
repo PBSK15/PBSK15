@@ -1,0 +1,55 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letters To Francine | PBS Kids' %}
+{% set desc = 'Send Francine a letter and ask her for some advice on a variety of topics. Francine will respond immediately! ' %}
+{% set keywds = 'letter, composition, Francine, write, advice, help' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../lettersto/index.html"><h4 id="letterstoSmHeader">Letters To...</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../letterstoarthur/index.html"><span>Arthur</span></a></li>
+   <li><a href="../heyfrancine/index.html" class="selected"><span>Francine</span></a></li>
+   <li><a href="../traveltales/index.html"><span>Sue Ellen</span></a></li>
+   <li><a href="../askbrain/index.html"><span>The Brain</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <table border="0" width="637" cellspacing="0" cellpadding="0">
+   <tbody>
+    <tr>
+     <td colspan="7"><img src="../../i/games/lettersto/francine/francine_header.gif" width="637" height="133" alt="Letters to Francine" border="0" style="display:block;"></td>
+    </tr>
+    <tr>
+     <td width="88"><img src="/arthur/i/1px.gif" width="88" alt=""></td>
+     <td width="2" bgcolor="#000000"><img src="/arthur/i/1px.gif" width="2" alt=""></td>
+     <td width="10" bgcolor="#9999FF"><img src="/arthur/i/1px.gif" width="10" alt=""></td>
+     <td width="450" bgcolor="#9999FF">
+      <form name="heyfrancine" action="/cgi-registry/arthur/letter.php" method="POST">
+       <p>&nbsp;</p> <select name="greeting" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="Whatsup">What's up,</option> <option value="Hey">Hey,</option> <option value="Yoyoyo">Yo, yo, yo,</option> <option value="Hiya">Hiya,</option> </select> Francine! <br><br> My friends and I are starting our own<select name="band_type" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="blues">blues</option> <option value="rap">rap</option> <option value="country" selected>country</option> <option value="rock">rock</option></select> group and I have a few questions. <br><br> First, <select name="question_01" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="doesakazoo" selected>does a kazoo count as a musical instrument?</option> <option value="howmanypeo">how many people should be in my group?</option> <option value="howlongsho">how long should a drum solo be?</option> <option value="whatsyouro">what's your opinion on yodeling?</option></select> <br><br> Secondly, I'm already writing our first <select name="song_type" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="schoolchee">school cheer,</option> <option value="socialacti" selected>social action song,</option> <option value="kidssong">kids song,</option> <option value="commercial">commercial jingle,</option></select> but I'm stuck. What should come after this line: "Oh, yeah, I was walking down the street..." <br><br> Another problem: we can't agree on a band name. We know we want the word <select name="band_name" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="aardvark">aardvark</option> <option value="breakfast">breakfast</option> <option value="chilly">chilly</option> <option value="dingo">dingo</option> <option value="electric">electric</option> <option value="fungus">fungus</option> <option value="grapes">grapes</option> <option value="hooray">hooray</option> <option value="igloo">igloo</option> <option value="jelly">jelly</option> <option value="knees">knees</option> <option value="leprechaun">leprechaun</option> <option value="muffin">muffin</option> <option value="necktie">necktie</option> <option value="Otis">Otis</option> <option value="plump">plump</option> <option value="quickly">quickly</option> <option value="river">river</option> <option value="sneeze">sneeze</option> <option value="trousers">trousers</option> <option value="unusual">unusual</option> <option value="vitamins">vitamins</option> <option value="wafer">wafer</option> <option value="xylophone">xylophone</option> <option value="yummy">yummy</option> <option value="zoo">zoo</option></select> in it. Do you have any suggestions? <br><br> Thanks! <br><br><select name="closing" style="font-family:Comic Sans MS,serif;font-size:14px;"> <option value="Tunefullyy">Tunefully yours,</option> <option value="Staycool">Stay cool,</option> <option value="Peaceout">Peace out,</option> <option value="Yourfellow" selected>Your fellow musician,</option></select> <br><br> <input type="TEXT" name="from" size="15" maxlength="20" style="font-family:Comic Sans MS,serif;font-size:14px;"> <input type="hidden" name="featurepath" value="/arthur/games/heyfrancine/"> <input type="hidden" name="template_page" value="LETTER.TMPL"> <input type="hidden" name="logic_page" value="francine.txt">
+       <p></p>
+       <div align="center">
+        <input type="submit" name="Send" value="Send to Francine" style="font-family:Comic Sans MS,serif;font-size:14px;">
+       </div> <br clear="all"> <img src="/arthur/i/1px.gif" width="450" height="1" alt="">
+      </form></td>
+     <td width="10" bgcolor="#9999FF"><img src="/arthur/i/1px.gif" width="10" alt=""></td>
+     <td width="2" bgcolor="#000000"><img src="/arthur/i/1px.gif" width="2" alt=""></td>
+     <td width="75"><img src="/arthur/i/1px.gif" width="75" alt=""></td>
+    </tr>
+    <tr>
+     <td colspan="7"><img src="../../i/games/lettersto/pencil_bottom.gif" width="637" height="121" alt="" border="0"></td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/francine/index.html" id="rcFrancine">Francine</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+   <li><a href="/arthur/print/highfive/index.html" id="rcHighFive">High Five</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

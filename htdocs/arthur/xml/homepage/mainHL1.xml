@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Comic Creator</title>
+			<href>/arthur/games/comiccreator/index.html</href>
+			<imgurl>/arthur/i/related/comic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Connect the World</title>
+			<href>/arthur/games/connectworld/index.html</href>
+			<imgurl>/arthur/i/related/connect.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crank It Up</title>
+			<href>/arthur/games/crankitup/index.html</href>
+			<imgurl>/arthur/i/related/crankitup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groovy Garden</title>
+			<href>/arthur/games/groovygarden/index.html</href>
+			<imgurl>/arthur/i/related/groovygarden.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Baby Kate's Stickers</title>
+			<href>/arthur/games/stickers/index.html</href>
+			<imgurl>/arthur/i/related/stickers.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>High Five</title>
+			<href>/arthur/print/highfive/index.html</href>
+			<imgurl>/arthur/i/related/highfive.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Lint Rush</title>
+			<href>/arthur/video/index.html?pid=msANwkSPX_1u6ScqaB_ldGGqoLroUFot</href>
+			<imgurl>/arthur/i/related/lintrush.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Vomitrocious</title>
+			<href>/arthur/video/index.html?pid=0pfsNjVreZEtsBlA_VmtjpeY2hcZrQ_c</href>
+			<imgurl>/arthur/i/related/vomitrocious.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

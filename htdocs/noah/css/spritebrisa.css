@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.spritebrisa {
+    width: 130px;
+    height: 150px;
+    background-image: url("../imgs/Brisa1.png");
+    
+    -webkit-animation: play .8s steps(9) infinite;
+       -moz-animation: play .8s steps(9) infinite;
+        -ms-animation: play .8s steps(9) infinite;
+         -o-animation: play .8s steps(9) infinite;
+            animation: play .8s steps(9) infinite;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1161px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1161px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1161px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1161px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1161px; }
+}

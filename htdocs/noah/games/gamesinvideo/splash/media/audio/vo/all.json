@@ -1,0 +1,263 @@
+{
+  "urls": [
+    "../all.ogg",
+    "../all.mp3"
+  ],
+  "audioSprite": [
+    {
+      "id": "silence",
+      "startTime": 0,
+      "duration": 1000
+    },
+    {
+      "id": "3misses",
+      "startTime": 2000,
+      "duration": 3878.7074829931976
+    },
+    {
+      "id": "ON_GAME_173_PU_COCO_01B",
+      "startTime": 7000,
+      "duration": 1372.3356009070287
+    },
+    {
+      "id": "ON_GAME_177_PU_COCO_01B",
+      "startTime": 10000,
+      "duration": 1541.7006802721094
+    },
+    {
+      "id": "ON_GAME_185_PU_COCO_01B",
+      "startTime": 13000,
+      "duration": 1889.4331065759643
+    },
+    {
+      "id": "ON_GAME_189_PU_COCO_02A",
+      "startTime": 16000,
+      "duration": 1519.9546485260776
+    },
+    {
+      "id": "ON_GAME_279_PU_COCO_01B",
+      "startTime": 19000,
+      "duration": 1377.891156462585
+    },
+    {
+      "id": "ON_GAME_283_PU_COCO_01A",
+      "startTime": 22000,
+      "duration": 1378.7981859410436
+    },
+    {
+      "id": "ON_GAME_287_PU_COCO_02B",
+      "startTime": 25000,
+      "duration": 1563.3560090702936
+    },
+    {
+      "id": "ON_GAME_291_PU_COCO_01B",
+      "startTime": 28000,
+      "duration": 1240.816326530613
+    },
+    {
+      "id": "ON_GAME_295_PU_COCO_01B",
+      "startTime": 31000,
+      "duration": 1380.7709750566914
+    },
+    {
+      "id": "ON_GAME_401_PU_COCO_02B",
+      "startTime": 34000,
+      "duration": 1047.0748299319723
+    },
+    {
+      "id": "bathingsuit",
+      "startTime": 37000,
+      "duration": 1674.4444444444468
+    },
+    {
+      "id": "catch-all-five",
+      "startTime": 40000,
+      "duration": 3657.1428571428582
+    },
+    {
+      "id": "catch-all-ten",
+      "startTime": 45000,
+      "duration": 3395.918367346937
+    },
+    {
+      "id": "catch-it-directions-2",
+      "startTime": 50000,
+      "duration": 3658.208616780044
+    },
+    {
+      "id": "catch-it-directions",
+      "startTime": 55000,
+      "duration": 6399.999999999998
+    },
+    {
+      "id": "change-your-level",
+      "startTime": 63000,
+      "duration": 1228.8208616780025
+    },
+    {
+      "id": "choose-your-level",
+      "startTime": 66000,
+      "duration": 1228.8208616780025
+    },
+    {
+      "id": "click-an-image-to-make-a-match",
+      "startTime": 69000,
+      "duration": 2977.9591836734767
+    },
+    {
+      "id": "easy",
+      "startTime": 73000,
+      "duration": 653.0612244897895
+    },
+    {
+      "id": "end-go-faster",
+      "startTime": 75000,
+      "duration": 4728.163265306122
+    },
+    {
+      "id": "end-time-up",
+      "startTime": 81000,
+      "duration": 3186.9387755102
+    },
+    {
+      "id": "good-job",
+      "startTime": 86000,
+      "duration": 1906.9387755101984
+    },
+    {
+      "id": "got-it",
+      "startTime": 89000,
+      "duration": 1515.1020408163304
+    },
+    {
+      "id": "hard",
+      "startTime": 92000,
+      "duration": 888.1632653061189
+    },
+    {
+      "id": "keep-trying",
+      "startTime": 94000,
+      "duration": 3108.571428571423
+    },
+    {
+      "id": "keep-watching-video",
+      "startTime": 99000,
+      "duration": 1280.0000000000011
+    },
+    {
+      "id": "match-it",
+      "startTime": 102000,
+      "duration": 888.1632653061189
+    },
+    {
+      "id": "missed-it",
+      "startTime": 104000,
+      "duration": 2429.3877551020414
+    },
+    {
+      "id": "move-your-mouse-around",
+      "startTime": 108000,
+      "duration": 5642.448979591833
+    },
+    {
+      "id": "nice",
+      "startTime": 115000,
+      "duration": 1906.9387755101984
+    },
+    {
+      "id": "not-right",
+      "startTime": 118000,
+      "duration": 2638.3673469387786
+    },
+    {
+      "id": "oh-no",
+      "startTime": 122000,
+      "duration": 2272.6530612244887
+    },
+    {
+      "id": "perfect-score",
+      "startTime": 126000,
+      "duration": 3813.877551020397
+    },
+    {
+      "id": "perfect",
+      "startTime": 131000,
+      "duration": 2351.020408163265
+    },
+    {
+      "id": "play-again",
+      "startTime": 135000,
+      "duration": 783.6734693877645
+    },
+    {
+      "id": "play-games",
+      "startTime": 137000,
+      "duration": 1019.8412698412653
+    },
+    {
+      "id": "play-match-it",
+      "startTime": 140000,
+      "duration": 2847.3469387755017
+    },
+    {
+      "id": "play",
+      "startTime": 144000,
+      "duration": 1227.7551020408168
+    },
+    {
+      "id": "pro",
+      "startTime": 147000,
+      "duration": 600.8163265306052
+    },
+    {
+      "id": "race-instructions",
+      "startTime": 149000,
+      "duration": 5016.575963718822
+    },
+    {
+      "id": "roll-over-to-hear-in-spanish-2",
+      "startTime": 156000,
+      "duration": 5903.673469387741
+    },
+    {
+      "id": "take-a-challenge",
+      "startTime": 163000,
+      "duration": 1149.3877551020546
+    },
+    {
+      "id": "thats-right",
+      "startTime": 166000,
+      "duration": 2011.4285714285813
+    },
+    {
+      "id": "try-again",
+      "startTime": 170000,
+      "duration": 3056.326530612239
+    },
+    {
+      "id": "word-race",
+      "startTime": 175000,
+      "duration": 3134.69387755103
+    },
+    {
+      "id": "you-catch-it",
+      "startTime": 180000,
+      "duration": 3892.2448979591877
+    },
+    {
+      "id": "you-made-it-through-all",
+      "startTime": 185000,
+      "duration": 2429.3877551020273
+    },
+    {
+      "id": "you-made-it-to-hard",
+      "startTime": 189000,
+      "duration": 2142.040816326528
+    },
+    {
+      "id": "you-made-it-to-pro",
+      "startTime": 193000,
+      "duration": 1985.306122448975
+    }
+  ]
+}

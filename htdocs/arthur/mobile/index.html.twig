@@ -1,0 +1,44 @@
+{% extends 'arthur/includes/templates/arthurMobilePage.html.twig' %}
+{% set altTitle = true %}
+{% set noPageCss = true %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="css/home.css">' %}
+
+
+{% block mainPage %}<div id="header">
+ <a href="http:www.pbskids.org"><img id="pbsLogo" src="assets/images/pbs_logo.gif"></a><img id="arthurLogo" src="assets/images/arthur_logo.png">
+</div>
+<div id="leftColumn">
+ <img id="busterChar" src="assets/images/buster_char.png">
+</div>
+<div id="middleColumn">
+ <div id="contentButtons">
+  <div class="iconButton" id="gamesIcon">
+   <a href="games/index.html">
+    <div class="title">
+     GAMES
+    </div><img src="assets/images/games_icon_off.png"></a>
+  </div>
+  <div class="iconButton" id="videoIcon">
+   <a href="video/index.html">
+    <div class="title">
+     VIDEOS
+    </div><img src="assets/images/video_icon_off.png"></a>
+  </div>
+ </div>
+ <div id="weezieButton"><a href="/arthur/health"><img src="assets/images/WeezieButton.png"></a>
+ </div>
+</div>
+<div id="rightColumn">
+ <img id="arthurChar" src="assets/images/francine_char.png">
+</div>
+<div id="footer">
+ <div id="links" class="footerBox">
+  <div id="arthurWebLinks"><a href="about/">About Arthur</a><br><br> <a href="/arthur/index.html?fullSite=true">Visit Full Arthur Site</a>
+  </div>
+  <div id="mobileLinks"><a href="http://pbskids.org/mobile/"><img id="mobileLDIMG" src="assets/images/mobile_dl.png"></a> <a href="http://pbskids.org/mobile/dws-unicorn-adventure.html"><img src="assets/images/unicorn_app.png"><img id="checkoutIMG" src="assets/images/check_out.png"></a>
+  </div>
+ </div>
+ <div id="funderLinks" class="footerBox"><a href="http://www.chuckecheese.com/" alt="chuck e cheese"><img src="assets/images/chucke_cheese.png"></a> <img src="assets/images/cpb_pbs.png" usemap="#fundersmap"> <map name="fundersmap"> <area shape="rect" coords="9,23,71,95" href="http://www.cpb.org/" alt="Corporation for Public Broadcasting" title="Corporation for Public Broadcasting"> <area shape="rect" coords="75,24,114,78" href="http://pbs.org/" alt="PBS" title="PBS"> </map>
+ </div>
+</div>{% endblock %}
+

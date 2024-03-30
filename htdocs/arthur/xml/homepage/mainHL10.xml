@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>About Face</title>
+			<href>/arthur/games/aboutface/index.html</href>
+			<imgurl>/arthur/i/related/aboutface.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Connect the World</title>
+			<href>/arthur/games/connectworld/index.html</href>
+			<imgurl>/arthur/i/related/connect.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Don't Wake Kate</title>
+			<href>/arthur/games/dontwakekate/index.html</href>
+			<imgurl>/arthur/i/related/dwk.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>You've Got To Be Kidding</title>
+			<href>/arthur/games/yougottobekidding/index.html</href>
+			<imgurl>/arthur/i/related/kidding.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Muffy's Wardrobe</title>
+			<href>/arthur/games/wardrobe/index.html</href>
+			<imgurl>/arthur/i/related/wardrobe.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Bookmarks</title>
+			<href>/arthur/print/bookmarks/index.html</href>
+			<imgurl>/arthur/i/related/bookmarks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>D.W. Goes To Washington</title>
+			<href>/arthur/video/index.html?pid=VmVMf7QX3AfprJubm7BlQhMz2N8pfDYM</href>
+			<imgurl>/arthur/i/related/dwwashington.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Kiss and Tell</title>
+			<href>/arthur/video/index.html?pid=XybyK7NgmrG2Vc0wUj4whueanKPUKiLq</href>
+			<imgurl>/arthur/i/related/kissandtell.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Prunella and the Haunted Locker</title>
+			<href>/arthur/video/index.html?pid=MZvMaQgzKUCM7XM5dfS7SHGwlzDDfFx_</href>
+			<imgurl>/arthur/i/related/hauntedlocker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>War of the Worms</title>
+			<href>/arthur/video/index.html?pid=WaZGtGqDSqnexokqPTtE2rl58Fblj1jc</href>
+			<imgurl>/arthur/i/related/warofworms.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. on Ice</title>
+			<href>/arthur/video/index.html?pid=V9c3NpLzFY_5A4nF4KWmgwV6T5SDBpzA</href>
+			<imgurl>/arthur/i/related/dwonice.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

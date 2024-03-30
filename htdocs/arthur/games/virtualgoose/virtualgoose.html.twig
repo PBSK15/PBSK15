@@ -1,0 +1,27 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Virtual Goose! | PBS Kids' %}
+{% set desc = 'A funny virtual goose is sitting on an egg in the middle. Click one of the other four eggs that matches that egg in the center!' %}
+{% set keywds = 'matching, eggs, spinning, game, play' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="goosebg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/goose_header.gif" width="595" height="61" border="0" alt="Virtual Goose - Point and click on the egg that matches the one in the center!" id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="virtualgoose">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/virtualgoose/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("goose.swf", "movie", "582", "332", "4", "#006191");				   fo.addParam("allowScriptAccess", "always");				  fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/sue_ellen/index.html" id="rcSueEllen">Sue Ellen</a></li>
+   <li><a href="/arthur/print/fetch/index.html" id="rcFetch">Go Fetch!</a></li> <!--<li><a href="/arthur/video/games.html?pid=GEdWvpk_jyj2meMLgobbVVf8pP6z_NBg" id="rcSceneSwitcher">Scene Switcher</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

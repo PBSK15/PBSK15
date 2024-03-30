@@ -1,0 +1,113 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Francine\'s Photos Page | PBS Kids' %}
+{% set desc = 'Take a look at these pictures of Francine. Shes sporty and she loves her family. Read the captions and comments too!' %}
+{% set keywds = 'Francine, ARTHUR, photographs, pictures' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/francine_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/francine_top.swf", "francine", "960", "363", "9", "#ffffcc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "francine");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-francine">Francine's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/fran2.jpg" width="354" height="250" alt="Francine and George dancing in the spotlight." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_fran.gif" width="85" height="83" alt="Francine Avatar" border="0" id="avatar">
+    <h3>George can really dance.</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="george-cmt"><a href="/arthur/friends/george/index.html">GEORGE</a>
+       <p>You were great, too!</p>
+      </div>
+      <div class="george-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/fran2.jpg" width="354" height="250" alt="Francine and George dancing in the spotlight." border="0" id="mainImg">
+       <h3>George can really dance.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="george-cmt"><a href="/arthur/friends/george/index.html">GEORGE</a>
+          <p>You were great, too!</p>
+         </div>
+         <div class="george-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/fran3.jpg" width="354" height="250" alt="Francine, her mom, and her grandmother." border="0" id="mainImg">
+       <h3>My bubbe. She's the best!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/fran4.jpg" width="354" height="250" alt="Francine eating a sundae while wearing her Grebes baseball cap." border="0" id="mainImg">
+       <h3>My favorite hat. GO GREBES!!!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="buster-cmt"><a href="/arthur/friends/buster/index.html">BUSTER</a>
+          <p>Goooooooo Greeeeeebes!</p>
+         </div>
+         <div class="buster-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/fran1.jpg" width="354" height="250" alt="trees can provide shade" border="0" id="mainImg">
+       <h3>Getting the right plants is important. Bushes and trees make shade in the summer, and shelter for animals all year round. They're also nice to look at!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>
+   <li><a href="/arthur/games/unmatching/index.html" id="rcUnmatching">Un-matching Game</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,54 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Fern\'s Poetry Club | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="poetryHeader">Fern's Poetry Club</h4></a>
+  <ul id="printSideNav">
+   <li><a href="what.html" class="selected"><span>What's a poem?</span></a></li>
+   <li><a href="write.html"><span>Write a poem</span></a></li>
+   <li><a href="read.html"><span>Read more poems</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div id="poetryContent">
+    <div id="poemTypesNav">
+     <ul id="innerNav">
+      <li><a href="narrative.html">Narrative</a> | &nbsp;</li>
+      <li><a href="limerick.html">Limerick</a> | &nbsp;</li>
+      <li><a href="haiku.html">Haiku</a> | &nbsp;</li>
+      <li><a href="free_verse.html">Free Verse</a> | &nbsp;</li>
+      <li><a href="cinquain.html" class="selected">Cinquain</a> | &nbsp;</li>
+      <li><a href="lyric.html">Lyric</a></li>
+     </ul>
+    </div>
+    <p class="poetry-intro"><span class="strong">CINQUAIN</span> were developed in the early 1900s by an American poet to resemble Haiku. Cinquains follow a formula. It's kind of confusing, so follow me here:</p>
+    <p class="poetry-intro">The first line is one word giving the title. It has 2 syllables. The second line has 2 words that describe the title. It has 4 syllables. The third line has 3 words that express an action. It has 6 syllables. The fourth line has 2 words that express a feeling. It has 8 syllables. The fifth line is 1 word. It has 2 or 3 syllables.</p>
+    <p class="poetry-intro">Buster wrote a really cool cinquain:</p> <img src="../../i/games/poetry/fern_1.gif" width="159" height="295" alt="Fern holding a book." border="0" class="float-left">
+    <div id="todayPoem">
+     <h4 class="header" id="cinquain">Cinquain Poem</h4>
+     <div class="poem">
+      <h4 class="poem-title">Bubbles<br>by Buster</h4>
+      <p>Bubbles<br> Delicate balls <br> Softly Floating above<br> Unbelievable happiness<br> Transparent<br></p>
+     </div>
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/friends/fern/index.html" id="rcFern">Fern</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li> <!--<li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

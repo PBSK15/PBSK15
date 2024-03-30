@@ -1,0 +1,267 @@
+<game id="superwhybingo" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPERWHY  BINGO | PBS KIDS]]></title>
+	<swf url="sections/games/superwhybingo/superwhybingo.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "false"
+		helpIsActive = "false"
+		hasPrintable = "true"
+		totalGridCels = "9"
+		musicLoopID = "SuperWhyBingoMusicLoop"
+		musicLoopVolume = ".1"
+		endScreenLibraryID = "superwhy_endscreen"
+		endScreenClassName = "SuperWhyEndScreen"
+		characterSectionColor = "superwhy"
+		printImagesToLoad = "3"
+	/>
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="superwhy_endscreen" url="libraries/superwhy_endscreen.swf" />
+	</libraries> 
+
+	<assets>
+		
+		<voiceovers id="vo" isGroup="true">
+			<voiceover id="title_licketyletterbingo" type="audio" url="sections/games/superwhybingo/audio/vo/Title.mp3"/>
+			<voiceover id="opposite_definition" type="audio" url="sections/games/superwhybingo/audio/vo/OppositeDefinition.mp3"/>
+		</voiceovers>
+		
+		<answerSounds id="answerSounds" isGroup="true">
+			<answer id="out" type="audio" url="sections/games/superwhybingo/audio/words/out.mp3"/>
+			<answer id="in" type="audio" url="sections/games/superwhybingo/audio/words/in.mp3"/>
+			<!--answer id="right" type="audio" url="sections/games/superwhybingo/audio/words/right.mp3"/>
+			<answer id="wrong" type="audio" url="sections/games/superwhybingo/audio/words/wrong.mp3"/-->
+			<answer id="lost" type="audio" url="sections/games/superwhybingo/audio/words/lost.mp3"/>
+			<answer id="found" type="audio" url="sections/games/superwhybingo/audio/words/found.mp3"/>
+			<answer id="awake" type="audio" url="sections/games/superwhybingo/audio/words/awake.mp3"/>
+			<answer id="asleep" type="audio" url="sections/games/superwhybingo/audio/words/asleep.mp3"/>
+			<answer id="open" type="audio" url="sections/games/superwhybingo/audio/words/open.mp3"/>
+			<answer id="close" type="audio" url="sections/games/superwhybingo/audio/words/close.mp3"/>
+			<answer id="stop" type="audio" url="sections/games/superwhybingo/audio/words/stop.mp3"/>
+			<answer id="go" type="audio" url="sections/games/superwhybingo/audio/words/go.mp3"/>
+			<answer id="fast" type="audio" url="sections/games/superwhybingo/audio/words/fast.mp3"/>
+			<answer id="slow" type="audio" url="sections/games/superwhybingo/audio/words/slow.mp3"/>
+			<!--answer id="yes" type="audio" url="sections/games/superwhybingo/audio/words/.mp3"/>
+			<answer id="no" type="audio" url="sections/games/superwhybingo/audio/words/.mp3"/=-->
+			<answer id="full" type="audio" url="sections/games/superwhybingo/audio/words/full.mp3"/>
+			<answer id="empty" type="audio" url="sections/games/superwhybingo/audio/words/empty.mp3"/>
+			<answer id="big" type="audio" url="sections/games/superwhybingo/audio/words/big.mp3"/>
+			<answer id="small" type="audio" url="sections/games/superwhybingo/audio/words/small.mp3"/>
+			<!--answer id="front" type="audio" url="sections/games/superwhybingo/audio/words/front.mp3"/>
+			<answer id="back" type="audio" url="sections/games/superwhybingo/audio/words/.mp3"/-->
+			<answer id="hot" type="audio" url="sections/games/superwhybingo/audio/words/hot.mp3"/>
+			<answer id="cold" type="audio" url="sections/games/superwhybingo/audio/words/cold.mp3"/>
+			<answer id="good" type="audio" url="sections/games/superwhybingo/audio/words/good.mp3"/>
+			<answer id="bad" type="audio" url="sections/games/superwhybingo/audio/words/bad.mp3"/>
+			<answer id="top" type="audio" url="sections/games/superwhybingo/audio/words/top.mp3"/>
+			<answer id="bottom" type="audio" url="sections/games/superwhybingo/audio/words/bottom.mp3"/>
+			<!--answer id="easy" type="audio" url="sections/games/superwhybingo/audio/words/.mp3"/>
+			<answer id="hard" type="audio" url="sections/games/superwhybingo/audio/words/.mp3"/-->
+			<answer id="tall" type="audio" url="sections/games/superwhybingo/audio/words/tall.mp3"/>
+			<answer id="short" type="audio" url="sections/games/superwhybingo/audio/words/short.mp3"/>
+			<answer id="wet" type="audio" url="sections/games/superwhybingo/audio/words/wet.mp3"/>
+			<answer id="dry" type="audio" url="sections/games/superwhybingo/audio/words/dry.mp3"/>
+			<answer id="up" type="audio" url="sections/games/superwhybingo/audio/words/up.mp3"/>
+			<answer id="down" type="audio" url="sections/games/superwhybingo/audio/words/down.mp3"/>
+			<answer id="day" type="audio" url="sections/games/superwhybingo/audio/words/day.mp3"/>
+			<answer id="night" type="audio" url="sections/games/superwhybingo/audio/words/night.mp3"/>
+			<answer id="light" type="audio" url="sections/games/superwhybingo/audio/words/light.mp3"/>
+			<answer id="dark" type="audio" url="sections/games/superwhybingo/audio/words/dark.mp3"/>
+			<answer id="clean" type="audio" url="sections/games/superwhybingo/audio/words/clean.mp3"/>
+			<answer id="dirty" type="audio" url="sections/games/superwhybingo/audio/words/dirty.mp3"/>
+			<answer id="happy" type="audio" url="sections/games/superwhybingo/audio/words/happy.mp3"/>
+			<answer id="sad" type="audio" url="sections/games/superwhybingo/audio/words/sad.mp3"/>
+			<!--answer id="soft" type="audio" url="sections/games/superwhybingo/audio/words/soft.mp3"/>
+			<answer id="hard" type="audio" url="sections/games/superwhybingo/audio/words/.mp3"/-->
+			<answer id="above" type="audio" url="sections/games/superwhybingo/audio/words/above.mp3"/>
+			<answer id="below" type="audio" url="sections/games/superwhybingo/audio/words/below.mp3"/>
+			<answer id="sunny" type="audio" url="sections/games/superwhybingo/audio/words/sunny.mp3"/>
+			<answer id="rainy" type="audio" url="sections/games/superwhybingo/audio/words/rainy.mp3"/>
+			<answer id="under" type="audio" url="sections/games/superwhybingo/audio/words/under.mp3"/>
+			<answer id="over" type="audio" url="sections/games/superwhybingo/audio/words/over.mp3"/>
+		</answerSounds>
+
+		<oops id="oops" isGroup="true">
+			<!--oops id="oops_DEFAULT" type="audio" url="sections/games/superwhybingo/audio/oops/notopposite.mp3" /-->
+			<oops id="oops_DEFAULT" type="audio" url="sections/games/superwhybingo/audio/oops/is_not_the_opposite_of.mp3" />
+			<oops id="oops_anotherword" type="audio" url="sections/games/superwhybingo/audio/oops/anotherword.mp3" />
+			<oops id="oops_keeplooking" type="audio" url="sections/games/superwhybingo/audio/oops/keeplooking.mp3" />
+			<oops id="oops_keeptrying" type="audio" url="sections/games/superwhybingo/audio/oops/keeptrying.mp3" />
+		</oops>
+		
+		<kudos id="kudos" isGroup="true">
+			<kudos id="kudos_DEFAULT" type="audio" url="sections/games/superwhybingo/audio/kudos/opposite.mp3" />
+			<kudos id="kudos_awesome" type="audio" url="sections/games/superwhybingo/audio/kudos/awesome.mp3" />
+			<kudos id="kudos_righton" type="audio" url="sections/games/superwhybingo/audio/kudos/righton.mp3" />
+			<kudos id="kudos_superduper" type="audio" url="sections/games/superwhybingo/audio/kudos/superduper.mp3" />
+			<kudos id="kudos_waytogo" type="audio" url="sections/games/superwhybingo/audio/kudos/waytogo.mp3" />
+		</kudos>
+		
+		<finaleKudos id="finaleKudos" isGroup="true">
+			<finaleKudos id="end_level3" type="audio" url="sections/games/superwhybingo/audio/kudos/last.mp3" />
+		</finaleKudos>
+		
+		<soundfx id="soundfx" isGroup="true">
+			<soundfx id="ui_press" type="audio" url="sections/games/superwhybingo/audio/sfx/sfx_ui_press.mp3" />
+			<soundfx id="ui_over" type="audio" url="sections/games/superwhybingo/audio/sfx/sfx_ui_over.mp3" />
+			<soundfx id="grid_over" type="audio" url="sections/games/superwhybingo/audio/sfx/sfx_grid_over.mp3" />
+			<soundfx id="grid_press" type="audio" url="sections/games/superwhybingo/audio/sfx/sfx_grid_press.mp3" />
+			<soundfx id="wrongtile" type="audio" url="sections/games/superwhybingo/audio/sfx/wrongtile.mp3" />
+			<soundfx id="frame_win" type="audio" url="sections/games/superwhybingo/audio/sfx/frame_win.mp3" />
+			<soundfx id="spin" type="audio" url="sections/games/superwhybingo/audio/sfx/spin.mp3" />
+			<soundfx id="buttontransition" type="audio" url="sections/games/superwhybingo/audio/sfx/buttontransition.mp3" />
+			<soundfx id="intro" type="audio" url="sections/games/superwhybingo/audio/sfx/intro_transition.mp3" />
+			<soundfx id="tiletransition" type="audio" url="sections/games/superwhybingo/audio/sfx/tiletransition.mp3" />
+			<soundfx id="frameflair" type="audio" url="sections/games/wonderredbingo/audio/sfx/frameflair.mp3" />
+		</soundfx>
+		
+		<prompts id="prompts" isGroup="true">
+			<prompt id="prompt1" type="audio" url="sections/games/superwhybingo/audio/prompts/objective1.mp3" />
+			<prompt id="prompt2" type="audio" url="sections/games/superwhybingo/audio/prompts/objective2.mp3" />
+		</prompts>
+
+		<buttons id="buttons" isGroup="true">
+			<rollover id="click_speaker" type="audio" url="sections/games/superwhybingo/audio/prompts/click.mp3" />
+			<rollover id="button_print" type="audio" url="sections/games/superwhybingo/audio/buttons/button_print.mp3" />
+		</buttons>
+		
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		</promos>
+
+	</assets>
+	
+	<printImages>
+		<!--image id="" url="sections/games/wonderredbingo/images/.jpg" /-->
+		<printimage id="a" url="sections/games/superwhybingo/images/SuperWhy01.jpg" />
+		<printimage id="b" url="sections/games/superwhybingo/images/SuperWhy02.jpg" />
+		<printimage id="c" url="sections/games/superwhybingo/images/SuperWhy03.jpg" />
+		<printimage id="d" url="sections/games/superwhybingo/images/SuperWhy04.jpg" />
+		<printimage id="e" url="sections/games/superwhybingo/images/SuperWhy05.jpg" />
+		<printimage id="f" url="sections/games/superwhybingo/images/SuperWhy06.jpg" />
+		<printimage id="g" url="sections/games/superwhybingo/images/SuperWhy07.jpg" />
+		<printimage id="h" url="sections/games/superwhybingo/images/SuperWhy08.jpg" />
+		<printimage id="i" url="sections/games/superwhybingo/images/SuperWhy09.jpg" />
+		<printimage id="j" url="sections/games/superwhybingo/images/SuperWhy10.jpg" />
+		<printimage id="k" url="sections/games/superwhybingo/images/SuperWhy11.jpg" />
+		<printimage id="l" url="sections/games/superwhybingo/images/SuperWhy12.jpg" />
+		<printimage id="m" url="sections/games/superwhybingo/images/SuperWhy13.jpg" />
+		<printimage id="n" url="sections/games/superwhybingo/images/SuperWhy14.jpg" />
+	</printImages>
+	
+	<answerLibrary type="word">
+		<difficultyLevel>
+			<answer>
+				<prompt soundID="out"><![CDATA[out]]></prompt>
+				<match soundID="in"><![CDATA[in]]></match>
+			</answer>			
+			<!--answer>
+				<prompt soundID="right"><![CDATA[right]]></prompt>
+				<match soundID="wrong"><![CDATA[wrong]]></match>
+			</answer-->			
+			<answer>
+				<prompt soundID="lost"><![CDATA[lost]]></prompt>
+				<match soundID="found"><![CDATA[found]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="awake"><![CDATA[awake]]></prompt>
+				<match soundID="asleep"><![CDATA[asleep]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="open"><![CDATA[open]]></prompt>
+				<match soundID="close"><![CDATA[close]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="stop"><![CDATA[stop]]></prompt>
+				<match soundID="go"><![CDATA[go]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="fast"><![CDATA[fast]]></prompt>
+				<match soundID="slow"><![CDATA[slow]]></match>
+			</answer>	
+			<!--answer>
+				<prompt soundID="yes"><![CDATA[yes]]></prompt>
+				<match soundID="no"><![CDATA[no]]></match>
+			</answer-->			
+			<answer>
+				<prompt soundID="full"><![CDATA[full]]></prompt>
+				<match soundID="empty"><![CDATA[empty]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="big"><![CDATA[big]]></prompt>
+				<match soundID="small"><![CDATA[small]]></match>
+			</answer>			
+			<!--answer>
+				<prompt soundID="front"><![CDATA[front]]></prompt>
+				<match soundID="back"><![CDATA[back]]></match>
+			</answer-->			
+			<answer>
+				<prompt soundID="hot"><![CDATA[hot]]></prompt>
+				<match soundID="cold"><![CDATA[cold]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="good"><![CDATA[good]]></prompt>
+				<match soundID="bad"><![CDATA[bad]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="top"><![CDATA[top]]></prompt>
+				<match soundID="bottom"><![CDATA[bottom]]></match>
+			</answer>			
+			<!--answer>
+				<prompt soundID="easy"><![CDATA[easy]]></prompt>
+				<match soundID="hard"><![CDATA[hard]]></match>
+			</answer-->			
+			<answer>
+				<prompt soundID="tall"><![CDATA[tall]]></prompt>
+				<match soundID="short"><![CDATA[short]]></match>
+			</answer>
+			<answer>
+				<prompt soundID="wet"><![CDATA[wet]]></prompt>
+				<match soundID="dry"><![CDATA[dry]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="up"><![CDATA[up]]></prompt>
+				<match soundID="down"><![CDATA[down]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="day"><![CDATA[day]]></prompt>
+				<match soundID="night"><![CDATA[night]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="light"><![CDATA[light]]></prompt>
+				<match soundID="dark"><![CDATA[dark]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="clean"><![CDATA[clean]]></prompt>
+				<match soundID="dirty"><![CDATA[dirty]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="happy"><![CDATA[happy]]></prompt>
+				<match soundID="sad"><![CDATA[sad]]></match>
+			</answer>			
+			<!--answer>
+				<prompt soundID="soft"><![CDATA[soft]]></prompt>
+				<match soundID="hard"><![CDATA[hard]]></match>
+			</answer-->			
+			<answer>
+				<prompt soundID="above"><![CDATA[above]]></prompt>
+				<match soundID="below"><![CDATA[below]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="sunny"><![CDATA[sunny]]></prompt>
+				<match soundID="rainy"><![CDATA[rainy]]></match>
+			</answer>			
+			<answer>
+				<prompt soundID="under"><![CDATA[under]]></prompt>
+				<match soundID="over"><![CDATA[over]]></match>
+			</answer>			
+		</difficultyLevel>
+	</answerLibrary>
+	
+
+</game>

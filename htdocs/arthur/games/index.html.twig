@@ -1,0 +1,100 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games' %}
+{% set desc = 'See all of the ARTHUR games that you can play! Have a blast learning and playing with the coolest kids in Elwood City! Its so much fun!' %}
+{% set keywds = 'games, fun, ARTHUR, index, learning, prosocial, educational kids games' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}		<div id="content" class="bg-6cc index-page">
+			<div id="titleBanner"><h4 id="gamesHeader">Games</h4></div>
+			<script type="text/javascript">
+			   var fo = new SWFObject("/arthur/media/games_header.swf", "print", "687", "250", "9", "#66cccc");
+			   fo.addVariable("base", "/arthur/");
+			   fo.addParam("allowScriptAccess", "always");
+			 	 //PBS_enable_cdn(fo);
+			   fo.write("titleBanner");
+			</script>
+			<div class="callout-wrapper" id="calloutGames">
+				<div id="callout">
+					<div class="callout-images">
+						<a href="groovygarden/index.html"><img src="../i/related/groovygarden.png" width="174" height="264" alt="Games - Groovy Garden" border="0" /></a>
+					</div>
+				</div>
+			</div>
+			<div id="circleNav" class="circleNav-games"></div>
+			<div>&nbsp;</div>
+			<div id="mainFeature">
+				<div id="sliderWrapper" class="slider-games">
+					<span class="prev">Previous</span>
+					<div class="slider">
+						<ul id="sliderIcons">
+							<li>
+								<ul>
+									<li id="gamesBackyardAdv" class="icon"><a href="../games/backyard_adventure/index.html"><span>Backyard Adventure</span></a></li>
+									<li id="gamesSoFunny" class="icon"><a href="../games/comic_sofunny/index.html"><span>So Funny I Forgot To Laugh</span></a></li>
+									<!-- HALLOWEEN 
+									<li id="gamesCrankHalloween" class="icon"><a href="../games/crankitup/index_halloween.html"><span>Crank It Up!</span></a></li>
+									-->
+									<!--REGULAR-->
+									<li id="gamesCrank" class="icon"><a href="../games/crankitup/index.html"><span>Crank It Up!</span></a></li>
+									<li id="gamesComic" class="icon"><a href="../games/comiccreator/index.html"><span>Comic Creator</span></a></li>
+									<li id="gamesCharBuilder" class="icon"><a href="../games/characterbuilder/index.html"><span>Character Builder</span></a></li>
+									<li id="gamesDreamOn" class="icon"><a href="../games/dreamon/index.html"><span>Dream On</span></a></li>
+									<li id="gamesLunchOMatic" class="icon"><a href="../games/lunchomatic/index.html"><span>Lunch-o-Matic</span></a></li>
+									<li id="gamesLung" class="icon"><a href="../games/lungdefender/index.html"><span>Buster Baxter, Lung Defender</span></a></li>
+									<li id="gamesSupermarket" class="icon"><a href="../games/supermarket/index.html"><span>Supermarket Adventure</span></a></li>
+									<li id="gamesDontWake" class="icon"><a href="../games/dontwakekate/index.html"><span>Don't Wake Kate</span></a></li>							
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li id="gamesGroovy" class="icon"><a href="../games/groovygarden/index.html"><span>Groovy Garden</span></a></li>
+									<li id="gamesGoGreen" class="icon"><a href="../games/gogreen/index.html"><span>Go Green Challenge</span></a></li>
+									<li id="gamesMovie" class="icon"><a href="../games/moviemaker/index.html"><span>Movie Maker</span></a></li>
+									<li id="gamesElwood" class="icon"><a href="../games/elwoodcity/index.html"><span>Elwood City Map</span></a></li>		
+									<li id="gamesWheresBuster" class="icon"><a href="../games/wheresbuster/index.html"><span>Where's Buster?</span></a></li>
+									<li id="gamesSuper" class="icon"><a href="../games/superactionchallenge/index.html"><span>Super Action Challenge</span></a></li>
+									<li id="gamesArtGallery" class="icon"><a href="../games/artgallery/index.html"><span>Art Gallery</span></a></li>
+									<li id="gamesSugarbowl" class="icon"><a href="../games/sugarbowlpoll/index.html"><span>Sugar Bowl Poll</span></a></li>
+									<li id="gamesAlien" class="icon"><a href="../games/alien/index.html"><span>Alien: Assembly Required</span></a></li>
+									<li id="gamesVirtualGoose" class="icon"><a href="../games/virtualgoose/index.html"><span>Virtual Goose</span></a></li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									
+									<li id="gamesAboutFace" class="icon"><a href="../games/aboutface/index.html"><span>About Face</span></a></li>
+									<li id="gamesStickers" class="icon"><a href="../games/stickers/index.html"><span>Baby Kate Stickers</span></a></li>
+									<li id="gamesSongbook" class="icon"><a href="../games/songbook/index.html"><span>Song Book</span></a></li>
+									<li id="gamesMarthur" class="icon"><a href="../games/marthursticker/index.html"><span>Marthur Sticker Mashup</span></a></li>
+									<li id="gamesLetsDraw" class="icon"><a href="../games/letsdrawarthur/index.html"><span>Let's Draw Arthur</span></a></li>
+									<li id="gamesUnmatching" class="icon"><a href="../games/unmatching/index.html"><span>Un-Matching Game</span></a></li>
+									<li id="gamesAskPrunella" class="icon"><a href="../games/askprunella/index.html" ><span>Ask Prunella</span></a></li>
+									<li id="gamesWardrobe" class="icon"><a href="../games/wardrobe/index.html"><span>Muffy's Wardrobe</span></a></li>	
+									<li id="gamesConnect" class="icon"><a href="../games/connectworld/index.html"><span>Connect The World</span></a></li>
+									<li id="gamesGoGeorge" class="icon"><a href="../games/gogeorgego/index.html"><span>Go! George Go!</span></a></li>
+
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li id="gamesLetters" class="icon"><a href="../games/lettersto/index.html"><span>Letters To...</span></a></li>
+									<li id="gamesPoetry" class="icon"><a href="../games/poetry/index.html"><span>Poetry Nook</span></a></li>
+									<li id="gamesPostcardBuster" class="icon"><a href="/buster/games/index.html"><span>Postcards From Buster</span></a></li>
+									<!--<li id="gamesPostcardYou" class="icon"><a href="/buster/pfy/index.html"><span>Postcards From You</span></a></li>-->
+									<li id="gamesYouKidding" class="icon"><a href="../games/yougottobekidding/index.html"><span>You've Got To Be Kidding</span></a></li>
+									<li id="gamesTheBrainGame" class="icon"><a href="../games/braingame/index.html"><span>The Brain Game</span></a></li>
+									<li id="gamesEffective" class="icon"><a href="../games/effectivedetective/index.html"><span>Effective Detective</span></a></li>
+									<li id="gamesGlobal" class="icon"><a href="../games/globalgizmo/index.html"><span>Global Gizmo</span></a></li>
+									<li id="gamesFacts" class="icon"><a href="../games/factsopinions/index.html"><span>Facts and Opinions</span></a></li>
+									<!--<li id="gamesHeyFran" class="icon"><a href="../games/heyfrancine/index.html"><span>Hey Francine</span></a></li>-->
+									<li id="gamesFlag" class="icon"><a href="../games/flag/index.html"><span>Build A Flag</span></a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<span class="next">Next</span>
+				</div>
+			</div>		
+		</div>{% endblock %}

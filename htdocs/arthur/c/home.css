@@ -1,0 +1,74 @@
+/********				INDEX - ALT CONTENT TOP NAV 				*********/
+#topNav { padding:0; height:367px; overflow:hidden; }
+#topNav ul { margin:0 0 0 399px; }
+
+
+/*absolutely position pbs logo + hilight*/
+#home_logos { width:345px; float:left;}
+#pbsLogo { position:absolute; top:10px; left:8px; z-index:3; margin:0; }
+#main-hilight { position:absolute; top:9px; left:56px;  z-index:2; }
+#main-char-hilight { position:relative; z-index:1; margin:7px 0 0 0; }
+
+
+/********				INDEX - MINOR HIGHLIGHTS 				*********/
+#minor-hilights { background:url('../i/minor_highlights/left_rounded.png') no-repeat top left; /*overflow:auto;*/ height:266px; padding:0 0 0 11px; }
+#callouts-games, #callouts-print, #callouts-videos { padding:0; margin:0 10px 0 0; /*overflow:hidden;*/ position: relative; float:left; }
+#callouts-games { width:291px; }
+#callouts-print { width:295px; }
+#callouts-videos { width:295px; }
+#callouts-print .hilight-tag { width:86px; }
+#callouts-videos .hilight-tag { width:86px; }
+.callout-images{ left:1px;  }
+.hilight-tag { float:left; margin:9px 0 0; display:inline-block; overflow:hidden; width:83px; height:0; padding:68px 0 0; }
+#tagGames { background:url('../i/minor_highlights/tag_games.gif')top left no-repeat; }
+#tagPrints { background:url('../i/minor_highlights/tag_print.gif')top left no-repeat; }
+#tagVideos { background:url('../i/minor_highlights/tag_videos.gif')top left no-repeat; }
+#minor-hilights ul { position:relative; left:0; }
+#minor-hilights li{ float:left; list-style:none; }
+
+#minor-hilights .prev, #minor-hilights .next { display: block; width: 34px; height: 0; overflow: hidden; padding: 43px 0 0; background: url('../i/minor_highlights/arrows.gif') left top no-repeat; margin:117px 0 0 0; position: absolute;  top:0; cursor: pointer; }
+#minor-hilights .next { background-position: -102px 0; right: 0; }
+#minor-hilights .prev { left: 50px; }
+#minor-hilights .prev:hover, #minor-hilights .prev.on { background-position: -34px 0; }
+#minor-hilights .next:hover, #minor-hilights .next.on { background-position: -136px 0; }
+#minor-hilights .prev:active { background-position: -68px 0; }
+#minor-hilights .next:active { background-position: -170px 0; }
+
+
+/********				INDEX - CHARACTER HIGHLIGHTS 				*********/
+#character-hilights { overflow:auto; padding:5px 0 10px 10px; }
+#character-hilights li { float:left; margin:0 0 0 2px; }
+#character-hilights a { display:block; height:0; overflow:hidden; padding:69px 0 0; }
+
+#char-sue a {  width:69px; background:url('../i/char_highlights/icon_sue.gif') left top no-repeat; }
+#char-muffy a {  width:59px; background:url('../i/char_highlights/icon_muffy.gif') left top no-repeat; }
+#char-buster a {  width:68px; background:url('../i/char_highlights/icon_buster.gif') left top no-repeat; }
+#char-prunella a {  width:66px; background:url('../i/char_highlights/icon_prunella.gif') left top no-repeat; }
+#char-brain a {  width:64px; background:url('../i/char_highlights/icon_brain.gif') left top no-repeat; }
+#char-kate a {  width:64px; background:url('../i/char_highlights/icon_kate.gif') left top no-repeat; }
+#char-arthur a {  width:66px; background:url('../i/char_highlights/icon_arthur.gif') left top no-repeat; }
+#char-dw a {  width:65px; background:url('../i/char_highlights/icon_dw.gif') left top no-repeat; }
+#char-pal a {  width:65px; background:url('../i/char_highlights/icon_pal.gif') left top no-repeat; }
+#char-francine a {  width:65px; background:url('../i/char_highlights/icon_francine.gif') left top no-repeat; }
+#char-binky a {  width:65px; background:url('../i/char_highlights/icon_binky.gif') left top no-repeat; }
+#char-fern a {  width:65px; background:url('../i/char_highlights/icon_fern.gif') left top no-repeat; }
+#char-george a {  width:63px; background:url('../i/char_highlights/icon_george.gif') left top no-repeat; }
+#char-tibbles a {  width:64px; background:url('../i/char_highlights/icon_tibbles.gif') left top no-repeat; }
+#char-ladonna a {  width:66px; background:url('../i/char_highlights/icon_ladonna.gif') left top no-repeat; }
+
+#char-arthur a:hover, #char-prunella a:hover,#char-ladonna a:hover { background-position:-66px 0; }
+#char-sue a:hover { background-position:-69px 0; }
+#char-muffy a:hover { background-position:-59px 0; }
+#char-buster a:hover { background-position:-68px 0; }
+#char-brain a:hover, #char-kate a:hover, #char-tibbles a:hover { background-position:-64px 0; }
+#char-dw a:hover, #char-pal a:hover, #char-francine a:hover, #char-binky a:hover, #character-hilights #char-fern a:hover { background-position:-65px 0; }
+#char-george a:hover { background-position:-63px 0; }
+#appPromoUnicornApp { margin-top: 50px;  text-align: center; }
+#appPromoUnicornApp img { border-style: none  }
+
+#parentTeacherContainer{ background-color:#2f9fd1; }
+#parentTeacherContainer img { margin-top:1px; }
+#descripHealthHub { float:right; font-family:'Trebuchet MS'; color:#ffffff; width: 15.5em; font-size: 1em; leading:1.1em; margin-left:0px; margin-top: 5%; margin-right: 30px;  }
+#weezieButton { background-color:#2f9fd1; text-align:center; }
+#weezieButton img { margin-left: 260px; margin-top:10px; }
+

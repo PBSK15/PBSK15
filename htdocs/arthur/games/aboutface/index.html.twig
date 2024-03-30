@@ -1,0 +1,22 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . About Face | PBS Kids' %}
+{% set desc = 'Want to help Arthur train Pal and see funny faces of ARTHUR characters at the same time? Thats what this game is all about! (Well, okay, its about feelings too.)' %}
+{% set keywds = 'game, feelings, emotions, facial expression, training, Pal' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="aboutbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="aboutface.html" target="_self"><img src="../../i/games/af_splash.gif" width="551" height="395" border="0" alt="Play About Face"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/baby_kate/index.html" id="rcKate">Baby Kate</a></li>
+   <li><a href="/arthur/friends/pal/index.html" id="rcPal">Pal</a></li>
+   <li><a href="/arthur/print/fetch/index.html" id="rcFetch">Go Fetch!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

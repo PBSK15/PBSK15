@@ -1,0 +1,351 @@
+<game id="freezedance" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . WONDER RED FREEZE DANCE | PBS KIDS]]></title>
+	<swf url="sections/games/freezedance/freezedance.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "false"
+		helpIsActive = "false"
+		hasPrintable = "false"
+		totalWordFamiliesPerSession = "3"
+	/>
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="wonderred_endscreen" url="libraries/wonderred_endscreen.swf" />
+	</libraries> 
+
+	<assets>
+		
+		<voiceOvers id="voiceOvers" isGroup="true">
+
+		</voiceOvers>
+		
+		<rolloverVoices id="rolloverVoices" isGroup="true">
+			<rolloverVoice id="startover" type="audio" url="sections/games/freezedance/audio/vo/startover.mp3" />
+			<rolloverVoice id="help" type="audio" url="sections/games/freezedance/audio/vo/help.mp3" />
+			<rolloverVoice id="skip" type="audio" url="sections/games/freezedance/audio/vo/skip.mp3" />
+		</rolloverVoices>
+
+		<levelObjectives id="levelObjectives" isGroup="true">
+			<objective id="objective1a" type="audio" url="sections/games/freezedance/audio/objective/objective1a.mp3" />
+			<objective id="objective1b" type="audio" url="sections/games/freezedance/audio/objective/objective1b.mp3" />
+			<objective id="objective1c" type="audio" url="sections/games/freezedance/audio/objective/objective1c.mp3" />
+		</levelObjectives>
+		
+		<idleTimeouts id="idleTimeouts" isGroup="true">
+			<timeout id="idleTimeout1" type="audio" url="sections/games/freezedance/audio/vo/idle1.mp3" />
+			<timeout id="idleTimeout2" type="audio" url="sections/games/freezedance/audio/vo/idle2.mp3" />
+			<timeout id="idleTimeout3" type="audio" url="sections/games/freezedance/audio/vo/idle3.mp3" />
+		</idleTimeouts>
+
+		
+		<answersounds id="answersounds" isGroup="true">
+			<answersound id="all" type="audio" url="sections/games/freezedance/audio/words/all/all.mp3"/>
+			<answersound id="ball" type="audio" url="sections/games/freezedance/audio/words/all/ball.mp3"/>
+			<answersound id="call" type="audio" url="sections/games/freezedance/audio/words/all/call.mp3"/>
+			<answersound id="hall" type="audio" url="sections/games/freezedance/audio/words/all/hall.mp3"/>
+			<answersound id="mall" type="audio" url="sections/games/freezedance/audio/words/all/mall.mp3"/>
+			<answersound id="fall" type="audio" url="sections/games/freezedance/audio/words/all/fall.mp3"/>
+			<answersound id="tall" type="audio" url="sections/games/freezedance/audio/words/all/tall.mp3"/>
+			<answersound id="small" type="audio" url="sections/games/freezedance/audio/words/all/small.mp3"/>
+			<answersound id="wall" type="audio" url="sections/games/freezedance/audio/words/all/wall.mp3"/>
+			
+			<answersound id="sun" type="audio" url="sections/games/freezedance/audio/words/un/sun.mp3"/>
+			<answersound id="bun" type="audio" url="sections/games/freezedance/audio/words/un/bun.mp3"/>
+			<answersound id="fun" type="audio" url="sections/games/freezedance/audio/words/un/fun.mp3"/>
+			<answersound id="pun" type="audio" url="sections/games/freezedance/audio/words/un/pun.mp3"/>
+			<answersound id="run" type="audio" url="sections/games/freezedance/audio/words/un/run.mp3"/>
+			<answersound id="stun" type="audio" url="sections/games/freezedance/audio/words/un/stun.mp3"/>
+			<answersound id="spun" type="audio" url="sections/games/freezedance/audio/words/un/spun.mp3"/>
+			
+			<answersound id="bump" type="audio" url="sections/games/freezedance/audio/words/ump/bump.mp3"/>
+			<answersound id="stump" type="audio" url="sections/games/freezedance/audio/words/ump/stump.mp3"/>
+			<answersound id="jump" type="audio" url="sections/games/freezedance/audio/words/ump/jump.mp3"/>
+			<answersound id="lump" type="audio" url="sections/games/freezedance/audio/words/ump/lump.mp3"/>
+			<answersound id="hump" type="audio" url="sections/games/freezedance/audio/words/ump/hump.mp3"/>
+			<answersound id="pump" type="audio" url="sections/games/freezedance/audio/words/ump/pump.mp3"/>
+			<answersound id="dump" type="audio" url="sections/games/freezedance/audio/words/ump/dump.mp3"/>
+			
+			<answersound id="log" type="audio" url="sections/games/freezedance/audio/words/og/log.mp3"/>
+			<answersound id="frog" type="audio" url="sections/games/freezedance/audio/words/og/frog.mp3"/>
+			<answersound id="fog" type="audio" url="sections/games/freezedance/audio/words/og/fog.mp3"/>
+			<answersound id="hog" type="audio" url="sections/games/freezedance/audio/words/og/hog.mp3"/>
+			<answersound id="jog" type="audio" url="sections/games/freezedance/audio/words/og/jog.mp3"/>
+			<answersound id="bog" type="audio" url="sections/games/freezedance/audio/words/og/bog.mp3"/>
+			<answersound id="cog" type="audio" url="sections/games/freezedance/audio/words/og/cog.mp3"/>
+			
+			<answersound id="snake" type="audio" url="sections/games/freezedance/audio/words/ake/snake.mp3"/> <!-- temp audio -->
+			<answersound id="cake" type="audio" url="sections/games/freezedance/audio/words/ake/cake.mp3"/>
+			<answersound id="rake" type="audio" url="sections/games/freezedance/audio/words/ake/rake.mp3"/>
+			<answersound id="lake" type="audio" url="sections/games/freezedance/audio/words/ake/lake.mp3"/>
+			<answersound id="bake" type="audio" url="sections/games/freezedance/audio/words/ake/bake.mp3"/>
+			<answersound id="make" type="audio" url="sections/games/freezedance/audio/words/ake/make.mp3"/>
+			<answersound id="wake" type="audio" url="sections/games/freezedance/audio/words/ake/wake.mp3"/>
+			<answersound id="take" type="audio" url="sections/games/freezedance/audio/words/ake/take.mp3"/>
+			
+			<answersound id="rat" type="audio" url="sections/games/freezedance/audio/words/at/rat.mp3"/>
+			<answersound id="bat" type="audio" url="sections/games/freezedance/audio/words/at/bat.mp3"/>
+			<answersound id="hat" type="audio" url="sections/games/freezedance/audio/words/at/hat.mp3"/>
+			<answersound id="mat" type="audio" url="sections/games/freezedance/audio/words/at/mat.mp3"/>
+			<answersound id="cat" type="audio" url="sections/games/freezedance/audio/words/at/cat.mp3"/>
+			<answersound id="sat" type="audio" url="sections/games/freezedance/audio/words/at/sat.mp3"/>
+			<answersound id="flat" type="audio" url="sections/games/freezedance/audio/words/at/flat.mp3"/>
+			
+			<answersound id="tell" type="audio" url="sections/games/freezedance/audio/words/ell/tell.mp3"/>
+			<answersound id="yell" type="audio" url="sections/games/freezedance/audio/words/ell/yell.mp3"/>
+			<answersound id="bell" type="audio" url="sections/games/freezedance/audio/words/ell/bell.mp3"/>
+			<answersound id="sell" type="audio" url="sections/games/freezedance/audio/words/ell/sell.mp3"/>
+			<answersound id="well" type="audio" url="sections/games/freezedance/audio/words/ell/well.mp3"/>
+			<answersound id="fell" type="audio" url="sections/games/freezedance/audio/words/ell/fell.mp3"/>
+			<answersound id="shell" type="audio" url="sections/games/freezedance/audio/words/ell/shell.mp3"/>
+			<answersound id="smell" type="audio" url="sections/games/freezedance/audio/words/ell/smell.mp3"/>
+			
+			<answersound id="chairs" type="audio" url="sections/games/freezedance/audio/words/airs/chairs.mp3"/>
+			<answersound id="stairs" type="audio" url="sections/games/freezedance/audio/words/airs/stairs.mp3"/>
+			<answersound id="pairs" type="audio" url="sections/games/freezedance/audio/words/airs/pairs.mp3"/>
+			<answersound id="fairs" type="audio" url="sections/games/freezedance/audio/words/airs/fairs.mp3"/>
+			<answersound id="hairs" type="audio" url="sections/games/freezedance/audio/words/airs/hairs.mp3"/>
+			<answersound id="lairs" type="audio" url="sections/games/freezedance/audio/words/airs/lairs.mp3"/>
+			
+			<answersound id="ink" type="audio" url="sections/games/freezedance/audio/words/ink/familyink.mp3"/>
+			<answersound id="drink" type="audio" url="sections/games/freezedance/audio/words/ink/drink.mp3"/>
+			<answersound id="sink" type="audio" url="sections/games/freezedance/audio/words/ink/sink.mp3"/>
+			<answersound id="pink" type="audio" url="sections/games/freezedance/audio/words/ink/pink.mp3"/>
+			<answersound id="wink" type="audio" url="sections/games/freezedance/audio/words/ink/wink.mp3"/>
+			<answersound id="link" type="audio" url="sections/games/freezedance/audio/words/ink/link.mp3"/>
+			<answersound id="think" type="audio" url="sections/games/freezedance/audio/words/ink/think.mp3"/>	
+		</answersounds>	
+		
+		<!-- current word and family will be appended/prepended to this audio a correct word is colleced -->
+		<correctWordKudosInsertion id="correctWordKudosInsertion" type="audio" url="sections/games/freezedance/audio/kudos/kudos1a.mp3" />
+		
+		<!-- generic kudos to randomize after correctWordInsertion is played -->
+		<correctWordKudos id="correctWordKudos" isGroup="true">
+			<kudos id="wonderiffic" type="audio" url="sections/games/freezedance/audio/kudos/kudos1b.mp3" />
+			<kudos id="terrific" type="audio" url="sections/games/freezedance/audio/kudos/kudos2b.mp3" />
+			<kudos id="letskeeprhyming" type="audio" url="sections/games/freezedance/audio/kudos/kudos3b.mp3" />
+			<kudos id="greatrhyming" type="audio" url="sections/games/freezedance/audio/kudos/kudos4b.mp3" />
+			<kudos id="waytorhyme" type="audio" url="sections/games/freezedance/audio/kudos/kudos5b.mp3" />
+		</correctWordKudos>
+		
+		<preDanceVoice>
+			<predancevoice id="dancemove1" type="audio" url="sections/games/freezedance/audio/vo/dancemove1.mp3" />
+			<predancevoice id="dancemove2" type="audio" url="sections/games/freezedance/audio/vo/dancemove2.mp3" />
+		</preDanceVoice>
+
+		<!-- current word family VO will be appended to this audio -->
+		<!-- 'you found all of the words that rhyme with' -->
+		<payoff id="familyPayoffKudosInsertion" type="audio" url="sections/games/freezedance/audio/payoff/payoff1a.mp3" />
+		<!-- 'wonderific, you are terrific' -->
+		<encouragement id="familyPayoffEncouragement" type="audio" url="sections/games/freezedance/audio/payoff/payoff1b.mp3" />
+		
+		<!-- generic kudos to randomize when entire word family is finished, after familyPayoffInsertion -->
+		<familyPayoffKudos id="familyPayoffKudos" isGroup="true">
+			<!-- now sing and dance with me -->
+			<kudos id="payoff1c" type="audio" url="sections/games/freezedance/audio/payoff/payoff1c_random.mp3" />
+			<!-- let's boogie -->
+			<kudos id="payoff1d" type="audio" url="sections/games/freezedance/audio/payoff/payoff1d_random.mp3" />			
+		</familyPayoffKudos>	
+			
+
+		
+		
+		<!-- ********************************************* -->
+		<!-- randomized groups of oops VO, per word family -->
+		<!-- ********************************************* -->
+	
+		<wordoopsairs id="wordoopsairs" isGroup="true">
+			<oops id="oopsairs1" type="audio" url="sections/games/freezedance/audio/oops/airs/oopsairs1.mp3" />
+			<oops id="oopsairs2" type="audio" url="sections/games/freezedance/audio/oops/airs/oopsairs2.mp3" />
+			<oops id="oopsairs4" type="audio" url="sections/games/freezedance/audio/oops/airs/oopsairs4.mp3" />
+			<oops id="oopsairs5" type="audio" url="sections/games/freezedance/audio/oops/airs/oopsairs5.mp3" />
+		</wordoopsairs>					
+
+		<wordoopsake id="wordoopsake" isGroup="true">
+			<oops id="oopsake1" type="audio" url="sections/games/freezedance/audio/oops/ake/oopsake1.mp3" />
+			<oops id="oopsake2" type="audio" url="sections/games/freezedance/audio/oops/ake/oopsake2.mp3" />
+			<oops id="oopsake4" type="audio" url="sections/games/freezedance/audio/oops/ake/oopsake4.mp3" />
+			<oops id="oopsake5" type="audio" url="sections/games/freezedance/audio/oops/ake/oopsake5.mp3" />
+		</wordoopsake>		
+		
+		<wordoopsall id="wordoopsall" isGroup="true">
+			<oops id="oopsall1" type="audio" url="sections/games/freezedance/audio/oops/all/oopsall1.mp3" />
+			<oops id="oopsall2" type="audio" url="sections/games/freezedance/audio/oops/all/oopsall2.mp3" />
+			<oops id="oopsall4" type="audio" url="sections/games/freezedance/audio/oops/all/oopsall4.mp3" />
+			<oops id="oopsall5" type="audio" url="sections/games/freezedance/audio/oops/all/oopsall5.mp3" />
+		</wordoopsall>
+
+		<wordoopsat id="wordoopsat" isGroup="true">
+			<oops id="oopsat1" type="audio" url="sections/games/freezedance/audio/oops/at/oopsat1.mp3" />
+			<oops id="oopsat2" type="audio" url="sections/games/freezedance/audio/oops/at/oopsat2.mp3" />
+			<oops id="oopsat4" type="audio" url="sections/games/freezedance/audio/oops/at/oopsat4.mp3" />
+			<oops id="oopsat5" type="audio" url="sections/games/freezedance/audio/oops/at/oopsat5.mp3" />
+		</wordoopsat>
+
+		<wordoopsell id="wordoopsell" isGroup="true">
+			<oops id="oopsell1" type="audio" url="sections/games/freezedance/audio/oops/ell/oopsell1.mp3" />
+			<oops id="oopsell2" type="audio" url="sections/games/freezedance/audio/oops/ell/oopsell2.mp3" />
+			<oops id="oopsell4" type="audio" url="sections/games/freezedance/audio/oops/ell/oopsell4.mp3" />
+			<oops id="oopsell5" type="audio" url="sections/games/freezedance/audio/oops/ell/oopsell5.mp3" />
+		</wordoopsell>
+
+		<wordoopsink id="wordoopsink" isGroup="true">
+			<oops id="oopsink1" type="audio" url="sections/games/freezedance/audio/oops/ink/oopsink1.mp3" />
+			<oops id="oopsink2" type="audio" url="sections/games/freezedance/audio/oops/ink/oopsink2.mp3" />
+			<oops id="oopsink4" type="audio" url="sections/games/freezedance/audio/oops/ink/oopsink4.mp3" />
+			<oops id="oopsink5" type="audio" url="sections/games/freezedance/audio/oops/ink/oopsink5.mp3" />
+		</wordoopsink>		
+
+		<wordoopsog id="wordoopsog" isGroup="true">
+			<oops id="oopsog1" type="audio" url="sections/games/freezedance/audio/oops/og/oopsog1.mp3" />
+			<oops id="oopsog2" type="audio" url="sections/games/freezedance/audio/oops/og/oopsog2.mp3" />
+			<oops id="oopsog4" type="audio" url="sections/games/freezedance/audio/oops/og/oopsog4.mp3" />
+			<oops id="oopsog5" type="audio" url="sections/games/freezedance/audio/oops/og/oopsog5.mp3" />
+		</wordoopsog>	
+
+		<wordoopsump id="wordoopsump" isGroup="true">
+			<oops id="oopsump1" type="audio" url="sections/games/freezedance/audio/oops/ump/oopsump1.mp3" />
+			<oops id="oopsump2" type="audio" url="sections/games/freezedance/audio/oops/ump/oopsump2.mp3" />
+			<oops id="oopsump4" type="audio" url="sections/games/freezedance/audio/oops/ump/oopsump4.mp3" />
+			<oops id="oopsump5" type="audio" url="sections/games/freezedance/audio/oops/ump/oopsump5.mp3" />
+		</wordoopsump>	
+
+		<wordoopsun id="wordoopsun" isGroup="true">
+			<oops id="oopsun1" type="audio" url="sections/games/freezedance/audio/oops/un/oopsun1.mp3" />
+			<oops id="oopsun2" type="audio" url="sections/games/freezedance/audio/oops/un/oopsun2.mp3" />
+			<oops id="oopsun4" type="audio" url="sections/games/freezedance/audio/oops/un/oopsun4.mp3" />
+			<oops id="oopsun5" type="audio" url="sections/games/freezedance/audio/oops/un/oopsun5.mp3" />
+		</wordoopsun>	
+	
+		<!-- ********************************************* -->
+		<!-- ********************************************* -->
+		<!-- ********************************************* -->
+			
+		<!-- audio sound - UN, AIRS, AT, etc - for each word family -->	
+		<familysounds id="familysounds" isGroup="true">
+			<familysounds id="allfamily" type="audio" url="sections/games/freezedance/audio/words/all/familyall.mp3"/>
+			<familysounds id="unfamily" type="audio" url="sections/games/freezedance/audio/words/un/familyun.mp3"/>
+			<familysounds id="umpfamily" type="audio" url="sections/games/freezedance/audio/words/ump/familyump.mp3"/>
+			<familysounds id="ogfamily" type="audio" url="sections/games/freezedance/audio/words/og/familyog.mp3"/>
+			<familysounds id="akefamily" type="audio" url="sections/games/freezedance/audio/words/ake/familyake.mp3"/>
+			<familysounds id="atfamily" type="audio" url="sections/games/freezedance/audio/words/at/familyat.mp3"/>
+			<familysounds id="ellfamily" type="audio" url="sections/games/freezedance/audio/words/ell/familyell.mp3"/>
+			<familysounds id="airsfamily" type="audio" url="sections/games/freezedance/audio/words/airs/familyairs.mp3"/>
+			<familysounds id="inkfamily" type="audio" url="sections/games/freezedance/audio/words/ink/familyink.mp3"/>
+		</familysounds>
+		
+		
+		
+		
+		<soundfx id="soundfx" isGroup="true">
+
+		</soundfx>
+		
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="alphapig" location="game/alphapig" url="promos/endscreen_promo_ap_bricks.jpg" />
+		</promos>
+
+	</assets>
+	
+	<answerLibrary type="word">
+		<difficultyLevel>
+			<answer id="all">
+				<prompt soundID="allfamily"><![CDATA[ALL]]></prompt>
+				<match soundID="ball"><![CDATA[BALL]]></match>
+				<match soundID="call"><![CDATA[CALL]]></match>
+				<match soundID="hall"><![CDATA[HALL]]></match>
+				<match soundID="mall"><![CDATA[MALL]]></match>
+				<match soundID="fall"><![CDATA[FALL]]></match>
+				<match soundID="tall"><![CDATA[TALL]]></match>
+				<match soundID="small"><![CDATA[SMALL]]></match>
+				<match soundID="wall"><![CDATA[WALL]]></match>
+			</answer>
+			<answer id="un">
+				<prompt soundID="unfamily"><![CDATA[UN]]></prompt>
+				<match soundID="sun"><![CDATA[SUN]]></match>
+				<match soundID="bun"><![CDATA[BUN]]></match>
+				<match soundID="fun"><![CDATA[FUN]]></match>
+				<match soundID="pun"><![CDATA[PUN]]></match>
+				<match soundID="run"><![CDATA[RUN]]></match>
+				<match soundID="stun"><![CDATA[STUN]]></match>
+				<match soundID="spun"><![CDATA[SPUN]]></match>
+			</answer>	
+			<answer id="ump">
+				<prompt soundID="umpfamily"><![CDATA[UMP]]></prompt>
+				<match soundID="bump"><![CDATA[BUMP]]></match>
+				<match soundID="stump"><![CDATA[STUMP]]></match>
+				<match soundID="jump"><![CDATA[JUMP]]></match>
+				<match soundID="lump"><![CDATA[LUMP]]></match>
+				<match soundID="hump"><![CDATA[HUMP]]></match>
+				<match soundID="pump"><![CDATA[PUMP]]></match>
+				<match soundID="dump"><![CDATA[DUMP]]></match>
+			</answer>
+			<answer id="og">
+				<prompt soundID="ogfamily"><![CDATA[OG]]></prompt>
+				<match soundID="log"><![CDATA[LOG]]></match>
+				<match soundID="frog"><![CDATA[FROG]]></match>
+				<match soundID="fog"><![CDATA[FOG]]></match>
+				<match soundID="hog"><![CDATA[HOG]]></match>
+				<match soundID="jog"><![CDATA[JOG]]></match>
+				<match soundID="bog"><![CDATA[BOG]]></match>
+				<match soundID="cog"><![CDATA[COG]]></match>
+			</answer>	
+			<answer id="ake">
+				<prompt soundID="akefamily"><![CDATA[AKE]]></prompt>
+				<match soundID="snake"><![CDATA[SNAKE]]></match>
+				<match soundID="cake"><![CDATA[CAKE]]></match>
+				<match soundID="rake"><![CDATA[RAKE]]></match>
+				<match soundID="lake"><![CDATA[LAKE]]></match>
+				<match soundID="bake"><![CDATA[BAKE]]></match>
+				<match soundID="make"><![CDATA[MAKE]]></match>
+				<match soundID="wake"><![CDATA[WAKE]]></match>
+				<match soundID="take"><![CDATA[TAKE]]></match>
+			</answer>	
+			<answer id="at">
+				<prompt soundID="atfamily"><![CDATA[AT]]></prompt>
+				<match soundID="rat"><![CDATA[RAT]]></match>
+				<match soundID="bat"><![CDATA[BAT]]></match>				
+				<match soundID="hat"><![CDATA[HAT]]></match>
+				<match soundID="mat"><![CDATA[MAT]]></match>
+				<match soundID="cat"><![CDATA[CAT]]></match>
+				<match soundID="sat"><![CDATA[SAT]]></match>
+				<match soundID="flat"><![CDATA[FLAT]]></match>
+			</answer>	
+			<answer id="ell">
+				<prompt soundID="ellfamily"><![CDATA[ELL]]></prompt>
+				<match soundID="tell"><![CDATA[TELL]]></match>
+				<match soundID="yell"><![CDATA[YELL]]></match>
+				<match soundID="bell"><![CDATA[BELL]]></match>
+				<match soundID="sell"><![CDATA[SELL]]></match>
+				<match soundID="well"><![CDATA[WELL]]></match>
+				<match soundID="fell"><![CDATA[FELL]]></match>
+				<match soundID="shell"><![CDATA[SHELL]]></match>
+				<match soundID="smell"><![CDATA[SMELL]]></match>
+			</answer>	
+			<answer id="airs">
+				<prompt soundID="airsfamily"><![CDATA[AIRS]]></prompt>
+				<match soundID="chairs"><![CDATA[CHAIRS]]></match>
+				<match soundID="stairs"><![CDATA[STAIRS]]></match>
+				<match soundID="pairs"><![CDATA[PAIRS]]></match>
+				<match soundID="fairs"><![CDATA[FAIRS]]></match>
+				<match soundID="hairs"><![CDATA[HAIRS]]></match>
+				<match soundID="lairs"><![CDATA[LAIRS]]></match>
+			</answer>	
+			<answer id="ink">
+				<prompt soundID="inkfamily"><![CDATA[INK]]></prompt>
+				<match soundID="drink"><![CDATA[DRINK]]></match>
+				<match soundID="sink"><![CDATA[SINK]]></match>
+				<match soundID="pink"><![CDATA[PINK]]></match>
+				<match soundID="wink"><![CDATA[WINK]]></match>
+				<match soundID="link"><![CDATA[LINK]]></match>
+				<match soundID="think"><![CDATA[THINK]]></match>
+			</answer>	
+		</difficultyLevel>
+	</answerLibrary>
+	
+
+</game>

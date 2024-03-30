@@ -1,0 +1,111 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Holiday . Sue Ellen\'s Scrapbook | PBS Kids' %}
+{% set desc = 'Check out the limerick written by Sue Ellen and find out what poems called limericks are all about.' %}
+{% set keywds = 'limerick, poems, writing' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr holiday"><a href="/arthur/holiday/index.html"><h4 id="holidayHeader">Elwood City Celebrates</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../dressup/index.html"><span>D.W.'s Dress Up</span></a></li>
+   <li><a href="../scrapbook/index.html" class="selected"><span>Sue Ellen's Scrapbook</span></a></li>
+   <li><a href="../glossary/index.html"><span>Brain's Big Book</span></a></li>
+   <li><a href="../coloring/index.html"><span>Holiday Coloring Pages</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea"><a name="top"></a>
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>Sue Ellen's Scrapbook</h1>
+    </div>
+   </div>
+   <div id="holidayTermsContent">
+    <div id="holidayTermsNav">
+     <ul id="innerNav">
+      <li><a href="baxterday.html">Baxter Day</a> &nbsp;| &nbsp;</li>
+      <li><a href="christmas.html">Christmas</a> | &nbsp;</li>
+      <li><a href="hanukkah.html">Hanukkah</a> | &nbsp;</li>
+      <li><a href="kwanzaa.html">Kwanzaa</a> | &nbsp;</li>
+      <li><a href="newyear.html">New Year</a></li><br>
+      <li><a href="ramadan.html">Ramadan and Eid ul-Fitr</a> | &nbsp;</li>
+      <li><a href="stlucia.html" class="selected">St. Lucia</a> | &nbsp;</li>
+      <li><a href="volunteering.html">Volunteering</a> | &nbsp;</li>
+      <li><a href="solstice.html">Winter Solstice</a></li>
+     </ul>
+    </div>
+    <div class="printable-nav no-rule">
+     <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+      <p>1 of 8 pages</p>
+     </div>
+    </div>
+    <ul class="print-pages" id="holidayScrapbookPix">
+     <li id="stlucia1">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/lucia1.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>St. Lucia</h2>
+        <p>George's relatives in Sweden celebrate the holiday of St. Lucia on December 13. Lucia Day is a celebration of light on the longest night of the year. All the kids dress up in white and have a big parade with stars and candles.</p>
+       </dd>
+      </dl></li>
+     <li id="stlucia2">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/lucia2.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>St. Lucia</h2>
+        <p>One of George's cousins was elected to dress up like St. Lucia. She wore a white dress, and a wreath of candles on her head. Sounds kind of dangerous to me!</p>
+       </dd>
+      </dl></li>
+     <li id="stlucia3">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/lucia3.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>St. Lucia</h2>
+        <p>The parades go all through the streets in Sweden. When it's all over, everyone's feet are frozen stiff, but they've had so much fun they barely notice!</p>
+       </dd>
+      </dl></li>
+     <li id="stlucia4">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/lucia4.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>St. Lucia</h2>
+        <p>During the parade, a pack of snow fell off a big oak tree right onto George's uncle! He froze from his nose to his toes!</p>
+       </dd>
+      </dl></li>
+     <li id="stlucia5">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/lucia5.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>St. Lucia</h2>
+        <p>St. Lucia can be celebrated with dancing and lots of tasty baked goods, like spicy gingersnaps (called "pepparkakor") and sweet lussekatt saffron buns. Mmmm!</p>
+       </dd>
+      </dl></li>
+    </ul>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcBrainBook">Brain's Big Book of Terms</a></li>
+   <li><a href="/arthur/holiday/dressup/index.html" id="rcDressUp">DW Dress Up</a></li> <!--<li><a href="/arthur/holiday/coloring/index.html" id="rcHolidayColoring">Holiday Coloring Page</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

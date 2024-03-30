@@ -1,0 +1,1723 @@
+/* Reset Browser Defaults */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; }
+ol, ul { list-style: none; }
+table { border-spacing: 0; border-collapse: collapse; }
+caption, th, td { text-align:left; font-weight: normal; }
+
+html, body { height:100%; }
+body { font-family:"Trebuchet MS", Arial, sans-serif; background-color:#42609d; color:#000; background:url('../i/bg.gif') top left repeat; font-size:14px; line-height:18px; font-weight:normal; /*overflow:hidden; position:relative;*/ }
+h1 { font-size:25px; line-height:27px; color:#036; }
+h2 { font-size:19px; line-height:21px; color:#036; }
+h3, #aboutMe { font-size:17px; line-height:19px; }
+p { margin:0 0 10px 0;  text-align:left; }
+a { color:#c00; font-weight:bold; text-decoration:none; }
+a:hover { color:#f33; text-decoration:underline; }
+hr { padding:0; margin:0; border:0; }
+h4, label,#aboutMe dd { font-weight:bold; line-height:21px; }
+h5 { font-size:18px; line-height:22px; }
+strong { font-weight:bold; }
+
+/*=====  GLOBAL CSS ======*/
+
+/* stop focus-selection boxes in FF3 */
+object,embed,active,object:focus,embed:focus {outline:none;}
+.hidden { visibility:hidden; }
+.hide { display:none; }
+.show { visibility:visible; }
+.float-right { float:right; }
+.float-left { float:left; }
+.strong { font-weight:bold; }
+.caps { text-transform:uppercase; }
+.title { font-weight:bold; font-style:italic; }
+.bg-ccf { background-color:#ccf; }
+.bg-cc0 { background-color:#cc0; }
+.bg-cc9 { background-color:#cc9; }
+.bg-cfc { background-color:#cfc; }
+.bg-cff { background-color:#cff; }
+.bg-cf9 { background-color:#cf9; }
+.bg-c60 { background-color:#c60; }
+.bg-c99 { background-color:#c99; }
+
+.bg-fcc { background-color:#fcc; }
+.bg-fcf { background-color:#fcf; }
+.bg-fc9 { background-color:#fc9; }
+.bg-ffc { background-color:#ffc; }
+.bg-fff { background-color:#fff; }
+.bg-ff9 { background-color:#ff9; }
+.bg-f93 { background-color:#f93; }
+.bg-f99 { background-color:#f99; }
+
+.bg-000 { background-color:#000; }
+
+.bg-396 { background-color:#396; }
+
+.bg-6cc { background-color:#6cc; }
+.bg-6c6 { background-color:#6c6; }
+.bg-6ff { background-color:#6ff; }
+.bg-636 { background-color:#636; }
+.bg-666 { background-color:#666; }
+.bg-699 { background-color:#699; }
+
+.bg-9cc { background-color:#9cc; }
+.bg-9cf { background-color:#9cf; }
+.bg-9c6 { background-color:#9c6; }
+.bg-9c9 { background-color:#9c9; }
+.bg-9fc { background-color:#9fc; }
+.bg-9ff { background-color:#9ff; }
+.bg-933 { background-color:#933; }
+.bg-99f { background-color:#99f; }
+#coastline { margin:0 auto; width:960px; background:url('../i/side_border.png') top left repeat-y; padding:0 6px 0 6px; min-height:100%; /*overflow:hidden; */}
+
+/*============   MAIN NAV 	==============*/
+#topNav { margin:0; height:109px; background-color:#69f; /*overflow:auto; */position:relative; }
+#topNav img { float:left; }
+#pbsLogo, #arthurLogo { height:0; display:inline-block; float:left; overflow:hidden; }
+#pbsLogo { position:absolute; left:10px; top:10px; width:67px; padding:60px 0 0; background:url('../i/pbs_logo.gif') top left no-repeat; }
+#arthurLogo { margin: 6px 65px 0 67px; width:234px; padding:100px 0 0; background:url('../i/arthur_logo.gif') top left no-repeat; }
+#arthurLogo:hover { background-position:-234px 0; }
+#arthurLogo:active { background-position:-468px 0;}
+
+#navFriends, #navGames, #navVideos, #navPrints, #navClubs, #navPT { float:left; width:97px; height:97px; margin: 4px 3px 0 0; }
+#navFriends a, #navGames a, #navVideos a, #navPrints a, #navClubs a, #navPT a { display: block; width: 97px; height: 0; overflow: hidden; padding: 97px 0 0; background: url('../i/nav.gif') left top no-repeat; }
+#navGames a { background-position: -388px 0; }
+#navVideos a { background-position: -776px 0; }
+#navPrints a { background-position: -1164px 0; }
+#navClubs a { background-position: -1552px 0; }
+#navPT a { display: block; width: 75px; height: 0; overflow: hidden; padding: 41px 0 0; background: url('../i/nav_parents.gif') left top no-repeat; margin: 0 11px 0 10px; }
+#navFriends a:hover { background-position: -97px 0; }
+#navGames a:hover{ background-position: -485px 0; }
+#navVideos a:hover { background-position: -873px 0; }
+#navPrints a:hover { background-position: -1261px 0; }
+#navClubs a:hover { background-position: -1649px 0; }
+#navPT a:hover { background-position: -75px 0; }
+
+#navFriends a:active { background-position: -194px 0; }
+#navGames a:active{ background-position: -582px 0; }
+#navVideos a:active { background-position: -970px 0; }
+#navPrints a:active { background-position: -1358px 0; }
+#navClubs a:active { background-position: -1746px 0; }
+#navPT a:active { background-position: -150px 0; }
+
+#navFriends.selected a { background-position: -291px 0; }
+#navGames.selected a { background-position: -679px 0; }
+#navVideos.selected a { background-position: -1067px 0; }
+#navPrints.selected a { background-position: -1455px 0; }
+#navClubs.selected a { background-position: -1843px 0; }
+#navPT.selected a { background-position: -225px 0; }
+
+#navPT { margin:0; width:75px; }
+/*================================================*/
+/*============   MAIN CONTENT AREA 	==============*/
+/*================================================*/
+#content { padding:0 0 30px 0; position:relative; }
+#content.index-page { padding:0 0 50px 0; }
+#mainFeature { margin:0 auto; text-align:center; }
+.copyright { display:none; }
+
+
+/*================================================*/
+/*============   SECTION INDEX  	==============*/
+/*================================================*/
+#titleBanner { float:left; }
+#titleBanner h4 { overflow:hidden; height:0; width:687px; padding:250px 0 0; }
+
+/*=========== INDEX CALLOUT (TOP RIGHT)  ==========*/
+.callout-wrapper { overflow:hidden; display:inline-block; height:266px; width:273px; padding:0; margin:0; padding:14px 0 0 0; }
+#callout { position:relative; }
+#callout .prev, #callout .next {  display: block; width: 34px; height: 0; overflow: hidden; padding: 43px 0 0; background: url('../i/minor_highlights/arrows.gif') left top no-repeat; position: absolute;  top:117px; left:auto; cursor: pointer; z-index:3;}
+#callout .next { background-position: -102px 0; right: 28px; }
+#callout .prev { left: 28px; }
+#callout .prev:hover, #callout .prev.on { background-position: -34px 0; }
+#callout .next:hover, #callout .next.on { background-position: -136px 0; }
+#callout .prev:active { background-position: -68px 0; }
+#callout .next:active { background-position: -170px 0; }
+.callout-images ul li{ float:left; }
+.callout-images{ width:174px; height:264px; overflow:hidden; position: relative; left:62px; top:0; }
+#images { position:relative; }
+
+/*===== USED BY FRIENDS/PRINT/GAMES INDEX =====*/
+/*=========== INDEX SLIDER NAV  ==========*/
+#sliderWrapper.slider-print .prev, #sliderWrapper.slider-print .next { background:url('../i/print/arrow_print.gif') left top no-repeat; }
+#sliderWrapper.slider-games .prev, #sliderWrapper.slider-games .next { background:url('../i/games/arrow_games.gif') left top no-repeat; }
+#sliderWrapper.slider-friends .prev, #sliderWrapper.slider-friends .next { background: url('../i/friends/arrow_friends.png') left top no-repeat; margin:79px 0 0 0; }
+#sliderWrapper .prev, #sliderWrapper .next { display:block; width:68px; height:0; overflow:hidden; padding:410px 0 0 0; position:absolute; top:0; cursor:pointer; z-index:10; }
+#sliderWrapper .prev { left:0; }
+#sliderWrapper.slider-print .next, #sliderWrapper.slider-games .next, #sliderWrapper.slider-friends .next { background-position: -272px 0; right:0; }
+#sliderWrapper .prev:hover, #sliderWrapper .prev.on { background-position: -68px 0; }
+#sliderWrapper .next:hover, #sliderWrapper .next.on { background-position: -340px 0; }
+#sliderWrapper .prev:active { background-position: -136px 0; }
+#sliderWrapper .next:active { background-position: -408px 0; }
+#sliderWrapper { padding:0; margin:19px 0 0 0; overflow:hidden; position:relative; left:0; width:960px; }
+#sliderWrapper .prev.disabled { background-position:-204px 0; }
+#sliderWrapper .next.disabled { background-position:-476px 0; }
+.slider{ width:752px; height:409px; overflow:hidden;/* position: relative; left:104px;*/  margin:0 0 0 104px;}
+
+/*=========== INDEX ICONS LINKS     =======*/
+.icon a { display: block; width: 137px; height: 0;  padding: 138px 0 0; margin: 18px 0 45px 0; cursor:pointer; font-weight:normal; font-size:15px; background-position:0 0;}
+.icon a:hover { background-position:-137px 0; text-decoration:none; }
+.icon { float:left; margin:0 13px 0 0; }
+.corner { /*margin:0;*/ }
+
+#sliderIcons { position:relative; overflow:hidden; left:0; }
+#sliderIcons ul { width:752px; height:409px; overflow:hidden; }
+#sliderIcons li { float:left; }
+
+/*==========     CIRCLE NAV		===========*/
+#circleNav .button { width: 20px; }
+#circleNav .button:hover, #circleNav .button.on { background-position: -20px 0; }
+#circleNav .button.selected { background-position: -40px 0; }
+#circleNav span { float:left; display:block; height:0; overflow:hidden; padding:20px 0 0; cursor: pointer; margin:0 4px 0 0; }
+#circleNav span.last { margin:0; }
+#circleNav.circleNav-friends { position:absolute; z-index:5; top:528px; left:50%; width:69px; margin:0 0 0 -33px; }
+#circleNav.circleNav-friends span { background: url('../i/friends/circle_nav.gif') left top no-repeat; }
+/*#circleNav.circleNav-print { position:relative; z-index:2; left:50%; width:44px; margin:0 0 0 -20px; }*/
+#circleNav.circleNav-print { position:absolute; z-index:2; top:265px; left:50%; width:44px; margin:5px 0 0 -20px; }
+#circleNav.circleNav-print span { background: url('../i/print/circle_nav_print.gif') left top no-repeat; }
+/*#circleNav.circleNav-games { position:relative; z-index:2; left:50%; width:94px; margin:0 0 0 -47px; }*/
+#circleNav.circleNav-games { position:absolute; z-index:2; top:265px; left:50%; width:94px; margin:5px 0 0 -47px; }
+#circleNav.circleNav-games span { background: url('../i/games/circle_nav_games.gif') left top no-repeat; }
+
+
+/*================================================*/
+/*============   FRIENDS INDEX  	==============*/
+/*================================================*/
+.friendsIndx { height:568px; position:relative;}
+#friendsAboutFace a { background: url('../i/friends/icons/aboutface_white.gif'); }
+#friendsAlien a { background: url('../i/friends/icons/alien_white.gif'); }
+#friendsArtGallery a { background: url('../i/friends/icons/gallery_white.gif'); }
+#friendsAskPrunella a { background: url('../i/friends/icons/askprunella_white.gif'); }
+#friendsAskTheBrain a { background: url('../i/friends/icons/lettersbrain_white.gif'); }
+#friendsStickers a { background: url('../i/friends/icons/stickers_white.gif'); }
+#friendsTheBrainGame a { background: url('../i/friends/icons/braingame_white.gif'); }
+#friendsLung a { background: url('../i/friends/icons/lung_white.gif'); }
+#friendsDreamOn a { background: url('../i/friends/icons/dreamon_white.gif'); }
+#friendsComic a { background: url('../i/friends/icons/comic_white.gif'); }
+#friendsConnect a { background: url('../i/friends/icons/connect_white.gif'); }
+#friendsCrank a { background: url('../i/friends/icons/crankitup_white.gif'); }
+#friendsCrankHalloween a { background: url('../i/friends/icons/crankhalloween_white.gif'); }
+#friendsDontWake a { background: url('../i/friends/icons/dontwakekate_white.gif'); }
+#friendsEcards a { background: url('../i/friends/icons/ecards_white.gif'); }
+#friendsEcardsHalloween a { background: url('../i/friends/icons/ecardshalloween_white.gif'); }
+#friendsEffective a { background: url('../i/friends/icons/detective_white.gif'); }
+#friendsElwood a { background: url('../i/friends/icons/elwoodcity_white.gif'); }
+#friendsFacts a { background: url('../i/friends/icons/facts_white.gif'); }
+#friendsGlobal a { background: url('../i/friends/icons/gizmo_white.gif'); }
+#friendsGoGeorge a { background: url('../i/friends/icons/gogeorgego_white.gif'); }
+#friendsGroovy a { background: url('../i/friends/icons/garden_white.gif'); }
+#friendsHeyFran a { background: url('../i/friends/icons/lettersfrancine_white.gif'); }
+#friendsLetsDraw a { background: url('../i/friends/icons/draw_white.gif'); }
+#friendsLetters a { background: url('../i/friends/icons/_white.gif'); }
+#friendsLettersToArthur a { background: url('../i/friends/icons/lettersarthur_white.gif'); }
+#friendsLunchOMatic a { background: url('../i/friends/icons/lunch_white.gif'); }
+#friendsMarthur a { background: url('../i/friends/icons/stickerbook_white.gif'); }
+#friendsMovie a { background: url('../i/friends/icons/movie_white.gif'); }
+#friendsWardrobe a { background: url('../i/friends/icons/wardrobe_white.gif'); }
+#friendsPoetry a { background: url('../i/friends/icons/poetry_white.gif'); }
+#friendsPostcardBuster a { background: url('../i/friends/icons/postcards_white.gif'); }
+#friendsPostcardYou a { background: url('../i/friends/icons/postcardsfromyou_white.gif'); }
+#friendsSongbook a { background: url('../i/friends/icons/songbook_white.gif'); }
+#friendsTravel a { background: url('../i/friends/icons/letterssue_white.gif'); }
+#friendsSugarbowl a { background: url('../i/friends/icons/poll_white.gif'); }
+#friendsSuper a { background: url('../i/friends/icons/superaction_white.gif'); }
+#friendsSupermarket a { background: url('../i/friends/icons/supermarket_white.gif'); }
+#friendsUnmatching a { background: url('../i/friends/icons/unmatching_white.gif'); }
+#friendsVirtualGoose a { background: url('../i/friends/icons/goose_white.gif'); }
+#friendsYouKidding a { background: url('../i/friends/icons/kidding_white.gif'); }
+#friendsNewsletter a { background: url('../i/friends/icons/newsletter_white.gif'); }
+#friendsCow a { background: url('../i/friends/icons/icon_cows_white.gif'); }
+#friendsGroove a { background: url('../i/friends/icons/icon_groove_white.gif'); }
+#friendsCootie a { background: url('../i/friends/icons/icon_cootie_white.gif'); }
+#friendsElwingo a { background: url('../i/friends/icons/icon_elwingo_white.gif'); }
+#friendsParty a { background: url('../i/friends/icons/icon_party_white.gif'); }
+#friendsFetch a { background: url('../i/friends/icons/icon_fetch_white.gif'); }
+#friendsFive a { background: url('../i/friends/icons/icon_highfive_white.gif'); }
+#friendsCosmic a { background: url('../i/friends/icons/icon_cosmic_white.gif'); }
+#friendsBookmarks a { background: url('../i/friends/icons/icon_bookmark_white.gif'); }
+#friendsBraille a { background: url('../i/friends/icons/icon_braille_white.gif'); }
+#friendsPlay a { background: url('../i/friends/icons/icon_playmaker_white.gif'); }
+#friendsMasks a { background: url('../i/friends/icons/icon_masks_white.gif'); }
+#friendsColoring a { background: url('../i/friends/icons/icon_coloring_white.gif'); }
+#friendsBus a { background: url('../i/friends/icons/icon_bus_white.gif'); }
+#friendsSign a { background: url('../i/friends/icons/icon_sign_white.gif'); }
+#friendsDraw a { background: url('../i/friends/icons/icon_draw_white.gif'); }
+#friendsTrading a { background: url('../i/friends/icons/icon_trading_white.gif'); }
+#friendsBackstreet a { background: url('../i/friends/icons/backstreet_white.gif'); }
+#friendsFire a { background: url('../i/friends/icons/firesafety_white.gif'); }
+#friendsCharBuilder a { background: url('../i/friends/icons/charbuilder_white.gif'); }
+
+/*************** FRIENDS INNER PAGES  *********************/
+/*--- ROUNDED CORNER WRAPPER ----*/
+#friendsBGTop, #friendsBGBtm { width:756px; height:15px; position:absolute; left:0; }
+#friendsBGTop { background:url('../i/friends/friends_bg_top.png') top left no-repeat; top:-15px; }
+#friendsBGBtm { background:url('../i/friends/friends_bg_btm.png') top left no-repeat; bottom:-15px; }
+#friendsContent { background:url('../i/friends/friends_bg_side.png') top left repeat-y; width:746px; padding:15px 10px 0; position:relative; margin:15px 0; display:inline-block; }
+#friendsContent h1 { clear:both; }
+.friendsRuler { background:url('../i/friends/friends_rule.gif') top left no-repeat; width:734px; height:2px; }
+
+/*--- MY GAMES SECTION ---*/
+#myGames { padding:18px 0 29px 0; text-align:center; overflow:auto; }
+#myGames li { margin:0 7px 0 0; }
+#myGames li a:hover { background-position:-140px 0; }
+#friendsContent h1 { margin:0 0 0 10px; }
+.photoWall { width:166px; height:0; padding:268px 0 0; overflow:hidden; float:right; margin:20px 20px 0 0; background-position: top left; background-repeat:no-repeat;}
+.photoWall.p-arthur {background:url('../i/friends/photowall/arthur_photowall.gif');}
+.photoWall.p-kate {background:url('../i/friends/photowall/kate_photowall.gif');}
+.photoWall.p-binky{background:url('../i/friends/photowall/binky_photowall.gif') top left no-repeat;}
+.photoWall.p-brain {background:url('../i/friends/photowall/brain_photowall.gif');}
+.photoWall.p-buster {background:url('../i/friends/photowall/buster_photowall.gif');}
+.photoWall.p-dad {background:url('../i/friends/photowall/dad_photowall.gif');}
+.photoWall.p-dw {background:url('../i/friends/photowall/dw_photowall.gif');}
+.photoWall.p-emily {background:url('../i/friends/photowall/emily_photowall.gif');}
+.photoWall.p-fern {background:url('../i/friends/photowall/fern_photowall.gif');}
+.photoWall.p-francine {background:url('../i/friends/photowall/francine_photowall.gif');}
+.photoWall.p-george {background:url('../i/friends/photowall/george_photowall.gif');}
+.photoWall.p-thora {background:url('../i/friends/photowall/grandma_photowall.gif');}
+.photoWall.p-macgrady {background:url('../i/friends/photowall/macgrady_photowall.gif');}
+.photoWall.p-mom {background:url('../i/friends/photowall/mom_photowall.gif');}
+.photoWall.p-muffy {background:url('../i/friends/photowall/muffy_photowall.gif');}
+.photoWall.p-pal {background:url('../i/friends/photowall/pal_photowall.gif');}
+.photoWall.p-prunella {background:url('../i/friends/photowall/prunella_photowall.gif');}
+.photoWall.p-ratburn{background:url('../i/friends/photowall/ratburn_photowall.gif');}
+.photoWall.p-sueellen {background:url('../i/friends/photowall/sueellen_photowall.gif');}
+.photoWall.p-tibbles {background:url('../i/friends/photowall/tibbles_photowall.gif');}
+.photoWall.p-ladonna {background:url('../i/friends/photowall/ladonna_photowall.gif');}
+
+/*---- ABOUT ME SECTION --*/
+#aboutMe { list-style:none; margin:20px 0 0 10px; float:left; width:365px; }
+#aboutMe dt { color:#036; }
+#aboutMe dd { margin:0 0 10px 0; font-size:14px; line-height:18px;}
+
+/*----- MY FAVORITE BOOKS   ---*/
+#myBooks { padding:24px 0 20px 0; }
+#myBooks li { overflow:auto; width:520px; }
+#myBooks img { float:left; }
+
+/*---- POLL ------*/
+#pollWrapper { float:right; margin:0 40px 20px 0; }
+#pollContent { width:280px; min-height:100px; background:url('../i/friends/polls/poll_mid.gif') top left repeat-y; padding:20px 12px 20px; }
+
+#myPoll { margin:10px 0 0; }
+#myPoll ul { margin:0 0 0 20px; }
+#myPoll li { margin:0 0 3px 0; }
+#myPoll p { font-weight:bold; }
+#pollSubmitBtn { background:url('../i/friends/submit_btn.png') top left no-repeat; width:83px; height:0; padding:33px 0 0; display:block; cursor:pointer; overflow:hidden; margin:20px auto 0 auto; }
+#pollSubmitBtn:hover { background-position:-83px 0; }
+#pollSubmitBtn:active { background-position:-166px 0; }
+#pollBGBtm { background:url('../i/friends/polls/poll_btm.gif') top left no-repeat; width:304px; height:17px; }
+#poll { padding:10px 0 0; }
+#poll h2{margin:0 0 5px 20px; color:#000; }
+.bar{border:1px solid #036; width:214px; height:16px; margin:0 0 20px 20px; }
+#poll h4 { padding:0 0 10px 20px; }
+
+
+.b-930 { border:1px solid #930; }
+.b-060 { border:1px solid #060; }
+.b-93c { border:1px solid #93c; }
+.b-e33 { border:1px solid #e3314f; }
+
+/*----- MY VIDEOS SECTION ----*/
+#myVideos #playerWrapper { width:710px; }
+#myVideos { width:721px; height:369px; background:url('../i/friends/video_bg.gif') top left no-repeat; margin:20px 0 17px 7px; padding:1px 0 0 5px; }
+
+/*------- MY PHOTOS ---------*/
+#cmtArea{ float:left; width:273px; padding:31px 0 0 28px; }
+#cmtArea h2 { padding:0 0 10px 0; }
+#photoWrapper{ padding:31px 0 38px 10px; float:left; width:428px; }
+#photoWrapper h3{ margin:14px 0 0; width:390px; color:#000; }
+#bigImgWrapper{ width:100%; position:relative;}
+#mainImg { padding:0 0 0 37px; }
+#bigImgWrapper .prev, #bigImgWrapper .next { display:block; overflow:hidden; width:34px; height:43px;  background:url('../i/friends/photos_arrow.gif') 0 0 no-repeat; float:left; outline:none; position:absolute; top:104px; }
+#bigImgWrapper .prev{ left:0; }
+#bigImgWrapper .next{ background-position:-136px 0; right:0; }
+#bigImgWrapper .next:hover, #bigImgWrapper .next.on {background-position:-170px 0;}
+#bigImgWrapper .prev:hover, #bigImgWrapper .prev.on {background-position:-34px 0;}
+#bigImgWrapper .prev:active { background-position:-68px 0; }
+#bigImgWrapper .next:active { background-position:-204px 0; }
+#bigImgWrapper .prev.disabled{ background-position:-102px 0; }
+#bigImgWrapper .next.disabled{ background-position:-238px 0; }
+#avatar{float:left; margin:0 1px 0 -3px;}
+
+/*.imgbtm{ padding-left:28px; float:left; }*/
+.comment { width:256px; margin-bottom:1px; }
+.comment a { padding:10px 0 0; display:block; font-weight:normal; }
+.comment a:hover { text-decoration:none; }
+.comment p { margin:0; }
+.arthur-cmt, .muffy-cmt, .buster-cmt, .dw-cmt, .brain-cmt, .fran-cmt, .binky-cmt, .george-cmt, .fern-cmt, .kate-cmt, .macgrady-cmt, .mom-cmt, .dad-cmt, .pal-cmt, .prunella-cmt, .ratburn-cmt, .sue-cmt, .thora-cmt, .tibbles-cmt, .emily-cmt{padding:0 5px 0 70px; min-height:71px; height:auto !important; height:71px; }
+.arthur-cmtbtm, .muffy-cmtbtm, .buster-cmtbtm, .dw-cmtbtm, .brain-cmtbtm, .fran-cmtbtm, .binky-cmtbtm, .fern-cmtbtm, .kate-cmtbtm, .pal-cmtbtm, .george-cmtbtm, .emily-cmtbtm, .macgrady-cmtbtm, .mom-cmtbtm, .dad-cmtbtm, .prunella-cmtbtm, .ratburn-cmtbtm, .tibbles-cmtbtm, .thora-cmtbtm, .sue-cmtbtm{margin-left:28px; width:227px; height:18px; display:inline-block;}
+.arthur-cmt{  background:url('../i/friends/photos/comm_top_arthur.gif') no-repeat top left;}
+.arthur-cmtbtm{background:url('../i/friends/photos/comm_bot_arthur.gif') no-repeat top left;}
+.muffy-cmt{ background:url('../i/friends/photos/comm_top_muffy.gif') no-repeat top left;}
+.muffy-cmtbtm, .thora-cmtbtm{background:url('../i/friends/photos/comm_bot_muffy.gif') no-repeat top left;}
+.buster-cmt{ background:url('../i/friends/photos/comm_top_buster.gif') no-repeat top left; }
+.buster-cmtbtm, .macgrady-cmtbtm{background:url('../i/friends/photos/comm_bot_buster.gif') no-repeat top left;}
+.brain-cmt{background:url('../i/friends/photos/comm_top_brain.gif') no-repeat top left; }
+.brain-cmtbtm, .dad-cmtbtm, .ratburn-cmtbtm, .george-cmtbtm{background:url('../i/friends/photos/comm_bot_brain.gif') no-repeat top left;}
+.dw-cmt{ background:url('../i/friends/photos/comm_top_dw.gif') no-repeat top left;}
+.dw-cmtbtm, .emily-cmtbtm{background:url('../i/friends/photos/comm_bot_dw.gif') no-repeat top left;}
+.fran-cmt{background:url('../i/friends/photos/comm_top_fran.gif') no-repeat top left;}
+.fran-cmtbtm{background:url('../i/friends/photos/comm_bot_fran.gif') no-repeat top left;}
+.binky-cmt{background:url('../i/friends/photos/comm_top_binky.gif') no-repeat top left;}
+.binky-cmtbtm{background:url('../i/friends/photos/comm_bot_binky.gif') no-repeat top left;}
+.pal-cmt{background:url('../i/friends/photos/comm_top_pal.gif') no-repeat top left;}
+.pal-cmtbtm, .sue-cmtbtm, .tibbles-cmtbtm{background:url('../i/friends/photos/comm_bot_pal.gif') no-repeat top left;}
+.sue-cmt{background:url('../i/friends/photos/comm_top_sueellen.gif') no-repeat top left;}
+.tibbles-cmt{background:url('../i/friends/photos/comm_top_tibbles.gif') no-repeat top left;}
+.dad-cmt{background:url('../i/friends/photos/comm_top_mrread.gif') no-repeat top left;}
+.george-cmt{background:url('../i/friends/photos/comm_top_george.gif') no-repeat top left;}
+.ratburn-cmt{background:url('../i/friends/photos/comm_top_ratburn.gif') no-repeat top left;}
+.mom-cmt{background:url('../i/friends/photos/comm_top_mrsread.gif') no-repeat top left;}
+.mom-cmtbtm, .fern-cmtbtm{background:url('../i/friends/photos/comm_bot_fern.gif') no-repeat top left;}
+.fern-cmt{background:url('../i/friends/photos/comm_top_fern.gif') no-repeat top left;}
+.macgrady-cmt{background:url('../i/friends/photos/comm_top_macgrady.gif') no-repeat top left;}
+.thora-cmt{background:url('../i/friends/photos/comm_top_thora.gif') no-repeat top left;}
+.emily-cmt{background:url('../i/friends/photos/comm_top_emily.gif') no-repeat top left;}
+.kate-cmt{background:url('../i/friends/photos/comm_top_kate.gif') no-repeat top left;}
+.kate-cmtbtm{background:url('../i/friends/photos/comm_bot_kate.gif') no-repeat top left;}
+
+#cmtlist li{ width:655px; }
+#cmtlist dt{ display:inline-block; width:350px; }
+#cmtlist dd{float:right;}
+
+/*------- MY CLUBS	-----------*/
+#myClubs { padding:0 0 0 30px; }
+#myClubs li { margin:10px 0 0 10px; }
+#myClubs li a { width:188px; padding:249px 0 0 0; overflow:hidden; }
+#myClubs li a.comingSoon:hover { background-position:-188px 0; }
+#myclubFashion a { background:url('../i/friends/clubs/poster_fashion_white.gif') top left no-repeat; }
+#myclubFood a { background:url('../i/friends/clubs/poster_food_white.gif') top left no-repeat; }
+#myclubDance a { background:url('../i/friends/clubs/poster_dance_white.gif') top left no-repeat; }
+#myclubPoetry a { background:url('../i/friends/clubs/poster_poetry_white.png') top left no-repeat; }
+
+/*================================================*/
+/*==============   GAMES INDEX  	==============*/
+/*================================================*/
+#fo_header { margin:32px 0 5px 0; }
+.fo_header { padding:50px 0 0; }
+#gamesHeader { background:url('../i/games/games_hdr.gif') top left no-repeat; }
+#calloutGames { background:url('../i/games/games_highlight_bg.gif') no-repeat top left; }
+#gamesAboutFace a { background-image: url('../i/games/icons/aboutface.gif'); }
+#gamesAlien a { background-image: url('../i/games/icons/alien.gif'); }
+#gamesArtGallery a { background-image: url('../i/games/icons/gallery.gif'); }
+#gamesAskPrunella a { background-image: url('../i/games/icons/askprunella.gif'); }
+#gamesAskTheBrain a { background-image: url('../i/games/icons/.gif'); }
+#gamesStickers a { background-image: url('../i/games/icons/stickers.gif'); }
+#gamesTheBrainGame a { background-image: url('../i/games/icons/braingame.gif'); }
+#gamesLung a { background-image: url('../i/games/icons/lung.gif'); }
+#gamesCharBuilder a { background-image: url('../i/games/icons/charbuilder.gif'); }
+#gamesComic a { background-image: url('../i/games/icons/comic.gif'); }
+#gamesConnect a { background-image: url('../i/games/icons/connect.gif'); }
+#gamesCrank a { background-image: url('../i/games/icons/crankitup.gif'); }
+#gamesCrankHalloween a { background-image: url('../i/games/icons/crankitup_halloween.gif'); }
+#gamesDontWake a { background-image: url('../i/games/icons/dwk.gif'); }
+#gamesEcards a { background-image: url('../i/games/icons/ecards.gif'); }
+#gamesEcardsHalloween a { background-image: url('../i/games/icons/ecards_halloween.gif'); }
+#gamesEffective a { background-image: url('../i/games/icons/detective.gif'); }
+#gamesElwood a { background-image: url('../i/games/icons/elwoodcity.gif'); }
+#gamesFacts a { background-image: url('../i/games/icons/factsopinions.gif'); }
+#gamesGlobal a { background-image: url('../i/games/icons/gizmo.gif'); }
+#gamesGoGeorge a { background-image: url('../i/games/icons/gogeorgego.gif'); }
+#gamesGoGreen a { background-image: url('../i/games/icons/gogreen.gif'); }
+#gamesGroovy a { background-image: url('../i/games/icons/groovy.gif'); }
+#gamesHeyFran a { background-image: url('../i/games/icons/groovy.gif'); }
+#gamesLetsDraw a { background-image: url('../i/games/icons/draw.gif'); }
+#gamesLetters a { background-image: url('../i/games/icons/lettersto.gif'); }
+#gamesLunchOMatic a { background-image: url('../i/games/icons/lunchomatic.gif'); }
+#gamesMarthur a { background-image: url('../i/games/icons/marthur.gif'); }
+#gamesMovie a { background-image: url('../i/games/icons/moviemaker.gif'); }
+#gamesWardrobe a { background-image: url('../i/games/icons/wardrobe.gif'); }
+#gamesPoetry a { background-image: url('../i/games/icons/poetry.gif'); }
+#gamesPostcardBuster a { background-image: url('../i/games/icons/postcards.gif'); }
+#gamesPostcardYou a { background-image: url('../i/games/icons/postcardsfromyou.gif'); }
+#gamesSoFunny  a { background-image: url('../i/games/icons/so_funny.gif'); }
+#gamesSongbook a { background-image: url('../i/games/icons/songbook.gif'); }
+#gamesTravel a { background-image: url('../i/games/icons/travel.gif'); }
+#gamesSugarbowl a { background-image: url('../i/games/icons/poll.gif'); }
+#gamesSuper a { background-image: url('../i/games/icons/superaction.gif'); }
+#gamesSupermarket a { background-image: url('../i/games/icons/supermarket.gif'); }
+#gamesUnmatching a { background-image: url('../i/games/icons/unmatching.gif'); }
+#gamesVirtualGoose a { background-image: url('../i/games/icons/goose.gif'); }
+#gamesYouKidding a { background-image: url('../i/games/icons/kidding.gif'); }
+#gamesDreamOn a { background-image: url('../i/games/icons/dreamon.gif'); }
+#gamesFlag a { background-image: url('../i/games/icons/buildaflag.gif'); }
+#gamesWheresBuster a { background-image: url('../i/games/icons/wheresbuster.gif'); }
+#gamesBackyardAdv  a { background-image: url('../i/games/icons/backyardAdv.gif'); }
+
+/******** 				GAMES INNER PAGES 				*******/
+/*============  LETTERS TO...  ================*/
+.print-instr.games { width:606px; margin:48px 20px 74px 20px; }
+.print-instr.games p { width:409px; margin: 0 0 10px 60px; }
+#letterstoHeader { background:url('../i/games/lettersto/lettersto_header.gif') top left no-repeat; width:606px; padding:243px 0 0; }
+#gamesNavIcons ul { overflow:auto; padding:0; }
+#letterstoNavIcons li a { padding:138px 0 0; }
+#letterArthur a { background-image:url('../i/games/lettersto/icon_arthur.gif'); }
+#letterFran a { background-image:url('../i/games/lettersto/icon_francine.gif'); }
+#letterSue a { background-image:url('../i/games/lettersto/icon_sueellen.gif'); }
+#letterBrain a { background-image:url('../i/games/lettersto/icon_brain.gif'); }
+
+#letterstoSmHeader { background:url('../i/games/lettersto/lettersto_header_sm.gif') top left no-repeat; width:252px; height:0; padding:220px 0 0; }
+
+/*========		LETTER WRITER HELPER		========*/
+#letterwriterHeader { background:url('../i/games/letterwriter/letterhelper_header.gif') top left no-repeat; width:252px; padding:250px 0 0; }
+#printablesNavIcons p { font-size:12px; color:#000; text-align:center; }
+#printablesNavIcons #lwNavIcons { overflow:hidden; }
+#lwNavIcons li a { padding:163px 0 0 0; }
+#lwNavIcons li a:hover { background-position:-137px 0; }
+#printablesNavIcons #lwNavIcons li a { margin:40px 0 75px 20px; }
+#lwLetter a { background:url('../i/games/letterwriter/icon_letter.gif') left top no-repeat; }
+#lwEmail a { background:url('../i/games/letterwriter/icon_email.gif') left top no-repeat; }
+#lwGreeting a { background:url('../i/games/letterwriter/icon_greeting.gif') left top no-repeat; }
+#lwPostcard a { background:url('../i/games/letterwriter/icon_postcard.gif') left top no-repeat; }
+
+#letter dl.below .show, #envelope .show, #envelope dl.below .show, #email dl.below .show, #email .show, #greeting .show, #greeting dl.below .show, #postcard dl.below .show { visibility:visible; }
+
+/*** LETTER ****/
+.hint { font-weight:bold; }
+#letter { width:611px; height:573px; background:url('../i/games/letterwriter/letter_a.gif') top left no-repeat; }
+#letter dl.below { width:350px; padding:20px 0 0 10px; }
+#letter dl.below dd { padding:0 0 8px 0; visibility:hidden; color:red; }
+#envelope { width:580px; height:288px; background:url('../i/games/letterwriter/envelope.gif') top left no-repeat; }
+#envelope dl.below { width: 150px; padding: 0; margin: 0;}
+#envelope dl.below dt {width: 150px; display: block; padding: 0; }
+#envelope dl.below dd { margin: 0; padding: 0 0 10px 0; visibility: hidden; color: red;}
+.env { float:left; width:150px; height:150px; margin:5px 0 0 10px; }
+#address { padding:0; margin:0 0 0 30px; }
+.env#address { margin:100px 0 0 30px; }
+#stamp dl {width: 200px; margin: 0; padding: 0;}
+#stamp dl dt {width: 75px; height: 100px; float: left; clear: both; padding:0;}
+#stamp dl dd {margin: 0 0 0 75px; padding-left: 20px; visibility: hidden; color: red;}
+#stamp dl dt i {visibility: hidden;}
+
+/*** EMAIL   ****/
+#email { width:607px; height:610px; background:url('../i/games/letterwriter/email_b.gif') top left no-repeat; }
+#grooveHowtoContent .email-desc { width:294px; }
+.email-intro { float:left; padding:0 0 30px 0; }
+.email-img { display:block; padding:30px 0 0 0; }
+#email dl {width: 600px; padding: 28px 0 0 20px;}
+#email dl dt {width: 250px; float: left; padding: 0 0 9px 0; }
+#email dl dd {margin: 0 0 0 250px; padding: 0 0 10px 0; visibility: hidden; color: red;}
+
+#email dl.below { width: 580px; padding: 20px 0 0 10px; margin: 0; }
+#email dl.below dt {width: 580px; display: block; padding: 0; }
+#email dl.below dd { margin: 0; padding: 0 0 15px 0; visibility: hidden; color: red;}
+
+/**** GREETING CARD   ***/
+#grooveHowtoContent .greeting-desc { width:408px; }
+.greeting-img { display:block; padding:0; }
+#greeting { width:573px; height:433px; background:url('../i/games/letterwriter/greeting_card_b.gif') top left no-repeat; }
+#greeting dl.below { width: 270px; padding: 20px 0 0 10px; margin: 0; }
+#greeting dl.below dt {width: 270px; display: block; padding: 0; }
+#greeting dl.below dd { margin: 0; padding: 0 0 10px 0; visibility: hidden; color: red;}
+
+/****	POSTCARD 	*****/
+.print-title-left.wide { width:400px; }
+.postcard-intro { position:absolute; }
+#postcard { width: 614px; height: 460px; background:url('../i/games/letterwriter/postcard_b.gif') top left no-repeat; position:relative; }
+
+#postcard p {width: 425px; margin: 4px 0 15px 0;}
+
+#postcard dl.below {padding: 0; margin:0;}
+#postcard dl.below dt {display: block; padding: 0; }
+#postcard dl.below dd { margin: 0; padding: 0 0 5px 0; visibility: hidden; color: red;}
+
+.post { /*float: left;*/ width: 220px; position:absolute;}
+#text {margin: 138px 0 0 5px;}
+.post#address {padding: 0; top:300px; left:215px;}
+
+.post#stamp {width: 375px; height: 150px; left:229px; top:132px;}
+.post#stamp dl {width: 220px;  margin: 10px 0 0 20px; padding: 0;}
+.post#stamp dl dt {width: 60px; height: 75px; float: right; margin: 0px; padding:0; clear: both;}
+.post#stamp dl dd { background: #FFF;  margin: 0; padding: 0; clear: both; visibility: hidden; color: red;  text-align: right;}
+.post#stamp dl dt i {visibility: hidden;}
+
+
+/*=========			FERN'S POETRY CLUB		=======*/
+#poetryHeader { background:url('../i/games/poetry/poetry_nook.gif') top left no-repeat; width:252px; padding:250px 0 0; }
+#poetryContent { padding:0 30px 0 0; overflow:auto; }
+.poetry-intro { padding:0 0 20px 30px; }
+#todayPoem { width:311px; float:left; margin: 0 24px 0 13px; }
+#todayPoem .header { width:331px; padding:79px 0 0; overflow:hidden; height:0; }
+#today { background:url('../i/games/poetry/todays_poem_banner.gif') top left no-repeat; }
+.poem-title { text-align:left; padding: 10px 0;}
+#nextPoem { background:url('../i/games/poetry/next_poem.gif') top left no-repeat; width:86px; height:0; padding:49px 0 0; overflow:hidden; cursor:pointer; display:inline-block; }
+#nextPoem:hover { background-position:-86px 0; }
+
+#poetryContent.poetry { padding:15px 30px 0 0; }
+
+/****   READ MORE POEMS   ***/
+#poetryReadContent { padding:0 30px; overflow:auto; text-align:left; }
+#poetryReadContent p { padding:0 0 20px 0; }
+
+/***** WHAT'S A POEM   *****/
+#poemTypesNav ul { text-align:center; padding:0 0 20px 0; }
+#innerNav li { display:inline;  }
+#innerNav .selected { color:#000; }
+#narrative { background:url('../i/games/poetry/narrative_banner.gif') top left no-repeat; }
+#limerick { background:url('../i/games/poetry/limerick_banner.gif') top left no-repeat; }
+#haiku { background:url('../i/games/poetry/haiku_banner.gif') top left no-repeat; }
+#free { background:url('../i/games/poetry/free_verse_banner.gif') top left no-repeat; }
+#cinquain { background:url('../i/games/poetry/cinquain_banner.gif') top left no-repeat; }
+#lyric { background:url('../i/games/poetry/lyric_banner.gif') top left no-repeat; }
+#todayPoem .nheader {  width:331px; padding:79px 0 0; overflow:hidden; height:0; }
+.poem { background-color:#ffc; margin:0 0 0 10px; padding:0 20px 30px 10px; width:277px; }
+.poem pre { text-align:left; word-wrap:break-word; white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */} 
+
+/***** WRITE A POEM *****/
+#poetryReadContent input, #poetryReadContent textarea { margin:0 0 20px 0; }
+
+/******* SEARCH RESULTS  *********/
+#poetrySearch { margin:20px 0 0 0; }
+
+
+/*============		ARTHUR'S SONGBOOK		============*/
+#songHeader { background:url('../i/games/songbook/songbook_header_long.gif') top left no-repeat; width:252px; padding:376px 0 0; }
+#printablesNavIcons #songNavIcons { width:600px; }
+#songNavIcons li a { padding:138px 0 0; }
+#sTheme a { background:url('../i/games/songbook/icon_theme.gif'); }
+#sLibrary a { background:url('../i/games/songbook/icon_library.gif'); }
+#sPencil a { background:url('../i/games/songbook/icon_pencil.gif'); }
+#sUFO a { background:url('../i/games/songbook/icon_ufo.gif'); }
+#sSleep a { background:url('../i/games/songbook/icon_sleep.gif'); }
+#sBus a { background:url('../i/games/songbook/icon_crazybus.gif'); }
+
+/*****		THEME SONG 		****/
+#songSHeader { background:url('../i/games/songbook/songbook_header_short.gif') top left no-repeat; width:252px; padding:215px 0 0; }
+.music-notes { padding:0 0 0 43px; }
+.songbook-buster { padding: 0 10px 0 0; }
+#grooveHowtoContent .songbook-lyrics, .songbook-lyrics { width:270px; margin: 0 0 0 170px; }
+.songbook-rule { width:275px; height:1px; background-color:#c3c8ce; margin:20px 0 20px 196px;}
+#songbook { margin: 0 0 0 20px; }
+
+/*** UFO SONG ****/
+#songbookContent { padding:0 0 0 20px; }
+
+
+
+/*=============			SUGAR BOWL POLL				=======*/
+#sugarBowlPoll { margin:0 auto; }
+#sugarBowlPoll img { display:block; }
+.poll-text { font-size:21px; line-height:23px; }
+
+/*============   LETS DRAW ARTHUR   =====================*/
+#letsdrawHeader { background:url('../i/games/letsdrawarthur/letsdraw_header.gif') top left no-repeat; width:252px; padding:226px 0 0; }
+#printablesNavIcons #letsdrawNavIcons { width:315px; float:left; margin: 0 0 0 40px; }
+#lStep a { background-image:url('../i/games/letsdrawarthur/icon_stepbystep.gif'); }
+#lPrint a { background-image:url('../i/games/letsdrawarthur/icon_printable.gif'); }
+#letsdrawMainImg { padding:40px 0 0 0; }
+#printLetsdraw .step { width:225px; margin:0 0 0 30px; float:left; }
+#printLetsdraw .step p { width:225px;}
+.letsdraw_print_img { width:500px; height:648px; }
+
+/*=========		ART GALLERY 	================*/
+#artgalleryHeader { background:url('../i/games/artgallery/artgallery_header.gif') top left no-repeat; width:252px; padding:144px 0 0; }
+.art_info { width:252px; }
+.art_info h2, .art_info h5 { margin: 0 0 0 20px; }
+.print-instr .art_info p { margin:5px 0 10px 20px; }
+.nextImg { background:url('../i/games/artgallery/next_btn.gif') top left no-repeat; overflow:hidden; width:138px; height:0; padding:52px 0 0 0; cursor:pointer; margin: 138px 0 61px 41px; display:inline-block;}
+.nextImg:hover { background-position:-138px 0; }
+.nextImg:active { background-position:-276px 0; }
+.nextImg.hide { background-position:200px 0; cursor:default; }
+.gallery_container { float:left; padding:62px 0 64px 24px; position:relative; }
+#artSend a { background:url('../i/games/artgallery/send_btn.gif') top left no-repeat; width:81px; height:84px; padding:87px 0 0 0; margin:0 0 0 69px; }
+#artSend a:hover { background-position:-81px 0; }
+#artSend div { text-align:center; width:140px; margin:0 0 0 -20px; }
+.art_frame { position:absolute; z-index:1; top:62px; left:24px; }
+
+#artPermissionForm { margin:30px 0 0 0; font-family:monospace; }
+#grooveHowtoContent #artPermissionForm p { width:100%; }
+
+/*=====			BRAIN GAME 			=======*/
+#mainFeature.braingame { overflow:auto; }
+#brainGame img { display:block; }
+#brainHint { background:url('../i/games/braingame/hint_bg.gif') top left no-repeat; width:169px; height:182px; padding:80px 16px 0 16px; float:left; margin:182px 0 0 10px; }
+#brainHint p { width:137px; font-family:"Trebuchet MS", Ariel, sans-seif; }
+#brainGameForm p { text-align:center; padding:14px 0;}
+.answer, .answer2 { float:left; }
+.answer2 { margin:31px 0 0 0; }
+
+/*    HELP PAGE   */
+#brainGameWrapper { text-align:left; }
+#brainGameWrapper img { display:block; }
+#brainGameContent { width:387px; margin:0 0 0 219px; padding:14px 0;}
+.brain-right-image { float:right; display:inline-block; margin:0 149px 0 0; }
+
+
+/*=========			UN-MATCHING GAME			===========*/
+.fo_header.unmatching.question { margin:0 auto; }
+.fo_header.unmatching-answer { position:relative; height:450px; }
+#unmatchingWrapper { width:600px; /*padding:0 0 380px 0;*/ margin:0 auto; /*position:relative;*/ }
+#unmatchingAnswer , #unmatchingCmt { position:relative; width:213px; float:left;  }
+#unmatchingAnswer .txt, #unmatchingCmt .txt { margin:23px 0 0 5px; padding: 0 20px 0 20px; background-color:#366; color:#ff3; }
+#unmatchingCmt .txt { margin:62px 0 0 0;  }
+#unmatchingAnswer { margin:20px 0 0 0; }
+#unmatchingCmt { width:256px; margin:54px 0 0 0; }
+.rounded-top, .rounded-bot { position:absolute; left:0; }
+.rounded-top.ans { background:url('../i/games/unmatching/answertopa.gif') top left no-repeat; width:213px; height:23px; top:0; }
+.rounded-bot.ans { background:url('../i/games/unmatching/answerbota.gif') top left no-repeat; width:213px; height:23px; bottom:-13px; }
+.rounded-top.cmt { background:url('../i/games/unmatching/answertopb.gif') top left no-repeat; width:260px; height:62px; top:0; }
+.rounded-bot.cmt { background:url('../i/games/unmatching/answerbotb.gif') top left no-repeat; width:260px; height:62px; bottom:-52px; }
+
+.unmatching-next-btn { position:absolute; bottom:0; left:580px; }
+
+/***  QUESTION.TMPL    ****/
+#unmatchingHelp { display:block; text-align:left; }
+.unOption { width:200px; float:left; margin:0 0 0 20px; text-align:center; } 
+.optionsWrapper { overflow:auto; text-align:left; padding:0 0 0 10px;  }
+#unmatchingHeader { padding:0 0 0 159px; z-index:10; position:absolute;}
+#unmatchingHeader img { vertical-align:top; }
+.unmatching { position:relative; width:600px; height:500px; }
+.unmatching #unmatchingWrapper { position:absolute; top:180px; height:300px; overflow:auto; z-index:1; }
+
+.unmatching.question, .unmatching.question #unmatchingWrapper { width:800px; }
+.unmatching.question #unmatchingHelp { margin:0 0 0 100px; }
+.unmatching.question #unmatchingHeader { padding:0 0 0 300px; }
+.unmatching.question .unOption { width:300px; }
+
+/*================================================*/
+/*==============   PRINT INDEX  	==============*/
+/*================================================*/
+#printHeader { background:url('../i/print/print_hdr.gif') top left no-repeat; }
+#calloutPrints { background:url('../i/print/print_highlight_bg.gif') no-repeat top left; }	
+#printCow a { background-image: url('../i/print/icon_cows.gif'); }
+#printGroove a { background-image: url('../i/print/icon_groove.gif'); }
+#printCootie a { background-image: url('../i/print/icon_cootie.gif'); }
+#printElwingo a { background-image: url('../i/print/icon_elwingo.gif'); }
+#printParty a { background-image: url('../i/print/icon_party.gif'); }
+#printFetch a { background-image: url('../i/print/icon_fetch.gif'); }
+#printFive a { background-image: url('../i/print/icon_highfive.gif'); }
+#printCosmic a { background-image: url('../i/print/icon_cosmic.gif'); }
+#printBookmarks a { background-image: url('../i/print/icon_bookmarks.gif'); }
+#printBraille a { background-image: url('../i/print/icon_braille.gif'); }
+#printPlay a { background-image: url('../i/print/icon_playmaker.gif'); }
+#printMasks a { background-image: url('../i/print/icon_masks.gif'); }
+#printColoring a { background-image: url('../i/print/icon_coloring.gif'); }
+#printBus a { background-image: url('../i/print/icon_bus.gif'); }
+#printSign a { background-image: url('../i/print/icon_sign.gif'); }
+#printDraw a { background-image: url('../i/print/icon_draw.gif'); }
+#printTrading a { background-image: url('../i/print/icon_trading.gif'); }
+
+/******					PRINT INNER PAGES					******/
+.print-instr { float:left; width:252px; margin:48px 40px 55px 0; }
+.print-instr h4 { margin:0 0 23px 20px; height:0; overflow:hidden; }
+.print-instr p { margin:0 0 10px 20px; }
+#printablesNavIcons ul { overflow:hidden; padding:8px 0 0; width:648px; }
+#printablesNavIcons ul li { margin:0; }
+#printablesNavIcons ul li a { margin: 40px 0 40px 20px; }
+#printablesNavIcons ul li a:hover { text-decoration:none; }
+#printableArea { margin:0 0 55px 312px; padding:63px 0 0; }
+.printable-nav { background-color:#fff; padding:15px 30px 20px 30px; background:url('../i/print/print_rule.gif') bottom center no-repeat; overflow:auto; margin: 0 0 30px 0; }
+.printable-nav.no-rule { background:none; margin:0; padding:30px 0 20px 0; }
+.print-title-left { float:left; width:196px; text-align:left; }
+.print-title-left p { font-size:13px; color:#333; line-height:17px; width:196px; }
+/*.print-title-left a { text-decoration:underline; }*/
+.print-btn-right { float:right; }
+.pagination-nav { width:108px; margin:0 auto; }
+.pagination-nav span { background:url('../i/print/print_arrow.gif') top left no-repeat; width:49px; height:0; padding:51px 0 0 0; overflow:hidden; display:inline-block; cursor:pointer; }
+.pagination-nav .next { background-position:-196px 0;}
+.pagination-nav .next:hover, .pagination-nav .next.on { background-position:-245px 0; }
+.pagination-nav .prev:hover, .pagination-nav .prev.on { background-position:-49px 0; }
+.pagination-nav .next:active { background-position:-294px 0; }
+.pagination-nav .prev:active { background-position:-98px 0; }
+.pagination-nav .next.disabled { background-position:-343px 0; }
+.pagination-nav .prev.disabled { background-position:-147px 0; }
+.printable-nav .pagination-nav p { text-align:center; margin:0; font-weight:bold; color:#415e7b; width:108px; text-align:center; }
+.print-btn-right span { width:125px; display:block; overflow:hidden; padding:57px 0 0 0; height:0; cursor:pointer; }
+.print-btn-right span:hover, .print-btn-right span.on { background-position:-125px 0; }
+.print-btn-right span:active { background-position:-250px 0; }
+.print-btn-one { background:url('../i/print/print_this_lg.gif') top left no-repeat; }
+.print-btn-all { background:url('../i/print/print_all_lg.gif') top left no-repeat; }
+.print-btn-one-sm { background:url('../i/print/print_this_sm.gif') top left no-repeat; }
+.print-btn-all-sm { background:url('../i/print/print_all_sm.gif') top left no-repeat; }
+
+.left-align-content { text-align:left; padding:0 10px 0 20px; }
+
+/*============  BOOKMARKS  ================*/
+#bkNavIcons li a { padding:163px 0 0 0; }
+#bkNavIcons li a:hover { background-position:-137px 0; }
+#bookmarkHeader { background:url('../i/print/bookmarks/bookmarks_header.gif') top left no-repeat; width:252px; padding:226px 0 0; }
+#bkArthur1 a { background:url('../i/print/bookmarks/icon_arthur1.gif') left top no-repeat; }
+#bkArthur2 a { background:url('../i/print/bookmarks/icon_arthur2.gif') left top no-repeat; }
+#bkBinkyFran a { background:url('../i/print/bookmarks/icon_binkyfran.gif') left top no-repeat; }
+#bk-binkyprun a { background:url('../i/print/bookmarks/icon_binkyprun.gif') left top no-repeat; }
+#bkBuster a { background:url('../i/print/bookmarks/icon_buster.gif') left top no-repeat; }
+#bkDWTurner a { background:url('../i/print/bookmarks/icon_dwturner.gif') left top no-repeat; }
+#bkFranMuffy a { background:url('../i/print/bookmarks/icon_franmuffy.gif') left top no-repeat; }
+#bkReads a { background:url('../i/print/bookmarks/icon_reads.gif') left top no-repeat; }
+.print-bg-top, .print-bg-btm { position:absolute; right:0; }
+.print-bg-top { background:url('../i/print/print_bg_top.png') top left no-repeat; display:block; width:648px; height:15px; margin:48px 0 0 0; top:-63px; }
+.print-bg-btm { background:url('../i/print/print_bg_btm.png') top left no-repeat; display:block; width:648px; height:15px; bottom:-15px; }
+.printable-content { padding:0 0 27px 2px; background-color:#fff; background:url('../i/print/print_bg_side.png') top left repeat-y; text-align:center; width:646px; position:relative; }
+
+
+/*===== TOWER OF COWS ======*/
+#cowHeader { background:url('../i/print/towerofcow/cows_header.gif') top left no-repeat; width:260px; padding:204px 0 0; }
+.print-title { display:block; }
+.printable-content #howto { text-align:left; width:564px; margin:0 auto; }
+.printable-content #howto ol { list-style:decimal outside none; padding:0 0 0 22px; }
+.printable-content #howto dt { font-weight:bold; }
+.printable-content #howto dd ul { margin:0 0 20px 23px; list-style:disc outside none; }
+
+/*===== COOTIE CATCHER ======*/
+#cootieHeader { background:url('../i/print/cootiecatcher/cootie_header.gif') top left no-repeat; width:252px;  padding:160px 0 0; }
+#ccNavMake a, #ccNavRandom a { padding:106px 0 0 0; }
+#ccNavMake a:hover, #ccNavRandom a:hover { background-position:-137px 0; }
+#ccNavDirections a { padding:135px 0 0 0; }
+#printablesNavIcons #ccNavIcons { width:314px; }
+#ccMainImg { float:right; padding:48px 122px 0 0; }
+#ccNavMake a { background:url('../i/print/cootiecatcher/intro_make.gif') left top no-repeat; } 
+#ccNavRandom a { background:url('../i/print/cootiecatcher/intro_random.gif') left top no-repeat; } 
+#ccNavDirections a { background:url('../i/print/cootiecatcher/intro_directions.gif') left top no-repeat; } 
+#ccNavIcons #ccNavDirections a:hover { background-position:0 0; }
+#printSideNav li { margin:0 0 7px 0; }
+#printSideNav li a { width:194px; height:33px; background:url('../i/print/print_nav.png') -70px 0 no-repeat; overflow:hidden; display:block; text-align:right; vertical-align:middle; padding:5px 10px 0 0; color:#fff; text-decoration:none; font-size:18px; line-height:20px; font-weight:normal; }
+#printSideNav li a:hover, #printSideNav li a.selected { background-position:-344px 0; color:#ff6; }
+
+/******** STEP 1 ********/
+#ccWrapper { overflow:auto; }
+#ccStep1Img { float:left; margin:8px 0 0 33px; }
+#ccForm { float:left; padding:45px 0 0 0; text-align:left; width:422px; }
+#ccForm ul { margin:0; overflow:auto; }
+#ccForm ul li{ margin:0 0 7px 0; clear:both; overflow:auto; }
+#ccForm ul li img { float:left; }
+#ccForm a { color:#000; text-decoration:none; width:100px; }
+#ccForm fieldset { width: 100px; float:left; margin:10px 0 0 10px; }
+#buildBtn, #step2Btn { width:94px; height:0; padding:61px 0 0 0; overflow:hidden; cursor:pointer; float:right; margin:25px 0 0 0; border:none; }
+#step2Btn { background:url('../i/print/cootiecatcher/step2_arrow.gif') top left no-repeat; }
+#buildBtn { background:url('../i/print/cootiecatcher/build_arrow.gif') top left no-repeat; }
+#step2Btn:hover, #step2Btn.on, #buildBtn.on, #buildBtn:hover { background-position:-94px 0; }
+#step2Btn.selected, #buildBtn.selected { background-position:-188px 0; }
+
+/******** STEP 2 ********/
+#ccForm textarea { background-color:#eee; width:385px; }
+
+/******** CUSTOM CATCHER ********/
+#customCatcher { margin:0 0 0 40px; padding:0;  }
+#customCatcher tr { vertical-align:top; }
+#customCatcher td { text-align:center; }
+#customCatcher img { margin:0; display:block; }
+#customCatcher .scissor { margin: 5px auto; }
+.fortune { margin:0; padding:0; text-align:center; vertical-align:middle; width:139px; margin:0 auto;}
+
+/******** DIRECTIONS ********/
+#ccVersion { padding:0 0 0 40px; width:570px; }
+#ccDirectionsOL { list-style:decimal inside none; padding: 40px 0 0 30px; width:626px; overflow:auto; }
+#ccDirectionsOL li { float:left; text-align:left; width:130px; height:250px; padding:0 0 0 20px;  display:list-item; hasLayout:true; }
+#ccDirectionsOL #step13 { width:500px; list-style:none; height:140px; }
+#ccDirectionsOL #step13 p { width:330px; float:left; }
+
+/*===== ELWINGO ======*/
+#elwingoHeader { background:url('../i/print/elwingo/elwingo_header.gif') top left no-repeat; width:260px; padding:223px 0 0;  }
+
+/*============  COLORING PAGES  ================*/
+#coloringHeader { background:url('../i/print/coloring/coloring_header.gif') top left no-repeat; width:218px; padding:234px 0 0; }
+#cKate a { background-image:url('../i/print/coloring/icon_babykate.gif'); }
+#cArthur a { background-image:url('../i/print/coloring/icon_arthur.gif'); }
+#cDW a { background-image:url('../i/print/coloring/icon_dw.gif'); }
+#cPal a { background-image:url('../i/print/coloring/icon_pal.gif'); }
+#cFran a { background-image:url('../i/print/coloring/icon_francine.gif'); }
+#cSue a { background-image:url('../i/print/coloring/icon_sueellen.gif'); }
+#cBuster a { background-image:url('../i/print/coloring/icon_buster.gif'); }
+#cBinky a { background-image:url('../i/print/coloring/icon_binky.gif'); }
+#cGeorge a { background-image:url('../i/print/coloring/icon_george.gif'); }
+#cMuffy a { background-image:url('../i/print/coloring/icon_muffy.gif'); }
+#cPrunella a { background-image:url('../i/print/coloring/icon_prunella.gif'); }
+#cBrain a { background-image:url('../i/print/coloring/icon_brain.gif'); }
+#cTibbles a { background-image:url('../i/print/coloring/icon_tibbles.gif'); }
+#cFern a { background-image:url('../i/print/coloring/icon_fern.gif'); }
+#cRatburn a { background-image:url('../i/print/coloring/icon_ratburn.gif'); }
+#cThora a { background-image:url('../i/print/coloring/icon_thora.gif'); }
+#cDave a { background-image:url('../i/print/coloring/icon_dave.gif'); }
+#cPaige a { background-image:url('../i/print/coloring/icon_turner.gif'); }
+#cMom a { background-image:url('../i/print/coloring/icon_mom.gif'); }
+#cDad a { background-image:url('../i/print/coloring/icon_dad.gif'); }
+#cBionic a { background-image:url('../i/print/coloring/icon_bionic.gif'); }
+#cMary a { background-image:url('../i/print/coloring/icon_mary.gif'); }
+#cHaney a { background-image:url('../i/print/coloring/icon_haney.gif'); }
+#cEmily a { background-image:url('../i/print/coloring/icon_emily.gif'); }
+#cMacGrady a { background-image:url('../i/print/coloring/icon_macgrady.gif'); }
+#cNadine a { background-image:url('../i/print/coloring/icon_nadine.gif'); }
+#cLadonna a { background-image:url('../i/print/coloring/icon_ladonna.gif'); }
+
+/*============  COSMIC COMBOS  ================*/
+#cosmicHeader { background:url('../i/print/cosmic/cosmic_header.gif') top left no-repeat; width:265px; padding:192px 0 0; }
+
+/*============  CRAZY BUS  ================*/
+#crazyHeader { background:url('../i/print/crazybus/crazybus_header.gif') top left no-repeat; width:252px; padding:192px 0 0; }
+
+/*============  GO FETCH  ================*/
+#fetchHeader { background:url('../i/print/fetch/gofetch_header.gif') top left no-repeat; width:260px; padding:179px 0 0; }
+
+/*============  Masks  ================*/
+#masksHeader { background:url('../i/print/masks/masks_header.gif') top left no-repeat; width:252px; padding:228px 0 0; }
+#mKate a { background-image:url('../i/print/masks/icon_katemask.gif'); }
+#mArthur a { background-image:url('../i/print/masks/icon_arthurmask.gif'); }
+#mDW a { background-image:url('../i/print/masks/icon_dwmask.gif'); }
+#mPal a { background-image:url('../i/print/masks/icon_palmask.gif'); }
+#mFran a { background-image:url('../i/print/masks/icon_francinemask.gif'); }
+#mSue a { background-image:url('../i/print/masks/icon_sueellenmask.gif'); }
+#mBuster a { background-image:url('../i/print/masks/icon_bustermask.gif'); }
+#mBinky a { background-image:url('../i/print/masks/icon_binkymask.gif'); }
+#mMuffy a { background-image:url('../i/print/masks/icon_muffymask.gif'); }
+#mPrunella a { background-image:url('../i/print/masks/icon_prunellamask.gif'); }
+#mBrain a { background-image:url('../i/print/masks/icon_brainmask.gif'); }
+#mTimmy a { background-image:url('../i/print/masks/icon_timmymask.gif'); }
+#mTommy a { background-image:url('../i/print/masks/icon_tommymask.gif'); }
+#mFern a { background-image:url('../i/print/masks/icon_fernmask.gif'); }
+#mRatburn a { background-image:url('../i/print/masks/icon_ratburnmask.gif'); }
+#mThora a { background-image:url('../i/print/masks/icon_thoramask.gif'); }
+#mRubella a { background-image:url('../i/print/masks/icon_rubellamask.gif'); }
+#mPaige a { background-image:url('../i/print/masks/icon_turnermask.gif'); }
+#mMom a { background-image:url('../i/print/masks/icon_mrsreadmask.gif'); }
+#mDad a { background-image:url('../i/print/masks/icon_mrreadmask.gif'); }
+#mHaney a { background-image:url('../i/print/masks/icon_haneymask.gif'); }
+
+/*============  PARTY HATS  ================*/
+#hatsHeader { background:url('../i/print/hats/party_header.gif') top left no-repeat; width:260px; padding:199px 0 0; }
+#partyNavIcons li a { width:157px; padding:160px 0 0; }
+#partyNavIcons li a:hover { background-position:-157px 0; }
+#printablesNavIcons #pArthurHat a, #printablesNavIcons #pDWTiara a, #printablesNavIcons #pDWHat a { margin:40px 0 40px 0; }
+#pArthurCrown a { background-image:url('../i/print/hats/arthur_crown_icon.gif'); }
+#pArthurHat a { background-image:url('../i/print/hats/arthur_hat_icon.gif'); }
+#pDWTiara a { background-image:url('../i/print/hats/dw_tiara_icon.gif'); }
+#pDWHat a { background-image:url('../i/print/hats/dw_hat_icon.gif'); }
+
+/*============  TRADING CARDS  ================*/
+#tradingHeader { background:url('../i/print/trading/trading_header.gif') top left no-repeat; width:248px; padding:250px 0 0; }
+#tradeKate a { background-image:url('../i/print/trading/icon_babykate.gif'); }
+#tradeArthur a { background-image:url('../i/print/trading/icon_arthur.gif'); }
+#tradeDW a { background-image:url('../i/print/trading/icon_dw.gif'); }
+#tradePal a { background-image:url('../i/print/trading/icon_pal.gif'); }
+#tradeFran a { background-image:url('../i/print/trading/icon_francine.gif'); }
+#tradeSue a { background-image:url('../i/print/trading/icon_sueellen.gif'); }
+#tradeBuster a { background-image:url('../i/print/trading/icon_buster.gif'); }
+#tradeBinky a { background-image:url('../i/print/trading/icon_binky.gif'); }
+#tradeGeorge a { background-image:url('../i/print/trading/icon_george.gif'); }
+#tradeMuffy a { background-image:url('../i/print/trading/icon_muffy.gif'); }
+#tradePrunella a { background-image:url('../i/print/trading/icon_prunella.gif'); }
+#tradeBrain a { background-image:url('../i/print/trading/icon_brain.gif'); }
+#tradeTibbles a { background-image:url('../i/print/trading/icon_tibbles.gif'); }
+#tradeFern a { background-image:url('../i/print/trading/icon_fern.gif'); }
+#tradeRatburn a { background-image:url('../i/print/trading/icon_ratburn.gif'); }
+#tradeThora a { background-image:url('../i/print/trading/icon_thora.gif'); }
+#tradeDave a { background-image:url('../i/print/trading/icon_dave.gif'); }
+#tradePaige a { background-image:url('../i/print/trading/icon_turner.gif'); }
+#tradeMom a { background-image:url('../i/print/trading/icon_mom.gif'); }
+#tradeDad a { background-image:url('../i/print/trading/icon_dad.gif'); }
+#tradeBionic a { background-image:url('../i/print/trading/icon_bionic.gif'); }
+#tradeMary a { background-image:url('../i/print/trading/icon_mary.gif'); }
+#tradeHaney a { background-image:url('../i/print/trading/icon_haney.gif'); }
+#tradeEmily a { background-image:url('../i/print/trading/icon_emily.gif'); }
+#tradeMacGrady a { background-image:url('../i/print/trading/icon_macgrady.gif'); }
+#tradeNadine a { background-image:url('../i/print/trading/icon_nadine.gif'); }
+#tradeLadonna a { background-image:url('../i/print/trading/icon_ladonna.gif'); }
+
+/*============  YOU'VE GOT BRAILLE  ================*/
+#brailleHeader { background:url('../i/print/braille/braille_header.gif') top left no-repeat; width:252px; padding:200px 0 0; }
+#brailleIndxImg { padding:48px 0 0 60px; display:block; float:left; }
+#printablesNavIcons #brailleNavIcons { width:314px; }
+#printablesNavIcons #brailleNavIcons a { margin:0 0 40px 20px; }
+#brailleGuide a { background-image:url('../i/print/braille/icon_guide.gif'); }
+#brailleKey a { background-image:url('../i/print/braille/icon_key.gif'); }
+#brailleForm { padding:48px 0 0; }
+#brailleForm textarea { margin:10px 0; }
+#brailleTxt { width:250px; }
+
+/**** MARINA'S GUIDE TO BRIALLE AND MORE *****/
+#braille .printable-nav { margin:0 0 25px 0; }
+#braille .print-title-left { width:500px; }
+#brailleMarina { padding:0 22px 300px 35px; float:left; }
+.brailleWrapper p { padding:0 20px 10px 277px; }
+.printable-content .brailleWrapper ul { padding: 0 20px 0 30px; margin:0; text-align:left; overflow:auto; }
+.brailleWrapper li { list-style:disc outside none; padding: 0 0 20px 0; }
+
+/**** BRIALLE KEY *****/
+.scale-95 { width:95%; height:95%; }
+#brailleTranslate .print-title-left p { width:284px; }
+#brailleMsg p { text-align:center; margin: 20px 0; font-weight:bold; }
+#brailleMsg table { margin:0 auto; }
+
+/*============  FRANCINE'S HIGH FIVE  ================*/
+#fiveHeader { background:url('../i/print/highfive/highfive_header.gif') top left no-repeat; width:252px; padding:202px 0 0; }
+#formHeader { background:url('../i/print/highfive/form_header.gif') top left no-repeat; width:622px; height:192px; margin:9px 0 0 11px; }
+#highFive { text-align:left; }
+#formHeader p { width:219px; padding:10px 0 0 19px; }
+#fiveForm { background-color:#ffc; width:514px; margin: 0 0 0 41px; border:1px solid #000; border-style:none solid; padding:0 0 0 50px; }
+#fiveForm legend { font-weight:bold; padding:30px 0 2px 0;}
+#fiveForm li { padding:2px 0; }
+#highFiveBtmImg { padding:0 0 0 12px; }
+
+/*** HIGH FIVE CERTIFICATE *****/
+#hfCert { width:512px; height:675px; margin:0 auto; }
+#highFiveLeft { float:left; }
+#highFiveMiddle { float:left; }
+#msg { height:163px; padding:50px 0 0; }
+#msg p, #msg h5 { text-align:center; font-size:24px; width:318px; }
+#msg p { margin:10px 0; font-size:16px; }
+
+/*============  PLAY MAKER  ================*/
+#playHeader { background:url('../i/print/playmaker/playmaker_header.gif') top left no-repeat; width:272px; padding:218px 0 0; }
+#printablesNavIcons #playNavIcons { width:600px; }
+#pmScript a { background-image:url('../i/print/playmaker/icon_script.gif'); }
+#pmProps a { background-image:url('../i/print/playmaker/icon_props.gif'); }
+#pmMasks a { background-image:url('../i/print/playmaker/icon_masks.gif'); }
+#pmTips a { background-image:url('../i/print/playmaker/icon_tips.gif'); }
+#pmCostumes a { background-image:url('../i/print/playmaker/icon_costumes.gif'); }
+
+/**** SCRIPT ******/
+.printable-content #script { text-align:left; width:500px; margin: 30px auto; }
+.center { text-align:center; }
+#script p { margin: 0 0 20px; }
+
+/**** COSTUMES *****/
+#costumesContent { padding:0 20px; text-align:left; }
+#pmCostumesIcons { display:block; overflow:auto; margin: 0 0 15px;}
+#pmCostumesIcons li { float:left; padding:0 7px 0 0; }
+#pmCostumesIcons .no-padding { padding:0; } 
+#pmCostumesIcons li a { width:69px; height:0; padding:75px 0 0; overflow:hidden; display:block;  }
+#pmCostumesIcons li a:hover, #pmCostumesIcons li a.selected { background-position:-69px 0; }
+#arthurPM a { background-image:url('../i/print/playmaker/icon_cstm_arthur.gif'); }
+#busterPM a { background-image:url('../i/print/playmaker/icon_cstm_buster.gif'); }
+#binkyPM a { background-image:url('../i/print/playmaker/icon_cstm_binky.gif'); }
+#dwPM a { background-image:url('../i/print/playmaker/icon_cstm_dw.gif'); }
+#francinePM a { background-image:url('../i/print/playmaker/icon_cstm_francine.gif'); }
+#timmyPM a { background-image:url('../i/print/playmaker/icon_cstm_timmy.gif'); }
+#tommyPM a { background-image:url('../i/print/playmaker/icon_cstm_tommy.gif'); }
+#turnerPM a { background-image:url('../i/print/playmaker/icon_cstm_turner.gif'); }
+
+#playMakerCostumes li { overflow:auto; }
+#playMakerCostumes dl { width: 223px; text-align:center; padding:48px 0 0 97px; float:left; }
+#playMakerCostumes dt { font-size:17px; line-height:19px; }
+
+/**** MASKS ****/
+#masksContent { padding:0 10px 0 20px; }
+#pmMasksIcons { overflow:auto; }
+#arthurMasks a { background-image:url('../i/print/masks/icon_arthurmask.gif'); }
+#busterMasks a { background-image:url('../i/print/masks/icon_bustermask.gif'); }
+#binkyMasks a { background-image:url('../i/print/masks/icon_binkymask.gif'); }
+#dwMasks a { background-image:url('../i/print/masks/icon_dwmask.gif'); }
+#francineMasks a { background-image:url('../i/print/masks/icon_francinemask.gif'); }
+#timmyMasks a { background-image:url('../i/print/masks/icon_timmymask.gif'); }
+#tommyMasks a { background-image:url('../i/print/masks/icon_tommymask.gif'); }
+#turnerMasks a { background-image:url('../i/print/masks/icon_turnermask.gif'); }
+
+/**** PROPS *****/
+#pmPropsIcons { overflow:auto; }
+#ticketsProps a { background-image:url('../i/print/playmaker/icon_tickets.gif'); }
+#bookProps a { background-image:url('../i/print/playmaker/icon_book.gif'); }
+#cardProps a { background-image:url('../i/print/playmaker/icon_card.gif'); }
+#posterProps a { background-image:url('../i/print/playmaker/icon_poster.gif'); }
+
+/**** TIPS *****/
+#pmTipsIcons { overflow:auto; }
+#tipsContent { text-align:left; padding: 0 20px 30px 30px; overflow:auto; }
+#tipsContent p { width:284px;  }
+#printTips h4 { margin: 0 0 10px 0; }
+
+/*============  SIGN DESIGN  ================*/
+#signHeader { background:url('../i/print/signdesign/sign_header.gif') top left no-repeat; width:232px; padding:174px 0 0; margin:0 0 23px 0; }
+#signContent { padding: 48px 0 0; }
+#signNavIcons { overflow:auto; padding: 0 0 0 20px; }
+#signPractice a { background-image:url('../i/print/signdesign/icon_practice.gif'); }
+#signSpelling a { background-image:url('../i/print/signdesign/icon_spelling.gif'); }
+#signInfo a { background-image:url('../i/print/signdesign/icon_moreinfo.gif'); }
+
+/**** PRACTICE SIGNING ******/
+#practiceContent { text-align:left; overflow:auto; padding: 0 40px 0 30px; }
+#practiceNav { overflow:auto; padding: 30px 0; }
+#practiceNav .current { color:#000; }
+#practiceNav li { float:left; }
+#signForm { margin:10px 0 0 146px; text-align:center; padding:20px; }
+#signForm .submit { margin:20px auto 0 auto; }
+
+.signHeader { font-weight:bold; font-size:18px; }
+#signTmplContent { overflow:auto; width:623px; margin:0 auto; }
+#signTmplContent p{ text-align:center;  }
+.sign-img { width:120px; float:left; padding:20px 0 0; }
+#signTmplContent .sign-caption { padding: 0 0 0 10px; text-align:left;  }
+#signSpelled { width:375px; min-height:230px; margin:30px 0 0 248px; text-align:left; padding:0 0 20px 0; }
+
+/**** question.tmpl ****/
+#signQuestionContent { overflow:auto; width:500px; margin: 0 auto 10px auto; }
+.sign-msg { text-align:left; }
+
+/**** statement.tmpl ****/
+#signStatementContent.dont { width:480px; }
+#signStatementContent .do { display:none; }
+#signStatementContent { overflow:auto; width:360px; margin:0 auto; }
+
+/***** FINGER SPELLING ****/
+#spellingContent { text-align:left; padding: 26px 40px; }
+#spellingContent ul { padding: 10px 0 0; }
+#spellingContent li { list-style:disc outside none; margin:0 0 0 16px; }
+
+/**** MORE INFORMATION ****/
+#spellingContent #infoContent { width:350px; margin: 0 0 0 212px; }
+
+/*============  GROOVY IT  ================*/
+#grooveHeader { background:url('../i/print/grooveit/groove_header.gif') top left no-repeat; width:252px; padding:144px 0 0; }
+#grooveNavIcons li a { padding:156px 0 0; }
+#gHowto a { background-image:url('../i/print/grooveit/icon_howto.gif'); }
+#gDance a { background-image:url('../i/print/grooveit/icon_cards.gif'); }
+#gMusic a { background-image:url('../i/print/grooveit/icon_music.gif'); }
+#gDo a { background-image:url('../i/print/grooveit/icon_prunella.gif'); }
+
+/**** HOW TO PLAY ******/
+#grooveHowtoContent { text-align:left; padding:0 10px 0 20px; overflow:hidden; }
+#grooveHowtoContent p, #grooveHowtoContent ul { width:441px; }
+#grooveHowtoContent ul { padding:0 0 10px 0; }
+#grooveHowtoContent li { list-style:disc outside none; margin:0 0 0 50px; }
+
+/*** DO THE PRUNELLA ***/
+#grooveTitle, #grooveTitle p{ width:441px; }
+
+/**** MUSIC PLAYER ******/
+#grooveMusicCaption { width:127px; float:left; }
+#grooveFlashcontent { padding:0 0 50px 146px; }
+#musicPlayerWrapper { padding:0 0 0 30px; }
+
+
+/*====================================================*/
+/*============		   CLUBS  			==============*/
+/*====================================================*/
+#clubsTopBar { background:url('../i/clubs/clubs_bottom.gif') top left no-repeat; position:relative; height:132px; }
+#clubsTopBar h4 { background:url('../i/clubs/clubs_label.png') top left no-repeat; padding:109px 0 0; height:0; width:260px; overflow:hidden; position:relative; left:0; float:left; }
+#clubsTopBar li, #clubsBtmBar li { float:left; height:0; padding:131px 0 0; overflow:hidden; position:absolute; }
+#clubsTopBar li.hover, #clubsBtmBar li.hover { z-index:5; }
+#clubBinky { background:url('../i/clubs/binky.png') top left no-repeat; width:139px; left:220px; }
+#clubBinky.hover { background-position:-139px 0; }
+#clubFrancine { background:url('../i/clubs/francine.png') top left no-repeat; width:104px; left:326px; }
+#clubFrancine.hover { background-position:-104px 0; }
+#clubBuster { background:url('../i/clubs/buster.png') top left no-repeat; width:98px; left:421px; }
+#clubBuster.hover { background-position:-98px 0; }
+#clubPal { background:url('../i/clubs/pal.png') top left no-repeat; width:86px; left:495px; }
+#clubPal.hover { background-position:-86px 0; }
+#clubArthur { background:url('../i/clubs/arthur.png') top left no-repeat; width:86px; left:571px; }
+#clubArthur.hover { background-position:-86px 0; }
+#clubDW { background:url('../i/clubs/dw.png') top left no-repeat; width:95px; left:640px; }
+#clubDW.hover { background-position:-95px 0; }
+#clubKate { background:url('../i/clubs/kate.png') top left no-repeat; width:66px; left:734px; }
+#clubKate.hover { background-position:-66px 0; }
+#clubBrain { background:url('../i/clubs/brain.png') top left no-repeat; width:122px; left:775px; }
+#clubBrain.hover { background-position:-122px 0; }
+#clubMuffy { background:url('../i/clubs/muffy.png') top left no-repeat; width:82px; left:878px; }
+#clubMuffy.hover { background-position:-82px 0; }
+#clubsBtmBar { background:url('../i/clubs/clubs_bottom.gif') top left no-repeat; position:relative; height:131px; }
+#clubFern { background:url('../i/clubs/fern.png') top left no-repeat; width:126px; left:0px; }
+#clubFern.hover { background-position:-126px 0;}
+#clubGeorge { background:url('../i/clubs/george.png') top left no-repeat; width:129px; left:67px; }
+#clubGeorge.hover { background-position:-129px 0; }
+#clubSueellen { background:url('../i/clubs/sueellen.png') top left no-repeat; width:109px; left:174px; }
+#clubSueellen.hover { background-position:-109px 0; }
+#clubTibbles { background:url('../i/clubs/tibbles.png') top left no-repeat; width:150px; left:269px; }
+#clubTibbles.hover { background-position:-150px 0; }
+#clubPrunella { background:url('../i/clubs/prunella.png') top left no-repeat; width:98px; left:408px; }
+#clubPrunella.hover { background-position:-98px 0; }
+#clubEmily { background:url('../i/clubs/emily.png') top left no-repeat; width:84px; left:512px; }
+#clubEmily.hover { background-position:-84px 0; }
+#clubMacgrady { background:url('../i/clubs/macgrady.png') top left no-repeat; width:112px; left:580px; }
+#clubLadonna { background:url('../i/clubs/ladonna.png') top left no-repeat; width:112px; left:580px; }
+#clubMacgrady.hover,#clubLadonna.hover { background-position:-112px 0; }
+#clubMom { background:url('../i/clubs/mom.png') top left no-repeat; width:96px; left:648px; }
+#clubMom.hover { background-position:-96px 0; }
+#clubDad { background:url('../i/clubs/dad.png') top left no-repeat; width:116px; left:707px; }
+#clubDad.hover { background-position:-116px 0; }
+#clubRatburn { background:url('../i/clubs/ratburn.png') top left no-repeat; width:96px; left:789px; }
+#clubRatburn.hover { background-position:-96px 0; }
+#clubThora { background:url('../i/clubs/thora.png') top left no-repeat; width:97px; left:863px; }
+#clubThora.hover { background-position:-97px 0; }
+#content.clubs { padding:0; }
+#clubsList { width:600px; margin: 0 auto; padding:8px 0 26px 0; }
+#clubsList ul { overflow:auto; }
+#clubsList a { float:left; width:188px; height:0; padding: 249px 0 0; overflow:hidden; cursor:pointer; margin:0 10px 0 0; }
+#clubsList li:hover,
+#clubsList a#clubFashion:hover,  a#clubDance:hover, a#clubPoetry:hover{
+    background-position: -188px 0;
+}
+#clubDance { background:url('../i/clubs/poster_dance.png') top left no-repeat; }
+#clubFood { background:url('../i/clubs/poster_food.gif') top left no-repeat; }
+#clubFashion { background:url('../i/clubs/poster_fashion.gif') top left no-repeat; }
+#clubPoetry { background:url('../i/clubs/poster_poetry.png') top left no-repeat; }
+
+
+
+/***** CLUBS GLOBAL SETUP *******/
+.club-members dd a, .club-members dt { float:left; height:0; overflow:hidden; }
+.club-members dd a{ width:86px; padding:116px 0 0 0; margin:0 6px 0 0; background-position:0 0; }
+.club-members dd a:hover { background-position:-86px 0; }
+.club-members .club-president a:hover { background-position:-195px 0; }
+.clubs-video, .clubs-h-ruler, .clubs-rc { float:left }
+.clubs-video { padding:20px 16px; }
+#playerWrapper { background-color:#69f; }
+.clubs-vidplayer { padding:2px; background-color:#fff; border:1px solid #8e8eb2; margin:10px 0 0 0; }
+.clubs-video h4 { width:199px; height:0; padding:28px 0 0 0; overflow:hidden; }
+.clubs-rc h4 { width:221px; height:0; padding:28px 0 0 0; overflow:hidden; margin:0 auto; }
+.clubs-rc { padding:20px 17px; }
+.clubs-h-ruler { width:3px; height:420px; background-repeat:repeat-y; margin:10px 0; }
+.clubs-ruler { background:url('../i/clubs/club_border.png') top left repeat-x; height:2px; width:960px; }
+.clubs-splash { width:960px; height:342px; }
+.club-members dl { overflow:auto; }
+
+
+/**** RELATED CONTENT CALLOUTS *******/
+.clubs-rc-wrapper { overflow:hidden; display:inline-block; height:266px; width:245px; padding:0; margin:0; position:absolute; }
+.clubs-rc-wrapper ul { width:577px; }
+.clubs-rc-wrapper .prev, .clubs-rc-wrapper .next {  display: block; width: 34px; height: 0; overflow: hidden; padding: 43px 0 0; background: url('../i/clubs/club_arrows.png') left top no-repeat; position: absolute;  top:117px; left:auto; cursor: pointer; z-index:3;}
+.clubs-rc-wrapper#callout .next { background-position: -102px 0; right: 0; }
+.clubs-rc-wrapper#callout .prev { left: 0; }
+.clubs-rc-wrapper#callout .prev:hover, .prev.on { background-position: -34px 0; }
+.clubs-rc-wrapper#callout .next:hover, .next.on { background-position: -136px 0; }
+.clubs-rc-wrapper#callout .prev:active { background-position: -68px 0; }
+.clubs-rc-wrapper#callout .next:active { background-position: -170px 0; }
+.clubs-rc-wrapper ul { position:relative; left:0; }
+.clubs-rc-wrapper#callout .callout-images { left:34px; }
+
+/*====================================================*/
+/*============ 		  CLUB PAGES  		==============*/
+/*====================================================*/
+.club-page { overflow:hidden; }
+.club-page .clubs-splash { position:relative; }
+.club-page .splash-intro { width:248px; padding:219px 0 0 20px; color:#fff; font-size: 17px; font-weight: bold; line-height: 19px; font-family: "Trebuchet MS",Arial,sans-serif}
+.club-page #fashion-splash { padding: 200px 0 0 380px; }
+.club-page .club-members {  height:118px; }
+.club-page dt { width:102px; padding:110px 10px 0 0; }
+.club-page .club-president a { width:195px; padding:116px 0 0 0; }
+.club-page #flashcontent { height:540px; }
+.club-page #relatedContent { margin:32px 0; }
+
+/*====================================================*/
+/*============ 		  DANCE CLUB  		==============*/
+/*====================================================*/
+.dance-club { background-color:#ccf; }
+.dance-club .clubs-splash { background-image:url('../i/clubs/dance/dance_splash.gif'); }
+#dancePlayBtn { width:161px; height:0; overflow:hidden; padding:118px 0 0 0; background:url('../i/clubs/dance/dance_play.png') top left no-repeat; display:block; position:absolute; top:151px; left:422px; }
+#dancePlayBtn:hover { background-position:-161px 0; }
+#dancePlayBtn:active { background-position:-322px 0; }
+.dance-club .club-members { background-color:#8e8fd7; }
+.dance-club dt { background:url('../i/clubs/dance/dance_members.gif') top left no-repeat; }
+.dance-club .club-president a { background-image:url('../i/clubs/dance/dance_prunella_pres.gif'); }
+#dcBinky a{ background-image:url('../i/clubs/dance/dance_binky.gif'); }
+#dcGeorge a{ background-image:url('../i/clubs/dance/dance_george.gif'); }
+#dcArthur a{ background-image:url('../i/clubs/dance/dance_arthur.gif'); }
+#dcDW a{ background-image:url('../i/clubs/dance/dance_dw.gif'); }
+#dcFran a{ background-image:url('../i/clubs/dance/dance_francine.gif'); }
+#dcMuffy a{ background-image:url('../i/clubs/dance/dance_muffy.gif'); }
+#dcTibbles a{ background-image:url('../i/clubs/dance/dance_tibbles.gif'); }
+.dance-club .clubs-h-ruler { background-image:url('../i/clubs/dance/dance_rule.gif') }
+.dance-club .clubs-video h4{ background-image:url('../i/clubs/dance/dance_videos.gif') }
+.dance-club .clubs-rc h4{ background-image:url('../i/clubs/dance/more_dance.gif') }
+
+/*====================================================*/
+/*============ 		  FASHION CLUB  		==============*/
+/*====================================================*/
+.fashion-club { background-color:#9ff; position:relative; }
+.fashion-club .clubs-splash { background-image:url('../i/clubs/fashion/fashion_splash.gif'); }
+.fashion-club .club-members { background-color:#6cc; }
+.fashion-club dt { background:url('../i/clubs/fashion/fashion_members.gif') top left no-repeat; }
+#fashionPlayBtn{ width: 175px; height: 0; overflow: hidden; padding: 79px 0 0 0; background: url('../i/clubs/fashion/fashion_play.png') top left no-repeat; display: block; position: absolute; top: 220px; left: 732px; }
+#fashionPlayBtn:hover { background-position:-175px 0; }
+#fashionPlayBtn:active { background-position:-350px 0; }
+.fashion-club .clubs-h-ruler { background-image:url('../i/clubs/fashion/fashion_rule.gif') }
+.fashion-club .clubs-video h4{ background-image:url('../i/clubs/fashion/fashion_videos.gif') }
+.fashion-club .clubs-rc h4{ background-image:url('../i/clubs/fashion/more_fashion.gif') }
+.featureFashion { position:absolute; top:24px; left:726px; }
+.galleryBtn { background:url('../i/clubs/fashion/magazine_btn.png') top left no-repeat; height:0; width:210px; padding:52px 0 0 0; overflow:hidden; position:absolute; top:258px; left:716px; display:block; }
+.galleryBtn:hover { background-position:-210px 0; }
+.galleryBtn:active { background-position:-420px 0; }
+
+.fashion-club .club-president a { background-image:url('../i/clubs/fashion/Muffy_fashionpresident.png'); }
+#fcBuster a{ background-image:url('../i/clubs/fashion/Buster_fashionmember.png'); }
+#fcGeorge a{ background-image:url('../i/clubs/fashion/George_fashionmember.png'); }
+#fcArthur a{ background-image:url('../i/clubs/fashion/Arthur_fashionmember.png'); }
+#fcDW a{ background-image:url('../i/clubs/fashion/DW_fashionmember.png'); }
+#fcSueEllen a{ background-image:url('../i/clubs/fashion/Sue_fashionmember.png'); }
+#fcPal a{ background-image:url('../i/clubs/fashion/Pal_fashionmember.png'); }
+#fcEmily a{ background-image:url('../i/clubs/fashion/Emily_fashionmember.png'); }
+
+.fashion-club .gallery-header { height:0; width:960px; background:url('../i/clubs/fashion/fashion_hdr.gif') top left no-repeat; overflow:hidden; padding:127px 0 0 0; }
+.fashion-club .club-content { background-color:#6cc; overflow:hidden; }
+.fashion-club .gallery { margin:18px auto 13px auto; padding:16px 0 0 0; }
+.fashion-club .cover { background-image:url('../i/clubs/fashion/magazine_bg.gif'); width:377px; height:490px;}
+.fashion-club .gallery img { padding:0 0 0 29px; display:block; }
+.fashion-club .gallery-info { background-color:#fff; padding:9px 14px 0 14px; margin:0 34px 0 10px; overflow:hidden; }
+.fashion-club .gallery-info dl { display:block; overflow:hidden; margin:0 0 5px 3px; }
+.fashion-club .gallery-info dt { background-image:none; width:auto; padding:6px 0 0 0; float:left; color:#669; font-size:17px; }
+.fashion-club .gallery-info dd { float:left; padding:0 10px 0 5px; font-size:21px; line-height:27px; }
+.fashion-club .gallery-info .name-text { font-size:24px; }
+.info-ruler { background-image:url('../i/clubs/fashion/magazine_rule.gif'); height:1px; margin:0 0 3px 0; }
+.corner-btn { position:absolute; background:url('../i/clubs/fashion/curl_cover.png') 72px 0 no-repeat; width:72px; height:0; padding:169px 0 0 0; overflow:hidden; }
+.corner-btn:hover { background-position:0 0; }
+.corner-btn.corner-cover { left:577px; }
+.corner-btn.corner-prev { background-image:url('../i/clubs/fashion/curl_prev.png'); left:117px; top:130px; }
+.corner-btn.corner-next { background-image:url('../i/clubs/fashion/curl_next.png'); right:130px; top:130px;}
+
+
+.fashion-club .inside { background-image:url('../i/clubs/fashion/magazine_inside.gif'); width:738px; height:492px; }
+.fashion-club .gallery-page { float:left; margin:0 0 0 28px; }
+.fashion-club .gallery-page img { padding:0; }
+.fashion-club .gallery-page .design-bg { background-color:#333; width:300px; height:370px; margin:0 38px 0 0; }
+.gallery-page.pg2 .design-bg { /*margin:0 0 0 29px; */}
+
+.design-btn { background:url('../i/clubs/fashion/fashion_play.png') top left no-repeat; height:0; width:175px; padding:79px 0 0 0; overflow:hidden; display:block; position:absolute; top:26px; right:30px; }
+.design-btn:hover { background-position:-175px 0; }
+.design-btn:active { background-position:-350px 0; }
+
+.inside-btn { background:url('../i/clubs/fashion/look_inside.gif') top left no-repeat; height:0; width:135px; padding:99px 0 0 0; overflow:hidden; display:block; position:absolute; top:176px; right:150px; }
+
+/*====================================================*/
+/*============       POETRY CLUB        ==============*/
+/*====================================================*/
+.poetry-club {
+    background-color:#ccf;
+}
+
+.poetry-club .clubs-splash {
+    background-image:url('../i/clubs/poetry/poetry_splash.gif');
+}
+#poetryPlayBtn {
+	width:175px; height:0; overflow:hidden; padding:118px 0 0 0; background:url('../i/clubs/poetry/poem_play.png') top left no-repeat; display:block; position:absolute; top:90px; left:570px;
+}
+
+#poetryPlayBtn:hover {
+	background-position:-175px 0;
+}
+
+#poetryPlayBtn:active {
+	background-position:-350px 0;
+}
+
+.poetry-club .club-members {
+	background-color:#917ffe;
+}
+
+.poetry-club dt {
+	background:url('../i/clubs/poetry/clubmembers.png') 5px 12px no-repeat;
+}
+
+.poetry-club .club-president a {
+	background-image:url('../i/clubs/poetry/poetry_fern_pres.png');
+}
+
+.poetry-club .clubs-h-ruler { 
+	background-image:url('../i/clubs/poetry/poetry_vert_rule.png') 
+}
+
+.club-v-ruler { 
+	background-image:url('../i/clubs/poetry/poetry_horiz_rule.png'); height:5px; width 100%; margin-left: 1%; margin-right: 1%;  
+}
+
+.poetryFoundIMG { 
+	background-image:url('../i/clubs/poetry/poetry_foundation.png'); width: 187px; height: 67px; margin-top: 20px;
+}
+
+.poetryBottom { width: 100%; vertical-align: middle; padding-top: 10px; margin-top: -1%}
+
+.poetry-club .clubs-video h4 {
+	background-image:url('../i/clubs/poetry/poetry_videos.gif')
+}
+
+.poetry-club .clubs-rc h4 {
+	background-image:url('../i/clubs/poetry/more_poetry.gif')
+}
+
+#pcArthur a {
+	background-image:url('../i/clubs/poetry/arthur.png');
+}
+
+#pcBinky a {
+	background-image:url('../i/clubs/poetry/binky.png');
+}
+
+#pcBrain a {
+	background-image:url('../i/clubs/poetry/brain.png');
+}
+
+#pcBuster a {
+	background-image:url('../i/clubs/poetry/buster.png');
+}
+
+#pcDW a {
+	background-image:url('../i/clubs/poetry/dw.png');
+}
+
+#pcPrunella a {
+	background-image:url('../i/clubs/poetry/prunella.png');
+}
+
+#pcSueEllen a {
+	background-image:url('../i/clubs/poetry/sue.png');
+}
+
+
+/*====================================================*/
+/*============ 		  HALLOWEEN	  		==============*/
+/*====================================================*/
+#halloweenHeader { background:url('../i/halloween/halloween_header.gif') top left no-repeat; width:262px; padding:237px 0 0 0; }
+#hEcard a{ background-image:url('../i/halloween/icon_ecards.gif'); }
+#hColoring a{ background-image:url('../i/halloween/icon_coloring.gif'); }
+#hMasks a{ background-image:url('../i/halloween/icon_masks.gif'); }
+#hAlien a{ background-image:url('../i/halloween/icon_alien.gif'); }
+#hCrank a{ background-image:url('../i/halloween/icon_crank.gif'); }
+#printablesNavIcons #halloweenNavIcons { width:471px; }
+
+/*====================================================*/
+/*============	   BACKSTREET BOYS	  	==============*/
+/*====================================================*/
+#backstreetHeader { background:url('../i/backstreet/backstreet_header.gif') top left no-repeat; width:252px; padding:343px 0 0 0; }
+#bVideo a { background-image:url('../i/backstreet/icon_clips.gif'); }
+#bLyrics a { background-image:url('../i/backstreet/icon_lyrics.gif'); }
+#bColoring a { background-image:url('../i/backstreet/icon_bsb_coloring.gif'); }
+#bUColoring a { background-image:url('../i/backstreet/icon_ustink_coloring.gif'); }
+#bPoster a { background-image:url('../i/backstreet/icon_poster.gif'); }
+#bAOL a { background-image:url('../i/backstreet/icon_chat.gif'); }
+.backstreet h1 { width:300px; }
+.backstreet dt { font-weight:bold; }
+.backstreet dd { padding:0 0 20px 0; }
+#backstreetContent { text-align:left; padding:0 30px; overflow:auto; }
+.copy { font-size:11px; }
+
+/***** LYRICS *****/
+.backstreet-lyrics { width:284px; }
+.backstreet-lyrics p { padding:5px 0; }
+.bsb-ruler { background-color:#c3c8ce; height:1px; margin:20px 0;}
+.inner-nav { display:inline-block; padding: 0 0 20px 0;}
+.inner-nav li{ float:left;}
+.inner-nav .selected { color:#000; }
+.lyrics-side-images { float:right; }
+.lyrics-side-images img { display:block; padding:0 0 64px 0; }
+
+/**** POSTER  *****/
+.backstreet-poster { padding:0 0 0 284px; }
+#BSPosterBtn { background:url('../i/backstreet/poster_btn.gif') top left no-repeat; width:131px; padding:32px 0 0 0; height:0; overflow:hidden; display:inline-block; margin:5px 0 10px 0;}
+#BSPosterBtn:hover { background-position:-131px 0; }
+#BSPosterBtn:active { background-position:-262px 0; }
+
+/****** VIDEO CLIPS *****/
+.backstreet-video { padding: 0 20px; }
+.bsb-vid-nav { text-align:left; }
+.bsb-vid-nav li { background:url('../i/backstreet/play_icon.gif') top left no-repeat; padding:0 0 0 20px; margin: 0 0 10px 0; }
+.bsb-tv-border { padding:3px; border:1px solid #ccc; width:490px; margin:0 auto; }
+.bsb-tv { background-color:#69f; padding:4px; }
+.bsb-tv img { display:block; }
+.tv-mid img { float:left; }
+#bsbTVContent { padding:0 0 30px 0; }
+
+/*====================================================*/
+/*============	   FIRE SAFETY TIPS	  	==============*/
+/*====================================================*/
+#fireHeader { background:url('../i/firesafety/firesafety_header.gif') top left no-repeat; width:248px; padding:258px 0 0 0; }
+#firesafetyContent { padding:40px 30px 0 30px; text-align:left; overflow:auto; }
+#firesafetyContent ol { list-style:decimal outside none; padding:0 0 10px 40px; }
+#firesafetyContent h2 { padding:0 0 10px 0; }
+.fire-pic-nav { text-align:center; }
+.fire-pic-nav .icon { margin:0 9px 0 0; }
+.fire-pic-nav .icon a { margin:0 0 27px 0; }
+.fire-pic-nav #fsJohn { background:url('../i/firesafety/th_john.gif') top left no-repeat; }
+.fire-pic-nav #fsEmily { background:url('../i/firesafety/th_emily.gif') top left no-repeat; }
+.fire-pic-nav #fsCora { background:url('../i/firesafety/th_cora.gif') top left no-repeat; }
+.fire-pic-nav #fsAndy { background:url('../i/firesafety/th_andy.gif') top left no-repeat; }
+.fire-pic-nav #fsJames { background:url('../i/firesafety/th_james.gif') top left no-repeat; }
+.fire-pic-nav #fsMatthew { background:url('../i/firesafety/th_matthew.gif') top left no-repeat; }
+.fire-pic-nav #fsKelsey { background:url('../i/firesafety/th_kelsey.gif') top left no-repeat; }
+.fire-pic-nav #fsLauren { background:url('../i/firesafety/th_lauren.gif') top left no-repeat; }
+.fire-pic-nav #fsLouis { background:url('../i/firesafety/th_louis.gif') top left no-repeat; }
+.fire-pic-nav #fsNick { background:url('../i/firesafety/th_nick.gif') top left no-repeat; }
+.fire-pic-nav #fsJay { background:url('../i/firesafety/th_jay.gif') top left no-repeat; }
+
+
+/*====================================================*/
+/*============	  HOLIDAY  	==============*/
+/*====================================================*/
+.print-instr.holiday { width:272px; }
+.print-instr.holiday h4 { margin:0 0 23px 0; }
+#holidayHeader { background:url('../i/holiday/celebrate_header.gif') top left no-repeat; width:272px; padding:390px 0 0 0; }
+#holidayNavDressUp a { background-image:url('../i/holiday/icon_dressup.gif'); }
+#holidayNavScrapbook a { background-image:url('../i/holiday/icon_scrapbook.gif'); }
+#holidayNavBigBook a { background-image:url('../i/holiday/icon_brainsbook.gif'); }
+#holidayNavColoring a { background-image:url('../i/holiday/icon_holiday_coloring.gif'); }
+#holidayNavEcards a { background-image:url('../i/holiday/icon_holiday_ecards.gif'); }
+#holidayNavVideo a { background-image:url('../i/holiday/icon_holiday_video.gif'); }
+#printablesNavIcons.holiday h1 { color:#000; text-align:left; padding:48px 0 0 295px;}
+#printablesNavIcons #holidayNavIcons { width:500px; }
+#printablesNavIcons #holidayNavIcons a { margin:0 20px 40px 0; }
+
+/*========			 COLORING PAGES			=======*/
+#holidayColoringNavIcons { overflow:auto; }
+#holidayColoringNavIcons li a { margin:0 0 45px 0; }
+#holidayColoringNavIcons .icon { margin:0 0 0 13px; }
+#hcHanukkah a { background-image:url('../i/holiday/icon_hanukkah.gif');}
+#hcBaxter a { background-image:url('../i/holiday/icon_baxterday.gif');}
+#hcSolstice a { background-image:url('../i/holiday/icon_solstice.gif');}
+#hcVolunteer a { background-image:url('../i/holiday/icon_volunteer.gif');}
+#hcLucia a { background-image:url('../i/holiday/icon_lucia.gif');}
+#hcXmas a { background-image:url('../i/holiday/icon_christmas.gif');}
+#hcNewYear a { background-image:url('../i/holiday/icon_newyear.gif');}
+#hcKwanzaa a { background-image:url('../i/holiday/icon_kwanzaa.gif');}
+#hcRamadan a { background-image:url('../i/holiday/icon_ramadan.gif');}
+
+/*====== TERMS		=====*/
+#holidayTermsNav { width:500px; margin: 0 auto; }
+#holidayTermsContent { padding: 0 20px; overflow:hidden; }
+#holidayTermsContent dl { overflow:hidden; text-align:left; padding:30px 0 0 0; }
+#holidayTermsContent dt h2{ color:#000; }
+.back-btn { padding:0 0 20px 0; display:block; }
+
+/*==== DRESS UP		===*/
+#dressupContent { padding:0 20px; overflow:auto; }
+#dressupContent .float-left { padding:0 20px 0 0; }
+#dressupBtn { background:url('../i/holiday/dressup_play.gif') top left no-repeat; height:0; padding:91px 0 0 0; display:block; overflow:hidden; margin:20px 0 8px 0;}
+
+
+/*======== 		SCRAPBOOK		=========*/
+#holidayScrapbookNavIcons { overflow:auto; } 
+#holidayScrapbookNavIcons a {padding:107px 0 0 0; width:137px;}
+#stlucia a { background-image:url('../i/holiday/th_lucia.gif'); }
+#christmas a { background-image:url('../i/holiday/th_christmas.gif'); }
+#baxterday a { background-image:url('../i/holiday/th_baxterday.gif'); }
+#hanukkah a { background-image:url('../i/holiday/th_hanukkah.gif'); }
+#kwanzaa a { background-image:url('../i/holiday/th_kwanzaa.gif'); }
+#newyear a { background-image:url('../i/holiday/th_newyear.gif'); }
+#ramadan a { background-image:url('../i/holiday/th_ramadan.gif'); }
+#solstice a { background-image:url('../i/holiday/th_solstice.gif'); }
+#volunteering a { background-image:url('../i/holiday/th_volunteer.gif'); }
+#holidayScrapbookContent { width:461px; }
+#holidayScrapbookPix h2 { color:#000; }
+#holidayScrapbookPix dt { width:284px; float:left; padding:0 20px 0 0; }
+#holidayScrapbookPix dd { width:284px; float:left; }
+
+
+/*====================================================*/
+/*============		   ALL KIDS CAN	  	==============*/
+/*====================================================*/
+#akcHeader { background:url('../i/allkidscan/allkidscan_arthur.gif') top left no-repeat; width:252px; padding:324px 0 0 0; }
+#akcContent p, #akcContent h3 { width:320px; margin:0 auto;}
+#akcContent h3 { margin: 30px auto 0 auto; text-align:left; }
+#akcContent img { margin:20px 0 0 0; }
+
+
+/*====================================================*/
+/*============   RELATED CONTENT BAR  	==============*/
+/*====================================================*/
+#relatedContent { background: url('../i/related/right_rounded.png') right top no-repeat; height:266px; width:654px; padding:0 28px 0 18px; clear:both; margin:64px 0 0; }
+#relatedContent ul { margin:0 0 0 70px; overflow:auto; }
+#relatedContent li { float:left; }
+#relatedContent a { display:block; width:174px; height:0; padding:264px 0 0; cursor:pointer; overflow:hidden; margin:0 0 0 15px; background-position:top left; background-repeat: no-repeat; }
+
+#rcAboutFace { background:url('../i/related/aboutface.png'); }
+#rcAlien { background:url('../i/related/alien.png'); }
+#rcArthur { background:url('../i/related/arthur.png'); }
+#rcAskBrain { background:url('../i/related/askbrain.png'); }
+#rcAskPrunella { background:url('../i/related/askprunella.png'); }
+#rcBinky { background:url('../i/related/binky.png'); }
+#rcBookmarks { background:url('../i/related/bookmarks.png'); }
+#rcBraille { background:url('../i/related/braille.png'); }
+#rcBrain { background:url('../i/related/brain.png'); }
+#rcBrainGame { background:url('../i/related/braingame.png'); }
+#rcBrainBook { background:url('../i/related/brainsbook.png'); }
+#rcBuster { background:url('../i/related/buster.png'); }
+#rcHoliday { background:url('../i/related/celebrate.png'); }
+#rcCellPhone { background:url('../i/related/cellphone.png'); }
+#rcColoring { background:url('../i/related/coloring.png'); }
+#rcComic { background:url('../i/related/comic.png'); }
+#rcConnect { background:url('../i/related/connect.png'); }
+#rcCootie { background:url('../i/related/cootie.png'); }
+#rcCosmic { background:url('../i/related/cosmic.png'); }
+#rcCows { background:url('../i/related/cows.png'); }
+#rcCrank { background:url('../i/related/crankitup.png'); }
+#rcCrankHalloween { background:url('../i/related/halloweencrank.png'); }
+#rcCrazyBus { background:url('../i/related/crazybus.png'); }
+#rcDetective { background:url('../i/related/detective.png'); }
+#rcDrawArthur { background:url('../i/related/drawarthur.png'); }
+#rcDW { background:url('../i/related/dw.png'); }
+#rcDWK { background:url('../i/related/dwk.png'); }
+#rcEcards { background:url('../i/related/ecards.png'); }
+#rcElwingo { background:url('../i/related/elwingo.png'); }
+#rcElwoodCity { background:url('../i/related/elwoodcity.png'); }
+#rcEmily { background:url('../i/related/emily.png'); }
+#rcFactOpinion { background:url('../i/related/factsopinions.png'); }
+#rcFern { background:url('../i/related/fern.png'); }
+#rcFetch { background:url('../i/related/fetch.png'); }
+#rcFrancine { background:url('../i/related/francine.png'); }
+#rcGallery { background:url('../i/related/gallery.png'); }
+#rcGeorge { background:url('../i/related/george.png'); }
+#rcGlobal { background:url('../i/related/globalgizmo.png'); }
+#rcGoGeorge { background:url('../i/related/gogeorgego.png'); }
+#rcGoGreen { background:url('../i/related/gogreen.png'); }
+#rcGoose { background:url('../i/related/goose.png'); }
+#rcGreatMacGrady { background:url('../i/related/greatmacgrady.png'); }
+#rcGrooveIt { background:url('../i/related/grooveit.png'); }
+#rcGroovy { background:url('../i/related/groovygarden.png'); }
+#rcHalloween { background:url('../i/related/halloween.png'); }
+#rcHalloweenColoring { background:url('../i/related/halloweencoloring.png'); }
+#rcHighFive { background:url('../i/related/highfive.png'); }
+#rcKaraoke { background:url('../i/related/karaoke.png'); }
+#rcKate { background:url('../i/related/kate.png'); }
+#rcKidding { background:url('../i/related/kidding.png'); }
+#rcLadonna { background:url('../i/related/ladonna.png'); }
+#rcLetterArthur { background:url('../i/related/letters.png'); }
+#rcLettersTo { background:url('../i/related/letters_to.png'); }
+#rcLettersToArthur { background:url('../i/related/letters.png'); }
+#rcLung { background:url('../i/related/lung.png'); }
+#rcLunch { background:url('../i/related/lunchomatic.png'); }
+#rcMacGrady { background:url('../i/related/macgrady.png'); }
+#rcMasks { background:url('../i/related/masks.png'); }
+#rcMovieMaker { background:url('../i/related/moviemaker.png'); }
+#rcDad { background:url('../i/related/mrread.png'); }
+#rcMom { background:url('../i/related/mrsread.png'); }
+#rcMuffy { background:url('../i/related/muffy.png'); }
+#rcNewShow { background:url('../i/related/newshows.png'); }
+#rcPal { background:url('../i/related/pal.png'); }
+#rcPartyHats { background:url('../i/related/partyhats.png'); }
+#rcPFY { background:url('../i/related/pfy.png'); }
+#rcPlayMaker { background:url('../i/related/playmaker.png'); }
+#rcPoetry { background:url('../i/related/poetry.png'); }
+#rcPoll { background:url('../i/related/poll.png'); }
+#rcPostcardsBuster { background:url('../i/related/postcardsbuster.png'); }
+#rcPrunella { background:url('../i/related/prunella.png'); }
+#rcRatburn { background:url('../i/related/ratburn.png'); }
+#rcSceneSwitcher { background:url('../i/related/sceneswitcher.png'); }
+#rcSignDesign { background:url('../i/related/signdesign.png'); }
+#rcSongBook { background:url('../i/related/songbook.png'); }
+#rcStickerBook { background:url('../i/related/stickerbook.png'); }
+#rcStickers { background:url('../i/related/stickers.png'); }
+#rcSueEllen { background:url('../i/related/sueellen.png'); }
+#rcSuperAction { background:url('../i/related/superaction.png'); }
+#rcSupermarket { background:url('../i/related/supermarket.png'); }
+#rcThora { background:url('../i/related/thora.png'); }
+#rcTibbles { background:url('../i/related/tibbles.png'); }
+#rcTrading { background:url('../i/related/trading.png'); }
+#rcUnmatching { background:url('../i/related/unmatching.png'); }
+#rcVideo { background:url('../i/related/video.png'); }
+#rcVideoDetective { background:url('../i/related/videodetective.png'); }
+#rcVideoMashup { background:url('../i/related/videomashup.png'); }
+#rcWardrobe { background:url('../i/related/wardrobe.png'); }
+#rcDressUp { background:url('../i/related/dressup.png'); } 
+#rcHeyFrancine { background:url('../i/related/heyfrancine.png'); }
+#rcTravelTales { background:url('../i/related/traveltales.png'); }
+#rcVideoHalloween { background:url('../i/related/'); }
+#rcVideoA { background:url('../i/related/aforangry.png'); }
+#rcVideoMyth { background:url('../i/related/bustermyth.png'); }
+#rcVideoWashington { background:url('../i/related/dwwashington.png'); }
+#rcVideoFalafel { background:url('../i/related/falafelosophy.png'); }
+#rcVideoKissTell { background:url('../i/related/kissandtell.png'); }
+#rcVideoLint { background:url('../i/related/lintrush.png'); }
+#rcVideoVomitrocious { background:url('../i/related/vomitrocious.png'); }
+#rcVideoTomorrow { background:url('../i/related/worldtomorrow.png'); }
+#rcVideoMacGrady { background:url('../i/related/greatmacgrady.png'); }
+#rcScrapbook { background:url('../i/related/scrapbook.png'); }
+/*Halloween videos*/
+#rcVideoHauntedLocker { background:url('../i/related/hauntedlocker.png'); }
+#rcVideoGrotesque { background:url('../i/related/grotesquelygrim.png'); }
+#rcVideoScaredSE { background:url('../i/related/scaredsueellen.png'); }
+#rcVideoWorms { background:url('../i/related/warofworms.png'); }
+#rcVideoFrenkenstein { background:url('../i/related/fernkenstein.png'); }
+#rcVideoHicTreat { background:url('../i/related/hicortreat.png'); }
+#rcVideoArthurSingsXmas { background:url('../i/related/singaboutchristmas.png'); }
+#rcVideoShowBiz { background:url('../i/related/showbiz.png'); }
+#rcVideoCastlesSky { background:url('../i/related/castlesinsky.png'); }
+#rcVideoDWIce { background:url('../i/related/dwonice.png'); }
+#rcVideoDullWinter { background:url('../i/related/longdullwinter.png'); }
+#rcVideoPilferedPaper { background:url('../i/related/pilferedpaper.png'); }
+#rcVideoKosher { background:url('../i/related/kosher.png'); }
+#rcVideoAnniversary1 { background:url('../i/related/anniversary1.png'); }
+#rcVideoMatchmaker { background:url('../i/related/matchmaker.png'); }
+#rcVideoElection { background:url('../i/related/election.png'); }
+#rcVideoRoomRide { background:url('../i/related/roomtoride.png'); }
+#rcVideoOpera { background:url('../i/related/lightscamera.png'); }
+
+#rcClubDance { background:url('../i/related/danceclub.png'); }
+#rcClubPoetry { background:url('../i/related/poetryclub.png'); }
+#rcClubFashion { background:url('../i/related/fashionclub.png'); }
+
+#rcMarthaRT { background:url('../i/related/rhymetime.png'); }
+
+
+
+/*============   FOOTER 	==============*/
+.ruler { background:url('../i/page_border.png') top left repeat-x; height:3px; }
+.ruler.no-bg { background:none; border-top:1px solid #000; }
+#footer #stationCallout a { color:#c00; }
+#footer #stationCallout a:hover { color:#f33; }
+#stationWrapper { position:relative; display:inline-block; padding:0 0 15px 0; float:left; }
+#fundersWrapper { float:right; height:151px; }
+#stationFunders { overflow:auto; padding:40px 0 16px 0; position:relative; }
+#stationCallout { background:url('../i/footer/station_bg_mid.gif') top left repeat-y; /*height:41px;*/ width:202px; padding:4px 0 4px 20px; float:left; margin:16px 0 0 0; }
+#footer #stationCallout p {width:141px; margin:0; }
+.stationBGTop, .stationBGBtm { position:absolute; left:0; }
+.stationBGTop { background:url('../i/footer/station_bg_top.gif') top left no-repeat; width:202px; height:16px; top:0; }
+.stationBGBtm { background:url('../i/footer/station_bg_btm.gif') top left no-repeat; width:202px; height:16px; bottom:0; }
+#fundersCallout { height:121px; width:690px; float:right; background:url('../i/footer/funders_bg_mid.gif') top left repeat-y; margin:16px 0 0 0; } 
+#footer #fundersCallout p { width:630px; margin:0px 0px 12px 30px; }
+#fundersCallout img { margin: 0 0 0 42px; }
+.fundersBGTop, .fundersBGBtm { position:absolute; right:0; }
+.fundersBGTop { background:url('../i/footer/funders_bg_top.gif') top left no-repeat; width:690px; height:16px; }
+.fundersBGBtm { background:url('../i/footer/funders_bg_btm.gif') top left no-repeat; width:690px; height:16px; top:176px; }
+#footer { /*overflow:auto;*/ background-color:#36c; font-size:12px; line-height:16px; }
+#footerContainer { padding:40px 20px 80px 20px; overflow:auto; }
+#footer ul { /*overflow:auto;*/ float:left; }
+#footer .wrap { line-height:15px; }
+#footerMainNav { width:90px; }
+#footerSubNav { width:150px; margin:0 0 0 10px; }
+#footer a { font-size:14px; font-weight:bold; line-height:22px; color:#9cf; }
+#footer a:hover { color:#fff; }
+#footer p { width:250px; float:left; margin: 0 0 0 41px; }
+.footer_separator { float:left; margin: 0 0 0 41px; }
+
+
+/*====================================================*/
+/*============		   404 PAGE		  	==============*/
+/*====================================================*/
+#prunella404 { padding:48px 0 0 89px; }
+#errorPage { padding:48px 0 78px 57px; width:628px; float:left; }
+#errorPage ul { list-style: disc outside none; width:451px; padding:10px 0 20px 24px; }
+#errorPage li { padding:0 0 10px 0; }
+#errorPage form { width:451px; padding:0 0 0 6px;}
+#errorPage form .bold { font-weight:bold; }
+.dotted-rule { background:url('../i/find/color_rule.gif') top left no-repeat; height:2px; margin:5px 0 10px 0;}
+
+/*====================================================*/
+/*============			   FIND		  	==============*/
+/*====================================================*/
+#findImg { padding:48px 0 0 20px; }
+#find { padding:48px 0 19px 332px; margin:0 10px 0 0; }
+#find ul {  }
+#find li { width:190px; }  
+#find li a { line-height:22px; }
+#find .wrap { line-height:16px; }
+.find-wrapper { float:left; padding:0 19px 0 0; }
+.find-wrapper.last { padding:0; }
+.section-wrapper { margin:20px 0 40px 0; overflow:auto; padding:0 0 10px 0; }
+
+/*====================================================*/
+/*============		  NEWSLETTER	 	==============*/
+/*====================================================*/
+#newsletter { text-align:left; /*margin:0 0 0 163px;*/ padding:0 0 10px 10px; float:left; width:450px; }
+#newsletterNav { text-align:left; overflow:auto; float:left; width:150px; }
+#newsletterNav li { margin:0 0 20px 0; }
+#newsletterWrapper { width:613px; margin:0 auto; }
+#newsletterWrapper ol { list-style:decimal inside none; margin:0 0 0 20px;}
+#newsletterHeader { text-align:left; }
+
+/**** PAST ISSUES ******/
+#pastIssues li { float:left; width:200px; padding:0 10px 20px 0;}
+
+
+
+
+
+/*============   TYPE KIT FONTS 	==============*/
+.wf-loading #sliderIcons span, .wf-loading #printablesNavIcons span, .wf-loading h1, .wf-loading .print-instr ul span, .wf-loading #myGames span, .wf-loading #aboutMe, .wf-loading h2, .wf-loading h3, .wf-loading #aboutMe dl, .wf-loading #myBooks dl, .wf-loading #printSideNav span, .wf-loading .comment p, .wf-loading .comment a, h5, #playMakerCostumes dt, #sugarBowlPoll .poll-text, #pmPropsIcons a, #pmMasksIcons a, .wf-loading .icon a span, .fashion-club .gallery-info { visibility:hidden; } 
+
+.wf-active #sliderIcons span, .wf-active #printablesNavIcons span, .wf-active h1, .wf-active .print-instr ul span, .wf-active #myGames span, .wf-active #aboutMe, .wf-inactive #sliderIcons span, .wf-inactive #printablesNavIcons span, .wf-inactive h1, .wf-inactive .print-instr ul span, .wf-inactive #aboutMe, .wf-active #printSideNav span, .wf-inactive #printSideNav span, .wf-active #aboutMe dl, .wf-active #myBooks dl, .wf-inactive #aboutMe dl, .wf-inactive #myBooks dl, .wf-active .comment p, .wf-inactive .comment p, .wf-active .comment a, .wf-inactive .comment a, .wf-active h3, .wf-inactive h3, .wf-active h2, .wf-inactive h2, h5, #playMakerCostumes dt, #artSend a, #sugarBowlPoll .poll-text, .wf-active .icon a span, #pmPropsIcons a, #pmMasksIcons a, .fashion-club .gallery-info  { visibility:visible; font-family:"gooddog-new-1","gooddog-new-2", "Trebuchet MS", Arial, sans-serif;  }
+
+#sliderIcons span, #printablesNavIcons span, h1, .print-instr ul span, #myGames span,  #sliderIcons span,  #printablesNavIcons span, h1, .print-instr ul span, #aboutMe dt, #printSideNav span,  #printSideNav span, #aboutMe dl,  #myBooks dl, #aboutMe dl,  #myBooks dl, .comment p, .comment p, .comment a,  .comment a, h3, h2, h5, #playMakerCostumes dt, #artSend a, #sugarBowlPoll .poll-text, .icon a span, #pmPropsIcons a, #pmMasksIcons a, .fashion-club .gallery-info{ font-family:'Chewy',"Trebuchet MS",Arial,sans-serif; }
+
+#printSideNav li a { padding:2px 10px 0 0; font-size:21px; line-height:28px; }
+.icon a { font-size:17px; line-height:20px; }
+h1 { font-size:27px; line-height:35px; }
+.comment p { font-size:16px; line-height:19px; }
+.comment a { font-size:17px; line-height:20px; }
+
+
+

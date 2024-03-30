@@ -1,0 +1,96 @@
+<game id="paintbyletter" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . PAINT BY LETTER | PBS KIDS]]></title>
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="princesspresto_endscreen" url="libraries/princesspresto_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />		
+	</libraries> 
+	<swf url="sections/games/paintbyletter/paintbyletter.swf" />
+	<sfx>
+		<sfx id="over" type="audio" url="sections/games/paintbyletter/audio/sfx/sfx_UI_over.mp3"/>
+		<sfx id="press" type="audio" url="sections/games/paintbyletter/audio/sfx/sfx_UI_press.mp3"/>
+		<sfx id="color_over" type="audio" url="sections/games/paintbyletter/audio/sfx/sfx_Color_over.mp3"/>
+		<sfx id="color_press" type="audio" url="sections/games/paintbyletter/audio/sfx/sfx_Color_press.mp3"/>
+		<sfx id="mode_over" type="audio" url="sections/games/paintbyletter/audio/sfx/sfx_mode_over.mp3"/>
+		<sfx id="mode_press" type="audio" url="sections/games/paintbyletter/audio/sfx/sfx_mode_press.mp3"/>
+		<sfx id="paint_press" type="audio" url="sections/games/paintbyletter/audio/sfx/sfx_Paint_press.mp3"/>
+	</sfx>
+	<kudos>
+		<kudo id="great" type="audio" url="sections/games/paintbyletter/audio/vo/kudos/great.mp3"/>
+		<kudo id="thats_it" type="audio" url="sections/games/paintbyletter/audio/vo/kudos/thats_it.mp3"/>
+		<kudo id="amazing" type="audio" url="sections/games/paintbyletter/audio/vo/kudos/kudos_1.mp3"/>
+	</kudos>
+	<oops>
+		<!--oop id="try_again" type="audio" url="sections/games/paintbyletter/audio/vo/oops/try_again.mp3"/>
+		<oop id="keep_trying" type="audio" url="sections/games/paintbyletter/audio/vo/oops/keep_trying.mp3"/-->
+		<oop id="try_another" type="audio" url="sections/games/paintbyletter/audio/vo/oops/oops_1.mp3"/>
+		<oop id="see_letter" type="audio" url="sections/games/paintbyletter/audio/vo/oops/oops_2.mp3"/>
+	</oops>
+	<!-- don't need promos for this activity! promos>
+		<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+		<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		<promo id="alphapig" location="game/alphabricks" url="promos/endscreen_promo_ap_bricks.jpg" />
+	</promos -->
+	<pages>
+		<page id="pig" type="swf" url="sections/games/paintbyletter/pages/pig.swf" name="Alpha Pig" />
+		<page id="princess" type="swf" url="sections/games/paintbyletter/pages/princess.swf" name="Princess Presto"/>
+		<page id="roller" type="swf" url="sections/games/paintbyletter/pages/roller.swf" name="Wonder Red"/>
+		<page id="super" type="swf" url="sections/games/paintbyletter/pages/super.swf" name="Super Why"/>
+		<page id="logo" type="swf" url="sections/games/paintbyletter/pages/SWcoloring_logo.swf" name=""/>
+		<page id="plane_super" type="swf" url="sections/games/paintbyletter/pages/plane_super.swf" name=""/>
+		<page id="plane_princess" type="swf" url="sections/games/paintbyletter/pages/plane_princess.swf" name=""/>
+		<page id="plane_pig" type="swf" url="sections/games/paintbyletter/pages/plane_pig.swf" name=""/>
+		<page id="plane_red" type="swf" url="sections/games/paintbyletter/pages/plane_red.swf" name=""/>
+		<page id="empty" type="swf" url="sections/games/paintbyletter/pages/empty.swf" name=""/>
+	</pages>
+	<alphabetV0>
+		<sfx id="a" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/a.mp3"/>
+		<sfx id="b" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/b.mp3"/>
+		<sfx id="c" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/c.mp3"/>
+		<sfx id="d" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/d.mp3"/>
+		<sfx id="e" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/e.mp3"/>
+		<sfx id="f" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/f.mp3"/>
+		<sfx id="g" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/g.mp3"/>
+		<sfx id="h" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/h.mp3"/>
+		<sfx id="i" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/i.mp3"/>
+		<sfx id="j" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/j.mp3"/>
+		<sfx id="k" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/k.mp3"/>
+		<sfx id="l" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/l.mp3"/>
+		<sfx id="m" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/m.mp3"/>
+		<sfx id="n" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/n.mp3"/>
+		<sfx id="o" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/o.mp3"/>
+		<sfx id="p" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/p.mp3"/>
+		<sfx id="q" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/q.mp3"/>
+		<sfx id="r" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/r.mp3"/>
+		<sfx id="s" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/s.mp3"/>
+		<sfx id="t" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/t.mp3"/>
+		<sfx id="u" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/u.mp3"/>
+		<sfx id="v" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/v.mp3"/>
+		<sfx id="w" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/w.mp3"/>
+		<sfx id="x" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/x.mp3"/>
+		<sfx id="y" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/y.mp3"/>
+		<sfx id="z" type="audio" url="sections/games/paintbyletter/audio/vo/alphabet/z.mp3"/>
+	</alphabetV0>
+	<miscVO>
+		<vo id="print" type="audio" url="sections/games/paintbyletter/audio/vo/pig_button_print.mp3"/>
+		<vo id="back" type="audio" url="sections/games/paintbyletter/audio/vo/pig_button_back.mp3"/>
+		<vo id="next" type="audio" url="sections/games/paintbyletter/audio/vo/pig_button_next.mp3"/>
+		<vo id="reset" type="audio" url="sections/games/paintbyletter/audio/vo/start_over.mp3"/>
+		<vo id="timeout" type="audio" url="sections/games/paintbyletter/audio/vo/timeout.mp3"/>
+		<vo id="printconfirm" type="audio" url="sections/games/paintbyletter/audio/vo/sure_print.mp3"/>
+		<vo id="resetconfirm" type="audio" url="sections/games/paintbyletter/audio/vo/sure_startover.mp3"/>
+		<vo id="free" type="audio" url="sections/games/paintbyletter/audio/vo/button_freepaint.mp3"/>
+		<vo id="freeinstr" type="audio" url="sections/games/paintbyletter/audio/vo/instructions_freepaint.mp3"/>
+		<vo id="paintbyletter" type="audio" url="sections/games/paintbyletter/audio/vo/button_paintbyletter.mp3"/>
+		<vo id="pagecompleted" type="audio" url="sections/games/paintbyletter/audio/vo/final_kudos.mp3"/>
+		<vo id="help" type="audio" url="sections/games/paintbyletter/audio/vo/help.mp3"/>
+		<vo id="title" type="audio" url="sections/games/paintbyletter/audio/vo/title_paintbyletter.mp3"/>
+		<vo id="easy" type="audio" url="sections/games/paintbyletter/audio/vo/easy.mp3"/>
+		<vo id="medium" type="audio" url="sections/games/paintbyletter/audio/vo/medium.mp3"/>
+		<vo id="hard" type="audio" url="sections/games/paintbyletter/audio/vo/hard.mp3"/>
+		<vo id="pickacolor" type="audio" url="sections/games/paintbyletter/audio/vo/no_color.mp3"/>
+		<!--vo id="yes" type="audio" url="sections/games/paintbyletter/audio/vo/yes.mp3"/>
+		<vo id="no" type="audio" url="sections/games/paintbyletter/audio/vo/no.mp3"/-->
+	</miscVO>
+</game>

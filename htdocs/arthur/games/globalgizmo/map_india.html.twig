@@ -1,0 +1,33 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Global Gizmo . India . Sitar | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="globalbg">
+ <div class="ruler"></div>
+ <div id="gamesMapWrapper" class="gg">
+  <div id="mapWrapper"><map name="map_Map"> <area shape="poly" alt="Guatemala" coords="132,200, 133,222, 162,222, 166,212, 234,212, 234,196" href="map_guatemala.html"> <area shape="poly" alt="Peru" coords="133,247, 156,242, 165,240, 180,247, 185,275, 176,284, 139,282, 125,271" href="map_peru.html"> <area shape="rect" alt="Trinidad" coords="176,215,257,235" href="map_trinidad.html"> <area shape="rect" alt="Australia" coords="364,262,499,334" href="map_australia.html"> <area shape="rect" alt="Zimbabwe" coords="235,259,337,290" href="map_zimbabwe.html"> <area shape="poly" alt="Turkey" coords="343,176, 319,164, 275,169, 278,211, 340,198" href="map_turkey.html"> <area shape="poly" alt="India" coords="372,186, 371,209, 379,218, 381,225, 367,229, 367,250, 421,250, 419,225, 404,224, 399,211, 411,199, 406,191, 396,194, 374,180" href="map_india.html"> <area shape="poly" alt="China" coords="377,161, 367,171, 378,178, 399,191, 410,185, 415,199, 423,203, 437,209, 489,212, 482,194, 450,189, 443,182, 437,169, 446,157, 441,147, 423,140, 416,138, 414,144, 416,152, 413,159, 397,155, 384,151, 378,159" href="map_china.html"> <area shape="poly" alt="Japan" coords="486,144, 453,152, 446,181, 482,186, 516,180, 512,163" href="map_japan.html"> <area shape="poly" alt="Russia" coords="299,120, 304,144, 316,154, 323,163, 337,170, 345,163, 343,156, 356,149, 370,146, 306,148, 413,152, 412,147, 411,139, 414,133, 437,142, 449,146, 446,139, 461,138, 474,110, 427,96, 323,107" href="map_russia.html"> <area shape="rect" alt="Scotland" coords="198,130,290,155" href="map_scotland.html"> <area shape="rect" alt="USA" coords="62,140,193,195" href="map_usa.html"> </map> <img src="/arthur/i/games/globalgizmo/map_gizmo.gif" alt="Map of the world with twelve highlighted countries" width="581" height="510" border="0" usemap="#map_Map"> <a href="/arthur/games/globalgizmo/globalgizmo.html" id="globalBack">Back to Game</a>
+  </div>
+  <div id="mapInfoWrapper">
+   <div id="mapContent">
+    <h1>India</h1>
+    <div class="ruler"></div>
+    <p><img src="/arthur/i/games/globalgizmo/inst_sitar.gif" alt="sitar" class="float-right">The <b>sitar</b> is a stringed instrument that is popular in northern India. It has many strings: some to create the melody, some to create a constant drone underneath, and some that add sound by vibrating when the other strings are played. The sounds are made louder as they echo through a gourd at one end of the sitar. A related instrument, called the veena, is popular in southern India.</p>
+   </div>
+   <div id="mapInfoTop"></div>
+   <div id="mapInfoBtm"></div>
+   <div id="mapInfoArrow" class="intro"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/connectworld/index.html" id="rcConnect">Connect the World</a></li>
+   <li><a href="/arthur/games/crankitup/index.html" id="rcCrank">Crank It Up!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

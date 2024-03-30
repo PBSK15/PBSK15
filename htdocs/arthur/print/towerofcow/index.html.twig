@@ -1,0 +1,110 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Tower of Cows | PBS Kids' %}
+{% set desc = 'So many cows! Print out the cow cards, then cut them out and fold them to get ready for building your tower of cows. ' %}
+{% set keywds = 'cows, cards, game, print, printable, activity' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr">
+  <h4 id="cowHeader">Tower of Cows</h4>
+  <p>Play this cool version of Emily's favorite game! (Vicita and D.W. highly recommend it, too!)</p>
+  <p>To start, print and cut out the cow pieces and game cards. (Ask an adult for help with the cutting. Print onto card stock if you want sturdier pieces.) Then check out <a href="#pg-howto" id="a-howto">How to Play</a> for game rules and ideas.</p>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Cow Cards</h1>
+     <p>You'll need 4 copies of the Cow Cards page.</p>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-all"><a href="">Print All Pages</a></span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printCows">
+    <li id="cowcards">
+     <div class="page">
+      <img src="../../i/print/towerofcow/cow_cards.gif" width="573" height="701" alt="Cow Cards" border="0" class="cow img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="numcards">
+     <div class="page">
+      <img src="../../i/print/towerofcow/number_cards.gif" width="543" height="724" alt="Number Cards" border="0" class="cow img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="trickcards">
+     <div class="page">
+      <img src="../../i/print/towerofcow/trick_cards.gif" width="543" height="724" alt="Trick Cards" border="0" class="cow img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="howto">
+     <div class="page">
+      <img src="../../i/print/towerofcow/cows_header_sm.gif" width="217" height="47" alt="Tower of Cows" border="0" class="print-title"><img src="../../i/print/towerofcow/stacked_cows.gif" width="195" height="186" alt="Stacked Cows" border="0" class="float-right">
+      <p><b>To build a tower</b>, cows must be stacked with TWO side-by-side on each layer.</p>
+      <p>So, when you place a cow, make sure you leave enough room for a second cow to be placed next to it.</p>
+      <p><b>There are three ways to play:</b></p>
+      <ol>
+       <li>
+        <dl>
+         <dt>
+          Easy:
+         </dt>
+         <dd>
+          <ul>
+           <li>See how many cows you can stack before your tower falls over.</li>
+          </ul>
+         </dd>
+        </dl></li>
+       <li>
+        <dl>
+         <dt>
+          Harder:
+         </dt>
+         <dd>
+          <ul>
+           <li>Shuffle the Number Cards and put them updside down in a pile.</li>
+           <li>Players take turns picking a card from the deck and stacking the number of cows shown.</li>
+           <li>The first player to knock any cows off the tower gets a point.</li>
+           <li>Play as many rounds of the game as you like.</li>
+           <li>The winner is the player who has the FEWEST number of points when you are all done.</li>
+          </ul>
+         </dd>
+        </dl></li>
+       <li>
+        <dl>
+         <dt>
+          Hardest:
+         </dt>
+         <dd>
+          <ul>
+           <li>Shuffle the Trick Cards and the Number Cards together and put them upside down in a pile.</li>
+           <li>Players take turns picking a card from the deck.</li>
+           <li>If it is a Number Card, the player stacks the number of cows down.</li>
+           <li>If it is a Trick Card, the player stacks one cow while doing the trick described.</li>
+           <li>The first player to knock any cows off the tower gets a point.</li>
+           <li>Play as many rounds of the game as you like.</li>
+           <li>The winner is the player who has the FEWEST number of points when you are all done.</li>
+          </ul>
+         </dd>
+        </dl></li>
+      </ol> <img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>
+   <li><a href="/arthur/print/bookmarks/index.html" id="rcBookmarks">Bookmarks</a></li>
+   <li><a href="/arthur/games/comiccreator/index.html" id="rcComic">Comic Creator</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,95 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Fern\'s Photos Page | PBS Kids' %}
+{% set desc = 'See pics of Fern being, well, Fern. Shes sometimes disguised as a bird and sometimes disguised with a mustache, but always adorable.' %}
+{% set keywds = 'Fern, ARTHUR, photographs, pictures, disguises' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/fern_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/fern_top.swf", "fern", "960", "363", "9", "#ccccff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "fern");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-fern">Fern's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/fern1.jpg" width="354" height="250" alt="Fern onstage, dressed as a bird." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_fern.gif" width="85" height="83" alt="Fern avatar" border="0" id="avatar">
+    <h3>A mysterious bird — me!</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2></h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/fern1.jpg" width="354" height="250" alt="Fern onstage, dressed as a bird." border="0" id="mainImg">
+       <h3>A mysterious bird — me!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/fern2.jpg" width="354" height="250" alt="Fern reading a stack of papers." border="0" id="mainImg">
+       <h3>Thinking of a story.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="arthur-cmt"><a href="/arthur/friends/arthur/index.html">ARTHUR</a>
+          <p>Nothing TOO scary, please...</p>
+         </div>
+         <div class="arthur-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/fern3.jpg" width="354" height="250" alt="Fern and George dressed up as men." border="0" id="mainImg">
+       <h3>Just a couple of chums.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="george-cmt"><a href="/arthur/friends/george/index.html">GEORGE</a>
+          <p>Howdy, partner!</p>
+         </div>
+         <div class="george-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/games/effectivedetective/index.html" id="rcDetective">Effective Detective</a></li>
+   <li><a href="/arthur/print/elwingo/index.html" id="rcElwingo">Elwingo!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

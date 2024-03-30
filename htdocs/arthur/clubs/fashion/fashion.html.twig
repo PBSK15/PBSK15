@@ -1,0 +1,15 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Clubs . Fashion Club | PBS Kids' %}
+{% set desc = 'Check out photos of Arthur, his friends and family. Read comments written by Arthurs friends. Play ball with Pal! Explore Arthurs clubs, games, or profile!' %}
+{% set keywds = 'photos, comments, Arthur, friends, adventure, memories' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'clubs' %}
+
+
+{% block mainContent %}<div class="fashion-club club-page">
+ <div id="flashcontent">
+  <p>You can <a href="http://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="http://pbskids.org/arthur/games/clubs/fashion/fashion.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+ </div>
+ <script type="text/javascript">		   var fo = new SWFObject("/arthur/media/clubs/fashion/fashion.swf", "fashion", "960", "540", "9", "#66cccc");		   fo.addVariable("base", "/arthur/");		   fo.addParam("allowScriptAccess", "always");		   fo.addParam("allowFullScreen", "true");		  		   fo.write("flashcontent");			</script>
+</div>{% endblock %}
+

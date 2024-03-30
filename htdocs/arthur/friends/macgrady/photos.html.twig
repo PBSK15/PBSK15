@@ -1,0 +1,127 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Mrs. MacGrady\'s Photos Page | PBS Kids' %}
+{% set desc = 'See pictures of Mrs. MacGrady, who is more than a lunch lady, shes a friend to all the kids in Elwood city! And everyone loves her!' %}
+{% set keywds = 'Mrs. MacGrady, lunch lady, ARTHUR, friend, photographs, pictures' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-6ff">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/macgrady_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/macgrady_top.swf", "macgrady", "960", "363", "9", "#66ffff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "macgrady");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-macgrady">Mrs. MacGrady's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/macgrady1.jpg" width="354" height="250" alt="Mrs. MacGrady serving lunch to George." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_macgrady.gif" width="85" height="83" alt="The Brain avatar" border="0" id="avatar">
+    <h3>Me 'n' my pal, George.</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="george-cmt"><a href="/arthur/friends/george/index.html">GEORGE</a> <pthanks for being my friend.< p> 
+       </pthanks>
+      </div>
+      <div class="george-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/macgrady1.jpg" width="354" height="250" alt="Mrs. MacGrady serving lunch to George." border="0" id="mainImg">
+       <h3>Me 'n' my pal, George.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="george-cmt"><a href="/arthur/friends/george/index.html">GEORGE</a>
+          <p>Thanks for being my friend.</p>
+         </div>
+         <div class="george-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/macgrady2.jpg" width="354" height="250" alt="Mrs. MacGrady at her keyboard." border="0" id="mainImg">
+       <h3>Who wants to hear some rock 'n' roll?</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/macgrady3.jpg" width="354" height="250" alt="Mrs. MacGrady riding her bike with Binky." border="0" id="mainImg">
+       <h3>My bike keeps me going!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/macgrady4.jpg" width="354" height="250" alt="Mrs. MacGrady talking with Arthur and D.W." border="0" id="mainImg">
+       <h3>Visits from friends kept my spirits up when I was home.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/macgrady5.jpg" width="354" height="250" alt="Mrs. MacGrady hugging Francine" border="0" id="mainImg">
+       <h3>Hugs from friends helped, too!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/macgrady6.jpg" width="354" height="250" alt="Mrs. MacGrady holding a spatula" border="0" id="mainImg">
+       <h3>I love my job!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+   <li><a href="/arthur/print/crazybus/index.html" id="rcCrazyBus">Crazy Bus</a></li>
+   <li><a href="/arthur/games/lunchomatic/index.html" id="rcLunch">Lunch-o-matic</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

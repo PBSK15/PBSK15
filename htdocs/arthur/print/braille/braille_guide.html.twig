@@ -1,0 +1,52 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . You\'ve Got Braille | PBS Kids' %}
+{% set desc = 'Some information and facts about braille and people who are blind.' %}
+{% set keywds = 'braille, blind, reading, translation' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="brailleHeader">You've Got Braille</h4></a>
+  <ul id="printSideNav">
+   <li><a href="index.html"><span>Braille Translator</span></a></li>
+   <li><a href="braille_key.html"><span>Braille Key</span></a></li>
+   <li><a href="braille_guide.html" class="selected"><span>Guide To Braille</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content" id="braille">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Marina's Guide to Braille and More</h1>
+    </div>
+   </div>
+   <div id="ccWrapper" class="brailleWrapper"><img src="../../i/print/braille/braille_marina.gif" width="220" height="315" alt="Marina holding a book and a white cane" border="0" id="brailleMarina">
+    <p>Kids like me who are blind or who have difficulty seeing sometimes read braille. Braille is made up of tiny bumps. We run our fingers across these bumps to read them, just like you read, left to right across a page.</p>
+    <p>Here are Five Fun Facts:</p>
+    <ul>
+     <li>Many books are made in braille. You can also find braille in many public places. Next time you're in an elevator, check out the buttons with the numbers of the floors. There's probably a braille version of each number by each button.</li>
+     <li>I use more than just braille. I also like to listen to books on tape, listen to the radio, and have family or friends read to me. Who doesn't like that?</li>
+     <li>Some kids who are blind have computer screen-readers. These are programs that speak the words on the computer screen. This lets us do our homework on the computer, send e-mail, or surf the Web.</li>
+     <li>One of my friends is legally blind but can see a little bit. She reads books made with large print. You can find a whole bunch at your library.</li>
+     <li>Did you know that lots of your favorite TV shows have audio description on them? Description tells you what's happening on the TV screen if you can't see it. To hear the description, set the audio switch on your TV or VCR to "SAP." That's how I enjoy Arthur, ZOOM, and many more programs on TV.</li>
+    </ul>
+    <p>Think what it would be like to be blind or to have low vision. How would you get to school? How would you make a sandwich? How do you know if it's safe to cross the street? Or find clothes that go well together?</p>
+    <p>Remember, someone like me does these kinds of things every day, just maybe in a different way than a kid who can see would do them.</p>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/print/signdesign/index.html" id="rcSignDesign">Sign Design</a></li>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,97 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Grandma Thora\'s Photos Page | PBS Kids' %}
+{% set desc = 'Click through photos of Grandma Thora being awesome! Shes an actress, a baker, and a marble master know as The Thumb!' %}
+{% set keywds = 'Grandma Thora, Photograpgs, pictures, marbles, ARTHUR' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/thora_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/thora_top.swf", "thora", "960", "363", "9", "#ffcccc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "grandma");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-thora">Grandma Thora's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/thora1.jpg" width="354" height="250" alt="Grandma Thora in a dramatic pose." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_thora.gif" width="85" height="83" alt="The Brain avatar" border="0" id="avatar">
+    <h3>It is I, Grandma Thora, actress!</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="sue-cmt"><a href="/arthur/friends/sue_ellen/index.html">SUE ELLEN</a>
+       <p>Very dramatic!</p>
+      </div>
+      <div class="sue-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/thora1.jpg" width="354" height="250" alt="Grandma Thora in a dramatic pose." border="0" id="mainImg">
+       <h3>It is I, Grandma Thora, actress!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="sue-cmt"><a href="/arthur/friends/sue_ellen/index.html">SUE ELLEN</a>
+          <p>Very dramatic!</p>
+         </div>
+         <div class="sue-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/thora2.jpg" width="354" height="250" alt="Grandma Thora carrying hot food to the table." border="0" id="mainImg">
+       <h3>Come and get it!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/thora3.jpg" width="354" height="250" alt="Grandma Thora shooting marbles with Buster." border="0" id="mainImg">
+       <h3>A steady hand and a keen eye...</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="buster-cmt"><a href="/arthur/friends/buster/index.html">BUSTER</a>
+          <p>That's why we call you "The Thumb"!</p>
+         </div>
+         <div class="buster-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/print/coloringpages/index.html" id="rcColoring">Coloring Pages</a></li>
+   <li><a href="/arthur/print/bookmarks/index.html" id="rcBookmarks">Bookmarks</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

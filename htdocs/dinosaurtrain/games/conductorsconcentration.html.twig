@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Conductor\'s Concentration' %}
+{% set desc = 'Learn about different creatures and animals as you travel with the Conductor to Tiny\\\'s Garden, the Big Pond and the Nature Trackers Club. You will flip cards in each location to try and find a match. When you find all the matches a scene is revealed for you to print and color!' %}
+{% set keywds = 'Tiny\\\'s Garden, The Big Pond, Nature Trackers Clubhouse, Printables, Conductor, Tiny, Buddy, Science games for kids' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/MatchingGame.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Crank It Up</title>
+			<href>/arthur/games/crankitup/index.html</href>
+			<imgurl>/arthur/i/related/crankitup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Global Gizmo</title>
+			<href>/arthur/games/globalgizmo/index.html</href>
+			<imgurl>/arthur/i/related/globalgizmo.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Virtual Goose</title>
+			<href>/arthur/games/virtualgoose/index.html</href>
+			<imgurl>/arthur/i/related/goose.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Buster Baxter: Lung Defender</title>
+			<href>/arthur/games/lungdefender/index.html</href>
+			<imgurl>/arthur/i/related/lung.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Movie Maker</title>
+			<href>/arthur/games/moviemaker/index.html</href>
+			<imgurl>/arthur/i/related/moviemaker.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>You've Got Braille</title>
+			<href>/arthur/print/braille/index.html</href>
+			<imgurl>/arthur/i/related/braille.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Coloring Pages</title>
+			<href>/arthur/print/coloringpages/index.html</href>
+			<imgurl>/arthur/i/related/coloring.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sign Design</title>
+			<href>/arthur/print/signdesign/index.html</href>
+			<imgurl>/arthur/i/related/signdesign.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>A is for Angry</title>
+			<href>/arthur/video/index.html?pid=_zQoRUrziBRSOeDFxtkSz5fv176bc2lF</href>
+			<imgurl>/arthur/i/related/aforangry.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The World of Tomorrow</title>
+			<href>/arthur/video/index.html?pid=i_LuM6tZqop4QZhq2a6Q936_AsOiNlkw</href>
+			<imgurl>/arthur/i/related/worldtomorrow.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>What Scared Sue Ellen?</title>
+			<href>/arthur/video/index.html?pid=1rGV7eojmwkdv6fr72JZb47CxvbR49NT</href>
+			<imgurl>/arthur/i/related/scaredsueellen.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Matchmaker Matchbreaker</title>
+			<href>/arthur/video/index.html?pid=VmnHqSmhilnv6s5VrEhvyFktuvX5sQDL</href>
+			<imgurl>/arthur/i/related/matchmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Room To Ride</title>
+			<href>/arthur/video/index.html?pid=CzGhWX80_TK8ceDD4yDXoltE4E4u0Uew</href>
+			<imgurl>/arthur/i/related/roomtoride.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

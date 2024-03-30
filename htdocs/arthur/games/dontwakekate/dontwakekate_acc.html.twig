@@ -1,0 +1,26 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Don\'t Wake Kate | PBS Kids' %}
+{% set desc = 'With audio help, guide D.W. through the dark bedroom and to the sink so that she can get a drink! Try not to step on toys and wake up Baby Kate!' %}
+{% set keywds = 'D.W., Baby Kate, game, sleep, waking up, bedtime, sisters' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c6">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/dwk_header.gif" width="619" height="82" border="0" alt="Don't Wake Kate - D.W. is thirsty. Help her get as many glasses of water as she can without waking Baby Kate." id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="dontwakekate">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/crankitup/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("dontwakekate_acc.swf", "kate", "595", "325", "4", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				   fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/baby_kate/index.html" id="rcKate">Baby Kate</a></li>
+   <li><a href="/arthur/games/elwoodcity/index.html" id="rcElwoodCity">Elwood City Map</a></li>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

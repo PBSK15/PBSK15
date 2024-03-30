@@ -1,0 +1,64 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Crazy Bus | PBS Kids' %}
+{% set desc = 'Jump on the Crazy Bus! Print out this matching game for two or more players!' %}
+{% set keywds = 'Crazy Bus, matching, game, cards, print' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9cf">
+ <div class="ruler"></div>
+ <div class="print-instr">
+  <h4 id="crazyHeader">Crazy Bus</h4>
+  <p>A matching game for two or more players, where players match their pictures to descriptions drawn from a deck of description cards.</p>
+  <p>Each player prints a Crazy Bus card and gets 6 (different) character cards. Print and cut out a full set of description cards and turn them face down in a pile.</p>
+  <p>Each player lays out 6 cards by their bus (fanning is hard for little kids). It doesn't matter if others see their cards. A grown-up (or reader) then draws descriptions from a stack.</p>
+  <p>If one of the 6 matches the description read from the card, that character rides the Crazy Bus, and is placed on an empty seat. Only one card can be placed for any given description, although some descriptions may fit several cards.</p>
+  <p>Everyone looks through their set as each description is read aloud. The first person to fill their bus (4 cards) shouts the traditional Crazy Bus phrase "Bus-a-looey!"</p>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Crazy Bus</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-all">Print All Pages</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printCrazyBus">
+    <li id="bus1">
+     <div class="page">
+      <img src="../../i/print/crazybus/crazybus.gif" width="516" height="696" alt="Crazy Bus Card" border="0" class="bus img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="bus2">
+     <div class="page">
+      <img src="../../i/print/crazybus/tabs1a.gif" width="516" height="214" alt="Character Tabs" border="0" class="bus-tab img"><img src="../../i/print/crazybus/tabs1b.gif" width="516" height="214" alt="Character tabs 2" border="0" class="bus-tab img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="bus3">
+     <div class="page">
+      <img src="../../i/print/crazybus/tabs2a.gif" width="516" height="214" alt="Character Tabs" border="0" class="bus-tab img"><img src="../../i/print/crazybus/tabs2b.gif" width="516" height="214" alt="Character tabs 4" border="0" class="bus-tab img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="bus4">
+     <div class="page last">
+      <img src="../../i/print/crazybus/gamecards.gif" width="516" height="526" alt="Game Card" border="0" class="bus-card img"><img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">D.W.</a></li>
+   <li><a href="/arthur/print/towerofcow/index.html" id="rcCows">Tower of Cows</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Songbook</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

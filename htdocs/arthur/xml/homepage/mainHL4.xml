@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Effective Detective</title>
+			<href>/arthur/games/effectivedetective/index.html</href>
+			<imgurl>/arthur/i/related/detective.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Green Challenge</title>
+			<href>/arthur/games/gogreen/index.html</href>
+			<imgurl>/arthur/i/related/gogreen.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Songbook</title>
+			<href>/arthur/games/songbook/index.html</href>
+			<imgurl>/arthur/i/related/songbook.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Unmatching Game</title>
+			<href>/arthur/games/unmatching/index.html</href>
+			<imgurl>/arthur/i/related/unmatching.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Cosmic Combos</title>
+			<href>/arthur/print/cosmiccombos/index.html</href>
+			<imgurl>/arthur/i/related/cosmic.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Play Maker</title>
+			<href>/arthur/print/playmaker/index.html</href>
+			<imgurl>/arthur/i/related/playmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Trading Cards</title>
+			<href>/arthur/print/tradingcards/index.html</href>
+			<imgurl>/arthur/i/related/trading.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Marthur Video Mashup</title>
+			<href>/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP</href>
+			<imgurl>/arthur/i/related/videomashup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>War of the Worms</title>
+			<href>/arthur/video/index.html?pid=WaZGtGqDSqnexokqPTtE2rl58Fblj1jc</href>
+			<imgurl>/arthur/i/related/warofworms.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Long Dull Winter</title>
+			<href>/arthur/video/index.html?pid=fiuzMEEx1H3QR82mMeyaQTD0e4a2DfIv</href>
+			<imgurl>/arthur/i/related/longdullwinter.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Is that Kosher?</title>
+			<href>/arthur/video/index.html?pid=UazUVcMSSKh8b9HI_DoNZ_8lwzIpPxJv</href>
+			<imgurl>/arthur/i/related/kosher.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

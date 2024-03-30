@@ -1,0 +1,360 @@
+<game id="comicbook" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . COMIC BOOK | PBS KIDS]]></title>
+	<swf url="sections/games/comicbook/comicbook.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "true"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="superwhy_endscreen" url="libraries/superwhy_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+		<asset id="princess" location="game/superhero" url="../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../promos/endscreen_promo_rhymeroll.jpg" />
+	</promos>
+		
+	
+	<game>
+				
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/comicbook/]]></assetBaseURL>
+			<videoURL><![CDATA[video/ComicBookGameHipHipHurray.flv]]></videoURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<!--
+			<asset id="apObjective" type="audio" url="audio/ap_objective.mp3"/>
+			-->
+		</assets>
+		
+		<frames>
+			<frame id="f1" loop="sw.game.comicbook.Loop4">
+				<intro>
+					<asset id="cb_p2_1" type="audio" url="audio/ComicBook_P2_1.mp3" />
+					<asset id="cb_p1_1" type="audio" url="audio/ComicBook_P1_1.mp3" />
+				</intro>
+				<sentence>
+					<string><![CDATA[Welcome to a magical place called Reader Valley.]]></string>
+					<!--<asset id="cb_p1_2" type="audio" url="audio/ComicBook_P1_2.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_p1_3" type="audio" url="audio/ComicBook_P1_3.mp3" />
+					<asset id="cb_p1_4" type="audio" url="audio/ComicBook_P1_4.mp3" />
+					<asset id="cb_p1_5" type="audio" isObjective="true" url="audio/ComicBook_P1_5.mp3" />
+				</followup>
+				
+				<over type="byID" >
+					<asset id="cb_cloud_ap" type="audio" url="audio/ComicBook_Cloud_AP.mp3" />
+					<asset id="cb_cloud_pp" type="audio" url="audio/ComicBook_Cloud_PP.mp3" />
+					<asset id="cb_cloud_wr" type="audio" url="audio/ComicBook_Cloud_WR.mp3" />
+					<asset id="cb_helicopter" type="audio" url="audio/ComicBook_Helicopter.mp3" />
+					<asset id="cb_plane" type="audio" url="audio/ComicBook_Plane.mp3" />
+				</over>
+				
+				<complete>
+					<asset id="cb_p1_6" type="audio" url="audio/ComicBook_P1_6.mp3" />
+				</complete>
+				
+				<pow id="superduper">
+					<asset id="cb_superDuper" type="audio" url="audio/ComicBook_SuperDuper.mp3" />
+					<asset id="cb_click_sw_1" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_1.mp3" />
+				</pow>
+				
+			</frame>
+			
+			<frame id="f2" loop="sw.game.comicbook.Loop2">
+				<intro>
+				</intro>
+				<sentence>
+					<string><![CDATA[In Reader Valley words made things magically appear!]]></string>
+					<!--<asset id="cb_p2_2" type="audio" url="audio/ComicBook_P2_2.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_p2_3" type="audio" isObjective="true" url="audio/ComicBook_P2_3.mp3" />
+				</followup>
+				
+				<over type="byID">
+					<asset id="cb_tree" type="audio" url="audio/ComicBook_Tree.mp3" />
+					<asset id="cb_bus" type="audio" url="audio/ComicBook_Bus.mp3" />
+					<asset id="cb_bench" type="audio" url="audio/ComicBook_Bench.mp3" />
+					<asset id="cb_hydrant" type="audio" url="audio/ComicBook_Hydrant.mp3" />
+					<asset id="cb_mailbox" type="audio" url="audio/ComicBook_Mailbox.mp3" />
+					<asset id="cb_boy" type="audio" url="audio/ComicBook_Boy.mp3" />
+				</over>
+				
+				<click type="random" >
+					<asset id="cb_wr_greatJob" type="audio" url="audio/WR_great_job.mp3" />
+					<!--<asset id="cb_wr_awesome" type="audio" url="audio/WR_awesome.mp3" />-->
+					<asset id="cb_wr_terrific" type="audio" url="audio/WR_terrific.mp3" />
+				</click>
+				
+				<complete>
+					<asset id="cb_p2_4" type="audio" url="audio/ComicBook_P2_4.mp3" />
+				</complete>
+				
+				<pow id="wonderrific">
+					<asset id="cb_p2_5" type="audio" url="audio/ComicBook_P2_5.mp3" />
+					<asset id="cb_click_wr" type="audio" isObjective="true" url="audio/ComicBook_Click_WR.mp3" />
+				</pow>
+			</frame>
+			
+			<frame id="f3" loop="sw.game.comicbook.Loop3">
+				<sentence>
+					<string><![CDATA[Suddenly, the Eraser erased the word, "STOP."]]></string>
+					<!--<asset id="cb_p3_1" type="audio" url="audio/ComicBook_P3_1.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_sdc_2a" type="audio" url="audio/ComicBook_SDC_2a.mp3" />
+					<asset id="cb_p3_2" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_2.mp3" />
+				</followup>
+			</frame>
+			
+			<frame id="f4" loop="sw.game.comicbook.Loop3" completeLoop="sw.game.comicbook.Loop2">
+				<sentence>
+					<string><![CDATA[And, all of the cars in Reader Valley got stuck.]]></string>
+					<!--<asset id="cb_p4_1" type="audio" url="audio/ComicBook_P4_1.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_p4_2" type="audio" url="audio/ComicBook_P4_2.mp3" />
+					<asset id="cb_p4_3a" type="audio" url="audio/ComicBook_P4_3a.mp3" />
+					<asset id="cb_p4_3b" type="audio" isObjective="true" url="audio/ComicBook_P4_3b.mp3" />
+				</followup>
+				
+				<click type="random">
+					<asset id="cb_p4_4a" type="audio" url="audio/ComicBook_P4_4a.mp3" />
+					<asset id="cb_p4_4b" type="audio" url="audio/ComicBook_P4_4b.mp3" />
+					<asset id="cb_p4_4c" type="audio" url="audio/ComicBook_P4_4c.mp3" />
+					<asset id="cb_p4_4d" type="audio" url="audio/ComicBook_P4_4d.mp3" />
+				</click>
+				
+				<complete delay="0.8">
+					<asset id="cb_s_ap" type="audio" url="audio/ComicBook_S_AP.mp3" />
+					<asset id="cb_t_ap" type="audio" url="audio/ComicBook_T_AP.mp3" />
+					<asset id="cb_o_ap" type="audio" url="audio/ComicBook_O_AP.mp3" />
+					<asset id="cb_p_ap" type="audio" url="audio/ComicBook_P_AP.mp3" />
+					<asset id="cb_p4_5" type="audio" url="audio/ComicBook_P4_5.mp3" />
+					<asset id="cb_p4_6" type="audio" url="audio/ComicBook_P4_6.mp3" />
+				</complete>
+				
+				<pow id="thumbsup">
+					<asset id="cb_p4_7" type="audio" url="audio/ComicBook_P4_7.mp3" />
+					<asset id="cb_click_ap" type="audio" isObjective="true" url="audio/ComicBook_Click_AP.mp3" />
+				</pow>
+			</frame>
+			
+			<frame id="f5" loop="sw.game.comicbook.Loop3">
+				<sentence>
+					<string><![CDATA[Then, the Eraser erased the word, "SUN."]]></string>
+					<!--<asset id="cb_p5_1" type="audio" url="audio/ComicBook_P5_1.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_sdc_2a" type="audio" url="audio/ComicBook_SDC_2a.mp3" />
+					<asset id="cb_sw_2" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_2.mp3" />
+				</followup>
+			</frame>
+			
+			<frame id="f6" loop="sw.game.comicbook.Loop3" completeLoop="sw.game.comicbook.Loop2">
+				<sentence>
+					<string><![CDATA[The sun disappeared and Reader Valley was very dark.]]></string>
+					<!--<asset id="cb_p6_1" type="audio" url="audio/ComicBook_P6_1.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_p6_2" type="audio" url="audio/ComicBook_P6_2.mp3" />
+					<asset id="cb_p6_3" type="audio" isObjective="true" url="audio/ComicBook_P6_3.mp3" />
+				</followup>
+				
+				<click type="random">
+					<asset id="cb_p6_4" type="audio" url="audio/ComicBook_P6_4.mp3" />
+					<asset id="cb_p6_5" type="audio" url="audio/ComicBook_P6_5.mp3" />
+					<asset id="cb_p6_6" type="audio" url="audio/ComicBook_P6_6.mp3" />
+					<asset id="cb_p6_7" type="audio" url="audio/ComicBook_P6_7.mp3" />
+				</click>
+				
+				<complete delay="1.5">
+					<asset id="cb_p6_8" type="audio" onComplete="scene" url="audio/ComicBook_P6_8.mp3" />
+					<asset id="cb_p6_9" type="audio" url="audio/ComicBook_P6_9.mp3" />
+				</complete>
+				
+				<pow id="spectacular">
+					<asset id="cb_p6_10" type="audio" url="audio/ComicBook_P6_10.mp3" />
+					<asset id="cb_click_pp" type="audio" isObjective="true" url="audio/ComicBook_Click_PP.mp3" />
+				</pow>
+			</frame>
+			
+			<frame id="f7" loop="sw.game.comicbook.Loop3">
+				<sentence>
+					<string><![CDATA[Then, the Eraser erased the READER VALLEY sign.]]></string>
+					<!--<asset id="cb_p7_1" type="audio" url="audio/ComicBook_P7_1.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_p7_2" type="audio" onStart="eraser" url="audio/ComicBook_P9.mp3" />
+					<asset id="cb_click_sw_2" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_2.mp3" />
+				</followup>
+			</frame>
+			
+			<frame id="f8" loop="sw.game.comicbook.Loop3" completeLoop="sw.game.comicbook.Loop2">
+				<sentence>
+					<string><![CDATA[Everything in Reader Valley disappeared!]]></string>
+					<!--<asset id="cb_p8_1" type="audio" url="audio/ComicBook_P8_1.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_p8_2" type="audio" url="audio/ComicBook_P8_2.mp3" />
+					<asset id="cb_p8_3" type="audio" isObjective="true" url="audio/ComicBook_P8_3.mp3" />
+				</followup>
+				
+				<click type="byID">
+					<asset id="cb_welcome" type="audio" url="audio/ComicBook_Welcome.mp3" />
+					<asset id="cb_to" type="audio" url="audio/ComicBook_To.mp3" />
+					<asset id="cb_reader" type="audio" url="audio/ComicBook_Reader.mp3" />
+					<asset id="cb_valley" type="audio" url="audio/ComicBook_Valley.mp3" />
+				</click>
+				
+				<complete>
+					<!--<asset id="cb_wtrv" type="audio" url="audio/ComicBook_WelcomeToReaderValley.mp3" />-->
+					<asset id="cb_welcome" type="audio" url="audio/ComicBook_Welcome.mp3" />
+					<asset id="cb_to" type="audio" url="audio/ComicBook_To.mp3" />
+					<asset id="cb_reader" type="audio" url="audio/ComicBook_Reader.mp3" />
+					<asset id="cb_valley" type="audio" url="audio/ComicBook_Valley.mp3" />
+				</complete>
+				
+				<pow id="superjob">
+					<asset id="cb_p8_4" type="audio" url="audio/ComicBook_P8_4.mp3" />
+					<asset id="cb_click_sw_1" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_1.mp3" />
+				</pow>
+			</frame>
+			
+			<frame id="f9" loop="sw.game.comicbook.Loop3" completeLoop="sw.game.comicbook.Loop2">
+				<sentence>
+					<string onStart="bgIntro" ><![CDATA[The Eraser would not stop erasing Reader Valley.]]></string>
+					<!--<asset id="cb_p9_1" type="audio" onStart="bgIntro" url="audio/ComicBook_P9_1.mp3" />-->
+				</sentence>
+				<followup>
+					<!--<asset id="cb_p9_2" type="audio" onStart="superWhy" url="audio/ComicBook_P9_2.mp3" />-->
+					<asset id="cb_p9_2" type="audio" url="audio/ComicBook_P9_2.mp3" />
+					<asset id="cb_p9_3" type="audio" url="audio/ComicBook_P9_3.mp3" />
+					<asset id="cb_p9_4" type="audio" onStart="words" url="audio/ComicBook_P9_4.mp3" />
+					<asset id="cb_p9_5" type="audio" url="audio/ComicBook_P9_5.mp3" />
+					<asset id="cb_p9_6" type="audio" url="audio/ComicBook_P9_6.mp3" />
+					<asset id="cb_p9_7" type="audio" isObjective="true" url="audio/ComicBook_P9_7.mp3" />
+				</followup>
+				
+				<!--
+				<click type="random">
+				</click>
+				-->
+				<complete>
+					<!--<asset id="cb_p9_8" type="audio" url="audio/ComicBook_P9_8.mp3" />
+					<asset id="cb_p9_4" type="audio" url="audio/ComicBook_P9_4.mp3" />
+					<asset id="cb_p9_9" type="audio" url="audio/ComicBook_P9_9.mp3" />-->
+					<asset id="cb_p9_10" type="audio" url="audio/ComicBook_P9_10.mp3" />
+				</complete>
+				
+				<pow id="righton">
+					<asset id="cb_p9_11" type="audio" url="audio/ComicBook_P9_11.mp3" />
+					<asset id="cb_click_sw_1" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_1.mp3" />
+				</pow>
+			</frame>
+			
+			<frame id="f10" loop="sw.game.comicbook.Loop2">
+				<sentence>
+					<string><![CDATA[The Eraser erased mistakes in Reader Valley.]]></string>
+					<!--<asset id="cb_p10_1" type="audio" url="audio/ComicBook_P10_1.mp3" />-->
+				</sentence>
+				<followup>
+					<asset id="cb_p10_2a" type="audio" url="audio/ComicBook_P10_2a.mp3" />
+					<asset id="cb_p10_2b" type="audio" isObjective="true" url="audio/ComicBook_P10_2b.mp3" />
+				</followup>
+				
+				<over>
+					<asset id="cb_watermelons" type="audio" url="audio/ComicBook_watermelons.mp3" />
+				</over>
+				
+				<complete>
+					<asset id="cb_p10_3" type="audio" url="audio/ComicBook_P10_3.mp3" />
+				</complete>
+				
+				<pow id="superduper">
+					<asset id="cb_click_sw_1" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_1.mp3" />
+				</pow>
+			</frame>
+			
+			<frame id="f11" loop="sw.game.comicbook.Loop2">
+				<followup>
+					<asset id="cb_P11_1a" type="audio" url="audio/ComicBook_P11_1a.mp3" />
+					<asset id="cb_P11_1b" type="audio" isObjective="true" url="audio/ComicBook_P11_1b.mp3" />
+				</followup>
+				
+				<over>
+					<asset id="cb_horseshoe" type="audio" url="audio/ComicBook_horseshoe.mp3" />
+				</over>
+				
+				<complete>
+					<asset id="cb_P11_2" type="audio" url="audio/ComicBook_P11_2.mp3" />
+				</complete>
+				
+				<pow id="superduper">
+					<asset id="cb_click_sw_1" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_1.mp3" />
+				</pow>
+			</frame>
+			
+			<frame id="f12" loop="sw.game.comicbook.Loop2">
+				
+				<followup>
+					<asset id="cb_p12_1a" type="audio" url="audio/ComicBook_P12_1a.mp3" />
+					<asset id="cb_p12_1b" type="audio" isObjective="true" url="audio/ComicBook_P12_1b.mp3" />
+				</followup>
+				
+				<over>
+					<asset id="cb_sunglasses" type="audio" url="audio/ComicBook_sunglasses.mp3" />
+				</over>
+				
+				<complete>
+					<asset id="cb_p12_1c" type="audio" url="audio/ComicBook_P12_1c.mp3" />
+				</complete>
+				
+				<pow id="">
+					<asset id="cb_p12_2" type="audio" url="audio/ComicBook_P12_2.mp3" />
+					<asset id="cb_click_sw_1" type="audio" isObjective="true" url="audio/ComicBook_Click_SW_1.mp3" />
+				</pow>
+			</frame>
+			
+			<frame id="f13" loop="sw.game.comicbook.Loop1">
+				<sentence>
+					<string><![CDATA[The Super Readers saved the day!]]></string>
+				</sentence>
+				
+				<followup>
+					<asset id="cb_p12_4" type="audio" url="audio/ComicBook_P12_4.mp3" />
+					<!--asset id="cb_p12_5" type="audio" url="audio/ComicBook_P12_5.mp3" /-->
+					<asset id="cb_p12_6" type="audio" url="audio/ComicBook_P12_6.mp3" />
+				</followup>
+				
+				
+			</frame>
+			
+		</frames>
+		
+		
+	</game>
+	
+
+	
+
+
+	
+
+</game>

@@ -1,0 +1,104 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letter Writer Helper | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="letterwriterHeader">Letter Writer Helper</h4></a>
+  <ul id="printSideNav">
+   <li><a href="letter.html"><span>Letter</span></a></li>
+   <li><a href="email.html" class="selected"><span>E-mail</span></a></li>
+   <li><a href="greeting_card.html"><span>Greeting Card</span></a></li>
+   <li><a href="postcard.html"><span>Postcard</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>E-mail</h1>
+    </div>
+   </div>
+   <div id="grooveHowtoContent">
+    <div class="email-intro">
+     <p class="email-desc">If you want a quick way to keep in touch with a friend - or a bunch of friends all at once - then e-mail is the way to go! Take a look at the parts of an e-mail, then write your own.</p>
+     <p class="hint email-desc">Roll over the text below for more information.</p>
+    </div> <img src="../../i/games/letterwriter/email_a.gif" width="291" height="129" alt="Arthur sitting in front of a computer" border="0" class="email-img">
+    <div id="email">
+     <dl>
+      <dt style="cursor: default; ">
+       FROM: arthur_feedback@wgbh.org
+      </dt>
+      <dd>
+       Your e-mail address is filled in automatically.
+      </dd>
+      <dt style="cursor: default; ">
+       TO: buster_feedback@wgbh.org
+      </dt>
+      <dd>
+       E-mail address of your friend.
+      </dd>
+      <dt style="cursor: default; ">
+       SUBJECT: My Famous Friend!
+      </dt>
+      <dd>
+       Lets your friend know what the e-mail is about.
+      </dd>
+     </dl>
+     <dl class="below">
+      <dt style="cursor: default; ">
+       Dear Buster,
+      </dt>
+      <dd>
+       <b><b>Greeting:</b></b> Says hello, and shows who you're writing to.
+      </dd>
+      <dt style="cursor: default; ">
+       Hey! I just saw your picture in the Elwood City Times. Totally cool! Of course, I guess that's what happens when you win the Annual Elwood City Pie-Eating Contest!
+      </dt>
+      <dd>
+       <b>Body:</b> Here's what you're telling the other person.
+      </dd>
+      <dt style="cursor: default; ">
+       So, how does it feel to be a celebrity? Do you have to wear dark glasses everywhere you go? If you do, be careful! Remember that thorn bush you crashed into last time? Ouch!
+      </dt>
+      <dd>
+       <b>Body:</b> For each new thing you talk about, start a new paragraph.
+      </dd>
+      <dt style="cursor: default; ">
+       Anyway, congratulations! I knew you could do it! : - )
+      </dt>
+      <dd>
+       <b>Emoticon:</b> This sideways smiley face is called an emoticon. Emoticons show emotions like happy, sad, or silly.
+      </dd>
+      <dt style="cursor: default; ">
+       Your proud friend,<br> Arthur
+      </dt>
+      <dd>
+       <b>Closing and Signature:</b> Says good-bye, and says who you are.
+      </dd>
+      <dt style="cursor: default; ">
+       P.S. I sent this e-mail to Brain, Francine, Binky, and Muffy, too. I know they'll want to see your picture in the paper!
+      </dt>
+      <dd>
+       <b>Post Script:</b> Forget something? Add it to the end!
+      </dd>
+     </dl>
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/poetry/index.html" id="rcPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/print/braille/index.html" id="rcBraille">You've Got Braille</a></li>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

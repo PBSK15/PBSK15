@@ -1,0 +1,53 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Ask Prunella | PBS Kids' %}
+{% set desc = 'Have a question about the future of Arthur and his friends? Ask Prunella! Her crystal ball will predict what is to come…' %}
+{% set keywds = 'Prunella, game, fortune, question, predictions' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div id="mainFeature" class="fo_header">
+  <table id="tableAK">
+   <tbody>
+    <tr>
+     <td colspan="3"><img src="/arthur/i/games/askprunella/prunella_top.gif" width="622" height="15" border="0" alt=""></td>
+    </tr>
+    <tr>
+     <td colspan="3"><img src="/arthur/i/games/askprunella/prunella_title.gif" width="387" height="152" border="0" alt="" class="float-left"><img src="/arthur/i/games/askprunella/prunella_tophead.gif" width="251" height="152" border="0" alt=""></td>
+    </tr>
+    <tr>
+     <td><img src="/arthur/i/games/askprunella/prunella_leftcurtain.gif" width="151" height="340" border="0" alt=""></td>
+     <td>
+      <table>
+       <tbody>
+        <tr>
+         <td colspan="3"><img src="/arthur/i/games/askprunella/prunella_twinkle_top.gif" width="305" height="68" border="0" alt=""></td>
+        </tr>
+        <tr>
+         <td><img src="/arthur/i/games/askprunella/prunella_twinkle_left.gif" width="44" height="157" border="0" alt=""></td>
+         <td>
+          <form action="/cgi-registry/arthur/askprunella.php" method="post" id="predict_form"><input type="image" src="/arthur/i/games/askprunella/ipredict.gif" width="217" height="157" hspace="0" vspace="0" border="0" align="left" alt="Click here for your fortune" name="first"> <input type="hidden" name="featurepath" value="/arthur/games/askprunella/"> <input type="hidden" name="fortunecount" value="71">
+          </form></td>
+         <td><img src="/arthur/i/games/askprunella/prunella_twinkle_right.gif" width="44" height="157" border="0" alt=""></td>
+        </tr>
+        <tr>
+         <td colspan="3"><img src="/arthur/i/games/askprunella/prunella_crystallbottom.gif" width="305" height="115" align="left" alt=""></td>
+        </tr>
+       </tbody>
+      </table></td>
+     <td><img src="/arthur/i/games/askprunella/prunella_rightcurtain.gif" width="182" height="340" border="0" alt=""></td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/games/askbrain/index.html" id="rcAskBrain">Ask The Brain</a></li>
+   <li><a href="/arthur/print/grooveit/index.html" id="rcGrooveIt">Groove It!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

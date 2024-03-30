@@ -1,0 +1,129 @@
+<game id="woofsterjourney" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . WOOFSTER'S JOURNEY TO THE GOLDEN BONE | PBS KIDS]]></title>
+	<swf url="sections/games/woofstersjourney/woofster_journey_main.swf" />
+
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "false"
+		activeStickersPerGame = "5"
+		gameDebug = "false"
+	/>
+	
+
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+
+		<asset id="princess" location="game/superhero" url="../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../promos/endscreen_promo_rhymeroll.jpg" />
+		
+	</promos>
+		
+	
+	<game>		
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/woofstersjourney/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<asset id="gameUI" type="swf" url="woofster_journey_ui.swf"/>
+			<asset id="keyCapture" type="swf" url="keyCaptureFix.swf"/>
+			<asset id="mazeart" type="swf" url="woofster_journey_mazeart.swf"/>
+			<asset id="title" type="audio" url="audio/global/gb_title.mp3" />
+		
+			
+			<!-- LETTERS -->
+			<asset id="letter_a" type="audio" url="audio/spelling/letters/gb_letterA.mp3" />
+			<asset id="letter_d" type="audio" url="audio/spelling/letters/gb_letterD.mp3" />				
+			<asset id="letter_e" type="audio" url="audio/spelling/letters/gb_letterE.mp3" />
+			<asset id="letter_i" type="audio" url="audio/spelling/letters/gb_letterI.mp3" />
+			<asset id="letter_j" type="audio" url="audio/spelling/letters/gb_letterJ.mp3" />
+			<asset id="letter_l" type="audio" url="audio/spelling/letters/gb_letterL.mp3" />
+			<asset id="letter_p" type="audio" url="audio/spelling/letters/gb_letterP.mp3" />
+			<asset id="letter_r" type="audio" url="audio/spelling/letters/gb_letterR.mp3" />
+			<asset id="letter_s" type="audio" url="audio/spelling/letters/gb_letterS.mp3" />
+			<asset id="letter_w" type="audio" url="audio/spelling/letters/gb_letterW.mp3" />
+
+
+			<asset id="definition_armor" type="audio" url="audio/pickups/gb_castle_definition_armor.mp3" />
+			<asset id="definition_drawbridge" type="audio" url="audio/pickups/gb_castle_definition_drawbridge.mp3" />
+			<asset id="definition_goblet" type="audio" url="audio/pickups/gb_castle_definition_goblet.mp3" />
+			<asset id="definition_scepter" type="audio" url="audio/pickups/gb_castle_definition_scepter.mp3" />
+			<asset id="definition_throne" type="audio" url="audio/pickups/gb_castle_definition_throne.mp3" />
+			<asset id="definition_ferret" type="audio" url="audio/pickups/gb_prairie_definition_ferret.mp3" />
+			<asset id="definition_needlegrass" type="audio" url="audio/pickups/gb_prairie_definition_needlegrass.mp3" />
+			<asset id="definition_pioneer" type="audio" url="audio/pickups/gb_prairie_definition_pioneer.mp3" />
+			<asset id="definition_prairiedog" type="audio" url="audio/pickups/gb_prairie_definition_prairiedog.mp3" />
+			<asset id="definition_seeds" type="audio" url="audio/pickups/gb_prairie_definition_seeds.mp3" />
+
+			<asset id="word_armor" type="audio" url="audio/pickups/gb_castle_armor.mp3" />
+			<asset id="word_drawbridge" type="audio" url="audio/pickups/gb_castle_drawbridge.mp3" />
+			<asset id="word_goblet" type="audio" url="audio/pickups/gb_castle_goblet.mp3" />
+			<asset id="word_scepter" type="audio" url="audio/pickups/gb_castle_scepter.mp3" />
+			<asset id="word_throne" type="audio" url="audio/pickups/gb_castle_throne.mp3" />
+			<asset id="word_ferret" type="audio" url="audio/pickups/gb_prairie_ferret.mp3" />
+			<asset id="word_needlegrass" type="audio" url="audio/pickups/gb_prairie_needlegrass.mp3" />
+			<asset id="word_pioneer" type="audio" url="audio/pickups/gb_prairie_pioneer.mp3" />
+			<asset id="word_prairiedog" type="audio" url="audio/pickups/gb_praire_prairiedog.mp3" />
+			<asset id="word_seeds" type="audio" url="audio/pickups/gb_prairie_seeds.mp3" />			
+			
+			<asset id="letter_kudos_1" type="audio" url="audio/global/gb_kudos1.mp3" />
+			<asset id="letter_kudos_2" type="audio" url="audio/global/gb_kudos2.mp3" />
+			<asset id="letter_kudos_3" type="audio" url="audio/global/gb_kudos3.mp3" />
+			<asset id="letter_kudos_4" type="audio" url="audio/global/gb_kudos4.mp3" />
+			
+			<asset id="treasure_kudos_start" type="audio" url="audio/global/gb_treasurechest.mp3" />
+			<asset id="treasure_word_start" type="audio" url="audio/global/gb_treasure_word.mp3" />
+			<!-- <asset id="treasure_word_know" type="audio" url="audio/global/gb_know.mp3" /> -->
+
+			<asset id="treasure_word_kudos_end_1" type="audio" url="audio/global/gb_word_kudos_end_1.mp3" />
+			<asset id="treasure_word_kudos_end_2" type="audio" url="audio/global/gb_word_kudos_end_2.mp3" />
+			
+			<asset id="maze_timeout_0" type="audio" url="audio/maze/gb_timeout1.mp3" />
+			<asset id="maze_timeout_1" type="audio" url="audio/maze/gb_timeout2.mp3" />
+			<asset id="maze_timeout_2" type="audio" url="audio/maze/gb_timeout3.mp3" />
+
+			<asset id="obstacle_oops_0" type="audio" url="audio/maze/gb_obstacleVO1.mp3" />			
+			<asset id="obstacle_oops_1" type="audio" url="audio/maze/gb_obstacle_VO2.mp3" />	
+			
+			<asset id="prompt_castle" type="audio" url="audio/maze/gb_castle_load.mp3" />
+			<asset id="prompt_prairie" type="audio" url="audio/maze/gb_prairie_load.mp3" />
+
+		</assets>
+<!--
+		
+		<onDemandResources>
+			
+		
+			
+		</onDemandResources>
+-->	
+
+				
+			
+			
+			
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

@@ -1,0 +1,285 @@
+<game id="superwhyconcentration" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPERWHY CONCENTRATION | PBS KIDS]]></title>
+	<swf url="sections/games/concentration/wonderred/wonderredConcentration.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "true"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="wonderred_endscreen" url="libraries/wonderred_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+		<asset id="princess" location="game/superhero" url="../../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../../promos/endscreen_promo_rhymeroll.jpg" />
+		
+	</promos>
+		
+	
+	<game>
+				
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/concentration/wonderred/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			
+			<!-- <asset id="wrHelp" type="audio" url="audio/wr_help.mp3"/> -->
+			
+			<asset id="wrChoose" type="audio" url="audio/MU_WR_DifficultyPopup.mp3"/>
+			<asset id="wrEasy" type="audio" url="audio/MU_WR_Easy.mp3"/>
+			<asset id="wrHard" type="audio" url="audio/MU_WR_Hard.mp3"/>
+			
+			<!-- <asset id="wrDirections" type="audio" url="audio/wr_directions.mp3"/> --><!-- full directions -->
+			<asset id="wrObjective" type="audio" url="audio/MU_WR_Prompt_Timeout.mp3"/><!-- short 'click on 2' instructions -->
+
+			<asset id="wrBeginsWithLetter" type="audio" url="audio/MU_WR_Kudos2.mp3"/>
+            <asset id="wrKudosSound" type="audio" url="audio/kudosSound.mp3"/>
+
+			<!-- simple kudos, ex: wonderrific -->
+			<!-- ?????????????? -->
+			<asset id="wrWonderific" type="audio" url="audio/MU_WR_Kudos8.mp3"/>
+			<asset id="wrTerrific" type="audio" url="audio/MU_WR_Kudos7.mp3"/>
+			<asset id="wrGreat" type="audio" url="audio/MU_WR_Kudos9.mp3"/>
+			<!-- end of simple kudos -->
+			
+			<!-- ?????????????? -->
+			<asset id="wrDoesntBeginWith" type="audio" url="audio/MU_WR_Oops1.mp3"/>
+
+			<!-- simple oops, ex: keep trying -->
+			<!-- ?????????????? -->
+			<asset id="wrKeepLooking" type="audio" url="audio/MU_WR_Oops4.mp3"/>
+			<asset id="wrTryAnotherPair" type="audio" url="audio/MU_WR_Oops5.mp3"/>
+			<!-- end simple oops -->
+			
+			
+			<asset id="wrLastMatch" type="audio" url="audio/MU_WR_LastMatch.mp3"/>
+			
+			<asset id="wrAke" type="audio" url="audio/words/MU_WR_Ake.mp3"/>
+			<asset id="wrAll" type="audio" url="audio/words/MU_WR_All.mp3"/>
+			<asset id="wrAmp" type="audio" url="audio/words/MU_WR_Amp.mp3"/>
+			<asset id="wrAn" type="audio" url="audio/words/MU_WR_An.mp3"/>
+			<asset id="wrAr" type="audio" url="audio/words/MU_WR_Ar.mp3"/>
+			<asset id="wrArn" type="audio" url="audio/words/MU_WR_Arn.mp3"/>
+			<asset id="wrAt" type="audio" url="audio/words/MU_WR_At.mp3"/>
+			<asset id="wrEed" type="audio" url="audio/words/MU_WR_Eed.mp3"/>
+			<asset id="wrEnt" type="audio" url="audio/words/MU_WR_Ent.mp3"/>
+			<asset id="wrEst" type="audio" url="audio/words/MU_WR_Est.mp3"/>
+			<asset id="wrOat" type="audio" url="audio/words/MU_WR_Oat.mp3"/>
+			<asset id="wrOo" type="audio" url="audio/words/MU_WR_Oo.mp3"/>
+			<asset id="wrOp" type="audio" url="audio/words/MU_WR_Op.mp3"/>
+			<asset id="wrOt" type="audio" url="audio/words/MU_WR_Ot.mp3"/>
+			<asset id="wrOx" type="audio" url="audio/words/MU_WR_Ox.mp3"/>
+			<asset id="wrUg" type="audio" url="audio/words/MU_WR_Ug.mp3"/>
+			<asset id="wrUn" type="audio" url="audio/words/MU_WR_Un.mp3"/>
+			<asset id="wrUck" type="audio" url="audio/words/MU_WR_Uck.mp3"/>
+
+			<asset id="wr_phoneme_B" type="audio" url="audio/phonemes/MU_WR_Bbb.mp3"/>
+			<asset id="wr_phoneme_C" type="audio" url="audio/phonemes/MU_WR_Ccc.mp3"/>
+			<asset id="wr_phoneme_D" type="audio" url="audio/phonemes/MU_WR_Ddd.mp3"/>
+			<asset id="wr_phoneme_F" type="audio" url="audio/phonemes/MU_WR_Fff.mp3"/>
+			<asset id="wr_phoneme_G" type="audio" url="audio/phonemes/MU_WR_Ggg.mp3"/>
+			<asset id="wr_phoneme_H" type="audio" url="audio/phonemes/MU_WR_Hhh.mp3"/>
+			<asset id="wr_phoneme_J" type="audio" url="audio/phonemes/MU_WR_Jjj.mp3"/>
+			<asset id="wr_phoneme_L" type="audio" url="audio/phonemes/MU_WR_Lll.mp3"/>
+			<asset id="wr_phoneme_M" type="audio" url="audio/phonemes/MU_WR_Mmm.mp3"/>
+			<asset id="wr_phoneme_N" type="audio" url="audio/phonemes/MU_WR_Nnn.mp3"/>
+			<asset id="wr_phoneme_P" type="audio" url="audio/phonemes/MU_WR_Ppp.mp3"/>
+			<asset id="wr_phoneme_R" type="audio" url="audio/phonemes/MU_WR_Rrr.mp3"/>
+			<asset id="wr_phoneme_S" type="audio" url="audio/phonemes/MU_WR_Sss.mp3"/>
+			<asset id="wr_phoneme_T" type="audio" url="audio/phonemes/MU_WR_Ttt.mp3"/>
+			<asset id="wr_phoneme_V" type="audio" url="audio/phonemes/MU_WR_Vvv.mp3"/>
+			<asset id="wr_phoneme_W" type="audio" url="audio/phonemes/MU_WR_Www.mp3"/>
+			<asset id="wr_phoneme_Y" type="audio" url="audio/phonemes/MU_WR_Yyy.mp3"/>
+			<asset id="wr_phoneme_Z" type="audio" url="audio/phonemes/MU_WR_Zzz.mp3"/>
+		</assets>
+	
+		<cards>
+
+
+			<card id="b">
+				<asset id="b" phonemeID="wr_phoneme_B" usePhoneme="true" type="audio" url="audio/letters/MU_WR_B.mp3">
+					<text><![CDATA[B]]></text>
+				</asset>
+				<asset id="ball" hasImage="true" familyID="wrAll" type="audio" url="audio/words/MU_WR_Ball.mp3">
+					<text><![CDATA[_all]]></text>
+				</asset>
+			</card>
+
+			<card id="c">
+				<asset id="c" phonemeID="wr_phoneme_C" usePhoneme="true" type="audio" url="audio/letters/MU_WR_C.mp3">
+					<text><![CDATA[C]]></text>
+				</asset>
+				<asset id="cake" hasImage="true" familyID="wrAke" type="audio" url="audio/words/MU_WR_Cake.mp3">
+					<text><![CDATA[_ake]]></text>
+				</asset>
+			</card>
+
+			<card id="d">
+				<asset id="d" phonemeID="wr_phoneme_D" usePhoneme="true" type="audio" url="audio/letters/MU_WR_D.mp3">
+					<text><![CDATA[D]]></text>
+				</asset>
+				<asset id="duck" hasImage="true" familyID="wrUck" type="audio" url="audio/words/MU_WR_Duck.mp3">
+					<text><![CDATA[_uck]]></text>
+				</asset>
+			</card>
+
+			<card id="f">
+				<asset id="f" phonemeID="wr_phoneme_F" usePhoneme="true" type="audio" url="audio/letters/MU_WR_F.mp3">
+					<text><![CDATA[F]]></text>
+				</asset>
+				<asset id="fox" hasImage="true" familyID="wrOx" type="audio" url="audio/words/MU_WR_Fox.mp3">
+					<text><![CDATA[_ox]]></text>
+				</asset>
+			</card>
+
+			<card id="g">
+				<asset id="g" phonemeID="wr_phoneme_G" usePhoneme="true" type="audio" url="audio/letters/MU_WR_G.mp3">
+					<text><![CDATA[G]]></text>
+				</asset>
+				<asset id="goat" hasImage="true" familyID="wrOat" type="audio" url="audio/words/MU_WR_Goat.mp3">
+					<text><![CDATA[_oat]]></text>
+				</asset>
+			</card>
+			
+			<card id="h">
+				<asset id="h" phonemeID="wr_phoneme_H" usePhoneme="true" type="audio" url="audio/letters/MU_WR_H.mp3">
+					<text><![CDATA[H]]></text>
+				</asset>
+				<asset id="hat" hasImage="true" familyID="wrAt" type="audio" url="audio/words/MU_WR_Hat.mp3">
+					<text><![CDATA[_at]]></text>
+				</asset>
+			</card>
+			
+			<card id="j">
+				<asset id="j" phonemeID="wr_phoneme_J" usePhoneme="true" type="audio" url="audio/letters/MU_WR_J.mp3">
+					<text><![CDATA[J]]></text>
+				</asset>
+				<asset id="jar" hasImage="true" familyID="wrAr" type="audio" url="audio/words/MU_WR_Jar.mp3">
+					<text><![CDATA[_ar]]></text>
+				</asset>
+			</card>
+
+			<card id="l">
+				<asset id="l" phonemeID="wr_phoneme_L" usePhoneme="true" type="audio" url="audio/letters/MU_WR_L.mp3">
+					<text><![CDATA[L]]></text>
+				</asset>
+				<asset id="lamp" hasImage="true" familyID="wrAmp" type="audio" url="audio/words/MU_WR_Lamp.mp3">
+					<text><![CDATA[_amp]]></text>
+				</asset>
+			</card>
+
+			<card id="m">
+				<asset id="m" phonemeID="wr_phoneme_M" usePhoneme="true" type="audio" url="audio/letters/MU_WR_M.mp3">
+					<text><![CDATA[M]]></text>
+				</asset>
+				<asset id="mop" hasImage="true" familyID="wrOp" type="audio" url="audio/words/MU_WR_Mop.mp3">
+					<text><![CDATA[_op]]></text>
+				</asset>
+			</card>
+						
+			<card id="n">
+				<asset id="n" phonemeID="wr_phoneme_N" usePhoneme="true" type="audio" url="audio/letters/MU_WR_N.mp3">
+					<text><![CDATA[N]]></text>
+				</asset>
+				<asset id="nest" hasImage="true" familyID="wrEst" type="audio" url="audio/words/MU_WR_Nest.mp3">
+					<text><![CDATA[_est]]></text>
+				</asset>
+			</card>
+
+			<card id="p">
+				<asset id="p" phonemeID="wr_phoneme_P" usePhoneme="true" type="audio" url="audio/letters/MU_WR_P.mp3">
+					<text><![CDATA[P]]></text>
+				</asset>
+				<asset id="pot" hasImage="true" familyID="wrOt" type="audio" url="audio/words/MU_WR_Pot.mp3">
+					<text><![CDATA[_ot]]></text>
+				</asset>
+			</card>
+
+			<card id="r">
+				<asset id="r" phonemeID="wr_phoneme_R" usePhoneme="true" type="audio" url="audio/letters/MU_WR_R.mp3">
+					<text><![CDATA[R]]></text>
+				</asset>
+				<asset id="rug" hasImage="true" familyID="wrUg" type="audio" url="audio/words/MU_WR_Rug.mp3">
+					<text><![CDATA[_ug]]></text>
+				</asset>
+			</card>
+
+			<card id="s">
+				<asset id="s" phonemeID="wr_phoneme_S" usePhoneme="true" type="audio" url="audio/letters/MU_WR_S.mp3">
+					<text><![CDATA[S]]></text>
+				</asset>
+				<asset id="sun" hasImage="true" familyID="wrUn" type="audio" url="audio/words/MU_WR_Sun.mp3">
+					<text><![CDATA[_un]]></text>
+				</asset>
+			</card>
+			
+			<card id="t">
+				<asset id="t" phonemeID="wr_phoneme_T" usePhoneme="true" type="audio" url="audio/letters/MU_WR_T.mp3">
+					<text><![CDATA[T]]></text>
+				</asset>
+				<asset id="tent" hasImage="true" familyID="wrEnt" type="audio" url="audio/words/MU_WR_Tent.mp3">
+					<text><![CDATA[_ent]]></text>
+				</asset>
+			</card>
+
+			<card id="v">
+				<asset id="v" phonemeID="wr_phoneme_V" usePhoneme="true" type="audio" url="audio/letters/MU_WR_V.mp3">
+					<text><![CDATA[V]]></text>
+				</asset>
+				<asset id="van" hasImage="true" familyID="wrAn" type="audio" url="audio/words/MU_WR_Van.mp3">
+					<text><![CDATA[_an]]></text>
+				</asset>
+			</card>
+			
+			<card id="w">
+				<asset id="w" phonemeID="wr_phoneme_W" usePhoneme="true" type="audio" url="audio/letters/MU_WR_W.mp3">
+					<text><![CDATA[W]]></text>
+				</asset>
+				<asset id="weed" hasImage="true" familyID="wrEed" type="audio" url="audio/words/MU_WR_Weed.mp3">
+					<text><![CDATA[_eed]]></text>
+				</asset>
+			</card>
+
+			<card id="y">
+				<asset id="y" phonemeID="wr_phoneme_Y" usePhoneme="true" type="audio" url="audio/letters/MU_WR_Y.mp3">
+					<text><![CDATA[Y]]></text>
+				</asset>
+				<asset id="yarn" hasImage="true" familyID="wrArn" type="audio" url="audio/words/MU_WR_Yarn.mp3">
+					<text><![CDATA[_arn]]></text>
+				</asset>
+			</card>
+			
+			<card id="z">
+				<asset id="z" phonemeID="wr_phoneme_Z" usePhoneme="true" type="audio" url="audio/letters/MU_WR_Z.mp3">
+					<text><![CDATA[Z]]></text>
+				</asset>
+				<asset id="zoo" hasImage="true" familyID="wrOo" type="audio" url="audio/words/MU_WR_Zoo.mp3">
+					<text><![CDATA[_oo]]></text>
+				</asset>
+			</card>
+			
+		</cards>
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

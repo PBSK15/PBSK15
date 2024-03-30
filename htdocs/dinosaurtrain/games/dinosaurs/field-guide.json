@@ -1,0 +1,901 @@
+[{
+    "name": "Adocus",
+    "icon": [0,0],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Omnivore",
+    "size": 0.3,
+    "imageHeight": 264,
+    "facts": 3
+},{
+    "name": "Alamosaurus",
+    "icon": [0,1],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 7.1,
+    "imageHeight": 256,
+    "facts": 3
+},{
+    "name": "Allosaurus",
+    "icon": [0,2],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 4,
+    "imageHeight": 237,
+    "facts": 3
+},{
+    "name": "Amargasaurus",
+    "icon": [0,3],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 2.6,
+    "imageHeight": 194,
+    "facts": 3
+},{
+    "name": "Ankylosaurus",
+    "icon": [0,4],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 2.7,
+    "imageHeight": 210,
+    "facts": 3
+},{
+    "name": "Apatosaurus",
+    "icon": [0,5],
+    "period": "Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 7.49,
+    "imageHeight": 201,
+    "facts": 3
+},{
+    "name": "Archaeopteryx",
+    "icon": [0,6],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.4,
+    "imageHeight": 262,
+    "facts": 3
+},{
+    "name": "Archelon",
+    "icon": [0,7],
+    "period": "Cretaceous",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 2,
+    "imageHeight": 249,
+    "facts": 3
+},{
+    "name": "Argentinosaurus",
+    "icon": [0,8],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 9.3,
+    "imageHeight": 216,
+    "facts": 3
+},{
+    "name": "Avisaurus",
+    "icon": [0,9],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.6,
+    "imageHeight": 269,
+    "facts": 3
+},{
+    "name": "Brachiosaurus",
+    "icon": [1,0],
+    "period": "Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 13,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Beelzebufo",
+    "icon": [8,5],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Carnivore",
+    "size": 0.44,
+    "imageHeight": 273,
+    "facts": 3
+},{
+    "name": "Carcharodontosaurus",
+    "icon": [8,6],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 4,
+    "imageHeight": 240,
+    "facts": 3
+},{
+    "name": "Castrocauda",
+    "icon": [8,7],
+    "period": "Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Omnivore",
+    "size": 0.28,
+    "imageHeight": 186,
+    "facts": 3
+},{
+    "name": "Chirostenotes",
+    "icon": [1,1],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Omnivore",
+    "size": 1.49,
+    "imageHeight": 274,
+    "facts": 3
+},{
+    "name": "Cimolestes",
+    "icon": [1,2],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Carnivore",
+    "size": 0.17,
+    "imageHeight": 160,
+    "facts": 3
+},{
+    "name": "Confuciusornis",
+    "icon": [1,3],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Omnivore",
+    "size": 0.45,
+    "imageHeight": 264,
+    "facts": 3
+},{
+    "name": "Corythosaurus",
+    "icon": [1,4],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 6.8,
+    "imageHeight": 273,
+    "facts": 3
+},{
+    "name": "Cretoxyrhina",
+    "icon": [1,5],
+    "period": "Cretaceous",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 2.9,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Cryolophosaurus",
+    "icon": [1,6],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 2,
+    "imageHeight": 224,
+    "facts": 3
+},{
+    "name": "Daspletosaurus",
+    "icon": [1,7],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 3.2,
+    "imageHeight": 242,
+    "facts": 3
+},{
+    "name": "Deinonychus",
+    "icon": [1,8],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 1.8,
+    "imageHeight": 273,
+    "facts": 3
+},{
+    "name": "Deinosuchus",
+    "icon": [1,9],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 1.6,
+    "imageHeight": 95,
+    "facts": 3
+},{
+    "name": "Dilophosaurus",
+    "icon": [2,0],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 2.05,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Dimetrodon",
+    "icon": [8,8],
+    "period": "Permian",
+    "mobility": "Quadruped",
+    "diet": "Carnivore",
+    "size": 2,
+    "imageHeight": 274,
+    "facts": 3
+},{
+    "name": "Diplodocus",
+    "icon": [2,1],
+    "period": "Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 7.49,
+    "imageHeight": 212,
+    "facts": 3
+},{
+    "name": "Effigia",
+    "icon": [8,9],
+    "period": "Triassic",
+    "mobility": "Biped",
+    "diet": "Omnivore",
+    "size": 1.33,
+    "imageHeight": 273,
+    "facts": 3
+},{
+    "name": "Einiosaurus",
+    "icon": [2,2],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 2,
+    "imageHeight": 264,
+    "facts": 3
+},{
+    "name": "Elasmosaurus",
+    "icon": [2,3],
+    "period": "Cretaceous",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 4.55,
+    "imageHeight": 230,
+    "facts": 3
+},{
+    "name": "Enantiornithine",
+    "icon": [2,4],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Omnivore",
+    "size": 0.35,
+    "imageHeight": 237,
+    "facts": 3
+},{
+    "name": "Eoraptor",
+    "icon": [2,5],
+    "period": "Triassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.5,
+    "imageHeight": 265,
+    "facts": 3
+},{
+    "name": "Euoplocephalus",
+    "icon": [2,6],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 2,
+    "imageHeight": 239,
+    "facts": 3
+},{
+    "name": "Fabrosaurus",
+    "icon": [2,7],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 0.49,
+    "imageHeight": 261,
+    "facts": 3
+},{
+    "name": "Fruitafossor",
+    "icon": [9,0],
+    "period": "Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Carnivore",
+    "size": 0.11,
+    "imageHeight": 179,
+    "facts": 3
+},{
+    "name": "Gallimimus",
+    "icon": [2,8],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Omnivore",
+    "size": 3.51,
+    "imageHeight": 268,
+    "facts": 3
+},{
+    "name": "Giganotosaurus",
+    "icon": [2,9],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 4.2,
+    "imageHeight": 235,
+    "facts": 3
+},{
+    "name": "Glyptops",
+    "icon": [9,1],
+    "period": "Jurassic/Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Omnivore",
+    "size": 0.28,
+    "imageHeight": 270,
+    "facts": 3
+},{
+    "name": "Goniopholis",
+    "icon": [9,2],
+    "period": "Jurassic/Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Omnivore",
+    "size": 0.33,
+    "imageHeight": 105,
+    "facts": 3
+},{
+    "name": "Hadrosaurus",
+    "icon": [3,0],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 3.6,
+    "imageHeight": 273,
+    "facts": 3
+},{
+    "name": "Haplocheirus",
+    "icon": [9,3],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.66,
+    "imageHeight": 265,
+    "facts": 3
+},{
+    "name": "Hesperornis",
+    "icon": [3,1],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 1.3,
+    "imageHeight": 270,
+    "facts": 3
+},{
+    "name": "Iguanadon",
+    "icon": [3,2],
+    "period": "Cretaceous",
+    "mobility": "Biped,Quadruped",
+    "diet": "Herbivore",
+    "size": 3,
+    "imageHeight": 220,
+    "measurementOffset": 45,
+    "facts": 3
+},{
+    "name": "Jaxartosaurus",
+    "icon": [3,3],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 3.8,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Jeholornis",
+    "icon": [3,4],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 0.45,
+    "imageHeight": 258,
+    "facts": 3
+},{
+    "name": "Kentrosaurus",
+    "icon": [3,5],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 1.1,
+    "imageHeight": 193,
+    "facts": 3
+},{
+    "name": "Kosmoceratops",
+    "icon": [3,6],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 1.75,
+    "imageHeight": 261,
+    "facts": 3
+},{
+    "name": "Lambeosaurus",
+    "icon": [3,7],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 6.65,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Lesothosaurus",
+    "icon": [3,8],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 0.45,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Maiasaura",
+    "icon": [3,9],
+    "period": "Cretaceous",
+    "mobility": "Biped,Quadruped",
+    "diet": "Herbivore",
+    "size": 4,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Masiakasaurus",
+    "icon": [4,0],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.7,
+    "imageHeight": 250,
+    "facts": 3
+},{
+    "name": "Megalosaurus",
+    "icon": [4,1],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 3,
+    "imageHeight": 235,
+    "facts": 3
+},{
+    "name": "Megaraptor",
+    "icon": [4,2],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 3,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Michelinoceras",
+    "icon": [4,3],
+    "period": "Triassic",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 0.7,
+    "imageHeight": 190,
+    "facts": 3
+},{
+    "name": "Microraptor",
+    "icon": [4,4],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.6,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Mosasaurus",
+    "icon": [4,5],
+    "period": "Cretaceous",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 2.9,
+    "imageHeight": 134,
+    "facts": 3
+},{
+    "name": "Nodosaurus",
+    "icon": [4,6],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 1.65,
+    "imageHeight": 222,
+    "facts": 3
+},{
+    "name": "Ophthalmosaurus",
+    "icon": [4,7],
+    "period": "Jurassic",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 2.3,
+    "imageHeight": 265,
+    "facts": 3
+},{
+    "name": "Ornithomimus",
+    "icon": [4,8],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Omnivore",
+    "size": 1.7,
+    "imageHeight": 260,
+    "facts": 3
+},{
+    "name": "Oryctodromeus",
+    "icon": [4,9],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 1,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Oviraptor",
+    "icon": [5,0],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.8,
+    "imageHeight": 271,
+    "facts": 3
+},{
+    "name": "Pachycephalosaurus",
+    "icon": [5,1],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 2.55,
+    "imageHeight": 269,
+    "facts": 3
+},{
+    "name": "Palaeobatrachus",
+    "icon": [5,2],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Carnivore",
+    "size": 0.11,
+    "imageHeight": 247,
+    "facts": 3
+},{
+    "name": "Parasaurolophus",
+    "icon": [5,3],
+    "period": "Cretaceous",
+    "mobility": "Biped,Quadruped",
+    "diet": "Herbivore",
+    "size": 6.3,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Peteinosaurus",
+    "icon": [5,4],
+    "period": "Triassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.24,
+    "imageHeight": 263,
+    "facts": 3
+},{
+    "name": "Pliosaurus",
+    "icon": [5,5],
+    "period": "Jurassic",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 6,
+    "imageHeight": 239,
+    "facts": 3
+},{
+    "name": "Polycotylus",
+    "icon": [9,4],
+    "period": "Cretaceous",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 2,
+    "imageHeight": 241,
+    "facts": 3
+},{
+    "name": "Proganochelys",
+    "icon": [5,6],
+    "period": "Triassic",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 0.22,
+    "imageHeight": 191,
+    "facts": 3
+},{
+    "name": "Protoceratops",
+    "icon": [5,7],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 0.58,
+    "imageHeight": 226,
+    "facts": 3
+},{
+    "name": "Protopteryx",
+    "icon": [9,5],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.33,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Pteranodon",
+    "icon": [5,8],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 1.8,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Pterodaustro",
+    "icon": [9,6],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.28,
+    "imageHeight": 225,
+    "facts": 3
+},{
+    "name": "Ptilodus",
+    "icon": [5,9],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Omnivore",
+    "size": 0.13,
+    "imageHeight": 111,
+    "facts": 3
+},{
+    "name": "Qantassaurus",
+    "icon": [6,0],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 0.8,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Quetzalcoatlus",
+    "icon": [6,1],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 7.49,
+    "imageHeight": 273,
+    "facts": 3
+},{
+    "name": "Raptorex",
+    "icon": [6,2],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 1.15,
+    "imageHeight": 256,
+    "facts": 3
+},{
+    "name": "Rhabdodon",
+    "icon": [6,3],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 1.65,
+    "imageHeight": 271,
+    "facts": 3
+},{
+    "name": "Rhamphorhynchus",
+    "icon": [9,7],
+    "period": "Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Carnivore",
+    "size": 0.33,
+    "imageHeight": 203,
+    "facts": 3
+},{
+    "name": "Riojasaurus",
+    "icon": [9,8],
+    "period": "Triassic",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 3.33,
+    "imageHeight": 185,
+    "facts": 3
+},{
+    "name": "Sanajeh",
+    "icon": [6,4],
+    "period": "Cretaceous",
+    "diet": "Carnivore",
+    "size": 0.2,
+    "imageHeight": 35,
+    "facts": 3
+},{
+    "name": "Sauroposeidon",
+    "icon": [6,5],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 14,
+    "imageHeight": 268,
+    "facts": 3
+},{
+    "name": "Saurornitholestes",
+    "icon": [6,6],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.95,
+    "imageHeight": 262,
+    "facts": 3
+},{
+    "name": "Shonisaurus",
+    "icon": [6,7],
+    "period": "Triassic",
+    "mobility": "Marine",
+    "diet": "Carnivore",
+    "size": 4,
+    "imageHeight": 203,
+    "facts": 3
+},{
+    "name": "Sinovenator",
+    "icon": [6,8],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.45,
+    "imageHeight": 267,
+    "facts": 3
+},{
+    "name": "Spinosaurus",
+    "icon": [6,9],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 5.4,
+    "imageHeight": 245,
+    "facts": 3
+},{
+    "name": "Stegosaurus",
+    "icon": [7,0],
+    "period": "Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 4,
+    "imageHeight": 255,
+    "facts": 3
+},{
+    "name": "Stygimoloch",
+    "icon": [7,1],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 1.95,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Styracosaurus",
+    "icon": [7,2],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 2.15,
+    "imageHeight": 272,
+    "facts": 3
+},{
+    "name": "Therizinosaurus",
+    "icon": [7,3],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 5,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Triceratops",
+    "icon": [7,4],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 3,
+    "imageHeight": 247,
+    "facts": 3
+},{
+    "name": "Troodon",
+    "icon": [7,5],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Omnivore",
+    "size": 1.75,
+    "imageHeight": 266,
+    "facts": 3
+},{
+    "name": "Tyrannosaurus",
+    "icon": [7,6],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 4,
+    "imageHeight": 239,
+    "facts": 3
+},{
+    "name": "Utahraptor",
+    "icon": [7,7],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 3.9,
+    "imageHeight": 273,
+    "facts": 3
+},{
+    "name": "Velociraptor",
+    "icon": [7,8],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 0.8,
+    "imageHeight": 263,
+    "facts": 3
+},{
+    "name": "Volaticotherium",
+    "icon": [7,9],
+    "period": "Cretaceous",
+    "mobility": "Quadruped",
+    "diet": "Carnivore",
+    "size": 0.27,
+    "imageHeight": 268,
+    "facts": 3
+},{
+    "name": "Wannanosaurus",
+    "icon": [8,0],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Herbivore",
+    "size": 0.69,
+    "imageHeight": 271,
+    "facts": 3
+},{
+    "name": "Xenotarsosaurus",
+    "icon": [8,1],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 2.2,
+    "imageHeight": 270,
+    "facts": 3
+},{
+    "name": "Yangchuanosaurus",
+    "icon": [8,2],
+    "period": "Jurassic",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 4,
+    "imageHeight": 261,
+    "facts": 3
+},{
+    "name": "Zhejiangopterus",
+    "icon": [8,3],
+    "period": "Cretaceous",
+    "mobility": "Biped",
+    "diet": "Carnivore",
+    "size": 3.1,
+    "imageHeight": 275,
+    "facts": 3
+},{
+    "name": "Zigongosaurus",
+    "icon": [8,4],
+    "period": "Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Herbivore",
+    "size": 5,
+    "imageHeight": 199,
+    "facts": 3
+},{
+    "name": "Zupaysaurus",
+    "icon": [9,9],
+    "period": "Triassic/Jurassic",
+    "mobility": "Quadruped",
+    "diet": "Carnivore",
+    "size": 2.33,
+    "imageHeight": 247,
+    "facts": 3
+}]

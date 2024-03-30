@@ -1,0 +1,163 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Buster\'s Photos Page | PBS Kids' %}
+{% set desc = 'Check out Busters pictures to see his mom, the tomatoes that he grows, and more! Read Busters captions and the comments left by his friends.' %}
+{% set keywds = 'food, pictures, Buster, family, friends' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-6ff">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/buster_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/buster_top.swf", "buster", "960", "363", "9", "#66ffff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "buster");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-buster">Buster's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/buster6.jpg" width="354" height="250" alt="Buster and his mom at a food counter." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_buster.gif" width="85" height="83" alt="The Brain avatar" border="0" id="avatar">
+    <h3>That's my mom. Hi Mom!</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="mom-cmt"><a href="/arthur/friends/mom/index.html">MRS. READ</a>
+       <p>Hi!</p>
+      </div>
+      <div class="mom-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/buster6.jpg" width="354" height="250" alt="Buster and his mom at a food counter." border="0" id="mainImg">
+       <h3>That's my mom. Hi Mom!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="mom-cmt"><a href="/arthur/friends/mom/index.html">MRS. READ</a>
+          <p>Hi!</p>
+         </div>
+         <div class="mom-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/buster7.jpg" width="354" height="250" alt="Buster and his friend Harry, enjoying a Grebes baseball game," border="0" id="mainImg">
+       <h3>THE GREBES WIN! YAHOO!!!!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/buster8.jpg" width="354" height="250" alt="Buster and Fritz in the neighborhood garden." border="0" id="mainImg">
+       <h3>Fritz: a man who grows food. Cool!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="macgrady-cmt"><a href="/arthur/friends/macgrady/index.html">MRS. MACGRADY</a>
+          <p>The freshest tomatoes around.</p>
+         </div>
+         <div class="macgrady-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/buster1.jpg" width="354" height="250" alt="a bowl of salad" border="0" id="mainImg">
+       <h3>I eat salad three or four times a week. Salads can be really good, especially when you add things like raisins or mozzarella cheese! Yum!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/buster2.jpg" width="354" height="250" alt="some frozen and fresh food on top of the counter" border="0" id="mainImg">
+       <h3>I eat lots of fresh fruit and vegetables. But frozen treats like smoothies or fruit pops are good, too!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/buster3.jpg" width="354" height="250" alt="Sue Ellen and Muffy at the local farm market" border="0" id="mainImg">
+       <h3>Muffy and Sue Ellen at our local farm market. Everything looks so good!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/buster4.jpg" width="354" height="250" alt="fish stand at farm market" border="0" id="mainImg">
+       <h3>These fish came from Elwood City Lake. That means they didn't have to travel far to get to the market. Eating local saves gas!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/buster5.jpg" width="354" height="250" alt="Buster picking fresh tomatoes." border="0" id="mainImg">
+       <h3>I LOVE to grow my own vegetables. They taste great. They make me proud, too.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="fran-cmt"><a href="/arthur/friends/francine/index.html">FRANCINE</a>
+          <p>You SHOULD be proud. Those tomatoes look great! The ones you gave me last week were fantastic!</p>
+         </div>
+         <div class="fran-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/buster/index.html" id="rcPostcardsBuster">Postcards From Buster</a></li>
+   <li><a href="/arthur/print/cosmiccombos/index.html" id="rcCosmic">Cosmic Combos</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

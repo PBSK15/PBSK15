@@ -1,0 +1,83 @@
+{
+  "urls": [
+    "sfxclips.ogg",
+    "sfxclips.mp3"
+  ],
+  "audioSprite": [
+    {
+      "id": "Sound_cymbalcrash",
+      "startTime": 0,
+      "duration": 2377.1428571428573
+    },
+    {
+      "id": "Sound_peqjump",
+      "startTime": 4000,
+      "duration": 522.4489795918367
+    },
+    {
+      "id": "Sound_peqland",
+      "startTime": 6000,
+      "duration": 417.95918367346906
+    },
+    {
+      "id": "Sound_peqtriple2",
+      "startTime": 8000,
+      "duration": 1671.836734693878
+    },
+    {
+      "id": "Sound_pequp",
+      "startTime": 11000,
+      "duration": 600.8163265306123
+    },
+    {
+      "id": "Sound_poing",
+      "startTime": 13000,
+      "duration": 548.571428571428
+    },
+    {
+      "id": "Sound_ricochet",
+      "startTime": 15000,
+      "duration": 993.7188208616785
+    },
+    {
+      "id": "Sound_singlepianosegue",
+      "startTime": 17000,
+      "duration": 3108.5714285714303
+    },
+    {
+      "id": "Sound_sproing",
+      "startTime": 22000,
+      "duration": 470.2040816326516
+    },
+    {
+      "id": "Sound_stoogecrash2",
+      "startTime": 24000,
+      "duration": 2481.632653061226
+    },
+    {
+      "id": "sfx_applause_short",
+      "startTime": 28000,
+      "duration": 5878.616780045349
+    },
+    {
+      "id": "sfx_crowd_cheer",
+      "startTime": 35000,
+      "duration": 13558.616780045355
+    },
+    {
+      "id": "sfx_peek",
+      "startTime": 50000,
+      "duration": 417.9591836734673
+    },
+    {
+      "id": "sfx_slidedown",
+      "startTime": 52000,
+      "duration": 365.714285714283
+    },
+    {
+      "id": "sfx_slideup",
+      "startTime": 54000,
+      "duration": 548.571428571428
+    }
+  ]
+}

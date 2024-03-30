@@ -1,0 +1,53 @@
+{
+"images": ["picnic-ingame.png"],
+"frames": [
+
+    [168, 329, 51, 60], 
+    [189, 391, 51, 55], 
+    [2, 161, 109, 84], 
+    [65, 333, 101, 65], 
+    [58, 463, 160, 42], 
+    [156, 2, 94, 60], 
+    [2, 362, 54, 100], 
+    [115, 71, 81, 70], 
+    [2, 2, 152, 67], 
+    [58, 400, 129, 61], 
+    [115, 143, 88, 66], 
+    [2, 464, 48, 44], 
+    [147, 211, 59, 59], 
+    [198, 64, 55, 65], 
+    [205, 131, 43, 63], 
+    [2, 247, 61, 113], 
+    [208, 196, 41, 60], 
+    [65, 247, 80, 84], 
+    [147, 272, 66, 55], 
+    [2, 71, 111, 88]
+],
+"animations": {
+    
+        "apple":[0], 
+        "avacado":[1], 
+        "bananas":[2], 
+        "bread":[3], 
+        "carrot":[4], 
+        "cheese":[5], 
+        "corn":[6], 
+        "cucumber":[7], 
+        "eggs":[8], 
+        "grapes":[9], 
+        "lettuce":[10], 
+        "onion":[11], 
+        "orange":[12], 
+        "pear":[13], 
+        "pepper":[14], 
+        "pineapple":[15], 
+        "potato":[16], 
+        "strawberries":[17], 
+        "tomato":[18], 
+        "watermelon":[19]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:c8dd59c1dc5b840bac9d5fd56a32a35f:094224a3bb735a5dde10157122c8ba0b:44af070bbbb9d75ec48bfc8c594dcba7$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Scene Seeker' %}
+{% set desc = 'In this classic \\\"find-the-hidden-object\\\" game you will travel to exciting places to find interesting objects. You will be taken to the Big Spooky Pond, swim under the sea and venture to the cold North Pole to help the Conductor find starfish, pinecones and dinosaurs! Learn interesting facts about different creatures as you discover them!' %}
+{% set keywds = 'Big Spooky Pond, Under the Sea, North Pole, Conductor, Night, Water, Snow' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/HideAndSeek.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

@@ -1,0 +1,47 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Groove It | PBS Kids' %}
+{% set desc = 'Play songs from ARTHUR and create your own dances for them by using Prunellas dance cards.' %}
+{% set keywds = 'music, dance, perform, movement' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="grooveHeader">Groove It</h4></a>
+  <ul id="printSideNav">
+   <li><a href="howto.html"><span>How to Play</span></a></li>
+   <li><a href="cards.html"><span>Dance Cards</span></a></li>
+   <li><a href="music_player.html" class="selected"><span>Music Player</span></a></li>
+   <li><a href="do_the_prunella.html"><span>Do the "Prunella"</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Music Player</h1>
+    </div>
+   </div>
+   <div class="left-align-content" id="musicPlayerWrapper">
+    <p id="grooveMusicCaption">Try your dance moves to one of these cool tunes!</p>
+    <div id="grooveFlashcontent">
+     <p>You can <a href="http://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="http://pbskids.org/arthur/print/grooveit/music_player.html">use the music player.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+    </div>
+    <script type="text/javascript">						   var fo = new SWFObject("../../media/music_player.swf", "grooveit", "298", "286", "9", "#ffffff");						   fo.addVariable("base", "/arthur/");						   fo.addParam("allowScriptAccess", "always");						  						   fo.write("grooveFlashcontent");							</script>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<game>
+	<dinos>
+		<dinosaur name="ornithomimus" id="1" size="12">
+			<unit>
+				<name>goat</name>
+				<count>3</count>
+			</unit>
+			<unit>
+				<name>dog</name>
+				<count>4</count>
+			</unit>
+			<unit>
+				<name>porcupine</name>
+				<count>6</count>
+			</unit>
+			<unit>
+				<name>cow</name>
+				<count>2</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="argentinosaurus" id="2" size="120">
+			<unit>
+				<name>hippo</name>
+				<count>8</count>
+			</unit>
+			<unit>
+				<name>greatWhiteShark</name>
+				<count>6</count>
+			</unit>
+			<unit>
+				<name>blueWhale</name>
+				<count>2</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="triceratops" id="3" size="40">
+			<unit>
+				<name>dolphin</name>
+				<count>6</count>
+			</unit>
+			<unit>
+				<name>cow</name>
+				<count>5</count>
+			</unit>
+			<unit>
+				<name>alligator</name>
+				<count>3</count>
+			</unit>
+			<unit>
+				<name>hippo</name>
+				<count>2</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="stegosaurus" id="4" size="30">
+			<unit>
+				<name>dolphin</name>
+				<count>6</count>
+			</unit>
+			<unit>
+				<name>cow</name>
+				<count>5</count>
+			</unit>
+			<unit>
+				<name>alligator</name>
+				<count>3</count>
+			</unit>
+			<unit>
+				<name>hippo</name>
+				<count>2</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="tyrannosaurus" id="5" size="40">
+			<unit>
+				<name>dolphin</name>
+				<count>8</count>
+			</unit>
+			<unit>
+				<name>alligator</name>
+				<count>4</count>
+			</unit>
+			<unit>
+				<name>greatWhiteShark</name>
+				<count>2</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="giganotosaurus" id="6" size="40">
+			<unit>
+				<name>dolphin</name>
+				<count>8</count>
+			</unit>
+			<unit>
+				<name>alligator</name>
+				<count>4</count>
+			</unit>
+			<unit>
+				<name>greatWhiteShark</name>
+				<count>2</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="brachiosaurus" id="7" size="80">
+			<unit>
+				<name>alligator</name>
+				<count>8</count>
+			</unit>
+			<unit>
+				<name>greatWhiteShark</name>
+				<count>4</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="velociraptor" id="10" size="6">
+			<unit>
+				<name>porcupine</name>
+				<count>3</count>
+			</unit>
+			<unit>
+				<name>dog</name>
+				<count>2</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="spinosaurus" id="8" size="50">
+			<unit>
+				<name>alligator</name>
+				<count>5</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="deinonychus" id="11" size="12">
+			<unit>
+				<name>porcupine</name>
+				<count>6</count>
+			</unit>
+			<unit>
+				<name>dog</name>
+				<count>4</count>
+			</unit>
+			<unit>
+				<name>goat</name>
+				<count>3</count>
+			</unit>
+		</dinosaur>
+		<dinosaur name="ankylosaurus" id="9" size="30">
+			<unit>
+				<name>dolphin</name>
+				<count>6</count>
+			</unit>
+			<unit>
+				<name>cow</name>
+				<count>5</count>
+			</unit>
+			<unit>
+				<name>alligator</name>
+				<count>3</count>
+			</unit>
+			<unit>
+				<name>hippo</name>
+				<count>2</count>
+			</unit>
+		</dinosaur>
+	</dinos>
+	<media>
+		<asset id='intro' url='howbig_conductor_intro.mp3' />
+		<asset id='estimate' url='howbig_conductor_match.mp3' />
+		<asset id='option_2' url='howbig_conductor_option_2.mp3' />
+		<asset id='option_3' url='howbig_conductor_option_3.mp3' />
+		<asset id='option_4' url='howbig_conductor_option_4.mp3' />
+		<asset id='option_5' url='howbig_conductor_option_5.mp3' />
+		<asset id='option_6' url='howbig_conductor_option_6.mp3' />
+		<asset id='option_7' url='howbig_conductor_option_7.mp3' />
+		<asset id='option_8' url='howbig_conductor_option_8.mp3' />
+		<asset id='or' url='howbig_conductor_or.mp3' />
+		<asset id='count_1' url='howbig_conductor_count_1.mp3' />
+		<asset id='count_2' url='howbig_conductor_count_2.mp3' />
+		<asset id='count_3' url='howbig_conductor_count_3.mp3' />
+		<asset id='count_4' url='howbig_conductor_count_4.mp3' />
+		<asset id='count_5' url='howbig_conductor_count_5.mp3' />
+		<asset id='count_6' url='howbig_conductor_count_6.mp3' />
+		<asset id='count_7' url='howbig_conductor_count_7.mp3' />
+		<asset id='count_8' url='howbig_conductor_count_8.mp3' />
+		<asset id='measure01a' url='howbig_conductor_measure01a.mp3' />
+		<asset id='measure01b' url='howbig_conductor_measure01b.mp3' />
+		<asset id='brachiosaurus' url='howbig_conductor_brachiosaurus.mp3' />
+		<asset id='argentinosaurus' url='howbig_conductor_argentinosaurus.mp3' />
+		<asset id='giganotosaurus' url='howbig_conductor_giganotosaurus.mp3' />
+		<asset id='ornithomimus' url='howbig_conductor_ornithomimus.mp3' />
+		<asset id='pteranodon' url='howbig_conductor_pteranodon.mp3' />
+		<asset id='stegosaurus' url='howbig_conductor_stegosaurus.mp3' />
+		<asset id='triceratops' url='howbig_conductor_triceratops.mp3' />
+		<asset id='tyrannosaurus' url='howbig_conductor_tyrannosaurus.mp3' />
+		<asset id='velociraptor' url='howbig_conductor_velociraptor.mp3' />
+		<asset id='spinosaurus' url='howbig_conductor_spinosaurus.mp3' />
+		<asset id='ankylosaurus' url='howbig_conductor_ankylosaurus.mp3' />
+		<asset id='deinonychus' url='howbig_conductor_deinonychus.mp3' />
+		<asset id='measure02_argentinosaurus' url='howbig_conductor_measure02_argentinosaurus.mp3' />
+		<asset id='measure02_brachiosaurus' url='howbig_conductor_measure02_brachiosaurus.mp3' />
+		<asset id='measure02_giganotosaurus' url='howbig_conductor_measure02_giganotosaurus.mp3' />
+		<asset id='measure02_ornithomimus' url='howbig_conductor_measure02_ornithomimus.mp3' />
+		<asset id='measure02_pteranodon' url='howbig_conductor_measure02_pteranodon.mp3' />
+		<asset id='measure02_stegosaurus' url='howbig_conductor_measure02_stegosaurus.mp3' />
+		<asset id='measure02_triceratops' url='howbig_conductor_measure02_triceratops.mp3' />
+		<asset id='measure02_tyrannosaurus' url='howbig_conductor_measure02_tyrannosaurus.mp3' />
+		<asset id='measure02_deinonychus' url='howbig_conductor_measure02_deinonychus.mp3' />
+		<asset id='measure02_ankylosaurus' url='howbig_conductor_measure02_ankylosaurus.mp3' />
+		<asset id='measure02_spinosaurus' url='howbig_conductor_measure02_spinosaurus.mp3' />
+		<asset id='measure02_velociraptor' url='howbig_conductor_measure02_velociraptor.mp3' />
+		<asset id='measure02_1' url='howbig_conductor_measure02_1.mp3' />
+		<asset id='measure02_2' url='howbig_conductor_measure02_2.mp3' />
+		<asset id='measure02_3' url='howbig_conductor_measure02_3.mp3' />
+		<asset id='measure02_4' url='howbig_conductor_measure02_4.mp3' />
+		<asset id='measure02_5' url='howbig_conductor_measure02_5.mp3' />
+		<asset id='measure02_6' url='howbig_conductor_measure02_6.mp3' />
+		<asset id='measure02_7' url='howbig_conductor_measure02_7.mp3' />
+		<asset id='measure02_8' url='howbig_conductor_measure02_8.mp3' />
+		<asset id='measure02_9' url='howbig_conductor_measure02_9.mp3' />
+		<asset id='measure02_10' url='howbig_conductor_measure02_10.mp3' />
+		<asset id='measure02_alligator' url='howbig_conductor_measure02_alligator.mp3' />
+		<asset id='measure02_blueWhale' url='howbig_conductor_measure02_blueWhale.mp3' />
+		<asset id='measure02_greatWhiteShark' url='howbig_conductor_measure02_greatWhite.mp3' />
+		<asset id='measure02_cow' url='howbig_conductor_measure02_cow.mp3' />
+		<asset id='measure02_dog' url='howbig_conductor_measure02_dog.mp3' />
+		<asset id='measure02_dolphin' url='howbig_conductor_measure02_dolphin.mp3' />
+		<asset id='measure02_goat' url='howbig_conductor_measure02_goat.mp3' />
+		<asset id='measure02_hippo' url='howbig_conductor_measure02_hippo.mp3' />
+		<asset id='measure02_killerWhale' url='howbig_conductor_measure02_killerWhale.mp3' />
+		<asset id='measure02_porcupine' url='howbig_conductor_measure02_porcupine.mp3' />
+		<asset id='match' url='howbig_conductor_match.mp3' />
+		<asset id='toobig' url='howbig_conductor_toobig.mp3' />
+		<asset id='toosmall' url='howbig_conductor_toosmall.mp3' />
+		<asset id='nextround' url='howbig_conductor_nextround.mp3' />
+		<asset id='grid' url='howbig_conductor_grid.mp3' />
+		<asset id='instruction' url='howbig_conductor_instruction.mp3' />
+		<asset id='estimate_alligator' url='howbig_conductor_est_alligators.mp3' />
+		<asset id='estimate_blueWhale' url='howbig_conductor_est_bluewhales.mp3' />
+		<asset id='estimate_cow' url='howbig_conductor_est_cows.mp3' />
+		<asset id='estimate_dog' url='howbig_conductor_est_dogs.mp3' />
+		<asset id='estimate_dolphin' url='howbig_conductor_est_dolphins.mp3' />
+		<asset id='estimate_goat' url='howbig_conductor_est_goats.mp3' />
+		<asset id='estimate_greatWhiteShark' url='howbig_conductor_est_greatwhites.mp3' />
+		<asset id='estimate_hippo' url='howbig_conductor_est_hippos.mp3' />
+		<asset id='estimate_porcupine' url='howbig_conductor_est_porcupines.mp3' />
+		<asset id='print' url='howbig_conductor_print.mp3' />
+		<asset id='done' url='howbig_conductor_done.mp3' />
+		<asset id='prompt' url='howbig_conductor_prompt.mp3' />
+	</media>
+</game>

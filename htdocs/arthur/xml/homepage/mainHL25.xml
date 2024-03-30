@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Alien: Assembly Required</title>
+			<href>/arthur/games/alien/index.html</href>
+			<imgurl>/arthur/i/related/alien.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Brain Game</title>
+			<href>/arthur/games/braingame/index.html</href>
+			<imgurl>/arthur/i/related/braingame.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Crank It Up</title>
+			<href>/arthur/games/crankitup/index.html</href>
+			<imgurl>/arthur/i/related/crankitup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Super Action Challenge</title>
+			<href>/arthur/games/superactionchallenge/index.html</href>
+			<imgurl>/arthur/i/related/superaction.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Unmatching Game</title>
+			<href>/arthur/games/unmatching/index.html</href>
+			<imgurl>/arthur/i/related/unmatching.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Cootie Catcher</title>
+			<href>/arthur/print/cootiecatcher/index.html</href>
+			<imgurl>/arthur/i/related/cootie.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Tower of Cows</title>
+			<href>/arthur/print/towerofcow/index.html</href>
+			<imgurl>/arthur/i/related/cows.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Let's Draw Arthur</title>
+			<href>/arthur/games/letsdrawarthur/index.html</href>
+			<imgurl>/arthur/i/related/drawarthur.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwingo!</title>
+			<href>/arthur/print/elwingo/index.html</href>
+			<imgurl>/arthur/i/related/elwingo.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Go Fetch!</title>
+			<href>/arthur/print/fetch/index.html</href>
+			<imgurl>/arthur/i/related/fetch.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Marthur Video Mashup</title>
+			<href>/arthur/video/index.html?pid=m3veJY18D_DKhfBTbTmXTqcYB6s0o6qP</href>
+			<imgurl>/arthur/i/related/videomashup.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Fernkenstein's Monster</title>
+			<href>/arthur/video/index.html?pid=KcqIq1eAQQm3RP1c_AHTxNnPh2QaxwTX</href>
+			<imgurl>/arthur/i/related/fernkenstein.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>D.W. on Ice</title>
+			<href>/arthur/video/index.html?pid=V9c3NpLzFY_5A4nF4KWmgwV6T5SDBpzA</href>
+			<imgurl>/arthur/i/related/dwonice.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Matchmaker Matchbreaker</title>
+			<href>/arthur/video/index.html?pid=VmnHqSmhilnv6s5VrEhvyFktuvX5sQDL</href>
+			<imgurl>/arthur/i/related/matchmaker.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>The Election</title>
+			<href>/arthur/video/index.html?pid=_CWks8YP3AYHfcjlUjgnO6uHGPLeFiSd</href>
+			<imgurl>/arthur/i/related/election.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

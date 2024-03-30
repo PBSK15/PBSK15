@@ -1,0 +1,54 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Halloween | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-f93">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="halloweenHeader">Coloring Pages</h4></a>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Arthur</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printColoring">
+    <li id="halloween1">
+     <div class="page">
+      <img src="../i/halloween/halloween_coloring_1.gif" width="569" height="488" alt="Arthur and friends screaming in a cemetery" title="Halloween Coloring Pages" border="0" class="coloring img"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="halloween2">
+     <div class="page">
+      <img src="../i/halloween/halloween_coloring_2.gif" width="569" height="488" alt="Vampire Francine and Witch Muffy making punch" title="Halloween Coloring Pages" border="0" class="coloring img"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="halloween3">
+     <div class="page">
+      <img src="../i/halloween/halloween_coloring_3.gif" width="569" height="488" alt="Bionic Bunny Arthur and Pirates Buster and The Brain" border="0" title="Halloween Coloring Pages" class="coloring img"><img src="../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Ask Prunell</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+   <li><a href="/arthur/games/crankitup/index_halloween.html" id="rcCrankHalloween">Crank It Up!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

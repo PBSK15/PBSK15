@@ -1,0 +1,100 @@
+<game id="puppydaycare" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . PUPPY DAY CARE | PBS KIDS]]></title>
+	<swf url="sections/games/puppydaycare/puppydaycare_main.swf" />
+
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "false"
+		activeStickersPerGame = "5"
+		gameDebug = "false"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+
+		<asset id="princess" location="game/superhero" url="../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../promos/endscreen_promo_rhymeroll.jpg" />
+		
+	</promos>
+		
+	
+	<game>		
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/puppydaycare/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front -->
+		<assets>
+			<asset id="gameUI" type="swf" url="puppydaycare_ui.swf"/>
+			<!--asset id="title" type="audio" url="audio/global/gb_title.mp3" /-->
+			<asset id="title" type="audio" url="audio/pdc_title.mp3" />
+			<asset id="level_transition_1" type="audio" url="audio/pdc_level1_trasition.mp3" />
+			<asset id="level_transition_2" type="audio" url="audio/pdc_level2_transition.mp3" />
+			<asset id="skip" type="audio" url="audio/pdc_skip.mp3" />
+			<asset id="timeout" type="audio" url="audio/pdc_tutorial.mp3" />
+			<asset id="kudos1" type="audio" url="audio/pdc_random_kudos1.mp3" />
+			<asset id="kudos2" type="audio" url="audio/pdc_random_kudos2.mp3" />
+			<asset id="kudos3" type="audio" url="audio/pdc_random_kudos3.mp3" />
+			<asset id="oops1" type="audio" url="audio/pdc_random_oops1.mp3" />
+			<asset id="oops2" type="audio" url="audio/pdc_random_oops2.mp3" />
+			<asset id="oops3_1" type="audio" url="audio/pdc_oops_context1.mp3" />
+			<asset id="bubble_appear" type="audio" url="audio/highlight_18_edit.mp3" />
+			<asset id="item_placed" type="audio" url="audio/notifier_04.mp3" />
+			<asset id="grow_sfx" type="audio" url="audio/Trans_sparkle.mp3" />
+			<!--asset id="oops3_1a" type="audio" url="audio/pdc_oops_context1alt.mp3" /-->
+			<asset id="oops3_2" type="audio" url="audio/pdc_oops_context2.mp3" />
+			<asset id="oops4_1" type="audio" url="audio/pdc_oops_prompt1.mp3" />
+			<asset id="oops4_2" type="audio" url="audio/pdc_oops_prompt2.mp3" />
+			<asset id="progress1" type="audio" url="audio/pdc_progress1.mp3" />
+			<asset id="progress2" type="audio" url="audio/pdc_progress2.mp3" />
+			<asset id="feed" type="audio" url="audio/pdc_feed.mp3" />
+			<asset id="word0" type="audio" url="audio/pdc_feed.mp3" />
+			<asset id="bathe" type="audio" url="audio/pdc_bathe.mp3" />
+			<asset id="word1" type="audio" url="audio/pdc_bathe.mp3" />
+			<asset id="brush" type="audio" url="audio/pdc_brush.mp3" />
+			<asset id="word2" type="audio" url="audio/pdc_brush.mp3" />
+			<asset id="play" type="audio" url="audio/pdc_play.mp3" />
+			<asset id="word3" type="audio" url="audio/pdc_play.mp3" />
+			<asset id="play_with" type="audio" url="audio/pdc_play_with.mp3" />
+			<asset id="walk" type="audio" url="audio/pdc_walk.mp3" />
+			<asset id="word4" type="audio" url="audio/pdc_walk.mp3" />
+			<asset id="puppy_correct" type="audio" url="audio/cutsie_dog_bark_edit.mp3" />
+			<asset id="puppy_incorrect1" type="audio" url="audio/dog_whine_edit.mp3" />
+			<!--asset id="puppy_incorrect2" type="audio" url="audio/whine_02.mp3" /-->
+		</assets>
+<!--
+		
+		<onDemandResources>
+			
+		
+			
+		</onDemandResources>
+-->	
+
+				
+			
+			
+			
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

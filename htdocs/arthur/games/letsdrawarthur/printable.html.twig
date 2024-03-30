@@ -1,0 +1,52 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Let\'s Draw Arthur | PBS Kids' %}
+{% set desc = 'Coloring pages for each main ARTHUR character depict the fun personalities of each unique individual. Print the pictures out and color them in!' %}
+{% set keywds = 'ARTHUR, coloring, printable, picture' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" /><script type="text/javascript" src="/arthur/js/printables.js"></script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="letsdrawHeader">Let's Draw Arthur</h4></a>
+  <ul id="printSideNav">
+   <li><a href="steps.html"><span>Step by Step</span></a></li>
+   <li><a href="printable.html" class="selected"><span>Printable Version</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Printable Version</h1>
+    </div>
+    <div class="print-btn-right"><span class="print-btn-all">Print All Pages</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 2 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printLetsdraw">
+    <li id="card1">
+     <div class="page">
+      <img src="../../i/games/letsdrawarthur/print_big_page1.gif" width="637" height="825" alt="" border="0" class="letsdraw_print_img img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="card2">
+     <div class="page last">
+      <img src="../../i/games/letsdrawarthur/print_big_page2.gif" width="617" height="805" alt="" border="0" class="letsdraw_print_img img"><img src="../../i/print/copyright.gif" width="530" height="35" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/games/artgallery/index.html" id="rcGallery">Art Gallery</a></li>
+   <li><a href="/arthur/games/moviemaker/index.html" id="rcMovieMaker">Movie Maker</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

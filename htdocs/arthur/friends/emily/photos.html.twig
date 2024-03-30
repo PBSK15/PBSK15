@@ -1,0 +1,98 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Emily\'s Photos Page | PBS Kids' %}
+{% set desc = 'See pics of Emily looking tres chic in her French attire! Theres a pic from her birthday and one of her ice skating too.' %}
+{% set keywds = 'Emily, ARTHUR, D.W., photographs, pictures, French' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcf">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/emily_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/emily_top.swf", "emily", "960", "363", "9", "#ffccff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "emily");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-emily">Emily's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/emily1.jpg" width="354" height="250" alt="Emily iceskating with a friend." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_emily.gif" width="85" height="83" alt="Pal Avatar" border="0" id="avatar">
+    <h3>It's fun to skate with friends.</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="fran-cmt"><a href="/arthur/friends/francine/index.html">FRANCINE</a>
+       <p>Hey, you're pretty good.</p>
+      </div>
+      <div class="fran-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/emily1.jpg" width="354" height="250" alt="Emily iceskating with a friend." border="0" id="mainImg">
+       <h3>It's fun to skate with friends.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="fran-cmt"><a href="/arthur/friends/francine/index.html">FRANCINE</a>
+          <p>Hey, you're pretty good.</p>
+         </div>
+         <div class="fran-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/emily2.jpg" width="354" height="250" alt="Emily lifted up by her friends at a party." border="0" id="mainImg">
+       <h3>Wow! What a great birthday!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="dw-cmt"><a href="/arthur/friends/dw/index.html">D.W.</a>
+          <p>Happy birthday, Emily!</p>
+         </div>
+         <div class="dw-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/emily3.jpg" width="354" height="250" alt="Emily looking at herself in a mirror, trying on a hat." border="0" id="mainImg">
+       <h3>Tres chic. (Looks great!)</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/print/coloringpages/index.html" id="rcColoring">Coloring Pages</a></li>
+   <li><a href="/arthur/print/hats/index.html" id="rcPartyHats">Party Hats</a></li> <!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,33 @@
+<head>
+	<title>Arthur{{additionalTitle|raw}}{% if 'PBS Kids' in additionalTitle %}{% else %} | PBS Kids{% endif %}</title>
+
+	<meta name="description" content="{{desc|raw}}" />
+		
+	<meta name="keywords" content="{{keywds|raw}}" />
+		
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/arthur/c/sitewide.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="/arthur/c/print.css" media="print" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.4.4.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css' />
+	<script type="text/javascript" src="/includes/flash/swfobject.js"></script>
+
+	{% if noSitewide == false %}
+		<script type="text/javascript" src="/arthur/js/sitewide.js"></script>
+	{% endif %}
+	
+	{% if printableJs == true %}
+		<script type="text/javascript" src="/arthur/js/printables.js"></script>
+	{% endif %}
+	
+	{% if clubsJs == true %}
+		<script type="text/javascript" src="/arthur/js/clubs.js"></script>
+	{% endif %}
+	
+	{% if friendsJs == true %}
+		<script type="text/javascript" src="/arthur/js/friends.js"></script>
+	{% endif %}
+	
+	{% include 'template_includes/bridge_js_include.html' %}
+	{{specialInclude|raw}}
+</head>

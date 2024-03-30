@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Groovy Garden | PBS Kids' %}
+{% set desc = 'Learn how to be good to the environment by playing Groovy Garden! Grow a garden! Little tips and tricks will help you be greener in your daily routine.' %}
+{% set keywds = 'grow,  green, environment, garden, plant, seeds, play' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="groovybg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="groovygarden.html" target="_self"><img src="../../i/games/groovy_splash.gif" width="623" height="442" border="0" alt="Groovy Garden"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+   <li><a href="/arthur/games/lunchomatic/index.html" id="rcLunch">Lunch-o-matic</a></li>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

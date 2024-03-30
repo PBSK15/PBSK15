@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Printables' %}
+{% set desc = 'Print pages full of fun Dinosaur Train activities and characters to color!' %}
+{% set keywds = 'Dinosaur printable activity, Dinosaur Train print, dinosaur coloring, Dinosaur Pages, Dinosaur Train coloring' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(9) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("page");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '9', '#9f4504');
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/printIndex.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

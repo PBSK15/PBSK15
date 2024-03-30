@@ -1,0 +1,2032 @@
+{
+  "symbols": {
+    "ANIM-AngryBird": {
+      "type": "animation",
+      "animation": "BeachDistractorAnim"
+    },
+    "Tree": {
+      "type": "sprite",
+      "asset": "Tree"
+    },
+    "SPOT-ChestObstacle": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-bananas",
+          "x": 119,
+          "y": 51
+        },
+        {
+          "sprite": "FO-apple",
+          "x": 166,
+          "y": 74
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 171,
+          "y": 81
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 123,
+          "y": 93
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 167,
+          "y": 73
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 161,
+          "y": 34
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 203,
+          "rot": 38.6,
+          "y": 63
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 118,
+          "y": 76
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 162,
+          "y": 59
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 149,
+          "y": 53
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 166,
+          "y": 70
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 168,
+          "y": 71
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 161,
+          "y": 50
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 166,
+          "y": 81
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 142,
+          "y": 47
+        },
+        {
+          "sprite": "FO-bread",
+          "x": 146,
+          "y": 71
+        }
+      ]
+    },
+    "Tree2": {
+      "type": "sprite",
+      "asset": "Tree2"
+    },
+    "BarrelNoLid": {
+      "type": "sprite",
+      "asset": "BarrelNoLid"
+    },
+    "SPOT-Crate": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "SpotCrateBack"
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 129,
+          "y": -29
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 106,
+          "y": -32
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 161,
+          "y": -47
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 139,
+          "y": -27
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 97,
+          "rot": 18.93,
+          "y": -47
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 129,
+          "y": -33
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 128,
+          "y": -39
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 134,
+          "y": -46
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": 113,
+          "y": -23
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 118,
+          "rot": 11.42,
+          "y": -46
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 147,
+          "y": -58
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": 88,
+          "y": -45
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 149,
+          "y": -32
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 155,
+          "y": -39
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 137,
+          "y": -36
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 103,
+          "y": -44
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 158,
+          "y": -20
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 157,
+          "y": -61
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 149,
+          "y": -35
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 127,
+          "rot": -14.42,
+          "y": -47
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 140,
+          "y": -33
+        },
+        {
+          "sprite": "SpotCrateFront"
+        }
+      ]
+    },
+    "ANIM-Turtle": {
+      "type": "animation",
+      "animation": "Turtle"
+    },
+    "WavesBack": {
+      "type": "sprite",
+      "asset": "WavesBack"
+    },
+    "Beach": {
+      "type": "sprite",
+      "asset": "Beach"
+    },
+    "SPOT-RockMd": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-watermelon",
+          "x": -44,
+          "y": 43
+        },
+        {
+          "sprite": "FO-umbrella",
+          "x": -6,
+          "y": -189
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 185,
+          "y": 83
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 143,
+          "y": -24
+        },
+        {
+          "sprite": "FO-raft",
+          "x": 124,
+          "y": 85
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": -68,
+          "y": 36
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 170,
+          "y": 55
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": -39,
+          "y": 56
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": -80,
+          "y": 30
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": -58,
+          "y": 31
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 170,
+          "y": 65
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": -100,
+          "y": 83
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 173,
+          "y": 72
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 189,
+          "y": 77
+        },
+        {
+          "x": -105,
+          "sx": 0.79,
+          "y": -15,
+          "sprite": "FO-chair",
+          "rot": -4.56,
+          "sy": 0.79
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 166,
+          "y": 95
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 137,
+          "y": 23
+        },
+        {
+          "sprite": "RockMd"
+        }
+      ]
+    },
+    "WavesFront": {
+      "type": "sprite",
+      "asset": "WavesFront"
+    },
+    "Paddle": {
+      "type": "sprite",
+      "asset": "Paddle"
+    },
+    "BushLg": {
+      "type": "sprite",
+      "asset": "BushLg"
+    },
+    "Crate": {
+      "type": "sprite",
+      "asset": "Crate"
+    },
+    "Sky": {
+      "type": "sprite",
+      "asset": "Sky"
+    },
+    "Pit": {
+      "type": "sprite",
+      "asset": "Pit"
+    },
+    "BushLgBlur": {
+      "type": "sprite",
+      "asset": "BushLgBlur"
+    },
+    "ANIM-Whale": {
+      "type": "animation",
+      "animation": "Whale"
+    },
+    "CrateObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 210,
+        "x": 8,
+        "height": 128,
+        "y": 14
+      },
+      "asset": "Crate"
+    },
+    "EndLevelBlock": {
+      "type": "entity",
+      "box": {
+        "width": 200,
+        "x": 0,
+        "height": 768,
+        "y": 0
+      }
+    },
+    "SpotCrateBack": {
+      "type": "sprite",
+      "asset": "SpotCrateBack"
+    },
+    "PitFront": {
+      "type": "sprite",
+      "asset": "PitFront"
+    },
+    "SPOT-Pit": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "Pit"
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 82,
+          "y": 9
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 107,
+          "y": 15
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 95,
+          "y": 11
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 94,
+          "y": 12
+        },
+        {
+          "sprite": "FO-balloons",
+          "x": 57,
+          "y": -86
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 78,
+          "rot": 11.26,
+          "y": 13
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 114,
+          "y": 10
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 121,
+          "y": 27
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 108,
+          "y": 19
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 121,
+          "y": 19
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 83,
+          "y": 9
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 125,
+          "y": 1
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 110,
+          "y": 24
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 111,
+          "y": -8
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 98,
+          "y": 11
+        },
+        {
+          "sprite": "PitFront"
+        }
+      ]
+    },
+    "BarrelLibObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 116,
+        "x": 12,
+        "height": 156,
+        "y": 19
+      },
+      "asset": "BarrelLid"
+    },
+    "SpotCrateFront": {
+      "type": "sprite",
+      "asset": "SpotCrateFront"
+    },
+    "RockHg": {
+      "type": "sprite",
+      "asset": "RockHg"
+    },
+    "BushSm": {
+      "type": "sprite",
+      "asset": "BushSm"
+    },
+    "FishingRod": {
+      "type": "sprite",
+      "asset": "FishingRod"
+    },
+    "SPOT-SurfBoardCrate": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-balloons",
+          "x": -1,
+          "y": -86
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 59,
+          "y": 78
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 147,
+          "y": 140
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 159,
+          "y": 109
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 165,
+          "y": 138
+        },
+        {
+          "sprite": "Crate",
+          "x": 19,
+          "sx": 0.72,
+          "y": 140,
+          "sy": 0.72
+        },
+        {
+          "sprite": "FO-apple",
+          "x": 64,
+          "y": 94
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 63,
+          "y": 99
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": -80,
+          "y": 152
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 7,
+          "y": 105
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 52,
+          "y": 89
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 46,
+          "y": 141
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 104,
+          "rot": 40.12,
+          "y": 77
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 38,
+          "sx": 0.8,
+          "y": 99,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 25,
+          "y": 92
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 63,
+          "y": 71,
+          "sy": 1.03
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 64,
+          "y": 85
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 78,
+          "y": 87
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 37,
+          "y": 200
+        },
+        {
+          "sprite": "FO-orange",
+          "x": -29,
+          "y": 180
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 34,
+          "y": 176
+        },
+        {
+          "sprite": "FO-sunglasses",
+          "x": -63,
+          "y": 199
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": -55,
+          "y": 149
+        },
+        {
+          "sprite": "FO-bread",
+          "x": -55,
+          "y": 176
+        },
+        {
+          "sprite": "Surfboard",
+          "sx": 0.62,
+          "sy": 0.62
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 111,
+          "y": 184
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 54,
+          "rot": 11.09,
+          "y": 179
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 86,
+          "y": 93
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 110,
+          "y": 185
+        }
+      ]
+    },
+    "RockMd": {
+      "type": "sprite",
+      "asset": "RockMd"
+    },
+    "Canoe": {
+      "type": "entity",
+      "box": {
+        "width": 498,
+        "x": 7,
+        "height": 92,
+        "y": 62
+      },
+      "asset": "Canoe"
+    },
+    "Island1": {
+      "type": "sprite",
+      "asset": "Island1"
+    },
+    "TRIGGER-BounceGame": {
+      "type": "trigger",
+      "triggerType": "BounceGame"
+    },
+    "RockSm": {
+      "type": "sprite",
+      "asset": "RockSm"
+    },
+    "EndBlock": {
+      "type": "container",
+      "assets": [
+        {
+          "sprite": "Chest",
+          "x": 211,
+          "y": 449
+        },
+        {
+          "sprite": "Canoe",
+          "y": 469
+        },
+        {
+          "sprite": "Surfboard",
+          "x": 70,
+          "y": 283
+        },
+        {
+          "sprite": "Paddle",
+          "x": 395,
+          "y": 602
+        },
+        {
+          "sprite": "BushSm",
+          "x": 383,
+          "y": 603
+        },
+        {
+          "sprite": "BushLg",
+          "x": 130,
+          "y": 601
+        }
+      ]
+    },
+    "TRIGGER-Character": {
+      "type": "trigger",
+      "triggerType": "Character"
+    },
+    "Island2": {
+      "type": "sprite",
+      "asset": "Island2"
+    },
+    "BushMd": {
+      "type": "sprite",
+      "asset": "BushMd"
+    },
+    "Rocks1": {
+      "type": "sprite",
+      "asset": "Rocks1"
+    },
+    "Island3": {
+      "type": "sprite",
+      "asset": "Island3"
+    },
+    "Surfboard": {
+      "type": "sprite",
+      "asset": "Surfboard"
+    },
+    "Rocks2": {
+      "type": "sprite",
+      "asset": "Rocks2"
+    },
+    "SPOT-HgRock": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-beachball",
+          "x": 334,
+          "y": 200
+        },
+        {
+          "sprite": "FO-chair",
+          "x": 314,
+          "y": 127
+        },
+        {
+          "sprite": "FO-balloons",
+          "x": -31,
+          "y": -2
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 385,
+          "y": 261
+        }
+      ]
+    },
+    "IslandStart": {
+      "type": "sprite",
+      "asset": "IslandStart"
+    },
+    "SPOT-Barrel": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-balloons",
+          "x": 5,
+          "sx": 0.6,
+          "y": -60,
+          "sy": 0.6
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 17,
+          "sx": 0.8,
+          "y": -39,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-chair",
+          "x": -110,
+          "sx": 0.7,
+          "y": -22,
+          "sy": 0.7
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 13,
+          "y": -32
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 61,
+          "rot": 23.08,
+          "y": -59
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 50,
+          "y": 60
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 76,
+          "y": 72
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": -89,
+          "y": 75
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 74,
+          "y": 55
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": -12,
+          "rot": 16.5,
+          "y": -58
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 18,
+          "y": -60
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": -91,
+          "y": 24
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 27,
+          "y": -45
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 76,
+          "y": 44
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 19,
+          "y": -45
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 44,
+          "y": 27
+        },
+        {
+          "sprite": "FO-onion",
+          "x": -31,
+          "y": 59
+        },
+        {
+          "sprite": "FO-orange",
+          "x": -29,
+          "y": 65
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 100,
+          "y": 61
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 87,
+          "y": 41
+        },
+        {
+          "sprite": "FO-raft",
+          "x": -89,
+          "y": 71
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 119,
+          "rot": 13.07,
+          "y": -13
+        },
+        {
+          "x": 39,
+          "sx": 0.8,
+          "y": -177,
+          "sprite": "FO-umbrella",
+          "rot": 12.29,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 20,
+          "sx": 0.8,
+          "y": -41,
+          "sy": 0.8
+        },
+        {
+          "sprite": "FO-sunglasses",
+          "x": -68,
+          "y": 87
+        },
+        {
+          "sprite": "BarrelNoLid"
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 81,
+          "y": 65
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": -10,
+          "y": 14
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 78,
+          "y": 74
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 72,
+          "y": 72
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 24,
+          "y": 73
+        }
+      ]
+    },
+    "Chest": {
+      "type": "sprite",
+      "asset": "Chest"
+    },
+    "BarrelLid": {
+      "type": "sprite",
+      "asset": "BarrelLid"
+    },
+    "Log": {
+      "type": "entity",
+      "box": {
+        "width": 366,
+        "x": 10,
+        "height": 42,
+        "y": 20
+      },
+      "asset": "Log"
+    },
+    "TRIGGER-DrawingBoard": {
+      "type": "trigger",
+      "triggerType": "DrawingBoard"
+    },
+    "ANIM-Shark": {
+      "type": "animation",
+      "animation": "Shark"
+    },
+    "ChestObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 168,
+        "x": 13,
+        "height": 100,
+        "y": 42
+      },
+      "asset": "Chest"
+    }
+  },
+  "distractor": [
+    {
+      "px": 0,
+      "name": "background",
+      "children": [
+        {
+          "symbol": "Sky",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.8,
+      "name": "backWaves",
+      "children": [
+        {
+          "symbol": "WavesBack",
+          "x": 0,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 1017,
+          "y": 365
+        }
+      ]
+    },
+    {
+      "px": 0.82,
+      "name": "islands",
+      "children": [
+        {
+          "symbol": "IslandStart",
+          "x": 0,
+          "y": 63
+        }
+      ]
+    },
+    {
+      "px": 0.85,
+      "name": "frontWaves",
+      "children": [
+        {
+          "symbol": "WavesFront",
+          "x": 0,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 989,
+          "y": 398
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "behindGround",
+      "children": [
+        {
+          "symbol": "BushMd",
+          "x": 1228,
+          "y": 432
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "ground",
+      "children": [
+        {
+          "symbol": "Beach",
+          "x": 0,
+          "y": 483
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "path",
+      "children": [
+        {
+          "symbol": "BushMd",
+          "x": 233,
+          "y": 450
+        },
+        {
+          "symbol": "Rocks1",
+          "x": 519,
+          "y": 468
+        },
+        {
+          "symbol": "Tree",
+          "x": 817,
+          "y": 27
+        },
+        {
+          "symbol": "Rocks2",
+          "x": 1281,
+          "y": 471
+        },
+        {
+          "symbol": "Chest",
+          "x": 844,
+          "y": 463
+        },
+        {
+          "symbol": "Canoe",
+          "x": 667,
+          "y": 472
+        },
+        {
+          "symbol": "Surfboard",
+          "x": 735,
+          "y": 287
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "closePath",
+      "children": [
+        {
+          "symbol": "BushLg",
+          "x": 796,
+          "y": 600
+        },
+        {
+          "symbol": "BushSm",
+          "x": 1071,
+          "y": 612
+        },
+        {
+          "symbol": "Paddle",
+          "x": 1110,
+          "y": 618
+        },
+        {
+          "symbol": "ANIM-AngryBird",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 1.1,
+      "name": "foreground",
+      "children": [
+        {
+          "symbol": "BushLgBlur",
+          "x": -98,
+          "y": 591
+        }
+      ]
+    }
+  ],
+  "level": [
+    {
+      "px": 0,
+      "name": "background",
+      "children": [
+        {
+          "symbol": "Sky",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.8,
+      "name": "backWaves",
+      "children": [
+        {
+          "symbol": "WavesBack",
+          "x": 0,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 1017,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 2034,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 3051,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 4068,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 5085,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 6102,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 7119,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 8136,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 9153,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 10170,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 11187,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 12204,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 13221,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 14238,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 15255,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 16272,
+          "y": 365
+        },
+        {
+          "symbol": "WavesBack",
+          "x": 17289,
+          "y": 365
+        }
+      ]
+    },
+    {
+      "px": 0.82,
+      "name": "islands",
+      "children": [
+        {
+          "symbol": "IslandStart",
+          "x": 0,
+          "y": 63
+        },
+        {
+          "symbol": "Island1",
+          "x": 2949,
+          "y": 268
+        },
+        {
+          "symbol": "Island2",
+          "x": 4621,
+          "y": 233
+        },
+        {
+          "symbol": "Island3",
+          "x": 5841,
+          "y": 236
+        },
+        {
+          "symbol": "Island1",
+          "x": 6500,
+          "y": 269
+        },
+        {
+          "symbol": "Island2",
+          "x": 8570,
+          "y": 231
+        },
+        {
+          "symbol": "Island3",
+          "x": 9851,
+          "y": 240
+        },
+        {
+          "symbol": "Island3",
+          "x": 11497,
+          "y": 241
+        },
+        {
+          "symbol": "Island3",
+          "x": 1334,
+          "y": 235
+        },
+        {
+          "symbol": "ANIM-Shark",
+          "x": 1897,
+          "y": 397
+        },
+        {
+          "symbol": "ANIM-Whale",
+          "x": 7025,
+          "y": 289
+        },
+        {
+          "symbol": "Island3",
+          "x": 13405,
+          "y": 234
+        }
+      ]
+    },
+    {
+      "px": 0.85,
+      "name": "frontWaves",
+      "children": [
+        {
+          "symbol": "WavesFront",
+          "x": 0,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 989,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 1978,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 2967,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 3956,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 4945,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 5934,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 6923,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 7912,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 8901,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 9890,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 10879,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 11868,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 12857,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 13846,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 14835,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 15824,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 16813,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 17802,
+          "y": 398
+        },
+        {
+          "symbol": "WavesFront",
+          "x": 18791,
+          "y": 398
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "behindGround",
+      "children": [
+        {
+          "symbol": "BushMd",
+          "x": 16603,
+          "y": 416
+        },
+        {
+          "symbol": "BushMd",
+          "x": 12832,
+          "y": 426
+        },
+        {
+          "symbol": "BushMd",
+          "x": 8371,
+          "y": 436
+        },
+        {
+          "symbol": "BushMd",
+          "x": 6599,
+          "y": 440
+        },
+        {
+          "symbol": "BushMd",
+          "x": 3760,
+          "y": 441
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "ground",
+      "children": [
+        {
+          "symbol": "Beach",
+          "x": 0,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 1425,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 2850,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 4275,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 5700,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 7125,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 8550,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 9975,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 11400,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 12825,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 14250,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 15675,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 17100,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 18525,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 19950,
+          "y": 483
+        },
+        {
+          "symbol": "Beach",
+          "x": 21375,
+          "y": 483
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "path",
+      "children": [
+        {
+          "symbol": "BushMd",
+          "x": 2223,
+          "y": 445
+        },
+        {
+          "symbol": "Rocks1",
+          "x": 2436,
+          "y": 467
+        },
+        {
+          "symbol": "Tree",
+          "x": 2656,
+          "y": 19
+        },
+        {
+          "symbol": "Rocks2",
+          "x": 3535,
+          "y": 467
+        },
+        {
+          "symbol": "RockMd",
+          "x": 5512,
+          "sx": 0.81,
+          "y": 425,
+          "sy": 0.81
+        },
+        {
+          "symbol": "Rocks2",
+          "x": 5686,
+          "y": 482
+        },
+        {
+          "symbol": "Canoe",
+          "x": 5209,
+          "y": 463
+        },
+        {
+          "symbol": "RockSm",
+          "x": 7701,
+          "y": 466
+        },
+        {
+          "symbol": "Tree",
+          "x": 7747,
+          "y": 19
+        },
+        {
+          "symbol": "Tree",
+          "x": 8885,
+          "y": 21
+        },
+        {
+          "symbol": "SPOT-ChestObstacle",
+          "x": 8831,
+          "hiddenObject": "OPEN",
+          "y": 469
+        },
+        {
+          "symbol": "BushSm",
+          "x": 7784,
+          "y": 509
+        },
+        {
+          "symbol": "BarrelLibObstacle",
+          "x": 8066,
+          "y": 429
+        },
+        {
+          "symbol": "ChestObstacle",
+          "x": 8831,
+          "y": 469
+        },
+        {
+          "symbol": "Rocks1",
+          "x": 9257,
+          "y": 475
+        },
+        {
+          "symbol": "RockMd",
+          "x": 10952,
+          "sx": 0.78,
+          "y": 421,
+          "sy": 0.78
+        },
+        {
+          "symbol": "Tree",
+          "x": 11004,
+          "y": 31
+        },
+        {
+          "symbol": "Log",
+          "x": 11205,
+          "y": 553
+        },
+        {
+          "symbol": "BushSm",
+          "x": 11136,
+          "y": 550
+        },
+        {
+          "symbol": "Tree2",
+          "x": 13191,
+          "y": 0
+        },
+        {
+          "symbol": "CrateObstacle",
+          "x": 12009,
+          "y": 485
+        },
+        {
+          "symbol": "Rocks1",
+          "x": 13331,
+          "y": 516
+        },
+        {
+          "symbol": "Tree",
+          "x": 14471,
+          "y": 14
+        },
+        {
+          "symbol": "BarrelLibObstacle",
+          "x": 14936,
+          "y": 429
+        },
+        {
+          "symbol": "BushMd",
+          "x": 15158,
+          "y": 492
+        },
+        {
+          "symbol": "Rocks1",
+          "x": 15299,
+          "y": 483
+        },
+        {
+          "symbol": "Rocks2",
+          "x": 16292,
+          "y": 463
+        },
+        {
+          "symbol": "Tree",
+          "x": 16829,
+          "y": 19
+        },
+        {
+          "symbol": "BarrelLid",
+          "x": 17146,
+          "sx": 0.99,
+          "y": 372,
+          "sy": 0.81
+        },
+        {
+          "symbol": "BushMd",
+          "x": 17068,
+          "y": 452
+        },
+        {
+          "symbol": "RockMd",
+          "x": 18180,
+          "sx": 0.66,
+          "y": 429,
+          "sy": 0.66
+        },
+        {
+          "symbol": "Chest",
+          "x": 18101,
+          "sx": 0.74,
+          "y": 422,
+          "sy": 0.74
+        },
+        {
+          "symbol": "Tree2",
+          "x": 17460,
+          "y": 0
+        },
+        {
+          "symbol": "CrateObstacle",
+          "x": 17746,
+          "y": 481
+        },
+        {
+          "symbol": "CrateObstacle",
+          "x": 17893,
+          "y": 492
+        },
+        {
+          "symbol": "CrateObstacle",
+          "x": 17816,
+          "y": 380
+        },
+        {
+          "symbol": "Tree",
+          "x": 18183,
+          "y": 29
+        },
+        {
+          "symbol": "Rocks2",
+          "x": 18817,
+          "y": 473
+        },
+        {
+          "symbol": "SPOT-HgRock",
+          "x": 19663,
+          "hiddenObject": "OPEN",
+          "y": 208
+        },
+        {
+          "symbol": "RockHg",
+          "x": 19663,
+          "y": 208
+        },
+        {
+          "symbol": "Tree2",
+          "x": 20280,
+          "y": 0
+        },
+        {
+          "symbol": "TRIGGER-DrawingBoard",
+          "x": 13321,
+          "y": 0
+        },
+        {
+          "symbol": "Tree",
+          "x": 21438,
+          "y": 13
+        },
+        {
+          "symbol": "EndBlock",
+          "x": 21294,
+          "y": 0
+        },
+        {
+          "symbol": "Rocks1",
+          "x": 21046,
+          "y": 476
+        },
+        {
+          "symbol": "BushMd",
+          "x": 20699,
+          "y": 455
+        },
+        {
+          "symbol": "SPOT-Crate",
+          "sx": 0.82,
+          "y": 431,
+          "x": 2520,
+          "hiddenObject": "OPEN",
+          "sy": 0.82
+        },
+        {
+          "symbol": "SPOT-Barrel",
+          "x": 12333,
+          "hiddenObject": "OPEN",
+          "y": 401
+        },
+        {
+          "symbol": "SPOT-Barrel",
+          "x": 15893,
+          "hiddenObject": "OPEN",
+          "y": 407
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 10274,
+          "y": 594,
+          "characterSpot": 0
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 16703,
+          "y": 581,
+          "characterSpot": 1
+        },
+        {
+          "symbol": "BushLg",
+          "x": 200,
+          "y": 396
+        },
+        {
+          "symbol": "Tree",
+          "x": 924,
+          "y": 26
+        },
+        {
+          "symbol": "BushMd",
+          "x": 1054,
+          "y": 491
+        },
+        {
+          "symbol": "BushSm",
+          "x": 611,
+          "y": 548
+        },
+        {
+          "symbol": "TRIGGER-BounceGame",
+          "x": 13331,
+          "y": 0
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 4120,
+          "y": 574,
+          "characterSpot": 2
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 6754,
+          "y": 587,
+          "characterSpot": 3
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 19119,
+          "y": 584,
+          "characterSpot": 4
+        },
+        {
+          "symbol": "EndLevelBlock",
+          "x": 21289,
+          "y": 0
+        },
+        {
+          "symbol": "ANIM-Turtle",
+          "x": 7410,
+          "y": 485
+        },
+        {
+          "symbol": "SPOT-SurfBoardCrate",
+          "x": 17337,
+          "hiddenObject": "OPEN",
+          "y": 290
+        },
+        {
+          "symbol": "SPOT-RockMd",
+          "x": 3118,
+          "hiddenObject": "OPEN",
+          "y": 398
+        },
+        {
+          "symbol": "SPOT-Barrel",
+          "x": 4956,
+          "hiddenObject": "OPEN",
+          "y": 422
+        },
+        {
+          "symbol": "SPOT-RockMd",
+          "x": 11594,
+          "hiddenObject": "OPEN",
+          "y": 393
+        },
+        {
+          "symbol": "SPOT-ChestObstacle",
+          "x": 12795,
+          "hiddenObject": "OPEN",
+          "y": 474
+        },
+        {
+          "symbol": "ChestObstacle",
+          "x": 12795,
+          "y": 474
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "closePath",
+      "children": [
+        {
+          "symbol": "BushLg",
+          "x": 2339,
+          "y": 578
+        },
+        {
+          "symbol": "BushSm",
+          "x": 2740,
+          "y": 597,
+          "sy": 0.93
+        },
+        {
+          "symbol": "SPOT-Pit",
+          "x": 5758,
+          "hiddenObject": "OPEN",
+          "y": 646
+        },
+        {
+          "symbol": "BushMd",
+          "x": 6314,
+          "y": 628
+        },
+        {
+          "symbol": "Rocks2",
+          "x": 8015,
+          "y": 636
+        },
+        {
+          "symbol": "FishingRod",
+          "x": 7477,
+          "y": 624
+        },
+        {
+          "symbol": "BushSm",
+          "x": 7868,
+          "y": 594
+        },
+        {
+          "symbol": "Rocks2",
+          "x": 8726,
+          "y": 619
+        },
+        {
+          "symbol": "BushLg",
+          "x": 10919,
+          "y": 539
+        },
+        {
+          "symbol": "Paddle",
+          "x": 10705,
+          "y": 621
+        },
+        {
+          "symbol": "SPOT-Pit",
+          "x": 9409,
+          "hiddenObject": "OPEN",
+          "y": 644
+        },
+        {
+          "symbol": "BushMd",
+          "x": 11411,
+          "y": 648
+        },
+        {
+          "symbol": "Rocks2",
+          "x": 14826,
+          "y": 665
+        },
+        {
+          "symbol": "SPOT-Pit",
+          "x": 15272,
+          "hiddenObject": "OPEN",
+          "y": 644
+        },
+        {
+          "symbol": "SPOT-Pit",
+          "x": 1784,
+          "hiddenObject": "OPEN",
+          "y": 644
+        },
+        {
+          "symbol": "SPOT-Crate",
+          "x": 17455,
+          "hiddenObject": "OPEN",
+          "y": 600
+        },
+        {
+          "symbol": "Paddle",
+          "x": 5059,
+          "y": 645
+        }
+      ]
+    },
+    {
+      "px": 1.1,
+      "name": "foreground",
+      "children": [
+        {
+          "symbol": "BushLgBlur",
+          "x": 1497,
+          "y": 590
+        },
+        {
+          "symbol": "BushLgBlur",
+          "x": 12891,
+          "y": 589
+        },
+        {
+          "symbol": "BushLgBlur",
+          "x": 14188,
+          "y": 591
+        },
+        {
+          "symbol": "BushLgBlur",
+          "x": 17638,
+          "y": 590
+        }
+      ]
+    }
+  ]
+}

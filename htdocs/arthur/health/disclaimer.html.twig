@@ -1,0 +1,39 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'Disclaimer . Arthur' %}
+{% set specialInclude = '<style type="text/css">	#content { padding: 35px 40px 70px; }	h3 {		font: 2.1875em/0.9em "lilita one", sans-serif;		text-transform: none;		clear: both;		margin-left: 0;		margin-bottom: 0.75em;	}	p { padding-left: 0; }	@media only screen and (max-width: 788px) {		#content { padding: 10px 20px 50px; }		h3 {			margin: 15px 0 0.5em;			padding: 0;		}	}	/* 	@media only screen and (max-width: 400px) {} */	</style>' %}
+{% set bodyClass = 'orange' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><a href="asthma/">Asthma</a></li>
+   <li><a href="allergy/">Peanut Allergy</a></li>
+   <li><a href="nutrition/">Nutrition</a></li>
+   <li><a href="resilience/">Resilience</a></li>
+   <li><a href="fitness/">Fitness</a></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Home</a>
+   </div>
+   <ul>
+    <li><a href="asthma/">Asthma</a></li>
+    <li><a href="allergy/">Peanut Allergy</a></li>
+    <li><a href="nutrition/">Nutrition</a></li>
+    <li><a href="resilience/">Resilience</a></li>
+    <li><a href="fitness/">Fitness</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="group">
+  <h3>Disclaimer</h3>
+  <p>Information contained within the materials on the Arthur Family Health Website is provided solely for general educational and informational purposes and is not intended to be a substitute for independent medical judgment or constitute case-specific medical advice or treatment in any way. There may be variations in treatment that your pediatrician may recommend based on individual facts and circumstances and you should confirm any information obtained from this site with other sources before undertaking any treatment or otherwise taking any actions (including an exercise regime) relating thereto. Any reliance on any information contained in these materials is solely at your own risk.</p>
+  <p>WGBH and/or PBS make(s) no guarantees as to the information and resources described within the Arthur Family Health Website and disclaim(s) any implied warranty or representation about its accuracy, relevance, timeliness, completeness, or appropriateness for a particular purpose. In no event shall WGBH, PBS, CPB, 9 Story Entertainment, The Weezie Foundation, Chuck E. Cheese's or any public television stations be liable for any direct, indirect, special, punitive, incidental, exemplary or consequential damages or any damages whatsoever resulting from any loss of use, loss of profits, litigation or any other pecuniary loss, whether based on breach of contract, tort (including negligence), product liability of otherwise arising out of or in any way connected with the Arthur Family Health Website, including the information contained therein, or from the posting of any content or material by any third party. WGBH Educational Foundation and/or PBS is and/or are not medical organization(s) and our staff cannot give you medical advice or diagnosis. Nothing contained in this website or materials thereon should be construed as such advice or diagnosis. No use of, or reliance on, any materials included in this site shall be deemed to give rise to a physician-patient relationship. No material included in this site shall be deemed to present the only or necessarily the best method or procedure with respect to a matter discussed in this website; rather, any such material shall be acknowledged as only the approach or opinion of the discussant. If you or a member of your family is ill or need immediate medical care, please contact your health care provider or, in an emergency, call 911 or go to the nearest medical facility. The user assumes all risks of using the materials included in this site.</p>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="js/jquery-1.10.2.min.js"></script><script src="js/main.js"></script>' %}

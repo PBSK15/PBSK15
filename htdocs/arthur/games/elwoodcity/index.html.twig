@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Elwood City Map | PBS Kids' %}
+{% set desc = 'Elwood City Map is an interactive map of your favorite city! Explore the neigborhood, and get information on the peopple and places of Elwood City.' %}
+{% set keywds = 'ARTHUR, interactive map, Elwood City' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="elwoodbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="swf_content"><a href="elwoodcity.html"><img src="../../i/games/splash_elwoodcity.gif" width="619" height="434" border="0" alt="Play Elwood City Map" class="fo_header"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+   <li><a href="/arthur/print/crazybus/index.html" id="rcCrazyBus">Crazy Bus</a></li>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

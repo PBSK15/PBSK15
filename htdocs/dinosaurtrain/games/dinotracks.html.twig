@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Dinosaur Tracks' %}
+{% set desc = 'Make tracks in the mud with Buddy, Tiny and Tank! Look at their footprints and decide whose footprints complete the pattern. In freeplay mode create your own tracks by clicking on the characters. Print the tracks you made!' %}
+{% set keywds = 'Buddy, Tiny, Tank, Science games for kids, Making patterns, Making tracks, Dinosaur Tracks, Printable' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#FFFFFF')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'id=3&swf=dinosaurtrain/media/swfs/Tracks.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

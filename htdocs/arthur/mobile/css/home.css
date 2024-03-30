@@ -1,0 +1,331 @@
+body{
+	font-family:'Nunito', sans-serif; background-color:#99ccff; color:#000; font-size: 12pt;
+	background-image: url("../assets/images/background_2.png");
+	background-size: 100% 60%;
+}
+
+a {
+	font-size: 1em;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	border: none;
+}
+
+#page{
+	margin: 0px 0px;
+	width: 100%; 
+	/*960px;*/
+}
+
+#header{
+	height: 7.813em; /*125px;*/
+	width: 100%;
+	background-color: #6699ff;
+	border-bottom: solid 1px #000;
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 1);
+	box-shadow:         0px 3px 5px rgba(50, 50, 50, 1);
+
+	margin-bottom: 15px;
+}
+
+#header #pbsLogo {
+	vertical-align: middle;
+	
+	width: 4.188em; /* 67px  */
+	height: 3.750em; /* 60px */
+	position: absolute;
+	margin: 0.625em 0.625em; /*10px 10px;*/
+}
+
+#header #arthurLogo{
+	display: block;
+	vertical-align: bottom;
+	margin: 0px auto 0px auto; 
+	padding-top: 0.625em; /*10px;*/
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+	background-color: #99ccff;
+	border-top: solid 1px #000;
+
+}
+
+.footerBox{
+	background-color: #95cfff;
+	padding: .6em 0 .6em 0;
+}
+
+
+#links{
+	max-width: 70%; /*66.89453125%;*/
+	margin-left: 15%;
+	margin-top: 1.375em; /*22px;*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#arthurWebLinks{
+	margin-bottom: 1.6em;
+	vertical-align: middle;
+}
+
+#mobileLinks{
+	width: 82%; /* 272px / 320px */
+	background-color: #7dbcfd;
+	margin-top: 1.250em; /*20px;*/
+	padding-top: 0.625em; /*10px;*/
+	padding-left: 9%; /* 30px / 320px */
+	padding-right: 9%;
+	padding-bottom: 1.250em; /*20px;*/
+
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	border: solid .1em;
+}
+
+#mobileLinks img{
+	vertical-align: middle;
+}
+
+#funderLinks{
+	height: 8.125em; /*130px;*/
+}
+
+#funderLinks img{
+	margin-top: 0.625em; /*10px;*/
+}
+
+#copyright{
+	font-size: .6em;
+	line-height: 9pt;
+	width: 58.5%; /* 572px / 960px  - 59.5%*/ 
+	height: 22.5%;
+	display: block;
+	margin: 0px auto 0px auto; 
+}
+
+#copyright #col1{
+	text-align: left;
+	float: left; 
+	width: 40%; /* 282px / 960px : 33%;*/ 
+}
+
+#copyright #col2{
+	text-align: left;
+	float: right; 
+	width: 40%; /* 282px / 960px : 33%;*/ 
+	margin-bottom: 1.563em; /*25px;*/
+}
+
+.copyrightLine{
+	color: #2d2b72;
+	font-weight: bold;
+}
+
+#leftColumn{
+	width: 31.875%; /* 340px / 960px : 33%;*/  
+	float: left;
+	text-align:right;
+	vertical-align: bottom;
+}
+
+#leftColumn img{
+	vertical-align: text-bottom;
+}
+
+
+#middleColumn{
+	width : 35.4%; /* 348px / 960px : 33%;*/
+	float: left;
+}
+
+#contentButtons{
+	width : 100%;
+	height : 11.875em; /* 190px; */
+	text-align: center;
+}
+
+#contentButtons .title{
+	text-align: center;
+	padding-top: 128px;
+	position: absolute;
+	width: 17.5%;
+}
+
+#gamesIcon{
+	float:right;
+}
+
+#gamesIcon .title{
+	margin-left: 5px;
+}
+
+#videoIcon span{
+	padding-left: 2.6em; /*41px;*//*4.2%;*/
+	
+}
+
+.iconButton{
+	width: 50%;
+}
+
+.iconButton span {
+	position: absolute;
+	padding-left: 2.79em; /*44px;*/
+	padding-top: 7.35em;/*117px;*/
+}
+
+.iconButton a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.1em;/*20px;*/
+	font-family: "Lilita One";
+}
+
+#weezieButton{
+	width : 100%;
+	height : 9.688em; /*95px;*/
+	text-align: center;
+}
+
+#weezieButton img{
+	margin-top: 5%;
+}
+
+#rightColumn{
+	width: 31.875%;  /* 165px / 960px : 33%; */
+	float: right;
+}
+
+#bottom{
+	width: 100%;
+	height: 35%;
+	background-color:#99ccff;
+}
+
+
+@media screen and (max-width: 1015px ){
+	#header{
+		height: 125px;
+		width: 100%;
+		background-color: #6699ff;
+	}
+
+	#header #pbsLogo {
+		clear: both;
+		float: none;
+		position: absolute;
+		width: 3.125em;  /*50px; */
+		height: 2.813em; /*45px */
+	}
+
+	#leftColumn{
+		height: 0px;
+		float: none;
+		clear: both;
+	}
+
+	#middleColumn{
+		width : 100%; /* 320px / 500px */
+		clear: both;
+		float: none;
+
+	}
+
+	#contentButtons{
+		width : 350px; 
+		/*height: 10.625em;*/ 
+		clear: both;
+		float: none;
+		text-align: center;
+		display: block;
+		margin: 0px auto 0px auto;  
+	}
+
+	#contentButtons .title{
+		/*border: 1px solid;*/
+		text-align: center;
+		padding-top: 128px;
+		width : 180px;
+		position: absolute;
+	}
+
+	#gamesIcon .title{
+		margin-left: 1px;
+	}
+
+	#rightColumn{
+		height: 0px;
+		float: none;
+		clear: both;
+	}
+
+	#copyright{
+		width: 80%;
+	}
+
+	#copyright #col1{
+		text-align: left;
+		clear: both;
+		margin-bottom: .625em; /*10px;*/
+		max-width: 100%;
+		width: 100%;
+	}
+
+	#copyright #col2{
+		text-align: left;
+		clear: both;
+		max-width: 100%;
+		width: 100%;
+	}
+
+	#funderLinks img{
+		margin-top: 1.250em; /*20px;*/
+	}
+
+	#arthurWebLinks{
+		float: clear;
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 400px ){
+	#header #arthurLogo{
+		display: inline;
+		margin-left: 10%;
+		margin-top: 0.875em; /*14px;*/
+		width: 17.813em; /*285px;*/
+		vertical-align: bottom;
+		position: absolute;
+	}
+
+
+	#contentButtons{
+		width : 100%; 
+		/*height: 10.625em;*/
+		clear: both;
+		float: none;
+		text-align: center;
+		display: block;
+		margin: 0px auto 0px auto; 
+	}
+	
+	#contentButtons .title{
+		/*border: 1px solid;*/
+		text-align: center;
+		padding-top: 128px;
+		width: 50%;
+		position: absolute;
+	}
+}
+
+

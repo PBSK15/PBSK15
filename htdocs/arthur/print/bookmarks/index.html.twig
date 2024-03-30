@@ -1,0 +1,40 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Bookmarks | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div class="print-instr">
+   <h4 id="bookmarkHeader">Bookmarks</h4>
+   <p>A great way to save your place in your favorite book is to put a bookmark there.</p>
+   <p>I made 8 bookmarks that you can print out and color. Click on them to take a look.</p>
+  </div>
+  <div id="printablesNavIcons">
+   <ul id="bkNavIcons">
+    <li id="bkArthur1" class="icon"><a href="bookmarks.html#pg-arthur1"><span>Arthur 1</span></a></li>
+    <li id="bk-binkyprun" class="icon"><a href="bookmarks.html#pg-brainprun"><span>The Brain &amp; Prunella</span></a></li>
+    <li id="bkBuster" class="icon"><a href="bookmarks.html#pg-buster"><span>Buster</span></a></li>
+    <li id="bkFranMuffy" class="icon"><a href="bookmarks.html#pg-franmuffy"><span>Francine &amp; Muffy</span></a></li>
+    <li id="bkDWTurner" class="icon"><a href="bookmarks.html#pg-dwturner"><span>D.W. &amp; Ms. Turner</span></a></li>
+    <li id="bkReads" class="icon"><a href="bookmarks.html#pg-reads"><span>The Read Family</span></a></li>
+    <li id="bkArthur2" class="icon"><a href="bookmarks.html#pg-arthur2"><span>Arthur 2</span></a></li>
+    <li id="bkBinkyFran" class="icon"><a href="bookmarks.html#pg-binkyfran"><span>Binky &amp; Francine</span></a></li>
+   </ul>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/friends/arthur/index.html" id="rcArthur">Arthur</a></li>
+   <li><a href="/arthur/friends/emily/index.html" id="rcEmily">Emily</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

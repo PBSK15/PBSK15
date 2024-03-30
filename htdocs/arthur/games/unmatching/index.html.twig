@@ -1,0 +1,22 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Un-Matching Game | PBS Kids' %}
+{% set desc = 'Francine challenges you to choose the word that does not match the others.' %}
+{% set keywds = 'matching, belong, words, read, critical thinking' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fff">
+ <div class="ruler"></div>
+ <div id="mainFeature" class="fo_header"><map name="home_map"> <area shape="poly" coords="533,39,530,8,593,3,595,34,533,39" href="/arthur/games/unmatching/help.html" alt="Help"> <area shape="rect" coords="80,220,310,340" href="/cgi-registry/arthur/unmatchingquiz2.php?featurepath=/arthur/games/unmatching/&amp;phase=start&amp;lastquestionindex=44" alt="Play Unmatching Game"> </map> <img src="../../i/games/unmatching/Unmatch_intro_new.gif" alt="Let's Play!" width="600" height="393" border="0" usemap="#home_map">
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/francine/index.html" id="rcFrancine">Francine</a></li>
+   <li><a href="/arthur/print/cosmiccombos/index.html" id="rcCosmic">Cosmic Combos</a></li>
+   <li><a href="/arthur/games/effectivedetective/index.html" id="rcDetective">Effective Detective</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,1894 @@
+{
+  "symbols": {
+    "Path": {
+      "type": "sprite",
+      "asset": "Path"
+    },
+    "WateringCan": {
+      "type": "sprite",
+      "asset": "WateringCan"
+    },
+    "SPOT-HayBailRight": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-apple",
+          "x": 240,
+          "y": 54
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 236,
+          "y": 56
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 204,
+          "y": 30
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 204
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 199,
+          "y": 72
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 222,
+          "y": 53
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 236,
+          "y": 11
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 237,
+          "rot": 30.81,
+          "y": 40
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 186,
+          "y": 44
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 221,
+          "y": 58
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": 191,
+          "y": 56
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 219,
+          "y": 39
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 208,
+          "y": 57
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 229,
+          "y": 9
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 241,
+          "y": 39
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 221,
+          "y": 31
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 164,
+          "y": 14
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 246,
+          "y": 53
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 244,
+          "y": 55
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 244,
+          "y": 49
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 246,
+          "y": 49
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 232
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 251,
+          "y": 63
+        },
+        {
+          "sprite": "FO-raft",
+          "x": 157,
+          "y": 63
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 221,
+          "y": 29
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 239,
+          "y": 61
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 215,
+          "y": 29
+        }
+      ]
+    },
+    "ANIM-chicken": {
+      "type": "animation",
+      "animation": "Chicken"
+    },
+    "ANIM-goat": {
+      "type": "animation",
+      "animation": "Goat"
+    },
+    "TreeLg2": {
+      "type": "sprite",
+      "asset": "TreeLg2"
+    },
+    "ForegroundBush": {
+      "type": "sprite",
+      "asset": "ForegroundBush"
+    },
+    "ANIM-bull": {
+      "type": "animation",
+      "animation": "Bull"
+    },
+    "TRIGGER-BounceGame": {
+      "type": "trigger",
+      "triggerType": "BounceGame"
+    },
+    "SPOT-Tractor": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-apple",
+          "x": 705,
+          "y": 58
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 677,
+          "y": 67
+        },
+        {
+          "sprite": "FO-balloons",
+          "x": -58,
+          "y": 26
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 631,
+          "y": 34
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 152,
+          "y": 189
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": -76,
+          "y": 362
+        },
+        {
+          "sprite": "FO-chair",
+          "x": -160,
+          "rot": -10.8,
+          "y": 234
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 140,
+          "y": 347
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 628,
+          "y": 12
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 712,
+          "rot": 38.1,
+          "y": 43
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 118,
+          "y": 341
+        },
+        {
+          "sprite": "FO-flipflops",
+          "x": 127,
+          "y": 360
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": -66,
+          "y": 364
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 632,
+          "y": 38
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 630,
+          "y": 55
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 218,
+          "y": 191
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": -60,
+          "y": 301
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 650,
+          "y": 42
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 441,
+          "y": 306
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 677,
+          "y": 53
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 479,
+          "y": 331
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": -36,
+          "y": 305
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 667,
+          "y": 52
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 641,
+          "y": 46
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 675,
+          "y": 50
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 369,
+          "y": 95
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 478,
+          "y": 333
+        },
+        {
+          "sprite": "FO-raft",
+          "x": 598,
+          "y": 70
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 629,
+          "y": 31
+        },
+        {
+          "sprite": "FO-sunglasses",
+          "x": 355,
+          "y": 349
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 713,
+          "y": 60
+        },
+        {
+          "sprite": "FO-bread",
+          "x": 353,
+          "y": 335
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 458,
+          "y": 256
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": -19,
+          "y": 357
+        },
+        {
+          "sprite": "FO-umbrella",
+          "x": 321,
+          "y": 46
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 165,
+          "y": 327
+        },
+        {
+          "sprite": "Tractor"
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 165,
+          "y": 364
+        }
+      ]
+    },
+    "BackgroundBush": {
+      "type": "sprite",
+      "asset": "BackgroundBush"
+    },
+    "BackgroundBush2": {
+      "type": "sprite",
+      "asset": "BackgroundBush2"
+    },
+    "ANIM-sheep": {
+      "type": "animation",
+      "animation": "Sheep"
+    },
+    "FrontGrass": {
+      "type": "sprite",
+      "asset": "FrontGrass"
+    },
+    "ANIM-cow": {
+      "type": "animation",
+      "animation": "Cow"
+    },
+    "SPOT-TreeLg": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-bananas",
+          "x": 165,
+          "y": 398
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 258,
+          "y": 431
+        },
+        {
+          "sprite": "FO-bread",
+          "x": 171,
+          "y": 409
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 176,
+          "y": 440
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 241,
+          "y": 421
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 250,
+          "y": 382
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 213,
+          "rot": 40,
+          "y": 405
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 178,
+          "y": 415
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 231,
+          "y": 410
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 162,
+          "y": 423
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 185,
+          "y": 376
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 242,
+          "y": 405
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 238,
+          "y": 402
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 197,
+          "y": 414
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 207,
+          "y": 383
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 253,
+          "y": 423
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 205,
+          "y": 418
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 251,
+          "y": 369
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 258,
+          "y": 431
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 263,
+          "y": 422
+        },
+        {
+          "sprite": "FO-raft",
+          "x": 161,
+          "y": 433
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 238,
+          "y": 397
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 185,
+          "y": 346
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 259,
+          "y": 422
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 241,
+          "y": 430
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 220,
+          "y": 395
+        },
+        {
+          "sprite": "TreeLg"
+        },
+        {
+          "sprite": "FO-apple",
+          "x": 204,
+          "y": 425
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": 115,
+          "y": 439
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 249,
+          "y": 425
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 245,
+          "y": 425
+        }
+      ]
+    },
+    "SPOT-LargeBush": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-apple",
+          "x": 327,
+          "y": 50
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 326,
+          "y": 59
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": -39,
+          "y": 22
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 46,
+          "y": -17
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 285,
+          "y": 72
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": -16,
+          "y": 39
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 275,
+          "y": 13
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": -6,
+          "rot": 40.63,
+          "y": 28
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": -57,
+          "y": 35
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 302,
+          "y": 42
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 283,
+          "y": 52
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 153,
+          "y": -19
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": -35,
+          "y": -3
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 257,
+          "y": 24
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 249,
+          "y": 19
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": -21,
+          "y": 40
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 19,
+          "y": 6
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 327,
+          "y": 51
+        },
+        {
+          "sprite": "FO-orange",
+          "x": -2,
+          "y": 42
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 328,
+          "y": 46
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 259,
+          "y": -8
+        },
+        {
+          "sprite": "FO-raft",
+          "x": -42,
+          "y": 54
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 257,
+          "y": 26
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 8,
+          "y": 44
+        },
+        {
+          "sprite": "FO-bread",
+          "x": -43,
+          "y": 39
+        },
+        {
+          "sprite": "FO-swimsuit",
+          "x": 155,
+          "y": -36
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 321,
+          "y": 58
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 249,
+          "y": 18
+        },
+        {
+          "sprite": "LargeBush"
+        }
+      ]
+    },
+    "ANIM-bulldistractor": {
+      "type": "animation",
+      "animation": "BullDistractor"
+    },
+    "Truck": {
+      "type": "sprite",
+      "asset": "Truck"
+    },
+    "HayBailSm": {
+      "type": "sprite",
+      "asset": "HayBailSm"
+    },
+    "TRIGGER-Character": {
+      "type": "trigger",
+      "triggerType": "Character"
+    },
+    "HayBail": {
+      "type": "sprite",
+      "asset": "HayBail"
+    },
+    "ANIM-horse": {
+      "type": "animation",
+      "animation": "Horse"
+    },
+    "BackgroundBushTree": {
+      "type": "sprite",
+      "asset": "BackgroundBushTree"
+    },
+    "BackgroundBushTree2": {
+      "type": "sprite",
+      "asset": "BackgroundBushTree2"
+    },
+    "WateringCanObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 52,
+        "x": 21,
+        "height": 56,
+        "y": 28
+      },
+      "asset": "WateringCan"
+    },
+    "HayBailObstacle": {
+      "type": "entity",
+      "box": {
+        "width": 244,
+        "x": 7,
+        "height": 106,
+        "y": 7
+      },
+      "asset": "HayBail"
+    },
+    "ANIM-windmill": {
+      "type": "animation",
+      "animation": "Windmill"
+    },
+    "Hills": {
+      "type": "sprite",
+      "asset": "Hills"
+    },
+    "ANIM-duck": {
+      "type": "animation",
+      "animation": "Duck"
+    },
+    "Barn": {
+      "type": "sprite",
+      "asset": "Barn"
+    },
+    "Barn2": {
+      "type": "sprite",
+      "asset": "Barn2"
+    },
+    "ANIM-butterfly": {
+      "type": "animation",
+      "animation": "Butterfly"
+    },
+    "EndLevelBlock": {
+      "type": "entity",
+      "box": {
+        "width": 200,
+        "x": 0,
+        "height": 768,
+        "y": 0
+      }
+    },
+    "SPOT-Truck": {
+      "type": "spot",
+      "assets": [
+        {
+          "sprite": "FO-apple",
+          "x": 14,
+          "y": 140
+        },
+        {
+          "sprite": "FO-avacado",
+          "x": 170,
+          "y": 149
+        },
+        {
+          "sprite": "FO-icebox",
+          "x": 25,
+          "y": 122
+        },
+        {
+          "sprite": "FO-balloons",
+          "x": 200,
+          "y": -50
+        },
+        {
+          "sprite": "FO-bananas",
+          "x": 120,
+          "y": 127
+        },
+        {
+          "sprite": "FO-beachball",
+          "x": 121,
+          "y": 134
+        },
+        {
+          "sprite": "FO-carrot",
+          "x": 21,
+          "y": 159
+        },
+        {
+          "sprite": "FO-chair",
+          "x": -13,
+          "y": 62
+        },
+        {
+          "sprite": "FO-cheese",
+          "x": 20,
+          "y": 147
+        },
+        {
+          "sprite": "FO-corn",
+          "x": 173,
+          "y": 127
+        },
+        {
+          "sprite": "FO-cucumber",
+          "x": 267,
+          "rot": 40.6,
+          "y": -64
+        },
+        {
+          "sprite": "FO-eggs",
+          "x": 21,
+          "y": 146
+        },
+        {
+          "sprite": "FO-flippers",
+          "x": 16,
+          "y": 158
+        },
+        {
+          "sprite": "FO-goggles",
+          "x": 103,
+          "y": 137
+        },
+        {
+          "sprite": "FO-grapes",
+          "x": 38,
+          "y": 147
+        },
+        {
+          "sprite": "FO-icebag",
+          "x": 119,
+          "y": 107
+        },
+        {
+          "sprite": "FO-icecream",
+          "x": 19,
+          "y": 135
+        },
+        {
+          "sprite": "FO-lemonade",
+          "x": 50,
+          "y": 128
+        },
+        {
+          "sprite": "FO-lettuce",
+          "x": 108,
+          "y": 143
+        },
+        {
+          "sprite": "FO-lifepreserver",
+          "x": 31,
+          "y": 130
+        },
+        {
+          "sprite": "FO-onion",
+          "x": 26,
+          "y": 146
+        },
+        {
+          "sprite": "FO-orange",
+          "x": 158,
+          "y": 152
+        },
+        {
+          "sprite": "FO-pear",
+          "x": 70,
+          "y": 143
+        },
+        {
+          "sprite": "FO-pepper",
+          "x": 122,
+          "y": 141
+        },
+        {
+          "sprite": "FO-pineapple",
+          "x": 137,
+          "y": 95
+        },
+        {
+          "sprite": "FO-popsicle",
+          "x": 4,
+          "y": 150
+        },
+        {
+          "sprite": "FO-potato",
+          "x": 132,
+          "y": 144
+        },
+        {
+          "sprite": "FO-raft",
+          "x": 23,
+          "y": 167
+        },
+        {
+          "sprite": "FO-strawberries",
+          "x": 127,
+          "y": 140
+        },
+        {
+          "sprite": "FO-sunglasses",
+          "x": 219,
+          "y": -26
+        },
+        {
+          "sprite": "FO-sunscreen",
+          "x": 27,
+          "y": 139
+        },
+        {
+          "sprite": "FO-tomato",
+          "x": 72,
+          "y": 153
+        },
+        {
+          "sprite": "FO-umbrella",
+          "x": -145,
+          "rot": -65.68,
+          "y": 231
+        },
+        {
+          "sprite": "FO-watermelon",
+          "x": 107,
+          "y": 141
+        },
+        {
+          "sprite": "FO-bread",
+          "x": 64,
+          "y": 155
+        },
+        {
+          "sprite": "Truck"
+        }
+      ]
+    },
+    "TRIGGER-DrawingBoard": {
+      "type": "trigger",
+      "triggerType": "DrawingBoard"
+    },
+    "Sky": {
+      "type": "sprite",
+      "asset": "Sky"
+    },
+    "LargeBush": {
+      "type": "sprite",
+      "asset": "LargeBush"
+    },
+    "ANIM-pig": {
+      "type": "animation",
+      "animation": "Pig"
+    },
+    "Bull": {
+      "type": "sprite",
+      "asset": "Bull"
+    },
+    "Tractor": {
+      "type": "sprite",
+      "asset": "Tractor"
+    },
+    "TreeLg": {
+      "type": "sprite",
+      "asset": "TreeLg"
+    },
+    "Fence": {
+      "type": "sprite",
+      "asset": "Fence"
+    }
+  },
+  "distractor": [
+    {
+      "px": 0,
+      "name": "background",
+      "children": [
+        {
+          "symbol": "Sky",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.85,
+      "name": "hills",
+      "children": [
+        {
+          "symbol": "Hills",
+          "x": 0,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 1321,
+          "y": 330
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": -96,
+          "y": 271
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 174,
+          "y": 281
+        },
+        {
+          "symbol": "Barn",
+          "x": 484,
+          "y": 143
+        },
+        {
+          "symbol": "Fence",
+          "x": 637,
+          "y": 384
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "ground",
+      "children": [
+        {
+          "symbol": "Path",
+          "x": 0,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 1321,
+          "y": 531
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "path",
+      "children": [
+        {
+          "symbol": "Tractor",
+          "x": 1053,
+          "y": 152
+        },
+        {
+          "symbol": "HayBail",
+          "x": 720,
+          "y": 498
+        },
+        {
+          "symbol": "HayBail",
+          "x": 974,
+          "y": 500
+        },
+        {
+          "symbol": "HayBail",
+          "x": 1222,
+          "y": 501
+        },
+        {
+          "symbol": "HayBail",
+          "x": 849,
+          "y": 391
+        },
+        {
+          "symbol": "HayBail",
+          "x": 1096,
+          "y": 394
+        },
+        {
+          "symbol": "HayBail",
+          "x": 963,
+          "y": 286
+        },
+        {
+          "symbol": "HayBail",
+          "x": 1032,
+          "y": 174
+        },
+        {
+          "symbol": "HayBail",
+          "x": 981,
+          "y": 64
+        },
+        {
+          "symbol": "ANIM-bulldistractor",
+          "x": 846,
+          "y": 472
+        }
+      ]
+    },
+    {
+      "px": 1.1,
+      "name": "foreground",
+      "children": [
+        {
+          "symbol": "FrontGrass",
+          "x": 0,
+          "y": 656
+        },
+        {
+          "symbol": "LargeBush",
+          "x": 1105,
+          "y": 574
+        }
+      ]
+    }
+  ],
+  "level": [
+    {
+      "px": 0,
+      "name": "background",
+      "children": [
+        {
+          "symbol": "Sky",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 0.85,
+      "name": "hills",
+      "children": [
+        {
+          "symbol": "Hills",
+          "x": 0,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 1321,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 2642,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 3963,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 5284,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 6605,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 7926,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 9247,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 10568,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 11889,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 13210,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 14531,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 15852,
+          "y": 330
+        },
+        {
+          "symbol": "Hills",
+          "x": 17173,
+          "y": 330
+        },
+        {
+          "symbol": "TreeLg",
+          "x": -215,
+          "y": 0
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": 218,
+          "y": 287
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 478,
+          "y": 303
+        },
+        {
+          "symbol": "HayBailSm",
+          "x": 1424,
+          "y": 409
+        },
+        {
+          "symbol": "HayBailSm",
+          "x": 1494,
+          "y": 348
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 1611,
+          "y": 274
+        },
+        {
+          "symbol": "HayBailSm",
+          "x": 1558,
+          "y": 409
+        },
+        {
+          "symbol": "TreeLg",
+          "x": 1210,
+          "y": 0
+        },
+        {
+          "symbol": "Barn",
+          "x": 1973,
+          "y": 143
+        },
+        {
+          "symbol": "ANIM-cow",
+          "x": 2553,
+          "y": 398
+        },
+        {
+          "symbol": "ANIM-pig",
+          "x": 2364,
+          "y": 359
+        },
+        {
+          "symbol": "ANIM-goat",
+          "x": 2805,
+          "y": 371
+        },
+        {
+          "symbol": "Fence",
+          "x": 2138,
+          "y": 389
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": 3385,
+          "y": 287
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 3625,
+          "y": 302
+        },
+        {
+          "symbol": "ANIM-horse",
+          "x": 3710,
+          "y": 179
+        },
+        {
+          "symbol": "Fence",
+          "x": 3599,
+          "y": 390
+        },
+        {
+          "symbol": "TreeLg2",
+          "x": 3088,
+          "y": 0
+        },
+        {
+          "symbol": "BackgroundBush2",
+          "x": 5595,
+          "y": 336
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 5807,
+          "y": 293
+        },
+        {
+          "symbol": "ANIM-windmill",
+          "x": 6589,
+          "y": 60
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": 4565,
+          "y": 285
+        },
+        {
+          "symbol": "Barn2",
+          "x": 6638,
+          "y": 30
+        },
+        {
+          "symbol": "Fence",
+          "x": 6223,
+          "y": 385
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": 9338,
+          "y": 266
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": 7416,
+          "y": 273
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 7674,
+          "y": 290
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 9567,
+          "y": 279
+        },
+        {
+          "symbol": "SPOT-LargeBush",
+          "sx": 0.9,
+          "y": 364,
+          "x": 7690,
+          "hiddenObject": "OPEN",
+          "sy": 0.9
+        },
+        {
+          "symbol": "SPOT-TreeLg",
+          "x": 10478,
+          "hiddenObject": "OPEN",
+          "y": 0
+        },
+        {
+          "symbol": "TreeLg2",
+          "x": 9108,
+          "y": 1
+        },
+        {
+          "symbol": "Fence",
+          "x": 8903,
+          "y": 388
+        },
+        {
+          "symbol": "Fence",
+          "x": 9646,
+          "y": 388
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 11033,
+          "y": 280
+        },
+        {
+          "symbol": "BackgroundBush",
+          "x": 11300,
+          "y": 339
+        },
+        {
+          "symbol": "BackgroundBush",
+          "x": 11382,
+          "y": 340
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": 11554,
+          "y": 276
+        },
+        {
+          "symbol": "BackgroundBush2",
+          "x": 12024,
+          "y": 331
+        },
+        {
+          "symbol": "BackgroundBush",
+          "x": 12268,
+          "y": 345
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 12651,
+          "y": 297
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": 13058,
+          "y": 283
+        },
+        {
+          "symbol": "TreeLg2",
+          "x": 12734,
+          "y": 0
+        },
+        {
+          "symbol": "HayBailSm",
+          "x": 15184,
+          "y": 368
+        },
+        {
+          "symbol": "SPOT-TreeLg",
+          "x": 13446,
+          "hiddenObject": "OPEN",
+          "y": 0
+        },
+        {
+          "symbol": "HayBailSm",
+          "x": 15323,
+          "y": 369
+        },
+        {
+          "symbol": "HayBailSm",
+          "x": 15251,
+          "y": 308
+        },
+        {
+          "symbol": "Fence",
+          "x": 13934,
+          "y": 393
+        },
+        {
+          "symbol": "Fence",
+          "x": 14676,
+          "y": 394
+        },
+        {
+          "symbol": "BackgroundBushTree",
+          "x": 13982,
+          "y": 292
+        },
+        {
+          "symbol": "BackgroundBush2",
+          "x": 14233,
+          "y": 333
+        },
+        {
+          "symbol": "BackgroundBushTree2",
+          "x": 14476,
+          "y": 276
+        },
+        {
+          "symbol": "BackgroundBush2",
+          "x": 14952,
+          "y": 318
+        },
+        {
+          "symbol": "ANIM-bull",
+          "x": 7061,
+          "y": 282
+        },
+        {
+          "symbol": "ANIM-sheep",
+          "x": 9730,
+          "y": 354
+        },
+        {
+          "symbol": "ANIM-sheep",
+          "x": 9608,
+          "sx": -1,
+          "y": 354
+        },
+        {
+          "symbol": "ANIM-sheep",
+          "x": 9499,
+          "y": 354
+        },
+        {
+          "symbol": "ANIM-sheep",
+          "x": 10232,
+          "y": 359
+        },
+        {
+          "symbol": "ANIM-sheep",
+          "x": 10334,
+          "sx": -1,
+          "y": 357
+        },
+        {
+          "symbol": "ANIM-chicken",
+          "x": 6657,
+          "y": 302
+        },
+        {
+          "symbol": "ANIM-duck",
+          "x": 13016,
+          "y": 388
+        },
+        {
+          "symbol": "ANIM-duck",
+          "x": 12998,
+          "y": 414
+        },
+        {
+          "symbol": "ANIM-duck",
+          "x": 13050,
+          "y": 404
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "ground",
+      "children": [
+        {
+          "symbol": "Path",
+          "x": 0,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 1321,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 2642,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 3963,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 5284,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 6605,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 7926,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 9247,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 10568,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 11889,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 13210,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 14531,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 15852,
+          "y": 531
+        },
+        {
+          "symbol": "Path",
+          "x": 17173,
+          "y": 531
+        }
+      ]
+    },
+    {
+      "px": 1,
+      "name": "path",
+      "children": [
+        {
+          "symbol": "SPOT-HayBailRight",
+          "x": 2825,
+          "hiddenObject": "OPEN",
+          "y": 494
+        },
+        {
+          "symbol": "HayBailObstacle",
+          "x": 2571,
+          "y": 495
+        },
+        {
+          "symbol": "HayBailObstacle",
+          "x": 2818,
+          "y": 495
+        },
+        {
+          "symbol": "SPOT-Truck",
+          "x": 3617,
+          "hiddenObject": "OPEN",
+          "y": 251
+        },
+        {
+          "symbol": "TRIGGER-BounceGame",
+          "x": 5368,
+          "y": 22
+        },
+        {
+          "symbol": "SPOT-HayBailRight",
+          "x": 7436,
+          "hiddenObject": "OPEN",
+          "y": 492
+        },
+        {
+          "symbol": "TRIGGER-DrawingBoard",
+          "x": 5368,
+          "y": 23
+        },
+        {
+          "symbol": "HayBailObstacle",
+          "x": 7436,
+          "y": 492
+        },
+        {
+          "symbol": "HayBailObstacle",
+          "x": 7189,
+          "y": 493
+        },
+        {
+          "symbol": "HayBailObstacle",
+          "x": 7273,
+          "y": 386
+        },
+        {
+          "symbol": "SPOT-Tractor",
+          "x": 9600,
+          "hiddenObject": "OPEN",
+          "y": 145
+        },
+        {
+          "symbol": "SPOT-Truck",
+          "x": 13569,
+          "hiddenObject": "OPEN",
+          "y": 247
+        },
+        {
+          "symbol": "WateringCanObstacle",
+          "x": 12566,
+          "y": 524
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 11051,
+          "y": 578,
+          "characterSpot": 5
+        },
+        {
+          "symbol": "HayBailObstacle",
+          "x": 12956,
+          "y": 492
+        },
+        {
+          "symbol": "HayBail",
+          "x": 17728,
+          "y": 495
+        },
+        {
+          "symbol": "HayBail",
+          "x": 17970,
+          "y": 495
+        },
+        {
+          "symbol": "HayBail",
+          "x": 18223,
+          "y": 494
+        },
+        {
+          "symbol": "HayBail",
+          "x": 17827,
+          "y": 387
+        },
+        {
+          "symbol": "HayBail",
+          "x": 18075,
+          "y": 387
+        },
+        {
+          "symbol": "HayBail",
+          "x": 17937,
+          "y": 279
+        },
+        {
+          "symbol": "HayBail",
+          "x": 17997,
+          "y": 169
+        },
+        {
+          "symbol": "HayBail",
+          "x": 17959,
+          "y": 58
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 14604,
+          "y": 582,
+          "characterSpot": 6
+        },
+        {
+          "symbol": "WateringCanObstacle",
+          "x": 15491,
+          "y": 526
+        },
+        {
+          "symbol": "SPOT-Truck",
+          "x": 17067,
+          "hiddenObject": "OPEN",
+          "y": 253
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 4897,
+          "y": 601,
+          "characterSpot": 7
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 8475,
+          "y": 576,
+          "characterSpot": 8
+        },
+        {
+          "symbol": "HayBailObstacle",
+          "x": 11728,
+          "y": 497
+        },
+        {
+          "symbol": "TRIGGER-Character",
+          "x": 16613,
+          "y": 583,
+          "characterSpot": 9
+        },
+        {
+          "symbol": "Path",
+          "x": 18494,
+          "y": 531
+        },
+        {
+          "symbol": "EndLevelBlock",
+          "x": 17639,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "px": 1.1,
+      "name": "foreground",
+      "children": [
+        {
+          "symbol": "FrontGrass",
+          "x": 0,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 1425,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 2850,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 4275,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 5700,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 7125,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 8550,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 9975,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 11400,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 12825,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 14250,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 15675,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 17100,
+          "y": 656
+        },
+        {
+          "symbol": "SPOT-LargeBush",
+          "x": 1968,
+          "hiddenObject": "OPEN",
+          "y": 609
+        },
+        {
+          "symbol": "LargeBush",
+          "x": 10031,
+          "y": 567
+        },
+        {
+          "symbol": "SPOT-LargeBush",
+          "x": 14169,
+          "hiddenObject": "OPEN",
+          "y": 606
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 18525,
+          "y": 656
+        },
+        {
+          "symbol": "FrontGrass",
+          "x": 19950,
+          "y": 656
+        }
+      ]
+    }
+  ]
+}

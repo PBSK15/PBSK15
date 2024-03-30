@@ -1,0 +1,166 @@
+#content h6 {
+	font: 2.5em "lilita one", sans-serif;
+	margin: 0;
+	padding: 9px 6px 8px;
+	text-align: center;
+}
+
+.col7.cntr #exerciseDescription {
+	text-align: center;
+	height:58px;
+	margin: 0 0 2% 0;
+	font: 1.1em montserrat, sans-serif;
+	padding:0;
+}
+
+
+.pagination {
+	width:5%;
+	margin:0 auto;
+	clear:both;
+}
+
+.exerciseImg {
+	width:100%;
+	padding-bottom:60%;
+	background-color: #ccc;
+}
+
+.buttonContainer {
+	width:45%;
+	float:left;
+}
+
+.buttonContainer button {
+	width:100%;
+	margin:5% 0;
+	display: block;
+}
+
+button {
+	border-radius: 15px;
+	-webkit-border-radius:15px;
+	background: #f93;
+	font:1.5625em "lilita one", sans-serif;
+	color:#fff;
+	height:60px;
+	-webkit-appearance:none;
+	border:0;
+	cursor: pointer;
+}
+
+button.disabled {
+	color:#fff;
+	opacity:0.4;
+	filter:alpha(opacity=40); /*for IE8 and earlier*/
+	cursor: default;
+}
+
+.timerContainer {
+	overflow: hidden;
+	height:300px;
+}
+
+.group {
+	position: relative;
+}
+
+#skipButton1 {
+	position: absolute;
+	right:3%;
+	padding:0 3%;
+	font:1.3625em "lilita one", sans-serif;
+	height:50px;
+}
+
+
+/* Timer / Countdown */
+
+.exerciseTimer {
+	float:left;
+	width:37%;
+	padding: 0 9%;
+	margin:0 0 2% 0;
+}
+
+.timerClock {
+	padding: 1px;
+	position: relative;
+	max-width:171px;
+	padding-bottom: 30%;
+}
+
+.timerTime {
+	width:100%;
+	padding:1px;
+	display: block;
+}
+
+.timerTime p {
+	width:173px;
+	text-align: center;
+	padding:0 0 1em 0;
+}
+
+.congratsMsg {
+	position:absolute;
+	width:94%;
+	text-align: center;
+	padding-top:2em;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.clocktop {
+	width:100%;
+}
+
+.face, #second{
+	width:100%;
+	position: absolute;
+}
+
+/* Smaller screen */
+
+@media only screen and (max-width: 759px) {
+	.exerciseTimer, .buttonContainer {
+		float:none;
+		clear:both;
+		width:100%;
+	}
+
+	.buttonContainer {
+		overflow: auto;
+		margin:0 0 5% 0;
+	}
+	.timerClock, .timerTime {
+		float:left;
+		width:40%;
+	}
+
+	.timerTime {
+		padding-top: 15%;
+	}
+
+	.timerTime p {
+		width:70%;
+		margin:0 15% 30% 15%;
+	}
+
+	.buttonContainer button {
+		float:left;
+		width:48%;
+		margin:0 1%;
+	}
+
+	.characterArt {
+		margin: 2% 0;
+		width: 100%;
+	}
+
+	img.currentExercise {
+		margin:0 auto;
+	}
+}

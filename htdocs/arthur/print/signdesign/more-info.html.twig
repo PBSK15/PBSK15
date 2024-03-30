@@ -1,0 +1,49 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Sign Design | PBS Kids' %}
+{% set desc = 'Read more information about American Sign Language and how to communicate in sign language.' %}
+{% set keywds = 'sign language, deaf, ASL' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9fc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="signHeader">Sign Design</h4></a>
+  <ul id="printSideNav">
+   <li><a href="name.html"><span>Practice Signing</span></a></li>
+   <li><a href="finger-spelling.html"><span>Finger Spelling</span></a></li>
+   <li><a href="more-info.html" class="selected"><span>More Information</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>More Information</h1>
+    </div>
+   </div>
+   <div id="spellingContent" class="page"><img src="../../i/print/signdesign/sign_more.gif" width="180" height="369" alt="Arthur signing the word 'more'" border="0" class="float-left">
+    <ul id="infoContent">
+     <li>There are many different sign languages in the world. Each country has its own. In the United States, people use American Sign Language, or ASL. But someone who uses ASL may not understand Japanese Sign Language or Italian Sign Language, just like people who speak English may not understand Japanese or Italian.</li>
+     <li>ASL is a language just like any other. It has its own words and its own grammar. The word order in ASL is different from English. In ASL, "What is your name?" would be signed this way: "Your name what?" In addition to the actual signs, your eyebrows would lower to show a questioning face.</li>
+     <li>The signing I'm using here is called signed English. The signs are borrowed from American Sign Language, but they are in English word order. People who sign should be able to understand you. If you enjoy this introduction to sign, you can try to find an ASL class in your town.</li>
+     <li>You can spell any word with the manual alphabet, also known as finger spelling. In finger spelling, there is one sign for each letter of the alphabet. Use finger spelling for proper names, place names, or anything else you don't know the sign for.</li>
+     <li>Facial expressions and body language are very important parts of signing. Not using your face or body while signing is like using a robot voice all the time — boring! Watch people when they talk to you: they all use their faces and bodies to show if they are happy, sad, excited, or whatever. So remember to use your face and body!</li>
+     <li>Some people who are deaf or hard-of-hearing can lip read (know what someone is saying by just watching their lips). This is a difficult skill to master, since many words that don't sound alike actually look alike on the lips when you speak them. An example of this is the words "red" and "green." They don't sound the same at all, but they look very similar on the mouth. You can test this by having a friend mouth one of these words. Can you tell what he or she is saying? Try playing a game to see if you can understand your friends by reading their lips. They can speak in sentences, or try lists of words like rat, bat, mat, cat, chat, sat, hat, fat, et cetera.</li>
+    </ul> <img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+   <li><a href="/arthur/games/yougottobekidding/index.html" id="rcKidding">You've Got To Be Kidding</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

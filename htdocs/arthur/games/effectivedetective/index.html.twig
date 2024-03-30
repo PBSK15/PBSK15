@@ -1,0 +1,21 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Effective Detective | PBS Kids' %}
+{% set desc = 'Fern invites you to practice your detective skills -- those include observation and descriptive skills. Have fun!' %}
+{% set keywds = 'Fern, detective, description, observation, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="effectivebg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="effectivedetective.html" target="_self"><img src="../../i/games/detective_splash.gif" width="595" height="395" border="0" alt="Play Effective Detective"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/fern/index.html" id="rcFern">Fern</a></li>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li> <!--<li><a href="/arthur/video/games.html?pid=Y_T3v8L7o5oDcgUJ1WolP_eugXVWwq1i" id="rcVideoDetective">Video Detective</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}

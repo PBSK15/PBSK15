@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+	<!-- BEGIN HEAD -->
+	<head>
+    <script type="text/javascript" src="/includes/javascript/sites/superwhy/superwhy.js"></script>
+		<!-- BEGIN METADATA -->
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="Description" content="SUPER WHY, the animated television series and interactive website, helps children ages 3-6 learn key reading skills, including alphabet, rhyming, spelling and reading comprehension, through interactive storybook adventures."/>
+		<meta name="Keywords" content="PBS, PBS kids, Super Why, Super Why!, superwhy, Super Y, Whyatt, Super Readers, Princess Presto, Alpha Pig, Wonder Red, literacy games, reading games, educational games, literacy activities, reading activities, educational activities, games for young kids, preschool activities, activities for kids, alphabet games, spelling games, rhyming games, Out of the Blue Enterprises, Out of the Blue, Angela Santomero, Samantha Freeman, Ready to Learn, superhero, superheroes,  fairytales, reading adventure,  interactive tv, preschool, preschool tv"/>
+		<!-- END METADATA -->
+		
+		<!-- BEGIN TITLE -->
+		<title>SUPER WHY! | PBS KIDS</title>
+		<!-- END TITLE -->
+		
+		<!-- BEGIN EXTERNAL STYLESHEETS -->
+        <link rel="stylesheet" href="css/superwhy.css" type="text/css" />
+		<!-- END EXTERNAL STYLESHEETS -->
+		
+		<!-- BEGIN INTERNAL STYLESHEET -->
+		<style type="text/css">
+			div#page_content
+			{
+				padding-top:10px;
+				padding-bottom:22px;
+			}
+			.noMargin
+			{
+				margin-top:0px;
+				margin-bottom:0px;
+			}
+			
+			body,html { height:100%; width:100%; padding:0; margin:0; }
+		
+			#videoOverlay {
+				left: 0px;
+				top: 0px;
+				position:absolute;
+				width: 100%;
+				height: 100%;
+				min-height:1030px;
+				text-align: center;
+				display: none;
+				z-index: 100;
+				top:0;
+				padding: 0;
+
+				background-image: url(images/fader_tile.png);
+				background-repeat: repeat;
+			}
+			
+			#videoOverlay .player {
+				background-image: url(images/playerframe.png);
+				background-repeat: no-repeat;
+				width: 882px;
+				height: 600px;
+				margin:0px auto;
+				text-align:left;
+				position:relative;
+				top:90px;
+			}
+			
+			#videoOverlay a.close-btn {
+				background-image: url(images/closeBtn_states.png);
+				background-repeat: no-repeat;
+				background-position: 0 0;
+				width:26px;
+				height:26px;
+				overflow:hidden;
+				text-indent:-9999px;
+				display:block;
+				position:relative;
+				top: 5px;
+				left: 850px;
+			}
+			#videoOverlay a.close-btn:hover {
+				background-position: 0 -35px;
+			}
+			
+			#videoOverlay .inner {
+				position:relative;
+				top:16px;
+				left: 12px;
+			}
+			
+			#video-container {
+				margin-left: 0px;
+				margin-top: 0px;
+				margin-right: 0px;
+				margin-bottom: 0px;
+				background-color: #B7FAF1;
+				background-image:url(/superwhy/images/loader_image.png);
+				background-repeat:no-repeat;
+				background-position: 310px 145px;
+				text-align:center; 
+				width: 862px;
+				height: 545px; 
+			}
+		</style>
+		<!-- END INTERNAL STYLESHEET -->
+		
+		<!-- BEGIN EXTERNAL JAVASCRIPT -->
+        <script type="text/javascript" src="includes/flash/swfobject_2-2.js"></script>
+        <script type="text/javascript" src="includes/flash/swfaddress_2-4.js"></script>
+		<script type="text/javascript" src="includes/javascript/jquery-1.5.1.min.js"></script>
+		<script type="text/javascript" src="https://pbskids.org/producerplayer/js/producerplayer2.js"></script>
+		<!-- END EXTERNAL JAVASCRIPT -->
+		
+		<script type="text/javascript" >
+		//<![CDATA[
+		
+		function createVideoPlayer(){
+			var configObj = {};
+			//configObj.category = "Creative Arts";
+			configObj.releaseEndIndex = 100;
+			configObj.controlLayoutURL = "https://pbskids.org/producerplayer/data/metaLayout-KidsPreschool.xml";
+			configObj.playerSkinURL = "https://pbskids.org/producerplayer/swf/skins/skinKidsPreschool.swf";
+			configObj.playerColorScheme =
+			  "<colorschemes>"+
+				"<player>"+
+				  "<backgroundColor>0xe31817</backgroundColor>"+
+				  "<frameColor>0xe31817</frameColor>"+
+				  "<controlColor>0x0039a6</controlColor>"+
+				  "<controlBackgroundColor>0xffffff</controlBackgroundColor>"+
+				  "<controlFrameColor>0xe31817</controlFrameColor>"+
+				  "<controlHighlightColor>0xffffff</controlHighlightColor>"+
+				  "<controlHoverColor>0x00be0a</controlHoverColor>"+
+				  "<controlSelectedColor>0x00be0a</controlSelectedColor>"+
+				  "<loadProgressColor>0xffffff</loadProgressColor>"+
+				  "<playProgressColor>0x40b3ff</playProgressColor>"+
+				  "<scrubberColor>0x65f94f</scrubberColor>"+
+				  "<scrubberFrameColor>0xffffff</scrubberFrameColor>"+
+				  "<scrubTrackColor>0xffffff</scrubTrackColor>"+
+				  "<textBackgroundColor>0x0039a6</textBackgroundColor>"+
+				  "<textColor>0xffffff</textColor>"+
+				  "<subtitlesBackgroundColor>0x0063be</subtitlesBackgroundColor>"+
+				"</player>"+
+			  "</colorschemes>";
+
+			configObj.releaseListSkinURL = "https://pbskids.org/producerplayer/swf/skins/skinKidsPreschool.swf";
+			configObj.releaseListColorScheme =
+			  "<colorschemes>"+
+				"<releaseList>"+
+				  "<backgroundColor>0xe31817</backgroundColor>"+
+				  "<frameColor>0xe31817</frameColor>"+
+				  "<itemBackgroundColor>0xffffff</itemBackgroundColor>"+
+				  "<itemBackground2Color>0xffffff</itemBackground2Color>"+
+				  "<itemBackgroundHoverColor>0x65f84e</itemBackgroundHoverColor>"+
+				  "<itemBackgroundSelectedColor>0x65f84e</itemBackgroundSelectedColor>"+
+				  "<itemFrameColor>0x89DBD8</itemFrameColor>"+
+				  "<textColor>0x0039a6</textColor>"+
+				  "<text2Color>0x0039a6</text2Color>"+
+				  "<textFrameColor>0xFFFFFF</textFrameColor>"+
+				  "<textHoverColor>0x5B7900</textHoverColor>"+
+				  "<textSelectedColor>0x5B7900</textSelectedColor>"+
+				  "<thumbnailFrameColor>0xFFFFFF</thumbnailFrameColor>"+
+				  "<thumbnailFrameColor>0xFFFFFF</thumbnailFrameColor>"+
+				  "<scrollButtonColor>0x3fb3ff</scrollButtonColor>"+
+				  "<scrollIconColor>0xffffff</scrollIconColor>"+
+				  "<scrollThumbColor>0x0039a6</scrollThumbColor>"+
+				  "<scrollTrackColor>0x0039a6</scrollTrackColor>"+
+				  "<scrollTrackFrameColor>0xffffff</scrollTrackFrameColor>"+
+				"</releaseList>"+
+			  "</colorschemes>";
+
+			configObj.dockBanner = "false";
+			configObj.dockReleaseList = "right";
+			configObj.playerWidth = 480;
+			configObj.aspectRatio = "4:3";
+			configObj.playerPaddingTop = 20;
+			configObj.playerPaddingLeft = 20;
+			configObj.releaseListWidth = 320;
+			configObj.releaseListHeight = 545;
+			configObj.releaseListPaddingTop = 0;
+			configObj.releaseListPaddingLeft = 42;
+			configObj.thumbnailWidth = 69;
+			configObj.thumbnailHeight = 53;
+			configObj.containerWidth = 862;
+			configObj.containerHeight = 545;
+			configObj.releaseCols = 1;
+			configObj.initVolume = 70;
+
+			pbs.kidsgo.producerplayer.init(configObj, "video-container");
+		}
+		
+		function showVideos() {
+			$("#videoOverlay")
+				.show();
+			createVideoPlayer(); 
+		}
+		
+		function hideVideos() {
+			$("#videoOverlayPlayer").attr({src:'about:blank'});
+			
+			$("#videoOverlay").hide();
+			$("#videoOverlay .player .inner").html('<div id="video-container"></div>');
+			var flashRef = getFlashMovie("page_content_swf");
+			if( flashRef && typeof( flashRef.videosClosedHandler ) == "function" ) {
+				flashRef.videosClosedHandler();
+			}
+		}
+		
+		function getFlashMovie(movieName) {
+			var isIE = navigator.appName.indexOf("Microsoft") != -1;
+			return (isIE) ? window[movieName] : document[movieName];
+		}
+		
+		$(document).ready(function(){
+			$("#videoOverlay a.close-btn").click(function(event){
+				event.preventDefault();
+				hideVideos();
+			});
+		});
+		
+		//]]>
+		</script>
+		<!-- END INTERNAL JAVASCRIPT -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://pbskids.org/includes/javascript/bridge.urls.js"></script>
+<script type="text/javascript" src="https://pbskids.org/includes/javascript/bridge.js"></script></head>
+	<!-- END HEAD -->
+		
+
+
+
+
+		<div id="videoOverlay" class="no-margin">
+			<div>
+			<div class="player">
+				<a class="close-btn" href="#">Close</a>
+				<div class="inner"><div id="video-container"></div></div>
+			</div>
+			</div>
+		</div>
+		
+
+{% include 'template_includes/legacy_headband_include.html' %}
+{% include 'template_includes/legacy_pbsk_js.html' %}
+
+
+
+
+
+
+
+
+
+		<!-- BEGIN PAGE CONTAINER -->
+		<div id="page_container">
+			<!-- BEGIN WRITE PAGE HEADER -->
+			<div id="page_header">
+	<table width="776px" height="72px" cellpadding="0px" cellspacing="0px" border="0px">
+		<tr height="46px">
+			<td rowspan="2" width="8px">&nbsp;</td>
+			<td rowspan="2" valign="top" align="center" width="123px"><a href="https://pbskids.org"><img src="/superwhy/images/topnav/pbskids_logo.gif" height="72" width="52" border="0" alt="PBSKids.org" /></a></td>
+			<td valign="top"><a href="/superwhy/parentsteachers/index.html"><img src="/superwhy/images/topnav/btn_parentsandteachers.gif" height="44" width="195" border="0" alt="Parents and Teachers Section" /></a></td>
+			<td valign="top"><a href="/superwhy/parentsteachers/jointheclub/index.html"><img src="/superwhy/images/topnav/btn_jointheclub.gif" height="44" width="168" border="0" alt="Join the Club" /></a></td>
+			<td valign="top"><a href="https://pbskids.org/tvschedules/airdates.html?title_id=SWHY"><img src="/superwhy/images/topnav/btn_schedule.gif" height="44" width="128" border="0" alt="TV Schedule" /></a></td>
+			<td rowspan="2" width="180px" align="center">
+            
+                <p class="watch_message">Find your local<br /><a href="/tvschedules/localizer.html?dest=/superwhy/index.html" class="watch_message">PBS KIDS station</a>!</p>
+            
+            </td>
+			<td rowspan="2" width="8px">&nbsp;</td>
+		</tr>
+		<tr height="24px"><td colspan="3" valign="top" align="center" class="header_ticker_text"><a href="https://pbskids.org/apps/super-why-phonics-fair.html" class="header_ticker_text">Check out the new SUPER WHY Phonics Fair App for the iPad and iPhone!</a></td></tr>
+	</table> 
+      
+</div>
+
+			<!-- END WRITE PAGE HEADER -->
+			
+			<!-- BEGIN PAGE CONTENT -->
+			<div id="page_content">
+				<div id="page_content_inner">
+					<div id="content_top"></div>
+					<div id="content_main">
+					<p class="noMargin">&nbsp;</p>
+					<p align="center"><img src="images/non_flash_characters.jpg" alt="SUPER WHY!" width="205" height="184" /><br>
+					<img src="images/non_flash_greeting.gif" alt="Ready for a Reading Adventure?" width="319" height="35" /></p>
+					<p align="center">To play and read on the SUPER WHY website, you'll need to download at least <br>
+				version 10.0.0 of the Adobe Flash Player or above. </p>
+					<p align="center">
+					<a href="https://get.adobe.com/flashplayer/" title="Adobe Flash Player Download Center" onmouseover="image1.src='images/clickhere1.gif';"
+					onmouseout="image1.src='images/clickhere2.gif';">
+					<img src="images/clickhere2.gif" alt="CLICK HERE" name="image1" border="0" id="image1" /></a>
+					<br>to download it now.</p>
+					<p align="center">&nbsp;</p>
+					<p align="center">Still having problems accessing the site after updating your Flash Player? Please <a href="parentsteachers/contact/no_flash.html">contact us</a>. </p>
+					<p class="noMargin">&nbsp;</p>
+					</div>
+					<div id="content_bottom"></div>
+				</div>
+			</div>
+			
+			<script type="text/javascript">
+					var params = {
+					quality: "high",
+
+					wmode: "opaque",
+					allowscriptaccess: "always",
+					allownetworking: "all",
+					allownetworkingmode: "all",
+					menu: "false",
+					bgcolor: "#FFFFFF",
+					allowfullscreen: "true",
+					allowfullscreeninteractive: "true"
+				};
+				var flashvars = { };
+				var attributes = {id:"page_content.swf"};
+				swfobject.embedSWF( PBS.KIDS.cdn_base + "/superwhy/superwhysite_2011.swf", "page_content_inner", "760", "595", "10", "", flashvars, params, attributes);
+			</script>
+			<!-- END PAGE CONTENT -->
+			
+			<!-- BEGIN ADDITIONAL RESOURCES -->
+            <div id="sponsor_bar">
+	<table width="776px" height="72px" cellpadding="0px" cellspacing="0px">
+		<tr>
+			<td width="30">&nbsp;</td>
+			<td width="86"><div align="center"><a href="https://www.cpb.org/"><img src="/superwhy/images/sponsorbar/cpb_logo.gif" alt="Go to Corporation for Public Broadcasting" width="66" height="80" border="0"></a></div></td>
+			<td width="88"><div align="center"><a href="https://www.ed.gov/"><img src="/superwhy/images/sponsorbar/depofedu_logo.jpg" alt="Go to U.S. Department of Education" width="68" height="80" border="0"></a></div></td>
+			<td width="116"><div align="center"><img src="/superwhy/images/sponsorbar/otb_logo.jpg" alt="Out Of The Blue" width="96" height="80" /></div></td>
+		  <td width="66"><div align="center"><img src="/superwhy/images/sponsorbar/decode_logo.gif" alt="Decode" width="46" height="80" /></div></td>
+		  <td width="176"><div align="center"><a href="https://www.chuckecheese.com/" target="_blank"><img src="/superwhy/images/sponsorbar/CEC_copy.jpg" width="154" height="80" border="0" /></a></div></td>
+		   <td width="137"><div align="center"><a href="https://www.kiddieacademy.com" target="_blank"><img src="/superwhy/images/sponsorbar/kiddie_academy.jpg" width="151" height="80" border="0" /></a></div></td>
+		   <td width="137"><div align="center"><a href="https://www.abcmouse.com/superwhy" target="_blank"><img src="/superwhy/images/sponsorbar/abc_mouse.jpg" width="109" height="80" border="0" /></a></div></td>
+		  <td width="36">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+
+            <!-- END ADDITIONAL RESOURCES -->
+
+			<!-- BEGIN WRITE PAGE FOOTER -->
+			<style type="text/css">
+<!--
+.style1 {color: #000000}
+-->
+</style>
+<div id="page_footer">
+<table width="776 px" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+ 	<td colspan="3">
+The contents of this Web site were developed under a cooperative
+agreement, #PRU295A050003, from the U.S. Department of Education.
+However, those contents do not necessarily represent the policy of the
+Department of Education, and you should not assume endorsement by the
+Federal Government.
+<br /><br>
+<a href="https://pbskids.org/apps/super-why-phonics-fair.html"><img src="/superwhy/images/footer/pbs_mobile_phonics.png" alt="PBS KIDS Mobile" width="728" height="90" border="0"/></a></td>
+	</td>
+  </tr>
+  <tr>
+    <td><p>Part of:<br />
+      <a href="https://pbskids.org/read/"><img src="/superwhy/images/footer/Island_Logo.gif" alt="PBS Kids Island" width="108" height="79" border="0"/></a></p></td>
+    <td align="center">
+	
+	<a href="/superwhy/index.html" class="footer">Home</a> | 
+	<a href="/superwhy/index.html#games" class="footer">Games</a> | 
+	<a href="/superwhy/index.html#superstuff/printables" class="footer">Printables</a> | 
+	<a href="/superwhy/index.html#superstuff/videos" class="footer">Videos</a> | 
+	<a href="/superwhy/index.html#superstuff/music" class="footer">Music</a> | 
+	<a href="/superwhy/parentsteachers/index.html" class="footer">Parents &amp; Teachers</a> | 
+	<a href="https://www.sgptv.org/programs/program/super-why/" class="footer">Program Sponsorship</a><br /> 
+	&copy; 2014 Out of the Blue Enterprises LLC.  All rights reserved. 
+	<br /> 
+	<a href="https://pbskids.org/privacy/" class="footer">PBS Kids Privacy Policy</a></td>
+	
+    <td><p>Play More SW Games on PBS KIDS PLAY:<br />
+      <a href="https://www.pbskidsplay.org/playnow/?CPLAYSM&btn=1"><img src="/superwhy/images/footer/play_icon.png" width="216" height="80" border="0" /></a></p></td>
+  </tr>
+</table>
+
+</div>
+
+
+			<!-- END WRITE PAGE FOOTER -->
+		</div>
+		<!-- END PAGE CONTAINER -->
+	
+	</body>
+	<!-- END BODY -->
+</html>

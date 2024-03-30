@@ -1,0 +1,29 @@
+{
+"images": ["titlesheet.png"],
+"frames": [
+
+    [848, 171, 93, 94], 
+    [2, 899, 419, 85], 
+    [848, 2, 165, 167], 
+    [447, 465, 438, 451], 
+    [720, 918, 295, 102], 
+    [2, 465, 443, 432], 
+    [423, 918, 295, 102], 
+    [2, 2, 844, 461]
+],
+"animations": {
+    
+        "BackBtn":[0], 
+        "ChooseQuestTitle":[1], 
+        "PlayBtn":[2], 
+        "Quest1Box":[3], 
+        "Quest1Btn":[4], 
+        "Quest2Box":[5], 
+        "Quest2Btn":[6], 
+        "Title":[7]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:7d0f4723e052e9be6f7f4ac71dcb50c8:2c399e706cb0d5fcf9cf1c90a5a37f3b:9023e31e0d0a7fd48242eeb3795f4c9a$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

@@ -1,0 +1,27 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Lunch-o-matic | PBS Kids' %}
+{% set desc = 'Help Brain and Mrs. MacGrady serve healthy balanced lunches to kids at school! Choose the food that has the necessary vitamins and health benefits.' %}
+{% set keywds = 'lunch, cafeteria, healthy, balanced, food, eat' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="lunchbg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/lunchomatic_header.gif" width="619" height="72" border="0" alt="Lunch-o-matic - Choose the right foods to create balanced lunches." id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="lunchomatic">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/lunchomatic/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("lunchomatic.swf", "lunch", "595", "350", "6", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				   fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/macgrady/index.html" id="rcMacGrady">Mrs. MacGrady</a></li>
+   <li><a href="/arthur/friends/brain/index.html" id="rcBrain">The Brain</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventures</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

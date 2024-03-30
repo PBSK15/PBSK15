@@ -1,0 +1,103 @@
+{
+  "urls": [
+    "voclips.ogg",
+    "voclips.mp3"
+  ],
+  "audioSprite": [
+    {
+      "id": "Sound_curtainup",
+      "startTime": 0,
+      "duration": 1410.6122448979593
+    },
+    {
+      "id": "Sound_levanteeltelon2",
+      "startTime": 3000,
+      "duration": 3108.5714285714284
+    },
+    {
+      "id": "Sound_hicoco",
+      "startTime": 8000,
+      "duration": 2690.6122448979595
+    },
+    {
+      "id": "Sound_siteatro",
+      "startTime": 12000,
+      "duration": 1045.963718820861
+    },
+    {
+      "id": "Sound_noah_ok2",
+      "startTime": 15000,
+      "duration": 1384.489795918366
+    },
+    {
+      "id": "Sound_letsgetstarted",
+      "startTime": 18000,
+      "duration": 4048.9795918367336
+    },
+    {
+      "id": "vo_youneedtopickabackgroundfirst",
+      "startTime": 24000,
+      "duration": 2664.4897959183672
+    },
+    {
+      "id": "Sound_cocogracias",
+      "startTime": 28000,
+      "duration": 2352.0861678004544
+    },
+    {
+      "id": "Sound_pickprop",
+      "startTime": 32000,
+      "duration": 5328.9795918367345
+    },
+    {
+      "id": "vo_youneedtopicksomepropsfirst",
+      "startTime": 39000,
+      "duration": 2115.9183673469356
+    },
+    {
+      "id": "Sound_coco_excellent",
+      "startTime": 43000,
+      "duration": 1828.5714285714291
+    },
+    {
+      "id": "Sound_noah_liondrag",
+      "startTime": 46000,
+      "duration": 8437.551020408166
+    },
+    {
+      "id": "vo_youneedtopicksomecharactersfirst",
+      "startTime": 56000,
+      "duration": 2194.285714285712
+    },
+    {
+      "id": "Sound_gracias",
+      "startTime": 60000,
+      "duration": 732.4943310657588
+    },
+    {
+      "id": "vo_newplay",
+      "startTime": 62000,
+      "duration": 1071.020408163264
+    },
+    {
+      "id": "vo_nowchooseatitle",
+      "startTime": 65000,
+      "duration": 2063.6734693877515
+    },
+    {
+      "id": "vo_nowchoosethemusic",
+      "startTime": 69000,
+      "duration": 2037.5510204081593
+    },
+    {
+      "id": "vo_printyourplay",
+      "startTime": 73000,
+      "duration": 1253.877551020409
+    },
+    {
+      "id": "vo_watchagain",
+      "startTime": 76000,
+      "duration": 914.285714285711
+    }
+  ]
+}

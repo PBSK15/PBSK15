@@ -1,0 +1,72 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . D.W.\'s About Me Page | PBS Kids' %}
+{% set desc = 'D.W. is awesome! Read all about Dora Winifred on her very own profile page! Find out what shes doing to save energy, and take a poll too!' %}
+{% set keywds = 'D.W., Dora Winifred, ARTHUR, profile, sister' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcf">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/dw_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/dw_top.swf", "dw", "960", "363", "9", "#ffccff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "dw");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-dw">D.W.'s photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     When I saved my cousin's wedding ring (and her wedding!)
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     When my snowball was stolen.
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Learning to write my name, and getting my first library card!
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_fcf">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you turn off lights and other electronics like TVs and computers when you're not using them?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/dw/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="dw"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/dw_book1.jpg" width="148" height="117" alt="The Adventures of Isabel book cover" border="0"> <h4>The Adventures of Isabel</h4> <p>by Ogden Nash<br> When Isabel meets a bear, a giant, and a witch, she knows just what to do. This story is a poem and it has great pictures by James Marshall.</p></li>
+    <li><img src="/arthur/i/friends/books/dw_book2.jpg" width="148" height="117" alt="Brave Irene book cover" border="0"> <h4>Brave Irene</h4> <p>by William Steig<br> Irene is strong and brave, even in a blinding snow storm.</p></li>
+    <li><img src="/arthur/i/friends/books/dw_book3.jpg" width="148" height="117" alt="Swamp Angel  book cover" border="0"> <h4>Swamp Angel</h4> <p>by Anne Isaacs<br> Angelica Longrider is the greatest woodswoman in Tennessee. She can lasso a tornado and toss a bothersome bear high in the sky.</p></li>
+    <li><img src="/arthur/i/1px.gif" width="148" height="117" alt="" border="0"> <h4>The Girl Who Wore Snakes</h4> <p>by Angela Johnson<br> Would you want to wrap a pet snake around your neck? Ali thinks it's great, and so does her aunt.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventures</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li> <!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

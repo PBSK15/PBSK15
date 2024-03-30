@@ -1,0 +1,42 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Connect The World Map . USA | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="connectbg">
+ <div class="ruler"></div>
+ <div id="gamesMapWrapper">
+  <div id="mapWrapper"><map name="worldmap"> <area shape="rect" coords="0, 163, 317, 413" href="connectworld.html" alt="Back to game"> <area shape="rect" coords="459, 195, 529, 271" href="australia.html" alt="Australia"> <area shape="rect" coords="398, 112, 450, 167" href="india.html" alt="India"> <area shape="rect" coords="519, 106, 565, 128" href="japan.html" alt="Japan"> <area shape="rect" coords="483, 87, 501, 124" href="japan.html" alt="Japan"> <area shape="rect" coords="352, 166, 378, 192" href="kenya.html" alt="Kenya"> <area shape="rect" coords="144, 126, 192, 156" href="mexico.html" alt="Mexico"> <area shape="rect" coords="331, 30, 481, 100" href="russia.html" alt="Russia"> <area shape="rect" coords="341, 100, 375, 121" href="turkey.html" alt="Turkey"> <area shape="rect" coords="143, 84, 231, 123" href="usa.html" alt="U.S.A."> </map> <img src="/arthur/i/games/connectworld/map_connect.gif" alt="Map of the world with eight highlighted countries" width="610" height="415" border="0" usemap="#worldmap"> <a href="/arthur/games/connectworld/connectworld.html" id="connectBack">Back to Game</a>
+  </div>
+  <div id="mapInfoWrapper">
+   <div id="mapContent">
+    <h1>U.S.A. - The United States of America</h1>
+    <div class="ruler"></div>
+    <h3>Food</h3>
+    <p><img src="/arthur/i/games/connectworld/food_usa.gif" alt="Illustration of a cheeseburger" width="101" height="68" class="float-right cw-img">A cheeseburger is a ground beef patty with cheese served on a bun. Lettuce, tomato, and onions are often added. Americans eat billions of cheeseburgers and hamburgers (without the cheese) each year.</p>
+    <div class="ruler"></div>
+    <h3>Music</h3>
+    <p><img src="/arthur/i/games/connectworld/music_usa.gif" alt="Illustration of an electric guitar" width="101" height="68" class="float-right cw-img">The electric guitar was created in the early 1900s. Like an acoustic guitar, it has six strings. An electric guitar is not loud on its own. It must be plugged into an electric amplifier.</p>
+    <div class="ruler"></div>
+    <h3>Sport</h3>
+    <p><img src="/arthur/i/games/connectworld/sport_usa.gif" alt="Illustration of a basketball" width="101" height="68" class="float-right cw-img"> Basketball was invented in the late 1800s by Dr. James Naismith, who wanted to create a sport to play indoors during long, cold winters. Two teams each try to get a ball through their opponent's hoop as often as possible.</p>
+    <div class="ruler"></div>
+    <h3>Flag</h3>
+    <p><img src="/arthur/i/games/connectworld/flag_usa.gif" alt="The American flag" width="101" height="68" class="float-right cw-img"> The flag of the United States of America has 13 stripes (one for each of the original 13 colonies), and 50 stars (one for each state). The original flag had only 13 stars; a star has been added each time a state has joined the union.</p>
+   </div>
+   <div id="mapInfoTop"></div>
+   <div id="mapInfoBtm"></div>
+   <div id="mapInfoArrow"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/traveltales/index.html" id="rcTravelTales">Sue Ellen's Travel Tales</a></li>
+   <li><a href="/arthur/games/factsopinions/index.html" id="rcFactOpinion">Facts and Opinions</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

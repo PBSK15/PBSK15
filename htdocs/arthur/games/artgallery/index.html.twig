@@ -1,0 +1,32 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Art Gallery | PBS Kids' %}
+{% set desc = 'Binky, art expert extraordinaire, shows off art from real kids in his Art Gallery! He also comments on each picture. You can send your drawings in too!' %}
+{% set keywds = 'Binky, user generated content, ugc, real kids, submissions, game' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />\n<script  type="text/javascript" src="/arthur/js/artgallery.js"></script>' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9cc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="artgalleryHeader">Art Gallery</h4></a>
+  <div class="art_info"></div>
+ </div>
+ <div class="gallery_container"></div>
+ <div class="nextImg">
+  Next Picture
+ </div>
+ <div class="icon" id="artSend">
+  <a href="sendyourartwork.html">
+   <div>
+    Send your Artwork!
+   </div></a>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/binky/index.html" id="rcBinky">Binky</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+   <li><a href="/arthur/games/letsdrawarthur/index.html" id="rcDrawArthur">Let's Draw Arthur</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

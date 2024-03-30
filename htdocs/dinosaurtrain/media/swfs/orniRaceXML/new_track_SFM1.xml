@@ -1,0 +1,14 @@
+<track>
+<obstacle>
+    <type>power</type><art>Power1</art><lane>2</lane><x>97.3</x>
+</obstacle>
+<obstacle>
+    <type>mud</type><art>Mud2</art><lane>2</lane><x>362.9</x>
+</obstacle>
+<obstacle>
+    <type>power</type><art>Power3</art><lane>3</lane><x>461.3</x>
+</obstacle>
+<obstacle>
+    <type>rock</type><art>Rock1</art><lane>3</lane><x>957.45</x>
+</obstacle>
+</track>

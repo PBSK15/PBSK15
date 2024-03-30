@@ -1,0 +1,681 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name='author' content='fableVision, Inc.'>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<link rel='stylesheet' href='/dinosaurtrain/styles/main.css'>
+<script type='text/javascript' src='/dinosaurtrain/scripts/globals.js'></script>
+
+{% include 'template_includes/bridge_js_include.html' %}
+
+<script type='text/javascript'>
+
+//////////////////////////////////////////////////////
+// plays a sfx inside of the topNavSWF file.
+//////////////////////////////////////////////////////
+function playswfSFX(id){
+    var obj = document.getElementById('topnavsfxswf');
+    if( obj != null ){
+        try {
+            obj.playSFX(id);
+        } catch(error){}
+    }
+}
+</script>
+<title>Dinosaur Train{{title|raw}} | PBS KIDS</title>
+<meta name='description' content="{{desc|raw}}">
+<meta name='keywords' content='{{keywds|raw}}'>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+  <script type="text/javascript" src="http://www.pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script>
+<script type='text/javascript' language='javascript'>
+    {% block loadContent %}{% endblock %}
+</script>
+ {% block specialInclude %}{% endblock %}
+ </head>
+<body onLoad='{{onLoadEvent|raw}}' class='{{bodyClass|raw}}'>
+
+
+<style type="text/css">
+img, embed, object, video{ max-width:100%; }
+video, object, embed, button{ outline:none; border:none; }
+button{ cursor:pointer; vertical-align:middle; }
+button img { vertical-align:middle; height:1.2em; }
+ 
+#app {
+width: 100%;
+height: 100%;
+background: url(../media/images/bg.jpg);
+background-size: cover;
+}
+
+.flex #app, .tablet-960 #app, .tablet-1100 #app, .tablet-960 #main_content, .tablet-1100 #main_content {
+background: transparent;
+}
+
+#player{
+width: 528px;
+position: absolute;
+margin: 0 0 0 -264px;
+left: 50%;
+top: 20px;
+z-index: 1;
+}
+
+.flex #player {
+width: 100%;
+margin: 0;
+left: 0;
+position: relative;
+}
+ 
+    #player .frame {
+      background:#FFF;
+      border:solid 8px #FFF;
+      border-radius: 16px;
+    }
+ 
+        #player #video-player{
+          width:512px;
+          height:288px;
+          background:#000;
+          display:block;
+        }
+        
+.flex #player #video-player {
+width: 100%;
+height: auto;
+}
+        
+        #player .timer-remaining{
+          color:#AECECE;
+          font-size:0.875em;
+          font-family: Arial, sans-serif;
+          width:11.2244898%;
+          margin-right:1.36054422%;
+          text-align:right;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+        }
+ 
+        #player .scrubber{
+          width:72.10884354%;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+          margin:8px 0 2px;
+          cursor:pointer;
+        }
+ 
+            #player .scrubber .scrubber-track{
+              width:100%;
+              height:6px;
+              margin:10px;
+              background-color:#AECECE;
+              border-radius:10px;
+              display:inline-block;
+              zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+              vertical-align:middle;
+              text-align:left;
+            }
+ 
+            #player .scrubber .scrubber-thumb{
+              width:26px;
+              height:26px;
+              background:#FFF;
+              border: solid 2px #AECECE ;
+              border-radius: 26px;
+              position:relative !important;
+              top:-10px;
+            }
+ 
+    #player #controlrack{
+      margin:10px auto 0px;
+      padding-bottom:11px;
+      text-align:center;
+    }
+    
+        #player #controlrack span{
+          width:112px;
+          background:#FF9545;
+          padding-bottom: 10px;
+          display:inline-block;
+          zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+          border-radius:32px 32px  20px 20px;
+        }
+       
+.mobilify #player #controlrack span {
+zoom: 0.6;
+}
+        
+        #player #controlrack span.down{
+          top: 10px;
+          position:relative;
+          padding-bottom: 0px;
+        }
+ 
+#player #controlrack button{
+width: 100%;
+height: 72px;
+color: #FF9545;
+background: #FFE960;
+border-radius: 20px;
+font-size: 1.4em;
+line-height: 1.5em;
+font-family: dino-font;
+}
+
+#player #controlrack button .symbol, #player #controlrack button.symbol{
+  font-family: arial, sans-serif;
+  font-style: normal;
+  padding: 0 0 0 0.2em;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+#player #controlrack button .symbol{
+  vertical-align: top;
+  font-size: 1.5em;
+}
+
+.previous .symbol {
+-webkit-transform: scale(-1,1);
+-moz-transform: scale(-1,1);
+-ms-transform: scale(-1,1);
+-o-transform: scale(-1,1);
+transform: scale(-1,1);
+}
+ 
+            #player #controlrack span:hover button{
+              background:#FFFA99;
+            }
+ 
+               #player #controlrack button img{
+                  height:48px;
+                }
+ 
+        #player #controlrack span.play-pause {
+          margin-left: 8px;
+          margin-right: 8px;
+          width: 208px;
+        }
+        
+        #player #controlrack span.play-pause #icon-pause,
+        #player #controlrack span.play-pause.playing #icon-play
+        {
+          display:none;
+        }
+        
+        #player #controlrack span.play-pause.playing #icon-pause{
+          display:inline;
+        }
+
+            #player #controlrack span.play-pause img{
+              height:30px;
+            }
+            
+            
+        #player #controlrack #captions-button{
+          width: 40px;
+          height: 40px;
+          border-radius: 12px;
+          font-weight: bold;
+          font-size: 16px;
+          margin-left: 8px;
+        }
+
+div#main_content {
+height: 480px;
+}
+
+#playlist-wrapper, #group-wrapper {
+position: absolute;
+background: #FFF;
+top: 7.5%;
+left: 50%;
+height: 93%;
+font-size: 0.6em;
+border-radius: 1em;
+overflow: hidden;
+width: 14em;
+margin-left: -32.5em;
+}
+
+#playlist-wrapper {
+border: 0.6em solid #E87E21;
+width: 12.8em;
+height: 19.3em;
+}
+
+.flex #playlist-wrapper, .flex #group-wrapper {
+position: relative;
+margin: 2em 0.2em 0 0.2em;
+font-size: 0.8em;
+vertical-align: top;
+left: 0;
+display: inline-block;
+}
+.flex #playlist-wrapper {
+height: 19.4em;
+}
+.flex #group-wrapper {
+height: 20.6em;
+}
+
+.desktop-960 #playlist-wrapper, .tablet-960 #playlist-wrapper {
+margin-left: -30.7em;
+height: 19.3em;
+}
+
+.desktop-960 #group-wrapper, .tablet-960 #group-wrapper {
+margin-left: 16.7em;
+}
+
+.desktop-960 #group-wrapper li, .tablet-960 #group-wrapper li {
+margin: 0.6em 0.6em 0.6em auto;
+}
+
+#group-wrapper {
+margin-left: 18.5em;
+background-color: #E87E21;
+height: auto;
+}
+
+#group-wrapper li {
+background-color: #ECE271;
+background-image: url(../media/images/video-tags.png);
+background-size: 200%;
+color: transparent;
+width: 12em;
+height: 3.4em;
+margin: 0.6em auto;
+border-radius: 0.8em;
+cursor: pointer;
+}
+
+#group-wrapper li:hover, #group-wrapper li.selected {
+background-color: #FFE514;
+}
+
+#group-list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#clips                                    {background-position: 0    0;}
+#clips:hover, #clips.selected             {background-position: 100% 0;}
+#discoveries                              {background-position: 0    25%;}
+#discoveries:hover, #discoveries.selected {background-position: 100% 25%;}
+#music                                    {background-position: 0    50%;}
+#music:hover, #music.selected             {background-position: 100% 50%;}
+#episodes                                 {background-position: 0    75%;}
+#episodes:hover, #episodes.selected       {background-position: 100% 75%;}
+#all                                      {background-position: 0    100%;}
+#all:hover, #all.selected                 {background-position: 100% 100%;}
+
+#now-playing-list-iScrollContainer{
+  height: 100%;
+}
+
+#now-playing-list {
+width: 12.8em;
+margin: 0;
+padding: 0;
+background: #E87E21;
+}
+
+    #now-playing-list .playlistItem{
+      width: auto;
+padding: 0.5em 0 0.5em 0.5em;
+      margin:0;
+      list-style: none; 
+color: #fff;
+text-shadow: 0 0 0.3em #618704;
+      font-size: 0.875em;
+      cursor: pointer;
+      overflow: hidden;
+      clear: both;
+
+background: #cfdb34; /* Old browsers */
+background: -moz-linear-gradient(top, #cfdb34 0%, #a8b40d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfdb34), color-stop(100%,#a8b40d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cfdb34 0%,#a8b40d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cfdb34 0%,#a8b40d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cfdb34 0%,#a8b40d 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cfdb34 0%,#a8b40d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfdb34', endColorstr='#a8b40d',GradientType=0 ); /* IE6-9 */
+    }
+    
+    #now-playing-list .playlistItem:nth-child(odd) {
+background: #88ae2b; /* Old browsers */
+background: -moz-linear-gradient(top, #88ae2b 0%, #618704 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#88ae2b), color-stop(100%,#618704)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #88ae2b 0%,#618704 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #88ae2b 0%,#618704 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #88ae2b 0%,#618704 100%); /* IE10+ */
+background: linear-gradient(to bottom, #88ae2b 0%,#618704 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88ae2b', endColorstr='#618704',GradientType=0 ); /* IE6-9 */
+    }
+    
+#now-playing-list .playlistItem:hover, #now-playing-list .playlistItem.selected {
+background: #ffef3d;
+background: -moz-linear-gradient(top, #ffef3d 0%, #d8c816 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffef3d), color-stop(100%,#d8c816));
+background: -webkit-linear-gradient(top, #ffef3d 0%,#d8c816 100%);
+background: -o-linear-gradient(top, #ffef3d 0%,#d8c816 100%);
+background: -ms-linear-gradient(top, #ffef3d 0%,#d8c816 100%);
+background: linear-gradient(to bottom, #ffef3d 0%,#d8c816 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffef3d', endColorstr='#d8c816',GradientType=0 );
+}
+    
+            .playlistItem .thumb-container{
+              float: left;
+              overflow: hidden;
+              width: 4.928571429em;
+              height: 3.78571em;
+            }
+            
+            .playlistItem .thumbnailkidsgodefault{
+              width:100%;
+              height: 3.78571em;
+              border:0;
+              vertical-align: top;
+              background: #333;
+              display: block;
+            }
+            
+            .playlistItem .new-label,
+            .playlistItem .fullep-label
+            {
+              display:none;
+            }
+            
+            .playlistItem.new-video .new-label{
+              display: inline-block; zoom: 1;
+              width: 40px;
+              height: 40px;
+              margin-bottom: -40px;
+              float: right;
+              position: relative;
+            }
+            
+            .playlistItem.episode .fullep-label{
+              background-color: #3899FF;
+              bottom: 1.5em;
+              color: #FFF;
+              font-weight: bold;
+              font-size: 0.72em;
+              display: block;
+              text-align: center;
+              padding: 0.2em 0;
+              position: relative;
+            }
+            
+.playlistItem .video-info {
+width: 8.6em;
+/*height: 3.78571em;*/
+margin: 0;
+padding: 0;
+overflow: hidden;
+float: left;
+padding-left: 0.4em;
+text-align: left;
+}
+
+.video-title {
+font-weight: bold;
+}
+    
+                .video-info .expiration{ 
+                  font-size: 0.8em; 
+                  color: #ED6A42; 
+                }
+            
+            
+    #now-playing-list .showmore-videos{
+      background: none repeat scroll 0 0 #FF9537;
+      color: #FFFFFF;
+      font-weight: bold;
+      padding: 12px 0;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+    }
+    
+    
+#now-playing-list-iScrollContainer .loading-indicator,
+#now-playing-list-iScrollContainer .appending-indicator
+{
+  width:50px;
+  height:50px;
+  display:none;
+  margin:20px auto;
+}
+
+#now-playing-list-iScrollContainer .appendingIndicator-container{
+  color: #FF9545;
+  text-align: center;
+  padding:10px 0;
+}
+
+    #now-playing-list-iScrollContainer .appendingIndicator-container .appending-indicator{
+      display:inline-block;
+      zoom:1; *display:inline; /*IE7 fix for "display:inline-block"*/
+      margin: 0 10px 0 0;
+      vertical-align: middle;
+    }
+
+    #now-playing-list-iScrollContainer .appendingIndicator-container span{
+      margin-right:5px;
+    }
+
+#now-playing-list-iScrollContainer .scrollbarV {
+display: none;
+}
+
+#no-results-message{
+  color: #6E8988;
+  display: none;
+  text-align: center;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+    #no-results-message p{
+      margin:1em 0;
+    }
+
+    #no-results-message a{
+      color: #6E8988;
+    }
+    
+    
+#scroll-up, #scroll-down {
+width: 100%;
+height: 36px;
+color: #FF9545;
+background: #FFE960;
+line-height: 36px;
+font-size: 1.4em;
+cursor: pointer;
+position: absolute;
+z-index: 1;
+box-shadow: 0 7px 6px rgba(0,0,0,0.4);
+display: none;
+
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+#scroll-down {
+bottom: 0;
+box-shadow: 0 -7px 6px rgba(0,0,0,0.4);
+}
+
+#scroll-up:hover, #scroll-down:hover {
+background: #FFFA99;
+}
+
+#scroll-up div {
+-webkit-transform: rotate(270deg);
+transform: rotate(270deg);
+width: 36px;
+margin: auto;
+}
+
+#scroll-down div {
+-webkit-transform: rotate(90deg);
+transform: rotate(90deg);
+width: 36px;
+margin: auto;
+}
+
+</style>
+
+
+
+
+
+<center>
+    <!-- pbs google analytics -->
+<table border=0>
+<tr>
+<td>
+
+
+
+       
+
+
+  
+  {% include 'template_includes/modern_headband_include.html' %}
+  {% include 'template_includes/modern_pbsk_js.html' %}
+
+  
+
+
+
+    {% include 'template_includes/flash_embed.html' %}
+</td>
+</tr></table>
+    <header id="main_header">
+        <a id="pbs-kids-logo" href='https://pbskids.org'><img src='/dinosaurtrain/media/images/pbs-kids-logo.png' alt='PBS KIDS'></a>
+        <a id="dinosaur-train-logo" href='/dinosaurtrain/index.html'><img src='/dinosaurtrain/media/images/dinosaur-train-logo.png' alt='Dinosaur Train'></a>
+        <ul>
+           <li><a id="games-link" href='/dinosaurtrain/games/index.html' onMouseOver='javascript:gamesOver(this);' onMouseOut='javsacript:gamesOut(this);'><div class="icon"></div>Games</a></li>
+           <li><a id="guide-link" href='/dinosaurtrain/games/fieldguide.html' onMouseOver='javascript:fieldGuideOver(this);' onMouseOut='javsacript:fieldGuideOut(this);'><div class="icon"></div>Field Guide</a></li>
+           <li><a id="video-link" href='/dinosaurtrain/videos/index.html' onMouseOver='javascript:videoOver(this);' onMouseOut='javascript:videoOut(this);'><div class="icon"></div>Video</a></li>
+           <li class="printer-capable"><a id="print-link" href='/dinosaurtrain/print/index.html' onMouseOver='printablesOver(this);' onMouseOut='printablesOut(this);'><div class="icon"></div>Print</a></li>
+        </ul>
+    </header>
+
+
+
+    {% if block('mainContent') is not empty %}
+        {% block mainContent %}{% endblock %}
+    {% else %}
+        <div id='main_content'></div>
+    {% endif %}
+
+    <!-- saved out from /resources/art/homepage_shelldesign_preview.psd. optimized @ 70 -->
+<!-- names start at 11,12,etc because its saved from a file with other slices -->
+
+<footer id="main_footer">
+    <div id="footer-tab"><span>For Parents</span></div>
+	<div align='center'>
+	    <div id='bottom-back'>
+			<div id='bottom-center'>
+	        	<div id='bottom-center-top'>
+	            	<a href='https://pbsparents.org/dinosaurtrain/naturetrackers' style="margin-right: 20px;"><img src='/dinosaurtrain/media/images/Nature_Tracker_logo_new.png' onMouseOver='this.src="/dinosaurtrain/media/images/Nature_Tracker_logo_new_over.png";'
+							onMouseOut='this.src="/dinosaurtrain/media/images/Nature_Tracker_logo_new.png";' border=0 alt='Nature Trackers Club'></a>
+	            
+	            	<a href='https://pbskids.org/dinosaurtrain/tour' style="margin-right: 20px;"><img  src='/dinosaurtrain/media/images/discoveryhome_logo.png' alt='Try the Discovery Tour' width="170" height="83" border=0 onMouseOver='this.src="/dinosaurtrain/media/images/discoveryhome_logo_over.png";'
+							onMouseOut='this.src="/dinosaurtrain/media/images/discoveryhome_logo.png";'></a>
+	            
+	            	<a href='https://pbsparents.org/dinosaurtrain/geocachingchallenge' title='Geocaching Challenge on PBS parents.org'><img src='/dinosaurtrain/media/images/bottomNav_geo.png'
+						onMouseOver='this.src="/dinosaurtrain/media/images/bottomNav_geo-over.png";'
+						onMouseOut='this.src="/dinosaurtrain/media/images/bottomNav_geo.png";' border=0 alt='Geocaching Challenge' style="margin-top:11px"> </a>
+	
+	            </div>
+	        </div>
+	    </div>
+	    <div id='bottom-back2'>
+            <div id='bottom-center-bottom'>
+                    <a id="ios-link" href="https://pbskids.org/mobile/dinosaur-train-camera-catch.html" title="PBSKids Mobile"><img id='ios-img' src="/dinosaurtrain/media/images/ios_banner1.png" alt="All aboard the Dinosaur train on iPad and iPhone" border=0 /></a>
+            </div>
+            <div id='bottom-center-bottom2'>
+                <!-- Tune-in Widget -->
+                <div class='tuneIn'>
+                
+                    Find out when Dinosaur <br />Train 
+                    is <a href="/tvschedules/localizer.html?dest=/dinosaurtrain/games/buddysamazingadventure.html">in your town.</a>
+                    
+                
+                </div>
+                <div>
+                    <a href='https://www.pbskidsplay.org/playnow/?CPLAYSM&btn=1' title='PBSKidsPlay' style='float:left'><img src='/dinosaurtrain/media/images/playbadge-FINAL.png' border=0 alt='PBSKidsPlay'  style="margin-top: 9px; margin-left: 20px;"/></a>
+                </div>
+                 <div class='fund-block'>
+                    <div style="padding-top:10px;padding-bottom:5px;">Produced by:</div>
+      		    <a href="https://henson.com/" title="The Jim Henson Company"><img src="/dinosaurtrain/media/images/bottom_nav_JIM-HENSON2.png" alt="The Jim Henson Company" style="padding-top: 9px; width:130px"/></a>
+                </div>
+                 <div class='fund-block'>
+                    <div style="padding-top:10px;padding-bottom:3px;">Series Funding Provided by:</div>
+                    <a href="https://www.gymboree.com/" title="Gymboree" style='float:left; text-align:right; display:inline-block; padding-top: 5px; margin-left: 10px; vertical-align: text-top;'><img src="/dinosaurtrain/media/images/bottom_nav_GymboreeLogo.png" alt="Gymboree Logo"/></a>
+                    <a href="https://www.chuckecheese.com/" title="Chuck E Cheeses" style='float:left; text-align:right; display:inline-block; padding-top: 6px; margin-left: 10px; vertical-align: text-top;'><img src="/dinosaurtrain/media/images/Logo_chuchecheeses.png"/></a>
+                </div>
+            </div>
+        </div>
+	</div>
+	<div id='topNavSFX' style='background-color: #D97825;'></div>
+	<div><p id='copy-text'>&copy; 2009 - 2014 The Jim Henson Company. All Rights Reserved.</p></div>
+	<div class='footer-links'>
+		<br>
+		<a href='/dinosaurtrain/'>Home</a> |
+		<a href='/dinosaurtrain/games/'>Games</a> |
+		<a href='/dinosaurtrain/games/fieldguide.html'>Field Guide</a> |
+		<a href='/dinosaurtrain/print/index.html'>Print</a> | 
+		<a href='/dinosaurtrain/videos/index.html'>Video</a> |
+	 	<a href='https://www.sgptv.org/programs/program/dinosaur-train/'>Corporate Sponsorship</a> <br>
+		<a href='/dinosaurtrain/contact.html'>Contact Us</a> |
+		<a href='/dinosaurtrain/site_credits.html'>Site Credits</a> |
+		<a href='https://pbsparents.org/dinosaurtrain/' title='PBS Parents'>For Parents</a> |
+		<a href='https://www.pbslearningmedia.org/collection/dinosaur-train/' title='PBS Teachers'>For Teachers</a> |
+		<a href='https://pbskids.org/privacy/'>PBS KIDS Privacy Policy</a>
+		<br><br><br>
+	</div>
+</footer>
+<script type="text/javascript" language="JavaScript">
+	/*
+	_numImg=4;
+	var r = Math.floor(Math.random() * _numImg)+1;
+	document.getElementById('ios-img').src = '/dinosaurtrain/media/images/ios_banner'+r+'.png';
+	if ( r == 1) {
+		document.getElementById('ios-link').href = 'https://pbskids.org/mobile/all-aboard-the-dinosaur-train.html';
+	} else if( r == 2 ) {
+		document.getElementById('ios-link').href = 'https://pbskids.org/mobile/dinosaur-train-camera-catch.html';
+	} else if( r == 3 ) {
+		document.getElementById('ios-link').href = 'https://pbskids.org/mobile/dinosaur-train-mesozoic-math.html';
+	} else {
+		document.getElementById('ios-link').href = 'https://pbskids.org/mobile/dinosaur-train-jurassic-jr.html';
+	}
+	*/
+	// SINGLE BANNER
+    document.getElementById('ios-img').src = '/dinosaurtrain/media/images/AtoZ_728x90.jpg';
+    document.getElementById('ios-link').href = 'https://pbskids.org/apps/dinosaur-train-a-to-z.html';
+</script>
+
+</center>
+  <!-- scripts -->
+  <script type="text/javascript" src="https://code.createjs.com/createjs-2013.12.12.min.js"></script>
+
+{% block specialBodyInclude %}{% endblock %}
+</body>
+</html>

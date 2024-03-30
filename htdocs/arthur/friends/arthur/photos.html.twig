@@ -1,0 +1,184 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Arthur\'s Photos Page | PBS Kids' %}
+{% set desc = 'Check out photos of Arthur, his friends and family. Read comments written by Arthurs friends. Play ball with Pal! Explore Arthurs clubs, games, or profile!' %}
+{% set keywds = 'photos, comments, Arthur, friends, adventure, memories' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ff9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/arthur_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/arthur_top.swf", "arthur", "960", "363", "9", "#ffff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "arthur");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-arthur">Arthur's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/arthur6.jpg" width="354" height="250" alt="D.W.'s friend James buying a robot from Arthur's yard sale." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_arthur.gif" width="85" height="83" alt="Pal Avatar" border="0" id="avatar">
+    <h3>Yard sale!</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="muffy-cmt"><a href="/arthur/friends/muffy/index.html">MUFFY</a>
+       <p>Did somebody say SALE?</p>
+      </div>
+      <div class="muffy-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/arthur6.jpg" width="354" height="250" alt="D.W.'s friend James buying a robot from Arthur's yard sale." border="0" id="mainImg">
+       <h3>Yard sale!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="muffy-cmt"><a href="/arthur/friends/muffy/index.html">MUFFY</a>
+          <p>Did somebody say SALE?</p>
+         </div>
+         <div class="muffy-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/arthur7.jpg" width="354" height="250" alt="Matt Damon with Arthur and D.W. at their front door." border="0" id="mainImg">
+       <h3>Matt Damon, the actor, at MY door!</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/arthur8.jpg" width="354" height="250" alt="Arthur on his muddy bike with his friends." border="0" id="mainImg">
+       <h3>Bikes are meant to get dirty.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="tibbles-cmt"><a href="/arthur/friends/tibbles/index.html">TOMMY AND TIMMY</a>
+          <p>The dirtier the better!</p>
+         </div>
+         <div class="tibbles-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/arthur1.jpg" width="354" height="250" alt="make your air conditioner a bit warmer, you'll still be cool." border="0" id="mainImg">
+       <h3>Make your air conditioner a bit warmer. You'll still be cool.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="binky-cmt"><a href="/arthur/friends/binky/index.html">BINKY</a>
+          <p>Of COURSE I'll still be cool. I'm ALWAYS cool! Heh, heh, heh.</p>
+         </div>
+         <div class="binky-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/arthur2.jpg" width="354" height="250" alt="Bailey carrying an air conditioner" border="0" id="mainImg">
+       <h3>This was when Muffy brought her air conditioner to camp. Not very "green."</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="muffy-cmt"><a href="/arthur/friends/muffy/index.html">MUFFY</a>
+          <p>I was just letting Bailey exercise. It's important to exercise! And the humidity was wrecking my hair!</p>
+         </div>
+         <div class="muffy-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/arthur3.jpg" width="354" height="250" alt="Bailey helping Muffy put on her coat" border="0" id="mainImg">
+       <h3>Important tip: if it's hot outside, dress in light clothes!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="muffy-cmt"><a href="/arthur/friends/muffy/index.html">MUFFY</a>
+          <p>Okay. That heavy coat was a mistake...</p>
+         </div>
+         <div class="muffy-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/arthur4.jpg" width="354" height="250" alt="Arthur trying to get Pal to pull his sleigh" border="0" id="mainImg">
+       <h3>Dog Power! The new "green" energy.</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/arthur5.jpg" width="354" height="250" alt="Mrs. Read using a snow blower." border="0" id="mainImg">
+       <h3>Tell your parents a snow blower is great -- if you need it. But for a small area, try a shovel.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="binky-cmt"><a href="/arthur/friends/binky/index.html">BINKY</a>
+          <p>It's exercise, AND it saves energy.</p>
+         </div>
+         <div class="binky-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul><!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+   <li><a href="/arthur/print/hats/index.html" id="rcPartyHats">Party Hats</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

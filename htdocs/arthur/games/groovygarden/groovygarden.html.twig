@@ -1,0 +1,27 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Groovy Garden | PBS Kids' %}
+{% set desc = 'Help Buster plant a garden and become more green! Click a dirt pile, answer a question on how to be more green, and win a seed to plant. Watch it grow! ' %}
+{% set keywds = 'grow,  green, environment, garden, plant, seeds, play' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="groovybg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/groovy_header.gif" width="619" height="73" border="0" alt="Groovy Garden - Click on the dirt piles to grow your groovy garden!" id="fo_header">
+  <div id="swf_content">
+   <div id="flashcontent" class="groovygarden">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/groovygarden/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("gloader.swf", "groovygarden", "595", "350", "9", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				   fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/lungdefender/index.html" id="rcLung">Buster Baxter: Lung Defender</a></li>
+   <li><a href="/arthur/games/lunchomatic/index.html" id="rcLunch">Lunch-o-matic</a></li>
+   <li><a href="/arthur/games/gogeorgego/index.html" id="rcGoGeorge">Go! George Go!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

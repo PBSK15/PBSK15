@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Francine\'s About Me Page | PBS Kids' %}
+{% set desc = 'In Francines profile page, learn all about how shes sporty, competitive, and talented! Take her poll about growing vegetables too.' %}
+{% set keywds = 'Francine, ARTHUR, profile, interests, favorites, sports' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/francine_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/francine_top.swf", "francine", "960", "363", "9", "#ffffcc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "francine");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-francine">Francine's images</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Scoring the tie-winning goal against Mighty Mountain!
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     I can sing, and I can drum. But I cannot sing AND drum!
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     When everyone stayed together during that big blizzard.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_fc6">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you grow your own food?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/francine/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="francine"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/francine_book1.jpg" width="148" height="117" alt="Amber Brown is Not a Crayon!  book cover" border="0"> <h4>Amber Brown is Not a Crayon!</h4> <p>by Paula Danziner<br> I can really relate to this story about Amber and her best friend, Justin.</p></li>
+    <li><img src="/arthur/i/friends/books/francine_book2.jpg" width="148" height="117" alt="The Ballad of the Pirate Queens  book cover" border="0"> <h4>The Ballad of the Pirate Queens</h4> <p>by Jane Yolen<br> Go back in time to meet Anne Bonney and Mary Reade, who were really pirates in the 1700s.</p></li>
+    <li><img src="/arthur/i/friends/books/francine_book3.jpg" width="148" height="117" alt="Meet Danitra Brown  book cover" border="0"> <h4>The Race of the Golden Apples</h4> <p>by Nikki Grimes<br> This is a great collection of poems about Danitra, the "most splendiferous girl in town" and her best friend, Zuri.</p></li>
+    <li><img src="/arthur/i/friends/books/francine_book4.jpg" width="148" height="117" alt="Zora Hurston and the Chinaberry Tree book cover" border="0"> <h4>Zora Hurston and the Chinaberry Tree</h4> <p>by William Miller<br> Did you ever hear of the famous author Zora Neale Hurston? This is the story of how she came to be a writer.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/heyfrancine/index.html" id="rcHeyFrancine">Hey, Francine</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

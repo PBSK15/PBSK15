@@ -1,0 +1,273 @@
+<game id="superwhyconcentration" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPERWHY CONCENTRATION | PBS KIDS]]></title>
+	<swf url="../sections/games/concentration/superwhy/superwhyConcentration.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "true"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="../libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="../libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<!--<library id="superwhy_endscreen" url="../libraries/superwhy_endscreen.swf" />
+		<library id="prizescreen" url="../libraries/activityprizescreen.swf" />-->
+	</libraries>
+	
+	<game>
+				
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[../sections/games/concentration/superwhy/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			<asset id="kudosSound" type="audio" url="audio/kudosSound.mp3"/>
+
+			<!-- <asset id="swHelp" type="audio" url="audio/swHelp.mp3"/> -->
+			<asset id="swEasy" type="audio" url="audio/MU_SW_Easy.mp3"/>
+			<asset id="swHard" type="audio" url="audio/MU_SW_Hard.mp3"/>
+			<asset id="swDifficulty" type="audio" url="audio/MU_SW_DifficultyPopup.mp3"/>
+			
+			<!-- <asset id="swDirections" type="audio" url="audio/swDirections.mp3"/> --><!-- full directions -->
+			<asset id="swObjective" type="audio" url="audio/MU_SW_Intro1_Alt1.mp3"/><!-- short 'click on 2' instructions -->
+			<asset id="callToAction" type="audio" url="audio/MU_SW_Intro1_Alt2.mp3"/>
+			
+			<asset id="objectiveTimeout" type="audio" url="audio/MU_SW_Prompt_Timeout.mp3"/>
+			<asset id="objectiveTimeoutAlt1" type="audio" url="audio/MU_SW_Prompt_Timeout_Alt1.mp3"/>
+			<asset id="objectiveTimeoutAlt2" type="audio" url="audio/MU_SW_Prompt_Timeout_Alt1.mp3"/>
+			<asset id="objectiveTimeoutAlt3" type="audio" url="audio/MU_SW_Prompt_Timeout_Alt1.mp3"/>
+			
+			<asset id="swFoundAllKudos" type="audio" url="audio/MU_SW_LastMatch.mp3"/>
+			
+			<asset id="notSynonym" type="audio" url="audio/MU_SW_Oops1.mp3"/>
+			<asset id="isSynonym" type="audio" url="audio/MU_SW_Kudos1.mp3"/>
+			
+			<asset id="swMatchKudos1" type="audio" url="audio/MU_SW_Kudos2.mp3"/>
+			<asset id="swMatchKudos2" type="audio" url="audio/MU_SW_Kudos3.mp3"/>
+			<asset id="swMatchKudos3" type="audio" url="audio/MU_SW_Kudos4.mp3"/>
+			<asset id="swMatchKudos4" type="audio" url="audio/MU_SW_Kudos5.mp3"/>
+			<asset id="swMatchKudos5" type="audio" url="audio/MU_SW_Kudos6.mp3"/>
+			<asset id="swMatchKudos6" type="audio" url="audio/MU_SW_Kudos7.mp3"/>
+			
+			<asset id="swIncorrectOops1" type="audio" url="audio/MU_SW_Oops2.mp3"/>
+			<asset id="swIncorrectOops2" type="audio" url="audio/MU_SW_Oops3.mp3"/>
+			<asset id="swIncorrectOops3" type="audio" url="audio/MU_SW_Oops4.mp3"/>
+			<asset id="swIncorrectOops4" type="audio" url="audio/MU_SW_Oops6.mp3"/>
+			<asset id="swIncorrectOops5" type="audio" url="audio/MU_SW_Oops7.mp3"/>
+		</assets>
+	
+		<cards>
+			<card id="bigLarge">
+				<asset id="big" type="audio" url="audio/words/MU_SW_Big.mp3">
+					<text><![CDATA[Big]]></text>
+				</asset>
+				<asset id="large" type="audio" url="audio/words/MU_SW_Large.mp3">
+					<text><![CDATA[Large]]></text>
+				</asset>
+			</card>
+			
+			<card id="beginStart">
+				<asset id="begin" type="audio" url="audio/words/MU_SW_Begin.mp3">
+					<text><![CDATA[Begin]]></text>
+				</asset>
+				<asset id="start" type="audio" url="audio/words/MU_SW_Start.mp3">
+					<text><![CDATA[Start]]></text>
+				</asset>
+			</card>
+			
+			<card id="belowUnder">
+				<asset id="below" type="audio" url="audio/words/MU_SW_Below.mp3">
+					<text><![CDATA[Below]]></text>
+				</asset>
+				<asset id="under" type="audio" url="audio/words/MU_SW_Under.mp3">
+					<text><![CDATA[Under]]></text>
+				</asset>
+			</card>
+			
+			<card id="carVehicle">
+				<asset id="car" type="audio" url="audio/words/MU_SW_Car.mp3">
+					<text><![CDATA[Car]]></text>
+				</asset>
+				<asset id="vehicle" type="audio" url="audio/words/MU_SW_Vehicle.mp3">
+					<text><![CDATA[Vehicle]]></text>
+				</asset>
+			</card>
+			
+			<card id="closeShut">
+				<asset id="close" type="audio" url="audio/words/MU_SW_Close.mp3">
+					<text><![CDATA[Close]]></text>
+				</asset>
+				<asset id="shut" type="audio" url="audio/words/MU_SW_Shut.mp3">
+					<text><![CDATA[Shut]]></text>
+				</asset>
+			</card>
+			
+			<card id="dirtyMessy">
+				<asset id="dirty" type="audio" url="audio/words/MU_SW_Dirty.mp3">
+					<text><![CDATA[Dirty]]></text>
+				</asset>
+				<asset id="messy" type="audio" url="audio/words/MU_SW_Messy.mp3">
+					<text><![CDATA[Messy]]></text>
+				</asset>
+			</card>
+			
+			<card id="endFinish">
+				<asset id="end" type="audio" url="audio/words/MU_SW_End.mp3">
+					<text><![CDATA[End]]></text>
+				</asset>
+				<asset id="finish" type="audio" url="audio/words/MU_SW_Finish.mp3">
+					<text><![CDATA[Finish]]></text>
+				</asset>
+			</card>
+			
+			<card id="fastQuick">
+				<asset id="fast" type="audio" url="audio/words/MU_SW_Fast.mp3">
+					<text><![CDATA[Fast]]></text>
+				</asset>
+				<asset id="quick" type="audio" url="audio/words/MU_SW_Quick.mp3">
+					<text><![CDATA[Quick]]></text>
+				</asset>
+			</card>
+			
+			<card id="fixRepair">
+				<asset id="fix" type="audio" url="audio/words/MU_SW_Fix.mp3">
+					<text><![CDATA[Fix]]></text>
+				</asset>
+				<asset id="repair" type="audio" url="audio/words/MU_SW_Repair.mp3">
+					<text><![CDATA[Repair]]></text>
+				</asset>
+			</card>
+			
+			<card id="happyGlad">
+				<asset id="happy" type="audio" url="audio/words/MU_SW_Happy.mp3">
+					<text><![CDATA[Happy]]></text>
+				</asset>
+				<asset id="glad" type="audio" url="audio/words/MU_SW_Glad.mp3">
+					<text><![CDATA[Glad]]></text>
+				</asset>
+			</card>
+			
+			<card id="hardTough">
+				<asset id="hard" type="audio" url="audio/words/MU_SW_Hard.mp3">
+					<text><![CDATA[Hard]]></text>
+				</asset>
+				<asset id="tough" type="audio" url="audio/words/MU_SW_Tough.mp3">
+					<text><![CDATA[Tough]]></text>
+				</asset>
+			</card>
+			
+			<card id="highTall">
+				<asset id="high" type="audio" url="audio/words/MU_SW_High.mp3">
+					<text><![CDATA[High]]></text>
+				</asset>
+				<asset id="tall" type="audio" url="audio/words/MU_SW_Tall.mp3">
+					<text><![CDATA[Tall]]></text>
+				</asset>
+			</card>
+				
+			<card id="ideaThought">
+				<asset id="idea" type="audio" url="audio/words/MU_SW_Idea.mp3">
+					<text><![CDATA[Idea]]></text>
+				</asset>
+				<asset id="thought" type="audio" url="audio/words/MU_SW_Thought.mp3">
+					<text><![CDATA[Thought]]></text>
+				</asset>
+			</card>
+			
+			<card id="listenHear">
+				<asset id="listen" type="audio" url="audio/words/MU_SW_Listen.mp3">
+					<text><![CDATA[Listen]]></text>
+				</asset>
+				<asset id="hear" type="audio" url="audio/words/MU_SW_Hear.mp3">
+					<text><![CDATA[Hear]]></text>
+				</asset>
+			</card>
+			
+			<card id="kindNice">
+				<asset id="kind" type="audio" url="audio/words/MU_SW_Kind.mp3">
+					<text><![CDATA[Kind]]></text>
+				</asset>
+				<asset id="nice" type="audio" url="audio/words/MU_SW_Nice.mp3">
+					<text><![CDATA[Nice]]></text>
+				</asset>
+			</card>
+				
+			<card id="littleSmall">
+				<asset id="little" type="audio" url="audio/words/MU_SW_Little.mp3">
+					<text><![CDATA[Little]]></text>
+				</asset>
+				<asset id="small" type="audio" url="audio/words/MU_SW_Small.mp3">
+					<text><![CDATA[Small]]></text>
+				</asset>
+			</card>
+				
+			<card id="loudNoisy">
+				<asset id="loud" type="audio" url="audio/words/MU_SW_Loud.mp3">
+					<text><![CDATA[Loud]]></text>
+				</asset>
+				<asset id="noisy" type="audio" url="audio/words/MU_SW_Noisy.mp3">
+					<text><![CDATA[Noisy]]></text>
+				</asset>
+			</card>
+				
+			<card id="madAngry">
+				<asset id="mad" type="audio" url="audio/words/MU_SW_Mad.mp3">
+					<text><![CDATA[Mad]]></text>
+				</asset>
+				<asset id="angry" type="audio" url="audio/words/MU_SW_Angry.mp3">
+					<text><![CDATA[Angry]]></text>
+				</asset>
+			</card>
+				
+			<card id="makeCreate">
+				<asset id="make" type="audio" url="audio/words/MU_SW_Make.mp3">
+					<text><![CDATA[Make]]></text>
+				</asset>
+				<asset id="create" type="audio" url="audio/words/MU_SW_Create.mp3">
+					<text><![CDATA[Create]]></text>
+				</asset>
+			</card>
+				
+			<card id="smartClever">
+				<asset id="smart" type="audio" url="audio/words/MU_SW_Smart.mp3">
+					<text><![CDATA[Smart]]></text>
+				</asset>
+				<asset id="clever" type="audio" url="audio/words/MU_SW_Clever.mp3">
+					<text><![CDATA[Clever]]></text>
+				</asset>
+			</card>
+				
+			<card id="townVillage">
+				<asset id="town" type="audio" url="audio/words/MU_SW_Town.mp3">
+					<text><![CDATA[Town]]></text>
+				</asset>
+				<asset id="village" type="audio" url="audio/words/MU_SW_Village.mp3">
+					<text><![CDATA[Village]]></text>
+				</asset>
+			</card>
+			
+			<card id="yellShout">
+				<asset id="yell" type="audio" url="audio/words/MU_SW_Yell.mp3">
+					<text><![CDATA[Yell]]></text>
+				</asset>
+				<asset id="shout" type="audio" url="audio/words/MU_SW_Shout.mp3">
+					<text><![CDATA[Shout]]></text>
+				</asset>
+			</card>
+		</cards>
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:dba4901558494798f63823ae6fe3e12a:89a23d71829ada0e1668f7e8a94d2e89:4c77dcddd824daf16f68897799c39fd9$ -->
+<TextureAtlas imagePath="buster_idol_form.png">
+    <SubTexture name="buster_idol_form_00" x="1" y="1" width="486" height="354" frameX="-32" frameY="-29" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_01" x="488" y="1" width="452" height="338" frameX="-51" frameY="-37" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_02" x="941" y="1" width="424" height="324" frameX="-64" frameY="-43" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_03" x="1366" y="1" width="394" height="310" frameX="-79" frameY="-49" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_04" x="1366" y="312" width="364" height="296" frameX="-94" frameY="-55" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_05" x="941" y="326" width="334" height="282" frameX="-109" frameY="-61" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_06" x="1731" y="493" width="304" height="266" frameX="-124" frameY="-69" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_07" x="1761" y="1" width="274" height="252" frameX="-139" frameY="-75" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_08" x="1761" y="254" width="244" height="238" frameX="-154" frameY="-81" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_09" x="1357" y="609" width="214" height="224" frameX="-169" frameY="-88" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_10" x="1729" y="760" width="186" height="210" frameX="-183" frameY="-94" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_11" x="1572" y="609" width="156" height="196" frameX="-198" frameY="-100" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_12" x="1915" y="1057" width="126" height="182" frameX="-213" frameY="-106" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_13" x="1" y="1099" width="96" height="166" frameX="-228" frameY="-114" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_14" x="1846" y="1130" width="68" height="154" frameX="-242" frameY="-118" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_15" x="187" y="1824" width="62" height="148" frameX="-246" frameY="-118" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_16" x="1846" y="971" width="68" height="158" frameX="-243" frameY="-113" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_17" x="187" y="1103" width="72" height="170" frameX="-241" frameY="-107" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_18" x="110" y="1103" width="76" height="180" frameX="-239" frameY="-102" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_19" x="1276" y="527" width="80" height="190" frameX="-237" frameY="-97" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_20" x="1276" y="326" width="86" height="200" frameX="-234" frameY="-92" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_21" x="96" y="1824" width="90" height="212" frameX="-232" frameY="-86" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_22" x="1" y="1824" width="94" height="222" frameX="-230" frameY="-81" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_23" x="110" y="1285" width="98" height="232" frameX="-228" frameY="-76" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_24" x="1" y="356" width="104" height="244" frameX="-225" frameY="-70" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_25" x="1" y="1268" width="108" height="254" frameX="-223" frameY="-65" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_26" x="1" y="834" width="112" height="264" frameX="-221" frameY="-60" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_27" x="1339" y="834" width="116" height="276" frameX="-219" frameY="-54" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_28" x="1915" y="1240" width="122" height="286" frameX="-216" frameY="-49" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_29" x="1916" y="760" width="126" height="296" frameX="-214" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_30" x="1202" y="718" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_31" x="1065" y="609" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_32" x="928" y="609" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_33" x="791" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_34" x="654" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_35" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_36" x="388" y="718" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_37" x="260" y="1103" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_38" x="380" y="356" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_39" x="251" y="718" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_40" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_41" x="243" y="356" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_42" x="106" y="356" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_43" x="114" y="718" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_44" x="138" y="1527" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_45" x="1" y="1527" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_46" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_47" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_48" x="1709" y="971" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_49" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_50" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_51" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_52" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_53" x="517" y="340" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+    <SubTexture name="buster_idol_form_54" x="1572" y="806" width="136" height="296" frameX="-209" frameY="-44" frameWidth="550" frameHeight="400"/>
+</TextureAtlas>

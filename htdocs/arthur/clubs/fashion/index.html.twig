@@ -1,0 +1,72 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Clubs . Fashion Club | PBS Kids' %}
+{% set desc = 'Check out photos of Arthur, his friends and family. Read comments written by Arthurs friends. Play ball with Pal! Explore Arthurs clubs, games, or profile!' %}
+{% set keywds = 'photos, comments, Arthur, friends, adventure, memories' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'clubs' %}
+
+
+{% block mainContent %}<div class="fashion-club club-page">
+ <div class="clubs-splash">
+  <h3 class="splash-intro" id="fashion-splash">It's fashion time! Help Muffy and friends get ready for their cover shoot, then check out some cool fashion clips. Who knows? You might start the next big trend!</h3><a href="fashion.html" id="fashionPlayBtn">PLAY</a>
+ </div>
+ <div class="club-members">
+  <dl>
+   <dt>
+    Club Members
+   </dt>
+   <dd class="club-president">
+    <a href="/arthur/friends/muffy/index.html">Muffy - President</a>
+   </dd>
+   <dd id="fcBuster">
+    <a href="/arthur/friends/buster/index.html">Buster</a>
+   </dd>
+   <dd id="fcGeorge">
+    <a href="/arthur/friends/george/index.html">George</a>
+   </dd>
+   <dd id="fcArthur">
+    <a href="/arthur/friends/arthur/index.html">Arthur</a>
+   </dd>
+   <dd id="fcDW">
+    <a href="/arthur/friends/dw/index.html">DW</a>
+   </dd>
+   <dd id="fcSueEllen">
+    <a href="/arthur/friends/sue_ellen/index.html">Sue Ellen</a>
+   </dd>
+   <dd id="fcPal">
+    <a href="/arthur/friends/pal/index.html">The Tibble Twins</a>
+   </dd>
+   <dd id="fcEmily">
+    <a href="/arthur/friends/emily/index.html">D.W.</a>
+   </dd>
+  </dl>
+  <div class="clubs-ruler"></div>
+ </div>
+ <div class="clubs-video">
+  <h4>FASHION Videos</h4>
+  <div class="clubs-vidplayer"><!--==========================================================\\ --> <!--  BEGIN PBS KIDS GO! BROADBAND PLAYER MODULE          \\-->
+   <script type="text/javascript" src="http://pbskids.org/producerplayer/js/producerplayer2.js"></script>
+   <script type="text/javascript">				var configObj = {};				    configObj.keywords = "clubFASHION";					configObj.IsClip = "true";					configObj.releaseEndIndex = 6;					configObj.controlLayoutURL = "http://pbskids.org/producerplayer/data/metaLayout-GoSquare-AllControls.xml";					configObj.playerSkinURL = "http://www-tc.pbskids.org/producerplayer/swf/skins/skinKidsGoSquared_small.swf";					configObj.playerColorScheme =					  "<colorschemes>"+						"<player>"+						  "<backgroundColor>0x6699ff</backgroundColor>"+						  "<frameColor>0x6699ff</frameColor>"+						  "<controlColor>0xffffff</controlColor>"+						  "<controlBackgroundColor>0x6699ff</controlBackgroundColor>"+						  "<controlFrameColor>0xcc6600</controlFrameColor>"+						  "<controlHighlightColor>0xffffff</controlHighlightColor>"+						  "<controlHoverColor>0xff9933</controlHoverColor>"+						  "<controlSelectedColor>0xff9933</controlSelectedColor>"+						  "<loadProgressColor>0x3366cc</loadProgressColor>"+						  "<playProgressColor>0x003399</playProgressColor>"+						  "<scrubberColor>0xcc6600</scrubberColor>"+						  "<scrubberFrameColor>0xff9933</scrubberFrameColor>"+						  "<scrubTrackColor>0x3366cc</scrubTrackColor>"+						  "<textBackgroundColor>0x3366cc</textBackgroundColor>"+						  "<textColor>0xffffff</textColor>"+						  "<subtitlesBackgroundColor>0x000000</subtitlesBackgroundColor>"+						"</player>"+					  "</colorschemes>";								configObj.releaseListSkinURL = "http://www-tc.pbskids.org/producerplayer/swf/skins/skinKidsGoSquared.swf";					configObj.releaseListColorScheme =					  "<colorschemes>"+						"<releaseList>"+						  "<backgroundColor>0x6699ff</backgroundColor>"+						  "<frameColor>0x6699ff</frameColor>"+						  "<itemBackgroundColor>0x3366cc</itemBackgroundColor>"+						  "<itemBackground2Color>0x3366cc</itemBackground2Color>"+						  "<itemBackgroundHoverColor>0x6699ff</itemBackgroundHoverColor>"+						  "<itemBackgroundSelectedColor>0xffef96</itemBackgroundSelectedColor>"+						  "<itemFrameColor>0x003399</itemFrameColor>"+						  "<textColor>0x99ccff</textColor>"+						  "<text2Color>0x99ccff</text2Color>"+						  "<textFrameColor>0xffffff</textFrameColor>"+						  "<textHoverColor>0x003366</textHoverColor>"+						  "<textSelectedColor>0xcc6600</textSelectedColor>"+						  "<thumbnailFrameColor>0xffffff</thumbnailFrameColor>"+						  "<thumbnailFrameColor>0xffffff</thumbnailFrameColor>"+						  "<scrollButtonColor>0x6699ff</scrollButtonColor>"+						  "<scrollIconColor>0xffffff</scrollIconColor>"+						  "<scrollThumbColor>0x6699ff</scrollThumbColor>"+						  "<scrollTrackColor>0x003399</scrollTrackColor>"+						  "<scrollTrackFrameColor>0x3366cc</scrollTrackFrameColor>"+						"</releaseList>"+					  "</colorschemes>";								configObj.dockBanner = "false";					configObj.dockReleaseList = "right";					configObj.playerWidth = 360;					configObj.aspectRatio = "4:3";					configObj.playerPaddingTop = 0;					configObj.playerPaddingLeft = 0;					configObj.releaseListWidth = 270;					configObj.releaseListHeight = 321;					configObj.releaseListPaddingTop = 0;					configObj.releaseListPaddingLeft = 0;					configObj.containerWidth = 630;					configObj.containerHeight = 321;					configObj.releaseCols = 1;					configObj.autoPlay="false";							pbs.kidsgo.producerplayer.init(configObj);						</script> <!--  END PBS KIDS GO! BROADBAND PLAYER MODULE                 //--> <!--==========================================================// -->
+  </div>
+ </div>
+ <div class="clubs-h-ruler"></div>
+ <div class="clubs-rc">
+  <h4>More FASHION Fun!</h4>
+  <div class="clubs-rc-wrapper" id="callout"><span class="prev">Previous</span>
+   <div class="callout-images">
+    <ul>
+     <li><a href="/arthur/friends/muffy/index.html"><img src="/arthur/i/related/muffy.png" width="174" height="264" alt="Friends - Muffy" border="0"></a></li>
+     <li><a href="/arthur/games/alien/index.html"><img src="/arthur/i/related/alien.png" width="174" height="264" alt="Games - Alien: Assembly Required Game" border="0"></a></li>
+     <li><a href="/arthur/games/letsdrawarthur/index.html"><img src="/arthur/i/related/drawarthur.png" width="174" height="264" alt="Games - Let's Draw Arthur Game" border="0"></a></li>
+     <li><a href="/arthur/games/wardrobe/index.html"><img src="/arthur/i/related/wardrobe.png" width="174" height="264" alt="Games - Muffy's Wardrobe Game" border="0"></a></li>
+     <li><a href="/arthur/games/effectivedetective/index.html"><img src="/arthur/i/related/detective.png" width="174" height="264" alt="Games - Effective Detective Game" border="0"></a></li>
+     <li><a href="/arthur/holiday/dressup/index.html"><img src="/arthur/i/related/dressup.png" width="174" height="264" alt="Holiday - D.W.'s Dress Up" border="0"></a></li>
+     <li><a href="/arthur/print/masks/index.html"><img src="/arthur/i/related/masks.png" width="174" height="264" alt="Print - Masks" border="0"></a></li>
+     <li><a href="/arthur/print/hats/index.html"><img src="/arthur/i/related/partyhats.png" width="174" height="264" alt="Print - Party Hats" border="0"></a></li>
+     <li><a href="/arthur/print/cosmiccombos/index.html"><img src="/arthur/i/related/cosmic.png" width="174" height="264" alt="Print - Cosmic Combos" border="0"></a></li>
+    </ul>
+   </div> <span class="next">Next</span>
+  </div>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+	
+<!-- 
+====================================================================================================
+HUNGRY HUNGRY HERBIVORE CONFIGURE FILE
+This file will set configuration settings of the HHHerbivore game. All these values can also
+be set through FlashVars in the embed/object tag. Values set via FlashVars will take priority 
+over values set in this file
+====================================================================================================
+-->
+	
+<configure>
+
+	<!-- 
+	====================================================================================================
+	SETTINGS
+	a setting is name/value pairs that effect the operation the game
+	====================================================================================================
+	-->
+	<setting name="version" value="1.0" note=""></setting>
+	<setting name="home" value="index.html" note="url to game home page, relative from embeded html page"></setting>
+	<setting name="language" value="en" note="language of game { en:English, es:Spanish }"></setting>
+	
+	<!-- 
+	====================================================================================================
+	LOCAL SETTINGS
+	a language dependent setting is a name/value pairs that effect the operation the game
+	====================================================================================================
+	<localSetting language="en" name="activity" value="fg_en_activity.xml" ></localSetting>
+	<localSetting language="es" name="activity" value="fg_activity_es.xml" ></localSetting>
+	-->
+	
+	<!-- ENGLISH -->
+	<localSetting language="en" name="audio" value="hh_en_audio.swf"></localSetting>
+	<localSetting language="en" name="skin" value="hh_en_skin.swf"></localSetting>
+	<localSetting language="en" name="activity" value="hh_en_activity.xml" ></localSetting>
+	
+	<!-- SPANISH -->
+	<localSetting language="es" name="audio" value="hh_es_audio.swf"></localSetting>
+	<localSetting language="es" name="skin" value="hh_es_skin.swf"></localSetting>
+	<localSetting language="es" name="activity" value="hh_es_activity.xml" ></localSetting>
+	
+</configure>

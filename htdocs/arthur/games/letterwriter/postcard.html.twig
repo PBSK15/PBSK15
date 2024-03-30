@@ -1,0 +1,88 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Letter Writer Helper | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="letterwriterHeader">Letter Writer Helper</h4></a>
+  <ul id="printSideNav">
+   <li><a href="letter.html"><span>Letter</span></a></li>
+   <li><a href="email.html"><span>E-mail</span></a></li>
+   <li><a href="greeting_card.html"><span>Greeting Card</span></a></li>
+   <li><a href="postcard.html" class="selected"><span>Postcard</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>Postcard (and e-postcard)</h1>
+    </div>
+   </div>
+   <div id="grooveHowtoContent">
+    <div class="postcard-intro">
+     <p class="greeting-desc">When you're away from home, it's fun to send postcards. They're quick to write, and sometimes even have goofy pictures on them. Take a look at the parts of a postcard, then write your own.</p>
+     <p class="hint greeting-desc">Roll over the text below for more information.</p>
+    </div>
+    <div id="postcard">
+     <div class="post" id="text">
+      <dl class="below">
+       <dt style="cursor: default; ">
+        Dear Buster,
+       </dt>
+       <dd>
+        <b>Greeting:</b> Says hello, and shows who you're writing to.
+       </dd>
+       <dt style="cursor: default; ">
+        We're at Grandpa Dave's, and I just heard that your picture was in the Elwood City Times. Totally cool! We're having a great time here. We helped Grandpa Dave paint his fence today. It was tiring, but fun.
+       </dt>
+       <dd>
+        <b>Body:</b> Here's what you're telling the other person.
+       </dd>
+       <dt>
+        See you soon,<br>Arthur
+       </dt>
+       <dd>
+        <b>Closing and Signature:</b> Says good-bye, and says who you are.
+       </dd>
+      </dl>
+     </div>
+     <div class="post" id="stamp">
+      <dl class="below">
+       <dt>
+        <i>Stamp <br>goes <br>here</i>
+       </dt>
+       <dd>
+        <b>Stamp:</b> The stamp goes in the top right corner. This pays to have your postcard sent.
+       </dd>
+      </dl>
+     </div> <br clear="right">
+     <div class="post" id="address">
+      <dl class="below">
+       <dt style="cursor: default; ">
+        Buster Baxter <br>135 Elm Street <br>Elwood City, USA
+       </dt>
+       <dd>
+        <b>Your Friend's Address: </b><br>Your friend's full address goes in the middle.
+       </dd>
+      </dl>
+     </div>
+    </div>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/poetry/index.html" id="rcPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/print/braille/index.html" id="rcBraille">You've Got Braille</a></li>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

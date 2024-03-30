@@ -1,0 +1,149 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'Fitness Quiz . Arthur' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="../css/quiz.css">' %}
+{% set bodyClass = 'blue' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><a href="../asthma/">Asthma</a></li>
+   <li><a href="../allergy/">Peanut Allergy</a></li>
+   <li><a href="../nutrition/">Nutrition</a></li>
+   <li><a href="../resilience/">Resilience</a></li>
+   <li><h2><a href="../fitness/">Fitness</a></h2></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Fitness</a>
+   </div>
+   <ul>
+    <li><a href="../asthma/">Asthma</a></li>
+    <li><a href="../allergy/">Peanut Allergy</a></li>
+    <li><a href="../nutrition/">Nutrition</a></li>
+    <li><a href="../resilience/">Resilience</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="group">
+  <div id="wrap-n-a-t">
+   <ul id="nav-area-top">
+    <li>
+     <div>
+      <div class="caret-area"></div>More<span> Sections</span>
+     </div>
+     <ul class="nav-area">
+      <li>
+       <div>
+        The Basics
+       </div>
+       <ul>
+        <li><a href="background-info.html">Background Information</a></li>
+        <li><a href="tips1.html">Tips for Grown-ups</a></li>
+        <li><a href="tips-kids.html">Tips for Kids</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="educators.html">For Educators</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Games &amp; Activities
+       </div>
+       <ul>
+        <li><a href="workout-time.html">Workout Time!</a></li>
+        <li><a href="groove-it.html">Groove It!</a></li>
+        <li><a href="dance-club.html">Dance Club</a></li>
+        <li><a href="home-olympics.html">Home Olympics</a></li>
+        <li><a href="be-cat-tree.html">Be a Cat, Be a Tree</a></li>
+        <li><a href="quiz.html">Fitness Quiz</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Videos
+       </div>
+       <ul>
+        <li><a href="episode.html">Arthur Weighs In</a></li>
+        <li><a href="kids-action.html">Kids in Action</a></li>
+        <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+       </ul></li>
+     </ul></li>
+   </ul>
+  </div>
+  <h3>Games &amp; Activities</h3>
+  <h4>Fitness Quiz</h4>
+  <hr>
+  <div class="pgnum">
+   <span>1 of 10</span>
+  </div>
+  <h5>Test your knowledge of fitness facts!</h5>
+  <div class="group"><img class="col5" id="quizImg" src="" alt="">
+   <div class="col7 quiz">
+    <p id="fdbk"></p>
+    <p id="quest"></p>
+    <ul>
+     <li id="ans0"><a href="#">
+       <div>
+        <span>A</span>
+       </div><span></span></a></li>
+     <li id="ans1"><a href="#">
+       <div>
+        <span>B</span>
+       </div><span></span></a></li>
+     <li id="ans2"><a href="#">
+       <div>
+        <span style="padding-left:0;padding-right:1px;">C</span>
+       </div><span></span></a></li>
+    </ul>
+    <p class="tip"></p>
+    <div id="quiz-btns"><a href="#" id="check" class="btn-std">Check Answer</a> <a href="#" id="next" class="btn-std">Next</a> <a href="#" id="again" class="btn-std">Play again?</a>
+    </div>
+   </div>
+  </div>
+  <div id="wrap-n-a-b">
+   <ul id="nav-area-bot">
+    <li>
+     <div>
+      <div class="caret-area"></div>More Sections
+     </div>
+     <ul class="nav-area">
+      <li>
+       <div>
+        The Basics
+       </div>
+       <ul>
+        <li><a href="background-info.html">Background Information</a></li>
+        <li><a href="tips1.html">Tips for Grown-ups</a></li>
+        <li><a href="tips-kids.html">Tips for Kids</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="educators.html">For Educators</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Games &amp; Activities
+       </div>
+       <ul>
+        <li><a href="workout-time.html">Workout Time!</a></li>
+        <li><a href="groove-it.html">Groove It!</a></li>
+        <li><a href="dance-club.html">Dance Club</a></li>
+        <li><a href="home-olympics.html">Home Olympics</a></li>
+        <li><a href="be-cat-tree.html">Be a Cat, Be a Tree</a></li>
+        <li><a href="quiz.html">Fitness Quiz</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Videos
+       </div>
+       <ul>
+        <li><a href="episode.html">Arthur Weighs In</a></li>
+        <li><a href="kids-action.html">Kids in Action</a></li>
+        <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+       </ul></li>
+     </ul></li>
+   </ul>
+  </div>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="../js/jquery-1.10.2.min.js"></script><script src="../js/main.js"></script><script src="../js/quiz-data-fitness.js"></script><script src="../js/quiz.js"></script>' %}

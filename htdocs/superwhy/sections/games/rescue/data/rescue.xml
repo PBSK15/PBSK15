@@ -1,0 +1,146 @@
+<game id="rescue"> 
+	<libraries>
+		<!-- library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" /> -->
+		<library id="superwhy_endscreen" url="libraries/superwhy_endscreen.swf" />
+	</libraries> 
+	<swf url="sections/games/rescue/rescue.swf" /> 
+	<!-- how quickly the background and the objects on the screen scroll -->
+	<scrollSpeed>.07</scrollSpeed>
+	<!-- speed at which the player moves towards the mouse -->
+	<playerSpeed>.25</playerSpeed>
+	<!-- how long to wait between items before the next item is released -->
+	<itemDistance>250</itemDistance>
+	<!-- available horizontal screen positions for objects -->
+	<objectPositions>
+		<position>210</position>
+		<position>340</position>
+		<position>470</position>
+	</objectPositions>
+	<!-- audio -->
+		<!-- INTRO IS LIP SYNCED, DOES NOT LOAD <intro id="intro" type="audio" url="sections/games/rescue/audio/vo/intro.mp3"/> -->
+		<section_complete id="section_complete" type="audio" url="sections/games/rescue/audio/vo/final_word_collected.mp3"/>
+		<kudos>
+			<kudo id="kudo0" type="audio" url="sections/games/rescue/audio/vo/awesome_job.mp3"/>
+			<kudo id="kudo1" type="audio" url="sections/games/rescue/audio/vo/excellent.mp3"/>
+			<kudo id="kudo2" type="audio" url="sections/games/rescue/audio/vo/super_job.mp3"/>
+			<kudo id="kudo3" type="audio" url="sections/games/rescue/audio/vo/way_to_go.mp3"/>
+		</kudos>
+		<try_again>
+			<vo id="miss0" type="audio" url="sections/games/rescue/audio/vo/keep_looking.mp3"/>
+		</try_again>
+		<incorrect>
+			<vo id="incorrect_1a" type="audio" url="sections/games/rescue/audio/vo/incorrect_1a.mp3"/>
+			<vo id="incorrect_1b" type="audio" url="sections/games/rescue/audio/vo/incorrect_1b.mp3"/>
+			<vo id="incorrect_2a" type="audio" url="sections/games/rescue/audio/vo/incorrect_2a.mp3"/>
+			<vo id="incorrect_2b" type="audio" url="sections/games/rescue/audio/vo/incorrect_2b.mp3"/>
+		</incorrect>
+		<misc>
+			<vo id="clickdrop" type="audio" url="sections/games/rescue/audio/vo/click_drop_word.mp3"/>
+		</misc>
+	<!-- number of levels -->
+	<numLevels>3</numLevels>
+	<!-- wordsets -->
+	<!-- Level 1 -->
+	<words level="1">
+		<!-- Completed sentence -->
+		<compl_sentence id="sentence_level_1" type="audio" url="sections/games/rescue/audio/vo/level_1_complete_sentence.mp3"><![CDATA[Cross the river on a raft!]]></compl_sentence>
+		<intro id="intro_level_1" type="audio" url="sections/games/rescue/audio/vo/level_1_intro.mp3"/>
+		<!-- Corresponding sentence with letters replaced with blanks, target replaced with spaces -->
+		<!-- not automatically generated to allow for target word to be in middle, avoids possible localization conflicts -->
+		<blank_sentence id="blank_level_1" type="audio" url="sections/games/rescue/audio/vo/level_1_sentence_blank.mp3"><![CDATA[_____ ___ _____ __ _                   !]]></blank_sentence>
+		<!-- blank_index: position in string of the first letter of the target word (press "->" [x] times)-->
+			<!-- for positioning blank graphic -->
+		<blank_index>21</blank_index>
+		<!-- correct choices -->
+		<correct id="Cross" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[Cross]]></correct>
+		<correct id="the" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[the]]></correct>
+		<correct id="river" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[river]]></correct>
+		<correct id="on" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[on]]></correct>
+		<correct id="a" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[a]]></correct>
+		<!-- target word -->
+		<target id="raft" type="audio" url="sections/games/rescue/audio/words/raft.mp3"><![CDATA[raft]]></target>
+		<!-- incorrect choices -->
+		<decoy><![CDATA[flower]]></decoy>
+		<decoy><![CDATA[ball]]></decoy>
+		<decoy><![CDATA[kite]]></decoy>
+		<decoy><![CDATA[hat]]></decoy>	
+		<decoy><![CDATA[bee]]></decoy>
+		<decoy><![CDATA[balloon]]></decoy>
+		<decoy><![CDATA[bunny]]></decoy>
+		<decoy><![CDATA[ladybug]]></decoy>	
+	</words>
+	<!-- Level 2 -->
+	<words level="2">
+		<!-- Completed sentence -->
+		<compl_sentence id="sentence_level_2" type="audio" url="sections/games/rescue/audio/vo/level_2_complete_sentence.mp3"><![CDATA[Open the gate with a key!]]></compl_sentence>
+		<intro id="intro_level_2" type="audio" url="sections/games/rescue/audio/vo/level_2_intro.mp3"/>
+		<!-- Corresponding sentence with letters replaced with blanks, target replaced with spaces -->
+		<!-- not automatically generated to allow for target word to be in middle, avoids possible localization conflicts -->
+		<blank_sentence id="blank_level_2" type="audio" url="sections/games/rescue/audio/vo/level_2_sentence_blank.mp3"><![CDATA[____ ___ ____ ____ _                   !]]></blank_sentence>
+		<!-- blank_index: position in string of the first letter of the target word (press "->" [x] times)-->
+		<!-- for positioning blank graphic -->
+		<blank_index>21</blank_index>
+		<!-- correct choices -->
+		<correct id="Open" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[Open]]></correct>
+		<correct id="the" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[the]]></correct>
+		<correct id="gate" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[gate]]></correct>
+		<correct id="with" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[with]]></correct>
+		<!-- had to make <space>a<space> otherwise would replace "a" in "gate" in stead of "a" -->
+		<correct id=" a " type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[ a ]]></correct>
+		<!-- target word -->
+		<target id="key" type="audio" url="sections/games/rescue/audio/words/key.mp3"><![CDATA[key]]></target>
+		<!-- incorrect choices -->
+		<decoy><![CDATA[flower]]></decoy>
+		<decoy><![CDATA[ball]]></decoy>
+		<decoy><![CDATA[kite]]></decoy>
+		<decoy><![CDATA[hat]]></decoy>	
+		<decoy><![CDATA[bee]]></decoy>
+		<decoy><![CDATA[balloon]]></decoy>
+		<decoy><![CDATA[bunny]]></decoy>
+		<decoy><![CDATA[ladybug]]></decoy>			
+	</words>
+	<!-- Level 3 -->
+	<words level="3">
+		<!-- Completed sentence -->
+		<compl_sentence id="sentence_level_3" type="audio" url="sections/games/rescue/audio/vo/level_3_complete_sentence.mp3"><![CDATA[Rapunzel, let down your ladder!]]></compl_sentence>
+		<intro id="intro_level_3" type="audio" url="sections/games/rescue/audio/vo/level_3_intro.mp3"/>
+		<!-- Corresponding sentence with letters replaced with blanks, target replaced with spaces -->
+		<!-- not automatically generated to allow for target word to be in middle, avoids possible localization conflicts -->
+		<blank_sentence id="blank_level_3" type="audio" url="sections/games/rescue/audio/vo/level_3_sentence_blank.mp3"><![CDATA[________, ___ ____ ____                   !]]></blank_sentence>
+		<!-- blank_index: position in string of the first letter of the target word (press "->" [x] times)-->
+		<!-- for positioning blank graphic -->
+		<blank_index>24</blank_index>
+		<!-- correct choices -->
+		<correct id="Rapunzel" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[Rapunzel]]></correct>
+		<correct id="let" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[let]]></correct>
+		<correct id="down" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[down]]></correct>
+		<correct id="your" type="audio" url="sections/games/rescue/audio/words/bee.mp3"><![CDATA[your]]></correct>
+		<!-- target word -->
+		<target id="ladder" type="audio" url="sections/games/rescue/audio/words/ladder.mp3"><![CDATA[ladder]]></target>
+		<!-- incorrect choices -->
+		<decoy><![CDATA[flower]]></decoy>
+		<decoy><![CDATA[ball]]></decoy>
+		<decoy><![CDATA[kite]]></decoy>
+		<decoy><![CDATA[hat]]></decoy>	
+		<decoy><![CDATA[bee]]></decoy>
+		<decoy><![CDATA[balloon]]></decoy>
+		<decoy><![CDATA[bunny]]></decoy>
+		<decoy><![CDATA[ladybug]]></decoy>		
+	</words>
+	<shared_audio>
+		<!-- these audio files are used by multiple sets - seperate out so they don't load multiple times -->
+		<shared_file id="flower" type="audio" url="sections/games/rescue/audio/words/flower.mp3"></shared_file>
+		<shared_file id="ball" type="audio" url="sections/games/rescue/audio/words/ball.mp3"></shared_file>
+		<shared_file id="kite" type="audio" url="sections/games/rescue/audio/words/kite.mp3"></shared_file>
+		<shared_file id="hat" type="audio" url="sections/games/rescue/audio/words/hat.mp3"></shared_file>	
+		<shared_file id="bee" type="audio" url="sections/games/rescue/audio/words/bee.mp3"></shared_file>
+		<shared_file id="balloon" type="audio" url="sections/games/rescue/audio/words/balloon.mp3"></shared_file>
+		<shared_file id="bunny" type="audio" url="sections/games/rescue/audio/words/bunny.mp3"></shared_file>
+		<shared_file id="ladybug" type="audio" url="sections/games/rescue/audio/words/ladybug.mp3"></shared_file>
+	</shared_audio>
+	<promos>
+		<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+		<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		<promo id="alphapig" location="game/alphabricks" url="promos/endscreen_promo_ap_bricks.jpg" />
+	</promos>
+</game>

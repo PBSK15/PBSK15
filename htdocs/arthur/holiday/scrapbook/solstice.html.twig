@@ -1,0 +1,111 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Holiday . Sue Ellen\'s Scrapbook | PBS Kids' %}
+{% set desc = 'Check out the limerick written by Sue Ellen and find out what poems called limericks are all about.' %}
+{% set keywds = 'limerick, poems, writing' %}
+{% set specialInclude = '' %}
+{% set selectedNav = '' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9c9">
+ <div class="ruler"></div>
+ <div class="print-instr holiday"><a href="/arthur/holiday/index.html"><h4 id="holidayHeader">Elwood City Celebrates</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../dressup/index.html"><span>D.W.'s Dress Up</span></a></li>
+   <li><a href="../scrapbook/index.html" class="selected"><span>Sue Ellen's Scrapbook</span></a></li>
+   <li><a href="../glossary/index.html"><span>Brain's Big Book</span></a></li>
+   <li><a href="../coloring/index.html"><span>Holiday Coloring Pages</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea"><a name="top"></a>
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left wide">
+     <h1>Sue Ellen's Scrapbook</h1>
+    </div>
+   </div>
+   <div id="holidayTermsContent">
+    <div id="holidayTermsNav">
+     <ul id="innerNav">
+      <li><a href="baxterday.html">Baxter Day</a> &nbsp;| &nbsp;</li>
+      <li><a href="christmas.html">Christmas</a> | &nbsp;</li>
+      <li><a href="hanukkah.html">Hanukkah</a> | &nbsp;</li>
+      <li><a href="kwanzaa.html">Kwanzaa</a> | &nbsp;</li>
+      <li><a href="newyear.html">New Year</a></li><br>
+      <li><a href="ramadan.html">Ramadan and Eid ul-Fitr</a> | &nbsp;</li>
+      <li><a href="stlucia.html">St. Lucia</a> | &nbsp;</li>
+      <li><a href="volunteering.html">Volunteering</a> | &nbsp;</li>
+      <li><a href="solstice.html" class="selected">Winter Solstice</a></li>
+     </ul>
+    </div>
+    <div class="printable-nav no-rule">
+     <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+      <p>1 of 8 pages</p>
+     </div>
+    </div>
+    <ul class="print-pages" id="holidayScrapbookPix">
+     <li id="solstice1">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/solstice1.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Winter Solstice</h2>
+        <p>Prunella celebrates Winter Solstice around December 21. Winter Solstice is the official first day of winter. Prunella loves this time of year because everyone is so excited about the holidays.</p>
+       </dd>
+      </dl></li>
+     <li id="solstice2">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/solstice2.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Winter Solstice</h2>
+        <p>Winter Solstice is the shortest day of the year. That means it has the least amount of daylight and a really long night. It gets dark VERY early! From here on, the days get longer and longer until Summer Solstice, which is the longest day of the year. That's in June.</p>
+       </dd>
+      </dl></li>
+     <li id="solstice3">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/solstice3.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Winter Solstice</h2>
+        <p>Winter Solstice is also called Yule. A long time ago, the Romans had big Yule celebrations. Many Christmas traditions started out as part of Yule, like Christmas trees, the colors red and green, and giving presents.</p>
+       </dd>
+      </dl></li>
+     <li id="solstice4">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/solstice4.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Winter Solstice</h2>
+        <p>D.W. says she loves it when it gets dark so early. She tries to count the stars. Maybe someone told her that she'd get more presents at Christmas if she counted each and every one!</p>
+       </dd>
+      </dl></li>
+     <li id="solstice5">
+      <dl>
+       <dt>
+        <img src="/arthur/i/holiday/solstice5.jpg" width="284" height="210" alt="" border="0">
+       </dt>
+       <dd>
+        <h2>Winter Solstice</h2>
+        <p>Prunella invited us over for our own Yule celebration. We lit candles and burned a Yule log. The tradition of the Yule log began in ancient times when people thought that burning a log and saving the ashes would protect their homes and bring good luck.</p>
+       </dd>
+      </dl></li>
+    </ul>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/holiday/scrapbook/index.html" id="rcBrainBook">Brain's Big Book of Terms</a></li>
+   <li><a href="/arthur/holiday/dressup/index.html" id="rcDressUp">DW Dress Up</a></li> <!--<li><a href="/arthur/holiday/coloring/index.html" id="rcHolidayColoring">Holiday Coloring Page</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

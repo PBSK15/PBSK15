@@ -1,0 +1,27 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Global Gizmo! | PBS Kids' %}
+{% set desc = 'Play a matching game with instruments from around the world! Click on a square to reveal an instrument and then click on another to try and locate its match! ' %}
+{% set keywds = 'Sue Ellen, matching game, world instruments, world music, culture' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="globalbg">
+ <div class="ruler"></div>
+ <div id="mainFeature" class="fo_header">
+  <div id="swf_content"><a href="map.html" id="globalMapBtn">Find out more about the instruments in this game.</a>
+   <div id="flashcontent" class="globalgizmo">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/globalgizmo/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("gg_07.swf", "global", "620", "420", "8", "#66cccc");				   fo.addParam("allowScriptAccess", "always");				  fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/games/connectworld/index.html" id="rcConnect">Connect the World</a></li>
+   <li><a href="/arthur/games/crankitup/index.html" id="rcCrank">Crank It Up!</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

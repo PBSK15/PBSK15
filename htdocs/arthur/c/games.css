@@ -1,0 +1,151 @@
+#swf_content {  margin:0 auto; text-align:center; }
+#flashcontent { margin:0 auto; background-color:#fff; padding:3px; }
+#flashcontent p { padding:10px; }
+
+.aboutbg { background-color:#cccc3c; }
+.aboutbg #flashcontent { border:1px solid #8e8e2a; }
+.alienbg { background-color:#18363c; }
+.alienbg #flashcontent { border:1px solid #11262a; }
+.buildaflagbg { background-color: #9cf; }
+.buildaflagbg #flashcontent { border:1px solid #333333; }
+.comicbg { background-color:#629d9d; }
+.comicbg #flashcontent { border:1px solid #446e6e; }
+.connectbg { background-color:#669999; }
+.connectbg #flashcontent { border:1px solid #476b6b; padding:0; }
+.crankbg { background-color:#f63; }
+.crankitup { border:1px solid #474747; }
+.dontwakekate { border:1px solid #6b8e47; }
+.effectivebg { background-color:#cd863f; }
+.effectivebg #flashcontent {border:1px solid #8f5e2c; }
+.asthmabg { background-color:#544150; }
+.asthmabg #flashcontent { border:1px solid #3b2d38; }
+.dreamonbg { background-color: #7a3648;}
+.dreamonbg #flashcontent { border:1px solid #3b2d38; }
+.elwoodbg { background-color:#ff672b; }
+.factbg { background-color:#6498c1; }
+.factbg #flashcontent { border:1px solid #466a87; }
+.globalbg { background-color:#6cc; }
+.globalbg #flashcontent { padding:0; }
+.gogeorgego { border:1px solid #246b47; }
+.gogreenbg { background-color: #9cf;}
+.globalgizmo { width:620px; height:420px; }
+.lunchbg { background-color:#969; }
+.lunchbg #flashcontent { border:1px solid #6b476b; }
+.moviebg { background-color:#773549; }
+.moviebg #flashcontent { border:1px solid #532533; }
+.marketbg { background-color:#718d9f; }
+.marketbg #flashcontent { border:1px solid #4f626f; }
+.groovybg { background-color:#dcb781; }
+.groovybg #flashcontent { border:1px solid #6a805a; }
+.goosebg { background-color:#ccf; }
+.goosebg #flashcontent { border:1px solid #8e8eb2; }
+#flashcontent.marthursticker { border:1px solid #478e8e; padding:0; }
+.superactionchallenge { border:1px solid #472447; }
+.wardrobe { border:1px solid #6b2424; }
+.wherebusterbg { background-color: #6cc; }
+.wherebusterbg #flashcontent { border:1px solid #333333; }
+
+.groovygarden, .factsopinions, .gogeorgego, .lunchomatic, .crankitup, .moviemaker, .superactionchallenge, .supermarket { width:595px; height:350px; }
+.comiccreator { width:800px; height:451px; }
+.lungdefender { width:595px; height:490px; }
+#flashcontent.gogreen { width:960px; height:600px; padding:0; border:none;}
+.marthursticker { width:800px; height:430px; }
+.aboutface, .connect { width:550px; height:325px; }
+.alien, .dontwakekate, .wardrobe { width:595px; height:325px; }
+.effectivedetective { width:595px; height:335px; }
+.virtualgoose { width:582px; height:332px; }
+#flashcontent.charbuilder { padding:20px 0 0 0; background-color:#6cc;}
+.wherebuster {width:550px; height:325px;}
+.buildaflag, .dreamon {width:675px; height: 360px;}
+.backyardAdv { background-color:#FFE8A2;}
+
+/*============ CONNECT THE WORLD	=============*/
+#mapWrapper { float:left; position:relative; margin:0 13px 0 10px; height:500px; }
+#connectBack { background:url('../i/games/connectworld/back_connect.gif') top left no-repeat; width:177px; height:0; padding:96px 0 0 0; overflow:hidden; display:block; position:absolute; left:416px; top:360px; }
+#connectBack:hover { background-position:-177px 0; }
+#gamesMapWrapper { padding:32px 0 0 0; overflow:auto; }
+#mapInfoWrapper { width:309px; float:left; position:relative; margin:0 0 20px 0; } 
+#mapContent { margin:13px 0 0 0; padding:0 5px; background-color:#fff; border-left:1px solid #000; border-right:1px solid #000; overflow:hidden; }
+#mapContent .ruler { background:url('../i/games/box_rule.gif') top left no-repeat; width:299px; height:2px; }
+#mapContent h1 { margin:0 0 10px 8px; }
+#mapContent p { margin:0 0 20px 8px; width:280px; }
+#mapContent .cw-img { padding:0 0 0 5px; }
+#mapContent h3 { margin:10px 8px; }
+#mapInfoTop { background:url('../i/games/box_top.png') top left no-repeat; width:309px; height:13px; position:absolute; top:0px; }
+#mapInfoBtm { background:url('../i/games/box_btm.png') top left no-repeat; width:309px; height:13px; position:absolute; bottom:-13px; }
+#mapInfoArrow { background:url('../i/games/triangle.png') top left no-repeat; width:35px; height:31px; position:absolute; left:-34px; top:106px; }
+#mapInfoArrow.intro { top:30px; }
+#mapContent h2 { color:#000; text-align:center; padding:11px 20px; }
+#connectCardBtn { width:109px; padding:85px 0 0 0; background:url('../i/games/connectworld/connect_about.gif') top left no-repeat; display:inline-block; float:right;  margin:0 35px 0 0; color:#000; font-weight:normal; }
+#connectCardBtn:hover { background-position:-109px 0; color:#000; text-decoration:none; }
+
+/*=============		GLOBAL GIZMO		=========*/
+.gg #mapWrapper{ height:514px; margin:0 19px 0 33px; }
+#globalBack { background:url('../i/games/globalgizmo/back_gizmo.gif') top left no-repeat; width:179px; height:0; padding:86px 0 0 0; overflow:hidden; display:block; position:absolute; left:384px; top:417px; }
+#globalBack:hover { background-position:-179px 0; }
+.gg #mapContent p { margin:10px 0 20px 8px; }
+#globalMapBtn { width:112px; padding:85px 0 0 0; background:url('../i/games/globalgizmo/gizmo_about.gif') top left no-repeat; display:inline-block; float:right;  margin:60px 25px 0 0; color:#000; font-weight:normal; }
+#globalMapBtn:hover { background-position:-112px 0; color:#000; text-decoration:none; }
+
+
+/*===========  ASK PRUNELLA =============*/
+#tableAK { margin:0 auto; }
+#tableAK img { display:block; }
+#predict_form { float:left; padding:0; margin:0; }
+
+
+/*============ YOU'VE GOT TO BE KIDDING ==============*/
+/*#mainFeature table { margin:0 auto; background-color:#fff;}*/
+#content #mainFeature #sticker_form { display:inline-block; margin:0 auto; }
+#sticker_table { margin:0 auto; }
+#sticker_table h2 { color:#000; }
+#kidding_table img { float:left; }
+#kiddingWrapper { background-color:#fff; padding:5px; border:1px solid #478e8e; margin:0 auto; }
+#kiddingWrapper.kidding-home { width:622px; }
+#kiddingWrapper.kidding-problem { width:643px; } 
+#kiddingWrapper.kidding-score { width:637px; }
+
+/*============ E-CARDS ==============*/
+
+/*-------   INDEX.TMPL				*/
+#wrapper { width:600px; margin:0 auto; overflow:hidden; text-align:left; }
+#blurb{ padding:0 0 0 32px; }
+#direction{ text-align:left; padding:0 20px 27px 0; width:540px; }
+#title{ padding:10px 0 0 0; font-weight:bold; margin:0 0 0 70px; width:500px; }
+#getwell{ float:left; width:150px; height:350px; overflow:auto; }
+#getwell ul{ list-style-type:none; margin:0; padding:0; }
+#getwell ul li{ padding:0 0 10px 0; text-align:left; }
+#getwell ul li a{ padding:0 0 5px 0; display:inline-block; }
+#getwell ul li div{ font-size:13px; }
+#cards{ width:360px; height:350px; text-align:left; overflow:auto; }
+#cards ul{ list-style-type:none; margin:0; padding:0; }
+#cards ul li{ float:left; width:110px; height:86px; }
+
+/*-------   MESSAGE.TMPL				*/
+#ecards_header {  overflow:auto; padding:0 0 20px 0;  }
+#ecards_header img { margin:0; vertical-align: middle; padding: 0 30px 0 0; }
+#title2 { padding:0 0 0 32px; overflow:auto; }
+#title2 img { padding:0 20px 20px 0; vertical-align:middle; float:left;  }
+#title2 div { text-align:left; }
+#postcard_img { float:left; width:272px; height:172px; }
+#postcard_form { margin:0 0 0 302px;  }
+
+/*-------   MESSAGE2.TMPL				*/
+#postcard_img_lg { margin:0 0 20px 30px; width:543px; height:259px; display:block; }
+#postcard_form_lg { margin:0 0 0 30px; }
+
+/*-------   PREVIEW.TMPL				*/
+#postcard_img_preview { float:left; margin:0 30px 0 0;width:351px; height:222px; }
+#ecards_msg { height:202px; }
+#preview_form { display:block; margin:0 0 20px 30px; }
+#edit_form { /*margin:0 0 20px 400px; */}
+#postcard_msg { overflow:hidden; margin:0 0 20px 30px;}
+#privacy_txt { margin:0 0 0 30px; }
+
+/*-------   PREVIEW2.TMPL				*/
+#postcard_msg2 { overflow:hidden; margin:0 0 20px 30px;}
+#postcard_msg2 #ecards_msg { float:left; width:300px; height:auto; }
+
+
+/*============ WHERE'S BUSTER ============*/
+.wherebusterbg #abbrev { position:absolute; top:420px; left:90px;}

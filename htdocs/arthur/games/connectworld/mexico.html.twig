@@ -1,0 +1,42 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Connect The World Map . Mexico | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="connectbg">
+ <div class="ruler"></div>
+ <div id="gamesMapWrapper">
+  <div id="mapWrapper"><map name="worldmap"> <area shape="rect" coords="0, 163, 317, 413" href="connectworld.html" alt="Back to game"> <area shape="rect" coords="459, 195, 529, 271" href="australia.html" alt="Australia"> <area shape="rect" coords="398, 112, 450, 167" href="india.html" alt="India"> <area shape="rect" coords="519, 106, 565, 128" href="japan.html" alt="Japan"> <area shape="rect" coords="483, 87, 501, 124" href="japan.html" alt="Japan"> <area shape="rect" coords="352, 166, 378, 192" href="kenya.html" alt="Kenya"> <area shape="rect" coords="144, 126, 192, 156" href="mexico.html" alt="Mexico"> <area shape="rect" coords="331, 30, 481, 100" href="russia.html" alt="Russia"> <area shape="rect" coords="341, 100, 375, 121" href="turkey.html" alt="Turkey"> <area shape="rect" coords="143, 84, 231, 123" href="usa.html" alt="U.S.A."> </map> <img src="/arthur/i/games/connectworld/map_connect.gif" alt="Map of the world with eight highlighted countries" width="610" height="415" border="0" usemap="#worldmap"> <a href="/arthur/games/connectworld/connectworld.html" id="connectBack">Back to Game</a>
+  </div>
+  <div id="mapInfoWrapper">
+   <div id="mapContent">
+    <h1>Mexico</h1>
+    <div class="ruler"></div>
+    <h3>Food</h3>
+    <p><img src="/arthur/i/games/connectworld/food_mex.gif" alt="Illustration of tamale" width="101" height="68" class="float-right cw-img">A tamale is a little meat or vegetable pie made in a cornmeal dough called masa. The tamale is wrapped in a dry corn husk and steamed until cooked. The corn husk is not eaten.</p>
+    <div class="ruler"></div>
+    <h3>Music</h3>
+    <p><img src="/arthur/i/games/connectworld/music_mex.gif" alt="Illustration of a maracas" width="101" height="68" class="float-right cw-img">Maracas are percussion instruments. They were originally made from gourds partially filled with seeds or dried beans. Nowadays they may be wood or plastic. Maracas are played by shaking them.</p>
+    <div class="ruler"></div>
+    <h3>Sport</h3>
+    <p><img src="/arthur/i/games/connectworld/sport_mex.gif" alt="Illustration of a soccer ball" width="101" height="68" class="float-right cw-img"> Soccer is the most popular sport in the world. As of 2003, Mexico alone has 20 teams. Two teams try to get a ball through their opponent's goal without using their arms or hands. All other parts of the body are allowed. Goalies may use their hands.</p>
+    <div class="ruler"></div>
+    <h3>Flag</h3>
+    <p><img src="/arthur/i/games/connectworld/flag_mex.gif" alt="The Mexican flag" width="101" height="68" class="float-right cw-img"> The Mexican flag is green on the left, white in the middle, and red on the right. In the middle is a picture of an eagle standing on a cactus and eating a snake. This emblem recalls an Aztec legend of how Mexico City was founded.</p>
+   </div>
+   <div id="mapInfoTop"></div>
+   <div id="mapInfoBtm"></div>
+   <div id="mapInfoArrow"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/traveltales/index.html" id="rcTravelTales">Sue Ellen's Travel Tales</a></li>
+   <li><a href="/arthur/games/factsopinions/index.html" id="rcFactOpinion">Facts and Opinions</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

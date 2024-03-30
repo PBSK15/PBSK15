@@ -1,0 +1,150 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'Allergy Translations . Arthur' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="../css/allergy.css">' %}
+{% set bodyClass = 'purple' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><a href="../asthma/">Asthma</a></li>
+   <li><h2><a href="../allergy/index.html" class="long">Peanut Allergy</a></h2></li>
+   <li><a href="../nutrition/">Nutrition</a></li>
+   <li><a href="../resilience/">Resilience</a></li>
+   <li><a href="../fitness/">Fitness</a></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Peanut Allergy</a>
+   </div>
+   <ul>
+    <li><a href="../asthma/">Asthma</a></li>
+    <li><a href="../nutrition/">Nutrition</a></li>
+    <li><a href="../resilience/">Resilience</a></li>
+    <li><a href="../fitness/">Fitness</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="trav-trans group">
+  <div id="wrap-n-a-t">
+   <ul id="nav-area-top">
+    <li>
+     <div>
+      <div class="caret-area"></div>More<span> Sections</span>
+     </div>
+     <ul class="nav-area">
+      <li>
+       <div>
+        The Basics
+       </div>
+       <ul>
+        <li><a href="background-info.html">Background Information</a></li>
+        <li><a href="tips1.html">Tips for Grown-ups</a></li>
+        <li><a href="tips-kids.html">Tips for Kids</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="educators.html">For Educators</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Games &amp; Activities
+       </div>
+       <ul>
+        <li><a href="travel-translations.html">Travel Translations</a></li>
+        <li><a href="coloring-sheet.html">Coloring Sheet</a></li>
+        <li><a href="peanut-placemat.html">Binky's Placemat</a></li>
+        <li><a href="quiz.html">Peanut Allergy Quiz</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Videos
+       </div>
+       <ul>
+        <li><a href="episode.html">Binky Goes Nuts</a></li>
+        <li><a href="kids-action.html">Kids in Action</a></li>
+        <li><a href="kellie-kristen.html">Kellie and Kristen</a></li>
+        <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+       </ul></li>
+     </ul></li>
+   </ul>
+  </div>
+  <h3>Games &amp; Activities</h3>
+  <h4>Travel Translations</h4>
+  <hr>
+  <div class="group">
+   <div class="col7 cntr">
+    <p>Be safe when traveling. Choose a language to show anyone who touches your food that you have a serious allergy to peanuts.</p>
+   </div> <img class="col5" src="../img/peanut_1.png" alt="Binky with a speech bubble stating his peanut allergy.">
+   <div class="col7">
+    <div class="styled-select">
+     <div class="caret"></div> <select id="langList"><option value="-1" selected>Select a language</option><option value="ar">Arabic</option><option value="ch">Chinese</option><option value="fa">Farsi</option><option value="fr">French</option><option value="ge">German</option><option value="he">Hebrew</option><option value="hi">Hindi</option><option value="it">Italian</option><option value="ko">Korean</option><option value="pl">Polish</option><option value="pt">Portuguese</option><option value="sp">Spanish</option><option value="th">Thai</option><option value="tr">Turkish</option></select>
+    </div>
+    <ul id="translation">
+     <li id="ar">لدي حساسية تجاه الفول السوداني <br>(L’daya hasesseeya tuje haful hasu deni.)</li>
+     <li id="ch">我对花生过敏<br>(Wǒ duì huāshēng guòmǐn)</li>
+     <li id="fa">من به بادام زمینی حساسیت دارم<br>(Man be badam zamini hasasiyat daram”)</li>
+     <li id="fr">Je suis allergique aux arachide</li>
+     <li id="ge">Ich bin allergisch gegen Erdnüsse</li>
+     <li id="he">אני אלרגי לבוטנים (Ani alergi l’botnim) (male speaker)<br>אני אלרגית לבוטנים (Ani alergit l’botnim) (female speaker)</li>
+     <li id="hi">मुझे मूंगफ़ली से एलर्जी है</li>
+     <li id="it">Sono allergico alle arachidi (male speaker)<br>Sono allergica alle arachidi (female speaker)</li>
+     <li id="ko">저는 땅콩 알레르기가 있습니다<br>(Juh-neun ttangkong allereugiga isseubneeda)</li>
+     <li id="pl">Mam alergię na orzeszki ziemne.</li>
+     <li id="pt">Eu sou alérgica a amendoim</li>
+     <li id="sp">Soy alérgico a los cacahuates (male speaker)<br>Soy alérgica a los cacahuates (female speaker)<br><br>Soy alérgico a los cacahuetes (male speaker)<br>Soy alérgica a los cacahuetes (female speaker)<br><br>Soy alérgico a los manís (male speaker)<br>Soy alérgica a los manís (female speaker)</li>
+     <li id="th">ฉันแพ้ถั่วลิสง <br>(Chun pae tuaw li soong)</li>
+     <li id="tr">Fıstık alerjim var</li>
+    </ul>
+   </div>
+  </div>
+  <div class="banner btn-r"><a href="../pdf/arthur_peanut_translations.pdf" class="print-btn" style="width:14em;">
+    <div class="print-icon"></div>Print All Translations</a>
+   <p>Be prepared to let people know about your peanut allergy! Print out the translations to carry with you as you travel.</p>
+  </div>
+  <div id="wrap-n-a-b">
+   <ul id="nav-area-bot">
+    <li>
+     <div>
+      <div class="caret-area"></div>More Sections
+     </div>
+     <ul class="nav-area">
+      <li>
+       <div>
+        The Basics
+       </div>
+       <ul>
+        <li><a href="background-info.html">Background Information</a></li>
+        <li><a href="tips1.html">Tips for Grown-ups</a></li>
+        <li><a href="tips-kids.html">Tips for Kids</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="educators.html">For Educators</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Games &amp; Activities
+       </div>
+       <ul>
+        <li><a href="travel-translations.html">Travel Translations</a></li>
+        <li><a href="coloring-sheet.html">Coloring Sheet</a></li>
+        <li><a href="peanut-placemat.html">Binky's Placemat</a></li>
+        <li><a href="quiz.html">Peanut Allergy Quiz</a></li>
+       </ul></li>
+      <li>
+       <div>
+        Videos
+       </div>
+       <ul>
+        <li><a href="episode.html">Binky Goes Nuts</a></li>
+        <li><a href="kids-action.html">Kids in Action</a></li>
+        <li><a href="kellie-kristen.html">Kellie and Kristen</a></li>
+        <li><a href="expert-video.html">Expert Q&amp;A</a></li>
+       </ul></li>
+     </ul></li>
+   </ul>
+  </div>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="../js/jquery-1.10.2.min.js"></script><script src="../js/main.js"></script><script src="../js/allergy.js"></script>' %}

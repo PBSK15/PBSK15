@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Virtual Goose | PBS Kids' %}
+{% set desc = 'Check how observant you are when you play Virtual Goose! Point and click on the egg that matches the one in the center.' %}
+{% set keywds = 'matching, eggs, spinning, game, play' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fff">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="virtualgoose.html"><img src="../../i/games/goose_splash.gif" width="626" height="317" border="0" alt="Play Virtual Goose"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/sue_ellen/index.html" id="rcSueEllen">Sue Ellen</a></li>
+   <li><a href="/arthur/print/fetch/index.html" id="rcFetch">Go Fetch!</a></li> <!--<li><a href="/arthur/video/games.html?pid=GEdWvpk_jyj2meMLgobbVVf8pP6z_NBg" id="rcSceneSwitcher">Scene Switcher</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

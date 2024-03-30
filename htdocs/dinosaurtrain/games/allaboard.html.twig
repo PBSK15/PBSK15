@@ -1,0 +1,20 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . All Aboard' %}
+{% set desc = 'Become a Junior Conductor on the train by helping the Conductor run the train on time! Seat dinosaurs as they get on the train, feed them, go through the time tunnel and get them home safely. If the train runs on time print your junior conductore gear!' %}
+{% set keywds = 'Conductor, Train, Time Tunnel, feeding dinosaurs, Herbivore , Carnivore , Printable, Science games for kids, Junior conductor' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+	document.getElementById("main_content").innerHTML = getNonFlashContent("game");
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#9f4504')
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('wmode', 'opaque');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/allAboard.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

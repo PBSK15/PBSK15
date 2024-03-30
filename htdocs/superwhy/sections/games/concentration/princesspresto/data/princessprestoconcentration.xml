@@ -1,0 +1,336 @@
+<game id="superwhyconcentration" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPERWHY CONCENTRATION | PBS KIDS]]></title>
+	<swf url="sections/games/concentration/princesspresto/princessprestoConcentration.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "true"
+		helpIsActive = "true"
+		hasPrintable = "true"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="princesspresto_endscreen" url="libraries/princesspresto_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />
+	</libraries>
+	
+	
+	<promos>
+		<asset id="princess" location="game/superhero" url="../../../../promos/endscreen_promo_sh_princess.jpg" />
+		<asset id="whyatt" location="game/rescue" url="../../../../promos/endscreen_promo_sw_rescue.jpg" />
+		<asset id="wonderred" location="game/rhymenroll" url="../../../../promos/endscreen_promo_rhymeroll.jpg" />
+	</promos>
+		
+	
+	<game>
+				
+		
+		<config>
+			<!-- This base URL is used for game-specific on-demand assets below,
+			the assets that appear within the <game> node and its child nodes.
+			-->
+			<assetBaseURL><![CDATA[sections/games/concentration/princesspresto/]]></assetBaseURL>
+		</config>
+		
+		<!-- these assets are loaded up-front, regardless of the random words used in the game -->
+		<assets>
+			
+			<!-- <asset id="ppHelp" type="audio" url="audio/pp_help.mp3"/> -->
+			<asset id="ppChose" type="audio" url="audio/MU_PP_DifficultyPopup.mp3"/>
+			<asset id="ppEasy" type="audio" url="audio/MU_PP_Easy.mp3"/>
+			<asset id="ppMedium" type="audio" url="audio/MU_PP_Medium.mp3"/>
+			<asset id="ppHard" type="audio" url="audio/MU_PP_Hard.mp3"/>
+
+			<!--asset id="ppDirections" type="audio" url="audio/pp_directions.mp3"/-->
+			<asset id="ppObjective" type="audio" url="audio/MU_PP_Prompt_Timeout.mp3"/>
+
+            <asset id="kudosSound" type="audio" url="audio/kudosSound.mp3"/>
+			
+			<asset id="ppStartsWithSound" type="audio" url="audio/MU_PP_Kudos1.mp3"/>
+			<asset id="ppSpectacular" type="audio" url="audio/MU_PP_Kudos7.mp3"/>
+			<asset id="ppMagnificent" type="audio" url="audio/MU_PP_Kudos10.mp3"/>
+			
+			<asset id="ppSplendid" type="audio" url="audio/MU_PP_Kudos11.mp3"/>
+			<asset id="ppExcellent" type="audio" url="audio/MU_PP_Kudos8.mp3"/>
+			
+			<asset id="ppDoesntBeginWith" type="audio" url="audio/MU_PP_Oops1.mp3"/>
+			<asset id="ppTryAnother" type="audio" url="audio/MU_PP_Oops5.mp3"/>
+			<asset id="ppKeepTrying" type="audio" url="audio/MU_PP_Oops6.mp3"/>
+			<asset id="ppLastMatch" type="audio" url="audio/MU_PP_LastMatch.mp3"/>
+			
+			<asset id="pp_phoneme_A" type="audio" url="audio/phonemes/aaa.mp3"/>
+			<asset id="pp_phoneme_B" type="audio" url="audio/phonemes/bbb.mp3"/>
+			<asset id="pp_phoneme_C" type="audio" url="audio/phonemes/ccc.mp3"/>
+			<asset id="pp_phoneme_D" type="audio" url="audio/phonemes/ddd.mp3"/>
+			<asset id="pp_phoneme_E" type="audio" url="audio/phonemes/eee.mp3"/>
+			<asset id="pp_phoneme_F" type="audio" url="audio/phonemes/fff.mp3"/>
+			<asset id="pp_phoneme_G" type="audio" url="audio/phonemes/ggg.mp3"/>
+			<asset id="pp_phoneme_H" type="audio" url="audio/phonemes/hhh.mp3"/>
+			<asset id="pp_phoneme_I" type="audio" url="audio/phonemes/iii.mp3"/>
+			<asset id="pp_phoneme_J" type="audio" url="audio/phonemes/jjj.mp3"/>
+			<asset id="pp_phoneme_K" type="audio" url="audio/phonemes/kkk.mp3"/>
+			<asset id="pp_phoneme_L" type="audio" url="audio/phonemes/lll.mp3"/>
+			<asset id="pp_phoneme_M" type="audio" url="audio/phonemes/mmm.mp3"/>
+			<asset id="pp_phoneme_N" type="audio" url="audio/phonemes/nnn.mp3"/>
+			<asset id="pp_phoneme_O" type="audio" url="audio/phonemes/ooo.mp3"/>
+			<asset id="pp_phoneme_P" type="audio" url="audio/phonemes/ppp.mp3"/>
+			<asset id="pp_phoneme_Q" type="audio" url="audio/phonemes/qqq.mp3"/>
+			<asset id="pp_phoneme_R" type="audio" url="audio/phonemes/rrr.mp3"/>
+			<asset id="pp_phoneme_S" type="audio" url="audio/phonemes/sss.mp3"/>
+			<asset id="pp_phoneme_T" type="audio" url="audio/phonemes/ttt.mp3"/>
+			<asset id="pp_phoneme_U" type="audio" url="audio/phonemes/uuu.mp3"/>
+			<asset id="pp_phoneme_V" type="audio" url="audio/phonemes/vvv.mp3"/>
+			<asset id="pp_phoneme_W" type="audio" url="audio/phonemes/www.mp3"/>
+			<asset id="pp_phoneme_X" type="audio" url="audio/phonemes/xxx.mp3"/>
+			<asset id="pp_phoneme_Y" type="audio" url="audio/phonemes/yyy.mp3"/>
+			<asset id="pp_phoneme_Z" type="audio" url="audio/phonemes/zzz.mp3"/>
+
+		</assets>
+	
+		<cards>
+			<card id="a">
+				<asset id="apple" hasImage="true" type="audio" url="audio/words/MU_PP_Apple.mp3">
+					<notext/>
+				</asset>
+				<asset id="a" usePhoneme="true" phonemeID="pp_phoneme_A" type="audio" url="audio/letters/a_pp.mp3">
+					<text><![CDATA[A]]></text>
+				</asset>
+			</card>
+
+			<card id="b">
+				<asset id="book" hasImage="true" type="audio" url="audio/words/MU_PP_Book.mp3">
+					<notext/>
+				</asset>
+				<asset id="b" usePhoneme="true" phonemeID="pp_phoneme_B" type="audio" url="audio/letters/b_pp.mp3">
+					<text><![CDATA[B]]></text>
+				</asset>
+			</card>
+
+			<card id="c">
+				<asset id="cat" hasImage="true" type="audio" url="audio/words/MU_PP_Cat.mp3">
+					<notext/>
+				</asset>
+				<asset id="c" usePhoneme="true" phonemeID="pp_phoneme_C" type="audio" url="audio/letters/c_pp.mp3">
+					<text><![CDATA[C]]></text>
+				</asset>
+			</card>
+
+			<card id="d">
+				<asset id="dog" hasImage="true" type="audio" url="audio/words/MU_PP_Dog.mp3">
+					<notext/>
+				</asset>
+				<asset id="d" usePhoneme="true" phonemeID="pp_phoneme_D" type="audio" url="audio/letters/d_pp.mp3">
+					<text><![CDATA[D]]></text>
+				</asset>
+			</card>
+
+			<card id="e">
+				<asset id="Elephant" hasImage="true" type="audio" url="audio/words/MU_PP_Elephant.mp3">
+					<notext/>
+				</asset>
+				<asset id="e" usePhoneme="true" phonemeID="pp_phoneme_E" type="audio" url="audio/letters/e_pp.mp3">
+					<text><![CDATA[E]]></text>
+				</asset>
+			</card>
+
+			<card id="f">
+				<asset id="fish" hasImage="true" type="audio" url="audio/words/MU_PP_Fish.mp3">
+					<notext/>
+				</asset>
+				<asset id="f" usePhoneme="true" phonemeID="pp_phoneme_F" type="audio" url="audio/letters/f_pp.mp3">
+					<text><![CDATA[F]]></text>
+				</asset>
+			</card>
+
+			<card id="g">
+				<asset id="grapes" hasImage="true" type="audio" url="audio/words/MU_PP_Grapes.mp3">
+					<notext/>
+				</asset>
+				<asset id="g" usePhoneme="true" phonemeID="pp_phoneme_G" type="audio" url="audio/letters/g_pp.mp3">
+					<text><![CDATA[G]]></text>
+				</asset>
+			</card>
+			
+			<card id="h">
+				<asset id="heart" hasImage="true" type="audio" url="audio/words/MU_PP_Heart.mp3">
+					<notext/>
+				</asset>
+				<asset id="h" usePhoneme="true" phonemeID="pp_phoneme_H" type="audio" url="audio/letters/h_pp.mp3">
+					<text><![CDATA[H]]></text>
+				</asset>
+			</card>
+
+			<card id="i">
+				<asset id="igloo" hasImage="true" type="audio" url="audio/words/MU_PP_Igloo.mp3">
+					<notext/>
+				</asset>
+				<asset id="i" usePhoneme="true" phonemeID="pp_phoneme_I" type="audio" url="audio/letters/i_pp.mp3">
+					<text><![CDATA[I]]></text>
+				</asset>
+			</card>
+			
+			<card id="j">
+				<asset id="jar" hasImage="true" type="audio" url="audio/words/MU_PP_Jar.mp3">
+					<notext/>
+				</asset>
+				<asset id="j" usePhoneme="true" phonemeID="pp_phoneme_J" type="audio" url="audio/letters/j_pp.mp3">
+					<text><![CDATA[J]]></text>
+				</asset>
+			</card>
+
+			<card id="k">
+				<asset id="king" hasImage="true" type="audio" url="audio/words/MU_PP_King.mp3">
+					<notext/>
+				</asset>
+				<asset id="k" usePhoneme="true" phonemeID="pp_phoneme_K" type="audio" url="audio/letters/k_pp.mp3">
+					<text><![CDATA[K]]></text>
+				</asset>
+			</card>
+
+			<card id="l">
+				<asset id="leaf" hasImage="true" type="audio" url="audio/words/MU_PP_Leaf.mp3">
+					<notext/>
+				</asset>
+				<asset id="l" usePhoneme="true" phonemeID="pp_phoneme_L" type="audio" url="audio/letters/l_pp.mp3">
+					<text><![CDATA[L]]></text>
+				</asset>
+			</card>
+
+			<card id="m">
+				<asset id="map" hasImage="true" type="audio" url="audio/words/MU_PP_Map.mp3">
+					<notext/>
+				</asset>
+				<asset id="m" usePhoneme="true" phonemeID="pp_phoneme_M" type="audio" url="audio/letters/m_pp.mp3">
+					<text><![CDATA[M]]></text>
+				</asset>
+			</card>
+						
+			<card id="n">
+				<asset id="nut" hasImage="true" type="audio" url="audio/words/MU_PP_Nut.mp3">
+					<notext/>
+				</asset>
+				<asset id="n" usePhoneme="true" phonemeID="pp_phoneme_N" type="audio" url="audio/letters/n_pp.mp3">
+					<text><![CDATA[N]]></text>
+				</asset>
+			</card>
+
+			<card id="o">
+				<asset id="octopus" hasImage="true" type="audio" url="audio/words/MU_PP_Octopus.mp3">
+					<notext/>
+				</asset>
+				<asset id="o" usePhoneme="true" phonemeID="pp_phoneme_O" type="audio" url="audio/letters/o_pp.mp3">
+					<text><![CDATA[O]]></text>
+				</asset>
+			</card>
+
+			<card id="p">
+				<asset id="pot" hasImage="true" type="audio" url="audio/words/MU_PP_Pot.mp3">
+					<notext/>
+				</asset>
+				<asset id="p" usePhoneme="true" phonemeID="pp_phoneme_P" type="audio" url="audio/letters/p_pp.mp3">
+					<text><![CDATA[P]]></text>
+				</asset>
+			</card>
+
+			<card id="q">
+				<asset id="queen" hasImage="true" type="audio" url="audio/words/MU_PP_Queen.mp3">
+					<notext/>
+				</asset>
+				<asset id="q" usePhoneme="true" phonemeID="pp_phoneme_Q" type="audio" url="audio/letters/q_pp.mp3">
+					<text><![CDATA[Q]]></text>
+				</asset>
+			</card>
+
+			<card id="r">
+				<asset id="rug" hasImage="true" type="audio" url="audio/words/MU_PP_Rug.mp3">
+					<notext/>
+				</asset>
+				<asset id="r" usePhoneme="true" phonemeID="pp_phoneme_R" type="audio" url="audio/letters/r_pp.mp3">
+					<text><![CDATA[R]]></text>
+				</asset>
+			</card>
+
+			<card id="s">
+				<asset id="sock" hasImage="true" type="audio" url="audio/words/MU_PP_Sock.mp3">
+					<notext/>
+				</asset>
+				<asset id="s" usePhoneme="true" phonemeID="pp_phoneme_S" type="audio" url="audio/letters/s_pp.mp3">
+					<text><![CDATA[S]]></text>
+				</asset>
+			</card>
+			
+			<card id="t">
+				<asset id="turtle" hasImage="true" type="audio" url="audio/words/MU_PP_Turtle.mp3">
+					<notext/>
+				</asset>
+				<asset id="t" usePhoneme="true" phonemeID="pp_phoneme_T" type="audio" url="audio/letters/t_pp.mp3">
+					<text><![CDATA[T]]></text>
+				</asset>
+			</card>
+
+			<card id="u">
+				<asset id="umbrella" hasImage="true" type="audio" url="audio/words/MU_PP_Umbrella.mp3">
+					<notext/>
+				</asset>
+				<asset id="u" usePhoneme="true" phonemeID="pp_phoneme_U" type="audio" url="audio/letters/u_pp.mp3">
+					<text><![CDATA[U]]></text>
+				</asset>
+			</card>
+
+			<card id="v">
+				<asset id="violin" hasImage="true" type="audio" url="audio/words/MU_PP_Violin.mp3">
+					<notext/>
+				</asset>
+				<asset id="v" usePhoneme="true" phonemeID="pp_phoneme_V" type="audio" url="audio/letters/v_pp.mp3">
+					<text><![CDATA[V]]></text>
+				</asset>
+			</card>
+			
+			<card id="w">
+				<asset id="wand" hasImage="true" type="audio" url="audio/words/MU_PP_Wand.mp3">
+					<notext/>
+				</asset>
+				<asset id="w" usePhoneme="true" phonemeID="pp_phoneme_W" type="audio" url="audio/letters/w_pp.mp3">
+					<text><![CDATA[W]]></text>
+				</asset>
+			</card>
+			
+			<card id="x">
+				<asset id="xray" hasImage="true" type="audio" url="audio/words/MU_PP_XRay.mp3">
+					<notext/>
+				</asset>
+				<asset id="x" usePhoneme="true" phonemeID="pp_phoneme_X" type="audio" url="audio/letters/x_pp.mp3">
+					<text><![CDATA[X]]></text>
+				</asset>
+			</card>
+
+			<card id="y">
+				<asset id="yarn" hasImage="true" type="audio" url="audio/words/MU_PP_Yarn.mp3">
+					<notext/>
+				</asset>
+				<asset id="y" usePhoneme="true" phonemeID="pp_phoneme_Y" type="audio" url="audio/letters/y_pp.mp3">
+					<text><![CDATA[Y]]></text>
+				</asset>
+			</card>
+			
+			<card id="z">
+				<asset id="zebra" hasImage="true" type="audio" url="audio/words/MU_PP_Zebra.mp3">
+					<notext/>
+				</asset>
+				<asset id="z" usePhoneme="true" phonemeID="pp_phoneme_Z" type="audio" url="audio/letters/z_pp.mp3">
+					<text><![CDATA[Z]]></text>
+				</asset>
+			</card>
+			
+		</cards>
+	
+	</game>
+	
+
+	
+
+
+	
+
+</game>

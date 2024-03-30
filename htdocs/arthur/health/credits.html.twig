@@ -1,0 +1,80 @@
+{% extends 'arthur/includes/templates/arthurHealthPage.html.twig' %}
+{% set pageTitle = 'Credits . Arthur' %}
+{% set specialInclude = '<style type="text/css">	#content { padding: 35px 40px 70px; }	h3, h4 { margin-left: 0; }	h3 {		font: 2.1875em/0.9em "lilita one", sans-serif;		text-transform: none;		clear: both;		margin-bottom: 1em;	}	h4 {		font: 1.875em/1.1875em "lilita one", sans-serif;		margin: 1.25em 0 0;	}	h5 {		font: bold 1.0625em montserrat, sans-serif;		text-transform: uppercase;		margin: 12px 0 2px;	}	#content li {		font: 1.5em/1.25em montserrat, sans-serif;		list-style: none;	}	p { padding: 0; }	@media only screen and (max-width: 788px) {		#content { padding: 10px 20px 50px; }		h3 {			margin: 15px 0 0.5em;			padding: 0;		}		h4 {			margin: 25px 0 0;			padding: 0;		}		#content li { font-size: 1.25em; }		p { line-height: 1.4375em; }	}	@media only screen and (max-width: 400px) {		.dash, .mq-hide { display: none; }		.job-title {			display: block;			font-size: 0.875em;			margin-bottom: 15px;		}		.mq-cap { text-transform: capitalize; }		#advisors li {			line-height: 1.125em;			margin-bottom: 5px;		}	}	</style>' %}
+{% set bodyClass = 'orange' %}
+
+
+{% block mainContent %}<div id="main">
+ <div id="wrap-n-m">
+  <ul id="nav-main" class="group">
+   <li><a href="asthma/">Asthma</a></li>
+   <li><a href="allergy/">Peanut Allergy</a></li>
+   <li><a href="nutrition/">Nutrition</a></li>
+   <li><a href="resilience/">Resilience</a></li>
+   <li><a href="fitness/">Fitness</a></li>
+  </ul>
+ </div>
+ <ul id="nav-mobile">
+  <li>
+   <div>
+    <div id="caret-mob"></div><a href="./">Home</a>
+   </div>
+   <ul>
+    <li><a href="asthma/">Asthma</a></li>
+    <li><a href="allergy/">Peanut Allergy</a></li>
+    <li><a href="nutrition/">Nutrition</a></li>
+    <li><a href="resilience/">Resilience</a></li>
+    <li><a href="fitness/">Fitness</a></li>
+   </ul></li>
+ </ul>
+ <div id="content" class="group">
+  <h3>Credits</h3>
+  <h4>Site Credits</h4>
+  <ul>
+   <li>Jillian Orr<span class="dash"> — </span><span class="job-title">Digital Producer</span></li>
+   <li>Bill Shribman<span class="dash"> — </span><span class="job-title">Senior Executive Producer</span></li>
+   <li>Carol Greenwald<span class="dash"> — </span><span class="job-title">Senior Executive Producer</span></li>
+   <li>Cyrisse Jaffee<span class="dash"> — </span><span class="job-title">Editorial Project Director</span></li>
+   <li>Mary Haggerty<span class="dash"> — </span><span class="job-title">Director of Media Engagement</span></li>
+   <li>Vanessa Wiegel<span class="dash"> — </span><span class="job-title">Associate Producer</span></li>
+   <li>Ayelet Ronen<span class="dash"> — </span><span class="job-title">Production Coordinator</span></li>
+   <li>Alison Morando<span class="dash"> — </span><span class="job-title">Senior Managing Designer</span></li>
+   <li>Lisa Rosenthal<span class="dash"> — </span><span class="job-title">Designer</span></li>
+   <li>Kevin Lesniewicz<span class="dash"> — </span><span class="job-title">Senior Developer</span></li>
+   <li>Jolin Yim<span class="dash"> — </span><span class="job-title">Developer</span></li>
+   <li>Alan West<span class="dash"> — </span><span class="job-title">Financial Manager</span></li>
+   <li>Karen Doyle<span class="dash"> — </span><span class="job-title">Design Co-op</span></li>
+   <li>Danielle Pierce<span class="dash"> — </span><span class="job-title">Senior Designer</span></li>
+   <li>Karen Basemen<span class="dash"> — </span><span class="job-title">Associate General Counsel</span></li>
+  </ul>
+  <h4>Video Credits</h4>
+  <h5>WGBH:</h5>
+  <ul>
+   <li>Carol Greenwald<span class="dash"> — </span><span class="job-title">Senior Executive Producer</span></li>
+   <li>Vanessa Wiegel<span class="dash"> — </span><span class="job-title">Associate Producer</span></li>
+   <li>Melissa Bush<span class="dash"> — </span><span class="job-title">Coordinating Producer</span></li>
+  </ul>
+  <h5 style="margin-top:20px;">FunnyBoat Productions:</h5>
+  <ul>
+   <li>Marcy Gunther<span class="dash"> — </span><span class="job-title">Producer</span></li>
+   <li>Eric Handler<span class="dash"> — </span><span class="job-title">Producer</span></li>
+   <li>Mark Helton<span class="dash"> — </span><span class="job-title">Videographer</span></li>
+   <li>John Osborne<span class="dash"> — </span><span class="job-title">Sound Engineer</span></li>
+   <li>Mark Geffen<span class="dash"> — </span><span class="job-title">Editor</span></li>
+  </ul>
+  <h4>Advisors</h4>
+  <ul id="advisors">
+   <li>Paula K. Rauch, MD</li>
+   <li>Michael C. Young, MD</li>
+   <li>Alison Hoppin, MD</li>
+   <li>Fatima Cody Stanford, MD, MPH</li>
+   <li>Linda Haynes, NP</li>
+  </ul>
+  <h4><span class="mq-hide">With </span><span class="mq-cap">special</span> thanks to:</h4>
+  <p>Gentry Menzel, Dennis Biron, Sylvia Castillo, Meryl Schumacker, Aaron Morris, Monica Campbell, Gerry Hadden, William Troop, Michael Rass, Ben Hulsey, Maria João Dias, Aaron Schachter, Ebubekir Daglilar, Lie Wei, Manya Gupta, Kevin Lee, Ola Kaniasty, Natalia Kaniasty, Sumontha Trahan, Shirin Jaafari, Susan Kong, and Elly Schottman</p>
+ </div> <a href="#" id="back-top">
+  <div></div>Back to top</a>
+</div>{% endblock %}
+
+
+{% set specialBody = '<script src="js/jquery-1.10.2.min.js"></script><script src="js/main.js"></script>' %}

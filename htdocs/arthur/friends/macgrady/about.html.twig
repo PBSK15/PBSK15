@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Mrs. MacGrady\'s About Me Page | PBS Kids' %}
+{% set desc = 'Who doesnt love Mrs. MacGrady, the greatest lunch lady ever! See her profile page and find out some of her interests.' %}
+{% set keywds = 'Mrs. MacGrady, lunch lady, profile, favorites, interests' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-6ff">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/macgrady_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/macgrady_top.swf", "macgrady", "960", "363", "9", "#66ffff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "macgrady");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-macgrady">Mrs. MacGrady's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Have great friends. And music!
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     Getting to sing with friends Koko Taylor and Taj Mahal.
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Singing with my friends Koko Taylor and Taj Mahal.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_6ff">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you want extra gravy on your noodles?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/macgrady/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="macgrady"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/macgrady_book1.jpg" width="148" height="117" alt="The Boxcar Children book cover" border="0"> <h4>The Boxcar Children</h4> <p>by Gertrude Chandler Warner<br> Four resourceful children fend for themselves when their parents die. They do not want to live with a grandfather they've never met. This is the first of many Boxcar Children adventures.</p></li>
+    <li><img src="/arthur/i/friends/books/macgrady_book2.jpg" width="148" height="117" alt="My Very First Mother Goose book cover" border="0"> <h4>My Very First Mother Goose</h4> <p>by Iona Opie<br> All the favorites from my childhood, plus some I never learned. This is a great collection to share with children.</p></li>
+    <li><img src="/arthur/i/friends/books/macgrady_book3.jpg" width="148" height="117" alt="Little House in the Big Woods book cover" border="0"> <h4>Little House in the Big Woods</h4> <p>by Laura Ingalls Wilder<br> What was life like for a pioneer family in the 1880s? This autobiographical story makes it easy for children to imagine themselves in the log cabin with Ma, Pa, Laura, Mary, and baby Carrie. A timeless classic, full of adventure and thrills.</p></li>
+    <li><img src="/arthur/i/friends/books/macgrady_book4.jpg" width="148" height="117" alt="Velveteen Rabbit book cover" border="0"> <h4>Velveteen Rabbit</h4> <p>by Margery Williams<br> The classic tale of a loyal stuffed rabbit brought to life through the love of a boy.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/video/index.html" id="rcVideo">Video</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+   <li><a href="/arthur/games/lunchomatic/index.html" id="rcLunch">Lunch-o-matic</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

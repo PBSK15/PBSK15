@@ -1,0 +1,42 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Connect The World Map . India | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="connectbg">
+ <div class="ruler"></div>
+ <div id="gamesMapWrapper">
+  <div id="mapWrapper"><map name="worldmap"> <area shape="rect" coords="0, 163, 317, 413" href="connectworld.html" alt="Back to game"> <area shape="rect" coords="459, 195, 529, 271" href="australia.html" alt="Australia"> <area shape="rect" coords="398, 112, 450, 167" href="india.html" alt="India"> <area shape="rect" coords="519, 106, 565, 128" href="japan.html" alt="Japan"> <area shape="rect" coords="483, 87, 501, 124" href="japan.html" alt="Japan"> <area shape="rect" coords="352, 166, 378, 192" href="kenya.html" alt="Kenya"> <area shape="rect" coords="144, 126, 192, 156" href="mexico.html" alt="Mexico"> <area shape="rect" coords="331, 30, 481, 100" href="russia.html" alt="Russia"> <area shape="rect" coords="341, 100, 375, 121" href="turkey.html" alt="Turkey"> <area shape="rect" coords="143, 84, 231, 123" href="usa.html" alt="U.S.A."> </map> <img src="/arthur/i/games/connectworld/map_connect.gif" alt="Map of the world with eight highlighted countries" width="610" height="415" border="0" usemap="#worldmap"> <a href="/arthur/games/connectworld/connectworld.html" id="connectBack">Back to Game</a>
+  </div>
+  <div id="mapInfoWrapper">
+   <div id="mapContent">
+    <h1>India</h1>
+    <div class="ruler"></div>
+    <h3>Food</h3>
+    <p><img src="/arthur/i/games/connectworld/food_ind.gif" alt="Illustration of a samosa" width="101" height="68" class="float-right cw-img">A samosa is a deep fried pastry with a filling of meat or vegetables, often including potatoes. It is served hot, usually with a sweet sauce for dipping.</p>
+    <div class="ruler"></div>
+    <h3>Music</h3>
+    <p><img src="/arthur/i/games/connectworld/music_ind.gif" alt="Illustration of a sitar" width="101" height="68" class="float-right cw-img">The standard sitar has seven strings to play, and another 11-13 strings to vibrate and add sound. A gourd at one end makes the sound louder. The sitar is popular in northern India. A similar instrument, the veena, is popular in southern India.</p>
+    <div class="ruler"></div>
+    <h3>Sport</h3>
+    <p><img src="/arthur/i/games/connectworld/sport_ind.gif" alt="Illustration of a a cricket bat" width="101" height="68" class="float-right cw-img"> Cricket is played with a bat and ball. The bowler (kind of like a baseball pitcher) bowls the ball, and aims to knock over three standing sticks (the wicket) just behind the batsman. The batsman tries to hit the ball and protect the wicket.</p>
+    <div class="ruler"></div>
+    <h3>Flag</h3>
+    <p><img src="/arthur/i/games/connectworld/flag_ind.gif" alt="The Indian flag" width="101" height="68" class="float-right cw-img"> The Indian flag is dark saffron (an orangey yellow) on top, white in the middle, and dark green at the bottom. In the center is the Ashoka Chakra, a Buddhist symbol celebrating life.</p>
+   </div>
+   <div id="mapInfoTop"></div>
+   <div id="mapInfoBtm"></div>
+   <div id="mapInfoArrow"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/traveltales/index.html" id="rcTravelTales">Sue Ellen's Travel Tales</a></li>
+   <li><a href="/arthur/games/factsopinions/index.html" id="rcFactOpinion">Facts and Opinions</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

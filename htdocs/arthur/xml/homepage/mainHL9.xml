@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<highlights>
+	<section type="main">
+		<highlight>
+			<title>Backyard Adventure</title>
+			<href>/arthur/games/backyard_adventure/index.html</href>
+			<imgurl>backyard_highlight.png</imgurl>
+		</highlight>
+	</section>
+	<section type="games">
+		<highlight>
+			<title>Ask Brain</title>
+			<href>/arthur/games/askbrain/index.html</href>
+			<imgurl>/arthur/i/related/askbrain.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Effective Detective</title>
+			<href>/arthur/games/effectivedetective/index.html</href>
+			<imgurl>/arthur/i/related/detective.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Letters To Arthur</title>
+			<href>/arthur/games/letterstoarthur/index.html</href>
+			<imgurl>/arthur/i/related/letters.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Sue Ellen's Travel Tales</title>
+			<href>/arthur/games/traveltales/index.html</href>
+			<imgurl>/arthur/i/related/traveltales.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Unmatching Game</title>
+			<href>/arthur/games/unmatching/index.html</href>
+			<imgurl>/arthur/i/related/unmatching.png</imgurl>
+		</highlight>
+	</section>
+	<section type="print">
+		<highlight>
+			<title>Crazy Bus</title>
+			<href>/arthur/print/crazybus/index.html</href>
+			<imgurl>/arthur/i/related/crazybus.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Elwingo!</title>
+			<href>/arthur/print/elwingo/index.html</href>
+			<imgurl>/arthur/i/related/elwingo.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Groove It</title>
+			<href>/arthur/print/grooveit/index.html</href>
+			<imgurl>/arthur/i/related/grooveit.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Masks</title>
+			<href>/arthur/print/masks/index.html</href>
+			<imgurl>/arthur/i/related/masks.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Party Hats</title>
+			<href>/arthur/print/hats/index.html</href>
+			<imgurl>/arthur/i/related/partyhats.png</imgurl>
+		</highlight>
+	</section>
+	<section type="videos">
+		<highlight>
+			<title>Buster the Myth Maker</title>
+			<href>/arthur/video/index.html?pid=UX5iyCljqIx19fyqW0KMrCYWkTHVQEC_</href>
+			<imgurl>/arthur/i/related/bustermyth.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Falafelosophy</title>
+			<href>/arthur/video/index.html?pid=_n415FcdTUEm4MW2soUeNaembcKZghPf</href>
+			<imgurl>/arthur/i/related/falafelosophy.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Karaoke</title>
+			<href>/arthur/video/karaoke.html</href>
+			<imgurl>/arthur/i/related/karaoke.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Hic or Treat</title>
+			<href>/arthur/video/index.html?pid=989Hl_vRD2SOAI3RaKUvAzFvDMxC6WW7
+</href>
+			<imgurl>/arthur/i/related/hicortreat.png</imgurl>
+		</highlight>
+		<highlight>
+			<title>Happy Anniversary Part 1</title>
+			<href>/arthur/video/index.html?pid=tZ6EF51RRPpyic1Gjw4AamEZNykocM07</href>
+			<imgurl>/arthur/i/related/anniversary1.png</imgurl>
+		</highlight>
+	</section>
+</highlights>

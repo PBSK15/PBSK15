@@ -1,0 +1,532 @@
+<game id="designcenter" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . DESIGN CENTER | PBS KIDS]]></title>
+	<swf url="sections/games/designcenter/designcenter.swf" />
+	
+	<settings
+		difficultyIsAdjustable = "false"
+		helpIsActive = "false"
+		hasPrintable = "true"
+	/>
+	
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />
+		<library id="prizescreen" url="libraries/activityprizescreen.swf" />	
+	</libraries> 
+
+	<email>
+		<sendURL><![CDATA[http://pbskids.org/cgi-registry/tell_a_friend.cgi]]></sendURL>
+		<urlToSend><![CDATA[http://pbskids.org/superwhy/index.html#game/designcenter]]></urlToSend>
+		<!-- <urlToSend><![CDATA[http://soup.pbskids.org/superwhy/index.html#game/designcenter]]></urlToSend> -->
+		<thanksURL><![CDATA[/superwhy/sections/games/superhero/email/success.html]]></thanksURL> 
+		<errorURL><![CDATA[/superwhy/sections/games/superhero/email/error.html]]></errorURL>
+		<content><![CDATA[Checkout the Design I created on the SUPER WHY website!]]></content>		
+	</email>
+	
+	
+	<!-- for assets that load up-front -->
+	<assets>
+		<asset id="title" type="audio" url="sections/games/designcenter/audio/001SuperWhyTk01.mp3"/>
+		<!-- select screen -->
+		<asset id="pickItem" type="audio" url="sections/games/designcenter/audio/002SuperWhyTk01.mp3"/>
+		<asset id="bookmark" type="audio" url="sections/games/designcenter/audio/003SuperWhyTk01.mp3"/>
+		<asset id="poster" type="audio" url="sections/games/designcenter/audio/005SuperWhyTk01.mp3"/>		
+		<asset id="card" type="audio" url="sections/games/designcenter/audio/004SuperWhyTk01.mp3"/>
+		<asset id="ok" type="audio" url="sections/games/designcenter/audio/010SuperWhyTk01.mp3"/>
+		<asset id="skipOver" type="audio" url="sections/games/designcenter/audio/025SuperWhyTk01.mp3"/>
+	</assets>
+	
+	<!-- These assets are separated from the main assets preload because
+	they can load in the background while the intro material is playing -->
+	<consoleAssets>
+		
+		<!-- <asset id="testOnly" type="audio" url="sections/games/designcenter/audio/forTestingDeleteLater.mp3"/> -->
+		
+		<asset id="stickerPanel" type="swf" url="sections/games/designcenter/stickerbank.swf"/>
+		<asset id="newOver" type="audio" url="sections/games/designcenter/audio/012SuperWhyTk01.mp3"/>
+		
+		<!-- game console -->
+		<asset id="letsDesign" type="audio" url="sections/games/designcenter/audio/032SuperWhyTk01.mp3"/>
+		<asset id="timeToDesign1" type="audio" url="sections/games/designcenter/audio/026SuperWhyTk01.mp3"/>
+		<asset id="gameTimeout" type="audio" url="sections/games/designcenter/audio/050SuperWhyTk01.mp3"/>
+		<asset id="backgroundPrompt" type="audio" url="sections/games/designcenter/audio/activity_prompt.mp3"/>
+		
+		<!-- sticker panel -->
+		<asset id="superDesign" type="audio" url="sections/games/designcenter/audio/027SuperWhyTk01.mp3"/>
+		<asset id="superDecorating" type="audio" url="sections/games/designcenter/audio/028SuperWhyTk01.mp3"/>
+		<asset id="awesomeSticker" type="audio" url="sections/games/designcenter/audio/029SuperWhyTk01.mp3"/>
+		<asset id="awesome" type="audio" url="sections/games/designcenter/audio/030SuperWhyTk01.mp3"/>
+		<asset id="superJobDesigner" type="audio" url="sections/games/designcenter/audio/034SuperWhyTk01.mp3"/>
+		<asset id="superJobDecorator" type="audio" url="sections/games/designcenter/audio/035SuperWhyTk01.mp3"/>
+		<asset id="niceChoice" type="audio" url="sections/games/designcenter/audio/036SuperWhyTk01.mp3"/>
+		<asset id="super" type="audio" url="sections/games/designcenter/audio/037SuperWhyTk01.mp3"/>
+		<asset id="more" type="audio" url="sections/games/designcenter/audio/038SuperWhyTk01.mp3"/>
+
+		<!-- options panel -->
+		<asset id="trashOver" type="audio" url="sections/games/designcenter/audio/039SuperWhyTk01.mp3"/>
+		<asset id="erase" type="audio" url="sections/games/designcenter/audio/040SuperWhyTk01.mp3"/>
+		<asset id="print" type="audio" url="sections/games/designcenter/audio/AreyousureyouwanttoPrint.mp3"/>
+		<asset id="done" type="audio" url="sections/games/designcenter/audio/done.mp3"/>
+		<asset id="caption" type="audio" url="sections/games/designcenter/audio/043SuperWhyTk01.mp3"/>
+		<asset id="help" type="audio" url="sections/games/designcenter/audio/045SuperWhyTk01.mp3"/>
+		
+		<asset id="stickerPlaced" type="audio" url="sections/games/designcenter/audio/046SuperWhyTk02.mp3"/>
+		<asset id="zoomInOver" type="audio" url="sections/games/designcenter/audio/047SuperWhyTk01.mp3"/>
+		<asset id="zoomOutOver" type="audio" url="sections/games/designcenter/audio/048SuperWhyTk01.mp3"/>
+		<asset id="close" type="audio" url="sections/games/designcenter/audio/049SuperWhyTk01.mp3"/>
+		
+		<!-- popup -->
+
+		<asset id="sendOver" type="audio" url="sections/games/designcenter/audio/051SuperWhyTk01.mp3"/>
+		<asset id="printOver" type="audio" url="sections/games/designcenter/audio/052SuperWhyTk01.mp3"/>
+		<asset id="donePopupLoad" type="audio" url="sections/games/designcenter/audio/054SuperWhyTk01.mp3"/>
+		<asset id="backOver" type="audio" url="sections/games/designcenter/audio/053SuperWhyTk01.mp3"/>
+		<asset id="printPopupLoad" type="audio" url="sections/games/designcenter/audio/055SuperWhyTk01.mp3"/>
+		<asset id="yesOver" type="audio" url="sections/games/designcenter/audio/056SuperWhyTk01.mp3"/>
+		<asset id="noOver" type="audio" url="sections/games/designcenter/audio/057SuperWhyTk01.mp3"/>
+		<asset id="startOverConfirm" type="audio" url="sections/games/designcenter/audio/058SuperWhyTk01.mp3"/>
+		<asset id="emailPopupLoad" type="audio" url="sections/games/designcenter/audio/059SuperWhyTk01.mp3"/>
+
+		<!-- caption mp3s - some are stitched programmatically -->
+		<asset id="superWhy" type="audio" url="sections/games/designcenter/audio/superwhy.mp3"/>
+		<asset id="powerToRead" type="audio" url="sections/games/designcenter/audio/thepowertoread.mp3"/>
+		<asset id="wonderRed" type="audio" url="sections/games/designcenter/audio/wonderred.mp3"/>
+		<asset id="wordPower" type="audio" url="sections/games/designcenter/audio/wordpower.mp3"/>
+		<asset id="alphaPig" type="audio" url="sections/games/designcenter/audio/alphapig.mp3"/>
+		<asset id="alphabetPower" type="audio" url="sections/games/designcenter/audio/alphabetpower.mp3"/>
+		<asset id="princessPresto" type="audio" url="sections/games/designcenter/audio/princesspresto.mp3"/>
+		<asset id="spellingPower" type="audio" url="sections/games/designcenter/audio/spellingpower.mp3"/>
+		<asset id="superReadersRescue" type="audio" url="sections/games/designcenter/audio/066SuperWhyTk01.mp3"/>
+		<asset id="wonderrific" type="audio" url="sections/games/designcenter/audio/067SuperWhyTk01.mp3"/>
+		<asset id="licketyLetters" type="audio" url="sections/games/designcenter/audio/068SuperWhyTk01.mp3"/>
+		<asset id="superDuper" type="audio" url="sections/games/designcenter/audio/069SuperWhyTk01.mp3"/>
+		<asset id="wandsUp" type="audio" url="sections/games/designcenter/audio/070SuperWhyTk01.mp3"/>
+		<asset id="superBirthday" type="audio" url="sections/games/designcenter/audio/071SuperWhyTk01.mp3"/>
+		<asset id="superThanks" type="audio" url="sections/games/designcenter/audio/072SuperWhyTk01.mp3"/>
+		<asset id="getWellSoon" type="audio" url="sections/games/designcenter/audio/073SuperWhyTk01.mp3"/>
+		<asset id="superFriend" type="audio" url="sections/games/designcenter/audio/074SuperWhyTk01.mp3"/>
+		<asset id="holidayHurray" type="audio" url="sections/games/designcenter/audio/075SuperWhyTk01.mp3"/>
+		<asset id="haveASuperHoliday" type="audio" url="sections/games/designcenter/audio/076SuperWhyTk01.mp3"/>
+		<asset id="superDuperHalloween" type="audio" url="sections/games/designcenter/audio/077SuperWhyTk01.mp3"/>
+		<asset id="haveASuper_" type="audio" url="sections/games/designcenter/audio/078SuperWhyTk01.mp3"/>>
+		<asset id="valentinesDay" type="audio" url="sections/games/designcenter/audio/haveasupervalentinesday.mp3"/>
+		<asset id="mySuperValentine" type="audio" url="sections/games/designcenter/audio/084SuperWhyTk01.mp3"/>
+		<asset id="iLoveSuperYou" type="audio" url="sections/games/designcenter/audio/085SuperWhyTk02.mp3"/>
+		<asset id="wonderrificYoureTerrific" type="audio" url="sections/games/designcenter/audio/086SuperWhyTk01.mp3"/>
+		<asset id="happyNewYear" type="audio" url="sections/games/designcenter/audio/089SuperWhyTk01.mp3"/>
+		<asset id="superCongrats" type="audio" url="sections/games/designcenter/audio/090SuperWhyTk01.mp3"/>
+		<!--asset id="superSummer" type="audio" url="sections/games/designcenter/audio/084SuperWhyTk01.mp3"/>
+		<asset id="superEaster" type="audio" url="sections/games/designcenter/audio/084SuperWhyTk01.mp3"/>
+		<asset id="superThanksgiving" type="audio" url="sections/games/designcenter/audio/085SuperWhyTk02.mp3"/-->
+		<asset id="merryChristmas" type="audio" url="sections/games/designcenter/audio/087SuperWhyTk01.mp3"/>
+		<asset id="happyHanukkah" type="audio" url="sections/games/designcenter/audio/088SuperWhyTk01.mp3"/>
+		<asset id="superGreetings" type="audio" url="sections/games/designcenter/audio/082SuperWhyTk01.mp3"/>
+		
+	</consoleAssets>
+	
+	<soundEvents>
+		
+		<!-- captions - some are single files and some are stitched programmatically (ex: 'have a super' + 'thanksgiving')-->
+		<item eventID="superWhy"><asset id="superWhy"/></item>		
+		<item eventID="powerToRead"><asset id="powerToRead"/></item>
+		<item eventID="wonderRed"><asset id="wonderRed"/></item>
+		<item eventID="wordPower"><asset id="wordPower"/></item>
+		<item eventID="alphaPig"><asset id="alphaPig"/></item>
+		<item eventID="alphabetPower"><asset id="alphabetPower"/></item>
+		<item eventID="princessPresto"><asset id="princessPresto"/></item>
+		<item eventID="spellingPower"><asset id="spellingPower"/></item>
+		<item eventID="superReadersRescue"><asset id="superReadersRescue"/></item>
+		<item eventID="wonderrific"><asset id="wonderrific"/></item>
+		<item eventID="licketyLetters"><asset id="licketyLetters"/></item>
+		<item eventID="superDuper"><asset id="superDuper"/></item>
+		<item eventID="wandsUp"><asset id="wandsUp"/></item>
+		<item eventID="superBirthday"><asset id="superBirthday"/></item>
+		<item eventID="superThanks"><asset id="superThanks"/></item>
+		<item eventID="getWellSoon"><asset id="getWellSoon"/></item>
+		<item eventID="superFriend"><asset id="superFriend"/></item>
+		<item eventID="holidayHurray"><asset id="holidayHurray"/></item>
+		<item eventID="iLoveSuperYou"><asset id="iLoveSuperYou"/></item>
+		<item eventID="wonderrificYoureTerrific"><asset id="wonderrificYoureTerrific"/></item>
+		<item eventID="haveASuperHoliday"><asset id="haveASuperHoliday"/></item>	
+		<item eventID="superDuperHalloween"><asset id="superDuperHalloween"/></item>
+		<item eventID="valentinesDay"><asset id="valentinesDay"/></item>
+		<item eventID="mySuperValentine"><asset id="mySuperValentine"/></item>
+		<item eventID="happyNewYear"><asset id="happyNewYear"/></item>
+		<item eventID="superCongrats"><asset id="superCongrats"/></item>
+		<!--item eventID="superSummer"><asset id="superSummer"/></item>
+		<item eventID="superThanksgiving"><asset id="superThanksgiving"/></item>
+		<item eventID="superEaster"><asset id="superEaster"/></item-->
+		<item eventID="superGreetings"><asset id="superGreetings"/></item>
+		<item eventID="merryChristmas"><asset id="merryChristmas"/></item>
+		<item eventID="happyHanukkah"><asset id="happyHanukkah"/></item>
+		
+		<!-- title screen -->
+		<item eventID="gameTitle">
+			<asset id="title"/>
+		</item>
+		
+		<!-- select screen -->
+
+		<item eventID="selectScreenTimeout">
+			<asset id="pickItem"/>
+		</item>
+		<item eventID="bookmarkOver">
+			<asset id="bookmark"/>
+		</item>	
+		<item eventID="posterOver">
+			<asset id="poster"/>
+		</item>	
+		<item eventID="cardOver">
+			<asset id="card"/>
+		</item>	
+		<item eventID="okOver">
+			<asset id="ok"/>
+		</item>	
+		
+		<!-- tutorial -->
+		<item eventID="skipOver">
+			<asset id="skipOver"/>
+		</item>	
+		
+		<!-- game console -->
+		<item eventID="letsDesign">
+			<asset id="letsDesign"/>
+		</item>	
+		
+		<item eventID="gameScreenOnLoad">
+			<asset id="timeToDesign1" />
+		</item>
+		
+		<item eventID="backgroundPrompt">
+			<asset id="backgroundPrompt" />
+		</item>
+		
+		<item eventID="gameTimeout">
+			<asset id="gameTimeout"/>
+		</item>
+		
+		<!-- sticker panel -->
+		<item eventID="panelStickerClicked">
+			<asset id="superDesign"/>
+			<asset id="superDecorating"/>
+			<asset id="awesomeSticker"/>
+			<asset id="awesome"/>
+			<asset id="superJobDesigner"/>
+			<asset id="superJobDecorator"/>
+			<asset id="niceChoice"/>
+			<asset id="super"/>
+		</item>
+		
+		<item eventID="stickerPanelArrowOver">
+			<asset id="more"/>
+		</item>
+		
+		<!-- options panel -->
+		<item eventID="trashOver">
+			<asset id="trashOver"/>
+		</item>
+		
+		<item eventID="doneOver">
+			<asset id="done"/>
+		</item>
+		
+		<item eventID="captionsOver">
+			<asset id="caption"/>
+		</item>
+		
+		<item eventID="helpOver">
+			<asset id="help"/>
+		</item>
+		
+		
+		<!-- sticker -->
+		<item eventID="stickerPlaced">
+			<asset id="stickerPlaced"/>
+		</item>
+
+		<!-- sticker editor -->
+		<item eventID="zoomInOver">
+			<asset id="zoomInOver"/>
+		</item>
+		
+		<item eventID="zoomOutOver">
+			<asset id="zoomOutOver"/>
+		</item>
+		
+		<item eventID="closeOver">
+			<asset id="close"/>
+		</item>
+		
+		<item eventID="eraseOver">
+			<asset id="erase"/>
+		</item>
+		
+		
+		<!-- done popup -->
+		<item eventID="donePopupLoad">
+			<asset id="donePopupLoad"/>
+		</item>
+		
+		<item eventID="btn_sendOver">
+			<asset id="sendOver"/>
+		</item>
+		
+		<item eventID="btn_printOver">
+			<asset id="printOver"/>
+		</item>
+		
+		<item eventID="btn_newOver">
+			<asset id="newOver"/>
+		</item>
+		
+		<item eventID="btn_backOver">
+			<asset id="backOver"/>
+		</item>
+		
+		<item eventID="btn_closeOver">
+			<asset id="close"/>
+		</item>
+		
+		<!-- print popup -->
+		<item eventID="printPopupLoad">
+			<asset id="printPopupLoad"/>
+		</item>
+		
+		<item eventID="btn_yesOver">
+			<asset id="yesOver"/>
+		</item>
+		
+		<item eventID="btn_noOver">
+			<asset id="noOver"/>
+		</item>
+		
+		<!-- start over popup -->
+		<item eventID="startOverLoad">
+			<asset id="startOverConfirm"/>
+		</item>
+		
+		<!-- email popup -->
+		<item eventID="emailPopupLoad">
+			<asset id="emailPopupLoad"/>
+		</item>
+		
+
+			
+	</soundEvents>
+	
+
+	<!-- 
+		Each menu button has an instance name, which matches one of the 'id' 
+		attributes in XML.  Similarly, each draggable Movie Clip has a class 
+		name in the library.  This class name also incorporates an 'id' from
+		the list below.  However, the class name may have an abbreviated 
+		superwhy game prefix.
+		
+		For example, the 'whyflyersw' menu button would have the instance name:
+		'whyflywersw'
+		
+		The corresponding draggable MovieClip class name would combine 
+		the 'sw.dc' prefix with 'whyflyersw', so the full class name 
+		in the Flash library would be:
+		'sw.dc.whyflyersw'
+		
+		Please use all-lower-case text for 'id' values, and 
+		for related instance and class names suffixes, when 
+		adding stickers.
+	-->
+	
+	<stickerPanelItems>
+		<item id="sw1" group="basic" />
+		<item id="ap1" group="basic" />
+		<item id="wr1" group="basic" />
+		<item id="pp1" group="basic" />
+		<item id="whyflyersw" group="basic" />
+		<item id="whyflyerap" group="basic" />
+		<item id="whyflyerwr" group="basic" />
+		<item id="whyflyerpp" group="basic" />
+		<item id="sw2" group="basic" />
+		<item id="pp2" group="basic" />
+		<item id="ap2" group="basic" />
+		<item id="wr2" group="basic" />
+		<item id="swlogo" group="basic" />
+		<item id="sdc" group="basic" />
+		<item id="purse" group="basic" />
+		<item id="basket" group="basic" />
+		<item id="toolbox" group="basic" />
+		<item id="whywriter" group="basic" />
+		<item id="wand" group="basic" />
+		<item id="cat" group="basic" />
+		<item id="bookicon" group="basic" />
+		<item id="iconwr" group="basic" />
+		<item id="iconpp" group="basic" />
+		<item id="iconap" group="basic" />
+		<item id="cake" group="basic" />
+		<item id="detailcandle" group="basic" />
+		<item id="balloonssw" group="basic" />
+		<item id="balloonsap" group="basic" />
+		<item id="balloonswr" group="basic" />
+		<item id="balloonspp" group="basic" />
+		<item id="flowerwr" group="basic" />
+		<item id="heart" group="basic" />
+		<item id="sleigh" group="basic" />
+		<item id="heart" group="basic" />
+		<item id="heartbranded" group="basic" />
+		<item id="beanstalk" group="basic" />
+		<!-- new releases -->
+		<item id="powGreen" group="basic" />
+		<item id="powOrange" group="basic" />
+		<item id="powRed" group="basic" />
+		<item id="powPurple" group="basic" />
+		<item id="scaryBat" group="basic" />
+		<item id="witchHat" group="basic" />
+		<item id="pumpkin" group="basic" />
+		<item id="spiderweb" group="basic" />
+		<item id="turkey" group="basic" />
+		<item id="snowman" group="basic" />
+		<item id="wreath" group="basic" />
+		<item id="christmasTree" group="basic" />
+		<item id="snowflake1" group="basic" />
+		<item id="snowflake3" group="basic" />
+		<item id="snowflake4" group="basic" />
+		<item id="snowflake5" group="basic" />
+		<item id="snowflake6" group="basic" />
+		<item id="greenLight" group="basic" />
+		<item id="blueLight" group="basic" />
+		<item id="redLight" group="basic" />
+		<item id="yellowLight" group="basic" />
+		<item id="easterBasket" group="basic" />
+		<item id="tulipYellow" group="basic" />
+		<item id="tulipOrange" group="basic" />
+		<item id="tulipPink" group="basic" />
+		<item id="easterBunny" group="basic" />
+		<item id="clover" group="basic" />
+		<item id="fireworkGreen" group="basic" />
+		<item id="fireworkPink" group="basic" />
+		<item id="fireworkPurple" group="basic" />
+		<item id="beachBall" group="basic" />
+		<item id="busStar" group="basic" />
+		<item id="glasses" group="basic" />
+		<item id="shovelPail" group="basic" />
+		<item id="partyHat" group="basic" />
+		<item id="presentBlueGreen" group="basic" />
+		<item id="presentRedYellow" group="basic" />
+		<item id="charUmbrella" group="basic" />
+		<item id="ppCarriage" group="basic" />
+		<item id="apTrike" group="basic" />
+		<item id="ppPeeking" group="basic" />
+		<item id="swPeeking" group="basic" />
+		<item id="wrPeeking" group="basic" />
+		<item id="apThumbsup" group="basic" />
+		<item id="wrEveryday" group="basic" />
+		<item id="swEveryday" group="basic" />
+                
+	</stickerPanelItems>
+
+	<!-- 
+		Each <page> tag represents 1 vertical page in the text captions UI menu.
+		The viewer will click the up and down arrows to see additional
+		pages of captions in the menu.
+		You can add or remove <caption> tags within each page.  Since the number
+		of lines in each text box can vary, adding and removing <caption> tags is 
+		the best way to make each menu page more pleasing to the eye, or prevent text 
+		boxes from running partly off the bottom edge of the menu.
+
+		Each <caption> tag needs to have a unique 'id' value.
+	-->
+	<captionsPanel>
+
+		<page>
+			<caption id="getWellSoon"><![CDATA[Get Well Soon!]]></caption>
+			<caption id="superBirthday"><![CDATA[Have a Super Birthday!]]></caption>	
+			<caption id="valentinesDay"><![CDATA[Have a Super Duper Valentine's Day!]]></caption>			
+			<caption id="haveASuperHoliday"><![CDATA[Have a Super Holiday!]]></caption>
+		</page>
+		
+		<page>		
+			<caption id="happyNewYear"><![CDATA[Have a Super New Year!]]></caption>	
+			<caption id="holidayHurray"><![CDATA[Hip, Hip, Holiday Hurray!]]></caption>	
+			<caption id="superCongrats"><![CDATA[Super Congrats!]]></caption>
+			<caption id="superThanks"><![CDATA[Super Thanks!]]></caption>	
+		</page>
+		
+		<page>
+			<caption id="wandsUp"><![CDATA[Wands Up!]]></caption>
+			<caption id="alphabetPower"><![CDATA[Alphabet Power!]]></caption>
+			<caption id="alphaPig"><![CDATA[Alpha Pig!]]></caption>	
+			<caption id="iLoveSuperYou"><![CDATA[I Love Super You!]]></caption>	
+			<caption id="licketyLetters"><![CDATA[Lickety Letters!]]></caption>
+		</page>
+			
+		<page>
+			<caption id="powerToRead"><![CDATA[The Power to Read!]]></caption>
+			<caption id="princessPresto"><![CDATA[Princess Presto!]]></caption>		
+			<caption id="spellingPower"><![CDATA[Spelling Power!]]></caption>	
+			<caption id="superDuper"><![CDATA[Super Duper!]]></caption>	
+			<caption id="superReadersRescue"><![CDATA[Super Readers... to the Rescue!]]></caption>
+		</page>
+		
+		<page>
+			<caption id="superWhy"><![CDATA[Super Why!]]></caption>
+			<caption id="wonderRed"><![CDATA[Wonder Red!]]></caption>
+			<caption id="wonderrific"><![CDATA[Wonderrific!]]></caption>
+			<caption id="wonderrificYoureTerrific"><![CDATA[Wonderrific, You're Terrific!]]></caption>	
+			<caption id="superFriend"><![CDATA[You're a Super Friend!]]></caption>	
+		</page>
+		
+		<page>
+			<caption id="happyHanukkah"><![CDATA[Happy Hanukkah!]]></caption>
+			<caption id="superGreetings"><![CDATA[Super Greetings!]]></caption>
+			<caption id="merryChristmas"><![CDATA[Merry Christmas!]]></caption>
+			<caption id="happyNewYear"><![CDATA[Have a Super New Year!]]></caption>
+		</page>
+		
+		<page>
+			<caption id="wordPower"><![CDATA[Word Power!]]></caption>
+			<caption id="superDuperHalloween"><![CDATA[Have a Super Duper Halloween!]]></caption>
+			<!--caption id="superSummer"><![CDATA[Have a Super Summer!]]></caption>
+			<caption id="superEaster"><![CDATA[Have a Super Easter!]]></caption>
+			<caption id="superThanksgiving"><![CDATA[Have a Super Thanksgiving!]]></caption-->
+		</page>
+		
+	</captionsPanel>
+	
+	<bookmarkCaptionsPanel>
+		<page>
+			<caption id="alphaPig"><![CDATA[Alpha Pig!]]></caption>	
+			<caption id="alphabetPower"><![CDATA[Alphabet Power!]]></caption>
+			<caption id="iLoveSuperYou"><![CDATA[I Love Super You!]]></caption>				
+			<caption id="licketyLetters"><![CDATA[Lickety Letters!]]></caption>	
+			<caption id="powerToRead"><![CDATA[The Power to Read!]]></caption>
+		</page>
+		
+		<page>
+			<caption id="princessPresto"><![CDATA[Princess Presto!]]></caption>				
+			<caption id="spellingPower"><![CDATA[Spelling Power!]]></caption>	
+			<caption id="superDuper"><![CDATA[Super Duper!]]></caption>			
+			<caption id="superWhy"><![CDATA[Super Why!]]></caption>
+			<caption id="wandsUp"><![CDATA[Wands Up!]]></caption>
+			<caption id="wonderRed"><![CDATA[Wonder Red!]]></caption>
+		</page>
+		
+		<page>
+			<caption id="wordPower"><![CDATA[Word Power!]]></caption>
+			<caption id="superFriend"><![CDATA[You're A Super Friend!]]></caption>
+		</page>
+
+	</bookmarkCaptionsPanel>
+	
+	
+	<configuration>
+		<stickerPanelSizes>
+			<size>1.5</size>
+			<size isDefault="true">1</size>
+			<size>.5</size>
+		</stickerPanelSizes>
+	</configuration>
+	
+	
+	
+	
+
+</game>

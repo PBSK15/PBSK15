@@ -1,0 +1,33 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Pal\'s Games & Printables Page | PBS Kids' %}
+{% set desc = 'See Pals clubs and find out the great things that dogs can do when included in people clubs!' %}
+{% set keywds = 'Pal, clubs, interests' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cf9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/pal_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/pal_top.swf", "pal", "960", "363", "9", "#ccff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "clubs");			   fo.addVariable("char", "pal");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-pal">Pal's images</a>
+  <div id="friendsContent">
+   <h1>My Clubs</h1>
+   <hr class="friendsRuler">
+   <ul id="myClubs">
+    <li id="myclubDance" class="icon"><a href="/arthur/clubs/dance/index.html">Dance Club</a></li>
+    <li id="myclubFashion" class="icon"><a href="/arthur/clubs/fashion/index.html" class="clubFashion">Fashion Club</a></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/aboutface/index.html" id="rcAboutFace">About Face</a></li>
+   <li><a href="/arthur/games/marthursticker/index.html" id="rcStickerBook">Marthur Stickerbook Mashup</a></li> <!--<li><a href="/arthur/video/games.html?pid=Y_T3v8L7o5oDcgUJ1WolP_eugXVWwq1i" id="rcVideoDetective">Video Detective</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

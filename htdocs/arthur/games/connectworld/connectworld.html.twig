@@ -1,0 +1,26 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Connect The World | PBS Kids' %}
+{% set desc = 'Play against Buster! Flip over cards showing world flags, food, instruments, and flags. Mark the object off your board. Win with four pictures in a row!' %}
+{% set keywds = 'Buster, game, world, culture, cards' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="connectbg">
+ <div class="ruler"></div>
+ <div id="mainFeature"><img src="../../i/games/connect_top.gif" width="574" height="82" border="0" alt="Connect The World - Click on pictures that match the cards. Try to get four in a row before Buster does." id="fo_header">
+  <div id="swf_content"><a href="about-cards.html" id="connectCardBtn">Find out more about the cards in this game.</a>
+   <div id="flashcontent" class="connect">
+    <p>You can <a href="https://get.adobe.com/flashplayer/?no_redirect">download the latest version of Flash</a> for free.<br><br>Once you have installed Flash 9 or later, come back here to <a href="https://pbskids.org/arthur/games/connectworld/index.html">play the game.</a><br><br><a href="/arthur/parentsteachers/help/answers/tech_shockwave.html?cat=techsupport">What's Flash?</a>.</p>
+   </div>
+   <script type="text/javascript">				   var fo = new SWFObject("connectworld.swf", "connect", "550", "325", "4", "#ffffff");				   fo.addParam("allowScriptAccess", "always");				  fo.write("flashcontent");					</script>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/games/traveltales/index.html" id="rcTravelTales">Sue Ellen's Travel Tales</a></li>
+   <li><a href="/arthur/games/factsopinions/index.html" id="rcFactOpinion">Facts and Opinions</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}

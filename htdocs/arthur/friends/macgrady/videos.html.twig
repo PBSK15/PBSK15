@@ -1,0 +1,34 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Mrs. MacGrady\'s Games & Printables Page | PBS Kids' %}
+{% set desc = 'See how wonderful Mrs. MacGrady is in these ARTHUR video clips from the show. ' %}
+{% set keywds = 'Mrs. MacGrady, lunch lady, watch, videos, ARTHUR' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-6ff">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="503,206,607,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="611,206,712,711" href="photos.html" alt="Photo Page"> <area shape="rect" coords="713,206,819,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,924,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/macgrady_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/macgrady_top.swf", "macgrady", "960", "363", "9", "#66ffff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "videos");			   fo.addVariable("char", "macgrady");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-macgrady">Mrs. MacGrady's images</a>
+  <div id="friendsContent">
+   <h1>My Videos</h1>
+   <hr class="friendsRuler">
+   <div id="myVideos"><!--==========================================================\\ --> <!--  BEGIN PBS KIDS GO! BROADBAND PLAYER MODULE          \\-->
+    <script type="text/javascript" src="http://pbskids.org/producerplayer/js/producerplayer2.js"></script>
+    <script type="text/javascript">							var configObj = {};								configObj.keywords = "characterMACGRADY";								configObj.controlLayoutURL = "http://pbskids.org/producerplayer/data/metaLayout-GoSquare-AllControls.xml";								configObj.playerSkinURL = "http://www-tc.pbskids.org/producerplayer/swf/skins/skinKidsGoSquared.swf";								configObj.playerColorScheme =								  "<colorschemes>"+									"<player>"+									  "<backgroundColor>0x6699ff</backgroundColor>"+									  "<frameColor>0x6699ff</frameColor>"+									  "<controlColor>0xffffff</controlColor>"+									  "<controlBackgroundColor>0x6699ff</controlBackgroundColor>"+									  "<controlFrameColor>0xcc6600</controlFrameColor>"+									  "<controlHighlightColor>0xffffff</controlHighlightColor>"+									  "<controlHoverColor>0xff9933</controlHoverColor>"+									  "<controlSelectedColor>0xff9933</controlSelectedColor>"+									  "<loadProgressColor>0x3366cc</loadProgressColor>"+									  "<playProgressColor>0x003399</playProgressColor>"+									  "<scrubberColor>0xcc6600</scrubberColor>"+									  "<scrubberFrameColor>0xff9933</scrubberFrameColor>"+									  "<scrubTrackColor>0x3366cc</scrubTrackColor>"+									  "<textBackgroundColor>0x3366cc</textBackgroundColor>"+									  "<textColor>0xffffff</textColor>"+									  "<subtitlesBackgroundColor>0x000000</subtitlesBackgroundColor>"+									"</player>"+								  "</colorschemes>";														configObj.releaseListSkinURL = "http://www-tc.pbskids.org/producerplayer/swf/skins/skinKidsGoSquared.swf";								configObj.releaseListColorScheme =								  "<colorschemes>"+									"<releaseList>"+									  "<backgroundColor>0x6699ff</backgroundColor>"+									  "<frameColor>0x6699ff</frameColor>"+									  "<itemBackgroundColor>0x3366cc</itemBackgroundColor>"+									  "<itemBackground2Color>0x3366cc</itemBackground2Color>"+									  "<itemBackgroundHoverColor>0x6699ff</itemBackgroundHoverColor>"+									  "<itemBackgroundSelectedColor>0xffef96</itemBackgroundSelectedColor>"+									  "<itemFrameColor>0x003399</itemFrameColor>"+									  "<textColor>0x99ccff</textColor>"+									  "<text2Color>0x99ccff</text2Color>"+									  "<textFrameColor>0xffffff</textFrameColor>"+									  "<textHoverColor>0x003366</textHoverColor>"+									  "<textSelectedColor>0xcc6600</textSelectedColor>"+									  "<thumbnailFrameColor>0xffffff</thumbnailFrameColor>"+									  "<thumbnailFrameColor>0xffffff</thumbnailFrameColor>"+									  "<scrollButtonColor>0x6699ff</scrollButtonColor>"+									  "<scrollIconColor>0xffffff</scrollIconColor>"+									  "<scrollThumbColor>0x6699ff</scrollThumbColor>"+									  "<scrollTrackColor>0x003399</scrollTrackColor>"+									  "<scrollTrackFrameColor>0x3366cc</scrollTrackFrameColor>"+									"</releaseList>"+								  "</colorschemes>";														configObj.dockBanner = "false";								configObj.dockReleaseList = "right";								configObj.playerWidth = 410;								configObj.aspectRatio = "4:3";								configObj.playerPaddingTop = 0;								configObj.playerPaddingLeft = 0;								configObj.releaseListWidth = 300;								configObj.releaseListHeight = 356;								configObj.releaseListPaddingTop = 0;								configObj.releaseListPaddingLeft = 0;								configObj.containerWidth = 710;								configObj.containerHeight = 357;								configObj.releaseCols = 1;								configObj.autoPlay = "false";													pbs.kidsgo.producerplayer.init(configObj);												</script> <!--  END PBS KIDS GO! BROADBAND PLAYER MODULE                 //--> <!--==========================================================// -->
+   </div>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/print/coloringpages/index.html" id="rcColoring">Coloring Pages</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventure</a></li>
+   <li><a href="/arthur/friends/ratburn/index.html" id="rcRatburn">Mr. Ratburn</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

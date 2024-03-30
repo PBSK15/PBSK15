@@ -1,0 +1,75 @@
+<section id="GAMES" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES | PBS KIDS]]></title>
+	<swf url="sections/games/games.swf" />
+	<libraries>
+		<library id="burbankbigcdttbdembedded" url="libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+		<library id="modules" url="libraries/modules.swf" />
+	</libraries>
+	<assets>
+			<audio id="audio" isGroup="true">
+			<audio id="deliciousdish" type="audio" url="sections/games/deliciousdish/audio/dd_title.mp3" />
+			<audio id="cakegame" type="audio" url="sections/games/cakegame/audio/global/vo_title_onload.mp3" />
+			<audio id="djgame" type="audio" url="sections/games/djgame/audio/dj_title.mp3" />
+			<audio id="puppydaycare" type="audio" url="sections/games/puppydaycare/audio/pdc_title.mp3" />
+			<audio id="createasuperdog" type="audio" url="sections/games/createasuperdog/audio/csd_title.mp3" />
+			<audio id="bookjumble" type="audio" url="sections/games/bookjumble/audio/global/bj_title.mp3" />
+			<audio id="calling_superreaders" type="audio" url="sections/games/calling_superreaders/audio/finalvo/programmatic/CallingAllSuperReaders_VO_01.mp3" />
+			<audio id="superwhyconcentration" type="audio" url="sections/games/concentration/superwhy/audio/MU_SW_Title1.mp3" />
+			<audio id="princessprestoconcentration" type="audio" url="sections/games/concentration/princesspresto/audio/MU_PP_Title1.mp3" />
+			<audio id="jukebox" type="audio" url="sections/games/jukebox/audio/vo/001SuperWhyTk02.mp3" />
+			<audio id="alphapigconcentration" type="audio" url="sections/games/concentration/alphapig/audio/MU_AP_Title1.mp3" />
+			<audio id="wonderredconcentration" type="audio" url="sections/games/concentration/wonderred/audio/MU_WR_Title1.mp3" />
+			<audio id="comicbook" type="audio" url="sections/games/comicbook/audio/ComicBook_1.mp3" />
+			<audio id="designcenter" type="audio" url="sections/games/designcenter/audio/001SuperWhyTk01.mp3" />
+			<audio id="wonderredbingo" type="audio" url="sections/games/wonderredbingo/audio/vo/Title.mp3" />
+			<audio id="princessprestobingo" type="audio" url="sections/games/princessprestobingo/audio/vo/Title.mp3" />
+			<audio id="flyer" type="audio" url="sections/games/flyer/audio/vo/001 SuperWhy Tk02.mp3" />
+			<audio id="superwhybingo" type="audio" url="sections/games/superwhybingo/audio/vo/Title.mp3" />
+			<audio id="freezedance" type="audio" url="sections/games/freezedance/audio/Title.mp3" />
+			<audio id="storybookcreator" type="audio" url="sections/games/storybookcreator/audio/superwhy_storybook.mp3" />
+			<audio id="spellingbee" type="audio" url="sections/games/spellingbee/audio/vo/Title.mp3" />
+			<audio id="superreaderchallenge" type="audio" url="audio/games/button_src.mp3" />
+			<audio id="superhero" type="audio" url="audio/games/button_pp_create_hero.mp3" />
+			<audio id="alphapigbingo" type="audio" url="audio/games/title_licketyletterbingo.mp3" />
+			<audio id="rhymenroll" type="audio" url="audio/games/button_red_rhymenroll.mp3" />
+			<audio id="paintbyletter" type="audio" url="audio/games/title_paintbyletter.mp3" />
+			<audio id="rescue" type="audio" url="audio/games/button_sw_to_rescue.mp3" />
+			<audio id="alphabricks" type="audio" url="audio/games/button_alphabricks.mp3" />
+			<audio id="arrow" type="audio" url="audio/games/button_arrow_rollover.mp3" />
+			<audio id="intro" type="audio" url="audio/games/onload_click_game.mp3" />
+		</audio>
+		
+		<games id="games" isGroup="true">
+			<game id="deliciousdish" location="game/deliciousdish" character="woofster" preload="false" url="sections/games/images/games_page_thumb_deliciousdish.jpg"><title><![CDATA[Delicious Dish]]></title></game>
+			<game id="calling_superreaders" location="game/calling_superreaders" character="superwhy" preload="false" url="promos/game_page_thumb_CASR.jpg"><title><![CDATA[Calling All Super Readers]]></title></game>
+			<game id="puppydaycare" location="game/puppydaycare" character="woofster" preload="false" url="sections/games/images/games_thumb_puppyDaycare.jpg"><title><![CDATA[Puppy Day Care]]></title></game>		
+			<game id="bookjumble" location="game/bookjumble" character="superwhy" preload="false" url="promos/bookJumble_small.jpg"><title><![CDATA[Book Jumble]]></title></game>
+			<game id="woofstersjourney" location="game/woofstersjourney" character="woofster" preload="false" url="sections/games/images/games_page_thumb_goldenbone.jpg"><title><![CDATA[Journey to the Golden Bone]]></title></game>
+			<game id="createasuperdog" location="game/createasuperdog" character="woofster" preload="false" url="sections/games/images/games_page_thumb_createasuperpet.jpg"><title><![CDATA[Create a Super Dog]]></title></game>
+			<game id="djgame" location="game/djgame" character="superwhy" preload="false" url="sections/games/images/DJ_small.jpg"><title><![CDATA[Super Duper DJ]]></title></game>
+			<game id="cakegame" location="game/cakegame" character="princesspresto" preload="false" url="sections/games/images/cake_small.jpg"><title><![CDATA[Cake\nMaker]]></title></game>		
+			<game id="princessprestoconcentration" location="game/princessprestoconcentration" character="princesspresto" preload="false" url="promos/game_page_thumb_concentration_PP.jpg"><title><![CDATA[Lovely Letter Match Up]]></title></game>
+			<game id="superwhyconcentration" location="game/superwhyconcentration" character="superwhy" preload="false" url="sections/games/images/sw_concentration_small.jpg"><title><![CDATA[Super Why's Match Up]]></title></game>
+			<game id="jukebox" location="game/jukebox" character="superwhy" preload="false" url="sections/games/images/rocknRead_small.jpg"><title><![CDATA[Rock 'N Read Jukebox]]></title></game>
+			<game id="wonderredconcentration" location="game/wonderredconcentration" character="wonderred" preload="false" url="sections/games/images/wr_concentration_small.jpg"><title><![CDATA[Wonder Red's Match Up]]></title></game>
+			<game id="alphapigconcentration" location="game/alphapigconcentration" character="alphapig" preload="false" url="sections/games/images/ap_concentration_small.jpg"><title><![CDATA[Alpha Pig's Match Up]]></title></game>
+			<game id="comicbook" location="game/comicbook" character="brand" preload="false" url="sections/games/images/sw_attackEraser_small.jpg"><title><![CDATA[Attack of the Eraser]]></title></game>
+			<game id="designcenter" location="game/designcenter" character="brand" preload="false" url="sections/games/images/designCenter_small.jpg"><title><![CDATA[Super Stuff Design Center]]></title></game>
+			<game id="wonderredbingo" location="game/wonderredbingo" character="wonderred" preload="false" url="sections/games/images/wrBingo_small.jpg"><title><![CDATA[Rhyme Time Bingo]]></title></game>
+			<game id="princessprestobingo" location="game/princessprestobingo" character="princesspresto" preload="false" url="sections/games/images/ppBingo_small.jpg"><title><![CDATA[Spectacular Sounds Bingo]]></title></game>
+			<game id="flyer" location="game/flyer" character="superwhy" preload="false" url="sections/games/images/whyFlyer_small.jpg"><title><![CDATA[Why Flyer Adventure]]></title></game>
+			<game id="freezedance" location="game/freezedance" character="wonderred" preload="false" url="sections/games/images/wrfd_small.jpg"><title><![CDATA[Freeze Dance Rhyming]]></title></game>
+			<game id="paintbyletter" location="game/paintbyletter" character="alphapig" preload="false" url="sections/games/images/alphapigspaintbyletter_small.jpg"><title><![CDATA[Alpha Pig's Paint By Letter]]></title></game>
+			<game id="storybookcreator" location="game/storybookcreator" character="superwhy" preload="false" url="sections/games/images/swStorybook_small.jpg"><title><![CDATA[Storybook Creator]]></title></game>
+			<game id="spellingbee" location="game/spellingbee" character="princesspresto" preload="false" url="sections/games/images/pp_spellingbee_small.jpg"><title><![CDATA[Golden Crown Spelling Bee]]></title></game>
+			<game id="superreaderchallenge" location="game/superreaderchallenge" character="brand" preload="false" url="sections/games/images/superreaderchallenge_small.jpg"><title><![CDATA[Super Readers\nChallenge]]></title></game>
+			<game id="alphapigbingo" location="game/alphapigbingo" character="alphapig" preload="false" url="sections/games/images/alphapigbingo_small.jpg"><title><![CDATA[Lickety Letter Bingo]]></title></game>
+			<game id="superwhybingo" location="game/superwhybingo" character="superwhy" preload="false" url="sections/games/images/swBingo_small.jpg"><title><![CDATA[Reading Power Bingo!]]></title></game>
+			<game id="superhero" location="game/superhero" character="princesspresto" preload="false" url="sections/games/images/superhero_small.jpg"><title><![CDATA[Create-your-own Hero]]></title></game>
+			<game id="rhymenroll" location="game/rhymenroll" character="wonderred" preload="false" url="sections/games/images/rhymenroll_small.jpg"><title><![CDATA[Red's\nRhyme N' Roll]]></title></game>
+			<game id="rescue" location="game/rescue" character="superwhy" preload="false" url="sections/games/images/rescue_small.jpg"><title><![CDATA[Super Why...\nTo The Rescue!]]></title></game>
+			<game id="alphabricks" location="game/alphabricks" character="alphapig" preload="false" url="sections/games/images/alphabricks_small.jpg"><title><![CDATA[Alpha Pig's Alpha Bricks]]></title></game>
+			
+		</games>
+	</assets>
+</section>

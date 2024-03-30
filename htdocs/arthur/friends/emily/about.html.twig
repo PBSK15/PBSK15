@@ -1,0 +1,72 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Emily\'s About Me Page | PBS Kids' %}
+{% set desc = 'Meet and learn all about D.W.s best friend Emily! She likes to play games and loves France. Let he know if you like to play games too.' %}
+{% set keywds = 'Emily, ARTHUR, profile, D.W., interests' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcf">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/emily_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/emily_top.swf", "emily", "960", "363", "9", "#ffccff");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "emily");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-emily">Emily's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     My best friend, D.W.
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     When I told a lie, and it got worse and worse!
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Visiting Paris.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_fcf">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you like to play games?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/emily/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="emily"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="/arthur/i/friends/books/emily_book1.jpg" width="148" height="117" alt="Angelina Ballerina book cover" border="0"> <h4>Angelina Ballerina</h4> <p>by Katherine Holabird<br> Angelina is a little white mouse. More than anything, she loves to dance. My mom reads this book to me every night.</p></li>
+    <li><img src="/arthur/i/friends/books/emily_book2.jpg" width="148" height="117" alt="Madeline book cover" border="0"> <h4>Madeline</h4> <p>by Ludwig Bemelmans<br> "In an old house in Paris / That was covered in vines / Lived twelve little girls / In two straight lines." I love the Madeline books. My grandma says she loved them too, when she was a girl.</p></li>
+    <li><img src="/arthur/i/friends/books/emily_book3.jpg" width="148" height="117" alt="Mirette on the High Wire book cover" border="0"> <h4>Mirette on the High Wire</h4> <p>by Emily Arnold McCully<br> Mirette meets "The Great Bellini," a famous high wire artist who no longer performs. Bellini helps Mirette learn to walk on the wire, and Mirette helps Bellini overcome his fear.</p></li>
+    <li><img src="/arthur/i/1px.gif" width="148" height="117" alt="" border="0"> <h4>Amazing Grace</h4> <p>by Mary Hoffman<br> Grace likes to dress up in costumes, act, dance, and make believe, just like me.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/dw/index.html" id="rcDW">DW</a></li>
+   <li><a href="/arthur/print/towerofcow/index.html" id="rcCows">Tower of Cows</a></li> <!--<li><a href="/arthur/clubs/fashion/index.html" id="rcClubFashion">Fashion Club</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

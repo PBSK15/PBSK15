@@ -1,0 +1,29 @@
+{% extends 'dinosaurtrain/includes/dinosaurTrainPage.html.twig' %}
+{% set title = ' . Games' %}
+{% set desc = 'Play these fun games to learn more about dinosaurs, vocabulary, counting, measurement, estimation and more!' %}
+{% set keywds = 'Dinosaur Train games, Kids Science Games, Kids Counting Games, Preschool science games, Online Science games, Science games for kids, dinosaur games' %}
+{% set onLoadEvent = 'onLoad();' %}
+
+
+{% block loadContent %}function loadContent(){
+var content = document.getElementById('main_content'),
+innerHTML = '';
+if( typeof PBS_FlashCanPlay == 'function' && !PBS_FlashCanPlay(10.1) ){
+    fixWidths(false, true, 'game-page');
+    innerHTML += '<ul class="button-menu">';
+    innerHTML +=   '<li><a class="game-button game-stationrace" href="stationrace.html"><span class="play-tab">Play!</span><span class="game-cover">&nbsp;</span></a></li>';
+    innerHTML +=   '<li><a class="game-button game-riverrun" href="riverrun.html"><span class="play-tab">Play!</span><span class="game-cover">&nbsp;</span></a></li>';
+    innerHTML +=   '<li><a class="game-button game-buddysamazingadventure" href="buddysamazingadventure.html"><span class="play-tab">Play!</span><span class="game-cover">&nbsp;</span></a></li>';
+    innerHTML += '</ul>';
+
+
+content.innerHTML = innerHTML;
+} else {
+	var w	= getSize();
+	var obj	= new SWFObject('/dinosaurtrain/media/swfs/shell.swf', 'swfContent', w, '100%', '10.1', '#9f4504');
+	obj.addParam('allowscriptaccess', 'always');
+	obj.addParam('FlashVars', 'swf=dinosaurtrain/media/swfs/gameIndex.swf&host='+getHost());
+obj.write('main_content');
+	fixWidths(w);
+}	}{% endblock %}
+

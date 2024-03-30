@@ -1,0 +1,23 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Lunch-o-matic | PBS Kids' %}
+{% set desc = 'Work in the cafeteria by helping Mrs. MacGrady and Brain provide healthy balanced lunches to the students.' %}
+{% set keywds = 'lunch, cafeteria, healthy, balanced, food, eat' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="lunchbg">
+ <div class="ruler"></div>
+ <div id="mainFeature">
+  <div id="fo_header"><a href="lunchomatic.html" target="_self"><img src="../../i/games/lunchomatic_splash.gif" width="549" height="372" border="0" alt="Play Luncho-o-matic"></a>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/macgrady/index.html" id="rcMacGrady">Mrs. MacGrady</a></li>
+   <li><a href="/arthur/friends/brain/index.html" id="rcBrain">The Brain</a></li>
+   <li><a href="/arthur/games/supermarket/index.html" id="rcSupermarket">Supermarket Adventures</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

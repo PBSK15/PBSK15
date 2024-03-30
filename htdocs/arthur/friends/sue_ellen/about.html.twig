@@ -1,0 +1,73 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Sue Ellen\'s About Me Page | PBS Kids' %}
+{% set desc = 'Meet Sue Ellen and learn about her interests and adventures on her profile page. Also take a poll and find out her favorite books.' %}
+{% set keywds = 'Sue Ellen, travel, interests, ARTHUR, profile' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cf9">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/sueellen_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/sueellen_top.swf", "sueellen", "960", "363", "9", "#ccff99");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "about");			   fo.addVariable("char", "sue_ellen");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="/arthur/friends/sue_ellen/photos.html" class="photoWall p-sueellen">Sue Ellen's photos</a>
+  <div id="friendsContent">
+   <h1>A little about me</h1>
+   <hr class="friendsRuler">
+   <dl id="aboutMe">
+    <dt>
+     Best Thing Ever:
+    </dt>
+    <dd>
+     Tae Kwon Do. I love it!
+    </dd>
+    <dt>
+     Worst Thing Ever:
+    </dt>
+    <dd>
+     When I thought my parents would embarrass me at school. They didn't!
+    </dd>
+    <dt>
+     Favorite Adventure:
+    </dt>
+    <dd>
+     Making a new friend on an old train.
+    </dd>
+   </dl>
+   <div id="pollWrapper" class="poll_bg_cf9">
+    <div id="pollContent">
+     <h2>My Poll</h2>
+     <form action="/cgi-registry/poll/poll.pl" method="post" id="myPoll">
+      <fieldset>
+       <p>Do you like to travel?</p>
+       <ul>
+        <li><input type="radio" name="q1" id="ans1" value="1" checked> <label for="ans1">Yes</label></li>
+        <li><input type="radio" name="q1" id="ans2" value="2"> <label for="ans2">No</label></li>
+       </ul>
+      </fieldset> <input type="hidden" name="results" value="arthur/friends/sue_ellen/results.html"> <input type="hidden" name="site_id" value="arthur"> <input type="hidden" name="poll_id" value="sue"> <input type="hidden" name="question1.exists" value="true"> <a href="#p" onclick="document.forms[0].submit();" id="pollSubmitBtn">submit</a>
+     </form>
+    </div>
+    <div id="pollBGBtm"></div>
+   </div>
+   <h1>My Favorite Books</h1>
+   <hr class="friendsRuler">
+   <ul id="myBooks">
+    <li><img src="../../i/friends/books/sueellen_book1.jpg" width="148" height="117" alt="Castle Diary: The Journal of Tobias Burgess, Page book cover" border="0"> <h4>Castle Diary: The Journal of Tobias Burgess, Page</h4> <p>by Richard Platt<br> Imagine going back to the Middle Ages! This journal will take you there as Tobias learns about life at Strandborough Castle.</p></li>
+    <li><img src="../../i/friends/books/sueellen_book2.jpg" width="148" height="117" alt="Emma's Journal: The Story of a Colonial Girl book cover" border="0"> <h4>Emma's Journal: The Story of a Colonial Girl</h4> <p>by Marissa Moss<br> This neat diary has handwritten entries as Emma Miller writes about the events of 1774 while she is at Aunt Harmony's house in Boston.</p></li>
+    <li><img src="../../i/friends/books/sueellen_book3.jpg" width="148" height="117" alt="Good-bye for Today  book cover" border="0"> <h4>Good-bye for Today</h4> <p>by Peter and Connie Roop<br> Could you survive the dangerous voyage on a whaling ship in 1851? Laura's diary tells about her adventure on the ship Monticello as her family travels from Japan to the Arctic.</p></li>
+    <li><img src="../../i/friends/books/sueellen_book4.jpg" width="148" height="117" alt="I Thought My Soul Would Rise and Fly: The Diary of Patsy, a Freed Girl book cover" border="0"> <h4>I Thought My Soul Would Rise and Fly: The Diary of Patsy, a Freed Girl</h4> <p>by Joyce Hansen<br> Life was hard after the Civil War, but when Patsy discovers she can teach other former slaves how to read and write, her life begins to get better.</p></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/games/comiccreator/index.html" id="rcComic">Comic Creator</a></li>
+   <li><a href="/arthur/games/globalgizmo/index.html" id="rcGlobal">Global Gizmo</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

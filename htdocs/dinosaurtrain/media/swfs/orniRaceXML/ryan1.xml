@@ -1,0 +1,44 @@
+<track>
+<obstacle>
+    <type>power</type>
+    <art>Power2</art>
+    <lane>3</lane>
+    <x>97.6</x>
+</obstacle>
+<obstacle>
+    <type>fern</type>
+    <art>Fern1</art>
+    <lane>2</lane>
+    <x>267.45</x>
+</obstacle>
+<obstacle>
+    <type>mud</type>
+    <art>Mud1</art>
+    <lane>2</lane>
+    <x>376.1</x>
+</obstacle>
+<obstacle>
+    <type>mud</type>
+    <art>Mud1</art>
+    <lane>1</lane>
+    <x>492.1</x>
+</obstacle>
+<obstacle>
+    <type>mud</type>
+    <art>Mud3</art>
+    <lane>2</lane>
+    <x>602.55</x>
+</obstacle>
+<obstacle>
+    <type>fern</type>
+    <art>Fern1</art>
+    <lane>1</lane>
+    <x>689.45</x>
+</obstacle>
+<obstacle>
+    <type>rock</type>
+    <art>Rock1</art>
+    <lane>1</lane>
+    <x>808.45</x>
+</obstacle>
+</track>

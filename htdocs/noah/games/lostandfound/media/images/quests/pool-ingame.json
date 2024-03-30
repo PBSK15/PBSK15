@@ -1,0 +1,47 @@
+{
+"images": ["pool-ingame.png"],
+"frames": [
+
+    [268, 2, 196, 315], 
+    [82, 334, 114, 114], 
+    [615, 2, 329, 212], 
+    [323, 445, 104, 56], 
+    [141, 450, 143, 59], 
+    [586, 421, 112, 73], 
+    [373, 319, 84, 104], 
+    [198, 334, 173, 109], 
+    [514, 421, 70, 76], 
+    [429, 425, 83, 83], 
+    [459, 319, 154, 100], 
+    [946, 2, 54, 55], 
+    [466, 216, 178, 51], 
+    [2, 471, 137, 39], 
+    [286, 445, 35, 61], 
+    [2, 334, 78, 135], 
+    [2, 2, 264, 330]
+],
+"animations": {
+    
+        "balloons":[0], 
+        "beachball":[1], 
+        "chair":[2], 
+        "flipflops":[3], 
+        "flippers":[4], 
+        "goggles":[5], 
+        "icebag":[6], 
+        "icebox":[7], 
+        "icecream":[8], 
+        "lemonade":[9], 
+        "lifepreserver":[10], 
+        "popsicle":[11], 
+        "raft":[12], 
+        "sunglasses":[13], 
+        "sunscreen":[14], 
+        "swimsuit":[15], 
+        "umbrella":[16]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:4861ca9d90a480c9d885c75b2e3d035c:7682bdca74f5f3f3b8d71d8b79fdfd97:508b76a36c1576e4b00c841708848c5b$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

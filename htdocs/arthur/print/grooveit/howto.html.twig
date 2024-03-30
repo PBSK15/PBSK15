@@ -1,0 +1,53 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Groove It | PBS Kids' %}
+{% set desc = 'Play songs from ARTHUR and create your own dances for them by using Prunellas dance cards.' %}
+{% set keywds = 'music, dance, perform, movement' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-9ff">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="grooveHeader">Groove It</h4></a>
+  <ul id="printSideNav">
+   <li><a href="howto.html" class="selected"><span>How to Play</span></a></li>
+   <li><a href="cards.html"><span>Dance Cards</span></a></li>
+   <li><a href="music_player.html"><span>Music Player</span></a></li>
+   <li><a href="do_the_prunella.html"><span>Do the "Prunella"</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>How to Play</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-one">Print This Page</span>
+    </div>
+   </div>
+   <div id="grooveHowtoContent"><img src="../../i/print/grooveit/prunella_howto.gif" width="147" height="343" alt="Purnella standing dressed in her dance outfit" border="0" class="float-right">
+    <p>Create your own groovy dance combination! Print and cut out all 16 Dance Cards. (Print more copies if you want to be able to use moves more than once.) Make your dance by arranging your cards on the floor in whatever order you like. Put on some music and try it out! You can dance to your own music, or try some of the tunes in the <a href="music_player.html">Groove It Music Player</a>.</p>
+    <h4>Tips for Playing:</h4>
+    <ul>
+     <li>Create your dance before you choose your music OR choose your music first and create a dance to fit it.</li>
+     <li>Quickly lay the cards out in random order and see what happens OR carefully build your dance a few steps at a time.</li>
+     <li>Try the same dance with different pieces of music to see how it might fit into different speeds, moods, and rhythms.</li>
+     <li>Challenge a friend to try a combination you've created, then let your friend challenge YOU!</li>
+    </ul> <img src="../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/prunella/index.html" id="rcPrunella">Prunella</a></li>
+   <li><a href="/arthur/video/karaoke.html" id="rcKaraoke">Karaoke</a></li>
+   <li><a href="/arthur/games/songbook/index.html" id="rcSongBook">Songbook</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

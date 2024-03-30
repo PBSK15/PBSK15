@@ -1,0 +1,57 @@
+{% extends 'arthur/includes/templates/arthurMobilePage.html.twig' %}
+{% set additionalTitle = 'Video' %}
+{% set altTitle = false %}
+{% set noPageCss = false %}
+{% set specialInclude = '<script src="../js/querystringUtil.js"></script><script src="../js/detectmobilebrowser.js"></script><link rel="stylesheet" type="text/css" href="../css/videoPage.css"><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><script type="text/javascript" src="https://pbskids.org/pbsk/video/lib/jquery.pbskidsvideo.min-latest.js"></script><script type="text/javascript" src="js/playlist-video.js"></script><link rel="stylesheet" href="css/video.css"><script type="text/javascript" src="../js/utility.js"> </script>' %}
+
+
+{% block mainPage %}<div id="header"><a href="http:www.pbskids.org"><img id="pbsLogo" src="../assets/images/pbs_logo.gif"></a>
+ <div id="homeLogo">
+  <a href="../index.html"><img id="arthurLogo" src="../assets/images/arthur_logo_sml.png"></a>
+ </div>
+</div>
+<div id="mainContent">
+ <div id="titlediv">
+  Videos
+ </div> <img id="title" src="../assets/images/videoTitle.png">
+ <div id="playlistBT-main">
+  <div id="player" class="multi-video"><!-- ************** VIDEO AREA, BUILT BY JAVASCRIPT ************** -->
+   <div class="video-wrapper widescreen">
+    <video id="video-player"></video>
+   </div> <!-- *************** JAVASCRIPT VIDEO CONTROLS *************** -->
+   <div id="player-controls" class="hidden">
+    <ul>
+     <li class="scrubber-area">
+      <div class="scrubber">
+       <div class="scrubber-track"><button class="scrubber-thumb"> <!--<img id="icon-scroller" src="../assets/images/video/videoScrubber.png" alt="scroller"/>--> </button>
+       </div><!--/ .scrubber-track -->
+      </div><!--/ .scrubber --></li>
+     <li class="time-area"><p class="timer-remaining">00:00</p></li>
+     <li class="settings-area"><span class="mute-unmute bt_back"> <button title="Mute/Unmute"> <!-- the following divs use webfont icons for the button display -->
+        <div id="icon-mute"><i aria-hidden="true" class="icons" data-icon=""></i> <span class="icon-text">mute</span>
+        </div>
+        <div id="icon-unmute"><i aria-hidden="true" class="icons" data-icon=""></i> <span class="icon-text">unmute</span>
+        </div> <!-- images can also be used for icons on buttons, as shown in the lines commented out below --> <!-- img id="icon-mute" src="images/mute.jpg" alt="mute button"/>											<img id="icon-unmute" src="images/unmute.jpg" alt="unmute button"/ --> </button> </span></li>
+     <li class="settings-area"><span class="toggle-captions bt_back"> <button title="toggle Closed Captions"> <!-- the following divs use webfont icons for the button display -->
+        <div id="icon-captoff"><span class="icons-cc captoff">CC</span>
+        </div>
+        <div id="icon-capton"><span class="icons-cc capton">CC</span>
+        </div> <!-- images can also be used for icons on buttons, as shown in the lines commented out below --> <!-- img id="icon-captoff" src="images/turncapton.jpg" alt="turn captions on button"/>											<img id="icon-capton" src="images/turncaptoff.jpg" alt="turn captions off button"/ --> </button> </span></li>
+     <li class="settings-area"><span class="show-fullscreen bt_back hidden"> <button title="Display fullscreen"> <!-- the following divs use webfont icons for the button display -->
+        <div id="icon-fs"><i aria-hidden="true" class="icons" data-icon=""></i> <span class="icon-text">fullscreen</span>
+        </div> </button> </span></li>
+    </ul>
+   </div><!--/ #player-controls -->
+  </div><!--/ #player -->
+  <div id="controlrack"><span class="previous"> <button title="Previous"> <img id="icon-prev" src="../assets/images/video/videoBackButton.png" alt="Previous"> </button> </span> <span class="play-pause bt_back"> <button title="Play/Pause"> <img id="icon-pause" src="../assets/images/video/videoPauseButton.png" alt="pause button"> <img id="icon-play" src="../assets/images/video/videoPlayButton.png" alt="play button"> </button> </span> <span class="next"> <button title="Next"> <img id="icon-next" src="../assets/images/video/videoForwardButton.png" alt="Next"> </button> </span>
+  </div><!--/ #controlrack -->
+  <ul id="playlist-column" class="hidden">
+   <li class="playlist-item"><img class="originalres_16x9" src=""> <h2><span class="video-title"></span> (<span class="video-duration"></span>)</h2> <!--<p class="video-description"></p>--></li>
+  </ul><!--/ #playlist-column -->
+ </div><!--/ .playlistBT-main -->
+ <div id="bottom">
+  <div id="copyright"><br> All characters and underlying materials (including artwork) © Marc Brown. "Arthur" and "D.W." and all of the ARTHUR characters are trademarks of Marc Brown.<br><span class="copyrightLine">© 2014 WGBH</span>
+  </div>
+ </div>
+</div>{% endblock %}
+

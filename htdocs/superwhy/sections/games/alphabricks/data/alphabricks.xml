@@ -1,0 +1,23 @@
+<game id="alphabricks" hasSponsorBar="true">
+	<title><![CDATA[SUPER WHY! . GAMES . ALPHA BRICKS | PBS KIDS]]></title>
+	<swf url="sections/games/alphabricks/alphabricks.swf" />
+	
+	<libraries>
+		<library id="futuratdemeduembedded" url="libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="alphapig_endscreen" url="libraries/alphapig_endscreen.swf" />	
+	</libraries>
+	
+	<assets>
+		<voiceovers id="voiceovers" isGroup="true">
+			<audio id="easy" type="audio" url="sections/games/alphabricks/audio/intro/easy.mp3" />
+			<audio id="medium" type="audio" url="sections/games/alphabricks/audio/intro/medium.mp3" />
+			<audio id="hard" type="audio" url="sections/games/alphabricks/audio/intro/hard.mp3" />
+		</voiceovers>
+		
+		<promos id="promos" isGroup="true">
+			<promo id="princess" location="game/superhero" url="promos/endscreen_promo_sh_princess.jpg" />
+			<promo id="whyatt" location="game/rescue" url="promos/endscreen_promo_sw_rescue.jpg" />
+			<promo id="wonderred" location="game/rhymenroll" url="promos/endscreen_promo_rhymeroll.jpg" />
+		</promos>
+	</assets>
+</game>

@@ -1,0 +1,55 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Francine\'s High Five | PBS Kids' %}
+{% set desc = 'Create a personalized certificate for someone! Choose why the person is receiving the award or write your ow reason.' %}
+{% set keywds = 'award, certificate' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-c99">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="fiveHeader">Francine's High Five</h4></a>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content" id="highFive">
+   <div id="formHeader">
+    <p>Pick something you're good at and print out a personalized certificate. Make them for your friends and family too.</p>
+   </div>
+   <div>
+    <form name="user_input" action="/cgi-registry/arthur/highfive.php" method="post" onsubmit="return confirmValues();" id="fiveForm"><label for="highfivecategory">Who is this award for?</label><input type="text" size="30" maxlength="40" name="user_name">
+     <fieldset><legend>The person receiving this award is great at: (Select one)</legend>
+      <ul>
+       <li><input type="radio" name="highfivecategory" value="Practicing piano without complaining" id="hf1"><label for="hf1">Practicing piano without complaining</label></li>
+       <li><input type="radio" name="highfivecategory" value="Changing the cat's litter box" id="hf2"><label for="hf2">Changing the cat's litter box</label></li>
+       <li><input type="radio" name="highfivecategory" value="Riding a bike without training wheels" id="hf3"><label for="hf3">Riding a bike without training wheels</label></li>
+       <li><input type="radio" name="highfivecategory" value="Riding a bike with training wheels" id="hf4"><label for="hf4">Riding a bike</label></li> <il>
+        <input type="radio" name="highfivecategory" value="Reading stories out loud" id="hf5">
+        <label for="hf5">Reading stories out loud</label>
+        <li><input type="radio" name="highfivecategory" value="Taking me to the library" id="hf6"><label for="hf6">Taking me to the library</label></li>
+        <li><input type="radio" name="highfivecategory" value="Being a great teacher" id="hf7"><label for="hf7">Being a great teacher</label></li>
+        <li><input type="radio" name="highfivecategory" value="Watching TV after school" id="hf8"><label for="hf8">Watching TV after school</label></li>
+        <li><input type="radio" name="highfivecategory" value="Making yummy meals" id="hf9"><label for="hf9">Making yummy meals</label></li>
+        <li><input type="radio" name="highfivecategory" value="Making me laugh" id="hf10"><label for="hf10">Making me laugh</label></li>
+        <li><input type="radio" name="highfivecategory" value="Being a good listener" id="hf11"><label for="hf11">Being a good listener</label></li>
+        <li><label for="hf12">write your own:</label><input type="text" size="30" maxlength="40" name="ownhighfivecategory" id="hf12"></li>
+        <li><input type="hidden" name="featurepath" value="/arthur/print/highfive/"></li>
+       </il>
+      </ul> <input type="hidden" name="num_borders" value="3">
+     </fieldset> <input type="submit" name="done" value="Done!">
+    </form>
+   </div><img src="../../i/print/highfive/form_bottom.gif" width="622" height="40" alt="" id="highFiveBtmImg">
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/francine/index.html" id="rcFrancine">Francine</a></li>
+   <li><a href="/arthur/games/unmatching/index.html" id="rcUnmatching">Un-matching Game</a></li>
+   <li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

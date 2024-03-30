@@ -1,0 +1,46 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Arthur\'s Songbook | PBS Kids' %}
+{% set desc = 'Sing Busters UFO Song and find out what he hopes would happen if aliens came to Earth!' %}
+{% set keywds = 'lyrics, singing, songbook, read, ufo, aliens, abduction' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}{% set noSitewide = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-ffc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="songSHeader">Arthur's Songbook</h4></a>
+  <div id="songbookPlayer">
+   <ul id="printSideNav">
+    <li><a href="theme.html"><span>Theme Song</span></a></li>
+    <li><a href="librarycard.html"><span>Library Card</span></a></li>
+    <li><a href="luckypencil.html"><span>Lucky Pencil</span></a></li>
+    <li><a href="ufo.html" class="selected"><span>The UFO Song</span></a></li>
+    <li><a href="gotosleep.html"><span>Go to Sleep</span></a></li>
+    <li><a href="crazybus.html"><span>Crazy Bus</span></a></li>
+   </ul>
+   <script type="text/javascript">			   var fo = new SWFObject("../../media/games/songbook_player.swf", "songbook", "262", "283", "9","#ffffcc");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   fo.addVariable("title", "ufo");			  //			   fo.write("songbookPlayer");			</script>
+  </div>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>The UFO Song</h1>
+    </div>
+   </div>
+   <div id="songbookContent"><img src="../../i/games/songbook/notes.gif" width="70" height="324" alt="music notes" border="0" class="float-left music-notes"> <img src="../../i/games/songbook/songbook_ufo.gif" width="137" height="251" alt="UFO" border="0" class="float-right">
+    <p class="songbook-lyrics">I'm sure there are UFO's <br> Out there somewhere.<br> I'd like to ride in one, <br> I'd never be scared.<br> If a space ship touched down <br> In my yard I would run<br> Right towards it, yelling <br> "Greetings, let's go have some fun!"<br> Let's have some fun!<br> Let's have some fun!<br> Let's go have some fun!<br> <br> But what if they're tired <br> From hurtling through space?<br> If their ship's like my mom's car, <br> It's not a comfortable place.<br> I'd better set up some lawn chairs <br> And a table of snacks<br> So they can stretch their legs, <br> (they might have nine),<br> sit back and relax.<br> Just relax,<br> Just relax,<br> Sit back and relax.<br> <br> Then when they left, <br> They might take me home to their school<br> And use me as show and tell, <br> That would be cool.<br> A trip through the galaxies <br> Couldn't be beat.<br> And I'd sure like to taste <br> The desserts they eat.<br> <br> Hmmmm what a thought...<br> <br> So if on some starry night, <br> A space ship you see,<br> Wave to it, talk to it, <br> Send it to me!<br> Meanwhile I'll study hard <br> And master rocketry.<br> I bet you that they're waiting <br> For us, too, in some other galaxy.<br> I bet you that they're waiting<br> for us, too, in some other galaxy.<br></p>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/dance/index.html" id="rcClubDance">Dance Club</a></li>
+   <li><a href="/arthur/print/grooveit/index.html" id="rcGrooveIt">Groove It!</a></li>
+   <li><a href="/arthur/games/alien/index.html" id="rcAlien">Alien: Assembly Required</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

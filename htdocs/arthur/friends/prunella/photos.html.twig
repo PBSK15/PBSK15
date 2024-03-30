@@ -1,0 +1,99 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Friends . Prunella\'s Photos Page | PBS Kids' %}
+{% set desc = 'View photographs of Prunella expressing herself through painting, doing yoga, and listening to her best friend read a Braille book.' %}
+{% set keywds = 'Prunella, ARTHUR, photographs, pictures, yoga' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'friends' %}
+{% set noSitewide = true %}
+{% set friendsJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-cfc">
+ <div id="flashcontent"><map name="nav"> <area shape="rect" coords="393,206,498,347" href="index.html" alt="Games &amp; Print Page"> <area shape="rect" coords="504,206,604,347" href="clubs.html" alt="Clubs Page"> <area shape="rect" coords="609,206,712,347" href="photos.html" alt="Photo Page"> <area shape="rect" coords="717,206,818,347" href="videos.html" alt="Videos page"> <area shape="rect" coords="823,206,930,347" href="about.html" alt="About Me Page"> </map> <img src="/arthur/i/friends/alt/prunella_header.gif" width="960" height="363" alt="" border="3" usemap="#nav">
+ </div>
+ <script type="text/javascript">			   var fo = new SWFObject("../../media/friends/prunella_top.swf", "prunella", "960", "363", "9", "#ccffcc");			   fo.addVariable("intro", "false");			   fo.addVariable("page", "photos");			   fo.addVariable("char", "prunella");			   fo.addVariable("base", "/arthur/");			   fo.addParam("allowScriptAccess", "always");			   			   fo.write("flashcontent");			</script>
+ <div id="friendsWrapper"><a href="photos.html" class="photoWall p-prunella">Prunella's images</a>
+  <div id="friendsContent">
+   <h1>My Photos</h1>
+   <hr class="friendsRuler">
+   <div id="photoWrapper">
+    <div id="bigImgWrapper"><img src="../../i/friends/photos/prunella1.jpg" width="354" height="250" alt="Prunella painting stage scenery." border="0" id="mainImg"> <a href="" class="next"></a> <a href="" class="prev"></a>
+    </div> <img src="../../i/friends/photos/avatar_big_prunella.gif" width="85" height="83" alt="Prunella Avatar" border="0" id="avatar">
+    <h3>I love to express myself!</h3>
+   </div>
+   <div id="cmtArea"><!--  Displayed image and comment -->
+    <h2>MY FRIENDS SAY</h2>
+    <div id="cmtTxtWrapper">
+     <div class="comment">
+      <div class="binky-cmt"><a href="/arthur/friends/binky/index.html">BINKY</a>
+       <p>Great painting, Prunella!</p>
+      </div>
+      <div class="binky-cmtbtm"></div>
+     </div>
+    </div>
+   </div> <!--  List of all images and comments to rotate -->
+   <ul id="cmtlist">
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/prunella1.jpg" width="354" height="250" alt="Prunella painting stage scenery." border="0" id="mainImg">
+       <h3>I love to express myself!</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="binky-cmt"><a href="/arthur/friends/binky/index.html">BINKY</a>
+          <p>Great painting, Prunella!</p>
+         </div>
+         <div class="binky-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/prunella2.jpg" width="354" height="250" alt="Prunella and Marina in the library." border="0" id="mainImg">
+       <h3>Marina reading Henry Skreever to me.</h3>
+      </dt>
+      <dd>
+       <h2>MY FRIENDS SAY</h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+         <div class="brain-cmt"><a href="/arthur/friends/brain/index.html">THE BRAIN</a>
+          <p>I believe that's the fiction section, K-Kr. Am I right?</p>
+         </div>
+         <div class="brain-cmtbtm"></div>
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+    <li>
+     <dl>
+      <dt>
+       <img src="../../i/friends/photos/prunella3.jpg" width="354" height="250" alt="Prunella and her mom practicing yoga in their backyard." border="0" id="mainImg">
+       <h3>Yoga calms the mind...</h3>
+      </dt>
+      <dd>
+       <h2></h2>
+       <div class="cmtWrapper">
+        <div class="comment">
+        </div>
+       </div>
+      </dd>
+     </dl></li>
+   </ul>
+   <div id="friendsBGTop"></div>
+   <div id="friendsBGBtm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/print/braille/index.html" id="rcBraille">You've Got Braille</a></li>
+   <li><a href="/arthur/games/askprunella/index.html" id="rcAskPrunella">Ask Prunella</a></li>
+   <li><a href="/arthur/print/cootiecatcher/index.html" id="rcCootie">Cootie Catcher</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+

@@ -1,0 +1,46 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Games . Fern\'s Poetry Club | PBS Kids' %}
+{% set desc = 'Print out and color bookmarks that you can use to save your place in your book!' %}
+{% set keywds = 'print, book, bookmarks, read' %}
+{% set specialInclude = '<link rel="stylesheet" type="text/css" href="/arthur/c/games.css" media="screen" />' %}
+{% set selectedNav = 'games' %}
+
+
+{% block mainContent %}<div id="content" class="bg-ccf">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="index.html"><h4 id="poetryHeader">Fern's Poetry Club</h4></a>
+  <ul id="printSideNav">
+   <li><a href="what.html" class="selected"><span>What's a poem?</span></a></li>
+   <li><a href="write.html"><span>Write a poem</span></a></li>
+   <li><a href="read.html"><span>Read more poems</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>What's a Poem?</h1>
+    </div>
+   </div>
+   <div id="poetryReadContent"><img src="../../i/games/poetry/fern_poetry_what.gif" width="304" height="347" alt="Fern holding a stack of paper." border="0" class="float-right">
+    <p>Well, you've come to the right place to find out. Writing poems can be fun when you juggle all the words and the rhythms together to make them exciting. Poems can be out anything and come in many different forms. Here's an explanation of some of my favorite styles of poetry.</p>
+    <p>A <a href="narrative.html">NARRATIVE POEM</a> tells a story.</p>
+    <p><a href="limerick.html">LIMERICKS</a> are usually funny or silly.</p>
+    <p><a href="haiku.html">HAIKU</a> is an old form of poetry from Japan.</p>
+    <p><a href="free_verse.html">FREE VERSE</a> is a kind of poetry that has no real rhythm or pattern.</p>
+    <p><a href="cinquain.html">CINQUAINS</a> are special poems that have five lines.</p>
+    <p><a href="" lyric.html>LYRIC POEMS</a> make you want to sing!</p>
+   </div>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/clubs/poetry/index.html" id="rcClubPoetry">Poetry Club</a></li>
+   <li><a href="/arthur/friends/fern/index.html" id="rcFern">Fern</a></li>
+   <li><a href="/buster/pfy/index.html" id="rcPFY">Postcards From You</a></li> <!--<li><a href="/arthur/games/lettersto/index.html" id="rcLettersTo">Letters To...</a></li>-->
+  </ul>
+ </div>
+</div>{% endblock %}
+

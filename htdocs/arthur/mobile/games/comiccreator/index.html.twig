@@ -1,0 +1,86 @@
+{% extends 'arthur/includes/templates/arthurMobilePage.html.twig' %}
+{% set additionalTitle = 'Games | Comic Creator' %}
+{% set altTitle = false %}
+{% set noPageCss = false %}
+{% set specialInclude = '<script src="../js/querystringUtil.js"></script><script src="../js/detectmobilebrowser.js"></script><script type="text/javascript" src="../../js/utility.js"> </script><script type="text/javascript" src="http:code.jquery.com/jquery-1.4.4.min.js"></script><link type="text/css" href="http:ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/south-street/ui.all.css" rel="stylesheet"><link type="text/css" rel="stylesheet" href="core/css/stickerbooks.css"><link type="text/css" rel="stylesheet" href="skin.simple.css"><link type="text/css" rel="stylesheet" href="css/comiccreator.css"><script src="https:ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><script src="https:ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script><script src="core/js/kinetic-v3.10.5.min.js"></script><script src="core/js/jquery.outside.js"></script><script src="core/js/jquery.ui.touch-punch.min.js"></script><script src="core/js/stickerbooks.js"></script><script type="text/javascript">    	$(function(){    	    $("#tabsbkg").addClass(\'hideTabContent\');    	    $("#tabsprop").addClass(\'hideTabContent\');    	    $("#tabstext").addClass(\'hideTabContent\');    	    $(\'#nav-char button\').addClass(\'active\');    	});        	var SimpleStickerbook = PBS.KIDS.StickerBook(\'arthur-comic-creator\');	</script><script src="core/js/startSticker.js"></script>' %}
+
+
+{% block mainPage %}<div id="header"><a href="http:www.pbskids.org"><img id="pbsLogo" src="../../assets/images/pbs_logo.gif"></a> <a href="../index.html">
+  <div class="roundBackground" id="gameLink">
+   GAMES
+  </div></a>
+ <div id="homeLogo">
+  <a href="../../index.html"><img id="arthurLogo" src="../../assets/images/arthur_logo_sml.png"></a>
+ </div>
+</div>
+<div id="mainContent">
+ <div id="mainFeature">
+  <div id="ccGame" style="">
+   <div id="sticker-ui">
+    <div id="screen-overlay" class="inactive">
+     <div id="no-support" class="inactive">
+      <b>Arthur's Comic Creator</b> requires technology that is only supported in modern browsers. If you would like to make a sticker, please use one of the following browsers: IE 9 and 10, Firefox, Chrome, Safari, Opera.
+     </div>
+     <div id="clear-all-prompt" class="inactive">
+      <button class="prompt-btn btn-no" title="Don't Clear All">No</button><button class="prompt-btn btn-yes" title="Clear All">Yes</button>
+     </div>
+    </div>
+    <div id="canvas-mask">
+     <div id="sticker-canvas"></div>
+    </div>
+    <div id="sticker-ui-holder"><!-- StickerSize Tooltip -->
+     <ul class="sticker-ui-contols"><!-- To have tools follow sticker add class follow -->
+      <li class="change-size"><button class="make-bigger size-btn" title="Make Sticker Bigger">Make Sticker Bigger</button></li>
+      <li class="change-size"><button class="make-smaller size-btn" title="Make Sticker Smaller">Make Sticker Smaller</button></li>
+      <li class="change-rotate-right"><button class="rotate-right rotate-btn" title="Rotate Sticker Right">Rotate Sticker Right</button></li>
+      <li class="change-rotate-left"><button class="rotate-left rotate-btn" title="Rotate Sticker Left">Rotate Sticker Left</button></li>
+      <li class="flip-sticker"><button id="flip-sticker-action" title="Flip Sticker">Flip</button></li>
+      <li class="delete-sticker"><button id="delete-sticker-action" title="Delete This Sticker">Delete</button></li>
+     </ul> <!-- End StickerSize Tooltip -->
+    </div>
+    <div id="myTabs">
+     <ul id="tabs-nav">
+      <li id="nav-char"><button>Characters</button></li>
+      <li id="nav-bkg"><button>Background</button></li>
+      <li id="nav-prop"><button>Props</button></li>
+      <li id="nav-text"><button>Text</button></li>
+     </ul>
+     <div id="tabschar" class="tab-content">
+      <aside class="sheet-actions graphic-ui"><button class="sheet-up-action">Prev</button> <button class="sheet-down-action active">Next</button>
+      </aside>
+      <div class="sticker-sheet graphic-ui wide" type="graphic" tags="character"></div>
+     </div>
+     <div id="tabsbkg" class="tab-content">
+      <div class="tool-buttons">
+       <aside class="sheet-actions graphic-ui"><button class="sheet-up-action">Prev</button> <button class="sheet-down-action active">Next</button>
+       </aside>
+       <div class="sticker-sheet graphic-ui wide" type="background"></div>
+      </div>
+     </div>
+     <div id="tabsprop" class="tab-content">
+      <aside class="sheet-actions graphic-ui"><button class="sheet-up-action">Prev</button> <button class="sheet-down-action active">Next</button>
+      </aside>
+      <div class="sticker-sheet graphic-ui wide" type="graphic" tags="prop"></div>
+     </div>
+     <div id="tabstext" class="tab-content">
+      <aside class="sheet-actions graphic-ui"><button class="sheet-up-action">Prev</button> <button class="sheet-down-action active">Next</button>
+      </aside>
+      <div class="sticker-sheet graphic-ui wide" type="text"></div>
+     </div>
+    </div>
+    <div id="sticker-tools">
+     <ul>
+      <li class="tool-buttons pushy"><button id="clear-all">Clear All</button></li>
+      <li class="tool-buttons pushy right"><button id="print-sticker" class="inactive">Print Sticker</button></li>
+      <li class="tool-buttons pushy right"><button id="save-sticker" class="inactive">Save Sticker (to desktop)</button></li>
+     </ul>
+    </div>
+   </div> <!-- End Sticker UI    -->
+  </div>
+  <div id="bottom">
+   <div id="copyright"><br> All characters and underlying materials (including artwork) © Marc Brown. "Arthur" and "D.W." and all of the ARTHUR characters are trademarks of Marc Brown.<br><span class="copyrightLine">© 2014 WGBH</span>
+   </div>
+  </div>
+ </div>
+</div>{% endblock %}
+

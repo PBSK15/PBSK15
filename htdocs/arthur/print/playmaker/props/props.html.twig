@@ -1,0 +1,65 @@
+{% extends 'arthur/includes/templates/arthurPage.html.twig' %}
+{% set additionalTitle = ' . Print . Play Maker | PBS Kids' %}
+{% set desc = 'Print the book prop for the ARTHUR play D.W. Gets Her Library Card. The book is titled, HOPALONG THE FROG.' %}
+{% set keywds = 'book, props, stage, performance, play' %}
+{% set specialInclude = '' %}
+{% set selectedNav = 'print' %}
+{% set noSitewide = true %}
+{% set printableJs = true %}
+
+
+{% block mainContent %}<div id="content" class="bg-fcc">
+ <div class="ruler"></div>
+ <div class="print-instr"><a href="../index.html"><h4 id="playHeader">Play Maker</h4></a>
+  <ul id="printSideNav">
+   <li><a href="../script.html"><span>Script</span></a></li>
+   <li><a href="../props/index.html" class="selected"><span>Props</span></a></li>
+   <li><a href="../masks/index.html"><span>Masks</span></a></li>
+   <li><a href="../costumes.html"><span>Costumes</span></a></li>
+   <li><a href="../tips/index.html"><span>Tips</span></a></li>
+  </ul>
+ </div>
+ <div id="printableArea">
+  <div class="printable-content">
+   <div class="printable-nav">
+    <div class="print-title-left">
+     <h1>Arthur's Mask</h1>
+    </div>
+    <div class="print-btn-right">
+     <span class="print-btn-all">Print All Pages</span>
+    </div>
+    <div class="pagination-nav"><span class="prev">Prev</span> <span class="next">Next</span>
+     <p>1 of 8 pages</p>
+    </div>
+   </div>
+   <ul class="print-pages" id="printColoring">
+    <li id="tickets">
+     <div class="page">
+      <img src="../../../i/print/playmaker/tickets_print.gif" width="569" height="488" alt="Tickets" title="Tickets" border="0" class="pm img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="book">
+     <div class="page">
+      <img src="../../../i/print/playmaker/book_print.gif" width="569" height="488" alt="Book" title="Book" border="0" class="pm img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="card">
+     <div class="page">
+      <img src="../../../i/print/playmaker/library_card_print.gif" width="569" height="488" alt="Library Card" title="Library Card" border="0" class="pm img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+    <li id="poster">
+     <div class="page last">
+      <img src="../../../i/print/playmaker/poster_print.gif" width="569" height="488" alt="Poster" title="Poster" border="0" class="pm img"><img src="../../../i/print/copyright.gif" width="530" height="49" alt="" border="0" class="copyright">
+     </div></li>
+   </ul>
+   <div class="print-bg-top"></div>
+   <div class="print-bg-btm"></div>
+  </div>
+ </div>
+ <div id="relatedContent">
+  <ul>
+   <li><a href="/arthur/friends/buster/index.html" id="rcBuster">Buster</a></li>
+   <li><a href="/arthur/print/bookmarks/index.html" id="rcBookmarks">Bookmarks</a></li>
+   <li><a href="/arthur/games/comiccreator/index.html" id="rcComic">Comic Creator</a></li>
+  </ul>
+ </div>
+</div>{% endblock %}
+
