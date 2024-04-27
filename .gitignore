@@ -1,10 +1,10 @@
-/.idea/
-/.code/
-/.vscode/
-/.metadata/
-/.git_dev/
-/.git_public/
-/.git_test/
+.idea/
+.code/
+.vscode/
+.metadata/
+.git_dev/
+.git_public/
+.git_test/
 /tmp/
 /updater_tmp/
 /dev_notes/

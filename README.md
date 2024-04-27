@@ -78,3 +78,49 @@ Not right now, no. There will likely be one soon, but as the project has just be
 
 ## Notes
 If you are planning to take this recreation of the 2015 PBS Kids website and host it yourself on your website, please do <b>NOT</b> do so, as it is <b>NOT</b> meant for public consumption. Not only will most of the website not even load (due to CORS), but there are various security vulnerabilities in the website itself. It does contain password hashing, but it has an open MySQL database, among other vulnerabilities that are not listed here.
+
+
+## Current Microsite Support
+* <b>Angelina Ballerina</b>: ✅
+* <b>Arthur</b>: ✅
+* <b>Barney</b>: ✅
+* <b>Between the Lions</b>: ❌
+* <b>Caillou</b>: ✅
+* <b>Cat in the Hat</b>: ⌛
+* <b>Chuck Vanderchuck's "Something Something" Explosion</b>: ✅
+* <b>Clifford the Big Red Dog</b>: ❌
+* <b>Curious George</b>: ✅
+* <b>Cyberchase</b>: ✅
+* <b>Daniel Tiger's Neighborhood</b>: ✅
+* <b>The Democracy Project</b>: ❌
+* <b>Design Squad</b>: ❌
+* <b>Dinosaur Train</b>: ✅
+* <b>DragonFlyTV</b>: ❌
+* <b>Eekoworld</b>: ✅
+* <b>The Electric Company</b>: ❌
+* <b>Fetch! with Ruff Ruffman</b>: ❌
+* <b>Fizzy's Lunch Lab</b>: ⌛
+* <b>The Greens</b>: ❌
+* <b>It's My Life</b>: ❌
+* <b>Lomax: The Hound of Music</b>: ✅
+* <b>Mama Mirabelle's Home Movies</b>: ❌
+* <b>Martha Speaks</b>: ⌛
+* <b>Maya & Miguel</b>: ❌
+* <b>Mister Rogers' Neighborhood</b>: ❌
+* <b>Odd Squad</b>: ✅
+* <b>Oh Noah!</b>: ⌛
+* <b>Peg + Cat</b>: ❌
+* <b>Plum Landing</b>: ⌛
+* <b>Postcards from Buster</b>: ❌
+* <b>SciGirls</b>: ❌
+* <b>Sesame Street</b>: ❌
+* <b>Sid the Science Kid</b>: ✅
+* <b>Super Why!</b>: ✅
+* <b>Thomas & Friends</b>: ❌
+* <b>Webonauts</b>: ✅
+* <b>Wild Kratts</b>: ✅
+* <b>Wilson and Ditch</b>: ❌
+* <b>WordGirl</b>: ✅
+* <b>WordWorld</b>: ✅
+* <b>Zoom</b>: ❌
+* <b>Miscellaneous</b>: ???
