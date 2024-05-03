@@ -1,0 +1,484 @@
+<root>
+ <questions>
+ <question set="short_a">
+	<game text="The words &lt;font color='#993300'&gt;nap&lt;/font&gt;, &lt;font color='#993300'&gt;cat&lt;/font&gt;, &lt;font color='#993300'&gt;tag&lt;/font&gt;, &lt;font color='#993300'&gt;pat&lt;/font&gt;, and &lt;font color='#993300'&gt;bag&lt;/font&gt; all have the short &quot;a&quot; sound in them." id="A1" correctAudio="/lions/games/dswmedia/stacker/audio/correct_a_1.mp3">
+			<answer text="nap" value="true" source="/lions/games/dswmedia/stacker/audio/nap.mp3"/>
+			<answer text="cat" value="true" source="/lions/games/dswmedia/stacker/audio/cat.mp3"/>
+			<answer text="tag" value="true" source="/lions/games/dswmedia/stacker/audio/tag.mp3"/>
+			<answer text="pat" value="true" source="/lions/games/dswmedia/stacker/audio/pat.mp3"/>
+			<answer text="bag" value="true" source="/lions/games/dswmedia/stacker/audio/bag.mp3"/>
+			<answer text="toy" value="false" source="/lions/games/dswmedia/stacker/audio/toy.mp3"/>
+			<answer text="ten" value="false" source="/lions/games/dswmedia/stacker/audio/ten.mp3"/>
+			<answer text="boo" value="false" source="/lions/games/dswmedia/stacker/audio/boo.mp3"/>
+			<answer text="rot" value="false" source="/lions/games/dswmedia/stacker/audio/rot.mp3"/>
+			<answer text="yes" value="false" source="/lions/games/dswmedia/stacker/audio/yes.mp3"/>
+			<answer text="net" value="false" source="/lions/games/dswmedia/stacker/audio/net.mp3"/>
+			<answer text="hid" value="false" source="/lions/games/dswmedia/stacker/audio/hid.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;act&lt;/font&gt;, &lt;font color='#993300'&gt;sad&lt;/font&gt;, &lt;font color='#993300'&gt;cap&lt;/font&gt;, &lt;font color='#993300'&gt;sat&lt;/font&gt;, and &lt;font color='#993300'&gt;hat&lt;/font&gt; all have the short &quot;a&quot; sound in them." id="A2" correctAudio="/lions/games/dswmedia/stacker/audio/correct_a_2.mp3">
+			<answer text="act" value="true" source="/lions/games/dswmedia/stacker/audio/act.mp3"/>
+			<answer text="sad" value="true" source="/lions/games/dswmedia/stacker/audio/sad.mp3"/>
+			<answer text="cap" value="true" source="/lions/games/dswmedia/stacker/audio/cap.mp3"/>
+			<answer text="sat" value="true" source="/lions/games/dswmedia/stacker/audio/sat.mp3"/>
+			<answer text="hat" value="true" source="/lions/games/dswmedia/stacker/audio/hat.mp3"/>
+			<answer text="top" value="false" source="/lions/games/dswmedia/stacker/audio/top.mp3"/>
+			<answer text="fig" value="false" source="/lions/games/dswmedia/stacker/audio/fig.mp3"/>
+			<answer text="pup" value="false" source="/lions/games/dswmedia/stacker/audio/pup.mp3"/>
+			<answer text="hut" value="false" source="/lions/games/dswmedia/stacker/audio/hut.mp3"/>
+			<answer text="sip" value="false" source="/lions/games/dswmedia/stacker/audio/sip.mp3"/>
+			<answer text="egg" value="false" source="/lions/games/dswmedia/stacker/audio/egg.mp3"/>
+			<answer text="win" value="false" source="/lions/games/dswmedia/stacker/audio/win.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;lap&lt;/font&gt;, &lt;font color='#993300'&gt;jam&lt;/font&gt;, &lt;font color='#993300'&gt;rap&lt;/font&gt;, &lt;font color='#993300'&gt;had&lt;/font&gt;, and &lt;font color='#993300'&gt;tap&lt;/font&gt; all have the short &quot;a&quot; sound in them." id="A3" correctAudio="/lions/games/dswmedia/stacker/audio/correct_a_3.mp3">
+			<answer text="lap" value="true" source="/lions/games/dswmedia/stacker/audio/lap.mp3"/>
+			<answer text="jam" value="true" source="/lions/games/dswmedia/stacker/audio/jam.mp3"/>
+			<answer text="rap" value="true" source="/lions/games/dswmedia/stacker/audio/rap.mp3"/>
+			<answer text="had" value="true" source="/lions/games/dswmedia/stacker/audio/had.mp3"/>
+			<answer text="tap" value="true" source="/lions/games/dswmedia/stacker/audio/tap.mp3"/>
+			<answer text="job" value="false" source="/lions/games/dswmedia/stacker/audio/job.mp3"/>
+			<answer text="she" value="false" source="/lions/games/dswmedia/stacker/audio/she.mp3"/>
+			<answer text="pen" value="false" source="/lions/games/dswmedia/stacker/audio/pen.mp3"/>
+			<answer text="set" value="false" source="/lions/games/dswmedia/stacker/audio/set.mp3"/>
+			<answer text="zoo" value="false" source="/lions/games/dswmedia/stacker/audio/zoo.mp3"/>
+			<answer text="wet" value="false" source="/lions/games/dswmedia/stacker/audio/wet.mp3"/>
+			<answer text="tub" value="false" source="/lions/games/dswmedia/stacker/audio/tub.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;wag&lt;/font&gt;, &lt;font color='#993300'&gt;rag&lt;/font&gt;, &lt;font color='#993300'&gt;pan&lt;/font&gt;, &lt;font color='#993300'&gt;dad&lt;/font&gt;, and &lt;font color='#993300'&gt;tax&lt;/font&gt; all have the short &quot;a&quot; sound in them." id="A4" correctAudio="/lions/games/dswmedia/stacker/audio/correct_a_4.mp3">
+			<answer text="wag" value="true" source="/lions/games/dswmedia/stacker/audio/wag.mp3"/>
+			<answer text="rag" value="true" source="/lions/games/dswmedia/stacker/audio/rag.mp3"/>
+			<answer text="pan" value="true" source="/lions/games/dswmedia/stacker/audio/pan.mp3"/>
+			<answer text="dad" value="true" source="/lions/games/dswmedia/stacker/audio/dad.mp3"/>
+			<answer text="tax" value="true" source="/lions/games/dswmedia/stacker/audio/tax.mp3"/>
+			<answer text="tug" value="false" source="/lions/games/dswmedia/stacker/audio/tug.mp3"/>
+			<answer text="old" value="false" source="/lions/games/dswmedia/stacker/audio/old.mp3"/>
+			<answer text="leg" value="false" source="/lions/games/dswmedia/stacker/audio/leg.mp3"/>
+			<answer text="cob" value="false" source="/lions/games/dswmedia/stacker/audio/cob.mp3"/>
+			<answer text="gum" value="false" source="/lions/games/dswmedia/stacker/audio/gum.mp3"/>
+			<answer text="nod" value="false" source="/lions/games/dswmedia/stacker/audio/nod.mp3"/>
+			<answer text="red" value="false" source="/lions/games/dswmedia/stacker/audio/red.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;and&lt;/font&gt;, &lt;font color='#993300'&gt;wax&lt;/font&gt;, &lt;font color='#993300'&gt;map&lt;/font&gt;, &lt;font color='#993300'&gt;cab&lt;/font&gt;, and &lt;font color='#993300'&gt;bat&lt;/font&gt; all have the short &quot;a&quot; sound in them." id="A5" correctAudio="/lions/games/dswmedia/stacker/audio/correct_a_5.mp3">
+			<answer text="and" value="true" source="/lions/games/dswmedia/stacker/audio/and.mp3"/>
+			<answer text="wax" value="true" source="/lions/games/dswmedia/stacker/audio/wax.mp3"/>
+			<answer text="map" value="true" source="/lions/games/dswmedia/stacker/audio/map.mp3"/>
+			<answer text="cab" value="true" source="/lions/games/dswmedia/stacker/audio/cab.mp3"/>
+			<answer text="bat" value="true" source="/lions/games/dswmedia/stacker/audio/bat.mp3"/>
+			<answer text="son" value="false" source="/lions/games/dswmedia/stacker/audio/son.mp3"/>
+			<answer text="sky" value="false" source="/lions/games/dswmedia/stacker/audio/sky.mp3"/>
+			<answer text="key" value="false" source="/lions/games/dswmedia/stacker/audio/key.mp3"/>
+			<answer text="mom" value="false" source="/lions/games/dswmedia/stacker/audio/mom.mp3"/>
+			<answer text="did" value="false" source="/lions/games/dswmedia/stacker/audio/did.mp3"/>
+			<answer text="the" value="false" source="/lions/games/dswmedia/stacker/audio/the.mp3"/>
+			<answer text="dig" value="false" source="/lions/games/dswmedia/stacker/audio/dig.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;add&lt;/font&gt;, &lt;font color='#993300'&gt;ant&lt;/font&gt;, &lt;font color='#993300'&gt;ran&lt;/font&gt;, &lt;font color='#993300'&gt;ask&lt;/font&gt;, and &lt;font color='#993300'&gt;man&lt;/font&gt; all have the short &quot;a&quot; sound in them." id="A6" correctAudio="/lions/games/dswmedia/stacker/audio/correct_a_6.mp3">
+			<answer text="add" value="true" source="/lions/games/dswmedia/stacker/audio/add.mp3"/>
+			<answer text="ant" value="true" source="/lions/games/dswmedia/stacker/audio/ant.mp3"/>
+			<answer text="ran" value="true" source="/lions/games/dswmedia/stacker/audio/ran.mp3"/>
+			<answer text="ask" value="true" source="/lions/games/dswmedia/stacker/audio/ask.mp3"/>
+			<answer text="man" value="true" source="/lions/games/dswmedia/stacker/audio/man.mp3"/>
+			<answer text="bed" value="false" source="/lions/games/dswmedia/stacker/audio/bed.mp3"/>
+			<answer text="met" value="false" source="/lions/games/dswmedia/stacker/audio/met.mp3"/>
+			<answer text="peg" value="false" source="/lions/games/dswmedia/stacker/audio/peg.mp3"/>
+			<answer text="pie" value="false" source="/lions/games/dswmedia/stacker/audio/pie.mp3"/>
+			<answer text="pop" value="false" source="/lions/games/dswmedia/stacker/audio/pop.mp3"/>
+			<answer text="big" value="false" source="/lions/games/dswmedia/stacker/audio/big.mp3"/>
+			<answer text="bud" value="false" source="/lions/games/dswmedia/stacker/audio/bud.mp3"/>
+	</game>
+ </question>
+ <question set="short_e">
+	<game text="The words &lt;font color='#993300'&gt;let&lt;/font&gt;, &lt;font color='#993300'&gt;hen&lt;/font&gt;, &lt;font color='#993300'&gt;pen&lt;/font&gt;, &lt;font color='#993300'&gt;end&lt;/font&gt;, and &lt;font color='#993300'&gt;led&lt;/font&gt; all have the short &quot;e&quot; sound in them." id="E1" correctAudio="/lions/games/dswmedia/stacker/audio/correct_e_1.mp3">
+			<answer text="let" value="true" source="/lions/games/dswmedia/stacker/audio/let.mp3"/>
+			<answer text="hen" value="true" source="/lions/games/dswmedia/stacker/audio/hen.mp3"/>
+			<answer text="pen" value="true" source="/lions/games/dswmedia/stacker/audio/pen.mp3"/>
+			<answer text="end" value="true" source="/lions/games/dswmedia/stacker/audio/end.mp3"/>
+			<answer text="led" value="true" source="/lions/games/dswmedia/stacker/audio/led.mp3"/>
+			<answer text="moo" value="false" source="/lions/games/dswmedia/stacker/audio/moo.mp3"/>
+			<answer text="hot" value="false" source="/lions/games/dswmedia/stacker/audio/hot.mp3"/>
+			<answer text="bow" value="false" source="/lions/games/dswmedia/stacker/audio/bow.mp3"/>
+			<answer text="hip" value="false" source="/lions/games/dswmedia/stacker/audio/hip.mp3"/>
+			<answer text="bad" value="false" source="/lions/games/dswmedia/stacker/audio/bad.mp3"/>
+			<answer text="lip" value="false" source="/lions/games/dswmedia/stacker/audio/lip.mp3"/>
+			<answer text="hug" value="false" source="/lions/games/dswmedia/stacker/audio/hug.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;beg&lt;/font&gt;, &lt;font color='#993300'&gt;egg&lt;/font&gt;, &lt;font color='#993300'&gt;get&lt;/font&gt;, &lt;font color='#993300'&gt;pep&lt;/font&gt;, and &lt;font color='#993300'&gt;leg&lt;/font&gt; all have the short &quot;e&quot; sound in them." id="E2" correctAudio="/lions/games/dswmedia/stacker/audio/correct_e_2.mp3">
+			<answer text="beg" value="true" source="/lions/games/dswmedia/stacker/audio/beg.mp3"/>
+			<answer text="egg" value="true" source="/lions/games/dswmedia/stacker/audio/egg.mp3"/>
+			<answer text="get" value="true" source="/lions/games/dswmedia/stacker/audio/get.mp3"/>
+			<answer text="pep" value="true" source="/lions/games/dswmedia/stacker/audio/pep.mp3"/>
+			<answer text="leg" value="true" source="/lions/games/dswmedia/stacker/audio/leg.mp3"/>
+			<answer text="fix" value="false" source="/lions/games/dswmedia/stacker/audio/fix.mp3"/>
+			<answer text="fun" value="false" source="/lions/games/dswmedia/stacker/audio/fun.mp3"/>
+			<answer text="fox" value="false" source="/lions/games/dswmedia/stacker/audio/fox.mp3"/>
+			<answer text="odd" value="false" source="/lions/games/dswmedia/stacker/audio/odd.mp3"/>
+			<answer text="rip" value="false" source="/lions/games/dswmedia/stacker/audio/rip.mp3"/>
+			<answer text="hum" value="false" source="/lions/games/dswmedia/stacker/audio/hum.mp3"/>
+			<answer text="wax" value="false" source="/lions/games/dswmedia/stacker/audio/wax.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;bed&lt;/font&gt;, &lt;font color='#993300'&gt;jet&lt;/font&gt;, &lt;font color='#993300'&gt;wed&lt;/font&gt;, &lt;font color='#993300'&gt;wet&lt;/font&gt;, and &lt;font color='#993300'&gt;men&lt;/font&gt; all have the short &quot;e&quot; sound in them." id="E3" correctAudio="/lions/games/dswmedia/stacker/audio/correct_e_3.mp3">
+			<answer text="bed" value="true" source="/lions/games/dswmedia/stacker/audio/bed.mp3"/>
+			<answer text="jet" value="true" source="/lions/games/dswmedia/stacker/audio/jet.mp3"/>
+			<answer text="wed" value="true" source="/lions/games/dswmedia/stacker/audio/wed.mp3"/>
+			<answer text="wet" value="true" source="/lions/games/dswmedia/stacker/audio/wet.mp3"/>
+			<answer text="men" value="true" source="/lions/games/dswmedia/stacker/audio/men.mp3"/>
+			<answer text="ham" value="false" source="/lions/games/dswmedia/stacker/audio/ham.mp3"/>
+			<answer text="lid" value="false" source="/lions/games/dswmedia/stacker/audio/lid.mp3"/>
+			<answer text="fan" value="false" source="/lions/games/dswmedia/stacker/audio/fan.mp3"/>
+			<answer text="dim" value="false" source="/lions/games/dswmedia/stacker/audio/dim.mp3"/>
+			<answer text="rat" value="false" source="/lions/games/dswmedia/stacker/audio/rat.mp3"/>
+			<answer text="mad" value="false" source="/lions/games/dswmedia/stacker/audio/mad.mp3"/>
+			<answer text="act" value="false" source="/lions/games/dswmedia/stacker/audio/act.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;ten&lt;/font&gt;, &lt;font color='#993300'&gt;yes&lt;/font&gt;, &lt;font color='#993300'&gt;met&lt;/font&gt;, &lt;font color='#993300'&gt;fed&lt;/font&gt;, and &lt;font color='#993300'&gt;pet&lt;/font&gt; all have the short &quot;e&quot; sound in them." id="E4" correctAudio="/lions/games/dswmedia/stacker/audio/correct_e_4.mp3">
+			<answer text="ten" value="true" source="/lions/games/dswmedia/stacker/audio/ten.mp3"/>
+			<answer text="yes" value="true" source="/lions/games/dswmedia/stacker/audio/yes.mp3"/>
+			<answer text="met" value="true" source="/lions/games/dswmedia/stacker/audio/met.mp3"/>
+			<answer text="fed" value="true" source="/lions/games/dswmedia/stacker/audio/fed.mp3"/>
+			<answer text="pet" value="true" source="/lions/games/dswmedia/stacker/audio/pet.mp3"/>
+			<answer text="bus" value="false" source="/lions/games/dswmedia/stacker/audio/bus.mp3"/>
+			<answer text="tin" value="false" source="/lions/games/dswmedia/stacker/audio/tin.mp3"/>
+			<answer text="bib" value="false" source="/lions/games/dswmedia/stacker/audio/bib.mp3"/>
+			<answer text="and" value="false" source="/lions/games/dswmedia/stacker/audio/and.mp3"/>
+			<answer text="cab" value="false" source="/lions/games/dswmedia/stacker/audio/cab.mp3"/>
+			<answer text="ant" value="false" source="/lions/games/dswmedia/stacker/audio/ant.mp3"/>
+			<answer text="bit" value="false" source="/lions/games/dswmedia/stacker/audio/bit.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;red&lt;/font&gt;, &lt;font color='#993300'&gt;bet&lt;/font&gt;, &lt;font color='#993300'&gt;Ted&lt;/font&gt;, &lt;font color='#993300'&gt;web&lt;/font&gt;, and &lt;font color='#993300'&gt;peg&lt;/font&gt; all have the short &quot;e&quot; sound in them." id="E5" correctAudio="/lions/games/dswmedia/stacker/audio/correct_e_5.mp3">
+			<answer text="red" value="true" source="/lions/games/dswmedia/stacker/audio/red.mp3"/>
+			<answer text="bet" value="true" source="/lions/games/dswmedia/stacker/audio/bet.mp3"/>
+			<answer text="Ted" value="true" source="/lions/games/dswmedia/stacker/audio/ted.mp3"/>
+			<answer text="web" value="true" source="/lions/games/dswmedia/stacker/audio/web.mp3"/>
+			<answer text="peg" value="true" source="/lions/games/dswmedia/stacker/audio/peg.mp3"/>
+			<answer text="pad" value="false" source="/lions/games/dswmedia/stacker/audio/pad.mp3"/>
+			<answer text="jam" value="false" source="/lions/games/dswmedia/stacker/audio/jam.mp3"/>
+			<answer text="too" value="false" source="/lions/games/dswmedia/stacker/audio/too.mp3"/>
+			<answer text="why" value="false" source="/lions/games/dswmedia/stacker/audio/why.mp3"/>
+			<answer text="box" value="false" source="/lions/games/dswmedia/stacker/audio/box.mp3"/>
+			<answer text="fog" value="false" source="/lions/games/dswmedia/stacker/audio/fog.mp3"/>
+			<answer text="dad" value="false" source="/lions/games/dswmedia/stacker/audio/dad.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;den&lt;/font&gt;, &lt;font color='#993300'&gt;set&lt;/font&gt;, &lt;font color='#993300'&gt;net&lt;/font&gt;, &lt;font color='#993300'&gt;elf&lt;/font&gt;, and &lt;font color='#993300'&gt;elm&lt;/font&gt; all have the short &quot;e&quot; sound in them." id="E6" correctAudio="/lions/games/dswmedia/stacker/audio/correct_e_6.mp3">
+			<answer text="den" value="true" source="/lions/games/dswmedia/stacker/audio/den.mp3"/>
+			<answer text="set" value="true" source="/lions/games/dswmedia/stacker/audio/set.mp3"/>
+			<answer text="net" value="true" source="/lions/games/dswmedia/stacker/audio/net.mp3"/>
+			<answer text="elf" value="true" source="/lions/games/dswmedia/stacker/audio/elf.mp3"/>
+			<answer text="elm" value="true" source="/lions/games/dswmedia/stacker/audio/elm.mp3"/>
+			<answer text="kid" value="false" source="/lions/games/dswmedia/stacker/audio/kid.mp3"/>
+			<answer text="him" value="false" source="/lions/games/dswmedia/stacker/audio/him.mp3"/>
+			<answer text="bug" value="false" source="/lions/games/dswmedia/stacker/audio/bug.mp3"/>
+			<answer text="jug" value="false" source="/lions/games/dswmedia/stacker/audio/jug.mp3"/>
+			<answer text="mud" value="false" source="/lions/games/dswmedia/stacker/audio/mud.mp3"/>
+			<answer text="dog" value="false" source="/lions/games/dswmedia/stacker/audio/dog.mp3"/>
+			<answer text="fib" value="false" source="/lions/games/dswmedia/stacker/audio/fib.mp3"/>
+	</game>
+	</question>
+	<question set="short_i">
+	<game text="The words &lt;font color='#993300'&gt;pit&lt;/font&gt;, &lt;font color='#993300'&gt;hit&lt;/font&gt;, &lt;font color='#993300'&gt;rim&lt;/font&gt;, &lt;font color='#993300'&gt;pig&lt;/font&gt;, and &lt;font color='#993300'&gt;big&lt;/font&gt; all have the short &quot;i&quot; sound in them." id="I1" correctAudio="/lions/games/dswmedia/stacker/audio/correct_i_1.mp3">
+			<answer text="pit" value="true" source="/lions/games/dswmedia/stacker/audio/pit.mp3"/>
+			<answer text="hit" value="true" source="/lions/games/dswmedia/stacker/audio/hit.mp3"/>
+			<answer text="rim" value="true" source="/lions/games/dswmedia/stacker/audio/rim.mp3"/>
+			<answer text="pig" value="true" source="/lions/games/dswmedia/stacker/audio/pig.mp3"/>
+			<answer text="big" value="true" source="/lions/games/dswmedia/stacker/audio/big.mp3"/>
+			<answer text="can" value="false" source="/lions/games/dswmedia/stacker/audio/can.mp3"/>
+			<answer text="map" value="false" source="/lions/games/dswmedia/stacker/audio/map.mp3"/>
+			<answer text="rug" value="false" source="/lions/games/dswmedia/stacker/audio/rug.mp3"/>
+			<answer text="cat" value="false" source="/lions/games/dswmedia/stacker/audio/cat.mp3"/>
+			<answer text="art" value="false" source="/lions/games/dswmedia/stacker/audio/art.mp3"/>
+			<answer text="tax" value="false" source="/lions/games/dswmedia/stacker/audio/tax.mp3"/>
+			<answer text="sun" value="false" source="/lions/games/dswmedia/stacker/audio/sun.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;win&lt;/font&gt;, &lt;font color='#993300'&gt;fix&lt;/font&gt;, &lt;font color='#993300'&gt;sip&lt;/font&gt;, &lt;font color='#993300'&gt;dig&lt;/font&gt;, and &lt;font color='#993300'&gt;bib&lt;/font&gt; all have the short &quot;i&quot; sound in them." id="I2" correctAudio="/lions/games/dswmedia/stacker/audio/correct_i_2.mp3">
+			<answer text="win" value="true" source="/lions/games/dswmedia/stacker/audio/win.mp3"/>
+			<answer text="fix" value="true" source="/lions/games/dswmedia/stacker/audio/fix.mp3"/>
+			<answer text="sip" value="true" source="/lions/games/dswmedia/stacker/audio/sip.mp3"/>
+			<answer text="dig" value="true" source="/lions/games/dswmedia/stacker/audio/dig.mp3"/>
+			<answer text="bib" value="true" source="/lions/games/dswmedia/stacker/audio/bib.mp3"/>
+			<answer text="nap" value="false" source="/lions/games/dswmedia/stacker/audio/nap.mp3"/>
+			<answer text="elf" value="false" source="/lions/games/dswmedia/stacker/audio/elf.mp3"/>
+			<answer text="den" value="false" source="/lions/games/dswmedia/stacker/audio/file.mp3"/>
+			<answer text="fat" value="false" source="/lions/games/dswmedia/stacker/audio/den.mp3"/>
+			<answer text="add" value="false" source="/lions/games/dswmedia/stacker/audio/add.mp3"/>
+			<answer text="mop" value="false" source="/lions/games/dswmedia/stacker/audio/mop.mp3"/>
+			<answer text="pan" value="false" source="/lions/games/dswmedia/stacker/audio/pan.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;jig&lt;/font&gt;, &lt;font color='#993300'&gt;hid&lt;/font&gt;, &lt;font color='#993300'&gt;sit&lt;/font&gt;, &lt;font color='#993300'&gt;inn&lt;/font&gt;, and &lt;font color='#993300'&gt;fib&lt;/font&gt; all have the short &quot;i&quot; sound in them." id="I3" correctAudio="/lions/games/dswmedia/stacker/audio/correct_i_3.mp3">
+			<answer text="jig" value="true" source="/lions/games/dswmedia/stacker/audio/jig.mp3"/>
+			<answer text="hid" value="true" source="/lions/games/dswmedia/stacker/audio/hid.mp3"/>
+			<answer text="sit" value="true" source="/lions/games/dswmedia/stacker/audio/sit.mp3"/>
+			<answer text="inn" value="true" source="/lions/games/dswmedia/stacker/audio/inn.mp3"/>
+			<answer text="fib" value="true" source="/lions/games/dswmedia/stacker/audio/fib.mp3"/>
+			<answer text="pet" value="false" source="/lions/games/dswmedia/stacker/audio/pet.mp3"/>
+			<answer text="bun" value="false" source="/lions/games/dswmedia/stacker/audio/bun.mp3"/>
+			<answer text="men" value="false" source="/lions/games/dswmedia/stacker/audio/men.mp3"/>
+			<answer text="jet" value="false" source="/lions/games/dswmedia/stacker/audio/jet.mp3"/>
+			<answer text="ask" value="false" source="/lions/games/dswmedia/stacker/audio/ask.mp3"/>
+			<answer text="dot" value="false" source="/lions/games/dswmedia/stacker/audio/dot.mp3"/>
+			<answer text="run" value="false" source="/lions/games/dswmedia/stacker/audio/run.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;pin&lt;/font&gt;, &lt;font color='#993300'&gt;him&lt;/font&gt;, &lt;font color='#993300'&gt;ink&lt;/font&gt;, &lt;font color='#993300'&gt;lid&lt;/font&gt;, and &lt;font color='#993300'&gt;mix&lt;/font&gt; all have the short &quot;i&quot; sound in them." id="I4" correctAudio="/lions/games/dswmedia/stacker/audio/correct_i_4.mp3">
+			<answer text="pin" value="true" source="/lions/games/dswmedia/stacker/audio/pin.mp3"/>
+			<answer text="him" value="true" source="/lions/games/dswmedia/stacker/audio/him.mp3"/>
+			<answer text="ink" value="true" source="/lions/games/dswmedia/stacker/audio/ink.mp3"/>
+			<answer text="lid" value="true" source="/lions/games/dswmedia/stacker/audio/lid.mp3"/>
+			<answer text="mix" value="true" source="/lions/games/dswmedia/stacker/audio/mix.mp3"/>
+			<answer text="pot" value="false" source="/lions/games/dswmedia/stacker/audio/pot.mp3"/>
+			<answer text="not" value="false" source="/lions/games/dswmedia/stacker/audio/not.mp3"/>
+			<answer text="lad" value="false" source="/lions/games/dswmedia/stacker/audio/lad.mp3"/>
+			<answer text="pal" value="false" source="/lions/games/dswmedia/stacker/audio/pal.mp3"/>
+			<answer text="ran" value="false" source="/lions/games/dswmedia/stacker/audio/ran.mp3"/>
+			<answer text="nut" value="false" source="/lions/games/dswmedia/stacker/audio/nut.mp3"/>
+			<answer text="lot" value="false" source="/lions/games/dswmedia/stacker/audio/lot.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;dip&lt;/font&gt;, &lt;font color='#993300'&gt;hip&lt;/font&gt;, &lt;font color='#993300'&gt;fit&lt;/font&gt;, &lt;font color='#993300'&gt;kit&lt;/font&gt;, and &lt;font color='#993300'&gt;lip&lt;/font&gt; all have the short &quot;i&quot; sound in them." id="I5" correctAudio="/lions/games/dswmedia/stacker/audio/correct_i_5.mp3">
+			<answer text="dip" value="true" source="/lions/games/dswmedia/stacker/audio/dip.mp3"/>
+			<answer text="hip" value="true" source="/lions/games/dswmedia/stacker/audio/hip.mp3"/>
+			<answer text="fit" value="true" source="/lions/games/dswmedia/stacker/audio/fit.mp3"/>
+			<answer text="kit" value="true" source="/lions/games/dswmedia/stacker/audio/kit.mp3"/>
+			<answer text="lip" value="true" source="/lions/games/dswmedia/stacker/audio/lip.mp3"/>
+			<answer text="bee" value="false" source="/lions/games/dswmedia/stacker/audio/bee.mp3"/>
+			<answer text="hen" value="false" source="/lions/games/dswmedia/stacker/audio/hen.mp3"/>
+			<answer text="pat" value="false" source="/lions/games/dswmedia/stacker/audio/pat.mp3"/>
+			<answer text="lap" value="false" source="/lions/games/dswmedia/stacker/audio/lap.mp3"/>
+			<answer text="bat" value="false" source="/lions/games/dswmedia/stacker/audio/bat.mp3"/>
+			<answer text="log" value="false" source="/lions/games/dswmedia/stacker/audio/log.mp3"/>
+			<answer text="sat" value="false" source="/lions/games/dswmedia/stacker/audio/sat.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;kid&lt;/font&gt;, &lt;font color='#993300'&gt;rib&lt;/font&gt;, &lt;font color='#993300'&gt;his&lt;/font&gt;, &lt;font color='#993300'&gt;tip&lt;/font&gt;, and &lt;font color='#993300'&gt;rip&lt;/font&gt; all have the short &quot;i&quot; sound in them." id="I6" correctAudio="/lions/games/dswmedia/stacker/audio/correct_i_6.mp3">
+			<answer text="kid" value="true" source="/lions/games/dswmedia/stacker/audio/kid.mp3"/>
+			<answer text="rib" value="true" source="/lions/games/dswmedia/stacker/audio/rib.mp3"/>
+			<answer text="his" value="true" source="/lions/games/dswmedia/stacker/audio/his.mp3"/>
+			<answer text="tip" value="true" source="/lions/games/dswmedia/stacker/audio/tip.mp3"/>
+			<answer text="rip" value="true" source="/lions/games/dswmedia/stacker/audio/rip.mp3"/>
+			<answer text="rub" value="false" source="/lions/games/dswmedia/stacker/audio/rub.mp3"/>
+			<answer text="hat" value="false" source="/lions/games/dswmedia/stacker/audio/hat.mp3"/>
+			<answer text="hop" value="false" source="/lions/games/dswmedia/stacker/audio/hop.mp3"/>
+			<answer text="cup" value="false" source="/lions/games/dswmedia/stacker/audio/cup.mp3"/>
+			<answer text="get" value="false" source="/lions/games/dswmedia/stacker/audio/get.mp3"/>
+			<answer text="cub" value="false" source="/lions/games/dswmedia/stacker/audio/cub.mp3"/>
+			<answer text="fed" value="false" source="/lions/games/dswmedia/stacker/audio/fed.mp3"/>
+	</game>
+ </question>
+ <question set="short_o">
+	<game text="The words &lt;font color='#993300'&gt;rot&lt;/font&gt;, &lt;font color='#993300'&gt;pop&lt;/font&gt;, &lt;font color='#993300'&gt;log&lt;/font&gt;, &lt;font color='#993300'&gt;cot&lt;/font&gt;, and &lt;font color='#993300'&gt;pot&lt;/font&gt; all have the short &quot;o&quot; sound in them." id="O1" correctAudio="/lions/games/dswmedia/stacker/audio/correct_o_1.mp3">
+			<answer text="rot" value="true" source="/lions/games/dswmedia/stacker/audio/rot.mp3"/>
+			<answer text="pop" value="true" source="/lions/games/dswmedia/stacker/audio/pop.mp3"/>
+			<answer text="log" value="true" source="/lions/games/dswmedia/stacker/audio/log.mp3"/>
+			<answer text="cot" value="true" source="/lions/games/dswmedia/stacker/audio/cot.mp3"/>
+			<answer text="pot" value="true" source="/lions/games/dswmedia/stacker/audio/pot.mp3"/>
+			<answer text="leg" value="false" source="/lions/games/dswmedia/stacker/audio/leg.mp3"/>
+			<answer text="cap" value="false" source="/lions/games/dswmedia/stacker/audio/cap.mp3"/>
+			<answer text="ask" value="false" source="/lions/games/dswmedia/stacker/audio/ask.mp3"/>
+			<answer text="bet" value="false" source="/lions/games/dswmedia/stacker/audio/bet.mp3"/>
+			<answer text="ape" value="false" source="/lions/games/dswmedia/stacker/audio/ape.mp3"/>
+			<answer text="met" value="false" source="/lions/games/dswmedia/stacker/audio/met.mp3"/>
+			<answer text="hen" value="false" source="/lions/games/dswmedia/stacker/audio/hen.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;rod&lt;/font&gt;, &lt;font color='#993300'&gt;box&lt;/font&gt;, &lt;font color='#993300'&gt;Ron&lt;/font&gt;, &lt;font color='#993300'&gt;not&lt;/font&gt;, and &lt;font color='#993300'&gt;Jon&lt;/font&gt; all have the short &quot;o&quot; sound in them." id="O2" correctAudio="/lions/games/dswmedia/stacker/audio/correct_o_2.mp3">
+			<answer text="rod" value="true" source="/lions/games/dswmedia/stacker/audio/rod.mp3"/>
+			<answer text="box" value="true" source="/lions/games/dswmedia/stacker/audio/box.mp3"/>
+			<answer text="Ron" value="true" source="/lions/games/dswmedia/stacker/audio/ron.mp3"/>
+			<answer text="not" value="true" source="/lions/games/dswmedia/stacker/audio/not.mp3"/>
+			<answer text="Jon" value="true" source="/lions/games/dswmedia/stacker/audio/jon.mp3"/>
+			<answer text="bye" value="false" source="/lions/games/dswmedia/stacker/audio/bye.mp3"/>
+			<answer text="and" value="false" source="/lions/games/dswmedia/stacker/audio/and.mp3"/>
+			<answer text="gap" value="false" source="/lions/games/dswmedia/stacker/audio/gap.mp3"/>
+			<answer text="mad" value="false" source="/lions/games/dswmedia/stacker/audio/mad.mp3"/>
+			<answer text="egg" value="false" source="/lions/games/dswmedia/stacker/audio/egg.mp3"/>
+			<answer text="fed" value="false" source="/lions/games/dswmedia/stacker/audio/fed.mp3"/>
+			<answer text="paw" value="false" source="/lions/games/dswmedia/stacker/audio/paw.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;cod&lt;/font&gt;, &lt;font color='#993300'&gt;bob&lt;/font&gt;, &lt;font color='#993300'&gt;don&lt;/font&gt;, &lt;font color='#993300'&gt;rob&lt;/font&gt;, and &lt;font color='#993300'&gt;sob&lt;/font&gt; all have the short &quot;o&quot; sound in them." id="O3" correctAudio="/lions/games/dswmedia/stacker/audio/correct_o_3.mp3">
+			<answer text="cod" value="true" source="/lions/games/dswmedia/stacker/audio/cod.mp3"/>
+			<answer text="bob" value="true" source="/lions/games/dswmedia/stacker/audio/bob.mp3"/>
+			<answer text="don" value="true" source="/lions/games/dswmedia/stacker/audio/don.mp3"/>
+			<answer text="rob" value="true" source="/lions/games/dswmedia/stacker/audio/rob.mp3"/>
+			<answer text="sob" value="true" source="/lions/games/dswmedia/stacker/audio/sob.mp3"/>
+			<answer text="den" value="false" source="/lions/games/dswmedia/stacker/audio/den.mp3"/>
+			<answer text="map" value="false" source="/lions/games/dswmedia/stacker/audio/map.mp3"/>
+			<answer text="alp" value="false" source="/lions/games/dswmedia/stacker/audio/alp.mp3"/>
+			<answer text="pie" value="false" source="/lions/games/dswmedia/stacker/audio/pie.mp3"/>
+			<answer text="ear" value="false" source="/lions/games/dswmedia/stacker/audio/ear.mp3"/>
+			<answer text="eat" value="false" source="/lions/games/dswmedia/stacker/audio/eat.mp3"/>
+			<answer text="Max" value="false" source="/lions/games/dswmedia/stacker/audio/Max.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;odd&lt;/font&gt;, &lt;font color='#993300'&gt;hot&lt;/font&gt;, &lt;font color='#993300'&gt;hop&lt;/font&gt;, &lt;font color='#993300'&gt;mop&lt;/font&gt;, and &lt;font color='#993300'&gt;lot&lt;/font&gt; all have the short &quot;o&quot; sound in them." id="O4" correctAudio="/lions/games/dswmedia/stacker/audio/correct_o_4.mp3">
+			<answer text="odd" value="true" source="/lions/games/dswmedia/stacker/audio/odd.mp3"/>
+			<answer text="hot" value="true" source="/lions/games/dswmedia/stacker/audio/hot.mp3"/>
+			<answer text="hop" value="true" source="/lions/games/dswmedia/stacker/audio/hop.mp3"/>
+			<answer text="mop" value="true" source="/lions/games/dswmedia/stacker/audio/mop.mp3"/>
+			<answer text="lot" value="true" source="/lions/games/dswmedia/stacker/audio/lot.mp3"/>
+			<answer text="end" value="false" source="/lions/games/dswmedia/stacker/audio/end.mp3"/>
+			<answer text="Nat" value="false" source="/lions/games/dswmedia/stacker/audio/nat.mp3"/>
+			<answer text="bed" value="false" source="/lions/games/dswmedia/stacker/audio/bed.mp3"/>
+			<answer text="bad" value="false" source="/lions/games/dswmedia/stacker/audio/bad.mp3"/>
+			<answer text="sad" value="false" source="/lions/games/dswmedia/stacker/audio/sad.mp3"/>
+			<answer text="car" value="false" source="/lions/games/dswmedia/stacker/audio/car.mp3"/>
+			<answer text="ate" value="false" source="/lions/games/dswmedia/stacker/audio/ate.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;job&lt;/font&gt;, &lt;font color='#993300'&gt;got&lt;/font&gt;, &lt;font color='#993300'&gt;dot&lt;/font&gt;, &lt;font color='#993300'&gt;fog&lt;/font&gt;, and &lt;font color='#993300'&gt;jog&lt;/font&gt; all have the short &quot;o&quot; sound in them." id="O5" correctAudio="/lions/games/dswmedia/stacker/audio/correct_o_5.mp3">
+			<answer text="job" value="true" source="/lions/games/dswmedia/stacker/audio/job.mp3"/>
+			<answer text="got" value="true" source="/lions/games/dswmedia/stacker/audio/got.mp3"/>
+			<answer text="dot" value="true" source="/lions/games/dswmedia/stacker/audio/dot.mp3"/>
+			<answer text="fog" value="true" source="/lions/games/dswmedia/stacker/audio/fog.mp3"/>
+			<answer text="jog" value="true" source="/lions/games/dswmedia/stacker/audio/jog.mp3"/>
+			<answer text="are" value="false" source="/lions/games/dswmedia/stacker/audio/are.mp3"/>
+			<answer text="bat" value="false" source="/lions/games/dswmedia/stacker/audio/bat.mp3"/>
+			<answer text="jaw" value="false" source="/lions/games/dswmedia/stacker/audio/jaw.mp3"/>
+			<answer text="eye" value="false" source="/lions/games/dswmedia/stacker/audio/eye.mp3"/>
+			<answer text="pet" value="false" source="/lions/games/dswmedia/stacker/audio/pet.mp3"/>
+			<answer text="man" value="false" source="/lions/games/dswmedia/stacker/audio/man.mp3"/>
+			<answer text="ice" value="false" source="/lions/games/dswmedia/stacker/audio/ice.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;bop&lt;/font&gt;, &lt;font color='#993300'&gt;hog&lt;/font&gt;, &lt;font color='#993300'&gt;lop&lt;/font&gt;, &lt;font color='#993300'&gt;top&lt;/font&gt;, and &lt;font color='#993300'&gt;dog&lt;/font&gt; all have the short &quot;o&quot; sound in them." id="O6" correctAudio="/lions/games/dswmedia/stacker/audio/correct_o_6.mp3">
+			<answer text="bop" value="true" source="/lions/games/dswmedia/stacker/audio/bop.mp3"/>
+			<answer text="hog" value="true" source="/lions/games/dswmedia/stacker/audio/hog.mp3"/>
+			<answer text="lop" value="true" source="/lions/games/dswmedia/stacker/audio/lop.mp3"/>
+			<answer text="top" value="true" source="/lions/games/dswmedia/stacker/audio/top.mp3"/>
+			<answer text="dog" value="true" source="/lions/games/dswmedia/stacker/audio/dog.mp3"/>
+			<answer text="jam" value="false" source="/lions/games/dswmedia/stacker/audio/jam.mp3"/>
+			<answer text="pig" value="false" source="/lions/games/dswmedia/stacker/audio/pig.mp3"/>
+			<answer text="Sam" value="false" source="/lions/games/dswmedia/stacker/audio/sam.mp3"/>
+			<answer text="pug" value="false" source="/lions/games/dswmedia/stacker/audio/pug.mp3"/>
+			<answer text="jar" value="false" source="/lions/games/dswmedia/stacker/audio/jar.mp3"/>
+			<answer text="pea" value="false" source="/lions/games/dswmedia/stacker/audio/pea.mp3"/>
+			<answer text="peg" value="false" source="/lions/games/dswmedia/stacker/audio/peg.mp3"/>
+	</game>
+ </question>
+ <question set="short_u">
+	<game text="The words &lt;font color='#993300'&gt;pup&lt;/font&gt;, &lt;font color='#993300'&gt;tug&lt;/font&gt;, &lt;font color='#993300'&gt;mud&lt;/font&gt;, &lt;font color='#993300'&gt;sun&lt;/font&gt;, and &lt;font color='#993300'&gt;hut&lt;/font&gt; all have the short &quot;u&quot; sound in them." id="U1" correctAudio="/lions/games/dswmedia/stacker/audio/correct_u_1.mp3">
+			<answer text="pup" value="true" source="/lions/games/dswmedia/stacker/audio/pup.mp3"/>
+			<answer text="tug" value="true" source="/lions/games/dswmedia/stacker/audio/tug.mp3"/>
+			<answer text="mud" value="true" source="/lions/games/dswmedia/stacker/audio/mud.mp3"/>
+			<answer text="sun" value="true" source="/lions/games/dswmedia/stacker/audio/sun.mp3"/>
+			<answer text="hut" value="true" source="/lions/games/dswmedia/stacker/audio/hut.mp3"/>
+			<answer text="man" value="false" source="/lions/games/dswmedia/stacker/audio/man.mp3"/>
+			<answer text="wag" value="false" source="/lions/games/dswmedia/stacker/audio/wag.mp3"/>
+			<answer text="rap" value="false" source="/lions/games/dswmedia/stacker/audio/rap.mp3"/>
+			<answer text="let" value="false" source="/lions/games/dswmedia/stacker/audio/let.mp3"/>
+			<answer text="mix" value="false" source="/lions/games/dswmedia/stacker/audio/mix.mp3"/>
+			<answer text="beg" value="false" source="/lions/games/dswmedia/stacker/audio/beg.mp3"/>
+			<answer text="car" value="false" source="/lions/games/dswmedia/stacker/audio/car.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;hug&lt;/font&gt;, &lt;font color='#993300'&gt;bus&lt;/font&gt;, &lt;font color='#993300'&gt;jug&lt;/font&gt;, &lt;font color='#993300'&gt;cut&lt;/font&gt;, and &lt;font color='#993300'&gt;bug&lt;/font&gt; all have the short &quot;u&quot; sound in them." id="U2" correctAudio="/lions/games/dswmedia/stacker/audio/correct_u_2.mp3">
+			<answer text="hug" value="true" source="/lions/games/dswmedia/stacker/audio/hug.mp3"/>
+			<answer text="bus" value="true" source="/lions/games/dswmedia/stacker/audio/bus.mp3"/>
+			<answer text="jug" value="true" source="/lions/games/dswmedia/stacker/audio/jug.mp3"/>
+			<answer text="cut" value="true" source="/lions/games/dswmedia/stacker/audio/cut.mp3"/>
+			<answer text="bug" value="true" source="/lions/games/dswmedia/stacker/audio/bug.mp3"/>
+			<answer text="paw" value="false" source="/lions/games/dswmedia/stacker/audio/paw.mp3"/>
+			<answer text="has" value="false" source="/lions/games/dswmedia/stacker/audio/has.mp3"/>
+			<answer text="cap" value="false" source="/lions/games/dswmedia/stacker/audio/cap.mp3"/>
+			<answer text="led" value="false" source="/lions/games/dswmedia/stacker/audio/led.mp3"/>
+			<answer text="inn" value="false" source="/lions/games/dswmedia/stacker/audio/inn.mp3"/>
+			<answer text="rib" value="false" source="/lions/games/dswmedia/stacker/audio/rib.mp3"/>
+			<answer text="say" value="false" source="/lions/games/dswmedia/stacker/audio/say.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;but&lt;/font&gt;, &lt;font color='#993300'&gt;hum&lt;/font&gt;, &lt;font color='#993300'&gt;tub&lt;/font&gt;, &lt;font color='#993300'&gt;cud&lt;/font&gt;, and &lt;font color='#993300'&gt;nut&lt;/font&gt; all have the short &quot;u&quot; sound in them." id="U3" correctAudio="/lions/games/dswmedia/stacker/audio/correct_u_3.mp3">
+			<answer text="but" value="true" source="/lions/games/dswmedia/stacker/audio/but.mp3"/>
+			<answer text="hum" value="true" source="/lions/games/dswmedia/stacker/audio/hum.mp3"/>
+			<answer text="tub" value="true" source="/lions/games/dswmedia/stacker/audio/tub.mp3"/>
+			<answer text="cud" value="true" source="/lions/games/dswmedia/stacker/audio/cud.mp3"/>
+			<answer text="nut" value="true" source="/lions/games/dswmedia/stacker/audio/nut.mp3"/>
+			<answer text="ram" value="false" source="/lions/games/dswmedia/stacker/audio/ram.mp3"/>
+			<answer text="joy" value="false" source="/lions/games/dswmedia/stacker/audio/joy.mp3"/>
+			<answer text="web" value="false" source="/lions/games/dswmedia/stacker/audio/web.mp3"/>
+			<answer text="rim" value="false" source="/lions/games/dswmedia/stacker/audio/rim.mp3"/>
+			<answer text="sad" value="false" source="/lions/games/dswmedia/stacker/audio/sad.mp3"/>
+			<answer text="day" value="false" source="/lions/games/dswmedia/stacker/audio/day.mp3"/>
+			<answer text="bet" value="false" source="/lions/games/dswmedia/stacker/audio/bet.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;dug&lt;/font&gt;, &lt;font color='#993300'&gt;sum&lt;/font&gt;, &lt;font color='#993300'&gt;cub&lt;/font&gt;, &lt;font color='#993300'&gt;dud&lt;/font&gt;, and &lt;font color='#993300'&gt;gum&lt;/font&gt; all have the short &quot;u&quot; sound in them." id="U4" correctAudio="/lions/games/dswmedia/stacker/audio/correct_u_4.mp3">
+			<answer text="dug" value="true" source="/lions/games/dswmedia/stacker/audio/dug.mp3"/>
+			<answer text="sum" value="true" source="/lions/games/dswmedia/stacker/audio/sum.mp3"/>
+			<answer text="cub" value="true" source="/lions/games/dswmedia/stacker/audio/cub.mp3"/>
+			<answer text="dud" value="true" source="/lions/games/dswmedia/stacker/audio/dud.mp3"/>
+			<answer text="gum" value="true" source="/lions/games/dswmedia/stacker/audio/gum.mp3"/>
+			<answer text="sit" value="false" source="/lions/games/dswmedia/stacker/audio/sit.mp3"/>
+			<answer text="all" value="false" source="/lions/games/dswmedia/stacker/audio/all.mp3"/>
+			<answer text="elm" value="false" source="/lions/games/dswmedia/stacker/audio/elm.mp3"/>
+			<answer text="off" value="false" source="/lions/games/dswmedia/stacker/audio/off.mp3"/>
+			<answer text="dip" value="false" source="/lions/games/dswmedia/stacker/audio/dip.mp3"/>
+			<answer text="pin" value="false" source="/lions/games/dswmedia/stacker/audio/pin.mp3"/>
+			<answer text="end" value="false" source="/lions/games/dswmedia/stacker/audio/end.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;rub&lt;/font&gt;, &lt;font color='#993300'&gt;bud&lt;/font&gt;, &lt;font color='#993300'&gt;hub&lt;/font&gt;, &lt;font color='#993300'&gt;bun&lt;/font&gt;, and &lt;font color='#993300'&gt;cup&lt;/font&gt; all have the short &quot;u&quot; sound in them." id="U5" correctAudio="/lions/games/dswmedia/stacker/audio/correct_u_5.mp3">
+			<answer text="rub" value="true" source="/lions/games/dswmedia/stacker/audio/rub.mp3"/>
+			<answer text="bud" value="true" source="/lions/games/dswmedia/stacker/audio/bud.mp3"/>
+			<answer text="hub" value="true" source="/lions/games/dswmedia/stacker/audio/hub.mp3"/>
+			<answer text="bun" value="true" source="/lions/games/dswmedia/stacker/audio/bun.mp3"/>
+			<answer text="cup" value="true" source="/lions/games/dswmedia/stacker/audio/cup.mp3"/>
+			<answer text="ray" value="false" source="/lions/games/dswmedia/stacker/audio/ray.mp3"/>
+			<answer text="tar" value="false" source="/lions/games/dswmedia/stacker/audio/tar.mp3"/>
+			<answer text="cow" value="false" source="/lions/games/dswmedia/stacker/audio/cow.mp3"/>
+			<answer text="jig" value="false" source="/lions/games/dswmedia/stacker/audio/jig.mp3"/>
+			<answer text="bag" value="false" source="/lions/games/dswmedia/stacker/audio/bag.mp3"/>
+			<answer text="pep" value="false" source="/lions/games/dswmedia/stacker/audio/pep.mp3"/>
+			<answer text="way" value="false" source="/lions/games/dswmedia/stacker/audio/way.mp3"/>
+	</game>
+	<game text="The words &lt;font color='#993300'&gt;pug&lt;/font&gt;, &lt;font color='#993300'&gt;run&lt;/font&gt;, &lt;font color='#993300'&gt;rug&lt;/font&gt;, &lt;font color='#993300'&gt;rut&lt;/font&gt;, and &lt;font color='#993300'&gt;fun&lt;/font&gt; all have the short &quot;u&quot; sound in them." id="U6" correctAudio="/lions/games/dswmedia/stacker/audio/correct_u_6.mp3">
+			<answer text="pug" value="true" source="/lions/games/dswmedia/stacker/audio/pug.mp3"/>
+			<answer text="run" value="true" source="/lions/games/dswmedia/stacker/audio/run.mp3"/>
+			<answer text="rug" value="true" source="/lions/games/dswmedia/stacker/audio/rug.mp3"/>
+			<answer text="rut" value="true" source="/lions/games/dswmedia/stacker/audio/rut.mp3"/>
+			<answer text="fun" value="true" source="/lions/games/dswmedia/stacker/audio/fun.mp3"/>
+			<answer text="rag" value="false" source="/lions/games/dswmedia/stacker/audio/rag.mp3"/>
+			<answer text="pit" value="false" source="/lions/games/dswmedia/stacker/audio/pit.mp3"/>
+			<answer text="tag" value="false" source="/lions/games/dswmedia/stacker/audio/tag.mp3"/>
+			<answer text="boy" value="false" source="/lions/games/dswmedia/stacker/audio/boy.mp3"/>
+			<answer text="jar" value="false" source="/lions/games/dswmedia/stacker/audio/jar.mp3"/>
+			<answer text="arm" value="false" source="/lions/games/dswmedia/stacker/audio/arm.mp3"/>
+			<answer text="pig" value="false" source="/lions/games/dswmedia/stacker/audio/pig.mp3"/>
+	</game>
+ </question>
+ </questions>
+ <supporting_audio>
+	<splash>
+		<splashScreen source="/lions/games/dswmedia/stacker/audio/chickenstackerlets.mp3"/>
+	</splash>
+	<vowelRollOver>
+		<audio id="short_a" source="/lions/games/dswmedia/stacker/audio/rollover_a.mp3"/>
+		<audio id="short_e" source="/lions/games/dswmedia/stacker/audio/rollover_e.mp3"/>
+		<audio id="short_i" source="/lions/games/dswmedia/stacker/audio/rollover_i.mp3"/>
+		<audio id="short_o" source="/lions/games/dswmedia/stacker/audio/rollover_o.mp3"/>
+		<audio id="short_u" source="/lions/games/dswmedia/stacker/audio/rollover_u.mp3"/>
+	</vowelRollOver>
+	<instructions>
+		<audio id="short_a" source="/lions/games/dswmedia/stacker/audio/stack_a.mp3"/>
+		<audio id="short_e" source="/lions/games/dswmedia/stacker/audio/stack_e.mp3"/>
+		<audio id="short_i" source="/lions/games/dswmedia/stacker/audio/stack_i.mp3"/>
+		<audio id="short_o" source="/lions/games/dswmedia/stacker/audio/stack_o.mp3"/>
+		<audio id="short_u" source="/lions/games/dswmedia/stacker/audio/stack_u.mp3"/>
+	</instructions>
+	<clicks>
+		<correct source="/lions/games/dswmedia/stacker/audio/cluckgood.mp3"/>
+		<incorrect source="/lions/games/dswmedia/stacker/audio/cluckbad.mp3"/>
+		<missed source="/lions/games/dswmedia/stacker/audio/whoopsmissed.mp3"/>
+		<cling source="/lions/games/dswmedia/stacker/audio/cling.mp3"/>
+	</clicks>
+	<incorrect_block>
+		<oops1 source="/lions/games/dswmedia/stacker/audio/oops.mp3"/>
+    <oops2 source="/lions/games/dswmedia/stacker/audio/oops.mp3"/>
+		<does_not_have>
+			<audio id="short_a" source="/lions/games/dswmedia/stacker/audio/doesnothave_a.mp3"/>
+			<audio id="short_e" source="/lions/games/dswmedia/stacker/audio/doesnothave_e.mp3"/>
+			<audio id="short_i" source="/lions/games/dswmedia/stacker/audio/doesnothave_i.mp3"/>
+			<audio id="short_o" source="/lions/games/dswmedia/stacker/audio/doesnothave_o.mp3"/>
+			<audio id="short_u" source="/lions/games/dswmedia/stacker/audio/doesnothave_u.mp3"/>
+		</does_not_have>
+		<try_again source="/lions/games/dswmedia/stacker/audio/letstryagain.mp3"/>
+	</incorrect_block>
+	<congratulations>
+		<congrats_a source="/lions/games/dswmedia/stacker/audio/youdidit.mp3"/>
+    <congrats_b source="/lions/games/dswmedia/stacker/audio/greatjob.mp3"/>
+	</congratulations>
+	<trymore>
+    <trymore source="/lions/games/dswmedia/stacker/audio/letsstackmore.mp3"/>
+	</trymore>
+	<egg_crack>
+ <crack source="/lions/games/dswmedia/stacker/audio/cracksnd.mp3"/>
+	</egg_crack>
+ </supporting_audio>
+ <timer>4000</timer>
+ <wordTimer>1000</wordTimer>
+ <firstWordPause>200</firstWordPause>
+</root>

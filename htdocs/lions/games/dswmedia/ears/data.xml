@@ -1,0 +1,361 @@
+<root>
+  <questions>
+    <question number="1">
+      <picture frameNum="30"/>
+      <word source="_og"/>
+      <answers>
+        <letter name="f" letterAudio="/lions/games/dswmedia/ears/audio/letters/f.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/fog.mp3" correctAnswer="true" />
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/log.mp3"/>
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dog.mp3"/>
+      </answers>
+    </question>
+    <question number="2">
+      <picture frameNum="2"/>
+      <word source="ca_"/>
+      <answers>
+        <letter name="t" letterAudio="/lions/games/dswmedia/ears/audio/letters/t.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/cat.mp3" correctAnswer="true" />
+        <letter name="n" letterAudio="/lions/games/dswmedia/ears/audio/letters/n.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/can.mp3"/>
+        <letter name="p" letterAudio="/lions/games/dswmedia/ears/audio/letters/p.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/cap.mp3"/>
+      </answers>
+    </question>
+    <question number="3">
+      <picture frameNum="10"/>
+      <word source="ru_"/>
+      <answers>
+        <letter name="n" letterAudio="/lions/games/dswmedia/ears/audio/letters/n.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/run.mp3" correctAnswer="true" />
+        <letter name="g" letterAudio="/lions/games/dswmedia/ears/audio/letters/g.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/rug.mp3" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/rub.mp3" />
+      </answers>
+    </question>
+    <question number="4">
+      <picture frameNum="18"/>
+      <word source="_ouse"/>
+      <answers>
+        <letter name="h" letterAudio="/lions/games/dswmedia/ears/audio/letters/h.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/house.mp3" correctAnswer="true" />
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/louse.mp3" />
+        <letter name="m" letterAudio="/lions/games/dswmedia/ears/audio/letters/m.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/mouse.mp3" />
+      </answers>
+    </question>
+    <question number="5">
+      <picture frameNum="6"/>
+      <word source="b_g"/>
+      <answers>
+        <letter name="a" letterAudio="/lions/games/dswmedia/ears/audio/letters/a.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/bag.mp3" correctAnswer="true" />
+        <letter name="o" letterAudio="/lions/games/dswmedia/ears/audio/letters/o.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/bog.mp3" />
+        <letter name="e" letterAudio="/lions/games/dswmedia/ears/audio/letters/e.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/beg.mp3" />
+      </answers>
+    </question>
+    <question number="6">
+      <picture frameNum="17"/>
+      <word source="bar_"/>
+      <answers>
+        <letter name="k" letterAudio="/lions/games/dswmedia/ears/audio/letters/k.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/bark.mp3" correctAnswer="true" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/barb.mp3" />
+        <letter name="n" letterAudio="/lions/games/dswmedia/ears/audio/letters/n.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/barn.mp3" />
+      </answers>
+    </question>
+	
+	
+	 <question number="7">
+      <picture frameNum="37"/>
+      <word source="_it"/>
+      <answers>
+        <letter name="s" letterAudio="/lions/games/dswmedia/ears/audio/letters/s.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/sit.mp3" correctAnswer="true" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/bit.mp3"/>
+        <letter name="f" letterAudio="/lions/games/dswmedia/ears/audio/letters/f.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/fit.mp3"/>
+      </answers>
+    </question>
+    <question number="8">
+      <picture frameNum="3"/>
+      <word source="_ack"/>
+      <answers>
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/back.mp3" correctAnswer="true" />
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/lack.mp3"/>
+        <letter name="t" letterAudio="/lions/games/dswmedia/ears/audio/letters/t.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/tack.mp3"/>
+      </answers>
+    </question>
+    <question number="9">
+      <picture frameNum="13"/>
+      <word source="_ark"/>
+      <answers>
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dark.mp3" correctAnswer="true" />
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/lark.mp3" />
+        <letter name="p" letterAudio="/lions/games/dswmedia/ears/audio/letters/p.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/park.mp3" />
+      </answers>
+    </question>
+    <question number="10">
+      <picture frameNum="9"/>
+      <word source="_aw"/>
+      <answers>
+        <letter name="p" letterAudio="/lions/games/dswmedia/ears/audio/letters/p.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/paw.mp3" correctAnswer="true" />
+        <letter name="r" letterAudio="/lions/games/dswmedia/ears/audio/letters/r.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/raw.mp3" />
+        <letter name="j" letterAudio="/lions/games/dswmedia/ears/audio/letters/j.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/jaw.mp3" />
+      </answers>
+    </question>
+    <question number="11">
+      <picture frameNum="36"/>
+      <word source="see_"/>
+      <answers>
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/seed.mp3" correctAnswer="true" />
+        <letter name="k" letterAudio="/lions/games/dswmedia/ears/audio/letters/k.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/seek.mp3" />
+        <letter name="n" letterAudio="/lions/games/dswmedia/ears/audio/letters/n.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/seen.mp3" />
+      </answers>
+    </question>
+    <question number="12">
+      <picture frameNum="5"/>
+      <word source="_ake"/>
+      <answers>
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/lake.mp3" correctAnswer="true" />
+        <letter name="r" letterAudio="/lions/games/dswmedia/ears/audio/letters/r.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/rake.mp3" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/bake.mp3" />
+      </answers>
+    </question>
+
+
+
+	
+    <question number="13">
+      <picture frameNum="28"/>
+      <word source="_eather"/>
+      <answers>
+        <letter name="f" letterAudio="/lions/games/dswmedia/ears/audio/letters/f.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/feather.mp3" correctAnswer="true" />
+        <letter name="w" letterAudio="/lions/games/dswmedia/ears/audio/letters/w.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/weather.mp3"/>
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/leather.mp3"/>
+      </answers>
+    </question>
+    <question number="14">
+      <picture frameNum="7"/>
+      <word source="_est"/>
+      <answers>
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/best.mp3" correctAnswer="true" />
+        <letter name="w" letterAudio="/lions/games/dswmedia/ears/audio/letters/w.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/west.mp3"/>
+        <letter name="v" letterAudio="/lions/games/dswmedia/ears/audio/letters/v.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/vest.mp3"/>
+      </answers>
+    </question>
+    <question number="15">
+      <picture frameNum="27"/>
+      <word source="_oat"/>
+      <answers>
+        <letter name="c" letterAudio="/lions/games/dswmedia/ears/audio/letters/c.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/coat.mp3" correctAnswer="true" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/boat.mp3" />
+        <letter name="g" letterAudio="/lions/games/dswmedia/ears/audio/letters/g.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/goat.mp3" />
+      </answers>
+    </question>
+    <question number="16">
+      <picture frameNum="23"/>
+      <word source="_and"/>
+      <answers>
+        <letter name="s" letterAudio="/lions/games/dswmedia/ears/audio/letters/s.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/sand.mp3" correctAnswer="true" />
+        <letter name="h" letterAudio="/lions/games/dswmedia/ears/audio/letters/h.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/hand.mp3" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/band.mp3" />
+      </answers>
+    </question>
+    <question number="17">
+      <picture frameNum="15"/>
+      <word source="ha_"/>
+      <answers>
+        <letter name="t" letterAudio="/lions/games/dswmedia/ears/audio/letters/t.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/hat.mp3" correctAnswer="true" />
+        <letter name="m" letterAudio="/lions/games/dswmedia/ears/audio/letters/m.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/ham.mp3" />
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/had.mp3" />
+      </answers>
+    </question>
+    <question number="18">
+      <picture frameNum="20"/>
+      <word source="_ellow"/>
+      <answers>
+        <letter name="y" letterAudio="/lions/games/dswmedia/ears/audio/letters/y.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/yellow.mp3" correctAnswer="true" />
+        <letter name="f" letterAudio="/lions/games/dswmedia/ears/audio/letters/f.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/fellow.mp3" />
+        <letter name="m" letterAudio="/lions/games/dswmedia/ears/audio/letters/m.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/mellow.mp3" />
+      </answers>
+    </question>
+    <question number="19">
+      <picture frameNum="1"/>
+      <word source="_ea"/>
+      <answers>
+        <letter name="s" letterAudio="/lions/games/dswmedia/ears/audio/letters/s.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/sea.mp3" correctAnswer="true" />
+        <letter name="p" letterAudio="/lions/games/dswmedia/ears/audio/letters/p.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/pea.mp3"/>
+        <letter name="t" letterAudio="/lions/games/dswmedia/ears/audio/letters/t.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/tea.mp3"/>
+      </answers>
+    </question>
+    <question number="20">
+      <picture frameNum="14"/>
+      <word source="_ug"/>
+      <answers>
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/bug.mp3" correctAnswer="true" />
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dug.mp3"/>
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/lug.mp3"/>
+      </answers>
+    </question>
+    <question number="21">
+      <picture frameNum="16"/>
+      <word source="_est"/>
+      <answers>
+        <letter name="n" letterAudio="/lions/games/dswmedia/ears/audio/letters/n.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/nest.mp3" correctAnswer="true" />
+        <letter name="t" letterAudio="/lions/games/dswmedia/ears/audio/letters/t.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/test.mp3" />
+        <letter name="r" letterAudio="/lions/games/dswmedia/ears/audio/letters/r.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/rest.mp3" />
+      </answers>
+    </question>
+    <question number="22">
+      <picture frameNum="32"/>
+      <word source="_all"/>
+      <answers>
+        <letter name="t" letterAudio="/lions/games/dswmedia/ears/audio/letters/t.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/tall.mp3" correctAnswer="true" />
+        <letter name="h" letterAudio="/lions/games/dswmedia/ears/audio/letters/h.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/hall.mp3" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/ball.mp3" />
+      </answers>
+    </question>
+    <question number="23">
+      <picture frameNum="21"/>
+      <word source="_oo"/>
+      <answers>
+        <letter name="z" letterAudio="/lions/games/dswmedia/ears/audio/letters/z.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/zoo.mp3" correctAnswer="true" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/boo.mp3" />
+        <letter name="t" letterAudio="/lions/games/dswmedia/ears/audio/letters/t.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/too.mp3" />
+      </answers>
+    </question>
+    <question number="24">
+      <picture frameNum="35"/>
+      <word source="pe_"/>
+      <answers>
+        <letter name="n" letterAudio="/lions/games/dswmedia/ears/audio/letters/n.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/pen.mp3" correctAnswer="true" />
+        <letter name="t" letterAudio="/lions/games/dswmedia/ears/audio/letters/t.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/pet.mp3" />
+        <letter name="g" letterAudio="/lions/games/dswmedia/ears/audio/letters/g.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/peg.mp3" />
+      </answers>
+    </question>
+	
+	
+	
+	
+	 <question number="25">
+      <picture frameNum="13"/>
+      <word source="_ight"/>
+      <answers>
+        <letter name="n" letterAudio="/lions/games/dswmedia/ears/audio/letters/n.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/night.mp3" correctAnswer="true" />
+        <letter name="r" letterAudio="/lions/games/dswmedia/ears/audio/letters/r.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/right.mp3"/>
+        <letter name="s" letterAudio="/lions/games/dswmedia/ears/audio/letters/s.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/sight.mp3"/>
+      </answers>
+    </question>
+    <question number="26">
+      <picture frameNum="29"/>
+      <word source="_air"/>
+      <answers>
+        <letter name="h" letterAudio="/lions/games/dswmedia/ears/audio/letters/h.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/hair.mp3" correctAnswer="true" />
+        <letter name="f" letterAudio="/lions/games/dswmedia/ears/audio/letters/f.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/fair.mp3"/>
+        <letter name="p" letterAudio="/lions/games/dswmedia/ears/audio/letters/p.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/pair.mp3"/>
+      </answers>
+    </question>
+    <question number="27">
+      <picture frameNum="8"/>
+      <word source="_ell"/>
+      <answers>
+        <letter name="y" letterAudio="/lions/games/dswmedia/ears/audio/letters/y.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/yell.mp3" correctAnswer="true" />
+        <letter name="s" letterAudio="/lions/games/dswmedia/ears/audio/letters/s.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/sell.mp3" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/bell.mp3" />
+      </answers>
+    </question>
+    <question number="28">
+      <picture frameNum="33"/>
+      <word source="_an"/>
+      <answers>
+        <letter name="c" letterAudio="/lions/games/dswmedia/ears/audio/letters/c.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/can.mp3" correctAnswer="true" />
+        <letter name="f" letterAudio="/lions/games/dswmedia/ears/audio/letters/f.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/fan.mp3" />
+        <letter name="m" letterAudio="/lions/games/dswmedia/ears/audio/letters/m.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/man.mp3" />
+      </answers>
+    </question>
+    <question number="29">
+      <picture frameNum="11"/>
+      <word source="_ish"/>
+      <answers>
+        <letter name="w" letterAudio="/lions/games/dswmedia/ears/audio/letters/w.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/wish.mp3" correctAnswer="true" />
+        <letter name="f" letterAudio="/lions/games/dswmedia/ears/audio/letters/f.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/fish.mp3" />
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dish.mp3" />
+      </answers>
+    </question>
+    <question number="30">
+      <picture frameNum="17"/>
+      <word source="d_g"/>
+      <answers>
+        <letter name="o" letterAudio="/lions/games/dswmedia/ears/audio/letters/o.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dog.mp3" correctAnswer="true" />
+        <letter name="i" letterAudio="/lions/games/dswmedia/ears/audio/letters/i.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dig.mp3" />
+        <letter name="u" letterAudio="/lions/games/dswmedia/ears/audio/letters/u.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dug.mp3" />
+      </answers>
+    </question>
+	
+	
+	
+	
+	 <question number="31">
+      <picture frameNum="26"/>
+      <word source="_uck"/>
+      <answers>
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/duck.mp3" correctAnswer="true" />
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/luck.mp3"/>
+        <letter name="y" letterAudio="/lions/games/dswmedia/ears/audio/letters/y.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/yuck.mp3"/>
+      </answers>
+    </question>
+    <question number="32">
+      <picture frameNum="11"/>
+      <word source="ca_e"/>
+      <answers>
+        <letter name="k" letterAudio="/lions/games/dswmedia/ears/audio/letters/k.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/cake.mp3" correctAnswer="true" />
+        <letter name="p" letterAudio="/lions/games/dswmedia/ears/audio/letters/p.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/cape.mp3"/>
+        <letter name="v" letterAudio="/lions/games/dswmedia/ears/audio/letters/v.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/cave.mp3"/>
+      </answers>
+    </question>
+    <question number="33">
+      <picture frameNum="34"/>
+      <word source="ho_e"/>
+      <answers>
+        <letter name="l" letterAudio="/lions/games/dswmedia/ears/audio/letters/l.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/hole.mp3" correctAnswer="true" />
+        <letter name="s" letterAudio="/lions/games/dswmedia/ears/audio/letters/s.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/hose.mp3" />
+        <letter name="p" letterAudio="/lions/games/dswmedia/ears/audio/letters/p.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/hope.mp3" />
+      </answers>
+    </question>
+    <question number="34">
+      <picture frameNum="22"/>
+      <word source="p_n"/>
+      <answers>
+        <letter name="a" letterAudio="/lions/games/dswmedia/ears/audio/letters/a.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/pan.mp3" correctAnswer="true" />
+        <letter name="i" letterAudio="/lions/games/dswmedia/ears/audio/letters/i.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/pin.mp3" />
+        <letter name="e" letterAudio="/lions/games/dswmedia/ears/audio/letters/e.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/pen.mp3" />
+      </answers>
+    </question>
+    <question number="35">
+      <picture frameNum="5"/>
+      <word source="_ish"/>
+      <answers>
+        <letter name="f" letterAudio="/lions/games/dswmedia/ears/audio/letters/f.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/fish.mp3" correctAnswer="true" />
+        <letter name="w" letterAudio="/lions/games/dswmedia/ears/audio/letters/w.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/wish.mp3" />
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dish.mp3" />
+      </answers>
+    </question>
+    <question number="36">
+      <picture frameNum="34"/>
+      <word source="_ig"/>
+      <answers>
+        <letter name="d" letterAudio="/lions/games/dswmedia/ears/audio/letters/d.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/dig.mp3" correctAnswer="true" />
+        <letter name="w" letterAudio="/lions/games/dswmedia/ears/audio/letters/w.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/wig.mp3" />
+        <letter name="b" letterAudio="/lions/games/dswmedia/ears/audio/letters/b.mp3" wordAudio="/lions/games/dswmedia/ears/audio/words/big.mp3" />
+      </answers>
+    </question>
+  </questions>
+  <images link="/lions/games/dswmedia/ears/images/images.swf"/>
+  <correct>
+    <audio link="/lions/games/dswmedia/ears/audio/phrases/goodlisten.mp3" />
+    <audio link="/lions/games/dswmedia/ears/audio/phrases/yougotit.mp3" />
+  </correct>
+  <incorrect>
+    <audio link="/lions/games/dswmedia/ears/audio/phrases/notright.mp3" />
+    <audio link="/lions/games/dswmedia/ears/audio/phrases/tryagain.mp3" />
+  </incorrect>
+  <next>
+    <audio link="/lions/games/dswmedia/ears/audio/phrases/domore.mp3" text="That was fun. Let's do some more!"/>
+    <audio link="/lions/games/dswmedia/ears/audio/phrases/wantagain.mp3" text="Want to go again?"/>
+  </next>
+  <splash>
+    <audio link="/lions/games/dswmedia/ears/audio/fuzzylionears_intro.mp3" />
+  </splash>
+ 
+</root>
+
+

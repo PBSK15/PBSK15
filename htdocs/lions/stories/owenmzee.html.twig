@@ -1,0 +1,35 @@
+{% extends 'lions/includes/lionsPage.html.twig' %}
+{% set pageTitle = ' . Owen and Mzee | PBS Kids' %}
+{% set hasFooterStyle = false %}
+{% set bodyOpeningTag = '<body>' %}
+{% set modernHeadband = true %}
+{% set hasTopNav = true %}
+
+
+{% block mainContent %}<div id="main"><!-- #bbinclude "sidenav.html" #AREA#="stories" -->
+ <div id="sidenav">
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="536" bgcolor="##BGCOL#"><param name="movie" value="../dswmedia/sidenav2.swf"><param name="flashvars" value="area=stories&amp;page=owenmzee"><param name="bgcolor" value="##BGCOL#"><param name="quality" value="best"><embed src="../dswmedia/sidenav2.swf" flashvars="area=stories&amp;page=owenmzee" menu="false" quality="best" bgcolor="##BGCOL#" width="165" height="536" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+ </div>
+ <script language="javascript" type="text/javascript">
+	// <![CDATA[
+		var si = new SWFObject("../dswmedia/sidenav2.swf","","165","536","6","##BGCOL#");
+		si.setAttribute("redirectUrl",warnPg);
+		si.addParam("quality","best");
+		si.addParam("allowscriptaccess","always");
+		si.addVariable("area","stories");
+		si.addVariable("page","owenmzee");
+		PBS_enable_cdn(si); 
+		si.write("sidenav");
+	// ]]>
+	</script> <!-- end bbinclude --> <img src="images/banner_top.gif" alt="Stories" title="" width="249" height="80" class="fL"><img src="images/titles/owenmzee.gif" alt="Owen and Mzee" title="" width="379" height="80" class="fL">
+ <div id="content">
+  <div class="fL">
+   <img src="images/banner_bott.gif" alt="" width="215" height="39"><img src="images/leona.gif" alt="Leona reading a book" title="" width="278" height="270"><a href="owenmzee-game.html" onmouseover="over('game')" onmouseout="off('game')"><img src="images/play_game.gif" alt="Play the Game, too!" title="" width="245" height="67" border="0" class="fL" name="game"></a><a href="../video-help.html" onclick="return popHelp(this.href)" onmouseover="over('help')" onmouseout="off('help')"><img src="images/help.gif" alt="Help" title="" width="33" height="67" border="0" name="help"></a>
+  </div> <!-- #bbinclude "video_embed_sto.html" #ABBREV#="owenmzee" -->
+  <div id="vidclip" style="height:345px;margin-top:13px;">
+   <!--[if gte IE 6]><noscript><![endif]--><object classid="clsid:22d6f312-b0f6-11d0-94ab-0080c74c7e95" width="320" height="285"><param name="filename" value="http://media.pbs.org/asxgen/general/windows/wgbh/lions/owenmzee.wmv.asx?sami=http://pbskids.org/lions/stories/owenmzee.sami"><param name="samifilename" value="owenmzee.sami"><param name="captioningid" value="cc"><param name="volume" value="100"><embed type="application/x-mplayer2" pluginspage="http://www.microsoft.com/mediaplayer" src="http://media.pbs.org/asxgen/general/windows/wgbh/lions/owenmzee.wmv.asx?sami=http://pbskids.org/lions/stories/owenmzee.sami" width="320" height="285" volume="100" captioningid="cc" samifilename="owenmzee.sami"></object><!--[if gte IE 6]></noscript><script>docwrite('<object classid="clsid:22d6f312-b0f6-11d0-94ab-0080c74c7e95" width="320" height="285"><param name="filename" value="http://media.pbs.org/asxgen/general/windows/wgbh/lions/owenmzee.wmv.asx?sami=http://pbskids.org/lions/stories/owenmzee.sami" /><param name="samifilename" value="owenmzee.sami" /><param name="captioningid" value="cc" /><param name="volume" value="100" /><\/object>');</script><![endif]-->
+   <div id="cc"></div>
+  </div> <!-- end bbinclude -->
+ </div><img src="images/bottom_full.gif" alt="" width="628" height="12" class="fL">
+</div>{% endblock %}
+

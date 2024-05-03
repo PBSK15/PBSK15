@@ -1,0 +1,63 @@
+<xml>
+<words>
+	<word n="1" v="camouflage" def="A pattern that makes something hard to see." />
+	<word n="2" v="textured" def="Rough or bumpy to the touch." />
+	<word n="3" v="circular" def="Round." />
+	<word n="4" v="colorful" def="Made up of many bright colors."/>
+</words>
+
+<qs>
+	<question n="1">
+		<part n="a" v="The stripes on a zebra act as" />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="2">
+		<part n="a" v="Some" />
+		<part n="b" v="cloth can be rough on your skin." />
+		<ans v="2" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="3">
+		<part n="a" v="United States coins are"/>
+		<ans v="3" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="4">
+		<part n="a" v="Parrots are very" />
+		<part n="b" v="birds." />
+		<ans v="4" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="5">
+		<part n="a" v="A merry-go-round moves in a" />
+		<part n="b" v="path." />
+		<ans v="3" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="6">
+		<part n="a" v="Animals with" />
+		<part n="b" v="blend in with what's around them." />
+		<ans v="1" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="7">
+		<part n="a" v="Plain animals are harder to see than" />
+		<part n="b" v="ones." />
+		<ans v="4" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="8">
+		<part n="a" v="The outside of a football is" />
+		<ans v="2" a="y" />
+		<ans v="1" a="n" />
+	</question>
+</qs>
+</xml>

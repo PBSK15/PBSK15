@@ -1,0 +1,64 @@
+<xml>
+<words>
+	<word n="1" v="the blues" def="A feeling of sadness." />
+	<word n="2" v="miserable" def="Very very sad." />
+	<word n="3" v="golden" def="A warm, shiny, yellow color." />
+	<word n="4" v="terrific" def="Very, very good."/>
+</words>
+
+<qs>
+	<question n="1">
+		<part n="a" v="Sometimes a rainy day can give you" />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="2">
+		<part n="a" v="People who are" />
+		<part n="b" v="sigh a lot." />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="3">
+		<part n="a" v="The"/>
+		<part n="b" v="sun shone down on the beach."/>
+		<ans v="3" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="4">
+		<part n="a" v="Ice cream tastes" />
+		<part n="b" v="on a hot day." />
+		<ans v="4" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="5">
+		<part n="a" v="When everything goes wrong, you might feel" />
+		<ans v="2" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="6">
+		<part n="a" v="It is" />
+		<part n="b" v="to get a gift from a friend." />
+		<ans v="4" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="7">
+		<part n="a" v="If you have" />
+		<part n="b" v="something funny might cheer you up." />
+		<ans v="1" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="8">
+		<part n="a" v="The field of yellow dandelions was a" />
+		<part n="b" v="carpet."/>
+		<ans v="3" a="y" />
+		<ans v="1" a="n" />
+	</question>
+</qs>
+</xml>

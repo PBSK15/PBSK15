@@ -1,0 +1,18 @@
+<layout>
+	<controls>
+		<region id="tpBottomRegion">
+			<row percentWidth="100" height="50" verticalAlign="middle">
+			    <group percentWidth="100" height="50" verticalAlign="middle" paddingLeft="5" paddingRight="5">
+					<control id="tpPlay" />
+					<spacer width="10"/>
+					<control id="tpScrubber"/>
+					<control id="" />
+					<spacer width="10"/>
+					<control id="tpFullScreen"/>
+					<control id="pbsCC"/>
+					<control id="tpVolume" expandDirection="up"/>
+			    </group>
+			</row>
+		</region>
+	</controls>
+</layout>

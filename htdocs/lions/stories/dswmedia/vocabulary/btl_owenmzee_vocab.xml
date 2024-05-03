@@ -1,0 +1,65 @@
+<xml>
+<words>
+	<word n="1" v="rescue" def="To save someone or something from danger." />
+	<word n="2" v="herd" def="A large group of animals." />
+	<word n="3" v="tag along" def="To follow all over the place." />
+	<word n="4" v="tortoise" def="A land or freshwater animal with a hard shell."/>
+</words>
+
+<qs>
+	<question n="1">
+		<part n="a" v="Fire fighters" />
+		<part n="b" v="people in trouble." />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="2">
+		<part n="a" v="Cows often walk in a" />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="3">
+		<part n="a" v="Little kids like to" />
+		<part n="b" v="with their parents." />
+		<ans v="3" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="4">
+		<part n="a" v="A" />
+		<part n="b" v="looks a lot like a sea turtle." />
+		<ans v="4" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="5">
+		<part n="a" v="Leona likes to" />
+		<part n="b" v="with Lionel." />
+		<ans v="3" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="6">
+		<part n="a" v="Many people try to" />
+		<part n="b" v="hurt animals." />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="7">
+		<part n="a" v="A" />
+		<part n="b" v="can hide in its shell." />
+		<ans v="4" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="8">
+		<part n="a" v="A" />
+		<part n="b" v="of hippos takes up lots of space." />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+</qs>
+</xml>

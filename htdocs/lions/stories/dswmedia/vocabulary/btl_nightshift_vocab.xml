@@ -1,0 +1,64 @@
+<xml>
+<words>
+	<word n="1" v="security guard" def="A person who protects a building." />
+	<word n="2" v="plumber" def="A person who works with water and pipes." />
+	<word n="3" v="chef" def="A person who cooks in a restaurant." />
+	<word n="4" v="artist" def="A person who makes art."/>
+</words>
+<qs>
+	<question n="1">
+		<part n="a" v="The" />
+		<part n="b" v="makes sure no one gets in." />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="2">
+		<part n="a" v="The" />
+		<part n="b" v="fixed the broken sink." />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="3">
+		<part n="a" v="The" />
+		<part n="b" v="made yummy macaroni and cheese." />
+		<ans v="3" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="4">
+		<part n="a" v="The" />
+		<part n="b" v="painted a pretty picture." />
+		<ans v="4" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="5">
+		<part n="a" v="To be a good" />
+		<part n="b" v=", you must love food." />
+		<ans v="3" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="6">
+		<part n="a" v="The" />
+		<part n="b" v="locks all the doors." />
+		<ans v="1" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="7">
+		<part n="a" v="If you love to draw, you could be a great" />
+		<ans v="4" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="8">
+		<part n="a" v="The" />
+		<part n="b" v="put a new tub in the bathroom." />
+		<ans v="2" a="y" />
+		<ans v="3" a="n" />
+	</question>
+</qs>
+</xml>

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Page Not Found!</title>
+
+<script language="javascript" type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script language="javascript" type="text/javascript" src="/lions/js/shared.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/lions/css/kids3.css" />
+<link rel="stylesheet" type="text/css" href="/lions/css/games2.css" />
+
+<style type="text/css">/* <![CDATA[ */
+a { color: #c01900; }
+p {
+	font: 14px helvetica, arial, sans-serif;
+	color: #2b5187;
+	margin: 20px 10px 0 57px;
+}
+/* ]]> */</style>
+
+</head>
+<body>
+
+<!--
+<div id="topnav">
+    <div class="topnav-content">
+        <a href="/"><img class="pbs-kids-logo" src="/lions/images/pbskids_logo.png"></a>
+        <a href="/lions/" class="banner-link"><img src="/lions/images/BTL_logo.png"></a>
+        <div class="promo">
+            <span class="pbs-lm"><img src="/lions/images/learningmedia_logo.png" alt="LearningMedia logo"></span>
+            <p>Educators!<br>Visit PBS Learning Media<br> for more Between the Lions.</p>
+            <span class="link-button"><a class="btn-small" href="http://www.pbslearningmedia.org/collection/ruffruffman/" class="btn-sm" title="PBS LearningMedia">Visit PBS Learning Media</a></span>
+        </div>
+    </div>
+</div>
+ -->
+
+<div style="width:635px;height:394px;background:#fff url(/lions/images/error_boxbg.gif) no-repeat;margin:57px 0 40px 98px;font-size:13px;color:#000;">
+
+	<div style="float:right;padding:44px 20px 10px 10px;"><img src="/lions/images/error_infohen.gif" alt="Information Hen" title="" width="270" height="229" /></div>
+
+	<h3 style="padding:60px 0 0 57px;"><img src="/lions/images/error_header.gif" alt="We couldn't find that page." title="" width="261" height="22" /></h3>
+
+	<p>You seem to be looking for a Between the Lions page that no longer exists. The lions are very sorry about this.</p>
+	<p>But the good news is, all the great <a href="/lions/">Between the Lions games</a> are still available!</p>
+	<p>So <a href="/lions/">head on over</a>, and play some of your favorites right now.</p>
+	<p>Thank you for visiting!</p>
+	<p>&mdash; The Information Hen</p>
+
+</div>
+
+<div id="footer">
+	<div class="blue-band">
+		<div class="content">
+			<a href="/">PBS Kids</a><big> | </big><a href="/lions/copyright.html">&copy;2018 WGBH/Sirius Thinking. BTL TMs WGBH</a><big> | </big><a href="/privacy/">PBS Kids Privacy Policy</a>
+		</div>
+    </div>
+</div>
+
+</body>
+</html>

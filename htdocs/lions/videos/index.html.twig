@@ -1,0 +1,48 @@
+{% extends 'lions/includes/lionsPage.html.twig' %}
+{% set pageTitle = ' . Letter Songs | PBS Kids' %}
+{% set hasFooterStyle = false %}
+{% set bodyOpeningTag = '<body>' %}
+{% set hasTopNav = true %}
+
+
+{% block mainContent %}<div id="main"><!-- #bbinclude "sidenav.html" #AREA#="videos" #BGCOL#="b3c20e" #NUMROWS#="4" -->
+ <div id="sidenav" class="numrows4">
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="536" bgcolor="#b3c20e"><param name="movie" value="../dswmedia/sidenav4.swf"><param name="flashvars" value="area=videos&amp;page=index"><param name="bgcolor" value="#b3c20e"><param name="quality" value="best"><embed src="../dswmedia/sidenav4.swf" flashvars="area=videos&amp;page=index" menu="false" quality="best" bgcolor="#b3c20e" width="165" height="536" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+ </div>
+ <script language="javascript" type="text/javascript">
+	// <![CDATA[
+		var si = new SWFObject("../dswmedia/sidenav4.swf","","165","536","6","#b3c20e");
+		si.setAttribute("redirectUrl",warnPg);
+		si.addParam("quality","best");
+		si.addParam("allowscriptaccess","always");
+		si.addVariable("area","videos");
+		si.addVariable("page","index");
+		PBS_enable_cdn(si); 
+		si.write("sidenav");
+	// ]]>
+	</script> <!-- end bbinclude --> <img src="images/banner_top.gif" alt="Video Clips" title="" width="289" height="80" class="fL"><img src="images/titles/letsongs.gif" alt="Letter Songs" title="" width="339" height="80" class="fL">
+ <div id="content">
+  <img src="images/banner_bott.gif" alt="" width="258" height="39"> <!-- #bbinclude "video_embed_pbs.html" #CATEG#="letsongs" #RLSLSTHT#="302" -->
+  <script language="javascript" type="text/javascript">
+		// <![CDATA[
+			var configObj = {};
+			configObj.keywords = "btl-letsongs";
+			configObj.controlLayoutURL = "/lions/VideoControls.xml";
+			configObj.playerColorScheme = "<colorschemes><player><backgroundColor>0xd66f28<\/backgroundColor><frameColor>0xd66f28<\/frameColor><controlColor>0xffffff<\/controlColor><controlBackgroundColor>0xf68920<\/controlBackgroundColor><controlFrameColor>0xf4b84c<\/controlFrameColor><controlHighlightColor>0xffffff<\/controlHighlightColor><controlHoverColor>0xfed085<\/controlHoverColor><controlSelectedColor>0xfed085<\/controlSelectedColor><loadProgressColor>0xb86028<\/loadProgressColor><playProgressColor>0xb86028<\/playProgressColor><scrubberColor>0xf4b84c<\/scrubberColor><scrubberFrameColor>0xf4b84c<\/scrubberFrameColor><scrubTrackColor>0xd66f28<\/scrubTrackColor><textBackgroundColor>0xf68920<\/textBackgroundColor><textColor>0xffffff<\/textColor><subtitlesBackgroundColor>0x000000<\/subtitlesBackgroundColor><\/player><\/colorschemes>";
+			configObj.releaseListColorScheme = "<colorschemes><releaseList><backgroundColor>0x37b3ca<\/backgroundColor><frameColor>0x37b4ca<\/frameColor><itemBackgroundColor>0x37b4ca<\/itemBackgroundColor><itemBackground2Color>0x37b4ca<\/itemBackground2Color><itemBackgroundHoverColor>0x7be8fb<\/itemBackgroundHoverColor><itemBackgroundSelectedColor>0x3d7cc1<\/itemBackgroundSelectedColor><itemFrameColor>0x37b4ca<\/itemFrameColor><textColor>0x2e440b<\/textColor><text2Color>0x2e440b<\/text2Color><textFrameColor>0xffffff<\/textFrameColor><textHoverColor>0x2e440b<\/textHoverColor><textSelectedColor>0x2e440b<\/textSelectedColor><thumbnailFrameColor>0x37b4ca<\/thumbnailFrameColor><thumbnailFrameColor>0x37b4ca<\/thumbnailFrameColor><scrollButtonColor>0xf15c2a<\/scrollButtonColor><scrollIconColor>0xffffff<\/scrollIconColor><scrollThumbColor>0xf78a1c<\/scrollThumbColor><scrollTrackColor>0xffffff<\/scrollTrackColor><scrollTrackFrameColor>0x37b4ca<\/scrollTrackFrameColor><\/releaseList><\/colorschemes>";
+			configObj.dockBanner = "false";
+			configObj.dockReleaseList = "bottom";
+			configObj.releaseListHeight = 302;
+			configObj.releaseCols = 2;
+			configObj.releaseEndIndex = 40;
+			configObj.playerWidth = 520;
+			configObj.autoPlay = "false";
+			pbs.kidsgo.producerplayer.init(configObj);
+		// ]]>
+		</script> <!-- end bbinclude -->
+ </div>
+ <div id="cont-bott">
+  <img src="images/bottom_full2.gif" alt="" width="635" height="12">
+ </div>
+</div>{% endblock %}
+

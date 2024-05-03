@@ -1,0 +1,64 @@
+<xml>
+<words>
+	<word n="1" v="wiggly" def="Moving quickly back and forth." />
+	<word n="2" v="dab" def="To put a liquid on with a small, quick motion." />
+	<word n="3" v="spray" def="To put a liquid on with a big shower of tiny drops." />
+	<word n="4" v="spotted" def="To be covered with spots or dots."/>
+</words>
+<qs>
+	<question n="1">
+		<part n="a" v="It's hard to hold onto a" />
+		<part n="b" v="worm." />
+		<ans v="1" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="2">
+		<part n="a" v="You must carefully" />
+		<part n="b" v="paint to make polka dots." />
+		<ans v="2" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="3">
+		<part n="a" v="Elephants" />
+		<part n="b" v="themselves with water to keep cool." />
+		<ans v="3" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="4">
+		<part n="a" v="Leopards and Dalmatians are" />
+		<part n="b" v="animals." />
+		<ans v="4" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="5">
+		<part n="a" v="It's fun to have a face painter" />
+		<part n="b" v="paint on your face." />
+		<ans v="2" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="6">
+		<part n="a" v="If you tickle a baby, the baby gets all" />
+		<ans v="1" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="7">
+		<part n="a" v="Firefighters" />
+		<part n="b" v="water on fires to put them out." />
+		<ans v="3" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="8">
+		<part n="a" v="Animals that are" />
+		<part n="b" v="can hide in the shadows." />
+		<ans v="4" a="y" />
+		<ans v="1" a="n" />
+	</question>
+</qs>
+</xml>

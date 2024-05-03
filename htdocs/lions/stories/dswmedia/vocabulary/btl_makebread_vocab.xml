@@ -1,0 +1,64 @@
+<xml>
+<words>
+	<word n="1" v="tasty" def="Yummy." />
+	<word n="2" v="raw" def="Not cooked." />
+	<word n="3" v="bakery" def="A place where bread, cakes, and pastries are made." />
+	<word n="4" v="knead" def="To squeeze again and again with your hands."/>
+</words>
+
+<qs>
+	<question n="1">
+		<part n="a" v="It's great to eat" />
+		<part n="b" v="fruit." />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="2">
+		<part n="a" v="Carrots are crunchy when they are" />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="3">
+		<part n="a" v="A" />
+		<part n="b" v="is a good place to get a pie." />
+		<ans v="3" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="4">
+		<part n="a" v="You must" />
+		<part n="b" v="bread when you make it." />
+		<ans v="4" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="5">
+		<part n="a" v="If you want muffins, a" />
+		<part n="b" v="is the place for you!" />
+		<ans v="3" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="6">
+		<part n="a" v="Different people think different foods are" />
+		<ans v="1" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="7">
+		<part n="a" v="Dough can stick to your hands when you" />
+		<part n="b" v="it." />
+		<ans v="4" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="8">
+		<part n="a" v="Lions like to eat" />
+		<part n="b" v="meat." />
+		<ans v="2" a="y" />
+		<ans v="3" a="n" />
+	</question>
+</qs>
+</xml>

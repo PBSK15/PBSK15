@@ -1,0 +1,42 @@
+{% extends 'lions/includes/lionsPage.html.twig' %}
+{% set pageTitle = ' . Lionel\'s Talking Gizmo | PBS KIDS!' %}
+{% set hasFooterStyle = true %}
+{% set bodyOpeningTag = '<body>' %}
+{% set hasTopNav = true %}
+
+
+{% block mainContent %}<div id="main"><!-- #bbinclude "sidenav_games.html" #AREA#="games" #BGCOL#="fbaf3a"  -->
+ <div id="sidenav">
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="536" bgcolor="#fbaf3a"><param name="movie" value="../dswmedia/sidenav4.swf"><param name="flashvars" value="area=games&amp;page=gizmo"><param name="bgcolor" value="#fbaf3a"><param name="quality" value="best"><embed src="../dswmedia/sidenav4.swf" flashvars="area=games&amp;page=gizmo" menu="false" quality="best" bgcolor="#fbaf3a" width="165" height="536" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+ </div>
+ <script language="javascript" type="text/javascript">
+	// <![CDATA[
+		var si = new SWFObject("../dswmedia/sidenav4.swf","","165","536","6","#fbaf3a");
+		si.setAttribute("redirectUrl",warnPg);
+		si.addParam("quality","best");
+		si.addParam("allowscriptaccess","always");
+		si.addVariable("area","games");
+		si.addVariable("page","gizmo");
+		PBS_enable_cdn(si); 
+		si.write("sidenav");
+	// ]]>
+	</script> <!-- end bbinclude --> <img src="images/banner_top.gif" alt="Games" title="" width="252" height="80" class="fL"><img src="images/titles/gizmo.gif" alt="Lionel's Talking Gizmo" title="" width="376" height="80" class="fL">
+ <div id="content">
+  <img src="images/banner_bott.gif" alt="" width="202" height="39"><img src="images/tops/gizmo.gif" alt="Click on the red buttons to change the words. Click on the blue button to hear the sentence." title="" width="577" height="40" style="margin:15px 0 0 18px;">
+  <div id="gframe">
+   <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="496" height="230" bgcolor="#ff6666"><param name="bgcolor" value="#ff6666"><param name="movie" value="../dswmedia/gizmo/gizmo.swf"><param name="quality" value="best"><embed src="../dswmedia/gizmo/gizmo.swf" menu="false" quality="best" bgcolor="#ff6666" width="496" height="230" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+  </div>
+  <script language="javascript" type="text/javascript">
+	// <![CDATA[
+		var co = new SWFObject("../dswmedia/gizmo/gizmo.swf","","496","230","6","#ff6666");
+		co.setAttribute("redirectUrl",warnPg);
+		co.addParam("quality","best");
+		co.addParam("wmode", "window");
+		co.addParam("allowscriptaccess","always");
+		PBS_enable_cdn(co);
+		co.write("gframe");
+	// ]]>
+	</script>
+ </div><img src="images/bottom_full.gif" alt="" width="628" height="12" class="fL">
+</div>{% endblock %}
+

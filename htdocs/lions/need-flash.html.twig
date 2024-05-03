@@ -1,0 +1,44 @@
+{% extends 'lions/includes/lionsPage.html.twig' %}
+{% set pageTitle = ' . Get Flash | PBS KIDS!' %}
+{% set hasFooterStyle = true %}
+{% set bodyOpeningTag = '<body style="background:#245ea9 url(images/home_bg.gif) no-repeat;">' %}
+{% set modernHeadband = true %}
+{% set hasTopNav = false %}
+
+
+{% block mainContent %}
+<map name="menu" id="menu">
+<area shape="rect" coords="343,323,513,364" href="./" alt="Between the Lions home" />
+<area shape="rect" coords="331,229,527,295" href="http://www.adobe.com/downloads/" title="Flash and Shockwave Players" alt="Get Flash" />
+<area shape="poly" coords="355,406,335,509,620,527,620,483" href="parentsteachers/" alt="Parents &amp; Teachers" />
+<area shape="poly" coords="264,306,330,336,318,502,101,497" href="parentsteachers/lionstogo/" alt="Lions To Go" />
+<area shape="circle" coords="653,381,104" href="videos/" alt="Video Clips" />
+<area shape="circle" coords="625,141,104" href="stories/" alt="Stories" />
+<area shape="circle" coords="158,250,110" href="games/" alt="Games" />
+</map>
+
+<map name="logos" id="logos">
+<area shape="rect" coords="9,20,91,64" href="http://main.wgbh.org/" title="WGBH Online" alt="WGBH" />
+<area shape="rect" coords="97,8,145,70" href="http://www.siriusthinking.com/sirius" title="Sirius Thinking, Ltd." alt="Sirius Thinking" />
+<area shape="rect" coords="149,22,254,62" href="http://www.etv.state.ms.us/" title="Mississippi Public Broadcasting" alt="Mississippi Public Broadcasting" />
+<area shape="rect" coords="324,15,380,70" href="http://www.ed.gov/" title="US Department of Education" alt="US Department of Education" />
+<area shape="rect" coords="258,4,319,78" href="http://www.cpb.org/" title="Corporation for Public Broadcasting" alt="Corporation for Public Broadcasting" />
+<area shape="rect" coords="386,3,444,76" href="http://www.msreads.org/" title="The Barksdale Reading Institute" alt="Barksdale Reading Institute" />
+<area shape="rect" coords="502,26,595,75" href="http://www.chickfila.com/" title="Chick-fil-A" alt="Chick-fil-A" />
+</map>
+
+<img src="images/home_noflash.gif" alt="Between the Lions web site menu" title="" width="800" height="600" border="0" usemap="#menu" />
+
+
+
+<div style="width:373px;height:50px;margin:0 0 20px 214px;background:url(images/station_box.gif);">
+
+<p style="text-align:center;padding-top:20px;">Find out when Between the Lions is on <a href="/tvschedules/localizer.html?nola=BELN&amp;dest=/lions/">in your town</a>.</p>
+
+</div>
+
+<p class="smltxt">BETWEEN THE LIONS is produced by WGBH Boston, Sirius Thinking, Ltd., and Mississippi Public Broadcasting, and is funded in part by<br />the Corporation for Public Broadcasting, the U.S. Department of Education's Ready To Learn program, and by the Barksdale Reading Institute.</p>
+<p class="smltxt">The contents of this Web site were developed under a cooperative agreement, #PRU295A050003, from the U.S. Department of Education. However, those<br />contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government.</p>
+
+<div style="padding:10px 0 15px 75px;"><img src="images/funders3.gif" width="652" height="80" border="0" usemap="#logos" alt="WGBH, Sirius Thinking, Mississippi Public Broadcasting, USDOE, Ready To Learn, Barksdale Reading Institute, and Chick-fil-A" title="" /></div>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'lions/includes/lionsPage.html.twig' %}
+{% set pageTitle = ' | PBS KIDS!' %}
+{% set hasFooterStyle = true %}
+{% set bodyOpeningTag = '<body style=\"background:#245ea9 url(images/home_bg.gif) no-repeat;\">' %}
+{% set modernHeadband = true %}
+{% set hasTopNav = true %}
+
+
+{% block mainContent %}
+
+<map name="logos" id="logos">
+<area shape="rect" coords="9,20,91,64" href="http://main.wgbh.org/" title="WGBH Online" alt="WGBH" />
+<area shape="rect" coords="97,8,145,70" href="http://www.siriusthinking.com/sirius" title="Sirius Thinking, Ltd." alt="Sirius Thinking" />
+<area shape="rect" coords="149,22,254,62" href="http://www.etv.state.ms.us/" title="Mississippi Public Broadcasting" alt="Mississippi Public Broadcasting" />
+<area shape="rect" coords="324,15,380,70" href="http://www.ed.gov/" title="US Department of Education" alt="US Department of Education" />
+<area shape="rect" coords="258,4,319,78" href="http://www.cpb.org/" title="Corporation for Public Broadcasting" alt="Corporation for Public Broadcasting" />
+<area shape="rect" coords="386,3,444,76" href="http://www.msreads.org/" title="The Barksdale Reading Institute" alt="Barksdale Reading Institute" />
+<area shape="rect" coords="502,26,595,75" href="http://www.chickfila.com/" title="Chick-fil-A" alt="Chick-fil-A" />
+</map>
+
+<div id="main">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="800" height="600">
+		<param name="movie" value="dswmedia/home10.swf" />
+		<param name="flashvars" value="hilite=gam_quietmachine&amp;link=games/" />
+		<param name="bgcolor" value="#245ea9" />
+		<param name="quality" value="best" />
+		<embed src="dswmedia/home10.swf" flashvars="hilite=gam_quietmachine&amp;link=games/" menu="false" quality="best" bgcolor="#245ea9" width="800" height="600" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+	</object>
+</div>
+
+<script language="javascript" type="text/javascript">
+// <![CDATA[
+	var fo = new SWFObject("dswmedia/home10.swf","","800","600","6","#245ea9");
+	fo.setAttribute("redirectUrl",warnPg);
+	fo.addParam("quality","best");
+	fo.addParam("allowscriptaccess","always");
+	fo.addVariable("hilite","gam_quietmachine");
+	fo.addVariable("link","games/");
+	PBS_enable_cdn(fo);
+	fo.write("main");
+// ]]>
+</script>
+
+
+
+<div style="width:572px;height:99px;margin-left:114px;">
+	<div style="float:left;width:373px;height:50px;margin:14px 72px 35px 0;background:url(images/station_box2.gif);">
+		
+		<p style="text-align:center;padding-top:20px;">Find out when Between the Lions is on <a href="/tvschedules/localizer.html?nola=BELN&amp;dest=/lions/">in your town</a>.</p>
+		
+	</div>
+	<div style="float:left;width:127px;"><a href="http://pbskids.org/read/"><img src="images/island_logo.gif" alt="PBS Kids Island" title="" width="127" height="85" border="0" /></a></div>
+</div>
+
+<p class="smltxt" style="clear:left;">BETWEEN THE LIONS is produced by WGBH Boston, Sirius Thinking, Ltd., and Mississippi Public Broadcasting, and is funded in part by<br />the Corporation for Public Broadcasting, the U.S. Department of Education's Ready To Learn program, and by the Barksdale Reading Institute.</p>
+<p class="smltxt">The contents of this Web site were developed under a cooperative agreement, #PRU295A050003, from the U.S. Department of Education. However, those<br />contents do not necessarily represent the policy of the Department of Education, and you should not assume endorsement by the Federal Government.</p>
+
+<div style="padding:10px 0 15px 75px;"><img src="images/funders3.gif" width="652" height="80" border="0" usemap="#logos" alt="WGBH, Sirius Thinking, Mississippi Public Broadcasting, USDOE, Ready To Learn, Barksdale Reading Institute, and Chick-fil-A" title="" /></div>
+
+
+{% endblock %}
+

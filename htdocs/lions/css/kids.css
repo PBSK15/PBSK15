@@ -1,0 +1,51 @@
+@import url(footer.css);
+
+a, area, input { outline: none; }
+
+body {
+	font: 10px helvetica, arial, sans-serif;
+	color: #fff;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+#topnav {
+	background: #2560ac url(../images/topnav_bg.gif) no-repeat;
+	height: 139px;
+	width: 100%;
+}
+
+#main { width: 793px; }
+
+#sidenav {
+	float: left;
+	width: 165px;
+	height: 536px;
+}
+
+#content {
+	float: left;
+	width: 628px;
+	height: 376px;
+}
+
+#gframe {
+	width: 539px;
+	margin-left: 18px;
+	padding: 0 0 12px 38px;
+}
+
+.fL { float: left; }
+.fR { float: right; }
+.cB { clear: both; }
+
+img, .dB { display: block; }
+
+#credit {
+	float: left;
+	width: 525px;
+	height: 50px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+}

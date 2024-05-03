@@ -1,0 +1,60 @@
+<!--
+item = num of items per level
+click = num of clicks total
+numtype = num of pairs with attributes
+type = num of attributes in each pair
+reg = num of reg item without attributes
+
+<level item="" click="" numtype="" type="" start="0" reg=""/>
+-->
+<attic>
+	<level item="1" click="1" numtype="0" type="0" start="0" reg="1" regclick="1"/>
+	<level item="2" click="1" numtype="0" type="0" start="0" reg="2" regclick="1"/>
+	<level item="3" click="1" numtype="0" type="0" start="1" reg="3" regclick="1"/>
+	<level item="5" click="1" numtype="0" type="0" start="0" reg="5" regclick="1"/>
+	<level item="2" click="1" numtype="1" type="2" start="0" reg="0" regclick="0"/>
+	<level item="3" click="1" numtype="1" type="2" start="0" reg="1" regclick="0"/>
+	<level item="3" click="1" numtype="1" type="3" start="0" reg="0" regclick="0"/>
+	<level item="5" click="1" numtype="1" type="3" start="0" reg="2" regclick="0"/>
+	
+	<level item="2" click="2" numtype="0" type="0" start="2" reg="2"/>
+	<level item="3" click="2" numtype="0" type="0" start="0" reg="3"/>
+	<level item="4" click="2" numtype="0" type="0" start="0" reg="4"/>
+	<level item="3" click="2" numtype="1" type="2" start="0" reg="1"/>
+	<level item="4" click="2" numtype="1" type="2" start="0" reg="2"/>
+	<level item="5" click="2" numtype="1" type="2" start="0" reg="3"/>
+	<level item="3" click="2" numtype="1" type="3" start="0" reg="0"/>
+	<level item="4" click="2" numtype="1" type="3" start="0" reg="1"/>
+	<level item="4" click="2" numtype="2" type="2" start="0" reg="0"/>
+	<level item="5" click="2" numtype="2" type="2" start="0" reg="1"/>
+	
+	<level item="3" click="3" numtype="0" type="0" start="3" reg="3"/>
+	<level item="4" click="3" numtype="0" type="0" start="0" reg="4"/>
+	<level item="3" click="3" numtype="1" type="2" start="0" reg="1"/>
+	<level item="3" click="3" numtype="1" type="3" start="0" reg="0"/>
+	<level item="4" click="3" numtype="1" type="3" start="0" reg="1"/>
+	<level item="5" click="3" numtype="1" type="3" start="0" reg="2"/>
+	<level item="5" click="3" numtype="2" type="2" start="0" reg="1"/>
+	<level item="6" click="3" numtype="2" type="2" start="0" reg="2"/>
+	<level item="6" click="3" numtype="3" type="2" start="0" reg="0"/>
+	<level item="6" click="3" numtype="2" type="3" start="0" reg="0"/>
+	
+	<level item="4" click="4" numtype="0" type="0" start="4" reg="4"/>
+	<level item="4" click="4" numtype="1" type="2" start="0" reg="2"/>
+	<level item="4" click="4" numtype="1" type="3" start="0" reg="1"/>
+	<level item="4" click="4" numtype="2" type="2" start="0" reg="0"/>
+	<level item="5" click="4" numtype="1" type="2" start="0" reg="3"/>
+	<level item="5" click="4" numtype="2" type="2" start="0" reg="1"/>
+	
+	<level item="5" click="5" numtype="0" type="0" start="5" reg="5"/>
+	<level item="5" click="5" numtype="1" type="2" start="0" reg="3"/>
+	<level item="5" click="5" numtype="1" type="3" start="0" reg="2"/>
+	<level item="5" click="5" numtype="2" type="2" start="0" reg="1"/>
+	<level item="6" click="5" numtype="2" type="2" start="0" reg="2"/>
+	
+	<level item="6" click="6" numtype="0" type="0" start="6" reg="6"/>
+	<level item="6" click="6" numtype="1" type="2" start="0" reg="4"/>
+	<level item="6" click="6" numtype="2" type="2" start="0" reg="2"/>
+	<level item="6" click="6" numtype="3" type="2" start="0" reg="0"/>
+	<level item="6" click="6" numtype="2" type="3" start="0" reg="0"/>
+</attic>

@@ -19,6 +19,13 @@ Redirect 301 /caillou/parentsteachers/ https://www.pbs.org/parents/caillou/
 Redirect 301 /martha/parentsteachers/ https://www.pbs.org/parents/martha/
 Redirect 301 /wordworld/parentsandteachers/ https://www.pbs.org/parents/wordworld/
 
+Redirect 301 /lions/parentsteachers/families/ https://www.pbs.org/parents/lions/families/
+Redirect 301 /lions/parentsteachers/educators/ https://www.pbs.org/parents/lions/educators/
+Redirect 301 /lions/parentsteachers/site/ https://www.pbs.org/parents/lions/site/
+Redirect 301 /lions/parentsteachers/program/ https://www.pbs.org/parents/lions/program/
+Redirect 301 /lions/parentsteachers/schedule/ https://www.pbs.org/parents/lions/schedule/
+Redirect 301 /lions/parentsteachers/help/ https://www.pbs.org/parents/lions/help/
+
 
 
 Redirect 301 /cgi-registry/postmaster.pl https://pbskids.org/
@@ -33,9 +40,6 @@ Redirect 302 /wildkratts/games/roundup/aardvark/ /wildkratts/games/aardvark-town
 Redirect 302 /wildkratts/games/roundup/frogfish/ /wildkratts/games/frogfish-feast-roundup/?
 Redirect 302 /wildkratts/games/roundup/spider/ /wildkratts/games/webtastic-roundup/?
 
-# Code review warning: VERY lazy workaround
-Redirect 301 /lunchlab/.html /lunchlab/home.html
-
 ErrorDocument 404 /whoops.html
 
 # Replace enablecdn in URLs. This is typically supposed to redirect to www-tc.pbskids.org
@@ -49,6 +53,12 @@ RewriteRule ^(.*)@(.*)$ $1?$2 [N,R=301,L]
 
 RewriteRule ^(.*)cgi-registry(.*)\.cgi$ $1cgi-registry$2.php [L,R=301]
 
+
+
+# Very specific redirects
+
+# Code review warning: VERY lazy workaround
+Redirect 301 /lunchlab/.html /lunchlab/home.html
 
 
 

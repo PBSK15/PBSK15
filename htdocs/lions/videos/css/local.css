@@ -1,0 +1,23 @@
+body { background: #a4b300 url(../images/bg.gif); }
+
+#sidenav { background: url(../../images/sidenav_strip.gif) repeat-y; }
+
+div.numrows1#sidenav { height: 709px; }
+div.numrows2#sidenav { height: 783px; }
+div.numrows3#sidenav { height: 857px; }
+div.numrows4#sidenav { height: 932px; }
+
+#content {
+	width: 628px !important;
+	height: auto;
+	background: #fff url(../images/content_bgtile.gif);
+}
+
+#cont-bott {
+	margin-left: 158px;
+	clear: left;
+}
+
+div#playerWrapper { margin: 3px 0 63px 50px; }
+
+#footer { padding-top: 15px; }

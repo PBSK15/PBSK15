@@ -1,0 +1,64 @@
+<xml>
+<words>
+	<word n="1" v="behind" def="On the other side of." />
+	<word n="2" v="below" def="Under." />
+	<word n="3" v="above" def="On top of." />
+	<word n="4" v="far" def="A long way away."/>
+</words>
+<qs>
+	<question n="1">
+		<part n="a" v="Leona can't see Lionel when he hides" />
+		<part n="b" v="a wall." />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="2">
+		<part n="a" v="Your feet are" />
+		<part n="b" v="your knees." />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="3">
+		<part n="a" v="Leona held her umbrella" />
+		<part n="b" v="her head to stay dry." />
+		<ans v="3" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="4">
+		<part n="a" v="The Moon is" />
+		<part n="b" v="from the Earth." />
+		<ans v="4" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="5">
+		<part n="a" v="The roots of a tree grow" />
+		<part n="b" v="the ground." />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="6">
+		<part n="a" v="You can't throw a heavy rock very" />
+		<ans v="4" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="7">
+		<part n="a" v="The actors came out from" />
+		<part n="b" v="the curtain." />
+		<ans v="1" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="8">
+		<part n="a" v="Your eyes are" />
+		<part n="b" v="your nose." />
+		<ans v="3" a="y" />
+		<ans v="1" a="n" />
+	</question>
+</qs>
+</xml>

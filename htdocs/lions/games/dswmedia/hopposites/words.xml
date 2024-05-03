@@ -1,0 +1,342 @@
+<hop>
+	<group num="01">
+		<round num="1">
+			<word>happy</word>
+			<choices correct="y">sad</choices>
+			<choices correct="n" m="03worddef.mp3">fast</choices>
+		</round>
+		<round num="2">
+			<word>sad</word>
+			<choices correct="y">cheerful</choices>
+			<choices correct="n" m="02worddef.mp3">chilly</choices>
+		</round>
+		<round num="3">
+			<word>cheerful</word>
+			<choices correct="y">glum</choices>
+			<choices correct="n" m="05worddef.mp3">delicious</choices>
+		</round>
+	</group>
+	<group num="02">
+		<round num="1">
+			<word>cold</word>
+			<choices correct="y">hot</choices>
+			<choices correct="n" m="04worddef.mp3">loud</choices>
+		</round>
+		<round num="2">
+			<word>hot</word>
+			<choices correct="y">chilly</choices>
+			<choices correct="n" m="05antdef.mp3">yucky</choices>
+		</round>
+		<round num="3">
+			<word>chilly</word>
+			<choices correct="y">toasty</choices>
+			<choices correct="n" m="01worddef.mp3">cheerful</choices>
+		</round>
+	</group>
+	<group num="03">
+		<round num="1">
+			<word>fast</word>
+			<choices correct="y">slow</choices>
+			<choices correct="n" m="05worddef.mp3">yummy</choices>
+		</round>
+		<round num="2">
+			<word>slow</word>
+			<choices correct="y">quick</choices>
+			<choices correct="n" m="01antdef.mp3">sad</choices>
+		</round>
+		<round num="3">
+			<word>quick</word>
+			<choices correct="y">pokey</choices>
+			<choices correct="n" m="04antdef.mp3">quiet</choices>
+		</round>
+	</group>
+	<group num="04">
+		<round num="1">
+			<word>loud</word>
+			<choices correct="y">quiet</choices>
+			<choices correct="n" m="01worddef.mp3">happy</choices>
+		</round>
+		<round num="2">
+			<word>quiet</word>
+			<choices correct="y">noisy</choices>
+			<choices correct="n" m="02antdef.mp3">hot</choices>
+		</round>
+		<round num="3">
+			<word>noisy</word>
+			<choices correct="y">silent</choices>
+			<choices correct="n" m="03worddef.mp3">quick</choices>
+		</round>
+	</group>
+	<group num="05">
+		<round num="1">
+			<word>yummy</word>
+			<choices correct="y">yucky</choices>
+			<choices correct="n" m="02worddef.mp3">cold</choices>
+		</round>
+		<round num="2">
+			<word>yucky</word>
+			<choices correct="y">delicious</choices>
+			<choices correct="n" m="03antdef.mp3">slow</choices>
+		</round>
+		<round num="3">
+			<word>delicious</word>
+			<choices correct="y">disgusting</choices>
+			<choices correct="n" m="04worddef.mp3">noisy</choices>
+		</round>
+	</group>
+	<group num="06">
+		<round num="1">
+			<word>healthy</word>
+			<choices correct="y">sick</choices>
+			<choices correct="n" m="10worddef.mp3">boring</choices>
+		</round>
+		<round num="2">
+			<word>sick</word>
+			<choices correct="y">well</choices>
+			<choices correct="n" m="12worddef.mp3">stern</choices>
+		</round>
+		<round num="3">
+			<word>well</word>
+			<choices correct="y">ill</choices>
+			<choices correct="n" m="14antdef.mp3">small</choices>
+		</round>
+	</group>
+	<group num="07">
+		<round num="1">
+			<word>narrow</word>
+			<choices correct="y">wide</choices>
+			<choices correct="n" m="13antdef.mp3">light</choices>
+		</round>
+		<round num="2">
+			<word>wide</word>
+			<choices correct="y">thin</choices>
+			<choices correct="n" m="16worddef.mp3">break</choices>
+		</round>
+		<round num="3">
+			<word>thin</word>
+			<choices correct="y">broad</choices>
+			<choices correct="n" m="18antdef.mp3">stay</choices>
+		</round>
+	</group>
+	<group num="08">
+		<round num="1">
+			<word>hungry</word>
+			<choices correct="y">full</choices>
+			<choices correct="n" m="19worddef.mp3">asleep</choices>
+		</round>
+		<round num="2">
+			<word>full</word>
+			<choices correct="y">starving</choices>
+			<choices correct="n" m="18worddef.mp3">leave</choices>
+		</round>
+		<round num="3">
+			<word>starving</word>
+			<choices correct="y">stuffed</choices>
+			<choices correct="n" m="16antdef.mp3">repair</choices>
+		</round>
+	</group>
+	<group num="09">
+		<round num="1">
+			<word>hard</word>
+			<choices correct="y">easy</choices>
+			<choices correct="n" m="06worddef.mp3">well</choices>
+		</round>
+		<round num="2">
+			<word>easy</word>
+			<choices correct="y">difficult</choices>
+			<choices correct="n" m="15antdef.mp3">clean</choices>
+		</round>
+		<round num="3">
+			<word>difficult</word>
+			<choices correct="y">simple</choices>
+			<choices correct="n" m="02antdef.mp3">toasty</choices>
+		</round>
+	</group>
+	<group num="10">
+		<round num="1">
+			<word>dull</word>
+			<choices correct="y">exciting</choices>
+			<choices correct="n" m="08worddef.mp3">starving</choices>
+		</round>
+		<round num="2">
+			<word>exciting</word>
+			<choices correct="y">boring</choices>
+			<choices correct="n" m="16worddef.mp3">destroy</choices>
+		</round>
+		<round num="3">
+			<word>boring</word>
+			<choices correct="y">thrilling</choices>
+			<choices correct="n" m="19worddef.mp3">snoozing</choices>
+		</round>
+	</group>
+	<group num="11">
+		<round num="1">
+			<word>brave</word>
+			<choices correct="y">afraid</choices>
+			<choices correct="n" m="17worddef.mp3">near</choices>
+		</round>
+		<round num="2">
+			<word>afraid</word>
+			<choices correct="y">bold</choices>
+			<choices correct="n" m="20antdef.mp3">laugh</choices>
+		</round>
+		<round num="3">
+			<word>bold</word>
+			<choices correct="y">scared</choices>
+			<choices correct="n" m="05worddef.mp3">yummy</choices>
+		</round>
+	</group>
+	<group num="12">
+		<round num="1">
+			<word>serious</word>
+			<choices correct="y">silly</choices>
+			<choices correct="n" m="04worddef.mp3">loud</choices>
+		</round>
+		<round num="2">
+			<word>silly</word>
+			<choices correct="y">stern</choices>
+			<choices correct="n" m="07antdef.mp3">wide</choices>
+		</round>
+		<round num="3">
+			<word>stern</word>
+			<choices correct="y">goofy</choices>
+			<choices correct="n" m="09antdef.mp3">simple</choices>
+		</round>
+	</group>
+	<group num="13">
+		<round num="1">
+			<word>dark</word>
+			<choices correct="y">light</choices>
+			<choices correct="n" m="20worddef.mp3">cry</choices>
+		</round>
+		<round num="2">
+			<word>light</word>
+			<choices correct="y">dim</choices>
+			<choices correct="n" m="05worddef.mp3">delicious</choices>
+		</round>
+		<round num="3">
+			<word>dim</word>
+			<choices correct="y">bright</choices>
+			<choices correct="n" m="15worddef.mp3">messy</choices>
+		</round>
+	</group>
+	<group num="14">
+		<round num="1">
+			<word>large</word>
+			<choices correct="y">small</choices>
+			<choices correct="n" m="01worddef.mp3">happy</choices>
+		</round>
+		<round num="2">
+			<word>small</word>
+			<choices correct="y">enormous</choices>
+			<choices correct="n" m="06antdef.mp3">sick</choices>
+		</round>
+		<round num="3">
+			<word>enormous</word>
+			<choices correct="y">tiny</choices>
+			<choices correct="n" m="11worddef.mp3">brave</choices>
+		</round>
+	</group>
+	<group num="15">
+		<round num="1">
+			<word>dirty</word>
+			<choices correct="y">clean</choices>
+			<choices correct="n" m="01antdef.mp3">glum</choices>
+		</round>
+		<round num="2">
+			<word>clean</word>
+			<choices correct="y">messy</choices>
+			<choices correct="n" m="07antdef.mp3">broad</choices>
+		</round>
+		<round num="3">
+			<word>messy</word>
+			<choices correct="y">tidy</choices>
+			<choices correct="n" m="19antdef.mp3">alert</choices>
+		</round>
+	</group>
+	<group num="16">
+		<round num="1">
+			<word>break</word>
+			<choices correct="y">fix</choices>
+			<choices correct="n" m="03worddef.mp3">quick</choices>
+		</round>
+		<round num="2">
+			<word>fix</word>
+			<choices correct="y">destroy</choices>
+			<choices correct="n" m="07worddef.mp3">narrow</choices>
+		</round>
+		<round num="3">
+			<word>destroy</word>
+			<choices correct="y">repair</choices>
+			<choices correct="n" m="04worddef.mp3">noisy</choices>
+		</round>
+	</group>
+	<group num="17">
+		<round num="1">
+			<word>near</word>
+			<choices correct="y">far</choices>
+			<choices correct="n" m="08antdef.mp3">full</choices>
+		</round>
+		<round num="2">
+			<word>far</word>
+			<choices correct="y">close</choices>
+			<choices correct="n" m="12antdef.mp3">goofy</choices>
+		</round>
+		<round num="3">
+			<word>close</word>
+			<choices correct="y">distant</choices>
+			<choices correct="n" m="20antdef.mp3">chuckle</choices>
+		</round>
+	</group>
+	<group num="18">
+		<round num="1">
+			<word>go</word>
+			<choices correct="y">stay</choices>
+			<choices correct="n" m="04antdef.mp3">silent</choices>
+		</round>
+		<round num="2">
+			<word>stay</word>
+			<choices correct="y">leave</choices>
+			<choices correct="n" m="07worddef.mp3">thin</choices>
+		</round>
+		<round num="3">
+			<word>leave</word>
+			<choices correct="y">remain</choices>
+			<choices correct="n" m="10antdef.mp3">thrilling</choices>
+		</round>
+	</group>
+	<group num="19">
+		<round num="1">
+			<word>asleep</word>
+			<choices correct="y">awake</choices>
+			<choices correct="n" m="05antdef.mp3">disgusting</choices>
+		</round>
+		<round num="2">
+			<word>awake</word>
+			<choices correct="y">snoozing</choices>
+			<choices correct="n" m="15antdef.mp3">tidy</choices>
+		</round>
+		<round num="3">
+			<word>snoozing</word>
+			<choices correct="y">alert</choices>
+			<choices correct="n" m="08worddef.mp3">starving</choices>
+		</round>
+	</group>
+	<group num="20">
+		<round num="1">
+			<word>cry</word>
+			<choices correct="y">laugh</choices>
+			<choices correct="n" m="08antdef.mp3">stuffed</choices>
+		</round>
+		<round num="2">
+			<word>laugh</word>
+			<choices correct="y">weep</choices>
+			<choices correct="n" m="10antdef.mp3">exciting</choices>
+		</round>
+		<round num="3">
+			<word>weep</word>
+			<choices correct="y">chuckle</choices>
+			<choices correct="n" m="17antdef.mp3">distant</choices>
+		</round>
+	</group>
+</hop>

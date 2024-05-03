@@ -1,0 +1,41 @@
+{% extends 'lions/includes/lionsPage.html.twig' %}
+{% set pageTitle = ' . Stone Soup | PBS Kids' %}
+{% set hasFooterStyle = false %}
+{% set bodyOpeningTag = '<body>' %}
+{% set modernHeadband = false %}
+{% set hasTopNav = true %}
+
+
+{% block mainContent %}<div id="main"><!-- #bbinclude "sidenav_storygames.html" #AREA#="stories" #BGCOL#="f15c2a" #CATEG#="folkfable" -->
+ <div id="sidenav">
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="536" bgcolor="#f15c2a"><param name="movie" value="../dswmedia/sidenav4.swf"><param name="flashvars" value="area=stories&amp;page=stonesoup-game&amp;categ=folkfable"><param name="bgcolor" value="#f15c2a"><param name="quality" value="best"><embed src="../dswmedia/sidenav4.swf" flashvars="area=stories&amp;page=stonesoup-game&amp;categ=folkfable" menu="false" quality="best" bgcolor="#f15c2a" width="165" height="536" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+ </div>
+ <script language="javascript" type="text/javascript">
+	// <![CDATA[
+		var si = new SWFObject("../dswmedia/sidenav4.swf","","165","536","6","#f15c2a");
+		si.setAttribute("redirectUrl",warnPg);
+		si.addParam("quality","best");
+		si.addParam("allowscriptaccess","always");
+		si.addVariable("area","stories");
+		si.addVariable("page","stonesoup-game");
+		si.addVariable("categ","folkfable");
+		PBS_enable_cdn(si); 
+		si.write("sidenav");
+	// ]]>
+	</script> <!-- end bbinclude --> <img src="images/banner_top.gif" alt="Stories" title="" width="249" height="80" class="fL"><img src="images/titles/stonegif" alt="Stone Soup" title="" width="379" height="80" class="fL">
+ <div id="content"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="617" height="376" bgcolor="#ffffff"><param name="bgcolor" value="#ffffff"><param name="base" value="/lions/stories/dswmedia/wordmorph/"><param name="movie" value="dswmedia/wordmorph/wordmorph.swf"><param name="quality" value="best"><param name="flashvars" value="story=stonesoup"><embed base="/lions/stories/dswmedia/wordmorph/" src="dswmedia/wordmorph/wordmorph.swf" flashvars="story=stonesoup" menu="false" quality="best" bgcolor="#ffffff" width="617" height="376" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+ </div>
+ <script language="javascript" type="text/javascript">
+	// <![CDATA[
+		var co = new SWFObject("dswmedia/wordmorph/wordmorph.swf","","617","376","6","#ffffff");
+		co.setAttribute("redirectUrl",warnPg);
+		co.addParam("base","/lions/stories/dswmedia/wordmorph/");
+		co.addParam("quality","best");
+		co.addParam("allowscriptaccess","always");
+		co.addVariable("story","stonesoup");
+		PBS_enable_cdn(co);
+		co.write("content");
+	// ]]>
+	</script> <img src="images/bottom_full.gif" alt="" width="628" height="12" class="fL">
+</div>{% endblock %}
+

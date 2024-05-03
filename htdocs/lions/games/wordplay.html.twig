@@ -1,0 +1,42 @@
+{% extends 'lions/includes/lionsPage.html.twig' %}
+{% set pageTitle = ' . Word Play | PBS KIDS!' %}
+{% set hasFooterStyle = true %}
+{% set bodyOpeningTag = '<body>' %}
+{% set hasTopNav = true %}
+
+
+{% block mainContent %}<div id="main"><!-- #bbinclude "sidenav_games.html" #AREA#="games" #BGCOL#="fbaf3a"  -->
+ <div id="sidenav">
+  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="536" bgcolor="#fbaf3a"><param name="movie" value="../dswmedia/sidenav4.swf"><param name="flashvars" value="area=games&amp;page=wordplay"><param name="bgcolor" value="#fbaf3a"><param name="quality" value="best"><embed src="../dswmedia/sidenav4.swf" flashvars="area=games&amp;page=wordplay" menu="false" quality="best" bgcolor="#fbaf3a" width="165" height="536" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+ </div>
+ <script language="javascript" type="text/javascript">
+	// <![CDATA[
+		var si = new SWFObject("../dswmedia/sidenav4.swf","","165","536","6","#fbaf3a");
+		si.setAttribute("redirectUrl",warnPg);
+		si.addParam("quality","best");
+		si.addParam("allowscriptaccess","always");
+		si.addVariable("area","games");
+		si.addVariable("page","wordplay");
+		PBS_enable_cdn(si); 
+		si.write("sidenav");
+	// ]]>
+	</script> <!-- end bbinclude --> <img src="images/banner_top.gif" alt="Games" title="" width="252" height="80" class="fL"><img src="images/titles/wordplay.gif" alt="Word Play" title="" width="376" height="80" class="fL">
+ <div id="content">
+  <img src="images/banner_bott.gif" alt="" width="202" height="39"><img src="images/tops/wordplay.gif" alt="Click on a word to watch it play!" title="" width="577" height="40" style="margin-left:18px;">
+  <div id="gframe">
+   <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="496" height="275" bgcolor="#330066"><param name="bgcolor" value="#330066"><param name="movie" value="dswmedia/wordplay/wordplay.swf"><param name="quality" value="best"><embed src="dswmedia/wordplay/wordplay.swf" menu="false" quality="best" bgcolor="#330066" width="496" height="275" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+  </div>
+  <script language="javascript" type="text/javascript">
+	// <![CDATA[
+		var co = new SWFObject("dswmedia/wordplay/wordplay.swf","","496","275","6","#330066");
+		co.setAttribute("redirectUrl",warnPg);
+		co.addParam("quality","best");
+		co.addParam("wmode", "window");
+		co.addParam("allowscriptaccess","always");
+		PBS_enable_cdn(co);
+		co.write("gframe");
+	// ]]>
+	</script>
+ </div><img src="images/bottom_full.gif" alt="" width="628" height="12" class="fL">
+</div>{% endblock %}
+

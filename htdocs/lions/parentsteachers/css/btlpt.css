@@ -1,0 +1,507 @@
+/*
+-----------------------------------------------
+WGBH interactive
+jon_whitney at wgbh.org
+
+
+- This contains styles for layout of all pages (template)
+-- does NOT contain internal content 
+----------------------------------------------- */
+
+@import url(../../css/footer.css);
+
+a, area, input { outline: none; }
+
+
+/*
+-----------------------------------------------
+globally set everything to 0 
+----------------------------------------------- */
+
+*, td, img  { margin: 0; padding: 0; } 
+
+
+li {
+	display: list-item;
+	vertical-align: top;
+	margin-bottom: 8px;
+}
+
+/*
+-----------------------------------------------
+body
+----------------------------------------------- */
+
+body { 
+	font: 12px helvetica, verdana, arial, sans-serif; 
+	color: #134b87;
+	background: #fff url(../images/bg.gif);
+	line-height: 14px;
+}
+	
+
+a {
+	text-decoration: none;
+	color: #c01900;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #c01900;
+}
+
+a:visited {
+	color: #F3490A;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+h4 {
+	margin: 2.5em 0 1em;
+}
+
+/*
+-----------------------------------------------
+topnav
+----------------------------------------------- */
+
+#top { 
+	width: 858px;
+	height: 158px;
+}
+
+#topkids {
+	float: left;
+	display: inline;
+}
+
+#topnav {
+	float: left;
+	display: inline;
+}
+#top img {
+	vertical-align: bottom;
+}
+
+#kids_logo {
+	margin: 20px 0 0 35px;
+}
+
+/*
+-----------------------------------------------
+home main content
+----------------------------------------------- */
+
+#homepage #main_content {
+	clear: both;
+	width: 858px;
+	background-color: #fff;
+	background: url(../images/box_bg.gif);
+	border-bottom: 7px solid #fff;
+}	
+
+#homepage #main_content p {
+	margin-left: 12px;
+	margin-bottom: 12px;
+	width: 130px;
+}
+
+#homepage #main_left {
+	width: 154px;
+	float: left;
+	display: inline;
+	background-color: #fff;
+	border-bottom: 7px solid #fff;
+}
+
+#homepage #main_middle {
+	background: url(../images/home/box_bg_home.gif);
+	background-position: -154px 0;
+	width: 519px;
+	float: left;
+	display: inline;
+}
+
+#homepage #main_middle .column {
+	width: 173px;
+	float: left;
+	display: inline;
+	}
+
+#homepage #main_middle .column p {
+	margin-left: 27px;
+	width: 116px;
+	margin-top: 12px;
+}
+	
+
+#homepage #main_right {
+	width: 154px;
+	float: left;
+	display: inline;
+	}
+
+#homepage #main_right .tip {
+	width: 150px;
+	margin-left: 10px;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+#homepage #main_right .tip p { 
+	margin-left: 10px;
+}
+
+
+/*
+-----------------------------------------------
+innerpage headers
+----------------------------------------------- */
+
+
+#innerpage #main_content #main_middle h1 {
+	text-indent: -9000px;
+	font-size: 18px;
+	width: 444px;
+	height: 23px;
+}
+
+#h-lionstogo { background-image: url(../images/lionstogo/hdr_lionstogo.gif);}
+#h-au_downloads { background-image: url(../images/lionstogo/hdr_audio_downloads.gif);}
+#h-vi_dlmusic { background-image: url(../images/lionstogo/hdr_music_videos.gif);}
+#h-vi_dlstory { background-image: url(../images/lionstogo/hdr_story_videos.gif);}
+#h-vi_dlcharacter { background-image: url(../images/lionstogo/hdr_character_videos.gif);}
+#h-help_downloads { background-image: url(../images/lionstogo/hdr_help_with_downloads.gif);}
+
+
+
+#h-findit { background-image: url(../images/findit/hdr_findit.gif);}
+#h-findit_skl { background-image: url(../images/findit/hdr_byskill.gif);}
+#h-findit_sub { background-image: url(../images/findit/hdr_subject.gif);}
+#h-findit_cur { background-image: url(../images/findit/hdr_curiculum.gif);}
+
+#h-using { background-image: url(../images/site/hdr_using_this_site.gif);}
+#h-guide { background-image: url(../images/site/hdr_guide_to_kids_site.gif);}
+#h-link { background-image: url(../images/site/hdr_linktous.gif);}
+#h-map { background-image: url(../images/site/hdr_sitemap.gif);}
+#h-credits { background-image: url(../images/site/hdr_webcredits.gif);}
+#h-copyright { background-image: url(../images/site/hdr_copyright.gif);}
+
+#h-progsum { background-image: url(../images/program/hdr_program_summary.gif);}
+#h-edphil { background-image: url(../images/program/hdr_ed_philosophy.gif);}
+#h-edphil_research { background-image: url(../images/program/hdr_ed_philosophy_research.gif);}
+#h-edphil_litcurr { background-image: url(../images/program/hdr_ed_philosophy_lit_curr.gif);}
+#h-lit_curr-over { background-image: url(../images/program/hdr_literacy_curr-over.gif);}
+#h-lit_curr-pre { background-image: url(../images/program/hdr_literacy_curr-pre.gif);}
+#h-lit_curr-k3 { background-image: url(../images/program/hdr_literacy_curr-k3.gif);}
+#h-research { background-image: url(../images/program/hdr_research_reading_studie.gif);}
+#h-episodes { background-image: url(../images/program/hdr_episodes.gif);}
+#h-characters { background-image: url(../images/program/hdr_characters.gif);}
+#h-slideshow { background-image: url(../images/program/hdr_slideshow.gif);}
+#h-proj_team { background-image: url(../images/program/hdr_project_team.gif);}
+#h-tv_credits { background-image: url(../images/program/hdr_tv_credits.gif);}
+
+#h-sched { background-image: url(../images/schedule/hdr_tv_schedule.gif);}
+
+#h-faq { background-image: url(../images/help/hdr_faq.gif);}
+#h-support { background-image: url(../images/help/hdr_tech_support.gif);}
+#h-contact { background-image: url(../images/help/hdr_contact_us.gif);}
+
+#innerpage #main_content #main_left h2 {
+	text-indent: -9000px;
+	width: 146px;
+	height: 23px;
+	margin-left: 8px;
+	margin-bottom: 5px;
+}
+
+#h-activities_everyone { background-image: url(../images/activities/for_everyone.gif);}
+#h-activities_parents { background-image: url(../images/activities/for_parents.gif);}
+#h-activities_teachers { background-image: url(../images/activities/for_teachers.gif);}
+
+
+
+/*
+-----------------------------------------------
+innerpage content
+----------------------------------------------- */
+
+.innernav {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+
+#innerpage #main_content {
+	clear: both;
+	width: 858px;
+	background-color: #fff;
+	background: url(../images/box_bg.gif);
+	border-bottom: 7px solid #fff;
+}	
+
+#innerpage #main_left {
+	padding-top: 30px;
+	width: 154px;
+	float: left;
+	display: inline;
+	background-color: #fff;
+	border-bottom: 7px solid #fff;
+}
+
+#innerpage #main_left p {
+	font-size: 12px;
+	margin-left: 8px;
+	margin-bottom: 12px;
+	width: 130px;
+	line-height: 12px;
+}
+
+#innerpage #main_left .headerimg {
+	margin-left: 8px;
+}
+
+#innerpage #main_content #main_middle {
+	float: left;
+	display: inline;
+	padding-top: 22px;
+	margin-left: 33px;
+	width: 655px;
+/*
+	border-right: 1px solid #c00;
+*/
+}
+
+#innerpage #main_content #main_middle p {
+	margin-bottom: 12px;
+/*
+	width: 444px;
+*/
+}
+
+
+#innerpage #main_content #main_middle .area1 {
+	width: 444px;
+	float: left;
+	display: inline;
+}
+
+#innerpage #main_content #main_middle .area1 #noimg {
+    text-indent: 0px;
+	font-size: 18px;
+	width: 444px;
+	height: 23px;
+}
+
+#innerpage #main_content #main_middle .area2 {
+	width: 444px;
+	float: left;
+	display: inline;
+	background-color: #e0ee50;
+}
+
+
+#innerpage #main_content #main_middle .area3 {
+	width: 444px;
+	float: left;
+	display: inline;
+}
+
+#innerpage #main_content #main_middle .area2 h2, 
+#innerpage #main_content #main_middle .area3 h2, 
+#innerpage #main_content #main_middle .area2 p, 
+#innerpage #main_content #main_middle .area3 p {
+	margin: 16px;
+}
+
+
+#innerpage #main_content #main_middle .area2 ul, 
+#innerpage #main_content #main_middle .area3 ul,
+#innerpage #main_content #main_middle .area2 ol, 
+#innerpage #main_content #main_middle .area3 ol {
+	margin-left: 32px;
+}
+
+
+#innerpage #main_content #main_middle .area2 li, 
+#innerpage #main_content #main_middle .area3 li {
+	width: 400px;
+}
+
+#innerpage #main_content #main_middle .area4 {
+	width: 444px;
+}
+
+
+#innerpage #main_content #main_middle .area5 {
+	width: 186px;
+	background-color: #e0ee50;
+	float: right;
+	display: inline;
+}
+
+#innerpage #main_content #main_middle .area5 p {
+	width: 146px;
+	margin-left: 20px;
+}
+
+#innerpage #main_content #main_middle .area5 ul {
+	margin-left: 40px;
+}
+
+#innerpage #main_content #main_middle .area5 li {
+	vertical-align: top;
+	width: 116px;
+}
+
+
+#innerpage #main_content #main_middle .indented {
+	margin-left: 25px;
+}
+
+#innerpage #main_content #main_middle .listed {
+	margin-bottom: 0;
+}
+
+
+#innerpage .map-list {
+	float: left;
+	display: inline;
+	margin-right: 40px;
+}
+
+#innerpage ul, #innerpage ol {
+	margin-left: 25px;
+	margin-bottom: 12px;
+}
+
+#innerpage ul ul {
+	margin-bottom: 0;
+}
+
+#main_left ul {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#main_left li {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+#innerpage .kids_guide_col {
+	float: left;
+	display: inline;
+	width: 300px;
+	margin-right: 10px;
+}
+
+#innerpage .kids_guide_col {
+	width: 300px;
+}
+
+
+
+/*
+-----------------------------------------------
+tv schedule page
+----------------------------------------------- */
+
+.lionschedule {
+	margin-left: -33px;
+}
+
+
+
+/*
+-----------------------------------------------
+table
+----------------------------------------------- */
+
+table {
+	width: 444px;
+	border: 2px solid #e0ee50;
+	margin-bottom: 16px;
+}
+
+th {
+	text-align: center;
+	width: 148px;
+	background-color: #e0ee50;
+	padding: 5px;
+}
+
+td {
+	text-align: center;
+	border: 2px solid #e0ee50;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.lit_curr_table {
+	text-align: left;
+	font-weight: normal;
+	padding: 1px;
+}
+
+
+
+/*
+-----------------------------------------------
+Lions to go
+----------------------------------------------- */
+
+div.togo_main {
+	width:650px;
+}
+
+div.togo_dl {
+	float:left;
+	background-color:#e0ee50;
+	width:300px;
+	margin:0 16px 16px 0;
+	padding:0;
+}
+
+div.togo_dl div.info {
+	margin:8px 0 0 8px;
+	display:inline; /*   IE hack!  */
+	float:left;
+	width:130px;
+
+}
+
+div.togo_dl img.icon {
+	float:left;
+}
+
+div.aud img.dl {
+	margin:0 auto 1em auto;
+}
+
+div.togo_dl div.viddl {
+	margin:8px 0 0 4px;
+	width:148px;
+	float:left;
+}
+
+div.aud div.info {
+	width:120px;
+}
+
+div.aud div.viddl {
+	width:148px;
+	text-align:center;
+}
+
+
+#innerpage #main_content #main_middle .wide {width:650px;}
+
+#main_middle div.togo_dl ul {margin:0;padding:0;}
+#main_middle div.togo_dl ul li {margin:0;padding:0;list-style-type:none;}
+
+#innerpage #main_content #main_middle .info h2 { margin-bottom: 5px; }
+#main_middle div.togo_dl ol { margin-top: 5px; }

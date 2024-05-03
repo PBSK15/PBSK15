@@ -1,0 +1,64 @@
+<xml>
+<words>
+	<word n="1" v="brave" def="Doing what you need to do, even if you're scared." />
+	<word n="2" v="petrified" def="Very, very scared." />
+	<word n="3" v="courage" def="The feeling that helps you deal with a scary situation." />
+	<word n="4" v="tremble" def="To shake or shiver when you're scared."/>
+</words>
+
+<qs>
+	<question n="1">
+		<part n="a" v="You must be" />
+		<part n="b" v="to face your fears." />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="2">
+		<part n="a" v="Some people are" />
+		<part n="b" v="of snakes." />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="3">
+		<part n="a" v="It took"/>
+		<part n="b" v="for Leona to go into the dark room." />
+		<ans v="3" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="4">
+		<part n="a" v="Animals" />
+		<part n="b" v="when they hear a lion roar." />
+		<ans v="4" a="y" />
+		<ans v="2" a="n" />
+	</question>
+
+	<question n="5">
+		<part n="a" v="Loud thunder may make you feel" />
+		<ans v="2" a="y" />
+		<ans v="4" a="n" />
+	</question>
+
+	<question n="6">
+		<part n="a" v="Some people" />
+		<part n="b" v="when they speak in public." />
+		<ans v="4" a="y" />
+		<ans v="1" a="n" />
+	</question>
+
+	<question n="7">
+		<part n="a" v="Leona was" />
+		<part n="b" v="to go to sleep without her dolly, Lovey." />
+		<ans v="1" a="y" />
+		<ans v="3" a="n" />
+	</question>
+
+	<question n="8">
+		<part n="a" v="When Lionel sang on stage, it took" />
+		<ans v="3" a="y" />
+		<ans v="2" a="n" />
+	</question>
+</qs>
+</xml>

@@ -1,0 +1,33 @@
+body { background: #e5430c url(../images/bg.gif); }
+
+#sidenav { background: url(../../images/sidenav_strip.gif) repeat-y; }
+
+div.numrows1#sidenav { height: 706px; }
+div.numrows2#sidenav { height: 780px; }
+div.numrows3#sidenav { height: 854px; }
+div.numrows4#sidenav { height: 929px; }
+
+#content {
+	height: auto;
+	background: #fff url(../images/content_bgtile.gif);
+}
+
+#cont-bott {
+	margin-left: 158px;
+	clear: left;
+}
+
+div#playerWrapper { margin: 3px 0 63px 50px; }
+
+#footer { padding-top: 15px; }
+
+
+#bnnrbott {
+	float: left;
+	margin-right: 280px;
+}
+
+#gamebtn {
+	float: left;
+	visibility: hidden;
+}

@@ -84,7 +84,7 @@ If you are planning to take this recreation of the 2015 PBS Kids website and hos
 * <b>Angelina Ballerina</b>: ✅
 * <b>Arthur</b>: ✅
 * <b>Barney</b>: ✅
-* <b>Between the Lions</b>: ❌
+* <b>Between the Lions</b>: ✅
 * <b>Caillou</b>: ✅
 * <b>Cat in the Hat</b>: ⌛
 * <b>Chuck Vanderchuck's "Something Something" Explosion</b>: ✅

@@ -119,7 +119,9 @@ $loadAsHtml = [
     'wildkratts/games/animal-match/mem.html',
     'wildkratts/games/photoshoot/shoot.html',
     'wildkratts/games/capture-the-fishmobiles/fishMobiles.html',
-    'wildkratts/games/rhino-bowl/rhinoBowl.html'
+    'wildkratts/games/rhino-bowl/rhinoBowl.html',
+    'lions/games/quietmachine.html',
+    'lions/games/nightshift.html'
 ];
 
 $loadDirsAsHtml = [

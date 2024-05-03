@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Between the Lions{{pageTitle|raw}}</title>
+	<link rel="stylesheet" href="/lions/parentsteachers/css/btlpt.css" media="screen, projection, print" type="text/css" />
+	<link rel="stylesheet" href="/lions/parentsteachers/css/btlpt-print.css" media="print" type="text/css" />
+	<script type="text/javascript" src="/lions/parentsteachers/js/pt_roll.js"></script>
+
+    {% if hasMiddleStyle == true %}
+	<style type="text/css">/* <![CDATA[ */
+/*	#innerpage #main_content #main_middle {width:660px;margin:0;} */
+	#innerpage #main_content #main_middle .area1 {margin:0px;}
+	#main_middle div#newpill.area5 {text-align:center;width:186px;}
+	#main_middle div#newpill img {margin:0 auto;}
+	#main_middle div#newpill div {margin:0 28px; text-align:left;}
+	#main_middle div#newpill h3 {font-size:100%;margin-top:6px;}
+
+/* ]]> */
+</style>
+{% endif %}
+
+{% include 'template_includes/bridge_js_include.html' %}
+</head>
+<body id="innerpage">
+ 
+
+
+
+
+{% include 'template_includes/user_logged_in_script.html' %}
+{% include 'template_includes/modern_pbsk_js.html' %}
+
+
+
+{% block mainContent %}{% endblock %}
+	
+	<!-- #bbinclude "footer.scpt" -->
+{% include 'lions/includes/footer.html' %}
+<!-- end bbinclude -->
+	
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Between the Lions{{pageTitle|raw}}</title>
+
+<script language="javascript" type="text/javascript" src="/producerplayer/js/producerplayer2.js"></script>
+<script language="javascript" type="text/javascript" src="/includes/flash/swfobject.js"></script>
+<script language="javascript" type="text/javascript" src="/lions/js/shared.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/lions/css/kids.css" />
+<link rel="stylesheet" type="text/css" href="css/local.css" />
+
+{% if hasFooterStyle == true %}
+<style type="text/css">/* <![CDATA[ */
+#footer { width: 800px; }
+p { margin: 0; }
+a {	color: #c01900; }
+.smltxt {
+	width: 800px;
+	height: 32px;
+	text-align: center;
+}
+/* ]]> */</style>
+{% endif %}
+
+
+
+{% include 'template_includes/bridge_js_include.html' %}
+</head>
+{{bodyOpeningTag|raw}}
+
+
+{% if modernHeadband == true %}
+    {% include 'template_includes/modern_headband_include.html' %}
+    {% include 'template_includes/modern_pbsk_js.html' %}
+{% else %}
+    {% include 'template_includes/legacy_headband_include.html' %}
+    {% include 'template_includes/legacy_pbsk_js.html' %}
+{% endif %}
+
+
+
+
+
+
+
+
+
+{% if hasTopNav == true %}
+<!-- #bbinclude "topnav.html" -->
+<div id="topnav"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="800" height="132" bgcolor="#2560ac"><param name="bgcolor" value="#2560ac" /><param name="movie" value="../dswmedia/topnav4.swf" /><param name="quality" value="best" /><embed src="../dswmedia/topnav4.swf" menu="false" quality="best" bgcolor="#2560ac" width="800" height="132" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></object></div>
+
+<script language="javascript" type="text/javascript">
+// <![CDATA[
+	var to = new SWFObject("/lions/dswmedia/topnav4.swf","","800","132","6","#2560ac");
+	to.setAttribute("redirectUrl",warnPg);
+	to.addParam("quality","best");
+	to.addParam("allowscriptaccess","always");
+	PBS_enable_cdn(to); 
+	to.write("topnav");
+// ]]>
+</script>
+<!-- end bbinclude -->
+{% endif %}
+
+
+
+{% block mainContent %}{% endblock %}
+<!-- #noinclude "footer.scpt" -->
+{% include 'lions/includes/footer.html' %}
+<!-- end noinclude -->
+
+</body>
+</html>
